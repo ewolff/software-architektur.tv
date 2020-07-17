@@ -9,7 +9,7 @@ Fragen.
 
 Freitag 2020-07-24 12:00 CEST [YouTube](https://www.youtube.com/user/ewolff/) [Twitch](https://www.twitch.tv/ebrwolff)
 
-Thema: No offen
+Thema: Noch offen
 
 # Zuschauen
 

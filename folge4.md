@@ -1,5 +1,5 @@
 ---
-title: Folge 4 - Fachliche Architektur: Warum und wie?
+title: Folge 4 - Fachliche Architektur - Warum und wie?
 layout: folge
 video: _LG7sHjSCPQ
 ---
