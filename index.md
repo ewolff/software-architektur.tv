@@ -1,5 +1,5 @@
 ---
-title: #SoftwareArchitektur im #Stream
+title: SoftwareArchitektur im Stream
 ---
 
 Live-Diskussion zu Software-Architektur. Ich beantworte Eure
@@ -7,11 +7,9 @@ Fragen.
 
 # Nächster Termin
 
-Freitag 2020-07-24 12:00 CEST [YouTube](https://www.youtube.com/user/ewolff/) [Twitch](https://www.twitch.tv/ebrwolff)
+Freitag 2020-07-24 12:00 CEST
 
 Thema: Noch offen
-
-# Zuschauen
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
