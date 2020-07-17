@@ -1,5 +1,5 @@
 ---
-title: Folge 6 - Eric Evans "Getting Started with DDD When Surrounded by Legacy Systems
+title: Folge 6 - Eric Evans "Getting Started with DDD When Surrounded by Legacy Systems"
 layout: folge
 video: ZbnF0Dn6dAA
 ---
