@@ -20,10 +20,14 @@ Thema: Noch offen
 Gerne im Live-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
 hier:
 
+<div class="embed-container">
+<div class="ratio4x3">
 <iframe
 src="https://docs.google.com/forms/d/e/1FAIpQLSf0xIZkNG_wRJ0IiobVcO3Z-q3dQMcwYTww0wgiWCupZCKM4A/viewform?embedded=true"
 width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
+</div>
+</div>
 
 # Bisherige Folgen
 
