@@ -45,4 +45,4 @@ Attributiert werden sollen:
 
 * Für Videos Eberhard Wolff und die jeweiligen Interviewten
 
-* Für Sketchnotes Lisa Maria Moritz
+* Für Sketchnotes [Lisa Maria Moritz](https://twitter.com/Teapot4181)
