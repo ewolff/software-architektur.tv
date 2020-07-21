@@ -9,7 +9,7 @@ Fragen.
 
 Freitag 2020-07-24 12:00 CEST
 
-Thema: Noch offen
+Thema: Uwe Friedrichsen zum Für und Wider von Microservices
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
