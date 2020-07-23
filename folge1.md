@@ -2,6 +2,7 @@
 title: Folge 1 - Grundlagen
 layout: folge
 video: -G2p7Ye6FJg
+description: Grundlegende Ideen zu Software-Architektur
 ---
 
 Diese Folge behandelt meine grundlegenden Ansichten über

@@ -1,6 +1,7 @@
 ---
 title: software-architektur.tv
 type: website
+description: Live-Diskussion zu Software-Architektur im Stream
 ---
 
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure

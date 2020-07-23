@@ -2,6 +2,7 @@
 title: Folge 2 - Organisation und Architektur
 layout: folge
 video: Too4oMv3Vkc
+description: Stream darüber, wie Software-Architekt:innen die Organisation als ein Werkzeug für die Software-Architektur nutzen können.
 ---
 
 Die Organisation beeinflusst nicht nur die Architektur, sondern man
