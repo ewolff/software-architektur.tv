@@ -1,5 +1,5 @@
 ---
-title: Folge 7 - Vorträge, Architekten-Rolle, Lernen
+title: Folge 7 - Vorträge, Architekt:innen-Rolle, Lernen
 layout: folge
 video: oQSN1WSms8g
 ---
