@@ -2,7 +2,7 @@
 title: software-architektur.tv
 ---
 
-Live-Diskussion zu Software-Architektur. Ich beantworte Eure
+Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
 # Nächster Termin
