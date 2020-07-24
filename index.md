@@ -9,9 +9,9 @@ Fragen.
 
 # Nächster Termin
 
-Freitag 2020-07-24 12:00 CEST
+Freitag 2020-07-31 12:00 CEST
 
-Thema: Uwe Friedrichsen zum Für und Wider von Microservices
+Thema: Noch offen
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
