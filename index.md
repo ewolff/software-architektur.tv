@@ -33,6 +33,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Trailer Folge 8: Das Für und Wider von Microservices mit Uwe Friedrichsen](folge8-trailer.html)
 * [Folge 7: Vorträge, Architekten-Rolle, Lernen](folge7.html)
 * [Folge 6: Eric Evans "Getting Started with DDD When Surrounded by Legacy Systems"](folge6.html)
 * [Folge 5: Module in Monolithen mit Oliver Drotbohm](folge5.html)
