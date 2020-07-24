@@ -1,6 +1,6 @@
 ---
 title: Folge 1 - Grundlagen
-layout: folge
+layout: folge-player
 video: -G2p7Ye6FJg
 description: Grundlegende Ideen zu Software-Architektur
 ---

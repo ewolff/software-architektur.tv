@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  {% include head-folge.html %}
+
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      
+<center>
+  <div class="embed-container">
+    <iframe width="560" height="315"
+src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen></iframe>
+    </div>
+</center>
+
+{{ content }}
+
+
+      {% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>
