@@ -1,7 +1,7 @@
 ---
 title: Folge 8 - Uwe Friedrichsen - Das Für und Wider von Microservices
 layout: folge
-video: fS_2YVaBMJs
+video: dgoWRFQ5Z7c
 ---
 
 Microservices sind nicht unumstritten. Dieser Trailer zeigt, wie Uwe
