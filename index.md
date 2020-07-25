@@ -9,9 +9,23 @@ Fragen.
 
 # Nächster Termin
 
+## Ubers Domain-Oriented Microservices Architecture DOMA
+
+Montag 2020-07-27 18:00 CEST
+
+Im Gespräch mit Uwe Friedrichsen kam die Sprache kurz auf den
+Uber-Ansatz für Microservices. In dieser Folge werden wir den Ansatz
+detailliert diskutieren und bewerten, siehe
+https://eng.uber.com/microservice-architecture/ .
+
+## 12 Factor Apps und Independent Systems Architecture
+
 Freitag 2020-07-31 12:00 CEST
 
-Thema: Noch offen
+12 Factor Apps wird oft mit Microservices gleichgesetzt. In dieser
+Folge sprechen wir über 12 Factor Apps https://12factor.net/ und ein
+anders Konzept: Independent Systems Architecture
+https://isa-principles.org/ .
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
