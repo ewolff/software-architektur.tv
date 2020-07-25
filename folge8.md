@@ -4,8 +4,7 @@ layout: folge
 video: dgoWRFQ5Z7c
 ---
 
-Microservices sind nicht unumstritten. Dieser Trailer zeigt, wie Uwe
-Friedrichsen und Eberhard Wolff das Für und Wider in [Folge
-8](folge8.html) diskutieren werden.
+Microservices sind nicht unumstritten. In dieser Folge diskutieren Uwe
+Friedrichsen und Eberhard Wolff das Für und Wider.
 
 ![Sketchnote](folge8.jpg "Sketchnote")
