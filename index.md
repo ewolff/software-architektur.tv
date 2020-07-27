@@ -48,6 +48,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 9:  Ubers Domain-Oriented Microservices Architecture DOMA](folge9.html)
 * [Folge 8: Das Für und Wider von Microservices mit Uwe Friedrichsen](folge8.html)
 * [Trailer Folge 8: Das Für und Wider von Microservices mit Uwe Friedrichsen](folge8-trailer.html)
 * [Folge 7: Vorträge, Architekten-Rolle, Lernen](folge7.html)
