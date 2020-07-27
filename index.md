@@ -9,15 +9,6 @@ Fragen.
 
 # Nächster Termin
 
-## Ubers Domain-Oriented Microservices Architecture DOMA
-
-Montag 2020-07-27 18:00 CEST
-
-Im Gespräch mit Uwe Friedrichsen kam die Sprache kurz auf den
-Uber-Ansatz für Microservices. In dieser Folge werden wir den Ansatz
-detailliert diskutieren und bewerten, siehe
-[https://eng.uber.com/microservice-architecture/](https://eng.uber.com/microservice-architecture/) .
-
 ## 12 Factor Apps und Independent Systems Architecture
 
 Freitag 2020-07-31 12:00 CEST
