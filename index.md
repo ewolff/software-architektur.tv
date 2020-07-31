@@ -9,15 +9,9 @@ Fragen.
 
 # Nächster Termin
 
-## 12 Factor Apps und Independent Systems Architecture
+## Thema noch offen
 
-Freitag 2020-07-31 12:00 CEST
-
-12 Factor Apps wird oft mit Microservices gleichgesetzt. In dieser
-Folge sprechen wir über 12 Factor Apps
-[https://12factor.net/](https://12factor.net/) und ein 
-anderes Konzept: Independent Systems Architecture
-[https://isa-principles.org/](https://isa-principles.org/) .
+Freitag 2020-08-07 12:00 CEST
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
