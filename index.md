@@ -33,6 +33,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 10: 12 Factor Apps und Independent Systems Architecture](folge10.html)
 * [Folge 9:  Ubers Domain-Oriented Microservices Architecture DOMA](folge9.html)
 * [Folge 8: Das Für und Wider von Microservices mit Uwe Friedrichsen](folge8.html)
 * [Trailer Folge 8: Das Für und Wider von Microservices mit Uwe Friedrichsen](folge8-trailer.html)

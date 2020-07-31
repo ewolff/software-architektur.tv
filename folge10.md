@@ -1,5 +1,5 @@
 ---
-title: Folge 9 - Ubers Domain-Oriented Microservices Architecture DOMA
+title: Folge 10 - 12 Factor Apps und Independent Systems Architecture
 layout: folge
 video: i7V7KfUr2A4
 ---
