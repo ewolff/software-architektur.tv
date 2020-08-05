@@ -9,9 +9,11 @@ Fragen.
 
 # Nächster Termin
 
-## Thema noch offen
+## Nick Tune: Legacy Architecture Modernisation With Strategic Domain-Driven Design
 
 Freitag 2020-08-07 12:00 CEST
+
+[Trailer](folge11-trailer.html)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
