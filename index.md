@@ -9,11 +9,9 @@ Fragen.
 
 # Nächster Termin
 
-## Nick Tune: Legacy Architecture Modernisation With Strategic Domain-Driven Design
+## Thema: Noch offen
 
-Freitag 2020-08-07 12:00 CEST
-
-[Trailer](folge11-trailer.html)
+Freitag 2020-08-14 12:00 CEST
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -35,6 +33,9 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 11: Nick Tune "Legacy Architecture Modernisation With
+  Strategic Domain-Driven Design"](folge11.html)
+* [Trailer Folge 11: Nick Tune "Legacy Architecture Modernisation With Strategic Domain-Driven Design"](folge11-trailer.html)
 * [Folge 10: 12 Factor Apps und Independent Systems Architecture](folge10.html)
 * [Folge 9:  Ubers Domain-Oriented Microservices Architecture DOMA](folge9.html)
 * [Folge 8: Das Für und Wider von Microservices mit Uwe Friedrichsen](folge8.html)
