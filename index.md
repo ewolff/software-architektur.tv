@@ -9,7 +9,7 @@ Fragen.
 
 # Nächster Termin
 
-## Thema: Warum Continuous Delivery - Die DevOps Stu
+## Thema: Warum Continuous Delivery - Die DevOps-Studie
 
 Freitag 2020-08-14 12:00 CEST
 
