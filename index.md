@@ -9,9 +9,14 @@ Fragen.
 
 # Nächster Termin
 
-## Thema: Noch offen
+## Thema: Warum Continuous Delivery - Die DevOps Stu
 
 Freitag 2020-08-14 12:00 CEST
+
+Continuous Delivery hat viel mehr Auswirkungen als nur besseres
+Time-to-Market. Die Produktivität steigt und Burnout wird weniger
+wahrscheinlich. Diese Folge diskutiert solche Auswirkungen und den Weg
+zu Continuous Delivery.
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
