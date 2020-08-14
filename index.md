@@ -9,14 +9,7 @@ Fragen.
 
 # Nächster Termin
 
-## Thema: Warum Continuous Delivery - Die DevOps-Studie
-
-Freitag 2020-08-14 12:00 CEST
-
-Continuous Delivery hat viel mehr Auswirkungen als nur besseres
-Time-to-Market. Die Produktivität steigt und Burnout wird weniger
-wahrscheinlich. Diese Folge diskutiert solche Auswirkungen und den Weg
-zu Continuous Delivery.
+## Thema: Noch offen
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -38,6 +31,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 12: Warum Continuous Delivery - Die DevOps-Studie](folge12.html)
 * [Folge 11: Nick Tune "Legacy Architecture Modernisation With
   Strategic Domain-Driven Design"](folge11.html)
 * [Trailer Folge 11: Nick Tune "Legacy Architecture Modernisation With Strategic Domain-Driven Design"](folge11-trailer.html)
