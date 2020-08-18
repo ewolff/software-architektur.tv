@@ -9,7 +9,9 @@ Fragen.
 
 # Nächster Termin
 
-## Thema: Noch offen
+## Thema: Fragen und Antworten
+
+Details unter [Folge 14](folge14.html)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
