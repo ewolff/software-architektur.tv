@@ -9,11 +9,9 @@ Fragen.
 
 # Nächster Termin
 
-## Thema: Fragen und Antworten
+## Thema: Jutta Eckstein zur Architektur-Rolle in agilen Projekten
 
-[Trailer zu Folge 14](folge14-trailer.html)
-
-Details unter [Folge 14](folge14.html)
+[Trailer zu Folge 15](folge15-trailer.html)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -35,6 +33,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 14: Fragen und Antworten](folge14.html)
 * [Folge 12: Warum Continuous Delivery - Die DevOps-Studie](folge12.html)
 * [Folge 11: Nick Tune "Legacy Architecture Modernisation With
   Strategic Domain-Driven Design"](folge11.html)
