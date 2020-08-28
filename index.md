@@ -7,11 +7,9 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin
+# Nächster Termin 2020-09-04
 
-## Thema: Jutta Eckstein zur Architektur-Rolle in agilen Projekten
-
-[Trailer zu Folge 15](folge15-trailer.html)
+## Thema: noch offen
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -33,6 +31,8 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15.html)]
+* [Trailer Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15-trailer.html)]
 * [Folge 14: Fragen und Antworten](folge14.html)
 * [Folge 12: Warum Continuous Delivery - Die DevOps-Studie](folge12.html)
 * [Folge 11: Nick Tune "Legacy Architecture Modernisation With
