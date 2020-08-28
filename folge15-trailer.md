@@ -1,5 +1,5 @@
 ---
-title: Folge 15 - Jutta Eckstein über die Architektur-Rolle in agilen Projekten
+title: Trailer Folge 15 - Jutta Eckstein über die Architektur-Rolle in agilen Projekten
 layout: folge
 video: c84-sjuSgJg
 ---
