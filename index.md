@@ -9,7 +9,14 @@ Fragen.
 
 # Nächster Termin 2020-09-04
 
-## Thema: noch offen
+## Thema: Gerrit Beine zu Sozialwissenschaften und Software-Architektur
+
+Die Organisation beeinflusst die
+Software-Architektur. Sozial-Wissenschaften untersuchen Organisationen
+und bieten daher einiges, was man für Software-Architektur lernen
+kann. Dazu spricht Gerrit Beine in dieser Episode.
+
+[Trailer Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16-trailer.html)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
