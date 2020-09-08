@@ -7,16 +7,16 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin 2020-09-04
+# Nächster Termin 2020-09-10 (Donnerstag)
 
-## Thema: Gerrit Beine zu Sozialwissenschaften und Software-Architektur
+## Thema: Nicole Rauch zu DDD, Event Storming & Specification by Example
 
-Die Organisation beeinflusst die
-Software-Architektur. Sozial-Wissenschaften untersuchen Organisationen
-und bieten daher einiges, was man für Software-Architektur lernen
-kann. Dazu spricht Gerrit Beine in dieser Episode.
+Diese Woche ist Nicole Rauch zu Gast. Mit Event Storming kann man
+Domain-driven Design ganz praktisch und kollaborativ umsetzen. Und
+Specification by Example stellt sicher, dass man auch das richtige
+baut.
 
-[Trailer Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16-trailer.html)
+[Trailer Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17-trailer.html)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -38,6 +38,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Trailer Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16-trailer.html)
 * [Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15.html)]
 * [Trailer Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15-trailer.html)]
 * [Folge 14: Fragen und Antworten](folge14.html)
