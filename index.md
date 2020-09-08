@@ -38,6 +38,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16.html)
 * [Trailer Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16-trailer.html)
 * [Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15.html)]
 * [Trailer Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15-trailer.html)]
