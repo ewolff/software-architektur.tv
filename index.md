@@ -9,7 +9,14 @@ Fragen.
 
 # Nächster Termin 2020-09-18
 
-## Thema: noch offen
+## Thema: Service Mesh Linkderd mit Hanna Prinz
+
+Service Meshes sind vor allem als Infrastruktur für Microservices
+nützlich. In dieser Folge schauen wir uns Demos für das Service Mesh
+Linkerd an. Als Service-Mesh-Expertin erklärt Hanna Prinz uns die
+Details und warum sie sich für Linkerd so begeistert.
+
+[Trailer zu Folge 19: Service Mesh Linkderd mit Hanna Prinz](folge19-trailer.html)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
