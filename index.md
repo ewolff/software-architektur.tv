@@ -7,16 +7,9 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin 2020-09-10 (Donnerstag)
+# Nächster Termin 2020-09-18
 
-## Thema: Nicole Rauch zu DDD, Event Storming & Specification by Example
-
-Diese Woche ist Nicole Rauch zu Gast. Mit Event Storming kann man
-Domain-driven Design ganz praktisch und kollaborativ umsetzen. Und
-Specification by Example stellt sicher, dass man auch das richtige
-baut.
-
-[Trailer Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17-trailer.html)
+## Thema: noch offen
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -38,6 +31,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17.html)
 * [Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16.html)
 * [Trailer Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16-trailer.html)
 * [Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15.html)]
