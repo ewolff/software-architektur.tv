@@ -1,7 +1,7 @@
 ---
 title: Folge 16 - Gerrit Beine zu Sozialwissenschaften und Software-Architektur
 layout: folge
-video: DgjLfA86Adc
+video: dQdTLzoeKUE
 ---
 
 Die Organisation beeinflusst die
