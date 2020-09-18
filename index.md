@@ -7,16 +7,7 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin 2020-09-18
-
-## Thema: Service Mesh Linkderd mit Hanna Prinz
-
-Service Meshes sind vor allem als Infrastruktur für Microservices
-nützlich. In dieser Folge schauen wir uns Demos für das Service Mesh
-Linkerd an. Als Service-Mesh-Expertin erklärt Hanna Prinz uns die
-Details und warum sie sich für Linkerd so begeistert.
-
-[Trailer zu Folge 19: Service Mesh Linkderd mit Hanna Prinz](folge19-trailer.html)
+# Nächster Termin noch offen
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
@@ -38,6 +29,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 19: Service Mesh Linkderd mit Hanna Prinz](folge19.html)
 * [Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17.html)
 * [Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16.html)
 * [Trailer Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16-trailer.html)
