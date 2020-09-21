@@ -1,5 +1,4 @@
 *.gitignore filter=lfs diff=lfs merge=lfs -text
-*.lock filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.yml filter=lfs diff=lfs merge=lfs -text
 *.html filter=lfs diff=lfs merge=lfs -text
@@ -13,4 +12,3 @@
 *.css text !filter !merge !diff
 *.yml text !filter !merge !diff
 *.gitignore text !filter !merge !diff
-*.lock text !filter !merge !diff
