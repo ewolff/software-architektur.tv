@@ -2,6 +2,8 @@
 title: Folge 10 - 12 Factor Apps und Independent Systems Architecture
 layout: folge
 video: i7V7KfUr2A4
+description: 12 Factor Apps sind ein beliebter Ansatz für Microservices-Architektur. Wir vergleich es mit Independent Systems Architecture.
+thumbnail: folge10.jpg
 ---
 
 12 Factor Apps wird oft mit Microservices gleichgesetzt. In dieser

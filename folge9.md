@@ -2,6 +2,8 @@
 title: Folge 9 - Ubers Domain-Oriented Microservices Architecture DOMA
 layout: folge
 video: SHJLTqWy1mw
+description: Uber hat Informationen über seine Architektur veröffentlicht. Darüber diskutieren wir in dieser Folge.
+thumbnail: folge9.jpg
 ---
 
 Im Gespräch mit Uwe Friedrichsen kam die Sprache kurz auf den

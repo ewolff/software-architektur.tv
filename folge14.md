@@ -3,6 +3,8 @@ title: Folge 14 - Fragen und Antworten
 layout: folge
 video: TKrslEu67Lw
 trailer: UnfJtTBCy2s
+description: Antworten zu Zuschauer-Fragen
+thumbnail: folge14.jpg
 ---
 
 In dieser Folge möchte ich gerne einige Fragen beantworten, die sich

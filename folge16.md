@@ -3,6 +3,8 @@ title: Folge 16 - Gerrit Beine zu Sozialwissenschaften und Software-Architektur
 layout: folge
 video: dQdTLzoeKUE
 trailer: DgjLfA86Adc
+description: Gerrit Beine diskutiert, was Software-Architekt:innen aus den Sozialwissenschaften lernen können
+thumbnail: folge16.jpg
 ---
 
 Die Organisation beeinflusst die

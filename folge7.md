@@ -3,6 +3,7 @@ title: Folge 7 - Vorträge, Architekt:innen-Rolle, Lernen
 layout: folge
 video: oQSN1WSms8g
 description: Stream zu verschiedenen Fragen - Vorträge Halten, die Architekt:innen-Rolle vs. die Entwickler:innen-Rolle, Lernen als Architekt
+thumbnail: folge7.jpg
 ---
 
 Diese Folge behandelt verschiedene Fragen aus der Community:

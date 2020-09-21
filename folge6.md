@@ -3,6 +3,7 @@ title: Folge 6 - Eric Evans "Getting Started with DDD When Surrounded by Legacy 
 layout: folge
 video: ZbnF0Dn6dAA
 description: In seinem Paper beschreibt Eric Evans Ansätze, um Legacy Software mit DDD weiterzuentwickeln.
+thumbnail: folge6.jpg
 ---
 
 Auch Domain-driven Design (DDD) findet nur selten in Greenfield-Projekten

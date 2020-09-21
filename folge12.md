@@ -2,6 +2,8 @@
 title: Folge 12 - Warum Continuous Delivery - Die DevOps Studie
 layout: folge
 video: WohIxy9Nuo0
+description: Continuous Delivery bietet viel mehr als Time-to-Market - das zeigt die DevOps-Studie.
+thumbnail: folge12.jpg
 ---
 
 Continuous Delivery hat viel mehr Auswirkungen als nur besseres

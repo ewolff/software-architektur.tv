@@ -3,6 +3,7 @@ title: Folge 4 - Fachliche Architektur - Warum und wie?
 layout: folge
 video: _LG7sHjSCPQ
 description: Dieser Stream zeigt, warum fachliche Architektur wichtig ist und wie man sie aufbauen kann.
+thumbnail: folge4.jpg
 ---
 
 In dieser Folge geht es um den Aufbau einer fachlichen Architektur
