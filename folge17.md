@@ -1,6 +1,6 @@
 ---
 title: Folge 17 - Nicole Rauch zu DDD, Event Storming & Specification by Example
-layout: folge-mit-trailer
+layout: folge
 video: gCzgR7g8sOs
 trailer: 18FrNLc6IWM
 ---

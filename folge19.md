@@ -1,6 +1,6 @@
 ---
 title: Folge 19 - Service Mesh Linkderd mit Hanna Prinz
-layout: folge-mit-trailer
+layout: folge
 video: hK0ZzbbigVM
 trailer: rniPWC1hsJg
 ---
