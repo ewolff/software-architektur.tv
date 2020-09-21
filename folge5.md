@@ -2,6 +2,7 @@
 title: Folge 5 - Oliver Drotbohm - Module in Monolithen
 layout: folge
 video: VSiETATcoVw
+trailer: n8NFpr02MfM
 description: Diskussion mit Oliver Drotbohm über Möglichkeiten Monolithen zu modularisieren.
 ---
 
