@@ -7,7 +7,13 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin noch offen
+# Nächster Termin: Freitag 2020-09-28 Frontend-Architektur
+
+Frontends scheinen auf der ersten Blick einfach, aber auch der Entwurf
+dieser Systeme stellt Architekt:innen und Entwickler:innen vor
+Herausforderungen. In dieser Folge diskutieren Franziska Dessart, Joy
+Heron, Lucas Dohmen und Eberhard Wolff über verschiedene Ansätze für
+Frontend-Architekturen.
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
