@@ -9,15 +9,17 @@ Fragen.
 
 # Nächster Termin: Freitag 2020-10-02 Frontend-Architektur
 
-Frontends scheinen auf der ersten Blick einfach, aber auch der Entwurf
+Frontends scheinen auf den ersten Blick einfach, aber auch der Entwurf
 dieser Systeme stellt Architekt:innen und Entwickler:innen vor
 Herausforderungen. In dieser Folge diskutieren Franziska Dessart, Joy
 Heron, Lucas Dohmen und Eberhard Wolff über verschiedene Ansätze für
 Frontend-Architekturen.
 
-[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
+[https://www.youtube.com/watch?v=pOIKn6BYWiY](https://www.youtube.com/watch?v=pOIKn6BYWiY)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
+
+[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
 # Fragen
 
