@@ -7,15 +7,7 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin: Freitag 2020-10-02 Frontend-Architektur
-
-Frontends scheinen auf den ersten Blick einfach, aber auch der Entwurf
-dieser Systeme stellt Architekt:innen und Entwickler:innen vor
-Herausforderungen. In dieser Folge diskutieren Franziska Dessart, Joy
-Heron, Lucas Dohmen und Eberhard Wolff über verschiedene Ansätze für
-Frontend-Architekturen.
-
-[https://www.youtube.com/watch?v=pOIKn6BYWiY](https://www.youtube.com/watch?v=pOIKn6BYWiY)
+# Nächster Termin: Freitag 2020-10-09 Thema offen
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
@@ -37,6 +29,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 20: Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen](folge20.html)
 * [Folge 19: Service Mesh Linkderd mit Hanna Prinz](folge19.html)
 * [Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17.html)
 * [Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16.html)
