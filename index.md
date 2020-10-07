@@ -7,7 +7,7 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin: Freitag 2020-10-09 Domain Story Telling mit Henning Schwentner und Stefan Hofer
+# Nächster Termin: Freitag 2020-10-09 12:00 Domain Story Telling mit Henning Schwentner und Stefan Hofer
 
 Domain Story Telling ist ein kollaborativer
 Modellierungsansatz. Henning Schwentner und Stefan Hofer werden nicht
