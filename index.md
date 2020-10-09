@@ -7,13 +7,7 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin: Freitag 2020-10-09 12:00 Domain Story Telling mit Henning Schwentner und Stefan Hofer
-
-Domain Story Telling ist ein kollaborativer
-Modellierungsansatz. Henning Schwentner und Stefan Hofer werden nicht
-nur von dem Ansatz berichten, sondern ihn auch live zeigen.
-
-[https://www.youtube.com/watch?v=XSE5m9Frvsg](https://www.youtube.com/watch?v=XSE5m9Frvsg)
+# Nächster Termin: Offen
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
@@ -35,6 +29,7 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+* [Folge 21: Domain Story Telling mit Henning Schwentner und Stefan Hofer](folge21.html)
 * [Folge 20: Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen](folge20.html)
 * [Folge 19: Service Mesh Linkerd mit Hanna Prinz](folge19.html)
 * [Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17.html)
