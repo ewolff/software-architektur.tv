@@ -10,8 +10,8 @@ Domain Story Telling ist ein kollaborativer
 Modellierungsansatz. Henning Schwentner und Stefan Hofer werden nicht
 nur von dem Ansatz berichten, sondern ihn auch live zeigen.
 
-[Egon – The Domain Story Modeler](http://egon.io/)
-[Rabattcode für das Domain-Story-Telling-Buch bis Ende des Jahres](https://leanpub.com/domainstorytelling/c/softwarearchitekturimstream)
-[Training mit Stefan und Henning](https://training.dddeurope.com/domain-storytelling-stefan-hofer-henning-schwentner/)
+* [Egon – The Domain Story Modeler](http://egon.io/)
+* [Rabattcode für das Domain-Story-Telling-Buch bis Ende des Jahres](https://leanpub.com/domainstorytelling/c/softwarearchitekturimstream)
+* [Training mit Stefan und Henning](https://training.dddeurope.com/domain-storytelling-stefan-hofer-henning-schwentner/)
 
 ![Sketchnote](folge21.jpg "Sketchnote")
