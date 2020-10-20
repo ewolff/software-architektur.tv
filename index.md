@@ -7,7 +7,17 @@ description: Live-Diskussion zu Software-Architektur im Stream
 Live-Diskussion zu Software-Architektur im Stream. Ich beantworte Eure
 Fragen.
 
-# Nächster Termin: Offen
+# Nächster Termin: Freitag 2020-10-23 Markus Völter zu fachliche Archtiketuren mit DSLs
+
+Domain Specific Languages können auch dabei helfen, fachliche
+Architekturen auszudrücken. Sie unterstützen Separation of Concerns
+und entkoppeln Fachlichkeit von Technik. Außerdem verbessern  sie die
+fachliche Kommunikation und helfen daber auch bei Agilität. Dazu
+spreche ich mit Markus Völter.
+
+[Vorschau](https://www.youtube.com/watch?v=cUQ6kx7bOVI)
+
+[Live Stream](https://youtu.be/4MUf-q1gsn0)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
