@@ -21,4 +21,6 @@ fachliche Kommunikation und helfen daber auch bei Agilität.
 
 [DSLs und Generierung in sicherheitskritischen Kontexten](http://voelter.de/data/pub/MPS-in-Safety-1.0.pdf)
 
+[Lohnberechnung-DSL bei der DATEV](http://voelter.de/data/pub/voelterEtAl_DSLForPayrollCalc.pdf)
+
 ![Sketchnote](folge22.png "Sketchnote")
