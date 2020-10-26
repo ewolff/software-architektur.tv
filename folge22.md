@@ -1,0 +1,24 @@
+---
+title: Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)
+layout: folge
+video: 4MUf-q1gsn0
+description: Markus Völter erläutert, was DSLs sind und wie man sie für die fachliche Architektur nutzen kann.
+thumbnail: folge22.png
+---
+
+Domain Specific Languages können auch dabei helfen, fachliche
+Architekturen auszudrücken. Sie unterstützen Separation of Concerns
+und entkoppeln Fachlichkeit von Technik. Außerdem verbessern  sie die
+fachliche Kommunikation und helfen daber auch bei Agilität.
+
+[mbeddr Case Study Smart Meter](http://voelter.de/data/pub/mbeddr-cs-oopsla2015-preprint.pdf)
+
+[mbeddr Case Study OHB Satelliten](http://mbeddr.com/files/dasia_wortmann.pdf)
+
+[Design und Verwendung von KernelF](http://mbeddr.com/files/dasia_wortmann.pdf)
+
+[Unsere Philosophische Herangehensweise](http://voelter.de/data/pub/markusvoelter-ISOLA2018-final.pdf)
+
+[DSLs und Generierung in sicherheitskritischen Kontexten](http://voelter.de/data/pub/MPS-in-Safety-1.0.pdf)
+
+![Sketchnote](folge22.png "Sketchnote")
