@@ -6,6 +6,11 @@ description: Live-Diskussion zu Software-Architektur im Stream
 
 Live-Diskussion zu Software-Architektur im Stream. 
 
+Einmal in der Woche diskutiert Eberhard Wolff Software-Architektur im
+Live-Stream auf YouTube und Twitch - oft zusammen mit einem
+Gast. Zuschauer können über den Chat mitdiskutieren oder Fragen
+stellen. 
+
 # Nächster Termin: Freitag 2020-11-06 12:00 
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
