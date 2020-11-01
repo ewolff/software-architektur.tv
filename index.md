@@ -6,17 +6,7 @@ description: Live-Diskussion zu Software-Architektur im Stream
 
 Live-Diskussion zu Software-Architektur im Stream. 
 
-# Nächster Termin: Donnerstag 2020-10-22 12:00 Sketchnotes in der IT mit Lisa Maria Moritz 
-
-Sketchnotes sehen nicht nur gut aus, sondern machen Notizen effektiver
-und erleichtern das Vermitteln von Inhalten. Lisa malt schon länger
-Sketchnotes für Software Architektur im Stream. Als Folge 23 stellt
-sie nun vor der Kamera Sketchnotes vor. Dabei zeichnet sie auch live
-Begriffe, für die Ihr schon immer mal ein Symbol haben wolltet.
-
-[Vorschau](https://youtu.be/s2hrz5KrdVg)
-
-[YouTube Live Stream](https://www.youtube.com/watch?v=2xX9CCndAew)
+# Nächster Termin: Freitag 2020-11-06 12:00 
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
@@ -37,6 +27,7 @@ marginwidth="0">Loading…</iframe>
 </div>
 
 # Bisherige Folgen
+* [Folge 23: Sketchnotes in der IT mit Lisa Maria Moritz](folge23.html)
 * [Folge 22: Fachliche Architekturen mit Domain Specific Languages (DSLs) mit Markus Völter](folge22.html)
 * [Folge 21: Domain Story Telling mit Henning Schwentner und Stefan Hofer](folge21.html)
 * [Folge 20: Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen](folge20.html)
