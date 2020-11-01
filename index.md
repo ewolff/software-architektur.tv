@@ -48,7 +48,7 @@ marginwidth="0">Loading…</iframe>
 * [Folge 4: Fachliche Architektur: Warum und wie?](folge4.html)
 * [Folge 3: iSAQB und Zertifizierung](folge3.html)
 * [Folge 2: Software-Architektur und Organisation](folge2.html)
-* [Folge 1: Grundlagen](folge1.html)
+* [Folge 1: Die verunglückte Folge](folge1.html)
 
 # Lizenz
 
