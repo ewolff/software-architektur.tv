@@ -9,5 +9,4 @@ Leider gab es bei dieser Folge große technische Problem, so dass sie
 eigentlich nicht empfehlenswert ist. Lieber mit Folge 2 beginnen...
 
 Diese Folge behandelt meine grundlegenden Ansichten über
-Software-Architektur. Leider hat diese Folge Ton-Schwierigkeiten - wie
-es bei einer ersten Folge manchmal so ist.
+Software-Architektur.
