@@ -11,6 +11,8 @@ Sketchnotes für Software Architektur im Stream. Als Folge 23 stellt
 sie nun vor der Kamera Sketchnotes vor. Dabei zeichnet sie auch live
 Begriffe, für die Ihr schon immer mal ein Symbol haben wolltet.
 
+[Lisas YouTube Channel](https://www.youtube.com/channel/UCuZs1YPHHn8PpSiZsPKbtLA)
+
 Hier die erwähnte Beispiel-Sketchnote:
 
 ![Beispiel-Sketchnote](folge23.jpg "Beispiel-Sketchnote")
