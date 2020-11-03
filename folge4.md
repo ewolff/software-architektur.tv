@@ -7,7 +7,7 @@ thumbnail: folge4.jpg
 ---
 
 In dieser Folge geht es um den Aufbau einer fachlichen Architektur
-z.B. mit Bounded Contexts und warum dieser Architektur-Asnatz so
+z.B. mit Bounded Contexts und warum dieser Architektur-Ansatz so
 wichtig ist.
 
 ![Sketchnote 1](folge4.png "Sketchnote")
