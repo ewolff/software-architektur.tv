@@ -21,7 +21,10 @@ umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
 und der Umgang damit entscheidend wird. Ein Stichwort ist dabei
 Product Line Engineering.
 
-[Vorschau](https://www.youtube.com/watch?v=F3ogyNegHZw)
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/F3ogyNegHZw" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [YoutTube Live Stream](https://www.youtube.com/watch?v=Ix-7AyHhl-E)
 
