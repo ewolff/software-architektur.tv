@@ -11,7 +11,18 @@ Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Chat mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2020-11-06 12:00 
+# Nächster Termin: Freitag 2020-11-06 12:00 Kundenspezifische Software-Varianten: Product Line Engineering mit Danilo Beuche
+
+Ein Kunde hat eine besondere Anforderung an die Software, dann kommt
+der nächste Kunde mit seiner spezifischen Anforderung und am Ende sind
+die vielen verschiedenen Varianten kaum noch zu managen. In dieser
+Folge stellt Danilo Beuche dar, wie man mit dieser Herausforderung
+umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
+und der Umgang damit entscheidend wird.
+
+[Vorschau](https://www.youtube.com/watch?v=F3ogyNegHZw)
+
+[YoutTube Live Stream](https://www.youtube.com/watch?v=Ix-7AyHhl-E)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
