@@ -26,7 +26,7 @@ src="https://www.youtube.com/embed/F3ogyNegHZw" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media;
 gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[YoutTube Live Stream](https://www.youtube.com/watch?v=Ix-7AyHhl-E)
+[YouTube Live Stream](https://www.youtube.com/watch?v=Ix-7AyHhl-E)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
