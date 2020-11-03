@@ -18,7 +18,8 @@ der nächste Kunde mit seiner spezifischen Anforderung und am Ende sind
 die vielen verschiedenen Varianten kaum noch zu managen. In dieser
 Folge stellt Danilo Beuche dar, wie man mit dieser Herausforderung
 umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
-und der Umgang damit entscheidend wird.
+und der Umgang damit entscheidend wird. Ein Stichwort ist dabei
+Product Line Engineering.
 
 [Vorschau](https://www.youtube.com/watch?v=F3ogyNegHZw)
 
