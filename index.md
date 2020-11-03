@@ -54,7 +54,7 @@ marginwidth="0">Loading…</iframe>
 * [Folge 19: Service Mesh Linkerd mit Hanna Prinz](folge19.html)
 * [Folge 17: Nicole Rauch zu DDD, Event Storming & Specification by Example](folge17.html)
 * [Folge 16: Gerrit Beine zu Sozialwissenschaften und Software-Architektur](folge16.html)
-* [Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15.html)]
+* [Folge 15: Jutta Eckstein zur Architektur-Rolle in agilen Projekten](folge15.html)
 * [Folge 14: Fragen und Antworten](folge14.html)
 * [Folge 12: Warum Continuous Delivery - Die DevOps-Studie](folge12.html)
 * [Folge 11: Nick Tune "Legacy Architecture Modernisation With
