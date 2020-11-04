@@ -2,7 +2,6 @@
 title: Folge 19 - Service Mesh Linkerd mit Hanna Prinz
 layout: folge
 video: hK0ZzbbigVM
-trailer: rniPWC1hsJg
 description: Hanna Prinz und Eberhard Wolff zeigen Linkerd und diskutieren Service Meshes
 thumbnail: folge19.jpg
 ---

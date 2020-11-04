@@ -2,7 +2,6 @@
 title: Folge 11 - Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design
 layout: folge
 video: MqNWHQ0nnaA
-trailer: LhGWwCyYSWI
 description: Nick Tunes Ansatz, um Domain-driven Design in Legacy Systemen zu etablieren.
 thumnail: folge11.jpg
 ---
