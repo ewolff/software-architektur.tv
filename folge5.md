@@ -2,7 +2,8 @@
 title: Folge 5 - Oliver Drotbohm - Module in Monolithen
 layout: folge
 video: VSiETATcoVw
-trailer: n8NFpr02MfM
+embedded-mp3: https://www.podcaster.de/simpleplayer/?id=show~1evriw~software-architektur-im-stream~pod-5fa16de56ac36516126658&v=1604514682
+mp3: https://1evriw.podcaster.de/software-architektur-im-stream/media/PodcastDrothbohmModulith.mp3
 description: Diskussion mit Oliver Drotbohm über Möglichkeiten Monolithen zu modularisieren.
 thumbnail: folge5.jpg
 ---
