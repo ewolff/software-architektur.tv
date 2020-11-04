@@ -35,7 +35,24 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
 
 {{ content }}
 
-      {% include page-footer-folge.html %}
+{% if page.mp3 %}
+<h1>Audio als Podcast</h1>
+
+<center>
+<iframe
+style="width:100%;min-width:275px;min-height:300px;max-width:475px;max-height:400px;border:0;overflow:hidden"
+src="{{ page.embedded-mp3 }}"></iframe>
+</center>
+
+<a href="{{ page.mp3 }}">MP3 Download</a>
+
+<br />
+
+<a href="podcast.html">Infos zum Audio als Podcast</a>
+
+{% endif %}
+
+{% include page-footer-folge.html %}
 
     </section>
 
