@@ -32,6 +32,8 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
+[Audio als Podcast](podcast.html)
+
 # Fragen
 
 Gerne im Live-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
