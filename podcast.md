@@ -6,7 +6,7 @@ twitterimagealt: Software Architektur im Stream Podcast Logo
 description: Das Audio von software-architektur.tv gibt es auch als Podcast - hier sind die Links.
 ---
 
-Das Audio von SoftwareArchitektur im Stream gibt es auch als
+Das Audio von Software Architektur im Stream gibt es auch als
 Podcast. So kann man sich die Folgen einfach herunterladen und da
 hören, wo es passt.
 
