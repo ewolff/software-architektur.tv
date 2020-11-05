@@ -1,6 +1,8 @@
 ---
 title: software-architektur.tv als Podcast
 type: website
+twitterimage: podcast.jpg
+twitterimagealt: Software Architektur im Stream Podcast Logo
 description: Das Audio von software-architektur.tv gibt es auch als Podcast - hier sind die Links.
 ---
 
