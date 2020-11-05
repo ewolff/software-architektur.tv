@@ -2,6 +2,8 @@
 title: Folge 6 - Eric Evans "Getting Started with DDD When Surrounded by Legacy Systems"
 layout: folge
 video: ZbnF0Dn6dAA
+embedded-mp3: https://www.podcaster.de/simpleplayer/?id=channel~1evriw~software-architektur-im-stream&v=1604602131
+mp3: https://1evriw.podcaster.de/software-architektur-im-stream/media/DDDLegacyEricEvans.mp3
 description: In seinem Paper beschreibt Eric Evans Ansätze, um Legacy Software mit DDD weiterzuentwickeln.
 thumbnail: folge6.jpg
 ---
