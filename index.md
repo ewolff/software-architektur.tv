@@ -11,24 +11,9 @@ Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Chat mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2020-11-06 12:00 Kundenspezifische Software-Varianten: Product Line Engineering mit Danilo Beuche
+# Nächster Termin: Noch offen
 
-Ein Kunde hat eine besondere Anforderung an die Software, dann kommt
-der nächste Kunde mit seiner spezifischen Anforderung und am Ende sind
-die vielen verschiedenen Varianten kaum noch zu managen. In dieser
-Folge stellt Danilo Beuche dar, wie man mit dieser Herausforderung
-umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
-und der Umgang damit entscheidend wird. Ein Stichwort ist dabei
-Product Line Engineering.
-
-<center>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/F3ogyNegHZw" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-[YouTube Live Stream](https://www.youtube.com/watch?v=Ix-7AyHhl-E)
+[comment]: ([YouTube Live Stream](https://www.youtube.com/watch?))
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
@@ -51,6 +36,7 @@ marginwidth="0">Loading…</iframe>
 </div>
 
 # Bisherige Folgen
+* [Folge 24: Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche](folge24.html)
 * [Folge 23: Sketchnotes in der IT mit Lisa Maria Moritz](folge23.html)
 * [Folge 22: Fachliche Architekturen mit Domain Specific Languages (DSLs) mit Markus Völter](folge22.html)
 * [Folge 21: Domain Story Telling mit Henning Schwentner und Stefan Hofer](folge21.html)

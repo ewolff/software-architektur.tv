@@ -1,0 +1,23 @@
+---
+title: Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche
+layout: folge
+video: Ix-7AyHhl-E
+embedded-mp3: https://www.podcaster.de/simpleplayer/?id=show~1evriw~software-architektur-im-stream~pod-5fa975ae2ec66657824722&v=1604941412
+mp3: https://1evriw.podcaster.de/software-architektur-im-stream/media/PLE.mp3
+description: In seinem Paper beschreibt Eric Evans Ansätze, um Legacy Software mit DDD weiterzuentwickeln.
+thumbnail: folge24.jpg
+---
+
+Ein Kunde hat eine besondere Anforderung an die Software, dann kommt
+der nächste Kunde mit seiner spezifischen Anforderung und am Ende sind
+die vielen verschiedenen Varianten kaum noch zu managen. In dieser
+Folge stellt Danilo Beuche dar, wie man mit dieser Herausforderung
+umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
+und der Umgang damit entscheidend wird. Ein Stichwort ist dabei
+Product Line Engineering.
+
+[ISO/IEC DIS 26580 Methods and tools for the feature-based approach to software and systems product line engineering](https://www.iso.org/standard/43139.html)
+
+[Product Line Engineering Primer (High-Level Introduction)](https://connect.incose.org/Pages/Product-Details.aspx?ProductCode=PLE_Primer_2019)
+
+[Danilo Beuche, Mark Dalgarno: Software Product Line Engineering with Feature Models](https://www.pure-systems.com/fileadmin/downloads/pure-variants/tutorials/SPLWithFeatureModelling.pdf)
