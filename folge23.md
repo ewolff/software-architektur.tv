@@ -1,5 +1,5 @@
 ---
-title: Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)
+title: Folge 23 - Lisa Moritz zu Sketchnotes in der IT
 layout: folge
 video: 2xX9CCndAew
 description: Lisa Moritz zeiget und zeichnet Sketchnotes - und erläutert wofür sie gerade in der IT gut sind.
