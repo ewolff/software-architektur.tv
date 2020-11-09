@@ -4,8 +4,8 @@ layout: folge
 video: Ix-7AyHhl-E
 embedded-mp3: https://www.podcaster.de/simpleplayer/?id=show~1evriw~software-architektur-im-stream~pod-5fa975ae2ec66657824722&v=1604941412
 mp3: https://1evriw.podcaster.de/software-architektur-im-stream/media/PLE.mp3
-description: In seinem Paper beschreibt Eric Evans Ansätze, um Legacy Software mit DDD weiterzuentwickeln.
-thumbnail: folge24.jpg
+description: Danilo Beuche erläutert, wie Product Line Engineering das Managen von Kunden-spezifische Software-Varianten erleichtert
+thumbnail: folge24.png
 ---
 
 Ein Kunde hat eine besondere Anforderung an die Software, dann kommt
