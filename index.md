@@ -20,6 +20,15 @@ Folge von Software Architektur im Stream geht es darum, wie man mit
 den Herausforderungen umgeht. Dabei geht es auch um Begriffe wie ACID,
 Two Phase Commit, Sagas, BASE und das CAP Theorem.
 
+<center>
+  <div class="embed-container">
+    <iframe width="560" height="315"
+src="https://www.youtube.com/embed/DeHd4Rqds78" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen></iframe>
+    </div>
+</center>
+
 [YouTube Live Stream](https://www.youtube.com/watch?v=ok2x0bcKrLQ)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
