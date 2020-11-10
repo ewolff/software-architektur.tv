@@ -16,8 +16,13 @@ umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
 und der Umgang damit entscheidend wird. Ein Stichwort ist dabei
 Product Line Engineering.
 
+![Sketchnode](folge24.png)
+
 [ISO/IEC DIS 26580 Methods and tools for the feature-based approach to software and systems product line engineering](https://www.iso.org/standard/43139.html)
 
 [Product Line Engineering Primer (High-Level Introduction)](https://connect.incose.org/Pages/Product-Details.aspx?ProductCode=PLE_Primer_2019)
 
 [Danilo Beuche, Mark Dalgarno: Software Product Line Engineering with Feature Models](https://www.pure-systems.com/fileadmin/downloads/pure-variants/tutorials/SPLWithFeatureModelling.pdf)
+
+[Simon Wardleys Tweet zum Thema](https://twitter.com/swardley/status/1301497243288186882)
+
