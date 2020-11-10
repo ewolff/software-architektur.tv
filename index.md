@@ -11,9 +11,16 @@ Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Chat mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Noch offen
+# Nächster Termin: 2020-11-13 Freitag: Microservices, Transaktionen & Konsistenz
 
-[comment]: ([YouTube Live Stream](https://www.youtube.com/watch?))
+Microservices sind verteilte Systeme. Damit ist die Konsistenz der
+Daten über die verschiedenen Microservices eine Herausforderung. Und
+Transaktionen in verteilten Systemen sind auch schwierig. In dieser
+Folge von Software Architektur im Stream geht es darum, wie man mit
+den Herausforderungen umgeht. Dabei geht es auch um Begriffe wie ACID,
+Two Phase Commit, Sagas, BASE und das CAP Theorem.
+
+[YouTube Live Stream](https://www.youtube.com/watch?v=ok2x0bcKrLQ)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
