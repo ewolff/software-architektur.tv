@@ -2,6 +2,8 @@
 title: Folge 7 - Vorträge, Architekt:innen-Rolle, Lernen
 layout: folge
 video: oQSN1WSms8g
+embedded-mp3: https://www.podcaster.de/simpleplayer/?id=show~1evriw~software-architektur-im-stream~pod-5faba3ffab1ce158439755&v=1605085002
+mp3: https://1evriw.podcaster.de/software-architektur-im-stream/media/VortraegeArchitektinRolleLernen.mp3
 description: Stream zu verschiedenen Fragen - Vorträge Halten, die Architekt:innen-Rolle vs. die Entwickler:innen-Rolle, Lernen als Architekt
 thumbnail: folge7.jpg
 ---
