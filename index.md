@@ -8,7 +8,8 @@ Live-Diskussion zu Software-Architektur im Stream.
 
 Einmal in der Woche diskutiert Eberhard Wolff Software-Architektur im
 Live-Stream auf YouTube und Twitch - oft zusammen mit einem
-Gast. Zuschauer können über den Chat mitdiskutieren oder Fragen
+Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
+das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
 # Nächster Termin: 2020-11-13 Freitag: Microservices, Transaktionen & Konsistenz
@@ -37,9 +38,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
 
 [Audio als Podcast](podcast.html)
 
-# Fragen
+# Fragen & Diskussion
 
-Gerne im Live-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
+Gerne im Twitch-Chat oder YouTube-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
 hier:
 
 <div class="embed-container">
