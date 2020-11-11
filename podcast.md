@@ -26,6 +26,8 @@ Die alten Folgen werden schrittweise als Podcast erscheinen.
 
 [TuneIn](https://tunein.com/podcasts/Technology-Podcasts/SoftwareArchitektur-im-Stream-p1380036/)
 
+[Google](https://podcasts.google.com/feed/aHR0cHM6Ly8xZXZyaXcucG9kY2FzdGVyLmRlL3NvZnR3YXJlLWFyY2hpdGVrdHVyLWltLXN0cmVhbS5yc3M)
+
 [Stitcher](https://www.stitcher.com/podcast/softwarearchitektur-im-stream)
 
 [PlayerFM](https://de.player.fm/series/softwarearchitektur-im-stream)
