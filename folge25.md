@@ -1,0 +1,22 @@
+---
+title: Folge 25 - Microservices, Transaktionen & Konsistenz
+layout: folge
+video: ok2x0bcKrLQ
+embedded-mp3: https://www.podcaster.de/simpleplayer/?id=show~1evriw~software-architektur-im-stream~pod-5faeaccba5526717209651&v=1605283313
+mp3: https://1evriw.podcaster.de/software-architektur-im-stream/media/MicroservicesTransaktionenKonsistenz.mp3
+description: Microservices sind verteilte Systeme, so dass Transaktionen und Konsistenz eine Herausforderung sind.
+thumbnail: folge25.png
+---
+
+Microservices sind verteilte Systeme. Damit ist die Konsistenz der
+Daten über die verschiedenen Microservices eine Herausforderung. Und
+Transaktionen in verteilten Systemen sind auch schwierig. In dieser
+Folge von Software Architektur im Stream geht es darum, wie man mit
+den Herausforderungen umgeht. Dabei geht es auch um Begriffe wie ACID,
+Two Phase Commit, Sagas, BASE und das CAP Theorem.
+
+![Sketchnotes](folge25.png)
+
+[Kyle Kingsbury über NoSQL-Datenbanken](https://aphyr.com/tags/jepsen)
+
+[Leslie Lamports Preise](https://en.wikipedia.org/wiki/Leslie_Lamport#Awards_and_honors)

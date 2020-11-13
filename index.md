@@ -12,25 +12,18 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: 2020-11-13 Freitag: Microservices, Transaktionen & Konsistenz
+# Nächster Termin: Noch offen
 
-Microservices sind verteilte Systeme. Damit ist die Konsistenz der
-Daten über die verschiedenen Microservices eine Herausforderung. Und
-Transaktionen in verteilten Systemen sind auch schwierig. In dieser
-Folge von Software Architektur im Stream geht es darum, wie man mit
-den Herausforderungen umgeht. Dabei geht es auch um Begriffe wie ACID,
-Two Phase Commit, Sagas, BASE und das CAP Theorem.
-
-<center>
+<!-- center>
   <div class="embed-container">
     <iframe width="560" height="315"
 src="https://www.youtube.com/embed/DeHd4Rqds78" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
     </div>
-</center>
+</center -->
 
-[YouTube Live Stream](https://www.youtube.com/watch?v=ok2x0bcKrLQ)
+[comment]: ([YouTube Live Stream]https://www.youtube.com/watch?v=ok2x0bcKrLQ)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
@@ -53,6 +46,7 @@ marginwidth="0">Loading…</iframe>
 </div>
 
 # Bisherige Folgen
+* [Folge 25: Microservices, Transaktionen und Konsistenz](folge25.md)
 * [Folge 24: Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche](folge24.html)
 * [Folge 23: Sketchnotes in der IT mit Lisa Maria Moritz](folge23.html)
 * [Folge 22: Fachliche Architekturen mit Domain Specific Languages (DSLs) mit Markus Völter](folge22.html)
