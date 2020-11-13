@@ -15,4 +15,4 @@ Begriffe, für die Ihr schon immer mal ein Symbol haben wolltet.
 
 Hier die erwähnte Beispiel-Sketchnote:
 
-![Beispiel-Sketchnote](folge23.jpg "Beispiel-Sketchnote")
+![Beispiel-Sketchnote](/sketchnotes/folge23.jpg "Beispiel-Sketchnote")

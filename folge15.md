@@ -10,4 +10,4 @@ Agile Projekte bieten spezielle Herausforderungen für
 Architekt:innen. In dieser Folge diskutiert Jutta Eckstein diese
 Herausforderungen und wie man mit ihnen umgehen kann.
 
-![Sketchnote](folge15.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge15.jpg "Sketchnote")

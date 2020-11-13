@@ -9,4 +9,4 @@ thumbnail: folge8.jpg
 Microservices sind nicht unumstritten. In dieser Folge diskutieren Uwe
 Friedrichsen und Eberhard Wolff das Für und Wider.
 
-![Sketchnote](folge8.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge8.jpg "Sketchnote")

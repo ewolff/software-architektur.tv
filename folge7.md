@@ -14,4 +14,4 @@ Diese Folge behandelt verschiedene Fragen aus der Community:
 * Architekt:innen- vs. Entwickler:innen-Rolle
 * Lernen als Architekt:in
 
-![Sketchnote](folge7.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge7.jpg "Sketchnote")

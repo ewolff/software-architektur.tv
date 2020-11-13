@@ -13,4 +13,4 @@ Independent Systems Architecture
 [https://isa-principles.org/](https://isa-principles.org/) .
 
 
-![Sketchnote](folge10.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge10.jpg "Sketchnote")

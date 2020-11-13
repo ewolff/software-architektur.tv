@@ -15,4 +15,4 @@ zu Continuous Delivery.
 
 [Link zur HP Studie](https://continuousdelivery.com/evidence-case-studies/)
 
-![Sketchnote](folge12.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge12.jpg "Sketchnote")

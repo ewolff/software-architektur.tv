@@ -16,7 +16,7 @@ umgeht, wenn es wie bei Embedded Software sehr viele Varianten gibt
 und der Umgang damit entscheidend wird. Ein Stichwort ist dabei
 Product Line Engineering.
 
-![Sketchnotes](folge24.png)
+![Sketchnotes](/sketchnotes/folge24.png)
 
 [ISO/IEC DIS 26580 Methods and tools for the feature-based approach to software and systems product line engineering](https://www.iso.org/standard/43139.html)
 

@@ -13,4 +13,4 @@ baut.
 
 Buch-Tipp: [Bridging the Communication Gap: Specification by Example and Agile Acceptance Testing](https://www.goodreads.com/book/show/6443938-bridging-the-communication-gap) von Gojko Adzic 
 
-![Sketchnote](folge17.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge17.jpg "Sketchnote")

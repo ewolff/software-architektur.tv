@@ -13,4 +13,4 @@ statt. Eric Evans, der DDD-Erfinder, hat ein Paper geschrieben, das
 den Umgang mit Domain-driven Design in Legacy Systemen
 diskutiert und das im Mittelpunkt dieser Folge steht.
 
-![Sketchnote](folge6.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge6.jpg "Sketchnote")

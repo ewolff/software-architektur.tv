@@ -14,4 +14,4 @@ nur von dem Ansatz berichten, sondern ihn auch live zeigen.
 * [Rabattcode für das Domain-Story-Telling-Buch bis Ende des Jahres](https://leanpub.com/domainstorytelling/c/softwarearchitekturimstream)
 * [Training mit Stefan und Henning](https://training.dddeurope.com/domain-storytelling-stefan-hofer-henning-schwentner/)
 
-![Sketchnote](folge21.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge21.jpg "Sketchnote")

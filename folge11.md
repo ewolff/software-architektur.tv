@@ -12,4 +12,4 @@ Business Strategie bis hin zum Finden von Bounded Contexts.
 
 [Link zum Paper](http://www.ogqcorp.com/nick-tune-tech-strategy-blog/legacy-architecture-modernisation-with-strategic-domain-driven-design-3e7c05bb383f)
 
-![Sketchnote](folge11.jpg "Sketchnote")
+![Sketchnote](/sketchnotes/folge11.jpg "Sketchnote")

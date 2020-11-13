@@ -17,4 +17,4 @@ Details und warum sie sich für Linkerd so begeistert.
 * [Linkerd Tutorials](https://linkerd.io/2/tasks/)
 * [Hannas Blog-Beitrag "Happy Without a Service Mesh"](https://www.innoq.com/en/blog/happy-without-a-service-mesh/)
 
-![Sketchnote](folge19.png "Sketchnote")
+![Sketchnote](/sketchnotes/folge19.png "Sketchnote")

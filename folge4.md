@@ -12,5 +12,5 @@ In dieser Folge geht es um den Aufbau einer fachlichen Architektur
 z.B. mit Bounded Contexts und warum dieser Architektur-Ansatz so
 wichtig ist.
 
-![Sketchnote 1](folge4.png "Sketchnote")
-![Sketchnote 2](folge4-1.png "Sketchnote")
+![Sketchnote 1](/sketchnotes/folge4.png "Sketchnote")
+![Sketchnote 2](/sketchnotes/folge4-1.png "Sketchnote")

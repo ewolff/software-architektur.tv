@@ -18,4 +18,4 @@ Gerrits Buchtipps:
 * [Fritz Simon: Einführung in die systemische Organisationstheorie](https://www.goodreads.com/book/show/5325490-einf-hrung-in-die-systemische-organisationstheorie)
 * [Podcast von Stefan Kühl und Thomas Hermwille "Der ganz formale Wahnsinn"](https://anchor.fm/wahnsinn)
 
-![Sketchnote](folge16.png "Sketchnote")
+![Sketchnote](/sketchnotes/folge16.png "Sketchnote")

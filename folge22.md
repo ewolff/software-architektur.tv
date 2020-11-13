@@ -23,4 +23,4 @@ fachliche Kommunikation und helfen daber auch bei Agilität.
 
 [Lohnberechnung-DSL bei der DATEV](http://voelter.de/data/pub/voelterEtAl_DSLForPayrollCalc.pdf)
 
-![Sketchnote](folge22.png "Sketchnote")
+![Sketchnote](/sketchnotes/folge22.png "Sketchnote")

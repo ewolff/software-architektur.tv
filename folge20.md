@@ -12,4 +12,4 @@ Herausforderungen. In dieser Folge diskutieren Franziska Dessart, Joy
 Heron, Lucas Dohmen und Eberhard Wolff über verschiedene Ansätze für
 Frontend-Architekturen.
 
-![Sketchnote](folge20.png "Sketchnote")
+![Sketchnote](/sketchnotes/folge20.png "Sketchnote")
