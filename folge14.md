@@ -14,3 +14,5 @@ in den letzten Wochen angesammelt haben:
 - Bug: Fix oder Rollback?
 - Neue Technologien einführen
 - Typische zwischenmenschliche Probleme
+
+![Sketchnote](/sketchnotes/folge14.png "Sketchnote")
