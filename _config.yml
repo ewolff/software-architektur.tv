@@ -5,5 +5,9 @@ url: https://software-architektur.tv
 author:
   name: Eberhard Wolff
   url: http://ewolff.com
+  twitter: ewolff
+
+plugins:
+  - jekyll-feed
 
 markdown: kramdown

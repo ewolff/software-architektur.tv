@@ -47,6 +47,8 @@ marginwidth="0">Loading…</iframe>
 
 # Bisherige Folgen
 
+[Atom Feed](feed.xml)
+
 <ul>
 {% for post in site.posts %}
    <li>
