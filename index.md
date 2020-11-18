@@ -14,7 +14,7 @@ stellen.
 
 # Nächster Termin: Freitag 2020-11-20 12:00 Modularisierung
 
-Nur mir Modularisierung kann man große Systeme entwickeln. Gerade
+Nur mit Modularisierung kann man große Systeme entwickeln. Gerade
 durch Microservices gibt es wieder eine Diskussion zu diesem zentralen
 Konzept. In dieser Folge werden wir uns klassische Konzepte zur
 Modularisierung beispielsweise von Parnas anschauen und
