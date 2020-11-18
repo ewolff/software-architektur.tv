@@ -12,18 +12,23 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Noch offen
+# Nächster Termin: Freitag 2020-11-20 12:00 Modularisierung
 
-<!-- center>
-  <div class="embed-container">
-    <iframe width="560" height="315"
-src="https://www.youtube.com/embed/DeHd4Rqds78" frameborder="0"
+Nur mir Modularisierung kann man große Systeme entwickeln. Gerade
+durch Microservices gibt es wieder eine Diskussion zu diesem zentralen
+Konzept. In dieser Folge werden wir uns klassische Konzepte zur
+Modularisierung beispielsweise von Parnas anschauen und
+herausarbeiten, was man aus diesen Ansätzen für Architektur-Arbeit an
+modernen Systemen lernen kann.
+
+<div class="embed-container">
+	<iframe width="560" height="315"
+src="https://www.youtube.com/embed/D-IT2byTsXo" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
-    </div>
-</center -->
+</div>
 
-[comment]: ([YouTube Live Stream]https://www.youtube.com/watch?v=ok2x0bcKrLQ)
+[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=zkcX0D2h930)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
