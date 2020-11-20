@@ -14,12 +14,12 @@ stellen.
 
 # Nächster Termin: Freitag 2020-11-27 12:00 Thema offen
 
-<div class="embed-container">
+<!-- div class="embed-container">
 	<iframe width="560" height="315"
 src="https://www.youtube.com/embed/D-IT2byTsXo" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
-</div>
+</div -->
 
 [Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=zkcX0D2h930)
 
