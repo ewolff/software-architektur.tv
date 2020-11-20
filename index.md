@@ -12,14 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2020-11-20 12:00 Modularisierung
-
-Nur mit Modularisierung kann man große Systeme entwickeln. Gerade
-durch Microservices gibt es wieder eine Diskussion zu diesem zentralen
-Konzept. In dieser Folge werden wir uns klassische Konzepte zur
-Modularisierung beispielsweise von Parnas anschauen und
-herausarbeiten, was man aus diesen Ansätzen für Architektur-Arbeit an
-modernen Systemen lernen kann.
+# Nächster Termin: Freitag 2020-11-27 12:00 Thema offen
 
 <div class="embed-container">
 	<iframe width="560" height="315"
@@ -34,7 +27,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
-[Audio als Podcast](podcast.html)
+[Audio der Folgen als Podcast](podcast.html)
+
+[Atom Feed der bisherigen Folgen](feed.xml)
 
 # Fragen & Diskussion
 
@@ -51,8 +46,6 @@ marginwidth="0">Loading…</iframe>
 </div>
 
 # Bisherige Folgen
-
-[Atom Feed](feed.xml)
 
 <ul>
 {% for post in site.posts %}
