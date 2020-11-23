@@ -12,16 +12,18 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2020-11-27 12:00 Thema offen
+# Nächster Termin: Freitag 2020-11-27 12:00 Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen
+
+Abstract folgt noch
 
 <!-- div class="embed-container">
 	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/D-IT2byTsXo" frameborder="0"
+src="https://www.youtube.com/embed/fl0aEwvorQw" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
 </div -->
 
-[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=zkcX0D2h930)
+[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=fl0aEwvorQw)
 
 [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
 
