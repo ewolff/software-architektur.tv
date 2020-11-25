@@ -14,18 +14,28 @@ stellen.
 
 # Nächster Termin: Freitag 2020-11-27 12:00 Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen
 
-Abstract folgt noch
-
-<!-- div class="embed-container">
-	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/fl0aEwvorQw" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-       picture-in-picture" allowfullscreen></iframe>
-</div -->
+Schon in [Folge
+20](https://software-architektur.tv/2020/10/02/folge020.html)
+diskutierten Franziska Dessart, Joy Heron, Lucas Dohmen und Eberhard
+Wolff über Web-Architekturen. In dieser Folge geht es um die
+Architektur-Optionen für moderne Web Frontends. Wir geben einen
+Überblick über die Patterns, die wir uns begegnet sind. Wo
+implementiert man die Logik, wo liegen die Daten und wie findet die
+Integration statt: Das sind die wesentlichen Fragen, die wir
+gemeinsame diskutieren werden. Verschiedene Architektur-Optionen wie
+server-side Rendering, Single Page Apps werden wir wertungsneutral
+gegeneinander abwägen.
 
 [Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=fl0aEwvorQw)
 
-[https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff)
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
+
+<div class="embed-container">
+	<iframe width="560" height="315"
+src="https://www.youtube.com/embed/n5eSwvuxSPc" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
