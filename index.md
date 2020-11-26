@@ -19,9 +19,11 @@ aber spannender ist es doch, sich zu hören und zu sehen. Dieses Mal
 machen wir deswegen einen Video-Call, um miteinander zu reden.
 Um den Link zum Zoom-Meeting zu bekommen, ist eine Registrierung über
 Zoom notwendig. Die Daten aus der Registrierung werden nur für die
-Teilnahme an diesem Stammtisch genutzt. Das Meeting wird nicht aufgezeichnet.
+Teilnahme an diesem Stammtisch genutzt. Das Meeting wird nicht
+aufgezeichnet. Wir nutzen den [Berlin Code of
+Conduct](https://berlincodeofconduct.org/de/).
 
-[Registrierung](https://innoq.zoom.us/meeting/register/tJAuceyhrjssGtO0vPkIxR1zuYpLvYjjc2Bh)
+[Link zu Registrierung](https://innoq.zoom.us/meeting/register/tJAuceyhrjssGtO0vPkIxR1zuYpLvYjjc2Bh)
 
 <div class="embed-container">
 	<iframe width="560" height="315"
