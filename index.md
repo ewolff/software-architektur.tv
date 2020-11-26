@@ -12,7 +12,25 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2020-11-27 12:00 Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen
+# Neu: Dienstag 2020-12-01 18:30 Software Architektur im Stream - Stammtisch
+
+Man kann bei Software Architektur im Stream zwar per Chat teilnehmen -
+aber spannender ist es doch, sich zu hören und zu sehen. Dieses Mal
+machen wir deswegen einen Video-Call, um miteinander zu reden.
+Um den Link zum Zoom-Meeting zu bekommen, ist eine Registrierung über
+Zoom notwendig. Die Daten aus der Registrierung werden nur für die
+Teilnahme an diesem Stammtisch genutzt. Das Meeting wird nicht aufgezeichnet.
+
+[Registrierung](https://innoq.zoom.us/meeting/register/tJAuceyhrjssGtO0vPkIxR1zuYpLvYjjc2Bh)
+
+<div class="embed-container">
+	<iframe width="560" height="315"
+src="https://www.youtube.com/embed/3tujiBqB7HQ" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen></iframe>
+</div>
+
+# Freitag 2020-11-27 12:00 Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen
 
 Schon in [Folge
 20](https://software-architektur.tv/2020/10/02/folge020.html)
