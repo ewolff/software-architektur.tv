@@ -12,37 +12,38 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Neu: Dienstag 2020-12-01 18:30 Software Architektur im Stream - Stammtisch
+# Montag 2020-12-07 12:00 INNOQ Technology Day
 
-Man kann bei Software Architektur im Stream zwar per Chat teilnehmen -
-aber spannender ist es doch, sich zu hören und zu sehen. Dieses Mal
-machen wir deswegen einen Video-Call, um miteinander zu reden.
-Um den Link zum Zoom-Meeting zu bekommen, ist eine Registrierung über
-Zoom notwendig. Die Daten aus der Registrierung werden nur für die
-Teilnahme an diesem Stammtisch genutzt. Das Meeting wird nicht
-aufgezeichnet. Wir nutzen den [Berlin Code of
-Conduct](https://berlincodeofconduct.org/de/).
+Der [INNOQ Technology Day](https://technologyday.innoq.com/) ist eine
+kostenlose Online-Konferenz am 2020-12-09. Wir werden einige der
+Highlights vorstellen:
 
-[Link zu Registrierung](https://innoq.zoom.us/meeting/register/tJAuceyhrjssGtO0vPkIxR1zuYpLvYjjc2Bh)
+* Um 12:00 erläutert das **Programm-Kommitee** die Idee der Konferenz und
+  was den Technology besonders macht.
+  
+* Ab ca. 12:10 geht es mit **Johannes Seitz** um **sokratische Gespräche**. Das
+  ist ein Möglichkeit, um Grundlagen wie Information Hiding zu
+  vermitteln. Johannes hat vor allem in Remote-Szenarios damit gute
+  Erfahrungen gemacht.
+  
+* Ab ca. 12:45 spricht Lisa Moritz mit **Christoph Iserlohn** über
+  **Sicherheit** und was gerade Architekt:innen dazu wissen sollten und
+  müssen.
+  
+* Um ca. 13:20 erklärt **Anja Kammer** dann, warum und wie man keine
+  **DevOps** Engineers einstellt - und warum DevOps als Begriff leider
+  immer noch missverstanden wird.
 
-<div class="embed-container">
-	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/3tujiBqB7HQ" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-       picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- [Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=fl0aEwvorQw)
--->
+[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=R2vpINhh5Pg)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- div class="embed-container">
+<div class="embed-container">
 	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/n5eSwvuxSPc" frameborder="0"
+src="https://www.youtube.com/embed/kb0fjEVPq9M" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
-</div -->
+</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
