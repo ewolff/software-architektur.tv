@@ -34,7 +34,7 @@ Highlights vorstellen:
   **DevOps** Engineers einstellt - und warum DevOps als Begriff leider
   immer noch missverstanden wird.
 
-[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=R2vpINhh5Pg)
+[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=jfDI8w_yQQ8)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
