@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Montag 2020-12-07 12:00 INNOQ Technology Day
+# Montag 2020-12-07 12:00 Vorschau INNOQ Technology Day
 
 Der [INNOQ Technology Day](https://technologyday.innoq.com/) ist eine
 kostenlose Online-Konferenz am 2020-12-09. Wir werden einige der
