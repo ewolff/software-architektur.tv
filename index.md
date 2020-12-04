@@ -15,8 +15,8 @@ stellen.
 # Montag 2020-12-07 12:00 Vorschau INNOQ Technology Day
 
 Der [INNOQ Technology Day](https://technologyday.innoq.com/) ist eine
-kostenlose Online-Konferenz am 2020-12-09. Wir werden einige der
-Highlights vorstellen:
+kostenlose Online-Konferenz am 2020-12-09. Wir werden zwei Tage vorher
+am 2020-12-07 einige der Highlights vorstellen:
 
 * Um 12:00 erläutert das **Programm-Kommitee** die Idee der Konferenz und
   was den Technology Day besonders macht.
