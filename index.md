@@ -19,7 +19,7 @@ kostenlose Online-Konferenz am 2020-12-09. Wir werden einige der
 Highlights vorstellen:
 
 * Um 12:00 erläutert das **Programm-Kommitee** die Idee der Konferenz und
-  was den Technology besonders macht.
+  was den Technology Day besonders macht.
   
 * Ab ca. 12:10 geht es mit **Johannes Seitz** um **sokratische Gespräche**. Das
   ist ein Möglichkeit, um Grundlagen wie Information Hiding zu
