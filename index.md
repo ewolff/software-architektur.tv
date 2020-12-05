@@ -34,6 +34,8 @@ am 2020-12-07 einige der Highlights vorstellen:
   **DevOps** Engineers einstellt - und warum DevOps als Begriff leider
   immer noch missverstanden wird.
 
+[In Kalendar eintragen](termin.ics)
+
 [Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=jfDI8w_yQQ8)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
