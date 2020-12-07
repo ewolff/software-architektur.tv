@@ -12,40 +12,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Montag 2020-12-07 12:00 Vorschau INNOQ Technology Day
+# Freitag 2020-12-11 12:00
 
-Der [INNOQ Technology Day](https://technologyday.innoq.com/) ist eine
-kostenlose Online-Konferenz am 2020-12-09. Wir werden zwei Tage vorher
-am 2020-12-07 einige der Highlights vorstellen:
-
-* Um 12:00 erläutert das **Programm-Kommitee** die Idee der Konferenz und
-  was den Technology Day besonders macht.
-  
-* Ab ca. 12:10 geht es mit **Johannes Seitz** um **sokratische Gespräche**. Das
-  ist ein Möglichkeit, um Grundlagen wie Information Hiding zu
-  vermitteln. Johannes hat vor allem in Remote-Szenarios damit gute
-  Erfahrungen gemacht.
-  
-* Ab ca. 12:45 spricht Lisa Moritz mit **Christoph Iserlohn** über
-  **Sicherheit** und was gerade Architekt:innen dazu wissen sollten und
-  müssen.
-  
-* Um ca. 13:20 erklärt **Anja Kammer** dann, warum und wie man keine
-  **DevOps** Engineers einstellt - und warum DevOps als Begriff leider
-  immer noch missverstanden wird.
-
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics)
 
 [Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=jfDI8w_yQQ8)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-<div class="embed-container">
+-->
+<!-- div class="embed-container">
 	<iframe width="560" height="315"
 src="https://www.youtube.com/embed/kb0fjEVPq9M" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
-</div>
+</div -->
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
