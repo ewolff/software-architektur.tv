@@ -12,20 +12,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2020-12-11 12:00
+# Freitag 2020-12-11 12:00 Inner Source: Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle
 
-<!-- [In Kalendar eintragen](termin.ics)
+Inner Source nutzt Open-Source-Methoden für die Entwicklung von
+Software innerhalb eines Unternehmens. Auf den ersten Blick scheinen
+Entwickler:innen so nur einfach Code teilen zu können, aber es hat
+weitreichende Konsequenzen und kann dazu dienen, Silos in Unternehmen
+einzureißen und so die Organisation zu verbessern. Prof. Dirk Riehles
+forscht in diesem Bereich und wird berichten, wie Inner Source in der
+Praxis funktionieren kann.
 
-[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=jfDI8w_yQQ8)
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=N_NZ3mFZvyA)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
--->
-<!-- div class="embed-container">
+
+<div class="embed-container">
 	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/kb0fjEVPq9M" frameborder="0"
+src="https://www.youtube.com/embed/Tot3w7iwXQI" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
-</div -->
+</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 

@@ -7,47 +7,46 @@ BEGIN:VTIMEZONE
 TZID:W. Europe Standard Time
 BEGIN:STANDARD
 DTSTART:16011028T030000
-RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0100
 END:STANDARD
 BEGIN:DAYLIGHT
 DTSTART:16010325T020000
-RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20201205T075804Z
-DESCRIPTION:https://www.youtube.com/watch?v=jfDI8w_yQQ8 https://www.twitch.
-	tv/ebrwolff\n12:00 INNOQ Technology Day Programm-Kommitee über die Idee d
-	er Konferenz und was den Technology Day besonders macht.\n \nca. 12:10 Joh
-	annes Seitz: sokratische Gespräche. Das ist ein Möglichkeit\, um Grundla
-	gen wie Information Hiding zu vermitteln. Johannes hat vor allem in Remote
-	-Szenarios damit gute Erfahrungen gemacht.\n \nca. 12:45 Lisa Moritz spric
-	ht mit Christoph Iserlohn über Sicherheit und was gerade Architekt:innen 
-	dazu wissen sollten und müssen.\n \nca. 13:20 Anja Kammer erklärt\, waru
-	m und wie man keine DevOps Engineers einstellt - und warum DevOps als Begr
-	iff leider immer noch missverstanden wird.\n
-DTEND;TZID="W. Europe Standard Time":20201207T140000
-DTSTAMP:20201205T075804Z
-DTSTART;TZID="W. Europe Standard Time":20201207T120000
-LAST-MODIFIED:20201205T075804Z
-LOCATION:https://www.youtube.com/watch?v=jfDI8w_yQQ8 https://www.twitch.tv/
+CREATED:20201208T134814Z
+DESCRIPTION:Inner Source nutzt Open-Source-Methoden für die Entwicklung vo
+	n Software innerhalb eines Unternehmens. Auf den ersten Blick scheinen Ent
+	wickler:innen so nur einfach Code teilen zu können\, aber es hat weitreic
+	hende Konsequenzen und kann dazu dienen\, Silos in Unternehmen einzureiße
+	n und so die Organisation zu verbessern. Prof. Dirk Riehles forscht in die
+	sem Bereich und wird berichten\, wie Inner Source in der Praxis funktionie
+	ren kann.\nhttps://www.youtube.com/watch?v=N_NZ3mFZvyA\nhttps://www.twitch
+	.tv/ebrwolff
+DTEND;TZID="W. Europe Standard Time":20201211T130000
+DTSTAMP:20201208T134814Z
+DTSTART;TZID="W. Europe Standard Time":20201211T120000
+LAST-MODIFIED:20201208T134814Z
+LOCATION:https://www.youtube.com/watch?v=N_NZ3mFZvyA https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: INNOQ Technology Vorsch
-	au
+SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Inner Source: Mit Open
+	-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000010175EACE4CAD601000000000000000
-	010000000B498FA08357EBF4C800CDC1301B79801
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
 END:VEVENT
 END:VCALENDAR
