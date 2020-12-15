@@ -12,20 +12,27 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2020-12-18 12:00 Thema noch offen
+# Freitag 2020-12-18 12:00 Patterns: Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger 
 
-<!-- [In Kalendar eintragen](termin.ics)
+Pattern für Software-Entwicklung gibt es schon seit mehr als 25
+Jahren. Aber schon davor gab es Patterns für Dinge z.B. in der
+Gebäude-Architektur. Und mittlerweile sind auch Patterns für andere
+Bereiche entstanden. So erlauben sie den Zugriff auf Erfahrungen über
+den Umgang mit Code und Menschen. Sogar Refactorings sind eigentlich
+Patterns für den Umgang mit Code.
 
-[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=N_NZ3mFZvyA)
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube Live Stream](https://www.youtube.com/watch?v=yBdx5cauXJk)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
--->
-<!-- div Aclass="embed-container">
+
+<div Aclass="embed-container">
 	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Tot3w7iwXQI" frameborder="0"
+src="https://www.youtube.com/embed/zUhC9cblS-U" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
-</div -->
+</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 

@@ -7,46 +7,44 @@ BEGIN:VTIMEZONE
 TZID:W. Europe Standard Time
 BEGIN:STANDARD
 DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0100
 END:STANDARD
 BEGIN:DAYLIGHT
 DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20201208T134814Z
-DESCRIPTION:Inner Source nutzt Open-Source-Methoden für die Entwicklung vo
-	n Software innerhalb eines Unternehmens. Auf den ersten Blick scheinen Ent
-	wickler:innen so nur einfach Code teilen zu können\, aber es hat weitreic
-	hende Konsequenzen und kann dazu dienen\, Silos in Unternehmen einzureiße
-	n und so die Organisation zu verbessern. Prof. Dirk Riehles forscht in die
-	sem Bereich und wird berichten\, wie Inner Source in der Praxis funktionie
-	ren kann.\nhttps://www.youtube.com/watch?v=N_NZ3mFZvyA\nhttps://www.twitch
-	.tv/ebrwolff
-DTEND;TZID="W. Europe Standard Time":20201211T130000
+CREATED:20201215T110959Z
+DESCRIPTION:Pattern für Software-Entwicklung gibt es schon seit mehr als 2
+	5 Jahren. Aber schon davor gab es Patterns für Dinge z.B. in der Gebäude
+	-Architektur. Und mittlerweile sind auch Patterns für andere Bereiche ent
+	standen. So erlauben sie den Zugriff auf Erfahrungen über den Umgang mit 
+	Code und Menschen. Sogar Refactorings sind eigentlich Patterns für den Um
+	gang mit Code.\nhttps://www.youtube.com/watch?v=yBdx5cauXJk\nhttps://www.t
+	witch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20201218T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20201211T120000
-LAST-MODIFIED:20201208T134814Z
-LOCATION:https://www.youtube.com/watch?v=N_NZ3mFZvyA https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20201218T120000
+LAST-MODIFIED:20201215T110959Z
+LOCATION:https://www.youtube.com/watch?v=yBdx5cauXJk https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Inner Source: Mit Open
-	-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle
+SUMMARY;LANGUAGE=de:Patterns: Kondensierte Erfahrungen mit Code\, Dingen un
+	d Menschen mit Michael Hunger
 TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000006089E635DBD2D601000000000000000
+	0100000001EF40109108EC34E9140E5BF9CA8C00D
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 END:VCALENDAR
