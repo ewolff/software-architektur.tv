@@ -71,6 +71,6 @@ License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 Attributiert werden sollen:
 
-* Für Videos Eberhard Wolff und die jeweiligen Interviewten
+* Für Videos Eberhard Wolff oder Lisa Maria Moritz und die jeweiligen Interviewten
 
 * Für Sketchnotes [Lisa Maria Moritz](https://twitter.com/Teapot4181)
