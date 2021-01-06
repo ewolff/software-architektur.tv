@@ -20,31 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20201215T110959Z
-DESCRIPTION:Pattern für Software-Entwicklung gibt es schon seit mehr als 2
-	5 Jahren. Aber schon davor gab es Patterns für Dinge z.B. in der Gebäude
-	-Architektur. Und mittlerweile sind auch Patterns für andere Bereiche ent
-	standen. So erlauben sie den Zugriff auf Erfahrungen über den Umgang mit 
-	Code und Menschen. Sogar Refactorings sind eigentlich Patterns für den Um
-	gang mit Code.\nhttps://www.youtube.com/watch?v=yBdx5cauXJk\nhttps://www.t
-	witch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20201218T130000
+CREATED:20210106T085939Z
+DESCRIPTION:Patrick Kua was CTO and Chief Scientist at N26 in Berlin and is
+	 now an independent coach and mentor to CTOs and VPs Engineering. Patrick 
+	has written several books e.g. about how to talk to tech leads and he co-a
+	uthored a book about evolutionary architecture. In this episode we will th
+	erefore discuss how software architecture can embrace change and support b
+	usiness goals in the long run. As usual\, questions and comments are more 
+	than welcome in the chat. And this will be the first episode in English.\n
+	https://www.youtube.com/watch?v=ttL7MiF8VZw\nhttps://www.twitch.tv/ebrwolf
+	f\n
+DTEND;TZID="W. Europe Standard Time":20210108T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20201218T120000
-LAST-MODIFIED:20201215T110959Z
-LOCATION:https://www.youtube.com/watch?v=yBdx5cauXJk https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20210108T120000
+LAST-MODIFIED:20210106T085939Z
+LOCATION:https://www.youtube.com/watch?v=ttL7MiF8VZw https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Patterns: Kondensierte Erfahrungen mit Code\, Dingen un
-	d Menschen mit Michael Hunger
+SUMMARY;LANGUAGE=de:Patrick Kua - Evolutionary Software Architecture - Soft
+	ware Architektur im Stream
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E008000000006089E635DBD2D601000000000000000
-	0100000001EF40109108EC34E9140E5BF9CA8C00D
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-AUTOFILLLOCATION:FALSE
-X-MS-OLK-CONFTYPE:0
 END:VEVENT
 END:VCALENDAR
