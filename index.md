@@ -12,22 +12,11 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-01-08 12:00 Patrick Kua - Evolutionary Software Architecture
+# Freitag 2021-01-15 12:00 Thema noch offen
 
-Patrick Kua was CTO and Chief Scientist at N26 in Berlin and is now an
-independent coach and mentor to CTOs and VPs Engineering. Patrick has
-written several books e.g. about how to talk to tech leads and he
-co-authored a book about evolutionary architecture. In this episode we
-will therefore discuss how software architecture can embrace change
-and support business goals in the long run. As usual, questions and
-comments are more than welcome in the chat. And this will be the first
-episode in English.
+<!-- [In Kalendar eintragen](termin.ics)  -->
 
-![Thumbnail](/thumbnails/folge34.png)
-
-[In Kalendar eintragen](termin.ics) 
-
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=ttL7MiF8VZw) 
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=ttL7MiF8VZw)  -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
