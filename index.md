@@ -12,20 +12,23 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-01-15 12:00 Thema noch offen
+# Freitag 2021-01-15 12:00 André Neubauer: CTO = Chief Technical Debt Owner?
 
-<!-- [In Kalendar eintragen](termin.ics)  -->
+Eine der größten Herausforderungen, denen sich Software-Entwickler und Technical Leads stellen müssen, ist der Umgang mit Legacy und technischen Schulden. Diese Herausforderung wird immer schwieriger, da die Lebensdauer von Software mit dem Aufkommen neuer Technologien steigt und die Verweildauer in Unternehmen immer kürzer wird. Wie kann man diese Herausforderung angehen, ohne Software dauernd neu zu schreiben?
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=ttL7MiF8VZw)  -->
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=c4ljm7dqpgU)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- div Aclass="embed-container">
-	<iframe width="560" height="315"
-src="https://www.youtube.com/embed/zUhC9cblS-U" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-       picture-in-picture" allowfullscreen></iframe>
-</div-->
+<div Aclass="embed-container">
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/RIglic3vTlY"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 

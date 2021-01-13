@@ -20,26 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210106T085939Z
-DESCRIPTION:Patrick Kua was CTO and Chief Scientist at N26 in Berlin and is
-	 now an independent coach and mentor to CTOs and VPs Engineering. Patrick 
-	has written several books e.g. about how to talk to tech leads and he co-a
-	uthored a book about evolutionary architecture. In this episode we will th
-	erefore discuss how software architecture can embrace change and support b
-	usiness goals in the long run. As usual\, questions and comments are more 
-	than welcome in the chat. And this will be the first episode in English.\n
-	https://www.youtube.com/watch?v=ttL7MiF8VZw\nhttps://www.twitch.tv/ebrwolf
-	f\n
-DTEND;TZID="W. Europe Standard Time":20210108T130000
+CREATED:20210113T070756Z
+DESCRIPTION:Eine der größten Herausforderungen\, denen sich Software-Entw
+	ickler und Technical Leads stellen müssen\, ist der Umgang mit Legacy und
+	 technischen Schulden. Diese Herausforderung wird immer schwieriger\, da d
+	ie Lebensdauer von Software mit dem Aufkommen neuer Technologien steigt un
+	d die Verweildauer in Unternehmen immer kürzer wird. Wie kann man diese H
+	erausforderung angehen\, ohne Software dauernd neu zu schreiben?\nhttps://
+	www.youtube.com/watch?v=c4ljm7dqpgU\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210115T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20210108T120000
-LAST-MODIFIED:20210106T085939Z
-LOCATION:https://www.youtube.com/watch?v=ttL7MiF8VZw https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20210115T120000
+LAST-MODIFIED:20210113T070756Z
+LOCATION:https://www.youtube.com/watch?v=c4ljm7dqpgU https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Patrick Kua - Evolutionary Software Architecture - Soft
-	ware Architektur im Stream
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: André Neubauer: CTO = 
+	Chief Technical Debt Owner?
 TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR
