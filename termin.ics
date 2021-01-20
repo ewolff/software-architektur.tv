@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210113T070756Z
-DESCRIPTION:Eine der größten Herausforderungen\, denen sich Software-Entw
-	ickler und Technical Leads stellen müssen\, ist der Umgang mit Legacy und
-	 technischen Schulden. Diese Herausforderung wird immer schwieriger\, da d
-	ie Lebensdauer von Software mit dem Aufkommen neuer Technologien steigt un
-	d die Verweildauer in Unternehmen immer kürzer wird. Wie kann man diese H
-	erausforderung angehen\, ohne Software dauernd neu zu schreiben?\nhttps://
-	www.youtube.com/watch?v=c4ljm7dqpgU\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210115T130000
+CREATED:20210120T120051Z
+DESCRIPTION:Simon Brown is the author of Software Architecture for Develope
+	rs\; a developer-friendly guide to software architecture\, technical leade
+	rship and the balance with agility. He is also the creator of the C4 softw
+	are architecture model and the founder of Structurizr\, a collection of to
+	oling to help software teams visualise\, document and explore their softwa
+	re architecture. So naturally we will talk about software architecture - a
+	nd how C4 and Structurizr help!\n\nhttps://www.youtube.com/watch?v=YS0ySnn
+	lyto\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210122T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20210115T120000
-LAST-MODIFIED:20210113T070756Z
-LOCATION:https://www.youtube.com/watch?v=c4ljm7dqpgU https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20210122T120000
+LAST-MODIFIED:20210120T120051Z
+LOCATION:https://www.youtube.com/watch?v=YS0ySnnlyto https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: André Neubauer: CTO = 
-	Chief Technical Debt Owner?
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Simon Brown: C4 Archite
+	cture Model and Structurizr
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
