@@ -18,7 +18,7 @@ Simon Brown is the author of Software Architecture for Developers; a
 developer-friendly guide to software architecture, technical
 leadership and the balance with agility. He is also the creator of the
 C4 software architecture model and the founder of Structurizr, a
-collection of tooling to help software teams visualise, document and
+collection of tooling to help software teams visualize, document and
 explore their software architecture. So naturally we will talk about
 software architecture - and how C4 and Structurizr help!
 
