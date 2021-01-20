@@ -22,6 +22,10 @@ collection of tooling to help software teams visualise, document and
 explore their software architecture. So naturally we will talk about
 software architecture - and how C4 and Structurizr help!
 
+Questions as usually in the Twitch chat or YouTube chat, via
+[Twitter](https://twitter.com/ewolff) oder anonymous with the form
+below. Fragen auch gerne auf Deutsch.
+
 [In Kalendar eintragen](termin.ics)
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=YS0ySnnlyto)
