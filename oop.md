@@ -2,6 +2,8 @@
 title: Software Architektur im Stream - Live von der OOP!
 type: website
 description: Software Architektur im Stream - Live von der OOP!
+twitterimage: thumbnails/OOP.jpg
+twitterimage:alt: Software Architektur im Stream Logo für OOP
 ---
 
 # Software Architektur im Stream - Live von der OOP!
