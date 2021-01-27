@@ -37,6 +37,9 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
   Thema Eventual Consistency und stellt uns ihre ganz praktischen
   Regeln vor, wie man als Architekt man damit umgehen sollte.
   
+[YouTube](https://youtu.be/a5V8HLXBTfo)
+[Twitch](https://www.twitch.tv/ebrwolff)
+  
 ## Mittwoch 2021-02-10
 
 * **12:45-13:15 Stefan Toth** Enterprise Architektur und Agilität
@@ -51,11 +54,14 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
   sein, Fake-News und Deep-Fakes generieren. Wie können wir uns
   dagegen verwehren?
 
+[YouTube](https://youtu.be/f3mZEFCCKe8)
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 ## Donnerstag 2021-02-11
 * **12:45-13:15 Stefan Roock und Henning Wolf** sind agile Berater und
   wollen, dass wir Agilität auch wirklich ernst meinen. Außerdem
   finden sie, dass unsere Branche technische Skills vernachlässigt.
-* **13:20-13:50 Stefan Tilkov** sieht Softwarearchitektur als
+* **13:20-13:50 Stefan Tilkov** sieht Software-Architektur als
   entscheidenden Erfolgsfaktor für Softwareprojekte. Welche Rolle
   spielt diese Architektur für verschiedene Personengruppen und wie
   können wir damit umgehen?
@@ -63,6 +69,9 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
   kleines StartUp begonnen, ist dann stark gewachsten und mittlerweile
   von IBM gekauft. Wir diskutieren Site Reliability Engineering als
   Konzept und wie es sich bei Instana auf dieser Reise verändert hat.
+
+[YouTube](https://youtu.be/F3qcVSMOD2I)
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 ## Donnerstag 2021-02-11 English Evening
 * **18:30-19:00 Grady Booch** is one of the pioneers of software
@@ -77,3 +86,5 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
   architects can profit from these patterns and deal with the
   emotional, unconscious mind.
 
+[YouTube](https://youtu.be/wC-hK3NoVVM)
+[Twitch](https://www.twitch.tv/ebrwolff)
