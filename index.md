@@ -12,23 +12,11 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-01-22 12:00 Simon Brown: C4 Architecture Model and Structurizr
+# Freitag 2021-02-05 12:00 Thema noch offen
 
-Simon Brown is the author of Software Architecture for Developers; a
-developer-friendly guide to software architecture, technical
-leadership and the balance with agility. He is also the creator of the
-C4 software architecture model and the founder of Structurizr, a
-collection of tooling to help software teams visualize, document and
-explore their software architecture. So naturally we will talk about
-software architecture - and how C4 and Structurizr help!
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-Questions as usually in the Twitch chat or YouTube chat, via
-[Twitter](https://twitter.com/ewolff) oder anonymous with the form
-below. Fragen auch gerne auf Deutsch.
-
-[In Kalendar eintragen](termin.ics)
-
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=YS0ySnnlyto)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=YS0ySnnlyto) -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
