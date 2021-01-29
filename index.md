@@ -43,6 +43,35 @@ allowfullscreen></iframe>
 
 [Atom Feed der bisherigen Folgen](feed.xml)
 
+# Live von der OOP!
+
+Wir werden live von der OOP mit einigen Sprecher:innen
+diskutieren. 
+
+<div Aclass="embed-container">
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/w84ERjhTGYo"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</div>
+
+[Zeitplan & mehr Infos](/oop.html)
+
+# Live from OOP!
+
+We will present live discussion from OOP! 
+
+<div Aclass="embed-container">
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/NlCjQyr0vFk"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</div>
+
+[Timetable & more infos](/oop-english.html)
+
 # Fragen & Diskussion
 
 Gerne im Twitch-Chat oder YouTube-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
