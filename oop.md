@@ -21,6 +21,15 @@ führen. Zu sehen gibt es den Stream unter
 [https://www.youtube.com/user/ewolff](https://www.youtube.com/user/ewolff)
 und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 
+
+<div Aclass="embed-container">
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/1z7crJjEYNw"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</div>
+
 ## Dienstag 2021-02-09
 
 * **12:00-12:30 Michael Mahlberg** Auch Architektur-Entscheidungen
