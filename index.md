@@ -12,11 +12,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-02-05 12:00 Thema noch offen
+# Freitag 2021-02-05 12:00 Technische Schulden
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Oft wird Software immer schlechter wartbar, je länger
+Entwicklungsteams an ihr arbeiten. Dazu hat sich die Metapher
+"technische Schulden" etabliert. Aber es ist nicht immer sinnvoll,
+technische Schulden zu beseitigen und sie können auch "einfach so"
+entstehen. Darüber sprechen wir - und über die Grundlagen der
+Metapher, wie sie bei der Kommunikation mit Managern hilf, warum die
+Metapher eigentlich nicht besonders gut gewählt ist und natürlich wie
+man mit technischen Schulden sinnvoll umgehen kann.
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=YS0ySnnlyto) -->
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=aYE8vfNQulw)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 

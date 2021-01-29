@@ -20,25 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210120T120051Z
-DESCRIPTION:Simon Brown is the author of Software Architecture for Develope
-	rs\; a developer-friendly guide to software architecture\, technical leade
-	rship and the balance with agility. He is also the creator of the C4 softw
-	are architecture model and the founder of Structurizr\, a collection of to
-	oling to help software teams visualise\, document and explore their softwa
-	re architecture. So naturally we will talk about software architecture - a
-	nd how C4 and Structurizr help!\n\nhttps://www.youtube.com/watch?v=YS0ySnn
-	lyto\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210122T130000
+CREATED:20210129T091747Z
+DESCRIPTION:Oft wird Software immer schlechter wartbar\, je länger Entwick
+	lungsteams an ihr arbeiten. Dazu hat sich die Metapher "technische Schulde
+	n" etabliert. Aber  es ist nicht immer sinnvoll\, technische Schulden zu b
+	eseitigen und sie können auch "einfach so" entstehen. Darüber sprechen w
+	ir - und über die Grundlagen der Metapher\, wie sie bei der Kommunikation
+	 mit Managern hilf\, warum die Metapher eigentlich nicht besonders gut gew
+	ählt ist und natürlich wie man mit technischen Schulden sinnvoll umgehen
+	 kann.\n\nhttps://www.youtube.com/watch?v=aYE8vfNQulw\nhttps://www.twitch.
+	tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210205T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20210122T120000
-LAST-MODIFIED:20210120T120051Z
-LOCATION:https://www.youtube.com/watch?v=YS0ySnnlyto https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20210205T120000
+LAST-MODIFIED:20210129T091747Z
+LOCATION:https://www.youtube.com/watch?v=aYE8vfNQulw  https://www.twitch.tv
+	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Simon Brown: C4 Archite
-	cture Model and Structurizr
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Technische Schulden - E
+	berhard Wolff
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
