@@ -23,14 +23,14 @@ and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 
 ## Thursday 2021-02-11 English Evening
 
-* **18:30-19:00 Grady Booch** is one of the pioneers of software
+* **18:30-19:00 CET Grady Booch** is one of the pioneers of software
   architecture. Lately, he has been working on some pretty challenging
   AI systems. We want to talk about AI and software architecture.
-* **19:05-19:35 Aino Vonge Corry** We want to talk about
+* **19:05-19:35 CET Aino Vonge Corry** We want to talk about
   retrospectives in detail - how to make them great, where are some
   hidden pitfalls and how to take the best benefit out of
   retrospectives.
-* **19:40-20:10 Linda Rising** is well-known for Fearless Change, a
+* **19:40-20:10 CET Linda Rising** is well-known for Fearless Change, a
   practical guide to facility change. We will talk about how software
   architects can profit from these patterns and deal with the
   emotional, unconscious mind.
