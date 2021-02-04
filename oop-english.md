@@ -21,6 +21,14 @@ the stream at [https://www.youtube.com/user/ewolff](https://www.youtube.com/user
 and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 
 
+<div Aclass="embed-container">
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/NlCjQyr0vFk"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</div>
+
 ## Thursday 2021-02-11 English Evening
 
 * **18:30-19:00 CET Grady Booch** is one of the pioneers of software
