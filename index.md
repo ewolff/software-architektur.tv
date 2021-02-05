@@ -29,13 +29,13 @@ man mit technischen Schulden sinnvoll umgehen kann.
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- div Aclass="embed-container">
+<div Aclass="embed-container">
 <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/RIglic3vTlY"
+src="https://www.youtube-nocookie.com/embed/R7-o46aCSGU"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
-</div -->
+</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
