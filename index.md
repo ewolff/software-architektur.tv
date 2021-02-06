@@ -12,30 +12,31 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-02-05 12:00 Technische Schulden
+<!-- # Freitag 2021-02-05 12:00 Technische Schulden -->
 
-Oft wird Software immer schlechter wartbar, je länger
-Entwicklungsteams an ihr arbeiten. Dazu hat sich die Metapher
-"technische Schulden" etabliert. Aber es ist nicht immer sinnvoll,
-technische Schulden zu beseitigen und sie können auch "einfach so"
-entstehen. Darüber sprechen wir - und über die Grundlagen der
-Metapher, wie sie bei der Kommunikation mit Managern hilf, warum die
-Metapher eigentlich nicht besonders gut gewählt ist und natürlich wie
-man mit technischen Schulden sinnvoll umgehen kann.
+<!-- Oft wird Software immer schlechter wartbar, je länger -->
+<!-- Entwicklungsteams an ihr arbeiten. Dazu hat sich die Metapher -->
+<!-- "technische Schulden" etabliert. Aber es ist nicht immer sinnvoll, -->
+<!-- technische Schulden zu beseitigen und sie können auch "einfach so" -->
+<!-- entstehen. Darüber sprechen wir - und über die Grundlagen der -->
+<!-- Metapher, wie sie bei der Kommunikation mit Managern hilf, warum die -->
+<!-- Metapher eigentlich nicht besonders gut gewählt ist und natürlich wie -->
+<!-- man mit technischen Schulden sinnvoll umgehen kann. -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=aYE8vfNQulw)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=aYE8vfNQulw) -->
+
+
+<!-- <div Aclass="embed-container"> -->
+<!-- <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/R7-o46aCSGU" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> -->
+<!-- </div> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-<div Aclass="embed-container">
-<iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/R7-o46aCSGU"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</div>
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
