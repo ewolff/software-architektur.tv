@@ -12,16 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-<!-- # Freitag 2021-02-05 12:00 Technische Schulden -->
-
-<!-- Oft wird Software immer schlechter wartbar, je länger -->
-<!-- Entwicklungsteams an ihr arbeiten. Dazu hat sich die Metapher -->
-<!-- "technische Schulden" etabliert. Aber es ist nicht immer sinnvoll, -->
-<!-- technische Schulden zu beseitigen und sie können auch "einfach so" -->
-<!-- entstehen. Darüber sprechen wir - und über die Grundlagen der -->
-<!-- Metapher, wie sie bei der Kommunikation mit Managern hilf, warum die -->
-<!-- Metapher eigentlich nicht besonders gut gewählt ist und natürlich wie -->
-<!-- man mit technischen Schulden sinnvoll umgehen kann. -->
+# Freitag 2021-02-12 12:00 Diversity
 
 <!-- [In Kalendar eintragen](termin.ics) -->
 
@@ -43,35 +34,6 @@ stellen.
 [Audio der Folgen als Podcast](podcast.html)
 
 [Atom Feed der bisherigen Folgen](feed.xml)
-
-# Live von der OOP!
-
-Wir werden live von der OOP mit einigen Sprecher:innen
-diskutieren. 
-
-<div Aclass="embed-container">
-<iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/w84ERjhTGYo"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</div>
-
-[Zeitplan & mehr Infos](/oop.html)
-
-# Live from OOP!
-
-We will present live discussion from OOP! 
-
-<div Aclass="embed-container">
-<iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/NlCjQyr0vFk"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</div>
-
-[Timetable & more infos](/oop-english.html)
 
 # Fragen & Diskussion
 
