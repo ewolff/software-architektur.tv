@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-02-12 12:00 Diversity
+# Freitag 2021-02-19 12:00 Diversity
 
 <!-- [In Kalendar eintragen](termin.ics) -->
 
