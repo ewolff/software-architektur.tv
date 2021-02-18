@@ -27,6 +27,7 @@ das eine gute Idee ist.
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=Jh7ive1xiLE)
 
+![Thumbnail](/thumbnails/folge44.png)
 
 <!-- <div Aclass="embed-container"> -->
 <!-- <iframe width="560" height="315" -->
