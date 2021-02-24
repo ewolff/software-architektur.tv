@@ -12,20 +12,12 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-02-19 12:00 Diversity
+# Freitag 2021-02-26 12:00 Agilität
 
-Gerade in der Software-Entwicklung sind viele Gruppen
-unterrepräsentiert. Führen zu homogene Teams eigentlich zu
-schlechterer Software? Und warum? Das Thema hat auf jeden Fall
-Auswirkungen auf Software-Architekt:innen, unser Arbeitsumfeld und
-unsere Arbeitgeber. In dieser Episode diskutieren wir mit Lars Hupel,
-Lena Kraaz und Aminata Sidibe von INNOQ, wie Diversity in der
-Software-Architektur und -Entwicklung verbessert werden kann und ob
-das eine gute Idee ist.
-
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=Jh7ive1xiLE)
+
 
 ![Thumbnail](/thumbnails/folge44.png)
 
