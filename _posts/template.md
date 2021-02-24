@@ -1,0 +1,14 @@
+---
+title: Folge - 
+layout: folge
+video: Hex Code You Tube
+embedded-mp3: link
+mp3: link
+description: 
+thumbnail: OOP.jpg
+---
+
+![Sketchnotes](/sketchnotes/)
+
+## Links
+
