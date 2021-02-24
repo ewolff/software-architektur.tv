@@ -16,10 +16,7 @@ stellen.
 
 <!-- [In Kalendar eintragen](termin.ics) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=Jh7ive1xiLE)
-
-
-![Thumbnail](/thumbnails/folge44.png)
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=o0oPE4Tbqxw)
 
 <!-- <div Aclass="embed-container"> -->
 <!-- <iframe width="560" height="315" -->
