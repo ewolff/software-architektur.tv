@@ -15,11 +15,13 @@ stellen.
 # Freitag 2021-02-26 12:00 Agilität
 
 Agilität ist der dominierende Ansatz für Software-Entwicklung. Aber
-auch 20 Jahre nach dem agilen Manifest sind wir immer noch dabei,
-agilen Software-Entwicklung wirklich umzusetzen. In dieser Episode
-geht es darum, warum Wasserfall nicht die Lösung ist und wo es bei
-Agilität hakt - und natürlich auch darum, wie man dennoch mit Agilität
-erfolgreich sein kann.
+auch 20 Jahre nach dem agilen Manifest sind zahlreiche Organisation
+immer noch dabei, agile Software-Entwicklung einzuführen. Und selbst
+Organisationen, die agile Prozesse scheinbar umgesetzt haben, beachten
+dennoch einige grundlegende Praktiken nicht. In dieser Episode geht es
+darum, warum Wasserfall nicht die Lösung für Software-Entwicklung ist
+und wo es bei Agilität hakt - und natürlich auch darum, wie man
+dennoch mit Agilität erfolgreich sein kann.
 
 [In Kalendar eintragen](termin.ics)
 
