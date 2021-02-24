@@ -20,25 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210217T180622Z
-DESCRIPTION:Gerade in der Software-Entwicklung sind viele Gruppen unterrepr
-	äsentiert. Führen zu homogene Teams eigentlich zu schlechterer Software?
-	 Und warum? Das Thema hat auf jeden Fall Auswirkungen auf Software-Archite
-	kt:innen\, unser Arbeitsumfeld und unsere Arbeitgeber. In dieser Episode d
-	iskutieren wir mit Lars Hupel\, Lena Kraaz und Aminata Sidibe von INNOQ\, 
-	wie Diversity in der Software-Architektur und -Entwicklung verbessert werd
-	en kann und ob das eine gute Idee ist.\n\nhttps://www.youtube.com/watch?v=
-	Jh7ive1xiLE\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210219T130000
+CREATED:20210224T143556Z
+DESCRIPTION:Agilität ist der dominierende Ansatz für Software-Entwicklung
+	. Aber auch 20 Jahre nach dem agilen Manifest sind wir immer noch dabei\, 
+	agilen Software-Entwicklung wirklich umzusetzen. In dieser Episode geht es
+	 darum\, warum Wasserfall nicht die Lösung ist und wo es bei Agilität ha
+	kt - und natürlich auch darum\, wie man dennoch mit Agilität erfolgreich
+	 sein kann.\n\nhttps://www.youtube.com/watch?v=o0oPE4Tbqxw\nhttps://www.tw
+	itch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20210226T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20210219T120000
-LAST-MODIFIED:20210217T180622Z
-LOCATION:https://www.youtube.com/watch?v=Jh7ive1xiLE  https://www.twitch.tv
+DTSTART;TZID="W. Europe Standard Time":20210226T120000
+LAST-MODIFIED:20210224T143556Z
+LOCATION:https://www.youtube.com/watch?v=o0oPE4Tbqxw  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Technische Schulden - E
-	berhard Wolff
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Agilitiät - Eberhard W
+	olff
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
