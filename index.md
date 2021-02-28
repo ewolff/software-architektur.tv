@@ -12,26 +12,18 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-02-26 12:00 Agilität
+# Freitag 2021-03-05 12:00 Thema noch offen
 
-Agilität ist der dominierende Ansatz für Software-Entwicklung. Aber
-auch 20 Jahre nach dem agilen Manifest sind zahlreiche Organisation
-immer noch dabei, agile Software-Entwicklung einzuführen. Und selbst
-Organisationen, die agile Prozesse scheinbar umgesetzt haben, beachten
-dennoch einige grundlegende Praktiken nicht. In dieser Episode geht es
-darum, warum Wasserfall nicht die Lösung für Software-Entwicklung ist
-und wo es bei Agilität hakt - und natürlich auch darum, wie man
-dennoch mit Agilität erfolgreich sein kann.
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=o0oPE4Tbqxw)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=o0oPE4Tbqxw) -->
 
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/9LK-S-P_Fn4"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/9LK-S-P_Fn4" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
