@@ -24,7 +24,7 @@ Unternehmen leicht zugänglich bündeln? Sollten Unternehmen eine
 API-Strategie haben?
 
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+[In Kalendar eintragen](termin.ics)
 
 <!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=o0oPE4Tbqxw) -->
 
