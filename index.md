@@ -12,7 +12,16 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-03-05 12:00 Thema noch offen
+# Freitag 2021-03-05 12:00 APIs mit Erik Wilde
+
+APIs sind ein wesentlicher Teil moderner Software-Entwicklung. Ansätze
+wie API Economy oder API first sind eine Antwort auf die zunehmende
+Integration in der IT, bei der die Grenzen zwischen Systemen immer
+weiter verschwimmen. In dieser Folge sprechen wir mit Erik Wilde und
+diskutieren, wie man mit APIs praktisch umgeht. Wie können APIs
+wiederverwendbar werden? Wie können wir die Informationen im
+Unternehmen leicht zugänglich bündeln? Sollten Unternehmen eine
+API-Strategie haben?
 
 
 <!-- [In Kalendar eintragen](termin.ics) -->
