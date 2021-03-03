@@ -26,7 +26,7 @@ API-Strategie haben?
 
 [In Kalendar eintragen](termin.ics)
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=o0oPE4Tbqxw) -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=GYtSM6jpV5o)
 
 <!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
 <!-- src="https://www.youtube-nocookie.com/embed/9LK-S-P_Fn4" -->
