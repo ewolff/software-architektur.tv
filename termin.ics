@@ -20,25 +20,20 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210303T175922Z
-DESCRIPTION:APIs sind ein wesentlicher Teil moderner Software-Entwicklung. 
-	Ansätze wie API Economy oder API first sind eine Antwort auf die zunehmen
-	de Integration in der IT\, bei der die Grenzen zwischen Systemen immer wei
-	ter verschwimmen. In dieser Folge sprechen wir mit Erik Wilde und diskutie
-	ren\, wie man mit APIs praktisch umgeht. Wie können APIs wiederverwendbar
-	 werden? Wie können wir die Informationen im Unternehmen leicht zugängli
-	ch bündeln? Sollten Unternehmen eine API-Strategie haben?\n\nhttps://www.
-	youtube.com/watch?v=GYtSM6jpV5o\nhttps://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20210305T130000
+CREATED:20210317T165425Z
+DESCRIPTION:In dieser Folge beantworte ich eure Fragen\, die ihr entweder i
+	m Chat stellt - oder vorab im Formular auf der Website http://software-arc
+	hitektur.tv oder bei Twitter. Eine Frage zu Microservices und eine zu Tech
+	nical Debt habe ich bereits.\n\nhttps://www.youtube.com/watch?v=aaDZ_03RWr
+	A\nhttps://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20210319T130000
 DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20210305T120000
-LAST-MODIFIED:20210303T175922Z
-LOCATION:https://www.youtube.com/watch?v=GYtSM6jpV5o  https://www.twitch.tv
+DTSTART;TZID="W. Europe Standard Time":20210319T120000
+LOCATION:https://www.youtube.com/watch?v=aaDZ_03RWrA  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: APIs - Eberhard Wolff u
-	nd Erik Wilde
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Q&A
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1

@@ -12,29 +12,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächste Folge: offen
+# Freitag 2021-03-19 12:00 Fragen Q&A
 
-<!-- Freitag 2021-03-05 12:00 APIs mit Erik Wilde -->
+In dieser Folge beantworte ich eure Fragen, die ihr entweder im Chat
+stellt - oder vorab im Formular hier auf der Website oder bei
+Twitter. Eine Frage zu Microservices und eine zu Technical Debt habe
+ich bereits.
 
-<!-- APIs sind ein wesentlicher Teil moderner Software-Entwicklung. Ansätze -->
-<!-- wie API Economy oder API first sind eine Antwort auf die zunehmende -->
-<!-- Integration in der IT, bei der die Grenzen zwischen Systemen immer -->
-<!-- weiter verschwimmen. In dieser Folge sprechen wir mit Erik Wilde und -->
-<!-- diskutieren, wie man mit APIs praktisch umgeht. Wie können APIs -->
-<!-- wiederverwendbar werden? Wie können wir die Informationen im -->
-<!-- Unternehmen leicht zugänglich bündeln? Sollten Unternehmen eine -->
-<!-- API-Strategie haben? -->
+[In Kalendar eintragen](termin.ics)
 
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=aaDZ_03RWrA)
 
-<!-- [In Kalendar eintragen](termin.ics) -->
-
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=GYtSM6jpV5o) -->
-
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/aWEFjMcijHo" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Ke69iKdWcRk"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
