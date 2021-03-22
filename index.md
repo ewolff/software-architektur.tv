@@ -12,22 +12,17 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2021-03-19 12:00 Fragen Q&A
+# Nächster Termin: Offen
 
-In dieser Folge beantworte ich eure Fragen, die ihr entweder im Chat
-stellt - oder vorab im Formular hier auf der Website oder bei
-Twitter. Eine Frage zu Microservices und eine zu Technical Debt habe
-ich bereits.
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=aaDZ_03RWrA) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=aaDZ_03RWrA)
-
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/Ke69iKdWcRk"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/Ke69iKdWcRk" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
