@@ -20,23 +20,34 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210317T165425Z
-DESCRIPTION:In dieser Folge beantworte ich eure Fragen\, die ihr entweder i
-	m Chat stellt - oder vorab im Formular auf der Website http://software-arc
-	hitektur.tv oder bei Twitter. Eine Frage zu Microservices und eine zu Tech
-	nical Debt habe ich bereits.\n\nhttps://www.youtube.com/watch?v=aaDZ_03RWr
-	A\nhttps://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20210319T130000
-DTSTAMP:20201208T134814Z
-DTSTART;TZID="W. Europe Standard Time":20210319T120000
-LOCATION:https://www.youtube.com/watch?v=aaDZ_03RWrA  https://www.twitch.tv
+CREATED:20210329T160737Z
+DESCRIPTION:Spring Native soll die Möglichkeit bieten\, Spring-Boot-Anwend
+	ungen ohne größeren Aufwand mit der GraalVM in nativen Code zu kompilier
+	en. Das verspricht schnellere Startup-Zeiten - gerade für Umgebungen wie 
+	Kubernetes wichtig. Ich habe mein Istio-Microservices-Beispiel darauf umge
+	stellt und will einen Blick in die Werkstatt geben: Wie bin ich vorgegange
+	n? Was habe ich beobachtet? Das Beispiel und eine kurze Anleitung stehen o
+	nline bereit <https://github.com/ewolff/microservice-istio/blob/master/WIE
+	-LAUFEN.md#native-images-bauen-und-ausf%C3%BChren> .\n\nhttps://www.youtub
+	e.com/watch?v=rjN8DSoxGCo\nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210401T130000
+DTSTAMP:20210329T160737Z
+DTSTART;TZID="W. Europe Standard Time":20210401T120000
+LAST-MODIFIED:20210329T160737Z
+LOCATION:https://www.youtube.com/watch?v=rjN8DSoxGCo https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Q&A
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: GraalVM mit Spring Nati
+	ve\, Spring Boot und Spring Cloud
 TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000D09DCABD8B22D701000000000000000
+	01000000000704D01B327D646BE2993C6B67890CE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
 END:VEVENT
 END:VCALENDAR
