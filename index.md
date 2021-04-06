@@ -12,18 +12,27 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-04-09 12:00 
+# Nächster Termin: Freitag 2021-04-09 12:00 Peter Gafert zu ArchUnit
 
+Es gibt zahlreiche Werkzeuge für Software-Architektur-Management. Mit
+ArchUnit können Software-Architekt:innen in Java Regeln für
+Java-basierte Projekte definieren, die als Unit-Test ausgeführt
+werden. Diese Regeln stellen sicher, dass die definierte Architektur
+auch eingehalten wird. Peter Gafert ist Erfinder dieser Library. Er
+wird unsere Fragen beantworten und zeigen, wie man ArchUnit nutzen
+kann. Darüber hinaus gibt er einen Einblick in die Erfahrungen, die er
+mit ArchUnit in seinen Projekten gemacht hat, und in die Auswirkungen
+auf den Prozess zur Definition einer Architektur.
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+[In Kalendar eintragen](termin.ics)
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=rjN8DSoxGCo) -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XgVlEagYA_w)
 
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/7Og6Ms-QtFg" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/XEngw0zwRhU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 

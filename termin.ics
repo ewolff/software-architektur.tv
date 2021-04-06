@@ -20,29 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210329T160737Z
-DESCRIPTION:Spring Native soll die Möglichkeit bieten\, Spring-Boot-Anwend
-	ungen ohne größeren Aufwand mit der GraalVM in nativen Code zu kompilier
-	en. Das verspricht schnellere Startup-Zeiten - gerade für Umgebungen wie 
-	Kubernetes wichtig. Ich habe mein Istio-Microservices-Beispiel darauf umge
-	stellt und will einen Blick in die Werkstatt geben: Wie bin ich vorgegange
-	n? Was habe ich beobachtet? Das Beispiel und eine kurze Anleitung stehen o
-	nline bereit <https://github.com/ewolff/microservice-istio/blob/master/WIE
-	-LAUFEN.md#native-images-bauen-und-ausf%C3%BChren> .\n\nhttps://www.youtub
-	e.com/watch?v=rjN8DSoxGCo\nhttps://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210401T130000
+CREATED:20210406T131231Z
+DESCRIPTION:Es gibt zahlreiche Werkzeuge für Software-Architektur-Manageme
+	nt. Mit ArchUnit können Software-Architekt:innen in Java Regeln für Java
+	-basierte Projekte definieren\, die als Unit-Test ausgeführt werden. Dies
+	e Regeln stellen sicher\, dass die definierte Architektur auch eingehalten
+	 wird. Peter Gafert ist Erfinder dieser Library. Er wird unsere Fragen bea
+	ntworten und zeigen\, wie man ArchUnit nutzen kann. Darüber hinaus gibt e
+	r einen Einblick in die Erfahrungen\, die er mit ArchUnit in seinen Projek
+	ten gemacht hat\, und in die Auswirkungen auf den Prozess zur Definition e
+	iner Architektur.\n\nhttps://www.youtube.com/watch?v=XgVlEagYA_w\nhttps://
+	www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210409T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210401T120000
-LAST-MODIFIED:20210329T160737Z
-LOCATION:https://www.youtube.com/watch?v=rjN8DSoxGCo https://www.twitch.tv
-	/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20210409T120000
+LAST-MODIFIED:20210406T131231Z
+LOCATION:https://www.youtube.com/watch?v=XgVlEagYA_w https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: GraalVM mit Spring Nati
-	ve\, Spring Boot und Spring Cloud
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Peter Gafert zu ArchUni
+	t
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000D09DCABD8B22D701000000000000000
-	01000000000704D01B327D646BE2993C6B67890CE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
