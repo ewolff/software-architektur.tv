@@ -12,29 +12,18 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Gründonnerstag 2021-03-01 12:00 GraalVM mit Spring Native, Spring Boot und Spring Cloud
-
-Spring Native soll die Möglichkeit bieten, Spring-Boot-Anwendungen
-ohne größeren Aufwand mit der GraalVM in nativen Code zu
-kompilieren. Das verspricht schnellere Startup-Zeiten - gerade für
-Umgebungen wie Kubernetes wichtig. Ich habe mein
-Istio-Microservices-Beispiel darauf umgestellt und will einen Blick in
-die Werkstatt geben: Wie bin ich vorgegangen? Was habe ich beobachtet?
-Das Beispiel und eine kurze Anleitung stehen [online
-bereit](https://github.com/ewolff/microservice-istio/blob/master/WIE-LAUFEN.md#native-images-bauen-und-ausf%C3%BChren).
+# Nächster Termin: Freitag 2021-04-09 12:00 
 
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=rjN8DSoxGCo)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=rjN8DSoxGCo) -->
 
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/7Og6Ms-QtFg"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-
-
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/7Og6Ms-QtFg" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
