@@ -14,7 +14,7 @@ stellen.
 
 # Nächster Termin: Freitag 2021-04-16 12:00 Remote Mob Programming
 
-[In Kalendar eintragen]<!-- (termin.ics) -->
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 <!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XgVlEagYA_w) -->
 
