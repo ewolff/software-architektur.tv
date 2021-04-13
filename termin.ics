@@ -20,27 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210406T131231Z
-DESCRIPTION:Es gibt zahlreiche Werkzeuge für Software-Architektur-Manageme
-	nt. Mit ArchUnit können Software-Architekt:innen in Java Regeln für Java
-	-basierte Projekte definieren\, die als Unit-Test ausgeführt werden. Dies
-	e Regeln stellen sicher\, dass die definierte Architektur auch eingehalten
-	 wird. Peter Gafert ist Erfinder dieser Library. Er wird unsere Fragen bea
-	ntworten und zeigen\, wie man ArchUnit nutzen kann. Darüber hinaus gibt e
-	r einen Einblick in die Erfahrungen\, die er mit ArchUnit in seinen Projek
-	ten gemacht hat\, und in die Auswirkungen auf den Prozess zur Definition e
-	iner Architektur.\n\nhttps://www.youtube.com/watch?v=XgVlEagYA_w\nhttps://
-	www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210409T130000
+CREATED:20210413T164805Z
+DESCRIPTION:Mob Programming: Einer/eine tippt\, die anderen denken. Das ver
+	spricht Softwareentwicklung mit dem ultimativen Teamerlebnis und dem ultim
+	ativem Teamergebnis - und das funktioniert wunderbar auch im Homeoffice mi
+	t Remote Mob Programming. In diesem Stream zeigen wir Remote Mob Programmi
+	ng live und bieten die Möglichkeit\, Fragen von einem Remote-Mob-Programm
+	ing-Team beantworten zu lassen\, das seit über zwei Jahren ausschließlic
+	h diese Vorgehensweise anwendet.\n\nAber Vorsicht: Es besteht die Gefahr\,
+	 dass man nicht mehr anders arbeiten will!\n\nhttps://www.youtube.com/watc
+	h?v=-02gte-IKpY\nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210416T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210409T120000
-LAST-MODIFIED:20210406T131231Z
-LOCATION:https://www.youtube.com/watch?v=XgVlEagYA_w https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20210416T120000
+LAST-MODIFIED:20210413T164805Z
+LOCATION:https://www.youtube.com/watch?v=-02gte-IKpY https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Peter Gafert zu ArchUni
-	t
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Remote Mob Programming 
+	mit Jochen Christ\, Franziska Dessart\, Simon Harrer\, Martin Hubert
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
