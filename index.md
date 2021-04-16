@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-04-16 12:00 Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Hubert
+# Nächster Termin: Freitag 2021-04-16 12:00 Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber
 
 Mob Programming: Einer/eine tippt, die anderen denken. Das verspricht
 Softwareentwicklung mit dem ultimativen Teamerlebnis und dem
