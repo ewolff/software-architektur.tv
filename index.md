@@ -12,28 +12,17 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-04-16 12:00 Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber
+# Nächster Termin: Freitag 2021-04-30 12:00 Carola Lilienthal zu langelebigen Software-Architekturen
 
-Mob Programming: Einer/eine tippt, die anderen denken. Das verspricht
-Softwareentwicklung mit dem ultimativen Teamerlebnis und dem
-ultimativem Teamergebnis - und das funktioniert wunderbar auch im
-Homeoffice mit Remote Mob Programming. In diesem Stream zeigen wir
-Remote Mob Programming live und bieten die Möglichkeit, Fragen von
-einem Remote-Mob-Programming-Team beantworten zu lassen, das seit über
-zwei Jahren ausschließlich diese Vorgehensweise anwendet. 
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-Aber Vorsicht: Es besteht die Gefahr, dass man nicht mehr anders
-arbeiten will!
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=-02gte-IKpY) -->
 
-[In Kalendar eintragen](termin.ics)
-
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=-02gte-IKpY)
-
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/FQdAWxK_51Q"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/FQdAWxK_51Q" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
