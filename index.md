@@ -14,9 +14,9 @@ stellen.
 
 # Nächster Termin: Freitag 2021-04-30 12:00 Carola Lilienthal zu langelebigen Software-Architekturen
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+[In Kalendar eintragen](termin.ics)
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=-02gte-IKpY) -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=TPLb4q95ZC4)
 
 <!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
 <!-- src="https://www.youtube-nocookie.com/embed/FQdAWxK_51Q" -->
