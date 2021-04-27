@@ -14,6 +14,15 @@ stellen.
 
 # Nächster Termin: Freitag 2021-04-30 12:00 Carola Lilienthal zu langelebigen Software-Architekturen
 
+Software ist oft sehr langlebig und überlebt manchmal sogar die
+ursprünglichen Programmier:innen. Carola Lilienthal beschäftigt sich
+mit dieser Herausforderung schon lange - unter anderem hat sie dazu
+promoviert und sogar ein sehr erfolgreiches Buch geschrieben. In
+dieser Folge wollen wir darüber sprechen, wie Software-Architektur
+auch langfristig tragen kann und welche Rollen dabei Metriken und
+Software-Architektur-Werkzeuge spielen.
+
+
 [In Kalendar eintragen](termin.ics)
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=TPLb4q95ZC4)
