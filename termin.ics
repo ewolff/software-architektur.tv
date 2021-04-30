@@ -20,28 +20,20 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210427T053219Z
-DESCRIPTION:Software ist oft sehr langlebig und überlebt manchmal sogar di
-	e ursprünglichen Programmier:innen. Carola Lilienthal beschäftigt sich m
-	it dieser Herausforderung schon lange - unter anderem hat sie dazu promovi
-	ert und sogar ein sehr erfolgreiches Buch geschrieben. In dieser Folge wol
-	len wir darüber sprechen\, wie Software-Architektur auch langfristig trag
-	en kann und welche Rollen dabei Metriken und Software-Architektur-Werkzeug
-	e spielen.\n\nhttps://www.youtube.com/watch?v=TPLb4q95ZC4\nhttps://www.twi
-	tch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210430T130000
+CREATED:20210430T131524Z
+DESCRIPTION:https://www.youtube.com/watch?v=XHd3OICJHs0\nhttps://www.twitch
+	.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210507T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210430T120000
-LAST-MODIFIED:20210427T053219Z
-LOCATION:https://www.youtube.com/watch?v=TPLb4q95ZC4 https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20210507T120000
+LAST-MODIFIED:20210430T131524Z
+LOCATION:https://www.youtube.com/watch?v=XHd3OICJHs0  https://www.twitch.tv
+	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Carola Lilienthal zu la
-	nglebigen Software-Architekturen
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: jQAssistant mit Dirk Ma
+	hler
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000000A5C774373BD701000000000000000
-	010000000453BDD654039FB45AD6822A19832D873
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE

@@ -12,28 +12,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-04-30 12:00 Carola Lilienthal zu langelebigen Software-Architekturen
-
-Software ist oft sehr langlebig und überlebt manchmal sogar die
-ursprünglichen Programmier:innen. Carola Lilienthal beschäftigt sich
-mit dieser Herausforderung schon lange - unter anderem hat sie dazu
-promoviert und sogar ein sehr erfolgreiches Buch geschrieben. In
-dieser Folge wollen wir darüber sprechen, wie Software-Architektur
-auch langfristig tragen kann und welche Rollen dabei Metriken und
-Software-Architektur-Werkzeuge spielen.
-
+# Nächster Termin: Freitag 2021-05-07 12:00 jQAssistant mit Dirk Mahler
 
 [In Kalendar eintragen](termin.ics)
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=TPLb4q95ZC4)
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XHd3OICJHs0)
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/ktKTMtDGOgw"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/ktKTMtDGOgw" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
