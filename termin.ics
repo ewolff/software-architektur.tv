@@ -20,13 +20,18 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210430T131524Z
-DESCRIPTION:https://www.youtube.com/watch?v=XHd3OICJHs0\nhttps://www.twitch
-	.tv/ebrwolff \n
+CREATED:20210504T154018Z
+DESCRIPTION:jQAssistant ist ein Open-Source-Werkzeug für das Software-Arch
+	itektur-Management. In dieser Folge sprechen wir mit dem Lead-Entwickler D
+	irk Mahler über die Features von jQAssistant\, seine Erfahrungen beim Pro
+	jekt-Einsatz und wie Software-Architektur-Management in den Entwicklungspr
+	ozess eingebettet werden kann. Dabei sehen wir uns das Werkzeug natürlich
+	 auch live in der Benutzung an.\n\nhttps://www.youtube.com/watch?v=XHd3OIC
+	JHs0\nhttps://www.twitch.tv/ebrwolff \n
 DTEND;TZID="W. Europe Standard Time":20210507T130000
 DTSTAMP:20210329T160737Z
 DTSTART;TZID="W. Europe Standard Time":20210507T120000
-LAST-MODIFIED:20210430T131524Z
+LAST-MODIFIED:20210504T154018Z
 LOCATION:https://www.youtube.com/watch?v=XHd3OICJHs0  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5

@@ -14,6 +14,14 @@ stellen.
 
 # Nächster Termin: Freitag 2021-05-07 12:00 jQAssistant mit Dirk Mahler
 
+jQAssistant ist ein Open-Source-Werkzeug für das
+Software-Architektur-Management. In dieser Folge sprechen wir mit dem
+Lead-Entwickler Dirk Mahler über die Features von jQAssistant, seine
+Erfahrungen beim Projekt-Einsatz und wie
+Software-Architektur-Management in den Entwicklungsprozess eingebettet
+werden kann. Dabei sehen wir uns das Werkzeug natürlich auch live in
+der Benutzung an.
+
 [In Kalendar eintragen](termin.ics)
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XHd3OICJHs0)
