@@ -12,27 +12,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-05-07 12:00 jQAssistant mit Dirk Mahler
+# Nächster Termin: Freitag 2021-05-14 12:00 Thema offen
 
-jQAssistant ist ein Open-Source-Werkzeug für das
-Software-Architektur-Management. In dieser Folge sprechen wir mit dem
-Lead-Entwickler Dirk Mahler über die Features von jQAssistant, seine
-Erfahrungen beim Projekt-Einsatz und wie
-Software-Architektur-Management in den Entwicklungsprozess eingebettet
-werden kann. Dabei sehen wir uns das Werkzeug natürlich auch live in
-der Benutzung an.
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XHd3OICJHs0) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XHd3OICJHs0)
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/QhdnwymECZ0"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/QhdnwymECZ0" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
