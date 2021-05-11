@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-05-14 12:00 Thema offen
+# Nächster Termin: Freitag 2021-05-21 12:00 Thema offen
 
 <!-- [In Kalendar eintragen](termin.ics) -->
 
