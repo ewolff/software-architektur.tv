@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210504T154018Z
-DESCRIPTION:jQAssistant ist ein Open-Source-Werkzeug für das Software-Arch
-	itektur-Management. In dieser Folge sprechen wir mit dem Lead-Entwickler D
-	irk Mahler über die Features von jQAssistant\, seine Erfahrungen beim Pro
-	jekt-Einsatz und wie Software-Architektur-Management in den Entwicklungspr
-	ozess eingebettet werden kann. Dabei sehen wir uns das Werkzeug natürlich
-	 auch live in der Benutzung an.\n\nhttps://www.youtube.com/watch?v=XHd3OIC
-	JHs0\nhttps://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210507T130000
+CREATED:20210518T061628Z
+DESCRIPTION:Der Klimawandel geht uns alle an. Was können wir als Software-
+	Architekt:innen dazu beitragen\, dieses Problem zu lösen? Martin Lippert 
+	und Stefan Roock zeigen zwei sehr unterschiedliche Ansätze mit dieser Her
+	ausforderung umzugehen. Wir wollen diskutieren\, wie wir dem Klimawandel b
+	ei unseren eigenen täglichen beruflichen Arbeit begegnen können\, aber a
+	uch wie der Betrieb und die Entwicklung von Software dem Klimawandel begeg
+	nen kann.\n\nhttps://www.youtube.com/watch?v=UEWaxr_ds2w\nhttps://www.twit
+	ch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210521T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210507T120000
-LAST-MODIFIED:20210504T154018Z
-LOCATION:https://www.youtube.com/watch?v=XHd3OICJHs0  https://www.twitch.tv
+DTSTART;TZID="W. Europe Standard Time":20210521T120000
+LAST-MODIFIED:20210518T061628Z
+LOCATION:https://www.youtube.com/watch?v=UEWaxr_ds2w  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: jQAssistant mit Dirk Ma
-	hler
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Klimawandel & Software 
+	Architektur mit Martin Lippert und Stefan Roock
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1

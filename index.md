@@ -12,19 +12,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formuluar unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-05-21 12:00 Thema offen
+# Nächster Termin: Freitag 2021-05-21 12:00 Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+[In Kalendar eintragen](termin.ics)
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=XHd3OICJHs0) -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=UEWaxr_ds2w)
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/QhdnwymECZ0" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/tKpFVw93mY8"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
