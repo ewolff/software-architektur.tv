@@ -1,4 +1,4 @@
-#0;10;1cBEGIN:VCALENDAR
+BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
@@ -20,7 +20,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210522T172934Z
+CREATED:20210525T190226Z
 DESCRIPTION:Mit dem Werkzeug Sonargraph können Architekt:innen nicht nur 
 	überprüfen\, ob Anwendungen die Architektur-Vorgaben einhalten\, sondern
 	 auch die Architektur existierender Software-Systeme auf verschiedene Arte
@@ -34,7 +34,7 @@ DESCRIPTION:Mit dem Werkzeug Sonargraph können Architekt:innen nicht nur
 DTEND;TZID="W. Europe Standard Time":20210528T130000
 DTSTAMP:20210329T160737Z
 DTSTART;TZID="W. Europe Standard Time":20210528T120000
-LAST-MODIFIED:20210525T172934Z
+LAST-MODIFIED:20210525T190226Z
 LOCATION:https://www.youtube.com/watch?v=FP-gENkmBow  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
