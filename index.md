@@ -9,7 +9,7 @@ Live-Diskussion zu Software-Architektur im Stream.
 Einmal in der Woche diskutiert Eberhard Wolff Software-Architektur im
 Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
-das Formuluar unten mitdiskutieren oder Fragen
+das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
 # Nächster Termin: Freitag 2021-05-28 12:00 Alexander von Zitzewitz zu Architektur-Management mit Sonargraph
