@@ -1,4 +1,4 @@
-BEGIN:VCALENDAR
+#0;10;1cBEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
@@ -31,10 +31,10 @@ DESCRIPTION:Mit dem Werkzeug Sonargraph können Architekt:innen nicht nur
 	Domain Specific Language)\, mit der man die Abhängigkeiten von Software-S
 	ystemen managen kann.\n\nhttps://www.youtube.com/watch?v=FP-gENkmBow\nhttp
 	s://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210521T130000
+DTEND;TZID="W. Europe Standard Time":20210528T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210521T120000
-LAST-MODIFIED:20210522T172934Z
+DTSTART;TZID="W. Europe Standard Time":20210528T120000
+LAST-MODIFIED:20210525T172934Z
 LOCATION:https://www.youtube.com/watch?v=FP-gENkmBow  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
