@@ -12,29 +12,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-05-28 12:00 Alexander von Zitzewitz zu Architektur-Management mit Sonargraph
+# Nächster Termin: Freitag 2021-06-04 12:00 Chris Chedgey: Architekture Management with Structure 101
 
-Mit dem Werkzeug Sonargraph können Architekt:innen nicht nur
-überprüfen, ob Anwendungen die Architektur-Vorgaben einhalten, sondern
-auch die Architektur existierender Software-Systeme auf verschiedene
-Arten visualisieren. Alexander von Zitzewitz wird uns zeigen, wie man
-einen mit Sonargraph einen Überblick über ein großes und komplexes
-Open-Source-Projekt wie Apache Cassandra bekommen kann und welche
-Visualisierungen dabei besonders hilfreich sind. Außerdem zeigt er uns
-die Architektur DSL (Domain Specific Language), mit der man die
-Abhängigkeiten von Software-Systemen managen kann.
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=kjU_aqydDXo) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=kjU_aqydDXo)
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/rBqNWaFOtxg"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/rBqNWaFOtxg" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
