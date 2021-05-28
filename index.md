@@ -26,7 +26,7 @@ Abhängigkeiten von Software-Systemen managen kann.
 
 [In Kalendar eintragen](termin.ics)
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=FP-gENkmBow)
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=kjU_aqydDXo)
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
