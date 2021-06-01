@@ -12,11 +12,11 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-06-04 12:00 Chris Chedgey: Architekture Management with Structure 101
+# Nächster Termin: Freitag 2021-06-04 12:00 Chris Chedgey and Mike Swainston-Rainford: Architecture Management with Structure 101
 
 <!-- [In Kalendar eintragen](termin.ics) -->
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=kjU_aqydDXo) -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=5W8D95GwAZY)
 
 <!-- <center> -->
 <!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
