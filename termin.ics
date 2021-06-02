@@ -20,27 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210525T190226Z
-DESCRIPTION:Mit dem Werkzeug Sonargraph können Architekt:innen nicht nur 
-	überprüfen\, ob Anwendungen die Architektur-Vorgaben einhalten\, sondern
-	 auch die Architektur existierender Software-Systeme auf verschiedene Arte
-	n visualisieren. Alexander von Zitzewitz wird uns zeigen\, wie man einen m
-	it Sonargraph einen Überblick über ein großes und komplexes Open-Source
-	-Projekt wie Apache Cassandra bekommen kann und welche Visualisierungen da
-	bei besonders hilfreich sind. Außerdem zeigt er uns die Architektur DSL (
-	Domain Specific Language)\, mit der man die Abhängigkeiten von Software-S
-	ystemen managen kann.\n\nhttps://www.youtube.com/watch?v=FP-gENkmBow\nhttp
-	s://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210528T130000
+CREATED:20210602T130640Z
+DESCRIPTION:Structure 101 is a tool to visualize and manage the architectur
+	e of complex software systems. Chris is the product manager for Structure 
+	101 and will give us an introduction to the tool and its highlights. Mike 
+	is a principal consultant specialized in the work with Structure 101 and w
+	ill talk about his experiences with the tool and how to use it efficiently
+	 - and of course we are looking forward to your questions and comments!\n\
+	nhttps://www.youtube.com/watch?v=5W8D95GwAZY\nhttps://www.twitch.tv/ebrwol
+	ff \n
+DTEND;TZID="W. Europe Standard Time":20210604T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210528T120000
-LAST-MODIFIED:20210525T190226Z
-LOCATION:https://www.youtube.com/watch?v=FP-gENkmBow  https://www.twitch.tv
+DTSTART;TZID="W. Europe Standard Time":20210604T120000
+LAST-MODIFIED:20210602T130640Z
+LOCATION:https://www.youtube.com/watch?v=5W8D95GwAZY  https://www.twitch.tv
 	/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Alexander von Zitzewitz
-	 zu Architektur-Management mit Sonargraph
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Chris Chedgey and Mike 
+	Swainston-Rainford: Architecture Management with Structure 101
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1

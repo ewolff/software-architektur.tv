@@ -14,17 +14,25 @@ stellen.
 
 # Nächster Termin: Freitag 2021-06-04 12:00 Chris Chedgey and Mike Swainston-Rainford: Architecture Management with Structure 101
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Structure 101 is a tool to visualize and manage the architecture of
+complex software systems. Chris is the product manager for Structure
+101 and will give us an introduction to the tool and its
+highlights. Mike is a principal consultant specialized in the work
+with Structure 101 and will talk about his experiences with the tool
+and how to use it efficiently - and of course we are looking forward
+to your questions and comments!
+
+[In Kalendar eintragen](termin.ics)
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=5W8D95GwAZY)
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/rBqNWaFOtxg" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/PV2RP3-Nlro"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
