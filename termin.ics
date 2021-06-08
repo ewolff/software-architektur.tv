@@ -20,21 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210602T130640Z
-DESCRIPTION:Structure 101 is a tool to visualize and manage the architectur
-	e of complex software systems. Chris is the product manager for Structure 
-	101 and will give us an introduction to the tool and its highlights. Mike 
-	is a principal consultant specialized in the work with Structure 101 and w
-	ill talk about his experiences with the tool and how to use it efficiently
-	 - and of course we are looking forward to your questions and comments!\n\
-	nhttps://www.youtube.com/watch?v=5W8D95GwAZY\nhttps://www.twitch.tv/ebrwol
-	ff \n
-DTEND;TZID="W. Europe Standard Time":20210604T130000
+CREATED:20210608T145305Z
+DESCRIPTION:Software Analytics ist die strukturierte Analyse von Daten aus 
+	der Softwareentwicklung mit dem Ziel\, aus den Ergebnissen Input für fund
+	ierte Entscheidungen zu bekommen. Markus Harrer stellt im Stream hierfür 
+	Vorgehen sowie Do’s and Don’ts vor. Wir sehen uns passende Werkzeuge a
+	us dem Data-Science-Bereich an und diskutieren\, wie wir wertvolle Einsich
+	ten aus Datenquellen wie Git-Repositories\, Performancedaten\, Qualitätsb
+	erichten oder direkt aus dem Programmcode gewinnen können. In einer Live-
+	Demo sehen wir das ganze noch in der Praxis an.\n\nhttps://www.youtube.com
+	/watch?v=_i2QSJYc8EI\nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210611T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210604T120000
-LAST-MODIFIED:20210602T130640Z
-LOCATION:https://www.youtube.com/watch?v=5W8D95GwAZY  https://www.twitch.tv
-	/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20210611T120000
+LAST-MODIFIED:20210608T145305Z
+LOCATION:https://www.youtube.com/watch?v=_i2QSJYc8EI https://www.twitch.tv/
+	ebrwolff 
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=de:Software Architektur im Stream: Chris Chedgey and Mike 

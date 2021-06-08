@@ -14,17 +14,27 @@ stellen.
 
 # Nächster Termin: Freitag 2021-06-11 12:00 Markus Harrer zu Software Analytics
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Software Analytics ist die strukturierte Analyse von Daten aus der
+Softwareentwicklung mit dem Ziel, aus den Ergebnissen Input für
+fundierte Entscheidungen zu bekommen. Markus Harrer stellt im Stream
+hierfür Vorgehen sowie Do’s and Don’ts vor. Wir sehen uns passende
+Werkzeuge aus dem Data-Science-Bereich an und diskutieren, wie wir
+wertvolle Einsichten aus Datenquellen wie Git-Repositories,
+Performancedaten, Qualitätsberichten oder direkt aus dem Programmcode
+gewinnen können. In einer Live-Demo sehen wir das ganze noch in der
+Praxis an.
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=5W8D95GwAZY) -->
+[In Kalendar eintragen](termin.ics)
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/PV2RP3-Nlro" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=_i2QSJYc8EI)
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/cM4Sz-E0Op4"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
