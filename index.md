@@ -38,6 +38,8 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
+In diesem Stream sprechen Markus und Eberhard miteinander.
+
 # Sketchnote Stream
 
 <center>
@@ -47,6 +49,9 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
+
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Eberhard und Markus.
 
 # Trailer
 
