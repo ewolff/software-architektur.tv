@@ -28,6 +28,28 @@ Praxis an.
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=_i2QSJYc8EI)
 
+# Stream
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/_i2QSJYc8EI"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+# Sketchnote Stream
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/kBoBWpiHtKg"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+# Trailer
+
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/cM4Sz-E0Op4"
