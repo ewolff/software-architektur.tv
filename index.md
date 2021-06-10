@@ -12,6 +12,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
+# Links
+
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
+
+[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
+
+[Audio der Folgen als Podcast](podcast.html)
+
+[Folgen nach Tags](tags.html)
+
+[Folgen chronologisch](chronologisch.html)
+
+[Atom Feed](feed.xml)
+
 # Nächster Termin: Freitag 2021-06-11 12:00 Markus Harrer zu Software Analytics
 
 Software Analytics ist die strukturierte Analyse von Daten aus der
@@ -63,13 +77,6 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
-
-[Audio der Folgen als Podcast](podcast.html)
-
-[Atom Feed der bisherigen Folgen](feed.xml)
 
 # Fragen & Diskussion
 
@@ -84,16 +91,6 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
-
-# Bisherige Folgen
-
-<ul>
-{% for post in site.posts %}
-   <li>
-   <a href="{{ post.url }}">{{ post.title }}</a>
-   </li>
-{% endfor %}
-</ul>
 
 # Lizenz
 

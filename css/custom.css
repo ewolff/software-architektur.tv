@@ -1,3 +1,9 @@
+#links a:visited,
+#links a:link
+{	  
+	color: #FFFFFF
+}
+
 .embed-container {
   position: relative; 
   padding-bottom: 56.25%; /* ratio 16x9 */
