@@ -26,56 +26,46 @@ stellen.
 
 [Atom Feed](feed.xml)
 
-# Nächster Termin: Freitag 2021-06-11 12:00 Markus Harrer zu Software Analytics
+# Nächster Termin: Freitag 2021-06-18 12:00 Kim Duggen zu Soft Skills
 
-Software Analytics ist die strukturierte Analyse von Daten aus der
-Softwareentwicklung mit dem Ziel, aus den Ergebnissen Input für
-fundierte Entscheidungen zu bekommen. Markus Harrer stellt im Stream
-hierfür Vorgehen sowie Do’s and Don’ts vor. Wir sehen uns passende
-Werkzeuge aus dem Data-Science-Bereich an und diskutieren, wie wir
-wertvolle Einsichten aus Datenquellen wie Git-Repositories,
-Performancedaten, Qualitätsberichten oder direkt aus dem Programmcode
-gewinnen können. In einer Live-Demo sehen wir das ganze noch in der
-Praxis an.
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=_i2QSJYc8EI) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=_i2QSJYc8EI)
+<!-- # Stream -->
 
-# Stream
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/_i2QSJYc8EI" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/_i2QSJYc8EI"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- In diesem Stream sprechen Markus und Eberhard miteinander. -->
 
-In diesem Stream sprechen Markus und Eberhard miteinander.
+<!-- # Sketchnote Stream -->
 
-# Sketchnote Stream
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/kBoBWpiHtKg" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/kBoBWpiHtKg"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
+<!-- das Audio mit Eberhard und Markus. -->
 
-In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Eberhard und Markus.
+<!-- # Trailer -->
 
-# Trailer
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/cM4Sz-E0Op4"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/cM4Sz-E0Op4" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 
 # Fragen & Diskussion
