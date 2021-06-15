@@ -20,26 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210608T145305Z
-DESCRIPTION:Software Analytics ist die strukturierte Analyse von Daten aus 
-	der Softwareentwicklung mit dem Ziel\, aus den Ergebnissen Input für fund
-	ierte Entscheidungen zu bekommen. Markus Harrer stellt im Stream hierfür 
-	Vorgehen sowie Do’s and Don’ts vor. Wir sehen uns passende Werkzeuge a
-	us dem Data-Science-Bereich an und diskutieren\, wie wir wertvolle Einsich
-	ten aus Datenquellen wie Git-Repositories\, Performancedaten\, Qualitätsb
-	erichten oder direkt aus dem Programmcode gewinnen können. In einer Live-
-	Demo sehen wir das ganze noch in der Praxis an.\n\nhttps://www.youtube.com
-	/watch?v=_i2QSJYc8EI\nhttps://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20210611T130000
+CREATED:20210615T200657Z
+DESCRIPTION:Am Freitag ist Kim Nena Duggen bei Lisa Moritz zu Gast. Wir spr
+	echen über Soft Skills und wie wichtig diese gerade im IT-Bereich sind. U
+	nter anderem werden wir uns mit folgenden Fragen beschäftigen:\n\n- Welch
+	e verschiedenen Gebiete umfasst der große Überbegriff Soft Skills?\n- Wi
+	e kann man einen Einstieg in die Thematik finden?\n- Wieso sollten sich au
+	ch IT-ler:innen mit diesem Thema befassen?\n- Sind nicht Hard Skills in de
+	r beruflichen Praxis wichtiger als Soft Skills?\n\nhttps://www.youtube.com
+	/watch?v=vyruiwR9LQc\nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20210618T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210611T120000
-LAST-MODIFIED:20210608T145305Z
-LOCATION:https://www.youtube.com/watch?v=_i2QSJYc8EI https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20210618T120000
+LAST-MODIFIED:20210615T200657Z
+LOCATION:https://www.youtube.com/watch?v=vyruiwR9LQc https://www.twitch.tv/
 	ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Chris Chedgey and Mike 
-	Swainston-Rainford: Architecture Management with Structure 101
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Kim Duggen zu Soft Skil
+	ls
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1

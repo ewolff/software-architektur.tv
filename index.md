@@ -24,22 +24,23 @@ sind. Unter anderem werden wir uns mit folgenden Fragen beschäftigen:
 - Sind nicht Hard Skills in der beruflichen Praxis wichtiger als Soft
   Skills?
 
+[In Kalendar eintragen](termin.ics)
 
-<!--[In Kalendar eintragen](termin.ics) -->
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=vyruiwR9LQc)
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=_i2QSJYc8EI) -->
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/_i2QSJYc8EI" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/vyruiwR9LQc"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sprechen Markus und Eberhard miteinander. -->
+In diesem Stream sprechen Kim und Lisa miteinander.
 
 <!-- # Sketchnote Stream -->
 
@@ -80,8 +81,6 @@ marginwidth="0">Loading…</iframe>
 </div>
 
 # Links
-
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
 
 [https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
 
