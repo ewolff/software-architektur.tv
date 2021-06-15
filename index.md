@@ -12,23 +12,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Links
-
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
-
-[Audio der Folgen als Podcast](podcast.html)
-
-[Folgen nach Tags](tags.html)
-
-[Folgen chronologisch](chronologisch.html)
-
-[Atom Feed](feed.xml)
-
 # Nächster Termin: Freitag 2021-06-18 12:00 Kim Duggen zu Soft Skills
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Am Freitag ist Kim Nena Duggen bei Lisa Moritz zu Gast. Wir sprechen
+über Soft Skills und wie wichtig diese gerade im IT-Bereich
+sind. Unter anderem werden wir uns mit folgenden Fragen beschäftigen:
+- Welche verschiedenen Gebiete umfasst der große Überbegriff Soft
+  Skills?
+- Wie kann man einen Einstieg in die Thematik finden?
+- Wieso sollten sich auch IT-ler:innen mit diesem Thema befassen?
+- Sind nicht Hard Skills in der beruflichen Praxis wichtiger als Soft
+  Skills?
+
+
+<!--[In Kalendar eintragen](termin.ics) -->
 
 <!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=_i2QSJYc8EI) -->
 
@@ -81,6 +78,20 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
+
+# Links
+
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
+
+[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
+
+[Audio der Folgen als Podcast](podcast.html)
+
+[Folgen nach Tags](tags.html)
+
+[Folgen chronologisch](chronologisch.html)
+
+[Atom Feed](feed.xml)
 
 # Lizenz
 
