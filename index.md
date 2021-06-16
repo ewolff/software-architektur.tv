@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-06-18 12:00 Kim Nena Duggen zu Soft Skills
+# Nächster Termin: Freitag 2021-06-18 12:00 Kim Nena Duggen zu Soft Skills für Software-Architekt:innen
 
 Am Freitag ist Kim Nena Duggen bei Lisa Moritz zu Gast. Wir sprechen
 über Soft Skills und wie wichtig diese gerade im IT-Bereich
