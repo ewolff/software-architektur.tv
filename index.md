@@ -12,35 +12,26 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-06-18 12:00 Kim Nena Duggen zu Soft Skills für Software-Architekt:innen
+# Nächster Termin: Freitag 2021-06-25 12:00 Christoph Iserlohn zu
+Security für Software-Architekt:innen
 
-Am Freitag ist Kim Nena Duggen bei Lisa Moritz zu Gast. Wir sprechen
-über Soft Skills und wie wichtig diese gerade im IT-Bereich
-sind. Unter anderem werden wir uns mit folgenden Fragen beschäftigen:
-- Welche verschiedenen Gebiete umfasst der große Überbegriff Soft
-  Skills?
-- Wie kann man einen Einstieg in die Thematik finden?
-- Wieso sollten sich auch IT-ler:innen mit diesem Thema befassen?
-- Sind nicht Hard Skills in der beruflichen Praxis wichtiger als Soft
-  Skills?
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=vyruiwR9LQc) -->
 
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=vyruiwR9LQc)
+<!-- [Twitch Channel](https://www.twitch.tv/ebrwolff) -->
 
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
+<!-- # Stream -->
 
-# Stream
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/vyruiwR9LQc" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/vyruiwR9LQc"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream sprechen Kim und Lisa miteinander.
+<!-- In diesem Stream sprechen Kim und Lisa miteinander. -->
 
 <!-- # Sketchnote Stream -->
 
