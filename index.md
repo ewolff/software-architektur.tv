@@ -24,19 +24,19 @@ spielen auch CIA und NSA, aber nicht so, wie ihr denkt...
 
 [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=xcjQHZu-Ic4)
 
-<!-- [Twitch Channel](https://www.twitch.tv/ebrwolff) -->
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/vyruiwR9LQc" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/xcjQHZu-Ic4"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sprechen Kim und Lisa miteinander. -->
+In diesem Stream sprechen Christoph und Lisa miteinander.
 
 <!-- # Sketchnote Stream -->
 
