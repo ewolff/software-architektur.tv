@@ -12,12 +12,17 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-06-25 12:00 Christoph Iserlohn zu
-Security für Software-Architekt:innen
+# Nächster Termin: Freitag 2021-06-25 12:00 Christoph Iserlohn zu Security und Software-Architektur
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Lisa Maria Moritz wird am Freitag mit Christoph Iserlohn im Stream
+darüber sprechen, warum es wichtig ist, dass Softwarearchitekt:innen
+sich mit Security auseinandersetzen. Dabei geht es nicht nur um Themen
+wie Threat Modelling und Sicherheitskonzepte - eine wichtige Rolle
+spielen auch CIA und NSA, aber nicht so, wie ihr denkt...
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=vyruiwR9LQc) -->
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=xcjQHZu-Ic4)
 
 <!-- [Twitch Channel](https://www.twitch.tv/ebrwolff) -->
 
