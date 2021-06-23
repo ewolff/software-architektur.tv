@@ -51,15 +51,15 @@ In diesem Stream sprechen Christoph und Lisa miteinander.
 <!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
 <!-- das Audio mit Eberhard und Markus. -->
 
-<!-- # Trailer -->
+# Vorschau
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/cM4Sz-E0Op4" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/X_k84rA-iIM"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 
 # Fragen & Diskussion
