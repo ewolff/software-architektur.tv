@@ -12,54 +12,48 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-06-25 12:00 Christoph Iserlohn zu Security und Software-Architektur
+# Nächster Termin: Freitag 2021-07-02 12:00 Muss ich mich schämen, ein Software-Architekt zu sein?
 
-Lisa Maria Moritz wird am Freitag mit Christoph Iserlohn im Stream
-darüber sprechen, warum es wichtig ist, dass Softwarearchitekt:innen
-sich mit Security auseinandersetzen. Dabei geht es nicht nur um Themen
-wie Threat Modelling und Sicherheitskonzepte - eine wichtige Rolle
-spielen auch CIA und NSA, aber nicht so, wie ihr denkt...
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
-
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=xcjQHZu-Ic4)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=xcjQHZu-Ic4) -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-# Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/xcjQHZu-Ic4"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream sprechen Christoph und Lisa miteinander.
-
-<!-- # Sketchnote Stream -->
+<!-- # Stream -->
 
 <!-- <center> -->
 <!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/kBoBWpiHtKg" -->
+<!-- src="https://www.youtube-nocookie.com/embed/xcjQHZu-Ic4" -->
 <!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
 <!-- encrypted-media; gyroscope; picture-in-picture" -->
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
 
-<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
-<!-- das Audio mit Eberhard und Markus. -->
+<!-- In diesem Stream sprechen Christoph und Lisa miteinander. -->
 
-# Vorschau
+<!-- <\!-- # Sketchnote Stream -\-> -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/X_k84rA-iIM"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <\!-- <center> -\-> -->
+<!-- <\!-- <div aclass="embed-container"> <iframe width="560" height="315" -\-> -->
+<!-- <\!-- src="https://www.youtube-nocookie.com/embed/kBoBWpiHtKg" -\-> -->
+<!-- <\!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -\-> -->
+<!-- <\!-- encrypted-media; gyroscope; picture-in-picture" -\-> -->
+<!-- <\!-- allowfullscreen></iframe> </div> -\-> -->
+<!-- <\!-- </center> -\-> -->
+
+<!-- <\!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -\-> -->
+<!-- <\!-- das Audio mit Eberhard und Markus. -\-> -->
+
+<!-- # Vorschau -->
+
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/X_k84rA-iIM" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 
 # Fragen & Diskussion
