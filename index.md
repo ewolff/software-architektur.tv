@@ -14,46 +14,57 @@ stellen.
 
 # Nächster Termin: Freitag 2021-07-02 12:00 Muss ich mich schämen, ein Software-Architekt zu sein?
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Ich habe in meinem heise-Blog einen
+[Post](https://www.heise.de/developer/artikel/Muss-ich-mich-schaemen-Software-Architekt-zu-sein-6116235.html)
+mit dem Titel "Muss ich mich schämen, ein Software-Architekt zu sein?"
+geschrieben, bei dem es vor allem um Herausforderungen mit Software im
+Corona-Kontext geht - beispielsweise zur Test oder
+Impf-Termin-Vergabe. Vor allem die Sicherheit der Lösungen ist an
+einigen Stellen problematisch. Im Stream will ich den Blog Post kurz
+zusammenfassen und dann die Diskussion, die vor allem auf Twitter
+stattgefunden hat, aufgreifen. Dabei geht es vor allem um die Frage,
+wie man die Herausforderungen lösen kann.
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=xcjQHZu-Ic4) -->
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=R9OZmH9UU-4)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/xcjQHZu-Ic4" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/R9OZmH9UU-4"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sprechen Christoph und Lisa miteinander. -->
+In diesem Stream sieht und hört man Eberhard.
 
-<!-- <\!-- # Sketchnote Stream -\-> -->
+# Sketchnote Stream
 
-<!-- <\!-- <center> -\-> -->
-<!-- <\!-- <div aclass="embed-container"> <iframe width="560" height="315" -\-> -->
-<!-- <\!-- src="https://www.youtube-nocookie.com/embed/kBoBWpiHtKg" -\-> -->
-<!-- <\!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -\-> -->
-<!-- <\!-- encrypted-media; gyroscope; picture-in-picture" -\-> -->
-<!-- <\!-- allowfullscreen></iframe> </div> -\-> -->
-<!-- <\!-- </center> -\-> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/s73WQsayTuY"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- <\!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -\-> -->
-<!-- <\!-- das Audio mit Eberhard und Markus. -\-> -->
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Eberhard.
 
-<!-- # Vorschau -->
+# Vorschau
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/X_k84rA-iIM" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/3cA_VpTgE9M"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 
 # Fragen & Diskussion
