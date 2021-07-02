@@ -9,29 +9,30 @@
     <section class="main-content">
       
 
-{% if page.trailer %}
-<h1>Trailer</h1>
-<center>
-  <div class="embed-container">
-    <iframe width="560" height="315"
-src="https://www.youtube.com/embed/{{ page.trailer }}" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-       picture-in-picture" allowfullscreen></iframe>
-    </div>
-</center>
-{% endif %}
-
-{% if page.trailer %}
+{% if page.sketchnote-video %}
 <h1>Folge</h1>
 {% endif %}
 <center>
   <div class="embed-container">
     <iframe width="560" height="315"
-src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0"
+src="https://www.youtube-nocookie.com/embed/{{ page.video }}" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture" allowfullscreen></iframe>
     </div>
 </center>
+
+{% if page.sketchnote-video %}
+<h1>Live Sketchnoting</h1>
+<center>
+  <div class="embed-container">
+    <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/{{ page.sketchnote-video }}" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen></iframe>
+    </div>
+</center>
+
+{% endif %}
 
 {{ content }}
 
