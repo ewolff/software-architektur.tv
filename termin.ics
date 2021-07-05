@@ -20,29 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210630T151939Z
-DESCRIPTION:Ich habe in meinem heise-Blog einen Post mit dem Titel “Muss 
-	ich mich schämen\, ein Software-Architekt zu sein?” geschrieben https:/
-	/www.heise.de/developer/artikel/Muss-ich-mich-schaemen-Software-Architekt-
-	zu-sein-6116235.html \, bei dem es vor allem um Herausforderungen mit Soft
-	ware im Corona-Kontext geht - beispielsweise zur Test oder Impf-Termin-Ver
-	gabe. Vor allem die Sicherheit der Lösungen ist an einigen Stellen proble
-	matisch. Im Stream will ich den Blog Post kurz zusammenfassen und dann die
-	 Diskussion\, die vor allem auf Twitter stattgefunden hat\, aufgreifen. Da
-	bei geht es vor allem um die Frage\, wie man die Herausforderungen lösen 
-	kann.\nhttps://www.youtube.com/watch?v=R9OZmH9UU-4\nhttps://www.twitch.tv/
-	ebrwolff\nLive-Sketchnoting: https://youtu.be/s73WQsayTuY\n
-DTEND;TZID="W. Europe Standard Time":20210702T130000
+CREATED:20210705T130206Z
+DESCRIPTION:Christiane Floyd zählt zu den Pionier:innen der Informatik - s
+	ie war die erste Informatik-Professorin in Deutschland und hatte den erste
+	n Lehrstuhl für Software-Technik. Wir wollen über das Konzept “mensche
+	nzentrierte Software-Entwicklung” sprechen\, einem Ansatz aus den Achtzi
+	gern\, der wesentliche Elemente agiler Entwicklung umgesetzt hat. Außerde
+	m geht es um die Erfahrungen\, die zur Entstehung des Ansatzes geführt ha
+	ben.\nhttps://www.youtube.com/watch?v=lygh1qKm7YU\nhttps://www.twitch.tv/e
+	brwolff\nLive-Sketchnoting: https://www.youtube.com/watch?v=yABHYjOiuro\n
+DTEND;TZID="W. Europe Standard Time":20210709T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210702T120000
-LAST-MODIFIED:20210630T151939Z
-LOCATION:https://www.youtube.com/watch?v=R9OZmH9UU-4 https://www.twitch.tv/
-	ebrwolff Live-Sketchnoting: https://youtu.be/s73WQsayTuY
+DTSTART;TZID="W. Europe Standard Time":20210709T120000
+LAST-MODIFIED:20210705T130206Z
+LOCATION:https://www.youtube.com/watch?v=lygh1qKm7YU https://www.twitch.tv/
+	ebrwolff Live-Sketchnoting: https://www.youtube.com/watch?v=yABHYjOiuro
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Muss ich mich schämen\
-	, ein Software-Architekt zu sein?
-TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
