@@ -20,23 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210705T130206Z
+CREATED:20210705T130839Z
 DESCRIPTION:Christiane Floyd zählt zu den Pionier:innen der Informatik - s
 	ie war die erste Informatik-Professorin in Deutschland und hatte den erste
 	n Lehrstuhl für Software-Technik. Wir wollen über das Konzept “mensche
-	nzentrierte Software-Entwicklung” sprechen\, einem Ansatz aus den Achtzi
-	gern\, der wesentliche Elemente agiler Entwicklung umgesetzt hat. Außerde
-	m geht es um die Erfahrungen\, die zur Entstehung des Ansatzes geführt ha
-	ben.\nhttps://www.youtube.com/watch?v=lygh1qKm7YU\nhttps://www.twitch.tv/e
-	brwolff\nLive-Sketchnoting: https://www.youtube.com/watch?v=yABHYjOiuro\n
+	nzentrierte Software-Entwicklung” sprechen\, einem Ansatz\, der schon in
+	 den Achtzigern wesentliche Elemente agiler Entwicklung umgesetzt hat. Au
+	ßerdem geht es um die Erfahrungen\, die zur Entstehung des Ansatzes gefü
+	hrt haben.\nhttps://www.youtube.com/watch?v=lygh1qKm7YU\nhttps://www.twitc
+	h.tv/ebrwolff\nLive-Sketchnoting: https://www.youtube.com/watch?v=yABHYjOi
+	uro\n
 DTEND;TZID="W. Europe Standard Time":20210709T130000
 DTSTAMP:20210329T160737Z
 DTSTART;TZID="W. Europe Standard Time":20210709T120000
-LAST-MODIFIED:20210705T130206Z
+LAST-MODIFIED:20210705T130839Z
 LOCATION:https://www.youtube.com/watch?v=lygh1qKm7YU https://www.twitch.tv/
 	ebrwolff Live-Sketchnoting: https://www.youtube.com/watch?v=yABHYjOiuro
 PRIORITY:5
 SEQUENCE:0
+SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Prof. Christiane Floyd
+	 zu “menschenzentrierter Software-Entwicklung”
+TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE

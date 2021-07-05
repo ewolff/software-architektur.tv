@@ -17,10 +17,10 @@ stellen.
 Christiane Floyd zählt zu den Pionier:innen der Informatik - sie war
 die erste Informatik-Professorin in Deutschland und hatte den ersten
 Lehrstuhl für Software-Technik. Wir wollen über das Konzept
-“menschenzentrierte Software-Entwicklung” sprechen, einem Ansatz aus
-den Achtzigern, der wesentliche Elemente agiler Entwicklung umgesetzt
-hat. Außerdem geht es um die Erfahrungen, die zur Entstehung des
-Ansatzes geführt haben.
+“menschenzentrierte Software-Entwicklung” sprechen, einem Ansatz, der
+schon in den Achtzigern wesentliche Elemente agiler Entwicklung
+umgesetzt hat. Außerdem geht es um die Erfahrungen, die zur Entstehung
+des Ansatzes geführt haben.
 
 [In Kalendar eintragen](termin.ics)
 
