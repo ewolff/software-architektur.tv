@@ -20,8 +20,6 @@ stellen.
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-https://www.youtube.com/watch?v=lygh1qKm7YU
-
 <!-- # Stream -->
 
 <!-- <center> -->
