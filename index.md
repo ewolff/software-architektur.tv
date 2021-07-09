@@ -12,60 +12,52 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-07-09 12:00 Prof. Christiane Floyd zu “menschenzentrierter Software-Entwicklung”
+# Nächster Termin: Freitag 2021-07-16 12:00 
 
-Christiane Floyd zählt zu den Pionier:innen der Informatik - sie war
-die erste Informatik-Professorin in Deutschland und hatte den ersten
-Lehrstuhl für Software-Technik. Wir wollen über das Konzept
-“menschenzentrierte Software-Entwicklung” sprechen, einem Ansatz, der
-schon in den Achtzigern wesentliche Elemente agiler Entwicklung
-umgesetzt hat. Außerdem geht es um die Erfahrungen, die zur Entstehung
-des Ansatzes geführt haben.
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
-
-[Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=lygh1qKm7YU)
+<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=lygh1qKm7YU) -->
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
 https://www.youtube.com/watch?v=lygh1qKm7YU
 
-# Stream
+<!-- # Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/lygh1qKm7YU"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/lygh1qKm7YU" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream sieht und hört man Eberhard und Prof. Christiane
-Floyd.
+<!-- In diesem Stream sieht und hört man Eberhard und Prof. Christiane -->
+<!-- Floyd. -->
 
-# Sketchnote Stream
+<!-- # Sketchnote Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/yABHYjOiuro"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/yABHYjOiuro" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Eberhard und Prof. Christiane
-Floyd.
+<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
+<!-- das Audio mit Eberhard und Prof. Christiane -->
+<!-- Floyd. -->
 
-# Vorschau
+<!-- # Vorschau -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/VEh80lZnBTo"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/VEh80lZnBTo" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion
 
