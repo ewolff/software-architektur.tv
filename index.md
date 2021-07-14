@@ -12,50 +12,60 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-07-16 12:00 
+# Nächster Termin: Freitag 2021-07-16 12:00 Qualitätsszenarien
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Architekt:innen müssen Lösungen entwickeln, die den technischen
+Anforderungen im Projekt gerecht werden. Qualitätsszenarien sind ein
+hervorragendes Werkzeug, um Anforderungen zu erfassen und basierend
+darauf Lösungen zu entwickeln. Damit sind sie der Ausgangspunkt für
+eine zum Problem passende Architektur. In dieser Episode wollen wir
+uns anschauen, wie man Qualitätsszenarien am besten erfassen kann und
+wie Qualitätsszenarien aussehen müssen, damit sie tatsächlich nützlich
+sind.
 
-<!-- [Direkter Link zum YouTube Stream](https://www.youtube.com/watch?v=lygh1qKm7YU) -->
+[In Kalendar eintragen](termin.ics)
+
+[Direkter Link zum YouTube
+Stream](https://www.youtube.com/watch?v=Shr23fY8gns)
+
+[Direkter Link zum Sketchnoting YouTube Stream](https://www.youtube.com/watch?v=2LesJ9Nn79U)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/lygh1qKm7YU" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Shr23fY8gns"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sieht und hört man Eberhard und Prof. Christiane -->
-<!-- Floyd. -->
+In diesem Stream sieht und hört man Eberhard.
 
-<!-- # Sketchnote Stream -->
+# Sketchnote Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/yABHYjOiuro" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/2LesJ9Nn79U"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
-<!-- das Audio mit Eberhard und Prof. Christiane -->
-<!-- Floyd. -->
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Eberhard.
 
-<!-- # Vorschau -->
+# Vorschau
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/VEh80lZnBTo" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/CznLU5yGHh8"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 # Fragen & Diskussion
 
