@@ -14,36 +14,44 @@ stellen.
 
 # Nächster Termin: Freitag 2021-07-23 12:00 Der Schritt zur Software-Architekt:in mit Oliver Wehrens
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Wie wird man eigentlich Software-Architekt:in? Anhand von Fragen von
+Student:innen diskutieren Oliver Wehrens und Eberhard Wolff, welche
+Fähigkeiten Software-Architekt:innen mitbringen sollten, wie man die
+Rollen in der Praxis leben kann und wie Bewerbungen in diesem Bereich
+laufen können. Oliver Wehrens hat in verschiedenen Unternehmen als
+Software-Architekt und CTO gearbeitet und hat in dieser Funktion die
+Karriere vieler Software-Architekt:innen begleitet.
+
+[In Kalendar eintragen](termin.ics)
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/Shr23fY8gns" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/f-aJogqqk6M"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sieht und hört man Eberhard. -->
+In diesem Stream sieht und hört man Eberhard und Oliver.
 
-<!-- # Sketchnote Stream -->
+# Sketchnote Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/2LesJ9Nn79U" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/pSM8Hhc8PFQ"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
-<!-- das Audio mit Eberhard. -->
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Eberhard und Oliver.
 
 <!-- # Vorschau -->
 

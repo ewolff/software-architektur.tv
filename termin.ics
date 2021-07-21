@@ -20,45 +20,29 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210714T152512Z
-DESCRIPTION:Christiane Floyd zählt zu den Pionier:innen der Informatik - s
-	ie war die erste Informatik-Professorin in Deutschland und hatte den erste
-	n Lehrstuhl für Software-Technik. Wir wollen über das Konzept “mensche
-	nzentrierte Software-Entwicklung” sprechen\, einem Ansatz\, der schon in
-	 den Achtzigern wesentliche Elemente agiler Entwicklung umgesetzt hat. Au
-	ßerdem geht es um die Erfahrungen\, die zur Entstehung des Ansatzes gefü
-	hrt haben.\nhttps://www.youtube.com/watch?v=Shr23fY8gns\nhttps://www.twitc
-	h.tv/ebrwolff\nLive-Sketchnoting: https://www.youtube.com/watch?v=2LesJ9Nn
-	79U\n
-DTEND;TZID="W. Europe Standard Time":20210716T130000
+CREATED:20210721T072928Z
+DESCRIPTION:Wie wird man eigentlich Software-Architekt:in? Anhand von Frage
+	n von Student:innen diskutieren Oliver Wehrens und Eberhard Wolff\, welche
+	 Fähigkeiten Software-Architekt:innen mitbringen sollten\, wie man die Ro
+	llen in der Praxis leben kann und wie Bewerbungen in diesem Bereich laufen
+	 können. Oliver Wehrens hat in verschiedenen Unternehmen als Software-Arc
+	hitekt und CTO gearbeitet und hat in dieser Funktion die Karriere vieler S
+	oftware-Architekt:innen begleitet.\nhttps://www.youtube.com/watch?v=f-aJog
+	qqk6M\nhttps://www.twitch.tv/ebrwolff\nLive-Sketchnoting: https://www.yout
+	ube.com/watch?v=pSM8Hhc8PFQ\n
+DTEND;TZID="W. Europe Standard Time":20210723T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210716T120000
-LAST-MODIFIED:20210714T152512Z
-LOCATION:https://www.youtube.com/watch?v=Shr23fY8gns https://www.twitch.tv/
-	ebrwolff Live-Sketchnoting: https://www.youtube.com/watch?v=2LesJ9Nn79U
+DTSTART;TZID="W. Europe Standard Time":20210723T120000
+LAST-MODIFIED:20210721T072928Z
+LOCATION:https://www.youtube.com/watch?v=f-aJogqqk6M https://www.twitch.tv/
+	ebrwolff Live-Sketchnoting: https://www.youtube.com/watch?v=pSM8Hhc8PFQ
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Prof. Christiane Floyd
-	 zu “menschenzentrierter Software-Entwicklung”
+SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Der Schritt zur Softwa
+	re-Architekt:in mit Oliver Wehrens
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000090A6B5CED478D701000000000000000
 	01000000025A8D0167E938E4F9EF269F47EFB353C
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
-	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
-	rsion 16.0.14131.20278">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
-	 from text/plain format -->\n\n<P><FONT SIZE=2>Christiane Floyd zählt zu 
-	den Pionier:innen der Informatik - sie war die erste Informatik-Professori
-	n in Deutschland und hatte den ersten Lehrstuhl für Software-Technik. Wir
-	 wollen über das Konzept “menschenzentrierte Software-Entwicklung” sp
-	rechen\, einem Ansatz\, der schon in den Achtzigern wesentliche Elemente a
-	giler Entwicklung umgesetzt hat. Außerdem geht es um die Erfahrungen\, di
-	e zur Entstehung des Ansatzes geführt haben.</FONT></P>\n\n<P><FONT SIZE=
-	2><A HREF="https://www.youtube.com/watch?v=Shr23fY8gns">https://www.youtub
-	e.com/watch?v=Shr23fY8gns</A></FONT>\n\n<BR><FONT SIZE=2><A HREF="https://
-	www.twitch.tv/ebrwolff">https://www.twitch.tv/ebrwolff</A></FONT>\n\n<BR><
-	FONT SIZE=2>Live-Sketchnoting: <A HREF="https://www.youtube.com/watch?v=2L
-	esJ9Nn79U">https://www.youtube.com/watch?v=2LesJ9Nn79U</A></FONT>\n</P>\n\
-	n</BODY>\n</HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
