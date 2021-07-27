@@ -20,34 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210721T072928Z
-DESCRIPTION:Wie wird man eigentlich Software-Architekt:in? Anhand von Frage
-	n von Student:innen diskutieren Oliver Wehrens und Eberhard Wolff\, welche
-	 Fähigkeiten Software-Architekt:innen mitbringen sollten\, wie man die Ro
-	llen in der Praxis leben kann und wie Bewerbungen in diesem Bereich laufen
-	 können. Oliver Wehrens hat in verschiedenen Unternehmen als Software-Arc
-	hitekt und CTO gearbeitet und hat in dieser Funktion die Karriere vieler S
-	oftware-Architekt:innen begleitet.\nhttps://www.youtube.com/watch?v=f-aJog
-	qqk6M\nhttps://www.twitch.tv/ebrwolff\nLive-Sketchnoting: https://www.yout
-	ube.com/watch?v=pSM8Hhc8PFQ\n
-DTEND;TZID="W. Europe Standard Time":20210723T130000
+CREATED:20210727T063113Z
+DESCRIPTION:In dieser Folge von Software Architektur im Stream wollen wir d
+	arüber sprechen\, wie man Webanwendungen miteinander integrieren kann. Wi
+	r werden außerdem darüber sprechen\, wieso man das überhaupt möchte un
+	d dann verschiedene Ansätze vorstellen. Dabei wollen wir uns vorallem auf
+	 die Integration im Frontend fokussieren.\n\nDazu diskutiert Lisa Moritz m
+	it Franziska Dessart\, Joy Heron und Lucas Dohmen.\nhttps://www.youtube.co
+	m/watch?v=FuOpO-QRcos&feature=emb_imp_woyt\nhttps://www.twitch.tv/ebrwolff
+	\n
+DTEND;TZID="W. Europe Standard Time":20210730T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210723T120000
-LAST-MODIFIED:20210721T072928Z
-LOCATION:https://www.youtube.com/watch?v=f-aJogqqk6M https://www.twitch.tv/
-	ebrwolff Live-Sketchnoting: https://www.youtube.com/watch?v=pSM8Hhc8PFQ
+DTSTART;TZID="W. Europe Standard Time":20210730T120000
+LAST-MODIFIED:20210727T063113Z
+LOCATION:https://www.youtube.com/watch?v=FuOpO-QRcos&feature=emb_imp_woyt h
+	ttps://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Der Schritt zur Softwa
-	re-Architekt:in mit Oliver Wehrens
+SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Frontendarchitektur II
+	I - Integration mit Franziska Dessart\, Joy Heron und Lucas
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000090A6B5CED478D701000000000000000
 	01000000025A8D0167E938E4F9EF269F47EFB353C
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-AUTOFILLLOCATION:FALSE
-X-MS-OLK-AUTOSTARTCHECK:FALSE
-X-MS-OLK-CONFTYPE:0
 END:VEVENT
 END:VCALENDAR

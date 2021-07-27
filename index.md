@@ -12,15 +12,16 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-07-23 12:00 Der Schritt zur Software-Architekt:in mit Oliver Wehrens
+# Nächster Termin: Freitag 2021-07-30 12:00 Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas
 
-Wie wird man eigentlich Software-Architekt:in? Anhand von Fragen von
-Student:innen diskutieren Oliver Wehrens und Eberhard Wolff, welche
-Fähigkeiten Software-Architekt:innen mitbringen sollten, wie man die
-Rollen in der Praxis leben kann und wie Bewerbungen in diesem Bereich
-laufen können. Oliver Wehrens hat in verschiedenen Unternehmen als
-Software-Architekt und CTO gearbeitet und hat in dieser Funktion die
-Karriere vieler Software-Architekt:innen begleitet.
+In dieser Folge von Software Architektur im Stream wollen wir darüber
+sprechen, wie man Webanwendungen miteinander integrieren kann. Wir
+werden außerdem darüber sprechen, wieso man das überhaupt möchte und
+dann verschiedene Ansätze vorstellen. Dabei wollen wir uns vorallem
+auf die Integration im Frontend fokussieren.
+
+Dazu diskutiert Lisa Moritz mit Franziska Dessart, Joy Heron und Lucas
+Dohmen.
 
 [In Kalendar eintragen](termin.ics)
 
@@ -32,36 +33,36 @@ Karriere vieler Software-Architekt:innen begleitet.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/f-aJogqqk6M"
+src="https://www.youtube-nocookie.com/embed/FuOpO-QRcos"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream sieht und hört man Eberhard und Oliver.
+<!-- In diesem Stream sieht und hört man Eberhard und Oliver. -->
 
-# Sketchnote Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/pSM8Hhc8PFQ"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Eberhard und Oliver.
-
-<!-- # Vorschau -->
+<!-- # Sketchnote Stream -->
 
 <!-- <center> -->
 <!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/CznLU5yGHh8" -->
+<!-- src="https://www.youtube-nocookie.com/embed/pSM8Hhc8PFQ" -->
 <!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
 <!-- encrypted-media; gyroscope; picture-in-picture" -->
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
+
+<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
+<!-- das Audio mit Eberhard und Oliver. -->
+
+# Vorschau
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/uY7y1HGazbM"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 # Fragen & Diskussion
 
