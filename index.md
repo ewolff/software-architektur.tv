@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-07-30 12:00 Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas
+# Nächster Termin: Freitag 2021-07-30 12:00 Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen
 
 In dieser Folge von Software Architektur im Stream wollen wir darüber
 sprechen, wie man Webanwendungen miteinander integrieren kann. Wir
