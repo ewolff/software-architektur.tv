@@ -12,18 +12,9 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-07-30 12:00 Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen
+# Nächster Termin: Freitag 2021-08-06 12:00 Thema noch offen
 
-In dieser Folge von Software Architektur im Stream wollen wir darüber
-sprechen, wie man Webanwendungen miteinander integrieren kann. Wir
-werden außerdem darüber sprechen, wieso man das überhaupt möchte und
-dann verschiedene Ansätze vorstellen. Dabei wollen wir uns vorallem
-auf die Integration im Frontend fokussieren.
-
-Dazu diskutiert Lisa Moritz mit Franziska Dessart, Joy Heron und Lucas
-Dohmen.
-
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
@@ -31,13 +22,13 @@ Dohmen.
 
 # Stream
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/FuOpO-QRcos"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/FuOpO-QRcos" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Oliver. -->
 
@@ -54,15 +45,15 @@ allowfullscreen></iframe> </div>
 <!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
 <!-- das Audio mit Eberhard und Oliver. -->
 
-# Vorschau
+<!-- # Vorschau -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/uY7y1HGazbM"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/uY7y1HGazbM" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion
 
