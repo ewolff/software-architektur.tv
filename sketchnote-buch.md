@@ -4,15 +4,15 @@ type: website
 description: Das Buch mit den den Sketchnotes von Lisa
 ---
 
-Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu
-36 verschiedenen Folgen. So kann der Leser sich über das Wissen aus
+Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu 36
+verschiedenen Folgen. So können Leser:innen sich über das Wissen aus
 “Software Architektur im Stream” erschließen, ohne dafür eine Vielzahl
 von Video anzuschauen.
 
 Das Buch ist kostenlos als PDF bei Leanpub erhältlich. Außerdem gibt
 es die gedruckte Version bei Amazon als Hardcover mit glattem Papier
 oder als Softcover. Gerade die gedruckten Bücher laden zum
-Durchblättern und Schmöckern ein. 
+Durchblättern und Schmökern ein. 
 
 
 <center>
