@@ -12,8 +12,7 @@ von Video anzuschauen.
 Das Buch ist kostenlos als PDF bei Leanpub erhältlich. Außerdem gibt
 es die gedruckte Version bei Amazon als Hardcover mit glattem Papier
 oder als Softcover. Gerade die gedruckten Bücher laden zum
-Durchblättern und Schmöckern ein. Mit den Büchern bei Amazon erzielen
-wir keinen Gewinn.
+Durchblättern und Schmöckern ein. 
 
 
 <center>
@@ -42,5 +41,7 @@ bei Amazon</a>
 <a target="_blank" href="https://www.amazon.de/gp/product/B09BLWRJNZ/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B09BLWRJNZ&linkCode=as2&tag=springbuch-21&linkId=6390eb1d135f0e93a558b96a42f26a7d">Softcover
 bei Amazon</a>
 
+<br />
+<em>Mit den Büchern bei Amazon erzielen wir keinen Gewinn.</em>
 
 </center>
