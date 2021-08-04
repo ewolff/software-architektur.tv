@@ -2,6 +2,7 @@
 title: Sketchnotes zu SoftwareArchitektur im Stream
 type: website
 description: Das Buch mit den den Sketchnotes von Lisa
+twitterimage: sketchnote-buch-twitter.png
 ---
 
 Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu 36
