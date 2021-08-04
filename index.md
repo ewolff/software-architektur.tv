@@ -12,9 +12,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-08-06 12:00 Thema noch offen
+# Nächster Termin: Freitag 2021-08-06 12:00 Funktional Programmierung: Beating the Average?
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Funktionale Programmierung wird zwar immer populärer, aber auch heute
+noch arbeiten die meisten Entwickler:innen mit anderen Ansätzen. In
+dieser Episode werden wir kurz über die Grundlagen von funktionaler
+Programmierung sprechen und dann über das Paper "Beating the Average"
+von Paul Graham. In dem Dokument beschreibt er seinen eigenen
+kommerziellen Erfolg mit funktionaler Programmierung. Und natürlich
+wird es auch um die Frage gehen, warum funktionale Programmierung
+nicht viel öfter genutzt wird, wenn dieser Ansatz doch solche
+erheblichen Vorteile mit sich bringt.
+
+[In Kalendar eintragen](termin.ics)
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
@@ -22,38 +32,38 @@ stellen.
 
 # Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/FuOpO-QRcos" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/K7wHIYd2feo"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sieht und hört man Eberhard und Oliver. -->
+In diesem Stream sieht und hört man Eberhard.
 
-<!-- # Sketchnote Stream -->
+# Sketchnote Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/pSM8Hhc8PFQ" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/pQ1gmG3q-iU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
-<!-- das Audio mit Eberhard und Oliver. -->
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Eberhard.
 
-<!-- # Vorschau -->
+# Vorschau
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/uY7y1HGazbM" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Kt3jI3oMbKQ"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 # Fragen & Diskussion
 

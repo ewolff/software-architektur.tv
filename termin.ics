@@ -20,27 +20,29 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210727T063113Z
-DESCRIPTION:In dieser Folge von Software Architektur im Stream wollen wir d
-	arüber sprechen\, wie man Webanwendungen miteinander integrieren kann. Wi
-	r werden außerdem darüber sprechen\, wieso man das überhaupt möchte un
-	d dann verschiedene Ansätze vorstellen. Dabei wollen wir uns vorallem auf
-	 die Integration im Frontend fokussieren.\n\nDazu diskutiert Lisa Moritz m
-	it Franziska Dessart\, Joy Heron und Lucas Dohmen.\nhttps://www.youtube.co
-	m/watch?v=FuOpO-QRcos&feature=emb_imp_woyt\nhttps://www.twitch.tv/ebrwolff
+CREATED:20210804T151439Z
+DESCRIPTION:Funktionale Programmierung wird zwar immer populärer\, aber au
+	ch heute noch arbeiten die meisten Entwickler:innen mit anderen Ansätzen.
+	 In dieser Episode werden wir kurz über die Grundlagen von funktionaler P
+	rogrammierung sprechen und dann über das Paper "Beating the Average" von 
+	Paul Graham. In dem Dokument beschreibt er seinen eigenen kommerziellen Er
+	folg mit funktionaler Programmierung. Und natürlich wird es auch um die F
+	rage gehen\, warum funktionale Programmierung nicht viel öfter genutzt wi
+	rd\, wenn dieser Ansatz doch solche erheblichen Vorteile mit sich bringt.\
+	n\nStream https://www.youtube.com/watch?v=K7wHIYd2feo\nLive Sketchnoting h
+	ttps://www.youtube.com/watch?v=pQ1gmG3q-iU\nhttps://www.twitch.tv/ebrwolff
 	\n
-DTEND;TZID="W. Europe Standard Time":20210730T130000
+DTEND;TZID="W. Europe Standard Time":20210806T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210730T120000
-LAST-MODIFIED:20210727T063113Z
-LOCATION:https://www.youtube.com/watch?v=FuOpO-QRcos&feature=emb_imp_woyt h
-	ttps://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20210806T120000
+LAST-MODIFIED:20210804T151439Z
+LOCATION:Stream https://www.youtube.com/watch?v=K7wHIYd2feo Live Sketchnoti
+	ng https://www.youtube.com/watch?v=pQ1gmG3q-iU https://www.twitch.tv/ebrwo
+	lff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Frontendarchitektur II
-	I - Integration mit Franziska Dessart\, Joy Heron und Lucas
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Funktional Programmieru
+	ng: Beating the Average?
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000090A6B5CED478D701000000000000000
-	01000000025A8D0167E938E4F9EF269F47EFB353C
 END:VEVENT
 END:VCALENDAR
