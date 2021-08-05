@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Nächster Termin: Freitag 2021-08-06 12:00 Funktional Programmierung: Beating the Average?
+# Nächster Termin: Freitag 2021-08-06 12:00 Funktionale Programmierung: Beating the Average?
 
 Funktionale Programmierung wird zwar immer populärer, aber auch heute
 noch arbeiten die meisten Entwickler:innen mit anderen Ansätzen. In
