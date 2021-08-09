@@ -26,53 +26,20 @@ Durchblättern und Schmökern ein.
 
 <center>
 
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/vzTXJKrpbcY"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-
-<a href="https://leanpub.com/softwarearchitektur-im-stream/"> <img
-src="sketchnote-buch.jpg" /> <br /> PDF kostenlos bei Leanpub </a>
-
-<br />
-
-<br />
-
-<iframe style="width:120px;height:240px;" marginwidth="0"
-    marginheight="0" scrolling="no" frameborder="0"
-    src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ac&ref=tf_til&ad_type=product_link&tracking_id=springbuch-21&marketplace=amazon&amp;region=DE&placement=B09BGPD661&asins=B09BGPD661&linkId=591aaae411014963a7e1207c84f12189&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"
-    > </iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0"
-    marginheight="0" scrolling="no" frameborder="0"
-    src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=springbuch-21&marketplace=amazon&amp;region=DE&placement=B09BLWRJNZ&asins=B09BLWRJNZ&linkId=a7ca4031c54a91dcf61f3e035b99ad17&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff" >
-		</iframe>
-
-<br />
-<a target="_blank"
-href="https://www.amazon.de/gp/product/B09BGPD661/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B09BGPD661&linkCode=as2&tag=springbuch-21&linkId=28ce8cd1a77df64c1e7865bad5e2f5e7">Hardcover
-bei Amazon</a>
-<a target="_blank" href="https://www.amazon.de/gp/product/B09BLWRJNZ/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B09BLWRJNZ&linkCode=as2&tag=springbuch-21&linkId=6390eb1d135f0e93a558b96a42f26a7d">Softcover
-bei Amazon</a>
-
-<br />
-<em>Mit den Büchern bei Amazon erzielen wir keinen Gewinn.</em>
+<a href="sketchnote-buch"> <img
+src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 </center>
 
 
-# Nächster Termin: Freitag 2021-08-06 12:00 Funktionale Programmierung: Beating the Average?
+# Nächster Termin: Freitag 2021-08-13 12:00 Welchen Sinn hat agiles Coaching? mit Johannes Link
 
-Funktionale Programmierung wird zwar immer populärer, aber auch heute
-noch arbeiten die meisten Entwickler:innen mit anderen Ansätzen. In
-dieser Episode werden wir kurz über die Grundlagen von funktionaler
-Programmierung sprechen und dann über das Paper "Beating the Average"
-von Paul Graham. In dem Dokument beschreibt er seinen eigenen
-kommerziellen Erfolg mit funktionaler Programmierung. Und natürlich
-wird es auch um die Frage gehen, warum funktionale Programmierung
-nicht viel öfter genutzt wird, wenn dieser Ansatz doch solche
-erheblichen Vorteile mit sich bringt.
+Unternehmen, die modern sein wollen, müssen Software agil entwickeln
+oder das zumindest behaupten. Dafür halten sie sich ihre agilen
+Coaches. Johannes war einer von ihnen. Vor einigen Jahren hat er in
+einem Vortrag seinen Abschied vom agilen Coaching beschrieben. Wir
+sprechen darüber, was er in den letzten Jahren zu diesem Thema gelernt
+hat und wie er die Situation heute sieht.
 
 [In Kalendar eintragen](termin.ics)
 
@@ -84,32 +51,32 @@ erheblichen Vorteile mit sich bringt.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/K7wHIYd2feo"
+src="https://www.youtube-nocookie.com/embed/JKDfy7A61ug"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream sieht und hört man Eberhard.
+In diesem Stream sieht und hört man Johannes und Eberhard.
 
 # Sketchnote Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/pQ1gmG3q-iU"
+src="https://www.youtube-nocookie.com/embed/EzO1c4Z0dvw"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
 In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Eberhard.
+das Audio mit Johannes und Eberhard.
 
 # Vorschau
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/Kt3jI3oMbKQ"
+src="https://www.youtube-nocookie.com/embed/E_A2FXVZKqo"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>

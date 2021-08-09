@@ -20,29 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210804T151439Z
-DESCRIPTION:Funktionale Programmierung wird zwar immer populärer\, aber au
-	ch heute noch arbeiten die meisten Entwickler:innen mit anderen Ansätzen.
-	 In dieser Episode werden wir kurz über die Grundlagen von funktionaler P
-	rogrammierung sprechen und dann über das Paper "Beating the Average" von 
-	Paul Graham. In dem Dokument beschreibt er seinen eigenen kommerziellen Er
-	folg mit funktionaler Programmierung. Und natürlich wird es auch um die F
-	rage gehen\, warum funktionale Programmierung nicht viel öfter genutzt wi
-	rd\, wenn dieser Ansatz doch solche erheblichen Vorteile mit sich bringt.\
-	n\nStream https://www.youtube.com/watch?v=K7wHIYd2feo\nLive Sketchnoting h
-	ttps://www.youtube.com/watch?v=pQ1gmG3q-iU\nhttps://www.twitch.tv/ebrwolff
-	\n
-DTEND;TZID="W. Europe Standard Time":20210806T130000
+CREATED:20210809T070859Z
+DESCRIPTION:Unternehmen\, die modern sein wollen\, müssen Software agil en
+	twickeln oder das zumindest behaupten. Dafür halten sie sich ihre agilen 
+	Coaches. Johannes war einer von ihnen. Vor einigen Jahren hat er in einem 
+	Vortrag seinen Abschied vom agilen Coaching beschrieben. Wir sprechen dar
+	über\, was er in den letzten Jahren zu diesem Thema gelernt hat und wie e
+	r die Situation heute sieht.\n\nStream https://www.youtube.com/watch?v=JKD
+	fy7A61ug\nLive Sketchnoting https://www.youtube.com/watch?v=EzO1c4Z0dvw\nh
+	ttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210813T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210806T120000
-LAST-MODIFIED:20210804T151439Z
-LOCATION:Stream https://www.youtube.com/watch?v=K7wHIYd2feo Live Sketchnoti
-	ng https://www.youtube.com/watch?v=pQ1gmG3q-iU https://www.twitch.tv/ebrwo
+DTSTART;TZID="W. Europe Standard Time":20210813T120000
+LAST-MODIFIED:20210809T070859Z
+LOCATION:Stream https://www.youtube.com/watch?v=JKDfy7A61ug Live Sketchnoti
+	ng https://www.youtube.com/watch?v=EzO1c4Z0dvw https://www.twitch.tv/ebrwo
 	lff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Funktional Programmieru
-	ng: Beating the Average?
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Welchen Sinn hat agiles
+	 Coaching? mit Johannes Link
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
