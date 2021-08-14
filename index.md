@@ -32,55 +32,50 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-08-13 12:00 Welchen Sinn hat agiles Coaching? mit Johannes Link
+# Nächster Termin: Freitag 2021-08-27 12:00 Thema offen
 
-Unternehmen, die modern sein wollen, müssen Software agil entwickeln
-oder das zumindest behaupten. Dafür halten sie sich ihre agilen
-Coaches. Johannes war einer von ihnen. Vor einigen Jahren hat er in
-einem Vortrag seinen Abschied vom agilen Coaching beschrieben. Wir
-sprechen darüber, was er in den letzten Jahren zu diesem Thema gelernt
-hat und wie er die Situation heute sieht.
+<!-- Abstract -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-# Stream
+<!-- # Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/JKDfy7A61ug"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/JKDfy7A61ug" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream sieht und hört man Johannes und Eberhard.
+<!-- In diesem Stream sieht und hört man Johannes und Eberhard. -->
 
-# Sketchnote Stream
+<!-- # Sketchnote Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/EzO1c4Z0dvw"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/EzO1c4Z0dvw" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Johannes und Eberhard.
+<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
+<!-- das Audio mit Johannes und Eberhard. -->
 
-# Vorschau
+<!-- # Vorschau -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/E_A2FXVZKqo"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/E_A2FXVZKqo" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion
 
