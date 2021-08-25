@@ -20,26 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210809T070859Z
-DESCRIPTION:Unternehmen\, die modern sein wollen\, müssen Software agil en
-	twickeln oder das zumindest behaupten. Dafür halten sie sich ihre agilen 
-	Coaches. Johannes war einer von ihnen. Vor einigen Jahren hat er in einem 
-	Vortrag seinen Abschied vom agilen Coaching beschrieben. Wir sprechen dar
-	über\, was er in den letzten Jahren zu diesem Thema gelernt hat und wie e
-	r die Situation heute sieht.\n\nStream https://www.youtube.com/watch?v=JKD
-	fy7A61ug\nLive Sketchnoting https://www.youtube.com/watch?v=EzO1c4Z0dvw\nh
-	ttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210813T130000
+CREATED:20210825T124304Z
+DESCRIPTION:Strategisches Domain-driven Design ist viel mehr als das Auftei
+	len eines großen Systems in Bounded Contexts. Viele der relevanten Patter
+	ns werden aber oft verstanden und selten eingesetzt. Es gibt auch zahlreic
+	he Patterns\, die sich mit der Interaktion von Teams beschäftigen und so 
+	weit über klassische Software-Architektur hinaus gehen. Gerade diese Patt
+	erns werden in der Realität selten genutzt. In dieser Episode wollen wir 
+	einige dieser Missverständnis klären und diskutieren\, warum diese Patte
+	rns in der Praxis oft doch nicht genutzt werden.\n\nStream https://youtu.b
+	e/8Wr7QA1w5YE\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210827T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210813T120000
-LAST-MODIFIED:20210809T070859Z
-LOCATION:Stream https://www.youtube.com/watch?v=JKDfy7A61ug Live Sketchnoti
-	ng https://www.youtube.com/watch?v=EzO1c4Z0dvw https://www.twitch.tv/ebrwo
-	lff
+DTSTART;TZID="W. Europe Standard Time":20210827T120000
+LAST-MODIFIED:20210825T124304Z
+LOCATION:Stream https://youtu.be/8Wr7QA1w5YE  https://www.twitch.tv/ebrwolf
+	f
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Welchen Sinn hat agiles
-	 Coaching? mit Johannes Link
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Strategisches Domain-dr
+	iven Design - Grundlegende Patterns unter der Lupe
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR

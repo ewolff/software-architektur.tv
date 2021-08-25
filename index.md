@@ -32,25 +32,33 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-08-27 12:00 Thema offen
+# Nächster Termin: Freitag 2021-08-27 12:00 Strategisches Domain-driven Design - Grundlegende Patterns unter der Lupe
 
-<!-- Abstract -->
+Strategisches Domain-driven Design ist viel mehr als das Aufteilen
+eines großen Systems in Bounded Contexts. Viele der relevanten
+Patterns werden aber oft verstanden und selten eingesetzt. Es gibt
+auch zahlreiche Patterns, die sich mit der Interaktion von Teams
+beschäftigen und so weit über klassische Software-Architektur hinaus
+gehen. Gerade diese Patterns werden in der Realität selten genutzt. In
+dieser Episode wollen wir einige dieser Missverständnis klären und
+diskutieren, warum diese Patterns in der Praxis oft doch nicht genutzt
+werden.
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+[In Kalendar eintragen](termin.ics)
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/JKDfy7A61ug" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/8Wr7QA1w5YE"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Johannes und Eberhard. -->
 
@@ -67,15 +75,15 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 <!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
 <!-- das Audio mit Johannes und Eberhard. -->
 
-<!-- # Vorschau -->
+# Vorschau
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/E_A2FXVZKqo" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/6xRMSPuMmmc"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 # Fragen & Diskussion
 
