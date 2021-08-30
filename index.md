@@ -32,7 +32,7 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-09-03 12:00 Das Spotify-Modell gibt es gar nicht.
+# Nächster Termin: Freitag 2021-09-03 12:00 Das Spotify-Modell gibt es gar nicht!
 
 Spotify ist nicht nur eine beliebte Anwendung zum Streamen von Musik,
 sondern hat auch das Spotify-Modell aus der Taufe gehoben. Dieses
