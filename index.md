@@ -32,35 +32,23 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-09-03 12:00 Das Spotify-Modell gibt es gar nicht!
+# Nächster Termin: Freitag 2021-09-10 12:00 Thema noch offen
 
-Spotify ist nicht nur eine beliebte Anwendung zum Streamen von Musik,
-sondern hat auch das Spotify-Modell aus der Taufe gehoben. Dieses
-Modell ist mittlerweile zu einem wichtiger Ansatz für agile
-Software-Entwicklung in größeren Projekten geworden. Bei genauer
-Betrachtung stellt sich aber heraus, dass die falschen Teile dieses
-Modell kopiert werden. Was die meistens unter dem Spotify-Modell
-verstehen, hat es vermutlich nie gegeben und ist dort sehr sicher
-nicht mehr im Einsatz. In diesem Stream diskutieren wir die
-verschiedenen Aspekte des Spotify-Modells und die Missverständnisse
-rund um diesen Ansatz. Dann geht es um die Gründe für diese die
-Fehlinterpretation und um die Frage, ob sich das Modell dennoch lohnt.
-
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-# Stream
+<!-- # Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/I63tgkMCDUw"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/I63tgkMCDUw" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Johannes und Eberhard. -->
 
@@ -77,15 +65,15 @@ allowfullscreen></iframe> </div>
 <!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
 <!-- das Audio mit Johannes und Eberhard. -->
 
-# Vorschau
+<!-- # Vorschau -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/F5THHBn-wrs"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/F5THHBn-wrs" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion
 
