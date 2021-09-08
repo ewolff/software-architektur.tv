@@ -71,15 +71,15 @@ allowfullscreen></iframe> </div>
 <!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
 <!-- das Audio mit Johannes und Eberhard. -->
 
-<!-- # Vorschau -->
+# Vorschau
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/F5THHBn-wrs" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/xSZtlVGoK8k"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 # Fragen & Diskussion
 
