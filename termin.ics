@@ -20,29 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210830T131830Z
-DESCRIPTION:Spotify ist nicht nur eine beliebte Anwendung zum Streamen von 
-	Musik\, sondern hat auch das Spotify-Modell aus der Taufe gehoben. Dieses 
-	Modell ist mittlerweile zu einem wichtiger Ansatz für agile Software-Entw
-	icklung in größeren Projekten geworden. Bei genauer Betrachtung stellt s
-	ich aber heraus\, dass die falschen Teile dieses Modell kopiert werden. Wa
-	s die meistens unter dem Spotify-Modell verstehen\, hat es vermutlich nie 
-	gegeben und ist dort sehr sicher nicht mehr im Einsatz. In diesem Stream d
-	iskutieren wir die verschiedenen Aspekte des Spotify-Modells und die Missv
-	erständnisse rund um diesen Ansatz. Dann geht es um die Gründe für dies
-	e die Fehlinterpretation und um die Frage\, ob sich das Modell dennoch loh
-	nt.\n\nStream https://www.youtube.com/watch?v=I63tgkMCDUw  \nhttps://www.t
-	witch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210903T130000
+CREATED:20210908T061441Z
+DESCRIPTION:Wissensaustausch ist gerade bei Software-Architektur entscheide
+	nd. Und gerade Bücher sind dafür ein wichtiges Medium. In der Episode sp
+	rechen Lisa und Eberhard über ihre eigenen Erfahrungen als Autor:innen. S
+	ie berichten darüber\, wie man das Schreiben eines Buches angeht und waru
+	m ein solches Projekt sinnvoll sein kann.\n\nStream https://www.youtube.co
+	m/watch?v=JbTgr9suyGE \nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210910T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210903T120000
-LAST-MODIFIED:20210830T131830Z
-LOCATION:Stream https://www.youtube.com/watch?v=I63tgkMCDUw  https://www.tw
-	itch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20210910T120000
+LAST-MODIFIED:20210908T061441Z
+LOCATION:Stream https://www.youtube.com/watch?v=I63tgkMCDUw https://www.twi
+	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Das Spotify-Modell gibt
-	 es gar nicht.
-TRANSP:OPAQUE
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Bücher Schreiben - War
+	um und Wie?
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR

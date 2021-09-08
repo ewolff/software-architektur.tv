@@ -32,23 +32,29 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-09-10 12:00 Thema noch offen
+# Nächster Termin: Freitag 2021-09-10 12:00 Bücher Schreiben - Warum und Wie?
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Wissensaustausch ist gerade bei Software-Architektur entscheidend. Und
+gerade Bücher sind dafür ein wichtiges Medium. In der Episode sprechen
+Lisa und Eberhard über ihre eigenen Erfahrungen als Autor:innen. Sie
+berichten darüber, wie man das Schreiben eines Buches angeht
+und warum ein solches Projekt sinnvoll sein kann.
+
+[In Kalendar eintragen](termin.ics)
 
 [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- # Stream -->
+# Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/I63tgkMCDUw" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/JbTgr9suyGE"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Johannes und Eberhard. -->
 
