@@ -32,38 +32,46 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-09-17 12:00 Thema noch offen
+# Nächster Termin: Freitag 2021-09-17 12:00 Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+In der Software-Architektur gibt es viele verschiedene Stile:
+Schichten, Hexagonal, Clean, Onion – aber auch ganz andere Ansätze wie
+MVC (Model-View-Controller) oder Domain-driven Design (DDD). In dieser
+Episode sprechen Henning Schwentner und Eberhard Wolff über die
+verschiedenen Stile. Neben den Eigenschaften der einzelnen Ansätze
+geht es auch um eine Kombination, mit der Henning schon viele
+Erfahrungen gesammelt hat: den Architektur-Hamburger.
 
-<!-- [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q) -->
+[In Kalendar eintragen](termin.ics)
 
-<!-- [Twitch Channel](https://www.twitch.tv/ebrwolff) -->
+[YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
 
-<!-- # Stream -->
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/JbTgr9suyGE" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+# Stream
 
-<!-- In diesem Stream sieht und hört man Johannes und Eberhard. -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/RJ0k6_MgsN4"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- # Sketchnote Stream -->
+In diesem Stream sieht und hört man Henning und Eberhard.
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/EzO1c4Z0dvw" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+# Sketchnote Stream
 
-<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
-<!-- das Audio mit Johannes und Eberhard. -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Cyp6rOn1-iA"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Henning und Eberhard.
 
 <!-- # Vorschau -->
 
