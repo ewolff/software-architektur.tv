@@ -20,32 +20,29 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210914T170534Z
-DESCRIPTION:In der Software-Architektur gibt es viele verschiedene Stile: S
-	chichten\, Hexagonal\, Clean\, Onion – aber auch ganz andere Ansätze wi
-	e MVC (Model-View-Controller) oder Domain-driven Design (DDD). In dieser E
-	pisode sprechen Henning Schwentner und Eberhard Wolff über die verschiede
-	nen Stile. Neben den Eigenschaften der einzelnen Ansätze geht es auch um 
-	eine Kombination\, mit der Henning schon viele Erfahrungen gesammelt hat: 
-	den Architektur-Hamburger.\n\nStream https://www.youtube.com/watch?v=RJ0k6
-	_MgsN4\nLive Sketchnoting Stream https://www.youtube.com/watch?v=Cyp6rOn1-
-	iA\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210917T130000
+CREATED:20210921T125018Z
+DESCRIPTION:Lose Kopplung stellt eine grundlegende Eigenschaft eines modula
+	ren Systems dar. Sie soll Änderungen vereinfachen\, indem jede Änderung 
+	nur einen begrenzten Teil eines Systems beeinflusst. Obwohl der Begriff so
+	 wichtig ist\, gibt es gerade in diesem Bereich immer wieder Missverständ
+	nisse. In dieser Episode diskutiert Eberhard Wolff die Bedeutung des Begri
+	ff und warum lose Kopplung so wichtig für Software-Systeme ist. Außerdem
+	 spricht er über verschiedene Ansätze\, um lose Kopplung tatsächlich zu
+	 erreichen.\n\nStream https://www.youtube.com/watch?v=B_gUlkBBpJI\nLive Sk
+	etchnoting Stream https://www.youtube.com/watch?v=KHXTMiLI7T4\nhttps://www
+	.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210924T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210917T120000
-LAST-MODIFIED:20210914T170534Z
-LOCATION:Stream https://www.youtube.com/watch?v=RJ0k6_MgsN4 Live Sketchnoti
-	ng Stream https://www.youtube.com/watch?v=Cyp6rOn1-iA https://www.twitch.t
+DTSTART;TZID="W. Europe Standard Time":20210924T120000
+LAST-MODIFIED:20210921T125018Z
+LOCATION:Stream https://www.youtube.com/watch?v=B_gUlkBBpJI Live Sketchnoti
+	ng Stream https://www.youtube.com/watch?v=KHXTMiLI7T4 https://www.twitch.t
 	v/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Architekturstil-Verglei
-	ch und Architektur-Hamburger mit Henning Schwentner
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Lose Kopplung
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0AEBC689BA9D701000000000000000
 	0100000006DB6885372C7834EA99877D24F629087
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR
