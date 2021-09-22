@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210922T100720Z
+DESCRIPTION:The architecture of a system has to change over time. In this e
+	pisode\, we will discuss evolutionary architecture and why it is important
+	. We will talk about patterns and principles to build architectures that s
+	tand the test of time. Dr Rebecca Parsons co-authored of a book about evol
+	utionary architecture and has extensive experience with application develo
+	pment. Before becoming the CTO for Thoughtworks\, she worked as an assista
+	nt professor at the University of Central Florida and as Director’s Post
+	 Doctoral Fellow at Los Alamos National Laboratory.\n\nStream https://www.
+	youtube.com/watch?v=P33Wkm2TJ5I\nLive Sketchnoting Stream https://www.yout
+	ube.com/watch?v=77y7G95e8Co\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20210927T200000
+DTSTAMP:20210329T160737Z
+DTSTART;TZID="W. Europe Standard Time":20210927T190000
+LAST-MODIFIED:20210922T100720Z
+LOCATION:Stream https://www.youtube.com/watch?v=P33Wkm2TJ5I Live Sketchnoti
+	ng Stream https://www.youtube.com/watch?v=77y7G95e8Co https://www.twitch.t
+	v/ebrwolff
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Rebecca Parsons about E
+	volutionary Architecture
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+END:VEVENT
+END:VCALENDAR

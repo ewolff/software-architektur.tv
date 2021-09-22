@@ -49,7 +49,7 @@ um lose Kopplung tatsächlich zu erreichen.
 
 [Twitch Channel](https://www.twitch.tv/ebrwolff)
 
-# Stream
+## Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
@@ -61,7 +61,7 @@ allowfullscreen></iframe> </div>
 
 In diesem Stream sieht und hört man Eberhard.
 
-# Sketchnote Stream
+## Sketchnote Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
@@ -74,7 +74,7 @@ allowfullscreen></iframe> </div>
 In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
 das Audio mit Eberhard.
  
-# Vorschau
+## Vorschau
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
@@ -83,6 +83,49 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
+
+# Monday 2021-09-27 Rebecca Parsons about Evolutionary Architecture
+
+The architecture of a system has to change over time. In this episode,
+we will discuss evolutionary architecture and why it is important. We
+will talk about patterns and principles to build architectures that
+stand the test of time. Dr Rebecca Parsons co-authored of a book about
+evolutionary architecture and has extensive experience with
+application development. Before becoming the CTO for Thoughtworks, she
+worked as an assistant professor at the University of Central Florida
+and as Director’s Post Doctoral Fellow at Los Alamos National
+Laboratory.
+
+[Add to calendar](appointment.ics)
+
+[YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
+
+[Twitch Channel](https://www.twitch.tv/ebrwolff)
+
+## Stream
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/P33Wkm2TJ5I"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In this Stream, you will hear and see Rebecca and Eberhard.
+
+## Sketchnote Stream
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/77y7G95e8Co"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In this Stream, you will see Lisa Moritz doing her sketchnote and hear
+Rebecca and Eberhard.
 
 # Fragen & Diskussion
 
