@@ -32,57 +32,57 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-09-24 12:00 Lose Kopplung
+<!-- # Nächster Termin: Freitag 2021-09-24 12:00 Lose Kopplung -->
 
-Lose Kopplung stellt eine grundlegende Eigenschaft eines modularen
-Systems dar. Sie soll Änderungen vereinfachen, indem jede Änderung nur
-einen begrenzten Teil eines Systems beeinflusst. Obwohl der Begriff so
-wichtig ist, gibt es gerade in diesem Bereich immer wieder
-Missverständnisse. In dieser Episode diskutiert Eberhard Wolff die
-Bedeutung des Begriff und warum lose Kopplung so wichtig für
-Software-Systeme ist. Außerdem spricht er über verschiedene Ansätze,
-um lose Kopplung tatsächlich zu erreichen.
+<!-- Lose Kopplung stellt eine grundlegende Eigenschaft eines modularen -->
+<!-- Systems dar. Sie soll Änderungen vereinfachen, indem jede Änderung nur -->
+<!-- einen begrenzten Teil eines Systems beeinflusst. Obwohl der Begriff so -->
+<!-- wichtig ist, gibt es gerade in diesem Bereich immer wieder -->
+<!-- Missverständnisse. In dieser Episode diskutiert Eberhard Wolff die -->
+<!-- Bedeutung des Begriff und warum lose Kopplung so wichtig für -->
+<!-- Software-Systeme ist. Außerdem spricht er über verschiedene Ansätze, -->
+<!-- um lose Kopplung tatsächlich zu erreichen. -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
+<!-- [YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q) -->
 
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch Channel](https://www.twitch.tv/ebrwolff) -->
 
-## Stream
+<!-- ## Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/B_gUlkBBpJI"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/B_gUlkBBpJI" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream sieht und hört man Eberhard.
+<!-- In diesem Stream sieht und hört man Eberhard. -->
 
-## Sketchnote Stream
+<!-- ## Sketchnote Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/KHXTMiLI7T4"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/KHXTMiLI7T4" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Eberhard.
+<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
+<!-- das Audio mit Eberhard. -->
  
-## Vorschau
+<!-- ## Vorschau -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/N8Viz9oweIs"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/N8Viz9oweIs" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 # Monday 2021-09-27 Rebecca Parsons about Evolutionary Architecture
 
