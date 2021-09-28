@@ -84,17 +84,14 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
 
-# Monday 2021-09-27 Rebecca Parsons about Evolutionary Architecture
+# Fridays 2021-10-01 12:00 Kevlin Henney: Dealing with Uncertainty
 
-The architecture of a system has to change over time. In this episode,
-we will discuss evolutionary architecture and why it is important. We
-will talk about patterns and principles to build architectures that
-stand the test of time. Dr Rebecca Parsons co-authored of a book about
-evolutionary architecture and has extensive experience with
-application development. Before becoming the CTO for Thoughtworks, she
-worked as an assistant professor at the University of Central Florida
-and as Director’s Post Doctoral Fellow at Los Alamos National
-Laboratory.
+Software architects are faced with uncertainty more often than we like
+to admit. How can we deal with it - or can we even make it disappear?
+In this episode, we will talk about uncertainty with Kevlin Henney. He
+has been a member of the IEEE Software Advisory Board, coauthor of
+several books on patterns, editor of 97 Things Every Programmer Should
+Know, and co-editor 97 Things Every Java Programmer Should Know.
 
 [Add to calendar](appointment.ics)
 
@@ -106,26 +103,26 @@ Laboratory.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/P33Wkm2TJ5I"
+src="https://www.youtube-nocookie.com/embed/NbmdXj0Lm4k"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In this Stream, you will hear and see Rebecca and Eberhard.
+In this Stream, you will hear and see Kevlin and Eberhard.
 
 ## Sketchnote Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/77y7G95e8Co"
+src="https://www.youtube-nocookie.com/embed/IURXpe3stjg"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
 In this Stream, you will see Lisa Moritz doing her sketchnote and hear
-Rebecca and Eberhard.
+Kevlin and Eberhard.
 
 # Fragen & Diskussion
 
