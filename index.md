@@ -84,7 +84,7 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
 
-# Fridays 2021-10-01 12:00 Kevlin Henney: Dealing with Uncertainty
+# Friday 2021-10-01 12:00 Kevlin Henney: Dealing with Uncertainty
 
 Software architects are faced with uncertainty more often than we like
 to admit. How can we deal with it - or can we even make it disappear?
