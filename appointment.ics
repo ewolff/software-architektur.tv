@@ -2,6 +2,7 @@ BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
 METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VTIMEZONE
 TZID:W. Europe Standard Time
 BEGIN:STANDARD
@@ -19,26 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210928T144232Z
-DESCRIPTION:Software architects are faced with uncertainty more often than 
-	we like to admit. How can we deal with it - or can we even make it disappe
-	ar? In this episode\, we will talk about uncertainty with Kevlin Henney. H
-	e has been a member of the IEEE Software Advisory Board\, coauthor of seve
-	ral books on patterns\, editor of 97 Things Every Programmer Should Know\,
-	 and co-editor 97 Things Every Java Programmer Should Know.\n\nStream http
-	s://www.youtube.com/watch?v=NbmdXj0Lm4k\nLive Sketchnoting Stream https://
-	www.youtube.com/watch?v=IURXpe3stjg\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20211001T130000
+CREATED:20211001T135546Z
+DESCRIPTION:Software architecture is fundamentally about how to split a sof
+	tware system into multiple parts. In this episode\, we discuss this basic 
+	challenge: We talk about modularization with approaches like microservices
+	 and monoliths with Chris Richardson. Chris is a Java Champion and a Java 
+	One rock star. Nowadays\, he works on microservices with his web site micr
+	oservices.io and his book “Microservices Patterns”.\n\nStream https://
+	www.youtube.com/watch?v=rCosIgyWR68 \nLive Sketchnoting Stream https://www
+	.youtube.com/watch?v=xpfna2ih1e8\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20211004T200000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20211001T120000
-LAST-MODIFIED:20210928T144232Z
-LOCATION:Stream https://www.youtube.com/watch?v=NbmdXj0Lm4k Live Sketchnoti
-	ng Stream https://www.youtube.com/watch?v=IURXpe3stjg https://www.twitch.t
+DTSTART;TZID="W. Europe Standard Time":20211004T190000
+LAST-MODIFIED:20211001T135546Z
+LOCATION:Stream https://www.youtube.com/watch?v=rCosIgyWR68 Live Sketchnoti
+	ng Stream https://www.youtube.com/watch?v=xpfna2ih1e8 https://www.twitch.t
 	v/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Kevlin Henney: Dealing 
-	with Uncertainty
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Microservices\, Monolit
+	hs\, Modularization with Chris Richardson
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR

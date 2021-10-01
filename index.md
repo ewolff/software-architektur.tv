@@ -84,14 +84,15 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
 
-# Friday 2021-10-01 12:00 Kevlin Henney: Dealing with Uncertainty
+# Monday 2021-10-01 19:00 CEST Microservices, Monoliths, Modularization with Chris Richardson
 
-Software architects are faced with uncertainty more often than we like
-to admit. How can we deal with it - or can we even make it disappear?
-In this episode, we will talk about uncertainty with Kevlin Henney. He
-has been a member of the IEEE Software Advisory Board, coauthor of
-several books on patterns, editor of 97 Things Every Programmer Should
-Know, and co-editor 97 Things Every Java Programmer Should Know.
+Software architecture is fundamentally about how to split a software
+system into multiple parts. In this episode, we discuss this basic
+challenge: We talk about modularization with approaches like
+microservices and monoliths with Chris Richardson. Chris is a Java
+Champion and a Java One rock star. Nowadays, he works on microservices
+with his web site microservices.io and his book “Microservices
+Patterns”.
 
 [Add to calendar](appointment.ics)
 
@@ -103,7 +104,7 @@ Know, and co-editor 97 Things Every Java Programmer Should Know.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/NbmdXj0Lm4k"
+src="https://www.youtube-nocookie.com/embed/rCosIgyWR68"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
@@ -115,7 +116,7 @@ In this Stream, you will hear and see Kevlin and Eberhard.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/IURXpe3stjg"
+src="https://www.youtube-nocookie.com/embed/xpfna2ih1e8"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
