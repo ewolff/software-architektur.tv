@@ -84,7 +84,7 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
 
-# Monday 2021-10-01 19:00 CEST Microservices, Monoliths, Modularization with Chris Richardson
+# Monday 2021-10-04 19:00 CEST Microservices, Monoliths, Modularization with Chris Richardson
 
 Software architecture is fundamentally about how to split a software
 system into multiple parts. In this episode, we discuss this basic
