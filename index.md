@@ -110,20 +110,20 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In this Stream, you will hear and see Kevlin and Eberhard.
+<!-- In this Stream, you will hear and see Kevlin and Eberhard. -->
 
-## Sketchnote Stream
+<!-- ## Sketchnote Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/xpfna2ih1e8"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/xpfna2ih1e8" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In this Stream, you will see Lisa Moritz doing her sketchnote and hear
-Kevlin and Eberhard.
+<!-- In this Stream, you will see Lisa Moritz doing her sketchnote and hear -->
+<!-- Kevlin and Eberhard. -->
 
 # Fragen & Diskussion
 
