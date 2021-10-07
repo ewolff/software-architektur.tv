@@ -20,29 +20,43 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20210921T125018Z
-DESCRIPTION:Lose Kopplung stellt eine grundlegende Eigenschaft eines modula
-	ren Systems dar. Sie soll Änderungen vereinfachen\, indem jede Änderung 
-	nur einen begrenzten Teil eines Systems beeinflusst. Obwohl der Begriff so
-	 wichtig ist\, gibt es gerade in diesem Bereich immer wieder Missverständ
-	nisse. In dieser Episode diskutiert Eberhard Wolff die Bedeutung des Begri
-	ff und warum lose Kopplung so wichtig für Software-Systeme ist. Außerdem
-	 spricht er über verschiedene Ansätze\, um lose Kopplung tatsächlich zu
-	 erreichen.\n\nStream https://www.youtube.com/watch?v=B_gUlkBBpJI\nLive Sk
-	etchnoting Stream https://www.youtube.com/watch?v=KHXTMiLI7T4\nhttps://www
-	.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20210924T130000
+CREATED:20211007T153000Z
+DESCRIPTION:Nachdem es schon einige Folgen zum Thema Frontendarchitektur ga
+	b\, die eher den Fokus auf Server-seitig gerenderte Architekturen gelegt h
+	aben\, gibt es nun endlich eine Episode mit Manfred Steyer\, die den Fokus
+	 auf Single Page Applications legt. Wir sprechen über Modularisierungskon
+	zepte dieser Art von Architektur\, wie zum Beispiel Microfrontends und Cli
+	ents-Modulithen. Außerdem zeigen wir euch Entscheidungshilfen für die Wa
+	hl des passenden Konzepts und vieles mehr.\n\nStream https://www.youtube.c
+	om/watch?v=ufJCgwJH5Mc \nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20211015T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20210924T120000
-LAST-MODIFIED:20210921T125018Z
-LOCATION:Stream https://www.youtube.com/watch?v=B_gUlkBBpJI Live Sketchnoti
-	ng Stream https://www.youtube.com/watch?v=KHXTMiLI7T4 https://www.twitch.t
-	v/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20211015T120000
+LAST-MODIFIED:20211007T153000Z
+LOCATION:Stream https://www.youtube.com/watch?v=ufJCgwJH5Mc https://www.twi
+	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=de:Software Architektur im Stream: Lose Kopplung
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0AEBC689BA9D701000000000000000
 	0100000006DB6885372C7834EA99877D24F629087
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.14430.20262">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>Nachdem es schon einige Fol
+	gen zum Thema Frontendarchitektur gab\, die eher den Fokus auf Server-seit
+	ig gerenderte Architekturen gelegt haben\, gibt es nun endlich eine Episod
+	e mit Manfred Steyer\, die den Fokus auf Single Page Applications legt. Wi
+	r sprechen über Modularisierungskonzepte dieser Art von Architektur\, wie
+	 zum Beispiel Microfrontends und Clients-Modulithen. Außerdem zeigen wir 
+	euch Entscheidungshilfen für die Wahl des passenden Konzepts und vieles m
+	ehr.</FONT></P>\n\n<P><FONT SIZE=2>Stream <A HREF="https://www.youtube.com
+	/watch?v=ufJCgwJH5Mc">https://www.youtube.com/watch?v=ufJCgwJH5Mc</A> </FO
+	NT>\n\n<BR><FONT SIZE=2><A HREF="https://www.twitch.tv/ebrwolff">https://w
+	ww.twitch.tv/ebrwolff</A></FONT>\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR
