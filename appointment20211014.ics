@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20211008T124656Z
+DESCRIPTION:The Software Architecture Gathering conference features talks b
+	y many thought leaders in software architecture. During the conference\, e
+	e will stream discussions with some of the speakers in the evening :\n\n18
+	:00 CEST James Lewis about Architecture\, Team Topologies\, and Complexity
+	 with Eberhard Wolff \n18:35 CEST Felienne Hermans about how to read compl
+	ex code with Lisa Moritz \n\nStream https://www.youtube.com/watch?v=6wadGK
+	6AFO0 \nhttps://www.twitch.tv/ebrwolff \n\n
+DTEND;TZID="W. Europe Standard Time":20211013T191000
+DTSTAMP:20210329T160737Z
+DTSTART;TZID="W. Europe Standard Time":20211013T180000
+LAST-MODIFIED:20211008T124656Z
+LOCATION:Stream https://www.youtube.com/watch?v=6wadGK6AFO0 https://www.twi
+	tch.tv/ebrwolff 
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en:Software Architektur im Stream: Live from Software Arch
+	itecture Gathering with James Lewis and Felienne Hermans
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000007078C7AD52BCD701000000000000000
+	010000000CBE1D9407F8238408E66AB3EBB95A41D
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+END:VEVENT
+END:VCALENDAR

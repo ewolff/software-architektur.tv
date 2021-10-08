@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20211008T124703Z
+DESCRIPTION:The Software Architecture Gathering conference features talks b
+	y many thought leaders in software architecture. During the conference\, w
+	e will stream discussions with some of the speakers in the evening :\n18:3
+	0 CEST Avraham Poupko and Kenny Baas-Schwegler about the influence of cult
+	ure on software design with Eberhard Wolff\n19:05 CEST Cosima Laube about 
+	D.A.R.E. more\, F.E.A.R. less and journaling with Lisa Moritz\n\nStream ht
+	tps://www.youtube.com/watch?v=a3qr_M_wMkw\nhttps://www.twitch.tv/ebrwolff\
+	n
+DTEND;TZID="W. Europe Standard Time":20211014T194000
+DTSTAMP:20210329T160737Z
+DTSTART;TZID="W. Europe Standard Time":20211014T183000
+LAST-MODIFIED:20211008T124703Z
+LOCATION:Stream https://www.youtube.com/watch?v=a3qr_M_wMkw https://www.twi
+	tch.tv/ebrwolff
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en:Software Architektur im Stream: Live from Software Arch
+	itecture Gathering with Avraham Poupko\, Kenny Baas-Schwegler and Cosima L
+	aube
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000007078C7AD52BCD701000000000000000
+	010000000CBE1D9407F8238408E66AB3EBB95A41D
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+END:VEVENT
+END:VCALENDAR
