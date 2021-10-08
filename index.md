@@ -42,8 +42,8 @@ some of the speakers in the evening:
 
 ## Wednesday 2021-10-13
 
-* 18:00 CEST James Lewis about Architecture, Team Topologies, and
-    Complexity with Eberhard Wolff
+* 18:00 CEST James Lewis about architecture, team topologies, and
+    complexity with Eberhard Wolff
 * 18:35 CEST Felienne Hermans about how to read complex code with Lisa
   Moritz
 
