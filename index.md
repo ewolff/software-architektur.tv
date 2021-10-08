@@ -62,7 +62,7 @@ allowfullscreen></iframe> </div>
 ## Thursday 2021-10-14
 
 * 18:30 CEST Avraham Poupko and Kenny Baas-Schwegler about the
-  influence of cultur on software design with Eberhard Wolff
+  influence of culture on software design with Eberhard Wolff
 * 19:05 CEST Cosima Laube about D.A.R.E. more, F.E.A.R. less and
   journaling with Lisa Moritz
 
