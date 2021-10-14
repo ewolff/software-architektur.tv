@@ -40,25 +40,6 @@ features talks by many thought leaders in software
 architecture. During the conference, we will stream discussions with
 some of the speakers in the evening:
 
-## Wednesday 2021-10-13
-
-* 18:00 CEST James Lewis about architecture, team topologies, and
-    complexity with Eberhard Wolff
-* 18:35 CEST Felienne Hermans about how to read complex code with Lisa
-  Moritz
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/6wadGK6AFO0"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-[Add to calendar](appointment20211013.ics)
-
 ## Thursday 2021-10-14
 
 * 18:30 CEST Avraham Poupko and Kenny Baas-Schwegler about the
