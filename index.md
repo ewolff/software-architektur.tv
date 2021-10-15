@@ -32,56 +32,6 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Live from Software Architecture Gathering 
-
-The [Software Architecture
-Gathering](https://www.software-architecture-gathering.de/) conference
-features talks by many thought leaders in software
-architecture. During the conference, we will stream discussions with
-some of the speakers in the evening:
-
-## Thursday 2021-10-14
-
-* 18:30 CEST Avraham Poupko and Kenny Baas-Schwegler about the
-  influence of culture on software design with Eberhard Wolff
-* 19:05 CEST Cosima Laube about D.A.R.E. more, F.E.A.R. less and
-  journaling with Lisa Moritz
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/a3qr_M_wMkw"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-[Add to calendar](appointment20211014.ics)
-
-## Registration
-
-[Software Architecture Gathering
-  Registration](https://conferences.isaqb.org/software-architecture-gathering/tickets/)
-  discount code SAG21_EW_15 for 15% off
-
-
-
-<!-- In this Stream, you will hear and see Kevlin and Eberhard. -->
-
-<!-- ## Sketchnote Stream -->
-
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/xpfna2ih1e8" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
-
-<!-- In this Stream, you will see Lisa Moritz doing her sketchnote and hear -->
-<!-- Kevlin and Eberhard. -->
-
 # Nächster Termin: Freitag 2021-10-15 12:00 Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks
 
 Nachdem es schon einige Folgen zum Thema Frontendarchitektur gab, die
