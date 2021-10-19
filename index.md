@@ -32,16 +32,16 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
 
-# Nächster Termin: Freitag 2021-10-15 12:00 Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks
+# Nächster Termin: Freitag 2021-10-22 12:00 Wiederverwendung
 
-Nachdem es schon einige Folgen zum Thema Frontendarchitektur gab, die
-eher den Fokus auf Server-seitig gerenderte Architekturen gelegt
-haben, gibt es nun endlich eine Episode mit Manfred Steyer, die den
-Fokus auf Single Page Applications legt. Wir sprechen über
-Modularisierungskonzepte dieser Art von Architektur, wie zum Beispiel
-Microfrontends und Clients-Modulithen. Außerdem zeigen wir euch
-Entscheidungshilfen für die Wahl des passenden Konzepts und vieles
-mehr.
+Am Ende des letzten Jahrhunderts stand Wiederverwendung im Mittelpunkt
+des Interesses: Dadurch sollte Software-Entwicklung endlich einfach
+und unfassbar produktiv werden. Nun sind mehr als zwanzig Jahre
+vergangen und es scheint auf den ersten Blick so, dass
+Wiederverwendung doch kein erfolgreiches Konzept war. In dieser
+Episode sprechen wir darüber, was wir in den letzten zwanzig Jahren
+gelernt haben - und wie Wiederverwendung in aktuellen Projekten
+stattfinden kann und sollte.
 
 [In Kalendar eintragen](termin.ics)
 
@@ -53,36 +53,36 @@ mehr.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/ufJCgwJH5Mc"
+src="https://www.youtube-nocookie.com/embed/RJ5UKfA-j4o"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-<!-- In diesem Stream sieht und hört man Eberhard. -->
+In diesem Stream sieht und hört man Eberhard.
 
-<!-- ## Sketchnote Stream -->
+## Sketchnote Stream
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/9CPNQuUT7Ec"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
+das Audio mit Eberhard.
+ 
+<!-- ## Vorschau -->
 
 <!-- <center> -->
 <!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/KHXTMiLI7T4" -->
+<!-- src="https://www.youtube-nocookie.com/embed/Ea8Z2AtkhmE" -->
 <!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
 <!-- encrypted-media; gyroscope; picture-in-picture" -->
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
-
-<!-- In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es -->
-<!-- das Audio mit Eberhard. -->
- 
-## Vorschau
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/Ea8Z2AtkhmE"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
 
 
 # Fragen & Diskussion
