@@ -61,6 +61,8 @@ allowfullscreen></iframe> </div>
 
 In diesem Stream sieht und hört man Eberhard.
 
+Dasselbe gibt es auf [Twitch](https://www.twitch.tv/ebrwolff).
+
 ## Sketchnote Stream
 
 <center>
@@ -106,6 +108,8 @@ allowfullscreen></iframe> </div>
 </center>
 
 In this Stream, you will hear and see Hillel, Laurent, and Eberhard.
+
+Same stream on [Twitch](https://www.twitch.tv/ebrwolff).
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
