@@ -103,6 +103,7 @@ src="https://www.youtube-nocookie.com/embed/2qWBPWQ34Jg"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
+</center>
 
 In this Stream, you will hear and see Hillel, Laurent, and Eberhard.
 
