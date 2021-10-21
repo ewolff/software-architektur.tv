@@ -1,4 +1,4 @@
----
+you---
 title: software-architektur.tv
 type: website
 description: Live-Diskussion zu Software-Architektur im Stream
@@ -83,6 +83,39 @@ das Audio mit Eberhard.
 <!-- encrypted-media; gyroscope; picture-in-picture" -->
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
+
+# Monday 2021-10-25 19:00 CEST Is It All Built on Sand - What Do We Actually Know About Software Development?
+
+
+We all have some ideas about what works in software engineering and
+what doesn’t. But without real evidence and data that is just an
+opinion. Empirical software engineering tries to answer the question
+of what can be proven to work in software development. In this
+episode, Hillel Wayne and Laurent Bossavit will talk about what we
+know about software development, what we don’t know - and the myths
+about it i.e. what we think we know but really don’t.
+
+[Add to calendar](appointment.ics)
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/2qWBPWQ34Jg"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+
+In this Stream, you will hear and see Hillel, Laurent, and Eberhard.
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/iXZLUJS2BHA"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In this Stream, you will see Lisa Moritz doing her sketchnote and hear
+Hillel, Laurent, and Eberhard.
 
 
 # Fragen & Diskussion
