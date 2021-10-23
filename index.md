@@ -1,4 +1,4 @@
-you---
+---
 title: software-architektur.tv
 type: website
 description: Live-Diskussion zu Software-Architektur im Stream
@@ -31,50 +31,6 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 </center>
 
-
-# Nächster Termin: Freitag 2021-10-22 12:00 Wiederverwendung
-
-Am Ende des letzten Jahrhunderts stand Wiederverwendung im Mittelpunkt
-des Interesses: Dadurch sollte Software-Entwicklung endlich einfach
-und unfassbar produktiv werden. Nun sind mehr als zwanzig Jahre
-vergangen und es scheint auf den ersten Blick so, dass
-Wiederverwendung doch kein erfolgreiches Konzept war. In dieser
-Episode sprechen wir darüber, was wir in den letzten zwanzig Jahren
-gelernt haben - und wie Wiederverwendung in aktuellen Projekten
-stattfinden kann und sollte.
-
-[In Kalendar eintragen](termin.ics)
-
-[YouTube Channel](https://www.youtube.com/channel/UCaX9XGZHHh-D3xSqExT0F5Q)
-
-[Twitch Channel](https://www.twitch.tv/ebrwolff)
-
-## Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/RJ5UKfA-j4o"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream sieht und hört man Eberhard.
-
-Dasselbe gibt es auf [Twitch](https://www.twitch.tv/ebrwolff).
-
-## Sketchnote Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/9CPNQuUT7Ec"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream malt Lisa Moritz ihren Sketchnote und dazu gibt es
-das Audio mit Eberhard.
  
 <!-- ## Vorschau -->
 
