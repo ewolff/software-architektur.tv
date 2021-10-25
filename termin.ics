@@ -20,26 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20211019T104335Z
-DESCRIPTION:Am Ende des letzten Jahrhunderts stand Wiederverwendung im Mitt
-	elpunkt des Interesses: Dadurch sollte Software-Entwicklung endlich einfac
-	h und unfassbar produktiv werden. Nun sind mehr als zwanzig Jahre vergange
-	n und es scheint auf den ersten Blick so\, dass Wiederverwendung doch kein
-	 erfolgreiches Konzept war. In dieser Episode sprechen wir darüber\, was 
-	wir in den letzten zwanzig Jahren gelernt haben - und wie Wiederverwendung
-	 in aktuellen Projekten stattfinden kann und sollte.\n\nStream https://www
-	.youtube.com/watch?v=RJ5UKfA-j4o\nLive Sketchnoting https://www.youtube.co
-	m/watch?v=9CPNQuUT7Ec\nhttps://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20211022T130000
+CREATED:20211025T153759Z
+DESCRIPTION:Eines der unliebsamsten Themen in der IT ist die Dokumentation.
+	 Viele drücken sich davor sie zu schreiben\, viele wollen sie nicht lesen
+	. Doch sie bringt uns weiter und ist wichtig. Benjamin Wolf und Gernot Sta
+	rke beantworten Fragen rund um das Thema Dokumentation. Wie können wir an
+	fangen\, unsere Dokumentation zu verbessern?\n\nStream https://www.youtube
+	.com/watch?v=yjhOLb1WzpM\nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20211028T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20211022T120000
-LAST-MODIFIED:20211019T104335Z
-LOCATION:Stream https://www.youtube.com/watch?v=RJ5UKfA-j4o Live Sketchnoti
-	ng https://www.youtube.com/watch?v=9CPNQuUT7Ec https://www.twitch.tv/ebrwo
-	lff 
+DTSTART;TZID="W. Europe Standard Time":20211028T120000
+LAST-MODIFIED:20211025T153759Z
+LOCATION:Stream https://www.youtube.com/watch?v=yjhOLb1WzpM https://www.twi
+	tch.tv/ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Wiederverwendung
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Dokumentation - ein Üb
+	erblick
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1

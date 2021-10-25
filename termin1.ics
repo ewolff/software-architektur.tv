@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20211025T153956Z
+DESCRIPTION:Keine Seiteneffekte\, einfaches Testen\, die Korrektheit der Pr
+	ogramme kann sogar bewiesen werden - alles Vorteile von funktionaler Progr
+	ammierung. Sie hat im akademischen Bereich schon immer eine Rolle gespielt
+	\, aber auch in der Industrie wird sie zunehmend populärer - aber gleichz
+	eitig wirkt sie abgehoben und schwer zu verstehen. In dieser Episode beric
+	hten Lars Hupel und Isabel Wingen darüber\, wie sie von funktionaler Prog
+	rammierung im Projekt-Alltag profitieren\, welche Erfahrungen sie gemacht 
+	haben und wie man selber starten kann.\nhttps://www.youtube.com/watch?v=Hh
+	BZdyNXelQ https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20211029T130000
+DTSTAMP:20211025T153956Z
+DTSTART;TZID="W. Europe Standard Time":20211029T120000
+LAST-MODIFIED:20211025T153956Z
+LOCATION:https://www.youtube.com/watch?v=HhBZdyNXelQ https://www.twitch.tv/
+	ebrwolff
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Funktionale Programmier
+	ung in der Praxis
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

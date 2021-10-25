@@ -32,6 +32,50 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 </center>
 
  
+# Donnerstag 2021-10-28 12:00 CEST Dokumentation - ein Überblick
+
+Eines der unliebsamsten Themen in der IT ist die Dokumentation. Viele
+drücken sich davor sie zu schreiben, viele wollen sie nicht
+lesen. Doch sie bringt uns weiter und ist wichtig. Benjamin Wolf und
+Gernot Starke beantworten Fragen rund um das Thema Dokumentation. Wie
+können wir anfangen, unsere Dokumentation zu verbessern?
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/yjhOLb1WzpM"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff).
+
+[In Kalendar eintragen](termin.ics)
+
+# Freitag 2021-10-38 12:00 CEST Funktionale Programmierung in der Praxis
+
+Keine Seiteneffekte, einfaches Testen, die Korrektheit der Programme
+kann sogar bewiesen werden - alles Vorteile von funktionaler
+Programmierung. Sie hat im akademischen Bereich schon immer eine Rolle
+gespielt, aber auch in der Industrie wird sie zunehmend populärer -
+aber gleichzeitig wirkt sie abgehoben und schwer zu verstehen. In
+dieser Episode berichten Lars Hupel und Isabel Wingen darüber, wie sie
+von funktionaler Programmierung im Projekt-Alltag profitieren, welche
+Erfahrungen sie gemacht haben und wie man selber starten kann.
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/HhBZdyNXelQ"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+[In Kalendar eintragen](termin1.ics)
+
+
 <!-- ## Vorschau -->
 
 <!-- <center> -->
@@ -41,43 +85,6 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 <!-- encrypted-media; gyroscope; picture-in-picture" -->
 <!-- allowfullscreen></iframe> </div> -->
 <!-- </center> -->
-
-# Monday 2021-10-25 19:00 CEST Is It All Built on Sand - What Do We Actually Know About Software Development?
-
-
-We all have some ideas about what works in software engineering and
-what doesn’t. But without real evidence and data that is just an
-opinion. Empirical software engineering tries to answer the question
-of what can be proven to work in software development. In this
-episode, Hillel Wayne and Laurent Bossavit will talk about what we
-know about software development, what we don’t know - and the myths
-about it i.e. what we think we know but really don’t.
-
-[Add to calendar](appointment.ics)
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/2qWBPWQ34Jg"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In this Stream, you will hear and see Hillel, Laurent, and Eberhard.
-
-Same stream on [Twitch](https://www.twitch.tv/ebrwolff).
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/iXZLUJS2BHA"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In this Stream, you will see Lisa Moritz doing her sketchnote and hear
-Hillel, Laurent, and Eberhard.
-
 
 # Fragen & Diskussion
 
