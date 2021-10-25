@@ -34,7 +34,7 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
  
 # Donnerstag 2021-10-28 12:00 CEST Dokumentation - ein Überblick
 
-Eines der unliebsamsten Themen in der IT ist die Dokumentation. Viele
+Eines der unbeliebtesten Themen in der IT ist die Dokumentation. Viele
 drücken sich davor sie zu schreiben, viele wollen sie nicht
 lesen. Doch sie bringt uns weiter und ist wichtig. Benjamin Wolf und
 Gernot Starke beantworten Fragen rund um das Thema Dokumentation. Wie
