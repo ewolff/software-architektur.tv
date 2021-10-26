@@ -52,7 +52,7 @@ allowfullscreen></iframe> </div>
 
 [In Kalendar eintragen](termin.ics)
 
-# Freitag 2021-10-38 12:00 CEST Funktionale Programmierung in der Praxis
+# Freitag 2021-10-29 12:00 CEST Funktionale Programmierung in der Praxis
 
 Keine Seiteneffekte, einfaches Testen, die Korrektheit der Programme
 kann sogar bewiesen werden - alles Vorteile von funktionaler
