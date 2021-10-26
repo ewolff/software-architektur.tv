@@ -11,26 +11,6 @@ Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
-
-# Sketchnote-Buch
-
-Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu 36
-verschiedenen Folgen. So können Leser:innen sich über das Wissen aus
-“Software Architektur im Stream” erschließen, ohne dafür eine Vielzahl
-von Video anzuschauen.
-
-Das Buch ist kostenlos als PDF bei Leanpub erhältlich. Außerdem gibt
-es die gedruckte Version bei Amazon als Hardcover mit glattem Papier
-oder als Softcover. Gerade die gedruckten Bücher laden zum
-Durchblättern und Schmökern ein. 
-
-<center>
-
-<a href="sketchnote-buch"> <img
-src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
-
-</center>
-
  
 # Donnerstag 2021-10-28 12:00 CEST Dokumentation - ein Überblick
 
@@ -99,6 +79,25 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
+
+# Sketchnote-Buch
+
+Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu 36
+verschiedenen Folgen. So können Leser:innen sich über das Wissen aus
+“Software Architektur im Stream” erschließen, ohne dafür eine Vielzahl
+von Video anzuschauen.
+
+Das Buch ist kostenlos als PDF bei Leanpub erhältlich. Außerdem gibt
+es die gedruckte Version bei Amazon als Hardcover mit glattem Papier
+oder als Softcover. Gerade die gedruckten Bücher laden zum
+Durchblättern und Schmökern ein. 
+
+<center>
+
+<a href="sketchnote-buch"> <img
+src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
+
+</center>
 
 # Links
 
