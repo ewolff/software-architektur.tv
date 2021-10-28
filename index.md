@@ -12,26 +12,6 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Donnerstag 2021-10-28 12:00 CEST Dokumentation - ein Überblick
-
-Eines der unbeliebtesten Themen in der IT ist die Dokumentation. Viele
-drücken sich davor sie zu schreiben, viele wollen sie nicht
-lesen. Doch sie bringt uns weiter und ist wichtig. Benjamin Wolf und
-Gernot Starke beantworten Fragen rund um das Thema Dokumentation. Wie
-können wir anfangen, unsere Dokumentation zu verbessern?
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/yjhOLb1WzpM"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff).
-
-[In Kalendar eintragen](termin.ics)
-
 # Freitag 2021-10-29 12:00 CEST Funktionale Programmierung in der Praxis
 
 Keine Seiteneffekte, einfaches Testen, die Korrektheit der Programme
