@@ -12,20 +12,23 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-10-29 12:00 CEST Funktionale Programmierung in der Praxis
+# Freitag 2021-11-05 12:00 CEST Michael Plöd: Wie steigt man in Domain-driven Design ein?
 
-Keine Seiteneffekte, einfaches Testen, die Korrektheit der Programme
-kann sogar bewiesen werden - alles Vorteile von funktionaler
-Programmierung. Sie hat im akademischen Bereich schon immer eine Rolle
-gespielt, aber auch in der Industrie wird sie zunehmend populärer -
-aber gleichzeitig wirkt sie abgehoben und schwer zu verstehen. In
-dieser Episode berichten Lars Hupel und Isabel Wingen darüber, wie sie
-von funktionaler Programmierung im Projekt-Alltag profitieren, welche
-Erfahrungen sie gemacht haben und wie man selber starten kann.
+Domain-driven Design (DDD) ist gerade ein großer Hype, der aber vor
+allem Einsteiger:innen sehr fordert. Schließlich ist DDD nicht eine
+einzelne Praktik, sondern eine umfangreiche Sammlung sehr
+unterschiedlicher Ansätze - von Code-Ebene bis hin zur
+IT-Strategie. Das alles zu verstehen und anzuwenden, ist nicht
+einfach. DDD zielt darauf ab, Komplexität in Systemen beherrschbar zu
+machen und Fachlichkeit mit Software besser zu unterstützen - zwei
+Kernherausforderungen. Daher ist DDD eine sehr wichtige
+Werkzeug-Sammlung. In dieser Episode spricht Michael Plöd über seine
+persönlichen Erfahrung mit DDD und gibt Tipps, wie gerade
+Einsteiger:innen mit DDD starten können.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/HhBZdyNXelQ"
+src="https://www.youtube-nocookie.com/embed/rEYsFrE_wkI"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
