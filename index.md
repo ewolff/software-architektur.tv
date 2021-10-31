@@ -34,20 +34,26 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
+In diesem Stream sieht und hört man Michael und Eberhard.
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/zA1IuLiU4B0"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In diesem Stream malt Lisa live Sketchnotes und man hört Michael und
+Eberhard.
+
+https://www.youtube.com/watch?v=zA1IuLiU4B0
+
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 [In Kalendar eintragen](termin1.ics)
 
 
-<!-- ## Vorschau -->
-
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/Ea8Z2AtkhmE" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
 
 # Fragen & Diskussion
 
