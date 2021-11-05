@@ -51,7 +51,7 @@ https://www.youtube.com/watch?v=zA1IuLiU4B0
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[In Kalendar eintragen](termin1.ics)
+[In Kalendar eintragen](termin.ics)
 
 
 
