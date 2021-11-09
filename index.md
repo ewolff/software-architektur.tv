@@ -12,7 +12,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-11-12 12:00 CEST Sven Johann: Cross-funktionale Teams zielgerichtet in den Abgrund stürzen
+# Freitag 2021-11-12 12:00 CET Sven Johann: Cross-funktionale Teams zielgerichtet in den Abgrund stürzen
 
 Cross-funktionale Teams sind autonom und dadurch produktiver. In der
 Realität scheitern Initiativen für einen Wandel zu solchen Teams
