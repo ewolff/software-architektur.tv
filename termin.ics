@@ -20,28 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20211030T144230Z
-DESCRIPTION:Domain-driven Design (DDD) ist gerade ein großer Hype\, der ab
-	er vor allem Einsteiger:innen sehr fordert. Schließlich ist DDD nicht ein
-	e einzelne Praktik\, sondern eine umfangreiche Sammlung sehr unterschiedli
-	cher Ansätze - von Code-Ebene bis hin zur IT-Strategie. Das alles zu vers
-	tehen und anzuwenden\, ist nicht einfach. DDD zielt darauf ab\, Komplexit
-	ät in Systemen beherrschbar zu machen und Fachlichkeit mit Software besse
-	r zu unterstützen - zwei Kernherausforderungen. Daher ist DDD eine sehr w
-	ichtige Werkzeug-Sammlung. In dieser Episode spricht Michael Plöd über s
-	eine persönlichen Erfahrung mit DDD und gibt Tipps\, wie gerade Einsteige
-	r:innen mit DDD starten können.\n\nStream https://www.youtube.com/watch?v
-	=rEYsFrE_wkI\n https://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20211105T130000
+CREATED:20211109T170626Z
+DESCRIPTION:Cross-funktionale Teams sind autonom und dadurch produktiver. I
+	n der Realität scheitern Initiativen für einen Wandel zu solchen Teams j
+	edoch viel zu oft. Sven zeigt uns\, wieso crossfunktionale Teams in den Ab
+	grund gestürzt werden\, oft natürlich unabsichtlich - und selbstverstän
+	dlich auch\, wie man so etwas vermeiden kann.\n\nStream https://www.youtub
+	e.com/watch?v=RtKMp2uDBi0 \nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20211112T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20211105T120000
-LAST-MODIFIED:20211030T144230Z
-LOCATION:Stream https://www.youtube.com/watch?v=rEYsFrE_wkI https://www.twi
-	tch.tv/ebrwolff 
+DTSTART;TZID="W. Europe Standard Time":20211112T120000
+LAST-MODIFIED:20211109T170626Z
+LOCATION:https://www.youtube.com/watch?v=RtKMp2uDBi0  https://www.twitch.tv
+	/ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Michael Plöd: Wie stei
-	gt man in Domain-driven Design ein?
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Sven Johann: Cross-funk
+	tionale Teams zielgerichtet in den Abgrund stürzen
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

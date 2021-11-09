@@ -12,42 +12,34 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-11-05 12:00 CEST Michael Plöd: Wie steigt man in Domain-driven Design ein?
+# Freitag 2021-11-12 12:00 CEST Sven Johann: Cross-funktionale Teams zielgerichtet in den Abgrund stürzen
 
-Domain-driven Design (DDD) ist gerade ein großer Hype, der aber vor
-allem Einsteiger:innen sehr fordert. Schließlich ist DDD nicht eine
-einzelne Praktik, sondern eine umfangreiche Sammlung sehr
-unterschiedlicher Ansätze - von Code-Ebene bis hin zur
-IT-Strategie. Das alles zu verstehen und anzuwenden, ist nicht
-einfach. DDD zielt darauf ab, Komplexität in Systemen beherrschbar zu
-machen und Fachlichkeit mit Software besser zu unterstützen - zwei
-Kernherausforderungen. Daher ist DDD eine sehr wichtige
-Werkzeug-Sammlung. In dieser Episode spricht Michael Plöd über seine
-persönlichen Erfahrung mit DDD und gibt Tipps, wie gerade
-Einsteiger:innen mit DDD starten können.
+Cross-funktionale Teams sind autonom und dadurch produktiver. In der
+Realität scheitern Initiativen für einen Wandel zu solchen Teams
+jedoch viel zu oft. Sven zeigt uns, wieso crossfunktionale Teams in
+den Abgrund gestürzt werden, oft natürlich unabsichtlich - und
+selbstverständlich auch, wie man so etwas vermeiden kann. 
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/rEYsFrE_wkI"
+src="https://www.youtube-nocookie.com/embed/RtKMp2uDBi0"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream sieht und hört man Michael und Eberhard.
+In diesem Stream sieht und hört man Sven und Eberhard.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/zA1IuLiU4B0"
+src="https://www.youtube-nocookie.com/embed/CZeC9sDJv38"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream malt Lisa live Sketchnotes und man hört Michael und
+In diesem Stream malt Lisa live Sketchnotes und man hört Sven und
 Eberhard.
-
-https://www.youtube.com/watch?v=zA1IuLiU4B0
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
