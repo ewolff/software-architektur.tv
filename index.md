@@ -12,34 +12,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-11-12 12:00 CET Sven Johann: Cross-funktionale Teams zielgerichtet in den Abgrund stürzen
-
-Cross-funktionale Teams sind autonom und dadurch produktiver. In der
-Realität scheitern Initiativen für einen Wandel zu solchen Teams
-jedoch viel zu oft. Sven zeigt uns, wieso crossfunktionale Teams in
-den Abgrund gestürzt werden, oft natürlich unabsichtlich - und
-selbstverständlich auch, wie man so etwas vermeiden kann. 
+# Freitag 2021-11-19 12:00 CET Ben Wolf zum Einstieg in Software-Architektur
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/RtKMp2uDBi0"
+src="https://www.youtube-nocookie.com/embed/rQ0d5aqhp00"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream sieht und hört man Sven und Eberhard.
+<!-- In diesem Stream sieht und hört man Sven und Eberhard. -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/CZeC9sDJv38"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/CZeC9sDJv38" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream malt Lisa live Sketchnotes und man hört Sven und
-Eberhard.
+<!-- In diesem Stream malt Lisa live Sketchnotes und man hört Sven und -->
+<!-- Eberhard. -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
