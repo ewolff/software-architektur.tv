@@ -13,7 +13,13 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-11-19 12:00 CET Ben Wolf zum Einstieg in Software-Architektur
+# Freitag 2021-11-19 12:00 CET Ben Wolf und Lisa Moritz: Einstieg in Softwarearchitektur
+
+Wir alle haben in der IT angefangen und waren nicht von Beginn an
+Softwarearchitekt:innen - doch wie können wir den Weg in Richtung
+Softwarearchitektur beschreiten? Lisa und Ben sprechen in dieser Folge
+über ihre Reise durch die Softwarearchitektur und verraten
+Tipps und Tricks, wie du deine eigene Reise starten kannst.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
