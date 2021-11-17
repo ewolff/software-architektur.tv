@@ -20,23 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20211109T170626Z
-DESCRIPTION:Cross-funktionale Teams sind autonom und dadurch produktiver. I
-	n der Realität scheitern Initiativen für einen Wandel zu solchen Teams j
-	edoch viel zu oft. Sven zeigt uns\, wieso crossfunktionale Teams in den Ab
-	grund gestürzt werden\, oft natürlich unabsichtlich - und selbstverstän
-	dlich auch\, wie man so etwas vermeiden kann.\n\nStream https://www.youtub
-	e.com/watch?v=RtKMp2uDBi0 \nhttps://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20211112T130000
+CREATED:20211117T072955Z
+DESCRIPTION:Wir alle haben in der IT angefangen und waren nicht von Beginn 
+	an Softwarearchitekt:innen - doch wie können wir den Weg in Richtung Soft
+	warearchitektur beschreiten? Lisa und Ben sprechen in dieser Folge über i
+	hre Reise durch die Softwarearchitektur und verraten Tipps und Tricks\, wi
+	e du deine eigene Reise starten kannst.\n\nStream https://www.youtube.com/
+	watch?v=rQ0d5aqhp00\nhttps://www.twitch.tv/ebrwolff \n
+DTEND;TZID="W. Europe Standard Time":20211119T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20211112T120000
-LAST-MODIFIED:20211109T170626Z
-LOCATION:https://www.youtube.com/watch?v=RtKMp2uDBi0  https://www.twitch.tv
-	/ebrwolff 
+DTSTART;TZID="W. Europe Standard Time":20211119T120000
+LAST-MODIFIED:20211117T072955Z
+LOCATION:https://www.youtube.com/watch?v=rQ0d5aqhp00 https://www.twitch.tv/
+	ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Sven Johann: Cross-funk
-	tionale Teams zielgerichtet in den Abgrund stürzen
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Ben Wolf und Lisa Morit
+	z: Einstieg in Softwarearchitektur
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
