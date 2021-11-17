@@ -21,6 +21,8 @@ Softwarearchitektur beschreiten? Lisa und Ben sprechen in dieser Folge
 über ihre Reise durch die Softwarearchitektur und verraten
 Tipps und Tricks, wie du deine eigene Reise starten kannst.
 
+## Live Stream
+
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/rQ0d5aqhp00"
@@ -30,14 +32,15 @@ allowfullscreen></iframe> </div>
 </center>
 
 <!-- In diesem Stream sieht und hört man Sven und Eberhard. -->
+## Ankündigung
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/CZeC9sDJv38" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/MvKWA9KcqQU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream malt Lisa live Sketchnotes und man hört Sven und -->
 <!-- Eberhard. -->
