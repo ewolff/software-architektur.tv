@@ -13,19 +13,14 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-11-19 12:00 CET Ben Wolf und Lisa Moritz: Einstieg in Softwarearchitektur
+# Freitag 2021-11-26 12:00 CET Peter Hruschka & Gernot Starke: Requirements Engineering
 
-Wir alle haben in der IT angefangen und waren nicht von Beginn an
-Softwarearchitekt:innen - doch wie können wir den Weg in Richtung
-Softwarearchitektur beschreiten? Lisa und Ben sprechen in dieser Folge
-über ihre Reise durch die Softwarearchitektur und verraten
-Tipps und Tricks, wie du deine eigene Reise starten kannst.
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/rQ0d5aqhp00"
+src="https://www.youtube-nocookie.com/embed/1dI6FT3MQC8"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
@@ -36,7 +31,7 @@ allowfullscreen></iframe> </div>
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/MvKWA9KcqQU"
+src="https://www.youtube-nocookie.com/embed/wuo1zDkniH0"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
