@@ -15,6 +15,14 @@ stellen.
  
 # Freitag 2021-11-26 12:00 CET Peter Hruschka & Gernot Starke: Requirements Engineering
 
+Von schlechten Anforderungen haben wir alle bereits gehört! Aber, was
+können Softwarearchitekt:innen tun, um bessere Anforderungen zu
+erhalten? Und, sollten sich Softwarearchitekt:innen mit dem Thema
+Anforderungsanalyse beschäftigen? Spoiler: Die Antwort ist: "Ja".
+
+Am Freitag werden diese und mehr Fragen von Gernot Starke und Peter
+Hruschka beantwortet. Dabei wird Lisa gerne auch deine Fragen an die
+beiden weiterleiten.
 
 ## Live Stream
 
