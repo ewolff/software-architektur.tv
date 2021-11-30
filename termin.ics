@@ -20,19 +20,30 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20211120T103418Z
-DESCRIPTION:Stream https://www.youtube.com/watch?v=1dI6FT3MQC8\nhttps://www
-	.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20211126T130000
+CREATED:20211130T184744Z
+DESCRIPTION:Die Komplexität großer Software-Systeme zwingt dazu\, die Arc
+	hitektur in Mikro- und Makro-Architektur aufzuteilen. Makro-Architektur si
+	nd die Entscheidungen\, die für das gesamte System gelten. Mikro-Architek
+	tur ist auf ein Modul begrenzt\, so dass Team sie anders gestalten kann. B
+	ei der Aufteilung in Mikro- und Makro-Architektur die Prioritäten richtig
+	 zu setzten und die besten Entscheidungen zu treffen\, beeinflusst direkt 
+	die Autonomie der Teams und ermöglicht eine effektive und effiziente Arbe
+	it an dem System.\n\nIn dieser Episode berichtet Eberhard von seinen Erfah
+	rungen aus der Praxis zu Makro-Architektur und dem Aufbau solcher Architek
+	tur.\n\nStream https://www.youtube.com/watch?v=XyPkXAlMUkY\nLive Sketchnot
+	ing https://www.youtube.com/watch?v=1_LkcnYGHQU\nhttps://www.twitch.tv/ebr
+	wolff \n
+DTEND;TZID="W. Europe Standard Time":20211203T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20211126T120000
-LAST-MODIFIED:20211120T103418Z
-LOCATION:https://www.youtube.com/watch?v=1dI6FT3MQC8 https://www.twitch.tv/
-	ebrwolff 
+DTSTART;TZID="W. Europe Standard Time":20211203T120000
+LAST-MODIFIED:20211130T184744Z
+LOCATION:Stream https://www.youtube.com/watch?v=XyPkXAlMUkY Live Sketchnoti
+	ng https://www.youtube.com/watch?v=1_LkcnYGHQU https://www.twitch.tv/ebrwo
+	lff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Peter Hruschka & Gernot
-	 Starke: Requirements Engineering
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Makro-Architektur: Prio
+	ritäten und Überblick
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

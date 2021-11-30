@@ -13,40 +13,57 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-11-26 12:00 CET Peter Hruschka & Gernot Starke: Requirements Engineering
+# Freitag 2021-12-3 12:00 Makro-Architektur: Prioritäten und Überblick
 
-Von schlechten Anforderungen haben wir alle bereits gehört! Aber, was
-können Softwarearchitekt:innen tun, um bessere Anforderungen zu
-erhalten? Und, sollten sich Softwarearchitekt:innen mit dem Thema
-Anforderungsanalyse beschäftigen? Spoiler: Die Antwort ist: "Ja".
+Die Komplexität großer Software-Systeme zwingt dazu, die Architektur
+in Mikro- und Makro-Architektur aufzuteilen. Makro-Architektur sind
+die Entscheidungen, die für das gesamte System gelten.
+Mikro-Architektur ist auf ein Modul begrenzt, so dass Team sie anders
+gestalten kann. Bei der Aufteilung in Mikro- und Makro-Architektur die
+Prioritäten richtig zu setzten und die besten Entscheidungen zu
+treffen, beeinflusst direkt die Autonomie der Teams und ermöglicht
+eine effektive und effiziente Arbeit an dem System.
 
-Am Freitag werden diese und mehr Fragen von Gernot Starke und Peter
-Hruschka beantwortet. Dabei wird Lisa gerne auch deine Fragen an die
-beiden weiterleiten.
+In dieser Episode berichtet Eberhard von seinen Erfahrungen aus der
+Praxis zu Makro-Architektur und dem Aufbau solcher Architektur.
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/1dI6FT3MQC8"
+src="https://www.youtube-nocookie.com/embed/XyPkXAlMUkY"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-<!-- In diesem Stream sieht und hört man Sven und Eberhard. -->
+In diesem Stream sieht und hört man Sven und Eberhard.
+
+## Live Sketchnoting
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/1_LkcnYGHQU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+
+In diesem Stream malt Lisa live Sketchnotes und man hört
+Eberhard.
+
+
 ## Ankündigung
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/wuo1zDkniH0"
+src="https://www.youtube-nocookie.com/embed/4_C3IuGIsg0"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-<!-- In diesem Stream malt Lisa live Sketchnotes und man hört Sven und -->
-<!-- Eberhard. -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
