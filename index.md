@@ -38,7 +38,7 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream sieht und hört man Sven und Eberhard.
+In diesem Stream sieht und hört man Eberhard.
 
 ## Live Sketchnoting
 
