@@ -18,8 +18,9 @@ stellen.
 Die Komplexität großer Software-Systeme zwingt dazu, die Architektur
 in Mikro- und Makro-Architektur aufzuteilen. Makro-Architektur sind
 die Entscheidungen, die für das gesamte System gelten.
-Mikro-Architektur ist auf ein Modul begrenzt, so dass Team sie anders
-gestalten kann. Bei der Aufteilung in Mikro- und Makro-Architektur die
+Mikro-Architektur ist auf ein Modul begrenzt, so dass jedes für ein
+einzelnes Modul verantwortliche Team sie anders gestalten kann.
+Bei der Aufteilung in Mikro- und Makro-Architektur die
 Prioritäten richtig zu setzten und die besten Entscheidungen zu
 treffen, beeinflusst direkt die Autonomie der Teams und ermöglicht
 eine effektive und effiziente Arbeit an dem System.
