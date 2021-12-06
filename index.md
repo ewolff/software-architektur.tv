@@ -13,62 +13,50 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-12-3 12:00 Makro-Architektur: Prioritäten und Überblick
-
-Die Komplexität großer Software-Systeme zwingt dazu, die Architektur
-in Mikro- und Makro-Architektur aufzuteilen. Makro-Architektur sind
-die Entscheidungen, die für das gesamte System gelten.
-Mikro-Architektur ist auf ein Modul begrenzt, so dass jedes für ein
-einzelnes Modul verantwortliche Team sie anders gestalten kann.
-Bei der Aufteilung in Mikro- und Makro-Architektur die
-Prioritäten richtig zu setzten und die besten Entscheidungen zu
-treffen, beeinflusst direkt die Autonomie der Teams und ermöglicht
-eine effektive und effiziente Arbeit an dem System.
-
-In dieser Episode berichtet Eberhard von seinen Erfahrungen aus der
-Praxis zu Makro-Architektur und dem Aufbau solcher Architektur.
-
-## Live Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/XyPkXAlMUkY"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream sieht und hört man Eberhard.
-
-## Live Sketchnoting
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/1_LkcnYGHQU"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+# Freitag 2021-12-10 12:00 Thema offen
 
 
-In diesem Stream malt Lisa live Sketchnotes und man hört
-Eberhard.
+<!-- ## Live Stream -->
+
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/XyPkXAlMUkY" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
+
+<!-- In diesem Stream sieht und hört man Eberhard. -->
+
+<!-- ## Live Sketchnoting -->
+
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/1_LkcnYGHQU" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 
-## Ankündigung
+<!-- In diesem Stream malt Lisa live Sketchnotes und man hört -->
+<!-- Eberhard. -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/4_C3IuGIsg0"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+
+<!-- ## Ankündigung -->
+
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/4_C3IuGIsg0" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 
 
