@@ -13,28 +13,18 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-12-10 12:00 Software-Architektur als Beruf - Die Beta-Test-Folge
+# Freitag 2021-12-17 12:00 Thema noch offen
 
-In dieser Folge wollen wir ein neues Format ausprobieren: In Zukunft
-wollen wir Episoden zum beruflichen Werdegang von Personen im Bereich
-Software-Architektur produzieren. Das vertieft die Folgen, die sich
-bereits mit beruflichen Werdegang für Software-Architekt:innen
-auseinandergesetzt haben. Als Beta-Test werden Lisa und Eberhard sich
-die dafür geplanten Fragen gegenseitig stellen. So zeigt die Folge
-nicht nur den unterschiedlichen beruflichen Werdegang von Lisa und
-Eberhard auf, sondern gibt auch die Gelegenheit, Feedback zu den
-Fragen zu geben und Interview-Kandidat:innen fuer weitere Episoden
-vorzuschlagen.
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/9A91N6xmE5Y"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/9A91N6xmE5Y" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard. -->
 
@@ -53,15 +43,15 @@ allowfullscreen></iframe> </div>
 <!-- Eberhard. -->
 
 
-## Ankündigung
+<!-- ## Ankündigung -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/JV1HhlAIrAo"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/JV1HhlAIrAo" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 
 [Twitch](https://www.twitch.tv/ebrwolff)
