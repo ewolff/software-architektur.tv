@@ -13,41 +13,34 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2021-12-17 12:00 Organisation, Architektur: Was ich im Stream gelernt habe
-
-In über 90 Folgen und einem Jahr Software Architektur im Stream haben
-wir viele Themen diskutiert. In dieser Episode möchte ich aufzeigen,
-was ich persönlich gelernt habe und was ich vielleicht auch anders
-darstellen würde, als ich es in den verschiedenen Episoden diskutiert
-habe. Schwerpunkt ist das Thema Architektur und Organisation,
-das in vielen Episoden im Mittelpunkt stand - und ja auch das Thema in
-der ersten Episode war.
-
-## Live Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/MqVG9c2DM0o"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream sieht und hört man Eberhard.
-
-## Live Sketchnoting
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/4xKV9B1mpUQ"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+# Freitag 2022-01-7 12:00 Thema offen
 
 
-In diesem Stream malt Lisa live Sketchnotes und man hört
-Eberhard.
+<!-- ## Live Stream -->
+
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/MqVG9c2DM0o" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
+
+<!-- In diesem Stream sieht und hört man Eberhard. -->
+
+<!-- ## Live Sketchnoting -->
+
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/4xKV9B1mpUQ" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
+
+
+<!-- In diesem Stream malt Lisa live Sketchnotes und man hört -->
+<!-- Eberhard. -->
 
 <!-- ## Ankündigung -->
 
