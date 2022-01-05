@@ -13,34 +13,43 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2022-01-7 12:00 Thema offen
+# Freitag 2022-01-07 12:00 Junior oder Senior - Was ist der Unterschied?
+
+In der Software-Entwickler gibt es Juniors und Seniors - aber was ist
+eigentlich der Unterschied? Diese Frage habe ich in einem
+[Tweet](https://twitter.com/ewolff/status/1455177337159434241)
+gestellt. Die Antworten sind vielfältig und waren für mich auch
+teilweise überraschend. In dieser Episode werden wir anhand der
+Antworten auf den Tweet der Frage nachgehen, was tatsächlich die
+Unterschiede zwischen Juniors und Seniors sind - und welche
+Unterschiede besonders wichtig sind.
 
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/MqVG9c2DM0o" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/YnfWJg-0Zr4"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- In diesem Stream sieht und hört man Eberhard. -->
+In diesem Stream sieht und hört man Eberhard.
 
-<!-- ## Live Sketchnoting -->
+## Live Sketchnoting
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/4xKV9B1mpUQ" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/sL6LD6uQrAs"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 
-<!-- In diesem Stream malt Lisa live Sketchnotes und man hört -->
-<!-- Eberhard. -->
+In diesem Stream malt Lisa live Sketchnotes und man hört
+Eberhard.
 
 <!-- ## Ankündigung -->
 
