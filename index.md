@@ -13,35 +13,33 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2022-01-07 12:00 Junior oder Senior - Was ist der Unterschied?
+# Freitag 2022-01-14 12:00 Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ
 
-In der Software-Entwickler gibt es Juniors und Seniors - aber was ist
-eigentlich der Unterschied? Diese Frage habe ich in einem
-[Tweet](https://twitter.com/ewolff/status/1455177337159434241)
-gestellt. Die Antworten sind vielfältig und waren für mich auch
-teilweise überraschend. In dieser Episode werden wir anhand der
-Antworten auf den Tweet der Frage nachgehen, was tatsächlich die
-Unterschiede zwischen Juniors und Seniors sind - und welche
-Unterschiede besonders wichtig sind.
-
+Asynchrone Kommunikation hat gerade bei Self-contained Systems oder
+Microservices viele Vorteile. Umgesetzt wird sie dann meistens mit
+Messaging-Systemen wie Kafka. Aber es gibt Alternativen. In dieser
+Episode spricht Jochen Christ von INNOQ mit Eberhard Wolff über HTTP
+Feeds. Sie ermöglichen mit weniger technischen Overhead eine
+pragmatische Lösung für asynchrone Kommunikation - und haben in vielen
+Projekten auch schon ihre Praxistauglichkeit unter Beweis gestellt.
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/YnfWJg-0Zr4"
+src="https://www.youtube-nocookie.com/embed/b1uwA1j7kLs"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream sieht und hört man Eberhard.
+In diesem Stream sieht und hört man Eberhard und Jochen.
 
 ## Live Sketchnoting
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/sL6LD6uQrAs"
+src="https://www.youtube-nocookie.com/embed/viuB-dT1S3g"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
@@ -49,24 +47,21 @@ allowfullscreen></iframe> </div>
 
 
 In diesem Stream malt Lisa live Sketchnotes und man hört
-Eberhard.
+Eberhard und Jochen.
 
-<!-- ## Ankündigung -->
+## Ankündigung
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/JV1HhlAIrAo" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
-
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/zmoLrlrZ9o8"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [In Kalendar eintragen](termin.ics) -->
-
-
+[In Kalendar eintragen](termin.ics)
 
 # Fragen & Diskussion
 
