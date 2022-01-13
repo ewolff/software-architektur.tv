@@ -63,6 +63,40 @@ allowfullscreen></iframe> </div>
 
 [In Kalendar eintragen](termin.ics)
 
+# Wednesday 2022-01-19 12:00 Sam Newman: Monolith to Microservices
+
+Many teams work on monolithic applications but want to migrate to a
+modern, shiny microservices architecture. Sam Newman is the author of
+the most popular book about microservices and has recently published a
+new book about the migration from monolith to microservices. We will
+talk about how to migrate to microservices - and why microservices
+should often only be used as a last resort.
+
+## Live Stream
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/PZlVTrJDnhw"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+You can hear and see Sam and Eberhard in this stream. 
+
+## Live Sketchnoting
+
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/AIQASatvxGw"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+You can see Lisa drawing sketchnotes and hear Sam and Eberhard in this
+stream.
+
 # Fragen & Diskussion
 
 Gerne im Twitch-Chat oder YouTube-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
@@ -76,6 +110,12 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+[Add to Calendar](appointment.ics)
+
+
 
 # Sketchnote-Buch
 

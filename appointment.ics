@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20220109T140313Z
+LAST-MODIFIED:20220113T162251Z
+DTSTAMP:20220113T162251Z
+UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD70100000000000000
+ 0010000000ADB053CCF7A86A4394D0D7963E2F526E
+SUMMARY:Software Architektur im Stream: Sam Newman: Monolith to Microservi
+ ces1
+PRIORITY:5
+ORGANIZER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:eberhard.wolff
+ @posteo.net
+ATTENDEE;CN=Eberhard Wolff;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
+ to:eberhard.wolff@innoq.com
+DTSTART;TZID=Europe/Berlin:20220119T120000
+DTEND;TZID=Europe/Berlin:20220119T130000
+CLASS:PUBLIC
+DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%3Cspan%20style%3D%22color%3A
+ %20rgb(96%2C%20108%2C%20113)%3B%20font-family%3A%20%26quot%3BOpen%20%0ASan
+ s%26quot%3B%2C%20%26quot%3BHelvetica%20Neue%26quot%3B%2C%20Helvetica%2C%20
+ Arial%2C%20sans-serif%3B%20%0Afont-size%3A%2017.6px%3B%20font-style%3A%20n
+ ormal%3B%20font-variant-ligatures%3A%20normal%3B%20%0Afont-variant-caps%3A
+ %20normal%3B%20font-weight%3A%20400%3B%20letter-spacing%3A%20normal%3B%20%
+ 0Aorphans%3A%202%3B%20text-align%3A%20start%3B%20text-indent%3A%200px%3B%2
+ 0text-transform%3A%20none%3B%20%0Awhite-space%3A%20normal%3B%20widows%3A%2
+ 02%3B%20word-spacing%3A%200px%3B%20%0A-webkit-text-stroke-width%3A%200px%3
+ B%20text-decoration-thickness%3A%20initial%3B%20%0Atext-decoration-style%3
+ A%20initial%3B%20text-decoration-color%3A%20initial%3B%20display%3A%0A%20i
+ nline%20!important%3B%20float%3A%20none%3B%22%3EMany%20teams%20work%20on%2
+ 0monolithic%20%0Aapplications%20but%20want%20to%20migrate%20to%20a%20moder
+ n%2C%20shiny%20microservices%20%0Aarchitecture.%20Sam%20Newman%20is%20the%
+ 20author%20of%20the%20most%20popular%20book%20about%20%0Amicroservices%20a
+ nd%20has%20recently%20published%20a%20new%20book%20about%20the%20migration
+ %20%0Afrom%20monolith%20to%20microservices.%20We%20will%20talk%20about%20h
+ ow%20to%20migrate%20to%20%0Amicroservices%20-%20and%20why%20microservices%
+ 20should%20often%20only%20be%20used%20as%20a%20%0Alast%20resort.%3C%2Fspan
+ %3E%0A%3Cdiv%3E%3Cbr%3E%0AStream%20https%3A%2F%2Fwww.youtube.com%2Fwatch%3
+ Fv%3DPZlVTrJDnhw%3Cbr%3E%0Ahttps%3A%2F%2Fwww.twitch.tv%2Febrwolff%3C%2Fdiv
+ %3E%0A%3C%2Fbody%3E":Many teams work on monolithic applications but want t
+ o migrate to a modern\,\nshiny microservices architecture. Sam Newman is t
+ he author of the most popular\nbook about microservices and has recently p
+ ublished a new book about the\nmigration from monolith to microservices. W
+ e will talk about how to migrate to\nmicroservices - and why microservices
+  should often only be used as a last resort.\n\nStream https://www.youtube
+ .com/watch?v=PZlVTrJDnhw\nhttps://www.twitch.tv/ebrwolff\n
+LOCATION:Stream https://www.youtube.com/watch?v=PZlVTrJDnhw https://www.tw
+ itch.tv/ebrwolff
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+END:VEVENT
+END:VCALENDAR
+
