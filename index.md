@@ -13,56 +13,6 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2022-01-14 12:00 Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ
-
-Asynchrone Kommunikation hat gerade bei Self-contained Systems oder
-Microservices viele Vorteile. Umgesetzt wird sie dann meistens mit
-Messaging-Systemen wie Kafka. Aber es gibt Alternativen. In dieser
-Episode spricht Jochen Christ von INNOQ mit Eberhard Wolff über HTTP
-Feeds. Sie ermöglichen mit weniger technischen Overhead eine
-pragmatische Lösung für asynchrone Kommunikation - und haben in vielen
-Projekten auch schon ihre Praxistauglichkeit unter Beweis gestellt.
-
-## Live Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/b1uwA1j7kLs"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream sieht und hört man Eberhard und Jochen.
-
-## Live Sketchnoting
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/viuB-dT1S3g"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-
-In diesem Stream malt Lisa live Sketchnotes und man hört
-Eberhard und Jochen.
-
-## Ankündigung
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/zmoLrlrZ9o8"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
-[In Kalendar eintragen](termin.ics)
-
 # Wednesday 2022-01-19 12:00 Sam Newman: Monolith to Microservices
 
 Many teams work on monolithic applications but want to migrate to a
