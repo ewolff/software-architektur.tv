@@ -47,10 +47,15 @@ allowfullscreen></iframe> </div>
 You can see Lisa drawing sketchnotes and hear Sam and Eberhard in this
 stream.
 
-# Fragen & Diskussion
+# Fragen & Diskussion  / Question & Discussion
 
-Gerne im Twitch-Chat oder YouTube-Chat, per [Twitter](https://twitter.com/ewolff) oder anonym
+Fragen und Diskussion gerne im Twitch-Chat oder YouTube-Chat, per
+[Twitter](https://twitter.com/ewolff) oder anonym
 hier:
+
+Questions and discussion are welcome in thee Twitch chat or the
+YouTube chat, via [Twitter](https://twitter.com/ewolff), or
+anonymously here:
 
 <div class="embed-container">
 <div class="ratio4x3">
