@@ -50,11 +50,13 @@ stream.
 # Fragen & Diskussion  / Question & Discussion
 
 Fragen und Diskussion gerne im Twitch-Chat oder YouTube-Chat, per
-[Twitter](https://twitter.com/ewolff) oder anonym
+[Twitter](https://twitter.com/ewolff),
+[Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
 Questions and discussion are welcome in thee Twitch chat or the
-YouTube chat, via [Twitter](https://twitter.com/ewolff), or
+YouTube chat, via [Twitter](https://twitter.com/ewolff),
+[Mastodon](https://mastodon.social/web/@ewolff), or
 anonymously here:
 
 <div class="embed-container">
