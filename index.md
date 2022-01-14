@@ -72,7 +72,10 @@ marginwidth="0">Loading…</iframe>
 
 [Add to Calendar](appointment.ics)
 
+# Live von der OOP
 
+Auch dieses Jahr gibt es wieder [Software Architektur im Stream live
+von der OOP](oop.html).
 
 # Sketchnote-Buch
 

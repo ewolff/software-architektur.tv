@@ -21,81 +21,34 @@ führen. Zu sehen gibt es den Stream unter
 [https://www.youtube.com/user/ewolff](https://www.youtube.com/user/ewolff)
 und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 
+## Monday 2021-01-31 English Evening
+* **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
+  Kelle** Facilitating collaborative design desicions
+* **19:40-20:10 Scott Ambler** Data Technical Debt
 
-<div Aclass="embed-container">
-<iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/1z7crJjEYNw"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</div>
+[YouTube](https://youtu.be/ogbHtuqEoUg)
+[Twitch](https://www.twitch.tv/ebrwolff)
 
-## Dienstag 2021-02-09
+## Dienstag 2022-02-01
 
-* **12:00-12:30 Michael Mahlberg** Auch Architektur-Entscheidungen
-  müssen wirtschaftlichen Zielen unterordnen. Michael Mahlberg
-  erläutert, warum das so ist - und wie bereits ein kleiner
-  Werkzeug-Koffer dabei hilft, Architekturentscheidungen und
-  -strategien bewertbarer zu machen.
-* **12:35-13:10 Stefan Zörner und Falk Sippach** wollen in ihrem
-  Vortrag Architektur-Reviews anhand der Corona-Warn-App
-  vorstellen. Aber warum sind Architektur-Reviews wichtig und was
-  zeichnet sie aus?
-* **13:15-13:55 Susanne Braun** Daten-intensive Systeme arbeiten
-  häufig mit Eventual Consistency. Dadurch ergeben sich neue
-  Herausforderungen und jede Menge Komplexität wandert vom
-  Infrastruktur-Layer in den Domain-Layer. Susanne Braun forscht zum
-  Thema Eventual Consistency und stellt uns ihre ganz praktischen
-  Regeln vor, wie man als Architekt man damit umgehen sollte.
+* **12:10-12:40 Erik Dörnenburg** DevSecOps
+* **12:35-13:10 Lucas Dohmen, Lars Hupel** Hilfe, wir syncen!
   
-[YouTube](https://youtu.be/a5V8HLXBTfo)
+[YouTube](https://youtu.be/mVLO7y-v6T8)
 [Twitch](https://www.twitch.tv/ebrwolff)
   
-## Mittwoch 2021-02-10
+## Mittwoch 2021-02-02
 
-* **12:45-13:15 Stefan Toth** Enterprise Architektur und Agilität
-  scheinen Widersprüche zu sein. Stefan Toth erläutert uns, wie man
-  mit dieser Herausforderung produktiv umgeht.
-* **13:20-13:50 Dennis Wagner, Marc Bless** “Spiele??? Sind wir denn
-  hier im Kindergarten?!” - Marc und Dennis, die Experten zum Thema
-  agile Spiele, erklären die Sinnhaftigkeit von Spielen im ernsthaften
-  Arbeitsalltag, und wie auch Skeptiker beeindruckt werden können.
-* **13:55-14:25 Lars Röwekamp** Künstliche Intelligenz kann
-  genderspezifischer Benachteiligung erzeugen, offenkundig rassistisch
-  sein, Fake-News und Deep-Fakes generieren. Wie können wir uns
-  dagegen verwehren?
+* **13:15-14:15 Das Klima-Panel** mit Marina Köhn, Jutta Eckstein und
+Max Schulze.
 
-[YouTube](https://youtu.be/f3mZEFCCKe8)
+[YouTube](https://youtu.be/SQ3sbRXK8iM)
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## Donnerstag 2021-02-11
-* **12:45-13:15 Stefan Roock und Henning Wolf** sind agile Berater und
-  wollen, dass wir Agilität auch wirklich ernst meinen. Außerdem
-  finden sie, dass unsere Branche technische Skills vernachlässigt.
-* **13:20-13:50 Stefan Tilkov** sieht Software-Architektur als
-  entscheidenden Erfolgsfaktor für Softwareprojekte. Welche Rolle
-  spielt diese Architektur für verschiedene Personengruppen und wie
-  können wir damit umgehen?
-* **13:55-14:25 Bastian Spannebergs** Arbeitgeber Instana hat als
-  kleines StartUp begonnen, ist dann stark gewachsten und mittlerweile
-  von IBM gekauft. Wir diskutieren Site Reliability Engineering als
-  Konzept und wie es sich bei Instana auf dieser Reise verändert hat.
+## Donnerstag 2021-02-03
+* **13:00-14:00 Diversity Panel**
 
-[YouTube](https://youtu.be/F3qcVSMOD2I)
+[YouTube](https://youtu.be/wBjUkCGFwhU)
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## Donnerstag 2021-02-11 English Evening
-* **18:30-19:00 Grady Booch** is one of the pioneers of software
-  architecture. Lately, he has been working on some pretty challenging
-  AI systems. We want to talk about AI and software architecture.
-* **19:05-19:35 Aino Vonge Corry** We want to talk about
-  retrospectives in detail - how to make them great, where are some
-  hidden pitfalls and how to take the best benefit out of
-  retrospectives.
-* **19:40-20:10 Linda Rising** is well-known for Fearless Change, a
-  practical guide to facility change. We will talk about how software
-  architects can profit from these patterns and deal with the
-  emotional, unconscious mind.
 
-[YouTube](https://youtu.be/wC-hK3NoVVM)
-[Twitch](https://www.twitch.tv/ebrwolff)
