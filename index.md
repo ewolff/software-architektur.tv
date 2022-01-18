@@ -13,6 +13,15 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
+# Software Architektur im Stream von der OOP
+
+Es gibt wieder Streams von der OOP-Konferenz.
+
+[Programm auf Deutsch](oop.html)
+
+[Programm in English](oop-english.html)
+
+
 # Wednesday 2022-01-19 12:00 Sam Newman: Monolith to Microservices
 
 Many teams work on monolithic applications but want to migrate to a
