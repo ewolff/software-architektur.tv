@@ -32,20 +32,20 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-You can hear and see Sam and Eberhard in this stream. 
+<!-- You can hear and see Sam and Eberhard in this stream.  -->
 
-## Live Sketchnoting
+<!-- ## Live Sketchnoting -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/AIQASatvxGw"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/AIQASatvxGw" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-You can see Lisa drawing sketchnotes and hear Sam and Eberhard in this
-stream.
+<!-- You can see Lisa drawing sketchnotes and hear Sam and Eberhard in this -->
+<!-- stream. -->
 
 # Fragen & Diskussion  / Question & Discussion
 
