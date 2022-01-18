@@ -24,6 +24,7 @@ and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 
 * **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
   Kelle** Facilitating collaborative design desicions
+* **19:05-19:35 Rik Marselis** Testing, Quality
 * **19:40-20:10 Scott Ambler** Data Technical Debt
 
 [YouTube](https://youtu.be/ogbHtuqEoUg)

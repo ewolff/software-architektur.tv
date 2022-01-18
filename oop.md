@@ -24,6 +24,7 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 ## Monday 2021-01-31 English Evening
 * **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
   Kelle** Facilitating collaborative design desicions
+* **19:05-19:35 Rik Marselis** Testing, Quality
 * **19:40-20:10 Scott Ambler** Data Technical Debt
 
 [YouTube](https://youtu.be/ogbHtuqEoUg)
@@ -32,8 +33,10 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 ## Dienstag 2022-02-01
 
 * **12:10-12:40 Erik Dörnenburg** DevSecOps
-* **12:35-13:10 Lucas Dohmen, Lars Hupel** Hilfe, wir syncen!
-  
+* **12:45-13:15 Lucas Dohmen, Lars Hupel** Hilfe, wir syncen!
+* **13:20-13:50 Anne Herwanger, Alexandra Hoitz, Stefan Link**
+  Resiliente Organisation und Software-Architektur
+
 [YouTube](https://youtu.be/mVLO7y-v6T8)
 [Twitch](https://www.twitch.tv/ebrwolff)
   
@@ -46,7 +49,7 @@ Max Schulze.
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 ## Donnerstag 2021-02-03
-* **13:00-14:00 Diversity Panel**
+* **13:00-14:00 Diversity Panel** mit Katrin Rabow, Nicola Marsden und Silke Foth
 
 [YouTube](https://youtu.be/wBjUkCGFwhU)
 [Twitch](https://www.twitch.tv/ebrwolff)
