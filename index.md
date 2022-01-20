@@ -22,20 +22,14 @@ Es gibt wieder Streams von der OOP-Konferenz.
 [Schedule in English](oop-english.html)
 
 
-# Wednesday 2022-01-19 12:00 Sam Newman: Monolith to Microservices
+# Thursday 2022-01-27 12:00 Daniel Terhorst-North - SOLID vs. CUPID
 
-Many teams work on monolithic applications but want to migrate to a
-modern, shiny microservices architecture. Sam Newman is the author of
-the most popular book about microservices and has recently published a
-new book about the migration from monolith to microservices. We will
-talk about how to migrate to microservices - and why microservices
-should often only be used as a last resort.
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/PZlVTrJDnhw"
+src="https://www.youtube-nocookie.com/embed/2QahGarHpXQ"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
