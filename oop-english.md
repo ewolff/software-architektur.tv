@@ -20,7 +20,7 @@ in exciting discussions with the OOP speakers remotely. You can watch
 the stream at [https://www.youtube.com/user/ewolff](https://www.youtube.com/user/ewolff)
 and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 
-## Thursday 2021-01-31 English Evening
+## Monday 2021-01-31 English Evening
 
 * **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
   Kelle** Facilitating collaborative design desicions
