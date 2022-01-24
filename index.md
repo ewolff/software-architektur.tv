@@ -68,7 +68,7 @@ Fragen und Diskussion gerne im Twitch-Chat oder YouTube-Chat, per
 [Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
-Questions and discussion are welcome in thee Twitch chat or the
+Questions and discussion are welcome in the Twitch chat or the
 YouTube chat, via [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff), or
 anonymously here:
