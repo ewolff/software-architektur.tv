@@ -24,6 +24,13 @@ Es gibt wieder Streams von der OOP-Konferenz.
 
 # Thursday 2022-01-27 12:00 Daniel Terhorst-North - SOLID vs. CUPID
 
+The SOLID principles are well-established as the foundation of
+object-oriented systems. However, after more than 20 years it is time
+to see whether the principles still apply and whether other concepts
+might be a better alternative. Daniel Terhorst-North is well known for
+concepts like behavior-driven design or deliberate discovery. He came
+up with the CUPID principles. In this episode, we will discuss SOLID
+and CUPID - and why Daniel thinks CUPID makes more sense.
 
 ## Live Stream
 
