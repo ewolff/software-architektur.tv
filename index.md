@@ -42,6 +42,10 @@ encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+[Add to Calendar](appointment.ics)
+
 <!-- You can hear and see Sam and Eberhard in this stream.  -->
 
 <!-- ## Live Sketchnoting -->
@@ -78,9 +82,6 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
-[Twitch](https://www.twitch.tv/ebrwolff)
-
-[Add to Calendar](appointment.ics)
 
 # Live von der OOP
 
