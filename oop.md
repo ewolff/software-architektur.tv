@@ -30,7 +30,7 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 [YouTube](https://youtu.be/ogbHtuqEoUg)
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## Dienstag 2022-02-01
+## Dienstag 2022-02-01 Kurzsessions
 
 * **12:10-12:40 Erik Dörnenburg** DevSecOps
 * **12:45-13:15 Lucas Dohmen, Lars Hupel** Hilfe, wir syncen! (mit
@@ -41,7 +41,7 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 [YouTube](https://youtu.be/mVLO7y-v6T8)
 [Twitch](https://www.twitch.tv/ebrwolff)
   
-## Mittwoch 2021-02-02
+## Mittwoch 2021-02-02 Das Klima-Panel
 
 * **13:15-14:15 Das Klima-Panel** mit Marina Köhn, Jutta Eckstein und
 Max Schulze.
@@ -49,8 +49,8 @@ Max Schulze.
 [YouTube](https://youtu.be/SQ3sbRXK8iM)
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## Donnerstag 2021-02-03
-* **13:00-14:00 Diversity Panel** mit Katrin Rabow, Nicola Marsden und
+## Donnerstag 2021-02-03 Das Diversity-Panel
+* **13:00-14:00 Diversity-Panel** mit Katrin Rabow, Nicola Marsden und
   Silke Foth. Moderation: Lisa Moritz
 
 [YouTube](https://youtu.be/wBjUkCGFwhU)
