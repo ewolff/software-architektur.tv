@@ -23,9 +23,12 @@ and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 ## Monday 2021-01-31 English Evening
 
 * **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
-  Kelle** Facilitating collaborative design desicions
-* **19:05-19:35 Rik Marselis** Testing, Quality (with Lisa Moritz)
-* **19:40-20:10 Scott Ambler** Data Technical Debt
+  Kelle** Facilitating Collaborative Design Decisions: Software is
+  developed in teams so design decision must be done collaboratively.
+* **19:05-19:35 Rik Marselis** Testing and Quality (with Lisa Moritz):
+  Testing alone is not enough - the alternative is quality engineering.
+* **19:40-20:10 Scott Ambler** Data Technical Debt: Technical debt is
+  a well-known concept - but data can also cause technical debt.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
