@@ -27,5 +27,12 @@ and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 * **19:05-19:35 Rik Marselis** Testing, Quality (with Lisa Moritz)
 * **19:40-20:10 Scott Ambler** Data Technical Debt
 
-[YouTube](https://youtu.be/ogbHtuqEoUg)
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/ogbHtuqEoUg"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
 [Twitch](https://www.twitch.tv/ebrwolff)

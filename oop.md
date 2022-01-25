@@ -27,7 +27,14 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 * **19:05-19:35 Rik Marselis** Testing, Quality (mit Lisa Moritz)
 * **19:40-20:10 Scott Ambler** Data Technical Debt
 
-[YouTube](https://youtu.be/ogbHtuqEoUg)
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/ogbHtuqEoUg  "
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 ## Dienstag 2022-02-01 Kurzsessions
@@ -38,7 +45,14 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 * **13:20-13:50 Anne Herwanger, Alexandra Hoitz, Stefan Link**
   Resiliente Organisation und Software-Architektur
 
-[YouTube](https://youtu.be/mVLO7y-v6T8)
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/mVLO7y-v6T8"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
 [Twitch](https://www.twitch.tv/ebrwolff)
   
 ## Mittwoch 2021-02-02 Das Klima-Panel
@@ -46,14 +60,28 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 * **13:15-14:15 Das Klima-Panel** mit Marina Köhn, Jutta Eckstein und
 Max Schulze.
 
-[YouTube](https://youtu.be/SQ3sbRXK8iM)
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/SQ3sbRXK8iM"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 ## Donnerstag 2021-02-03 Das Diversity-Panel
 * **13:00-14:00 Diversity-Panel** mit Katrin Rabow, Nicola Marsden und
   Silke Foth. Moderation: Lisa Moritz
 
-[YouTube](https://youtu.be/wBjUkCGFwhU)
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/wBjUkCGFwhU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 
