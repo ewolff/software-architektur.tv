@@ -28,7 +28,7 @@ The SOLID principles are well-established as the foundation of
 object-oriented systems. However, after more than 20 years it is time
 to see whether the principles still apply and whether other concepts
 might be a better alternative. Daniel Terhorst-North is well known for
-concepts like behavior-driven design or deliberate discovery. He came
+concepts like behavior-driven development or deliberate discovery. He came
 up with the CUPID principles. In this episode, we will discuss SOLID
 and CUPID - and why Daniel thinks CUPID makes more sense.
 
