@@ -104,15 +104,17 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 # Links
 
-[https://www.youtube.com/user/ewolff/](https://www.youtube.com/user/ewolff/)
+[YouTube Channel](https://www.youtube.com/user/ewolff/)
 
-[Audio der Folgen als Podcast](podcast.html)
+[Podcast](podcast.html)
 
 [Folgen nach Tags](tags.html)
 
 [Folgen chronologisch](chronologisch.html)
 
-[Atom Feed](feed.xml)
+[Buch](/sketchnote-buch)
+
+[Feed](feed.xml)
 
 # Lizenz
 
