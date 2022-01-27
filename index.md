@@ -106,11 +106,11 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 [YouTube Channel](https://www.youtube.com/user/ewolff/)
 
-[Podcast](podcast.html)
-
 [Folgen nach Tags](tags.html)
 
 [Folgen chronologisch](chronologisch.html)
+
+[Podcast](podcast.html)
 
 [Buch](/sketchnote-buch)
 
