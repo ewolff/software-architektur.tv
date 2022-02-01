@@ -44,7 +44,8 @@ allowfullscreen></iframe> </div>
   arbeiten, ist eine Herausforderung. Wir diskutieren, wie man sie
   meistern kann.
 * **13:20-13:50 Anne Herwanger, Alexandra Hoitz, Stefan Link**
-  Resiliente Organisation und Software-Architektur: Die Organisation
+  Resiliente Organisation und resiliente Software-Architektur: Die
+  Organisation
   hat großen Einfluss auf die Architektur. Wie kann man sich diesen
   Zusammenhang zu Nutze machen?
 
