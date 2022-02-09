@@ -20,7 +20,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220109T140313Z
+CREATED:20220209T155715Z
 DESCRIPTION:Asynchrone Kommunikation hat gerade bei Self-contained Systems 
 	oder Microservices viele Vorteile. Umgesetzt wird sie dann meistens mit Me
 	ssaging-Systemen wie Kafka. Aber es gibt Alternativen. In dieser Episode s
@@ -28,17 +28,19 @@ DESCRIPTION:Asynchrone Kommunikation hat gerade bei Self-contained Systems
 	möglichen mit weniger technischen Overhead eine pragmatische Lösung für
 	 asynchrone Kommunikation - und haben in vielen Projekten auch schon ihre 
 	Praxistauglichkeit unter Beweis gestellt.\n\nStream https://www.youtube.co
-	m/watch?v=b1uwA1j7kLs\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220114T130000
+	m/watch?v=lFOjTKDdp8c\nhttps://www.twitch.tv/ebrwolff\nLive Sketchnotes ht
+	tps://www.youtube.com/watch?v=e-W9_G2UWHo\n
+DTEND;TZID="W. Europe Standard Time":20220211T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220114T120000
-LAST-MODIFIED:20220109T140313Z
-LOCATION:Stream https://www.youtube.com/watch?v=b1uwA1j7kLs https://www.twi
-	tch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20220211T120000
+LAST-MODIFIED:20220209T155715Z
+LOCATION:Stream https://www.youtube.com/watch?v=lFOjTKDdp8c https://www.twi
+	tch.tv/ebrwolff Live Sketchnotes https://www.youtube.com/watch?v=e-W9_G2UW
+	Ho
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Asynchrone Kommunikatio
-	n mit HTTP Feeds - Jochen Christ
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Was ist Software-Archit
+	ektur überhaupt?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
