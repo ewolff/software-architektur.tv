@@ -13,41 +13,35 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2022-02-11 12:00 Was ist Software-Architektur überhaupt?
+# Freitag 2022-02-18 12:00 Thema noch offen
 
-Software-Architektur im Stream hat jetzt über 100 Folgen - aber eine
-fundamentale Frage haben wir noch nicht diskutiert: Was ist
-Software-Architektur? In dieser Folge wollen wir endlich dieser Frage
-nachgehen. Und natürlich schließt sich daran die Frage an, was
-Software-Architekt:innen in ihrer Rolle leisten sollten.
+<!-- ## Live Stream -->
 
-## Live Stream
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/lFOjTKDdp8c" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/lFOjTKDdp8c"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Add to Calendar](termin.ics) -->
 
-[Add to Calendar](termin.ics)
+<!-- In diesem Stream sieht und hört man Eberhard. -->
 
-In diesem Stream sieht und hört man Eberhard.
+<!-- ## Live Sketchnoting -->
 
-## Live Sketchnoting
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/e-W9_G2UWHo" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/e-W9_G2UWHo"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
-
-In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu.
+<!-- In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu. -->
 
 # Fragen & Diskussion  / Question & Discussion
 
