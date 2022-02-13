@@ -1,7 +1,7 @@
 ---
 title: Software-Architektur als Beruf 
 type: website
-description: Karriere-Pade in der Software-Architektur
+description: Karriere-Pfade in der Software-Architektur
 twitterimage: thumbnails/beruf.png
 twitterimage:alt: Software-Architektur als Beruf Logo
 ---
