@@ -13,35 +13,43 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2022-02-18 12:00 Thema noch offen
+# Freitag 2022-02-18 12:00 Conway's Law
 
-<!-- ## Live Stream -->
+Das Gesetz von Conway stellt einen Zusammenhang zwischen der
+Organisation und der Software-Architektur her. Seit dem
+Microservices-Hype wird Conway's Law häufig als Architektur-Werkzeug
+gesehen. Aber die meisten haben das ursprüngliche Paper von Melvin
+Conway gar nicht gelesen. In dieser Folge diskutieren wir die Inhalte
+des Papers - und was wir daraus für die Architektur-Arbeit lernen
+können. 
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/lFOjTKDdp8c" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+## Live Stream
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/7qJp_CXAezU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-<!-- [Add to Calendar](termin.ics) -->
+[Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- In diesem Stream sieht und hört man Eberhard. -->
+[Add to Calendar](termin.ics)
 
-<!-- ## Live Sketchnoting -->
+In diesem Stream sieht und hört man Eberhard.
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/e-W9_G2UWHo" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+## Live Sketchnoting
 
-<!-- In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu. -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/38G6Vyos68w"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
+
+In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu.
 
 # Fragen & Diskussion  / Question & Discussion
 
