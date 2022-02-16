@@ -26,7 +26,7 @@ Kanal](https://tube.tchncs.de/c/software_architektur_beruf/videos)
 
 ## Podcast
 
-[RSS](https://1evriw.podcaster.de/software-architektur-als-beruf.rss)&nbsp;&nbsp;&nbsp;[iTunes](https://podcasts.apple.com/de/podcast/software-architektur-als-beruf/id1609845784)&nbsp;&nbsp;&nbsp;[Spotify](https://open.spotify.com/show/2DpgXYFgzqOvNy30pLRj0S)&nbsp;&nbsp;&nbsp;[podcast.de](https://www.podcast.de/podcast/2768500/software-architektur-als-beruf)&nbsp;&nbsp;&nbsp;[Amazon](https://music.amazon.de/podcasts/ecc13103-a62f-4815-99c2-cfa5fa31b2d0/software-architektur-als-beruf)
+[RSS](https://1evriw.podcaster.de/software-architektur-als-beruf.rss)&nbsp;&nbsp;&nbsp;[iTunes](https://podcasts.apple.com/de/podcast/software-architektur-als-beruf/id1609845784)&nbsp;&nbsp;&nbsp;[Spotify](https://open.spotify.com/show/2DpgXYFgzqOvNy30pLRj0S)&nbsp;&nbsp;&nbsp;[podcast.de](https://www.podcast.de/podcast/2768500/software-architektur-als-beruf)&nbsp;&nbsp;&nbsp;[Amazon](https://music.amazon.de/podcasts/ecc13103-a62f-4815-99c2-cfa5fa31b2d0/software-architektur-als-beruf)&nbsp;&nbsp;&nbsp;[Google](https://podcasts.google.com/feed/aHR0cHM6Ly8xZXZyaXcucG9kY2FzdGVyLmRlL3NvZnR3YXJlLWFyY2hpdGVrdHVyLWFscy1iZXJ1Zi5yc3M)
 
 ## Episoden
 * Manfred Steyer<br>[YouTube](https://www.youtube.com/watch?v=gTlhv08lNuE)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/juXbAABcxGvR5oHUjfHSXW)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-manfred-steyer.mp3)
