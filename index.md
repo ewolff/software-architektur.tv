@@ -37,19 +37,19 @@ allowfullscreen></iframe> </div>
 
 [Add to Calendar](termin.ics)
 
-In diesem Stream sieht und hört man Eberhard.
+<!-- In diesem Stream sieht und hört man Eberhard. -->
 
-## Live Sketchnoting
+<!-- ## Live Sketchnoting -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/38G6Vyos68w"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/38G6Vyos68w" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu.
+<!-- In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu. -->
 
 # Fragen & Diskussion  / Question & Discussion
 
