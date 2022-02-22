@@ -47,3 +47,13 @@ Forms](https://google.com/forms) ein. Das Unternehmen Google LLC
 verpflichtet sich, einen hohen Datenschutzstandard nach DS-GVO zu
 wahren. Die Datenschutzhinweise von Google finden Sie
 [hier](https://policies.google.com/privacy?hl=de).
+
+# Analytics
+
+Um die Nutzung der Website zu verstehen und sie technisch und
+inhaltlich verbessern zu können, nutzt die Website das Webanalyse-Tool
+Plausible Analytics. Plausible setzt keine Cookies, speichert keine
+Informationen im Browser und erhebt auch generell keinerlei
+personenenbezogenen Daten. Hier finden Sie mehr Informationen zu
+Plausible und dem Datenschutz dieses Tools. Dienstanbieter: OÜ
+Plausible Insights, Västriku tn 2, Tartu 50403, Estland; [Website](https://plausible.io/) , [Datenschutz](https://plausible.io/data-policy).
