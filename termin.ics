@@ -20,30 +20,40 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220216T073950Z
-DESCRIPTION:Asynchrone Kommunikation hat gerade bei Self-contained Systems 
-	oder Microservices viele Vorteile. Umgesetzt wird sie dann meistens mit Me
-	ssaging-Systemen wie Kafka. Aber es gibt Alternativen. In dieser Episode s
-	pricht Jochen Christ von INNOQ mit Eberhard Wolff über HTTP Feeds. Sie er
-	möglichen mit weniger technischen Overhead eine pragmatische Lösung für
-	 asynchrone Kommunikation - und haben in vielen Projekten auch schon ihre 
-	Praxistauglichkeit unter Beweis gestellt.\n\nStream https://www.youtube.co
-	m/watch?v=7qJp_CXAezU\nhttps://www.twitch.tv/ebrwolff\nLive Sketchnotes ht
-	tps://www.youtube.com/watch?v=38G6Vyos68w\n
-DTEND;TZID="W. Europe Standard Time":20220218T130000
+CREATED:20220223T205411Z
+DESCRIPTION:In dieser Episode wollen wir eine Software-Architektur live ers
+	tellen. So sieht man\, auf welche Aspekte es bei der Software-Architektur 
+	tatsächlich ankommt - und nicht in der Theorie sondern in der Praxis. Und
+	 wer denkt\, dass es bei der Software-Architektur um die Aufteilung in Kom
+	ponenten und die Struktur der Software geht - macht Euch auf Überraschung
+	en gefasst.\n\nStream https://www.youtube.com/watch?v=-FCkp1aJzRY\n https:
+	//www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20220225T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220218T120000
-LAST-MODIFIED:20220216T073950Z
-LOCATION:Stream https://www.youtube.com/watch?v=7qJp_CXAezU https://www.twi
-	tch.tv/ebrwolff Live Sketchnotes https://www.youtube.com/watch?v=38G6Vyos6
-	8w
+DTSTART;TZID="W. Europe Standard Time":20220225T120000
+LAST-MODIFIED:20220223T205411Z
+LOCATION:Stream https://www.youtube.com/watch?v=-FCkp1aJzRY  https://www.tw
+	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Was ist Software-Archit
-	ektur überhaupt?
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Wir bauen eine Sofware-
+	Architektur
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.14827.20198">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>In dieser Episode wollen wi
+	r eine Software-Architektur live erstellen. So sieht man\, auf welche Aspe
+	kte es bei der Software-Architektur tatsächlich ankommt - und nicht in de
+	r Theorie sondern in der Praxis. Und wer denkt\, dass es bei der Software-
+	Architektur um die Aufteilung in Komponenten und die Struktur der Software
+	 geht - macht Euch auf Überraschungen gefasst.</FONT></P>\n\n<P><FONT SIZ
+	E=2>Stream <A HREF="https://www.youtube.com/watch?v=-FCkp1aJzRY">https://w
+	ww.youtube.com/watch?v=-FCkp1aJzRY</A></FONT>\n\n<BR><FONT SIZE=2>&nbsp\;<
+	A HREF="https://www.twitch.tv/ebrwolff">https://www.twitch.tv/ebrwolff</A>
+	</FONT>\n</P>\n\n</BODY>\n</HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE
