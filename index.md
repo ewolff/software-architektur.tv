@@ -13,29 +13,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2022-02-25 12:00 Wir bauen eine Sofware-Architektur
-
-In dieser Episode wollen wir eine Software-Architektur live
-erstellen. So sieht man, auf welche Aspekte es bei der
-Software-Architektur tatsächlich ankommt - und nicht in der Theorie
-sondern in der Praxis. Und wer denkt, dass es bei der
-Software-Architektur um die Aufteilung in Komponenten und die Struktur
-der Software geht - macht Euch auf Überraschungen gefasst.
+# Nächste Episode: noch offen
 
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/-FCkp1aJzRY"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/-FCkp1aJzRY" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
-[Add to Calendar](termin.ics)
+<!-- [Add to Calendar](termin.ics) -->
 
 <!-- In diesem Stream sieht und hört man Eberhard. -->
 
