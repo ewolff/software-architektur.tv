@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 11.3. Wir bauen eine Software-Architektur - Struktur der Lösung
+# Nächste Episode: 11.3. 12:00 Wir bauen eine Software-Architektur - Struktur der Lösung
 
 Nachdem wir in der [vorherigen Episode](/2022/02/25/folge111.html)
 begonnen haben, Qualitätsszenarien zu definieren und den
