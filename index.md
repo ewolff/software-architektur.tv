@@ -13,19 +13,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 11.3. 12:00 Wir bauen eine Software-Architektur - Struktur der Lösung
+# Nächste Episode: 25.3. 12:00 Software-Architektur und Benutzerfreundlichkeit
 
-Nachdem wir in der [vorherigen Episode](/2022/02/25/folge111.html)
-begonnen haben, Qualitätsszenarien zu definieren und den
-System-Kontext zu erstellen, werden wir in dieser Episode die Lösung
-in einzelne Komponenten strukturieren. Das ergibt für die
-Implementierung eine Struktur vor, die den Code aufteilt.
+In den [letzten]((/2022/02/25/folge111.html))
+[beiden](/2022/03/11/folge112.html) Episoden haben wir die Grundlagen
+für die Architektur geschaffen. In dieser Episode wird Aminata Sidibe
+uns dabei helfen, die Hauptanforderung an die Architektur zu
+erfüllen - nämlich Benutzerfreundlichkeit.
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/K512HtCbb2Q"
+src="https://www.youtube-nocookie.com/embed/6kypcTVBmMc"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
@@ -41,7 +41,7 @@ In diesem Stream sieht und hört man Eberhard.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/SR7rEQ7nSzg"
+src="https://www.youtube-nocookie.com/embed/ORKaR3LqkGg"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
