@@ -271,7 +271,7 @@ GEM
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8)
+    unf_ext (0.0.8.1)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
     zeitwerk (2.5.4)
