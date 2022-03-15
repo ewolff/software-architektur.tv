@@ -15,7 +15,7 @@ stellen.
  
 # Nächste Episode: 25.3. 12:00 Software-Architektur und Benutzerfreundlichkeit
 
-In den [letzten]((/2022/02/25/folge111.html))
+In den [letzten](/2022/02/25/folge111.html)
 [beiden](/2022/03/11/folge112.html) Episoden haben wir die Grundlagen
 für die Architektur geschaffen. In dieser Episode wird Aminata Sidibe
 uns dabei helfen, die Hauptanforderung an die Architektur zu
