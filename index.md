@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 25.3. 12:00 Software-Architektur und Benutzerfreundlichkeit
+# Nächste Episode: 25.3. 12:00 Benutzerfreundlichkeit - Wir bauen eine Software-Architektur
 
 In den [letzten](/2022/02/25/folge111.html)
 [beiden](/2022/03/11/folge112.html) Episoden haben wir die Grundlagen
