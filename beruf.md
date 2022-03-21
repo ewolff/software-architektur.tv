@@ -1,4 +1,4 @@
----
+u---
 title: Software-Architektur als Beruf 
 type: website
 description: Karriere-Pfade in der Software-Architektur
@@ -12,9 +12,15 @@ twitterimage:alt: Software-Architektur als Beruf Logo
 <img src="/thumbnails/beruf.png" alt="Software-Architektur als Beruf Logo" />
 </center>
 
-Bei Software-Architektur als Beruf erzählen Menschen, wie ihr
+Bei "Software-Architektur als Beruf" erzählen Menschen, wie ihr
 beruflicher Werdegang aussieht und welche Rolle Software-Architektur
 dabei spielt.
+
+Die Episoden zeigen, dass es ganz unterschiedliche Rollen und Personen
+sind, die mit verschiedenen Perspektiven Software-Architekturen
+erstellen und beeinflussen. Außerdem verdeutlichen sie, wie
+unterschiedlich die Wege zur Beschäftigung mit IT und
+Software-Architektur sind.
 
 Die Episoden gibt es als Videos oder das Audio als Podcast.
 
