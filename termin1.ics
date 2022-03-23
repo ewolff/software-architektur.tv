@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20220323T140301Z
+DESCRIPTION:In den letzten beiden Episoden haben wir die Grundlagen für di
+	e Architektur des Systems geschaffen. In der Praxis sind die Technologien 
+	und die anderen Lösungen in den Architekturen oft nicht an den Kundenansp
+	rüchen ausgerichtet. In dieser Episode werden wir diskutieren\, wie wir d
+	ieses Problem lösen können. Wir werden untersuchen\, wie das System die 
+	erhobenen Qualitätsanforderungen bzw. nicht-funktionalen Anforderungen er
+	füllen kann. Aus diesen Anforderungen werden wir dann die wesentlichen Te
+	chnologie-Entscheidungen ableiten und so ein System entwerfen\, dass den A
+	nforderungen des Kunden gerecht wird.\n\nVorherige Episode: https://softwa
+	re-architektur.tv/2022/02/25/folge111.html\nhttps://software-architektur.t
+	v/2022/03/11/folge112.html\n\nStream https://www.youtube.com/watch?v=oteC-
+	_RZzPk\nhttps://www.twitch.tv/ebrwolff\n\nSketchnote Stream https://www.yo
+	utube.com/watch?v=VCLfh1mWP00 \n\n\n
+DTEND;TZID="W. Europe Standard Time":20220325T130000
+DTSTAMP:20210329T160737Z
+DTSTART;TZID="W. Europe Standard Time":20220325T120000
+LAST-MODIFIED:20220323T140301Z
+LOCATION:Stream https://www.youtube.com/watch?v=oteC-_RZzPk https://www.twi
+	tch.tv/ebrwolff Sketchnote Stream https://www.youtube.com/watch?v=VCLfh1mW
+	P00
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Qualitäten / nicht-fun
+	ktionale Anforderungen umsetzen - Wir bauen eine Software-Architektur
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
+	010000000ADB053CCF7A86A4394D0D7963E2F526E
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+END:VEVENT
+END:VCALENDAR
