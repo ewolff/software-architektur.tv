@@ -20,7 +20,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220313T181918Z
+CREATED:20220323T115948Z
 DESCRIPTION:In den letzten beiden Episoden haben wir die Grundlagen für di
 	e Architektur geschaffen. In dieser Episode wird Aminata Sidibe uns dabei 
 	helfen\, die Hauptanforderung an die Architektur zu erfüllen - nämlich B
@@ -29,10 +29,10 @@ DESCRIPTION:In den letzten beiden Episoden haben wir die Grundlagen für di
 	lge112.html\n\nStream https://www.youtube.com/watch?v=6kypcTVBmMc\nhttps:/
 	/www.twitch.tv/ebrwolff\n\nSketchnote Stream https://www.youtube.com/watch
 	?v=ORKaR3LqkGg\n
-DTEND;TZID="W. Europe Standard Time":20220311T130000
+DTEND;TZID="W. Europe Standard Time":20220401T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220311T120000
-LAST-MODIFIED:20220313T181918Z
+DTSTART;TZID="W. Europe Standard Time":20220401T120000
+LAST-MODIFIED:20220323T115948Z
 LOCATION:Stream https://www.youtube.com/watch?v=6kypcTVBmMc https://www.twi
 	tch.tv/ebrwolff Sketchnote Stream https://www.youtube.com/watch?v=ORKaR3Lq
 	kGg
