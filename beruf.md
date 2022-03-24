@@ -41,3 +41,9 @@ Kanal](https://tube.tchncs.de/c/software_architektur_beruf/videos)
 * Gernot Starke<br>[YouTube](https://www.youtube.com/watch?v=kMqoCxqHz3g)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/4YzjB5j5NBGBizPgbwQS2D)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-gernot-starke.mp3)
 * Lisa Moritz<br>[YouTube](https://www.youtube.com/watch?v=3Kk449tMblA)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/rf48GmduP8D9ujRv5VaNWU)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-lisa-moritz.mp3)
 * Eberhard Wolff<br>[YouTube](https://www.youtube.com/watch?v=BDVFyNamkJM)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/abR9BnZygSgbJWt9hqRh1j)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-eberhard-wolff.mp3)
+
+## Informatik als Beruf FAQ
+
+Die [Informatik als Beruf
+FAQ](https://github.com/ewolff/InformatikFAQ) stellt breiter dar,
+welche Berufsfelder es in der Informatik üblicherweise gibt.
