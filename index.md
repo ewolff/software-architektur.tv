@@ -13,55 +13,40 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 25.3. Qualitäten / nicht-funktionale Anforderungen umsetzen - Wir bauen eine Software-Architektur
+# Nächste Episode: 1.4. 12:00 Benutzerfreundlichkeit - Wir bauen eine Software-Architektur
 
-In den [letzten](/2022/02/25/folge111.html)
-[beiden](/2022/03/11/folge112.html) Episoden haben wir die Grundlagen
-für die Architektur des Systems geschaffen. In der Praxis sind die
-Technologien und die anderen Lösungen in den Architekturen oft nicht
-an den Kundenansprüchen ausgerichtet. In dieser Episode werden wir
-diskutieren, wie wir dieses Problem lösen können. Wir werden
-untersuchen, wie das System die erhobenen Qualitätsanforderungen
-bzw. nicht-funktionalen Anforderungen erfüllen kann. Aus diesen
-Anforderungen werden wir dann die wesentlichen
-Technologie-Entscheidungen ableiten und so ein System entwerfen, dass
-den Anforderungen des Kunden gerecht wird.
-
-## Live Stream
-
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/oteC-_RZzPk"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+In dieser Episode wird Aminata Sidibe uns dabei helfen, die
+Hauptanforderung an die Architektur zu erfüllen - nämlich
+Benutzerfreundlichkeit.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 [Zu Kalendar hinzufügen](termin1.ics)
 
-In diesem Stream sieht und hört man Eberhard.
-
-## Live Sketchnoting
+## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/VCLfh1mWP00"
+src="https://www.youtube-nocookie.com/embed/6kypcTVBmMc"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
 </center>
 
-In diesem Stream mal Lisa Sketchnotes und man hört Eberhard dazu.
+In diesem Stream sieht und hört man Eberhard und Aminata.
 
-#  1.4. 12:00 Benutzerfreundlichkeit - Wir bauen eine Software-Architektur
+## Live Sketchnoting
 
-In dieser Episode wird Aminata Sidibe
-uns dabei helfen, die Hauptanforderung an die Architektur zu
-erfüllen - nämlich Benutzerfreundlichkeit.
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/ORKaR3LqkGg"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
-[Zu Kalendar hinzufügen](termin.ics)
+In diesem Stream mal Lisa Sketchnotes und man hört Eberhard und
+Adminata dazu.
 
 # Fragen & Diskussion  / Question & Discussion
 
