@@ -15,9 +15,13 @@ stellen.
  
 # Nächste Episode: 1.4. 12:00 Benutzerfreundlichkeit - Wir bauen eine Software-Architektur
 
-In dieser Episode wird Aminata Sidibe uns dabei helfen, die
-Hauptanforderung an die Architektur zu erfüllen - nämlich
-Benutzerfreundlichkeit.
+In dieser Episode wird Aminata Sidibe uns erläutern, wie wir die
+Hauptanforderung an die Architektur erfüllen können - nämlich
+Benutzerfreundlichkeit. Dabei geht es um grundlegende Konzepte wie
+User Experience (UX), Customer Experience (CX) und
+Informationsarchitektur. Darauf basierend diskutiert Aminata konkrete
+Maßnahmen, damit unser Produkt beim Benutzer gut ankommt ist und so am
+Markt erfolgreich sein kann.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
