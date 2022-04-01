@@ -13,46 +13,36 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 1.4. 12:00 Benutzerfreundlichkeit - Wir bauen eine Software-Architektur
-
-Weiter geht es mit dem Enturf unserer Architektur aus den letzten
-Folgen: In dieser Episode wird Aminata Sidibe uns erläutern, wie wir
-die
-Hauptanforderung an die Architektur erfüllen können - nämlich
-Benutzerfreundlichkeit. Dabei geht es um grundlegende Konzepte wie
-User Experience (UX), Customer Experience (CX) und
-Informationsarchitektur. Darauf basierend diskutiert Aminata konkrete
-Maßnahmen, damit unser Produkt beim Benutzer gut ankommt ist und so am
-Markt erfolgreich sein kann.
+# Nächste Episode: 8.4. 12:00 Data Mesh
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Zu Kalendar hinzufügen](termin1.ics)
+<!-- [Zu Kalendar hinzufügen](termin1.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/6kypcTVBmMc"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/6kypcTVBmMc" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream sieht und hört man Eberhard und Aminata.
+<!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
-## Live Sketchnoting
+<!-- ## Live Sketchnoting -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/ORKaR3LqkGg"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/ORKaR3LqkGg" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
-In diesem Stream mal Lisa Sketchnotes und man hört Eberhard und
-Adminata dazu.
+<!-- In diesem Stream mal Lisa Sketchnotes und man hört Eberhard und -->
+<!-- Adminata dazu. -->
 
 # Fragen & Diskussion  / Question & Discussion
 
