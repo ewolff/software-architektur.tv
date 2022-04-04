@@ -13,21 +13,32 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 8.4. 12:00 Data Mesh
+# Nächste Episode: 8.4. 12:00 Data Mesh - nur ein neuer Datenanalyse-Hype?
+
+Data Mesh ist der neue Hype für Datenanalyse. Während Analyse
+klassisch nur nervige Anforderungen sind, profitieren dieses Mal
+Software-Architekt:innen und Entwickler:innen. Wir diskutieren den
+Ansatz und das Neue daran mit Jochen Christ, Simon Harrer und Theo
+Pack. Dabei geht es nicht nur um die Umsetzungsmöglichkeiten, sondern
+auch um den Einfluss auf die Software-Architektur und die
+Organisation. Schließlich ist Data Mesh gerade entstanden, um trotz
+dezentraler, selbstorganisierter Teams und lose gekoppelten
+Komponenten einen zentralisierten Blick auf alle Daten zu liefern.
+
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Zu Kalendar hinzufügen](termin1.ics) -->
+[Zu Kalendar hinzufügen](termin1.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/6kypcTVBmMc" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/16Is187H7wc"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
