@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 15.4. 12:00 Thema noch offen
+# Nächste Episode: 22.4. 12:00 Thema noch offen
 
 
 [Twitch](https://www.twitch.tv/ebrwolff)
