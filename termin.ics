@@ -20,27 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220404T200730Z
-DESCRIPTION:Data Mesh ist der neue Hype für Datenanalyse. Während Analyse
-	 klassisch nur nervige Anforderungen sind\, profitieren dieses Mal Softwar
-	e-Architekt:innen und Entwickler:innen. Wir diskutieren den Ansatz und das
-	 Neue daran mit Jochen Christ\, Simon Harrer und Theo Pack. Dabei geht es 
-	nicht nur um die Umsetzungsmöglichkeiten\, sondern auch um den Einfluss a
-	uf die Software-Architektur und die Organisation. Schließlich ist Data Me
-	sh gerade entstanden\, um trotz dezentraler\, selbstorganisierter Teams un
-	d lose gekoppelten Komponenten einen zentralisierten Blick auf alle Daten 
-	zu liefern.\n\nStream https://www.youtube.com/watch?v=16Is187H7wc\nhttps:/
-	/www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220408T130000
+CREATED:20220421T065326Z
+DESCRIPTION:Events sind ein wichtiges Element vieler Architekturen. Sie spi
+	elen in ganz unterschiedlichen Bereichen eine Rollen: Bei der Analyse mit 
+	Event Storming\, bei der Implementierung im Domain-driven Design\, bei der
+	 Verwaltung von Zuständen mit Event Sourcing und bei der Aufteilung von S
+	ystemen in lesende und schreibende Teile mit CQRS (Command Query Segregati
+	on Principle). In dieser Episode diskutiert Eberhard diese Bereiche und we
+	lche Rolle Events in jedem von ihnen spielen. In der Praxis führen Missve
+	rständnisse in diesem Bereich immer wieder zu Architektur-Herausforderung
+	en.\n\nStream https://www.youtube.com/watch?v=4xxwX52MLLI\nhttps://www.twi
+	tch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20220422T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220408T120000
-LAST-MODIFIED:20220404T200730Z
-LOCATION:Stream https://www.youtube.com/watch?v=16Is187H7wc https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20220422T120000
+LAST-MODIFIED:20220421T065326Z
+LOCATION:Stream https://www.youtube.com/watch?v=4xxwX52MLLI https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Data Mesh - nur ein neu
-	er Datenanalyse-Hype?
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Events\, Event Sourcing
+	 und CQRS
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

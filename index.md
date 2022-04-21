@@ -13,22 +13,32 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 22.4. 12:00 Thema noch offen
+# Nächste Episode: 22.4. 12:00 Events, Event Sourcing und CQRS
+
+Events sind ein wichtiges Element vieler Architekturen. Sie spielen in
+ganz unterschiedlichen Bereichen eine Rollen: Bei der Analyse mit
+Event Storming, bei der Implementierung im Domain-driven Design, bei
+der Verwaltung von Zuständen mit Event Sourcing und bei der Aufteilung
+von Systemen in lesende und schreibende Teile mit CQRS (Command Query
+Segregation Principle). In dieser Episode diskutiert Eberhard diese
+Bereiche und welche Rolle Events in jedem von ihnen spielen. In der
+Praxis führen Missverständnisse in diesem Bereich immer wieder zu
+Architektur-Herausforderungen.
 
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Zu Kalendar hinzufügen](termin1.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/16Is187H7wc" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/4xxwX52MLLI"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
