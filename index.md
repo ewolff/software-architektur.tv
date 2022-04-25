@@ -13,23 +13,31 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 29.4. 12:00 Thema offen
+# Nächste Episode: 29.4. 12:00 Eine Architektur entwerfen: iSAQB Advanced Beispielaufgabe
 
 
+Wie erstellt man denn nun eine Software-Architektur? In dieser Episode
+besprechen Lisa und Eberhard einen konkreten Architektur-Entwurf. Als
+Beispiel dient die iSAQB-Advanced-Level-Beispielaufgabe "Big
+Spender". So verdeutlicht diese Folge nicht nur, wie man an den
+Entwurf einer Software-Architektur herangehen kann - sondern auch,
+worauf es beim schriftlichen Teil der
+iSAQB-Advanced-Level-Zertifizierung ankommt. Spoiler: Eine
+Architektur-Dokumentation z.B. nach arc42 ist nicht die Lösung.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/4xxwX52MLLI" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/VspImCV5mi8"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 

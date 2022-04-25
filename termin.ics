@@ -20,27 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220421T065326Z
-DESCRIPTION:Events sind ein wichtiges Element vieler Architekturen. Sie spi
-	elen in ganz unterschiedlichen Bereichen eine Rollen: Bei der Analyse mit 
-	Event Storming\, bei der Implementierung im Domain-driven Design\, bei der
-	 Verwaltung von Zuständen mit Event Sourcing und bei der Aufteilung von S
-	ystemen in lesende und schreibende Teile mit CQRS (Command Query Segregati
-	on Principle). In dieser Episode diskutiert Eberhard diese Bereiche und we
-	lche Rolle Events in jedem von ihnen spielen. In der Praxis führen Missve
-	rständnisse in diesem Bereich immer wieder zu Architektur-Herausforderung
-	en.\n\nStream https://www.youtube.com/watch?v=4xxwX52MLLI\nhttps://www.twi
-	tch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220422T130000
+CREATED:20220425T115513Z
+DESCRIPTION:Wie erstellt man denn nun eine Software-Architektur? In dieser 
+	Episode besprechen Lisa und Eberhard einen konkreten Architektur-Entwurf. 
+	Als Beispiel dient die iSAQB-Advanced-Level-Beispielaufgabe “Big Spender
+	”. So verdeutlicht diese Folge nicht nur\, wie man an den Entwurf einer 
+	Software-Architektur herangehen kann - sondern auch\, worauf es beim schri
+	ftlichen Teil der iSAQB-Advanced-Level-Zertifizierung ankommt. Spoiler: Ei
+	ne Architektur-Dokumentation z.B. nach arc42 ist nicht die Lösung.\n\nStr
+	eam\nYouTube https://www.youtube.com/watch?v=VspImCV5mi8\nTwitch https://w
+	ww.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20220429T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220422T120000
-LAST-MODIFIED:20220421T065326Z
-LOCATION:Stream https://www.youtube.com/watch?v=4xxwX52MLLI https://www.twi
-	tch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20220429T120000
+LAST-MODIFIED:20220425T115513Z
+LOCATION:Stream YouTube https://www.youtube.com/watch?v=VspImCV5mi8 Twitch 
+	 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Events\, Event Sourcing
-	 und CQRS
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Eine Architektur entwer
+	fen: iSAQB Advanced Beispielaufgabe
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
