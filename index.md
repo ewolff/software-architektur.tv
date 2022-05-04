@@ -16,14 +16,13 @@ stellen.
 # Nächste Episode: 6.5. 12:00 Lösungsstrategie & Kontext: iSAQB Advanced Beispielaufgabe
 
 
-<!-- Wie erstellt man denn nun eine Software-Architektur? In dieser Episode -->
-<!-- besprechen Lisa und Eberhard einen konkreten Architektur-Entwurf. Als -->
-<!-- Beispiel dient die iSAQB-Advanced-Level-Beispielaufgabe "Big -->
-<!-- Spender". So verdeutlicht diese Folge nicht nur, wie man an den -->
-<!-- Entwurf einer Software-Architektur herangehen kann - sondern auch, -->
-<!-- worauf es beim schriftlichen Teil der -->
-<!-- iSAQB-Advanced-Level-Zertifizierung ankommt. Spoiler: Eine -->
-<!-- Architektur-Dokumentation z.B. nach arc42 ist nicht die Lösung. -->
+Nach der [letzten Episode](/2022/04/29/folge117.html) geht es weiter
+mit dem Architektur-Entwurf für iSAQB-Advanced-Level-Beispielaufgabe
+"Big Spender". In dieser Episode diskutieren wir die Lösungsstrategie und
+den technischen Kontext.  Diese Folgen zeigen nicht nur, wie man an
+den Entwurf einer Software-Architektur herangehen kann - sondern auch,
+worauf es beim schriftlichen Teil der
+iSAQB-Advanced-Level-Zertifizierung ankommt.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
