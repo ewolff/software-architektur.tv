@@ -20,26 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220425T115513Z
-DESCRIPTION:Wie erstellt man denn nun eine Software-Architektur? In dieser 
-	Episode besprechen Lisa und Eberhard einen konkreten Architektur-Entwurf. 
-	Als Beispiel dient die iSAQB-Advanced-Level-Beispielaufgabe “Big Spender
-	”. So verdeutlicht diese Folge nicht nur\, wie man an den Entwurf einer 
-	Software-Architektur herangehen kann - sondern auch\, worauf es beim schri
-	ftlichen Teil der iSAQB-Advanced-Level-Zertifizierung ankommt. Spoiler: Ei
-	ne Architektur-Dokumentation z.B. nach arc42 ist nicht die Lösung.\n\nStr
-	eam\nYouTube https://www.youtube.com/watch?v=VspImCV5mi8\nTwitch https://w
-	ww.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220429T130000
+CREATED:20220504T092454Z
+DESCRIPTION:Nach der letzten Episode geht es weiter mit dem Architektur-Ent
+	wurf für iSAQB-Advanced-Level-Beispielaufgabe “Big Spender”. In diese
+	r Episode geht es um die Lösungsstrategie und den technischen Kontext. Di
+	ese Folgen zeigen nicht nur\, wie man an den Entwurf einer Software-Archit
+	ektur herangehen kann - sondern auch\, worauf es beim schriftlichen Teil d
+	er iSAQB-Advanced-Level-Zertifizierung ankommt.\n\nStream\nYouTube https:/
+	/www.youtube.com/watch?v=1w__FCeDOQs\nTwitch https://www.twitch.tv/ebrwolf
+	f\n
+DTEND;TZID="W. Europe Standard Time":20220506T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220429T120000
-LAST-MODIFIED:20220425T115513Z
-LOCATION:Stream YouTube https://www.youtube.com/watch?v=VspImCV5mi8 Twitch 
+DTSTART;TZID="W. Europe Standard Time":20220506T120000
+LAST-MODIFIED:20220504T092454Z
+LOCATION:Stream YouTube https://www.youtube.com/watch?v=1w__FCeDOQs Twitch 
 	 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Eine Architektur entwer
-	fen: iSAQB Advanced Beispielaufgabe
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Lösungsstrategie & Kon
+	text: iSAQB Advanced Beispielaufgabe
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
