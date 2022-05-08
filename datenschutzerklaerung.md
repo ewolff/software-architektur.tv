@@ -6,7 +6,8 @@ Notice: Since this server resides in Germany, and since the author of
 the website is German citizen, the German law applies for the entire
 website. Therefore, the data protection declaration is presented in German.
 
-ewolff.com nimmt den Schutz Ihrer persönlichen Daten sehr ernst. Wir
+"Softwarearchitektur im Stream" nimmt den Schutz Ihrer persönlichen
+Daten sehr ernst. Wir
 selbst erfassen oder speichern keinerlei persönliche Daten.
 
 Allerdings werden einerseits diese Seiten auf Servern Dritter
