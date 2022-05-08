@@ -13,16 +13,16 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 6.5. 12:00 Lösungsstrategie & Kontext: iSAQB Advanced Beispielaufgabe
+# Nächste Episode: 13.5. 12:00 Gibt es das Wasserfallmodell überhaupt?
 
-
-Nach der [letzten Episode](/2022/04/29/folge117.html) geht es weiter
-mit dem Architektur-Entwurf für iSAQB-Advanced-Level-Beispielaufgabe
-"Big Spender". In dieser Episode diskutieren wir die Lösungsstrategie und
-den technischen Kontext.  Diese Folgen zeigen nicht nur, wie man an
-den Entwurf einer Software-Architektur herangehen kann - sondern auch,
-worauf es beim schriftlichen Teil der
-iSAQB-Advanced-Level-Zertifizierung ankommt.
+Software entwickelt man heutzutage agil - die einzige Alternative wäre
+noch der Wasserfall. In dieser Episode diskutieren wir, dass
+man berechtigte Zweifel an der Existenz dieses Modells haben
+kann. Denn um die Entstehung und Eignung des Modell ranken sich
+zahlreiche Mythen - und schlichte Missverständnisse. Das besser zu
+verstehen hilft dabei, das geeignet Vorgehen für das nächste Projekt
+zu wählen und nicht die Fehler zu begehen, vor denen teilweise seit
+Jahrzehnten gewarnt wird.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -32,7 +32,7 @@ iSAQB-Advanced-Level-Zertifizierung ankommt.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/1w__FCeDOQs"
+src="https://www.youtube-nocookie.com/embed/ufceCTDC2lM"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
