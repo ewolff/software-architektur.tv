@@ -13,30 +13,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 13.5. 12:00 Gibt es das Wasserfallmodell überhaupt?
+# Nächste Episode: 20.5. 12:00 Technischer Kontext - iSAQB Advanced Beispielaufgabe
 
-Software entwickelt man heutzutage agil - die einzige Alternative wäre
-noch der Wasserfall. In dieser Episode diskutieren wir, dass
-man berechtigte Zweifel an der Existenz dieses Modells haben
-kann. Denn um die Entstehung und Eignung des Modell ranken sich
-zahlreiche Mythen - und schlichte Missverständnisse. Das besser zu
-verstehen hilft dabei, das geeignet Vorgehen für das nächste Projekt
-zu wählen und nicht die Fehler zu begehen, vor denen teilweise seit
-Jahrzehnten gewarnt wird.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 [Zu Kalendar hinzufügen](termin.ics)
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/ufceCTDC2lM"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/ufceCTDC2lM" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
