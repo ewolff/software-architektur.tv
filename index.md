@@ -13,33 +13,32 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 20.5. 12:00 Technischer Kontext - iSAQB Advanced Beispielaufgabe
+# Nächste Episode: 3.6. 12:00 Thema offen
 
-
-Es geht weiter mit der iSAQB Advanced Beispielaufgabe "Big Spender"!
-Nach der [der Episode über
-Qualitätsanforderungen](/2022/04/29/folge117.html) und [der Episode
-über die Lösungsstrategie](/2022/05/06/folge118.html) geht es in
-dieser Folge um den technischen Kontext. Er beschreibt wie das System
-mit anderen System technisch interagiert und hilft so vor allem bei
-der Integration der Systeme.  Diese Folgen zeigen nicht nur, wie man
-an den Entwurf einer Software-Architektur herangehen kann - sondern
-auch, worauf es beim schriftlichen Teil der
-iSAQB-Advanced-Level-Zertifizierung ankommt.
+<!-- Es geht weiter mit der iSAQB Advanced Beispielaufgabe "Big Spender"! -->
+<!-- Nach der [der Episode über -->
+<!-- Qualitätsanforderungen](/2022/04/29/folge117.html) und [der Episode -->
+<!-- über die Lösungsstrategie](/2022/05/06/folge118.html) geht es in -->
+<!-- dieser Folge um den technischen Kontext. Er beschreibt wie das System -->
+<!-- mit anderen System technisch interagiert und hilft so vor allem bei -->
+<!-- der Integration der Systeme.  Diese Folgen zeigen nicht nur, wie man -->
+<!-- an den Entwurf einer Software-Architektur herangehen kann - sondern -->
+<!-- auch, worauf es beim schriftlichen Teil der -->
+<!-- iSAQB-Advanced-Level-Zertifizierung ankommt. -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/WEiQ0Uj7J6k"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/WEiQ0Uj7J6k" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
