@@ -13,18 +13,16 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 3.6. 12:00 Thema offen
+# Nächste Episode: 3.6. 12:00 Airbnb-Architektur
 
-<!-- Es geht weiter mit der iSAQB Advanced Beispielaufgabe "Big Spender"! -->
-<!-- Nach der [der Episode über -->
-<!-- Qualitätsanforderungen](/2022/04/29/folge117.html) und [der Episode -->
-<!-- über die Lösungsstrategie](/2022/05/06/folge118.html) geht es in -->
-<!-- dieser Folge um den technischen Kontext. Er beschreibt wie das System -->
-<!-- mit anderen System technisch interagiert und hilft so vor allem bei -->
-<!-- der Integration der Systeme.  Diese Folgen zeigen nicht nur, wie man -->
-<!-- an den Entwurf einer Software-Architektur herangehen kann - sondern -->
-<!-- auch, worauf es beim schriftlichen Teil der -->
-<!-- iSAQB-Advanced-Level-Zertifizierung ankommt. -->
+Airbnb ermöglicht es, Zimmer und Wohnung an Touristen und andere zu
+vermieten. Es ist eines der wichtigsten Angebote im
+Internet. Basierend auf einer
+[Veröffentlichung](https://medium.com/qe-unit/airbnbs-microservices-architecture-journey-to-quality-engineering-d5a490e6ba4f)
+werden wir in dieser Folge die Software-Architektur diskutieren:
+Welche Probleme will Airbnb mit der neuen Architektur zu lösen? Löst
+die Architektur diese Probleme tatsächlich? Was können wir von dem
+Airbnb-Ansatz für eigene Projekte lernen?
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
