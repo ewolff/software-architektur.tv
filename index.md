@@ -19,7 +19,8 @@ Airbnb ermöglicht es, Zimmer und Wohnung an Touristen und andere zu
 vermieten. Es ist eines der wichtigsten Angebote im
 Internet. Basierend auf einer
 [Veröffentlichung](https://medium.com/qe-unit/airbnbs-microservices-architecture-journey-to-quality-engineering-d5a490e6ba4f)
-werden wir in dieser Folge die Software-Architektur diskutieren:
+werden wir in dieser Folge die neue Software-Architektur dieser
+Website diskutieren:
 Welche Probleme will Airbnb mit der neuen Architektur zu lösen? Löst
 die Architektur diese Probleme tatsächlich? Was können wir von dem
 Airbnb-Ansatz für eigene Projekte lernen?
