@@ -13,27 +13,27 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 3.6. 12:00 Airbnb-Architektur
+# Nächste Episode: 10.6. 12:00 DORA & Accelerate mit Felix Müller
 
-Airbnb ermöglicht es, Zimmer und Wohnung an Touristen und andere zu
-vermieten. Es ist eines der wichtigsten Angebote im
-Internet. Basierend auf einer
-[Veröffentlichung](https://medium.com/qe-unit/airbnbs-microservices-architecture-journey-to-quality-engineering-d5a490e6ba4f)
-werden wir in dieser Folge die neue Software-Architektur dieser
-Website diskutieren:
-Welche Probleme will Airbnb mit der neuen Architektur zu lösen? Löst
-die Architektur diese Probleme tatsächlich? Was können wir von dem
-Airbnb-Ansatz für eigene Projekte lernen?
+<!-- Airbnb ermöglicht es, Zimmer und Wohnung an Touristen und andere zu -->
+<!-- vermieten. Es ist eines der wichtigsten Angebote im -->
+<!-- Internet. Basierend auf einer -->
+<!-- [Veröffentlichung](https://medium.com/qe-unit/airbnbs-microservices-architecture-journey-to-quality-engineering-d5a490e6ba4f) -->
+<!-- werden wir in dieser Folge die neue Software-Architektur dieser -->
+<!-- Website diskutieren: -->
+<!-- Welche Probleme will Airbnb mit der neuen Architektur zu lösen? Löst -->
+<!-- die Architektur diese Probleme tatsächlich? Was können wir von dem -->
+<!-- Airbnb-Ansatz für eigene Projekte lernen? -->
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+<!-- <\!-- [Zu Kalendar hinzufügen](termin.ics) -\-> -->
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/Dh9CgeC4xiI"
+src="https://www.youtube-nocookie.com/embed/Z2aMzqjEoTI"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
