@@ -15,19 +15,23 @@ stellen.
  
 # Nächste Episode: 10.6. 12:00 DORA & Accelerate mit Felix Müller
 
-<!-- Airbnb ermöglicht es, Zimmer und Wohnung an Touristen und andere zu -->
-<!-- vermieten. Es ist eines der wichtigsten Angebote im -->
-<!-- Internet. Basierend auf einer -->
-<!-- [Veröffentlichung](https://medium.com/qe-unit/airbnbs-microservices-architecture-journey-to-quality-engineering-d5a490e6ba4f) -->
-<!-- werden wir in dieser Folge die neue Software-Architektur dieser -->
-<!-- Website diskutieren: -->
-<!-- Welche Probleme will Airbnb mit der neuen Architektur zu lösen? Löst -->
-<!-- die Architektur diese Probleme tatsächlich? Was können wir von dem -->
-<!-- Airbnb-Ansatz für eigene Projekte lernen? -->
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+Wie wird man bei der Software-Entwicklung besser? Dazu gibt es
+zahlreiche Meinungen - aber nur wenige fundierte Studien. In dieser
+Folge diskutieren wir dazu die Ergebnisse der DORA (DevOps Research
+and Assessment) “State of DevOps Reports” und des Accelerate-Buchs
+zusammen mit Felix Müller. Felix beschäftigt sich nicht nur
+theoretisch mit diesen Konzepten, sondern entwickelt auch ein Tool in
+diesem Bereich. Zusammen werden wir teilweise überraschende Ergebnisse
+aus DORA diskutieren: Trunk-basierte Entwicklung ist Pull Requests
+überlegen, man wird nicht schneller, wenn man Personen zur zeitnahen
+Genehmigung von Software-Änderungen abstellt, und man sollte immer in
+möglichst kleinen Arbeitspaketen arbeiten, auch wenn das scheinbar
+einen Overhead hat.
 
-<!-- <\!-- [Zu Kalendar hinzufügen](termin.ics) -\-> -->
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 

@@ -20,20 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220601T061645Z
-DESCRIPTION:Airbnb ermöglicht es\, Zimmer und Wohnung an Touristen und and
-	ere zu vermieten. Es ist eines der wichtigsten Angebote im Internet. Basie
-	rend auf einer Veröffentlichung werden wir in dieser Folge die neue Softw
-	are-Architektur dieser Website diskutieren: Welche Probleme will Airbnb mi
-	t der neuen Architektur zu lösen? Löst die Architektur diese Probleme ta
-	tsächlich? Was können wir von dem Airbnb-Ansatz für eigene Projekte ler
-	nen?\n\nStream\nYouTube https://www.youtube.com/watch?v=Dh9CgeC4xiI\nTwitc
-	h https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220603T130000
+CREATED:20220608T073218Z
+DESCRIPTION:Wie wird man bei der Software-Entwicklung besser? Dazu gibt es 
+	zahlreiche Meinungen - aber nur wenige fundierte Studien. In dieser Folge 
+	diskutieren wir dazu die Ergebnisse der DORA (DevOps Research and Assessme
+	nt) “State of DevOps Reports” und des Accelerate-Buchs zusammen mit Fe
+	lix Müller. Felix beschäftigt sich nicht nur theoretisch mit diesen Konz
+	epten\, sondern entwickelt auch ein Tool in diesem Bereich. Zusammen werde
+	n wir teilweise überraschende Ergebnisse aus DORA diskutieren: Trunk-basi
+	erte Entwicklung ist Pull Requests überlegen\, man wird nicht schneller\,
+	 wenn man Personen zur zeitnahen Genehmigung von Software-Änderungen abst
+	ellt\, und man sollte immer in möglichst kleinen Arbeitspaketen arbeiten\
+	, auch wenn das scheinbar einen Overhead hat.\n\nStream\nYouTube https://w
+	ww.youtube.com/watch?v=Z2aMzqjEoTI \nTwitch https://www.twitch.tv/ebrwolff
+	\n
+DTEND;TZID="W. Europe Standard Time":20220624T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220520T120000
-LAST-MODIFIED:20220601T061645Z
-LOCATION:Stream YouTube https://www.youtube.com/watch?v=Dh9CgeC4xiI  Twitch
+DTSTART;TZID="W. Europe Standard Time":20220610T120000
+LAST-MODIFIED:20220608T073218Z
+LOCATION:Stream YouTube https://www.youtube.com/watch?v=Z2aMzqjEoTI  Twitch
 	  https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
