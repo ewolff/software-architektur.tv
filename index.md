@@ -13,8 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 10.6. 12:00 DORA & Accelerate mit Felix Müller
-
+# Nächste Episode: 10.6. 12:00 DORA Metriken & Accelerate mit Felix Müller
 
 Wie wird man bei der Software-Entwicklung besser? Dazu gibt es
 zahlreiche Meinungen - aber nur wenige fundierte Studien. In dieser
