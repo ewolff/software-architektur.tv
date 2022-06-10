@@ -13,20 +13,13 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 10.6. 12:00 DORA Metriken & Accelerate mit Felix Müller
+# Nächste Episode: 17.6. 12:00 Technologie-Entscheidungen & Bewertung: iSAQB Advanced Beispielaufgabe
 
-Wie wird man bei der Software-Entwicklung besser? Dazu gibt es
-zahlreiche Meinungen - aber nur wenige fundierte Studien. In dieser
-Folge diskutieren wir dazu die Ergebnisse der DORA (DevOps Research
-and Assessment) “State of DevOps Reports” und des Accelerate-Buchs
-zusammen mit Felix Müller. Felix beschäftigt sich nicht nur
-theoretisch mit diesen Konzepten, sondern entwickelt auch ein Tool in
-diesem Bereich. Zusammen werden wir teilweise überraschende Ergebnisse
-aus DORA diskutieren: Trunk-basierte Entwicklung ist Pull Requests
-überlegen, man wird nicht schneller, wenn man Personen zur zeitnahen
-Genehmigung von Software-Änderungen abstellt, und man sollte immer in
-möglichst kleinen Arbeitspaketen arbeiten, auch wenn das scheinbar
-einen Overhead hat.
+In dieser Folge widmen wir uns wieder der iSAQB-Beispielaufgabe
+widmen. Wir werden entscheiden, welche Technologie für die
+Implementierung des Systems verwendet werden. Und zum Abschluss werden
+wir die entstandenen Architektur vor allem in Bezug auf die
+Qualitätsszenarien bewerten.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -36,7 +29,7 @@ einen Overhead hat.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/Z2aMzqjEoTI"
+src="https://www.youtube-nocookie.com/embed/ppzbbNNU9FI"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
