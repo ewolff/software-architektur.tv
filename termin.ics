@@ -20,25 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220610T134147Z
-DESCRIPTION:In dieser Folge widmen wir uns wieder der iSAQB-Beispielaufgabe
-	 widmen. Wir werden entscheiden\, welche Technologie für die Implementier
-	ung des Systems verwendet werden. Und zum Abschluss werden wir die entstan
-	denen Architektur vor allem in Bezug auf die Qualitätsszenarien bewerten.
-	\n\nYouTube https://www.youtube.com/watch?v=ppzbbNNU9FI\nTwitch https://ww
-	w.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220701T130000
+CREATED:20220617T132151Z
+DESCRIPTION:Wie groß sollen Microservices sein? Wie autonom sollen Teams s
+	ein? Bei Software-Architektur gibt es zahlreiche kontroverse Meinungen - a
+	lso diskutieren wir es aus! In diesem Meetup in Wien lassen Eberhard Wolff
+	 und Stefan Toth die Meinung aufeinander prallen: Nach der Wahl eines Them
+	a werden beide eine radikale Position dazu vertreten und ausdiskutieren. M
+	oderiert wird das Ganze von Lisa Moritz. Daran kann sich natürlich auch d
+	as Publikum beteiligen - vor Ort und im Stream.\n\nYouTube https://www.you
+	tube.com/watch?v=GplG9Zz74ro\nTwitch https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20220623T200000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220617T120000
-LAST-MODIFIED:20220610T134147Z
-LOCATION:YouTube https://www.youtube.com/watch?v=ppzbbNNU9FI Twitch https:/
+DTSTART;TZID="W. Europe Standard Time":20220623T183000
+LAST-MODIFIED:20220617T132151Z
+LOCATION:YouTube https://www.youtube.com/watch?v=GplG9Zz74ro Twitch https:/
 	/www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=de:Software Architektur im Stream: Airbnb-Architektur
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
-	010000000ADB053CCF7A86A4394D0D7963E2F526E
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE

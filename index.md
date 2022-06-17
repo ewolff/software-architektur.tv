@@ -13,13 +13,17 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 17.6. 12:00 Technologie-Entscheidungen & Bewertung: iSAQB Advanced Beispielaufgabe
+# Nächste Episode: 23.6. 18:30 Microservices: Schlag den Eberhard & Stefan!
 
-In dieser Folge widmen wir uns wieder der iSAQB-Beispielaufgabe
-widmen. Wir werden entscheiden, welche Technologie für die
-Implementierung des Systems verwendet werden. Und zum Abschluss werden
-wir die entstandenen Architektur vor allem in Bezug auf die
-Qualitätsszenarien bewerten.
+Wie groß sollen Microservices sein? Wie autonom sollen Teams sein? Bei
+Software-Architektur gibt es zahlreiche kontroverse Meinungen - also
+diskutieren wir es aus! In diesem Meetup in Wien lassen Eberhard Wolff
+und Stefan Toth die Meinung aufeinander prallen: Nach der Wahl eines
+Thema werden beide eine radikale Position dazu vertreten und
+ausdiskutieren. Moderiert wird das Ganze von Lisa Moritz. Daran kann
+sich natürlich auch das Publikum beteiligen - vor Ort und im Stream.
+
+[Meetup](https://www.meetup.com/de-DE/softwarearchitektur-wien/events/286353494/)
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -29,7 +33,7 @@ Qualitätsszenarien bewerten.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/ppzbbNNU9FI"
+src="https://www.youtube-nocookie.com/embed/GplG9Zz74ro"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
