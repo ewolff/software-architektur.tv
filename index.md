@@ -13,17 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 23.6. 18:30 Microservices: Schlag den Eberhard & Stefan!
-
-Wie groß sollen Microservices sein? Wie autonom sollen Teams sein? Bei
-Software-Architektur gibt es zahlreiche kontroverse Meinungen - also
-diskutieren wir es aus! In diesem Meetup in Wien lassen Eberhard Wolff
-und Stefan Toth die Meinung aufeinander prallen: Nach der Wahl eines
-Thema werden beide eine radikale Position dazu vertreten und
-ausdiskutieren. Moderiert wird das Ganze von Lisa Moritz. Daran kann
-sich natürlich auch das Publikum beteiligen - vor Ort und im Stream.
-
-[Meetup](https://www.meetup.com/de-DE/softwarearchitektur-wien/events/286353494/)
+# Nächste Episode: 1.7. 12:00 Thema noch offen
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -31,13 +21,13 @@ sich natürlich auch das Publikum beteiligen - vor Ort und im Stream.
 
 ## Live Stream
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/GplG9Zz74ro"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/GplG9Zz74ro" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
