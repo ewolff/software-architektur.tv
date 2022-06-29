@@ -13,7 +13,18 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: 1.7. 12:00 Thema noch offen
+# Nächste Episode: 1.7. 12:00 Organisation und Architektur - ein Beispiel
+
+Organisation und Architektur hängen sehr eng zusammen. Welche
+Auswirkung dieser Zusammenhang tatsächlich hat, diskutiert Eberhard in
+dieser Episode anhand einer möglichen konkreten Entscheidung in einem
+Projekt. Die Beziehung zwischen diesen beiden Bereichen ist alles
+andere als einfach. Die Organisation an der Architektur auszurichten
+ist oft viel einfacher gesagt als getan. Daher sprechen wir nicht nur
+über das Gesetz von Conway, sondern auch über Modularisierung als
+fundamentales Konzept der Software-Architektur, Domain-driven Design
+und seine organisatorischen Patterns und wie Architekt:innen solche
+Konzepte tatsächlich umsetzen können.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -21,13 +32,13 @@ stellen.
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/GplG9Zz74ro" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Pd3P_oOMKvM"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 

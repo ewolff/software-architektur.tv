@@ -20,24 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220617T132151Z
-DESCRIPTION:Wie groß sollen Microservices sein? Wie autonom sollen Teams s
-	ein? Bei Software-Architektur gibt es zahlreiche kontroverse Meinungen - a
-	lso diskutieren wir es aus! In diesem Meetup in Wien lassen Eberhard Wolff
-	 und Stefan Toth die Meinung aufeinander prallen: Nach der Wahl eines Them
-	a werden beide eine radikale Position dazu vertreten und ausdiskutieren. M
-	oderiert wird das Ganze von Lisa Moritz. Daran kann sich natürlich auch d
-	as Publikum beteiligen - vor Ort und im Stream.\n\nYouTube https://www.you
-	tube.com/watch?v=GplG9Zz74ro\nTwitch https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220623T200000
+CREATED:20220629T132342Z
+DESCRIPTION:Organisation und Architektur hängen sehr eng zusammen. Welche 
+	Auswirkung dieser Zusammenhang tatsächlich hat\, diskutiert Eberhard in d
+	ieser Episode anhand einer möglichen konkreten Entscheidung in einem Proj
+	ekt. Die Beziehung zwischen diesen beiden Bereichen ist alles andere als e
+	infach. Die Organisation an der Architektur auszurichten ist oft viel einf
+	acher gesagt als getan. Daher sprechen wir nicht nur über das Gesetz von 
+	Conway\, sondern auch über Modularisierung als fundamentales Konzept der 
+	Software-Architektur\, Domain-driven Design und seine organisatorischen Pa
+	tterns und wie Architekt:innen solche Konzepte tatsächlich umsetzen könn
+	en.\n\nYouTube https://www.youtube.com/watch?v=Pd3P_oOMKvM\nTwitch https:/
+	/www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20220701T133000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220623T183000
-LAST-MODIFIED:20220617T132151Z
-LOCATION:YouTube https://www.youtube.com/watch?v=GplG9Zz74ro Twitch https:/
+DTSTART;TZID="W. Europe Standard Time":20220701T120000
+LAST-MODIFIED:20220629T132342Z
+LOCATION:YouTube https://www.youtube.com/watch?v=Pd3P_oOMKvM Twitch https:/
 	/www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Airbnb-Architektur
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Organisation und Archit
+	ektur - ein Beispiel
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
