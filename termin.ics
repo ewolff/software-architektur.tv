@@ -20,28 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220629T132342Z
-DESCRIPTION:Organisation und Architektur hängen sehr eng zusammen. Welche 
-	Auswirkung dieser Zusammenhang tatsächlich hat\, diskutiert Eberhard in d
-	ieser Episode anhand einer möglichen konkreten Entscheidung in einem Proj
-	ekt. Die Beziehung zwischen diesen beiden Bereichen ist alles andere als e
-	infach. Die Organisation an der Architektur auszurichten ist oft viel einf
-	acher gesagt als getan. Daher sprechen wir nicht nur über das Gesetz von 
-	Conway\, sondern auch über Modularisierung als fundamentales Konzept der 
-	Software-Architektur\, Domain-driven Design und seine organisatorischen Pa
-	tterns und wie Architekt:innen solche Konzepte tatsächlich umsetzen könn
-	en.\n\nYouTube https://www.youtube.com/watch?v=Pd3P_oOMKvM\nTwitch https:/
-	/www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220701T133000
+CREATED:20220705T090707Z
+DESCRIPTION:Was macht eine Software-Architekt:in eigentlich genau? Irgendwi
+	e ist sie für die Software-Architektur verantwortlich\, aber das sagt noc
+	h über die täglichen Aktivitäten und Prioritäten aus. Genau diese Frag
+	en steht im Mittelpunkt der Episode: Wie lebt man die Rolle “Software-Ar
+	chitekt:in”? Welche Tätigkeiten sind besonders wichtig? Mit welchen and
+	eren Personen sollte man wie interagieren?\n\nYouTube https://www.youtube.
+	com/watch?v=1nj0uoXDxTA\nTwitch https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20220707T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220701T120000
-LAST-MODIFIED:20220629T132342Z
-LOCATION:YouTube https://www.youtube.com/watch?v=Pd3P_oOMKvM Twitch https:/
+DTSTART;TZID="W. Europe Standard Time":20220707T120000
+LAST-MODIFIED:20220705T090707Z
+LOCATION:YouTube https://www.youtube.com/watch?v=1nj0uoXDxTA Twitch https:/
 	/www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Organisation und Archit
-	ektur - ein Beispiel
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Die Rolle “Software-A
+	rchitekt:in”
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY

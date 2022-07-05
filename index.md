@@ -13,22 +13,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Noch offen
+# Nächste Episode: Donnerstag, 7.7. 12:00 Die Rolle "Software-Architekt:in"
 
+Was macht eine Software-Architekt:in eigentlich genau? Irgendwie ist
+sie für die Software-Architektur verantwortlich, aber das sagt noch
+über die täglichen Aktivitäten und Prioritäten aus. Genau diese Fragen
+steht im Mittelpunkt der Episode: Wie lebt man die Rolle
+"Software-Architekt:in"? Welche Tätigkeiten sind besonders wichtig?
+Mit welchen anderen Personen sollte man wie interagieren?
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/Pd3P_oOMKvM" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/1nj0uoXDxTA"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
