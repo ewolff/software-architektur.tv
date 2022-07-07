@@ -13,12 +13,14 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Donnerstag, 7.7. 12:00 Die Rolle "Software-Architekt:in"
+# Nächste Episode: Freitag, 15.7. 12:00 Die Rolle "Software-Architekt:in" 2
 
-Was macht eine Software-Architekt:in eigentlich genau? Irgendwie ist
-sie für die Software-Architektur verantwortlich, aber das sagt noch
-über die täglichen Aktivitäten und Prioritäten aus. Genau diese Fragen
-steht im Mittelpunkt der Episode: Wie lebt man die Rolle
+Nachdem in der letzten Folge noch zahlreiche Fragen unbeantwortet
+geblieben sind, geht es auch in dieser Episode um die Frage: Was macht
+eine Software-Architekt:in eigentlich genau? Irgendwie ist sie für die
+Software-Architektur verantwortlich, aber das sagt noch über die
+täglichen Aktivitäten und Prioritäten aus. Genau diese Fragen steht im
+Mittelpunkt auch dieser Episode: Wie lebt man die Rolle
 "Software-Architekt:in"? Welche Tätigkeiten sind besonders wichtig?
 Mit welchen anderen Personen sollte man wie interagieren?
 
@@ -30,7 +32,7 @@ Mit welchen anderen Personen sollte man wie interagieren?
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/1nj0uoXDxTA"
+src="https://www.youtube-nocookie.com/embed/thIkj_YWnBc"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
