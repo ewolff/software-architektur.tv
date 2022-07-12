@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 15.7. 12:00 Die Rolle "Software-Architekt:in" 2
+# Nächste Episode: Freitag, 15.7. 12:00 Die Rolle "Software-Architekt:in" - Folge 2
 
 Nachdem in der letzten Folge noch zahlreiche Fragen unbeantwortet
 geblieben sind, geht es auch in dieser Episode um die Frage: Was macht
