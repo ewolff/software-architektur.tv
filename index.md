@@ -13,16 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 15.7. 12:00 Die Rolle "Software-Architekt:in" - Folge 2
-
-Nachdem in der letzten Folge noch zahlreiche Fragen unbeantwortet
-geblieben sind, geht es auch in dieser Episode um die Frage: Was macht
-eine Software-Architekt:in eigentlich genau? Irgendwie ist sie für die
-Software-Architektur verantwortlich, aber das sagt noch über die
-täglichen Aktivitäten und Prioritäten aus. Genau diese Fragen steht im
-Mittelpunkt auch dieser Episode: Wie lebt man die Rolle
-"Software-Architekt:in"? Welche Tätigkeiten sind besonders wichtig?
-Mit welchen anderen Personen sollte man wie interagieren?
+# Nächste Episode: Freitag, 22.7. 12:00 Agilität und Architektur mit Stefan Toth
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -32,7 +23,7 @@ Mit welchen anderen Personen sollte man wie interagieren?
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/thIkj_YWnBc"
+src="https://www.youtube-nocookie.com/embed/CW9wXAnwJIU"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
