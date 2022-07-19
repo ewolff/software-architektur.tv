@@ -15,6 +15,14 @@ stellen.
  
 # Nächste Episode: Freitag, 22.7. 12:00 Agilität und Architektur mit Stefan Toth
 
+Architektur ist stabil, Software-Entwicklung ist agil - dauernd gibt
+es neue Anforderungen und neue Sprints mit neuen Planungen. Wie passen
+diese beiden Welten zusammen? In dieser Episode diskutiert Stefan Toth
+diese und andere Fragen zu Agilität und Architektur - von Team- bis
+Unternehmensebene. Dabei geht es auch darum, welche Rolle die
+Software-Architekt:in in einem agilen Projekt spielt und wie sie das
+agile Vorgehen unterstützen kann.
+
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 [Zu Kalendar hinzufügen](termin.ics)

@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220705T090707Z
-DESCRIPTION:Was macht eine Software-Architekt:in eigentlich genau? Irgendwi
-	e ist sie für die Software-Architektur verantwortlich\, aber das sagt noc
-	h über die täglichen Aktivitäten und Prioritäten aus. Genau diese Frag
-	en steht im Mittelpunkt der Episode: Wie lebt man die Rolle “Software-Ar
-	chitekt:in”? Welche Tätigkeiten sind besonders wichtig? Mit welchen and
-	eren Personen sollte man wie interagieren?\n\nYouTube https://www.youtube.
-	com/watch?v=1nj0uoXDxTA\nTwitch https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220707T130000
+CREATED:20220719T101158Z
+DESCRIPTION:Architektur ist stabil\, Software-Entwicklung ist agil - dauern
+	d gibt es neue Anforderungen und neue Sprints mit neuen Planungen. Wie pas
+	sen diese beiden Welten zusammen? In dieser Episode diskutiert Stefan Toth
+	 diese und andere Fragen zu Agilität und Architektur - von Team- bis Unte
+	rnehmensebene. Dabei geht es auch darum\, welche Rolle die Software-Archit
+	ekt:in in einem agilen Projekt spielt und wie sie das agile Vorgehen unter
+	stützen kann.\n\nYouTube https://www.youtube.com/watch?v=CW9wXAnwJIU\nTwi
+	tch https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20220722T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220707T120000
-LAST-MODIFIED:20220705T090707Z
-LOCATION:YouTube https://www.youtube.com/watch?v=1nj0uoXDxTA Twitch https:/
+DTSTART;TZID="W. Europe Standard Time":20220722T120000
+LAST-MODIFIED:20220719T101158Z
+LOCATION:YouTube https://www.youtube.com/watch?v=CW9wXAnwJIU Twitch https:/
 	/www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Die Rolle “Software-A
-	rchitekt:in”
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Agilität und Architekt
+	ur mit Stefan Toth
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
