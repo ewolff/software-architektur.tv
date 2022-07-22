@@ -13,29 +13,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 22.7. 12:00 Agilität und Architektur mit Stefan Toth
+# Nächste Episode: Freitag, 29.7. 12:00 Thema noch offen
 
-Architektur ist stabil, Software-Entwicklung ist agil - dauernd gibt
-es neue Anforderungen und neue Sprints mit neuen Planungen. Wie passen
-diese beiden Welten zusammen? In dieser Episode diskutiert Stefan Toth
-diese und andere Fragen zu Agilität und Architektur - von Team- bis
-Unternehmensebene. Dabei geht es auch darum, welche Rolle die
-Software-Architekt:in in einem agilen Projekt spielt und wie sie das
-agile Vorgehen unterstützen kann.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/CW9wXAnwJIU"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/CW9wXAnwJIU" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
