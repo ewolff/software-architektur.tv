@@ -13,22 +13,29 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 29.7. 12:00 Thema noch offen
+# Nächste Episode: Freitag, 29.7. 12:00 Software-Architektur und Ethik
 
+Software-Architekt:innen sollten sich die Frage stellen, welche Arten
+von Systemen sie bauen wollen und an welchen sie sich aus ethischen Gründen
+nicht beteiligen wollen. Ebenso stellt sich die Frage, in was für einer
+Umgebung und unter welchen Bedingungen wir solche Systeme bauen
+wollen. In dieser Episode diskutiert Eberhard, wie er ganz praktisch
+und persönlich mit diesen Fragestellungen umgeht und welche
+Konsequenzen die Fragen für ihn haben.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/CW9wXAnwJIU" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/sdeNks9YClU"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
