@@ -13,15 +13,9 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 29.7. 12:00 Software-Architektur und Ethik
+# Nächste Episode: Freitag, 5.8. 12:00 Ask Me Anything
 
-Software-Architekt:innen sollten sich die Frage stellen, welche Arten
-von Systemen sie bauen wollen und an welchen sie sich aus ethischen Gründen
-nicht beteiligen wollen. Ebenso stellt sich die Frage, in was für einer
-Umgebung und unter welchen Bedingungen wir solche Systeme bauen
-wollen. In dieser Episode diskutiert Eberhard, wie er ganz praktisch
-und persönlich mit diesen Fragestellungen umgeht und welche
-Konsequenzen die Fragen für ihn haben.
+Eberhard wird spontan auf Fragen aus dem Publikum antworten.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -31,7 +25,7 @@ Konsequenzen die Fragen für ihn haben.
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/sdeNks9YClU"
+src="https://www.youtube-nocookie.com/embed/6D_OgQ9A6CU"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>

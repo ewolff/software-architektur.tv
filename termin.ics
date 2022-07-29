@@ -20,27 +20,20 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220728T062002Z
-DESCRIPTION:Software-Architekt:innen sollten sich die Frage stellen\, welch
-	e Arten von Systemen sie bauen wollen und an welchen sie sich aus ethische
-	n Gründen nicht beteiligen wollen. Ebenso stellt sich die Frage\, in was 
-	für einer Umgebung und unter welchen Bedingungen wir solche Systeme bauen
-	 wollen. In dieser Episode diskutiert Eberhard\, wie er ganz praktisch und
-	 persönlich mit diesen Fragestellungen umgeht und welche Konsequenzen die
-	 Fragen für ihn haben.\n\nYouTube https://www.youtube.com/watch?v=sdeNks9
-	YClU\nTwitch https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220729T130000
+CREATED:20220729T163543Z
+DESCRIPTION:Eberhard wird spontan auf Fragen aus dem Publikum antworten.\n\
+	nYouTube https://www.youtube.com/watch?v=6D_OgQ9A6CU\nTwitch https://www.t
+	witch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20220805T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220729T120000
-LAST-MODIFIED:20220728T062002Z
-LOCATION:YouTube https://www.youtube.com/watch?v=sdeNks9YClU Twitch https:/
+DTSTART;TZID="W. Europe Standard Time":20220805T120000
+LAST-MODIFIED:20220729T163543Z
+LOCATION:YouTube https://www.youtube.com/watch?v=6D_OgQ9A6CU Twitch https:/
 	/www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Software-Architektur un
-	d Ethik
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Ask Me Anything
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE
