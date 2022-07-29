@@ -10,22 +10,8 @@
       
     {{ content }}
 
-{% if page.sketchnote-video %}
-<h2>Video</h2>
-{% endif %}
-<center>
-  <div class="embed-container">
-    <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/{{ page.video }}" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-       picture-in-picture" allowfullscreen></iframe>
-    </div>
-</center>
-
 {% if page.peertube %}
-PeerTube Video - no Big Tech!
-
-<!-- title="Junior oder Senior - Was ist der Unterschied?" -->
+<h2>PeerTube Video - no Big Tech!</h2>
 
 <center>
 <iframe 
@@ -36,7 +22,17 @@ allow-scripts allow-popups"></iframe>
 </center>
 
 {% endif %}
+    
+<h2>YouTube Video</h2>
 
+<center>
+  <div class="embed-container">
+    <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/{{ page.video }}" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen></iframe>
+    </div>
+</center>
 
 {% if page.sketchnote-video %}
 <h2>Live Sketchnoting</h2>
