@@ -20,20 +20,31 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220729T163543Z
-DESCRIPTION:Eberhard wird spontan auf Fragen aus dem Publikum antworten.\n\
-	nYouTube https://www.youtube.com/watch?v=6D_OgQ9A6CU\nTwitch https://www.t
-	witch.tv/ebrwolff\n\n
+CREATED:20220803T084613Z
+DESCRIPTION:Eberhard wird spontan auf Fragen aus dem Publikum antworten. Da
+	bei kann es um beliebige Themen gehen\, die etwas mit dem Stream oder Soft
+	ware-Architektur zu tun haben. Für die Fragen gibt es unter https://softw
+	are-architektur.tv/ ein Formular\, sonst gerne auch bei Twitter https://tw
+	itter.com/ewolff\, Mastodon https://mastodon.social/@ewolff oder im Chat d
+	es YouTube Streams https://www.youtube.com/watch?v=6D_OgQ9A6CU.\n\nVorab e
+	in Hinweis: Ich werde versuchen\, möglichst viele Fragen von möglichst v
+	ielen Personen zu beantworten. Dabei ist es mir besonders wichtig\, dass i
+	ch idealerweise jede Person berücksichtigen kann - auch wenn das bedeutet
+	\, dass einige nicht alle Fragen beantwortet bekommen.\n\nYouTube https://
+	www.youtube.com/watch?v=6D_OgQ9A6CU\nTwitch https://www.twitch.tv/ebrwolff
+	\n\n
 DTEND;TZID="W. Europe Standard Time":20220805T130000
 DTSTAMP:20210329T160737Z
 DTSTART;TZID="W. Europe Standard Time":20220805T120000
-LAST-MODIFIED:20220729T163543Z
+LAST-MODIFIED:20220803T084613Z
 LOCATION:YouTube https://www.youtube.com/watch?v=6D_OgQ9A6CU Twitch https:/
 	/www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
 SUMMARY;LANGUAGE=de:Software Architektur im Stream: Ask Me Anything
 TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000F0FBEA3F26A7D801000000000000000
+	01000000032D80FF829B8244E8D59215417579760
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE

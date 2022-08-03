@@ -16,6 +16,16 @@ stellen.
 # Nächste Episode: Freitag, 5.8. 12:00 Ask Me Anything
 
 Eberhard wird spontan auf Fragen aus dem Publikum antworten.
+Dabei kann es um beliebige Themen gehen, die etwas mit dem Stream oder
+Software-Architektur zu tun haben. Für die Fragen gibt es unten das
+Formular, sonst gerne auch bei [Twitter](https://twitter.com/ewolff),
+[Mastodon](https://mastodon.social/@ewolff) oder im Chat des [YouTube
+Streams](https://www.youtube.com/watch?v=6D_OgQ9A6CU).
+
+Vorab ein Hinweis: Ich werde versuchen, möglichst viele Fragen von
+möglichst vielen Personen zu beantworten. Dabei ist es mir besonders
+wichtig, dass ich idealerweise jede Person berücksichtigen kann - auch
+wenn das bedeutet, dass einige nicht alle Fragen beantwortet bekommen.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
