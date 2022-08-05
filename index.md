@@ -13,33 +13,21 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 5.8. 12:00 Ask Me Anything
-
-Eberhard wird spontan auf Fragen aus dem Publikum antworten.
-Dabei kann es um beliebige Themen gehen, die etwas mit dem Stream oder
-Software-Architektur zu tun haben. Für die Fragen gibt es unten das
-Formular, sonst gerne auch bei [Twitter](https://twitter.com/ewolff),
-[Mastodon](https://mastodon.social/@ewolff) oder im Chat des [YouTube
-Streams](https://www.youtube.com/watch?v=6D_OgQ9A6CU).
-
-Vorab ein Hinweis: Ich werde versuchen, möglichst viele Fragen von
-möglichst vielen Personen zu beantworten. Dabei ist es mir besonders
-wichtig, dass ich idealerweise jede Person berücksichtigen kann - auch
-wenn das bedeutet, dass einige nicht alle Fragen beantwortet bekommen.
+# Nächste Episode: Freitag, 26.8. 12:00 Thema noch offen
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/6D_OgQ9A6CU"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/6D_OgQ9A6CU" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
