@@ -27,20 +27,6 @@ Diese Website wird auf Servern von
 Francisco, CA 94107, USA gehostet. Beachten Sie daher auch die
 [GitHub Privacy Policy](https://help.github.com/articles/github-privacy-statement/).
 
-# Datenschutzerklärung für die Nutzung von Google Web Fonts
-
-Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so
-genannte Web Fonts. Sie werden von [Google Inc.](https://google.com/),
-1600 Amphitheatre Parkway Mountain View, CA 94043, USA bereitgestellt.
-Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in
-ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Wenn
-Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von
-Ihrem Computer genutzt.
-
-Weitere Informationen zu Google Web Fonts finden Sie in de
-[Developer FAQ](https://developers.google.com/fonts/faq) und in der
-[Datenschutzerklärung von Google](https://developers.google.com/fonts/faq).
-
 # Nutzung von Google Forms
 
 Für Umfragen setzt diese Seite [Google
