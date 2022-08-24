@@ -13,21 +13,31 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 26.8. 12:00 Thema noch offen
+# Nächste Episode: Freitag, 26.8. 12:00 Samir Talwar: Longevity - live from SoCraTes Conference
+
+Successful software often has a long lifespan - sometimes even
+decades. So longevity is an important property of software. But more
+often than not, software becomes a mess in the long run with severe
+commercial consequences and then it frustrates everyone who touches
+it. In this episode, we discuss how to avoid these problems and how
+software can be long-lasting with Samir Talwar. He is a developer at
+Hasura. Previously, he has been a trainer, teacher, and CTO - and he
+is running a hands-on workshop at Socrates conference about longevity.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+[Add to calendar](appointment.ics)
 <!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/6D_OgQ9A6CU" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/udjF-G4zDCo"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
