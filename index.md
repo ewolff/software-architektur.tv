@@ -13,27 +13,26 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 26.8. 12:00 Samir Talwar: Longevity - live from SoCraTes Conference
+# Nächste Episode: Freitag, 2.9. 12:00 Der Self-contained-Systems-Architekturansatz
 
-Successful software often has a long lifespan - sometimes even
-decades. So longevity is an important property of software. But more
-often than not, software becomes a mess in the long run with severe
-commercial consequences and then it frustrates everyone who touches
-it. In this episode, we discuss how to avoid these problems and how
-software can be long-lasting with Samir Talwar. He is a developer at
-Hasura. Previously, he has been a trainer, teacher, and CTO - and he
-is running a hands-on workshop at Socrates conference about longevity.
+Self-contained Systems (SCS) teilen ein System in mehrere
+Web-Anwendungen auf. Im Gegensatz zu vielen anderen
+Architekturansätzen sind SCS darauf ausgerichtet, typische
+Architektur-Probleme zu lösen. Dazu schreiben sie verschiedene
+Architektur-Elemente vor, die sich schon in vielen Projekten bewährt
+haben. In dieser Episode diskutieren wir SCS, was diesen Ansatz
+ausmacht und in welchen Situationen er besonders sinnvoll ist.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Add to calendar](appointment.ics)
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+<!-- [Add to calendar](appointment.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/udjF-G4zDCo"
+src="https://www.youtube-nocookie.com/embed/yVNQDZzqmh8"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
