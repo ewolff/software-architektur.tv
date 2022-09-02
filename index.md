@@ -13,26 +13,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 2.9. 12:00 Der Self-contained-Systems-Architekturansatz
+# Nächste Episode: Freitag, 9.9. 12:00 Wie Architekt:innen ausbilden?
 
-Self-contained Systems (SCS) teilen ein System in mehrere
-Web-Anwendungen auf. Im Gegensatz zu vielen anderen
-Architekturansätzen sind SCS darauf ausgerichtet, typische
-Architektur-Probleme zu lösen. Dazu schreiben sie verschiedene
-Architektur-Elemente vor, die sich schon in vielen Projekten bewährt
-haben. In dieser Episode diskutieren wir SCS, was diesen Ansatz
-ausmacht und in welchen Situationen er besonders sinnvoll ist.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/yVNQDZzqmh8"
+src="https://www.youtube-nocookie.com/embed/EvppM2WALJ0"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
