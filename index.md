@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 9.9. 12:00 Wie Architekt:innen ausbilden?
+# Nächste Episode: Freitag, 9.9. 12:00 Wie Software-Architekt:innen ausbilden?
 
 Für die Ausbildung von Architekt:innen gibt es viele unterschiedliche
 Ansätze. In dieser Episode spricht Eberhard über seine persönlichen
