@@ -23,7 +23,7 @@ darum, wie Architekt:innen so ausgebildet werden können, dass sie
 nicht nur theoretisches Wissen ansammeln, sondern das Wissen auch
 anwenden können und in der Praxis tatsächlich anwenden. Nur so können
 sie schließlich wirklich als Software-Architekt:innen erfolgreich
-arbeiten .
+arbeiten.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
