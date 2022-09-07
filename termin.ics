@@ -20,25 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220827T194213Z
-DESCRIPTION:Self-contained Systems (SCS) teilen ein System in mehrere Web-A
-	nwendungen auf. Im Gegensatz zu vielen anderen Architekturansätzen sind S
-	CS darauf ausgerichtet\, typische Architektur-Probleme zu lösen. Dazu sch
-	reiben sie verschiedene Architektur-Elemente vor\, die sich schon in viele
-	n Projekten bewährt haben. In dieser Episode diskutieren wir SCS\, was di
-	esen Ansatz ausmacht und in welchen Situationen er besonders sinnvoll ist.
-	\n\nYouTube https://youtube.com/yVNQDZzqmh8\nTwitch https://www.twitch.tv/
+CREATED:20220907T094238Z
+DESCRIPTION:Für die Ausbildung von Architekt:innen gibt es viele unterschi
+	edliche Ansätze. In dieser Episode spricht Eberhard über seine persönli
+	chen Erfahrungen mit verschiedenen Architekt:innen-Ausbildungsprogrammen\,
+	 die er selbst gestaltet und durchgeführt hat. Dabei geht es vor allem da
+	rum\, wie Architekt:innen so ausgebildet werden können\, dass sie nicht n
+	ur theoretisches Wissen ansammeln\, sondern das Wissen auch anwenden könn
+	en und in der Praxis tatsächlich anwenden. Nur so können sie schließlic
+	h wirklich als Software-Architekt:innen erfolgreich arbeiten .\n\nYouTube 
+	https://www.youtube.com/watch?v=EvppM2WALJ0\nTwitch https://www.twitch.tv/
 	ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220902T130000
+DTEND;TZID="W. Europe Standard Time":20220909T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220902T120000
-LAST-MODIFIED:20220827T194213Z
-LOCATION:YouTube https://youtube.com/yVNQDZzqmh8 Twitch https://www.twitch.
-	tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20220909T120000
+LAST-MODIFIED:20220907T094238Z
+LOCATION:YouTube https://www.youtube.com/watch?v=EvppM2WALJ0  Twitch https:
+	//www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Der Self-contained-Syst
-	ems-Architekturansatz
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Wie Architekt:innen aus
+	bilden?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000F0FBEA3F26A7D801000000000000000
 	01000000032D80FF829B8244E8D59215417579760

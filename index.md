@@ -15,11 +15,20 @@ stellen.
  
 # Nächste Episode: Freitag, 9.9. 12:00 Wie Architekt:innen ausbilden?
 
+Für die Ausbildung von Architekt:innen gibt es viele unterschiedliche
+Ansätze. In dieser Episode spricht Eberhard über seine persönlichen
+Erfahrungen mit verschiedenen Architekt:innen-Ausbildungsprogrammen,
+die er selbst gestaltet und durchgeführt hat. Dabei geht es vor allem
+darum, wie Architekt:innen so ausgebildet werden können, dass sie
+nicht nur theoretisches Wissen ansammeln, sondern das Wissen auch
+anwenden können und in der Praxis tatsächlich anwenden. Nur so können
+sie schließlich wirklich als Software-Architekt:innen erfolgreich
+arbeiten .
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
