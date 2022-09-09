@@ -13,32 +13,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 9.9. 12:00 Wie Software-Architekt:innen ausbilden?
-
-Für die Ausbildung von Architekt:innen gibt es viele unterschiedliche
-Ansätze. In dieser Episode spricht Eberhard über seine persönlichen
-Erfahrungen mit verschiedenen Architekt:innen-Ausbildungsprogrammen,
-die er selbst gestaltet und durchgeführt hat. Dabei geht es vor allem
-darum, wie Architekt:innen so ausgebildet werden können, dass sie
-nicht nur theoretisches Wissen ansammeln, sondern das Wissen auch
-anwenden können und in der Praxis tatsächlich anwenden. Nur so können
-sie schließlich wirklich als Software-Architekt:innen erfolgreich
-arbeiten.
+# Nächste Episode: Freitag, 16.9. 12:00 Thema offen
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/EvppM2WALJ0"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
-</center>
+<!-- <center> -->
+<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
+<!-- src="https://www.youtube-nocookie.com/embed/EvppM2WALJ0" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" -->
+<!-- allowfullscreen></iframe> </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
