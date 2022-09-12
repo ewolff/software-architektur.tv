@@ -13,7 +13,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 16.9. 12:00 Thema offen
+# Nächste Episode: Freitag, 16.9. 12:00 Domain Prototyping: Iterative Entwicklung mit Domain-driven Design und User Experience mit Tobias Goeschel
+
+Gutes Design von Software-Systemen benötigt - ähnlich wie gutes
+Produktdesign - eine umfassende Kenntnis des Problemraums. Viel zu
+häufig starten wir aber mit den Technologien und Architekturen, die
+wir “eh brauchen” werden - schließlich kommt man wohl kaum ohne
+Datenbank oder Server aus. So treffen wir weitreichende Entscheidungen
+über Struktur und Technologiestacks zu einem Zeitpunkt, an dem wir
+noch viel zu wenig die Probleme wissen, die es zu lösen gilt.
+
+Domain Prototyping stellt eine Alternative dar: Eine inkrementelle,
+evolutionäre Herangehensweise an den Aufbau komplexer Systeme, die -
+ausgehend von der Fachdomäne - von innen nach außen organisches
+Wachstum anstrebt und für schnelles Feedback und Lernen optimiert
+ist - und zumindest am Anfang sogar auf Datenbank und Server
+verzichtet.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
