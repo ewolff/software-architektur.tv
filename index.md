@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 16.9. 12:00 Domain Prototyping: Iterative Entwicklung mit Domain-driven Design und User Experience mit Tobias Goeschel
+# Nächste Episode: Freitag, 16.9. 12:00 Domain Prototyping: Iterative Entwicklung mit Domain-driven Design & User Experience mit Tobias Goeschel
 
 Gutes Design von Software-Systemen benötigt - ähnlich wie gutes
 Produktdesign - eine umfassende Kenntnis des Problemraums. Viel zu
@@ -33,17 +33,17 @@ verzichtet.
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/EvppM2WALJ0" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div aclass="embed-container"> <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/wdggcdnq7T4"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe> </div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 

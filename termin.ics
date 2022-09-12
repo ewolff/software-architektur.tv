@@ -20,27 +20,31 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220907T094238Z
-DESCRIPTION:Für die Ausbildung von Architekt:innen gibt es viele unterschi
-	edliche Ansätze. In dieser Episode spricht Eberhard über seine persönli
-	chen Erfahrungen mit verschiedenen Architekt:innen-Ausbildungsprogrammen\,
-	 die er selbst gestaltet und durchgeführt hat. Dabei geht es vor allem da
-	rum\, wie Architekt:innen so ausgebildet werden können\, dass sie nicht n
-	ur theoretisches Wissen ansammeln\, sondern das Wissen auch anwenden könn
-	en und in der Praxis tatsächlich anwenden. Nur so können sie schließlic
-	h wirklich als Software-Architekt:innen erfolgreich arbeiten .\n\nYouTube 
-	https://www.youtube.com/watch?v=EvppM2WALJ0\nTwitch https://www.twitch.tv/
-	ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220909T130000
+CREATED:20220912T130819Z
+DESCRIPTION:Gutes Design von Software-Systemen benötigt - ähnlich wie gut
+	es Produktdesign - eine umfassende Kenntnis des Problemraums. Viel zu häu
+	fig starten wir aber mit den Technologien und Architekturen\, die wir “e
+	h brauchen” werden - schließlich kommt man wohl kaum ohne Datenbank ode
+	r Server aus. So treffen wir weitreichende Entscheidungen über Struktur u
+	nd Technologiestacks zu einem Zeitpunkt\, an dem wir noch viel zu wenig di
+	e Probleme wissen\, die es zu lösen gilt.\n\nDomain Prototyping stellt ei
+	ne Alternative dar: Eine inkrementelle\, evolutionäre Herangehensweise an
+	 den Aufbau komplexer Systeme\, die - ausgehend von der Fachdomäne - von 
+	innen nach außen organisches Wachstum anstrebt und für schnelles Feedbac
+	k und Lernen optimiert ist - und zumindest am Anfang sogar auf Datenbank u
+	nd Server verzichtet.\n\nYouTube https://www.youtube.com/watch?v=wdggcdnq7
+	T4\nTwitch https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20220916T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220909T120000
-LAST-MODIFIED:20220907T094238Z
-LOCATION:YouTube https://www.youtube.com/watch?v=EvppM2WALJ0  Twitch https:
+DTSTART;TZID="W. Europe Standard Time":20220916T120000
+LAST-MODIFIED:20220912T130819Z
+LOCATION:YouTube https://www.youtube.com/watch?v=wdggcdnq7T4  Twitch https:
 	//www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Wie Architekt:innen aus
-	bilden?
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Domain Prototyping: Ite
+	rative Entwicklung mit Domain-driven Design & User Experience mit Tobias G
+	oeschel
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000F0FBEA3F26A7D801000000000000000
 	01000000032D80FF829B8244E8D59215417579760
