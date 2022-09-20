@@ -15,11 +15,19 @@ stellen.
  
 # Nächste Episode: Freitag, 23.9. 12:00 HTTP mit Lucas Dohmen
 
+Seit Anbeginn basiert das Web auf HTTP. Auf den ersten Blick wirkt
+dieses Protokoll nur wie ein technisches Detail, aber tatsächlich
+stellt es einen integralen Bestandteil der Architektur des Webs dar –
+und damit ist es auch die Basis für die Architektur vieler
+Anwendungen. In dieser Episode wird Lucas Dohmen uns zeigen, warum
+HTTP auch für Architekt:innen so wichtig ist und was dieses Protokoll
+auszeichnet. Dabei geht er auch auf HTTP 2 und 3 sowie andere
+Protokolle wie Web Sockets ein.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 

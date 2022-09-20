@@ -20,31 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220912T130819Z
-DESCRIPTION:Gutes Design von Software-Systemen benötigt - ähnlich wie gut
-	es Produktdesign - eine umfassende Kenntnis des Problemraums. Viel zu häu
-	fig starten wir aber mit den Technologien und Architekturen\, die wir “e
-	h brauchen” werden - schließlich kommt man wohl kaum ohne Datenbank ode
-	r Server aus. So treffen wir weitreichende Entscheidungen über Struktur u
-	nd Technologiestacks zu einem Zeitpunkt\, an dem wir noch viel zu wenig di
-	e Probleme wissen\, die es zu lösen gilt.\n\nDomain Prototyping stellt ei
-	ne Alternative dar: Eine inkrementelle\, evolutionäre Herangehensweise an
-	 den Aufbau komplexer Systeme\, die - ausgehend von der Fachdomäne - von 
-	innen nach außen organisches Wachstum anstrebt und für schnelles Feedbac
-	k und Lernen optimiert ist - und zumindest am Anfang sogar auf Datenbank u
-	nd Server verzichtet.\n\nYouTube https://www.youtube.com/watch?v=wdggcdnq7
-	T4\nTwitch https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220916T130000
+CREATED:20220920T153049Z
+DESCRIPTION:Seit Anbeginn basiert das Web auf HTTP. Auf den ersten Blick wi
+	rkt dieses Protokoll nur wie ein technisches Detail\, aber tatsächlich st
+	ellt es einen integralen Bestandteil der Architektur des Webs dar – und 
+	damit ist es auch die Basis für die Architektur vieler Anwendungen. In di
+	eser Episode wird Lucas Dohmen uns zeigen\, warum HTTP auch für Architekt
+	:innen so wichtig ist und was dieses Protokoll auszeichnet. Dabei geht er 
+	auch auf HTTP 2 und 3 sowie andere Protokolle wie Web Sockets ein.\n\nYouT
+	ube https://www.youtube.com/watch?v=uZ4hcgZZNqY \nTwitch https://www.twitc
+	h.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20220923T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220916T120000
-LAST-MODIFIED:20220912T130819Z
-LOCATION:YouTube https://www.youtube.com/watch?v=wdggcdnq7T4  Twitch https:
+DTSTART;TZID="W. Europe Standard Time":20220923T120000
+LAST-MODIFIED:20220920T153049Z
+LOCATION:YouTube https://www.youtube.com/watch?v=uZ4hcgZZNqY  Twitch https:
 	//www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Domain Prototyping: Ite
-	rative Entwicklung mit Domain-driven Design & User Experience mit Tobias G
-	oeschel
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: HTTP mit Lucas Dohmen
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000F0FBEA3F26A7D801000000000000000
 	01000000032D80FF829B8244E8D59215417579760
