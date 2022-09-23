@@ -13,27 +13,32 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Episode: Freitag, 23.9. 12:00 HTTP mit Lucas Dohmen
+# Next Episode: Friday, September 30th Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht
 
-Seit Anbeginn basiert das Web auf HTTP. Auf den ersten Blick wirkt
-dieses Protokoll nur wie ein technisches Detail, aber tatsächlich
-stellt es einen integralen Bestandteil der Architektur des Webs dar –
-und damit ist es auch die Basis für die Architektur vieler
-Anwendungen. In dieser Episode wird Lucas Dohmen uns zeigen, warum
-HTTP auch für Architekt:innen so wichtig ist und was dieses Protokoll
-auszeichnet. Dabei geht er auch auf HTTP 2 und 3 sowie andere
-Protokolle wie Web Sockets ein.
+
+Are you already a 10-star expert in Vue.js or Flutter or TypeScript, or do you still struggle at level 2? And what did your company do for your advance? And why would you even care about care levels?
+
+While  companies are  great  at ensuring  the  company's success,  the
+development   of  people   is   often  not   properly  described   and
+implemented. Together  with some experts from  different companies, we
+started to formalize how to grow experts and knowledge in a culture of
+expert  work and  put  the  results in  a  [creative commons  licensed
+document](https://github.com/kommitment/engineering-excellency).    In
+this episode,  Johannes Mainusch, Robert Albrecht,  and Eberhard Wolff
+will talk about skills,  skill-levels, personal development paths, and
+salaries.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Add to calendar](appointment.ics) -->
-[Zu Kalendar hinzufügen](termin.ics)
+[Add to calendar](appointment.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
+
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/uZ4hcgZZNqY"
+src="https://www.youtube-nocookie.com/embed/fHklYOtgHvs"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>

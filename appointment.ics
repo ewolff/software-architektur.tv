@@ -20,26 +20,29 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220824T092506Z
-DESCRIPTION:Successful software often has a long lifespan - sometimes even 
-	decades. So longevity is an important property of software. But more often
-	 than not\, software becomes a mess in the long run with severe commercial
-	 consequences and then it frustrates everyone who touches it. In this epis
-	ode\, we discuss how to avoid these problems and how software can be long-
-	lasting with Samir Talwar. He is a developer at Hasura. Previously\, he ha
-	s been a trainer\, teacher\, and CTO - and he is running a hands-on worksh
-	op at Socrates conference about longevity.\n\nStream https://www.youtube.c
-	om/watch?v=udjF-G4zDCo\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20220826T130000
+CREATED:20220923T154439Z
+DESCRIPTION:Are you already a 10-star expert in Vue.js or Flutter or TypeSc
+	ript\, or do you still struggle at level 2? And what did your company do f
+	or your advance? And why would you even care about care levels?\n\nWhile c
+	ompanies are great at ensuring the company’s success\, the development o
+	f people is often not properly described and implemented. Together with so
+	me experts from different companies\, we started to formalize how to grow 
+	experts and knowledge in a culture of expert work and put the results in a
+	 creative commons licensed document https://github.com/kommitment/engineer
+	ing-excellency . In this episode\, Johannes Mainusch\, Robert Albrecht\, a
+	nd Eberhard Wolff will talk about skills\, skill-levels\, personal develop
+	ment paths\, and salaries.\n\nStream https://www.youtube.com/watch?v=fHklY
+	OtgHvs\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20220930T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220826T120000
-LAST-MODIFIED:20220824T092506Z
-LOCATION:Stream https://www.youtube.com/watch?v=udjF-G4zDCo https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20220930T120000
+LAST-MODIFIED:20220923T154439Z
+LOCATION:Stream https://www.youtube.com/watch?v=fHklYOtgHvs https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream:  Samir Talwar: Longevit
-	y - live from SoCraTes Conference
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Encouraging Engineering
+	 Excellence with Johannes Mainusch and Robert Albrecht
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
