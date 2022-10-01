@@ -13,24 +13,11 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Next Episode: Friday, September 30th Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht
-
-
-Are you already a 10-star expert in Vue.js or Flutter or TypeScript, or do you still struggle at level 2? And what did your company do for your advance? And why would you even care about care levels?
-
-While  companies are  great  at ensuring  the  company's success,  the
-development   of  people   is   often  not   properly  described   and
-implemented. Together  with some experts from  different companies, we
-started to formalize how to grow experts and knowledge in a culture of
-expert  work and  put  the  results in  a  [creative commons  licensed
-document](https://github.com/kommitment/engineering-excellency).    In
-this episode,  Johannes Mainusch, Robert Albrecht,  and Eberhard Wolff
-will talk about skills,  skill-levels, personal development paths, and
-salaries.
+# Next Episode: Friday, October 7th Non-linear Thinking with Diana Montalion
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Add to calendar](appointment.ics)
+<!-- [Add to calendar](appointment.ics) -->
 <!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
@@ -38,7 +25,7 @@ salaries.
 <center>
 
 <div aclass="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/flGyqKRgpVA"
+src="https://www.youtube-nocookie.com/embed/pOvbpuv5W1A"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe> </div>
