@@ -24,11 +24,11 @@ stellen.
 
 <center>
 
-<div aclass="embed-container"> <iframe width="560" height="315"
+<div class="embed-container"> <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/pOvbpuv5W1A"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe> </div>
+encrypted-media; gyroscope; picture-in-picture fullscreen"
+></iframe> </div>
 </center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
