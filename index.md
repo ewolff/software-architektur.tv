@@ -15,9 +15,16 @@ stellen.
  
 # Next Episode: Friday, October 7th Non-linear Thinking with Diana Montalion
 
+We are used to linear thinking - but really nonlinear thinking and
+systems thinking is what helps in a lot of modern challenges around
+software architecture. Diana Montalion is an expert on these subjects
+and applies them to software architecture regularly. She will tell us
+how nonlinear thinking helps with software architecture and why it is
+important.
+
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-<!-- [Add to calendar](appointment.ics) -->
+[Add to calendar](appointment.ics)
 <!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
