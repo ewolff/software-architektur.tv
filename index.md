@@ -15,13 +15,13 @@ stellen.
  
 # Nächste Folge: Freitag 14.10. 12:00 Was ist Documentation as Code?
 
-Falk wird beim Software Architecture Gathering den Vortrag "How to
-Document and Communicate Software Achitectures these Days" halten. In
-dieser Episode unterhalten sich Falk und Lisa über Dokumentation, wie
-wichtig sie ist und wie wir sie am einfachsten in die tägliche Arbeit
-des Entwicklungsteams integrieren können. Außerdem erfahrt ihr, wie
-euch dokumentieren mehr Spaß machen und wieder leichter von der Hand
-gehen wird.
+Falk Sippach wird beim Software Architecture Gathering den Vortrag
+"How to Document and Communicate Software Achitectures these Days"
+halten. In dieser Episode unterhalten sich Falk Sippach und Lisa
+Moritz über Dokumentation, wie wichtig sie ist und wie wir sie am
+einfachsten in die tägliche Arbeit des Entwicklungsteams integrieren
+können. Außerdem erfahrt ihr, wie euch dokumentieren mehr Spaß machen
+und wieder leichter von der Hand gehen wird.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
