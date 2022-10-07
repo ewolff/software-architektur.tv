@@ -13,26 +13,27 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Next Episode: Friday, October 7th Non-linear Thinking with Diana Montalion
+# Nächste Folge: Freitag 14.10. 12:00 Was ist Documentation as Code?
 
-We are used to linear thinking - but really nonlinear thinking and
-systems thinking is what helps in a lot of modern challenges around
-software architecture. Diana Montalion is an expert on these subjects
-and applies them to software architecture regularly. She will tell us
-how nonlinear thinking helps with software architecture and why it is
-important.
+Falk wird beim Software Architecture Gathering den Vortrag "How to
+Document and Communicate Software Achitectures these Days" halten. In
+dieser Episode unterhalten sich Falk und Lisa über Dokumentation, wie
+wichtig sie ist und wie wir sie am einfachsten in die tägliche Arbeit
+des Entwicklungsteams integrieren können. Außerdem erfahrt ihr, wie
+euch dokumentieren mehr Spaß machen und wieder leichter von der Hand
+gehen wird.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Add to calendar](appointment.ics)
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+<!-- [Add to calendar](appointment.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
 <center>
 
 <div class="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/pOvbpuv5W1A"
+src="https://www.youtube-nocookie.com/embed/7cIQfjDYK04"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture fullscreen"
 ></iframe> </div>

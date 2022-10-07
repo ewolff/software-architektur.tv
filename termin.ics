@@ -20,28 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20220920T153049Z
-DESCRIPTION:Seit Anbeginn basiert das Web auf HTTP. Auf den ersten Blick wi
-	rkt dieses Protokoll nur wie ein technisches Detail\, aber tatsächlich st
-	ellt es einen integralen Bestandteil der Architektur des Webs dar – und 
-	damit ist es auch die Basis für die Architektur vieler Anwendungen. In di
-	eser Episode wird Lucas Dohmen uns zeigen\, warum HTTP auch für Architekt
-	:innen so wichtig ist und was dieses Protokoll auszeichnet. Dabei geht er 
-	auch auf HTTP 2 und 3 sowie andere Protokolle wie Web Sockets ein.\n\nYouT
-	ube https://www.youtube.com/watch?v=uZ4hcgZZNqY \nTwitch https://www.twitc
-	h.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20220923T130000
+CREATED:20221007T151609Z
+DESCRIPTION:Falk Sippach wird beim Software Architecture Gathering den Vort
+	rag “How to Document and Communicate Software Achitectures these Days”
+	 halten. In dieser Episode unterhalten sich Falk und Lisa über Dokumentat
+	ion\, wie wichtig sie ist und wie wir sie am einfachsten in die tägliche 
+	Arbeit des Entwicklungsteams integrieren können. Außerdem erfahrt ihr\, 
+	wie euch dokumentieren mehr Spaß machen und wieder leichter von der Hand 
+	gehen wird.\n\nStream\nhttps://www.youtube.com/watch?v=7cIQfjDYK04\nhttps:
+	//www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20221007T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20220923T120000
-LAST-MODIFIED:20220920T153049Z
-LOCATION:YouTube https://www.youtube.com/watch?v=uZ4hcgZZNqY  Twitch https:
-	//www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20221007T120000
+LAST-MODIFIED:20221007T151609Z
+LOCATION:Stream https://www.youtube.com/watch?v=7cIQfjDYK04 https://www.twi
+	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: HTTP mit Lucas Dohmen
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Was ist Documentation a
+	s Code? mit Falk Sippach 
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000F0FBEA3F26A7D801000000000000000
-	01000000032D80FF829B8244E8D59215417579760
+UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
+	010000000ADB053CCF7A86A4394D0D7963E2F526E
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE
