@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 14.10. 12:00 Was ist Documentation as Code?
+# Nächste Folge: Freitag 14.10. 12:00 Was ist Documentation as Code? mit Falk Sippach
 
 Falk Sippach wird beim Software Architecture Gathering den Vortrag
 "How to Document and Communicate Software Achitectures these Days"
