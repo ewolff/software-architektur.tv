@@ -13,27 +13,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 14.10. 12:00 Was ist Documentation as Code? mit Falk Sippach
+# Nächste Folge: Freitag 21.10. 12:00 Christoph Iserlohn und Lisa Moritz zu Architektur und Security
 
-Falk Sippach wird beim Software Architecture Gathering den Vortrag
-"How to Document and Communicate Software Achitectures these Days"
-halten. In dieser Episode unterhalten sich Falk Sippach und Lisa
-Moritz über Dokumentation, wie wichtig sie ist und wie wir sie am
-einfachsten in die tägliche Arbeit des Entwicklungsteams integrieren
-können. Außerdem erfahrt ihr, wie euch dokumentieren mehr Spaß machen
-und wieder leichter von der Hand gehen wird.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zu Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 
 <div class="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/7cIQfjDYK04"
+src="https://www.youtube-nocookie.com/embed/SA9TEltoedc"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture fullscreen"
 ></iframe> </div>
