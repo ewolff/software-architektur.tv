@@ -15,11 +15,18 @@ stellen.
  
 # Nächste Folge: Freitag 21.10. 12:00 Christoph Iserlohn und Lisa Moritz zu Architektur und Security
 
+Am Freitag ist Christoph Iserlohn zu Gast bei Softwarearchitektur im
+Stream und spricht mit Lisa über das Thema Security aus Sicht der
+Software-Architektur. Vor über einem Jahr war Christoph zuletzt mit
+diesem Thema bei uns, doch seitdem hat sich viel getan und in diesem
+Bereich musssollte man stets Up-to-Date bleiben. Falls ihr Fragen
+habt, stellt sie gerne, wir freuen uns auf euch.
+
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zu Kalendar hinzufügen](termin.ics) -->
+[Zu Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 

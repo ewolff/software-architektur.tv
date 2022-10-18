@@ -20,25 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20221007T151609Z
-DESCRIPTION:Falk Sippach wird beim Software Architecture Gathering den Vort
-	rag “How to Document and Communicate Software Achitectures these Days”
-	 halten. In dieser Episode unterhalten sich Falk und Lisa über Dokumentat
-	ion\, wie wichtig sie ist und wie wir sie am einfachsten in die tägliche 
-	Arbeit des Entwicklungsteams integrieren können. Außerdem erfahrt ihr\, 
-	wie euch dokumentieren mehr Spaß machen und wieder leichter von der Hand 
-	gehen wird.\n\nStream\nhttps://www.youtube.com/watch?v=7cIQfjDYK04\nhttps:
-	//www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20221007T130000
+CREATED:20221018T153913Z
+DESCRIPTION:Am Freitag ist Christoph Iserlohn zu Gast bei Softwarearchitekt
+	ur im Stream und spricht mit Lisa über das Thema Security aus Sicht der S
+	oftware-Architektur. Vor über einem Jahr war Christoph zuletzt mit diesem
+	 Thema bei uns\, doch seitdem hat sich viel getan und in diesem Bereich mu
+	ss man stets Up-to-Date bleiben. Falls ihr Fragen habt\, stellt sie gerne\
+	, wir freuen uns auf euch.\n\nStream\nhttps://www.youtube.com/watch?v=SA9T
+	Eltoedc\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20221021T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20221007T120000
-LAST-MODIFIED:20221007T151609Z
-LOCATION:Stream https://www.youtube.com/watch?v=7cIQfjDYK04 https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20221021T120000
+LAST-MODIFIED:20221018T153913Z
+LOCATION:Stream https://www.youtube.com/watch?v=SA9TEltoedc https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Was ist Documentation a
-	s Code? mit Falk Sippach 
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Christoph Iserlohn und 
+	Lisa Moritz zu Architektur und Security
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
