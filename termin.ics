@@ -20,24 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20221018T153913Z
-DESCRIPTION:Am Freitag ist Christoph Iserlohn zu Gast bei Softwarearchitekt
-	ur im Stream und spricht mit Lisa über das Thema Security aus Sicht der S
-	oftware-Architektur. Vor über einem Jahr war Christoph zuletzt mit diesem
-	 Thema bei uns\, doch seitdem hat sich viel getan und in diesem Bereich mu
-	ss man stets Up-to-Date bleiben. Falls ihr Fragen habt\, stellt sie gerne\
-	, wir freuen uns auf euch.\n\nStream\nhttps://www.youtube.com/watch?v=SA9T
-	Eltoedc\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20221021T130000
+CREATED:20221021T161345Z
+DESCRIPTION:Architektur steht für das stabile\, schwer zu ändernde. Also 
+	sollte eine gute Software-Architektur scheinbar zukunftssicher sein - schl
+	ießlich ist es kein gutes Zeichen\, wenn man sie ständig ändern muss un
+	d das ist ja eben auch schwierig. In dieser Episode diskutieren wir\, waru
+	m dieses Ziel nicht nur schwer erreichbar\, sondern doch nicht einmal sond
+	erlich sinnvoll ist.\n\nStream\nhttps://www.youtube.com/watch?v=x1s0_QwGOM
+	Q\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20221028T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20221021T120000
-LAST-MODIFIED:20221018T153913Z
-LOCATION:Stream https://www.youtube.com/watch?v=SA9TEltoedc https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20221028T120000
+LAST-MODIFIED:20221021T161345Z
+LOCATION:Stream https://www.youtube.com/watch?v=x1s0_QwGOMQ https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Christoph Iserlohn und 
-	Lisa Moritz zu Architektur und Security
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Zukunftssichere Archite
+	kturen: Keine gute Idee?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

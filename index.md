@@ -13,15 +13,14 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 21.10. 12:00 Christoph Iserlohn und Lisa Moritz zu Architektur und Security
+# Nächste Folge: Freitag 28.10. 12:00 Zukunftssichere Architekturen: Keine gute Idee?
 
-Am Freitag ist Christoph Iserlohn zu Gast bei Softwarearchitektur im
-Stream und spricht mit Lisa über das Thema Security aus Sicht der
-Software-Architektur. Vor über einem Jahr war Christoph zuletzt mit
-diesem Thema bei uns, doch seitdem hat sich viel getan und in diesem
-Bereich musssollte man stets Up-to-Date bleiben. Falls ihr Fragen
-habt, stellt sie gerne, wir freuen uns auf euch.
-
+Architektur steht für das stabile, schwer zu ändernde. Also sollte
+eine gute Software-Architektur scheinbar zukunftssicher sein -
+schließlich ist es kein gutes Zeichen, wenn man sie ständig ändern
+muss und das ist ja eben auch schwierig. In dieser Episode diskutieren
+wir, warum dieses Ziel nicht nur schwer erreichbar, sondern doch nicht
+einmal sonderlich sinnvoll ist.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
