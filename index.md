@@ -13,26 +13,19 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 28.10. 12:00 Zukunftssichere Architekturen: Keine gute Idee?
-
-Architektur steht für das stabile, schwer zu ändernde. Also sollte
-eine gute Software-Architektur scheinbar zukunftssicher sein -
-schließlich ist es kein gutes Zeichen, wenn man sie ständig ändern
-muss und das ist ja eben auch schwierig. In dieser Episode diskutieren
-wir, warum dieses Ziel nicht nur schwer erreichbar, sondern doch nicht
-einmal sonderlich sinnvoll ist.
+# Nächste Folge: Freitag 24.11. 12:00 Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zu Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 
 <div class="embed-container"> <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/x1s0_QwGOMQ"
+src="https://www.youtube-nocookie.com/embed/Oc4X7AZpJgA"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture fullscreen"
 ></iframe> </div>
