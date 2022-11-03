@@ -80,6 +80,12 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
+Der Slack-Workspace is eine weitere Möglichkeit für Fragen und
+Interaktionen. [Link zur Registrierung](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1is9gyson-a2bb_9TsgKu_lLK68SXAsg)
+
+The Slack workspace is another opportunity to ask questions and
+interact. [Link to registration](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1is9gyson-a2bb_9TsgKu_lLK68SXAsg)
+
 
 # Sketchnote-Buch
 
