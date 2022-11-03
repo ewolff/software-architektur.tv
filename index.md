@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 24.11. 12:00 Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens
+# Nächste Folge: Freitag 4.11. 12:00 Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens
 
 Auftragstaktik ist ein Konzept im Militär: Man gibt nur Ziele vor. Wie
 das Ziel erreicht wird, bleibt der Führungskraft und ihren
