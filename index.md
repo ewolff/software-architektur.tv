@@ -13,25 +13,12 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 4.11. 12:00 Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens
-
-Auftragstaktik ist ein Konzept im Militär: Man gibt nur Ziele vor. Wie
-das Ziel erreicht wird, bleibt der Führungskraft und ihren
-Untergebenen überlassen. Sie sind somit frei in den Entscheidungen
-über die Art der Durch- und Ausführung, so dass wesentliche Teile der
-Verantwortung delegiert werden. In der agilen Software-Entwicklung
-werden ebenfalls Zuständigkeiten an weitgehend autonome Teams
-delegiert. In dieser Episode diskutieren wir mit Oberst Sönke
-Marahrens, was wie die Auftragstaktik funktioniert und was wir von ihr
-für Software-Entwicklung lernen können. Er ist COI Director bei Hybrid
-CoE. Neben einem Diplom in Informatik hat er einen Master-Abschluss
-des Royal Military College in Kingston, Kanada, und einen weiteren der
-Universität der Bundeswehr in Hamburg.
+# Nächste Folge: Freitag 11.11. 12:00 Thema noch offen
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
