@@ -13,24 +13,29 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: offen
+# Nächste Folge: Freitag 18.11.2022 12:00 Architektur-Migration (nicht nur) zu Microservices 
 
+Die Architekturen vieler Systeme sind suboptimal. Was liegt näher, als
+das System in eine neue Architektur zu migrieren? Tatsächlich stellt
+die Beratung dazu einen Schwerpunkt meiner Tätigkeit dar. In dieser
+Episode diskutieren wir daher über das typische Vorgehen für solche
+Migrationen und welche Herausforderungen dabei auftreten.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/in6qdwIzEgw" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- ></iframe> </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/zFzNe2MTg6Y"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
