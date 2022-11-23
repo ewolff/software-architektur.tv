@@ -20,23 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20221116T144039Z
-DESCRIPTION:Die Architekturen vieler Systeme sind suboptimal. Was liegt nä
-	her\, als das System in eine neue Architektur zu migrieren? Tatsächlich s
-	tellt die Beratung dazu einen Schwerpunkt meiner Tätigkeit dar. In dieser
-	 Episode diskutieren wir daher über das typische Vorgehen für solche Mig
-	rationen und welche Herausforderungen dabei auftreten.\n\nStream\nhttps://
-	www.youtube.com/watch?v=zFzNe2MTg6Y\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20221118T130000
+CREATED:20221123T135049Z
+DESCRIPTION:Continuous Delivery ist scheinbar ganz einfach: Software öfter
+	 zu deployen ist doch eigentlich ein technisches Problem und sollte mit mo
+	dernen Technologien mittlerweile relativ einfach lösbar sein. Aber was we
+	nn Continuous Delivery in Wirklichkeit ein Kultur-Problem ist? In dieser E
+	pisode gehen wir dieser Frage nach\, um so mehr darüber zu lernen\, was e
+	igentlich die Herausforderung ist und wie man sie lösen kann.\n\nStream\n
+	https://www.youtube.com/watch?v=EzhWlZ2jyzk\nhttps://www.twitch.tv/ebrwolf
+	f\n
+DTEND;TZID="W. Europe Standard Time":20221125T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20221118T120000
-LAST-MODIFIED:20221116T144039Z
-LOCATION:Stream https://www.youtube.com/watch?v=zFzNe2MTg6Y https://www.twi
-	tch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20221125T120000
+LAST-MODIFIED:20221123T135049Z
+LOCATION:Stream https://www.youtube.com/watch?v=EzhWlZ2jyzk  https://www.tw
+	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Architektur-Migration (
-	nicht nur) zu Microservices 
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Continuous Delivery - E
+	ine Kultur?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

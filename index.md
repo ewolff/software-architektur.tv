@@ -13,23 +13,31 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 25.11.2022 12:00 Thema offen
+# Nächste Folge: Freitag 25.11.2022 12:00 Continuous Delivery - Eine Kultur?
+
+Continuous Delivery ist scheinbar ganz einfach: Software öfter zu
+deployen ist doch eigentlich ein technisches Problem und sollte mit
+modernen Technologien mittlerweile relativ einfach lösbar sein. Aber
+was wenn Continuous Delivery in Wirklichkeit ein Kultur-Problem ist?
+In dieser Episode gehen wir dieser Frage nach, um so mehr darüber zu
+lernen, was eigentlich die Herausforderung ist und wie man sie lösen
+kann.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/zFzNe2MTg6Y" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/EzhWlZ2jyzk"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
