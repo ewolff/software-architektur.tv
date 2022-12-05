@@ -20,27 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20221130T152025Z
-DESCRIPTION:Langsam neigt sich das Jahr dem Ende zu. In dieser Episode disk
-	utieren Lisa und Eberhard\, was 2022 im Stream passiert ist und was sie da
-	bei gelernt haben. Dabei lassen sie verschiedene Episoden Revue passieren 
-	und geben Tipps\, welche Episoden man sich angesehen oder als Podcast ange
-	hört haben sollte. Und natürlich sind wir auch darauf gespannt\, welche 
-	Folgen ihr besonders gut fandet - und welche Fragen vielleicht mal eine ei
-	gene Episode wert wären.\n\nStream\nhttps://www.youtube.com/watch?v=8N2AO
-	H2BND8\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20221202T130000
+CREATED:20221205T173858Z
+DESCRIPTION:Dieses Mal ist Ralf D. Müller bei uns im Stream zu Gast. Lisa 
+	und Ralf werden sich über Architekturdiagramme und die docToolchain unter
+	halten. Dabei sprechen sie auch über Tools zur Erstellung wartbarer Archi
+	tekturdiagramme und die Versionierung dieser. Sie dabei natürlich auch au
+	f die Fragen der Zuschauer:innen ein.\n\nStream\nhttps://www.youtube.com/w
+	atch?v=U5e7F3LnHvY\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20221216T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20221202T120000
-LAST-MODIFIED:20221130T152025Z
-LOCATION:Stream https://www.youtube.com/watch?v=8N2AOH2BND8  https://www.tw
+DTSTART;TZID="W. Europe Standard Time":20221216T120000
+LAST-MODIFIED:20221205T173858Z
+LOCATION:Stream https://www.youtube.com/watch?v=U5e7F3LnHvY  https://www.tw
 	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Jahresrückblick 2022
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Mehr als Pfeile und Kä
+	sten: Architekturdiagramme mit Ralf D. Müller und Lisa Moritz
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR
