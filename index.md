@@ -13,30 +13,25 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 16.12.2022 12:00 Mehr als Pfeile und Kästen: Architekturdiagramme mit Ralf D. Müller und Lisa Moritz
+# Nächste Folge: Freitag 13.1.2022 12:00 Elfenbeinturm mit Anja Kammer
 
-Dieses Mal ist Ralf D. Müller bei uns im Stream zu Gast. Lisa und
-Ralf werden sich über Architekturdiagramme und die docToolchain
-unterhalten. Dabei sprechen sie auch über Tools zur Erstellung
-wartbarer Architekturdiagramme und die Versionierung dieser. Sie
-gehen dabei natürlich auch auf die Fragen der Zuschauer:innen ein.
 
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/U5e7F3LnHvY"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/U5e7F3LnHvY" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 <!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
 
