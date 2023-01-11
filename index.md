@@ -13,40 +13,32 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 13.1.2022 12:00 Elfenbeinturm mit Anja Kammer
+# Nächste Folge: Freitag 13.1.2022 12:00 Wie reißt man den Elfenbeinturm ein? mit Anja Kammer
 
-
+Oft leben Architekt:innen in einem Elfenbeinturm: Sie treffen
+Entscheidungen, die ignoriert werden, und wissen eigentlich auch gar
+nicht so genau, was in den Projekten genau vor sich geht. Das ist
+unbefriedigend und kann für das Projekt sogar sehr schädlich sein. In
+dieser Episode diskutiert Anja Kammer von der INNOQ zusammen mit
+Eberhard Wolff beispielhafte Szenarien, bei denen Elfenbeintürme ein
+Problem darstellen, und stellen vor, wie man diese Türme einreist und
+die Zusammenarbeit optimiert.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/U5e7F3LnHvY" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
-
-<!-- In diesem Stream sieht und hört man Eberhard und Aminata. -->
-
-<!-- ## Live Sketchnoting -->
-
-<!-- <center> -->
-<!-- <div aclass="embed-container"> <iframe width="560" height="315" -->
-<!-- src="https://www.youtube-nocookie.com/embed/ORKaR3LqkGg" -->
-<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- encrypted-media; gyroscope; picture-in-picture" -->
-<!-- allowfullscreen></iframe> </div> -->
-<!-- </center> -->
-
-<!-- In diesem Stream mal Lisa Sketchnotes und man hört Eberhard und -->
-<!-- Adminata dazu. -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/0mX3trZWux0"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 # Fragen & Diskussion  / Question & Discussion
 

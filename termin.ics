@@ -20,23 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20221205T173858Z
-DESCRIPTION:Dieses Mal ist Ralf D. Müller bei uns im Stream zu Gast. Lisa 
-	und Ralf werden sich über Architekturdiagramme und die docToolchain unter
-	halten. Dabei sprechen sie auch über Tools zur Erstellung wartbarer Archi
-	tekturdiagramme und die Versionierung dieser. Sie dabei natürlich auch au
-	f die Fragen der Zuschauer:innen ein.\n\nStream\nhttps://www.youtube.com/w
-	atch?v=U5e7F3LnHvY\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20221216T130000
+CREATED:20230111T132341Z
+DESCRIPTION:Oft leben Architekt:innen in einem Elfenbeinturm: Sie treffen E
+	ntscheidungen\, die ignoriert werden\, und wissen eigentlich auch gar nich
+	t so genau\, was in den Projekten genau vor sich geht. Das ist unbefriedig
+	end und kann für das Projekt sogar sehr schädlich sein. In dieser Episod
+	e diskutiert Anja Kammer von der INNOQ zusammen mit Eberhard Wolff beispie
+	lhafte Szenarien\, bei denen Elfenbeintürme ein Problem darstellen\, und 
+	stellen vor\, wie man diese Türme einreist und die Zusammenarbeit optimie
+	rt.\n\nStream\nhttps://www.youtube.com/watch?v=0mX3trZWux0\nhttps://www.tw
+	itch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230113T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20221216T120000
-LAST-MODIFIED:20221205T173858Z
-LOCATION:Stream https://www.youtube.com/watch?v=U5e7F3LnHvY  https://www.tw
+DTSTART;TZID="W. Europe Standard Time":20230113T120000
+LAST-MODIFIED:20230111T132341Z
+LOCATION:Stream https://www.youtube.com/watch?v=0mX3trZWux0  https://www.tw
 	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Mehr als Pfeile und Kä
-	sten: Architekturdiagramme mit Ralf D. Müller und Lisa Moritz
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Wie reißt man den Elfe
+	nbeinturm ein? mit Anja Kammer
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
