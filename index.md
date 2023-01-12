@@ -19,7 +19,7 @@ Oft leben Architekt:innen in einem Elfenbeinturm: Sie treffen
 Entscheidungen, die ignoriert werden, und wissen eigentlich auch gar
 nicht so genau, was in den Projekten genau vor sich geht. Das ist
 unbefriedigend und kann für das Projekt sogar sehr schädlich sein. In
-dieser Episode diskutiert Anja Kammer von der INNOQ zusammen mit
+dieser Episode diskutiert Anja Kammer von INNOQ zusammen mit
 Eberhard Wolff beispielhafte Szenarien, bei denen Elfenbeintürme ein
 Problem darstellen, und stellen vor, wie man diese Türme einreist und
 die Zusammenarbeit optimiert.
