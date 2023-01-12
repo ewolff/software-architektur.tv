@@ -42,12 +42,18 @@ die Zusammenarbeit optimiert.
 
 # Fragen & Diskussion  / Question & Discussion
 
-Fragen und Diskussion gerne im Twitch-Chat oder YouTube-Chat, per
+Der Slack-Workspace ist eine Möglichkeit für Fragen und
+Interaktionen. [Link zur Registrierung](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA)
+Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
+YouTube-Chat, per
 [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
-Questions and discussion are welcome in the Twitch chat or the
+The Slack workspace is an opportunity to ask questions and
+interact. [Link to
+registration](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA) 
+Questions and discussion are also welcome in the Twitch chat or the
 YouTube chat, via [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff), or
 anonymously here:
@@ -60,13 +66,6 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
-
-Der Slack-Workspace is eine weitere Möglichkeit für Fragen und
-Interaktionen. [Link zur Registrierung](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1kwfdx8oi-OR20snJdfS~tnOHrLP6duQ)
-
-The Slack workspace is another opportunity to ask questions and
-interact. [Link to registration](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1kwfdx8oi-OR20snJdfS~tnOHrLP6duQ)
-
 
 # Sketchnote-Buch
 
