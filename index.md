@@ -41,15 +41,15 @@ Ansätze.
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA) ist eine Möglichkeit für Fragen und
-Interaktionen. 
+Interaktionen.
 Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
 YouTube-Chat, per
 [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
-The [Slack workspace]((https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA) is an opportunity to ask questions and
-interact. 
+The [Slack workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA)  is an opportunity to ask questions and
+interact.
 Questions and discussion are also welcome in the Twitch chat or the
 YouTube chat, via [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff), or
