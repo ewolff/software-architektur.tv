@@ -13,16 +13,14 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 13.1.2022 12:00 Wie reißt man den Elfenbeinturm ein? mit Anja Kammer
+# Nächste Folge: Freitag 20.1.2022 12:00 Extreme Programming - eine Retrospektive
 
-Oft leben Architekt:innen in einem Elfenbeinturm: Sie treffen
-Entscheidungen, die ignoriert werden, und wissen eigentlich auch gar
-nicht so genau, was in den Projekten genau vor sich geht. Das ist
-unbefriedigend und kann für das Projekt sogar sehr schädlich sein. In
-dieser Episode diskutiert Anja Kammer von INNOQ zusammen mit
-Eberhard Wolff beispielhafte Szenarien, bei denen Elfenbeintürme ein
-Problem darstellen, und stellen vor, wie man diese Türme einreist und
-die Zusammenarbeit optimiert.
+Ca. 1995 begann das Chrysler-C3-Projekt. Es wurde als erstes Projekt
+nach dem Extreme-Programming-Paradigma umgesetzt. In dieser Episode
+sehen wir uns die Techniken des Extreme Programmings (XP) an und
+beleuchten XP kritisch. Gleichzeitig betrachten wir den enormen
+Einfluss von XP auf agile Software-Entwicklung und die heutigen
+Ansätze.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
@@ -33,7 +31,7 @@ die Zusammenarbeit optimiert.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/0mX3trZWux0"
+	src="https://www.youtube-nocookie.com/embed/WMql4zcUZKc"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
@@ -42,17 +40,16 @@ die Zusammenarbeit optimiert.
 
 # Fragen & Diskussion  / Question & Discussion
 
-Der Slack-Workspace ist eine Möglichkeit für Fragen und
-Interaktionen. [Link zur Registrierung](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA)
+Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA) ist eine Möglichkeit für Fragen und
+Interaktionen. 
 Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
 YouTube-Chat, per
 [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
-The Slack workspace is an opportunity to ask questions and
-interact. [Link to
-registration](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA) 
+The [Slack workspace]((https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1mwzecmtj-2YVoH7T028LreWqHMgi_QA) is an opportunity to ask questions and
+interact. 
 Questions and discussion are also welcome in the Twitch chat or the
 YouTube chat, via [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff), or
