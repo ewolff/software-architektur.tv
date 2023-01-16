@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 20.1.2022 12:00 Extreme Programming - eine Retrospektive
+# Nächste Folge: Freitag 20.1.2022 12:00 Extreme Programming (XP) - eine Retrospektive
 
 1995 begann das Chrysler-C3-Projekt. Es wurde als erstes Projekt nach
 dem Extreme-Programming-Paradigma (XP) umgesetzt - einem radikalen
