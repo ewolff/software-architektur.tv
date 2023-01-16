@@ -15,12 +15,12 @@ stellen.
  
 # Nächste Folge: Freitag 20.1.2022 12:00 Extreme Programming - eine Retrospektive
 
-Ca. 1995 begann das Chrysler-C3-Projekt. Es wurde als erstes Projekt
-nach dem Extreme-Programming-Paradigma umgesetzt. In dieser Episode
-sehen wir uns die Techniken des Extreme Programmings (XP) an und
-beleuchten XP kritisch. Gleichzeitig betrachten wir den enormen
-Einfluss von XP auf agile Software-Entwicklung und die heutigen
-Ansätze.
+1995 begann das Chrysler-C3-Projekt. Es wurde als erstes Projekt nach
+dem Extreme-Programming-Paradigma (XP) umgesetzt - einem radikalen
+Ansatz, der eine wichtige Rolle für Agilität gespielt hat. In dieser
+Episode sehen wir uns die Techniken des XP an und beleuchten XP
+kritisch. Gleichzeitig betrachten wir den enormen Einfluss von XP auf
+agile Software-Entwicklung und die heutigen Ansätze.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
