@@ -13,30 +13,24 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 20.1.2022 12:00 Extreme Programming (XP) - eine Retrospektive
+# Nächste Folge: Freitag 27.1.2022 12:00 Thema noch offen
 
-1995 begann das Chrysler-C3-Projekt. Es wurde als erstes Projekt nach
-dem Extreme-Programming-Paradigma (XP) umgesetzt - einem radikalen
-Ansatz, der eine wichtige Rolle für Agilität gespielt hat. In dieser
-Episode sehen wir uns die Techniken des XP an und beleuchten XP
-kritisch. Gleichzeitig betrachten wir den enormen Einfluss von XP auf
-agile Software-Entwicklung und die heutigen Ansätze.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/WMql4zcUZKc"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/WMql4zcUZKc" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion  / Question & Discussion
 
