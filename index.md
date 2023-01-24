@@ -13,24 +13,31 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 27.1.2022 12:00 Thema noch offen
+# Nächste Folge: Freitag 27.1.2022 12:00 Das Strangler Fig Pattern 
+
+Das Strangler Fig Pattern ist vermutlich der bekannteste Ansatz, um
+ein Legacy System abzulösen - beispielsweise mit einer neuen
+Architektur. In dieser Episode wollen wir das Pattern näher
+betrachten. Dabei geht es vor allem darum, wie man es konkrete
+einsetzen kann und was dabei zu beachten ist. Und außerdem lernen wir,
+was eine Würgefeige ist - der Namensgeber des Patterns.
 
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/WMql4zcUZKc" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/QkIdWnwFuqo"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 # Fragen & Diskussion  / Question & Discussion
 
