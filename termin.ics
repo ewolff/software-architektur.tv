@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230124T165528Z
-DESCRIPTION:Das Strangler Fig Pattern ist vermutlich der bekannteste Ansatz
-	\, um ein Legacy System abzulösen - beispielsweise mit einer neuen Archit
-	ektur. In dieser Episode wollen wir das Pattern näher betrachten. Dabei g
-	eht es vor allem darum\, wie man es konkrete einsetzen kann und was dabei 
-	zu beachten ist. Und außerdem lernen wir\, was eine Würgefeige ist - der
-	 Namensgeber des Patterns.\nStream\nhttps://www.youtube.com/watch?v=QkIdWn
-	wFuqo\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230127T130000
+CREATED:20230131T100057Z
+DESCRIPTION:Bei dieser Episode ist Falk Hoppe zu Gast bei Softwarearchitekt
+	ur im Stream. Falk und Lisa unterhalten sich über verschiedene Muster zur
+	 Frontendintegration im Web und warum es überhaupt manchmal notwendig ist
+	\, verschiedene Web-Frontends zu integrieren. Bei diesem Erfahrungsaustaus
+	ch gehen sie außerdem auf die Vor- und Nachteile einzelner Muster ein und
+	 besprechen\, worauf man bei der Wahl eines Musters achten sollte.\nStream
+	\nhttps://www.youtube.com/watch?v=cPGVqvwnWKw\nhttps://www.twitch.tv/ebrwo
+	lff\n
+DTEND;TZID="W. Europe Standard Time":20230203T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230127T120000
-LAST-MODIFIED:20230124T165528Z
-LOCATION:Stream https://www.youtube.com/watch?v=QkIdWnwFuqo  https://www.tw
+DTSTART;TZID="W. Europe Standard Time":20230203T120000
+LAST-MODIFIED:20230131T100057Z
+LOCATION:Stream https://www.youtube.com/watch?v=cPGVqvwnWKw  https://www.tw
 	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Das Strangler Fig Patte
-	rn
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Frontendintegrationsmus
+	ter im Web mit Falk Hoppe
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

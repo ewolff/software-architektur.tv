@@ -13,23 +13,31 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 3.2.2022 12:00 Thema offen
+# Nächste Folge: Freitag 3.2.2022 12:00 Frontendintegrationsmuster im Web mit Falk Hoppe
+
+Bei dieser Episode ist Falk Hoppe zu Gast bei Softwarearchitektur im
+Stream. Falk und Lisa unterhalten sich über verschiedene Muster zur
+Frontendintegration im Web und warum es überhaupt manchmal notwendig
+ist, verschiedene Web-Frontends zu integrieren. Bei diesem
+Erfahrungsaustausch gehen sie außerdem auf die Vor- und Nachteile
+einzelner Muster ein und besprechen, worauf man bei der Wahl eines
+Musters achten sollte.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/QkIdWnwFuqo" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/cPGVqvwnWKw"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 # Fragen & Diskussion  / Question & Discussion
 
