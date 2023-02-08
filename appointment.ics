@@ -20,24 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20221005T165906Z
-DESCRIPTION:We are used to linear thinking - but really nonlinear thinking 
-	and systems thinking is what helps in a lot of modern challenges around so
-	ftware architecture. Diana Montalion is an expert on these subjects and ap
-	plies them to software architecture regularly. She will tell us how nonlin
-	ear thinking helps with software architecture and why it is important.\n\n
-	Stream\nhttps://www.youtube.com/watch?v=pOvbpuv5W1A\nhttps://www.twitch.tv
+CREATED:20230208T103615Z
+DESCRIPTION:Want to boost your personal brand and have a good time? Then\, 
+	speaking at conferences is a great opportunity! In this episode\, join us 
+	as we learn from experts Dajana Günther\, Jörg Müller\, and Michael Mah
+	lberg on the ins and outs of conference speaking. They share their knowled
+	ge on how to make a successful submission\, what makes a great submission\
+	, and the inner workings of a program committee.  In addition to being exp
+	erienced speakers\, they are also part of many program committees and are 
+	currently working together on the program committee for the Agile meets Ar
+	chitecture (AmA) conference. https://www.agile-meets-architecture.com/\n\n
+	Stream\nhttps://www.youtube.com/watch?v=VnOM09Q36bs\nhttps://www.twitch.tv
 	/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20221007T130000
+DTEND;TZID="W. Europe Standard Time":20230210T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20221007T120000
-LAST-MODIFIED:20221005T165906Z
-LOCATION:Stream https://www.youtube.com/watch?v=pOvbpuv5W1A https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230210T120000
+LAST-MODIFIED:20230208T103615Z
+LOCATION:Stream https://www.youtube.com/watch?v=VnOM09Q36bs https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Non-linear Thinking wit
-	h Diana Montalion
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: So You Want to Be a Con
+	ference Speaker…
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
