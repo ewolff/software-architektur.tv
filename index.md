@@ -13,35 +13,25 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-<!-- # Nächste Folge: Freitag 10.2.2023 12:00 Thema noch offen -->
-# Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker…
+# Nächste Folge: Freitag 17.2.2023 12:00 Thema noch offen 
+<!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
-Want to boost your personal brand and have a good time? Then, speaking
-at conferences is a great opportunity! In this episode, join us as we
-learn from experts Dajana Günther, Jörg Müller, and Michael Mahlberg
-on the ins and outs of conference speaking. They share their knowledge
-on how to make a successful submission, what makes a great submission,
-and the inner workings of a program committee.  In addition to being
-experienced speakers, they are also part of many program committees
-and are currently working together on the program committee for the
-[Agile meets Architecture
-(AmA)](https://www.agile-meets-architecture.com/) conference.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Add to calendar](appointment.ics)
+<!-- [Add to calendar](appointment.ics) -->
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/VnOM09Q36bs"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/VnOM09Q36bs" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion  / Question & Discussion
 
