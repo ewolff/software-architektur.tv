@@ -20,25 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230131T100057Z
-DESCRIPTION:Bei dieser Episode ist Falk Hoppe zu Gast bei Softwarearchitekt
-	ur im Stream. Falk und Lisa unterhalten sich über verschiedene Muster zur
-	 Frontendintegration im Web und warum es überhaupt manchmal notwendig ist
-	\, verschiedene Web-Frontends zu integrieren. Bei diesem Erfahrungsaustaus
-	ch gehen sie außerdem auf die Vor- und Nachteile einzelner Muster ein und
-	 besprechen\, worauf man bei der Wahl eines Musters achten sollte.\nStream
-	\nhttps://www.youtube.com/watch?v=cPGVqvwnWKw\nhttps://www.twitch.tv/ebrwo
-	lff\n
-DTEND;TZID="W. Europe Standard Time":20230203T130000
+CREATED:20230214T173019Z
+DESCRIPTION:Ein agiles Projekt\, sehr produktiv und alle arbeiten mit Begei
+	sterung an der Software. Wenige Monate später: Zahlreiche wichtige Person
+	en haben das Projekt verlassen und von den agilen Vorgehensweisen ist nur 
+	noch wenig übrig. In dieser Episode gehen wir diesem “Kippen” von Pro
+	jekten nach und diskutieren Gründe wie auch Möglichkeiten\, mit einer so
+	lchen Situation umzugehen.\n\nStream\nhttps://www.youtube.com/watch?v=VnOM
+	09Q36bs\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230217T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230203T120000
-LAST-MODIFIED:20230131T100057Z
-LOCATION:Stream https://www.youtube.com/watch?v=cPGVqvwnWKw  https://www.tw
+DTSTART;TZID="W. Europe Standard Time":20230217T120000
+LAST-MODIFIED:20230214T173019Z
+LOCATION:Stream https://www.youtube.com/watch?v=VnOM09Q36bs  https://www.tw
 	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Frontendintegrationsmus
-	ter im Web mit Falk Hoppe
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Das Kippen agiler Softw
+	are-Projekte
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
