@@ -22,6 +22,8 @@ noch wenig übrig. In dieser Episode gehen wir diesem "Kippen" von
 Projekten nach und diskutieren Gründe wie auch Möglichkeiten, mit
 einer solchen Situation umzugehen.
 
+
+
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
 
@@ -29,6 +31,19 @@ einer solchen Situation umzugehen.
 
 <!-- [Add to calendar](appointment.ics) -->
 [Zum Kalendar hinzufügen](termin.ics)
+
+## Short Video zum Thema 
+
+Dieses Video ist eine kurze Einführung in das Thema.
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/v9CMo0RgtI8"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 ## Live Stream
 
