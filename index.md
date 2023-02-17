@@ -13,48 +13,40 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 17.2.2023 12:00 Das Kippen agiler Software-Projekte
+# Nächste Folge: Freitag 24.2.2023 12:00 Thema noch offen
 
-Ein agiles Projekt, sehr produktiv und alle arbeiten mit Begeisterung
-an der Software. Wenige Monate später: Zahlreiche wichtige Personen
-haben das Projekt verlassen und von den agilen Vorgehensweisen ist nur
-noch wenig übrig. In dieser Episode gehen wir diesem "Kippen" von
-Projekten nach und diskutieren Gründe wie auch Möglichkeiten, mit
-einer solchen Situation umzugehen.
 
 
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
-
-
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Short Video zum Thema 
+<!-- ## Short Video zum Thema  -->
 
-Dieses Video ist eine kurze Einführung in das Thema.
+<!-- Dieses Video ist eine kurze Einführung in das Thema. -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/v9CMo0RgtI8"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/v9CMo0RgtI8" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/NjQjSohhX40"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/NjQjSohhX40" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion  / Question & Discussion
 
