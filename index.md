@@ -32,18 +32,18 @@ Erfolgschancen unserer Software-Entwicklungen verbessern.
 <!-- [Add to calendar](appointment.ics) -->
 [Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Short Video zum Thema  -->
+## Short Video zum Thema
 
-<!-- Dieses Video ist eine kurze Einführung in das Thema. -->
+Dieses Video ist eine kurze Einführung in das Thema.
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/v9CMo0RgtI8" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/8YeBP3hMTxs"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 ## Live Stream
 
