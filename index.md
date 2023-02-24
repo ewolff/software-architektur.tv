@@ -13,43 +13,32 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 24.2.2023 12:00 Domain-driven Design: nur vernünftige Software-Entwicklung?
-
-Domain-driven Design (DDD) ist über die Jahre zu einer umfangreichen
-Sammlung von Techniken geworden, über die viel gesprochen und
-geschrieben wird. Aber es gibt einen wichtigen Kern: Die Domäne soll
-das Design bestimmen. Dazu ist eine gründliche Kenntnis der Domäne und
-eine entsprechende Strukturierung des Systems notwendig. Ohne diese
-Basis sind weiterführende Techniken kaum nützlich. In dieser Episode
-geht es um die Essenz von DDD - die eigentlich den bewährten
-Grundkonzepte der Software-Entwicklung entspricht. So kann man sich
-beim Umgang mit DDD auf das Wesentliche konzentrieren und die
-Erfolgschancen unserer Software-Entwicklungen verbessern.
+# Nächste Folge: Freitag 3.3.2023 12:00 Serveless Architektur mit Sascha Möllering
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Short Video zum Thema
+<!-- ## Short Video zum Thema -->
 
-Dieses Video ist eine kurze Einführung in das Thema.
+<!-- Dieses Video ist eine kurze Einführung in das Thema. -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/8YeBP3hMTxs"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/8YeBP3hMTxs" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/o1m80WbiFBU"
+	src="https://www.youtube-nocookie.com/embed/PN6Tj_9JOGk"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
