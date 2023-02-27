@@ -20,29 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230214T173019Z
-DESCRIPTION:Ein agiles Projekt\, sehr produktiv und alle arbeiten mit Begei
-	sterung an der Software. Wenige Monate später: Zahlreiche wichtige Person
-	en haben das Projekt verlassen und von den agilen Vorgehensweisen ist nur 
-	noch wenig übrig. In dieser Episode gehen wir diesem “Kippen” von Pro
-	jekten nach und diskutieren Gründe wie auch Möglichkeiten\, mit einer so
-	lchen Situation umzugehen.\n\nStream\nhttps://www.youtube.com/watch?v=VnOM
-	09Q36bs\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230217T130000
+CREATED:20230227T085137Z
+DESCRIPTION:Serverless ist die neueste Evolutionsstufe der Infrastrukturen 
+	- und steht nicht nur für eine Technik zum Deployment von Anwendungen\, s
+	ondern auch für eine neue Infrastruktur-Abstraktion\, ein Abrechnungsmode
+	ll und umfasst viel mehr als nur Rechenleistung. In dieser Episode zeigt S
+	ascha Möllering\, Solutions Architect bei Amazon Web Services\, uns die V
+	or- und Nachteile von Serverless auf. Außerdem diskutieren wir typische A
+	nwendungsfälle und die Auswirkungen von Serverless auf die Software-Archi
+	tektur.\n\nStream\nhttps://www.youtube.com/watch?v=PN6Tj_9JOGk\nhttps://ww
+	w.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230303T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230217T120000
-LAST-MODIFIED:20230214T173019Z
-LOCATION:Stream https://www.youtube.com/watch?v=VnOM09Q36bs  https://www.tw
+DTSTART;TZID="W. Europe Standard Time":20230303T120000
+LAST-MODIFIED:20230227T085137Z
+LOCATION:Stream https://www.youtube.com/watch?v=PN6Tj_9JOGk  https://www.tw
 	itch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Das Kippen agiler Softw
-	are-Projekte
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Serverless Architektur 
+	mit Sascha Möllering
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR
