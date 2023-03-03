@@ -13,16 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 3.3.2023 12:00 Serverless Architektur mit Sascha Möllering
-
-Serverless ist die neueste Evolutionsstufe der Infrastrukturen - und
-steht nicht nur für eine Technik zum Deployment von Anwendungen,
-sondern auch für eine neue Infrastruktur-Abstraktion, ein
-Abrechnungsmodell und umfasst viel mehr als nur Rechenleistung. In
-dieser Episode zeigt Sascha Möllering, Solutions Architect bei Amazon
-Web Services, uns die Vor- und Nachteile von Serverless auf. Außerdem
-diskutieren wir typische Anwendungsfälle und die Auswirkungen von
-Serverless auf die Software-Architektur. 
+# Nächste Folge: Freitag 10.3.2023 12:00 OWASP mit Christoph Iserlohn und Lisa Moritz
 
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
@@ -44,16 +35,16 @@ Serverless auf die Software-Architektur.
 <!-- </div> -->
 <!-- </center> -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/PN6Tj_9JOGk"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/PN6Tj_9JOGk" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 # Fragen & Diskussion  / Question & Discussion
 
