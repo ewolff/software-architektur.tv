@@ -20,28 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230227T085137Z
-DESCRIPTION:Serverless ist die neueste Evolutionsstufe der Infrastrukturen 
-	- und steht nicht nur für eine Technik zum Deployment von Anwendungen\, s
-	ondern auch für eine neue Infrastruktur-Abstraktion\, ein Abrechnungsmode
-	ll und umfasst viel mehr als nur Rechenleistung. In dieser Episode zeigt S
-	ascha Möllering\, Solutions Architect bei Amazon Web Services\, uns die V
-	or- und Nachteile von Serverless auf. Außerdem diskutieren wir typische A
-	nwendungsfälle und die Auswirkungen von Serverless auf die Software-Archi
-	tektur.\n\nStream\nhttps://www.youtube.com/watch?v=PN6Tj_9JOGk\nhttps://ww
-	w.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230303T130000
+CREATED:20230306T150643Z
+DESCRIPTION:Bei dieser Episode ist Christoph Iserlohn zu Gast bei Softwarea
+	rchitektur im Stream. Christoph und Lisa sprechen über die OWASP (Open Wo
+	rldwide Application Security Project) – Was verbirgt sich dahinter? Welc
+	he architekturrelevanten Projekte werden von der OWASP angeboten und wie k
+	önnen Architekt:innen mit diesen im Alltag agieren?\n\nStream\nhttps://ww
+	w.youtube.com/watch?v=tJZ4AEc-yc8\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230310T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230303T120000
-LAST-MODIFIED:20230227T085137Z
-LOCATION:Stream https://www.youtube.com/watch?v=PN6Tj_9JOGk  https://www.tw
-	itch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20230310T120000
+LAST-MODIFIED:20230306T150643Z
+LOCATION:Stream https://www.youtube.com/watch?v=tJZ4AEc-yc8 https://www.twi
+	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Serverless Architektur 
-	mit Sascha Möllering
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Sichere Architekturen 
+	– Wie die OWASP helfen kann Christoph Iserlohn und Lisa Moritz
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
 END:VEVENT
 END:VCALENDAR

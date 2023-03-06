@@ -13,14 +13,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 10.3.2023 12:00 OWASP mit Christoph Iserlohn und Lisa Moritz
+# Nächste Folge: Freitag 10.3.2023 12:00 Sichere Architekturen – Wie die OWASP helfen kann Christoph Iserlohn und Lisa Moritz
 
+Bei dieser Episode ist Christoph Iserlohn zu Gast bei
+Softwarearchitektur im Stream. Christoph und Lisa sprechen über die
+OWASP (Open Worldwide Application Security Project) – Was verbirgt
+sich dahinter? Welche architekturrelevanten Projekte werden von der
+OWASP angeboten und wie können Architekt:innen mit diesen im Alltag
+agieren? 
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
 
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 <!-- ## Short Video zum Thema -->
 
