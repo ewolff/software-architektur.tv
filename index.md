@@ -13,14 +13,16 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 10.3.2023 12:00 Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn und Lisa Moritz
+# Nächste Folge: Dienstag 14.3.2023 18:30 Funktionale Programmierung, DDD und Architektur mit Mike Sperber
 
-Bei dieser Episode ist Christoph Iserlohn zu Gast bei
-Softwarearchitektur im Stream. Christoph und Lisa sprechen über die
-OWASP (Open Worldwide Application Security Project) – Was verbirgt
-sich dahinter? Welche architekturrelevanten Projekte werden von der
-OWASP angeboten und wie können Architekt:innen mit diesen im Alltag
-agieren? 
+Neben dem objektorientierten und imperativen Paradigma gibt es schon
+lange die funktionale Programmierung (FP), die seiteneffektfrei ist
+und daher völlig anderen Ideen folgt. Auf Ebene der Architektur
+sollten beide Konzepte zu denselben Ergebnissen führen - schließlich
+geht es dort nur um die grobgranulare Strukturierung des Codes. In
+dieser Episode sprechen wir mit Mike Sperber darüber, ob das wirklich
+so stimmt, welche Vorteile FP auf Ebene der Architektur bietet und wie
+die Beziehung von Domain-driven Design (DDD) und FP ist.
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
@@ -45,7 +47,7 @@ agieren?
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/tJZ4AEc-yc8"
+	src="https://www.youtube-nocookie.com/embed/1ISYi90G-mY"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
