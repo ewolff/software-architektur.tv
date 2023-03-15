@@ -15,11 +15,20 @@ stellen.
  
 # Nächste Folge: Freitag 17.3.2023 12:00 Single Source of Truth mit Gerrit Beine
 
+In Systemen gibt es oft redundante Implementierung von Logik oder
+redundante Speicherung von Daten. Diese Implementierung oder Daten
+laufen oft auseinander und es entstehen Inkonsistenzen. Dann wird der
+Ruf nach einer Quelle für die eindeutige Wahrheit laut (“Single Source
+of Truth”). Aber kann es so etwas überhaupt geben? Und welche Probleme
+treten in der Praxis auf? In dieser Episode diskutiert Gerrit Beine
+von INNOQ diese Fragestellungen mit Eberhard Wolff. Sie geben
+praktische Tipps zum Umgang mit diesen Herausforderungen.
+
+
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
-
 <!-- [Add to calendar](appointment.ics) -->
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 <!-- ## Short Video zum Thema -->
 
