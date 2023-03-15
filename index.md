@@ -13,22 +13,13 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Dienstag 14.3.2023 18:30 Funktionale Programmierung, DDD und Architektur mit Mike Sperber
-
-Neben dem objektorientierten und imperativen Paradigma gibt es schon
-lange die funktionale Programmierung (FP), die seiteneffektfrei ist
-und daher völlig anderen Ideen folgt. Auf Ebene der Architektur
-sollten beide Konzepte zu denselben Ergebnissen führen - schließlich
-geht es dort nur um die grobgranulare Strukturierung des Codes. In
-dieser Episode sprechen wir mit Mike Sperber darüber, ob das wirklich
-so stimmt, welche Vorteile FP auf Ebene der Architektur bietet und wie
-die Beziehung von Domain-driven Design (DDD) und FP ist.
+# Nächste Folge: Freitag 17.3.2023 12:00 Single Source of Truth mit Gerrit Beine
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 <!-- ## Short Video zum Thema -->
 
@@ -47,7 +38,7 @@ die Beziehung von Domain-driven Design (DDD) und FP ist.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/1ISYi90G-mY"
+	src="https://www.youtube-nocookie.com/embed/z1b-m4Pio0E"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
