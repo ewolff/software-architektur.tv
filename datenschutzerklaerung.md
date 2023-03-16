@@ -34,3 +34,11 @@ Forms](https://google.com/forms) ein. Das Unternehmen Google LLC
 verpflichtet sich, einen hohen Datenschutzstandard nach DS-GVO zu
 wahren. Die Datenschutzhinweise von Google finden Sie
 [hier](https://policies.google.com/privacy?hl=de).
+
+# Nutzung von Podcaster.de
+
+Für den integrierten Podcast-Player setzt diese Seite einen Service
+von [podcaster.de](https://www.podcaster.de/). Das Unternehmen
+verpflichtet sich, einen hohen Datenschutzstandard nach DS-GVO zu
+wahren. Die Datenschutzhinweise finden Sie
+[hier](https://www.podcaster.de/privacy).
