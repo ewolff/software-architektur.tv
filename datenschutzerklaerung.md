@@ -38,7 +38,14 @@ wahren. Die Datenschutzhinweise von Google finden Sie
 # Nutzung von Podcaster.de
 
 Für den integrierten Podcast-Player setzt diese Seite einen Service
-von [podcaster.de](https://www.podcaster.de/). Das Unternehmen
+von [podcaster.de](https://www.podcaster.de/) ein. Das Unternehmen
 verpflichtet sich, einen hohen Datenschutzstandard nach DS-GVO zu
 wahren. Die Datenschutzhinweise finden Sie
 [hier](https://www.podcaster.de/privacy).
+
+# Nutzung von Podcaster.de
+
+Für den integrierten Peertube-Player setzt diese Seite einen Service
+von [tchncs.de](https://tchncs.de/) ein. Das Unternehmen verpflichtet
+sich, einen hohen Datenschutzstandard nach DS-GVO zu wahren. Die
+Datenschutzhinweise finden Sie [hier](https://tchncs.de/privacy).
