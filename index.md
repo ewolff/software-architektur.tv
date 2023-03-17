@@ -13,22 +13,12 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 17.3.2023 12:00 Single Source of Truth mit Gerrit Beine
-
-In Systemen gibt es oft redundante Implementierung von Logik oder
-redundante Speicherung von Daten. Diese Implementierung oder Daten
-laufen oft auseinander und es entstehen Inkonsistenzen. Dann wird der
-Ruf nach einer Quelle für die eindeutige Wahrheit laut (“Single Source
-of Truth”). Aber kann es so etwas überhaupt geben? Und welche Probleme
-treten in der Praxis auf? In dieser Episode diskutiert Gerrit Beine
-von INNOQ diese Fragestellungen mit Eberhard Wolff. Sie geben
-praktische Tipps zum Umgang mit diesen Herausforderungen.
-
+# Nächste Folge: Freitag 24.3.2023 12:00 Thema noch offen
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 <!-- ## Short Video zum Thema -->
 
@@ -45,14 +35,14 @@ praktische Tipps zum Umgang mit diesen Herausforderungen.
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/z1b-m4Pio0E"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/z1b-m4Pio0E" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
