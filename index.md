@@ -48,7 +48,7 @@ stellen.
 
 # Fragen & Diskussion  / Question & Discussion
 
-Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1pt3a2xg0-F8jH4T1RLaeX85VfZAYaHg) ist eine Möglichkeit für Fragen und
+Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1rk5fht9i-os9EOUizikUqql985hkBxQ) ist eine Möglichkeit für Fragen und
 Interaktionen.
 Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
 YouTube-Chat, per
@@ -56,7 +56,7 @@ YouTube-Chat, per
 [Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
-The [Slack workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1pt3a2xg0-F8jH4T1RLaeX85VfZAYaHg) is an opportunity to ask questions and
+The [Slack workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1rk5fht9i-os9EOUizikUqql985hkBxQ) is an opportunity to ask questions and
 interact.
 Questions and discussion are also welcome in the Twitch chat or the
 YouTube chat, via [Twitter](https://twitter.com/ewolff),
