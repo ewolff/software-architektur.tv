@@ -20,26 +20,21 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230315T173117Z
-DESCRIPTION:In Systemen gibt es oft redundante Implementierung von Logik od
-	er redundante Speicherung von Daten. Diese Implementierung oder Daten lauf
-	en oft auseinander und es entstehen Inkonsistenzen. Dann wird der Ruf nach
-	 einer Quelle für die eindeutige Wahrheit laut (“Single Source of Truth
-	”). Aber kann es so etwas überhaupt geben? Und welche Probleme treten i
-	n der Praxis auf? In dieser Episode diskutiert Gerrit Beine von INNOQ dies
-	e Fragestellungen mit Eberhard Wolff. Sie geben praktische Tipps zum Umgan
-	g mit diesen Herausforderungen.\n\nStream\nhttps://www.youtube.com/watch?v
-	=z1b-m4Pio0E\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230317T130000
+CREATED:20230322T132103Z
+DESCRIPTION:Nora Schöner und Lisa Morizt sprechen über ihre Eindrücke un
+	d Erlebnisse auf der Javaland diese Woche. Nora wird außerdem über ihre 
+	Rolle im Programmkomitee berichten.\n\nStream\nhttps://www.youtube.com/wat
+	ch?v=6faHlYeVDz8\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230324T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230317T120000
-LAST-MODIFIED:20230315T173117Z
-LOCATION:Stream https://www.youtube.com/watch?v=z1b-m4Pio0E https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230324T120000
+LAST-MODIFIED:20230322T132103Z
+LOCATION:Stream https://www.youtube.com/watch?v=6faHlYeVDz8 https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Single Source of Truth 
-	mit Gerrit Beine
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Eindrücke von der Java
+	Land mit Nora Schöner und Lisa Moritz
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
