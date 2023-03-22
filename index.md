@@ -15,7 +15,7 @@ stellen.
  
 # Nächste Folge: Freitag 24.3.2023 12:00 Eindrücke von der JavaLand mit Nora Schöner und Lisa Moritz
 
-Nora Schöner und Lisa Morizt sprechen über ihre Eindrücke und
+Nora Schöner und Lisa Moriz sprechen über ihre Eindrücke und
 Erlebnisse auf der Javaland diese Woche. Nora wird außerdem über ihre
 Rolle im Programmkommittee berichten.
 
