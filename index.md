@@ -103,6 +103,8 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 [Buch](/sketchnote-buch)
 
+[Kafka Comic](/kafka-comic)
+
 [Feed](feed.xml)
 
 # Lizenz
