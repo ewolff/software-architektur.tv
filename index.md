@@ -13,16 +13,13 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 24.3.2023 12:00 Eindrücke von der JavaLand mit Nora Schöner und Lisa Moritz
+# Nächste Folge: Freitag 31.3.2023 12:00 Big Ball of Mud
 
-Nora Schöner und Lisa Moriz sprechen über ihre Eindrücke und
-Erlebnisse auf der Javaland diese Woche. Nora wird außerdem über ihre
-Rolle im Programmkommittee berichten.
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 
 <!-- Dieses Video ist eine kurze Einführung in das Thema. -->
@@ -40,7 +37,7 @@ Rolle im Programmkommittee berichten.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/6faHlYeVDz8"
+	src="https://www.youtube-nocookie.com/embed/Gqs8zLXei7Q"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
