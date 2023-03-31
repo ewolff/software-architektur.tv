@@ -13,41 +13,35 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 31.3.2023 12:00 Big Ball of Mud
+# Nächste Folge: Freitag 14.4.2023 12:00 Thema noch offen
 
-"Big Ball of Mud" bezeichnet Software, die keine erkennbare Struktur
-hat und daher schwer verstehbar und wartbar ist. Aber ein Big Ball of
-Mud hat nicht nur Nachteile. Einige behaupten sogar, dass es das
-populärste Architektur-Muster ist. Diese Episode wirft einen genauen
-Blick auf "Big Ball of Mud" und was es mit diesem Pattern wirklich auf
-sich hat.
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
 <!-- [Add to calendar](appointment.ics) -->
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-Dieses Video ist eine kurze Einführung in das Thema.
+<!-- Dieses Video ist eine kurze Einführung in das Thema. -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/awuFRhuZB38"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/awuFRhuZB38" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Gqs8zLXei7Q"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/Gqs8zLXei7Q" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
