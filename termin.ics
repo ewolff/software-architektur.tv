@@ -20,23 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230329T095726Z
-DESCRIPTION:“Big Ball of Mud” bezeichnet Software\, die keine erkennbar
-	e Struktur hat und daher schwer verstehbar und wartbar ist. Aber ein Big B
-	all of Mud hat nicht nur Nachteile. Einige behaupten sogar\, dass es das p
-	opulärste Architektur-Muster ist. Diese Episode wirft einen genauen Blick
-	 auf “Big Ball of Mud” und was es mit diesem Pattern wirklich auf sich
-	 hat.\n\nStream\nhttps://www.youtube.com/watch?v=Gqs8zLXei7Q\nhttps://www.
-	twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230331T130000
+CREATED:20230411T152006Z
+DESCRIPTION:Cloud Native ist einer der großen Trends in der Software-Entwi
+	cklung. Diese Episode wagt einen Blick hinter diesen Hype. Dabei geht es v
+	or allem um die Frage\, was Cloud Native eigentlich ist und warum man in e
+	inem Projekt auf die Cloud setzen sollte.\n\nStream\nhttps://www.youtube.c
+	om/watch?v=fnCD_Y6uxXo\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230414T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230331T120000
-LAST-MODIFIED:20230329T095726Z
-LOCATION:Stream https://www.youtube.com/watch?v=Gqs8zLXei7Q https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230414T120000
+LAST-MODIFIED:20230411T152006Z
+LOCATION:Stream https://www.youtube.com/watch?v=fnCD_Y6uxXo https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Big Ball of Mud
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Cloud Native: Was und w
+	arum?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E
