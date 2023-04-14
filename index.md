@@ -13,13 +13,13 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 14.4.2023 12:00 Cloud Native: Was und warum?
+# Nächste Folge: Freitag 14.4.2023 12:00 Business Analyst:in und Software-Architektur mit Michaela Kühn
 
-Cloud Native ist einer der großen Trends in der
-Software-Entwicklung. Diese Episode wagt einen Blick hinter diesen
-Hype. Dabei geht es vor allem um die Frage, was Cloud Native
-eigentlich ist und warum man in einem Projekt auf die Cloud setzen
-sollte.
+In dieser Episode sprechen Michaela Kühn und Lisa Moritz aüber den
+Beruf "Business Analyst:in". Was steckt genau dahinter, welche
+Aufgaben übernehmen Business Analyst:innen und wie sieht die
+Zusammenarbeit zwischen Business Analyst:in und Softwarearchitekt:in
+aus?
 
 <!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
 
@@ -41,7 +41,7 @@ sollte.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/fnCD_Y6uxXo"
+	src="https://www.youtube-nocookie.com/embed/ARdLsB_1cik"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
