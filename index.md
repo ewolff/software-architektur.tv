@@ -28,15 +28,6 @@ aus?
 
 <!-- Dieses Video ist eine kurze Einführung in das Thema. -->
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/awuFRhuZB38" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
-
 ## Live Stream
 
 <center>
@@ -49,6 +40,29 @@ aus?
 </center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
+
+## Vorschau: Die Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG
+
+Die Innovationsgeschwindigkeit in der IT ist unfassbar hoch - so meint
+man. Aber was hat sich über die Jahre wirklich geändert? Stefan Tilkov
+und Eberhard Wolff wagen den Rückblick auf die Welt der
+Software-Entwicklung vor 10 Jahren. Welche Meinungen, Themen und
+Trends haben sie damals gesehen? Was ist aus den Hypes von 2013
+geworden? Wie bewerten sie diese Ideen heute? Wo lagen sie richtig?
+Und wo falsch? Und welche Themen sind nach wie vor aktuell?
+
+Link zum
+[RheinJUG-MeetUp](https://www.meetup.com/de-DE/rheinjug/events/292845400/).
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/Q9RrBwRt8sE"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
 
 # Fragen & Diskussion  / Question & Discussion
 
