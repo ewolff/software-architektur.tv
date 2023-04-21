@@ -20,21 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230414T125937Z
-DESCRIPTION:In dieser Episode sprechen Michaela Kühn und Lisa Moritz aübe
-	r den Beruf “Business Analyst:in”. Was steckt genau dahinter\, welche 
-	Aufgaben übernehmen Business Analyst:innen und wie sieht die Zusammenarbe
-	it zwischen Business Analyst:in und Softwarearchitekt:in aus?\n\nStream\nh
-	ttps://youtu.be/ARdLsB_1cik\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230421T130000
+CREATED:20230421T103257Z
+DESCRIPTION:Die Innovationsgeschwindigkeit in der IT ist unfassbar hoch - s
+	o meint man. Aber was hat sich über die Jahre wirklich geändert? Stefan 
+	Tilkov und Eberhard Wolff wagen den Rückblick auf die Welt der Software-E
+	ntwicklung vor 10 Jahren. Welche Meinungen\, Themen und Trends haben sie d
+	amals gesehen? Was ist aus den Hypes von 2013 geworden? Wie bewerten sie d
+	iese Ideen heute? Wo lagen sie richtig? Und wo falsch? Und welche Themen s
+	ind nach wie vor aktuell?\n\nStream\nhttps://youtu.be/Q9RrBwRt8sE\nhttps:/
+	/www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230427T203000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230421T120000
-LAST-MODIFIED:20230414T125937Z
-LOCATION:Stream https://youtu.be/ARdLsB_1cik https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20230427T190000
+LAST-MODIFIED:20230421T103257Z
+LOCATION:Stream https://youtu.be/Q9RrBwRt8sE https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Business Analyst:in und
-	 Software-Architektur mit Michaela Kühn
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Die IT-Welt vor 10 Jahren 
+	mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
 	010000000ADB053CCF7A86A4394D0D7963E2F526E

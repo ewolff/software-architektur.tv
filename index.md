@@ -13,35 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Freitag 14.4.2023 12:00 Business Analyst:in und Software-Architektur mit Michaela Kühn
-
-In dieser Episode sprechen Michaela Kühn und Lisa Moritz aüber den
-Beruf "Business Analyst:in". Was steckt genau dahinter, welche
-Aufgaben übernehmen Business Analyst:innen und wie sieht die
-Zusammenarbeit zwischen Business Analyst:in und Softwarearchitekt:in
-aus?
-
-<!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
-
-[Add to calendar](appointment.ics)
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
-
-<!-- Dieses Video ist eine kurze Einführung in das Thema. -->
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/ARdLsB_1cik"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
-## Vorschau: Die Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG
+# Nächste Folge: Donnerstag 27.4.2023 19:00 Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG
 
 Die Innovationsgeschwindigkeit in der IT ist unfassbar hoch - so meint
 man. Aber was hat sich über die Jahre wirklich geändert? Stefan Tilkov
@@ -54,6 +26,15 @@ Und wo falsch? Und welche Themen sind nach wie vor aktuell?
 Link zum
 [RheinJUG-MeetUp](https://www.meetup.com/de-DE/rheinjug/events/292845400/).
 
+<!-- # Next Episode: Fridays 2023-02-10 12:00 CET So You Want to Be a Conference Speaker… -->
+
+<!-- [Add to calendar](appointment.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
+
+<!-- Dieses Video ist eine kurze Einführung in das Thema. -->
+
+## Live Stream
+
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
 	src="https://www.youtube-nocookie.com/embed/Q9RrBwRt8sE"
@@ -63,6 +44,7 @@ Link zum
 </div>
 </center>
 
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 
