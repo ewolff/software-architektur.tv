@@ -46,6 +46,28 @@ Link zum
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# Vorschau: Freitag 28.4.2023 12:00 Kommunikation im Entwicklungsprozess mit Rebecca Temme
+
+In dieser Episode sprechen Rebecca Temme und Lisa Moritz darüber, was
+IT-Enthusiast:innen in der Softwareentwicklung für Möglichkeiten
+haben. Sie geben Tipps, wie man die Kommunikation im
+Entwicklungsprozess verbessern kann.
+
+[Zum Kalendar hinzufügen](termin1.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/T5Mhad4AtLg"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
