@@ -13,21 +13,34 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Offen
+# Nächste Folge: 17.5. 12:00 Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer
+
+In Beratungen, Architektur und Trainings kommt es oft zu einem
+Wissensgefälle zwischen Durchführenden und dem Publikum. Das Ziel von
+solchen Prozessen ist jedoch nicht immer klar definiert: Soll
+Verhaltensänderung beim Publikum erreicht werden oder sollen Teams
+gestärkt werden, um selbstorganisiert arbeiten zu können? Diese Frage
+wirft ein Paradox auf: Einerseits soll Wissen und Erfahrung an das
+Publikum weitergegeben werden, andererseits soll dieses in der Lage
+sein, selbstorganisiert zu arbeiten. In dieser Episode werden Melanie
+Schäfer und Eberhard Wolff sich mit diesem Paradox auseinandersetzen
+und Möglichkeiten aufzeigen, wie Beratung, Architektur und Training
+sowohl Verhaltensänderungen als auch Teamarbeit und Selbstorganisation
+unterstützen können.
 
 
-<!-- [Zum Kalendar hinzufügen](termin1.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/T5Mhad4AtLg" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/utPlRMnvINI"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
