@@ -13,8 +13,14 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: offen
+# Nächste Folge: Zero Trust mit Christoph Iserlohn
 
+Diese Episode wird aufgezeichnet. Fragen bis 21.5. bitte im Formular
+unten, bei [Twitter](https://twitter.com/ewolff),
+[Mastodon](https://mastodon.social/web/@ewolff),
+[Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw)
+oder
+[Schnaq](https://app.schnaq.com/schnaq/1743615f-dcd3-4e31-86f7-84ee00a28925).
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
