@@ -13,7 +13,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Nächste Folge: Zero Trust mit Christoph Iserlohn
+# Nächste Folge: 19.5. 12:00 Amazon: Von Microservices zurück zu Monolithen?
+
+Die Software-Architektur-Szene explodiert: Angeblich rudert Amazon
+zurück! Nach den jahrelang genutzten Microservices geht es scheinbar
+nun zurück zum Monolithen. Wir schauen hinter den Hype, denn in
+Wirklichkeit geht es um die iterative Weiterentwicklung einer
+Architektur anhand von Qualitätszielen.
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/67PEUkeg_jo"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+# Demnächst: Zero Trust mit Christoph Iserlohn
 
 Diese Episode wird aufgezeichnet. Fragen bis 21.5. bitte im Formular
 unten, bei [Twitter](https://twitter.com/ewolff),
@@ -23,19 +44,6 @@ oder
 [Schnaq](https://app.schnaq.com/schnaq/1743615f-dcd3-4e31-86f7-84ee00a28925).
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
-
-## Live Stream
-
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/utPlRMnvINI" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
-
-[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 
