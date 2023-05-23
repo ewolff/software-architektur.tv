@@ -15,12 +15,13 @@ stellen.
  
 # Demnächst: Zero Trust mit Christoph Iserlohn
 
-Diese Episode wird aufgezeichnet. Fragen bis 21.5. bitte im Formular
-unten, bei [Twitter](https://twitter.com/ewolff),
-[Mastodon](https://mastodon.social/web/@ewolff),
-[Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw)
-oder
-[Schnaq](https://app.schnaq.com/schnaq/1743615f-dcd3-4e31-86f7-84ee00a28925).
+In dieser Episode sprechen Christoph Iserlohn und Lisa Moritz über das
+Thema "Zero Trust" – Was verbirgt sich dahinter und woher kommt der
+Begriff? Außerdem klären sie, was das mit Softwarearchitektur zu tun
+hat und wie Zero Trust auch zusammen mit Legacy Systemen funktionieren
+kann.
+
+Diese Episode wird aufgezeichnet.
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
