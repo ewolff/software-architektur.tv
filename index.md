@@ -13,32 +13,23 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 25.5. 12:00 Zero Trust mit Christoph Iserlohn
+# Freitag 2.6. 12:00 Thema noch offen
 
-In dieser Episode sprechen Christoph Iserlohn und Lisa Moritz über das
-Thema "Zero Trust" – Was verbirgt sich dahinter und woher kommt der
-Begriff? Außerdem klären sie, was das mit Softwarearchitektur zu tun
-hat und wie Zero Trust auch zusammen mit Legacy Systemen funktionieren
-kann.
-
-Diese Episode wird als Instant Premiere bei YouTube stattfinden: Sie
-ist aufgezeichnet. Lisa und Christoph stehen im Chat bereit, um Fragen
-zu beantworten.
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/sNTHcYLAQkg"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/sNTHcYLAQkg" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 
