@@ -13,21 +13,26 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2.6. 12:00 Thema noch offen
+# Freitag 2.6. 12:00 Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special
 
+Psychological Safety ist gerade im Bereich Software-Entwicklung ein
+Hype - aber Techniker:innen sind keine Psychologen. Daher sprechen wir
+mit dem agilen Psychologen Joseph Pelrine über dieses Thema, um die
+wirkliche Bedeutung von psychological Safety zu verstehen und wie wir
+das Konzept in unserem Projekt-Alltag konstruktiv nutzen können.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/sNTHcYLAQkg" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/gI44roShx84"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 

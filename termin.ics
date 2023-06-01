@@ -20,32 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230511T085322Z
-DESCRIPTION:In Beratungen\, Architektur und Trainings kommt es oft zu einem
-	 Wissensgefälle zwischen Durchführenden und dem Publikum. Das Ziel von s
-	olchen Prozessen ist jedoch nicht immer klar definiert: Soll Verhaltensän
-	derung beim Publikum erreicht werden oder sollen Teams gestärkt werden\, 
-	um selbstorganisiert arbeiten zu können? Diese Frage wirft ein Paradox au
-	f: Einerseits soll Wissen und Erfahrung an das Publikum weitergegeben werd
-	en\, andererseits soll dieses in der Lage sein\, selbstorganisiert zu arbe
-	iten. In dieser Episode werden Melanie Schäfer und Eberhard Wolff sich mi
-	t diesem Paradox auseinandersetzen und Möglichkeiten aufzeigen\, wie Bera
-	tung\, Architektur und Training sowohl Verhaltensänderungen als auch Team
-	arbeit und Selbstorganisation unterstützen können\n\nStream	\nhttps://ww
-	w.youtube.com/watch?v=utPlRMnvINI\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230517T130000
+CREATED:20230601T104937Z
+DESCRIPTION:Psychological Safety ist gerade im Bereich Software-Entwicklung
+	 ein Hype - aber Techniker:innen sind keine Psychologen. Daher sprechen wi
+	r mit dem agilen Psychologen Joseph Pelrine über dieses Thema\, um die wi
+	rkliche Bedeutung von psychological Safety zu verstehen und wie wir das Ko
+	nzept in unserem Projekt-Alltag konstruktiv nutzen können.\n\nStream	\nht
+	tps://www.youtube.com/watch?v=gI44roShx84\nhttps://www.twitch.tv/ebrwolff\
+	n
+DTEND;TZID="W. Europe Standard Time":20230602T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230517T120000
-LAST-MODIFIED:20230511T085322Z
-LOCATION:Stream https://www.youtube.com/watch?v=utPlRMnvINI https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230602T120000
+LAST-MODIFIED:20230601T104937Z
+LOCATION:Stream https://www.youtube.com/watch?v=gI44roShx84 https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Vom Wissensgefälle zur
-	 Selbstorganisation mit Melanie Schäfer
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Psychological Safety - 
+	was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000030E85821ADCDD701000000000000000
-	010000000ADB053CCF7A86A4394D0D7963E2F526E
+UID:040000008200E00074C5B7101A82E0080000000060373C7B8794D901000000000000000
+	0100000004731F0EE56BBC74EBF984B469508CB90
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE
