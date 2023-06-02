@@ -13,13 +13,15 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 2.6. 12:00 Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special
+# Mittwoch 7.6. 12:00 Hands-on Behavioral Code Analysis with Adam Tornhill
 
-Psychological Safety ist gerade im Bereich Software-Entwicklung ein
-Hype - aber Techniker:innen sind keine Psychologen. Daher sprechen wir
-mit dem agilen Psychologen Joseph Pelrine über dieses Thema, um die
-wirkliche Bedeutung von psychological Safety zu verstehen und wie wir
-das Konzept in unserem Projekt-Alltag konstruktiv nutzen können.
+When discussing software architecture, it is important to take into
+account the people who are actually working on the code. Adam
+Tornhill, author of “Your Code as a Crime Scene”, coined the term
+“behavioral code analysis” for reasoning about this intersection of
+people and code . In this episode, he will show us hands-on how to
+analyze real-world codebases based on this idea with CodeScene, a
+software engineering intelligence tool that he helped to create.
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -27,7 +29,7 @@ das Konzept in unserem Projekt-Alltag konstruktiv nutzen können.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/gI44roShx84"
+	src="https://www.youtube-nocookie.com/embed/kbQavUHrGBc"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
