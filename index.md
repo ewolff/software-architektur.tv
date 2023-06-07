@@ -13,28 +13,20 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Mittwoch 7.6. 12:00 Hands-on Behavioral Code Analysis with Adam Tornhill
+# Freitag 16.6. 12:00 Thema offen
 
-When discussing software architecture, it is important to take into
-account the people who are actually working on the code. Adam
-Tornhill, author of “Your Code as a Crime Scene”, coined the term
-“behavioral code analysis” for reasoning about this intersection of
-people and code . In this episode, he will show us hands-on how to
-analyze real-world codebases based on this idea with CodeScene, a
-software engineering intelligence tool that he helped to create.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/kbQavUHrGBc"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/kbQavUHrGBc" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
