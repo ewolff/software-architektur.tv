@@ -13,20 +13,29 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
-# Freitag 16.6. 12:00 Thema offen
+# Friday 2023-06-16 12:00 CEST Systems Thinking in Large-Scale Modeling with Xin Yao - OOP Special
+
+Software development is at the core a human activity - and the created
+artifacts are among the most complex humankind has ever
+produced. Systems thinking helps to merge high technical
+sophistication with high human sophistication when developing
+software. In this episode, Xin Yao will give us an overview about
+systems thinking and her perspective on how it can help complex
+software efforts in large sociotechnical environments. 
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Add to calendar](appointment.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/kbQavUHrGBc" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/gkYRKvPL2OA"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
