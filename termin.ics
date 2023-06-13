@@ -20,25 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230602T061353Z
-DESCRIPTION:When discussing software architecture\, it is important to take
-	 into account the people who are actually working on the code. Adam Tornhi
-	ll\, author of “Your Code as a Crime Scene”\, coined the term “behav
-	ioral code analysis” for reasoning about this intersection of people and
-	 code . In this episode\, he will show us hands-on how to analyze real-wor
-	ld codebases based on this idea with CodeScene\, a software engineering in
-	telligence tool that he helped to create.\n\nStream	\nhttps://www.youtube.
-	com/watch?v=kbQavUHrGBc\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230607T130000
+CREATED:20230613T081358Z
+DESCRIPTION:Andrea Nutsi\, Cornelia Seraphin und Lisa Moritz sprechen in di
+	eser Episode über die Verbesserung der disziplinübergreifenden Zusammena
+	rbeit in cross-funktionalen Teams. Andrea und Cornelia sind an der Durchf
+	ührung eines Innovationsprojekts zu diesem Thema beteiligt und möchten i
+	m Rahmen dieser Episode ihre Erfahrungen und Tipps teilen.\n\nDie OOP Spec
+	ials bieten einen Ausblick auf die Highlights der OOP Konferenz. https://w
+	ww.oop-konferenz.de/oop-2023-muenchen\n\nStream	\nhttps://www.youtube.com/
+	watch?v=7c0AMnxo9ZI\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230623T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230607T120000
-LAST-MODIFIED:20230602T061353Z
-LOCATION:Stream https://www.youtube.com/watch?v=kbQavUHrGBc https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230623T120000
+LAST-MODIFIED:20230613T081358Z
+LOCATION:Stream https://www.youtube.com/watch?v=7c0AMnxo9ZI https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Behavioral Code Analysi
-	s with Adam Tornhill
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Disziplinübergreifende
+	 Zusammenarbeit in cross-funktionalen Teams Andrea Nutsi & Cornelia Seraph
+	in - OOP Special
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000060373C7B8794D901000000000000000
 	0100000004731F0EE56BBC74EBF984B469508CB90
