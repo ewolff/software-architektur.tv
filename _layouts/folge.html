@@ -35,7 +35,11 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; 
 </center>
 
 {% if page.sketchnote-video %}
+{% if page.sketchnote-video-header %}
+<h2>{{ page.sketchnote-video-header }}</h2>
+{% else %}
 <h2>Live Sketchnoting</h2>
+{% endif %}
 <center>
   <div class="embed-container">
     <iframe width="560" height="315"
