@@ -14,30 +14,24 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
 
-# Freitag 2023-06-23 12:00  Disziplinübergreifende Zusammenarbeit in cross-funktionalen Teams Andrea Nutsi & Cornelia Seraphin - OOP Special
+# Freitag 2023-06-30 12:00  Thema noch offen
 
-Andrea Nutsi, Cornelia Seraphin und Lisa Moritz sprechen in dieser
-Episode über die Verbesserung der disziplinübergreifenden
-Zusammenarbeit in cross-funktionalen Teams. Andrea und Cornelia sind
-an der Durchführung eines Innovationsprojekts zu diesem Thema
-beteiligt und möchten im Rahmen dieser Episode ihre Erfahrungen und
-Tipps teilen.
 
-Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](https://www.oop-konferenz.de/).
+<!-- Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](https://www.oop-konferenz.de/). -->
 
-[Zum Kalendar hinzufügen](termin.ics)
-<!-- [Add to calendar](appointment.ics) -->
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+<!-- <\!-- [Add to calendar](appointment.ics) -\-> -->
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/7c0AMnxo9ZI"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/7c0AMnxo9ZI" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
