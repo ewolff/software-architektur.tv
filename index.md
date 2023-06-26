@@ -14,24 +14,36 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
  
 
-# Freitag 2023-06-30 12:00  Thema noch offen
+# Freitag 2023-06-30 12:00  Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)
+
+Wenn in das Projekt der Alltag einzieht, unbeliebte Aufgaben
+liegenbleiben und die Weiterentwicklung des Teams leidet, braucht es
+frische Ideen. Warum nicht einmal einige Gamification-Techniken
+ausprobieren, wie zum Beispiel exploratives Testen als kleinen
+Wettbewerb à la Bingo Bongo gestalten? Oder einen Buchclub gründen, um
+die lange geplante, aber immer wieder verschobene Fortbildung in
+Eigenregie in Angriff zu nehmen? Spaß im Projekt, gezielt eingesetzt,
+stärkt nicht nur den Teamzusammenhalt, sondern bringt das Team auch
+auf anderen Ebenen weiter – fachlich, menschlich, kreativ. Das erhöht
+die Mitarbeiterzufriedenheit, die Identifikation mit Projektzielen und
+letztlich die Mitarbeiterbindung.Thema noch offen
 
 
-<!-- Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](https://www.oop-konferenz.de/). -->
+Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](https://www.oop-konferenz.de/).
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 <!-- <\!-- [Add to calendar](appointment.ics) -\-> -->
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/7c0AMnxo9ZI" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/sdJxLe_nWFc"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
