@@ -31,7 +31,7 @@ letztlich die Mitarbeiterbindung.Thema noch offen
 
 Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](https://www.oop-konferenz.de/).
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 <!-- <\!-- [Add to calendar](appointment.ics) -\-> -->
 
 ## Live Stream
