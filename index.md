@@ -47,7 +47,7 @@ Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](ht
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-# Dienstag 2023-07-04 13:15 AUA - Ask Us Anything
+# Dienstag 2023-07-04 13:15 AUA - Ask Us Anything live von der OOP
 
 Lisa Moritz und Eberhard Wolff melden sich live von der [OOP
 Konferenz](https://www.oop-konferenz.de/) und beantworten Eure
