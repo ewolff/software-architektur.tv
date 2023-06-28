@@ -26,7 +26,7 @@ Eigenregie in Angriff zu nehmen? Spaß im Projekt, gezielt eingesetzt,
 stärkt nicht nur den Teamzusammenhalt, sondern bringt das Team auch
 auf anderen Ebenen weiter – fachlich, menschlich, kreativ. Das erhöht
 die Mitarbeiterzufriedenheit, die Identifikation mit Projektzielen und
-letztlich die Mitarbeiterbindung.Thema noch offen
+letztlich die Mitarbeiterbindung.
 
 
 Die OOP Specials bieten einen Ausblick auf die Highlights der [OOP Konferenz](https://www.oop-konferenz.de/).
