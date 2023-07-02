@@ -36,6 +36,35 @@ Vor Ort: Raum Atlanta
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# Freitag 2023-07-07 13:00 Missverständnisse über Software-Architektur
+
+Selbst Expert:innen diskutieren immer noch, was Software-Architektur
+genau ist. Kein Wunder also, dass es viele Missverständnisse darüber
+gibt, was eine Software-Architektur ausmacht oder wie man eine
+erstellt. In dieser Episode stellt Eberhard einige dieser
+Missverständnissen vor und geht darauf ein, was falsch verstanden
+wurde. Denn ohne diese Missverständnisse kann man als
+Software-Architekt effektiver und effizienter arbeiten.
+
+Input dazu sammeln wir auf [Twitter](https://twitter.com/ewolff/status/1675060473497104384), [Mastodon](https://mastodon.social/@ewolff/110637915317795741) und [LinkedIn](https://twitter.com/ewolff/status/1675060473497104384). Eine
+Diskussion im [Slack](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw)  gibt es auch - und natürlich steht
+auch das Formular auf der Website zur Verfügung.
+
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/d3C4-qx01cw"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
