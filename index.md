@@ -47,7 +47,11 @@ wurde. Denn ohne diese Missverständnisse kann man als
 Software-Architekt effektiver und effizienter arbeiten.
 
 Input dazu sammeln wir auf [Twitter](https://twitter.com/ewolff/status/1675060473497104384), [Mastodon](https://mastodon.social/@ewolff/110637915317795741) und [LinkedIn](https://twitter.com/ewolff/status/1675060473497104384). Eine
-Diskussion im [Slack](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw)  gibt es auch - und natürlich steht
+Diskussion im
+[Slack](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw)
+und
+[Schnaq](https://app.schnaq.com/schnaq/4cd901cb-eb6c-4d9b-bb43-330998ac4f31)
+gibt es auch - und natürlich steht 
 auch das Formular auf der Website zur Verfügung.
 
 [Zum Kalendar hinzufügen](termin.ics)
