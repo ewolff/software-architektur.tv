@@ -13,29 +13,6 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Dienstag 2023-07-04 13:15 AUA - Ask Us Anything live von der OOP
-
-Lisa Moritz und Eberhard Wolff melden sich live von der [OOP
-Konferenz](https://www.oop-konferenz.de/) und beantworten Eure
-Fragen - und die Fragen der Personen vor Ort.
-
-Vor Ort: Raum Atlanta
-
-[Zum Kalendar hinzufügen](termin1.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/UwkisRi7g4c"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # Freitag 2023-07-07 13:00 Missverständnisse über Software-Architektur
 
 Selbst Expert:innen diskutieren immer noch, was Software-Architektur
