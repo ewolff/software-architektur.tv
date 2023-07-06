@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2023-07-07 13:00 Missverständnisse über Software-Architektur
+# Freitag 2023-07-07 12:00 Missverständnisse über Software-Architektur
 
 Selbst Expert:innen diskutieren immer noch, was Software-Architektur
 genau ist. Kein Wunder also, dass es viele Missverständnisse darüber
