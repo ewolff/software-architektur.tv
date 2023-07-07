@@ -13,36 +13,22 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2023-07-07 12:00 Missverständnisse über Software-Architektur
+# Freitag 2023-07-14 12:00 Arcards
 
-Selbst Expert:innen diskutieren immer noch, was Software-Architektur
-genau ist. Kein Wunder also, dass es viele Missverständnisse darüber
-gibt, was eine Software-Architektur ausmacht oder wie man eine
-erstellt. In dieser Episode stellt Eberhard einige dieser
-Missverständnissen vor und geht darauf ein, was falsch verstanden
-wurde. Denn ohne diese Missverständnisse kann man als
-Software-Architekt effektiver und effizienter arbeiten.
+Wir spielen Arcards - ein Karten-Spiel rund um Software-Architektur.
 
-Input dazu sammeln wir auf [Twitter](https://twitter.com/ewolff/status/1675060473497104384), [Mastodon](https://mastodon.social/@ewolff/110637915317795741) und [LinkedIn](https://www.linkedin.com/posts/eberhardwolff_softwarearchitecture-activity-7080826231901802497-AdWj). Eine
-Diskussion im
-[Slack](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw)
-und
-[Schnaq](https://app.schnaq.com/schnaq/4cd901cb-eb6c-4d9b-bb43-330998ac4f31)
-gibt es auch - und natürlich steht 
-auch das Formular auf der Website zur Verfügung.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/d3C4-qx01cw"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/d3C4-qx01cw" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
