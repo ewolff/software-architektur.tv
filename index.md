@@ -13,7 +13,7 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2023-07-14 12:00 Arcards
+# Freitag 2023-07-14 14:00 Arcards
 
 Wir spielen Arcards - ein Karten-Spiel rund um Software-Architektur.
 
