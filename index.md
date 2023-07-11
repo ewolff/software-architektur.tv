@@ -13,22 +13,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2023-07-14 14:00 Arcards
+# Freitag 2023-07-14 14:00 Arcards - Ein Spiel um Begriffe aus der Software-Architektur
 
-Wir spielen Arcards - ein Karten-Spiel rund um Software-Architektur.
+Bei dem Kartenspiel Arcards geht es darum, mit den vielen Begriffen
+rund um Software-Architekturen besser zurechtzukommen. In dieser
+Episode werden wir das Spiel nicht nur vorstellen, sondern Markus
+Harrer, Lisa Moritz, Stefan Toth und Eberhard Wolff werden live eine
+Partie spielen. Und das Publikum wird die buchstäblich entscheidende
+Rolle dabei übernehmen - wir freuen uns daher besonders auf viele
+Zuschauer:innen!
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/d3C4-qx01cw" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/FFcquNj4y_g"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 

@@ -20,31 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230702T173137Z
-DESCRIPTION:Selbst Expert:innen diskutieren immer noch\, was Software-Archi
-	tektur genau ist. Kein Wunder also\, dass es viele Missverständnisse dar
-	über gibt\, was eine Software-Architektur ausmacht oder wie man eine erst
-	ellt. In dieser Episode stellt Eberhard einige dieser Missverständnissen 
-	vor und geht darauf ein\, was falsch verstanden wurde. Denn ohne diese Mis
-	sverständnisse kann man als Software-Architekt effektiver und effizienter
-	 arbeiten.\nInput dazu sammeln wir auf\n* Twitter https://twitter.com/ewol
-	ff/status/1675060473497104384\n* Mastodon https://mastodon.social/@ewolff/
-	110637915317795741\n* LinkedIn https://www.linkedin.com/posts/eberhardwolf
-	f_softwarearchitecture-activity-7080826231901802497-AdWj\n* Slack https://
-	join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFst
-	UIqywdZFU3MhAw\n* Formular auf der Website https://software-architektur.tv
-	/\n\nStream	\nhttps://www.youtube.com/watch?v=d3C4-qx01cw\nhttps://www.twi
-	tch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230707T130000
+CREATED:20230711T134305Z
+DESCRIPTION:Bei dem Kartenspiel Arcards geht es darum\, mit den vielen Begr
+	iffen rund um Software-Architekturen besser zurechtzukommen. In dieser Epi
+	sode werden wir das Spiel nicht nur vorstellen\, sondern Markus Harrer\, L
+	isa Moritz\, Stefan Toth und Eberhard Wolff werden live eine Partie spiele
+	n. Und das Publikum wird die buchstäblich entscheidende Rolle dabei über
+	nehmen - wir freuen uns daher besonders auf viele Zuschauer:innen!\n\nStre
+	am	\nhttps://www.youtube.com/watch?v=FFcquNj4y_g\nhttps://www.twitch.tv/eb
+	rwolff\n
+DTEND;TZID="W. Europe Standard Time":20230714T150000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230707T120000
-LAST-MODIFIED:20230702T173137Z
-LOCATION:Stream https://www.youtube.com/watch?v=d3C4-qx01cw https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230714T140000
+LAST-MODIFIED:20230711T134305Z
+LOCATION:Stream https://www.youtube.com/watch?v=FFcquNj4y_g https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Missverständnisse übe
-	r Software-Architektur
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Arcards - Ein Spiel um 
+	Begriffe aus der Software-Architektur\n
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000060373C7B8794D901000000000000000
 	0100000004731F0EE56BBC74EBF984B469508CB90
