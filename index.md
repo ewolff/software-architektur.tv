@@ -15,20 +15,33 @@ stellen.
 
 # Freitag 2023-07-21 12:00 How to Understand Almost Anything mit Markus Völter
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Angenommen, man will ein Softwaresystem bauen, mit dem Mediziner
+Medikamentenstudien beschreiben können, oder Steuerexperten das
+komplette deutsche Steuerrecht "programmieren" können. Was sind die
+richtigen Abstraktionen und Konzepte, um diese Domänen zu beschreiben?
+Das Ziel einer Domänenanalyse ist genau dies: die Abstraktionen zu
+finden, mit denen eine Domäne so präzise beschrieben werden kann, dass
+die damit erstellten Beschreibungen direkt ausführbar sind. In dieser
+Ausgabe von Software Architektur im Stream spricht Eberhard Wolff dazu
+mit Markus Völter. Er hat zu dem Thema kürzlich das Buch “How to
+Understand Almost Anything” geschrieben. Die beiden sprechen darüber,
+wie man bei einer Domänenanalyse vorgeht, und warum man die Idee von
+"ausführbarer Fachlogik" überhaupt verfolgen sollte.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/FFcquNj4y_g" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/w1dV3yhnXhY"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 
