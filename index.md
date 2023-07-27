@@ -13,20 +13,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2023-07-28 12:00 Thema noch offen
+# Freitag 2023-07-28 12:00 Domain-driven Design : Konzepte und Fallstricke
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Premiere meines Vortragsvideos - ich bin im Chat dabei!
 
-<!-- ## Live Stream -->
+Domain-driven Design (DDD) steht für eine Vielzahl an Techniken wie
+strategisches DDD, taktisches DDD und kollaborative
+Modellierung. Dieser Vortrag gibt einen Überblick über das
+DDD-Universum. Dabei stellt er nicht nur die verschiedenen Konzept
+vor. Er zeigt außerdem auch die jeweiligen Vor- und Nachteile der
+Praktiken auf und weist auf die typischen Fallstricke hin - und wie
+man sie vermeiden kann.
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/w1dV3yhnXhY" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/XQ_YfIYJjZo"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 <!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
