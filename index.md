@@ -13,30 +13,28 @@ Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 
-# Freitag 2023-07-28 12:00 Domain-driven Design : Konzepte und Fallstricke
+# Freitag 2023-08-04 12:00 Scrum Master:in und Softwarearchitektur
 
-Premiere meines Vortragsvideos - ich bin im Chat dabei!
+In dieser Episode sprechen Nadine Andraczek, Scrum Master bei Phoenix
+Contact, und Lisa Maria Moritz über die Rolle “Scrum Master”. Was
+steckt eigentlich dahinter, wie sieht der Alltag eines Scrum Masters
+aus? Nadine plaudert aus dem Nähkästchen und gibt euch hilfreiche
+Tipps mit auf den Weg.
 
-Domain-driven Design (DDD) steht für eine Vielzahl an Techniken wie
-strategisches DDD, taktisches DDD und kollaborative
-Modellierung. Dieser Vortrag gibt einen Überblick über das
-DDD-Universum. Dabei stellt er nicht nur die verschiedenen Konzept
-vor. Er zeigt außerdem auch die jeweiligen Vor- und Nachteile der
-Praktiken auf und weist auf die typischen Fallstricke hin - und wie
-man sie vermeiden kann.
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/XQ_YfIYJjZo"
+	src="https://www.youtube-nocookie.com/embed/UOtP1_8Id-s"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
 </div>
 </center>
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 

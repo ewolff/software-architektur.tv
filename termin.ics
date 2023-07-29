@@ -20,30 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230719T155415Z
-DESCRIPTION:Angenommen\, man will ein Softwaresystem bauen\, mit dem Medizi
-	ner Medikamentenstudien beschreiben können\, oder Steuerexperten das komp
-	lette deutsche Steuerrecht "programmieren" können. Was sind die richtigen
-	 Abstraktionen und Konzepte\, um diese Domänen zu beschreiben? Das Ziel e
-	iner Domänenanalyse ist genau dies: die Abstraktionen zu finden\, mit den
-	en eine Domäne so präzise beschrieben werden kann\, dass die damit erste
-	llten Beschreibungen direkt ausführbar sind. In dieser Ausgabe von Softwa
-	re Architektur im Stream spricht Eberhard Wolff dazu mit Markus Völter. E
-	r hat zu dem Thema kürzlich das Buch “How to Understand Almost Anything
-	” geschrieben. Die beiden sprechen darüber\, wie man bei einer Domänen
-	analyse vorgeht\, und warum man die Idee von "ausführbarer Fachlogik" üb
-	erhaupt verfolgen sollte.\nStream	\nhttps://www.youtube.com/watch?v=w1dV3y
-	hnXhY\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230721T130000
+CREATED:20230729T070034Z
+DESCRIPTION:In dieser Episode sprechen Nadine Andraczek\, Scrum Master bei 
+	Phoenix Contact\, und Lisa Maria Moritz über die Rolle “Scrum Master”
+	. Was steckt eigentlich dahinter\, wie sieht der Alltag eines Scrum Master
+	s aus? Nadine plaudert aus dem Nähkästchen und gibt euch hilfreiche Tipp
+	s mit auf den Weg.\n
+DTEND;TZID="W. Europe Standard Time":20230804T130000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230721T120000
-LAST-MODIFIED:20230719T155415Z
-LOCATION:Stream https://www.youtube.com/watch?v=w1dV3yhnXhY https://www.twi
+DTSTART;TZID="W. Europe Standard Time":20230804T120000
+LAST-MODIFIED:20230729T070034Z
+LOCATION:Stream https://www.youtube.com/watch?v=UOtP1_8Id-s https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: How to Understand Almos
-	t Anything mit Markus Völter
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Scrum Master:in und Sof
+	twarearchitektur
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000060373C7B8794D901000000000000000
 	0100000004731F0EE56BBC74EBF984B469508CB90
