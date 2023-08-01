@@ -50,6 +50,12 @@ von [tchncs.de](https://tchncs.de/) ein. Das Unternehmen verpflichtet
 sich, einen hohen Datenschutzstandard nach DS-GVO zu wahren. Die
 Datenschutzhinweise finden Sie [hier](https://tchncs.de/privacy).
 
+# Nutzung von Twitch
+
+Wir verlinken den Live-Stream auf [Twitch](https://twitch.tv). Die
+Datenschutzhinweise finden Sie
+[hier](https://www.twitch.tv/p/de-de/legal/privacy-notice/).
+
 # Nutzung von YouTube
 
 Unsere Webseite nutzt Plugins der von Google betriebenen Seite
