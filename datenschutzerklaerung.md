@@ -49,3 +49,40 @@ Für den integrierten Peertube-Player setzt diese Seite einen Service
 von [tchncs.de](https://tchncs.de/) ein. Das Unternehmen verpflichtet
 sich, einen hohen Datenschutzstandard nach DS-GVO zu wahren. Die
 Datenschutzhinweise finden Sie [hier](https://tchncs.de/privacy).
+
+# Nutzung von YouTube
+
+Unsere Webseite nutzt Plugins der von Google betriebenen Seite
+YouTube, wenn Sie durch Betätigen des OK-Buttons im Cookie-Hinweis
+zugestimmt haben. Betreiber der Seiten ist die YouTube, LLC, 901
+Cherry Ave., San Bruno, CA 94066, USA. Wenn Sie eine unserer mit einem
+YouTube-Plugin ausgestatteten Seiten besuchen und eingebettetes Video
+abspielen, wird eine Verbindung zu den Servern von YouTube hergestellt
+und der Internetbrowser auf Ihrem informationstechnologischen System
+automatisch durch die jeweilige YouTube-Komponente veranlasst, eine
+Darstellung der entsprechenden Komponente von YouTube und Google
+herunterzuladen. Im Rahmen dieses technischen Verfahrens können
+YouTube und Google Komponenten in Ihr System einsetzen, die
+Information über Sie erfassen, unter anderem welche unserer Seiten Sie
+besucht haben. Wir haben keinen Einfluss auf eine Nutzung solcher
+Komponenten durch YouTube und Google LLC und wurde über einen solchen
+potentiellen Einsatz auch nicht informiert. Überdies haben wir keine
+Möglichkeit, den Einsatz solcher Komponenten zu verhindern oder
+abzustellen.
+
+Wenn Sie in Ihrem YouTube-Account eingeloggt sind ermöglichen Sie
+YouTube, Ihr Surfverhalten direkt Ihrem persönlichen Profil
+zuzuordnen. Dies können Sie verhindern, indem Sie sich aus Ihrem
+YouTube-Account ausloggen.
+
+Wir betten Videos von YouTube mit dem „erweiterten Datenschutzmodus“
+ein. Dabei werden die Videos über www.youtube-nocookie.com
+eingebettet.
+
+Außerdem nutzen wir YouTube, um Live Streams und
+einen dazugehörigen Chat anzubieten.
+
+Weitere Informationen zum Umgang von Nutzerdaten finden Sie in der
+Datenschutzerklärung von YouTube unter
+https://www.google.de/intl/de/policies/privacy
+
