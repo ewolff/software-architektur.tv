@@ -82,13 +82,14 @@ zuzuordnen. Dies können Sie verhindern, indem Sie sich aus Ihrem
 YouTube-Account ausloggen.
 
 Wir betten Videos von YouTube mit dem „erweiterten Datenschutzmodus“
-ein. Dabei werden die Videos über www.youtube-nocookie.com
+ein. Dabei werden die Videos über youtube-nocookie.com
 eingebettet.
 
 Außerdem nutzen wir YouTube, um Live Streams und
 einen dazugehörigen Chat anzubieten.
 
 Weitere Informationen zum Umgang von Nutzerdaten finden Sie in der
-Datenschutzerklärung von YouTube unter
-https://www.google.de/intl/de/policies/privacy
+[Datenschutzerklärung von
+YouTube](https://www.google.de/intl/de/policies/privacy).
+
 
