@@ -43,7 +43,7 @@ verpflichtet sich, einen hohen Datenschutzstandard nach DS-GVO zu
 wahren. Die Datenschutzhinweise finden Sie
 [hier](https://www.podcaster.de/privacy).
 
-# Nutzung von Podcaster.de
+# Nutzung von Peertube
 
 Für den integrierten Peertube-Player setzt diese Seite einen Service
 von [tchncs.de](https://tchncs.de/) ein. Das Unternehmen verpflichtet
