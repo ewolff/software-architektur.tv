@@ -12,6 +12,7 @@ Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
+Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 # Freitag 2023-08-04 12:00 Scrum Master:in und Softwarearchitektur
 
