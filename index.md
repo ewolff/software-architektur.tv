@@ -14,13 +14,15 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-08-04 12:00 Scrum Master:in und Softwarearchitektur
+# Freitag 2023-08-11 12:00 Crew Ressource Management - Der Faktor Mensch in der Luftfahrt
 
-In dieser Episode sprechen Nadine Andraczek, Scrum Master bei Phoenix
-Contact, und Lisa Maria Moritz über die Rolle “Scrum Master”. Was
-steckt eigentlich dahinter, wie sieht der Alltag eines Scrum Masters
-aus? Nadine plaudert aus dem Nähkästchen und gibt euch hilfreiche
-Tipps mit auf den Weg.
+Nicht nur in der Software-Architektur spielt der Faktor Mensch eine
+wichtige Rolle: Crew Ressource Management (CRM) stellt die
+Zusammenarbeit aller Beteiligten in den Mittelpunkt, um so die
+Sicherheit im Flugverkehr weiter zu erhöhen. In dieser Folge sprechen
+wir mit dem Fluglehrer Steffen Braasch und dem Piloten Olli darüber,
+was CRM ist, wie man es trainieren kann und welche konkrete Vorteile
+es bringt. Die beiden machen zusammen den Podcast "Come Fly With Us".
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -28,7 +30,7 @@ Tipps mit auf den Weg.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/UOtP1_8Id-s"
+	src="https://www.youtube-nocookie.com/embed/bu0vrBGnRRg"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
