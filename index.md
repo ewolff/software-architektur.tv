@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-08-11 12:00 Crew Ressource Management - Der Faktor Mensch in der Luftfahrt
+# Freitag 2023-08-11 12:00 Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?
 
 Nicht nur in der Software-Architektur spielt der Faktor Mensch eine
 wichtige Rolle: Crew Ressource Management (CRM) stellt die
