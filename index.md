@@ -39,6 +39,28 @@ es bringt. Die beiden machen zusammen den Podcast "Come Fly With Us".
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# Freitag 2023-08-18 12:00 Technical Excellence mit Michael Vitz
+
+In dieser Episode sprechen Michael Vitz, Senior Consultant bei INNOQ
+und Java Champion, und Lisa Maria Moritz über das Thema “Technical
+Excellence”. Sie klären, was sich hinter diesem Begriff verbirgt. Wie
+wichtig ist “Technical Excellence” in unserem Berufsalltag?
+
+[Zum Kalendar hinzufügen](termin1.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/5_fheQEauPQ"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und

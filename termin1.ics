@@ -20,21 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230627T143841Z
-DESCRIPTION:Lisa Moritz und Eberhard Wolff melden sich live von der OOP Kon
-	ferenz https://www.oop-konferenz.de/ und beantworten Eure Fragen - und die
-	 Fragen der Personen vor Ort.\n \nVor Ort:\nRaum Atlanta\n \nStream:\nhttp
-	s://www.youtube.com/watch?v=UwkisRi7g4c <https://www.youtube.com/watch?v=T
-	5Mhad4AtLg> \nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230704T134500
+CREATED:20230810T105647Z
+DESCRIPTION:In dieser Episode sprechen Michael Vitz\, Senior Consultant bei
+	 INNOQ und Java Champion\, und Lisa Maria Moritz über das Thema “Techni
+	cal Excellence”. Sie klären\, was sich hinter diesem Begriff verbirgt. 
+	Wie wichtig ist “Technical Excellence” in unserem Berufsalltag?\n\nStr
+	eam:\nhttps://www.youtube.com/watch?v=5_fheQEauPQ\nhttps://www.twitch.tv/e
+	brwolff\n
+DTEND;TZID="W. Europe Standard Time":20230818T130000
 DTSTAMP:20230424T071614Z
-DTSTART;TZID="W. Europe Standard Time":20230704T131500
-LAST-MODIFIED:20230627T143841Z
-LOCATION:https://www.youtube.com/watch?v=UwkisRi7g4c https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20230818T120000
+LAST-MODIFIED:20230810T105647Z
+LOCATION:https://www.youtube.com/watch?v=5_fheQEauPQ https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: AUA - Ask Us Anything
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Technical Excellence mi
+	t Michael Vitz
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E008000000003085C6188D76D901000000000000000
 	010000000BEF25B72A935D844AE910E6CA831CF66
