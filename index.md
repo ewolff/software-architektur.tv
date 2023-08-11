@@ -14,31 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-08-11 12:00 Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?
-
-Nicht nur in der Software-Architektur spielt der Faktor Mensch eine
-wichtige Rolle: Crew Ressource Management (CRM) stellt die
-Zusammenarbeit aller Beteiligten in den Mittelpunkt, um so die
-Sicherheit im Flugverkehr weiter zu erhöhen. In dieser Folge sprechen
-wir mit dem Fluglehrer Steffen Braasch und dem Piloten Olli darüber,
-was CRM ist, wie man es trainieren kann und welche konkrete Vorteile
-es bringt. Die beiden machen zusammen den Podcast "Come Fly With Us".
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/bu0vrBGnRRg"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # Freitag 2023-08-18 12:00 Technical Excellence mit Michael Vitz
 
 In dieser Episode sprechen Michael Vitz, Senior Consultant bei INNOQ
