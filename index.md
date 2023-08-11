@@ -40,6 +40,8 @@ wichtig ist “Technical Excellence” in unserem Berufsalltag?
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
 Interaktionen.
+Es gibt auch eine
+[LinkedIn-Gruppe](https://www.linkedin.com/groups/12879027/).
 Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
 YouTube-Chat, per
 [Twitter](https://twitter.com/ewolff),
@@ -48,6 +50,8 @@ hier:
 
 The [Slack workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) is an opportunity to ask questions and
 interact.
+There is also a [LinkedIn
+group](https://www.linkedin.com/groups/12879027/).
 Questions and discussion are also welcome in the Twitch chat or the
 YouTube chat, via [Twitter](https://twitter.com/ewolff),
 [Mastodon](https://mastodon.social/web/@ewolff), or
