@@ -14,30 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Dienstag 2023-08-22 17:30 Software-Architektur-Kickstart Schnupper-Webinar
+# Freitag 2023-09-01 12:00 Thema noch offen
 
-Das Workshop-Format „Softwarearchitektur-Kickstart" steht ganz im
-Zeichen von „Learning by Doing". Die Teilnehmer:innen bekommen
-theoretischen Input und setzen diesen anhand beispielhafter Szenarien
-direkt um. Wer im Training eine Technik bereits eingesetzt hat, wird
-sie nämlich später in der Praxis im Projekt auch eher produktiv
-verwenden. Und genau darauf kommt es an, wenn man den Erfolg einer
-Weiterbildung bewerten will.
+[Zum Kalendar hinzufügen](termin1.ics)
 
-Um euch den Workshop vorzustellen, lädt Eberhard euch zum interaktiven
-Software-Architektur-Kickstart Schnupper-Webinar per Zoom ein. Als
-Appetizer greifen wir uns eine praktische Übung aus dem Workshop
-heraus und bearbeiten sie gemeinsam. Im Anschluss diskutieren wir die
-Inhalte des Workshops und eure Fragen.
+<!-- ## Live Stream -->
 
-Registriert Euch [**hier**](https://zoom.us/meeting/register/tJctc-GrqTksG9EX72HiznEcaCQwcuWf4AFa)!
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/5_fheQEauPQ" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-<a href="https://zoom.us/meeting/register/tJctc-GrqTksG9EX72HiznEcaCQwcuWf4AFa">
-![Thumbnail Software-Architektur-Kickstart Schnupper-Webinar](schnupper_kickstart.png)
-</a>
-
-[Registrierung für das Zoom-Meeting](https://zoom.us/meeting/register/tJctc-GrqTksG9EX72HiznEcaCQwcuWf4AFa)
-
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 
