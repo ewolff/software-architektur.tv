@@ -14,20 +14,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-09-01 12:00 Thema noch offen
+# Freitag 2023-09-01 13:00 Software-Architektur = Abhängigkeiten Managen?
 
-[Zum Kalendar hinzufügen](termin1.ics)
+Wesentlicher Teil der Software-Architektur ist die Strukturierung
+großer Systeme in kleinere Module. Wichtig sind dabei vor allem die
+Abhängigkeiten der Module  untereinander, um bei Änderungen die
+Auswirkungen auf andere Module unter Kontrolle zu halten. Also scheint
+das Entwickeln einer Software-Architektur vor allem aus dem Managen
+von Abhängigkeiten zu bestehen. In dieser Episode diskutiert Eberhard,
+was Abhängigkeiten überhaupt sind, wie man mit ihnen umgeht und ob sie
+tatsächlich so zentral für Software-Architektur sind.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/5_fheQEauPQ" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/kmV0r5_oUh0"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
