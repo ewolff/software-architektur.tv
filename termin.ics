@@ -20,25 +20,21 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230828T123305Z
-DESCRIPTION:Wesentlicher Teil der Software-Architektur ist die Strukturieru
-	ng großer Systeme in kleinere Module. Wichtig sind dabei vor allem die Ab
-	hängigkeiten der Module  untereinander\, um bei Änderungen die Auswirkun
-	gen auf andere Module unter Kontrolle zu halten. Also scheint das Entwicke
-	ln einer Software-Architektur vor allem aus dem Managen von Abhängigkeite
-	n zu bestehen. In dieser Episode diskutiert Eberhard\, was Abhängigkeiten
-	 überhaupt sind\, wie man mit ihnen umgeht und ob sie tatsächlich so zen
-	tral für Software-Architektur sind.\n
-DTEND;TZID="W. Europe Standard Time":20230901T140000
+CREATED:20230901T160146Z
+DESCRIPTION:In dieser Episode sprechen Michael Vitz\, Senior Consultant bei
+	 INNOQ und Java Champion\, und Lisa Maria Moritz über das Thema “Engine
+	ering Excellence”. Sie klären\, was sich hinter diesem Begriff verbirgt
+	. Wie wichtig ist “Engineering Excellence” in unserem Berufsalltag?\n
+DTEND;TZID="W. Europe Standard Time":20230915T140000
 DTSTAMP:20210329T160737Z
-DTSTART;TZID="W. Europe Standard Time":20230901T130000
-LAST-MODIFIED:20230828T123305Z
+DTSTART;TZID="W. Europe Standard Time":20230915T130000
+LAST-MODIFIED:20230901T160146Z
 LOCATION:Stream https://www.youtube.com/watch?v=kmV0r5_oUh0 https://www.twi
 	tch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Software-Architektur = 
-	Abhängigkeiten Managen?\n
+SUMMARY;LANGUAGE=de:Software Architektur im Stream: Engineering Excellence 
+	mit Michael Vitz
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000060373C7B8794D901000000000000000
 	0100000004731F0EE56BBC74EBF984B469508CB90
