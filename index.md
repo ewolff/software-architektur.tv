@@ -14,12 +14,12 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-09-15 13:00 Engineering Excellence mit Michael Vitz
+# Freitag 2023-09-15 13:00 Technical Excellence mit Michael Vitz
 
 In dieser Episode sprechen Michael Vitz, Senior Consultant bei INNOQ
-und Java Champion, und Lisa Maria Moritz über das Thema “Engineering
+und Java Champion, und Lisa Maria Moritz über das Thema “Technical
 Excellence”. Sie klären, was sich hinter diesem Begriff verbirgt. Wie
-wichtig ist “Engineering Excellence” in unserem Berufsalltag?
+wichtig ist “Technical Excellence” in unserem Berufsalltag?
 
 [Zum Kalendar hinzufügen](termin.ics)
 
