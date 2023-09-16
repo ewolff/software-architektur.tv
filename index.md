@@ -14,24 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-09-15 13:00 Engineering Excellence mit Michael Vitz
+# Nächste Episode: Noch offen
 
-In dieser Episode sprechen Michael Vitz, Senior Consultant bei INNOQ
-und Java Champion, und Lisa Maria Moritz über das Thema “Engineering
-Excellence”. Sie klären, was sich hinter diesem Begriff verbirgt. Wie
-wichtig ist “Engineering Excellence” in unserem Berufsalltag?
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/w9EmDTbw6aE"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- ## Live Stream -->
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/w9EmDTbw6aE" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
