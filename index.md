@@ -14,19 +14,53 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Noch offen
+# Donnerstag, 28.9. 13:15 Michael Plöd Misserfolge und Lehren aus der Anwendung von DDD - live von der BED-Con
+
+Domain-Driven Design ist kein Patentrezept und löst kein Problem auf
+magische Weise. Die Herausforderungen und die Komplexität, die wir mit
+DDD zu bewältigen versuchen, sind schwierig und es gibt keinen
+einfachen Lösungsansatz. Michael Plöd arbeitet seit 17 Jahren mit
+Domain-Driven Design an vielen Softwaresystemen. In diesem Stream
+wollen wir über seine Erfahrungen mit dem Scheitern. Das gibt uns
+allen die Gelegenheit, aus diesen Fehlern zu lernen. Michael hält über
+dieses Thema auch einen Vortrag auf der BED-Con.
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-<!-- ## Live Stream -->
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/w9EmDTbw6aE" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/NOuhbkI1iI4"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+# Freitag, 29.9. 11:00 Thomas Ruhroth, Kai Schmidt: Technologieauswahl für wartbare Projekte - live von der BED-Con
+
+Domain-Driven Design ist kein Patentrezept und löst kein Problem auf
+magische Weise. Die Herausforderungen und die Komplexität, die wir mit
+DDD zu bewältigen versuchen, sind schwierig und es gibt keinen
+einfachen Lösungsansatz. Michael Plöd arbeitet seit 17 Jahren mit
+Domain-Driven Design an vielen Softwaresystemen. In diesem Stream
+wollen wir über seine Erfahrungen mit dem Scheitern. Das gibt uns
+allen die Gelegenheit, aus diesen Fehlern zu lernen. Michael hält über
+dieses Thema auch einen Vortrag auf der BED-Con.
+
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+
+## Live Stream
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/IawXrg8fDmY"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
