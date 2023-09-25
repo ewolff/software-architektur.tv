@@ -41,14 +41,16 @@ dieses Thema auch einen Vortrag auf der BED-Con.
 
 # Freitag, 29.9. 11:00 Thomas Ruhroth, Kai Schmidt: Technologieauswahl für wartbare Projekte - live von der BED-Con
 
-Domain-Driven Design ist kein Patentrezept und löst kein Problem auf
-magische Weise. Die Herausforderungen und die Komplexität, die wir mit
-DDD zu bewältigen versuchen, sind schwierig und es gibt keinen
-einfachen Lösungsansatz. Michael Plöd arbeitet seit 17 Jahren mit
-Domain-Driven Design an vielen Softwaresystemen. In diesem Stream
-wollen wir über seine Erfahrungen mit dem Scheitern. Das gibt uns
-allen die Gelegenheit, aus diesen Fehlern zu lernen. Michael hält über
-dieses Thema auch einen Vortrag auf der BED-Con.
+Oft ist Technologieauswahl ein Streitpunkt. Bei den Argumenten zu
+Techstacks werden oft unbewiesene Theorien aufgestellt, was nun am
+besten sei. Der Techstack stellt für eine lange Wartbarkeit eine
+entscheidende Rolle. Ein weiteres Thema ist der Zusammenhang zwischen
+Technologien und deren Nutzung im Programm. So erlauben es nicht alle
+Lizenzen, eine Bibliothek in eine geshadete Fat-Jar zu stellen. Thomas
+Ruhroth und Kai Schmidt werden die verschiedenen Herausforderungen
+aufzeigen und diskutieren, wie man Frameworks, Bibliotheken und Tools
+bewerten kann. Thomas und Kai halten zu dem Thema einen Vortrag auf
+der BED-Con.
 
 [Zum Kalendar hinzufügen](termin1.ics)
 

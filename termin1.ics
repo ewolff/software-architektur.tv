@@ -20,20 +20,21 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230925T094823Z
-DESCRIPTION:Domain-Driven Design ist kein Patentrezept und löst kein Probl
-	em auf magische Weise. Die Herausforderungen und die Komplexität\, die wi
-	r mit DDD zu bewältigen versuchen\, sind schwierig und es gibt keinen ein
-	fachen Lösungsansatz. Michael Plöd arbeitet seit 17 Jahren mit Domain-Dr
-	iven Design an vielen Softwaresystemen. In diesem Stream wollen wir über 
-	seine Erfahrungen mit dem Scheitern. Das gibt uns allen die Gelegenheit\, 
-	aus diesen Fehlern zu lernen. Michael hält über dieses Thema auch einen 
-	Vortrag auf der BED-Con.\nhttps://youtu.be/IawXrg8fDmY https://www.twitch.
-	tv/ebrwolff\n
+CREATED:20230925T175325Z
+DESCRIPTION:Oft ist Technologieauswahl ein Streitpunkt. Bei den Argumenten 
+	zu Techstacks werden oft unbewiesene Theorien aufgestellt\, was nun am bes
+	ten sei. Der Techstack stellt für eine lange Wartbarkeit eine entscheiden
+	de Rolle. Ein weiteres Thema ist der Zusammenhang zwischen Technologien un
+	d deren Nutzung im Programm. So erlauben es nicht alle Lizenzen\, eine Bib
+	liothek in eine geshadete Fat-Jar zu stellen. Thomas Ruhroth und Kai Schmi
+	dt werden die verschiedenen Herausforderungen aufzeigen und diskutieren\, 
+	wie man Frameworks\, Bibliotheken und Tools bewerten kann. Thomas und Kai 
+	halten zu dem Thema einen Vortrag auf der BED-Con.\nhttps://youtu.be/IawXr
+	g8fDmY https://www.twitch.tv/ebrwolff\n
 DTEND;TZID="W. Europe Standard Time":20230929T120000
 DTSTAMP:20230925T094823Z
 DTSTART;TZID="W. Europe Standard Time":20230929T110000
-LAST-MODIFIED:20230925T094823Z
+LAST-MODIFIED:20230925T175325Z
 LOCATION:https://youtu.be/IawXrg8fDmY https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
