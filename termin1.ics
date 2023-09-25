@@ -20,30 +20,37 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230810T105647Z
-DESCRIPTION:In dieser Episode sprechen Michael Vitz\, Senior Consultant bei
-	 INNOQ und Java Champion\, und Lisa Maria Moritz über das Thema “Techni
-	cal Excellence”. Sie klären\, was sich hinter diesem Begriff verbirgt. 
-	Wie wichtig ist “Technical Excellence” in unserem Berufsalltag?\n\nStr
-	eam:\nhttps://www.youtube.com/watch?v=5_fheQEauPQ\nhttps://www.twitch.tv/e
-	brwolff\n
-DTEND;TZID="W. Europe Standard Time":20230818T130000
-DTSTAMP:20230424T071614Z
-DTSTART;TZID="W. Europe Standard Time":20230818T120000
-LAST-MODIFIED:20230810T105647Z
-LOCATION:https://www.youtube.com/watch?v=5_fheQEauPQ https://www.twitch.tv/
-	ebrwolff
+CREATED:20230925T094823Z
+DESCRIPTION:Domain-Driven Design ist kein Patentrezept und löst kein Probl
+	em auf magische Weise. Die Herausforderungen und die Komplexität\, die wi
+	r mit DDD zu bewältigen versuchen\, sind schwierig und es gibt keinen ein
+	fachen Lösungsansatz. Michael Plöd arbeitet seit 17 Jahren mit Domain-Dr
+	iven Design an vielen Softwaresystemen. In diesem Stream wollen wir über 
+	seine Erfahrungen mit dem Scheitern. Das gibt uns allen die Gelegenheit\, 
+	aus diesen Fehlern zu lernen. Michael hält über dieses Thema auch einen 
+	Vortrag auf der BED-Con.\nhttps://youtu.be/IawXrg8fDmY https://www.twitch.
+	tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20230929T120000
+DTSTAMP:20230925T094823Z
+DTSTART;TZID="W. Europe Standard Time":20230929T110000
+LAST-MODIFIED:20230925T094823Z
+LOCATION:https://youtu.be/IawXrg8fDmY https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur im Stream: Technical Excellence mi
-	t Michael Vitz
+SUMMARY;LANGUAGE=de:Thomas Ruhroth\, Kai Schmidt: Technologieauswahl für w
+	artbare Projekte - live von der BED-Con
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E008000000003085C6188D76D901000000000000000
-	010000000BEF25B72A935D844AE910E6CA831CF66
+UID:040000008200E00074C5B7101A82E00800000000E0AB2295A5EFD901000000000000000
+	010000000AC8862071ED7654D9FC161A3AE7E1698
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
 END:VEVENT
 END:VCALENDAR

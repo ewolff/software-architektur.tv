@@ -25,7 +25,7 @@ wollen wir über seine Erfahrungen mit dem Scheitern. Das gibt uns
 allen die Gelegenheit, aus diesen Fehlern zu lernen. Michael hält über
 dieses Thema auch einen Vortrag auf der BED-Con.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 <center>
@@ -50,7 +50,7 @@ wollen wir über seine Erfahrungen mit dem Scheitern. Das gibt uns
 allen die Gelegenheit, aus diesen Fehlern zu lernen. Michael hält über
 dieses Thema auch einen Vortrag auf der BED-Con.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin1.ics)
 
 ## Live Stream
 <center>
