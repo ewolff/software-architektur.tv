@@ -14,30 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag, 29.9. 11:00 Thomas Ruhroth, Kai Schmidt: Technologieauswahl für wartbare Projekte - live von der BED-Con
+# Nächste Folge: Offen
 
-Oft ist Technologieauswahl ein Streitpunkt. Bei den Argumenten zu
-Techstacks werden oft unbewiesene Theorien aufgestellt, was nun am
-besten sei. Der Techstack stellt für eine lange Wartbarkeit eine
-entscheidende Rolle. Ein weiteres Thema ist der Zusammenhang zwischen
-Technologien und deren Nutzung im Programm. So erlauben es nicht alle
-Lizenzen, eine Bibliothek in eine geshadete Fat-Jar zu stellen. Thomas
-Ruhroth und Kai Schmidt werden die verschiedenen Herausforderungen
-aufzeigen und diskutieren, wie man Frameworks, Bibliotheken und Tools
-bewerten kann. Thomas und Kai halten zu dem Thema einen Vortrag auf
-der BED-Con.
-
-[Zum Kalendar hinzufügen](termin1.ics)
+<!-- [Zum Kalendar hinzufügen](termin1.ics) -->
 
 ## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/IawXrg8fDmY"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/IawXrg8fDmY" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
