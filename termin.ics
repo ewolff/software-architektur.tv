@@ -20,25 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230925T094329Z
-DESCRIPTION:Domain-Driven Design ist kein Patentrezept und löst kein Probl
-	em auf magische Weise. Die Herausforderungen und die Komplexität\, die wi
-	r mit DDD zu bewältigen versuchen\, sind schwierig und es gibt keinen ein
-	fachen Lösungsansatz. Michael Plöd arbeitet seit 17 Jahren mit Domain-Dr
-	iven Design an vielen Softwaresystemen. In diesem Stream wollen wir über 
-	seine Erfahrungen mit dem Scheitern. Das gibt uns allen die Gelegenheit\, 
-	aus diesen Fehlern zu lernen. Michael hält über dieses Thema auch einen 
-	Vortrag auf der BED-Con.\nhttps://youtu.be/NOuhbkI1iI4 https://www.twitch.
-	tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230928T141500
+CREATED:20231004T215713Z
+DESCRIPTION:Oft wird Software immer schlechter wartbar\, je länger Entwick
+	lungsteams an ihr arbeiten. Dazu hat sich die Metapher “technische Schul
+	den” etabliert. Aber es ist nicht immer sinnvoll\, technische Schulden z
+	u beseitigen und sie können auch “einfach so” entstehen. Darum geht e
+	s in diesem Vortrag - und über die Grundlagen der Metapher\, wie sie bei 
+	der Kommunikation mit Managern hilf\, warum die Metapher eigentlich nicht 
+	besonders gut gewählt ist und natürlich wie man mit technischen Schulden
+	 sinnvoll umgehen kann.\n\nDiese Episode wird ein Video eines Vortrags sei
+	n\, dass Freitag als Instant Premiere bei YouTube live geht. Ich werde im 
+	Chat dabei sein und dann gerne Fragen beantworten.\nhttps://www.youtube.co
+	m/watch?v=W-sFLMr01uI\n
+DTEND;TZID="W. Europe Standard Time":20231006T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20230928T131500
-LAST-MODIFIED:20230925T094329Z
-LOCATION:https://youtu.be/NOuhbkI1iI4 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20231006T130000
+LAST-MODIFIED:20231004T215713Z
+LOCATION:https://www.youtube.com/watch?v=W-sFLMr01uI 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software-Architektur im Stream: Michael Plöd Misserfol
-	ge und Lehren aus der Anwendung von DDD - live von der BED-Con
+SUMMARY;LANGUAGE=de:Technische Schulden: Software langfristig weiterentwick
+	eln (Instant Premiere)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
@@ -47,10 +49,5 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 END:VCALENDAR

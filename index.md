@@ -14,22 +14,35 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: Offen
+# Nächste Folge: 6.10. 13:00 Technische Schulden: Software langfristig weiterentwickeln
 
-<!-- [Zum Kalendar hinzufügen](termin1.ics) -->
+Oft wird Software immer schlechter wartbar, je länger
+Entwicklungsteams an ihr arbeiten. Dazu hat sich die Metapher
+“technische Schulden” etabliert. Aber es ist nicht immer sinnvoll,
+technische Schulden zu beseitigen und sie können auch “einfach so”
+entstehen. Darum geht es in diesem Vortrag - und über die Grundlagen
+der Metapher, wie sie bei der Kommunikation mit Managern hilf, warum
+die Metapher eigentlich nicht besonders gut gewählt ist und natürlich
+wie man mit technischen Schulden sinnvoll umgehen kann.
+
+Diese Episode wird ein Video eines Vortrags sein, dass Freitag als
+Instant Premiere bei YouTube live geht. Ich werde im Chat dabei sein
+und dann gerne Fragen beantworten.
+
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/IawXrg8fDmY" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/W-sFLMr01uI"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 # Fragen & Diskussion  / Question & Discussion
 
