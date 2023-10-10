@@ -20,27 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231004T215713Z
-DESCRIPTION:Oft wird Software immer schlechter wartbar\, je länger Entwick
-	lungsteams an ihr arbeiten. Dazu hat sich die Metapher “technische Schul
-	den” etabliert. Aber es ist nicht immer sinnvoll\, technische Schulden z
-	u beseitigen und sie können auch “einfach so” entstehen. Darum geht e
-	s in diesem Vortrag - und über die Grundlagen der Metapher\, wie sie bei 
-	der Kommunikation mit Managern hilf\, warum die Metapher eigentlich nicht 
-	besonders gut gewählt ist und natürlich wie man mit technischen Schulden
-	 sinnvoll umgehen kann.\n\nDiese Episode wird ein Video eines Vortrags sei
-	n\, dass Freitag als Instant Premiere bei YouTube live geht. Ich werde im 
-	Chat dabei sein und dann gerne Fragen beantworten.\nhttps://www.youtube.co
-	m/watch?v=W-sFLMr01uI\n
+CREATED:20231010T094208Z
+DESCRIPTION:Usually\, this is not an easy question to answer. The answer de
+	pends on a lot of different factors\, including future factors you may not
+	 be aware of - yet. We will discuss this with Bert Jan Schrijver. He will 
+	share his experiences and thought process as a developer and software arch
+	itect with choosing between generic and specific solutions.\n\nBert Jan wi
+	ll also talk about this subject at the Software Architecture Gathering htt
+	ps://conferences.isaqb.org/software-architecture-gathering/ . Use code SW_
+	ARCHITEKTUR_TV_15 for 15% off!\n\nhttps://youtu.be/eJlRttUDrog https://www
+	.twitch.tv/ebrwolff\n
 DTEND;TZID="W. Europe Standard Time":20231006T140000
 DTSTAMP:20230925T094329Z
 DTSTART;TZID="W. Europe Standard Time":20231006T130000
-LAST-MODIFIED:20231004T215713Z
-LOCATION:https://www.youtube.com/watch?v=W-sFLMr01uI 
+LAST-MODIFIED:20231010T094208Z
+LOCATION:https://youtu.be/eJlRttUDrog https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Technische Schulden: Software langfristig weiterentwick
-	eln (Instant Premiere)
+SUMMARY;LANGUAGE=de:Bert Jan Schrijvers about Generic or Specific? Software
+	 Architektur im Stream
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601

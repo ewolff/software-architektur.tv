@@ -16,20 +16,31 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 # Nächste Folge: 13.10. 13:00 Bert Jan Schrijvers about Generic or Specific?
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Usually, this is not an easy question to answer. The answer depends on
+a lot of different factors, including future factors you may not be
+aware of - yet. We will discuss this with Bert Jan Schrijver. He will
+share his experiences and thought process as a developer and software
+architect with choosing between generic and specific solutions.
 
-<!-- ## Live Stream -->
+Bert Jan will also talk about this subject at the [Software
+Architecture
+Gathering](https://conferences.isaqb.org/software-architecture-gathering/). Use
+code SW_ARCHITEKTUR_TV_15 for 15% off!
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/W-sFLMr01uI" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/eJlRttUDrog"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 # Fragen & Diskussion  / Question & Discussion
 
