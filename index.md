@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: 13.10. 13:00 Bert Jan Schrijvers about Generic or Specific?
+# Nächste Folge: 13.10. 13:00 Bert Jan Schrijver about Generic or Specific?
 
 Usually, this is not an easy question to answer. The answer depends on
 a lot of different factors, including future factors you may not be
