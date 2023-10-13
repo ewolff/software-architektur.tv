@@ -14,33 +14,33 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: 13.10. 13:00 Bert Jan Schrijver about Generic or Specific?
+# Nächste Folge: Noch offen
 
-Usually, this is not an easy question to answer. The answer depends on
-a lot of different factors, including future factors you may not be
-aware of - yet. We will discuss this with Bert Jan Schrijver. He will
-share his experiences and thought process as a developer and software
-architect with choosing between generic and specific solutions.
+<!-- Usually, this is not an easy question to answer. The answer depends on -->
+<!-- a lot of different factors, including future factors you may not be -->
+<!-- aware of - yet. We will discuss this with Bert Jan Schrijver. He will -->
+<!-- share his experiences and thought process as a developer and software -->
+<!-- architect with choosing between generic and specific solutions. -->
 
-Bert Jan will also talk about this subject at the [Software
-Architecture
-Gathering](https://conferences.isaqb.org/software-architecture-gathering/). Use
-code SW_ARCHITEKTUR_TV_15 for 15% off!
+<!-- Bert Jan will also talk about this subject at the [Software -->
+<!-- Architecture -->
+<!-- Gathering](https://conferences.isaqb.org/software-architecture-gathering/). Use -->
+<!-- code SW_ARCHITEKTUR_TV_15 for 15% off! -->
 
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/eJlRttUDrog"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- ## Live Stream -->
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/eJlRttUDrog" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 # Fragen & Diskussion  / Question & Discussion
 
