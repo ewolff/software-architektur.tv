@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231010T094208Z
-DESCRIPTION:Usually\, this is not an easy question to answer. The answer de
-	pends on a lot of different factors\, including future factors you may not
-	 be aware of - yet. We will discuss this with Bert Jan Schrijver. He will 
-	share his experiences and thought process as a developer and software arch
-	itect with choosing between generic and specific solutions.\n\nBert Jan wi
-	ll also talk about this subject at the Software Architecture Gathering htt
-	ps://conferences.isaqb.org/software-architecture-gathering/ . Use code SW_
-	ARCHITEKTUR_TV_15 for 15% off!\n\nhttps://youtu.be/eJlRttUDrog https://www
-	.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20231006T140000
+CREATED:20231017T083300Z
+DESCRIPTION:A vital aspect of modern software engineering is to align organ
+	izational structures with software architectures to enhance performance. W
+	ith his extensive experience from Avvo\, Spotify\, Adobe\, and Microsoft\,
+	 Kevin will discuss the relation between organization and architecture wit
+	h us. We will not just talk about Conway’s Law but also other aspects li
+	ke the Homomorphic Force or the Mirroring Hypothesis.\n\nKevin Goldsmith w
+	ill also talk about this subject at the Software Architecture Gathering ht
+	tps://conferences.isaqb.org/software-architecture-gathering/ . Use code SW
+	_ARCHITEKTUR_TV_15 for 15% off!\n\nhttps://youtu.be/8L22x1OuDT8 https://ww
+	w.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20231018T200000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20231006T130000
-LAST-MODIFIED:20231010T094208Z
-LOCATION:https://youtu.be/eJlRttUDrog https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20231018T190000
+LAST-MODIFIED:20231017T083300Z
+LOCATION:https://youtu.be/8L22x1OuDT8 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Bert Jan Schrijvers about Generic or Specific? Software
+SUMMARY;LANGUAGE=de:Kevin Goldsmith: Architecture and Organization Software
 	 Architektur im Stream
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
