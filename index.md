@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Next Episode: Wednesday 2023-10-18 19 CEST Kevin Goldsmith Architecture and Organization
+# Next Episode: Wednesday 2023-10-18 19:00 CEST Kevin Goldsmith Architecture and Organization
 
 A vital aspect of modern software engineering is to align
 organizational structures with software architectures to enhance
@@ -42,6 +42,29 @@ code SW_ARCHITEKTUR_TV_15 for 15% off!
 </center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
+
+# Freitag 2023-10-20 13:00 CEST Funktionale Architektur: Ein konkretes Beispiel mit Mike Sperber
+
+Anhand der iSAQB-Beispielaufgabe zeigt uns Mike Sperber, wie man ein
+System funktional umsetzen kann und welche Architektur sich dabei
+ergibt. So können wir das Vorgehen beim Entwurf einer funktionalen
+Architektur nachvollziehen und mit dem Vorgehen bei einem
+imperativ-objekt-orientierten Ansatz vergleichen.
+
+[Zum Kalendar hinzufügen](termin1.ics)
+
+## Live Stream
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/dgJsmflJKpI"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 
 # Fragen & Diskussion  / Question & Discussion
 

@@ -20,26 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230925T175325Z
-DESCRIPTION:Oft ist Technologieauswahl ein Streitpunkt. Bei den Argumenten 
-	zu Techstacks werden oft unbewiesene Theorien aufgestellt\, was nun am bes
-	ten sei. Der Techstack stellt für eine lange Wartbarkeit eine entscheiden
-	de Rolle. Ein weiteres Thema ist der Zusammenhang zwischen Technologien un
-	d deren Nutzung im Programm. So erlauben es nicht alle Lizenzen\, eine Bib
-	liothek in eine geshadete Fat-Jar zu stellen. Thomas Ruhroth und Kai Schmi
-	dt werden die verschiedenen Herausforderungen aufzeigen und diskutieren\, 
-	wie man Frameworks\, Bibliotheken und Tools bewerten kann. Thomas und Kai 
-	halten zu dem Thema einen Vortrag auf der BED-Con.\nhttps://youtu.be/IawXr
-	g8fDmY https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20230929T120000
+CREATED:20231017T161644Z
+DESCRIPTION:Anhand der iSAQB-Beispielaufgabe zeigt uns Mike Sperber\, wie m
+	an ein System funktional umsetzen kann und welche Architektur sich dabei e
+	rgibt. So können wir das Vorgehen beim Entwurf einer funktionalen Archite
+	ktur nachvollziehen und mit dem Vorgehen bei einem imperativ-objekt-orient
+	ierten Ansatz vergleichen.\nhttps://www.youtube.com/watch?v=dgJsmflJKpI ht
+	tps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20231020T140000
 DTSTAMP:20230925T094823Z
-DTSTART;TZID="W. Europe Standard Time":20230929T110000
-LAST-MODIFIED:20230925T175325Z
-LOCATION:https://youtu.be/IawXrg8fDmY https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20231020T130000
+LAST-MODIFIED:20231017T161644Z
+LOCATION:https://www.youtube.com/watch?v=dgJsmflJKpI https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Thomas Ruhroth\, Kai Schmidt: Technologieauswahl für w
-	artbare Projekte - live von der BED-Con
+SUMMARY;LANGUAGE=de:Funktionale Architektur: Ein konkretes Beispiel mit Mik
+	e Sperber
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0AB2295A5EFD901000000000000000
 	010000000AC8862071ED7654D9FC161A3AE7E1698
@@ -48,10 +45,5 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MS-OLK-AUTOFILLLOCATION:FALSE
 X-MS-OLK-CONFTYPE:0
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 END:VCALENDAR
