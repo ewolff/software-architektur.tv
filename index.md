@@ -14,35 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Next Episode: Wednesday 2023-10-18 19:00 CEST Kevin Goldsmith Architecture and Organization
-
-A vital aspect of modern software engineering is to align
-organizational structures with software architectures to enhance
-performance. With his extensive experience from Avvo, Spotify, Adobe,
-and Microsoft, Kevin will discuss the relation between organization
-and architecture with us. We will not just talk about Conway’s Law but
-also other aspects like the Homomorphic Force or the Mirroring
-Hypothesis.
-
-Kevin Goldsmith will also talk about this subject at the [Software
-Architecture
-Gathering](https://conferences.isaqb.org/software-architecture-gathering/). Use
-code SW_ARCHITEKTUR_TV_15 for 15% off!
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/8L22x1OuDT8"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # Freitag 2023-10-20 13:00 CEST Funktionale Architektur: Ein konkretes Beispiel mit Mike Sperber
 
 Anhand der iSAQB-Beispielaufgabe zeigt uns Mike Sperber, wie man ein
