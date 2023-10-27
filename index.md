@@ -14,31 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-10-27 13:00 Software-Architektur: Inspiration von anderen Branchen
+# Freitag 2023-11-03 13:00 Thema noch offen
 
-Software-Entwicklung und Software-Architektur scheinen ganz eigene
-Themen zu sein. Schließlich gehört Software zu dem Kompliziertesten,
-was Menschen überhaupt erschaffen haben, und sie ist immateriell. Was
-soll man also von anderen Branchen lernen können, die solche
-Herausforderungen nicht haben? In dieser Episode wollen wir dennoch
-schauen, was wir von anderen Branchen lernen können. Schließlich gab
-es bei Software-Architektur im Stream eine Episode über
-[Auftragstaktik](https://software-architektur.tv/2022/11/04/folge141.html)
-und eine über [Crew Ressource
-Management](https://software-architektur.tv/2023/08/11/folge178.html) -
-aber was bedeutet das für Software-Architektur ganz konkret?
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/bBOBqXKPSiY"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- ## Live Stream -->
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/bBOBqXKPSiY" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
