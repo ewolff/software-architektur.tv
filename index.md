@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-11-03 13:00 Software Architektur: Das Gute und das Schlechte - eine 17 jährige Odysse mit  Rakia Ben Sassi
+# Freitag 2023-11-03 13:00 Software Architektur: Das Gute und das Schlechte - eine 17 jährige Odyssee mit  Rakia Ben Sassi
 
 Das Erstellen von Software ist sowohl eine Kunst als auch eine
 Wissenschaft. Auf meiner 17-jährigen Reise in die Welt der
