@@ -14,32 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2023-11-03 13:00 Software Architektur: Das Gute und das Schlechte - eine 17 jährige Odyssee mit  Rakia Ben Sassi
+# Nächste Folge: Noch offen
 
-Das Erstellen von Software ist sowohl eine Kunst als auch eine
-Wissenschaft. Auf meiner 17-jährigen Reise in die Welt der
-Softwareentwicklung hat Rakia aus erster Hand erfahren, wie die
-richtige Architektur über Erfolg oder Misserfolg eines Projekts
-entscheiden kann. In dieser Episode wird Rakia die wichtigsten
-Lektionen weitergeben, die ich über Softwarearchitektur gelernt
-habe. Rakia ist Tech Lead und außerdem Google Developer Expert für
-Angular, WomenTechMaker-Botschafterin sowie Content-Erstellerin.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-Rakia wird dazu auch auf dem Software Architecture Gathering einen
-Vortrag halten.
-
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/ojCihK6PZ14"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- ## Live Stream -->
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/ojCihK6PZ14" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
