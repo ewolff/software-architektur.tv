@@ -20,27 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231102T065550Z
-DESCRIPTION:Das Erstellen von Software ist sowohl eine Kunst als auch eine 
-	Wissenschaft. Auf meiner 17-jährigen Reise in die Welt der Softwareentwic
-	klung hat Rakia aus erster Hand erfahren\, wie die richtige Architektur ü
-	ber Erfolg oder Misserfolg eines Projekts entscheiden kann. In dieser Epis
-	ode wird Rakia die wichtigsten Lektionen weitergeben\, die ich über Softw
-	arearchitektur gelernt habe. Rakia ist Tech Lead und außerdem Google Deve
-	loper Expert für Angular\, WomenTechMaker-Botschafterin sowie Content-Ers
-	tellerin.\n\nRakia wird dazu auch auf dem Software Architecture Gathering 
-	einen Vortrag halten.\n\nhttps://www.youtube.com/watch?v=ojCihK6PZ14 https
-	://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20231103T140000
+CREATED:20231120T174856Z
+DESCRIPTION:Dapr stellt eine umfangreiche Lösung für die Implementierung 
+	von Microservices bereit. In dieser Episode werden wir ein Beispiel für e
+	in Microservices-System auf Basis von Dapr diskutieren und es mit anderen 
+	Implementierungen vergleichen. So werden unterschiedliche Konzepte für di
+	e Implementierung von Microservices deutlich - und die spezifischen Vor- u
+	nd Nachteile von Dapr.\nBeispiel: https://github.com/ewolff/microservice-d
+	apr\n
+DTEND;TZID="W. Europe Standard Time":20231124T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20231103T130000
-LAST-MODIFIED:20231102T065550Z
-LOCATION:https://www.youtube.com/watch?v=ojCihK6PZ14 https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20231124T130000
+LAST-MODIFIED:20231120T174856Z
+LOCATION:https://www.youtube.com/watch?v=VPkJAG0Zwow https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software Architektur: Das Gute und das Schlechte - eine
-	 17 jährige Odysse mit Rakia Ben Sassi
+SUMMARY;LANGUAGE=de:Dapr: Eine Umgebung für Microservices (Software Archit
+	ektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601

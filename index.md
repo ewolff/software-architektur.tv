@@ -14,19 +14,27 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: Noch offen
+# Nächste Folge: 24.11. 13:00 Dapr: Eine Umgebung für Microservices
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Dapr](https://dapr.io/) stellt eine umfangreiche Lösung für die
+Implementierung von Microservices bereit. In dieser Episode werden wir
+ein [Beispiel](https://github.com/ewolff/microservice-dapr) für ein
+Microservices-System auf Basis von Dapr diskutieren und es mit anderen
+Implementierungen vergleichen. So werden unterschiedliche Konzepte für
+die Implementierung von Microservices deutlich - und die spezifischen
+Vor- und Nachteile von Dapr.
 
-<!-- ## Live Stream -->
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/ojCihK6PZ14" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/VPkJAG0Zwow"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
