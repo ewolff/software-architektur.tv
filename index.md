@@ -14,27 +14,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: 24.11. 13:00 Dapr: Eine Umgebung für Microservices
+# Nächste Folge: 1.12. 13:00 Noch offen
 
-[Dapr](https://dapr.io/) stellt eine umfangreiche Lösung für die
-Implementierung von Microservices bereit. In dieser Episode werden wir
-ein [Beispiel](https://github.com/ewolff/microservice-dapr) für ein
-Microservices-System auf Basis von Dapr diskutieren und es mit anderen
-Implementierungen vergleichen. So werden unterschiedliche Konzepte für
-die Implementierung von Microservices deutlich - und die spezifischen
-Vor- und Nachteile von Dapr.
+<!-- [Dapr](https://dapr.io/) stellt eine umfangreiche Lösung für die -->
+<!-- Implementierung von Microservices bereit. In dieser Episode werden wir -->
+<!-- ein [Beispiel](https://github.com/ewolff/microservice-dapr) für ein -->
+<!-- Microservices-System auf Basis von Dapr diskutieren und es mit anderen -->
+<!-- Implementierungen vergleichen. So werden unterschiedliche Konzepte für -->
+<!-- die Implementierung von Microservices deutlich - und die spezifischen -->
+<!-- Vor- und Nachteile von Dapr. -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/VPkJAG0Zwow"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/VPkJAG0Zwow" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
