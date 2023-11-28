@@ -20,24 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231120T174856Z
-DESCRIPTION:Dapr stellt eine umfangreiche Lösung für die Implementierung 
-	von Microservices bereit. In dieser Episode werden wir ein Beispiel für e
-	in Microservices-System auf Basis von Dapr diskutieren und es mit anderen 
-	Implementierungen vergleichen. So werden unterschiedliche Konzepte für di
-	e Implementierung von Microservices deutlich - und die spezifischen Vor- u
-	nd Nachteile von Dapr.\nBeispiel: https://github.com/ewolff/microservice-d
-	apr\n
-DTEND;TZID="W. Europe Standard Time":20231124T140000
+CREATED:20231128T114533Z
+DESCRIPTION:Moderne Infrastrukturen wie Dapr oder der Service Mesh Linkerd 
+	setzen technische Aspekte von Microservices-Umgebungen wie Tracing\, Monit
+	oring oder Resilience in der Infrastruktur um. Eine andere Möglichkeit is
+	t es\, diese Aspekte in der Anwendung selber mit Bibliotheken zu implement
+	ieren. In dieser Episode werfen wir ein Blick auf ein Beispiel mit Spring 
+	Boot\, Micrometer und resilience4j\, um der Frage nachzugehen\, ob Librari
+	es vielleicht die bessere Microservices-Infrastruktur sind.\n* Episode zu 
+	Dapr https://software-architektur.tv/2023/11/24/folge189.html\n* Episode z
+	u Linkerd https://software-architektur.tv/2020/09/18/folge019.html\n* Beis
+	piel mit Spring https://github.com/ewolff/microservice-spring/\n
+DTEND;TZID="W. Europe Standard Time":20231201T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20231124T130000
-LAST-MODIFIED:20231120T174856Z
-LOCATION:https://www.youtube.com/watch?v=VPkJAG0Zwow https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20231201T130000
+LAST-MODIFIED:20231128T114533Z
+LOCATION:https://youtu.be/9q2Qlp0IDZY https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Dapr: Eine Umgebung für Microservices (Software Archit
-	ektur im Stream)
+SUMMARY;LANGUAGE=de:Microservices mit Spring (Software Architektur im Strea
+	m)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601

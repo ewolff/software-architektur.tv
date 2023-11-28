@@ -14,28 +14,32 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: 1.12. 13:00 Noch offen
+# Nächste Folge: 1.12. 13:00 Microservices mit Spring
 
-<!-- [Dapr](https://dapr.io/) stellt eine umfangreiche Lösung für die -->
-<!-- Implementierung von Microservices bereit. In dieser Episode werden wir -->
-<!-- ein [Beispiel](https://github.com/ewolff/microservice-dapr) für ein -->
-<!-- Microservices-System auf Basis von Dapr diskutieren und es mit anderen -->
-<!-- Implementierungen vergleichen. So werden unterschiedliche Konzepte für -->
-<!-- die Implementierung von Microservices deutlich - und die spezifischen -->
-<!-- Vor- und Nachteile von Dapr. -->
+Moderne Infrastrukturen wie
+[Dapr](https://software-architektur.tv/2023/11/24/folge189.html) oder
+der [Service Mesh
+Linkerd](https://software-architektur.tv/2020/09/18/folge019.html)
+setzen technische Aspekte von Microservices-Umgebungen wie Tracing,
+Monitoring oder Resilience in der Infrastruktur um. Eine andere
+Möglichkeit ist es, diese Aspekte in der Anwendung selber mit
+Bibliotheken zu implementieren. In dieser Episode werfen wir ein Blick
+auf ein [Beispiel](https://github.com/ewolff/microservice-spring/) mit Spring Boot, Micrometer und resilience4j, um
+der Frage nachzugehen, ob Libraries vielleicht die bessere
+Microservices-Infrastruktur sind.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/VPkJAG0Zwow" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/9q2Qlp0IDZY"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
