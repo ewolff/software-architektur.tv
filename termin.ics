@@ -20,26 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231128T114533Z
-DESCRIPTION:Moderne Infrastrukturen wie Dapr oder der Service Mesh Linkerd 
-	setzen technische Aspekte von Microservices-Umgebungen wie Tracing\, Monit
-	oring oder Resilience in der Infrastruktur um. Eine andere Möglichkeit is
-	t es\, diese Aspekte in der Anwendung selber mit Bibliotheken zu implement
-	ieren. In dieser Episode werfen wir ein Blick auf ein Beispiel mit Spring 
-	Boot\, Micrometer und resilience4j\, um der Frage nachzugehen\, ob Librari
-	es vielleicht die bessere Microservices-Infrastruktur sind.\n* Episode zu 
-	Dapr https://software-architektur.tv/2023/11/24/folge189.html\n* Episode z
-	u Linkerd https://software-architektur.tv/2020/09/18/folge019.html\n* Beis
-	piel mit Spring https://github.com/ewolff/microservice-spring/\n
-DTEND;TZID="W. Europe Standard Time":20231201T140000
+CREATED:20231206T190823Z
+DESCRIPTION:Software-Entwicklung ist anders als viele andere menschliche T
+	ätigkeiten. Wenn wir anderen diese Besonderheiten kommunizieren wollen\, 
+	helfen Metaphern. Lernen ist nicht nur eine gute Metapher für Software-En
+	twicklung sondern buchstäblich ein wichtiger Teil der Software-Entwicklun
+	g - schließlich geht es darum\, Anforderungen zu verstehen und im Code um
+	zusetzen. In dieser Episode diskutiert Eberhard diese Metapher und welche 
+	praktischen Ergebnisse sich aus ihr ergeben.\n
+DTEND;TZID="W. Europe Standard Time":20231208T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20231201T130000
-LAST-MODIFIED:20231128T114533Z
-LOCATION:https://youtu.be/9q2Qlp0IDZY https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20231208T130000
+LAST-MODIFIED:20231206T190823Z
+LOCATION:https://youtu.be/ElWtwMBkK8U https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Microservices mit Spring (Software Architektur im Strea
-	m)
+SUMMARY;LANGUAGE=de:Software-Entwicklung = Lernen? (Software Architektur im
+	 Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601

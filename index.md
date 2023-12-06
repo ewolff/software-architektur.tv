@@ -14,7 +14,33 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Folge: 13.12. 19:00 Fishbowl: Brücken bauen: Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)
+# Nächste Folge: Software-Entwicklung = Lernen?
+
+Software-Entwicklung ist anders als viele andere menschliche
+Tätigkeiten. Wenn wir anderen diese Besonderheiten kommunizieren
+wollen, helfen Metaphern. Lernen ist nicht nur eine gute Metapher für
+Software-Entwicklung sondern buchstäblich ein wichtiger Teil der
+Software-Entwicklung - schließlich geht es darum, Anforderungen zu
+verstehen und im Code umzusetzen. In dieser Episode diskutiert
+Eberhard diese Metapher und welche praktischen Ergebnisse sich aus ihr
+ergeben.
+
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/ElWtwMBkK8U"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+# 13.12. 19:00 Fishbowl: Brücken bauen: Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)
 
 Mangel an Mitarbeiter:innen ist traditionell das große Problem der IT. Wie können wir dieses Thema angehen? Das wollen wir gerne nicht nur mit den Expert:innen diskutieren! Im Rahmen unserer "Fishbowl" kann das Publikum gleichberechtigt an der Diskussion teilnehmen.
 
