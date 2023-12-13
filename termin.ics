@@ -20,23 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231206T190823Z
-DESCRIPTION:Software-Entwicklung ist anders als viele andere menschliche T
-	ätigkeiten. Wenn wir anderen diese Besonderheiten kommunizieren wollen\, 
-	helfen Metaphern. Lernen ist nicht nur eine gute Metapher für Software-En
-	twicklung sondern buchstäblich ein wichtiger Teil der Software-Entwicklun
-	g - schließlich geht es darum\, Anforderungen zu verstehen und im Code um
-	zusetzen. In dieser Episode diskutiert Eberhard diese Metapher und welche 
-	praktischen Ergebnisse sich aus ihr ergeben.\n
-DTEND;TZID="W. Europe Standard Time":20231208T140000
+CREATED:20231213T090526Z
+DESCRIPTION:ChatGPT kann Dinge\, von denen viele nicht gedacht hätten\, da
+	ss sie überhaupt möglich sind. Ralf D. Müller hat ChatGPT die iSAQB-Adv
+	anced-Level-Beispielaufgabe lösen lassen. In dieser Episode berichtet er\
+	, wie er dabei vorgegangen ist. Ralf und Eberhard schauen sich außerdem d
+	ie Ergebnisse an - und gehen der Frage nach\, ob ChatGPT die Advanced-Leve
+	l-Zertifizierung bestehen würde.\n
+DTEND;TZID="W. Europe Standard Time":20231215T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20231208T130000
-LAST-MODIFIED:20231206T190823Z
-LOCATION:https://youtu.be/ElWtwMBkK8U https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20231215T130000
+LAST-MODIFIED:20231213T090526Z
+LOCATION:https://youtu.be/YOr6tIhXgFE https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software-Entwicklung = Lernen? (Software Architektur im
-	 Stream)
+SUMMARY;LANGUAGE=de:Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? mit 
+	Ralf D. Müller
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
