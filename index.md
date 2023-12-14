@@ -24,30 +24,6 @@ eine gute Software Architektur"?
 
 https://www.youtube.com/watch?v=
 
-# 13.12. 19:00 Fishbowl: Brücken bauen: Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)
-
-Mangel an Mitarbeiter:innen ist traditionell das große Problem der IT. Wie können wir dieses Thema angehen? Das wollen wir gerne nicht nur mit den Expert:innen diskutieren! Im Rahmen unserer "Fishbowl" kann das Publikum gleichberechtigt an der Diskussion teilnehmen.
-
-Dabei sind Dr. Julia Freudenberg von der Hacker School,  der IT-Consultant Andreas Monschau von Haeger Consulting, Prof. Dr. Claudia Heß (Professorin für Digitale Transformation an der IU Internationalen Hochschule, Geschäftsführerin Softplant GmbH) und die Full-Stack-Entwicklerin Lisa Maria Moritz von Socreatory.
-
-
-Der Stream kommt live von den [IT-Tagen](https://www.ittage.informatik-aktuell.de/).
-
-[Zum Kalendar hinzufügen](termin1.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/4awqy3wIkpM"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # 15.12. 13:00 Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? mit Ralf D. Müller
 
 ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie
