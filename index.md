@@ -22,27 +22,20 @@ eine gute Software Architektur"?
 * [YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
 * [PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
 
-# 15.12. 13:00 Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? mit Ralf D. Müller
+# 22.12. 13:00 Thema noch offen
 
-ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie
-überhaupt möglich sind. Ralf D. Müller hat ChatGPT die
-iSAQB-Advanced-Level-Beispielaufgabe lösen lassen. In dieser Episode
-berichtet er, wie er dabei vorgegangen ist. Ralf und Eberhard schauen
-sich außerdem die Ergebnisse an - und gehen der Frage nach, ob ChatGPT
-die Advanced-Level-Zertifizierung bestehen würde.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/YOr6tIhXgFE"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/YOr6tIhXgFE" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
