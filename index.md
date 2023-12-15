@@ -22,8 +22,6 @@ eine gute Software Architektur"?
 * [YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
 * [PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
 
-https://www.youtube.com/watch?v=
-
 # 15.12. 13:00 Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? mit Ralf D. Müller
 
 ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie
