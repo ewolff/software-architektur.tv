@@ -1,8 +1,10 @@
 ---
 title: software-architektur.tv: Planung
 type: website
-description: Überblcik über die geplanten Folgen
+description: Überblick über die geplanten Folgen
 ---
+
+# Planung
 
 | Datum      | Thema / Gäste                             |
 |-----------:|:------------------------------------------|
