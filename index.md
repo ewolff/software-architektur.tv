@@ -22,20 +22,31 @@ eine gute Software Architektur"?
 * [YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
 * [PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
 
-# 22.12. 13:00 Thema noch offen
+# 22.12. 13:00 Können wir Entwickler:innen-Produktivität messen?
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Vor einiger Zeit hat McKinsey behauptet, sie könnten endlich
+[Entwickler:innen-Produktivität
+messen](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity). Daraufhin
+gab es ausführliche Kritik von solchen Größen wie [Daniel
+Terhorst-North](https://dannorth.net/mckinsey-review/ ), [Kent Beck
+oder Gergely
+Orosz](https://tidyfirst.substack.com/p/measuring-developer-productivity). In
+diese Episode schauen wir uns die verschiedenen Standpunkte an und
+gehen der Frage nach, ob man Produktivität messen kann und ob man das
+auch sollte.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/YOr6tIhXgFE" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/5Bq5lYTfMxg"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
