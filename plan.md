@@ -1,5 +1,5 @@
 ---
-title: software-architektur.tv: Planung
+title: software-architektur.tv - Planung
 type: website
 description: Überblick über die geplanten Folgen
 ---
