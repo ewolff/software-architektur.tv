@@ -8,7 +8,6 @@ description: Überblick über die geplanten Folgen
 
 | Datum      | Thema / Gäste                             |
 |-----------:|:------------------------------------------|
-| 2023-12-22 | offen |
 | 2023-12-29 | *Winterpause* |
 | 2024-01-05 | *Winterpause* |
 | 2024-01-12 | Lightweight Software Review mit Stefan Toth |

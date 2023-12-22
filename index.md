@@ -22,26 +22,15 @@ eine gute Software Architektur"?
 * [YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
 * [PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
 
-# 22.12. 13:00 Können wir Entwickler:innen-Produktivität messen?
+# 12.1. 13:00 Lightweight Software Review mit Stefan Toth
 
-Vor einiger Zeit hat McKinsey behauptet, sie könnten endlich
-[Entwickler:innen-Produktivität
-messen](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity). Daraufhin
-gab es ausführliche Kritik von solchen Größen wie [Daniel
-Terhorst-North](https://dannorth.net/mckinsey-review/ ), [Kent Beck
-oder Gergely
-Orosz](https://tidyfirst.substack.com/p/measuring-developer-productivity). In
-diese Episode schauen wir uns die verschiedenen Standpunkte an und
-gehen der Frage nach, ob man Produktivität messen kann und ob man das
-auch sollte.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/5Bq5lYTfMxg"
+	src="https://www.youtube-nocookie.com/embed/Mnbn6WdwhrI"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
