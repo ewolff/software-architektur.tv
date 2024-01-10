@@ -22,7 +22,7 @@ eine gute Software Architektur"?
 * [YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
 * [PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
 
-# 12.1. 13:00 Lightweight Software Review mit Stefan Toth
+# 12.1. 13:00 Lightweight Software Review mit Stefan Toth und Stefan Zörner
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
