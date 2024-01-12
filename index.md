@@ -15,33 +15,15 @@ stellen.
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 
-# 12.1. 13:00 Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner
+# 19.1. 13:00 Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/x mit Ralf D. Müller
 
-Reviews decken Schwächen von Softwarelösungen auf und sichern
-technische und architektonische Ideen ab. Die Anwendung
-konventioneller Bewertungsmethoden ist allerdings oft
-schwierig. Fundierte Analysemethoden erfordern häufig viele
-Beteiligte. Darüber hinaus liefern viele Bewertungsmethoden nur
-Roh-Ergebnisse, die aufwendig nachbearbeitet werden müssen.
-
-In dieser Session sprechen wir mit Stefan Toth und Stefan Zörner über
-einen schlanken Ansatz für Software-Reviews. Er ist direkt und einfach
-anwendbar und funktioniert auch allein und ohne große Vorarbeit. Und
-liefert darüber hinaus bereits früh ein kommunizierbares Ergebnis, das
-Ihr bei Bedarf fokussiert und schrittweise verfeinern könnt.
-
-Wir diskutieren, in welcher Situation so ein Ansatz gut passt, und
-wann mehr nötig ist, um die Risiken im Vorhaben angemessen zu
-adressieren und ein für alle Beteiligten befriedigendes
-Review-Ergebnis zu erzielen.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Mnbn6WdwhrI"
+	src="https://www.youtube-nocookie.com/embed/FcPm5PAQFaU"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
