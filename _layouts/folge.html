@@ -21,9 +21,9 @@
 	frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
     </div>
 </center>
-
 {% endif %}
     
+{% if page.video %}
 <h2>YouTube Video</h2>
 
 <center>
@@ -33,6 +33,7 @@ src="https://www.youtube-nocookie.com/embed/{{ page.video }}" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" ></iframe>
     </div>
 </center>
+{% endif %}
 
 {% if page.sketchnote-video %}
 {% if page.sketchnote-video-header %}
