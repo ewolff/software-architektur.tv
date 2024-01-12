@@ -14,13 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Adventskalender
-
-Bis Weihnachten beantwortet täglich eine Person die Frage "Was ist
-eine gute Software Architektur"?
-
-* [YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
-* [PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
 
 # 12.1. 13:00 Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner
 
