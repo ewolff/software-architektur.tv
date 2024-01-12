@@ -8,9 +8,6 @@ description: Überblick über die geplanten Folgen
 
 | Datum      | Thema / Gäste                             |
 |-----------:|:------------------------------------------|
-| 2023-12-29 | *Winterpause* |
-| 2024-01-05 | *Winterpause* |
-| 2024-01-12 | Lightweight Software Review mit Stefan Toth |
 | 2024-01-19 | Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/x mit Ralf D. Müller |
 | 2024-01-26 | Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 3/x mit Ralf D. Müller |
 | 2024-01-31 | 18:30 [Die Kontroverse - Schlag den Stefan und Eberhard von der OOP](https://www.oop-konferenz.de/oop-2024/programm/konferenzprogramm#item-7060) |
