@@ -20,29 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240110T102456Z
-DESCRIPTION:Reviews decken Schwächen von Softwarelösungen auf und sichern
-	 technische und architektonische Ideen ab. Die Anwendung konventioneller B
-	ewertungsmethoden ist allerdings oft schwierig. Fundierte Analysemethoden 
-	erfordern häufig viele Beteiligte. Darüber hinaus liefern viele Bewertun
-	gsmethoden nur Roh-Ergebnisse\, die aufwendig nachbearbeitet werden müsse
-	n.\n\nIn dieser Session sprechen wir mit Stefan Toth und Stefan Zörner ü
-	ber einen schlanken Ansatz für Software-Reviews. Er ist direkt und einfac
-	h anwendbar und funktioniert auch allein und ohne große Vorarbeit. Und li
-	efert darüber hinaus bereits früh ein kommunizierbares Ergebnis\, das Ih
-	r bei Bedarf fokussiert und schrittweise verfeinern könnt.\n\nWir diskuti
-	eren\, in welcher Situation so ein Ansatz gut passt\, und wann mehr nötig
-	 ist\, um die Risiken im Vorhaben angemessen zu adressieren und ein für a
-	lle Beteiligten befriedigendes Review-Ergebnis zu erzielen.\n
+CREATED:20240115T103107Z
+DESCRIPTION:ChatGPT kann Dinge\, von denen viele nicht gedacht hätten\, da
+	ss sie überhaupt möglich sind. Ralf D. Müller hat ChatGPT die iSAQB-Adv
+	anced-Level-Beispielaufgabe lösen lassen. In dieser Episode berichtet er\
+	, wie er dabei vorgegangen ist. Ralf und Eberhard schauen sich außerdem d
+	ie Ergebnisse an - und gehen der Frage nach\, ob ChatGPT die Advanced-Leve
+	l-Zertifizierung bestehen würde.\n\nIn dieser Episode schauen wir uns die
+	 Ergebnisse an und bewerten sie und versuchen ChatGPT zu helfen\, sie zu v
+	erbessern.\n\nhttps://youtu.be/FcPm5PAQFaU\nhttps://www.twitch.tv/ebrwolff
+	\n
 DTEND;TZID="W. Europe Standard Time":20240112T140000
 DTSTAMP:20230925T094329Z
 DTSTART;TZID="W. Europe Standard Time":20240112T130000
-LAST-MODIFIED:20240110T102456Z
-LOCATION:https://youtu.be/Mnbn6WdwhrI https://www.twitch.tv/ebrwolff
+LAST-MODIFIED:20240115T103107Z
+LOCATION:https://youtu.be/FcPm5PAQFaU https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Lightweight Software Review mit Stefan Toth und Stefan 
-	Zörner
+SUMMARY;LANGUAGE=de:Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/x 
+	mit Ralf D. Müller (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
