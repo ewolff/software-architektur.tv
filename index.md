@@ -15,25 +15,15 @@ stellen.
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 
-# 19.1. 13:00 Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/x mit Ralf D. Müller
+# 26.1. 13:00 ChatGPT als Werkzeug für Software-Archiktektur  mit Ralf D. Müller
 
-ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie
-überhaupt möglich sind. Ralf D. Müller hat ChatGPT die
-iSAQB-Advanced-Level-Beispielaufgabe lösen lassen. In dieser Episode
-berichtet er, wie er dabei vorgegangen ist. Ralf und Eberhard schauen
-sich außerdem die Ergebnisse an - und gehen der Frage nach, ob ChatGPT
-die Advanced-Level-Zertifizierung bestehen würde. 
-
-In dieser Episode schauen wir uns die Ergebnisse an und bewerten sie
-und versuchen ChatGPT zu helfen, sie zu verbessern.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/FcPm5PAQFaU"
+	src="https://www.youtube-nocookie.com/embed/WFZppdVGqAw"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
