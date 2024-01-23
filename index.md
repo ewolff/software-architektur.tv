@@ -106,6 +106,9 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 # Lizenz
 
+Inhalte von Software-Architektur im Stream zu konsumieren ist
+[unvereinbar mit einer Unterstützung der AfD](/2024/01/22/folge198.html).
+
 [Creative Commons Attribution-Sharealike 3.0 Unported
 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
