@@ -20,25 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240115T103107Z
-DESCRIPTION:ChatGPT kann Dinge\, von denen viele nicht gedacht hätten\, da
-	ss sie überhaupt möglich sind. Ralf D. Müller hat ChatGPT die iSAQB-Adv
-	anced-Level-Beispielaufgabe lösen lassen. In dieser Episode berichtet er\
-	, wie er dabei vorgegangen ist. Ralf und Eberhard schauen sich außerdem d
-	ie Ergebnisse an - und gehen der Frage nach\, ob ChatGPT die Advanced-Leve
-	l-Zertifizierung bestehen würde.\n\nIn dieser Episode schauen wir uns die
-	 Ergebnisse an und bewerten sie und versuchen ChatGPT zu helfen\, sie zu v
-	erbessern.\n\nhttps://youtu.be/FcPm5PAQFaU\nhttps://www.twitch.tv/ebrwolff
-	\n
-DTEND;TZID="W. Europe Standard Time":20240112T140000
+CREATED:20240123T095038Z
+DESCRIPTION:In den letzten beiden Folgen haben wir mit Ralf D. Müller disk
+	utiert\, wie ChatGPT die iSAQB-Advanced-Level-Prüfung angehen würde. In 
+	dieser Episode schauen wir uns mit Ralf zusammen an\, wie ChatGPT bei dies
+	er Aufgabe bessere Lösungen erreichen würde\, wie es in der täglichen A
+	rchitektur-Arbeit unterstützen kann und schließlich wo die Reise hingeht
+	: Werden Software-Architekt:innen gar überflüssig?\n\nhttps://youtu.be/W
+	FZppdVGqAw\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240126T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240112T130000
-LAST-MODIFIED:20240115T103107Z
-LOCATION:https://youtu.be/FcPm5PAQFaU https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240126T130000
+LAST-MODIFIED:20240123T095038Z
+LOCATION:https://youtu.be/WFZppdVGqAw https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/x 
-	mit Ralf D. Müller (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Wie kann ChatGPT in der Software-Architektur unterstüt
+	zen? mit Ralf D. Müller (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601

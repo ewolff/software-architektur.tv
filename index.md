@@ -15,9 +15,16 @@ stellen.
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 
-# 26.1. 13:00 ChatGPT als Werkzeug für Software-Archiktektur  mit Ralf D. Müller
+# 26.1. 13:00 Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+In den letzten beiden Folgen haben wir mit Ralf D. Müller diskutiert,
+wie ChatGPT die iSAQB-Advanced-Level-Prüfung angehen würde. In dieser
+Episode schauen wir uns mit Ralf zusammen an, wie ChatGPT bei dieser
+Aufgabe bessere Lösungen erreichen würde, wie es in der täglichen
+Architektur-Arbeit unterstützen kann und schließlich wo die Reise
+hingeht: Werden Software-Architekt:innen gar überflüssig?
+
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
