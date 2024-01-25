@@ -14,7 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-
 # 26.1. 13:00 Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller
 
 In den letzten beiden Folgen haben wir mit Ralf D. Müller diskutiert,
@@ -31,6 +30,30 @@ hingeht: Werden Software-Architekt:innen gar überflüssig?
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
 	src="https://www.youtube-nocookie.com/embed/WFZppdVGqAw"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+# 31.1. 18:30 Die Kontroverse - Schlag den Stefan und Eberhard von der OOP
+
+Wie groß sollen Microservices sein? Wie autonom sollen Teams sein? Bei
+Software-Architektur gibt es zahlreiche kontroverse Meinungen - also
+diskutieren wir es aus! Bei dieser Diskussion lassen Eberhard Wolff
+und Stefan Toth die Meinungen aufeinander prallen : Nach der Wahl
+eines Thema vertreten beide eine radikale Position dazu und
+diskutieren sie aus. Moderiert wird das Ganze von Lisa Moritz.
+
+[Zum Kalendar hinzufügen](termin1.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/JDduthuZ0DM"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>

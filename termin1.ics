@@ -20,27 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20231128T171151Z
-DESCRIPTION:Mangel an Mitarbeiter:innen ist traditionell das große Problem
-	 der IT. Wie können wir dieses Thema angehen? Das wollen wir gerne nicht 
-	nur mit den Expert:innen diskutieren! Im Rahmen unserer “Fishbowl” kan
-	n das Publikum gleichberechtigt an der Diskussion teilnehmen.\n\nDabei sin
-	d Dr. Julia Freudenberg von der Hacker School\, der IT-Consultant Andreas 
-	Monschau von Haeger Consulting\, Prof. Dr. Claudia Heß (Professorin für 
-	Digitale Transformation an der IU Internationalen Hochschule\, Geschäftsf
-	ührerin Softplant GmbH) und die Full-Stack-Entwicklerin Lisa Maria Moritz
-	 von Socreatory.\n\nDer Stream kommt live von den IT-Tagen. https://www.it
-	tage.informatik-aktuell.de/\n
-DTEND;TZID="W. Europe Standard Time":20231213T200000
+CREATED:20240125T100614Z
+DESCRIPTION:Wie groß sollen Microservices sein? Wie autonom sollen Teams s
+	ein? Bei Software-Architektur gibt es zahlreiche kontroverse Meinungen - a
+	lso diskutieren wir es aus! Bei dieser Diskussion lassen Eberhard Wolff un
+	d Stefan Toth die Meinungen aufeinander prallen : Nach der Wahl eines Them
+	a vertreten beide eine radikale Position dazu und diskutieren sie aus. Mod
+	eriert wird das Ganze von Lisa Moritz.\n\nhttps://www.youtube.com/watch?v=
+	JDduthuZ0DM\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240131T193000
 DTSTAMP:20230925T094823Z
-DTSTART;TZID="W. Europe Standard Time":20231213T190000
-LAST-MODIFIED:20231128T171151Z
-LOCATION:https://www.youtube.com/watch?v=4awqy3wIkpM https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20240131T183000
+LAST-MODIFIED:20240125T100614Z
+LOCATION:https://www.youtube.com/watch?v=JDduthuZ0DM https://www.twitch.tv/
 	ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Funktionale Architektur: Ein konkretes Beispiel mit Mik
-	e Sperber
+SUMMARY;LANGUAGE=de:Die Kontroverse - Schlag den Stefan und Eberhard von de
+	r OOP
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0AB2295A5EFD901000000000000000
 	010000000AC8862071ED7654D9FC161A3AE7E1698
