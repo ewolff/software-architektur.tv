@@ -14,30 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 26.1. 13:00 Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller
-
-In den letzten beiden Folgen haben wir mit Ralf D. Müller diskutiert,
-wie ChatGPT die iSAQB-Advanced-Level-Prüfung angehen würde. In dieser
-Episode schauen wir uns mit Ralf zusammen an, wie ChatGPT bei dieser
-Aufgabe bessere Lösungen erreichen würde, wie es in der täglichen
-Architektur-Arbeit unterstützen kann und schließlich wo die Reise
-hingeht: Werden Software-Architekt:innen gar überflüssig?
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/WFZppdVGqAw"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # 31.1. 18:30 Die Kontroverse - Schlag den Stefan und Eberhard von der OOP
 
 Wie groß sollen Microservices sein? Wie autonom sollen Teams sein? Bei
