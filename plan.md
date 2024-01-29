@@ -8,8 +8,6 @@ description: Überblick über die geplanten Folgen
 
 | Datum      | Thema / Gäste                             |
 |-----------:|:------------------------------------------|
-| 2024-01-31 | 18:30 [Die Kontroverse - Schlag den Stefan und Eberhard von der OOP](https://www.oop-konferenz.de/oop-2024/programm/konferenzprogramm#item-7060) |
-| 2024-02-02 | Software-Entwicklung optimieren? No Silver Bullet! |
 | 2024-02-09 | Hackerschool & Menschen begeistern mit Dr. Julia Freudenberg (mit Lisa) |
 | 2024-02-16 | - |
 | 2024-03-01 | API-Team mit Dr. Miriam Greis (mit Lisa) |

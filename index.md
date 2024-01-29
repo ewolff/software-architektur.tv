@@ -38,6 +38,34 @@ diskutieren sie aus. Moderiert wird das Ganze von Lisa Moritz.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# 2.2. 12:00 Software-Entwicklung optimieren? No Silver Bullet
+
+Fred Brooks behauptete 1986 in "No Silver Bullet—Essence and Accident
+in Software Engineering", dass keine einzelne Maßnahme die
+Produktivität in der Software-Entwicklung drastisch verbessern
+kann. Gilt diese These noch in Zeiten künstlicher Intelligenz? Wie
+kommt man zu einer solchen Aussage? In der innovationsfreudigen IT
+wurde schließlich vieles, was einst unmöglich schien, Realität. Und
+wie misst Brooks überhaupt Produktivität? Die Frage nach der
+Produktivitätsmessung hat ja bereits eine [vorherigen
+Folge](https://software-architektur.tv/2023/12/22/folge194.html)
+behandelt.
+
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/FEWtE-3s7i4"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und

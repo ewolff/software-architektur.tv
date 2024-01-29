@@ -20,23 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240123T095038Z
-DESCRIPTION:In den letzten beiden Folgen haben wir mit Ralf D. Müller disk
-	utiert\, wie ChatGPT die iSAQB-Advanced-Level-Prüfung angehen würde. In 
-	dieser Episode schauen wir uns mit Ralf zusammen an\, wie ChatGPT bei dies
-	er Aufgabe bessere Lösungen erreichen würde\, wie es in der täglichen A
-	rchitektur-Arbeit unterstützen kann und schließlich wo die Reise hingeht
-	: Werden Software-Architekt:innen gar überflüssig?\n\nhttps://youtu.be/W
-	FZppdVGqAw\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240126T140000
+CREATED:20240129T101034Z
+DESCRIPTION:Fred Brooks behauptete 1986 in “No Silver Bullet—Essence an
+	d Accident in Software Engineering”\, dass keine einzelne Maßnahme die 
+	Produktivität in der Software-Entwicklung drastisch verbessern kann. Gilt
+	 diese These noch in Zeiten künstlicher Intelligenz? Wie kommt man zu ein
+	er solchen Aussage? In der innovationsfreudigen IT wurde schließlich viel
+	es\, was einst unmöglich schien\, Realität. Und wie misst Brooks überha
+	upt Produktivität? Die Frage nach der Produktivitätsmessung hat ja berei
+	ts eine vorherige Folge behandelt. https://software-architektur.tv/2023/12
+	/22/folge194.html\nhttps://youtu.be/FEWtE-3s7i4 \nhttps://www.twitch.tv/eb
+	rwolff\n
+DTEND;TZID="W. Europe Standard Time":20240202T130000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240126T130000
-LAST-MODIFIED:20240123T095038Z
-LOCATION:https://youtu.be/WFZppdVGqAw https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240202T120000
+LAST-MODIFIED:20240129T101034Z
+LOCATION:https://youtu.be/FEWtE-3s7i4 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Wie kann ChatGPT in der Software-Architektur unterstüt
-	zen? mit Ralf D. Müller (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Software-Entwicklung optimieren? No Silver Bullet (Soft
+	ware Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
