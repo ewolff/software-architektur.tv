@@ -38,7 +38,7 @@ diskutieren sie aus. Moderiert wird das Ganze von Lisa Moritz.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-# 2.2. 12:00 Software-Entwicklung optimieren? No Silver Bullet
+# 2.2. 12:00 Software-Entwicklung optimieren? No Silver Bullet!
 
 Fred Brooks behauptete 1986 in "No Silver Bullet—Essence and Accident
 in Software Engineering", dass keine einzelne Maßnahme die
