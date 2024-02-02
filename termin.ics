@@ -20,26 +20,30 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240129T101034Z
-DESCRIPTION:Fred Brooks behauptete 1986 in “No Silver Bullet—Essence an
-	d Accident in Software Engineering”\, dass keine einzelne Maßnahme die 
-	Produktivität in der Software-Entwicklung drastisch verbessern kann. Gilt
-	 diese These noch in Zeiten künstlicher Intelligenz? Wie kommt man zu ein
-	er solchen Aussage? In der innovationsfreudigen IT wurde schließlich viel
-	es\, was einst unmöglich schien\, Realität. Und wie misst Brooks überha
-	upt Produktivität? Die Frage nach der Produktivitätsmessung hat ja berei
-	ts eine vorherige Folge behandelt. https://software-architektur.tv/2023/12
-	/22/folge194.html\nhttps://youtu.be/FEWtE-3s7i4 \nhttps://www.twitch.tv/eb
-	rwolff\n
-DTEND;TZID="W. Europe Standard Time":20240202T130000
+CREATED:20240202T192858Z
+DESCRIPTION:In dieser Episode von Softwarearchitektur im Stream begrüßt d
+	ie Lisa die Geschäftsführerin der Hacker School\, Dr. Julia Freudenberg.
+	 Die Hacker School ist eine gemeinnützige Organisation\, die digitale Bil
+	dung in den Schulen fördert und Jugendliche fürs Programmieren begeister
+	t. Lisa und Julia sprechen darüber\, wie die Hacker School mit Unternehme
+	n aus der Digitalbranche zusammenarbeitet\, um Nachhaltigkeit und soziales
+	 Engagement zu verbinden. Sie zeigen auch\, wie die Hacker School Jugendli
+	chen die nötigen Skills und Einblicke in IT-Berufe vermittelt und ihnen d
+	ie Vielfalt und die Möglichkeiten der digitalen Welt eröffnet. Diese Epi
+	sode ist für alle interessant\, die mehr über die Hacker School erfahren
+	 wollen oder sich selbst für die digitale Bildung junger Menschen engagie
+	ren möchten.\nhttps://www.youtube.com/watch?v=pIC-VsGHLgs\nhttps://www.tw
+	itch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240209T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240202T120000
-LAST-MODIFIED:20240129T101034Z
-LOCATION:https://youtu.be/FEWtE-3s7i4 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240209T130000
+LAST-MODIFIED:20240202T192858Z
+LOCATION:https://www.youtube.com/watch?v=pIC-VsGHLgs https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software-Entwicklung optimieren? No Silver Bullet (Soft
-	ware Architektur im Stream)
+SUMMARY;LANGUAGE=de:Hack the World a Better Place (Software Architektur im 
+	Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
