@@ -14,33 +14,21 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 9.2. 13:00 Hack the World a Better Place
+# 16.2. 13:00 Thema noch offen
 
-In dieser Episode von Softwarearchitektur im Stream begrüßt die Lisa
-die Geschäftsführerin der Hacker School, Dr. Julia Freudenberg. Die
-Hacker School ist eine gemeinnützige Organisation, die digitale
-Bildung in den Schulen fördert und Jugendliche fürs Programmieren
-begeistert. Lisa und Julia sprechen darüber, wie die Hacker School mit
-Unternehmen aus der Digitalbranche zusammenarbeitet, um Nachhaltigkeit
-und soziales Engagement zu verbinden. Sie zeigen auch, wie die Hacker
-School Jugendlichen die nötigen Skills und Einblicke in IT-Berufe
-vermittelt und ihnen die Vielfalt und die Möglichkeiten der digitalen
-Welt eröffnet. Diese Episode ist für alle interessant, die mehr über
-die Hacker School erfahren wollen oder sich selbst für die digitale
-Bildung junger Menschen engagieren möchten.
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/pIC-VsGHLgs"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/pIC-VsGHLgs" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
