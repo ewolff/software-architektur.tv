@@ -14,23 +14,35 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 16.2. 13:00 Thema noch offen
+# 16.2. 13:00 Legacy: Wirklich ein Problem?
 
+Legacy Software - dabei erschaudern auch erfahrene
+Techniker:innen. Aber Legacy heißt eigentlich so viel wie "Erbe" und
+ist nur in der IT rein negativ besetzt. Und Legacy Software löst
+praktisch immer ein Business-Problem erfolgreich, während eine
+Neuentwicklung ihre Nische erst finden muss. Der Vortrag zeigt, wie
+man diese und andere Erkenntnisse nutzen kann, um Strategien zu
+entwickeln, mit denen man produktiver und erfolgreicher mit
+Legacy-Software umgehen kann. Und so wird aus dem Problem "Legacy"
+eine Chance.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Dieser Vortrag wird am 16.2. um 13:00 bei YouTube als Premiere live
+gehen. Eberhard steht dann im Chat für Fragen bereit.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/pIC-VsGHLgs" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/XKadk07LcW8"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 # Fragen & Diskussion  / Question & Discussion
 
