@@ -14,20 +14,26 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 23.2. 13:00 Framework, Library, Komponente: Was ist das?
+# 23.2. 13:00 Statt Microservices: Framework, Library, Komponenten
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Heutzutage wird Modularisierung oft mit der Aufteilung in
+Microservices gleichgesetzt. Können Konzepte wie Framework, Library
+oder Komponenten als Alternativen dienen? In dieser Episode beleuchten
+wir die genaue Bedeutung dieser Begriffe und wie nützlich sie bei der
+Strukturierung von Software-Systemen sind
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/XKadk07LcW8" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/j3_G36BYd5s"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 

@@ -20,26 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240214T103239Z
-DESCRIPTION:Legacy Software - dabei erschaudern auch erfahrene Techniker:in
-	nen. Aber Legacy heißt eigentlich so viel wie “Erbe” und ist nur in d
-	er IT rein negativ besetzt. Und Legacy Software löst praktisch immer ein 
-	Business-Problem erfolgreich\, während eine Neuentwicklung ihre Nische er
-	st finden muss. Der Vortrag zeigt\, wie man diese und andere Erkenntnisse 
-	nutzen kann\, um Strategien zu entwickeln\, mit denen man produktiver und 
-	erfolgreicher mit Legacy-Software umgehen kann. Und so wird aus dem Proble
-	m “Legacy” eine Chance.\nDieser Vortrag wird am 16.2. um 13:00 bei You
-	Tube als Premiere live gehen. Eberhard steht dann im Chat für Fragen bere
-	it.\nhttps://www.youtube.com/watch?v=XKadk07LcW8\n
-DTEND;TZID="W. Europe Standard Time":20240216T140000
+CREATED:20240221T073447Z
+DESCRIPTION:Heutzutage wird Modularisierung oft mit der Aufteilung in Micro
+	services gleichgesetzt. Können Konzepte wie Framework\, Library oder Komp
+	onenten als Alternativen dienen? In dieser Episode beleuchten wir die gena
+	ue Bedeutung dieser Begriffe und wie nützlich sie bei der Strukturierung 
+	von Software-Systemen.\nhttps://youtu.be/j3_G36BYd5s\nhttps://www.twitch.t
+	v/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240223T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240216T130000
-LAST-MODIFIED:20240214T103239Z
-LOCATION:https://www.youtube.com/watch?v=XKadk07LcW8
+DTSTART;TZID="W. Europe Standard Time":20240223T130000
+LAST-MODIFIED:20240221T073447Z
+LOCATION:https://youtu.be/j3_G36BYd5s https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Legacy: Wirklich ein Problem? (Software Architektur im 
-	Stream)
+SUMMARY;LANGUAGE=de:Statt Microservices: Framework\, Library\, Komponente? 
+	(Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
