@@ -20,7 +20,7 @@ Heutzutage wird Modularisierung oft mit der Aufteilung in
 Microservices gleichgesetzt. Können Konzepte wie Framework, Library
 oder Komponenten als Alternativen dienen? In dieser Episode beleuchten
 wir die genaue Bedeutung dieser Begriffe und wie nützlich sie bei der
-Strukturierung von Software-Systemen sind
+Strukturierung von Software-Systemen sind.
 
 [Zum Kalendar hinzufügen](termin.ics)
 
