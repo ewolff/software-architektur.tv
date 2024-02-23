@@ -8,7 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                                |
 |-----------:|:---------------------------------------------|
-| 2024-03-01 | API-Team mit Dr. Miriam Greis (mit Lisa)     |
 | 2024-04-26 | -                                            |
 | 2024-05-17 | -                                            |
 | 2024-06-28 | -                                            |
