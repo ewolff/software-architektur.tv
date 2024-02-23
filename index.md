@@ -17,7 +17,7 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 # 1.3. 13:00 API-Team mit Dr. Miriam Greis (mit Lisa)
 
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
