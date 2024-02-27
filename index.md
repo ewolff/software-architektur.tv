@@ -87,19 +87,13 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 # Links
 
-[YouTube Channel](https://www.youtube.com/user/ewolff/)
-
-[Folgen nach Tags](tags.html)
-
-[Folgen chronologisch](chronologisch.html)
-
-[Podcast](podcast.html)
-
-[Buch](/sketchnote-buch)
-
-[Kafka Comic](/kafka-comic)
-
-[Feed](feed.xml)
+* [YouTube Channel](https://www.youtube.com/user/ewolff/)
+* [Folgen nach Tags](tags.html)
+* [Folgen chronologisch](chronologisch.html)
+* [Podcast](podcast.html)
+* [Buch](/sketchnote-buch)
+* [Kafka Comic](/kafka-comic)
+* [Feed](feed.xml)
 
 # Lizenz
 
@@ -112,7 +106,6 @@ License](http://creativecommons.org/licenses/by-sa/3.0/)
 Attributiert werden sollen:
 
 * Für Videos Eberhard Wolff oder Lisa Maria Moritz und die jeweiligen Interviewten
-
 * Für Sketchnotes [Lisa Maria Moritz](https://twitter.com/Teapot4181)
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
