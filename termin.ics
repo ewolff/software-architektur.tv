@@ -20,25 +20,35 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240221T073447Z
-DESCRIPTION:Heutzutage wird Modularisierung oft mit der Aufteilung in Micro
-	services gleichgesetzt. Können Konzepte wie Framework\, Library oder Komp
-	onenten als Alternativen dienen? In dieser Episode beleuchten wir die gena
-	ue Bedeutung dieser Begriffe und wie nützlich sie bei der Strukturierung 
-	von Software-Systemen.\nhttps://youtu.be/j3_G36BYd5s\nhttps://www.twitch.t
-	v/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240223T140000
+CREATED:20240227T141704Z
+DESCRIPTION:In dieser Episode sprechen Dr. Miriam Greis und Lisa Moritz üb
+	er API-Teams. Sie klären\, was sich hinter diesem Begriff verbirgt\, welc
+	he Vorteile ein API-Team mit sich bringt und welche Hürden auf dem Weg zu
+	 einem erfolgreichen API-Team überwunden werden müssen.\nhttps://youtu.b
+	e/Tlg5N_xYz_c\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240301T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240223T130000
-LAST-MODIFIED:20240221T073447Z
-LOCATION:https://youtu.be/j3_G36BYd5s https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240301T130000
+LAST-MODIFIED:20240227T141704Z
+LOCATION:https://youtu.be/Tlg5N_xYz_c https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Statt Microservices: Framework\, Library\, Komponente? 
-	(Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:API-Team mit Dr. Miriam Greis und Lisa Moritz (Software
+	 Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.17231.20236">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>In dieser Episode sprechen 
+	Dr. Miriam Greis und Lisa Moritz über API-Teams. Sie klären\, was sich h
+	inter diesem Begriff verbirgt\, welche Vorteile ein API-Team mit sich brin
+	gt und welche Hürden auf dem Weg zu einem erfolgreichen API-Team überwun
+	den werden müssen.</FONT></P>\n\n<P><FONT SIZE=2><A HREF="https://youtu.b
+	e/Tlg5N_xYz_c">https://youtu.be/Tlg5N_xYz_c</A></FONT>\n\n<BR><FONT SIZE=2
+	><A HREF="https://www.twitch.tv/ebrwolff">https://www.twitch.tv/ebrwolff</
+	A></FONT>\n</P>\n\n</BODY>\n</HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
