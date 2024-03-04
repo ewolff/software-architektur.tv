@@ -14,25 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 1.3. 13:00 API-Team mit Dr. Miriam Greis und Lisa Moritz
+# 8.3. 13:00 Thema noch offen
 
-In dieser Episode sprechen Dr. Miriam Greis und Lisa Moritz über
-API-Teams. Sie klären, was sich hinter diesem Begriff verbirgt, welche
-Vorteile ein API-Team mit sich bringt und welche Hürden auf dem Weg zu
-einem erfolgreichen API-Team überwunden werden müssen.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Tlg5N_xYz_c"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/Tlg5N_xYz_c" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
