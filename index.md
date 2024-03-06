@@ -14,20 +14,25 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 8.3. 13:00 Thema noch offen
+# 8.3. 13:00 Software-Architektur: Muss das sein?
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Kann man Software ohne Architektur entwickeln? In dieser Episode gehen
+wir genau dieser Frage nach, denn oft scheint Architektur im Weg zu
+stehen. Vielleicht wird also alles besser, wenn wir sie einfach
+weglassen?
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/Tlg5N_xYz_c" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/oWYtE2UNTJM"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
