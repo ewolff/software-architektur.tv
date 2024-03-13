@@ -20,20 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240306T133002Z
-DESCRIPTION:Kann man Software ohne Architektur entwickeln? In dieser Episod
-	e gehen wir genau dieser Frage nach\, denn oft scheint Architektur im Weg 
-	zu stehen. Vielleicht wird also alles besser\, wenn wir sie einfach weglas
-	sen?\nhttps://youtu.be/oWYtE2UNTJM https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240308T140000
+CREATED:20240313T122920Z
+DESCRIPTION:Software-Architektur spielt vor allem in großen Projekten eine
+	 entscheidende Rolle für den Erfolg. In dieser Episode diskutieren wir Me
+	thoden\, um Software-Architektur-Arbeit erfolgreich auf größere Projekte
+	 und Teams zu skalieren.\nhttps://www.youtube.com/watch?v=KocFrzZt9h0 http
+	s://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240315T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240308T130000
-LAST-MODIFIED:20240306T133002Z
-LOCATION:https://youtu.be/oWYtE2UNTJM https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240315T130000
+LAST-MODIFIED:20240313T122920Z
+LOCATION:https://www.youtube.com/watch?v=KocFrzZt9h0 https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software-Architektur: Muss das sein? (Software Architek
-	tur im Stream)
+SUMMARY;LANGUAGE=de:Software-Architektur auf große Organisationen skaliere
+	n? (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
