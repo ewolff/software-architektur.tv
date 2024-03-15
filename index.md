@@ -14,25 +14,25 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 15.3. 13:00 Software-Architektur auf große Organisationen skalieren?
+# 22.3. 13:00 Thema noch offen
 
-Software-Architektur spielt vor allem in großen Projekten eine
-entscheidende Rolle für den Erfolg. In dieser Episode diskutieren wir
-Methoden, um Software-Architektur-Arbeit erfolgreich auf größere
-Projekte und Teams zu skalieren.
+<!-- Software-Architektur spielt vor allem in großen Projekten eine -->
+<!-- entscheidende Rolle für den Erfolg. In dieser Episode diskutieren wir -->
+<!-- Methoden, um Software-Architektur-Arbeit erfolgreich auf größere -->
+<!-- Projekte und Teams zu skalieren. -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/KocFrzZt9h0"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/KocFrzZt9h0" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
