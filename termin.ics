@@ -20,22 +20,20 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240313T122920Z
-DESCRIPTION:Software-Architektur spielt vor allem in großen Projekten eine
-	 entscheidende Rolle für den Erfolg. In dieser Episode diskutieren wir Me
-	thoden\, um Software-Architektur-Arbeit erfolgreich auf größere Projekte
-	 und Teams zu skalieren.\nhttps://www.youtube.com/watch?v=KocFrzZt9h0 http
-	s://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240315T140000
+CREATED:20240320T123552Z
+DESCRIPTION:Fehler gibt es auch in der Software-Architektur. In dieser Epis
+	ode betrachten wir einige davon und versuchen\, aus ihnen zu lernen.\nhttp
+	s://www.youtube.com/watch?v=j9QzT_GQkZg https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240322T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240315T130000
-LAST-MODIFIED:20240313T122920Z
-LOCATION:https://www.youtube.com/watch?v=KocFrzZt9h0 https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20240322T130000
+LAST-MODIFIED:20240320T123552Z
+LOCATION:https://www.youtube.com/watch?v=j9QzT_GQkZg https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Software-Architektur auf große Organisationen skaliere
-	n? (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Fehler in der Software-Architektur (Software Architektu
+	r im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601

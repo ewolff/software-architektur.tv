@@ -14,25 +14,23 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 22.3. 13:00 Thema noch offen
+# 22.3. 13:00 Fehler in der Software-Architektur
 
-<!-- Software-Architektur spielt vor allem in großen Projekten eine -->
-<!-- entscheidende Rolle für den Erfolg. In dieser Episode diskutieren wir -->
-<!-- Methoden, um Software-Architektur-Arbeit erfolgreich auf größere -->
-<!-- Projekte und Teams zu skalieren. -->
+Fehler gibt es auch in der Software-Architektur. In dieser Episode
+betrachten wir einige davon und versuchen, aus ihnen zu lernen.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/KocFrzZt9h0" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/j9QzT_GQkZg"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
