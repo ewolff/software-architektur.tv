@@ -38,6 +38,33 @@ Fehler vermeiden?
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# 27.3. 18:00 Are We Engineers? With Hillel Wayne
+
+Software engineering stands apart from other engineering disciplines -
+or does it? Some argue that we are too informal to be deemed
+engineers, while others believe "real" engineers follow traditional,
+waterfall methods because things are much more stable in their
+domains. Some even argue that software development should be seen as
+an art or craft. To address the question of whether software engineers
+are "real" engineers, Hillel Wayne interviewed professionals who
+crossed over from traditional engineering to software engineering. In
+this episode, we will delve into the insights gained from these.
+
+[Zum Kalendar hinzufügen](termin1.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/fomlv4tsubQ"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und

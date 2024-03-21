@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240125T100614Z
-DESCRIPTION:Wie groß sollen Microservices sein? Wie autonom sollen Teams s
-	ein? Bei Software-Architektur gibt es zahlreiche kontroverse Meinungen - a
-	lso diskutieren wir es aus! Bei dieser Diskussion lassen Eberhard Wolff un
-	d Stefan Toth die Meinungen aufeinander prallen : Nach der Wahl eines Them
-	a vertreten beide eine radikale Position dazu und diskutieren sie aus. Mod
-	eriert wird das Ganze von Lisa Moritz.\n\nhttps://www.youtube.com/watch?v=
-	JDduthuZ0DM\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240131T193000
+CREATED:20240321T134907Z
+DESCRIPTION:Software engineering stands apart from other engineering discip
+	lines - or does it? Some argue that we are too informal to be deemed engin
+	eers\, while others believe “real” engineers follow traditional\, wate
+	rfall methods because things are much more stable in their domains. Some e
+	ven argue that software development should be seen as an art or craft. To 
+	address the question of whether software engineers are “real” engineer
+	s\, Hillel Wayne interviewed professionals who crossed over from tradition
+	al engineering to software engineering. In this episode\, we will delve in
+	to the insights gained from these.\n\nhttps://youtu.be/fomlv4tsubQ\nhttps:
+	//www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240327T190000
 DTSTAMP:20230925T094823Z
-DTSTART;TZID="W. Europe Standard Time":20240131T183000
-LAST-MODIFIED:20240125T100614Z
-LOCATION:https://www.youtube.com/watch?v=JDduthuZ0DM https://www.twitch.tv/
-	ebrwolff 
+DTSTART;TZID="W. Europe Standard Time":20240327T180000
+LAST-MODIFIED:20240321T134907Z
+LOCATION:https://youtu.be/fomlv4tsubQ https://www.twitch.tv/ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Die Kontroverse - Schlag den Stefan und Eberhard von de
-	r OOP
+SUMMARY;LANGUAGE=de:Are We Engineers? With Hillel Wayne
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0AB2295A5EFD901000000000000000
 	010000000AC8862071ED7654D9FC161A3AE7E1698
