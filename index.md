@@ -16,8 +16,12 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 # 22.3. 13:00 Fehler in der Software-Architektur
 
-Fehler gibt es auch in der Software-Architektur. In dieser Episode
-betrachten wir einige davon und versuchen, aus ihnen zu lernen.
+Fehler gibt es auch in der Software-Architektur. Auf Social Media
+haben wir Menschen darum gebeten, von Architektur-Fehlern zu
+berichten, die sie selbst gemacht haben oder in Projekten miterlebt
+haben. In dieser Episode betrachten wir einige davon und versuchen,
+aus ihnen zu lernen: Gibt es Muster? Was sind die Gründe? Kann man die
+Fehler vermeiden?
 
 [Zum Kalendar hinzufügen](termin.ics)
 
