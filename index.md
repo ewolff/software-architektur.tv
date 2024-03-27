@@ -14,17 +14,47 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 27.3. 18:00 Are We Engineers? With Hillel Wayne
+# 2.4. 18:00 Live von der Scrum User Group Karlsruhe
 
-Software engineering stands apart from other engineering disciplines -
-or does it? Some argue that we are too informal to be deemed
-engineers, while others believe "real" engineers follow traditional,
-waterfall methods because things are much more stable in their
-domains. Some even argue that software development should be seen as
-an art or craft. To address the question of whether software engineers
-are "real" engineers, Hillel Wayne interviewed professionals who
-crossed over from traditional engineering to software engineering. In
-this episode, we will delve into the insights gained from these.
+## Fighting Agile! - Wann und warum Agilität scheitert (Robert Károly)
+
+"Agile? *Gähn* Haben wir probiert. Funktioniert bei uns nicht." Haben
+Sie so etwas so oder so ähnlich schon gehört? Ist Agile oder Scrum bei
+Ihnen bereits ein "verbrannter Begriff", bei dem Kollegen um Sie herum
+das Weite suchen, wenn Sie ihn verwenden?
+
+Die Gründe sind dabei oft vielfältig. In meiner mehrjährigen Erfahrung
+mit verschiedensten Unternehmen haben sich dabei jedoch einige Muster
+herauskristallisiert, die ich als "Agile Anti-Pattern" bezeichnen
+würde.
+
+Genau darum soll es hier gehen. Unabhängig davon, ob Sie die Agilität
+in ihrem Unternehmen unterstützen oder sabotieren wollen: Hier lernen
+Sie, wie Sie es effektiv anstellen können. Wir beginnen dabei mit
+verschiedensten Ursachen für das Scheitern, und schauen, worum es im
+Kern bei Agilität geht und warum es so leicht ist, sie abzuwürgen.
+
+Im Anschluss schweifen wir über die häufigsten Anti-Pattern und
+schließen damit ab, was Agilität mit gelebter Unternehmenskultur zu
+tun hat.
+
+## Wahrheiten über Software-Entwicklung: Darüber möchte ich nicht mehr sprechen müssen! (Eberhard Wolff)
+
+Software-Entwicklung ist anders als andere Disziplinen: Wir können
+nicht mit einem festen Plan im Sinne des Wasserfalls vorgehen, sondern
+müssen iterativ arbeiten. Die Architektur ist nicht stabil. Best
+Practices sind eher problematisch. Diese Erkenntnisse sind nicht neu –
+im Gegenteil: Einige sind erschreckend alt. Dennoch sind diese
+Grundlagen in unserer scheinbar innovativen Branche nicht allgemein
+geläufig. Da sie nicht intuitiv klar oder offensichtlich sind,
+erschließen sie sich nicht jeder Person. Aber es ist ermüdend, immer
+wieder auf sie hinzuweisen. Idealerweise müssten wir sie nicht immer
+wieder aus Neue vermitteln. Diese Themen sollten mindestens unter
+IT-Professionals als unumstößliche Wahrheiten verankert werden. Dieser
+Talk könnte ein erster Schritt in diese Richtung sein.
+
+Die beiden Vorträge werden live von der Scrum User Group Karlsruhe
+übertragen.
 
 [Zum Kalendar hinzufügen](termin1.ics)
 
@@ -32,7 +62,7 @@ this episode, we will delve into the insights gained from these.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/fomlv4tsubQ"
+	src="https://www.youtube-nocookie.com/embed/xTqgT-_D0ZI"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
