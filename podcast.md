@@ -20,6 +20,12 @@ hören, wo es passt.
 
 [Amazon Music](https://music.amazon.de/podcasts/181ab408-55c2-4bc1-84dc-45a28ccffe05/SoftwareArchitektur-im-Stream)
 
+YouTube
+[Audio](https://www.youtube.com/playlist?list=PLeXlULyOtEneSL05ekgpJMS257ZQ51K9A)
+[Video](https://www.youtube.com/playlist?list=PLeXlULyOtEnfkxd4yLoPT7ckxxPmNncN0)
+
+
+
 [Deezer](https://www.deezer.com/de/show/1925562)
 
 [TuneIn](https://tunein.com/podcasts/Technology-Podcasts/SoftwareArchitektur-im-Stream-p1380036/)
