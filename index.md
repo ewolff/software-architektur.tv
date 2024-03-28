@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 2.4. 18:00 Live von der Scrum User Group Karlsruhe
+# Dienstag 2.4. 18:00 Live von der Scrum User Group Karlsruhe
 
 ## Fighting Agile! - Wann und warum Agilität scheitert (Robert Károly)
 
