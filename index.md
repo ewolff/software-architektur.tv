@@ -104,3 +104,6 @@ Attributiert werden sollen:
 * Für Sketchnotes [Lisa Maria Moritz](https://twitter.com/Teapot4181)
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
+
+<a href="https://512kb.club"><img src="https://512kb.club/assets/images/green-team.svg"
+alt="a proud member of the green team of 512KB club" /></a>
