@@ -14,55 +14,15 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Dienstag 2.4. 18:00 Live von der Scrum User Group Karlsruhe
+# Freitag 12.4. 13:00 Integration
 
-## Fighting Agile! - Wann und warum Agilität scheitert (Robert Károly)
-
-"Agile? *Gähn* Haben wir probiert. Funktioniert bei uns nicht." Haben
-Sie so etwas so oder so ähnlich schon gehört? Ist Agile oder Scrum bei
-Ihnen bereits ein "verbrannter Begriff", bei dem Kollegen um Sie herum
-das Weite suchen, wenn Sie ihn verwenden?
-
-Die Gründe sind dabei oft vielfältig. In meiner mehrjährigen Erfahrung
-mit verschiedensten Unternehmen haben sich dabei jedoch einige Muster
-herauskristallisiert, die ich als "Agile Anti-Pattern" bezeichnen
-würde.
-
-Genau darum soll es hier gehen. Unabhängig davon, ob Sie die Agilität
-in ihrem Unternehmen unterstützen oder sabotieren wollen: Hier lernen
-Sie, wie Sie es effektiv anstellen können. Wir beginnen dabei mit
-verschiedensten Ursachen für das Scheitern, und schauen, worum es im
-Kern bei Agilität geht und warum es so leicht ist, sie abzuwürgen.
-
-Im Anschluss schweifen wir über die häufigsten Anti-Pattern und
-schließen damit ab, was Agilität mit gelebter Unternehmenskultur zu
-tun hat.
-
-## Wahrheiten über Software-Entwicklung: Darüber möchte ich nicht mehr sprechen müssen! (Eberhard Wolff)
-
-Software-Entwicklung ist anders als andere Disziplinen: Wir können
-nicht mit einem festen Plan im Sinne des Wasserfalls vorgehen, sondern
-müssen iterativ arbeiten. Die Architektur ist nicht stabil. Best
-Practices sind eher problematisch. Diese Erkenntnisse sind nicht neu –
-im Gegenteil: Einige sind erschreckend alt. Dennoch sind diese
-Grundlagen in unserer scheinbar innovativen Branche nicht allgemein
-geläufig. Da sie nicht intuitiv klar oder offensichtlich sind,
-erschließen sie sich nicht jeder Person. Aber es ist ermüdend, immer
-wieder auf sie hinzuweisen. Idealerweise müssten wir sie nicht immer
-wieder aus Neue vermitteln. Diese Themen sollten mindestens unter
-IT-Professionals als unumstößliche Wahrheiten verankert werden. Dieser
-Talk könnte ein erster Schritt in diese Richtung sein.
-
-Die beiden Vorträge werden live von der Scrum User Group Karlsruhe
-übertragen.
-
-[Zum Kalendar hinzufügen](termin1.ics)
+<!-- [Zum Kalendar hinzufügen](termin1.ics) -->
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/xTqgT-_D0ZI"
+	src="https://www.youtube-nocookie.com/embed/Mzd7UlQwqsc"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
