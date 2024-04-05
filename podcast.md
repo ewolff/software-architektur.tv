@@ -24,7 +24,7 @@ YouTube
 [Audio](https://www.youtube.com/playlist?list=PLeXlULyOtEneSL05ekgpJMS257ZQ51K9A)
 [Video](https://www.youtube.com/playlist?list=PLeXlULyOtEnfkxd4yLoPT7ckxxPmNncN0)
 
-
+[RTL+](https://plus.rtl.de/podcast/software-architektur-im-stream-1g0mjs7bhi524)
 
 [Deezer](https://www.deezer.com/de/show/1925562)
 
