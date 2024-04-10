@@ -16,7 +16,16 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 # Freitag 12.4. 13:00 Integration
 
-<!-- [Zum Kalendar hinzufügen](termin1.ics) -->
+Die Unternehmens-IT-Landschaften bestehen heutzutage aus einer
+Vielzahl unterschiedlicher Software-Systeme. Jedes Software-System
+muss sich in diese Landschaft einfügen und daher mit anderen Systemen
+integrieren. Und bei Microservices spielt ebenfalls die Integration
+der einzelnen Services eine zentrale Rolle.  In dieser Episode
+diskutieren wir typische Mechanismen zur Integration wie REST oder
+Messaging und wie sie die typischen Probleme bei der Integration
+lösen.
+
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 

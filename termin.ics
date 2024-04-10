@@ -20,47 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240327T122342Z
-DESCRIPTION:Fighting Agile! - Wann und warum Agilität scheitert (Robert K
-	ároly)\n“Agile? Gähn Haben wir probiert. Funktioniert bei uns nicht.
-	” Haben Sie so etwas so oder so ähnlich schon gehört? Ist Agile oder S
-	crum bei Ihnen bereits ein “verbrannter Begriff”\, bei dem Kollegen um
-	 Sie herum das Weite suchen\, wenn Sie ihn verwenden?\n\nDie Gründe sind 
-	dabei oft vielfältig. In meiner mehrjährigen Erfahrung mit verschiedenst
-	en Unternehmen haben sich dabei jedoch einige Muster herauskristallisiert\
-	, die ich als “Agile Anti-Pattern” bezeichnen würde.\n\nGenau darum s
-	oll es hier gehen. Unabhängig davon\, ob Sie die Agilität in ihrem Unter
-	nehmen unterstützen oder sabotieren wollen: Hier lernen Sie\, wie Sie es 
-	effektiv anstellen können. Wir beginnen dabei mit verschiedensten Ursache
-	n für das Scheitern\, und schauen\, worum es im Kern bei Agilität geht u
-	nd warum es so leicht ist\, sie abzuwürgen.\n\nIm Anschluss schweifen wir
-	 über die häufigsten Anti-Pattern und schließen damit ab\, was Agilitä
-	t mit gelebter Unternehmenskultur zu tun hat.\n\nWahrheiten über Software
-	-Entwicklung: Darüber möchte ich nicht mehr sprechen müssen! (Eberhard 
-	Wolff)\nSoftware-Entwicklung ist anders als andere Disziplinen: Wir könne
-	n nicht mit einem festen Plan im Sinne des Wasserfalls vorgehen\, sondern 
-	müssen iterativ arbeiten. Die Architektur ist nicht stabil. Best Practice
-	s sind eher problematisch. Diese Erkenntnisse sind nicht neu – im Gegent
-	eil: Einige sind erschreckend alt. Dennoch sind diese Grundlagen in unsere
-	r scheinbar innovativen Branche nicht allgemein geläufig. Da sie nicht in
-	tuitiv klar oder offensichtlich sind\, erschließen sie sich nicht jeder P
-	erson. Aber es ist ermüdend\, immer wieder auf sie hinzuweisen. Idealerwe
-	ise müssten wir sie nicht immer wieder aus Neue vermitteln. Diese Themen 
-	sollten mindestens unter IT-Professionals als unumstößliche Wahrheiten v
-	erankert werden. Dieser Talk könnte ein erster Schritt in diese Richtung 
-	sein.\n\nDie beiden Vorträge werden live von der Scrum User Group Karlsru
-	he übertragen.\n\nhttps://youtube.com/live/xTqgT-_D0ZI\nhttps://www.twitc
-	h.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240402T203000
+CREATED:20240410T143143Z
+DESCRIPTION:Die Unternehmens-IT-Landschaften bestehen heutzutage aus einer 
+	Vielzahl unterschiedlicher Software-Systeme. Jedes Software-System muss si
+	ch in diese Landschaft einfügen und daher mit anderen Systemen integriere
+	n. Und bei Microservices spielt ebenfalls die Integration der einzelnen Se
+	rvices eine zentrale Rolle. In dieser Episode diskutieren wir typische Mec
+	hanismen zur Integration wie REST oder Messaging und wie sie die typischen
+	 Probleme bei der Integration lösen.\n\nhttps://youtu.be/Mzd7UlQwqsc\nhtt
+	ps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240412T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240402T183000
-LAST-MODIFIED:20240327T122342Z
-LOCATION:https://youtube.com/live/xTqgT-_D0ZI https://www.twitch.tv/ebrwolf
-	f
+DTSTART;TZID="W. Europe Standard Time":20240412T130000
+LAST-MODIFIED:20240410T143143Z
+LOCATION:https://youtu.be/Mzd7UlQwqsc https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Live von der Scrum User Group Karlsruhe (Software Archi
-	tektur im Stream)
+SUMMARY;LANGUAGE=de:Integration (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
