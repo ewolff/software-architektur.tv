@@ -14,29 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 12.4. 13:00 Integration
+# Freitag 19.4. 13:00 Thema offen
 
-Die Unternehmens-IT-Landschaften bestehen heutzutage aus einer
-Vielzahl unterschiedlicher Software-Systeme. Jedes Software-System
-muss sich in diese Landschaft einfügen und daher mit anderen Systemen
-integrieren. Und bei Microservices spielt ebenfalls die Integration
-der einzelnen Services eine zentrale Rolle.  In dieser Episode
-diskutieren wir typische Mechanismen zur Integration wie REST oder
-Messaging und wie sie die typischen Probleme bei der Integration
-lösen.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Mzd7UlQwqsc"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/Mzd7UlQwqsc" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
