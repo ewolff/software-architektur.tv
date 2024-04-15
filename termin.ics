@@ -20,23 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240410T143143Z
-DESCRIPTION:Die Unternehmens-IT-Landschaften bestehen heutzutage aus einer 
-	Vielzahl unterschiedlicher Software-Systeme. Jedes Software-System muss si
-	ch in diese Landschaft einfügen und daher mit anderen Systemen integriere
-	n. Und bei Microservices spielt ebenfalls die Integration der einzelnen Se
-	rvices eine zentrale Rolle. In dieser Episode diskutieren wir typische Mec
-	hanismen zur Integration wie REST oder Messaging und wie sie die typischen
-	 Probleme bei der Integration lösen.\n\nhttps://youtu.be/Mzd7UlQwqsc\nhtt
-	ps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240412T140000
+CREATED:20240415T160630Z
+DESCRIPTION:Team Topologies stellen Konzepte dar\, mit denen Software-Entwi
+	cklungsteams organisiert werden können. Mit nur vier Arten von Teams und 
+	drei Interaktionsmodi zwischen den Teams reduziert sich Team Topologies au
+	f das wesentliche. Gleichzeitig ist es in der Praxis erprobt und löst vie
+	le typische Probleme. Im Mittelpunkt dieser Episode steht die Vorstellung 
+	und Diskussion der wesentlichen Konzepte und Ideen.\n\nhttps://www.youtube
+	.com/watch?v=RlIxLy3JK6s\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240418T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240412T130000
-LAST-MODIFIED:20240410T143143Z
-LOCATION:https://youtu.be/Mzd7UlQwqsc https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240418T130000
+LAST-MODIFIED:20240415T160630Z
+LOCATION:https://www.youtube.com/watch?v=RlIxLy3JK6s https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Integration (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Team Topologies (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
