@@ -14,28 +14,21 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Donnerstag 18.4. 13:00 Team Topologies
+# Freitag 3.5. 13:00 Thema offen
 
-Team Topologies stellen Konzepte dar, mit denen
-Software-Entwicklungsteams organisiert werden können. Mit nur vier
-Arten von Teams und drei Interaktionsmodi zwischen den Teams reduziert
-sich Team Topologies auf das wesentliche.  Gleichzeitig ist es in der
-Praxis erprobt und löst viele typische Probleme. Im Mittelpunkt dieser
-Episode steht die Vorstellung und Diskussion der wesentlichen Konzepte
-und Ideen.
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/RlIxLy3JK6s"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/RlIxLy3JK6s" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
