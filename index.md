@@ -14,15 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 3.5. 13:00 Taktisches Domain-driven Design (DDD)
-
-Domain-driven Design (DDD) bietet einen umfangreichen
-Werkzeug-Kasten. Aber bei Architektur-Diskussionen kommt die
-Code-Ebene oft zu kurz, obwohl DDD auch in dem Bereich helfen kann.
-Im Mittelpunkt dieser Episode soll daher das sogenannte taktisches Design
-stehen. Diese Patterns beschreiben, wie man Geschäftslogik in einem
-objekt-orientierten System aufbauen kann. Dazu gehören Ideen wie
-Entity, Aggregate oder Service.
+# Freitag 10.5. 13:00 Alberto Brandolini: Event Storming
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -30,7 +22,7 @@ Entity, Aggregate oder Service.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/KsY1KbZo7fQ"
+	src="https://www.youtube-nocookie.com/embed/n89L3I8P7uQ"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
