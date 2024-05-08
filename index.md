@@ -14,7 +14,9 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 10.5. 13:00 Alberto Brandolini: Event Storming
+# Freitag 10.5. 13:00 Alberto Brandolini: The Chasm Between Architecture and Business
+
+Alberto Brandolini is the creator of Event Storming, a technique aimed at fostering a shared understanding of business concepts among all stakeholders in a software development endeavor. However, architects may encounter challenges within the business domain that exceed their influence. Alberto will explore this issue and propose potential solutions.
 
 [Zum Kalendar hinzufügen](termin.ics)
 

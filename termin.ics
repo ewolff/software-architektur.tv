@@ -20,23 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240430T191750Z
-DESCRIPTION:Domain-driven Design (DDD) bietet einen umfangreichen Werkzeug-
-	Kasten. Aber bei Architektur-Diskussionen kommt die Code-Ebene oft zu kurz
-	\, obwohl DDD auch in dem Bereich helfen kann. Im Mittelpunkt dieser Episo
-	de soll daher das sogenannte taktisches Design stehen. Diese Patterns besc
-	hreiben\, wie man Geschäftslogik in einem objekt-orientierten System aufb
-	auen kann. Dazu gehören Ideen wie Entity\, Aggregate oder Service.\n\nhtt
-	ps://youtu.be/KsY1KbZo7fQ\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240503T140000
+CREATED:20240508T042326Z
+DESCRIPTION:Alberto Brandolini is the creator of Event Storming\, a techniq
+	ue aimed at fostering a shared understanding of business concepts among al
+	l stakeholders in a software development endeavor. However\, architects ma
+	y encounter challenges within the business domain that exceed their influe
+	nce. Alberto will explore this issue and propose potential solutions.\n\nh
+	ttps://youtube.com/live/n89L3I8P7uQ\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240510T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240503T130000
-LAST-MODIFIED:20240430T191750Z
-LOCATION:https://youtu.be/KsY1KbZo7fQ https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240510T130000
+LAST-MODIFIED:20240508T042326Z
+LOCATION:https://youtube.com/live/n89L3I8P7uQ https://www.twitch.tv/ebrwolf
+	f
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Taktisches Domain-driven Design (DDD) (Software Archite
-	ktur im Stream)
+SUMMARY;LANGUAGE=de:Alberto Brandolini: The Chasm Between Architecture and 
+	Business (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
