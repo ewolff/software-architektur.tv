@@ -14,27 +14,21 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 17.5. 13:00 Objektorientierung - Was ist das eigentlich?
+# Freitag 24.5. 13:00 Thema offen
 
-Das dominierende Programmierparadigma ist nach wie vor die
-Objektorientierung, die Konzepte wie Vererbung, Delegation und
-Aggregation umfasst. In dieser Episode werden die verschiedenen
-Ansätze der Objektorientierung diskutiert und aufgezeigt, wie
-unterschiedlich sie umgesetzt werden kann – insbesondere auf der Ebene
-der objektorientierten Programmierung.
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/df5guCt-YuE"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/df5guCt-YuE" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
