@@ -14,23 +14,35 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 24.5. 13:00 Thema offen
+# Freitag 24.5. 13:00 Warum (agile) Projekte kippen
 
+Agilität bietet höhere Produktivität und bessere Ergebnisse für die
+Projekte - daher wird sie sich durchsetzen! Die Realität sieht leider
+manchmal ganz anders aus: Erst ist das Projekt agil, produktiv und
+alle sind begeistert. Wenige Monate später: wichtige Personen haben
+das Projekt verlassen und von den agilen Techniken ist nur noch wenig
+übrig . In diesem Vortrag geht es uns um das "Kippen" von Projekten
+und Gründe sowie Möglichkeiten diskutieren, um mit einer solchen
+Situation umzugehen.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Das Video des Vortrags habe ich aufgenommen. Ich werde bei der
+Premiere am 24.5. um 13:00 im Chat bei YouTube sein und gerne eure
+Fragen beantworten!
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/df5guCt-YuE" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/23eYToc8Bxg"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 # Fragen & Diskussion  / Question & Discussion
 
