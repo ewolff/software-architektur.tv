@@ -20,23 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240515T134057Z
-DESCRIPTION:Das dominierende Programmierparadigma ist nach wie vor die Obje
-	ktorientierung\, die Konzepte wie Vererbung\, Delegation und Aggregation u
-	mfasst. In dieser Episode werden die verschiedenen Ansätze der Objektorie
-	ntierung diskutiert und aufgezeigt\, wie unterschiedlich sie umgesetzt wer
-	den kann – insbesondere auf der Ebene der objektorientierten Programmier
-	ung.\n\nhttps://youtube.com/live/df5guCt-YuE\nhttps://www.twitch.tv/ebrwol
-	ff\n
-DTEND;TZID="W. Europe Standard Time":20240517T140000
+CREATED:20240523T181514Z
+DESCRIPTION:Agilität bietet höhere Produktivität und bessere Ergebnisse 
+	für die Projekte - daher wird sie sich durchsetzen! Die Realität sieht l
+	eider manchmal ganz anders aus: Erst ist das Projekt agil\, produktiv und 
+	alle sind begeistert. Wenige Monate später: wichtige Personen haben das P
+	rojekt verlassen und von den agilen Techniken ist nur noch wenig übrig . 
+	In diesem Vortrag geht es uns um das “Kippen” von Projekten und Gründ
+	e sowie Möglichkeiten diskutieren\, um mit einer solchen Situation umzuge
+	hen.\n\nDas Video des Vortrags habe ich aufgenommen. Ich werde bei der Pre
+	miere am 24.5. um 13:00 im Chat bei YouTube sein und gerne eure Fragen bea
+	ntworten!\n\nhttps://youtu.be/23eYToc8Bxg\n
+DTEND;TZID="W. Europe Standard Time":20240524T140000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240517T130000
-LAST-MODIFIED:20240515T134057Z
-LOCATION:https://youtube.com/live/df5guCt-YuE https://www.twitch.tv/ebrwolf
-	f
+DTSTART;TZID="W. Europe Standard Time":20240524T130000
+LAST-MODIFIED:20240523T181514Z
+LOCATION:https://youtu.be/23eYToc8Bxg
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Objektorientierung - Was ist das eigentlich?
+SUMMARY;LANGUAGE=de:Warum (agile) Projekte kippen
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
