@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Tuesday 29.5. 19:00 CEST Vaughn Vernon about Domain-driven Design
+# Wednesday 29.5. 19:00 CEST Vaughn Vernon about Domain-driven Design
 
 Vaughn is the author of many fundamental books about domain-driven
 design and one of the leading experts in this field. In this episode,
