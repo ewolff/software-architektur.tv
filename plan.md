@@ -8,7 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                 |
 |-----------:|:------------------------------|
-| 2024-05-29 | 19:00 Vaughn Vernon           |
 | 2024-05-31 | Oliver Drotbohm zu XMolecules |
 | 2024-06-28 | -                             |
 | 2024-07-19 | -                             |
