@@ -20,23 +20,21 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240515T134057Z
-DESCRIPTION:Das dominierende Programmierparadigma ist nach wie vor die Obje
-	ktorientierung\, die Konzepte wie Vererbung\, Delegation und Aggregation u
-	mfasst. In dieser Episode werden die verschiedenen Ansätze der Objektorie
-	ntierung diskutiert und aufgezeigt\, wie unterschiedlich sie umgesetzt wer
-	den kann – insbesondere auf der Ebene der objektorientierten Programmier
-	ung.\n\nhttps://youtube.com/live/df5guCt-YuE\nhttps://www.twitch.tv/ebrwol
-	ff\n
-DTEND;TZID="W. Europe Standard Time":20240517T140000
+CREATED:20240524T081646Z
+DESCRIPTION:Vaughn is the author of many fundamental books about domain-dri
+	ven design and one of the leading experts in this field. In this episode\,
+	 we will talk about domain-driven design\, why it is important\, how it he
+	lps to successfully create complex software\, and how you can adopt it.\n\
+	nhttps://youtu.be/vAi5gRrqVMk\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240529T200000
 DTSTAMP:20230925T094329Z
-DTSTART;TZID="W. Europe Standard Time":20240517T130000
-LAST-MODIFIED:20240515T134057Z
-LOCATION:https://youtube.com/live/df5guCt-YuE https://www.twitch.tv/ebrwolf
-	f
+DTSTART;TZID="W. Europe Standard Time":20240529T190000
+LAST-MODIFIED:20240524T081646Z
+LOCATION:https://youtu.be/vAi5gRrqVMk https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Objektorientierung - Was ist das eigentlich?
+SUMMARY;LANGUAGE=de:Vaughn Vernon about Domain-driven Design (Software Arch
+	itektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000B0561451A5EFD901000000000000000
 	010000000380B99D8A7303944B05DEE643589C601
