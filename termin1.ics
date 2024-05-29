@@ -20,28 +20,43 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240321T134907Z
-DESCRIPTION:Software engineering stands apart from other engineering discip
-	lines - or does it? Some argue that we are too informal to be deemed engin
-	eers\, while others believe “real” engineers follow traditional\, wate
-	rfall methods because things are much more stable in their domains. Some e
-	ven argue that software development should be seen as an art or craft. To 
-	address the question of whether software engineers are “real” engineer
-	s\, Hillel Wayne interviewed professionals who crossed over from tradition
-	al engineering to software engineering. In this episode\, we will delve in
-	to the insights gained from these.\n\nhttps://youtu.be/fomlv4tsubQ\nhttps:
-	//www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240327T190000
+CREATED:20240529T152326Z
+DESCRIPTION:Die Umsetzung von taktischem Domain-Driven Design (DDD) in Java
+	 birgt einige technische Herausforderungen. In dieser Episode betrachten w
+	ir einen Ansatz\, der Entwickler:innen dabei unterstützen reichhaltige Do
+	mänenmodelle in Java zu implementieren: die jMolecules Bibliothek ermögl
+	icht es\, DDD Konzepte direkt in Code auszudrücken und bietet darüber hi
+	naus Integration in weitverbreitete Technologien wie Spring\, Jackson und 
+	Persistenztechnologien. Oliver Drotbohm ist Engineer bei Broadcom und eine
+	r der Entwickler von jMolecules.\n\nhttps://youtu.be/Cat1Zzf9sjM\nhttps://
+	www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240531T140000
 DTSTAMP:20230925T094823Z
-DTSTART;TZID="W. Europe Standard Time":20240327T180000
-LAST-MODIFIED:20240321T134907Z
-LOCATION:https://youtu.be/fomlv4tsubQ https://www.twitch.tv/ebrwolff 
+DTSTART;TZID="W. Europe Standard Time":20240531T130000
+LAST-MODIFIED:20240529T152326Z
+LOCATION:https://youtu.be/Cat1Zzf9sjM https://www.twitch.tv/ebrwolff 
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Are We Engineers? With Hillel Wayne
+SUMMARY;LANGUAGE=de:Taktisches Domain-Driven Design mit Java und jMolecules
+	 mit Oliver Drotbohm
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0AB2295A5EFD901000000000000000
 	010000000AC8862071ED7654D9FC161A3AE7E1698
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.17531.20152">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>Die Umsetzung von taktische
+	m Domain-Driven Design (DDD) in Java birgt einige technische Herausforderu
+	ngen. In dieser Episode betrachten wir einen Ansatz\, der Entwickler:innen
+	 dabei unterstützen reichhaltige Domänenmodelle in Java zu implementiere
+	n: die jMolecules Bibliothek ermöglicht es\, DDD Konzepte direkt in Code 
+	auszudrücken und bietet darüber hinaus Integration in weitverbreitete Te
+	chnologien wie Spring\, Jackson und Persistenztechnologien. Oliver Drotboh
+	m ist Engineer bei Broadcom und einer der Entwickler von jMolecules.</FONT
+	></P>\n\n<P><FONT SIZE=2><A HREF="https://youtu.be/Cat1Zzf9sjM">https://yo
+	utu.be/Cat1Zzf9sjM</A></FONT>\n\n<BR><FONT SIZE=2><A HREF="https://www.twi
+	tch.tv/ebrwolff">https://www.twitch.tv/ebrwolff</A></FONT>\n</P>\n\n</BODY
+	>\n</HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE

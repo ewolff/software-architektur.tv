@@ -37,6 +37,35 @@ it.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# Freitag 31.5. 13:00 CEST Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm
+
+
+
+Die Umsetzung von taktischem Domain-Driven Design (DDD) in Java birgt
+einige technische Herausforderungen. In dieser Episode betrachten wir
+einen Ansatz, der Entwickler:innen dabei unterstützen reichhaltige
+Domänenmodelle in Java zu implementieren: die jMolecules Bibliothek
+ermöglicht es, DDD Konzepte direkt in Code auszudrücken und bietet
+darüber hinaus Integration in weitverbreitete Technologien wie Spring,
+Jackson und Persistenztechnologien. Oliver Drotbohm ist Engineer bei
+Broadcom und einer der Entwickler von jMolecules.
+
+[Zum Kalendar hinzufügen](termin1.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/Cat1Zzf9sjM"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
