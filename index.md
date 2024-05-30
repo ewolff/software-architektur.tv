@@ -14,32 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Wednesday 29.5. 19:00 CEST Vaughn Vernon about Domain-driven Design
-
-Vaughn is the author of many fundamental books about domain-driven
-design and one of the leading experts in this field. In this episode,
-we will talk about domain-driven design, why it is important, how it
-helps to successfully create complex software, and how you can adopt
-it.
-
-[Add to Calendar](termin.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/vAi5gRrqVMk"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # Freitag 31.5. 13:00 CEST Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm
-
-
 
 Die Umsetzung von taktischem Domain-Driven Design (DDD) in Java birgt
 einige technische Herausforderungen. In dieser Episode betrachten wir
