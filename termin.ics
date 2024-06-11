@@ -20,16 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240524T081646Z
-DESCRIPTION:Vaughn is the author of many fundamental books about domain-dri
-	ven design and one of the leading experts in this field. In this episode\,
-	 we will talk about domain-driven design\, why it is important\, how it he
-	lps to successfully create complex software\, and how you can adopt it.\n\
-	nhttps://youtu.be/vAi5gRrqVMk\nhttps://www.twitch.tv/ebrwolff\n
-DTSTART;TZID="W. Europe Standard Time":20240529T190000
-LAST-MODIFIED:20240524T081646Z
-LOCATION:https://youtu.be/vAi5gRrqVMk https://www.twitch.tv/ebrwolff
+CREATED:20240611T190225Z
+DESCRIPTION:Bounded Contexts sind zentral für Strategic Domain-driven Desi
+	gn. Irgendwie werden damit große Systeme aufgeteilt\, aber gleichzeitig m
+	acht es die Definition von Begriffen eindeutig und irgendwie spielt das Ko
+	nzept auch eine Rolle für die Kollaboration von Teams. In dieser Episode 
+	diskutieren wir die den Begriff Bounded Context im Detail und gehen auf di
+	e Probleme ein\, die bei der Nutzung des Begriff typischerweise auftreten.
+	\n\nhttps://youtu.be/Cat1Zzf9sjM\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240614T200000
+DTSTAMP:20240611T190100Z
+DTSTART;TZID="W. Europe Standard Time":20240614T190000
+LAST-MODIFIED:20240611T190225Z
+LOCATION:https://youtu.be/Cat1Zzf9sjM https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Vaughn Vernon about Domain-driven Design (Software Arch
-	itektur im Stream)
+SUMMARY;LANGUAGE=de:Bounded Context - Was ist das genau?
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
+	0100000008A371F0677CD83458ECB0BFA532C3B79
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+END:VEVENT
+END:VCALENDAR
