@@ -28,9 +28,9 @@ DESCRIPTION:Bounded Contexts sind zentral für Strategic Domain-driven Desi
 	diskutieren wir die den Begriff Bounded Context im Detail und gehen auf di
 	e Probleme ein\, die bei der Nutzung des Begriff typischerweise auftreten.
 	\n\nhttps://youtu.be/Cat1Zzf9sjM\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240614T200000
+DTEND;TZID="W. Europe Standard Time":20240614T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240614T190000
+DTSTART;TZID="W. Europe Standard Time":20240614T130000
 LAST-MODIFIED:20240611T190225Z
 LOCATION:https://youtu.be/Cat1Zzf9sjM https://www.twitch.tv/ebrwolff
 PRIORITY:5
