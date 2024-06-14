@@ -14,28 +14,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 14.6. 13:00 CEST Bounded Context - Was ist das genau?
+# Freitag 21.6. 13:00 CEST Thema offen
 
-Bounded Contexts sind zentral für Strategic Domain-driven
-Design. Irgendwie werden damit große Systeme aufgeteilt, aber
-gleichzeitig macht es die Definition von Begriffen eindeutig und
-irgendwie spielt das Konzept auch eine Rolle für die Kollaboration von
-Teams. In dieser Episode diskutieren wir die den Begriff Bounded
-Context im Detail und gehen auf die Probleme ein, die bei der Nutzung
-des Begriff typischerweise auftreten.
+<!-- Bounded Contexts sind zentral für Strategic Domain-driven -->
+<!-- Design. Irgendwie werden damit große Systeme aufgeteilt, aber -->
+<!-- gleichzeitig macht es die Definition von Begriffen eindeutig und -->
+<!-- irgendwie spielt das Konzept auch eine Rolle für die Kollaboration von -->
+<!-- Teams. In dieser Episode diskutieren wir die den Begriff Bounded -->
+<!-- Context im Detail und gehen auf die Probleme ein, die bei der Nutzung -->
+<!-- des Begriff typischerweise auftreten. -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/e0oasqiTsGs"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/e0oasqiTsGs" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
