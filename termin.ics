@@ -20,22 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240611T190225Z
-DESCRIPTION:Bounded Contexts sind zentral für Strategic Domain-driven Desi
-	gn. Irgendwie werden damit große Systeme aufgeteilt\, aber gleichzeitig m
-	acht es die Definition von Begriffen eindeutig und irgendwie spielt das Ko
-	nzept auch eine Rolle für die Kollaboration von Teams. In dieser Episode 
-	diskutieren wir die den Begriff Bounded Context im Detail und gehen auf di
-	e Probleme ein\, die bei der Nutzung des Begriff typischerweise auftreten.
-	\n\nhttps://youtu.be/Cat1Zzf9sjM\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240614T140000
+CREATED:20240620T081928Z
+DESCRIPTION:Zum Kippen agiler Projekte gab es bereits einen Vortrag https:/
+	/software-architektur.tv/2024/05/24/episode217.html und eine Episode im St
+	ream https://software-architektur.tv/2023/02/17/folge152.html . Insbesonde
+	re zu dem Vortrag gab einige interessante Reaktionen und Kommentare - offe
+	nsichtlich gibt es viele unterschiedliche Meinungen zu dem Thema. In diese
+	r Episode diskutieren wir dieses Feedback und vertiefen so das Thema Agili
+	tät und das Scheitern des Ansatzes mit weitere Perspektiven.\n\nhttps://y
+	outu.be/TFCAYVKWsLw\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240621T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240614T130000
-LAST-MODIFIED:20240611T190225Z
-LOCATION:https://youtu.be/Cat1Zzf9sjM https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240621T130000
+LAST-MODIFIED:20240620T081928Z
+LOCATION:https://youtu.be/TFCAYVKWsLw https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Bounded Context - Was ist das genau?
+SUMMARY;LANGUAGE=de:Warum scheitert Agilität - Reaktionen (Software Archit
+	ektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
