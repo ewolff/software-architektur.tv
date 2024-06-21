@@ -14,28 +14,32 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 21.6. 13:00 CEST Warum scheitert Agilität - Reaktionen
+# Freitag 28.6. 13:00 CEST Architektur: Den menschlichen Faktor verbessern!
 
-Zum Kippen agiler Projekte gab es bereits einen
-[Vortrag](/2024/05/24/episode217.html) und eine [Episode im
-Stream](/2023/02/17/folge152.html). Insbesondere zu dem Vortrag gab
-einige interessante Reaktionen und Kommentare - offensichtlich gibt es
-viele unterschiedliche Meinungen zu dem Thema. In dieser Episode
-diskutieren wir dieses Feedback und vertiefen so das Thema Agilität
-und das Scheitern des Ansatzes mit weitere Perspektiven.
+Gute Software-Architektur strukturiert komplexe Software-Systeme so
+übersichtlich, dass Menschen sie verstehen und weiterentwickeln
+können. Also geht es bei der Software-Architektur um den Faktor
+Mensch. Deswegen kann sich Architektur aber nicht auf Maßnahmen für
+die Strukturierung der Software begrenzen, sondern muss sich auch mit
+den Menschen beschäftigen. In diesem Vortrag geht es um einige
+konkrete Ansätze und Erfahrungen, die Entwicklung durch Maßnahmen in
+Bezug auf den Faktor Mensch zu verbessern.
 
-[Zum Kalendar hinzufügen](termin.ics)
+Bei dieser YouTube-Instant-Premiere werde ich im Chat anwesend
+sein. Das YouTube-Video werde ich hier noch verlinken.
 
-## Live Stream
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/TFCAYVKWsLw"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- ## Live Stream -->
+
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/TFCAYVKWsLw" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
