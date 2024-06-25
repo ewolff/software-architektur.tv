@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240620T081928Z
-DESCRIPTION:Zum Kippen agiler Projekte gab es bereits einen Vortrag https:/
-	/software-architektur.tv/2024/05/24/episode217.html und eine Episode im St
-	ream https://software-architektur.tv/2023/02/17/folge152.html . Insbesonde
-	re zu dem Vortrag gab einige interessante Reaktionen und Kommentare - offe
-	nsichtlich gibt es viele unterschiedliche Meinungen zu dem Thema. In diese
-	r Episode diskutieren wir dieses Feedback und vertiefen so das Thema Agili
-	tät und das Scheitern des Ansatzes mit weitere Perspektiven.\n\nhttps://y
-	outu.be/TFCAYVKWsLw\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240621T140000
+CREATED:20240625T051203Z
+DESCRIPTION:Gute Software-Architektur strukturiert komplexe Software-System
+	e so übersichtlich\, dass Menschen sie verstehen und weiterentwickeln kö
+	nnen. Also geht es bei der Software-Architektur um den Faktor Mensch. Desw
+	egen kann sich Architektur aber nicht auf Maßnahmen für die Strukturieru
+	ng der Software begrenzen\, sondern muss sich auch mit den Menschen besch
+	äftigen. In diesem Vortrag geht es um einige konkrete Ansätze und Erfahr
+	ungen\, die Entwicklung durch Maßnahmen in Bezug auf den Faktor Mensch zu
+	 verbessern.\n\nBei dieser YouTube-Instant-Premiere werde ich im Chat anwe
+	send sein.\n\nhttps://www.youtube.com/watch?v=Y7rljtCldoM\n\n\n
+DTEND;TZID="W. Europe Standard Time":20240628T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240621T130000
-LAST-MODIFIED:20240620T081928Z
-LOCATION:https://youtu.be/TFCAYVKWsLw https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240628T130000
+LAST-MODIFIED:20240625T051203Z
+LOCATION:https://www.youtube.com/watch?v=Y7rljtCldoM
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Warum scheitert Agilität - Reaktionen (Software Archit
-	ektur im Stream)
+SUMMARY;LANGUAGE=de:Architektur: Den menschlichen Faktor verbessern! (Softw
+	are Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

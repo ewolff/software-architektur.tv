@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 28.6. 13:00 CEST Architektur: Den menschlichen Faktor verbessern!
+# Freitag 28.6. 13:00 CEST Software Architektur: Den menschlichen Faktor verbessern!
 
 Gute Software-Architektur strukturiert komplexe Software-Systeme so
 übersichtlich, dass Menschen sie verstehen und weiterentwickeln
@@ -26,22 +26,22 @@ konkrete Ansätze und Erfahrungen, die Entwicklung durch Maßnahmen in
 Bezug auf den Faktor Mensch zu verbessern.
 
 Bei dieser YouTube-Instant-Premiere werde ich im Chat anwesend
-sein. Das YouTube-Video werde ich hier noch verlinken.
+sein.
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/TFCAYVKWsLw" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/Y7rljtCldoM"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 
 # Fragen & Diskussion  / Question & Discussion
