@@ -20,25 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240625T051203Z
-DESCRIPTION:Gute Software-Architektur strukturiert komplexe Software-System
-	e so übersichtlich\, dass Menschen sie verstehen und weiterentwickeln kö
-	nnen. Also geht es bei der Software-Architektur um den Faktor Mensch. Desw
-	egen kann sich Architektur aber nicht auf Maßnahmen für die Strukturieru
-	ng der Software begrenzen\, sondern muss sich auch mit den Menschen besch
-	äftigen. In diesem Vortrag geht es um einige konkrete Ansätze und Erfahr
-	ungen\, die Entwicklung durch Maßnahmen in Bezug auf den Faktor Mensch zu
-	 verbessern.\n\nBei dieser YouTube-Instant-Premiere werde ich im Chat anwe
-	send sein.\n\nhttps://www.youtube.com/watch?v=Y7rljtCldoM\n\n\n
-DTEND;TZID="W. Europe Standard Time":20240628T140000
+CREATED:20240701T053556Z
+DESCRIPTION:With so much legacy software around\, modernizing the architect
+	ure and the software has become a major challenge that almost every projec
+	t faces. Nick Tune is one of the leading Domain-driven Design experts and 
+	has written a book about “Architecture Modernization”. In this episode
+	\, we will discuss this approach and how it deals with typical challenges 
+	with legacy systems.\n\nhttps://youtu.be/4y85oL9PjNE\nhttps://www.twitch.t
+	v/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240705T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240628T130000
-LAST-MODIFIED:20240625T051203Z
-LOCATION:https://www.youtube.com/watch?v=Y7rljtCldoM
+DTSTART;TZID="W. Europe Standard Time":20240705T130000
+LAST-MODIFIED:20240701T053556Z
+LOCATION:https://youtu.be/4y85oL9PjNE https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Architektur: Den menschlichen Faktor verbessern! (Softw
-	are Architektur im Stream)
+SUMMARY;LANGUAGE=de:Nick Tune about Architecture Modernization (Software Ar
+	chitektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
