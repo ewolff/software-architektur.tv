@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 5.7. 13:00 CEST Nick Tune about Architecture Modernization
+# Friday 5.7. 13:00 CEST Nick Tune about Architecture Modernization
 
 With so much legacy software around, modernizing the architecture and
 the software has become a major challenge that almost every project
