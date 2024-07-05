@@ -14,28 +14,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Friday 5.7. 13:00 CEST Nick Tune about Architecture Modernization
+# Freitag 12.7. 13:00 CEST Thema offen
 
-With so much legacy software around, modernizing the architecture and
-the software has become a major challenge that almost every project
-faces. Nick Tune is one of the leading Domain-driven Design experts
-and has written a book about “Architecture Modernization”. In this
-episode, we will discuss this approach and how it deals with typical
-challenges with legacy systems.
+<!-- With so much legacy software around, modernizing the architecture and -->
+<!-- the software has become a major challenge that almost every project -->
+<!-- faces. Nick Tune is one of the leading Domain-driven Design experts -->
+<!-- and has written a book about “Architecture Modernization”. In this -->
+<!-- episode, we will discuss this approach and how it deals with typical -->
+<!-- challenges with legacy systems. -->
 
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/4y85oL9PjNE"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/4y85oL9PjNE" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
