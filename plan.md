@@ -8,8 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                    |
 |-----------:|:---------------------------------|
-| 2024-06-28 | -                                |
-| 2024-07-05 | Nick Tune                        |
 | 2024-07-12 | Michael Plöd zu Quality Storming |
 | 2024-07-19 | -                                |
 | 2024-07-19 | -                                |
