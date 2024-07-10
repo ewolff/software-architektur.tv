@@ -20,23 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240701T053556Z
-DESCRIPTION:With so much legacy software around\, modernizing the architect
-	ure and the software has become a major challenge that almost every projec
-	t faces. Nick Tune is one of the leading Domain-driven Design experts and 
-	has written a book about “Architecture Modernization”. In this episode
-	\, we will discuss this approach and how it deals with typical challenges 
-	with legacy systems.\n\nhttps://youtu.be/4y85oL9PjNE\nhttps://www.twitch.t
-	v/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240705T140000
+CREATED:20240710T112029Z
+DESCRIPTION:Qualitätsanforderungen\, auch bekannt als nicht-funktionale An
+	forderungen\, sind entscheidend\, damit die Software-Architektur tatsächl
+	ich die richtigen Probleme löst. Nur mit den passenden Qualitätsanforder
+	ungen kann man die geeigneten Technologien auswählen. Doch die richtigen 
+	Anforderungen zu finden\, ist oft eine Herausforderung. In dieser Episode 
+	stellt Michael Plöd “Quality Storming” vor – einen Ansatz\, mit dem
+	 man gemeinsam mit Domänen-Expert und anderen Stakeholdern kollaborativ Q
+	ualitätsanforderungen ermitteln kann.\n\nhttps://youtu.be/GOkM_sfGyEA\nht
+	tps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240712T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240705T130000
-LAST-MODIFIED:20240701T053556Z
-LOCATION:https://youtu.be/4y85oL9PjNE https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240712T130000
+LAST-MODIFIED:20240710T112029Z
+LOCATION:https://youtu.be/GOkM_sfGyEA https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Nick Tune about Architecture Modernization (Software Ar
-	chitektur im Stream)
+SUMMARY;LANGUAGE=de:Quality Storming mit Michael Plöd (Software Architektu
+	r im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
