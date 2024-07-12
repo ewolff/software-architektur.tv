@@ -14,30 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 12.7. 13:00 CEST Quality Storming mit Michael Plöd
+# Freitag 19.7. 13:00 CEST Thema offen
 
-Qualitätsanforderungen, auch bekannt als nicht-funktionale
-Anforderungen, sind entscheidend, damit die Software-Architektur
-tatsächlich die richtigen Probleme löst. Nur mit den passenden
-Qualitätsanforderungen kann man die geeigneten Technologien
-auswählen. Doch die richtigen Anforderungen zu finden, ist oft eine
-Herausforderung. In dieser Episode stellt Michael Plöd "Quality
-Storming" vor – einen Ansatz, mit dem man gemeinsam mit Domänen-Expert
-und anderen Stakeholdern kollaborativ Qualitätsanforderungen ermitteln
-kann.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/GOkM_sfGyEA"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/GOkM_sfGyEA" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
