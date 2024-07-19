@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 26.7. 13:00 CEST Thema offen
+# Freitag 26.7. 13:00 CEST "Tidy First?" von Kent Beck mit Marco Emrich
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
