@@ -15,3 +15,4 @@ description: Überblick über die geplanten Folgen
 | 2024-09-06 | -                                                           |
 | 2024-09-13 | -                                                           |
 | 2024-10-04 | Martin Günther: "Moderation für Architekten und Entwickler" |
+| 2024-10-18 | Aydin Mir Mohammadi: "Green IT"                             |
