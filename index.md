@@ -31,6 +31,25 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+## 31.7. 9:00-17:00 Was ist der wichtigste Skill in der IT?
+
+<center>
+<img src="/thumbnails/wichtigster-skill.png" alt="Thumbnail" />
+</center>
+
+Software Architektur im Stream fragt Euch: Was ist der wichtigste
+Skill in der IT?
+
+Kommt beim Socreatory-Stand auf dem Java Forum Stuttgart vorbei und
+nehmt Eure Antwort auf. Die senden wir dann auch später im Stream. Ihr
+dürft natürlich auch einfach so "hallo" sagen - wir freuen uns auf
+Euch!
+
+Java Forum Stuttgart, Kultur- & Kongresszentrum Liederhalle, Berliner
+Platz 1, Stuttgart
+
+
+
 
 # Fragen & Diskussion  / Question & Discussion
 
