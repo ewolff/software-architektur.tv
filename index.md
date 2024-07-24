@@ -31,7 +31,7 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## 31.7. 9:00-17:00 Was ist der wichtigste Skill in der IT?
+## Mittwoch, 31.7. 9:00-17:00 Was ist der wichtigste Skill in der IT?
 
 <center>
 <img src="/thumbnails/wichtigster-skill.png" alt="Thumbnail" />
