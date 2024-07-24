@@ -20,25 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240710T112029Z
-DESCRIPTION:Qualitätsanforderungen\, auch bekannt als nicht-funktionale An
-	forderungen\, sind entscheidend\, damit die Software-Architektur tatsächl
-	ich die richtigen Probleme löst. Nur mit den passenden Qualitätsanforder
-	ungen kann man die geeigneten Technologien auswählen. Doch die richtigen 
-	Anforderungen zu finden\, ist oft eine Herausforderung. In dieser Episode 
-	stellt Michael Plöd “Quality Storming” vor – einen Ansatz\, mit dem
-	 man gemeinsam mit Domänen-Expert und anderen Stakeholdern kollaborativ Q
-	ualitätsanforderungen ermitteln kann.\n\nhttps://youtu.be/GOkM_sfGyEA\nht
-	tps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240712T140000
+CREATED:20240724T123355Z
+DESCRIPTION:Vielerorts wird der Begriff Refactoring missverstanden - oft bl
+	ockieren diese die Feature-Entwicklung und haben beim Management oft einen
+	 schlechten Ruf. Das muss aber nicht sein. In seinem Buch “Tidy First?
+	” beschreibt Kent Beck deswegen “Aufräumereien”\, mit denen man Cod
+	e besser gestalten kann. In dieser Episoden zeigt Marco Emrich zusammen mi
+	t Eberhard Wolff die konkreten Aufräumereien an Codebeispielen. Marco hat
+	 an der Übersetzung des Buchs ins Deutsche mitgearbeitet und hält auch V
+	orträge zum Inhalt des Buchs.\n\nhttps://youtu.be/sMWL0IDlfg4\nhttps://ww
+	w.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240726T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240712T130000
-LAST-MODIFIED:20240710T112029Z
-LOCATION:https://youtu.be/GOkM_sfGyEA https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240726T130000
+LAST-MODIFIED:20240724T123355Z
+LOCATION:https://youtu.be/sMWL0IDlfg4 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Quality Storming mit Michael Plöd (Software Architektu
-	r im Stream)
+SUMMARY;LANGUAGE=de:Code Aufräumen - Kent Beck’s “Tidy First?” mit M
+	arco Emric 1/2 (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

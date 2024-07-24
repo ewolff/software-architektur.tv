@@ -14,20 +14,29 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 26.7. 13:00 CEST "Tidy First?" von Kent Beck mit Marco Emrich
+# Freitag 26.7. 13:00 CEST Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Vielerorts wird der Begriff Refactoring missverstanden - oft
+blockieren diese die Feature-Entwicklung und haben beim Management oft
+einen schlechten Ruf. Das muss aber nicht sein. In seinem Buch “Tidy
+First?” beschreibt Kent Beck deswegen “Aufräumereien”, mit denen man
+Code besser gestalten kann. In dieser Episoden zeigt Marco Emrich
+zusammen mit Eberhard Wolff die konkreten Aufräumereien an
+Codebeispielen. Marco hat an der Übersetzung des Buchs ins Deutsche
+mitgearbeitet und hält auch Vorträge zum Inhalt des Buchs.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/GOkM_sfGyEA" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/sMWL0IDlfg4"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
