@@ -31,7 +31,7 @@ mitgearbeitet und hält auch Vorträge zum Inhalt des Buchs.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/sMWL0IDlfg4"
+	src="https://www.youtube-nocookie.com/embed/6M0yK3T_VpM"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
