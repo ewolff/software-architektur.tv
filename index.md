@@ -14,16 +14,17 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 26.7. 13:00 CEST Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2
+# Freitag 2.8. 13:00 CEST Theorie des Aufräumens - Kent Beck’s “Tidy First?” mit Marco Emrich 2/2
 
-Vielerorts wird der Begriff Refactoring missverstanden - oft
-blockieren diese die Feature-Entwicklung und haben beim Management oft
-einen schlechten Ruf. Das muss aber nicht sein. In seinem Buch “Tidy
-First?” beschreibt Kent Beck deswegen “Aufräumereien”, mit denen man
-Code besser gestalten kann. In dieser Episoden zeigt Marco Emrich
-zusammen mit Eberhard Wolff die konkreten Aufräumereien an
-Codebeispielen. Marco hat an der Übersetzung des Buchs ins Deutsche
-mitgearbeitet und hält auch Vorträge zum Inhalt des Buchs.
+Code aufräumen oder Features implementieren - womit sollten
+Entwickler:innen ihre Zeit verbringen? Kaum eine Frage ist im
+Projekt-Alltag wichtiger. In seinem Buch “Tidy First?” beschreibt Kent
+Beck nicht nur “Aufräumereien”, mit denen man Code besser gestalten
+kann, sondern geht auch die Frage der Priorisierung des Aufräumens
+an. In dieser Episoden diskutiert Marco Emrich zusammen mit Eberhard
+Wolff diese Aspekte des Buchs. Marco hat an der Übersetzung des Buchs
+ins Deutsche mitgearbeitet und hält auch Vorträge zum Inhalt des
+Buchs.
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -31,7 +32,7 @@ mitgearbeitet und hält auch Vorträge zum Inhalt des Buchs.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/sMWL0IDlfg4"
+	src="https://www.youtube-nocookie.com/embed/K0QVRwzbg2o"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
