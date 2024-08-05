@@ -8,7 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                                               |
 |-----------:|:------------------------------------------------------------|
-| 2024-08-09 | Firmenpolitik für Architekt:innen mit Michael Ahrens        |
 | 2024-08-16 | Was ist der wichtigste Skill in der IT?                     |
 | 2024-08-30 | -                                                           |
 | 2024-09-06 | -                                                           |
