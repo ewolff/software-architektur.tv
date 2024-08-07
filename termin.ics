@@ -20,25 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240726T062206Z
-DESCRIPTION:Code aufräumen oder Features implementieren - womit sollten En
-	twickler:innen ihre Zeit verbringen? Kaum eine Frage ist im Projekt-Alltag
-	 wichtiger. In seinem Buch “Tidy First?” beschreibt Kent Beck nicht nu
-	r “Aufräumereien”\, mit denen man Code besser gestalten kann\, sonder
-	n geht auch die Frage der Priorisierung des Aufräumens an. In dieser Epis
-	oden diskutiert Marco Emrich zusammen mit Eberhard Wolff diese Aspekte des
-	 Buchs. Marco hat an der Übersetzung des Buchs ins Deutsche mitgearbeitet
-	 und hält auch Vorträge zum Inhalt des Buchs.\n\nhttps://youtu.be/K0QVRw
-	zbg2o\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240802T140000
+CREATED:20240807T063304Z
+DESCRIPTION:Oft sehen Architekt:innen Firmenpolitik als etwas\, was sie von
+	 der wirklichen Arbeit abhält. Aber gerade der Bereich Politik beeinfluss
+	t einige wesentliche Erfolgsfaktoren von Projekten - und man kann sich die
+	sen Mechanismen eigentlich kaum entziehen. In dieser Episoden diskutiert M
+	ichael Ahrens mit Eberhard Wolff was Firmenpolitik ist - und wie man sie k
+	onstruktiv nutzen kann.\n\nhttps://youtu.be/lbipl4Vw7q4\nhttps://www.twitc
+	h.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240809T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240802T130000
-LAST-MODIFIED:20240726T062206Z
-LOCATION:https://youtu.be/K0QVRwzbg2o https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240809T130000
+LAST-MODIFIED:20240807T063304Z
+LOCATION:https://youtu.be/lbipl4Vw7q4 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Theorie des Aufräumens - Kent Beck’s “Tidy First?
-	” mit Marco Emrich 2/2 (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Firmenpolitik für Architekt:innen mit Michael Ahrens (
+	Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
