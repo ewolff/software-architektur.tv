@@ -14,27 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 9.8. 13:00 CEST  Firmenpolitik für Architekt:innen mit Michael Ahrens 
+# Freitag 16.8. 13:00 CEST Was ist der wichtigste Skill in der IT?
 
-Oft sehen Architekt:innen Firmenpolitik als etwas, was sie von der
-wirklichen Arbeit abhält. Aber gerade der Bereich Politik beeinflusst
-einige wesentliche Erfolgsfaktoren von Projekten - und man kann sich
-diesen Mechanismen eigentlich kaum entziehen. In dieser Episoden
-diskutiert Michael Ahrens mit Eberhard Wolff was Firmenpolitik ist -
-und wie man sie konstruktiv nutzen kann.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/lbipl4Vw7q4"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/lbipl4Vw7q4" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
