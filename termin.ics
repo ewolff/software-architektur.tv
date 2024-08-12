@@ -20,23 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240807T063304Z
-DESCRIPTION:Oft sehen Architekt:innen Firmenpolitik als etwas\, was sie von
-	 der wirklichen Arbeit abhält. Aber gerade der Bereich Politik beeinfluss
-	t einige wesentliche Erfolgsfaktoren von Projekten - und man kann sich die
-	sen Mechanismen eigentlich kaum entziehen. In dieser Episoden diskutiert M
-	ichael Ahrens mit Eberhard Wolff was Firmenpolitik ist - und wie man sie k
-	onstruktiv nutzen kann.\n\nhttps://youtu.be/lbipl4Vw7q4\nhttps://www.twitc
-	h.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240809T140000
+CREATED:20240812T181334Z
+DESCRIPTION:Wir haben Euch gefragt: Was ist der wichtigste Skill in der IT?
+	 In dieser Episode diskutieren Lisa Moritz\, Ralf D. Müller und Eberhard 
+	Wolff die Ergebnisse - und natürlich beantworten sie selbst auch die Frag
+	e. Vorab sei so viel verraten: Es gibt einen vielleicht nicht so überrasc
+	henden Favoriten\, den viele genannt haben - aber auch sehr viele untersch
+	iedliche Antworten.\n\nhttps://youtu.be/Uxf9Ih5T3xI\nhttps://www.twitch.tv
+	/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240816T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240809T130000
-LAST-MODIFIED:20240807T063304Z
-LOCATION:https://youtu.be/lbipl4Vw7q4 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240816T130000
+LAST-MODIFIED:20240812T181334Z
+LOCATION:https://youtu.be/Uxf9Ih5T3xI https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Firmenpolitik für Architekt:innen mit Michael Ahrens (
-	Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Was ist der wichtigste Skill in der IT? (Software Archi
+	tektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

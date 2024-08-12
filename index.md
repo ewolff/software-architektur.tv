@@ -16,18 +16,25 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 # Freitag 16.8. 13:00 CEST Was ist der wichtigste Skill in der IT?
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Wir haben Euch gefragt: Was ist der wichtigste Skill in der IT? In
+dieser Episode diskutieren Lisa Moritz, Ralf D. Müller und Eberhard
+Wolff die Ergebnisse - und natürlich beantworten sie selbst auch die
+Frage. Vorab sei so viel verraten: Es gibt einen vielleicht nicht so
+überraschenden Favoriten, den viele genannt haben - aber auch sehr
+viele unterschiedliche Antworten.
+
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/lbipl4Vw7q4" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/Uxf9Ih5T3xI"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
