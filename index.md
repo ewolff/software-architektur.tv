@@ -14,30 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächster Termin: Mittwoch 2024-08-21 12:00 Teams und die Dunbar-Zahl
+# Nächster Termin: Donnerstag 2024-09-19 14:00 Supply Chain Security mit Jochen Mader
 
-Software-Entwicklung findet in Teams statt. Für die Größe der Teams
-wird in letzter Zeit verstärkt die Forschung rund um die Dunbar-Zahl
-herangezogen, die 150 beträgt. Scrum hingegen spricht von Teams mit
-weniger als 10 Personen. Wie kommt die Dunbar-Zahl zustande? Und
-welche Bedeutung hat sie, wenn Scrum beispielsweise eine andere
-Team-Größe predigt? Das wird Eberhard in dieser Episode diskutieren.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/EntDe2-HHNo"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/EntDe2-HHNo" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
-
 
 # Fragen & Diskussion  / Question & Discussion
 
