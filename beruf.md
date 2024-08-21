@@ -1,4 +1,4 @@
- ---
+---
 title: Software-Architektur als Beruf 
 type: website
 description: Karriere-Pfade in der Software-Architektur
