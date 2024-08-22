@@ -14,20 +14,27 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächster Termin: Donnerstag 2024-09-19 14:00 Supply Chain Security mit Jochen Mader
+# Nächster Termin: Donnerstag 2024-09-19 14:00 Supply Chain Security mit Jochen Mader - live von der BED-Con
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Sicherheitslücke durch Abhängigkeiten sind für Attacken wie
+Solarwinds, Equifax oder XZ verantwortlich. Und der EU Cyber
+Resilience Act zwingt zum Handeln. Supply Chain Security hilft bei der
+Absicherung des Bild-Prozesses. Jochen Mader wird dazu live von der
+BED-Con Rede und Antwort stehen, wo er auch einen Vortrag zum Thema
+hält.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/EntDe2-HHNo" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/ayf7CenWypg"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
