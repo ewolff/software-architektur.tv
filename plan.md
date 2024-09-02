@@ -8,8 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                                               |
 |-----------:|:------------------------------------------------------------|
-| 2024-08-23 | -                                                           |
-| 2024-08-30 | -                                                           |
 | 2024-09-06 | -                                                           |
 | 2024-09-13 | -                                                           |
 | 2024-09-19 | 14:00 Jochen Mader Supply Chain Security von der BED-Con    |
