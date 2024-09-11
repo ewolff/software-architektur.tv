@@ -10,7 +10,7 @@
       
     {{ content }}
 
-    {{ page.date | date: "%Y-%m-%d"}}
+    {{ page.date | date: "%Y-%m-%d"}} <a href="{{ site.url }}/thumbnails/{{ page.thumbnail }}">Thumbnail</a>
     
 {% if page.peertube %}
 <h2>PeerTube Video - no Big Tech!</h2>
