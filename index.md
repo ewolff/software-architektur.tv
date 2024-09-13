@@ -64,6 +64,42 @@ hält.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+# Freitag 2024-09-20 10:00 Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con
+
+Kriegsmetaphern finden oft Eingang in die Sprache der
+Unternehmenskultur, sei es in Besprechungen, Präsentationen oder
+internen Mitteilungen. Begriffe wie "Schlachtplan", "verteidigen",
+"kämpfen" oder "Siegesstrategie" werden verwendet, um den Wettbewerb
+zu beschreiben. Diese Metaphern können die Einstellung der Mitarbeiter
+gegenüber ihrer Arbeit und ihrem Team beeinflussen, indem sie eine
+Atmosphäre von Konkurrenz und Kampf schaffen.
+
+Die Unternehmenskultur oder auch die Stimmung im Team werden
+automatisch aggressiver und feindseliger gegenüber anderen Teams. Dies
+schafft oder verstärkt Konflikte, prägt Silo-Denken und versetzt die
+Mitarbeiter in einen permanenten "Kampfmodus".
+
+Das muss nicht sein und es lohnt sich, ein Bewusstsein für die
+eingesetzten Metaphern zu schaffen, denn Sprache schafft Wirklichkeit.
+Friederike hält zu dem Thema einen Vortrag auf der BED-Con. Wir
+sprechen in diesem Stream über den Vortrag.
+
+[Zum Kalendar hinzufügen](termin2.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/9gOodTcTq70"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+
 # Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und

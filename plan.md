@@ -8,7 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |            Datum | Thema / Gäste                                                        |
 |-----------------:|:---------------------------------------------------------------------|
-| 2024-09-20 10:00 | Friederike Sternberg zu Sprache schafft Wirklichkeit von der BED-Con |
 |       2024-10-04 | Martin Günther: "Moderation für Architekten und Entwickler"          |
 |       2024-10-11 | Lars Roewekamp: "Generative AI Meets Software Architecture"          |
 |       2024-10-18 | Aydin Mir Mohammadi: "Green IT"                                      |
