@@ -14,32 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächster Termin: Montag 2024-09-16 17:00 Team Topologie in der Praxis mit Kim Nena Duggen
-
-Team Topologies scheint ein erfolgversprechendes Konzept zu sein, um
-die Teams für Software-Entwicklungsprojekte aufzustellen. Auf den
-ersten Blick scheinen die Ideen relativ einfach verständlich zu sein -
-und tatsächlich ist das einer der Vorteile von Team Topologies. Aber
-in der Praxis ergeben sich dann doch oft Herausforderungen, weil die
-Realität eben kompliziert und vielfältig ist. In dieser Episode
-diskutieren Kim Nena Duggen und Eberhard Wolff ihre Erfahrungen,
-Szenarien und Lösungsideen aus der Praxis mit Team Topologies.
-
-[Zum Kalendar hinzufügen](termin1.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Pny2lZC2I4c"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # Donnerstag 2024-09-19 14:00 Supply Chain Security mit Jochen Mader - live von der BED-Con
 
 Sicherheitslücke durch Abhängigkeiten sind für Attacken wie
