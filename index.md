@@ -14,62 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Donnerstag 2024-09-19 14:00 Supply Chain Security mit Jochen Mader - live von der BED-Con
+# Freitag 2024-09-27 Thema offen
 
-Sicherheitslücke durch Abhängigkeiten sind für Attacken wie
-Solarwinds, Equifax oder XZ verantwortlich. Und der EU Cyber
-Resilience Act zwingt zum Handeln. Supply Chain Security hilft bei der
-Absicherung des Bild-Prozesses. Jochen Mader wird dazu live von der
-BED-Con Rede und Antwort stehen, wo er auch einen Vortrag zum Thema
-hält.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/ayf7CenWypg"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
-# Freitag 2024-09-20 10:00 Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con
-
-Kriegsmetaphern finden oft Eingang in die Sprache der
-Unternehmenskultur, sei es in Besprechungen, Präsentationen oder
-internen Mitteilungen. Begriffe wie "Schlachtplan", "verteidigen",
-"kämpfen" oder "Siegesstrategie" werden verwendet, um den Wettbewerb
-zu beschreiben. Diese Metaphern können die Einstellung der Mitarbeiter
-gegenüber ihrer Arbeit und ihrem Team beeinflussen, indem sie eine
-Atmosphäre von Konkurrenz und Kampf schaffen.
-
-Die Unternehmenskultur oder auch die Stimmung im Team werden
-automatisch aggressiver und feindseliger gegenüber anderen Teams. Dies
-schafft oder verstärkt Konflikte, prägt Silo-Denken und versetzt die
-Mitarbeiter in einen permanenten "Kampfmodus".
-
-Das muss nicht sein und es lohnt sich, ein Bewusstsein für die
-eingesetzten Metaphern zu schaffen, denn Sprache schafft Wirklichkeit.
-Friederike hält zu dem Thema einen Vortrag auf der BED-Con. Wir
-sprechen in diesem Stream über den Vortrag.
-
-[Zum Kalendar hinzufügen](termin2.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/9gOodTcTq70"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/ayf7CenWypg" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
