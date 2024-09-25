@@ -20,22 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240822T055116Z
-DESCRIPTION:Sicherheitslücke durch Abhängigkeiten sind für Attacken wie 
-	Solarwinds\, Equifax oder XZ verantwortlich. Und der EU Cyber Resilience A
-	ct zwingt zum Handeln. Supply Chain Security hilft bei der Absicherung des
-	 Bild-Prozesses. Jochen Mader wird dazu live von der BED-Con Rede und Antw
-	ort stehen\, wo er auch einen Vortrag zum Thema hält.\n\nhttps://youtu.be
-	/ayf7CenWypg\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20240919T150000
+CREATED:20240925T123555Z
+DESCRIPTION:In der IT gibt es einen kontinuierlichen Strom an Innovationen.
+	 Architekt:innen und alle\, die in der IT arbeiten\, stehen vor der Heraus
+	forderung\, ständig neue Ideen in ihre Organisationen einzubringen. Hierf
+	ür können gezielte Muster (Pattern) eingesetzt werden. In dieser Episode
+	 spielen Tanja Friedel\, Ralf D. Müller und Eberhard Wolff live das Spiel
+	 “Fearless Journey”. Mit diesem Spiel lassen sich auf spielerische Wei
+	se Strategien entwickeln\, um neue Ideen zu etablieren. Im Anschluss refle
+	ktieren sie gemeinsam über das Spielergebnis und das Vorgehen.\n\nhttps:/
+	/www.youtube.com/live/PKtUowX7u6M\nhttps://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20240927T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20240919T140000
-LAST-MODIFIED:20240822T055116Z
-LOCATION:https://youtu.be/ayf7CenWypg https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20240927T130000
+LAST-MODIFIED:20240925T123555Z
+LOCATION:https://www.youtube.com/live/PKtUowX7u6M https://www.twitch.tv/ebr
+	wolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Supply Chain Security mit Jochen Mader - live von der B
-	ED-Con (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Fearless Change: Neue Ideen etablieren (Software Archit
+	ektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
