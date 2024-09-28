@@ -14,25 +14,32 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2024-09-27 13:00 Fearless Change: Neue Ideen etablieren
+# Freitag 2024-10-04 13:00 Moderation mit Liberating Structures für Architekt:innen mit Martin Günther
 
-In der IT gibt es einen kontinuierlichen Strom an
-Innovationen. Architekt:innen und alle, die in der IT arbeiten, stehen
-vor der Herausforderung, ständig neue Ideen in ihre Organisationen
-einzubringen. Hierfür können gezielte Muster (Pattern) eingesetzt
-werden. In dieser Episode spielen Tanja Friedel, Ralf D. Müller und
-Eberhard Wolff live das Spiel "Fearless Journey". Mit diesem Spiel
-lassen sich auf spielerische Weise Strategien entwickeln, um neue
-Ideen zu etablieren. Im Anschluss reflektieren sie gemeinsam über das
-Spielergebnis und das Vorgehen.
+Software Architektur findet oft in Meetings statt. Kaum eine
+Entscheidung kann eine Person alleine treffen, denn es geht meistens
+darum, die Interessen verschiedener Stakeholder zu hören und zu
+beachten.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Das Moderieren von Workshops und Meetings ist also ein wichtiges
+Werkzeug für die Gestaltung von Software-Architektur. Martin Günther
+spricht mit uns in dieser Episode über die verschiedenen
+Moderationsmöglichkeiten und den Liberating-Structures-Werkzeugkasten.
+
+Ein wichtiges Problem dabei: Leider gibt es auch Menschen, die teils
+unberechenbar eigene Meinungen oder Ideen einbringen oder durchsetzen
+wollen. Das kann beängstigend wirken oder gar so weit gehen, dass man
+sich nicht traut, den eigentlich notwendigen Workshop zu
+veranstalten. Ein Toolset wie Liberating Structure kann die notwendige
+Sicherheit geben, um auch solche Herausforderungen zu meistern.
+
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/PKtUowX7u6M"
+	src="https://www.youtube-nocookie.com/embed/PtpgMYoBhiE"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
