@@ -30,7 +30,7 @@ Ein wichtiges Problem dabei: Leider gibt es auch Menschen, die teils
 unberechenbar eigene Meinungen oder Ideen einbringen oder durchsetzen
 wollen. Das kann beängstigend wirken oder gar so weit gehen, dass man
 sich nicht traut, den eigentlich notwendigen Workshop zu
-veranstalten. Ein Toolset wie Liberating Structure kann die notwendige
+veranstalten. Ein Toolset wie Liberating Structures kann die notwendige
 Sicherheit geben, um auch solche Herausforderungen zu meistern.
 
 [Zum Kalendar hinzufügen](termin.ics)
