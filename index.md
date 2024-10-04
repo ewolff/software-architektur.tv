@@ -6,7 +6,8 @@ description: Live-Diskussion zu Software-Architektur im Stream
 
 Live-Diskussion zu Software-Architektur im Stream. 
 
-Einmal in der Woche diskutiert Eberhard Wolff oder Lisa Moritz
+Einmal in der Woche diskutiert Eberhard Wolff, Lisa Moritz oder Ralf
+D. Müller
 Software-Architektur im
 Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
