@@ -15,37 +15,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2024-10-04 13:00 Moderation mit Liberating Structures für Architekt:innen mit Martin Günther
+# Freitag 2024-10-11 13:00 GenAI und Software-Architektur mit Ralf D. Müller und Lars Röwekamp
 
-Software Architektur findet oft in Meetings statt. Kaum eine
-Entscheidung kann eine Person alleine treffen, denn es geht meistens
-darum, die Interessen verschiedener Stakeholder zu hören und zu
-beachten.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-Das Moderieren von Workshops und Meetings ist also ein wichtiges
-Werkzeug für die Gestaltung von Software-Architektur. Martin Günther
-spricht mit uns in dieser Episode über die verschiedenen
-Moderationsmöglichkeiten und den Liberating-Structures-Werkzeugkasten.
+<!-- ## Live Stream -->
 
-Ein wichtiges Problem dabei: Leider gibt es auch Menschen, die teils
-unberechenbar eigene Meinungen oder Ideen einbringen oder durchsetzen
-wollen. Das kann beängstigend wirken oder gar so weit gehen, dass man
-sich nicht traut, den eigentlich notwendigen Workshop zu
-veranstalten. Ein Toolset wie Liberating Structures kann die notwendige
-Sicherheit geben, um auch solche Herausforderungen zu meistern.
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/PtpgMYoBhiE"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/PtpgMYoBhiE" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
