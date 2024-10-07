@@ -15,7 +15,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2024-10-11 13:00 GenAI und Software-Architektur mit Ralf D. Müller und Lars Röwekamp
+# Freitag 2024-10-18 13:00 Green IT
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
