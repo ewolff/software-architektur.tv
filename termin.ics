@@ -20,33 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20240928T103320Z
-DESCRIPTION:Software Architektur findet oft in Meetings statt. Kaum eine En
-	tscheidung kann eine Person alleine treffen\, denn es geht meistens darum\
-	, die Interessen verschiedener Stakeholder zu hören und zu beachten.\nDas
-	 Moderieren von Workshops und Meetings ist also ein wichtiges Werkzeug fü
-	r die Gestaltung von Software-Architektur. Martin Günther spricht mit uns
-	 in dieser Episode über die verschiedenen Moderationsmöglichkeiten und d
-	en Liberating-Structures-Werkzeugkasten.\nEin wichtiges Problem dabei: Lei
-	der gibt es auch Menschen\, die teils unberechenbar eigene Meinungen oder 
-	Ideen einbringen oder durchsetzen wollen. Das kann beängstigend wirken od
-	er gar so weit gehen\, dass man sich nicht traut\, den eigentlich notwendi
-	gen Workshop zu veranstalten. Ein Toolset wie Liberating Structure kann di
-	e notwendige Sicherheit geben\, um auch solche Herausforderungen zu meiste
-	rn.\n\nhttps://youtu.be/PtpgMYoBhiE\nhttps://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20241004T140000
+CREATED:20241015T061337Z
+DESCRIPTION:In der Klimakrise sind alle aufgerufen\, Maßnahmen zu ergreife
+	n\, um das 1\,5°-Ziel zu erreichen. Unsere Branche ist für ca. 4% des we
+	ltweiten CO2-Verbrauchs verantwortlich - Tendenz steigend. Wir als Softwar
+	eentwickler:innen und Softwarearchitekt:innen haben die Verantwortung und 
+	die Möglichkeit hier die Situation zu verbessern. In dieser Episode sprec
+	hen wir mit Aydin Mir Mohammadi über diese Problematik und was wir konkre
+	t tun können. Er ist Mitgründer und im Vorstand Bundesverband Green Soft
+	ware\, Initiator der CO2-Challenge sowie Partner und Architekt bei bluehan
+	ds.\n
+DTEND;TZID="W. Europe Standard Time":20241018T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241004T130000
-LAST-MODIFIED:20240928T103320Z
-LOCATION:https://youtu.be/PtpgMYoBhiE https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20241018T130000
+LAST-MODIFIED:20241015T061337Z
+LOCATION:https://youtu.be/uqIUaElJPSM https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Moderation mit Liberating Structures für Architekt:inn
-	en mit Martin Günther (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Green Software Development mit Aydin Mir Mohammadi (Sof
+	tware Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE

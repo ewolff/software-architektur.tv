@@ -15,20 +15,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2024-10-18 13:00 Green IT
+# Freitag 2024-10-18 13:00 Green Software Development mit Aydin Mir Mohammadi
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+In der Klimakrise sind alle aufgerufen, Maßnahmen zu ergreifen, um das
+1,5°-Ziel zu erreichen. Unsere Branche ist für ca. 4% des weltweiten
+CO2-Verbrauchs verantwortlich - Tendenz steigend. Wir als
+Softwareentwickler:innen und Softwarearchitekt:innen haben die
+Verantwortung und die Möglichkeit hier die Situation zu verbessern. In
+dieser Episode sprechen wir mit Aydin Mir Mohammadi über diese
+Problematik und was wir konkret tun können. Er ist Mitgründer und im
+Vorstand Bundesverband Green Software, Initiator der CO2-Challenge
+sowie Partner und Architekt bei bluehands.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/PtpgMYoBhiE" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/uqIUaElJPSM"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
