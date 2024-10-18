@@ -20,25 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241015T061337Z
-DESCRIPTION:In der Klimakrise sind alle aufgerufen\, Maßnahmen zu ergreife
-	n\, um das 1\,5°-Ziel zu erreichen. Unsere Branche ist für ca. 4% des we
-	ltweiten CO2-Verbrauchs verantwortlich - Tendenz steigend. Wir als Softwar
-	eentwickler:innen und Softwarearchitekt:innen haben die Verantwortung und 
-	die Möglichkeit hier die Situation zu verbessern. In dieser Episode sprec
-	hen wir mit Aydin Mir Mohammadi über diese Problematik und was wir konkre
-	t tun können. Er ist Mitgründer und im Vorstand Bundesverband Green Soft
-	ware\, Initiator der CO2-Challenge sowie Partner und Architekt bei bluehan
-	ds.\n
-DTEND;TZID="W. Europe Standard Time":20241018T140000
+CREATED:20241018T174657Z
+DESCRIPTION:Ein Code Retreat ist eine ganztägige Veranstaltung für Entwic
+	kler:innen mit einem speziellen Format\, um Code-Design-Praktiken\, Pair P
+	rogramming und Refactoring zu üben. In dieser Episode sprechen Marco Emri
+	ch und Eberhard über diesen Ansatz - und führen ihn auch live vor\, um e
+	inen praktischen Eindruck zu vermitteln\, wie ein Code Retreat tatsächlic
+	h funktioniert. Wer Lust auf mehr hat: Am 2024-11-08  und 2024-11-09 ist d
+	er Global Day of Code Retreat mit vielen öffentlichen Code Retreats. Mehr
+	 Informationen und eine Liste von Veranstaltungen gibt es hier: https://ww
+	w.coderetreat.org/\n
+DTEND;TZID="W. Europe Standard Time":20241025T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241018T130000
-LAST-MODIFIED:20241015T061337Z
+DTSTART;TZID="W. Europe Standard Time":20241025T130000
+LAST-MODIFIED:20241018T174657Z
 LOCATION:https://youtu.be/uqIUaElJPSM https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Green Software Development mit Aydin Mir Mohammadi (Sof
-	tware Architektur im Stream)
+SUMMARY;LANGUAGE=de:Code Retreat live - mit Marco Emrich (Software Architek
+	tur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
