@@ -11,3 +11,4 @@ description: Überblick über die geplanten Folgen
 | 2024-11-07 | Diana Montalion mit Lisa                                    |
 | 2024-11-08 | Cosima Laube zu Coaching mit Lisa                           |
 | 2024-11-29 | Lars Roewekamp: "Generative AI Meets Software Architecture" mit ralf |
+| 2024-10-12 | Live von den IT-Tagen zu IT 2034 |
