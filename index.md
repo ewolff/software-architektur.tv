@@ -15,30 +15,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Freitag 2024-10-25 13:00 Code Retreat live - mit Marco Emrich
+# Nächste Episode: Offen
 
-Ein Code Retreat ist eine ganztägige Veranstaltung für
-Entwickler:innen mit einem speziellen Format, um
-Code-Design-Praktiken, Pair Programming und Refactoring zu üben. In
-dieser Episode sprechen Marco Emrich und Eberhard über diesen Ansatz -
-und führen ihn auch live vor, um einen praktischen Eindruck zu
-vermitteln, wie ein Code Retreat tatsächlich funktioniert. Wer Lust
-auf mehr hat: Am 2024-11-08  und 2024-11-09 ist der Global Day of Code
-Retreat mit vielen öffentlichen Code Retreats. Mehr Informationen und
-eine Liste von Veranstaltungen gibt es [hier](https://www.coderetreat.org/).
+<!-- Ein Code Retreat ist eine ganztägige Veranstaltung für -->
+<!-- Entwickler:innen mit einem speziellen Format, um -->
+<!-- Code-Design-Praktiken, Pair Programming und Refactoring zu üben. In -->
+<!-- dieser Episode sprechen Marco Emrich und Eberhard über diesen Ansatz - -->
+<!-- und führen ihn auch live vor, um einen praktischen Eindruck zu -->
+<!-- vermitteln, wie ein Code Retreat tatsächlich funktioniert. Wer Lust -->
+<!-- auf mehr hat: Am 2024-11-08  und 2024-11-09 ist der Global Day of Code -->
+<!-- Retreat mit vielen öffentlichen Code Retreats. Mehr Informationen und -->
+<!-- eine Liste von Veranstaltungen gibt es [hier](https://www.coderetreat.org/). -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/WksUB0pY3Ro"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/WksUB0pY3Ro" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
