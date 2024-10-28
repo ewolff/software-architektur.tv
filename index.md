@@ -15,30 +15,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Offen
+# Nächste Episode: Mittwoch, 30.10. 15:00 CET Warum ist Software(-Architektur) eigentlich immer so schlecht?
 
-<!-- Ein Code Retreat ist eine ganztägige Veranstaltung für -->
-<!-- Entwickler:innen mit einem speziellen Format, um -->
-<!-- Code-Design-Praktiken, Pair Programming und Refactoring zu üben. In -->
-<!-- dieser Episode sprechen Marco Emrich und Eberhard über diesen Ansatz - -->
-<!-- und führen ihn auch live vor, um einen praktischen Eindruck zu -->
-<!-- vermitteln, wie ein Code Retreat tatsächlich funktioniert. Wer Lust -->
-<!-- auf mehr hat: Am 2024-11-08  und 2024-11-09 ist der Global Day of Code -->
-<!-- Retreat mit vielen öffentlichen Code Retreats. Mehr Informationen und -->
-<!-- eine Liste von Veranstaltungen gibt es [hier](https://www.coderetreat.org/). -->
+Zu oft ist die Code-Qualität von Software schlecht, was vor allem die
+Wartbarkeit schwierig macht. Das frustriert nicht Entwickler:innen,
+kann zu wirtschaftlichen Problemen führen. Am Ende kann die Software
+oft gar nicht mehr weiterentwickelt werden, sondern muss mit viel
+Aufwand und hohen Kosten saniert werden. In dieser Folge wollen wir
+den Ursachen für dieses Problem nachgehen und verschiedene Strategien
+diskutieren, um mit dem Problem umzugehen.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/WksUB0pY3Ro" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/ahyHUTMAqoY"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
