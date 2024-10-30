@@ -98,6 +98,8 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 * [Podcast](podcast.html)
 * [Buch](/sketchnote-buch)
 * [Kafka Comic](/kafka-comic)
+* [SpreadShop](https://software-architektur-im-stream.myspreadshop.de/)
+  mit Merch
 * [Feed](feed.xml)
 
 # Lizenz
