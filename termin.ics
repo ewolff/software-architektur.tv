@@ -20,25 +20,21 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241018T174657Z
-DESCRIPTION:Ein Code Retreat ist eine ganztägige Veranstaltung für Entwic
-	kler:innen mit einem speziellen Format\, um Code-Design-Praktiken\, Pair P
-	rogramming und Refactoring zu üben. In dieser Episode sprechen Marco Emri
-	ch und Eberhard über diesen Ansatz - und führen ihn auch live vor\, um e
-	inen praktischen Eindruck zu vermitteln\, wie ein Code Retreat tatsächlic
-	h funktioniert. Wer Lust auf mehr hat: Am 2024-11-08  und 2024-11-09 ist d
-	er Global Day of Code Retreat mit vielen öffentlichen Code Retreats. Mehr
-	 Informationen und eine Liste von Veranstaltungen gibt es hier: https://ww
-	w.coderetreat.org/\n
-DTEND;TZID="W. Europe Standard Time":20241025T140000
+CREATED:20241105T135422Z
+DESCRIPTION:Cosima und Lisa sprechen über Einzelcoaching. Was ist das übe
+	rhaupt und wie grenzt es sich von anderen Coaching Formen ab? Natürlich k
+	lären sie auch die wichtigste Frage: Wie können wir Techies uns durch Ei
+	nzelcoaching weiterentwickeln? Und können Coaching-Werkzeuge uns vielleic
+	ht auch in unserer alltäglichen Arbeit unterstützen?\n
+DTEND;TZID="W. Europe Standard Time":20241108T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241025T130000
-LAST-MODIFIED:20241018T174657Z
+DTSTART;TZID="W. Europe Standard Time":20241108T130000
+LAST-MODIFIED:20241105T135422Z
 LOCATION:https://youtu.be/uqIUaElJPSM https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Code Retreat live - mit Marco Emrich (Software Architek
-	tur im Stream)
+SUMMARY;LANGUAGE=de:Was ist (Einzel-)Coaching und wie nützt es Techies? mi
+	t Cosima Laube und Lisa Moritz (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

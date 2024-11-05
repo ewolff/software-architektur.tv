@@ -15,28 +15,26 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Next Episode: Thursday, 2024-11-7 Diana Montalion with Lisa Maria Moritz
+# Nächste Episode: Freitag 13:00 Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Moritz
 
-<!-- Zu oft ist die Code-Qualität von Software schlecht, was vor allem die -->
-<!-- Wartbarkeit schwierig macht. Das frustriert nicht Entwickler:innen, -->
-<!-- kann zu wirtschaftlichen Problemen führen. Am Ende kann die Software -->
-<!-- oft gar nicht mehr weiterentwickelt werden, sondern muss mit viel -->
-<!-- Aufwand und hohen Kosten saniert werden. In dieser Folge wollen wir -->
-<!-- den Ursachen für dieses Problem nachgehen und verschiedene Strategien -->
-<!-- diskutieren, um mit dem Problem umzugehen. -->
+Cosima und Lisa sprechen über Einzelcoaching. Was ist das überhaupt
+und wie grenzt es sich von anderen Coaching Formen ab? Natürlich
+klären sie auch die wichtigste Frage: Wie können wir Techies uns durch
+Einzelcoaching weiterentwickeln? Und können Coaching-Werkzeuge uns
+vielleicht auch in unserer alltäglichen Arbeit unterstützen?
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/ahyHUTMAqoY" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/gLcdgEBOoAA"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
