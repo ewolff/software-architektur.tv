@@ -15,7 +15,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 13:00 Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Moritz
+# Nächste Episode: 2024-11-08 Freitag 13:00 Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Moritz
 
 Cosima und Lisa sprechen über Einzelcoaching. Was ist das überhaupt
 und wie grenzt es sich von anderen Coaching Formen ab? Natürlich
