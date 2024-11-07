@@ -15,35 +15,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 2024-11-07 Thursday 18:00 CET Learning Systems Thinking with Diana Montalion and Lisa Moritz
-
-We already learnt about nonlinear thinking in [episode
-137](/2022/10/07/folge137.html) of Software Architektur im Stream,
-when Diana Montalion talked with Eberhard Wolff about this important
-topic.
-
-But what about Systems Thinking? Is it the same as non-linear
-thinking? Let's find out together with Diana Montalion and Lisa Maria
-Moritz in this episode.  Diana and Lisa will talk about Diana's new
-book "Learning Systems Thinking: Essential Nonlinear Skills &
-Practices for Software Professionals".
-
-[Add to calendar](termin1.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/07IYACU8t-E"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
-
 # 2024-11-08 Freitag 13:00 CET Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Moritz
 
 Cosima und Lisa sprechen über Einzelcoaching. Was ist das überhaupt
