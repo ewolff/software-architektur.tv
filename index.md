@@ -15,26 +15,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# 2024-11-08 Freitag 13:00 CET Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Moritz
+# Nächste Episode: Noch offen
 
-Cosima und Lisa sprechen über Einzelcoaching. Was ist das überhaupt
-und wie grenzt es sich von anderen Coaching Formen ab? Natürlich
-klären sie auch die wichtigste Frage: Wie können wir Techies uns durch
-Einzelcoaching weiterentwickeln? Und können Coaching-Werkzeuge uns
-vielleicht auch in unserer alltäglichen Arbeit unterstützen?
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/gLcdgEBOoAA"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/gLcdgEBOoAA" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
