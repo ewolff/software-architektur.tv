@@ -15,20 +15,31 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Noch offen
+# Nächste Episode: Montag 18.11. 12:30 CET Domain-Driven Design: Ein vollständiges Beispiel 1/2
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Was bedeutet es eigentlich, Domain-driven Design (DDD) umzusetzen?
+Diese Episode beginnt die Reise durch ein vollständiges Beispiel und
+zeigt , wie die verschiedenen Techniken wie Event Storming und
+strategisches Design zusammen wirken, um den Aufbau von Anwendungen zu
+unterstützen. Das zeigt, wie man mit einem einfachen, aber
+vollständigen Ansatz mit DDD beginnen können.
 
-<!-- ## Live Stream -->
+In dieser Episode geht es um die Elemente von Strategic Design wie
+Bounded Context. In einer zweiten Episode wird es um taktisches Design
+gehen.
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/gLcdgEBOoAA" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/VlPfO7pah8U"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 

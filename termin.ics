@@ -20,21 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241105T135422Z
-DESCRIPTION:Cosima und Lisa sprechen über Einzelcoaching. Was ist das übe
-	rhaupt und wie grenzt es sich von anderen Coaching Formen ab? Natürlich k
-	lären sie auch die wichtigste Frage: Wie können wir Techies uns durch Ei
-	nzelcoaching weiterentwickeln? Und können Coaching-Werkzeuge uns vielleic
-	ht auch in unserer alltäglichen Arbeit unterstützen?\n
-DTEND;TZID="W. Europe Standard Time":20241108T140000
+CREATED:20241114T135704Z
+DESCRIPTION:Was bedeutet es eigentlich\, Domain-driven Design (DDD) umzuset
+	zen? \nDas zeigt\, wie man mit einem einfachen\, aber vollständigen Ansat
+	z mit DDD beginnen können.\n\nIn dieser Episode geht es um die Elemente v
+	on Strategic Design wie Bounded Context. In einer zweiten Episode wird es 
+	um taktisches Design gehen.\n\nhttps://www.youtube.com/watch?v=VlPfO7pah8U
+	 https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20241118T133000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241108T130000
-LAST-MODIFIED:20241105T135422Z
-LOCATION:https://youtu.be/uqIUaElJPSM https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20241118T123000
+LAST-MODIFIED:20241114T135704Z
+LOCATION:https://www.youtube.com/watch?v=VlPfO7pah8U https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Was ist (Einzel-)Coaching und wie nützt es Techies? mi
-	t Cosima Laube und Lisa Moritz (Software Architektur im Stream)
+SUMMARY;LANGUAGE=de:Domain-Driven Design: Ein vollständiges Beispiel 1/2
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
