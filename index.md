@@ -15,7 +15,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Montag 18.11. 12:30 CET Domain-Driven Design: Ein vollständiges Beispiel 1/2
+# Nächste Episode: Freitag 22.11. 13:00 CET Domain-Driven Design: Ein vollständiges Beispiel 2/2
 
 Was bedeutet es eigentlich, Domain-driven Design (DDD) umzusetzen?
 Diese Episode beginnt die Reise durch ein vollständiges Beispiel und
@@ -24,9 +24,8 @@ strategisches Design zusammen wirken, um den Aufbau von Anwendungen zu
 unterstützen. Das zeigt, wie man mit einem einfachen, aber
 vollständigen Ansatz mit DDD beginnen können.
 
-In dieser Episode geht es um die Elemente von Strategic Design wie
-Bounded Context. In einer zweiten Episode wird es um taktisches Design
-gehen.
+In dieser Episode geht es um taktisches Design, CQRS, Event Sourcing
+und hexagonale Architektur.
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -34,7 +33,7 @@ gehen.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/VlPfO7pah8U"
+	src="https://www.youtube-nocookie.com/embed/ofvhk1fuPr8"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>

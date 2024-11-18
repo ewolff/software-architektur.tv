@@ -20,22 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241114T135704Z
+CREATED:20241118T164741Z
 DESCRIPTION:Was bedeutet es eigentlich\, Domain-driven Design (DDD) umzuset
-	zen? \nDas zeigt\, wie man mit einem einfachen\, aber vollständigen Ansat
-	z mit DDD beginnen können.\n\nIn dieser Episode geht es um die Elemente v
-	on Strategic Design wie Bounded Context. In einer zweiten Episode wird es 
-	um taktisches Design gehen.\n\nhttps://www.youtube.com/watch?v=VlPfO7pah8U
-	 https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20241118T133000
+	zen? Diese Episode beginnt die Reise durch ein vollständiges Beispiel und
+	 zeigt \, wie die verschiedenen Techniken wie Event Storming und strategis
+	ches Design zusammen wirken\, um den Aufbau von Anwendungen zu unterstütz
+	en. Das zeigt\, wie man mit einem einfachen\, aber vollständigen Ansatz m
+	it DDD beginnen können.\n\nIn dieser Episode geht es um taktisches Design
+	\, CQRS\, Event Sourcing und hexagonale Architektur.\n\nhttps://youtu.be/o
+	fvhk1fuPr8 https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20241122T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241118T123000
-LAST-MODIFIED:20241114T135704Z
-LOCATION:https://www.youtube.com/watch?v=VlPfO7pah8U https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20241122T130000
+LAST-MODIFIED:20241118T164741Z
+LOCATION:https://youtu.be/ofvhk1fuPr8 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Domain-Driven Design: Ein vollständiges Beispiel 1/2
+SUMMARY;LANGUAGE=de:Domain-Driven Design: Ein vollständiges Beispiel 2/2
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
