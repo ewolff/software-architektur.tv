@@ -15,25 +15,15 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 22.11. 13:00 CET Domain-Driven Design: Ein vollständiges Beispiel 2/2
+# Nächste Episode: Freitag 29.11. 15:00 CET Generative AI Meets Software Architecture mit Lars Röwekamp und Ralf D. Müller
 
-Was bedeutet es eigentlich, Domain-driven Design (DDD) umzusetzen?
-Diese Episode beginnt die Reise durch ein vollständiges Beispiel und
-zeigt , wie die verschiedenen Techniken wie Event Storming und
-strategisches Design zusammen wirken, um den Aufbau von Anwendungen zu
-unterstützen. Das zeigt, wie man mit einem einfachen, aber
-vollständigen Ansatz mit DDD beginnen können.
-
-In dieser Episode geht es um taktisches Design, CQRS, Event Sourcing
-und hexagonale Architektur.
-
-[Zum Kalendar hinzufügen](termin.ics)
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/ofvhk1fuPr8"
+	src="https://www.youtube-nocookie.com/embed/1zOVe37yvKM"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>

@@ -8,5 +8,4 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                                               |
 |-----------:|:------------------------------------------------------------|
-| 2024-11-29 | Lars Roewekamp: "Generative AI Meets Software Architecture" mit ralf |
 | 2024-12-10 | Live von den IT-Tagen zu IT 2034 |
