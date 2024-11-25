@@ -19,7 +19,7 @@ Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
 Generative KI und Large Language Models sind in aller Munde - aber wie können Softwarearchitekten diese Technologien sinnvoll für ihre Arbeit nutzen? In dieser Episode diskutieren die beiden Experten nicht die Integration von KI-Komponenten in Softwarearchitektur, sondern konzentrieren sich darauf, wie LLMs als Werkzeug Architekten bei ihrer täglichen Arbeit unterstützen können. Lars Röwekamp und Ralf D. Müller beleuchten dabei praktische Anwendungsfälle und zeigen auf, wo die Stärken und Grenzen dieser Technologie in der Architekturarbeit liegen.
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 

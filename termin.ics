@@ -20,26 +20,43 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241118T164741Z
-DESCRIPTION:Was bedeutet es eigentlich\, Domain-driven Design (DDD) umzuset
-	zen? Diese Episode beginnt die Reise durch ein vollständiges Beispiel und
-	 zeigt \, wie die verschiedenen Techniken wie Event Storming und strategis
-	ches Design zusammen wirken\, um den Aufbau von Anwendungen zu unterstütz
-	en. Das zeigt\, wie man mit einem einfachen\, aber vollständigen Ansatz m
-	it DDD beginnen können.\n\nIn dieser Episode geht es um taktisches Design
-	\, CQRS\, Event Sourcing und hexagonale Architektur.\n\nhttps://youtu.be/o
-	fvhk1fuPr8 https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20241122T140000
+CREATED:20241125T150751Z
+DESCRIPTION:Generative KI und Large Language Models sind in aller Munde - a
+	ber wie können Softwarearchitekten diese Technologien sinnvoll für ihre 
+	Arbeit nutzen? In dieser Episode diskutieren die beiden Experten nicht die
+	 Integration von KI-Komponenten in Softwarearchitektur\, sondern konzentri
+	eren sich darauf\, wie LLMs als Werkzeug Architekten bei ihrer täglichen 
+	Arbeit unterstützen können. Lars Röwekamp und Ralf D. Müller beleuchte
+	n dabei praktische Anwendungsfälle und zeigen auf\, wo die Stärken und G
+	renzen dieser Technologie in der Architekturarbeit liegen.\n\nhttps://yout
+	u.be/1zOVe37yvKM https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20241129T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241122T130000
-LAST-MODIFIED:20241118T164741Z
-LOCATION:https://youtu.be/ofvhk1fuPr8 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20241129T130000
+LAST-MODIFIED:20241125T150751Z
+LOCATION:https://youtu.be/1zOVe37yvKM https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Domain-Driven Design: Ein vollständiges Beispiel 2/2
+SUMMARY;LANGUAGE=de:Generative AI Meets Software Architecture mit Lars Röw
+	ekamp und Ralf D. Müller
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.18129.20158">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>Generative KI und Large Lan
+	guage Models sind in aller Munde - aber wie können Softwarearchitekten di
+	ese Technologien sinnvoll für ihre Arbeit nutzen? In dieser Episode disku
+	tieren die beiden Experten nicht die Integration von KI-Komponenten in Sof
+	twarearchitektur\, sondern konzentrieren sich darauf\, wie LLMs als Werkze
+	ug Architekten bei ihrer täglichen Arbeit unterstützen können. Lars Rö
+	wekamp und Ralf D. Müller beleuchten dabei praktische Anwendungsfälle un
+	d zeigen auf\, wo die Stärken und Grenzen dieser Technologie in der Archi
+	tekturarbeit liegen.</FONT></P>\n\n<P><FONT SIZE=2><A HREF="https://youtu.
+	be/1zOVe37yvKM">https://youtu.be/1zOVe37yvKM</A> <A HREF="https://www.twit
+	ch.tv/ebrwolff">https://www.twitch.tv/ebrwolff</A></FONT>\n</P>\n\n</BODY>
+	\n</HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MS-OLK-AUTOFILLLOCATION:FALSE
