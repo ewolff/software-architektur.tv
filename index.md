@@ -15,9 +15,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 29.11. 13:00 CET Generative AI Meets Software Architecture mit Lars Röwekamp und Ralf D. Müller
+# Nächste Episode: Freitag 6.12. 13:00 CET Process Orchestration, BPMN und Workflows mit Bernd Rücker
 
-Generative KI und Large Language Models sind in aller Munde - aber wie können Softwarearchitekten diese Technologien sinnvoll für ihre Arbeit nutzen? In dieser Episode diskutieren die beiden Experten nicht die Integration von KI-Komponenten in Softwarearchitektur, sondern konzentrieren sich darauf, wie LLMs als Werkzeug Architekten bei ihrer täglichen Arbeit unterstützen können. Lars Röwekamp und Ralf D. Müller beleuchten dabei praktische Anwendungsfälle und zeigen auf, wo die Stärken und Grenzen dieser Technologie in der Architekturarbeit liegen.
+Was steckt hinter Begriffen wie Workflow Engine, Process Orchestration
+und Business Process Management (BPM)? In In dieser Episode beleuchten
+Bernd Rücker und Eberhard Wolff die Grundlagen und diskutieren, wie
+BPMN-basierte Tools End-to-end Geschäftsprozesse aber auch und
+Integrationsprozesse automatisieren können. Wir diskutieren die Rolle
+von Process Orchestration in der Softwareentwicklung, werfen einen
+Blick auf Orchestration vs. Choreographie, die Abgrenzung und das
+Zusammenspiel mit Eventgetriebenen Systemen sowie die Rolle von
+Low-Code-Plattformen.
+
+Bernd ist einer der zwei Gründer und Chief Technologist bei Camunda, einer Firma mit Produkten im Bereich Prozessorchestrierung.
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -25,7 +35,7 @@ Generative KI und Large Language Models sind in aller Munde - aber wie können S
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/1zOVe37yvKM"
+	src="https://www.youtube-nocookie.com/embed/ItRopNk6avk"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
@@ -33,7 +43,6 @@ Generative KI und Large Language Models sind in aller Munde - aber wie können S
 </center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
-
 
 # Fragen & Diskussion  / Question & Discussion
 
@@ -64,6 +73,7 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
+
 
 # Sketchnote-Buch
 
