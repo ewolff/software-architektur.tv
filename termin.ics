@@ -20,27 +20,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241129T144557Z
-DESCRIPTION:Was steckt hinter Begriffen wie Workflow Engine\, Process Orche
-	stration und Business Process Management (BPM)? In In dieser Episode beleu
-	chten Bernd Rücker und Eberhard Wolff die Grundlagen und diskutieren\, wi
-	e BPMN-basierte Tools End-to-end Geschäftsprozesse aber auch und Integrat
-	ionsprozesse automatisieren können. Wir diskutieren die Rolle von Process
-	 Orchestration in der Softwareentwicklung\, werfen einen Blick auf Orchest
-	ration vs. Choreographie\, die Abgrenzung und das Zusammenspiel mit Eventg
-	etriebenen Systemen sowie die Rolle von Low-Code-Plattformen.\nBernd ist e
-	iner der zwei Gründer und Chief Technologist bei Camunda\, einer Firma mi
-	t Produkten im Bereich Prozessorchestrierung.\nhttps://youtu.be/ItRopNk6av
-	k https://www.twitch.tv/ebrwolff \n
-DTEND;TZID="W. Europe Standard Time":20241206T140000
+CREATED:20241206T145133Z
+DESCRIPTION:In einer Welt\, in der IT nicht mehr wegzudenken ist\, stehen w
+	ir vor entscheidenden Weichenstellungen: Digitale Technologien prägen nic
+	ht nur unseren Arbeitsalltag\, sondern transformieren Wirtschaft und Gesel
+	lschaft grundlegend. Produkte werden smarter\, Wertschöpfungsketten digit
+	aler\, und der technologische Wandel beschleunigt sich stetig.\n\nZum 10-j
+	ährigen Jubiläum der IT-Tage werfen wir einen aktiven Blick nach vorn: W
+	ie sieht unsere IT-Arbeitswelt 2034 aus? Welche Weichen müssen wir heute 
+	stellen? Bringt Eure Perspektiven und Ideen ein – diese werden anschlie
+	ßend Lisa\, Ralf und Eberhard im Panel vor Ort diskutieren und per Live-S
+	tream übertragen. Gemeinsam entwickeln wir Visionen für unsere digitale 
+	Zukunft.\n\nWir haben dazu Meinungen von den Teilnehmer:innen der IT-Tage 
+	eingesammelt und diskutieren das Thema live von der Konferenz aus.\n\nhttp
+	s://youtu.be/7OaTOhk0vCE https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20241210T200000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241206T130000
-LAST-MODIFIED:20241129T144557Z
-LOCATION:https://youtu.be/ItRopNk6avk https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20241210T190000
+LAST-MODIFIED:20241206T145133Z
+LOCATION:https://youtu.be/7OaTOhk0vCE https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Process Orchestration\, BPMN und Workflows mit Bernd R
-	ücker
+SUMMARY;LANGUAGE=de:IT im Jahr 2034 – Wo wollen wir hin?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

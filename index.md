@@ -15,19 +15,24 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 6.12. 13:00 CET Process Orchestration, BPMN und Workflows mit Bernd Rücker
+# Nächste Episode: Dienstag 10.12. 19:00 CET IT im Jahr 2034 – Wo wollen wir hin?
 
-Was steckt hinter Begriffen wie Workflow Engine, Process Orchestration
-und Business Process Management (BPM)? In In dieser Episode beleuchten
-Bernd Rücker und Eberhard Wolff die Grundlagen und diskutieren, wie
-BPMN-basierte Tools End-to-end Geschäftsprozesse aber auch und
-Integrationsprozesse automatisieren können. Wir diskutieren die Rolle
-von Process Orchestration in der Softwareentwicklung, werfen einen
-Blick auf Orchestration vs. Choreographie, die Abgrenzung und das
-Zusammenspiel mit Eventgetriebenen Systemen sowie die Rolle von
-Low-Code-Plattformen.
+In einer Welt, in der IT nicht mehr wegzudenken ist, stehen wir vor
+entscheidenden Weichenstellungen: Digitale Technologien prägen nicht
+nur unseren Arbeitsalltag, sondern transformieren Wirtschaft und
+Gesellschaft grundlegend. Produkte werden smarter,
+Wertschöpfungsketten digitaler, und der technologische Wandel
+beschleunigt sich stetig.
 
-Bernd ist einer der zwei Gründer und Chief Technologist bei Camunda, einer Firma mit Produkten im Bereich Prozessorchestrierung.
+Zum 10-jährigen Jubiläum der IT-Tage werfen wir einen aktiven Blick
+nach vorn: Wie sieht unsere IT-Arbeitswelt 2034 aus? Welche Weichen
+müssen wir heute stellen? Bringt Eure Perspektiven und Ideen ein –
+diese werden anschließend Lisa, Ralf und Eberhard im Panel vor Ort
+diskutieren und per Live-Stream übertragen. Gemeinsam entwickeln wir
+Visionen für unsere digitale Zukunft.
+
+Wir haben dazu Meinungen von den Teilnehmer:innen der IT-Tage
+eingesammelt und diskutieren das Thema live von der Konferenz aus.
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -35,7 +40,7 @@ Bernd ist einer der zwei Gründer und Chief Technologist bei Camunda, einer Firm
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/ItRopNk6avk"
+	src="https://www.youtube-nocookie.com/embed/7OaTOhk0vCE"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
