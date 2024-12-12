@@ -20,28 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241206T145133Z
-DESCRIPTION:In einer Welt\, in der IT nicht mehr wegzudenken ist\, stehen w
-	ir vor entscheidenden Weichenstellungen: Digitale Technologien prägen nic
-	ht nur unseren Arbeitsalltag\, sondern transformieren Wirtschaft und Gesel
-	lschaft grundlegend. Produkte werden smarter\, Wertschöpfungsketten digit
-	aler\, und der technologische Wandel beschleunigt sich stetig.\n\nZum 10-j
-	ährigen Jubiläum der IT-Tage werfen wir einen aktiven Blick nach vorn: W
-	ie sieht unsere IT-Arbeitswelt 2034 aus? Welche Weichen müssen wir heute 
-	stellen? Bringt Eure Perspektiven und Ideen ein – diese werden anschlie
-	ßend Lisa\, Ralf und Eberhard im Panel vor Ort diskutieren und per Live-S
-	tream übertragen. Gemeinsam entwickeln wir Visionen für unsere digitale 
-	Zukunft.\n\nWir haben dazu Meinungen von den Teilnehmer:innen der IT-Tage 
-	eingesammelt und diskutieren das Thema live von der Konferenz aus.\n\nhttp
-	s://youtu.be/7OaTOhk0vCE https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20241210T200000
+CREATED:20241212T152008Z
+DESCRIPTION:Künstliche Intelligenz (KI) schickt sich an\, Software-Entwick
+	lung zu revolutionieren - kein Stein bleibt auf dem anderen\, Entwickler:i
+	nnen werden überflüssig\, so die einen. Die anderen sagen: KI hat sicher
+	 eine Auswirkung auf Software-Entwicklung\, aber die grundlegenden Problem
+	e bleiben dieselben. In dieser Runde moderiert Lisa ein Gespräch zwischen
+	 André Neubauer\, CTO Trusted Shops\, Stephan Schmidt von Inkmi und CTO-C
+	oach sowie Eberhard und Ralf über KI und die Auswirkungen.\n\nhttps://you
+	tu.be/t8H_e-IbSp0 https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20241220T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241210T190000
-LAST-MODIFIED:20241206T145133Z
-LOCATION:https://youtu.be/7OaTOhk0vCE https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20241220T130000
+LAST-MODIFIED:20241212T152008Z
+LOCATION:https://youtu.be/t8H_e-IbSp0 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:IT im Jahr 2034 – Wo wollen wir hin?
+SUMMARY;LANGUAGE=de:KI in der Software-Entwicklung: Über- oder unterhypt?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

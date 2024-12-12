@@ -15,24 +15,16 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Dienstag 10.12. 19:00 CET IT im Jahr 2034 – Wo wollen wir hin?
+# Nächste Episode: Freitag 20.12. 13:00 CET KI in der Software-Entwicklung: Über- oder unterhypt?
 
-In einer Welt, in der IT nicht mehr wegzudenken ist, stehen wir vor
-entscheidenden Weichenstellungen: Digitale Technologien prägen nicht
-nur unseren Arbeitsalltag, sondern transformieren Wirtschaft und
-Gesellschaft grundlegend. Produkte werden smarter,
-Wertschöpfungsketten digitaler, und der technologische Wandel
-beschleunigt sich stetig.
-
-Zum 10-jährigen Jubiläum der IT-Tage werfen wir einen aktiven Blick
-nach vorn: Wie sieht unsere IT-Arbeitswelt 2034 aus? Welche Weichen
-müssen wir heute stellen? Bringt Eure Perspektiven und Ideen ein –
-diese werden anschließend Lisa, Ralf und Eberhard im Panel vor Ort
-diskutieren und per Live-Stream übertragen. Gemeinsam entwickeln wir
-Visionen für unsere digitale Zukunft.
-
-Wir haben dazu Meinungen von den Teilnehmer:innen der IT-Tage
-eingesammelt und diskutieren das Thema live von der Konferenz aus.
+Künstliche Intelligenz (KI) schickt sich an, Software-Entwicklung zu
+revolutionieren - kein Stein bleibt auf dem anderen, Entwickler:innen
+werden überflüssig, so die einen. Die anderen sagen: KI hat sicher
+eine Auswirkung auf Software-Entwicklung, aber die grundlegenden
+Probleme bleiben dieselben. In dieser Runde moderiert Lisa ein
+Gespräch zwischen André Neubauer, CTO Trusted Shops, Stephan Schmidt
+von Inkmi und CTO-Coach sowie Eberhard und Ralf über KI und die
+Auswirkungen. 
 
 [Zum Kalendar hinzufügen](termin.ics)
 
@@ -40,7 +32,7 @@ eingesammelt und diskutieren das Thema live von der Konferenz aus.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/7OaTOhk0vCE"
+	src="https://www.youtube-nocookie.com/embed/t8H_e-IbSp0"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
