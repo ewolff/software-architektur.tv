@@ -1,0 +1,220 @@
+Christian Beutenmueller 13:16:25
+overhyped zumindest bei LLMs
+
+Christian Beutenmueller 13:17:46
+wir haben jetzt schon Grenzen. Modelle sind nicht besser geworden seit Gpt4
+
+Marc M 13:18:06
+Hallo, welche Chain of thought bzw. prompts müsste ich einer AI bzw KIngeben, damit sie in der Lage wäre systeme mit DDD zu entwerfen?
+
+Polib0y 13:18:46
+Als Amateur hilft mir KI gerne mal, um einen anderen Ansatz zu verfolgen, auch wenn das was ausgespuckt wird fehlerhaft ist, kann es zum Umdenken verhelfen.
+
+Christian Beutenmueller 13:20:37
+die Modelle werden nicht besser weil wir keine besseren Trainingsdaten haben
+
+Marc M 13:23:18
+zweite Frage: kann ich einen Vorteil generieren wenn ich zwei Ki- oder AI-akteure miteinander in einem Team zusammen schalte? geht sowas?
+
+Christian Beutenmueller 13:23:18
+hat irgendwer einmal gemessen ob wir wirklich schneller und besser werden?
+
+Christian Beutenmueller 13:23:48
+Marc: Langgraph und ja ist sehr nützlich
+
+Marc M 13:24:19
+:finger-red-number-one:
+
+Eberhard Wolff 13:25:02
+@Christian Beutenmueller Es gibt ein Paper, demnach Entwickler:innen unsichere Software mit AI schreiben, aber glauben, es sei sicherer https://arxiv.org/abs/2211.03622
+
+status
+Polib0y 13:27:10
+Angeblich ist die Hardware Skalierbarkeit für LLMs fast erreicht, durch die noch Fortschritte gemacht werden können.
+
+Happy Tree 13:30:21
+Interessant wird es erst mit Reasoning und Inference denke ich, am Ende des Tages ist es doch aber so, dass man nicht weiss, ob es schlimmer ist wenn AG/SI kommt oder nicht.
+
+Happy Tree 13:30:42
+Wenn es nicht kommt haben wir die Bankenkriese++ wenn nicht hat keiner mehr Arbeit
+
+Happy Tree 13:31:42
+LLMs sind ja nur gut fuer das "Frontend" fuer den Normalnutzer
+
+Marc M 13:33:53
+was empfiehlt ihr denn jemanden als Einstieg in das Thema, wenn man mit eigenen Daten arbeiten möchte?
+
+Christian Beutenmueller 13:35:34
+Marc: erster Schritt Rag, zweiter Schritt lora Adapter, dritter Schritt Agenten
+
+Marc M 13:35:34
+Ausgangspunkt: qualitätsszenarien sind gegeben
+
+Marc M 13:35:54
+rag?
+
+Ralf D. Müller 13:36:44
+Für Softwareentwicklung ist der Kontext meist gross genug, damit kein RAG notwendig ist
+
+Christian Beutenmueller 13:36:44
+retrieval augmented generation einfach Dokumente als Kontext für das LLM
+
+Marc M 13:36:44
+wie komme ich an rag was mache ich um das zu kriegen? ☺️
+
+joshua trefzer 13:37:35
+Werden Frameworks wie Angular in Zukunft überflüssig, weil KI eigenständig die beste Architektur und den sichersten Code generieren kann?
+
+Marc M 13:38:35
+Christian wie komme ich da denn am schnellsten ins probieren und umsetzen?
+
+Ralf D. Müller 13:38:55
+Joshua: Gute Frage! Ich denke, Frameworks, die den Code vereinfachen, werden in Zukunft wichtiger werden. Macht das Angular?
+
+Christian Beutenmueller 13:39:36
+Marc: depends auf welche Infrastruktur du zugreifen kannst oder ob es on prem sein muss
+
+Marc M 13:39:56
+und kann ich T-shape Experten erzeugen mit KI?
+
+Marc M 13:40:16
+sote schon in prem sein
+
+Marc M 13:40:26
+sollte
+
+Happy Tree 13:40:36
+Der Unterschied zu dem Dampfmaschienenvergleich ist, dass wenn das funktioniert es keinen neuen Arbeitsbereicht gibt.
+
+Happy Tree 13:41:06
+Wenn man fuer 2k USD pro Monat eine AG/SI hat mit einem IQ von 200 ist Ende :)
+
+Happy Tree 13:42:37
+Die Diskussion ist nicht, ob das oder bei was das hilft, sondern wer davon profitiert
+
+Christian Beutenmueller 13:44:18
+inferenz ist auch sehr teuer. perplexity ist um Faktoren teurer als eine Google Suche
+
+Christian Beutenmueller 13:45:49
+ist halt nur linguistische Form, darauf wurde das Modell optimiert
+
+Andre Neubauer 13:46:09
+@Christian Beutenmueller: Richtig. Die Frage ist: Wie wird sich das entwickeln?
+
+Christian Beutenmueller 13:46:19
+LLMs werden immer gut klingenden Text produzieren das ist ihre Aufgabe
+
+Marc M 13:48:40
+Ki kann fragen stellen und antworten geben, eine Architektur erstellen, kann sie auch tradeoffs analysieren?
+
+Happy Tree 13:48:50
+Die Verifikation ist ja auch der Gamechanger, bis wir das haben werden wir das im Medizinbereich etc ja auch nicht einsetzen. Das wird aber kommen.
+
+Andre Neubauer 13:49:31
+Was für Tradeoffs meinst du? Kannst du das genauer fassen?
+
+Happy Tree 13:50:41
+Man muss sich ja nur mal angucken was im Modelcheckerbereich im RE Bereich geht, wie viele der Requirements am Ende unvereinbar sind.
+
+Marc M 13:51:01
+andre: wenn Eberhard von tradeoffs spricht, dann gehe ich von der einschätzung und Bewertung von vorteilen und Nachteilen aus. müssen dafür auch qualitätskriterien gegeben sein?
+
+joshua trefzer 13:51:42
+Ralf D. Müller: Angular erleichtert die Wartbarkeit und die reaktive Programmierung, sowie erhöhte Kapselung von Komponenten. Die Frage ist bisschen was „Vereinfachen“ in diesem Kontext bedeutet? 
+
+
+Ralf D. Müller 13:52:42
+"Vereinfachen" bedeutet für mich tatsächlich das Verständnis des Codes verbessern und die Wartbarkeit erhöhen
+
+Christian Beutenmueller 13:52:42
+Joshua: es wird dann einfach angular reimplementieren und es react nennen
+
+Marc M 13:53:43
+@andre hast gesehen?
+
+Christian Beutenmueller 13:53:53
+Ralf: KI generierter code basiert auf GitHub und stackoverflow, es wird nicht besser werden als der Durchschnitt
+
+Andre Neubauer 13:54:03
+Marc: Verstanden. Danke! Das geht aus meiner Sicht in die Richtung, wie nutze solche Systeme. Präzision is key.
+
+Andre Neubauer 13:54:33
+Marc: Ja, gesehen. Ich kann nur nicht schlecht zuhören und tippen 😀
+
+Marc M 13:54:53
+☺️
+
+Happy Tree 13:56:44
+Sehr interessant finde ich auch die Frage was mit Problemen wie mit dem XZ Exploit passieren wird in diesem Kontext.
+
+Christian Beutenmueller 13:57:14
+meine aktuelle Erfahrung ist: Senior Developer werden schneller, Junior eher das Gegenteil
+
+Andre Neubauer 13:57:44
+💯
+
+Christian Beutenmueller 13:59:45
+happy tree: wir kriegen ganz neue Formen von exploits wird spannend
+
+Andre Neubauer 13:59:45
+Die Frage ist: Was ist die Lösung Christian?
+
+Marc M 14:00:05
+Software besteht aus einem Fragework, Code und einer Datenbank. wird sie zukünftig zusätzlich auch aus ki bestehen? Software = KI + Code + Framework + datenbank
+
+Christian Beutenmueller 14:00:35
+Andre: einfach bessere Software schreiben
+
+Andre Neubauer 14:01:36
+Ich meinte, sollten Juniors nicht trotzdem in das Thema investieren?
+
+Marc M 14:01:56
+und der KIngeben ich dann eine Chain of thought vor, z.b. wie sie programmieren soll
+
+Marc M 14:02:26
+KI
+
+Christian Beutenmueller 14:02:26
+Andre: ja aber halt auch trotzdem sinnvoll die Grundlagen lernen und betreut werden
+
+Ralf D. Müller 14:03:07
+Juniors können sich mit der KI sehr gut in Themen einarbeiten
+
+Christian Beutenmueller 14:03:17
+wir haben viele Benchmarks in den Trainingsdaten
+
+Christian G. 14:04:37
+@Andre: Man kann aber auch nur schwer dirigieren, was man nicht versteht
+
+Happy Tree 14:04:57
+KI macht dumme duemmer und schlaue schlauer (wie das Fernsehen)
+
+Andre Neubauer 14:05:18
+Well, ist das nicht bei allen Technologien so ;-)
+
+Happy Tree 14:05:58
+Amen
+
+Happy Tree 14:06:48
+Ich denke, dass die Diskussion immer sein muss wem KI am Ende nutzt und wie wir mit dem Arbeitsplatzverlust umgehen.
+
+Happy Tree 14:07:49
+Guten Rutsch
+
+Christian Beutenmueller 14:08:09
+frohe Feiertage
+
+Claudia Fröhling 14:08:09
+Schöne Feiertage, danke!
+
+Marc M 14:08:09
+guten rutsch
+
+Marco Rico 14:08:19
+danke, schöne Feiertage
+
+Andre Neubauer 14:08:19
+Danke für den Austausch! Happy Christmas!
+
+Ralf D. Müller 14:10:29
+Allen besinnliche Feiertage und einen guten Start in ein erfolgreiches 2025!
