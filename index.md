@@ -10,7 +10,7 @@ Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
 D. Müller
 Software-Architektur im
 Live-Stream auf YouTube und Twitch - oft zusammen mit einem
-Gast. Zuschauer können über den Twitch- und YouTube-Chat, Twitter und
+Gast. Zuschauer können über den Twitch- und YouTube-Chat und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
@@ -39,8 +39,7 @@ Interaktionen.
 Es gibt auch eine
 [LinkedIn-Gruppe](https://www.linkedin.com/groups/12879027/).
 Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
-YouTube-Chat, per
-[Twitter](https://twitter.com/ewolff),
+YouTube-Chat, 
 [Mastodon](https://mastodon.social/web/@ewolff) oder anonym
 hier:
 
@@ -49,7 +48,7 @@ interact.
 There is also a [LinkedIn
 group](https://www.linkedin.com/groups/12879027/).
 Questions and discussion are also welcome in the Twitch chat or the
-YouTube chat, via [Twitter](https://twitter.com/ewolff),
+YouTube chat, via
 [Mastodon](https://mastodon.social/web/@ewolff), or
 anonymously here:
 
@@ -105,7 +104,7 @@ License](http://creativecommons.org/licenses/by-sa/3.0/)
 Attributiert werden sollen:
 
 * Für Videos Eberhard Wolff oder Lisa Maria Schäfer und die jeweiligen Interviewten
-* Für Sketchnotes [Lisa Maria Schäfer](https://twitter.com/Teapot4181)
+* Für Sketchnotes Lisa Maria Schäfer
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
 
