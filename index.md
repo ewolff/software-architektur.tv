@@ -6,7 +6,7 @@ description: Live-Diskussion zu Software-Architektur im Stream
 
 Live-Diskussion zu Software-Architektur im Stream. 
 
-Einmal in der Woche diskutiert Eberhard Wolff, Lisa Moritz oder Ralf
+Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
 D. Müller
 Software-Architektur im
 Live-Stream auf YouTube und Twitch - oft zusammen mit einem
@@ -104,8 +104,8 @@ License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 Attributiert werden sollen:
 
-* Für Videos Eberhard Wolff oder Lisa Maria Moritz und die jeweiligen Interviewten
-* Für Sketchnotes [Lisa Maria Moritz](https://twitter.com/Teapot4181)
+* Für Videos Eberhard Wolff oder Lisa Maria Schäfer und die jeweiligen Interviewten
+* Für Sketchnotes [Lisa Maria Schäfer](https://twitter.com/Teapot4181)
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
 

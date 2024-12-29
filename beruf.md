@@ -59,7 +59,7 @@ Kanal](https://tube.tchncs.de/c/software_architektur_beruf/videos)
 * Alexander Simon<br>[YouTube](https://www.youtube.com/watch?v=XE7J8cdJPmU)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/mbkFmKxevR2HRa4pxfZpKD)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-alexander-simon.mp3)
 * Manfred Steyer<br>[YouTube](https://www.youtube.com/watch?v=gTlhv08lNuE)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/juXbAABcxGvR5oHUjfHSXW)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-manfred-steyer.mp3)
 * Gernot Starke<br>[YouTube](https://www.youtube.com/watch?v=kMqoCxqHz3g)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/4YzjB5j5NBGBizPgbwQS2D)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-gernot-starke.mp3)
-* Lisa Moritz<br>[YouTube](https://www.youtube.com/watch?v=3Kk449tMblA)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/rf48GmduP8D9ujRv5VaNWU)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-lisa-moritz.mp3)
+* Lisa Schäfer<br>[YouTube](https://www.youtube.com/watch?v=3Kk449tMblA)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/rf48GmduP8D9ujRv5VaNWU)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-lisa-moritz.mp3)
 * Eberhard Wolff<br>[YouTube](https://www.youtube.com/watch?v=BDVFyNamkJM)&nbsp;&nbsp;&nbsp;[PeerTube](https://tube.tchncs.de/w/abR9BnZygSgbJWt9hqRh1j)&nbsp;&nbsp;&nbsp;[MP3](https://1evriw.podcaster.de/software-architektur-als-beruf/media/beruf-eberhard-wolff.mp3)
 
 ## Informatik als Beruf FAQ

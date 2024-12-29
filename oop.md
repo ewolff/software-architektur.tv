@@ -10,7 +10,7 @@ twitterimage:alt: Software Architektur im Stream Logo für OOP
 
 ["Software Architektur im Stream"](https://software-architektur.tv/)
 streamt Gespräche über Software-Architektur - und wir senden dieses
-Jahr live von der OOP! Dazu haben wir - Lisa Moritz und Eberhard
+Jahr live von der OOP! Dazu haben wir - Lisa Schäfer und Eberhard
 Wolff - uns einige Sprecher:innen von der OOP ausgewählt und reden mit
 ihnen über Aspekte der Software-Entwicklung und -Architektur.
 
@@ -25,7 +25,7 @@ und [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 * **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
   Kelle** Facilitating Collaborative Design Decisions: Software is
   developed in teams so design decision must be done collaboratively.
-* **19:05-19:35 Rik Marselis** Testing and Quality (with Lisa Moritz):
+* **19:05-19:35 Rik Marselis** Testing and Quality (with Lisa Schäfer):
   Testing alone is not enough - the alternative is quality engineering.
 * **19:40-20:10 Scott Ambler** Data Technical Debt: Technical debt is
   a well-known concept - but data can also cause technical debt.
@@ -46,7 +46,7 @@ allowfullscreen></iframe> </div>
   aber was ist DevSecOps und warum gehört ausgerechnet Sicherheit
   dazu?
 * **12:45-13:15 Lucas Dohmen, Lars Hupel** Hilfe, wir syncen! (mit
-  Lisa Moritz): Daten beispielsweise lokal zu kopieren, um offline zu
+  Lisa Schäfer): Daten beispielsweise lokal zu kopieren, um offline zu
   arbeiten, ist eine Herausforderung. Wir diskutieren, wie man sie
   meistern kann.
 * **13:20-13:50 Anne Herwanger, Alexandra Hoitz, Stefan Link**
@@ -84,7 +84,7 @@ allowfullscreen></iframe> </div>
 
 ## Donnerstag 2021-02-03 Das Diversity-Panel
 * **13:00-14:00 Diversity-Panel** mit Katrin Rabow, Nicola Marsden und
-  Silke Foth, Moderation: Lisa Moritz: In der Software-Entwicklung
+  Silke Foth, Moderation: Lisa Schäfer: In der Software-Entwicklung
   sind zahlreiche Gruppen unterrepräsentiert. Bei diesem Panel wollen
   wir diskutieren, wie Diversity erhöht werden kann.
 

@@ -10,7 +10,7 @@ twitterimage:alt: Software Architektur im Stream Logo for OOP
 
 ["Software Architecture in Stream"](https://software-architektur.tv/)
 streams conversations about software architecture - and this year we
-are broadcasting live from OOP! For this purpose we - Lisa Moritz and
+are broadcasting live from OOP! For this purpose we - Lisa Schäfer and
 Eberhard Wolff - have selected some speakers from OOP and talk to them
 about aspects of software development and architecture.
 
@@ -25,7 +25,7 @@ and [https://www.twitch.tv/ebrwolff](https://www.twitch.tv/ebrwolff).
 * **18:30-19:00 Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van
   Kelle** Facilitating Collaborative Design Decisions: Software is
   developed in teams so design decision must be done collaboratively.
-* **19:05-19:35 Rik Marselis** Testing and Quality (with Lisa Moritz):
+* **19:05-19:35 Rik Marselis** Testing and Quality (with Lisa Schäfer):
   Testing alone is not enough - the alternative is quality engineering.
 * **19:40-20:10 Scott Ambler** Data Technical Debt: Technical debt is
   a well-known concept - but data can also cause technical debt.
