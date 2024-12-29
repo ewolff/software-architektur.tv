@@ -24,3 +24,7 @@
 .embed-container.ratio4x3 {
   padding-bottom: 75%;
 }
+
+.site-footer nav a + a {
+  margin-left: 1rem;
+}
