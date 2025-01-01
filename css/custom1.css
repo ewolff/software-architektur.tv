@@ -26,7 +26,11 @@
 }
 
 .site-footer {
-  margin-left: 1rem;
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
+}
+
+.site-footer nav a + a {
+  margin-left: 1rem;
 }
