@@ -20,23 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20241212T152008Z
-DESCRIPTION:Künstliche Intelligenz (KI) schickt sich an\, Software-Entwick
-	lung zu revolutionieren - kein Stein bleibt auf dem anderen\, Entwickler:i
-	nnen werden überflüssig\, so die einen. Die anderen sagen: KI hat sicher
-	 eine Auswirkung auf Software-Entwicklung\, aber die grundlegenden Problem
-	e bleiben dieselben. In dieser Runde moderiert Lisa ein Gespräch zwischen
-	 André Neubauer\, CTO Trusted Shops\, Stephan Schmidt von Inkmi und CTO-C
-	oach sowie Eberhard und Ralf über KI und die Auswirkungen.\n\nhttps://you
-	tu.be/t8H_e-IbSp0 https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20241220T140000
+CREATED:20250106T160612Z
+DESCRIPTION:Im Videocast diskutiert Ralf D. Müller diesmal mit Christian W
+	eyer über die Rolle von GenAI in der Software-Architektur.\nSoftware Arch
+	itektur im Stream startet im neuen Jahr gleich wieder mit dem Thema GenAI 
+	und Software-Architektur. Die letzten Folgen haben schon gezeigt\, wie spa
+	nnend und vielseitig das Thema ist. Viel wird schon ausprobiert\, aber wei
+	terhin wird der richtige Umgang mit GenAI zur Unterstützung des Software-
+	Architekten gesucht.\nEiner\, der schon viel Erfahrung sammeln konnte\, is
+	t Christian Weyer\, Mitbegründer und CTO der Thinktecture AG.\n\nhttps://
+	youtu.be/oMoIWDOoCdg https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20250109T190000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20241220T130000
-LAST-MODIFIED:20241212T152008Z
-LOCATION:https://youtu.be/t8H_e-IbSp0 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250109T180000
+LAST-MODIFIED:20250106T160612Z
+LOCATION:https://youtu.be/oMoIWDOoCdg https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:KI in der Software-Entwicklung: Über- oder unterhypt?
+SUMMARY;LANGUAGE=de:GenAI und Software-Architektur mit Christian Weyer
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

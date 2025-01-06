@@ -15,20 +15,34 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Donnerstag 9.1. Christian Weyer zu künstlicher Intelligenz
+# Nächste Episode: Donnerstag 9.1. GenAI und Software-Architektur mit Christian Weyer
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Im Videocast diskutiert Ralf D. Müller diesmal mit Christian Weyer
+über die Rolle von GenAI in der Software-Architektur.
 
-<!-- ## Live Stream -->
+Software Architektur im Stream startet im neuen Jahr gleich wieder mit
+dem Thema GenAI und Software-Architektur. Die letzten Folgen haben
+schon gezeigt, wie spannend und vielseitig das Thema ist. Viel wird
+schon ausprobiert, aber weiterhin wird der richtige Umgang mit GenAI
+zur Unterstützung des Software-Architekten gesucht.
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/t8H_e-IbSp0" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+Einer, der schon viel Erfahrung sammeln konnte, ist [Christian
+Weyer](https://www.thinktecture.com/thinktects/christian-weyer/),
+Mitbegründer und CTO der Thinktecture AG.
+
+
+[Zum Kalendar hinzufügen](termin.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/oMoIWDOoCdg"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
