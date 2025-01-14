@@ -20,24 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250106T160612Z
-DESCRIPTION:Im Videocast diskutiert Ralf D. Müller diesmal mit Christian W
-	eyer über die Rolle von GenAI in der Software-Architektur.\nSoftware Arch
-	itektur im Stream startet im neuen Jahr gleich wieder mit dem Thema GenAI 
-	und Software-Architektur. Die letzten Folgen haben schon gezeigt\, wie spa
-	nnend und vielseitig das Thema ist. Viel wird schon ausprobiert\, aber wei
-	terhin wird der richtige Umgang mit GenAI zur Unterstützung des Software-
-	Architekten gesucht.\nEiner\, der schon viel Erfahrung sammeln konnte\, is
-	t Christian Weyer\, Mitbegründer und CTO der Thinktecture AG.\n\nhttps://
-	youtu.be/oMoIWDOoCdg https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20250109T190000
+CREATED:20250114T091738Z
+DESCRIPTION:Autonome Teams werden oft als der heilige Gral der Softwareentw
+	icklung angesehen. Sie versprechen mehr Produktivität\, bessere Ergebniss
+	e und zufriedenere Mitarbeitende. Doch Autonomie bringt Herausforderungen 
+	mit sich: Sie erfordert Vertrauen\, die Fähigkeit\, Verantwortung zu dele
+	gieren\, und Teams\, die bereit sind\, diese Verantwortung zu tragen. Auß
+	erdem können zu viel Autonomie und fehlende Leitplanken zu Chaos und Kont
+	rollverlust führen. Dieser Vortrag beleuchtet die psychologischen\, organ
+	isatorischen und architektonischen Aspekte von Autonomie und zeigt\, warum
+	 sie in der Praxis oft schwerer zu erreichen ist\, als es scheint.\n\nhttp
+	s://youtu.be/GrXMYzx0VZ8 https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20250117T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250109T180000
-LAST-MODIFIED:20250106T160612Z
-LOCATION:https://youtu.be/oMoIWDOoCdg https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250117T130000
+LAST-MODIFIED:20250114T091738Z
+LOCATION:https://youtu.be/GrXMYzx0VZ8 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:GenAI und Software-Architektur mit Christian Weyer
+SUMMARY;LANGUAGE=de:Autonome Teams: Wollen wir das wirklich?
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

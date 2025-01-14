@@ -15,20 +15,31 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 17.1. 13:00 CEST, Thema offen
+# Nächste Episode: Freitag 17.1. 13:00 CEST, Autonome Teams: Wollen wir das wirklich?
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Autonome Teams werden oft als der heilige Gral der Softwareentwicklung
+angesehen. Sie versprechen mehr Produktivität, bessere Ergebnisse und
+zufriedenere Mitarbeitende. Doch Autonomie bringt Herausforderungen
+mit sich: Sie erfordert Vertrauen, die Fähigkeit, Verantwortung zu
+delegieren, und Teams, die bereit sind, diese Verantwortung zu
+tragen. Außerdem können zu viel Autonomie und fehlende Leitplanken zu
+Chaos und Kontrollverlust führen. Dieser Vortrag beleuchtet die
+psychologischen, organisatorischen und architektonischen Aspekte von
+Autonomie und zeigt, warum sie in der Praxis oft schwerer zu erreichen
+ist, als es scheint.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/oMoIWDOoCdg" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/GrXMYzx0VZ8"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
