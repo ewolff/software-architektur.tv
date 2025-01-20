@@ -9,11 +9,7 @@
 {% assign episode_id = page.url | split: '/' | last | remove: '.html' %}
 {% assign summary_path = '/_transcriptions/' |append: episode_id | append: '/summary.md' %}
 {% capture summary %}
-{% if summary_path | file_exists  %}
   {% include transcriptions/{{ episode_id }}/summary.md %}
-	  
-{% endif %}	  
-
 {% endcapture %}
 
 	  
