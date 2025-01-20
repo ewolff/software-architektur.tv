@@ -10,7 +10,11 @@
 {% assign summary_path = 'transcriptions/' | append: episode_id | append: '/summary.md' %}
 {% assign summary_file = site.static_files | where: "path", summary_path | first %}
 
-	  {{page.name}} / {{episode_id}} / {{summary_path}} / {{summary_file}} // {{site.static_files}}
+	  {{page | inspect}}<hr />
+	  {{page.name}} / {{episode_id}} / {{summary_path}} / {{summary_file}} <hr />
+{% for file in site.static_files %}
+  File path: {{ file.path }}<br />
+{% endfor %}
 	  
     <section class="main-content">
 <ul>
