@@ -7,14 +7,11 @@
     {% include page-header.html %}
 
 {% assign episode_id = page.url | split: '/' | last | remove: '.html' %}
-{% assign summary_path = 'transcriptions/' | append: episode_id | append: '/summary.md' %}
+{% assign summary_path = '/transcriptions/' | append: episode_id | append: '/summary.md' %}
 {% assign summary_file = site.static_files | where: "path", summary_path | first %}
 
 	  {{page.url}}<hr />
 	  {{page.name}} / {{episode_id}} / {{summary_path}} / {{summary_file}} <hr />
-{% for file in site.static_files %}
-  File path: {{ file.path }} <hr />
-{% endfor %}
 	  
     <section class="main-content">
 <ul>
