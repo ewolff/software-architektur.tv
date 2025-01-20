@@ -9,15 +9,10 @@
 {% assign episode_id = page.url | split: '/' | last | remove: '.html' %}
 {% assign summary_path = '/transcriptions/' | append: episode_id | append: '/summary.md' %}
 {% assign summary_file = site.static_files | where: "path", summary_path  | first %}
-{% assign summary = site.transcriptions | where: "episode", episode_id | first %}
-{% for trans in site.transcriptions %}
-- {{ trans }} <br />
-{{ trans.summary }} <br />	  
-{% endfor %}
-	  
-{% if summary %}
-  {{ summary.content }}
+{% if site.static_files | where: "path", summary_path %}
+  {% include {{ summary_path }} %}
 {% endif %}
+	  
 	  
 	  {{page.url}}<hr />
 	  {{page.name}} / {{episode_id}} / {{summary_path}} / {{summary_file}} <hr />
