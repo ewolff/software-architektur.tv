@@ -10,3 +10,6 @@ plugins:
   - jekyll-feed
 
 markdown: kramdown
+collections:
+  transcriptions:
+    output: false
