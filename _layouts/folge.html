@@ -11,7 +11,7 @@
 {% assign summary_file = site.static_files | where: "path", summary_path  | first %}
 
 {% if summary_file %}
-  {% include _transcriptions/{{ episode_id }}/summary.md %} 
+  {% include transcriptions/{{ episode_id }}/summary.md %} 
 {% endif %}
 
 
