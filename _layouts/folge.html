@@ -6,14 +6,37 @@
   <body>
     {% include page-header.html %}
 
+{% assign episode_id = page.name | remove: '.md' %}
+{% assign summary_path = 'transcriptions/' | append: episode_id | append: '/summary.md' %}
+{% assign summary_file = site.static_files | where: "path", summary_path | first %}
+
+<ul>
+{% if page.peertube %}
+	<li><a href="#peertube">PeerTube Video - no Big Tech!</a></li>
+{% endif %}
+{% if page.video %}
+	<li><a href="youtube">YouTube Video</a></li>
+{% endif %}
+{% if page.mp3 %}
+	<li><a href="podcast">Audio als Podcast</a></li>
+{% endif %}
+{% if page.sketchnote-video %}
+	<li><a href="sketchnotes">Sketchnotes</a></li>
+{% endif %}
+{% if summary_file %}
+	<li><a href="summary">Zusammenfassung</a></li>
+{% endif %}
+</ul>	    
+	  
     <section class="main-content">
       
     {{ content }}
 
     {{ page.date | date: "%Y-%m-%d"}} <a href="{{ site.url }}/thumbnails/{{ page.thumbnail }}">Thumbnail</a>
-    
+
+
 {% if page.peertube %}
-<h2>PeerTube Video - no Big Tech!</h2>
+<h2 id="peertube">PeerTube Video - no Big Tech!</h2>
 
 <center>
     <div class="embed-container">
@@ -26,7 +49,7 @@
 {% endif %}
     
 {% if page.video %}
-<h2>YouTube Video</h2>
+<h2 id="youtube">YouTube Video</h2>
 
 <center>
   <div class="embed-container">
@@ -39,9 +62,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; 
 
 {% if page.sketchnote-video %}
 {% if page.sketchnote-video-header %}
-<h2>{{ page.sketchnote-video-header }}</h2>
+<h2 anchor="sketchnotes">{{ page.sketchnote-video-header }}</h2>
 {% else %}
-<h2>Live Sketchnoting</h2>
+<h2 anchor="sketchnotes">Live Sketchnoting</h2>
 {% endif %}
 <center>
   <div class="embed-container">
@@ -55,7 +78,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
 {% endif %}
 
 {% if page.mp3 %}
-<h2>Audio als Podcast</h2>
+<h2 id="podcast">Audio als Podcast</h2>
 
 <center>
 <iframe
@@ -69,6 +92,10 @@ src="{{ page.embedded-mp3 }}"></iframe>
 
 <a href="/podcast.html">Infos und Feeds zum Audio als Podcast</a>
 
+{% endif %}
+
+{% if summary_file %}
+  {% include_relative ../transcriptions/{{ episode_id }}/summary.md %}
 {% endif %}
 
 {% include page-footer.html %}
