@@ -12,7 +12,9 @@
 
 	  {{page.url}}<hr />
 	  {{page.name}} / {{episode_id}} / {{summary_path}} / {{summary_file}} <hr />
-
+{% for file in site.static_files %}
+  File path: {{ file.path }} <hr />
+{% endfor %}
 	  
     <section class="main-content">
 <ul>
