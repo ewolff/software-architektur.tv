@@ -1,7 +1,5 @@
-# Folge 246 - GenAI und Software-Architektur mit Christian Weyer Hallo, ich bin Eberhard Wolff.
-Freitags mache ich oder Lisa Moritz einen Livestream zum Thema Software-Architektur, oft zusammen mit Gästen.
-Dieser Podcast ist das Audio des Streams.
-Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
+# Folge 246 - GenAI und Software-Architektur mit Christian Weyer
+
 Ja, herzlich willkommen zu einer weiteren Folge von Software-Architektur im Stream.
 Diesmal bin ich Host und Moderator.
 Mein Name ist Ralf Müller und heute habe ich als Gast Christian Bayer hier.
