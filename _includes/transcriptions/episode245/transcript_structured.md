@@ -1,8 +1,5 @@
 # Folge 245 - KI in der Software-Entwicklung - Über- oder unterhypt?
-Hallo, ich bin Eberhard Wolff.
-Freitags mache ich oder Lisa Moritz einen Livestream zum Thema Software-Architektur, oft zusammen mit Gästen.
-Dieser Podcast ist das Audio des Streams.
-Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
+
 ## Einführung in KI in der Software-Entwicklung
 
 Hallo und herzlich willkommen zu einer neuen Episode von Software-Architektur im Stream.
