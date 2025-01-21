@@ -100,7 +100,7 @@ src="{{ page.embedded-mp3 }}"></iframe>
 {% if site.data.summaries contains episode_id %}
   {% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
   {{ summary | markdownify }}
-<a id="transcription" />
+<h2 id="transcription" >Vollständige Transkription</h2>
   {% capture transcription %}{% include transcriptions/{{ episode_id }}/transcript_structured.md %}{% endcapture %}
   {{ transcription | markdownify }}
 {% endif %}
