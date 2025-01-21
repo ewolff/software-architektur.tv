@@ -10,6 +10,3 @@ plugins:
   - jekyll-feed
 
 markdown: kramdown
-
-include:
-  - _transcriptions
