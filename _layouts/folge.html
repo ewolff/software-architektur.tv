@@ -98,9 +98,12 @@ src="{{ page.embedded-mp3 }}"></iframe>
 {% endif %}
 
 {% if site.data.summaries contains episode_id %}
-  {% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
+<p style="font-size: small;">Hinweis: Die nachfolgenden Texte wurden mit KI erstellt und können somit Fehler enthalten.</p>
+
+{% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
   {{ summary | markdownify }}
 <h2 id="transcription" >Vollständige Transkription</h2>
+<p style="font-size: small;">Dieses Transkript wurde mit KI erstellt und kann somit Fehler enthalten.</p>
   {% capture transcription %}{% include transcriptions/{{ episode_id }}/transcript_structured.md %}{% endcapture %}
   {{ transcription | markdownify }}
 {% endif %}
