@@ -1,15 +1,12 @@
 # Folge 247 - Autonome Teams - Wollen wir das wirklich?
-Hallo, ich bin Eberhard Wolff.
-Freitags mache ich oder Lisa Moritz einen Live-Stream zum Thema Software-Architektur, oft zusammen mit Gästen.
-Dieser Podcast ist das Audio des Streams.
-Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
-Software-Architektur im Stream ## Einführung in autonome Teams
 
 So, also autonome Teams.
 Wollen wir das eigentlich wirklich?
+
 ## Das Konzept der Autonomie
 
 Und der Punkt ist halt, dann würden Teams im Wesentlichen unabhängig voneinander arbeiten und sie würden halt selber Entscheidungen treffen.
+
 ### Abhängigkeiten und Koordination
 
 Ich habe immer noch bestimmte Abhängigkeiten.
