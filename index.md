@@ -15,49 +15,21 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 24.1. 13:00 CEST, Code Charta mit Richard Gross
+# Nächste Episode: Freitag 31.1. 13:00 CEST, Thema noch offen
 
-Bei Software mit hunderttausend Zeilen kann man schnell den Überblick
-über Code, Architektur und deren Qualität verlieren. Sind wir noch auf
-dem richtigen Weg, blockieren wir uns mit internen Abhängigkeiten,
-oder sind wir schon festgefahren? Software ist immateriell, wir können
-nicht sehen, wie es ihr geht.
 
-Wir können uns allerdings mit Tools helfen. Eines davon ist das
-kostenlose Open-Source-Tool CodeCharta, das uns Richard vorstellen
-wird. Es bietet seit 2017 die Möglichkeit, Experten und Laien
-gleichermaßen die Qualität von Software nachvollziehbar zu machen.
+<!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
-Die Idee ist sehr einfach: Wir visualisieren unsere Software als
-3D-Stadtkarte (Charta = lateinisch für Karte oder Papier). Jede Datei
-wird zu einem Gebäude. Kleine Dateien werden zu Bungalows, komplexe
-Dateien stechen als Wolkenkratzer hervor. Wolkenkratzer, die nur einen
-Autor haben, werden rot, denn hier existiert ein Wissenssilo.
+<!-- ## Live Stream -->
 
-Das ist nur ein kleiner Teil der Visualisierungsmöglichkeiten:
-CodeCharta kann auch visualisieren, welche Dateien viel verändert
-werden, kaum Testabdeckung haben, hohe Verschachtelungstiefe bieten
-oder eine hohe Anzahl an Code Smells.
-
-Die Stadt-Metapher hilft dabei Experten wie Laien gleichermaßen und
-ermöglicht eine verständnisvolle Diskussion. Ein Feature, dass in den
-New Yorker Wolkenkratzern eingebaut werden soll, wird garantiert
-länger dauern als eines, das in einem Bonner Bungalow platziert
-wird. Diese Diskussion können wir auch am physischen Objekt führen,
-denn eine CodeCharta kann auch in 3D drucken.
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/oToj4ZSBC_o"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/oToj4ZSBC_o" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
