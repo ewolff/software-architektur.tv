@@ -15,7 +15,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 31.1. 13:00 CEST, Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel
+# Nächste Episode: Freitag 31.1. 13:00 CET, Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel
 
 Die Ablösung von Legacy-Systemen ist weit mehr als ein technisches
 Projekt – es ist ein Transformationsprozess, der das gesamte
