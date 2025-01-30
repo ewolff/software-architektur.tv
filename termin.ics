@@ -20,25 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250114T091738Z
-DESCRIPTION:Autonome Teams werden oft als der heilige Gral der Softwareentw
-	icklung angesehen. Sie versprechen mehr Produktivität\, bessere Ergebniss
-	e und zufriedenere Mitarbeitende. Doch Autonomie bringt Herausforderungen 
-	mit sich: Sie erfordert Vertrauen\, die Fähigkeit\, Verantwortung zu dele
-	gieren\, und Teams\, die bereit sind\, diese Verantwortung zu tragen. Auß
-	erdem können zu viel Autonomie und fehlende Leitplanken zu Chaos und Kont
-	rollverlust führen. Dieser Vortrag beleuchtet die psychologischen\, organ
-	isatorischen und architektonischen Aspekte von Autonomie und zeigt\, warum
-	 sie in der Praxis oft schwerer zu erreichen ist\, als es scheint.\n\nhttp
-	s://youtu.be/GrXMYzx0VZ8 https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20250117T140000
+CREATED:20250127T095655Z
+DESCRIPTION:Die Ablösung von Legacy-Systemen ist weit mehr als ein technis
+	ches Projekt – es ist ein Transformationsprozess\, der das gesamte Unter
+	nehmen betrifft. In dieser Episode verrät uns Tanja Friedel\, warum das f
+	rühzeitige Einbinden von Produktmanager:innen sicherstellt\, dass neue Sy
+	steme nicht nur technisch moderner sind\, sondern tatsächlich echten gesc
+	häftlichen Mehrwert schaffen - denn anders kann man ein solches Investmen
+	t auch kaum rechtfertigen.\n\nhttps://www.youtube.com/watch?v=LTueX9yu2P4 
+	https://www.twitch.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20250131T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250117T130000
-LAST-MODIFIED:20250114T091738Z
-LOCATION:https://youtu.be/GrXMYzx0VZ8 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250131T130000
+LAST-MODIFIED:20250127T095655Z
+LOCATION:https://www.youtube.com/watch?v=LTueX9yu2P4 https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Autonome Teams: Wollen wir das wirklich?
+SUMMARY;LANGUAGE=de:Warum Legacy-Transformation mehr braucht als Techniker:
+	innen mit Tanja Friedel
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

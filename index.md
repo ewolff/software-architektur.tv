@@ -15,20 +15,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 24.1. 13:00 CEST, Code Charta mit Richard Gross
+# Nächste Episode: Freitag 31.1. 13:00 CET, Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Die Ablösung von Legacy-Systemen ist weit mehr als ein technisches
+Projekt – es ist ein Transformationsprozess, der das gesamte
+Unternehmen betrifft. In dieser Episode verrät uns Tanja Friedel,
+warum das frühzeitige Einbinden von Produktmanager:innen sicherstellt,
+dass neue Systeme nicht nur technisch moderner sind, sondern
+tatsächlich echten geschäftlichen Mehrwert schaffen - denn anders kann
+man ein solches Investment auch kaum rechtfertigen.
+
+[Zum Kalendar hinzufügen](termin.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/GrXMYzx0VZ8" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/LTueX9yu2P4"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
