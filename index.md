@@ -15,7 +15,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 7.2. 13:00 CET Thema noch offen
+# Nächste Episode: Freitag 14.2. 13:00 CET Thema noch offen
 
 <!-- [Zum Kalendar hinzufügen](termin.ics) -->
 
