@@ -1,10 +1,9 @@
 ---
-title: software-architektur.tv
+title: Software-Architektur im Stream
 type: website
 description: Live-Diskussion zu Software-Architektur im Stream
+tagline: Live-Diskussion zu Software-Architektur
 ---
-
-Live-Diskussion zu Software-Architektur im Stream. 
 
 Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
 D. Müller
