@@ -20,25 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250127T095655Z
-DESCRIPTION:Die Ablösung von Legacy-Systemen ist weit mehr als ein technis
-	ches Projekt – es ist ein Transformationsprozess\, der das gesamte Unter
-	nehmen betrifft. In dieser Episode verrät uns Tanja Friedel\, warum das f
-	rühzeitige Einbinden von Produktmanager:innen sicherstellt\, dass neue Sy
-	steme nicht nur technisch moderner sind\, sondern tatsächlich echten gesc
-	häftlichen Mehrwert schaffen - denn anders kann man ein solches Investmen
-	t auch kaum rechtfertigen.\n\nhttps://www.youtube.com/watch?v=LTueX9yu2P4 
-	https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20250131T140000
+CREATED:20250212T171320Z
+DESCRIPTION:Im Videocast spricht Lisa Maria Schäfer mit Ralf D. Müller ü
+	ber die faszinierende Welt der Large Language Models (LLMs) und deren Fäh
+	igkeit\, selbstständig zu arbeiten. Ralf demonstriert live\, wie LLMs dur
+	ch Agentic Workflows komplexe Aufgaben bewältigen - von der Implementieru
+	ng von Algorithmen bis hin zur Erstellung und Verifizierung von Code. Beso
+	nders interessant wird es bei der Demonstration\, wie LLMs ihre eigene Arb
+	eit durch Tests und visuelle Überprüfung validieren können. Im Gespräc
+	h wird auch die praktische Anwendung des Model Context Protocols mit claud
+	e.ai Desktop beleuchtet.\n\nhttps://youtu.be/mWNKV7t-DPs https://www.twitc
+	h.tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20250214T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250131T130000
-LAST-MODIFIED:20250127T095655Z
-LOCATION:https://www.youtube.com/watch?v=LTueX9yu2P4 https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250214T130000
+LAST-MODIFIED:20250212T171320Z
+LOCATION:https://youtu.be/mWNKV7t-DPs https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Warum Legacy-Transformation mehr braucht als Techniker:
-	innen mit Tanja Friedel
+SUMMARY;LANGUAGE=de:Spaß mit KI: Agentic Workflows und Self-Verification
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

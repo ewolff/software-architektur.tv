@@ -14,20 +14,31 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 14.2. 13:00 CET Thema noch offen
+# Nächste Episode: Freitag 14.2. 13:00 CET Spaß mit KI: Agentic Workflows und Self-Verification
 
-<!-- [Zum Kalendar hinzufügen](termin.ics) -->
+Im Videocast spricht Lisa Maria Schäfer mit Ralf D. Müller über die
+faszinierende Welt der Large Language Models (LLMs) und deren
+Fähigkeit, selbstständig zu arbeiten. Ralf demonstriert live, wie LLMs
+durch agentic workflows komplexe Aufgaben bewältigen - von der
+Implementierung von Algorithmen bis hin zur Erstellung und
+Verifizierung von Code. Besonders interessant wird es bei der
+Demonstration, wie LLMs ihre eigene Arbeit durch Tests und visuelle
+Überprüfung validieren können. Im Gespräch wird auch die praktische
+Anwendung des Model Context Protocols mit claude.ai Desktop
+beleuchtet.
 
-<!-- ## Live Stream -->
+[Zum Kalendar hinzufügen](termin.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/LTueX9yu2P4" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/mWNKV7t-DPs"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
