@@ -14,21 +14,44 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 14.2. 13:00 CET Spaß mit KI: Agentic Workflows und Self-Verification
+# Special: Remote-Unconference KI & Software-Architektur
 
-Im Videocast spricht Lisa Maria Schäfer mit Ralf D. Müller über die
-faszinierende Welt der Large Language Models (LLMs) und deren
-Fähigkeit, selbstständig zu arbeiten. Ralf demonstriert live, wie LLMs
-durch agentic workflows komplexe Aufgaben bewältigen - von der
-Implementierung von Algorithmen bis hin zur Erstellung und
-Verifizierung von Code. Besonders interessant wird es bei der
-Demonstration, wie LLMs ihre eigene Arbeit durch Tests und visuelle
-Überprüfung validieren können. Im Gespräch wird auch die praktische
-Anwendung des Model Context Protocols mit claude.ai Desktop
-beleuchtet.
+<img style="max-width: 100%" src="https://media.licdn.com/dms/image/v2/D561EAQHlQeL92xksJg/event-background-image-crop_720_1280/event-background-image-crop_720_1280/0/1737481412104?e=1740164400&v=beta&t=FEnH47lnR-ahsu6ariOGwhWmW7wXnk4IRjAX2mLb0MI" />
+
+KI revolutioniert Softwareentwicklung und -architektur. Wie integrieren wir KI-Systeme nachhaltig? Welche neuen Architekturmuster entstehen? Und wie verändert KI unsere Rolle als Software-Architekt:innen?
+
+In dieser Remote-Unconference kommen alle Interessierte zusammen, um diese und weitere brennende Fragen gemeinsam zu erkunden. Im offenen, selbstorganisierten Format gestalten wir die Agenda und bringen unsere Fragen,Erfahrungen, Herausforderungen und Lösungsansätze ein.
+
+Mögliche Themen:
+- Integration von KI-Systemen in bestehende Architekturen
+- Architekturmuster für KI-gestützte Anwendungen
+- Skalierbarkeit und Performance
+- Datenschutz und Sicherheit
+- MLOps und DevOps
+- Ethik und Governance
+- Auswirkungen auf Software-Design-Prinzipien
+…und alles, was Euch noch einfällt!
+
+Das interaktive Format ermöglicht intensive Diskussionen, Erfahrungsaustausch und Networking in kleinen Gruppen - oder auch einfach einen netten Plausch.
+
+Bring Deine Perspektiven, Fragen und Erfahrungen ein und profitiere vom Wissen der Community. Für Architekt:innen, Entwickler:innen, Tech-Leads und alle, die sich für KI-gestützte Systeme interessieren.
+
+Format: Remote-Unconference in Zoom
+
+Voraussetzungen: Interesse an KI-Technologien und Software-Architektur
+
+Sprache: Deutsch
+
+Code of Conduct: Diese Veranstaltung folgt dem Berlin Code of Conduct ([berlincodeofconduct.org](https://berlincodeofconduct.org)). Wir schaffen einen respektvollen, inklusiven Raum für alle Teilnehmenden und fördern einen offenen, wertschätzenden Austausch.
+
+* [Event auf LinkedIn](https://www.linkedin.com/events/7287525238282637312/about/)
+* [Anmeldung über Zoom](https://zoom.us/meeting/register/9Mnh0yNJS8q5vcc7chVAZQ#/registration)
+
+# Nächste Episode: Freitag 21.2. 13:00 CET KI kritisch betrachtet mit Lucas Dohmen
 
 [Zum Kalendar hinzufügen](termin.ics)
 
+<!--
 ## Live Stream
 
 <center>
@@ -70,7 +93,7 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
-
+-->
 
 # Sketchnote-Buch
 
