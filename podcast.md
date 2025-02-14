@@ -1,5 +1,5 @@
 ---
-title: software-architektur.tv als Podcast
+title: Software-Architektur im Stream als Podcast
 type: website
 twitterimage: podcast.jpg
 twitterimagealt: Software Architektur im Stream Podcast Logo
