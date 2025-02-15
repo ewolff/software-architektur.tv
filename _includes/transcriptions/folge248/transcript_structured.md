@@ -1,11 +1,5 @@
 # Folge 248 - Code Charta mit Richard Gross Hallo, ich bin Eberhard Wolff.
 
-Freitags mache ich oder Lisa Moritz einen Live-Stream zum Thema Software-Architektur, oft zusammen mit Gästen.
-
-Dieser Podcast ist das Audio des Streams.
-
-Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
-
 ## Einführung und Vorstellung
 
 So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream, diesmal mit Richard.
