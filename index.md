@@ -14,49 +14,25 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Special: Remote-Unconference KI & Software-Architektur
 
-<img style="max-width: 100%" src="https://media.licdn.com/dms/image/v2/D561EAQHlQeL92xksJg/event-background-image-crop_720_1280/event-background-image-crop_720_1280/0/1737481412104?e=1740164400&v=beta&t=FEnH47lnR-ahsu6ariOGwhWmW7wXnk4IRjAX2mLb0MI" />
+# Nächste Episode: Freitag 21.2. 13:00 CET KI und LLMs kritisch betrachtet mit Lucas Dohmen
 
-KI revolutioniert Softwareentwicklung und -architektur. Wie integrieren wir KI-Systeme nachhaltig? Welche neuen Architekturmuster entstehen? Und wie verändert KI unsere Rolle als Software-Architekt:innen?
+In der IT sind KI und insbesondere LLMs aktuell das Hype-Thema. In
+dieser Folge hinterfragen Lucas Dohmen und Eberhard Wolff den Hype
+kritisch: Wie funktionieren diese Technologien und was sind ihre
+Probleme? Außerdem beleuchten sie, in welchen Szenarien der Einsatz
+von KI und LLMs sinnvoll ist oder vermieden werden sollte – und das
+nicht nur aus ethischer Perspektive.
 
-In dieser Remote-Unconference kommen alle Interessierte zusammen, um diese und weitere brennende Fragen gemeinsam zu erkunden. Im offenen, selbstorganisierten Format gestalten wir die Agenda und bringen unsere Fragen,Erfahrungen, Herausforderungen und Lösungsansätze ein.
-
-Mögliche Themen:
-- Integration von KI-Systemen in bestehende Architekturen
-- Architekturmuster für KI-gestützte Anwendungen
-- Skalierbarkeit und Performance
-- Datenschutz und Sicherheit
-- MLOps und DevOps
-- Ethik und Governance
-- Auswirkungen auf Software-Design-Prinzipien
-…und alles, was Euch noch einfällt!
-
-Das interaktive Format ermöglicht intensive Diskussionen, Erfahrungsaustausch und Networking in kleinen Gruppen - oder auch einfach einen netten Plausch.
-
-Bring Deine Perspektiven, Fragen und Erfahrungen ein und profitiere vom Wissen der Community. Für Architekt:innen, Entwickler:innen, Tech-Leads und alle, die sich für KI-gestützte Systeme interessieren.
-
-Format: Remote-Unconference in Zoom
-
-Voraussetzungen: Interesse an KI-Technologien und Software-Architektur
-
-Sprache: Deutsch
-
-Code of Conduct: Diese Veranstaltung folgt dem Berlin Code of Conduct ([berlincodeofconduct.org](https://berlincodeofconduct.org)). Wir schaffen einen respektvollen, inklusiven Raum für alle Teilnehmenden und fördern einen offenen, wertschätzenden Austausch.
-
-* [Event auf LinkedIn](https://www.linkedin.com/events/7287525238282637312/about/)
-* [Anmeldung über Zoom](https://zoom.us/meeting/register/9Mnh0yNJS8q5vcc7chVAZQ#/registration)
-
-# Nächste Episode: Freitag 21.2. 13:00 CET KI kritisch betrachtet mit Lucas Dohmen
 
 [Zum Kalendar hinzufügen](termin.ics)
 
-<!--
+
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/mWNKV7t-DPs"
+	src="https://www.youtube-nocookie.com/embed/2ObdIUfjdpA"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
@@ -93,7 +69,6 @@ width="640" height="450" frameborder="0" marginheight="0"
 marginwidth="0">Loading…</iframe>
 </div>
 </div>
--->
 
 # Sketchnote-Buch
 
