@@ -14,31 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Nächste Episode: Freitag 21.2. 13:00 CET KI und LLMs kritisch betrachtet mit Lucas Dohmen
-
-In der IT sind KI und insbesondere LLMs aktuell das Hype-Thema. In
-dieser Folge hinterfragen Lucas Dohmen und Eberhard Wolff den Hype
-kritisch: Wie funktionieren diese Technologien und was sind ihre
-Probleme? Außerdem beleuchten sie, in welchen Szenarien der Einsatz
-von KI und LLMs sinnvoll ist oder vermieden werden sollte – und das
-nicht nur aus ethischer Perspektive.
-
-[Zum Kalendar hinzufügen](termin.ics)
-
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/2ObdIUfjdpA"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
 # Monday 2024-02-24 19:00 CET Intro to Beyond Estimates with Woody Zuill
 
 Let’s explore the purpose and use of estimates in the management of
