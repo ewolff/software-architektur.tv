@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # Autonome Teams in der Software-Entwicklung - Ein zweischneidiges Schwert?
 
 Die Idee autonomer Teams in der Software-Entwicklung klingt zunächst verlockend: Teams arbeiten weitgehend unabhängig, treffen eigene Entscheidungen und übernehmen Verantwortung für ihre Ergebnisse. Doch in der Praxis zeigt sich: Der Weg zu echter Team-Autonomie ist mit vielen Herausforderungen gepflastert.

@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # GenAI und Software-Architektur: Sprachverständnis als Game Changer
 
 Die generative KI hat in den letzten zwei Jahren die Tech-Welt im Sturm erobert. Doch wo liegt der wahre Mehrwert dieser Technologie für Software-Architekten und Entwickler? Christian Weyer, Technical Consultant bei Thinktecture, sieht den Hauptnutzen nicht im viel diskutierten Weltwissen der Modelle, sondern in ihrer Fähigkeit, menschliche Sprache zu verstehen und zu verarbeiten.

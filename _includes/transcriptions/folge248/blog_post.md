@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # Code Charta: Architektur-Visualisierung als Stadt
 
 Software-Architektur zu visualisieren ist eine große Herausforderung - besonders wenn es darum geht, den Zustand und die Qualität von Legacy-Code zu kommunizieren. Das Open-Source-Tool Code Charta bietet hier einen innovativen Ansatz: Es stellt Softwarearchitektur als dreidimensionale Stadt dar.

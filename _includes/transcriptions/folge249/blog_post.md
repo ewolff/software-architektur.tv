@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # Warum Legacy-Transformation mehr als nur Technik braucht
 
 Die Migration von Legacy-Systemen wird oft als rein technische Aufgabe betrachtet. Dabei geht es vermeintlich nur darum, alte, schwer wartbare Systeme durch moderne, besser wartbare Lösungen zu ersetzen. Doch dieser Ansatz greift zu kurz und verschenkt enormes Potenzial. Um wirklich erfolgreiche Legacy-Transformationen durchzuführen, braucht es eine ganzheitliche Perspektive – und vor allem Produktmanagement.

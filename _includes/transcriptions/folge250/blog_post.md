@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # Agentic Workflows und Self-Verification: Die nächste Evolutionsstufe der KI-Entwicklung
 
 Künstliche Intelligenz entwickelt sich rasant weiter - von einfachen Frage-Antwort-Systemen hin zu eigenständig arbeitenden Agenten. Ein spannendes Beispiel dafür sind "Agentic Workflows", bei denen KI-Systeme selbstständig komplexe Aufgaben ausführen und dabei verschiedene Tools kombinieren können.
