@@ -1,8 +1,4 @@
-Hier ist meine Zusammenfassung des Podcast-Transcripts:
-
-Titel: Code Charta mit Richard Gross
-
-Hauptaspekte:
+## Key Takeaways
 
 1. Visualisierung von Code-Metriken
 - Code Charta stellt Codebasis als 3D-Stadt dar
@@ -22,14 +18,14 @@ Hauptaspekte:
 - Visualisierung von Refactoring-Fortschritten
 - Delta-Ansicht zum Vergleich verschiedener Versionen
 
-Wichtige behandelte Fragen:
+## Wichtige Fragen der Folge
 
 1. Wie kann man große Codebasen effektiv visualisieren?
 2. Wie kommuniziert man technische Schulden an nicht-technische Stakeholder?
 3. Wie kann man Refactoring-Fortschritte sichtbar machen?
 4. Wie geht man mit Monorepos um?
 
-Glossar:
+## Glossar
 
 - Churn: Häufigkeit der Änderungen an einer Datei
 - McCabe-Komplexität: Metrik für die zyklomatische Komplexität von Code

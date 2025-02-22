@@ -1,6 +1,4 @@
-# Folge 247 - Autonome Teams - Wollen wir das wirklich?
-
-## Zusammenfassung
+## Key Takeaways
 
 ### Autonomie vs. Kontrolle
 Autonome Teams arbeiten unabhängig und treffen eigene Entscheidungen, was die Notwendigkeit von Koordination und Kommunikation reduziert. Dies kann zu höherer Zufriedenheit und besseren Ergebnissen führen. Allerdings ist vollständige Autonomie illusorisch, denn es gibt immer externe Abhängigkeiten und Entscheidungen, die nicht allein im Team getroffen werden können. Eine adäquate Architektur ist entscheidend, um Autonomie zu fördern – sie minimiert Abhängigkeiten und ermöglicht es Teams, ihre Ziele selbst zu setzen.
@@ -14,7 +12,6 @@ Das Vertrauen in die Fähigkeiten von Teams und die Akzeptanz, dass nicht alles 
 ### Kontinuierliche Verbesserung und Standards
 Die Diskussion über verpflichtende Code-Analyse und Metriken zeigt, wie Metriken helfeen können, aber auch entsprechend Goodhart's Law manipuliert werden, wenn sie als Ziele formuliert werden. Selbstverantwortung der Teams sollte gefördert werden, um echte Qualität und Autonomie zu erreichen. Dabei müssen Standards eingesetzt werden aber so, dass sie die Teams nicht unnötig beschränken.
 
-## Key Takeaways
 1. Autonomie ist kein Selbstzweck, sondern dient der höheren Effizienz und Zufriedenheit in Teams.
 2. Architektur spielt eine wichtige Rolle beim Ermöglichen von Autonomie in Entwicklungsteams.
 3. Vollständige Autonomie gibt es nicht – es bestehen immer externe Abhängigkeiten.
@@ -22,7 +19,8 @@ Die Diskussion über verpflichtende Code-Analyse und Metriken zeigt, wie Metrike
 5. Psychologische Hemmnisse, wie der Drang nach Kontrolle, müssen überwunden werden, um Autonomie zu fördern.
 6. Standards und Metriken sollten freiwillig und nicht verpflichtend sein, um die Autonomie der Teams zu wahren.
 
-## Wichtige Fragen
+## Wichtige Fragen der Folge
+
 1. Warum ist Autonomie in Entwicklungsteams wichtig?
 2. Welche Rolle spielt die Architektur bei der Unterstützung von autonom aufgestellten Teams?
 3. Wie können Managementpraktiken die Autonomie der Teams beeinflussen?
