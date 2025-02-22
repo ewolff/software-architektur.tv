@@ -1,6 +1,4 @@
-# Folge 248 - Code Charta mit Richard Gross Hallo, ich bin Eberhard Wolff.
-
-## Einführung und Vorstellung
+### Einführung und Vorstellung
 
 So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream, diesmal mit Richard.
 
@@ -104,7 +102,7 @@ Ich habe tatsächlich pausiert mit meiner Vorstellung und habe einfach gerade au
 
 Ich spule es mal gleich vor.
 
-## Projektdetails und Lizenzierung
+### Projektdetails und Lizenzierung
 
 Also wir hatten das Problem, wir machen diese Health-Checks und da kriegt man halt eine Million Zeilen Code und die Frage, okay, was ist überhaupt das Problem und wie komme ich da raus?
 
@@ -138,7 +136,7 @@ Dann würde ich sagen, ist das der nächste Schritt?
 
 Genau, dann starte ich mal die Präse.
 
-## Visualisierungskonzept
+### Visualisierungskonzept
 
 Wenn man halt so ein Millionen Zeilen oder 100.000, ist eigentlich egal, wenn man sehr viel Zeilencode vor sich hat.
 
@@ -344,7 +342,7 @@ So, wie kann man das nutzen?
 
 Also erstens, frei, kostenlos, open source, das heißt auf GitHub verfügbar.
 
-## Technische Implementierung
+### Technische Implementierung
 
 Was wir anbieten, ist eine Analyse-Plattform, so eine kleine.
 
@@ -888,7 +886,7 @@ Also, ihr seht den Dateipfad immer hier oben, falls es euch interessiert.
 
 Also wenn ich hier irgendwo drüberfahre, dann steht da oben jetzt Datamox, wo das ganze Ding drin liegt.
 
-## Praktische Anwendung
+### Praktische Anwendung
 
 So, die ursprüngliche Frage war ja, kann ich Qualität aus drei Werten heruntermappen?
 
@@ -1434,7 +1432,7 @@ Eine ganz wichtige Sache.
 
 Es steht hier irgendwo so da.
 
-## Datenschutz und Deployment
+### Datenschutz und Deployment
 
 Also Codekarte als Visualisierung und als Analyse, entweder das läuft komplett bei euch oder ihr nutzt dieses Webstudio.
 
