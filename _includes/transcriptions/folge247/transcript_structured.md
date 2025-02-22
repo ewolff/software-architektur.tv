@@ -1,9 +1,7 @@
-# Folge 247 - Autonome Teams - Wollen wir das wirklich?
-
 So, also autonome Teams.
 Wollen wir das eigentlich wirklich?
 
-## Das Konzept der Autonomie
+### Das Konzept der Autonomie
 
 Und der Punkt ist halt, dann würden Teams im Wesentlichen unabhängig voneinander arbeiten und sie würden halt selber Entscheidungen treffen.
 
@@ -17,25 +15,30 @@ Und da gibt es halt einen Grund, warum das besser ist, weil ich eben dann wenige
 Und das bedeutet, ich habe eben mehr Autonomie, bedeutet weniger Koordination, bedeutet weniger Kommunikation.
 Das bedeutet, ich habe mehr Zeit, um tatsächlich Wert zu generieren, Software zu entwickeln, Features umzusetzen.
 Also habe ich am Ende wahrscheinlich irgendwie bessere Ergebnisse, weil ich mich halt eher um das kümmern kann, worum es eben tatsächlich an der Stelle geht.
-## Selbstbestimmtheit der Teams
+
+### Selbstbestimmtheit der Teams
 
 Es gibt dann noch irgendwie diese Selbstbestimmtheit, die da, glaube ich, eine Rolle spielt.
 Und Selbstbestimmtheit bedeutet, dass die Teams eben selber bestimmen, wie sie arbeiten wollen, was eben auch bedeutet, dass dort Entscheidungen getroffen werden, wo die meisten Informationen sind.
 Also da, wo eben tatsächlich die Teams arbeiten.
 Und das bedeutet eben, dass Teams sich selbst auch ihre Ziele setzen, selber kreativ sein können, wie sie ihre Probleme lösen.
+
 ### Zufriedenheit und Ergebnisse
 
 Und das bedeutet eben zum einen bessere Zufriedenheit im Beruf, aber auch wahrscheinlich bessere Ergebnisse.
 Der Fragzweierlei schreibt, werden Entscheidungen nicht nur im Team, sondern auch außerhalb vom Team gemacht, Stichwort Scope und Context.
 Ja, genau.
-## Grenzen der Autonomie
+
+### Grenzen der Autonomie
 
 Also deswegen sage ich ja, vollständig autonome Teams kann es halt eben nicht geben.
+
 ### Einfluss externer Entscheidungen
 
 Es wird irgendwelche Dinge geben, die halt irgendwie sozusagen draußen sind, außerhalb der konkreten Teams.
 Und das bedeutet, dass es eben nicht die vollständig autonomen Teams gibt, genauso wie es eben nicht die vollständig autonomen Teile meines Systems gibt, sondern es wird eben immer irgendwie eine Interaktion geben.
-## Literaturhinweise
+
+### Literaturhinweise
 
 Es gibt das schöne Buch Accelerate.
 Und Accelerate sagt eben auch, dass die Diskussionen, die halt führen, sich häufig so auf Tools und Technologien beziehen im Architekturbereich.
@@ -46,19 +49,22 @@ Was die halt irgendwie sagen ist, naja, also das, was sie herausgefunden haben, 
 Und das ist, glaube ich, eine ganz spannende Sache.
 Also Accelerate diskutiert eigentlich, dass man eben schneller Software deployen möchte und welche Vorteile das hat, sagt aber, dass hier eben tatsächlich dieses Ziel existiert.
 Und das ist, glaube ich, so ein ganz spannender Einblick.
-## Fallstudie: How Google Works
+
+### Fallstudie: How Google Works
 
 So, und es gibt dann dieses Buch über How Google Works.
 Und ich hatte da in der Vorbereitung für diesen Talk reingeschaut, weil ich dachte, dass das halt so ganz explizit da dran steht.
 Was ich aber am Ende gefunden habe, ist eigentlich, ist nur so eine Fallstudie, so ein Ding, was sie da halt irgendwie als gute Sache diskutieren.
 Und das ist eben, dass in einer bestimmten Situation die Aufgabe von einem Sergey Brin, also einem der Co-Founder von Google und auch eben damit einem Top-Manager von Google in der Situation war, seine Aufgabe, aus dem Weg zu gehen und eben nicht zu sagen, das ist halt meine Idee und meine Idee ist die beste, sondern zu sagen, nicht, liebes Team, ihr habt halt eine Idee, die ist wahrscheinlich immer besser, setzt die doch einfach um.
 Und dafür brauche ich halt irgendwie das Vertrauen in meine MitarbeiterInnen, aber ich brauche irgendwie auch das Selbstvertrauen, dass man irgendwie sagen kann, okay, ihr kriegt es halt hin, einen besseren Weg zu identifizieren.
+
 ### Vertrauen in Mitarbeiter
 
 Das bedeutet, abstrakt gesprochen, wenn man sich das logisch vorstellt, ist eben ein autonomes Team besser.
 Und es gibt eben, wie man jetzt bei Accelerate sieht oder bei Google sieht, eben auch andere Hinweise in der Literatur darauf, dass das eigentlich eine gute Idee ist.
 So und wir haben jetzt das Problem, es geht ja um Architektur bis zu einem gewissen Maße, dass Architektur tatsächlich Autonomie begrenzt.
 Also Lisa hat hier so einen schönen Big Ball of Mud geschrieben, also gezeichnet, ein großes, unstrukturiertes System.
+
 ### Domänengetriebenes Design
 
 Und aus Big Ball of Mud, so sagt Domain Driven Design, kommt so ein Partnership raus.
@@ -66,7 +72,8 @@ So ein Partnership ist ja etwas, was wir naiv vielleicht irgendwie positiv sehen
 Ich habe hier so ein Bild von, weiß ich nicht, das sind irgendwelche amerikanischen Soldaten, glaube ich, die hat so ein Dreibeinrennen machen und da bindet man sich eben zwei Beine zusammen und versucht zu rennen.
 Und es geht eben schlechter, weil man sich halt gegenseitig behindert.
 Und das ist eben gemeint mit diesem Partnership beziehungsweise mit den starken Abhängigkeiten, die halt aus Big Ball of Mud rauskommen.
-## Architektur und Autonomie
+
+### Architektur und Autonomie
 
 Das heißt also, ein Ziel für Architektur ist eben tatsächlich Autonomie.
 Und wenn wir so ein Big Ball of Mud haben, dann haben wir eben die Situation, dass alles von allem abhängt.
@@ -79,6 +86,7 @@ Das heißt also, wenn ich jetzt eine gute Architektur, eine vernünftige Archite
 Und bei Microservices ist es jetzt so, wenn ich eine vernünftige Architektur habe, eine vernünftige Aufteilung, dann bedeutet das, dass eine Änderung nur einen Teil des Systems beeinflusst.
 Bei Microservices kann ich jetzt die jeweiligen Teile auch noch unabhängig voneinander deployen.
 Und ich kann dort auch verschiedene Technologien benutzen.
+
 ### Technologische Flexibilität
 
 Das heißt, ich habe sogar noch mehr Potenzial für Autonomie.
@@ -132,10 +140,12 @@ Und da könnte man jetzt irgendwie sagen, naja, das ist halt eigentlich egal.
 Aber weil sie sind ja erfolgreich.
 Aber wenn ich jetzt eine Situation habe, wo sie nicht mehr erfolgreich sind, dann möchte ich vielleicht wissen, was vorher der Erfolgsfaktor war, damit ich das irgendwie wiederherstellen kann.
 Und ich kann vielleicht dadurch auch irgendwie optimieren.
-## Faktoren, die Autonomie beeinflussen
+
+### Faktoren, die Autonomie beeinflussen
 
 Das führt dazu, dass ich irgendwie so den Drang habe, wahrscheinlich irgendwie zu sagen, okay, das ist eine Blackbox, die ist vielleicht erfolgreich.
 Aber ich weiß halt eben nicht, was sie tun.
+
 ### Managementdrang zur Kontrolle
 
 Und das führt irgendwie zu der Frage, was ist jetzt eigentlich meine Rolle?
@@ -159,12 +169,14 @@ Also mir, ich will das halt verstehen, ich will Dinge halt irgendwie optimieren.
 Aber vielleicht ist dann die Denkweise des Auftraggebers oder der Auftraggeberin eher die, dass man sagt, naja, ich möchte das halt irgendwie verstehen, damit ich mich sicherer fühle, damit ich weiß, warum die erfolgreich sind.
 Und damit ich das irgendwie nachvollziehen kann und irgendwie sozusagen nachts ruhig schlafen kann, weil ich eben diesen Drang habe, etwas zu verstehen.
 Und das bedeutet halt, dass wir letztendlich so ein Spannungsfeld haben zwischen Autonomie und Kontrolle.
+
 ### Spannungsfeld zwischen Kontrolle und Autonomie
 
 Das heißt, dass eben das Management nicht weiß oder auch nicht versteht, was die Teams eigentlich tun und das führt irgendwie zu Unsicherheit.
 Und damit muss man irgendwie leben können.
 Und das ist so ein Grund, der, glaube ich, dazu führt, dass das mit der Autonomie so ein bisschen schwierig ist, weil man dann da vielleicht doch irgendwie versucht reinzuregieren, wenn man eben nicht diese Sicherheit hat.
 So, The Travelling IT Consultant schreibt, das Management hat ja vielleicht häufiger das Problem, dass ein Team ganz toll arbeitet, ein anderes eher nicht.
+
 ### Frage nach der Teamverantwortung
 
 Dann ist doch der natürliche Ansatz zu gucken, wie das gute Team arbeitet.
@@ -178,6 +190,7 @@ Also nicht, ich würde bei dem, wenn ich ein Team habe, das funktioniert und wen
 Und die Probleme verstehen.
 Ich würde nicht versuchen, zu verstehen, warum das andere Team funktioniert, wäre mein Gefühl.
 Aber ja, guter Punkt, dieses Kopieren erfolgreicher Teams ist vielleicht eben ein Thema.
+
 ### Vertrauensaufbau im Team
 
 Ein anderer Punkt ist halt diese Geschichte mit Autonomie und all diese Sachen sind halt irgendwie großartig, so hier jetzt die Meinung.
@@ -316,7 +329,8 @@ Ich habe irgendwie diese Visualisierung im Kopf.
 Genau, The Travelling IT Consultant schreibt eine Ausnahme, mache ich allerdings für Sicherheitsgeschichten, da muss man schon oft hart checken.
 Das ist eine Sache, die man dann diskutieren kann, die ist hier auch in der Diskussion oft drin, dass man dann sagt, aber es gibt bestimmte Sachen, die halt verpflichtend sind, ausgeschoben von Regularien, dann ist das halt so.
 Und genau, Tutoritt schreibt, egal, wer die Ziele gibt, es kommt immer auf Vertrauen zurück.
-## Bedeutung von Mentoring
+
+### Bedeutung von Mentoring
 
 Ich finde, dass PR mindestens einen Reviewer haben sollte.
 Man wird spätestens hier sprechen, wenn der PR die Code Coverage tricksen will.
@@ -426,6 +440,7 @@ Ich werde also eher nicht in Chaos und Anarchie enden, es sei denn, ich bin vera
 Das führt dann dazu, dass einige Teams in einem Kontext, war das zumindest die angenommene Erklärung dafür, dass eine Technologie benutzt worden ist, dass man sagt, das will ich im Lebenslauf stehen haben.
 Natürlich werden auch Projekte ab irgendwann unwartbar.
 Das heißt, eine bestimmte Menge an Guidance braucht man schon.
+
 ### Vertrauen in Teamentscheidungen
 
 Ich plädiere nicht unbedingt dafür, blind zu sagen, macht halt, was ihr wollt.
@@ -453,6 +468,7 @@ Autonomie bedeutet weniger Kommunikation.
 Kommunikation ist Architektur.
 Wenn ich ein Kommunikationsproblem habe, dann habe ich am Ende auch ein Architekturproblem, was Conway eben auch beschrieben hat.
 Er hat eben gesagt, wenn ich ein großes Projekt habe, wo Kommunikation schwierig wird und Kommunikation zusammenbricht, dann habe ich auch so ein Architekturproblem.
+
 ### Standards vs. Autonomie
 
 Das bedeutet, ich muss so eine konzeptionelle Integrität haben.
@@ -491,7 +507,8 @@ Gebe ich das den Teams oder nicht?
 Sage ich denen, ihr müsst Code-Analyse machen?
 Sage ich denen, ihr müsst Technologie-Stack benutzen?
 Oder gebe ich denen die Kontrolle?
-## Der Schlussgedanke zur Autonomie
+
+### Der Schlussgedanke zur Autonomie
 
 In der Zusammenfassung.
 Autonomie macht Sinn.
@@ -500,6 +517,7 @@ Ich glaube, dass das Hauptproblem auf einer psychologischen Ebene ist.
 Also die Frage, kann ich zum Beispiel Menschen vertrauen?
 Vertraue ich Menschen?
 Kann ich mit dieser Unsicherheit leben?
+
 ### Empfehlungen für die Praxis
 
 Mein Hinweis wäre, diesen Lip of Faith, also diesen Sprung des Vertrauens zu gehen.
