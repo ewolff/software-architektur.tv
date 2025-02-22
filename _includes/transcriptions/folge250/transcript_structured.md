@@ -1,6 +1,4 @@
-# Folge 250 - Spaß mit KI - Agentic Workflows und Self-Verification Hallo, ich bin Eberhard Wolff.
-
-## Einführung und Überblick
+### Einführung und Überblick
 
 Ja, hallo und herzlich willkommen zu Software-Architektur im Stream.
 
@@ -32,7 +30,7 @@ Was hast du da für ein System?
 
 Und deswegen habe ich mir gedacht, ich zeige mal so ein bisschen was heute.
 
-## Agentic Workflows vs. Adjantic Workflows
+### Agentic Workflows vs. Adjantic Workflows
 
 Und wichtig ist dabei, momentan geht durch Social Media viel der Hype um Agenten und Adjantic Workflow.
 
@@ -52,7 +50,7 @@ Also wir kennen das ja, wenn wir mit Chatty und Co Mistral, Claude quatschen, da
 
 Weil lange Zeit konnten die Tools gar nicht mehr als eine Antwort geben.
 
-## Function Calling in KI-Systemen
+### Function Calling in KI-Systemen
 
 Und mittlerweile haben sie das sogenannte Function Call, also fast jedes Tool hat Function Calling implementiert.
 
@@ -596,7 +594,7 @@ Und das zusammen, sie erzeugt Code, der ist dann deterministisch.
 
 Das ist eigentlich prima.
 
-## Code-Generierung und Testing
+### Code-Generierung und Testing
 
 So, er hat wieder einen Folder angelegt.
 
@@ -982,7 +980,7 @@ Aber was wir eben auch sehen, ist, dass der Feedback-Loop für die Maschine wich
 
 Ich glaube, wir hatten jetzt hier wieder, dass er ein Diagramm generiert und hier hat es geklappt.
 
-## Feedback Loops in KI-Systemen
+### Feedback Loops in KI-Systemen
 
 Aber dieser Feedback-Loop, dass die Maschine erkennt, ob sie etwas richtig gemacht hat oder falsch und sich eben nochmal korrigieren kann, ist ganz wichtig.
 
@@ -1092,7 +1090,7 @@ Du musst uns gleich allen noch einen Gefallen tun mit Claude, aber erzähl das w
 
 Okay.
 
-## Model-Kontext-Protokoll
+### Model-Kontext-Protokoll
 
 Das ist von Entropiq, den Machern hinter Claude.
 
