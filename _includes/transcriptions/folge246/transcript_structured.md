@@ -1,14 +1,15 @@
-# Folge 246 - GenAI und Software-Architektur mit Christian Weyer
 
 Ja, herzlich willkommen zu einer weiteren Folge von Software-Architektur im Stream.
 Diesmal bin ich Host und Moderator.
 Mein Name ist Ralf Müller und heute habe ich als Gast Christian Bayer hier.
-## Einführung in das Thema Gen AI
+
+### Einführung in das Thema Gen AI
 
 Wir werden wieder mit dem Thema Gen-AI ins neue Jahr starten, denn Gen-AI ist so ein Thema, das ist gekommen, um zu bleiben.
 Wir sind, glaube ich, alle noch in so einem Modus, in dem viel ausprobiert wird.
 Viel geht schon, aber ich glaube, da ist noch ganz viel Luft nach oben.
-## Über den Gast Christian Weyer
+
+### Über den Gast Christian Weyer
 
 Christian ist einer von denen, die schon ganz viel ausprobiert haben.
 Deswegen bin ich ganz froh, dass wir Christian jetzt hier in einem Talk haben.
@@ -17,9 +18,11 @@ Hallo Ralf, erst einmal vielen, vielen Dank für die Einladung.
 Vor allem so früh im Jahr, du hast es ganz richtig gesagt, das Thema ist gekommen, um zu bleiben.
 Eines der großen Themen aktuell und tatsächlich eines der Themen, die mich auch wieder ein bisschen toucht.
 Ich habe jetzt fast zehn Jahre nach dem Thema gesucht, was wieder das Potenzial hat, ganz neue Sachen zu ermöglichen und Dinge zu verändern.
-## Die Bedeutung von Language Models
+
+### Die Bedeutung von Language Models
 
 Und das ganze Themenkonglomerat Language Models und Generative AI ist jetzt tatsächlich auch das, was ich Full-Time mache.
+
 ### Christian's beruflicher Werdegang
 
 Eigentlich seit Sommer 22 eigentlich, Entschuldigung, seit Sommer 23, mache ich das Ganze komplett als Research und Development Vollzeit.
@@ -28,6 +31,7 @@ Weil unsere Kunden sind ja immer Softwareentwickler, bei den Kunden entweder in 
 Das heißt also, ich persönlich lebe eigentlich von früh bis Nacht komplett Heads Down in diesem ganzen Thema Language Models und Co.
 Sehr cool, das kann ich auch gut verstehen.
 Also mir geht es ja genauso.
+
 ### Die Evolution der Benutzeroberflächen
 
 Das Thema ist so spannend und ich habe immer wieder die Wow-Effekte.
@@ -35,6 +39,7 @@ Im Dezember habe ich deinen Vortrag auf einer Konferenz gesehen, wo du verschied
 Beziehungsweise, du hattest mich ja jetzt schon im Vorfeld mal korrigiert, wir haben Language Models, nicht unbedingt nur Large Language Models.
 Willst du da gerade mal kurz was zu sagen?
 Ja, sehr gerne.
+
 ### Was sind Large Language Models?
 
 Wir kennen natürlich alle den Begriff LLM, also Large Language Model.
@@ -49,6 +54,7 @@ Es gibt aber seit eineinhalb Jahren eigentlich in der Open Source Welt so eine B
 Nicht jeder will immer im Leben jemanden haben an seiner Seite, der allwissend ist, sondern vielleicht jemand, der spezielles Wissen hat oder mehrere mit speziellem Wissen und spezieller Abstimmung, sowohl der Daten, die dafür verwendet wurden, als auch der Möglichkeiten, die man damit hat.
 Und deswegen gibt es jetzt immer kleinere Language Models, die man dann eben Small Language Models nennt.
 Und die sind durchaus auch dafür geeignet, je nach Ausprägung, je nach Use Case, je nach Infrastruktur, dass man die eben auch selber hostet, private hostet oder vielleicht irgendwo in einem befreundeten, partnerschaftlichen Rechenzentrum und nicht in der großen Public Cloud bei einem großen SaaS-Anbieter oder PaaS-Anbieter.
+
 ### Vorurteile gegenüber Language Models
 
 Wenn ich das richtig gesehen habe, dann gehen ja auch die Anbieter von den Large Language Models dazu über, dass sie ein Mixture of Experts im Kern haben.
@@ -106,13 +112,16 @@ Und wenn wir von denen abweichen, dann kriegen wir in der Benutzung ein Problem.
 Genau das.
 Und jetzt lass uns mal noch einen Schritt weitergehen.
 Was ist das Schwierigste für uns als Softwarearchitekten?
-## Ursachen der Schwierigkeiten
+
+### Ursachen der Schwierigkeiten
 
 Also eines der schwierigen Aufgaben ist, Software weiterzuentwickeln, sie stabil zu halten, sie modern zu halten, sie feature-up-to-date zu halten.
+
 ### Die Anforderung an Entwickler
 
 Das heißt also auch da wieder von der End-User-Seite kommend, es werden wieder neue Dialoge gebraucht, neue Massen gebraucht, neue Formulare gebraucht.
 Das muss wieder irgendwo hingeschickt werden, das muss ausdruckbar sein und so weiter und so fort.
+
 ### Herausforderungen und Möglichkeiten
 
 Das heißt also, es ist ja nicht so, dass wir eine Software jetzt irgendwie auf der grünen Wiese bauen.
@@ -147,7 +156,8 @@ Das Dynamische, wenn eine Anwendung etwas nicht weiß oder nicht technisch umges
 Das sind ja dann schon fast Implementierungsdetails.
 Aber diese Schnittstelle von der User Experience her gesehen, dass wir jetzt von der User Experience her die Möglichkeit haben, mit der menschlichen Sprache, Language Models, jetzt mit einem Artefakt in unserer Architektur arbeiten können, das wirklich uns dabei hilft, Sprache zu verstehen.
 Und das ist für mich jetzt ein wichtiger Punkt.
-## Sprachverständnis und Intelligenz
+
+### Sprachverständnis und Intelligenz
 
 Language Models sind für mich kein Wikipedia Snapshot.
 Language Models sind für mich keine Wissensdatenbank oder irgendeine eingefrorene Google Suche.
@@ -224,7 +234,8 @@ Es darf dies und jenes.
 Und ich merke, wie es kreativ wird.
 Warte mal ganz kurz.
 Stopp.
-## Risiken und Herausforderungen von AI
+
+### Risiken und Herausforderungen von AI
 
 Das macht dich das Modell.
 Das machst du.
@@ -297,11 +308,13 @@ Das ist dein Code, das ist quasi dein AI-Agent-Code, der sich halt wiederum eine
 So, um jetzt nach 25 Minuten zurückzukommen auf deine initiale Frage.
 Alle nachfolgenden Sendungen werden sich um 20 Minuten verzögert.
 Ich finde es super, vor allem da kommen neue Ideen und neue Gedanken hoch.
+
 ### Die Rolle des Embedding Models
 
 Eines der Patterns, das ich vorgestellt habe, nennt sich Semantic Routing oder auch Semantic Guarding.
 Du hast ja gerade schon Guardrails auch mal ganz kurz erwähnt.
 Was ist das?
+
 ### Semantic Routing Explained
 
 Wir sprechen nämlich nicht nur von Language Models.
@@ -460,7 +473,9 @@ Du hast jetzt auch vorhin vom Marketing gesprochen und da würde ich ganz gern n
 Wie denkst du über Agenten?
 Wiederum, wir haben doch keine Zeit.
 Ich komme auch gern nochmal.
-Also, ### Der Entwicklungsprozess von Agenten
+
+
+### Der Entwicklungsprozess von Agenten
 
 Agenten ist wahrscheinlich das neue Bullshit-Bingo-Thema.
 Ich versuche das Pferd mal von hinten aufzuzwangen.
@@ -518,7 +533,8 @@ Dieser Communicator macht Sinn.
 Es gab auch schon ein paar Produkte auf dem Markt, die es versucht haben, die aber wahrscheinlich ihrer Zeit voraus waren und es deswegen nicht geschafft haben.
 So haben wir immer wieder diese Phasen, dass manche Ideen der Zeit voraus sind.
 Aber wir müssen es weiter verstehen lernen und damit umgehen.
-## Schlussfolgerungen und Ausblick
+
+### Schlussfolgerungen und Ausblick
 
 Jeden Tag aufs Neue.
 Jeden Tag aufs Neue.
