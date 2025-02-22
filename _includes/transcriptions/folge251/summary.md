@@ -1,5 +1,5 @@
 
-KEYTAKEAWAYS:
+## Key Takeaways
 
 1. Der Begriff "Künstliche Intelligenz" wurde 1955 von John McCarthy als Marketingbegriff geprägt und ist irreführend, da es sich um Algorithmen und nicht um echte Intelligenz handelt.
 
@@ -11,7 +11,7 @@ KEYTAKEAWAYS:
 
 5. Die Nutzung von KI-Tools kann zu einer Abnahme der eigenen Problemlösungsfähigkeiten führen.
 
-WICHTIGE FRAGEN DER FOLGE:
+## Wichtige Fragen der Folge
 
 - Wie funktionieren LLMs technisch?
 - Welche Risiken birgt die Vermenschlichung von KI-Systemen? 
@@ -19,7 +19,7 @@ WICHTIGE FRAGEN DER FOLGE:
 - Können KI-Systeme Junior-Entwickler ersetzen?
 - Wie kann man KI-Systeme sinnvoll und kritisch einsetzen?
 
-GLOSSAR:
+## Glossar
 
 - LLM: Large Language Model - Großes Sprachmodell
 - Eliza-Effekt: Tendenz von Menschen, Computer zu vermenschlichen

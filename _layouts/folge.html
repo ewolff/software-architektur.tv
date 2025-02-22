@@ -24,9 +24,8 @@
 	<li><a href="#sketchnotes">Sketchnotes</a></li>
 {% endif %}
 {% if site.data.summaries contains episode_id %}
-	<li><a href="#zusammenfassung">Zusammenfassung</a></li>
-	<li><a href="#key-takeaways">Key Takeaways</a></li>
-	<li><a href="#wichtige-fragen">Wichtige Fragen</a></li>
+	<li><a href="#keytakeaways">Key Takeaways</a></li>
+	<li><a href="#wichtige-fragen-der-folge">Wichtige Fragen</a></li>
 	<li><a href="#glossar">Glossar</a></li>
 	<li><a href="#transcription">Transkription</a></li>
 {% endif %}
@@ -98,6 +97,7 @@ src="{{ page.embedded-mp3 }}"></iframe>
 {% endif %}
 
 {% if site.data.summaries contains episode_id %}
+
 <p style="font-size: small;"><b>Hinweis:</b> Die nachfolgenden Texte wurden mit KI erstellt und können somit Fehler enthalten.</p>
 
 {% capture blogpost %}{% include transcriptions/{{ episode_id }}/blog_post.md %}{% endcapture %}
@@ -106,6 +106,7 @@ src="{{ page.embedded-mp3 }}"></iframe>
 {% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
   {{ summary | markdownify }}
 <h2 id="transcription" >Vollständige Transkription</h2>
+
 <p style="font-size: small;"><b>Hinweis:</b> Dieses Transkript wurde mit KI erstellt und kann somit Fehler enthalten.</p>
   {% capture transcription %}{% include transcriptions/{{ episode_id }}/transcript_structured.md %}{% endcapture %}
   {{ transcription | markdownify }}
