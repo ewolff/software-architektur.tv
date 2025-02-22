@@ -1,8 +1,6 @@
-# Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel Hallo, ich bin Eberhard Wolff.
-
 So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream.
 
-## Einleitung und Vorstellung
+### Einleitung und Vorstellung
 
 Heute geht es um das Thema, warum Legacy Transformation mehr braucht als Techniker mit Tanja.
 
@@ -86,7 +84,7 @@ Was ist denn über Produktmanagement und warum ist das relevant?
 
 Also gerade insbesondere bei Legacy-Ablösungen ist es halt dahingehend wichtig, dass Produktmanagement nochmal über das Technische hinausgeht.
 
-## Rolle des Produktmanagements
+### Rolle des Produktmanagements
 
 Also als Produktmanagerin kümmere ich mich um die ganzheitliche Steuerung von einem Produkt.
 
@@ -168,7 +166,7 @@ Ich kann dann sagen, der Code ist halt anschließend wartbar, der war vorher nic
 
 Warum muss ich jetzt gerade bei einer Legacy-Migration Produktmanagement haben?
 
-## Legacy Transformation und Business Value
+### Legacy Transformation und Business Value
 
 Also das, was du gerade schildert, das passiert ja auch in Unternehmen.
 
@@ -530,7 +528,7 @@ Es gibt natürlich halt dann auch immer noch so Randerscheinungen.
 
 Es ist ja nicht immer so, dass man sagt, man kommt mit einem Business-Value und das führt dann zu einer Transformation.
 
-## Systemkonsolidierung
+### Systemkonsolidierung
 
 Manchmal ist es ja auch von außen gesteuert.
 
@@ -792,7 +790,7 @@ Aber am Ende sind es eben genau diese Menschen- oder Produktprobleme, die halt i
 
 Und deswegen ist es ja so gut, dass wir eben tatsächlich bei uns beide Dinge, glaube ich, sehr gut abdecken können.
 
-## Menschlicher Faktor
+### Menschlicher Faktor
 
 Dieser menschliche Faktor ist halt auch ein ganz, ganz wesentlicher.
 
