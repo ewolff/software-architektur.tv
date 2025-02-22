@@ -2,9 +2,9 @@ So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur 
 
 Bevor wir loslegen, so ein paar Hinweise.
 
-Einmal ist es so, wir haben am Montag tatsächlich einen Stream, so ein bisschen außerhalb der Rolle, der Reihe, mit dem Buddy.
+Einmal ist es so, wir haben am Montag tatsächlich einen Stream, so ein bisschen außerhalb der Rolle, der Reihe, mit dem Woody.
 
-Der hat zum einen das Thema Mob-Programming oder Oxfam-Programming so ein bisschen aus der Taufe gegoben.
+Der hat zum einen das Thema Mob-Programming oder Ensemble-Programming so ein bisschen aus der Taufe gegoben.
 
 Wir sprechen über ein anderes Thema, und zwar über das Thema Beyond Estimates bzw.
 
@@ -16,21 +16,21 @@ Das ist ein Agile-Meets-Architecture-Special.
 
 Das ist eine Konferenz, wo es um das Thema Agilität und Architektur geht.
 
-Buddy wird da einen Talk halten, und das ist so ein bisschen eine Vorbereitung.
+Woody wird da einen Talk halten, und das ist so ein bisschen eine Vorbereitung.
 
 Dann können wir zum aktuellen Thema übergehen.
 
-Heute geht es um das Thema KIO und LLMs kritisch betrachten mit Lukas.
+Heute geht es um das Thema KI und LLMs kritisch betrachten mit Lucas.
 
 Schön, dass du da bist.
 
-Lukas, möchtest du kurz zwei Worte über dich sagen?
+Lucas, möchtest du kurz zwei Worte über dich sagen?
 
 Ja, hallo Eberhard.
 
 Gerne.
 
-Ich bin der Lukas.
+Ich bin der Lucas.
 
 Ein paar Leute, die den Stream schon länger verfolgen, haben mich vielleicht auch schon mal hier gesehen.
 
@@ -42,7 +42,7 @@ Das hat mit dem Thema heute überhaupt gar nichts zu tun, aber das ist das, was 
 
 Vielleicht ein bisschen zur Einordnung.
 
-Du, Lukas, hattest ja schon bei dem Freelancer-Podcast eine Episode gemacht zu diesem Thema, was wir heute haben, und außerdem bei dem Boardgame-Theory-Podcast, der, glaube ich, tatsächlich über Boardgames sonst spricht, oder?
+Du, Lucas, hattest ja schon bei dem Freelancer-Podcast eine Episode gemacht zu diesem Thema, was wir heute haben, und außerdem bei dem Boardgame-Theory-Podcast, der, glaube ich, tatsächlich über Boardgames sonst spricht, oder?
 
 Genau.
 
@@ -52,11 +52,11 @@ Und das ist also sozusagen so ein bisschen eine Fortsetzung dieser Reihe.
 
 Ich verlinke die beiden Episoden auch.
 
-Aber Lukas ist, wie gesagt, jemand, der schon länger dabei ist, und wir haben ja auch wieder eine stärkere Beziehung.
+Aber Lucas ist, wie gesagt, jemand, der schon länger dabei ist, und wir haben ja auch wieder eine stärkere Beziehung.
 
 Und vielleicht kurz zur Gesamteinordnung.
 
-Also, wir haben bei Software-Authentikator im Stream im Moment informell so ein bisschen so einen AI-Fokus.
+Also, wir haben bei Software-Architektur im Stream im Moment informell so ein bisschen so einen AI-Fokus.
 
 Und das hängt irgendwie offensichtlich mit dem Hype zusammen, aber das hängt irgendwie auch damit zusammen, dass eben Ralf dazu gestoßen ist, bei dem das halt irgendwie ein Schwerpunktthema ist, und ich glaube auch, dass es tatsächlich ein total spannendes Thema insgesamt ist.
 
@@ -86,7 +86,7 @@ Und das ist so ein bisschen die Einordnung.
 
 Genau.
 
-Und die Initiative ging tatsächlich bis zu einem gewissen Maß von dir, Lukas, aus.
+Und die Initiative ging tatsächlich bis zu einem gewissen Maß von dir, Lucas, aus.
 
 Also vielen Dank dafür.
 
@@ -132,7 +132,7 @@ Und das klang einfach super.
 
 Und dieser Begriff hat sich immer hin und her befruchtet, auch mit dem Science-Fiction-Bereich.
 
-Auch im Science-Fiction-Bereich denken wir auch an so Sachen wie Isaak Asimov, wo es einfach darum ging, diese große Frage, die uns alle auch irgendwie beschäftigt, so was ist eigentlich Bewusstsein?
+Auch im Science-Fiction-Bereich denken wir auch an so Sachen wie Isaac Asimov, wo es einfach darum ging, diese große Frage, die uns alle auch irgendwie beschäftigt, so was ist eigentlich Bewusstsein?
 
 Was ist eigentlich der Mensch?
 
@@ -222,7 +222,7 @@ Wer das Ding lernt, und eben künstliche Intelligenz, das zieht sich halt durch.
 
 Und das führt zu dieser Personifizierung.
 
-Was ich halt auch bei mir immer feststelle, dass man von Chachupiti als er oder von Claude als sie redet.
+Was ich halt auch bei mir immer feststelle, dass man von ChatGPT als er oder von Claude als sie redet.
 
 Dabei ist das halt ganz klar ein Es.
 
@@ -268,7 +268,7 @@ Eliza ist tatsächlich so, dass ich in den 80ern meiner Ansicht nach ein Basic-L
 
 Das sind 30-Zeilen-Code oder sowas.
 
-In IMAX ist das immer noch drin, mit dem Meta-Extraktor.
+In Emacs ist das immer noch drin, mit dem Meta-Extraktor.
 
 Das ist so ein Ding, wo man sagt, mir geht es heute nicht gut.
 
@@ -308,13 +308,13 @@ Wo er, glaube ich, ein bisschen umgewendet ist.
 
 Um den Punkt noch zu Ende zu bringen, einmal habe ich diese Geschichte mitgenommen, dass AI und KI diese starke Verführung hat.
 
-Und das sehe ich auch sehr stark in dem, was jetzt gerade passiert mit Chachipiti.
+Und das sehe ich auch sehr stark in dem, was jetzt gerade passiert mit ChatGPT.
 
 Das ist dasselbe Ding.
 
 Nur eben noch mal in krasser.
 
-Wir reden halt nicht über Elisa.
+Wir reden halt nicht über Eliza.
 
 Und die Sache, die ich meiner Ansicht nach aus dem Buch mitgenommen habe, ich habe das jetzt ehrlich gesagt nicht noch mal gelesen.
 
@@ -340,7 +340,7 @@ Was das bedeutet, ist, dass ich etwas Identisches habe, was mir genauso fällt w
 
 Aber ich habe dadurch nicht verstanden.
 
-Auf diesem Laptop ist jetzt die E-Mail, mit der ich Lukas gesagt habe, hey, wollen wir nicht eine Episode machen?
+Auf diesem Laptop ist jetzt die E-Mail, mit der ich Lucas gesagt habe, hey, wollen wir nicht eine Episode machen?
 
 Oder vielleicht ein Chatbeitrag?
 
@@ -368,7 +368,7 @@ Aber was das auf jeden Fall bedeutet, ist, dass man vorsichtig sein muss mit dem
 
 Ja, absolut.
 
-Fühlte, wir müssen mal durch den Chat durchgehen.
+Befürchte, wir müssen mal durch den Chat durchgehen.
 
 Ja, da passieren Dinge.
 
@@ -418,15 +418,15 @@ Und das ist halt irgendwie das Problem.
 
 Und das ist auch ein fundamentales Problem, weil eben der Verwaltungsmoment hat sich eingestellt und hat gesagt, das kann nicht sein.
 
-Wir müssen halt irgendwie, den Leuten muss klar sein, dass ELISA eben keine Intelligenz, keine Emotionen, kein Nichts hat.
+Wir müssen halt irgendwie, den Leuten muss klar sein, dass ELIZA eben keine Intelligenz, keine Emotionen, kein Nichts hat.
 
-Und das, was wir gerade bei Chatty erleben und bei den aktuellen LLMs ist das Gegenteil.
+Und das, was wir gerade bei ChatGPT erleben und bei den aktuellen LLMs ist das Gegenteil.
 
 Also die beantworten absichtlich so, dass man halt das Gefühl hat, dass sie besonders intelligent sind.
 
 Und das ist eigentlich ein Teil des Problems.
 
-Genau, und es gab auch so eine sehr interessante Untersuchung, es gab ja, ich weiß nicht mehr genau, wann das war, letztes Jahr im Sommer, wurde ja eingeführt, dass Chatty jemanden, den man sich mit unterhalten kann und der halt auch in der Sprache antwortet.
+Genau, und es gab auch so eine sehr interessante Untersuchung, es gab ja, ich weiß nicht mehr genau, wann das war, letztes Jahr im Sommer, wurde ja eingeführt, dass ChatGPT jemanden, den man sich mit unterhalten kann und der halt auch in der Sprache antwortet.
 
 Und da war es total interessant, dass beispielsweise diese Stimmeninterface auch gekichert hat oder so Atempausen gemacht hat.
 
@@ -440,7 +440,7 @@ Und all das sorgt dafür, dass man es halt vermenschlicht und als Mensch wahrneh
 
 Lass uns mal kurz durchgehen.
 
-Also wir sind super schlecht, bei Namen steht hier Maschine lässt sein, es kann lernen, AI ist keine Neuronalnetze, keine Neuronen, keine Sprachmodelle.
+Also wir sind super schlecht, bei Namen steht hier Maschine Learning, es kann lernen, AI ist keine Neuronalnetze, keine Neuronen, keine Sprachmodelle.
 
 Würde ich glaube ich im Wesentlichen zupflichten.
 
@@ -448,7 +448,7 @@ Vielleicht ein Satz zu dem Thema mit den Neuronalnetzen.
 
 Also tatsächlich funktionieren die im Wesentlichen glaube ich so wie halt Nerven, nur dass eben das Problem ist, dass wir halt ein Gehirn, also ich habe die Zahl nicht rausgesucht, müsste ich eigentlich nochmal machen, dass eben ein Gehirn aufgrund einfach der Größe nicht auf der Ebene simuliert wird aktuell.
 
-Dann steht Eugen hat geschrieben, Photorologen müssen Dinge voraussagen, die nicht öffentlich lächerlich sind, sonst werden sie nicht wahrgenommen.
+Dann steht Eugen hat geschrieben, Futurologen müssen Dinge voraussagen, die nicht öffentlich lächerlich sind, sonst werden sie nicht wahrgenommen.
 
 Wenn sie recht haben, ja weiß ich nicht.
 
@@ -478,11 +478,11 @@ Wie soll ich sagen, also die gesamten Daten liegen bei wem auch immer diese Mode
 
 Und das ist übrigens auch eines der Probleme, dass eben diese Modelle inhärent an der Monopolisierung darstellen.
 
-Weil nicht, also wenn Lukas und ich uns zusammentun und wir sagen, wir machen jetzt einen OpenAI-Wettbewerber auf, dann brauchen wir halt irgendwie viel Geld, um Modell zu trainieren.
+Weil nicht, also wenn Lucas und ich uns zusammentun und wir sagen, wir machen jetzt einen OpenAI-Wettbewerber auf, dann brauchen wir halt irgendwie viel Geld, um Modell zu trainieren.
 
 Und zwar wirklich viel Geld.
 
-Also ich weiß nicht, ob du es weißt, Lukas, aber hunderte Millionen oder sowas.
+Also ich weiß nicht, ob du es weißt, Lucas, aber hunderte Millionen oder sowas.
 
 Sehr viel Geld, ja.
 
@@ -498,7 +498,7 @@ Und natürlich ist es so, dass halt alles, was wir mit denen besprechen, bei den
 
 Und ich kenne jetzt die AGBs nicht, aber tendenziell sind die AGBs irgendwie so, dass die halt sagen, und das dürfen wir mindestens halt für das weitere Training nutzen.
 
-Es ist ja mittlerweile auch, glaube ich, öffentlich bekannt, dass Facebook für das Training der eigenen Modellzeit Raubkopien von Büchern halt genutzt hat.
+Es ist ja mittlerweile auch, glaube ich, öffentlich bekannt, dass Facebook für das Training des eigenen Modells Raubkopien von Büchern halt genutzt hat.
 
 Also die runtergeladen worden sind.
 
@@ -512,7 +512,7 @@ Aber bei Facebook ist es jetzt halt gerade nochmal aufgefallen, weil sie halt da
 
 Genau, dann gibt es halt irgendwie eine Diskussion hier rund um das Thema mit dem Emotional.
 
-Also Janice von Kitchen hat geschrieben, eine freundliche Antwort würde ich nicht als emotional bezeichnen, sondern ein Feature des Interfaces.
+Also TheInnocentKitten hat geschrieben, eine freundliche Antwort würde ich nicht als emotional bezeichnen, sondern ein Feature des Interfaces.
 
 Mein Problem ist, also ich bin ja Berater.
 
@@ -630,7 +630,7 @@ Dann geht es halt um eine lokale AI.
 
 Das ist übrigens auch einer, glaube ich, von den Punkten.
 
-Und Lukas hat das halt in dem anderen Podcast immer auch den Punkt gemacht, dass halt kleinere Modelle, spezialisierte Modelle vielleicht besser sind, die dann vielleicht auch eben eher lokal laufen.
+Und Lucas hat das halt in dem anderen Podcast immer auch den Punkt gemacht, dass halt kleinere Modelle, spezialisierte Modelle vielleicht besser sind, die dann vielleicht auch eben eher lokal laufen.
 
 Also das würde, glaube ich, dazu vielleicht auch noch passen.
 
@@ -648,7 +648,7 @@ Das ergibt, glaube ich, keinen Sinn, weil das zum einen besser funktioniert, wen
 
 Und weil wir halt noch ein paar andere Themen besprechen wollen.
 
-Ich kann da an der Stelle das Buch von Steve Wolfram empfehlen, der das sehr, sehr gut erklärt, wie ChatGPT im Speziellen, aber als quasi Muster für auch die anderen LLMs funktioniert.
+Ich kann da an der Stelle das Buch von Stephen Wolfram empfehlen, der das sehr, sehr gut erklärt, wie ChatGPT im Speziellen, aber als quasi Muster für auch die anderen LLMs funktioniert.
 
 Wer sich da einarbeiten will, ist auch jetzt kein Riesenbuch.
 
@@ -684,7 +684,7 @@ Und dadurch kann es eben sehr schlüssige Texte generieren, die einfach auch nat
 
 Was ja auch einfach nachvollziehbar ist.
 
-Und aus meiner Sicht der Riesenerfolg, den Open AI hatte und der große Trick, auf den vorher keiner so gekommen ist, war, dass sie es geschafft haben, dass durch Reinforcement Learning haben sie das Modell so trainiert, dass es so wirkt, als würde man Fragen und Antworten spielen.
+Und aus meiner Sicht der Riesenerfolg, den OpenAI hatte und der große Trick, auf den vorher keiner so gekommen ist, war, dass sie es geschafft haben, dass durch Reinforcement Learning haben sie das Modell so trainiert, dass es so wirkt, als würde man Fragen und Antworten spielen.
 
 Also als wäre es ein Chat und nicht einfach nur eine Textgenerierung.
 
@@ -776,7 +776,7 @@ Es gab ja irgendwie diesen Chatbot von Microsoft, den sie, glaube ich, auf Twitt
 
 Und der dann irgendwie, das war noch vor Elon, eben als glühender Faschist da irgendwie rausgekommen ist.
 
-Und das hat irgendwie dazu geführt, dass ich bei Chachivity versucht habe, herauszufinden, wie der halt mit solchen Sachen umgeht.
+Und das hat irgendwie dazu geführt, dass ich bei ChatGPT versucht habe, herauszufinden, wie der halt mit solchen Sachen umgeht.
 
 Also antisemitische Äußerungen, ob man ihn halt dazu produzieren kann, sowas halt irgendwie zu produzieren.
 
@@ -822,7 +822,7 @@ Also ist es immer am imposantesten, wenn es dann auf einmal das kann, was wir se
 
 Aber eigentlich ist es nicht erstaunlich, dass es so einfach einen funktionierenden Code generieren kann.
 
-Also wenn wir jetzt an solche Systeme wie Copilot denken, aber auch an JGPT, der Code generiert, ist es natürlich für eine Firma viel einfacher zu verifizieren, dass das ein kompilierfähiger Code ist, als zu gucken, ist das gültiges Deutsch oder gültiges Englisch, was da produziert wird.
+Also wenn wir jetzt an solche Systeme wie Copilot denken, aber auch an ChatGPT, der Code generiert, ist es natürlich für eine Firma viel einfacher zu verifizieren, dass das ein kompilierfähiger Code ist, als zu gucken, ist das gültiges Deutsch oder gültiges Englisch, was da produziert wird.
 
 Weil das automatisiert möglich ist.
 
@@ -836,7 +836,7 @@ Das heißt also, so richtig überzeugend ist das nicht, weil es kann halt vor al
 
 Und ich weiß, dass wenn man dort eben Greenfield Dinge generieren lässt, funktioniert das halt sehr oft sehr gut, weil wir haben ein riesiges Trainingset.
 
-Das Trainingset ist so was wie Gitter.com, auf dem einfach unendlich viel Code ist und auf dem ist NPM.com, wo vielleicht sogar noch mehr Code ist.
+Das Trainingset ist so was wie GitHub.com, auf dem einfach unendlich viel Code ist und auf dem ist NPM.com, wo vielleicht sogar noch mehr Code ist.
 
 Und wenn wir halt Dinge generieren lassen, die schon jemand brauchte, dann funktionieren die natürlich, weil das ist eben aus dem Trainingset heraus.
 
@@ -856,7 +856,7 @@ Der eine Punkt, den du, glaube ich, machst, der wichtig ist, ist, die meisten Sy
 
 Und es ist interessanterweise so, also diese Menge an Token, die hat das System halt betrachtet, führen dann halt zu Schwierigkeiten.
 
-Also ich habe, was mir zum Beispiel Ralf gesagt hatte, war, da hat er ja diesen Linter gebaut, automatisiert für SGDoc und da ist es halt offensichtlich so, dass das System, dass zwei Testframeworks genutzt worden sind und zumindest in der ursprünglichen Version.
+Also ich habe, was mir zum Beispiel Ralf gesagt hatte, war, da hat er ja diesen Linter gebaut, automatisiert für AsciiDoc und da ist es halt offensichtlich so, dass das System, dass zwei Testframeworks genutzt worden sind und zumindest in der ursprünglichen Version.
 
 Und das ist halt so ein typisches Ding von, okay, wir haben also nicht, ich habe, das System hat eben nicht realisiert, dass es da schon Testframework gibt.
 
@@ -874,7 +874,7 @@ Und da bin ich mir eben nicht so sicher, ob man mit, also nicht zwei Testing Fra
 
 Und da ist eben genau diese Geschichte.
 
-Es werden halt Episoden gemacht zum Thema, wo wir halt Chichipiti die erste KUWI-Beispielaufgabe vorgelegt haben.
+Es werden halt Episoden gemacht zum Thema, wo wir halt ChatGPT die iSAQB-Beispielaufgabe vorgelegt haben.
 
 Und für den Linter hatte eben Ralf auch noch mal sowas gemacht und hat gesagt, okay, ich baue da halt irgendwie eine Architekturdokumentation.
 
@@ -1006,7 +1006,7 @@ Also verschiedene Sachen dazu.
 
 Ich hatte eben tatsächlich in diesem Artikel, den ich damals für Heise geschrieben habe und das ist schon länger her, so eine Untersuchung zitiert, wo es halt um, wir haben Menschen die Aufgabe gegeben, irgendwas zu schreiben im Sinne von Verschlüssel, halt eine Datei.
 
-Wir haben herausgefunden, dass die Menschen, die das mit Co-Pilot und so gemacht haben, ich glaube, da vorne hat die Werkzeuge, also die hat eher so auf Codeebene arbeiten, direkt in der Idee, eben wie du gesagt hast, die schlechteren Lösungen gebaut haben, also die unsichereren und ein höheres Vertrauen in die eigenen Lösungen hatten.
+Wir haben herausgefunden, dass die Menschen, die das mit CoPilot und so gemacht haben, ich glaube, da vorne hat die Werkzeuge, also die hat eher so auf Codeebene arbeiten, direkt in der Idee, eben wie du gesagt hast, die schlechteren Lösungen gebaut haben, also die unsichereren und ein höheres Vertrauen in die eigenen Lösungen hatten.
 
 Was ich dabei spannend fand war, also wie soll ich sagen, wie schwierig kann es sein, eine Datei zu verschlüsseln?
 
@@ -1014,7 +1014,7 @@ Das müsste eigentlich easy sein, aber offensichtlich ist es so, dass es eben ni
 
 Und das ist halt genau der Effekt, den du beschrieben hast.
 
-Und die andere Sache, also das, was wir eben diskutiert haben, auch in der Folge mit Ralf, das war eine relativ ad hoc-Folge, wo es halt darum ging, dass eben dieser Linter für SGDoc generiert worden ist, den hat er eben generieren lassen.
+Und die andere Sache, also das, was wir eben diskutiert haben, auch in der Folge mit Ralf, das war eine relativ ad hoc-Folge, wo es halt darum ging, dass eben dieser Linter für AsciiDoc generiert worden ist, den hat er eben generieren lassen.
 
 Da schwebt halt irgendwie mit, dass man da eine höhere Abstraktionsebene letztendlich hat.
 
@@ -1022,9 +1022,7 @@ Im Prinzip ist halt die Aussage, wir bauen jetzt einen Linter und dann fällt de
 
 Das funktioniert offensichtlich.
 
-Er hatte ja jetzt in der letzten Episode auch z.B.
-
-Merge-Thread gebaut.
+Er hatte ja jetzt in der letzten Episode auch z.B. Merge (?) gebaut.
 
 Das kann ich halt absichern durch Tests.
 
@@ -1230,7 +1228,7 @@ Also Dennis von Ketten hat noch geschrieben, er denke das Stichwort ist Intuitio
 
 Das war, ehrlich gesagt, vor einer Viertelstunde.
 
-LRMs haben keine dahintersteckt, viel was mit LRM und intrinsischer Prüfung auf Korrektheit zu tun hat.
+LLMs haben keine. Dahintersteckt vielleicht was mit LLM und intrinsischer Prüfung auf Korrektheit zu tun hat.
 
 Ja, genau.
 
@@ -1256,7 +1254,7 @@ Nicht, weil am Ende ist das halt irgendwie jemand, der Techniker ist oder irgend
 
 Ist im Grunde die gleiche Diskussion mit der Frage, ob man Schulkindern den Taschenrechner genehmigen soll, bloß auf der nächsten Ebene?
 
-Das glaube ich nicht, weil das ist ja der Punkt, den Lukas auch gerade gemacht hat.
+Das glaube ich nicht, weil das ist ja der Punkt, den Lucas auch gerade gemacht hat.
 
 Das ist irgendwie nicht deterministisch, nicht?
 
@@ -1360,7 +1358,7 @@ Vielen Dank.
 
 Und ich wünsche dann schon mal sozusagen ein schönes Wochenende.
 
-Und wie gesagt, Montagabend ist dann die nächste Episode zu dem Thema No Estimates oder Beyond Estimates mit Udi.
+Und wie gesagt, Montagabend ist dann die nächste Episode zu dem Thema No Estimates oder Beyond Estimates mit Woody.
 
 Vielen Dank.
 
