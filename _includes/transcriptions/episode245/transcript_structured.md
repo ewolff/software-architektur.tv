@@ -1,6 +1,4 @@
-# Folge 245 - KI in der Software-Entwicklung - Über- oder unterhypt?
-
-## Einführung in KI in der Software-Entwicklung
+### Einführung in KI in der Software-Entwicklung
 
 Hallo und herzlich willkommen zu einer neuen Episode von Software-Architektur im Stream.
 Heute seht ihr schon, dass eine ganze Bande an Leuten hier und wir besprechen das Thema KI in der Softwareentwicklung über oder unter Hyped.
@@ -12,10 +10,12 @@ Diesen Post hat er irgendwann ins Englische übersetzt.
 Dann gab es dazu einen LinkedIn-Post und dieser LinkedIn-Post ist mit ganz vielen Kommentaren überhäuft worden.
 Und Eberhard hat dann beschlossen, dass es hier diese Folge geben soll mit eben André, Stefan und Ralf.
 Genau.
-## Vorstellung der Gäste
+
+### Vorstellung der Gäste
 
 Bevor wir so richtig ins Thema anfangen, würde ich sagen, dass ihr beiden André und Stefan euch einmal kurz vorstellt, wer ihr seid, was ihr so macht.
 Stefan, leg doch mal los.
+
 ### Stefan's Einführung
 
 Ja, Stefan.
@@ -27,6 +27,7 @@ Manchmal hauptberuflich, manchmal nebenberuflich.
 War lange Jahre Engineering Manager, war CTO und bin seit ein paar Jahren CTO-Coach, hauptberuflich.
 Sehr gut.
 André, machst du weiter?
+
 ### André's Einführung
 
 Na klar, gerne.
@@ -41,12 +42,14 @@ Und mache das jetzt so die letzten 10, 15 Jahre für verschiedene Unternehmen, v
 Und versuche dann halt eben die Technologien halt auch ins Operative zu kriegen.
 Sehr gut.
 Genau.
+
 ## Thema der Episode
 
 Wir haben schon gesagt, KI in der Softwareentwicklung über- oder unterhyped ist quasi das Grundthema.
 Und ihr alle vier hattet dazu eine These.
 Und um es halbwegs fair zu machen, würde ich einfach mal alphabetisch nach Vornamen vorgehen und euch bitten zu sagen, was eure Grundthese zu diesem Statement über- oder unterhyped von KI ist.
 André, fang doch gerne noch mal an.
+
 ### Andrés These: Underhyped
 
 Ja, also meine These ist quasi underhyped.
@@ -55,13 +58,15 @@ Ich glaube, wir befinden uns mit einer wahnsinnigen Geschwindigkeit in der Entwi
 Und deswegen einfach zu sagen, es ist underhyped, glaube ich, ist quasi für den Moment, max. situativ betrachtet, richtig sein.
 Ist, glaube ich, aber für das, was da kommen mag, glaube ich, falsch.
 Oder zumindestens kann man das in Frage stellen.
+
 ### Herausforderungen der Implementierung
 
 Ich würde eine Sache hinzufügen, es ist underhyped.
 Aus meiner Sicht ist es aber auch kompliziert, es einzuführen.
 Wenn ich ein bisschen aus meiner täglichen Arbeit berichte, dann ist es, wie sagt man so schön, Change ist toll, solange es nicht selbst einen betrifft.
 Und dieser Change, den wir hier vor uns haben, der ist allumfassend.
-## Zusammenarbeit zwischen Mensch und Maschine
+
+### Zusammenarbeit zwischen Mensch und Maschine
 
 Wir reden nicht davon, dass wir jetzt jeden Tag deployen wollen.
 Wir reden nicht von automatisierten Tests, sondern wir reden davon, dass grundlegend die Art und Weise, wie wir Software entwickeln, sich verändert.
@@ -120,7 +125,8 @@ Genau.
 Ich wünsche mir gleich von euch allen das auch nochmal, wenn ihr die These gesagt habt, sagt gerne auch nochmal dabei, ob ihr schon KI in eurer täglichen Arbeit nutzt.
 Ich glaube, das ist auch nochmal spannend für die Einschätzung eurer Thesen.
 Eberhard ist der Nächste im Alphabet.
-## Eberhards Sichtweise: Overhyped
+
+### Eberhards Sichtweise: Overhyped
 
 Ja, genau.
 Vielen Dank.
@@ -191,7 +197,8 @@ Danke, Eberhard.
 Dann Alphabet.
 Ralf, glaube ich, PQRS.
 Genau.
-## Ralphs Perspektive: Grenzenlosigkeit von KI
+
+### Ralphs Perspektive: Grenzenlosigkeit von KI
 
 Also wenn ich bei der Technologie irgendwie schon Grenzen sehen würde, dann würde ich sagen Overhyped.
 Aber mein Standpunkt ist Underhyped, weil ich sehe halt momentan keine Grenzen.
@@ -208,6 +215,7 @@ In Zukunft werden wir aus meiner Sicht natürlich sprachlich unsere Requirements
 Das Ganze geht in Richtung Low-Code, No-Code und das führt wahrscheinlich anfangs nur wieder zu weiteren Problemen, weil wenn wir mit diesem Low-Code, No-Code Ansatz an die Softwareentwicklung rangehen, dann werden wir auf komplexere Probleme stoßen, die wir dann mit dem Low-Code Wissen nicht umsetzen können, sondern wo wir dann eben wieder entsprechende Experten brauchen.
 Und das heißt, dieses Expertentum wird auch noch länger bestehen bleiben.
 Davon werden dann einige extrem profitieren, andere weniger.
+
 ### Monokulturen in der Technologie
 
 Was mich noch beschäftigt ist, dass wir weltweit momentan nur ein paar wenige LLMs haben, die dominieren.
@@ -234,7 +242,8 @@ Sehr cool.
 Danke, Ralf.
 Und dann darfst du noch den grünen Abschluss mit deinen Thesen machen, Stefan.
 Ja, immer, immer am Ende wie in der Schule.
-## Stefans Beitrag: Generation von Tests
+
+### Stefans Beitrag: Generation von Tests
 
 Bei mir ist aber egal, ob man das mit Vor- oder Nachnamen macht.
 Okay, meine Thesen.
@@ -249,6 +258,7 @@ Ich hatte zwei vorige Momente.
 Das erste Mal im Moment eben vor 40 Jahren, wo ich zum ersten Mal programmiert habe, was eingetippt habe und da kam am Bildschirm irgendwas Buntes.
 Das war auch ein magischer Moment.
 Und ein magischer Moment war auch Anfang der 90er, als das Internet kam und ich die ersten IRC Bots programmiert habe, die dann im Chat irgendwelche Sachen gemacht haben und Leute in Amerika darauf geantwortet haben.
+
 ### Wichtige Fragen der Entwicklung
 
 Also ich sehe das in ähnlicher Art und Weise.
@@ -566,6 +576,7 @@ Was aber by the way bedeutet, und das ist auch etwas, was mir auffällt, dass di
 Das, was du jetzt zum Beispiel als Beispiel gesagt hast, ist, hat eine alte Library benutzt, suboptimale Idee, muss ich halt irgendwie korrigieren.
 Das heißt, ich muss nicht das Problem lösen, sondern ich muss erkennen, dass das Problem nicht vernünftig gelöst ist und es noch besser lösen.
 Und das ist halt anspruchsvoll, wobei man auch natürlich argumentieren kann, aber es funktioniert ja und dann ist ja gut.
+
 ### Zukünftige Anforderungen
 
 Und vielleicht ist das auch ein Teil der Komponente.
@@ -608,6 +619,7 @@ Wenn das passiert, dann erwarte ich Folgendes.
 Und dadurch wurde es wieder lesbarer.
 Also ich meine, das ist dann eben jetzt auch so eine Entwicklung, dass ich der Maschine Verhalten beibringe, dass ich ihr sage, wie ich Software entwickeln möchte.
 Und das landet dann im System prompt und das nächste Mal macht sie es dann eben genauso, wie ich das brauche.
+
 ### Vertrauen in Maschinen
 
 Das spricht so ein bisschen für die These, dass man quasi prompt Engineering auf jeden Fall besser werden soll.
@@ -672,7 +684,8 @@ Ich hoffe, Montag sind nicht so viele Menschen im Büro.
 Vielleicht lieber nächstes Jahr.
 Am ersten Montag an dem Leute wieder überhaupt im Büro.
 Ich weiß ja nicht, ob jemand ins Büro geht oder so.
-## Schlussfolgerungen und Ausblick
+
+### Schlussfolgerungen und Ausblick
 
 Dann würde ich sagen, wir haben jetzt hier eine Stunde spannende KI-Diskussion gehabt.
 Ich bin immer noch fasziniert, dass es im Chat auch die ganze Zeit so gut abging und dass ihr Ralf und André auch noch nebenbei im Chat dabei wart.
