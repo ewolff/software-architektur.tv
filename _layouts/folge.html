@@ -100,6 +100,9 @@ src="{{ page.embedded-mp3 }}"></iframe>
 {% if site.data.summaries contains episode_id %}
 <p style="font-size: small;"><b>Hinweis:</b> Die nachfolgenden Texte wurden mit KI erstellt und können somit Fehler enthalten.</p>
 
+{% capture blogpost %}{% include transcriptions/{{ episode_id }}/blog_post.md %}{% endcapture %}
+  {{ blogpost | markdownify }}
+
 {% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
   {{ summary | markdownify }}
 <h2 id="transcription" >Vollständige Transkription</h2>
