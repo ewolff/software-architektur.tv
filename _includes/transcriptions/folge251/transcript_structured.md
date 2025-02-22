@@ -1,5 +1,3 @@
-# Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen Hallo, ich bin Eberhard Wolff.
-
 So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream.
 
 Bevor wir loslegen, so ein paar Hinweise.
