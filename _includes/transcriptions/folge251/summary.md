@@ -1,4 +1,3 @@
-Hier ist meine Zusammenfassung der Podcast-Folge "KI und LLMs kritisch betrachtet":
 
 KEYTAKEAWAYS:
 
