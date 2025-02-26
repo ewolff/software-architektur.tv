@@ -14,50 +14,21 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
 
-# Monday 2024-02-24 19:00 CET Intro to Beyond Estimates with Woody Zuill
+# Freitag 2024-03-07 13:00 CET Thema noch offen
 
-Let’s explore the purpose and use of estimates in the management of
-software development efforts, and consider possible alternatives.
- 
-We say we depend on estimates to make important decisions, and yet
-we’re often disappointed by the results.
- 
-Why are we so challenged at using estimates? Are estimates for cost,
-time, or effort always needed? Is it possible there are other ways to
-approach our work? If we didn’t use estimates, could we be successful
-at building software?
- 
-The default use of an "estimate-driven" approach is pervasive in
-software development efforts, and while estimates can be useful for
-some things, it is worthwhile to scrutinize our use of estimates for
-cost, time, and effort, and to seek better ways to manage software
-development projects.
- 
-There are a number of things to explore and many questions to ask. For
-example, do we really need estimates for all the things we are
-currently using them? Are we getting a reasonable benefit from them?
-Is it possible to manage software development projects without these
-estimates, or at least with fewer estimates? Is there a way to prove
-that estimates are helping us make good decisions?
-
-If you want to learn more about Beyond Estimates and see Woody live on
-stage, join his talk at the Agile meets Architecture conference early
-April in Berlin. We have a special discount code for our viewers for
-10% off: AMA_SAIS_10 
-
-[Add to calendar](stream.ics)
+<!-- [Add to calendar](stream.ics) -->
 
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/KpsEo7-5kwk"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/KpsEo7-5kwk" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
