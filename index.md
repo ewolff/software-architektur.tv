@@ -12,7 +12,7 @@ Live-Stream auf YouTube und Twitch - oft zusammen mit einem
 Gast. Zuschauer können über den Twitch- und YouTube-Chat und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
-Die Aufnahme stehen danach als Video und Podcast zur Verfügung.
+Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 # Freitag 2024-03-07 13:00 CET IT- im Jahr 2034 – Das Follow Up zu den IT-Tagen
 
@@ -80,7 +80,7 @@ marginwidth="0">Loading…</iframe>
 Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu 36
 verschiedenen Folgen. So können Leser:innen sich über das Wissen aus
 “Software Architektur im Stream” erschließen, ohne dafür eine Vielzahl
-von Video anzuschauen.
+von Videos anzuschauen.
 
 Das Buch ist kostenlos als PDF bei Leanpub erhältlich. Außerdem gibt
 es die gedruckte Version bei Amazon als Hardcover mit glattem Papier
