@@ -116,7 +116,7 @@ License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 Attributiert werden sollen:
 
-* Für Videos Eberhard Wolff oder Lisa Maria Schäfer und die jeweiligen Interviewten
+* Für Videos Eberhard Wolff, Ralf D. Müller oder Lisa Maria Schäfer und die jeweiligen Interviewten
 * Für Sketchnotes Lisa Maria Schäfer
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
