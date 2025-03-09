@@ -14,34 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-# Freitag 2024-03-07 13:00 CET IT- im Jahr 2034 – Das Follow Up zu den IT-Tagen
+# Friday 2024-03-14 13:00 CET Jacqui Read
 
-Die IT-Branche steht vor einem Wendepunkt: Wie gestalten wir heute ein
-Arbeitsumfeld, das 2034 technologische Innovation und menschliche
-Werte vereint? Anknüpfend an die Visionen aus Folge 244 diskutieren
-Lisa, Ralf und Eberhard die  Antworten der Community:
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-Welche Entscheidungen sind jetzt entscheidend – bei KI-Ethik, hybriden
-Arbeitsmodellen oder regulatorischen Rahmenbedingungen? Die auf den
-IT-Tagen gesammelten Impulse der Teilnehmer:innen konnten damals im
-Dezember nicht alle besprochen werden. Das holen wir hiermit nach.
+<!-- ## Live Stream -->
 
-Gemeinsam loten wir aus, wie IT-Architekturen und Arbeitskulturen
-zukunftsfest werden – ohne Scheuklappen, aber mit klarem Fokus auf
-Praxisrelevanz. Sei dabei, wenn Visionen auf Realität treffen!
-
-[In Kalendar eintragen](termin.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/ArUrMMe1ekc"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/ArUrMMe1ekc" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
