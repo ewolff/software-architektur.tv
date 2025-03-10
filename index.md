@@ -14,7 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-# Friday 2024-03-14 13:00 CET Jacqui Read
+# Friday 2024-03-14 13:00 CET Communication Patterns with Jacqui Read
+
+In this episode Jacqui Read is our guest. She is the author of the
+book "Communication Patterns – A Guide for Developers and Architects".
+
+Jacqui and Lisa will talk about communication patterns. Learn about
+what communication patterns are and why they are very useful to you as
+a software architect.
+
+Jacqui will speak at the "Agile meets Architecture" conference on
+April 2rd about "Design Patterns for Software Diagramming".  We have a
+special discount code for the conference for our viewers 10% off:
+AMA_SAIS_10
+
 
 <!-- [In Kalendar eintragen](termin.ics) -->
 
