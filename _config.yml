@@ -1,6 +1,7 @@
 title: software-architektur.tv 
 tagline: Software Architektur im Stream
 url: https://software-architektur.tv 
+baseurl: ""
 
 author:
   name: Eberhard Wolff
