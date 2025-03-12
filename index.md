@@ -25,7 +25,7 @@ a software architect.
 
 Jacqui will speak at the "Agile meets Architecture" conference on
 April 2rd about "Design Patterns for Software Diagramming".  We have a
-special discount code for the conference for our viewers 10% off:
+special discount code for the conference for our audience 10% off:
 AMA_SAIS_10
 
 
