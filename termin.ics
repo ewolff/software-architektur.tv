@@ -20,28 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250227T123335Z
-DESCRIPTION:Die IT-Branche steht vor einem Wendepunkt: Wie gestalten wir he
-	ute ein Arbeitsumfeld\, das 2034 technologische Innovation und menschliche
-	 Werte vereint? Anknüpfend an die Visionen aus Folge 244 diskutieren Lisa
-	\, Ralf und Eberhard die  Antworten der Community:\nWelche Entscheidungen 
-	sind jetzt entscheidend – bei KI-Ethik\, hybriden Arbeitsmodellen oder r
-	egulatorischen Rahmenbedingungen? Die auf den IT-Tagen gesammelten Impulse
-	 der Teilnehmer:innen konnten damals im Dezember nicht alle besprochen wer
-	den. Das holen wir hiermit nach.\nGemeinsam loten wir aus\, wie IT-Archite
-	kturen und Arbeitskulturen zukunftsfest werden – ohne Scheuklappen\, abe
-	r mit klarem Fokus auf Praxisrelevanz. Sei dabei\, wenn Visionen auf Reali
-	tät treffen!\n\nhttps://www.youtube.com/watch?v=ArUrMMe1ekc https://www.t
-	witch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20250307T140000
+CREATED:20250312T075243Z
+DESCRIPTION:In this episode Jacqui Read is our guest. She is the author of 
+	the book “Communication Patterns – A Guide for Developers and Architec
+	ts”.\nJacqui and Lisa will talk about communication patterns. Learn abou
+	t what communication patterns are and why they are very useful to you as a
+	 software architect.\nJacqui will speak at the “Agile meets Architecture
+	” conference on April 2rd about “Design Patterns for Software Diagramm
+	ing”. We have a special discount code for the conference for our audienc
+	e 10% off: AMA_SAIS_10\n\nhttps://youtu.be/JvkvG0F5SwA https://www.twitch.
+	tv/ebrwolff\n\n
+DTEND;TZID="W. Europe Standard Time":20250314T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250307T130000
-LAST-MODIFIED:20250227T123335Z
-LOCATION:https://www.youtube.com/watch?v=ArUrMMe1ekc https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250314T130000
+LAST-MODIFIED:20250312T075243Z
+LOCATION:https://youtu.be/JvkvG0F5SwA https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:IT- im Jahr 2034 – Das Follow Up zu den IT-Tagen
+SUMMARY;LANGUAGE=de:Communication Patterns with Jacqui Read
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
