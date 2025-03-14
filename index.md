@@ -14,28 +14,31 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-# Friday 2024-03-14 13:00 CET Communication Patterns with Jacqui Read
+# Friday 2024-03-18 18:00 CET Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni
 
-In this episode Jacqui Read is our guest. She is the author of the
-book "Communication Patterns – A Guide for Developers and Architects".
+In the fast-paced world of software development and architecture,
+change and uncertainty are inevitable. How can we grow a helpful
+stance to navigate these challenges effectively? In this stream,
+Cosima Laube and Sofia Katsaouni explore paths to combine technical
+expertise and emotional intelligence, sharing practical strategies for
+building mental resilience and fostering growth. Join us for an
+insightful discussion on possible mind skills that empower individuals
+and teams to adapt, thrive, and make a lasting impact in times of
+transition.
 
-Jacqui and Lisa will talk about communication patterns. Learn about
-what communication patterns are and why they are very useful to you as
-a software architect.
-
-Jacqui will speak at the "Agile meets Architecture" conference on
-April 2rd about "Design Patterns for Software Diagramming".  We have a
-special discount code for the conference for our audience 10% off:
-AMA_SAIS_10
+If you want to learn more about this subject and see Cosima and Sofia
+live on stage, join us at the Agile meets Architecture conference
+early April in Berlin. We have a special discount code for our
+audience for 10% off: AMA_SAIS_10 .
 
 
-[In Kalendar eintragen](termin.ics)
+[Add to Calendar](termin.ics)
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/JvkvG0F5SwA"
+	src="https://www.youtube-nocookie.com/embed/c5jPzaI6w2Q"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
