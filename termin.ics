@@ -20,27 +20,24 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250314T145934Z
-DESCRIPTION:In the fast-paced world of software development and architectur
-	e\, change and uncertainty are inevitable. How can we grow a helpful stanc
-	e to navigate these challenges effectively? In this stream\, Cosima Laube 
-	and Sofia Katsaouni explore paths to combine technical expertise and emoti
-	onal intelligence\, sharing practical strategies for building mental resil
-	ience and fostering growth. Join us for an insightful discussion on possib
-	le mind skills that empower individuals and teams to adapt\, thrive\, and 
-	make a lasting impact in times of transition.\n\nIf you want to learn more
-	 about this subject and see Cosima and Sofia live on stage\, join us at th
-	e Agile meets Architecture conference early April in Berlin. We have a spe
-	cial discount code for our audience for 10% off: AMA_SAIS_10 .\n\nhttps://
-	youtu.be/c5jPzaI6w2Q https://www.twitch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20250318T190000
+CREATED:20250319T140843Z
+DESCRIPTION:Projekte erstellen gemeinsame Software. Irgendwie müssen Archi
+	tekt:innen sich in dieser Umgebung bewegen und dabei Wirkung entfalten: Im
+	merhin sollten sie bei der erfolgreichen Umsetzung eines Projekt eine wich
+	tige Rolle spielen\, denn sie bringen eine wertvolle Expertise ein. Aber w
+	ie genau soll das gehen? In dieser Folge diskutiert Eberhard unterschiedli
+	che Möglichkeiten\, um tatsächlich in einem Projekt diese Rolle erfolgre
+	ich auszufüllen.\n\nhttps://youtu.be/-6hExFbQnNo https://www.twitch.tv/eb
+	rwolff\n\n\n
+DTEND;TZID="W. Europe Standard Time":20250321T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250318T180000
-LAST-MODIFIED:20250314T145934Z
-LOCATION:https://youtu.be/c5jPzaI6w2Q https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250321T130000
+LAST-MODIFIED:20250319T140843Z
+LOCATION:https://youtu.be/-6hExFbQnNo https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Communication Patterns with Jacqui Read
+SUMMARY;LANGUAGE=de:Als Architekt:in Wirkung entfalten (Software Architektu
+	r im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

@@ -14,31 +14,23 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-# Friday 2024-03-18 18:00 CET Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni
+## Freitag 2024-03-21 13:00 CET Als Architekt:in Wirkung entfalten
 
-In the fast-paced world of software development and architecture,
-change and uncertainty are inevitable. How can we grow a helpful
-stance to navigate these challenges effectively? In this stream,
-Cosima Laube and Sofia Katsaouni explore paths to combine technical
-expertise and emotional intelligence, sharing practical strategies for
-building mental resilience and fostering growth. Join us for an
-insightful discussion on possible mind skills that empower individuals
-and teams to adapt, thrive, and make a lasting impact in times of
-transition.
+Projekte erstellen gemeinsame Software. Irgendwie müssen
+Architekt:innen sich in dieser Umgebung bewegen und dabei Wirkung
+entfalten: Immerhin sollten sie bei der erfolgreichen Umsetzung eines
+Projekt eine wichtige Rolle spielen, denn sie bringen eine wertvolle
+Expertise ein. Aber wie genau soll das gehen? In dieser Folge
+diskutiert Eberhard unterschiedliche Möglichkeiten, um tatsächlich in
+einem Projekt diese Rolle erfolgreich auszufüllen.
 
-If you want to learn more about this subject and see Cosima and Sofia
-live on stage, join us at the Agile meets Architecture conference
-early April in Berlin. We have a special discount code for our
-audience for 10% off: AMA_SAIS_10 .
-
-
-[Add to Calendar](termin.ics)
+[In Kalendar eintragen](termin.ics)
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/c5jPzaI6w2Q"
+	src="https://www.youtube-nocookie.com/embed/-6hExFbQnNo"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
@@ -48,7 +40,7 @@ audience for 10% off: AMA_SAIS_10 .
 [Twitch](https://www.twitch.tv/ebrwolff)
 
 
-# Fragen & Diskussion  / Question & Discussion
+## Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
 Interaktionen.
@@ -77,7 +69,7 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
-# Sketchnote-Buch
+## Sketchnote-Buch
 
 Dieses Buch enthält eine Sammlung von Sketchnotes und Kommentare zu 36
 verschiedenen Folgen. So können Leser:innen sich über das Wissen aus
@@ -96,7 +88,7 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
 
 </center>
 
-# Links
+## Links
 
 * [YouTube Channel](https://www.youtube.com/user/ewolff/)
 * [Folgen nach Tags](tags.html)
@@ -108,7 +100,7 @@ src="sketchnote-buch.jpg" /> <br /> Mehr Informationen zum Buch</a>
   mit Merch
 * [Feed](feed.xml)
 
-# Lizenz
+## Lizenz
 
 Inhalte von Software-Architektur im Stream zu konsumieren ist
 [unvereinbar mit einer Unterstützung der AfD](/2024/01/22/folge198.html).
