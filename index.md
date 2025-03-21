@@ -14,28 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag 2024-03-21 13:00 CET Als Architekt:in Wirkung entfalten
+## Freitag 2024-03-28 13:00 CET Thema noch offen
 
-Projekte erstellen gemeinsame Software. Irgendwie müssen
-Architekt:innen sich in dieser Umgebung bewegen und dabei Wirkung
-entfalten: Immerhin sollten sie bei der erfolgreichen Umsetzung eines
-Projekt eine wichtige Rolle spielen, denn sie bringen eine wertvolle
-Expertise ein. Aber wie genau soll das gehen? In dieser Folge
-diskutiert Eberhard unterschiedliche Möglichkeiten, um tatsächlich in
-einem Projekt diese Rolle erfolgreich auszufüllen.
+<!-- [In Kalendar eintragen](termin.ics) -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/-6hExFbQnNo"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/-6hExFbQnNo" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
