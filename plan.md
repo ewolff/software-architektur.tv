@@ -9,7 +9,7 @@ description: Überblick über die geplanten Folgen
 |                Datum | Thema / Gäste                                                                                           |
 |---------------------:|:--------------------------------------------------------------------------------------------------------|
 | 2025-04-03 15:00 CET | Wardley Maps Meets Software Architecture with Simon Wardley and Markus Harrer                           |
-| 2025-04-04 14:00 CET | Building Product Teams Beyond Organizational and Geographical boundaries with Ana Nad and Lejla Vulovic |
+| 2025-04-04 14:00 CET | Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic |
 
 ## Wardley Maps Meets Software Architecture with Simon Wardley and Markus Harrer
 
@@ -22,7 +22,7 @@ software systems.
 
 
 
-## Building Product Teams Beyond Organizational and Geographical boundaries with Ana Nad and Lejla Vulovic
+## Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
 
 Join us as we sit down with Ana Nad-Stojanovic and Lejla Vulovic after
 their talk at the Agile meets Architecture conference to dive deeper
