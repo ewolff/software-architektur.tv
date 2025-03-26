@@ -20,24 +20,26 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250319T140843Z
-DESCRIPTION:Projekte erstellen gemeinsame Software. Irgendwie müssen Archi
-	tekt:innen sich in dieser Umgebung bewegen und dabei Wirkung entfalten: Im
-	merhin sollten sie bei der erfolgreichen Umsetzung eines Projekt eine wich
-	tige Rolle spielen\, denn sie bringen eine wertvolle Expertise ein. Aber w
-	ie genau soll das gehen? In dieser Folge diskutiert Eberhard unterschiedli
-	che Möglichkeiten\, um tatsächlich in einem Projekt diese Rolle erfolgre
-	ich auszufüllen.\n\nhttps://youtu.be/-6hExFbQnNo https://www.twitch.tv/eb
-	rwolff\n\n\n
-DTEND;TZID="W. Europe Standard Time":20250321T140000
+CREATED:20250326T113012Z
+DESCRIPTION:Microservices waren einst ein regelrechter Hype\, insbesondere 
+	weil man damit bestehende Monolithen in kleinere\, flexible Einheiten zerl
+	egen konnte. Heute ist der Hype um Microservices abgeflaut – stattdessen
+	 erleben Monolithen ein Revival. Die Frage stellt sich daher: Lohnt sich d
+	er Umbau von Monolithen in Microservices überhaupt noch? Oder sollten die
+	 vielen Microservices gar wieder zu Monolithen zusammengeführt werden? In
+	 einem neuen Stream widmen wir uns diesem Thema und betrachten es aus eine
+	r frischen Perspektive.\n\nhttps://www.youtube.com/watch?v=OSZAKYnA44E htt
+	ps://www.twitch.tv/ebrwolff\n\n\n
+DTEND;TZID="W. Europe Standard Time":20250328T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250321T130000
-LAST-MODIFIED:20250319T140843Z
-LOCATION:https://youtu.be/-6hExFbQnNo https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250328T130000
+LAST-MODIFIED:20250326T113012Z
+LOCATION:https://www.youtube.com/watch?v=OSZAKYnA44E https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Als Architekt:in Wirkung entfalten (Software Architektu
-	r im Stream)
+SUMMARY;LANGUAGE=de:Monolithen zu Microservices: Macht man das noch so? (So
+	ftware Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

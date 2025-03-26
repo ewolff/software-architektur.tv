@@ -14,20 +14,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag 2024-03-28 13:00 CET Thema noch offen
+## Freitag 2024-03-28 13:00 CET Monolithen zu Microservices: Macht man das noch so?
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+Microservices waren einst ein regelrechter Hype, insbesondere weil man
+damit bestehende Monolithen in kleinere, flexible Einheiten zerlegen
+konnte. Heute ist der Hype um Microservices abgeflaut – stattdessen
+erleben Monolithen ein Revival. Die Frage stellt sich daher: Lohnt
+sich der Umbau von Monolithen in Microservices überhaupt noch? Oder
+sollten die vielen Microservices gar wieder zu Monolithen
+zusammengeführt werden? In einem neuen Stream widmen wir uns diesem
+Thema und betrachten es aus einer frischen Perspektive.
 
-<!-- ## Live Stream -->
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/-6hExFbQnNo" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+[In Kalendar eintragen](termin.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/OSZAKYnA44E"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
