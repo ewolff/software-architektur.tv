@@ -20,36 +20,22 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250220T201231Z
-DESCRIPTION:Let’s explore the purpose and use of estimates in the managem
-	ent of software development efforts\, and consider possible alternatives.\
-	n\nWe say we depend on estimates to make important decisions\, and yet we
-	’re often disappointed by the results.\n\nWhy are we so challenged at us
-	ing estimates? Are estimates for cost\, time\, or effort always needed? Is
-	 it possible there are other ways to approach our work? If we didn’t use
-	 estimates\, could we be successful at building software?\n\nThe default u
-	se of an “estimate-driven” approach is pervasive in software developme
-	nt efforts\, and while estimates can be useful for some things\, it is wor
-	thwhile to scrutinize our use of estimates for cost\, time\, and effort\, 
-	and to seek better ways to manage software development projects.\n\nThere 
-	are a number of things to explore and many questions to ask. For example\,
-	 do we really need estimates for all the things we are currently using the
-	m? Are we getting a reasonable benefit from them? Is it possible to manage
-	 software development projects without these estimates\, or at least with 
-	fewer estimates? Is there a way to prove that estimates are helping us mak
-	e good decisions?\n\nIf you want to learn more about Beyond Estimates and 
-	see Woody live on stage\, join his talk at the Agile meets Architecture co
-	nference early April in Berlin. We have a special discount code for our vi
-	ewers for 10% off: AMA_SAIS_10\nhttps://youtu.be/KpsEo7-5kwk https://www.t
-	witch.tv/ebrwolff\n\n
-DTEND;TZID="W. Europe Standard Time":20250224T200000
+CREATED:20250328T151933Z
+DESCRIPTION:In this episode\, Simon Wardley\, together with Markus Harrer a
+	nd Eberhard Wolff\, discusses how the visual strategic thinking tool Wardl
+	ey Maps can help software architects make better decisions. After a brief 
+	introduction to Wardley Mapping\, you’ll hear about several ideas and pa
+	tterns that can be useful when developing large-scale software systems.\n\
+	nhttps://youtu.be/12PF8II1RZs https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250403T160000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250224T190000
-LAST-MODIFIED:20250220T201231Z
-LOCATION:https://youtu.be/KpsEo7-5kwk https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250403T150000
+LAST-MODIFIED:20250328T151933Z
+LOCATION:https://youtu.be/12PF8II1RZs https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Intro to Beyond Estimates with Woody Zuill
+SUMMARY;LANGUAGE=de:Wardley Maps Meets Software Architecture with Simon War
+	dley and Markus Harrer
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

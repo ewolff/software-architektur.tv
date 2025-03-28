@@ -14,25 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag 2025-03-28 13:00 CET Monolithen zu Microservices: Macht man das noch so?
+## Thursday 2025-04-03 15:00 CET Wardley Maps Meets Software Architecture with Simon Wardley and Markus Harrer
 
-Microservices waren einst ein regelrechter Hype, insbesondere weil man
-damit bestehende Monolithen in kleinere, flexible Einheiten zerlegen
-konnte. Heute ist der Hype um Microservices abgeflaut – stattdessen
-erleben Monolithen ein Revival. Die Frage stellt sich daher: Lohnt
-sich der Umbau von Monolithen in Microservices überhaupt noch? Oder
-sollten die vielen Microservices gar wieder zu Monolithen
-zusammengeführt werden? In einem neuen Stream widmen wir uns diesem
-Thema und betrachten es aus einer frischen Perspektive.
+In this episode, Simon Wardley, together with Markus Harrer and
+Eberhard Wolff, discusses how the visual strategic thinking tool
+Wardley Maps can help software architects make better decisions. After
+a brief introduction to Wardley Mapping, you’ll hear about several
+ideas and patterns that can be useful when developing large-scale
+software systems.
 
-
-[In Kalendar eintragen](termin.ics)
+[Add to Calendar](stream.ics)
 
 ## Live Stream
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/OSZAKYnA44E"
+	src="https://www.youtube-nocookie.com/embed/12PF8II1RZs"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
@@ -41,6 +38,33 @@ Thema und betrachten es aus einer frischen Perspektive.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+## Friday 2025-04-04 14:00 CET Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
+
+Join us as we sit down with Ana Nad-Stojanovic and Lejla Vulovic after their talk at the Agile meets Architecture conference to dive deeper into their experiences of building and scaling product teams across multiple European markets. We will discuss:
+
+* How to structure multi-site teams for success
+* Overcoming regulatory, cultural, and organizational challenges
+* Lessons learned from delivering lending and foreign exchange products in a global bank
+* The evolving role of architecture in enabling agility
+
+What worked, what didn’t, and what’s next? Tune in to hear firsthand insights and ask your questions live!
+
+[Add to Calendar](stream1.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/WD5GVAN_zvE"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
+
+[Twitch](https://www.twitch.tv/ebrwolff)
+
+[Add to Calendar](termin1.ics)
 
 ## Fragen & Diskussion  / Question & Discussion
 
