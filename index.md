@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Thursday 2025-04-03 15:00 CET Wardley Maps Meets Software Architecture with Simon Wardley and Markus Harrer
+## Thursday 2025-04-03 15:00 CEST Wardley Maps Meets Software Architecture with Simon Wardley and Markus Harrer
 
 In this episode, Simon Wardley, together with Markus Harrer and
 Eberhard Wolff, discusses how the visual strategic thinking tool
@@ -38,7 +38,7 @@ software systems.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## Friday 2025-04-04 14:00 CET Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
+## Friday 2025-04-04 14:00 CEST Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
 
 Join us as we sit down with Ana Nad-Stojanovic and Lejla Vulovic after their talk at the Agile meets Architecture conference to dive deeper into their experiences of building and scaling product teams across multiple European markets. We will discuss:
 
