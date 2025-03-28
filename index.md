@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag 2024-03-28 13:00 CET Monolithen zu Microservices: Macht man das noch so?
+## Freitag 2025-03-28 13:00 CET Monolithen zu Microservices: Macht man das noch so?
 
 Microservices waren einst ein regelrechter Hype, insbesondere weil man
 damit bestehende Monolithen in kleinere, flexible Einheiten zerlegen
