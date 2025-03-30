@@ -123,7 +123,13 @@ lediglich die Schriftarten (1 Jahr) und die zugehörigen CSS-Dateien (1
 Tag) auf dem Endgerät des Nutzers gespeichert. (siehe Google Fonts API
 Dokumentation).
 
+## Nutzung von Piwik PRO
 
-
-
-
+Wir verwenden Piwik PRO zur Analyse der Nutzung unserer Website. Die
+Konfiguration erfolgt ohne den Einsatz von Cookies oder
+Session-Hashes. IP-Adressen werden ausschließlich in gekürzter Form
+gespeichert. Eine Identifikation einzelner Nutzer ist daher nicht
+möglich. Dienstanbieter ist das Unternehmen Piwik PRO SA,
+ul. Św. Antoniego 2/4, 50073 Wrocław, Polen. Mehr über die Daten, die
+durch die Verwendung von Piwik PRO verarbeitet werden, erfahren Sie in
+der [Privacy Policy](https://piwikpro.de/datenschutz/).
