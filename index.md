@@ -40,7 +40,7 @@ software systems.
 
 ## Friday 2025-04-04 14:00 CEST Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
 
-Join us as we sit down with Ana Nad-Stojanovic and Lejla Vulovic after their talk at the Agile meets Architecture conference to dive deeper into their experiences of building and scaling product teams across multiple European markets. We will discuss:
+Join us as we sit down with Ana Nad and Lejla Vulovic after their talk at the Agile meets Architecture conference to dive deeper into their experiences of building and scaling product teams across multiple European markets. We will discuss:
 
 * How to structure multi-site teams for success
 * Overcoming regulatory, cultural, and organizational challenges
