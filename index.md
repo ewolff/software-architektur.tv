@@ -14,33 +14,24 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Friday 2025-04-04 14:00 CEST Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
-
-Join us as we sit down with Ana Nad and Lejla Vulovic after their talk at the Agile meets Architecture conference to dive deeper into their experiences of building and scaling product teams across multiple European markets. We will discuss:
-
-* How to structure multi-site teams for success
-* Overcoming regulatory, cultural, and organizational challenges
-* Lessons learned from delivering lending and foreign exchange products in a global bank
-* The evolving role of architecture in enabling agility
-
-What worked, what didn’t, and what’s next? Tune in to hear firsthand insights and ask your questions live!
+## Freitag 2025-04-11 13:00 CEST Thema offen
 
 [Add to Calendar](stream1.ics)
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/WD5GVAN_zvE"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/WD5GVAN_zvE" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-[Add to Calendar](termin1.ics)
+<!-- [Add to Calendar](termin1.ics) -->
 
 ## Fragen & Diskussion  / Question & Discussion
 
