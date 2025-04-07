@@ -6,7 +6,7 @@ description: Überblick über die geplanten Folgen
 
 # Planung
 
-|                Datum | Thema / Gäste                                                                                           |
-|---------------------:|:--------------------------------------------------------------------------------------------------------|
-|                      |                                                                                                         |
+|      Datum | Thema / Gäste                  |
+|-----------:|:-------------------------------|
+| 2025-10-17 | Wardley Maps mit Markus Harrer |
 
