@@ -20,22 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250328T151933Z
-DESCRIPTION:In this episode\, Simon Wardley\, together with Markus Harrer a
-	nd Eberhard Wolff\, discusses how the visual strategic thinking tool Wardl
-	ey Maps can help software architects make better decisions. After a brief 
-	introduction to Wardley Mapping\, you’ll hear about several ideas and pa
-	tterns that can be useful when developing large-scale software systems.\n\
-	nhttps://youtu.be/12PF8II1RZs https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250403T160000
+CREATED:20250408T203614Z
+DESCRIPTION:Ein wissenschaftliches Paper https://link.springer.com/article/
+	10.1007/s10676-024-09775-5 argumentiert\, dass ChatGPT „Bullshit“ prod
+	uziert. Was steckt hinter dieser provokanten These – und welche Konseque
+	nzen hat sie? In dieser Folge gehen wir der Frage auf den Grund. Wir greif
+	en die Herausforderungen mit KI\, die in den letzten Episoden offenbar gew
+	orden sind\, noch einmal auf und entwickeln gemeinsam ein Bild davon\, wie
+	 man sinnvoll mit Werkzeugen wie LLMs umgehen kann.\n\nhttps://youtu.be/kC
+	mti-stM8Q https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250418T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250403T150000
-LAST-MODIFIED:20250328T151933Z
-LOCATION:https://youtu.be/12PF8II1RZs https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250418T130000
+LAST-MODIFIED:20250408T203614Z
+LOCATION:https://youtu.be/kCmti-stM8Q https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Wardley Maps Meets Software Architecture with Simon War
-	dley and Markus Harrer
+SUMMARY;LANGUAGE=de:KI = Bullshit? (Software Architektur im Stream)
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

@@ -14,24 +14,31 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag 2025-04-11 13:00 CEST Thema offen
+## Freitag 2025-04-11 13:00 CEST KI = Bullshit?
 
-[Add to Calendar](stream1.ics)
+Ein wissenschaftliches
+[Paper](https://link.springer.com/article/10.1007/s10676-024-09775-5)
+argumentiert, dass ChatGPT „Bullshit“ produziert. Was steckt hinter
+dieser provokanten These – und welche Konsequenzen hat sie?  In dieser
+Folge gehen wir der Frage auf den Grund. Wir greifen die
+Herausforderungen mit KI, die in den letzten Episoden offenbar
+geworden sind, noch einmal auf und entwickeln gemeinsam ein Bild
+davon, wie man sinnvoll mit Werkzeugen wie LLMs umgehen kann.
 
-<!-- ## Live Stream -->
+[Add to Calendar](stream.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/WD5GVAN_zvE" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/kCmti-stM8Q"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
-
-<!-- [Add to Calendar](termin1.ics) -->
 
 ## Fragen & Diskussion  / Question & Discussion
 
