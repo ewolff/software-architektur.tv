@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-04-25 13:00 CEST Modelle statt Bounded Contexts? Eine Alternative für fachlichen Modularisierung
+## 2025-04-25 13:00 CEST Modelle statt Bounded Contexts? Eine Alternative für fachliche Modularisierung
 
 Bounded Contexts werden oft als Allheilmittel für die fachliche
 Modularisierung von Software betrachtet – eine zentrale
