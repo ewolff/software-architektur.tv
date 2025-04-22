@@ -14,21 +14,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Offen
+## 2025-04-25 13:00 CEST Modelle statt Bounded Contexts? Eine Alternative für fachlichen Modularisierung
 
+Bounded Contexts werden oft als Allheilmittel für die fachliche
+Modularisierung von Software betrachtet – eine zentrale
+Herausforderung bei der Entwicklung wartbarer Systeme. Allerdings ist
+das Konzept des "Bounded Context" komplex und in der Praxis nicht
+immer einfach umzusetzen. In dieser Episode diskutieren wir "Modelle"
+als Ansatz zur Identifizierung fachlicher Module. Sie sind zwar
+ein Bestandteil von Bounded Contexts, können aber auch – kombiniert
+mit Ideen wie Modulen oder Abstract Data Types – eigenständig zur
+fachlichen Modularisierung eingesetzt werden.
 
-<!-- [Add to Calendar](stream.ics) -->
+[Add to Calendar](stream.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/kCmti-stM8Q" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/DctX0laNppE"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
