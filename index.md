@@ -14,17 +14,15 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-04-25 13:00 CEST Modelle statt Bounded Contexts? Eine Alternative für fachliche Modularisierung
+## 2025-05-02 13:00 CEST Questions from Agile Meets Architecture
 
-Bounded Contexts werden oft als Allheilmittel für die fachliche
-Modularisierung von Software betrachtet – eine zentrale
-Herausforderung bei der Entwicklung wartbarer Systeme. Allerdings ist
-das Konzept des "Bounded Context" komplex und in der Praxis nicht
-immer einfach umzusetzen. In dieser Episode diskutieren wir "Modelle"
-als Ansatz zur Identifizierung fachlicher Module. Sie sind zwar
-ein Bestandteil von Bounded Contexts, können aber auch – kombiniert
-mit Ideen wie Modulen oder Abstract Data Types – eigenständig zur
-fachlichen Modularisierung eingesetzt werden.
+I recently spoke at the Agile Meets Architecture conference about
+"Architecture and Agility: A Shared Skillset!". The presentation
+sparked a lot of interesting questions – covering topics like
+architectural guardrails for agility, building the right culture, and
+the connection between agility and architecture.  I didn't have time
+to answer them all during the conference, so I’m addressing them in
+this episode. This episode, like my original talk, is in English.
 
 [Add to Calendar](stream.ics)
 
@@ -32,7 +30,7 @@ fachlichen Modularisierung eingesetzt werden.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/DctX0laNppE"
+	src="https://www.youtube-nocookie.com/embed/TMWpdY99-Jw"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
