@@ -14,28 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-05-02 13:00 CEST Questions from Agile Meets Architecture
+## 2025-05-16 13:00 CEST Thema offen
 
-I recently spoke at the Agile Meets Architecture conference about
-"Architecture and Agility: A Shared Skillset!". The presentation
-sparked a lot of interesting questions – covering topics like
-architectural guardrails for agility, building the right culture, and
-the connection between agility and architecture.  I didn't have time
-to answer them all during the conference, so I’m addressing them in
-this episode. This episode, like my original talk, is in English.
+<!-- [Add to Calendar](stream.ics) -->
 
-[Add to Calendar](stream.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/TMWpdY99-Jw"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/TMWpdY99-Jw" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
