@@ -14,39 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-05-16 13:00 CEST Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow
-
-Der Begriff „Agilität“ ist in den letzten 20 Jahren für alles Mögliche
-benutzt worden. Dadurch ist Agilität bedeutungsleer
-geworden. Andererseits ist es durch den Fokus auf Methoden entkoppelt
-vom Ziel, was wir über die Werkzeuge erreichen wollen. Das ist in den
-aktuellen Zeiten umso dramatischer, weil die Resilienz von
-Organisationen, also ihre Fähigkeit, sich einem dynamischen und
-komplexen Umfeld anzupassen, Krisen zu überstehen und gleichzeitig zu
-wachsen, eigentlich nur mit echter Agilität erreichbar ist.
-
-Tanja Friedel und Uwe Vigenschow glauben, dass die Zukunft der
-Softwareentwicklung in einer Rückbesinnung auf die Werte und
-Prinzipien liegt, die hinter Agilität ursprünglich standen. Außerdem
-ist eine Fokussierung auf die Ergebnisse zentral - statt auf
-Hilfsmittel zur Zielerreichung wie Prozesse oder sinnentleertes Feel
-Good. Sie ziehen die Lehren aus über 20 Jahren Agilität und zeigen den
-Einfluss z.B. von KI und Homeoffice auf. Und sie berichten, wie sie
-Kunden dabei helfen, die Arbeitsweisen anzupassen, Anforderungen
-anders zu erheben und die Struktur der Software anzupassen.
+## 2025-05-23 13:00 CEST Thema offen
 
 [Add to Calendar](stream.ics)
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Z9X-UjuiVkI"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/Z9X-UjuiVkI" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
