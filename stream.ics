@@ -20,33 +20,27 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250512T145533Z
-DESCRIPTION:Der Begriff „Agilität“ ist in den letzten 20 Jahren für a
-	lles Mögliche benutzt worden. Dadurch ist Agilität bedeutungsleer geword
-	en. Andererseits ist es durch den Fokus auf Methoden entkoppelt vom Ziel\,
-	 was wir über die Werkzeuge erreichen wollen. Das ist in den aktuellen Ze
-	iten umso dramatischer\, weil die Resilienz von Organisationen\, also ihre
-	 Fähigkeit\, sich einem dynamischen und komplexen Umfeld anzupassen\, Kri
-	sen zu überstehen und gleichzeitig zu wachsen\, eigentlich nur mit echter
-	 Agilität erreichbar ist.\n\nTanja Friedel und Uwe Vigenschow glauben\, d
-	ass die Zukunft der Softwareentwicklung in einer Rückbesinnung auf die We
-	rte und Prinzipien liegt\, die hinter Agilität ursprünglich standen. Au
-	ßerdem ist eine Fokussierung auf die Ergebnisse zentral - statt auf Hilfs
-	mittel zur Zielerreichung wie Prozesse oder sinnentleertes Feel Good. Sie 
-	ziehen die Lehren aus über 20 Jahren Agilität und zeigen den Einfluss z.
-	B. von KI und Homeoffice auf. Und sie berichten\, wie sie Kunden dabei hel
-	fen\, die Arbeitsweisen anzupassen\, Anforderungen anders zu erheben und d
-	ie Struktur der Software anzupassen.\n\nhttps://youtu.be/TMWpdY99-Jw https
-	://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250516T140000
+CREATED:20250520T154917Z
+DESCRIPTION:Agile Entwicklung verspricht einen besseren Umgang mit Unsicher
+	heit – und doch dominieren in vielen Projekten weiterhin detaillierte Pl
+	äne\, Feinkonzepte und Architektur mit Big Design Up Front. Warum fällt 
+	es so schwer\, loszulassen?\nDiese Episode beleuchtet die psychologischen 
+	Gründe hinter dem Festhalten an Planung: das Bedürfnis nach Sicherheit\,
+	 die Angst vor Chaos und die Illusion von Kontrolle. Und sie zeigt\, welch
+	e Bedingungen nötig sind\, damit Teams sich wirklich auf das Unplanbare e
+	inlassen können – mit Vertrauen\, Mut und einer gesunden Fehlerkultur.\
+	n\n\nhttps://www.youtube.com/watch?v=Cyb81iTpJnU https://www.twitch.tv/ebr
+	wolff\n
+DTEND;TZID="W. Europe Standard Time":20250523T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250516T130000
-LAST-MODIFIED:20250512T145533Z
-LOCATION:https://youtu.be/TMWpdY99-Jw https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250523T130000
+LAST-MODIFIED:20250520T154917Z
+LOCATION:https://www.youtube.com/watch?v=Cyb81iTpJnU https://www.twitch.tv/
+	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Postagilität - Was kommt jetzt? mit Tanja Friedel und 
-	Uwe Vigenschow 
+SUMMARY;LANGUAGE=de:Statt Agilität und moderner Architektur: Die Illusion 
+	von Kontrolle
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
