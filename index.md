@@ -14,32 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-05-23 13:00 CEST Statt Agilität und moderner Architektur: Die Illusion von Kontrolle
+## 2025-05-30 13:00 CEST Thema offen
 
+<!-- [Add to Calendar](stream.ics) -->
 
-Agile Entwicklung verspricht einen besseren Umgang mit Unsicherheit –
-und doch dominieren in vielen Projekten weiterhin detaillierte Pläne,
-Feinkonzepte und Architektur mit Big Design Up Front. Warum fällt es
-so schwer, loszulassen?
+<!-- ## Live Stream -->
 
-Diese Episode beleuchtet die psychologischen Gründe hinter dem
-Festhalten an Planung: das Bedürfnis nach Sicherheit, die Angst vor
-Chaos und die Illusion von Kontrolle. Und sie zeigt, welche
-Bedingungen nötig sind, damit Teams sich wirklich auf das Unplanbare
-einlassen können – mit Vertrauen, Mut und einer gesunden Fehlerkultur.
-
-[Add to Calendar](stream.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/Cyb81iTpJnU"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/Cyb81iTpJnU" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
