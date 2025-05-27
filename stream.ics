@@ -20,27 +20,25 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250520T154917Z
-DESCRIPTION:Agile Entwicklung verspricht einen besseren Umgang mit Unsicher
-	heit – und doch dominieren in vielen Projekten weiterhin detaillierte Pl
-	äne\, Feinkonzepte und Architektur mit Big Design Up Front. Warum fällt 
-	es so schwer\, loszulassen?\nDiese Episode beleuchtet die psychologischen 
-	Gründe hinter dem Festhalten an Planung: das Bedürfnis nach Sicherheit\,
-	 die Angst vor Chaos und die Illusion von Kontrolle. Und sie zeigt\, welch
-	e Bedingungen nötig sind\, damit Teams sich wirklich auf das Unplanbare e
-	inlassen können – mit Vertrauen\, Mut und einer gesunden Fehlerkultur.\
-	n\n\nhttps://www.youtube.com/watch?v=Cyb81iTpJnU https://www.twitch.tv/ebr
-	wolff\n
-DTEND;TZID="W. Europe Standard Time":20250523T140000
+CREATED:20250527T112338Z
+DESCRIPTION:Eigentlich definiert Architektur “nur” die Struktur der Sof
+	tware. Aber das Gesetz von Conway weißt schon auf den Zusammenhang zwisch
+	en Architektur und Organisation hin. Durch das Inverse Conway Maneuvre ist
+	 klar geworden\, dass die geschickte Aufstellung der Organisation die Arch
+	itektur maßgeblich beeinflussen kann. Dieser Vortrag zeigt auf\, dass Tea
+	m Topologie auch erhebliche Konsequenzen für die Architektur-Arbeit hat: 
+	Team Topologies fungiert nicht nur als Werkzeug für Architektur\, sondern
+	 muss auch in die architektonische Planung einbezogen werden.\n\nhttps://w
+	ww.youtube.com/watch?v=bJv-OUJpwk4 https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250530T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250523T130000
-LAST-MODIFIED:20250520T154917Z
-LOCATION:https://www.youtube.com/watch?v=Cyb81iTpJnU https://www.twitch.tv/
+DTSTART;TZID="W. Europe Standard Time":20250530T130000
+LAST-MODIFIED:20250527T112338Z
+LOCATION:https://www.youtube.com/watch?v=bJv-OUJpwk4 https://www.twitch.tv/
 	ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Statt Agilität und moderner Architektur: Die Illusion 
-	von Kontrolle
+SUMMARY;LANGUAGE=de:Die Evolution von Architektur durch Team Topologies
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79

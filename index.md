@@ -14,20 +14,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-05-30 13:00 CEST Thema offen
+## 2025-05-30 13:00 CEST Die Evolution von Architektur durch Team Topologies
 
-<!-- [Add to Calendar](stream.ics) -->
+Eigentlich definiert Architektur "nur" die Struktur der Software. Aber
+das Gesetz von Conway weißt schon auf den Zusammenhang zwischen
+Architektur und Organisation hin.  Durch das Inverse Conway Maneuvre
+ist klar geworden, dass die geschickte Aufstellung der Organisation
+die Architektur maßgeblich beeinflussen kann. Dieser Vortrag zeigt
+auf, dass Team Topologie auch erhebliche Konsequenzen für die
+Architektur-Arbeit hat: Team Topologies fungiert nicht nur als
+Werkzeug für Architektur, sondern muss auch in die architektonische
+Planung einbezogen werden.
 
-<!-- ## Live Stream -->
+[Add to Calendar](stream.ics)
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/Cyb81iTpJnU" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/bJv-OUJpwk4"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
