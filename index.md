@@ -14,17 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2025-05-30 13:00 CEST Die Evolution von Architektur durch Team Topologies
+## 2025-06-06 13:00 CEST Soll man LLMs für Software-Architektur nutzen?  mit Ralf und Eberhard
 
-Eigentlich definiert Architektur "nur" die Struktur der Software. Aber
-das Gesetz von Conway weißt schon auf den Zusammenhang zwischen
-Architektur und Organisation hin.  Durch das Inverse Conway Maneuvre
-ist klar geworden, dass die geschickte Aufstellung der Organisation
-die Architektur maßgeblich beeinflussen kann. Dieser Vortrag zeigt
-auf, dass Team Topologie auch erhebliche Konsequenzen für die
-Architektur-Arbeit hat: Team Topologies fungiert nicht nur als
-Werkzeug für Architektur, sondern muss auch in die architektonische
-Planung einbezogen werden.
+Large Language Models (LLMs) wie ChatGPT oder Claude sind in aller
+Munde und versprechen, auch die Software-Architektur zu
+revolutionieren. Doch wie nützlich sind diese Tools wirklich für
+Architekt:innen? Können sie bei der Erstellung von
+Architekturdokumentationen, Architecture Decision Records oder dem
+Architecture Communication Canvas helfen? Oder überwiegen die Risiken
+wie Halluzinationen und fehlendes Verständnis für die Realität? In
+dieser Folge diskutieren Eberhard Wolff und Ralf D. Müller kontrovers
+über den Einsatz von LLMs in der Software-Architektur. Sie beleuchten
+sowohl die Chancen als auch die Fallstricke und diskutieren, wo LLMs
+helfen können und wo sie versagen. Eine Diskussion zwischen zwei
+erfahrenen Software-Architekten, deren Meinungen unterschiedlicher
+nicht sein könnten :leichtes_lächeln: – mit praktischen Erkenntnissen
+für alle, die sich fragen: KI-Hype oder echte Hilfe?
 
 [Add to Calendar](stream.ics)
 
@@ -32,7 +37,7 @@ Planung einbezogen werden.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/bJv-OUJpwk4"
+	src="https://www.youtube-nocookie.com/embed/KYbexryOFQA"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>

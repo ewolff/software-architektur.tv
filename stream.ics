@@ -20,25 +20,30 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250527T112338Z
-DESCRIPTION:Eigentlich definiert Architektur “nur” die Struktur der Sof
-	tware. Aber das Gesetz von Conway weißt schon auf den Zusammenhang zwisch
-	en Architektur und Organisation hin. Durch das Inverse Conway Maneuvre ist
-	 klar geworden\, dass die geschickte Aufstellung der Organisation die Arch
-	itektur maßgeblich beeinflussen kann. Dieser Vortrag zeigt auf\, dass Tea
-	m Topologie auch erhebliche Konsequenzen für die Architektur-Arbeit hat: 
-	Team Topologies fungiert nicht nur als Werkzeug für Architektur\, sondern
-	 muss auch in die architektonische Planung einbezogen werden.\n\nhttps://w
-	ww.youtube.com/watch?v=bJv-OUJpwk4 https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250530T140000
+CREATED:20250530T151002Z
+DESCRIPTION:Large Language Models (LLMs) wie ChatGPT oder Claude sind in al
+	ler Munde und versprechen\, auch die Software-Architektur zu revolutionier
+	en. Doch wie nützlich sind diese Tools wirklich für Architekt:innen? Kö
+	nnen sie bei der Erstellung von Architekturdokumentationen\, Architecture 
+	Decision Records oder dem Architecture Communication Canvas helfen? Oder 
+	überwiegen die Risiken wie Halluzinationen und fehlendes Verständnis fü
+	r die Realität? In dieser Folge diskutieren Eberhard Wolff und Ralf D. M
+	üller kontrovers über den Einsatz von LLMs in der Software-Architektur. 
+	Sie beleuchten sowohl die Chancen als auch die Fallstricke und diskutieren
+	\, wo LLMs helfen können und wo sie versagen. Eine Diskussion zwischen zw
+	ei erfahrenen Software-Architekten\, deren Meinungen unterschiedlicher nic
+	ht sein könnten :leichtes_lächeln: – mit praktischen Erkenntnissen fü
+	r alle\, die sich fragen: KI-Hype oder echte Hilfe?\n\nhttps://youtu.be/KY
+	bexryOFQA https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250606T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250530T130000
-LAST-MODIFIED:20250527T112338Z
-LOCATION:https://www.youtube.com/watch?v=bJv-OUJpwk4 https://www.twitch.tv/
-	ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250606T130000
+LAST-MODIFIED:20250530T151002Z
+LOCATION:https://youtu.be/KYbexryOFQA https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Die Evolution von Architektur durch Team Topologies
+SUMMARY;LANGUAGE=de:Soll man LLMs für Software-Architektur nutzen? mit Ral
+	f und Eberhard
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
