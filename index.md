@@ -28,7 +28,7 @@ dieser Folge diskutieren Eberhard Wolff und Ralf D. Müller kontrovers
 sowohl die Chancen als auch die Fallstricke und diskutieren, wo LLMs
 helfen können und wo sie versagen. Eine Diskussion zwischen zwei
 erfahrenen Software-Architekten, deren Meinungen unterschiedlicher
-nicht sein könnten :leichtes_lächeln: – mit praktischen Erkenntnissen
+nicht sein könnten  – mit praktischen Erkenntnissen
 für alle, die sich fragen: KI-Hype oder echte Hilfe?
 
 [Add to Calendar](stream.ics)
