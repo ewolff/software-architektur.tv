@@ -14,6 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
+## Umfrage zur Website-Nutzung
+
+<div class="embed-container">
+<div class="ratio4x3">
+<iframe
+src="https://docs.google.com/forms/d/e/1FAIpQLSeQiEdpKNoi9CKfVK3FhDVf3w8yV2GQdhWr_1iDhuwdXBpDSA/viewform?embedded=true"
+width="640" height="2007" frameborder="0" marginheight="0"
+marginwidth="0">Loading…</iframe>
+</div>
+</div>
+
+
+
 ## 2025-06-06 13:00 CEST Soll man LLMs für Software-Architektur nutzen?  mit Ralf und Eberhard
 
 Large Language Models (LLMs) wie ChatGPT oder Claude sind in aller
