@@ -27,35 +27,20 @@ marginwidth="0">Loading…</iframe>
 
 
 
-## 2025-06-06 13:00 CEST Soll man LLMs für Software-Architektur nutzen?  mit Ralf und Eberhard
+## Nächste Episode: Offen
 
-Large Language Models (LLMs) wie ChatGPT oder Claude sind in aller
-Munde und versprechen, auch die Software-Architektur zu
-revolutionieren. Doch wie nützlich sind diese Tools wirklich für
-Architekt:innen? Können sie bei der Erstellung von
-Architekturdokumentationen, Architecture Decision Records oder dem
-Architecture Communication Canvas helfen? Oder überwiegen die Risiken
-wie Halluzinationen und fehlendes Verständnis für die Realität? In
-dieser Folge diskutieren Eberhard Wolff und Ralf D. Müller kontrovers
-über den Einsatz von LLMs in der Software-Architektur. Sie beleuchten
-sowohl die Chancen als auch die Fallstricke und diskutieren, wo LLMs
-helfen können und wo sie versagen. Eine Diskussion zwischen zwei
-erfahrenen Software-Architekten, deren Meinungen unterschiedlicher
-nicht sein könnten  – mit praktischen Erkenntnissen
-für alle, die sich fragen: KI-Hype oder echte Hilfe?
+<!-- [Add to Calendar](stream.ics) -->
 
-[Add to Calendar](stream.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/KYbexryOFQA"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/KYbexryOFQA" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
