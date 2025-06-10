@@ -8,6 +8,7 @@ description: Überblick über die geplanten Folgen
 
 |      Datum | Thema / Gäste                                                                           |
 |-----------:|:----------------------------------------------------------------------------------------|
+| 2025-06-13 | Architektur-Theater mit Claude und Ralf                                                 |
 | 2025-07-04 | Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle |
 | 2025-10-17 | Wardley Maps mit Markus Harrer                                                          |
 
