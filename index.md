@@ -25,22 +25,45 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
+## Nächste Episode: 2025-06-13 13:00 CEST Architekturtheater mit Claude und Ralf
 
+Ist der Einsatz von LLMs in der Software-Architektur nur Hype und
+Theater – oder können die LLMs echten Mehrwert schaffen? In dieser
+besonderen Folge gehen wir einen Schritt weiter als nur darüber zu
+reden: Wir machen es live!
 
-## Nächste Episode: Offen
+Unserem Star-Gast Claude (Anthropics LLM) entwickelt unter der Leitung
+von Ralf in Echtzeit die Architektur für einen Wardley-Map Editor mit
+draw.io Export-Funktion.
 
-<!-- [Add to Calendar](stream.ics) -->
+Ihr erlebt hautnah, wie LLMs bei Architektur-Entscheidungen,
+Struktur-Design und Dokumentation unterstützen – und wo menschliche
+Expertise unverzichtbar bleibt. Wir fokussieren uns auf die
+architektonischen Aspekte: Komponenten-Design, Schnittstellen,
+Datenflüsse und Design-Entscheidungen.
 
-<!-- ## Live Stream -->
+Ein echtes Experiment mit ungewissem Ausgang: Reicht eine Stunde für
+die Architektur? Bekommen wir vielleicht sogar noch einen
+funktionsfähigen Prototypen oder ein Proof-of-Concept hin?
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/KYbexryOFQA" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+Authentisch, ungeschnitten, mit allen Höhen und Tiefen einer echten
+Architektur-Session.
+
+Spoiler: Am Ende exportieren wir tatsächlich eine Wardley Map nach
+draw.io – oder scheitern spektakulär beim Versuch.
+
+[Add to Calendar](stream.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/WD_3w1nne8M"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 

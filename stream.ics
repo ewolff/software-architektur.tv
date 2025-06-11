@@ -20,30 +20,32 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250530T151002Z
-DESCRIPTION:Large Language Models (LLMs) wie ChatGPT oder Claude sind in al
-	ler Munde und versprechen\, auch die Software-Architektur zu revolutionier
-	en. Doch wie nützlich sind diese Tools wirklich für Architekt:innen? Kö
-	nnen sie bei der Erstellung von Architekturdokumentationen\, Architecture 
-	Decision Records oder dem Architecture Communication Canvas helfen? Oder 
-	überwiegen die Risiken wie Halluzinationen und fehlendes Verständnis fü
-	r die Realität? In dieser Folge diskutieren Eberhard Wolff und Ralf D. M
-	üller kontrovers über den Einsatz von LLMs in der Software-Architektur. 
-	Sie beleuchten sowohl die Chancen als auch die Fallstricke und diskutieren
-	\, wo LLMs helfen können und wo sie versagen. Eine Diskussion zwischen zw
-	ei erfahrenen Software-Architekten\, deren Meinungen unterschiedlicher nic
-	ht sein könnten :leichtes_lächeln: – mit praktischen Erkenntnissen fü
-	r alle\, die sich fragen: KI-Hype oder echte Hilfe?\n\nhttps://youtu.be/KY
-	bexryOFQA https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250606T140000
+CREATED:20250611T044551Z
+DESCRIPTION:Ist der Einsatz von LLMs in der Software-Architektur nur Hype u
+	nd Theater – oder können die LLMs echten Mehrwert schaffen? In dieser b
+	esonderen Folge gehen wir einen Schritt weiter als nur darüber zu reden: 
+	Wir machen es live!\n\nUnserem Star-Gast Claude (Anthropics LLM) entwickel
+	t unter der Leitung von Ralf in Echtzeit die Architektur für einen Wardle
+	y-Map Editor mit draw.io Export-Funktion.\n\nIhr erlebt hautnah\, wie LLMs
+	 bei Architektur-Entscheidungen\, Struktur-Design und Dokumentation unters
+	tützen – und wo menschliche Expertise unverzichtbar bleibt. Wir fokussi
+	eren uns auf die architektonischen Aspekte: Komponenten-Design\, Schnittst
+	ellen\, Datenflüsse und Design-Entscheidungen.\n\nEin echtes Experiment m
+	it ungewissem Ausgang: Reicht eine Stunde für die Architektur? Bekommen w
+	ir vielleicht sogar noch einen funktionsfähigen Prototypen oder ein Proof
+	-of-Concept hin?\n\nAuthentisch\, ungeschnitten\, mit allen Höhen und Tie
+	fen einer echten Architektur-Session.\n\nSpoiler: Am Ende exportieren wir 
+	tatsächlich eine Wardley Map nach draw.io – oder scheitern spektakulär
+	 beim Versuch.\n\nhttps://youtu.be/WD_3w1nne8M https://www.twitch.tv/ebrwo
+	lff\n
+DTEND;TZID="W. Europe Standard Time":20250613T140000
 DTSTAMP:20240611T190100Z
-DTSTART;TZID="W. Europe Standard Time":20250606T130000
-LAST-MODIFIED:20250530T151002Z
-LOCATION:https://youtu.be/KYbexryOFQA https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250613T130000
+LAST-MODIFIED:20250611T044551Z
+LOCATION:https://youtu.be/WD_3w1nne8M https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Soll man LLMs für Software-Architektur nutzen? mit Ral
-	f und Eberhard
+SUMMARY;LANGUAGE=de:Architekturtheater mit Claude und Ralf
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E00800000000E0E4AA7842BCDA01000000000000000
 	0100000008A371F0677CD83458ECB0BFA532C3B79
