@@ -25,11 +25,39 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
-## Nächste Episode: Offen
+## Nächste Episode: 2026-06-20 13:00 Garbage-In/Garbage-Out? Claude Code und die Express-Architektur
 
-<!-- [Add to Calendar](stream.ics) -->
+Letzte Woche haben wir mit Claude in nur einer Stunde eine Architektur für einen Wardley-Map Editor entwickelt. Schnell, spontan, ungeprüft – klassisches "Architektur-Theater" könnte man sagen. Aber was passiert, wenn diese Express-Architektur auf die Realität des Codes trifft?
+
+In dieser Folge testen wir das ultimative "Garbage-In/Garbage-Out" Experiment: Kann Claude Code aus unserer spontanen Architektur funktionierenden Code entwickeln? Oder wird die fehlende Verifikation und Tiefe der Architektur zum Stolperstein?
+
+Mit dabei: [Ingo Eichhorst](https://www.linkedin.com/in/ingo-eichhorst/), der als KI-Experte seine Einschätzung zur praktischen Anwendung von LLMs in der Softwareentwicklung einbringt. 
+
+Gemeinsam ergründen wir:
+
+* Wie robust sind LLM-generierte Architekturen in der Praxis?
+* Wo sind die Grenzen zwischen Architektur-Theorie und Code-Realität?
+* Kann Claude Code die Lücken einer "schnellen" Architektur selbst schließen?
+* Welche architektonischen Entscheidungen erweisen sich als tragfähig, welche als Luftschlösser?
+
+Ein authentisches Experiment ohne Drehbuch: Werden wir am Ende einen funktionsfähigen Wardley-Map Editor haben – oder lernen wir schmerzhaft, warum gründliche Architektur-Arbeit durch nichts zu ersetzen ist?
+
+Live-Coding meets Architektur-Realitätscheck – mit ungewissem Ausgang.
+
+[Add to Calendar](stream.ics)
 
 <!-- ## Live Stream -->
+
+## Live Stream
+
+<!--center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/WD_3w1nne8M"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center-->
 
 <!-- <center> -->
 <!-- <div class="embed-container"> <iframe width="560" height="315" -->
