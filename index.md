@@ -50,25 +50,14 @@ Live-Coding meets Architektur-Realitätscheck – mit ungewissem Ausgang.
 
 ## Live Stream
 
-<!--center>
+<center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/WD_3w1nne8M"
+	src="https://www.youtube-nocookie.com/embed/ZoyMO9j0ZmY"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>
 </div>
-</center-->
-
-[YouTube](https://www.youtube.com/@EberhardWolff)
-
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/WD_3w1nne8M" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
