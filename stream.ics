@@ -1,66 +1,67 @@
 BEGIN:VCALENDAR
-PRODID:-//Google Inc//Google Calendar 70.9054//EN
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
-CALSCALE:GREGORIAN
-METHOD:REQUEST
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-X-LIC-LOCATION:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:GMT+2
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
+TZID:W. Europe Standard Time
 BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0100
-TZNAME:GMT+1
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=Europe/Berlin:20250620T120000
-DTEND;TZID=Europe/Berlin:20250620T130000
-DTSTAMP:20250618T075908Z
-UID:3hgu58eovh6etlulinf1mp78u2@google.com
-X-MICROSOFT-CDO-OWNERAPPTID:-1604798681
-CREATED:20250618T072619Z
-DESCRIPTION:<br>Letzte Woche haben wir mit Claude in nur einer Stunde eine 
- Architektur für einen Wardley-Map Editor entwickelt. Schnell\, spontan\, un
- geprüft – klassisches "Architektur-Theater" könnte man sagen. Aber was pass
- iert\, wenn diese Express-Architektur auf die Realität des Codes trifft?<br
- >In dieser Folge testen wir das ultimative "Garbage-In/Garbage-Out" Experim
- ent: Kann Claude Code aus unserer spontanen Architektur funktionierenden Co
- de entwickeln? Oder wird die fehlende Verifikation und Tiefe der Architektu
- r zum Stolperstein?<br>Mit dabei: <b><b><a href="https://www.linkedin.com/i
- n/ingo-eichhorst/">Ingo Eichhorst</a></b></b>\, der als KI-Experte seine Ei
- nschätzung zur praktischen Anwendung von LLMs in der Softwareentwicklung ei
- nbringt. Gemeinsam ergründen wir:<ul><li>Wie robust sind LLM-generierte Arc
- hitekturen in der Praxis?</li><li>Wo sind die Grenzen zwischen Architektur-
- Theorie und Code-Realität?</li><li>Kann Claude Code die Lücken einer "schne
- llen" Architektur selbst schließen?</li><li>Welche architektonischen Entsch
- eidungen erweisen sich als tragfähig\, welche als Luftschlösser?</li></ul><
- br>Ein authentisches Experiment ohne Drehbuch: Werden wir am Ende einen fun
- ktionsfähigen Wardley-Map Editor haben – oder lernen wir schmerzhaft\, waru
- m gründliche Architektur-Arbeit durch nichts zu ersetzen ist?<br><br><b><b>
- Live-Coding meets Architektur-Realitätscheck – mit ungewissem Ausgang.<br><
- br></b></b><a href="https://www.youtube.com/@EberhardWolff">https://www.you
- tube.com/@EberhardWolff</a><br><a href="https://www.twitch.tv/ebrwolff">htt
- ps://www.twitch.tv/ebrwolff</a>
-LAST-MODIFIED:20250618T075905Z
-LOCATION:https://youtu.be/@EberhardWolff https://www.twitch.tv/ebrwolff
+CLASS:PUBLIC
+CREATED:20250618T103817Z
+DESCRIPTION:Letzte Woche haben wir mit Claude in nur einer Stunde eine Arch
+	itektur für einen Wardley-Map Editor entwickelt. Schnell\, spontan\, unge
+	prüft – klassisches “Architektur-Theater” könnte man sagen. Aber w
+	as passiert\, wenn diese Express-Architektur auf die Realität des Codes t
+	rifft?\nIn dieser Folge testen wir das ultimative “Garbage-In/Garbage-Ou
+	t” Experiment: Kann Claude Code aus unserer spontanen Architektur funkti
+	onierenden Code entwickeln? Oder wird die fehlende Verifikation und Tiefe 
+	der Architektur zum Stolperstein?\nMit dabei: Ingo Eichhorst <https://www.
+	linkedin.com/in/ingo-eichhorst/> \, der als KI-Experte seine Einschätzung
+	 zur praktischen Anwendung von LLMs in der Softwareentwicklung einbringt.\
+	nGemeinsam ergründen wir:\n*	Wie robust sind LLM-generierte Architekturen
+	 in der Praxis?\n*	Wo sind die Grenzen zwischen Architektur-Theorie und Co
+	de-Realität?\n*	Kann Claude Code die Lücken einer “schnellen” Archit
+	ektur selbst schließen?\n*	Welche architektonischen Entscheidungen erweis
+	en sich als tragfähig\, welche als Luftschlösser?\nEin authentisches Exp
+	eriment ohne Drehbuch: Werden wir am Ende einen funktionsfähigen Wardley-
+	Map Editor haben – oder lernen wir schmerzhaft\, warum gründliche Archi
+	tektur-Arbeit durch nichts zu ersetzen ist?\nLive-Coding meets Architektur
+	-Realitätscheck – mit ungewissem Ausgang.\nhttps://youtu.be/ZoyMO9j0ZmY
+	 https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250620T140000
+DTSTAMP:20250618T103817Z
+DTSTART;TZID="W. Europe Standard Time":20250620T130000
+LAST-MODIFIED:20250618T103817Z
+LOCATION:https://youtu.be/ZoyMO9j0ZmY https://www.twitch.tv/ebrwolff
+PRIORITY:5
 SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Garbage-In/Garbage-Out? Claude Code und die Express-Architektur
+SUMMARY;LANGUAGE=de:Garbage-In/Garbage-Out? Claude Code und die Express-Arc
+	hitektur
 TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000090C421A14DE0DB01000000000000000
+	010000000C04977AB0A5F1047BE52A7E62105CF9E
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
 BEGIN:VALARM
+TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:This is an event reminder
-TRIGGER:-P0DT0H10M0S
+DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 END:VCALENDAR
-
