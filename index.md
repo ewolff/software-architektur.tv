@@ -25,20 +25,29 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
-## Nächste Episode: Offen
+## Nächste Episode: 2025-06-27 13:00 CEST Was ist die Hauptherausforderung der Software-Architektur?
+
+Software-Architektur gilt als anspruchsvoll und komplex – doch woran
+liegt das eigentlich?
+
+Auf Mastodon, BlueSky und LinkedIn haben wir gefragt: Was ist die
+zentrale Herausforderung in der Software-Architektur?
+
+In dieser Episode werfen wir einen Blick auf die Antworten und
+diskutieren, was Software-Architektur von so herausfordernd macht.
 
 [Add to Calendar](stream.ics)
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/ZoyMO9j0ZmY" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/P__HtLf1skA"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
