@@ -25,16 +25,15 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
-## Nächste Episode: 2025-06-27 13:00 CEST Was ist die Hauptherausforderung der Software-Architektur?
+## Nächste Episode: 2025-07-04 13:00 CEST Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle
 
-Software-Architektur gilt als anspruchsvoll und komplex – doch woran
-liegt das eigentlich?
-
-Auf Mastodon, BlueSky und LinkedIn haben wir gefragt: Was ist die
-zentrale Herausforderung in der Software-Architektur?
-
-In dieser Episode werfen wir einen Blick auf die Antworten und
-diskutieren, was Software-Architektur von so herausfordernd macht.
+Kaum ein Software-Projekt kommt heute noch ohne Open-Source-Teile
+aus. Wie kann man solche Komponenten im Projekt rechtlich und
+technisch richtig einsetzen? Welche Auswirkungen haben Lizenzen mit
+einem Copyleft? Was gilt es in Bezug auf Compliance zu beachten?
+Gerade der EU Cyber Resilience Act bringt das Thema wieder auf die
+Agenda. Prof. Dirk Riehle ist Professor für Open-Source-Software und
+diskutiert diese und andere Fragen mit uns.
 
 [Add to Calendar](stream.ics)
 
@@ -42,7 +41,7 @@ diskutieren, was Software-Architektur von so herausfordernd macht.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/P__HtLf1skA"
+	src="https://www.youtube-nocookie.com/embed/xwIoFhaRwf8"
 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 	encrypted-media; gyroscope; picture-in-picture fullscreen"
 	></iframe>

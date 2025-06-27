@@ -20,22 +20,23 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250624T173750Z
-DESCRIPTION:Software-Architektur gilt als anspruchsvoll und komplex – doc
-	h woran liegt das eigentlich?\n\nAuf Mastodon\, BlueSky und LinkedIn haben
-	 wir gefragt: Was ist die zentrale Herausforderung in der Software-Archite
-	ktur?\n\nIn dieser Episode werfen wir einen Blick auf die Antworten und di
-	skutieren\, was Software-Architektur von so herausfordernd macht.\n\nhttps
-	://youtu.be/P__HtLf1skA https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250627T140000
+CREATED:20250627T180658Z
+DESCRIPTION:Kaum ein Software-Projekt kommt heute noch ohne Open-Source-Tei
+	le aus. Wie kann man solche Komponenten im Projekt rechtlich und technisch
+	 richtig einsetzen? Welche Auswirkungen haben Lizenzen mit einem Copyleft?
+	 Was gilt es in Bezug auf Compliance zu beachten? Gerade der EU Cyber Resi
+	lience Act bringt das Thema wieder auf die Agenda. Prof. Dirk Riehle ist P
+	rofessor für Open-Source-Software und diskutiert diese und andere Fragen 
+	mit uns.\n\nhttps://youtu.be/xwIoFhaRwf8 https://www.twitch.tv/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250704T140000
 DTSTAMP:20250618T103817Z
-DTSTART;TZID="W. Europe Standard Time":20250627T130000
-LAST-MODIFIED:20250624T173750Z
-LOCATION:https://youtu.be/P__HtLf1skA https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250704T130000
+LAST-MODIFIED:20250627T180658Z
+LOCATION:https://youtu.be/xwIoFhaRwf8 https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Was ist die Hauptherausforderung der Software-Architekt
-	ur?
+SUMMARY;LANGUAGE=de:Open-Source-Komponenten richtig im Projekt oder Produkt
+	 verwenden mit Prof. Dirk Riehle
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000090C421A14DE0DB01000000000000000
 	010000000C04977AB0A5F1047BE52A7E62105CF9E
