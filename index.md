@@ -14,17 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Umfrage zur Website-Nutzung
-
-<div class="embed-container">
-<div class="ratio4x3">
-<iframe
-src="https://docs.google.com/forms/d/e/1FAIpQLSeQiEdpKNoi9CKfVK3FhDVf3w8yV2GQdhWr_1iDhuwdXBpDSA/viewform?embedded=true"
-width="640" height="2007" frameborder="0" marginheight="0"
-marginwidth="0">Loading…</iframe>
-</div>
-</div>
-
 ## Nächste Episode: 2025-07-04 13:00 CEST Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle
 
 Kaum ein Software-Projekt kommt heute noch ohne Open-Source-Teile
