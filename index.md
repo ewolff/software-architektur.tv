@@ -16,18 +16,57 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Episode: 2025-07-11 13:00 CEST The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn
 
-<!-- [Add to Calendar](stream.ics) -->
+"Fear will keep the local systems in line... fear of this battle
+station!" - Grand Moff Tarkin
 
-<!-- ## Live Stream -->
+In this session, we'll examine the most iconic space fortress in film
+history through Juan's complete arc42 documentation. This creative
+Star Wars project becomes an educational journey through the arc42
+template - exploring how fictional architectures can teach us real
+lessons about software documentation.
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/xwIoFhaRwf8" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+What to expect:
+
+- **A practical arc42 walkthrough:** Exploring how Juan applied the
+  arc42 template to document the Death Star's architecture. We'll walk
+  through the key chapters and see how each section contributes to
+  understanding this complex system.
+- **Architectural decisions that made history:** What can we learn
+  from the Empire's architectural choices? How does documenting
+  fictional systems help us understand real-world architecture
+  decisions?
+- **20 Years of arc42:** The template celebrates its 20th anniversary
+  in 2025. We'll explore why arc42 has remained relevant and how
+  creative examples like this help teach architecture documentation.
+- **Lessons learned from creative documentation:** What can we learn
+  when we apply serious architecture practices to fictional systems?
+  How does this approach help both newcomers and experienced
+  architects understand documentation principles?
+  
+Using Juan's arc42 documentation of the Death Star (available on
+GitHub in English and Spanish), we'll explore how structured
+documentation works in practice - and why good documentation matters
+whether you're building software or a space station.
+
+**Target audience:** Software architects, arc42 users, Star Wars fans,
+and anyone who wants to learn how to document architectures so that
+even after 20 years, someone still understands why certain decisions
+were made.
+
+"Remember... the documentation will be with you, always."
+
+[Add to Calendar](stream.ics)
+
+## Live Stream
+
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+	src="https://www.youtube-nocookie.com/embed/w0fj9kLVjEc"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+	encrypted-media; gyroscope; picture-in-picture fullscreen"
+	></iframe>
+</div>
+</center>
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 

@@ -20,23 +20,43 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20250627T180658Z
-DESCRIPTION:Kaum ein Software-Projekt kommt heute noch ohne Open-Source-Tei
-	le aus. Wie kann man solche Komponenten im Projekt rechtlich und technisch
-	 richtig einsetzen? Welche Auswirkungen haben Lizenzen mit einem Copyleft?
-	 Was gilt es in Bezug auf Compliance zu beachten? Gerade der EU Cyber Resi
-	lience Act bringt das Thema wieder auf die Agenda. Prof. Dirk Riehle ist P
-	rofessor für Open-Source-Software und diskutiert diese und andere Fragen 
-	mit uns.\n\nhttps://youtu.be/xwIoFhaRwf8 https://www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250704T140000
+CREATED:20250704T181745Z
+DESCRIPTION:“Fear will keep the local systems in line… fear of this bat
+	tle station!” - Grand Moff Tarkin\n\nIn this session\, we’ll examine t
+	he most iconic space fortress in film history through Juan’s complete ar
+	c42 documentation. This creative Star Wars project becomes an educational 
+	journey through the arc42 template - exploring how fictional architectures
+	 can teach us real lessons about software documentation.\n\nWhat to expect
+	:\n\n- A practical arc42 walkthrough: Exploring how Juan applied the arc42
+	 template to document the Death Star’s architecture. We’ll walk throug
+	h the key chapters and see how each section contributes to understanding t
+	his complex system.\n- Architectural decisions that made history: What can
+	 we learn from the Empire’s architectural choices? How does documenting 
+	fictional systems help us understand real-world architecture decisions?\n-
+	 20 Years of arc42: The template celebrates its 20th anniversary in 2025. 
+	We’ll explore why arc42 has remained relevant and how creative examples 
+	like this help teach architecture documentation.\n- Lessons learned from c
+	reative documentation: What can we learn when we apply serious architectur
+	e practices to fictional systems? How does this approach help both newcome
+	rs and experienced architects understand documentation principles?\n\nUsin
+	g Juan’s arc42 documentation of the Death Star (available on GitHub in E
+	nglish and Spanish)\, we’ll explore how structured documentation works i
+	n practice - and why good documentation matters whether you’re building 
+	software or a space station.\n\nTarget audience: Software architects\, arc
+	42 users\, Star Wars fans\, and anyone who wants to learn how to document 
+	architectures so that even after 20 years\, someone still understands why 
+	certain decisions were made.\n\n“Remember… the documentation will be w
+	ith you\, always.”\n\nhttps://youtu.be/w0fj9kLVjEc https://www.twitch.tv
+	/ebrwolff\n
+DTEND;TZID="W. Europe Standard Time":20250711T140000
 DTSTAMP:20250618T103817Z
-DTSTART;TZID="W. Europe Standard Time":20250704T130000
-LAST-MODIFIED:20250627T180658Z
-LOCATION:https://youtu.be/xwIoFhaRwf8 https://www.twitch.tv/ebrwolff
+DTSTART;TZID="W. Europe Standard Time":20250711T130000
+LAST-MODIFIED:20250704T181745Z
+LOCATION:https://youtu.be/w0fj9kLVjEc https://www.twitch.tv/ebrwolff
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=de:Open-Source-Komponenten richtig im Projekt oder Produkt
-	 verwenden mit Prof. Dirk Riehle
+SUMMARY;LANGUAGE=de:The Architecture of the Death Star - 20 Years of arc42 
+	and What We Can Learn
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000090C421A14DE0DB01000000000000000
 	010000000C04977AB0A5F1047BE52A7E62105CF9E
