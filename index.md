@@ -14,28 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2025-07-04 13:00 CEST Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle
+## Nächste Episode: 2025-07-11 13:00 CEST The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn
 
-Kaum ein Software-Projekt kommt heute noch ohne Open-Source-Teile
-aus. Wie kann man solche Komponenten im Projekt rechtlich und
-technisch richtig einsetzen? Welche Auswirkungen haben Lizenzen mit
-einem Copyleft? Was gilt es in Bezug auf Compliance zu beachten?
-Gerade der EU Cyber Resilience Act bringt das Thema wieder auf die
-Agenda. Prof. Dirk Riehle ist Professor für Open-Source-Software und
-diskutiert diese und andere Fragen mit uns.
+<!-- [Add to Calendar](stream.ics) -->
 
-[Add to Calendar](stream.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/xwIoFhaRwf8"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/xwIoFhaRwf8" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
