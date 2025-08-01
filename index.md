@@ -14,33 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2025-08-01 Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert
+## Nächste Episode: 2025-08-15 KI mit Barbara Lampl und Ralf D. Müller
 
-Das Model Context Protocol (MCP) wird nicht ohne Grund als das USB-C
-für Large Language Models (LLMs) bezeichnet: Es schafft einen
-Standard, wie LLMs auf Kontextinformationen zugreifen und externe
-Werkzeuge steuern können. Das hat große Auswirkungen auf die
-Entwicklung von KI-Anwendungen. In diesem Stream schauen wir uns an,
-warum MCP gerade in aller Munde ist, wie es funktioniert, und was es
-für Entwickler:innen konkret bedeutet. Mit dabei eine Live-Demo mit
-Spring AI. Martin Lippert leitet die Entwicklung der Spring-Tools und
-kann auf langjährige Erfahrung als Entwickler und Speaker
-zurückblicken.
+<!-- [Add to Calendar](stream.ics) -->
 
-[Add to Calendar](stream.ics)
+<!-- ## Live Stream -->
 
-## Live Stream
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/5Q_TrSfq4Mw" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/5Q_TrSfq4Mw"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 ## Fragen & Diskussion  / Question & Discussion
 
