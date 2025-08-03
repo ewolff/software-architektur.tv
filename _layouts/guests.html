@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+  
+  {% include head.html %}
+
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      
+      {{ content }}
+
+      {% include page-footer.html %}
+
+    </section>
+
+    <style>
+      .guests-search {
+        margin: 2rem 0;
+        padding: 1.5rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+      }
+
+      .search-input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+        border: 2px solid #dee2e6;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+      }
+
+      .search-input:focus {
+        outline: none;
+        border-color: #0066cc;
+        box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+      }
+
+      .filter-options {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .filter-options label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+
+      .guests-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .guest-card {
+        background: white;
+        border: 1px solid #e9ecef;
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+      }
+
+      .guest-card:hover {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        transform: translateY(-2px);
+      }
+
+      .guest-avatar {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      .guest-avatar img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #f8f9fa;
+      }
+
+      .guest-info {
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .guest-name {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #333;
+      }
+
+      .guest-episodes {
+        margin: 0 0 0.75rem 0;
+        color: #0066cc;
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+
+      .guest-bio {
+        font-size: 0.85rem;
+        color: #666;
+        line-height: 1.4;
+        margin: 0;
+      }
+
+      .guest-episodes-list {
+        border-top: 1px solid #e9ecef;
+        padding-top: 1rem;
+      }
+
+      .guest-episodes-list h4 {
+        margin: 0 0 0.75rem 0;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #333;
+      }
+
+      .guest-episodes-list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .guest-episodes-list li {
+        margin-bottom: 0.5rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+      }
+
+      .guest-episodes-list a {
+        color: #0066cc;
+        text-decoration: none;
+        display: block;
+      }
+
+      .guest-episodes-list a:hover {
+        text-decoration: underline;
+      }
+
+      .episode-date {
+        color: #999;
+        font-size: 0.8rem;
+        display: block;
+        margin-top: 0.25rem;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .guests-grid {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+        
+        .guest-card {
+          padding: 1rem;
+        }
+        
+        .filter-options {
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+      }
+
+      /* Dark mode support */
+      @media (prefers-color-scheme: dark) {
+        .guests-search {
+          background: #2d3748;
+        }
+        
+        .search-input {
+          background: #4a5568;
+          border-color: #4a5568;
+          color: white;
+        }
+        
+        .guest-card {
+          background: #2d3748;
+          border-color: #4a5568;
+          color: white;
+        }
+        
+        .guest-name {
+          color: white;
+        }
+        
+        .guest-episodes-list {
+          border-color: #4a5568;
+        }
+      }
+    </style>
+
+  </body>
+</html>
