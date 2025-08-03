@@ -1,0 +1,60 @@
+# Gäste von software-architektur.tv
+# Automatisch generiert aus Episode-Titeln
+
+Lisa Schäfer:
+  name: "Lisa Schäfer"
+  episode_count: 5
+  bio: ""  # TODO: Bio hinzufügen
+  avatar: "guests/lisa_schäfer.jpg"
+  episodes:
+    - number: 0
+      title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
+      date: "2024-11-08"
+      video: "gLcdgEBOoAA"
+      description: "Wie hilft Einzelcoaching als besondere Form des Coaching Techies? Wie können Coaching-Werkzeuge in der alltäglichen Arbeit unterstützen?"
+    - number: 39
+      title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
+      date: "2021-02-09"
+      video: "8IAdFtTCrt8"
+      description: "Praktische Hinweise zu Architektur-Reviews"
+    - number: 42
+      title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
+      date: "2021-02-10"
+      video: "gqF123U71u8"
+      description: "Ernsthafte Spiele können bei der Software-Entwicklung helfen."
+    - number: 45
+      title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
+      date: "2021-02-11"
+      video: "NBU4EZapeLQ"
+      description: "Architektur muss man abhängig von der Zielgruppe betrachten."
+    - number: 158
+      title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
+      date: "2023-04-14"
+      video: "XeFCNEJJlPg"
+      description: "Nora und Lisa berichten über Themen der JavaLand 2023 aus dem Blickwinkel der Software-Architektur."
+
+Franziska Dessart:
+  name: "Franziska Dessart"
+  episode_count: 3
+  bio: ""  # TODO: Bio hinzufügen
+  avatar: "guests/franziska_dessart.jpg"
+  episodes:
+    - number: 20
+      title: "Folge 20 -  Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+      date: "2020-10-02"
+      video: "YfRIfnHiuSU"
+      description: "Frontend-Architektur ist mehr als nur die Architektur einer Web Anwendung."
+    - number: 27
+      title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+      date: "2020-11-27"
+      video: "LKRn0lk3nVo"
+      description: "Die Optionen für die Architektur von Frontend-Anwendungen werden immer zahlreicher."
+    - number: 69
+      title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+      date: "2021-11-26"
+      video: "QmEePFJHJSc"
+      description: "Integration ist ein sehr wichtiger Aspekt von Frontend-Architekturen."
+
+Christoph Iserlohn:
+  name: "Christoph Iserlohn"
+  episode_count: 3
