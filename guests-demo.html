@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gäste - software-architektur.tv</title>
+    <style>
+    body {
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f8fa;
+    }
+
+    .page-header {
+      background: linear-gradient(120deg, #155799, #159957);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .page-header h1 { font-size: 3rem; margin: 0; }
+    .page-header h2 { font-size: 1.25rem; margin: 0.5rem 0 0 0; opacity: 0.9; }
+
+    .main-content { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+
+    .controls { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .controls input, .controls select { padding: 0.5rem; border: 1px solid #e9ebec; border-radius: 0.3rem; font-size: 1rem; }
+    .controls input { flex: 1; min-width: 250px; }
+
+    .stats { margin-bottom: 2rem; color: #159957; font-weight: bold; }
+
+    .guests-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1.5rem; }
+
+    .guest-card {
+      background-color: #fff; border: solid 1px #e9ebec; border-radius: 0.5rem;
+      padding: 1.5rem; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .guest-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-color: #159957; }
+
+    .guest-header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; }
+    .guest-photo { flex-shrink: 0; width: 64px; height: 64px; }
+    .photo-placeholder {
+      width: 100%; height: 100%; border-radius: 50%;
+      background: linear-gradient(135deg, #159957, #1e7e34);
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-weight: bold; font-size: 1.2rem;
+    }
+
+    .guest-title h3 { margin: 0 0 0.5rem 0; color: #155799; font-size: 1.25rem; }
+    .guest-links { display: flex; gap: 0.5rem; align-items: center; }
+    .linkedin-link { color: #0077b5; text-decoration: none; padding: 0.25rem; border-radius: 0.25rem; transition: background-color 0.2s; }
+    .linkedin-link:hover { background-color: #f0f8ff; }
+
+    .guest-stats { display: flex; gap: 1rem; margin-bottom: 1rem; font-size: 0.9rem; color: #606c71; flex-wrap: wrap; }
+
+    .episodes-list h4 { margin: 0 0 0.5rem 0; color: #24292e; font-size: 1rem; }
+    .episodes-list ul { list-style: none; padding: 0; margin: 0; }
+    .episodes-list li { margin-bottom: 0.5rem; padding: 0.5rem; background-color: #f8f9fa; border-radius: 0.3rem; border-left: 3px solid #159957; }
+    .episodes-list a { color: #155799; text-decoration: none; display: block; margin-bottom: 0.25rem; }
+    .episodes-list a:hover { text-decoration: underline; }
+    .episode-date { font-size: 0.85rem; color: #6a737d; }
+
+    @media (max-width: 768px) {
+      .guests-grid { grid-template-columns: 1fr; }
+      .page-header h1 { font-size: 2rem; }
+    }
+    </style>
+</head>
+<body>
+    <section class="page-header">
+        <h1>Gäste</h1>
+        <h2>Alle Gäste von software-architektur.tv mit ihren Episoden</h2>
+    </section>
+
+    <main class="main-content">
+        <div class="guests-container">
+            <div class="controls">
+                <input type="text" id="search" placeholder="🔍 Gäste durchsuchen...">
+                <select id="sort">
+                    <option value="name">Nach Name sortieren</option>
+                    <option value="episodes">Nach Episoden-Anzahl</option>
+                </select>
+            </div>
+            
+            <div class="stats">
+                <span class="stat">📊 105 Gäste insgesamt (Demo: Top 5 Gäste mit LinkedIn)</span>
+            </div>
+            
+            <div class="guests-grid" id="guests-grid">
+                <div class="guest-card" data-name="oliver drotbohm" data-episodes="7">
+                    <div class="guest-header">
+                        <div class="guest-photo"><div class="photo-placeholder"><span>OD</span></div></div>
+                        <div class="guest-title">
+                            <h3>Oliver Drotbohm</h3>
+                            <div class="guest-links">
+                                <a href="https://linkedin.com/in/oliverdrotbohm" target="_blank" class="linkedin-link" title="LinkedIn-Profil">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guest-stats">
+                        <span class="episode-count">📺 7 Episoden</span>
+                        <span class="latest-episode">🕐 20.07.2024</span>
+                    </div>
+                    <div class="episodes-list">
+                        <h4>Episoden:</h4>
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=CuM6mKQL2P0" target="_blank"><strong>Folge 212</strong>: Spring Modulith - Einfach modular entwickeln</a><span class="episode-date">20.07.2024</span></li>
+                            <li><a href="https://www.youtube.com/watch?v=LMdkJUEE6vQ" target="_blank"><strong>Folge 158</strong>: Spring Data und Repositories</a><span class="episode-date">06.05.2023</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="guest-card" data-name="stefan toth" data-episodes="5">
+                    <div class="guest-header">
+                        <div class="guest-photo"><div class="photo-placeholder"><span>ST</span></div></div>
+                        <div class="guest-title">
+                            <h3>Stefan Toth</h3>
+                            <div class="guest-links">
+                                <a href="https://linkedin.com/in/stefan-toth-architect" target="_blank" class="linkedin-link" title="LinkedIn-Profil">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guest-stats">
+                        <span class="episode-count">📺 5 Episoden</span>
+                        <span class="latest-episode">🕐 23.06.2024</span>
+                    </div>
+                    <div class="episodes-list">
+                        <h4>Episoden:</h4>
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=example" target="_blank"><strong>Folge 208</strong>: Architektur-Reviews in der Praxis</a><span class="episode-date">23.06.2024</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="guest-card" data-name="henning schwentner" data-episodes="4">
+                    <div class="guest-header">
+                        <div class="guest-photo"><div class="photo-placeholder"><span>HS</span></div></div>
+                        <div class="guest-title">
+                            <h3>Henning Schwentner</h3>
+                            <div class="guest-links">
+                                <a href="https://linkedin.com/in/henning-schwentner" target="_blank" class="linkedin-link" title="LinkedIn-Profil">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guest-stats">
+                        <span class="episode-count">📺 4 Episoden</span>
+                        <span class="latest-episode">🕐 02.09.2023</span>
+                    </div>
+                    <div class="episodes-list">
+                        <h4>Episoden:</h4>
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=example3" target="_blank"><strong>Folge 165</strong>: Domain-Driven Design</a><span class="episode-date">02.09.2023</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+    document.getElementById('search').addEventListener('input', function(e) {
+      const searchTerm = e.target.value.toLowerCase();
+      const cards = document.querySelectorAll('.guest-card');
+      cards.forEach(card => {
+        const name = card.dataset.name;
+        card.style.display = name.includes(searchTerm) ? 'block' : 'none';
+      });
+    });
+
+    document.getElementById('sort').addEventListener('change', function(e) {
+      const sortBy = e.target.value;
+      const grid = document.getElementById('guests-grid');
+      const cards = Array.from(grid.children);
+      
+      cards.sort((a, b) => {
+        if (sortBy === 'name') {
+          return a.dataset.name.localeCompare(b.dataset.name);
+        } else if (sortBy === 'episodes') {
+          return parseInt(b.dataset.episodes) - parseInt(a.dataset.episodes);
+        }
+        return 0;
+      });
+      
+      cards.forEach(card => grid.appendChild(card));
+    });
+    </script>
+</body>
+</html>
