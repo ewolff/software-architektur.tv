@@ -1,0 +1,308 @@
+COMPLETE GUEST LIST - 85 UNIQUE GUESTS
+Extracted from 89 episodes with guests
+
+Aminata Sidibe (2 episodes):
+  - Episode 50: title: Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe (2021-02-19)
+  - Episode 114: title: Folge 114 -  Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur (2022-04-01)
+
+Anja Kammer (2 episodes):
+  - Episode 31: title: Folge 31 - DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day (2020-12-07)
+  - Episode 147: title: Folge 147 - Wie reißt man den Elfenbeinturm ein? mit Anja Kammer (2023-01-13)
+
+Aydin Mir Mohammadi (1 episode):
+  - Episode 235: title: Folge 235 - Green Software Development mit Aydin Mir Mohammadi (2024-10-18)
+
+Bernd Rücker (1 episode):
+  - Episode 243: title: Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker (2024-12-06)
+
+Christian Weyer (1 episode):
+  - Episode 246: title: Folge 246 - GenAI und Software-Architektur mit Christian Weyer (2025-01-10)
+
+Christoph Iserlohn (3 episodes):
+  - Episode 166: title: Folge 166 - Zero Trust mit Christoph Iserlohn (2023-05-26)
+  - Episode 155: title: Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn (2023-03-10)
+  - Episode 30: title: Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day (2020-12-07)
+
+Claude (1 episode):
+  - Episode 267: title: Folge 267 - Architekturtheater mit Claude und Ralf (2025-06-13)
+
+Code (1 episode):
+  - Episode 33: title: Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger (2020-12-18)
+
+Cosima Laube (1 episode):
+  - Episode 239: title: Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer (2024-11-08)
+
+DSL (1 episode):
+  - Episode 22: title: Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages) (2020-10-23)
+
+Danilo Beuche (1 episode):
+  - Episode 24: title: Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche (2020-11-06)
+
+Dehla Sokenou (1 episode):
+  - Episode 171: title: Folge 171 - Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special) (2023-06-30)
+
+Dingen (1 episode):
+  - Episode 33: title: Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger (2020-12-18)
+
+Domain (1 episode):
+  - Episode 134: title: Folge 134 - Domain Prototyping - Iterative Entwicklung mit Domain-driven Design & User Experience mit Tobias Goeschel (2022-09-16)
+
+Dr. Julia Freudenberg (1 episode):
+  - Episode 202: title: Folge 202 - Hack the World a Better Place mit Dr. Julia Freudenberg (2024-02-09)
+
+Dr. Miriam Greis (1 episode):
+  - Episode 205: title: Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer (2024-03-01)
+
+Eberhard (2 episodes):
+  - Episode 272: title: Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf (2025-07-25)
+  - Episode 266: title: Folge 266 - Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard (2025-06-06)
+
+Eberhard Wolff (1 episode):
+  - Episode 162: title: Folge 162 -  Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG (2023-04-27)
+
+Erik Wilde (1 episode):
+  - Episode 52: title: Folge 52 - APIs mit Erik Wilde (2021-03-05)
+
+Falk Hoppe (1 episode):
+  - Episode 150: title: Folge 150 -  Frontendintegrationsmuster im Web mit Falk Hoppe (2023-02-03)
+
+Falk Sippach (1 episode):
+  - Episode 138: title: Folge 138 - Was ist Documentation as Code? mit Falk Sippach (2022-10-14)
+
+Felix Müller (1 episode):
+  - Episode 122: title: Folge 122 - DORA Metriken & Accelerate mit Felix Müller (2022-06-10)
+
+Franziska Dessart (4 episodes):
+  - Episode 69: title: Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen (2021-07-30)
+  - Episode 20: title: Folge 20 -  Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen (2020-10-02)
+  - Episode 27: title: Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen (2020-11-27)
+  - Episode 56: title: Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber (2021-04-16)
+
+Friederike Sternberg (1 episode):
+  - Episode 232: title: Folge 232 - Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con (2024-09-20)
+
+Gerrit Beine (1 episode):
+  - Episode 157: title: Folge 157 - Single Source of Truth mit Gerrit Beine (2023-03-17)
+
+HTTP Feeds (1 episode):
+  - Episode 98: title: Folge 98 - Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ (2022-01-14)
+
+Hanna Prinz (1 episode):
+  - Episode 19: title: Folge 19 - Service Mesh Linkerd mit Hanna Prinz (2020-09-18)
+
+Henning Schwentner (2 episodes):
+  - Episode 75: title: Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner (2021-09-17)
+  - Episode 21: title: Folge 21 -  Domain Story Telling mit Henning Schwentner und Stefan Hofer (2020-10-09)
+
+Java (1 episode):
+  - Episode 219: title: Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm (2024-05-31)
+
+Jochen Christ (1 episode):
+  - Episode 56: title: Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber (2021-04-16)
+
+Jochen Mader (1 episode):
+  - Episode 231: title: Folge 231 - Supply Chain Security mit Jochen Mader - live von der BED-Con (2024-09-19)
+
+Johannes Link (1 episode):
+  - Episode 71: title: Folge 71 - Welchen Sinn hat agiles Coaching? mit Johannes Link (2021-08-13)
+
+Johannes Seitz (1 episode):
+  - Episode 29: title: Folge 29 - Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day (2020-12-07)
+
+Joseph Pelrine (1 episode):
+  - Episode 167: title: Folge 167 - Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special (2023-06-02)
+
+Joy Heron (3 episodes):
+  - Episode 69: title: Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen (2021-07-30)
+  - Episode 20: title: Folge 20 -  Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen (2020-10-02)
+  - Episode 27: title: Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen (2020-11-27)
+
+Jutta Eckstein (1 episode):
+  - Episode 107: title: Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP! (2022-02-02)
+
+Kim Nena Duggen (1 episode):
+  - Episode 230: title: Folge 230 - Team Topologie in der Praxis mit Kim Nena Duggen (2024-09-16)
+
+Lars Hupel (1 episode):
+  - Episode 50: title: Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe (2021-02-19)
+
+Lena Kraaz (1 episode):
+  - Episode 50: title: Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe (2021-02-19)
+
+Liberating Structures für Architekt:innen mit Martin Günther (1 episode):
+  - Episode 234: title: "Folge 234 - Moderation mit Liberating Structures für Architekt:innen mit Martin Günther (2024-10-04)
+
+Lisa (1 episode):
+  - Episode 272: title: Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf (2025-07-25)
+
+Lisa Schäfer (7 episodes):
+  - Episode 239: title: Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer (2024-11-08)
+  - Episode 42: title: Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer (2021-02-10)
+  - Episode 158: title: Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer (2023-03-24)
+  - Episode 45: title: Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer (2021-02-11)
+  - Episode 146: title: Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer (2022-12-16)
+  - Episode 205: title: Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer (2024-03-01)
+  - Episode 39: title: Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer (2021-02-09)
+
+Lucas Dohmen (5 episodes):
+  - Episode 251: title: Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen (2025-02-21)
+  - Episode 69: title: Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen (2021-07-30)
+  - Episode 20: title: Folge 20 -  Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen (2020-10-02)
+  - Episode 27: title: Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen (2020-11-27)
+  - Episode 135: title: Folge 135 - HTTP mit Lucas Dohmen (2022-09-23)
+
+Marco Emrich (3 episodes):
+  - Episode 236: title: Folge 236 - Code Retreat live - mit Marco Emrich (2024-10-25)
+  - Episode 225: title: Folge 225 - Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2 (2024-07-26)
+  - Episode 226: title: Folge 226 - Theorie des Aufräumens - Kent Beck’s “Tidy First?” mit Marco Emrich 2/2 (2024-08-02)
+
+Marina Köhn (1 episode):
+  - Episode 107: title: Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP! (2022-02-02)
+
+Markus Völter (1 episode):
+  - Episode 175: title: Folge 175 - How to Understand Almost Anything mit Markus Völter (2023-07-21)
+
+Martin Huber (1 episode):
+  - Episode 56: title: Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber (2021-04-16)
+
+Martin Lippert (2 episodes):
+  - Episode 273: title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert (2025-08-01)
+  - Episode 59: title: Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock (2021-05-21)
+
+Max Schulze (1 episode):
+  - Episode 107: title: Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP! (2022-02-02)
+
+Melanie Schäfer (1 episode):
+  - Episode 164: title: Folge 164 - Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer (2023-05-17)
+
+Menschen mit Michael Hunger (1 episode):
+  - Episode 33: title: Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger (2020-12-18)
+
+Michael Ahrens (1 episode):
+  - Episode 227: title: Folge 227 - Firmenpolitik für Architekt:innen mit Michael Ahrens (2024-08-09)
+
+Michael Plöd (1 episode):
+  - Episode 224: title: Folge 224 - Quality Storming mit Michael Plöd (2024-07-12)
+
+Michael Vitz (1 episode):
+  - Episode 180: title: Folge 180 - Engineering Excellence mit Michael Vitz (2023-09-15)
+
+Michaela Kühn (1 episode):
+  - Episode 161: title: Folge 161 - Business Analyst:in und Software-Architektur mit Michaela Kühn (2023-04-21)
+
+Mike Sperber (2 episodes):
+  - Episode 186: title: Folge 186 - Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber (2023-10-20)
+  - Episode 156: title: Folge 156 - Funktionale Programmierung, DDD und Architektur mit Mike Sperber (2023-03-14)
+
+Nadine Andraczek (1 episode):
+  - Episode 177: title: Folge 177 - Scrum Master:in und Softwarearchitektur mit Nadine Andraczek (2023-08-04)
+
+Nora Schöner (1 episode):
+  - Episode 158: title: Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer (2023-03-24)
+
+Open (1 episode):
+  - Episode 32: title: Folge 32 - Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle (2020-12-11)
+
+Prof. Dirk Riehle (1 episode):
+  - Episode 270: title: Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle (2025-07-04)
+
+Rakia Ben Sassi (1 episode):
+  - Episode 188: title: Folge 188 - Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee mit Rakia Ben Sassi (2023-11-03)
+
+Ralf (3 episodes):
+  - Episode 272: title: Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf (2025-07-25)
+  - Episode 267: title: Folge 267 - Architekturtheater mit Claude und Ralf (2025-06-13)
+  - Episode 266: title: Folge 266 - Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard (2025-06-06)
+
+Ralf D. Müller (5 episodes):
+  - Episode 193: title: Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller (2023-12-15)
+  - Episode 197: title: Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller (2024-01-19)
+  - Episode 146: title: Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer (2022-12-16)
+  - Episode 242: title: Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller (2024-11-29)
+  - Episode 199: title: Folge 199 - Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller (2024-01-26)
+
+Rebecca Temme (1 episode):
+  - Episode 163: title: Folge 163 - Kommunikation im Entwicklungsprozess mit Rebecca Temme (2023-04-28)
+
+Richard Gross (1 episode):
+  - Episode 248: title: Folge 248 - Code Charta mit Richard Gross (2025-01-24)
+
+Sascha Möllering (1 episode):
+  - Episode 154: title: Folge 154 - Serverless Architektur mit Sascha Möllering (2023-03-03)
+
+Simon Harrer (1 episode):
+  - Episode 56: title: Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber (2021-04-16)
+
+Single Page Frameworks (1 episode):
+  - Episode 84: title: Folge 84 - Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks (2021-10-15)
+
+Sonargraph (1 episode):
+  - Episode 60: title: Folge 60 - Alexander von Zitzewitz zu Architektur-Management mit Sonargraph (2021-05-28)
+
+Spring (1 episode):
+  - Episode 190: title: Folge 190 - Microservices mit Spring (2023-12-01)
+
+Spring Boot (1 episode):
+  - Episode 54: title: Folge 54 - GraalVM mit Spring Native, Spring Boot und Spring Cloud (2021-04-01)
+
+Spring Cloud (1 episode):
+  - Episode 54: title: Folge 54 - GraalVM mit Spring Native, Spring Boot und Spring Cloud (2021-04-01)
+
+Spring Native (1 episode):
+  - Episode 54: title: Folge 54 - GraalVM mit Spring Native, Spring Boot und Spring Cloud (2021-04-01)
+
+Stefan Hofer (1 episode):
+  - Episode 21: title: Folge 21 -  Domain Story Telling mit Henning Schwentner und Stefan Hofer (2020-10-09)
+
+Stefan Roock (1 episode):
+  - Episode 59: title: Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock (2021-05-21)
+
+Stefan Tilkov (1 episode):
+  - Episode 162: title: Folge 162 -  Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG (2023-04-27)
+
+Stefan Toth (2 episodes):
+  - Episode 196: title: Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner (2024-01-12)
+  - Episode 128: title: Folge 128 - Agilität und Architektur mit Stefan Toth (2022-07-22)
+
+Stefan Zörner (1 episode):
+  - Episode 196: title: Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner (2024-01-12)
+
+Sönke Marahrens (1 episode):
+  - Episode 141: title: Folge 141 - Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens (2022-11-04)
+
+Tanja Friedel (2 episodes):
+  - Episode 249: title: Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel (2025-01-31)
+  - Episode 263: title: Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow (2025-05-16)
+
+Uwe Vigenschow (1 episode):
+  - Episode 263: title: Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow (2025-05-16)
+
+dem Faktor Mensch um? (1 episode):
+  - Episode 178: title: Folge 178 - Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um? (2023-08-11)
+
+dem Technology (1 episode):
+  - Episode 28: title: Folge 28 - Der INNOQ Technology Day mit dem Technology-Day-Programm-Komitee (2020-12-07)
+
+jMolecules mit O (1 episode):
+  - Episode 219: title: Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm (2024-05-31)
+
+jQAssistant (1 episode):
+  - Episode 58: title: Folge 58 - Dirk Mahler zu Software-Architektur-Management mit jQAssistant (2021-05-07)
+
+
+STATISTICS:
+Total unique guests: 85
+Total guest episodes: 89
+Guests with multiple appearances: 16
+
+Top guests by episode count:
+  Lisa Schäfer: 7 episodes
+  Ralf D. Müller: 5 episodes
+  Lucas Dohmen: 5 episodes
+  Franziska Dessart: 4 episodes
+  Ralf: 3 episodes
+  Marco Emrich: 3 episodes
+  Christoph Iserlohn: 3 episodes
+  Joy Heron: 3 episodes
+  Stefan Toth: 2 episodes
+  Martin Lippert: 2 episodes

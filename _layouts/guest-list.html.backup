@@ -1,0 +1,239 @@
+---
+layout: default
+---
+
+<div class="guest-list-container">
+  <!-- Page Header -->
+  <header class="guest-list-header">
+    <h1>{{ page.title | default: "Gäste von Software-Architektur.tv" }}</h1>
+    {% if page.description %}
+      <p class="guest-list-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <!-- Filter and Search Controls -->
+  <div class="guest-controls">
+    <div class="search-container">
+      <input type="text" id="guest-search" placeholder="Gast suchen..." class="search-input">
+      <span class="search-icon">🔍</span>
+    </div>
+    
+    <div class="filter-container">
+      <select id="tag-filter" class="filter-select">
+        <option value="">Alle Tags</option>
+        <!-- Tags werden dynamisch gefüllt -->
+      </select>
+    </div>
+    
+    <div class="sort-container">
+      <select id="guest-sort" class="sort-select">
+        <option value="name">Alphabetisch</option>
+        <option value="episodes">Nach Auftritten</option>
+        <option value="recent">Zuletzt aufgetreten</option>
+      </select>
+    </div>
+    
+    <div class="results-info">
+      <span id="guest-count"></span>
+    </div>
+  </div>
+
+  <!-- Guest Grid -->
+  <div class="guest-grid" id="guest-grid">
+    {% for guest in site.data.guests.guests %}
+      <article class="guest-card" 
+               data-name="{{ guest.name | downcase }}"
+               data-tags="{{ guest.tags | join: ',' | downcase }}"
+               data-episodes="{{ guest.episodes.size }}"
+               data-recent="{{ guest.episodes.last.date }}">
+        
+        <!-- Guest Avatar -->
+        <div class="guest-avatar">
+          <img src="{{ guest.image | default: '/images/guests/placeholder.jpg' }}" 
+               alt="{{ guest.name }}" 
+               loading="lazy"
+               onerror="this.src='/images/guests/placeholder.jpg'">
+        </div>
+        
+        <!-- Guest Info -->
+        <div class="guest-info">
+          <h3 class="guest-name">{{ guest.name }}</h3>
+          
+          {% if guest.bio %}
+            <p class="guest-bio">{{ guest.bio }}</p>
+          {% endif %}
+          
+          <!-- Guest Tags -->
+          {% if guest.tags.size > 0 %}
+            <div class="guest-tags">
+              {% for tag in guest.tags %}
+                <span class="tag-pill">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          
+          <!-- Guest Links -->
+          <div class="guest-links">
+            {% if guest.linkedin %}
+              <a href="{{ guest.linkedin }}" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="linkedin-link"
+                 title="LinkedIn-Profil von {{ guest.name }}">
+                <span class="linkedin-icon">💼</span> LinkedIn
+              </a>
+            {% endif %}
+          </div>
+          
+          <!-- Episode Count -->
+          <div class="guest-stats">
+            <span class="episode-count">
+              {{ guest.episodes.size }} 
+              {% if guest.episodes.size == 1 %}Auftritt{% else %}Auftritte{% endif %}
+            </span>
+          </div>
+        </div>
+        
+        <!-- Episodes List (collapsible) -->
+        {% if guest.episodes.size > 0 %}
+          <div class="guest-episodes">
+            <button class="episodes-toggle" 
+                    aria-expanded="false"
+                    aria-controls="episodes-{{ forloop.index }}">
+              Episoden anzeigen
+            </button>
+            
+            <div class="episodes-list" 
+                 id="episodes-{{ forloop.index }}"
+                 aria-hidden="true">
+              {% for episode in guest.episodes %}
+                <div class="episode-item">
+                  <a href="{{ episode.url }}" class="episode-link">
+                    {{ episode.title }}
+                  </a>
+                  <span class="episode-date">{{ episode.date | date: "%d.%m.%Y" }}</span>
+                  {% if episode.role %}
+                    <span class="episode-role">{{ episode.role }}</span>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  <!-- No Results Message -->
+  <div class="no-results" id="no-results" style="display: none;">
+    <h3>Keine Gäste gefunden</h3>
+    <p>Versuche einen anderen Suchbegriff oder Filter.</p>
+  </div>
+
+  <!-- Loading Indicator -->
+  <div class="loading-indicator" id="loading" style="display: none;">
+    <div class="spinner"></div>
+    <p>Lädt Gäste...</p>
+  </div>
+</div>
+
+<!-- Page Content (falls vorhanden) -->
+{% if content and content != empty %}
+  <div class="guest-list-content">
+    {{ content }}
+  </div>
+{% endif %}
+
+<!-- JavaScript für Interaktivität -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Guest List Funktionalität
+  const guestGrid = document.getElementById('guest-grid');
+  const guestCards = document.querySelectorAll('.guest-card');
+  const searchInput = document.getElementById('guest-search');
+  const tagFilter = document.getElementById('tag-filter');
+  const sortSelect = document.getElementById('guest-sort');
+  const guestCount = document.getElementById('guest-count');
+  const noResults = document.getElementById('no-results');
+  
+  // Tags für Filter sammeln
+  const allTags = new Set();
+  guestCards.forEach(card => {
+    const tags = card.dataset.tags.split(',').filter(tag => tag.trim());
+    tags.forEach(tag => allTags.add(tag.trim()));
+  });
+  
+  // Tag-Filter Options hinzufügen
+  Array.from(allTags).sort().forEach(tag => {
+    const option = document.createElement('option');
+    option.value = tag;
+    option.textContent = tag.charAt(0).toUpperCase() + tag.slice(1);
+    tagFilter.appendChild(option);
+  });
+  
+  // Filter- und Sortier-Funktionen
+  function updateGuestDisplay() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedTag = tagFilter.value.toLowerCase();
+    const sortBy = sortSelect.value;
+    
+    let visibleCards = Array.from(guestCards).filter(card => {
+      const name = card.dataset.name;
+      const tags = card.dataset.tags;
+      
+      const matchesSearch = !searchTerm || name.includes(searchTerm);
+      const matchesTag = !selectedTag || tags.includes(selectedTag);
+      
+      return matchesSearch && matchesTag;
+    });
+    
+    // Sortierung
+    visibleCards.sort((a, b) => {
+      switch(sortBy) {
+        case 'episodes':
+          return parseInt(b.dataset.episodes) - parseInt(a.dataset.episodes);
+        case 'recent':
+          return new Date(b.dataset.recent) - new Date(a.dataset.recent);
+        default: // name
+          return a.dataset.name.localeCompare(b.dataset.name);
+      }
+    });
+    
+    // Grid aktualisieren
+    guestCards.forEach(card => card.style.display = 'none');
+    visibleCards.forEach(card => card.style.display = 'block');
+    
+    // Reihenfolge aktualisieren
+    visibleCards.forEach(card => guestGrid.appendChild(card));
+    
+    // Ergebnis-Counter
+    const count = visibleCards.length;
+    guestCount.textContent = `${count} ${count === 1 ? 'Gast' : 'Gäste'}`;
+    
+    // No Results anzeigen
+    noResults.style.display = count === 0 ? 'block' : 'none';
+  }
+  
+  // Event Listeners
+  searchInput.addEventListener('input', updateGuestDisplay);
+  tagFilter.addEventListener('change', updateGuestDisplay);
+  sortSelect.addEventListener('change', updateGuestDisplay);
+  
+  // Episode Toggle Funktionalität
+  document.querySelectorAll('.episodes-toggle').forEach(toggle => {
+    toggle.addEventListener('click', function() {
+      const targetId = this.getAttribute('aria-controls');
+      const episodesList = document.getElementById(targetId);
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      
+      this.setAttribute('aria-expanded', !isExpanded);
+      episodesList.setAttribute('aria-hidden', isExpanded);
+      episodesList.style.display = isExpanded ? 'none' : 'block';
+      this.textContent = isExpanded ? 'Episoden anzeigen' : 'Episoden verbergen';
+    });
+  });
+  
+  // Initiale Anzeige
+  updateGuestDisplay();
+});
+</script>

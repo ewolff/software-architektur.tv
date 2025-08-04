@@ -1,0 +1,9 @@
+COMPLETE GUEST EXTRACTION RESULTS
+Found 2 unique guests
+
+Liberating Structures für Architekt:innen mit Martin Günther:
+  - Folge 234 - Moderation mit Liberating Structures für Architekt:innen mit Martin Günther (2024-10-04)
+
+Martin Lippert:
+  - Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert (2025-08-01)
+

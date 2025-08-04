@@ -1,10 +1,44 @@
 # Software-Architektur.tv Gäste-Datenbank
-# VOLLSTÄNDIGE Liste aller Gäste aus allen 89 Episoden mit Gästen
-# Extrahiert und bereinigt - nur echte Personen
-# Anzahl Gäste: 71
+# VOLLSTÄNDIGE Liste aller Gäste UND Moderatoren aus allen 271 Episoden
+# Deutsche + Internationale Gäste + Moderatoren/Co-Hosts
+# Anzahl Gäste: 107
+# Anzahl Moderatoren: 3
 
 guests:
 
+  # Adam Tornhill - 1 Episode
+  - name: "Adam Tornhill"
+    linkedin: "https://www.linkedin.com/in/adam-tornhill/"
+    image: "/images/guests/adam-tornhill.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 168 - Hands-on Behavioral Code Analysis with Adam Tornhill"
+        url: "/2023/06/07/"
+        date: "2023-06-07"
+        role: "guest"
+  # Aino Vonge Corry - 1 Episode
+  - name: "Aino Vonge Corry"
+    linkedin: "https://www.linkedin.com/in/aino-vonge-corry/"
+    image: "/images/guests/aino-vonge-corry.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
+        url: "/2021/02/11/"
+        date: "2021-02-11"
+        role: "guest"
+  # Alberto Brandolini - 1 Episode
+  - name: "Alberto Brandolini"
+    linkedin: "https://www.linkedin.com/in/alberto-brandolini/"
+    image: "/images/guests/alberto-brandolini.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Episode 215 - Alberto Brandolini - The Chasm Between Architecture and Business"
+        url: "/2024/05/10/"
+        date: "2024-05-10"
+        role: "guest"
   # Alexander von Zitzewitz - 1 Episode
   - name: "Alexander von Zitzewitz"
     linkedin: "https://www.linkedin.com/in/alexander-von-zitzewitz/"
@@ -20,7 +54,7 @@ guests:
   - name: "Aminata Sidibe"
     linkedin: "https://www.linkedin.com/in/aminata-sidibe/"
     image: "/images/guests/aminata-sidibe.jpg"
-    bio: "Diversity & Inclusion Expertin"
+    bio: "Diversity & Inclusion Experte/Expertin"
     tags: ['Software Architecture', 'Diversity', 'Inclusion']
     episodes:
       - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
@@ -30,6 +64,17 @@ guests:
       - title: "Folge 114 - Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur"
         url: "/2022/04/01/"
         date: "2022-04-01"
+        role: "guest"
+  # Ana Nad - 1 Episode
+  - name: "Ana Nad"
+    linkedin: "https://www.linkedin.com/in/ana-nad/"
+    image: "/images/guests/ana-nad.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic"
+        url: "/2025/04/04/"
+        date: "2025-04-04"
         role: "guest"
   # Anja Kammer - 2 Episoden
   - name: "Anja Kammer"
@@ -45,6 +90,17 @@ guests:
       - title: "Folge 147 - Wie reißt man den Elfenbeinturm ein? mit Anja Kammer"
         url: "/2023/01/13/"
         date: "2023-01-13"
+        role: "guest"
+  # Avraham Poupko - 1 Episode
+  - name: "Avraham Poupko"
+    linkedin: "https://www.linkedin.com/in/avraham-poupko/"
+    image: "/images/guests/avraham-poupko.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
+        url: "/2021/10/14/"
+        date: "2021-10-14"
         role: "guest"
   # Aydin Mir Mohammadi - 1 Episode
   - name: "Aydin Mir Mohammadi"
@@ -68,12 +124,34 @@ guests:
         url: "/2024/12/06/"
         date: "2024-12-06"
         role: "guest"
+  # Chris Chedgey - 1 Episode
+  - name: "Chris Chedgey"
+    linkedin: "https://www.linkedin.com/in/chris-chedgey/"
+    image: "/images/guests/chris-chedgey.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
+        url: "/2021/06/04/"
+        date: "2021-06-04"
+        role: "guest"
+  # Chris Richardson - 1 Episode
+  - name: "Chris Richardson"
+    linkedin: "https://www.linkedin.com/in/chris-richardson/"
+    image: "/images/guests/chris-richardson.jpg"
+    bio: "Microservices Architektur Experte/Expertin"
+    tags: ['Microservices', 'International Speaker']
+    episodes:
+      - title: "Episode 79 - Microservices, Monoliths, Modularization with Chris Richardson"
+        url: "/2021/10/04/"
+        date: "2021-10-04"
+        role: "guest"
   # Christian Weyer - 1 Episode
   - name: "Christian Weyer"
     linkedin: "https://www.linkedin.com/in/christian-weyer/"
     image: "/images/guests/christian-weyer.jpg"
-    bio: "KI und Software-Architektur"
-    tags: ['Software Architecture', 'AI', 'Machine Learning']
+    bio: "KI und Software-Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
     episodes:
       - title: "Folge 246 - GenAI und Software-Architektur mit Christian Weyer"
         url: "/2025/01/10/"
@@ -83,7 +161,7 @@ guests:
   - name: "Christoph Iserlohn"
     linkedin: "https://www.linkedin.com/in/christoph-iserlohn/"
     image: "/images/guests/christoph-iserlohn.jpg"
-    bio: "Security Experte/Expertin"
+    bio: "Security und Cybersecurity Experte/Expertin"
     tags: ['Security', 'OWASP', 'Cybersecurity', 'Software Architecture']
     episodes:
       - title: "Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day"
@@ -109,16 +187,46 @@ guests:
         url: "/2025/06/13/"
         date: "2025-06-13"
         role: "guest"
-  # Cosima Laube - 1 Episode
+  # Cosima Laube - 3 Episoden
   - name: "Cosima Laube"
     linkedin: "https://www.linkedin.com/in/cosima-laube/"
     image: "/images/guests/cosima-laube.jpg"
-    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
-    tags: ['Coaching', 'Leadership']
+    bio: "International Software Architecture Expert"
+    tags: ['Coaching', 'Leadership', 'International Speaker']
     episodes:
+      - title: "Episode 83 - Cosima Laube about D.A.R.E. more, F.E.A.R. less and Journaling"
+        url: "/2021/10/14/"
+        date: "2021-10-14"
+        role: "guest"
       - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
         url: "/2024/11/08/"
         date: "2024-11-08"
+        role: "guest"
+      - title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni"
+        url: "/2025/03/18/"
+        date: "2025-03-18"
+        role: "guest"
+  # Dajana Günther - 1 Episode
+  - name: "Dajana Günther"
+    linkedin: "https://www.linkedin.com/in/dajana-guenther/"
+    image: "/images/guests/dajana-guenther.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
+        url: "/2023/02/10/"
+        date: "2023-02-10"
+        role: "guest"
+  # Daniel Terhorst-North - 1 Episode
+  - name: "Daniel Terhorst-North"
+    linkedin: "https://www.linkedin.com/in/daniel-terhorstnorth/"
+    image: "/images/guests/daniel-terhorst-north.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 100 - Daniel Terhorst-North - SOLID vs. CUPID"
+        url: "/2022/01/27/"
+        date: "2022-01-27"
         role: "guest"
   # Danilo Beuche - 1 Episode
   - name: "Danilo Beuche"
@@ -141,6 +249,21 @@ guests:
       - title: "Folge 171 - Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)"
         url: "/2023/06/30/"
         date: "2023-06-30"
+        role: "guest"
+  # Diana Montalion - 2 Episoden
+  - name: "Diana Montalion"
+    linkedin: "https://www.linkedin.com/in/diana-montalion/"
+    image: "/images/guests/diana-montalion.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 137 - Non-linear Thinking with Diana Montalion"
+        url: "/2022/10/07/"
+        date: "2022-10-07"
+        role: "guest"
+      - title: "Episode 238 - Learning Systems Thinking with Diana Montalion and Lisa Schäfer"
+        url: "/2024/11/07/"
+        date: "2024-11-07"
         role: "guest"
   # Dirk Mahler - 1 Episode
   - name: "Dirk Mahler"
@@ -168,64 +291,71 @@ guests:
   - name: "Dr. Miriam Greis"
     linkedin: "https://www.linkedin.com/in/miriam-greis/"
     image: "/images/guests/dr-miriam-greis.jpg"
-    bio: "API Design und Architektur"
+    bio: "API Design und Architektur Experte/Expertin"
     tags: ['API Design']
     episodes:
       - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
         url: "/2024/02/23/"
         date: "2024-02-23"
         role: "guest"
-  # Eberhard Wolff - 3 Episoden
-  - name: "Eberhard Wolff"
-    linkedin: "https://www.linkedin.com/in/eberhard-wolff/"
-    image: "/images/guests/eberhard-wolff.jpg"
-    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
-    tags: ['Software Architecture', 'AI', 'Machine Learning']
-    episodes:
-      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
-        url: "/2023/04/28/"
-        date: "2023-04-28"
-        role: "guest"
-      - title: "Folge 266 - Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard"
-        url: "/2025/05/30/"
-        date: "2025-05-30"
-        role: "guest"
-      - title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
-        url: "/2025/07/25/"
-        date: "2025-07-25"
-        role: "guest"
   # Erik Wilde - 1 Episode
   - name: "Erik Wilde"
     linkedin: "https://www.linkedin.com/in/erik-wilde/"
     image: "/images/guests/erik-wilde.jpg"
-    bio: "API Design und Architektur"
+    bio: "API Design und Architektur Experte/Expertin"
     tags: ['API Design']
     episodes:
       - title: "Folge 52 - APIs mit Erik Wilde"
         url: "/2021/03/05/"
         date: "2021-03-05"
         role: "guest"
+  # Evelyn Van Kelle - 1 Episode
+  - name: "Evelyn Van Kelle"
+    linkedin: "https://www.linkedin.com/in/evelyn-van-kelle/"
+    image: "/images/guests/evelyn-van-kelle.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
+        url: "/2022/01/31/"
+        date: "2022-01-31"
+        role: "guest"
   # Falk Hoppe - 1 Episode
   - name: "Falk Hoppe"
     linkedin: "https://www.linkedin.com/in/falk-hoppe/"
     image: "/images/guests/falk-hoppe.jpg"
-    bio: "Frontend-Entwicklung und -Architektur"
+    bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development']
     episodes:
       - title: "Folge 150 - Frontendintegrationsmuster im Web mit Falk Hoppe"
         url: "/2023/02/03/"
         date: "2023-02-03"
         role: "guest"
-  # Falk Sippach - 1 Episode
+  # Falk Sippach - 2 Episoden
   - name: "Falk Sippach"
     linkedin: "https://www.linkedin.com/in/falk-sippach/"
     image: "/images/guests/falk-sippach.jpg"
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
-    tags: ['Software Development']
+    tags: ['Software Architecture', 'Documentation']
     episodes:
+      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/09/"
+        date: "2021-02-09"
+        role: "guest"
       - title: "Folge 138 - Was ist Documentation as Code? mit Falk Sippach"
         url: "/2022/10/14/"
         date: "2022-10-14"
+        role: "guest"
+  # Felienne Hermans - 1 Episode
+  - name: "Felienne Hermans"
+    linkedin: "https://www.linkedin.com/in/felienne-hermans/"
+    image: "/images/guests/felienne-hermans.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Episode 81 - Felienne Hermans about How to Read Complex Code (Live from Software Architecture Gathering)"
+        url: "/2021/10/13/"
+        date: "2021-10-13"
         role: "guest"
   # Felix Müller - 1 Episode
   - name: "Felix Müller"
@@ -242,7 +372,7 @@ guests:
   - name: "Franziska Dessart"
     linkedin: "https://www.linkedin.com/in/franziska-dessart/"
     image: "/images/guests/franziska-dessart.jpg"
-    bio: "Frontend-Entwicklung und -Architektur"
+    bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development', 'Software Architecture']
     episodes:
       - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
@@ -283,6 +413,28 @@ guests:
         url: "/2023/03/17/"
         date: "2023-03-17"
         role: "guest"
+  # Gien Verschatse - 1 Episode
+  - name: "Gien Verschatse"
+    linkedin: "https://www.linkedin.com/in/gien-verschatse/"
+    image: "/images/guests/gien-verschatse.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
+        url: "/2022/01/31/"
+        date: "2022-01-31"
+        role: "guest"
+  # Grady Booch - 1 Episode
+  - name: "Grady Booch"
+    linkedin: "https://www.linkedin.com/in/grady-booch/"
+    image: "/images/guests/grady-booch.jpg"
+    bio: "KI und Software-Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT', 'International Speaker']
+    episodes:
+      - title: "Episode 47 - Grady Booch - AI Architecture and Systems - Live from OOP"
+        url: "/2021/02/11/"
+        date: "2021-02-11"
+        role: "guest"
   # Hanna Prinz - 1 Episode
   - name: "Hanna Prinz"
     linkedin: "https://www.linkedin.com/in/hanna-prinz/"
@@ -309,6 +461,43 @@ guests:
         url: "/2021/09/17/"
         date: "2021-09-17"
         role: "guest"
+  # Hillel Wayne - 2 Episoden
+  - name: "Hillel Wayne"
+    linkedin: "https://www.linkedin.com/in/hillel-wayne/"
+    image: "/images/guests/hillel-wayne.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 86 - Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?"
+        url: "/2021/10/25/"
+        date: "2021-10-25"
+        role: "guest"
+      - title: "Episode 209 - Are We Engineers? With Hillel Wayne"
+        url: "/2024/03/27/"
+        date: "2024-03-27"
+        role: "guest"
+  # Jacqui Read - 1 Episode
+  - name: "Jacqui Read"
+    linkedin: "https://www.linkedin.com/in/jacqui-read/"
+    image: "/images/guests/jacqui-read.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 254 - Communication Patterns with Jacqui Read"
+        url: "/2025/03/14/"
+        date: "2025-03-14"
+        role: "guest"
+  # James Lewis - 1 Episode
+  - name: "James Lewis"
+    linkedin: "https://www.linkedin.com/in/james-lewis/"
+    image: "/images/guests/james-lewis.jpg"
+    bio: "Microservices Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'Microservices', 'International Speaker']
+    episodes:
+      - title: "Episode 80 - Microservices, Inverse Conway Maneuver, and Flow with James Lewis - Live from Software Architecture Gathering"
+        url: "/2021/10/13/"
+        date: "2021-10-13"
+        role: "guest"
   # Jochen Christ - 2 Episoden
   - name: "Jochen Christ"
     linkedin: "https://www.linkedin.com/in/jochen-christ/"
@@ -328,7 +517,7 @@ guests:
   - name: "Jochen Mader"
     linkedin: "https://www.linkedin.com/in/jochen-mader/"
     image: "/images/guests/jochen-mader.jpg"
-    bio: "Security Experte/Expertin"
+    bio: "Security und Cybersecurity Experte/Expertin"
     tags: ['Security', 'OWASP', 'Cybersecurity']
     episodes:
       - title: "Folge 231 - Supply Chain Security mit Jochen Mader - live von der BED-Con"
@@ -345,6 +534,17 @@ guests:
       - title: "Folge 71 - Welchen Sinn hat agiles Coaching? mit Johannes Link"
         url: "/2021/08/13/"
         date: "2021-08-13"
+        role: "guest"
+  # Johannes Mainusch - 1 Episode
+  - name: "Johannes Mainusch"
+    linkedin: "https://www.linkedin.com/in/johannes-mainusch/"
+    image: "/images/guests/johannes-mainusch.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 136 - Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht"
+        url: "/2022/09/30/"
+        date: "2022-09-30"
         role: "guest"
   # Johannes Seitz - 1 Episode
   - name: "Johannes Seitz"
@@ -372,7 +572,7 @@ guests:
   - name: "Joy Heron"
     linkedin: "https://www.linkedin.com/in/joy-heron/"
     image: "/images/guests/joy-heron.jpg"
-    bio: "Frontend-Entwicklung und -Architektur"
+    bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development', 'Software Architecture']
     episodes:
       - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
@@ -398,6 +598,54 @@ guests:
         url: "/2022/02/02/"
         date: "2022-02-02"
         role: "guest"
+  # Jörg Müller - 1 Episode
+  - name: "Jörg Müller"
+    linkedin: "https://www.linkedin.com/in/joerg-mueller/"
+    image: "/images/guests/joerg-mueller.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
+        url: "/2023/02/10/"
+        date: "2023-02-10"
+        role: "guest"
+  # Kenny Baas-Schwegler - 2 Episoden
+  - name: "Kenny Baas-Schwegler"
+    linkedin: "https://www.linkedin.com/in/kenny-baasschwegler/"
+    image: "/images/guests/kenny-baas-schwegler.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
+        url: "/2021/10/14/"
+        date: "2021-10-14"
+        role: "guest"
+      - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
+        url: "/2022/01/31/"
+        date: "2022-01-31"
+        role: "guest"
+  # Kevin Goldsmith - 1 Episode
+  - name: "Kevin Goldsmith"
+    linkedin: "https://www.linkedin.com/in/kevin-goldsmith/"
+    image: "/images/guests/kevin-goldsmith.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Episode 185 - Kevin Goldsmith Architecture and Organization"
+        url: "/2023/10/18/"
+        date: "2023-10-18"
+        role: "guest"
+  # Kevlin Henney - 1 Episode
+  - name: "Kevlin Henney"
+    linkedin: "https://www.linkedin.com/in/kevlin-henney/"
+    image: "/images/guests/kevlin-henney.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 78 - Kevlin Henney - Dealing with Uncertainty"
+        url: "/2021/10/01/"
+        date: "2021-10-01"
+        role: "guest"
   # Kim Nena Duggen - 1 Episode
   - name: "Kim Nena Duggen"
     linkedin: "https://www.linkedin.com/in/kim-nena-duggen/"
@@ -413,65 +661,63 @@ guests:
   - name: "Lars Hupel"
     linkedin: "https://www.linkedin.com/in/lars-hupel/"
     image: "/images/guests/lars-hupel.jpg"
-    bio: "Diversity & Inclusion Expertin"
+    bio: "Diversity & Inclusion Experte/Expertin"
     tags: ['Diversity', 'Inclusion']
     episodes:
       - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
         url: "/2021/02/19/"
         date: "2021-02-19"
+        role: "guest"
+  # Laurent Bossavit - 1 Episode
+  - name: "Laurent Bossavit"
+    linkedin: "https://www.linkedin.com/in/laurent-bossavit/"
+    image: "/images/guests/laurent-bossavit.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 86 - Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?"
+        url: "/2021/10/25/"
+        date: "2021-10-25"
+        role: "guest"
+  # Lejla Vulovic - 1 Episode
+  - name: "Lejla Vulovic"
+    linkedin: "https://www.linkedin.com/in/lejla-vulovic/"
+    image: "/images/guests/lejla-vulovic.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic"
+        url: "/2025/04/04/"
+        date: "2025-04-04"
         role: "guest"
   # Lena Kraaz - 1 Episode
   - name: "Lena Kraaz"
     linkedin: "https://www.linkedin.com/in/lena-kraaz/"
     image: "/images/guests/lena-kraaz.jpg"
-    bio: "Diversity & Inclusion Expertin"
+    bio: "Diversity & Inclusion Experte/Expertin"
     tags: ['Diversity', 'Inclusion']
     episodes:
       - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
         url: "/2021/02/19/"
         date: "2021-02-19"
         role: "guest"
-  # Lisa Schäfer - 7 Episoden
-  - name: "Lisa Schäfer"
-    linkedin: "https://www.linkedin.com/in/lisa-schaefer/"
-    image: "/images/guests/lisa-schaefer.jpg"
-    bio: "API Design und Architektur"
-    tags: ['Java', 'Spring', 'Software Architecture', 'API Design', 'Coaching', 'Leadership']
+  # Linda Rising - 1 Episode
+  - name: "Linda Rising"
+    linkedin: "https://www.linkedin.com/in/linda-rising/"
+    image: "/images/guests/linda-rising.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
     episodes:
-      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/"
-        date: "2021-02-09"
-        role: "guest"
-      - title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/10/"
-        date: "2021-02-10"
-        role: "guest"
-      - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
+      - title: "Episode 49 - Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP"
         url: "/2021/02/11/"
         date: "2021-02-11"
-        role: "guest"
-      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-        url: "/2022/12/16/"
-        date: "2022-12-16"
-        role: "guest"
-      - title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
-        url: "/2023/03/24/"
-        date: "2023-03-24"
-        role: "guest"
-      - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
-        url: "/2024/02/23/"
-        date: "2024-02-23"
-        role: "guest"
-      - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
-        url: "/2024/11/08/"
-        date: "2024-11-08"
         role: "guest"
   # Lucas Dohmen - 5 Episoden
   - name: "Lucas Dohmen"
     linkedin: "https://www.linkedin.com/in/lucas-dohmen/"
     image: "/images/guests/lucas-dohmen.jpg"
-    bio: "Frontend-Entwicklung und -Architektur"
-    tags: ['Frontend', 'Web Development', 'Software Architecture', 'AI', 'Machine Learning']
+    bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Frontend', 'Web Development', 'Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
     episodes:
       - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
         url: "/2020/10/02/"
@@ -497,7 +743,7 @@ guests:
   - name: "Manfred Steyer"
     linkedin: "https://www.linkedin.com/in/manfred-steyer/"
     image: "/images/guests/manfred-steyer.jpg"
-    bio: "Frontend-Entwicklung und -Architektur"
+    bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development']
     episodes:
       - title: "Folge 84 - Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks"
@@ -576,7 +822,7 @@ guests:
     linkedin: "https://www.linkedin.com/in/martin-lippert/"
     image: "/images/guests/martin-lippert.jpg"
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
-    tags: ['Software Architecture', 'AI', 'Machine Learning']
+    tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
     episodes:
       - title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
         url: "/2021/05/21/"
@@ -630,11 +876,22 @@ guests:
         url: "/2020/12/18/"
         date: "2020-12-18"
         role: "guest"
+  # Michael Mahlberg - 1 Episode
+  - name: "Michael Mahlberg"
+    linkedin: "https://www.linkedin.com/in/michael-mahlberg/"
+    image: "/images/guests/michael-mahlberg.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
+        url: "/2023/02/10/"
+        date: "2023-02-10"
+        role: "guest"
   # Michael Plöd - 1 Episode
   - name: "Michael Plöd"
     linkedin: "https://www.linkedin.com/in/michael-ploed/"
     image: "/images/guests/michael-ploed.jpg"
-    bio: "Testing und Quality Assurance"
+    bio: "Testing und Quality Assurance Experte/Expertin"
     tags: ['Testing', 'Quality Assurance']
     episodes:
       - title: "Folge 224 - Quality Storming mit Michael Plöd"
@@ -678,6 +935,17 @@ guests:
         url: "/2023/09/15/"
         date: "2023-09-15"
         role: "guest"
+  # Mike Swainston-Rainford - 1 Episode
+  - name: "Mike Swainston-Rainford"
+    linkedin: "https://www.linkedin.com/in/mike-swainstonrainford/"
+    image: "/images/guests/mike-swainston-rainford.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
+        url: "/2021/06/04/"
+        date: "2021-06-04"
+        role: "guest"
   # Nadine Andraczek - 1 Episode
   - name: "Nadine Andraczek"
     linkedin: "https://www.linkedin.com/in/nadine-andraczek/"
@@ -688,6 +956,21 @@ guests:
       - title: "Folge 177 - Scrum Master:in und Softwarearchitektur mit Nadine Andraczek"
         url: "/2023/08/11/"
         date: "2023-08-11"
+        role: "guest"
+  # Nick Tune - 2 Episoden
+  - name: "Nick Tune"
+    linkedin: "https://www.linkedin.com/in/nick-tune/"
+    image: "/images/guests/nick-tune.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD', 'Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Folge 11 - Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design"
+        url: "/2020/07/31/"
+        date: "2020-07-31"
+        role: "guest"
+      - title: "Episode 223 - Nick Tune about Architecture Modernization"
+        url: "/2024/07/05/"
+        date: "2024-07-05"
         role: "guest"
   # Nora Schöner - 1 Episode
   - name: "Nora Schöner"
@@ -722,6 +1005,17 @@ guests:
         url: "/2021/07/23/"
         date: "2021-07-23"
         role: "guest"
+  # Patrick Kua - 1 Episode
+  - name: "Patrick Kua"
+    linkedin: "https://www.linkedin.com/in/patrick-kua/"
+    image: "/images/guests/patrick-kua.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
+    episodes:
+      - title: "Episode 34 - Patrick Kua - Evolutionary Software Architecture"
+        url: "/2021/01/08/"
+        date: "2021-01-08"
+        role: "guest"
   # Prof. Dirk Riehle - 2 Episoden
   - name: "Prof. Dirk Riehle"
     linkedin: "https://www.linkedin.com/in/dirk-riehle/"
@@ -748,32 +1042,16 @@ guests:
         url: "/2023/09/29/"
         date: "2023-09-29"
         role: "guest"
-  # Ralf D. Müller - 5 Episoden
-  - name: "Ralf D. Müller"
-    linkedin: "https://www.linkedin.com/in/ralf-d-mueller/"
-    image: "/images/guests/ralf-d-mueller.jpg"
-    bio: "KI und Software-Architektur"
-    tags: ['Software Architecture', 'AI', 'Machine Learning']
+  # Rebecca Parsons - 1 Episode
+  - name: "Rebecca Parsons"
+    linkedin: "https://www.linkedin.com/in/rebecca-parsons/"
+    image: "/images/guests/rebecca-parsons.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'International Speaker']
     episodes:
-      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-        url: "/2022/12/16/"
-        date: "2022-12-16"
-        role: "guest"
-      - title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller"
-        url: "/2023/12/15/"
-        date: "2023-12-15"
-        role: "guest"
-      - title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller"
-        url: "/2024/01/19/"
-        date: "2024-01-19"
-        role: "guest"
-      - title: "Folge 199 - Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller"
-        url: "/2024/02/02/"
-        date: "2024-02-02"
-        role: "guest"
-      - title: "Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller"
-        url: "/2024/11/29/"
-        date: "2024-11-29"
+      - title: "Episode 77 - Rebecca Parsons about Evolutionary Architecture"
+        url: "/2021/09/27/"
+        date: "2021-09-27"
         role: "guest"
   # Rebecca Temme - 1 Episode
   - name: "Rebecca Temme"
@@ -797,6 +1075,39 @@ guests:
         url: "/2025/01/24/"
         date: "2025-01-24"
         role: "guest"
+  # Rik Marselis - 1 Episode
+  - name: "Rik Marselis"
+    linkedin: "https://www.linkedin.com/in/rik-marselis/"
+    image: "/images/guests/rik-marselis.jpg"
+    bio: "Testing und Quality Assurance Experte/Expertin"
+    tags: ['Testing', 'Quality Assurance', 'International Speaker']
+    episodes:
+      - title: "Episode 102 - Rik Marselis - Testing and Quality - Live from OOP"
+        url: "/2022/01/31/"
+        date: "2022-01-31"
+        role: "guest"
+  # Robert Albrecht - 1 Episode
+  - name: "Robert Albrecht"
+    linkedin: "https://www.linkedin.com/in/robert-albrecht/"
+    image: "/images/guests/robert-albrecht.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 136 - Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht"
+        url: "/2022/09/30/"
+        date: "2022-09-30"
+        role: "guest"
+  # Samir Talwar - 1 Episode
+  - name: "Samir Talwar"
+    linkedin: "https://www.linkedin.com/in/samir-talwar/"
+    image: "/images/guests/samir-talwar.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 131 - Samir Talwar Longevity - live from SoCraTes Conference"
+        url: "/2022/08/26/"
+        date: "2022-08-26"
+        role: "guest"
   # Sascha Möllering - 1 Episode
   - name: "Sascha Möllering"
     linkedin: "https://www.linkedin.com/in/sascha-moellering/"
@@ -808,6 +1119,28 @@ guests:
         url: "/2023/03/03/"
         date: "2023-03-03"
         role: "guest"
+  # Scott Ambler - 1 Episode
+  - name: "Scott Ambler"
+    linkedin: "https://www.linkedin.com/in/scott-ambler/"
+    image: "/images/guests/scott-ambler.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 103 - Scott Ambler - Data Technical Debt - Live from OOP"
+        url: "/2022/01/31/"
+        date: "2022-01-31"
+        role: "guest"
+  # Simon Brown - 1 Episode
+  - name: "Simon Brown"
+    linkedin: "https://www.linkedin.com/in/simon-brown/"
+    image: "/images/guests/simon-brown.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['Software Architecture', 'C4 Model', 'International Speaker']
+    episodes:
+      - title: "Episode 36 - Simon Brown - C4 Architecture Model and Structurizr"
+        url: "/2021/01/22/"
+        date: "2021-01-22"
+        role: "guest"
   # Simon Harrer - 1 Episode
   - name: "Simon Harrer"
     linkedin: "https://www.linkedin.com/in/simon-harrer/"
@@ -818,6 +1151,17 @@ guests:
       - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
         url: "/2021/04/16/"
         date: "2021-04-16"
+        role: "guest"
+  # Sofia Katsaouni - 1 Episode
+  - name: "Sofia Katsaouni"
+    linkedin: "https://www.linkedin.com/in/sofia-katsaouni/"
+    image: "/images/guests/sofia-katsaouni.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni"
+        url: "/2025/03/18/"
+        date: "2025-03-18"
         role: "guest"
   # Stefan Hofer - 1 Episode
   - name: "Stefan Hofer"
@@ -856,13 +1200,17 @@ guests:
         url: "/2023/04/28/"
         date: "2023-04-28"
         role: "guest"
-  # Stefan Toth - 2 Episoden
+  # Stefan Toth - 3 Episoden
   - name: "Stefan Toth"
     linkedin: "https://www.linkedin.com/in/stefan-toth/"
     image: "/images/guests/stefan-toth.jpg"
-    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
-    tags: ['Software Architecture']
+    bio: "Microservices Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'Microservices']
     episodes:
+      - title: "Folge 124 - Microservices - Schlag den Eberhard & Stefan! Mit Stefan Toth"
+        url: "/2022/07/01/"
+        date: "2022-07-01"
+        role: "guest"
       - title: "Folge 128 - Agilität und Architektur mit Stefan Toth"
         url: "/2022/07/22/"
         date: "2022-07-22"
@@ -934,3 +1282,142 @@ guests:
         url: "/2025/05/09/"
         date: "2025-05-09"
         role: "guest"
+  # Vaughn Vernon - 1 Episode
+  - name: "Vaughn Vernon"
+    linkedin: "https://www.linkedin.com/in/vaughn-vernon/"
+    image: "/images/guests/vaughn-vernon.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD', 'International Speaker']
+    episodes:
+      - title: "Episode 218 - Vaughn Vernon about Ports and Adapters and DDD"
+        url: "/2024/05/29/"
+        date: "2024-05-29"
+        role: "guest"
+  # Woody Zuill - 1 Episode
+  - name: "Woody Zuill"
+    linkedin: "https://www.linkedin.com/in/woody-zuill/"
+    image: "/images/guests/woody-zuill.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 252 - Intro to Beyond Estimates with Woody Zuill"
+        url: "/2025/02/24/"
+        date: "2025-02-24"
+        role: "guest"
+  # Xin Yao - 1 Episode
+  - name: "Xin Yao"
+    linkedin: "https://www.linkedin.com/in/xin-yao/"
+    image: "/images/guests/xin-yao.jpg"
+    bio: "International Software Architecture Expert"
+    tags: ['International Speaker']
+    episodes:
+      - title: "Episode 169 - Systems Thinking in Large-Scale Modeling with Xin Yao - OOP Special"
+        url: "/2023/06/16/"
+        date: "2023-06-16"
+        role: "guest"
+
+# MODERATOREN UND CO-HOSTS
+# Personen, die regelmäßig moderieren oder co-moderieren
+moderators:
+
+  # Eberhard Wolff - Hauptmoderator
+  - name: "Eberhard Wolff"
+    linkedin: "https://www.linkedin.com/in/eberhard-wolff/"
+    image: "/images/moderators/eberhard-wolff.jpg"
+    bio: "INNOQ Fellow, Hauptmoderator von software-architektur.tv seit Beginn, Microservices und Software-Architektur Experte"
+    role: "Hauptmoderator"
+    tags: ['Hauptmoderation', 'Microservices', 'Software Architecture', 'INNOQ', 'Stream Host']
+    solo_episodes_count: 140
+    episodes:
+      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
+        url: "/2023/04/28/"
+        date: "2023-04-28"
+        role: "moderator"
+      - title: "Folge 266 - Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard"
+        url: "/2025/05/30/"
+        date: "2025-05-30"
+        role: "moderator"
+      - title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
+        url: "/2025/07/25/"
+        date: "2025-07-25"
+        role: "moderator"
+  # Lisa Schäfer - Co-Moderatorin und Gast
+  - name: "Lisa Schäfer"
+    linkedin: "https://www.linkedin.com/in/lisa-schaefer/"
+    image: "/images/moderators/lisa-schäfer.jpg"
+    bio: "INNOQ Principal Consultant, häufige Co-Moderatorin bei OOP-Specials und JavaLand-Eindrücken"
+    role: "Co-Moderatorin und Gast"
+    tags: ['Co-Moderation', 'OOP', 'JavaLand', 'Software Architecture', 'Consulting']
+    episodes:
+      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/09/"
+        date: "2021-02-09"
+        role: "co-moderator"
+      - title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/10/"
+        date: "2021-02-10"
+        role: "co-moderator"
+      - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/11/"
+        date: "2021-02-11"
+        role: "co-moderator"
+      - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
+        url: "/2021/02/11/"
+        date: "2021-02-11"
+        role: "co-moderator"
+      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
+        url: "/2022/12/16/"
+        date: "2022-12-16"
+        role: "co-moderator"
+      - title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
+        url: "/2023/03/24/"
+        date: "2023-03-24"
+        role: "co-moderator"
+      - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
+        url: "/2024/02/23/"
+        date: "2024-02-23"
+        role: "co-moderator"
+      - title: "Episode 238 - Learning Systems Thinking with Diana Montalion and Lisa Schäfer"
+        url: "/2024/11/07/"
+        date: "2024-11-07"
+        role: "co-moderator"
+      - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
+        url: "/2024/11/08/"
+        date: "2024-11-08"
+        role: "co-moderator"
+  # Ralf D. Müller - Co-Moderator und Gast
+  - name: "Ralf D. Müller"
+    linkedin: "https://www.linkedin.com/in/ralf-d-mueller/"
+    image: "/images/moderators/ralf-d-müller.jpg"
+    bio: "docToolchain Maintainer, AI/ChatGPT Experte, häufiger Co-Moderator bei KI-Themen"
+    role: "Co-Moderator und Gast"
+    tags: ['AI', 'ChatGPT', 'iSAQB', 'docToolchain', 'Architecture Documentation', 'Co-Moderation']
+    episodes:
+      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
+        url: "/2022/12/16/"
+        date: "2022-12-16"
+        role: "co-moderator"
+      - title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller"
+        url: "/2023/12/15/"
+        date: "2023-12-15"
+        role: "co-moderator"
+      - title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller"
+        url: "/2024/01/19/"
+        date: "2024-01-19"
+        role: "co-moderator"
+      - title: "Folge 199 - Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller"
+        url: "/2024/02/02/"
+        date: "2024-02-02"
+        role: "co-moderator"
+      - title: "Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller"
+        url: "/2024/11/29/"
+        date: "2024-11-29"
+        role: "co-moderator"
+      - title: "Folge 267 - Architekturtheater mit Claude und Ralf"
+        url: "/2025/06/13/"
+        date: "2025-06-13"
+        role: "co-moderator"
+      - title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
+        url: "/2025/07/25/"
+        date: "2025-07-25"
+        role: "co-moderator"
