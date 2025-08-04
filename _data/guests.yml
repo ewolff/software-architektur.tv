@@ -1,60 +1,694 @@
 # Gäste von software-architektur.tv
-# Automatisch generiert aus Episode-Titeln
+# Bereinigt und validiert
+# Generiert am: Sun Aug  4 05:16:43 UTC 2025
 
-Lisa Schäfer:
-  name: "Lisa Schäfer"
-  episode_count: 5
-  bio: ""  # TODO: Bio hinzufügen
-  avatar: "guests/lisa_schäfer.jpg"
-  episodes:
-    - number: 0
-      title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
-      date: "2024-11-08"
-      video: "gLcdgEBOoAA"
-      description: "Wie hilft Einzelcoaching als besondere Form des Coaching Techies? Wie können Coaching-Werkzeuge in der alltäglichen Arbeit unterstützen?"
-    - number: 39
-      title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-      date: "2021-02-09"
-      video: "8IAdFtTCrt8"
-      description: "Praktische Hinweise zu Architektur-Reviews"
-    - number: 42
-      title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
-      date: "2021-02-10"
-      video: "gqF123U71u8"
-      description: "Ernsthafte Spiele können bei der Software-Entwicklung helfen."
-    - number: 45
-      title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-      date: "2021-02-11"
-      video: "NBU4EZapeLQ"
-      description: "Architektur muss man abhängig von der Zielgruppe betrachten."
-    - number: 158
-      title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
-      date: "2023-04-14"
-      video: "XeFCNEJJlPg"
-      description: "Nora und Lisa berichten über Themen der JavaLand 2023 aus dem Blickwinkel der Software-Architektur."
+"Adam Tornhill":
+  name: "Adam Tornhill"
+  linkedin: "https://linkedin.com/in/adamtornhill"
+  avatar: "guests/adam_tornhill.jpg"
+  bio: ""
 
-Franziska Dessart:
-  name: "Franziska Dessart"
-  episode_count: 3
-  bio: ""  # TODO: Bio hinzufügen
-  avatar: "guests/franziska_dessart.jpg"
-  episodes:
-    - number: 20
-      title: "Folge 20 -  Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-      date: "2020-10-02"
-      video: "YfRIfnHiuSU"
-      description: "Frontend-Architektur ist mehr als nur die Architektur einer Web Anwendung."
-    - number: 27
-      title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-      date: "2020-11-27"
-      video: "LKRn0lk3nVo"
-      description: "Die Optionen für die Architektur von Frontend-Anwendungen werden immer zahlreicher."
-    - number: 69
-      title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-      date: "2021-11-26"
-      video: "QmEePFJHJSc"
-      description: "Integration ist ein sehr wichtiger Aspekt von Frontend-Architekturen."
+"Alberto Brandolini":
+  name: "Alberto Brandolini"
+  linkedin: "https://linkedin.com/in/ziobrando"
+  avatar: "guests/alberto_brandolini.jpg"
+  bio: ""
 
-Christoph Iserlohn:
+"Aminata Sidibe":
+  name: "Aminata Sidibe"
+  linkedin: "https://linkedin.com/in/aminata-sidibe"
+  avatar: "guests/aminata_sidibe.jpg"
+  bio: ""
+
+"Ana Nad":
+  name: "Ana Nad"
+  linkedin: "https://linkedin.com/in/ana-nad"
+  avatar: "guests/ana_nad.jpg"
+  bio: ""
+
+"Anja Kammer":
+  name: "Anja Kammer"
+  linkedin: "https://linkedin.com/in/anja-kammer"
+  avatar: "guests/anja_kammer.jpg"
+  bio: ""
+
+"Anne Herwanger":
+  name: "Anne Herwanger"
+  linkedin: "https://linkedin.com/in/anne-herwanger"
+  avatar: "guests/anne_herwanger.jpg"
+  bio: ""
+
+"Avraham Poupko":
+  name: "Avraham Poupko"
+  linkedin: "https://linkedin.com/in/avraham-poupko"
+  avatar: "guests/avraham_poupko.jpg"
+  bio: ""
+
+"Aydin Mir Mohammadi":
+  name: "Aydin Mir Mohammadi"
+  linkedin: "https://linkedin.com/in/aydin-mohammadi"
+  avatar: "guests/aydin_mir_mohammadi.jpg"
+  bio: ""
+
+"Bastian Spanneberg":
+  name: "Bastian Spanneberg"
+  linkedin: "https://linkedin.com/in/bastian-spanneberg"
+  avatar: "guests/bastian_spanneberg.jpg"
+  bio: ""
+
+"Ben Wolf":
+  name: "Ben Wolf"
+  linkedin: "https://linkedin.com/in/ben-wolf"
+  avatar: "guests/ben_wolf.jpg"
+  bio: ""
+
+"Bernd Rücker":
+  name: "Bernd Rücker"
+  linkedin: "https://linkedin.com/in/bernd-rücker"
+  avatar: "guests/bernd_rücker.jpg"
+  bio: ""
+
+"Carola Lilienthal":
+  name: "Carola Lilienthal"
+  linkedin: "https://linkedin.com/in/carola-lilienthal"
+  avatar: "guests/carola_lilienthal.jpg"
+  bio: ""
+
+"Chris Chedgey":
+  name: "Chris Chedgey"
+  linkedin: "https://linkedin.com/in/chris-chedgey"
+  avatar: "guests/chris_chedgey.jpg"
+  bio: ""
+
+"Chris Richardson":
+  name: "Chris Richardson"
+  linkedin: "https://linkedin.com/in/chris-richardson"
+  avatar: "guests/chris_richardson.jpg"
+  bio: ""
+
+"Christian Weyer":
+  name: "Christian Weyer"
+  linkedin: "https://linkedin.com/in/christian-weyer"
+  avatar: "guests/christian_weyer.jpg"
+  bio: ""
+
+"Christoph Iserlohn":
   name: "Christoph Iserlohn"
-  episode_count: 3
+  linkedin: "https://linkedin.com/in/christoph-iserlohn"
+  avatar: "guests/christoph_iserlohn.jpg"
+  bio: ""
+
+"Cosima Laube":
+  name: "Cosima Laube"
+  linkedin: "https://linkedin.com/in/cosima-laube"
+  avatar: "guests/cosima_laube.jpg"
+  bio: ""
+
+"Dajana Günther":
+  name: "Dajana Günther"
+  linkedin: "https://linkedin.com/in/dajana-günther"
+  avatar: "guests/dajana_günther.jpg"
+  bio: ""
+
+"Daniel Terhorst":
+  name: "Daniel Terhorst"
+  linkedin: "https://linkedin.com/in/daniel-terhorst"
+  avatar: "guests/daniel_terhorst.jpg"
+  bio: ""
+
+"Danilo Beuche":
+  name: "Danilo Beuche"
+  linkedin: "https://linkedin.com/in/danilo-beuche"
+  avatar: "guests/danilo_beuche.jpg"
+  bio: ""
+
+"Dehla Sokenou":
+  name: "Dehla Sokenou"
+  linkedin: "https://linkedin.com/in/dehla-sokenou"
+  avatar: "guests/dehla_sokenou.jpg"
+  bio: ""
+
+"Diana Montalion":
+  name: "Diana Montalion"
+  linkedin: "https://linkedin.com/in/dianamontalion"
+  avatar: "guests/diana_montalion.jpg"
+  bio: ""
+
+"Dirk Mahler":
+  name: "Dirk Mahler"
+  linkedin: "https://linkedin.com/in/dirk-mahler"
+  avatar: "guests/dirk_mahler.jpg"
+  bio: ""
+
+"Dr. Julia Freudenberg":
+  name: "Dr. Julia Freudenberg"
+  linkedin: "https://linkedin.com/in/dr.-freudenberg"
+  avatar: "guests/dr_julia_freudenberg.jpg"
+  bio: ""
+
+"Dr. Miriam Greis":
+  name: "Dr. Miriam Greis"
+  linkedin: "https://linkedin.com/in/dr.-greis"
+  avatar: "guests/dr_miriam_greis.jpg"
+  bio: ""
+
+"Eberhard Wolff":
+  name: "Eberhard Wolff"
+  linkedin: "https://linkedin.com/in/eberhardwolff"
+  avatar: "guests/eberhard_wolff.jpg"
+  bio: ""
+
+"Erik Wilde":
+  name: "Erik Wilde"
+  linkedin: "https://linkedin.com/in/erik-wilde"
+  avatar: "guests/erik_wilde.jpg"
+  bio: ""
+
+"Falk Hoppe":
+  name: "Falk Hoppe"
+  linkedin: "https://linkedin.com/in/falk-hoppe"
+  avatar: "guests/falk_hoppe.jpg"
+  bio: ""
+
+"Falk Sippach":
+  name: "Falk Sippach"
+  linkedin: "https://linkedin.com/in/falksippach"
+  avatar: "guests/falk_sippach.jpg"
+  bio: ""
+
+"Felix Müller":
+  name: "Felix Müller"
+  linkedin: "https://linkedin.com/in/felix-müller"
+  avatar: "guests/felix_müller.jpg"
+  bio: ""
+
+"Franziska Dessart":
+  name: "Franziska Dessart"
+  linkedin: "https://linkedin.com/in/franziska-dessart"
+  avatar: "guests/franziska_dessart.jpg"
+  bio: ""
+
+"Friederike Sternberg":
+  name: "Friederike Sternberg"
+  linkedin: "https://linkedin.com/in/friederike-sternberg"
+  avatar: "guests/friederike_sternberg.jpg"
+  bio: ""
+
+"Gernot Starke":
+  name: "Gernot Starke"
+  linkedin: "https://linkedin.com/in/gernot-starke"
+  avatar: "guests/gernot_starke.jpg"
+  bio: ""
+
+"Gerrit Beine":
+  name: "Gerrit Beine"
+  linkedin: "https://linkedin.com/in/gerrit-beine"
+  avatar: "guests/gerrit_beine.jpg"
+  bio: ""
+
+"Grady Booch":
+  name: "Grady Booch"
+  linkedin: "https://linkedin.com/in/grady-booch"
+  avatar: "guests/grady_booch.jpg"
+  bio: ""
+
+"Hanna Prinz":
+  name: "Hanna Prinz"
+  linkedin: "https://linkedin.com/in/hanna-prinz"
+  avatar: "guests/hanna_prinz.jpg"
+  bio: ""
+
+"Henning Schwentner":
+  name: "Henning Schwentner"
+  linkedin: "https://linkedin.com/in/henning-schwentner"
+  avatar: "guests/henning_schwentner.jpg"
+  bio: ""
+
+"Henning Wolf":
+  name: "Henning Wolf"
+  linkedin: "https://linkedin.com/in/henning-wolf"
+  avatar: "guests/henning_wolf.jpg"
+  bio: ""
+
+"Hillel Wayne":
+  name: "Hillel Wayne"
+  linkedin: "https://linkedin.com/in/hillelwayne"
+  avatar: "guests/hillel_wayne.jpg"
+  bio: ""
+
+"Isabel Wingen":
+  name: "Isabel Wingen"
+  linkedin: "https://linkedin.com/in/isabel-wingen"
+  avatar: "guests/isabel_wingen.jpg"
+  bio: ""
+
+"Jacqui Read":
+  name: "Jacqui Read"
+  linkedin: "https://linkedin.com/in/jacqui-read"
+  avatar: "guests/jacqui_read.jpg"
+  bio: ""
+
+"James Lewis":
+  name: "James Lewis"
+  linkedin: "https://linkedin.com/in/james-lewis"
+  avatar: "guests/james_lewis.jpg"
+  bio: ""
+
+"Jochen Christ":
+  name: "Jochen Christ"
+  linkedin: "https://linkedin.com/in/jochen-christ"
+  avatar: "guests/jochen_christ.jpg"
+  bio: ""
+
+"Jochen Mader":
+  name: "Jochen Mader"
+  linkedin: "https://linkedin.com/in/jochen-mader"
+  avatar: "guests/jochen_mader.jpg"
+  bio: ""
+
+"Johannes Link":
+  name: "Johannes Link"
+  linkedin: "https://linkedin.com/in/johannes-link"
+  avatar: "guests/johannes_link.jpg"
+  bio: ""
+
+"Johannes Mainusch":
+  name: "Johannes Mainusch"
+  linkedin: "https://linkedin.com/in/johannes-mainusch"
+  avatar: "guests/johannes_mainusch.jpg"
+  bio: ""
+
+"Johannes Seitz":
+  name: "Johannes Seitz"
+  linkedin: "https://linkedin.com/in/johannes-seitz"
+  avatar: "guests/johannes_seitz.jpg"
+  bio: ""
+
+"Joseph Pelrine":
+  name: "Joseph Pelrine"
+  linkedin: "https://linkedin.com/in/joseph-pelrine"
+  avatar: "guests/joseph_pelrine.jpg"
+  bio: ""
+
+"Joy Heron":
+  name: "Joy Heron"
+  linkedin: "https://linkedin.com/in/joy-heron"
+  avatar: "guests/joy_heron.jpg"
+  bio: ""
+
+"Jutta Eckstein":
+  name: "Jutta Eckstein"
+  linkedin: "https://linkedin.com/in/jutta-eckstein"
+  avatar: "guests/jutta_eckstein.jpg"
+  bio: ""
+
+"Jörg Müller":
+  name: "Jörg Müller"
+  linkedin: "https://linkedin.com/in/jörg-müller"
+  avatar: "guests/jörg_müller.jpg"
+  bio: ""
+
+"Katrin Rabow":
+  name: "Katrin Rabow"
+  linkedin: "https://linkedin.com/in/katrin-rabow"
+  avatar: "guests/katrin_rabow.jpg"
+  bio: ""
+
+"Kenny Baas":
+  name: "Kenny Baas"
+  linkedin: "https://linkedin.com/in/kenny-baas"
+  avatar: "guests/kenny_baas.jpg"
+  bio: ""
+
+"Kevlin Henney":
+  name: "Kevlin Henney"
+  linkedin: "https://linkedin.com/in/kevlin-henney"
+  avatar: "guests/kevlin_henney.jpg"
+  bio: ""
+
+"Kim Nena":
+  name: "Kim Nena"
+  linkedin: "https://linkedin.com/in/kim-nena"
+  avatar: "guests/kim_nena.jpg"
+  bio: ""
+
+"Kim Nena Duggen":
+  name: "Kim Nena Duggen"
+  linkedin: "https://linkedin.com/in/kim-duggen"
+  avatar: "guests/kim_nena_duggen.jpg"
+  bio: ""
+
+"Lars Hupel":
+  name: "Lars Hupel"
+  linkedin: "https://linkedin.com/in/lars-hupel"
+  avatar: "guests/lars_hupel.jpg"
+  bio: ""
+
+"Lejla Vulovic":
+  name: "Lejla Vulovic"
+  linkedin: "https://linkedin.com/in/lejla-vulovic"
+  avatar: "guests/lejla_vulovic.jpg"
+  bio: ""
+
+"Lena Kraaz":
+  name: "Lena Kraaz"
+  linkedin: "https://linkedin.com/in/lena-kraaz"
+  avatar: "guests/lena_kraaz.jpg"
+  bio: ""
+
+"Linda Rising":
+  name: "Linda Rising"
+  linkedin: "https://linkedin.com/in/linda-rising"
+  avatar: "guests/linda_rising.jpg"
+  bio: ""
+
+"Lisa Schäfer":
+  name: "Lisa Schäfer"
+  linkedin: "https://linkedin.com/in/lisa-schaefer-coach"
+  avatar: "guests/lisa_schäfer.jpg"
+  bio: ""
+
+"Lucas Dohmen":
+  name: "Lucas Dohmen"
+  linkedin: "https://linkedin.com/in/lucas-dohmen"
+  avatar: "guests/lucas_dohmen.jpg"
+  bio: ""
+
+"Marco Emrich":
+  name: "Marco Emrich"
+  linkedin: "https://linkedin.com/in/marcoemrich"
+  avatar: "guests/marco_emrich.jpg"
+  bio: ""
+
+"Marina Köhn":
+  name: "Marina Köhn"
+  linkedin: "https://linkedin.com/in/marina-köhn"
+  avatar: "guests/marina_köhn.jpg"
+  bio: ""
+
+"Markus Harrer":
+  name: "Markus Harrer"
+  linkedin: "https://linkedin.com/in/markus-harrer"
+  avatar: "guests/markus_harrer.jpg"
+  bio: ""
+
+"Markus Völter":
+  name: "Markus Völter"
+  linkedin: "https://linkedin.com/in/markus-völter"
+  avatar: "guests/markus_völter.jpg"
+  bio: ""
+
+"Martin Huber":
+  name: "Martin Huber"
+  linkedin: "https://linkedin.com/in/martin-huber"
+  avatar: "guests/martin_huber.jpg"
+  bio: ""
+
+"Martin Lippert":
+  name: "Martin Lippert"
+  linkedin: "https://linkedin.com/in/martin-lippert"
+  avatar: "guests/martin_lippert.jpg"
+  bio: ""
+
+"Max Schulze":
+  name: "Max Schulze"
+  linkedin: "https://linkedin.com/in/max-schulze"
+  avatar: "guests/max_schulze.jpg"
+  bio: ""
+
+"Melanie Schäfer":
+  name: "Melanie Schäfer"
+  linkedin: "https://linkedin.com/in/melanie-schäfer"
+  avatar: "guests/melanie_schäfer.jpg"
+  bio: ""
+
+"Michael Ahrens":
+  name: "Michael Ahrens"
+  linkedin: "https://linkedin.com/in/michael-ahrens"
+  avatar: "guests/michael_ahrens.jpg"
+  bio: ""
+
+"Michael Mahlberg":
+  name: "Michael Mahlberg"
+  linkedin: "https://linkedin.com/in/michael-mahlberg"
+  avatar: "guests/michael_mahlberg.jpg"
+  bio: ""
+
+"Michael Plöd":
+  name: "Michael Plöd"
+  linkedin: "https://linkedin.com/in/michael-plöd"
+  avatar: "guests/michael_plöd.jpg"
+  bio: ""
+
+"Michael Vitz":
+  name: "Michael Vitz"
+  linkedin: "https://linkedin.com/in/michael-vitz"
+  avatar: "guests/michael_vitz.jpg"
+  bio: ""
+
+"Michaela Kühn":
+  name: "Michaela Kühn"
+  linkedin: "https://linkedin.com/in/michaela-kühn"
+  avatar: "guests/michaela_kühn.jpg"
+  bio: ""
+
+"Mike Sperber":
+  name: "Mike Sperber"
+  linkedin: "https://linkedin.com/in/mike-sperber"
+  avatar: "guests/mike_sperber.jpg"
+  bio: ""
+
+"Nadine Andraczek":
+  name: "Nadine Andraczek"
+  linkedin: "https://linkedin.com/in/nadine-andraczek"
+  avatar: "guests/nadine_andraczek.jpg"
+  bio: ""
+
+"Nick Tune":
+  name: "Nick Tune"
+  linkedin: "https://linkedin.com/in/ntcoding"
+  avatar: "guests/nick_tune.jpg"
+  bio: ""
+
+"Nicole Rauch":
+  name: "Nicole Rauch"
+  linkedin: "https://linkedin.com/in/nicole-rauch"
+  avatar: "guests/nicole_rauch.jpg"
+  bio: ""
+
+"Nora Schöner":
+  name: "Nora Schöner"
+  linkedin: "https://linkedin.com/in/nora-schöner"
+  avatar: "guests/nora_schöner.jpg"
+  bio: ""
+
+"Patrick Kua":
+  name: "Patrick Kua"
+  linkedin: "https://linkedin.com/in/patrick-kua"
+  avatar: "guests/patrick_kua.jpg"
+  bio: ""
+
+"Peter Gafert":
+  name: "Peter Gafert"
+  linkedin: "https://linkedin.com/in/peter-gafert"
+  avatar: "guests/peter_gafert.jpg"
+  bio: ""
+
+"Peter Hruschka":
+  name: "Peter Hruschka"
+  linkedin: "https://linkedin.com/in/peter-hruschka"
+  avatar: "guests/peter_hruschka.jpg"
+  bio: ""
+
+"Prof. Dirk Riehle":
+  name: "Prof. Dirk Riehle"
+  linkedin: "https://linkedin.com/in/prof.-riehle"
+  avatar: "guests/prof_dirk_riehle.jpg"
+  bio: ""
+
+"Rakia Ben Sassi":
+  name: "Rakia Ben Sassi"
+  linkedin: "https://linkedin.com/in/rakia-sassi"
+  avatar: "guests/rakia_ben_sassi.jpg"
+  bio: ""
+
+"Ralf D. Müller":
+  name: "Ralf D. Müller"
+  linkedin: "https://linkedin.com/in/ralf-d-müller"
+  avatar: "guests/ralf_d_müller.jpg"
+  bio: ""
+
+"Rebecca Parsons":
+  name: "Rebecca Parsons"
+  linkedin: "https://linkedin.com/in/rebecca-parsons"
+  avatar: "guests/rebecca_parsons.jpg"
+  bio: ""
+
+"Rebecca Temme":
+  name: "Rebecca Temme"
+  linkedin: "https://linkedin.com/in/rebecca-temme"
+  avatar: "guests/rebecca_temme.jpg"
+  bio: ""
+
+"Richard Gross":
+  name: "Richard Gross"
+  linkedin: "https://linkedin.com/in/richard-gross"
+  avatar: "guests/richard_gross.jpg"
+  bio: ""
+
+"Rik Marselis":
+  name: "Rik Marselis"
+  linkedin: "https://linkedin.com/in/rik-marselis"
+  avatar: "guests/rik_marselis.jpg"
+  bio: ""
+
+"Robert Albrecht":
+  name: "Robert Albrecht"
+  linkedin: "https://linkedin.com/in/robert-albrecht"
+  avatar: "guests/robert_albrecht.jpg"
+  bio: ""
+
+"Sam Newman":
+  name: "Sam Newman"
+  linkedin: "https://linkedin.com/in/sam-newman"
+  avatar: "guests/sam_newman.jpg"
+  bio: ""
+
+"Samir Talwar":
+  name: "Samir Talwar"
+  linkedin: "https://linkedin.com/in/samir-talwar"
+  avatar: "guests/samir_talwar.jpg"
+  bio: ""
+
+"Sascha Möllering":
+  name: "Sascha Möllering"
+  linkedin: "https://linkedin.com/in/sascha-möllering"
+  avatar: "guests/sascha_möllering.jpg"
+  bio: ""
+
+"Scott Ambler":
+  name: "Scott Ambler"
+  linkedin: "https://linkedin.com/in/scott-ambler"
+  avatar: "guests/scott_ambler.jpg"
+  bio: ""
+
+"Simon Brown":
+  name: "Simon Brown"
+  linkedin: "https://linkedin.com/in/simon-brown"
+  avatar: "guests/simon_brown.jpg"
+  bio: ""
+
+"Simon Harrer":
+  name: "Simon Harrer"
+  linkedin: "https://linkedin.com/in/simon-harrer"
+  avatar: "guests/simon_harrer.jpg"
+  bio: ""
+
+"Sofia Katsaouni":
+  name: "Sofia Katsaouni"
+  linkedin: "https://linkedin.com/in/sofia-katsaouni"
+  avatar: "guests/sofia_katsaouni.jpg"
+  bio: ""
+
+"Stefan Hofer":
+  name: "Stefan Hofer"
+  linkedin: "https://linkedin.com/in/stefan-hofer"
+  avatar: "guests/stefan_hofer.jpg"
+  bio: ""
+
+"Stefan Roock":
+  name: "Stefan Roock"
+  linkedin: "https://linkedin.com/in/stefan-roock"
+  avatar: "guests/stefan_roock.jpg"
+  bio: ""
+
+"Stefan Tilkov":
+  name: "Stefan Tilkov"
+  linkedin: "https://linkedin.com/in/stefan-tilkov"
+  avatar: "guests/stefan_tilkov.jpg"
+  bio: ""
+
+"Stefan Toth":
+  name: "Stefan Toth"
+  linkedin: "https://linkedin.com/in/stefan-toth-architect"
+  avatar: "guests/stefan_toth.jpg"
+  bio: ""
+
+"Stefan Zörner":
+  name: "Stefan Zörner"
+  linkedin: "https://linkedin.com/in/stefan-zoerner"
+  avatar: "guests/stefan_zörner.jpg"
+  bio: ""
+
+"Susanne Braun":
+  name: "Susanne Braun"
+  linkedin: "https://linkedin.com/in/susanne-braun"
+  avatar: "guests/susanne_braun.jpg"
+  bio: ""
+
+"Sven Johann":
+  name: "Sven Johann"
+  linkedin: "https://linkedin.com/in/sven-johann"
+  avatar: "guests/sven_johann.jpg"
+  bio: ""
+
+"Sönke Marahrens":
+  name: "Sönke Marahrens"
+  linkedin: "https://linkedin.com/in/sönke-marahrens"
+  avatar: "guests/sönke_marahrens.jpg"
+  bio: ""
+
+"Tanja Friedel":
+  name: "Tanja Friedel"
+  linkedin: "https://linkedin.com/in/tanja-friedel"
+  avatar: "guests/tanja_friedel.jpg"
+  bio: ""
+
+"The Architecture":
+  name: "The Architecture"
+  linkedin: "https://linkedin.com/in/the-architecture"
+  avatar: "guests/the_architecture.jpg"
+  bio: ""
+
+"Thomas Ruhroth":
+  name: "Thomas Ruhroth"
+  linkedin: "https://linkedin.com/in/thomas-ruhroth"
+  avatar: "guests/thomas_ruhroth.jpg"
+  bio: ""
+
+"Tobias Goeschel":
+  name: "Tobias Goeschel"
+  linkedin: "https://linkedin.com/in/tobias-goeschel"
+  avatar: "guests/tobias_goeschel.jpg"
+  bio: ""
+
+"Uwe Friedrichsen":
+  name: "Uwe Friedrichsen"
+  linkedin: "https://linkedin.com/in/uwe-friedrichsen"
+  avatar: "guests/uwe_friedrichsen.jpg"
+  bio: ""
+
+"Uwe Vigenschow":
+  name: "Uwe Vigenschow"
+  linkedin: "https://linkedin.com/in/uwe-vigenschow"
+  avatar: "guests/uwe_vigenschow.jpg"
+  bio: ""
+
+"Vaughn Vernon":
+  name: "Vaughn Vernon"
+  linkedin: "https://linkedin.com/in/vaughn-vernon"
+  avatar: "guests/vaughn_vernon.jpg"
+  bio: ""
+
+"Woody Zuill":
+  name: "Woody Zuill"
+  linkedin: "https://linkedin.com/in/woody-zuill"
+  avatar: "guests/woody_zuill.jpg"
+  bio: ""
+
+"Xin Yao":
+  name: "Xin Yao"
+  linkedin: "https://linkedin.com/in/xin-yao"
+  avatar: "guests/xin_yao.jpg"
+  bio: ""
+
