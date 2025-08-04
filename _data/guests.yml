@@ -1,856 +1,132 @@
-# Gäste von software-architektur.tv
-# Mit korrekten Episode-Referenzen
-# Generiert am: 2025-08-04 06:36:21
+# Software-Architektur.tv Gäste-Datenbank
+# Zentrale YAML-Datei mit allen Stream-Gästen und ihren Daten
 
-"Lisa Schäfer":
-  name: "Lisa Schäfer"
-  episode_count: 4
-  avatar: "guests/lisa_schaefer.svg"
-  linkedin: "https://linkedin.com/in/lisa-schaefer-coach"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 39
-      title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-      file: "2021-02-09-folge39.md"
-      youtube: "8IAdFtTCrt8"
-      date: ""
-    - episode: 42
-      title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
-      file: "2021-02-10-folge42.md"
-      youtube: "gqF123U71u8"
-      date: ""
-    - episode: 45
-      title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-      file: "2021-02-11-folge45.md"
-      youtube: "NBU4EZapeLQ"
-      date: ""
-    - episode: 146
-      title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-      file: "2022-12-16-folge146.md"
-      youtube: "U5e7F3LnHvY"
-      date: ""
+guests:
+  # Beispiel-Gäste für Entwicklung und Testing
+  - name: "Eberhard Wolff"
+    linkedin: "https://www.linkedin.com/in/eberhard-wolff-4a61962/"
+    image: "/images/guests/eberhard-wolff.jpg"
+    bio: "Software-Architekt, Autor und Host von Software-Architektur.tv"
+    tags: ["Microservices", "Software-Architektur", "Java", "Spring", "Domain-Driven Design"]
+    episodes:
+      - title: "Folge 001: Einführung in Software-Architektur"
+        url: "/2020/04/01/folge001.html"
+        date: "2020-04-01"
+        role: "host"
+      - title: "Folge 050: Microservices Patterns"
+        url: "/2021/03/15/folge050.html"  
+        date: "2021-03-15"
+        role: "host"
 
-"Franziska Dessart Joy Heron":
-  name: "Franziska Dessart Joy Heron"
-  episode_count: 3
-  avatar: "guests/franziska_dessart_joy_heron.svg"
-  linkedin: "https://linkedin.com/in/franziska-dessart-joy-heron"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 20
-      title: "Folge 20 -  Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-      file: "2020-10-02-folge020.md"
-      youtube: "pOIKn6BYWiY"
-      date: ""
-    - episode: 27
-      title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-      file: "2020-11-27-folge027.md"
-      youtube: "fl0aEwvorQw"
-      date: ""
-    - episode: 69
-      title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-      file: "2021-07-30-folge69.md"
-      youtube: "FuOpO-QRcos"
-      date: ""
+  - name: "Lisa Maria Schäfer"
+    linkedin: "https://www.linkedin.com/in/lisa-maria-schäfer/"
+    image: "/images/guests/lisa-schaefer.jpg"
+    bio: "Sketchnoterin und Co-Host von Software-Architektur.tv"
+    tags: ["Sketchnotes", "Visualisierung", "UX", "Design Thinking"]
+    episodes:
+      - title: "Folge 025: Visualisierung in der Software-Architektur"
+        url: "/2020/09/20/folge025.html"
+        date: "2020-09-20"
+        role: "co-host"
+      - title: "Folge 075: Sketchnotes für Entwickler"
+        url: "/2021/08/10/folge075.html"
+        date: "2021-08-10"
+        role: "co-host"
 
-"Christoph Iserlohn":
-  name: "Christoph Iserlohn"
-  episode_count: 3
-  avatar: "guests/christoph_iserlohn.svg"
-  linkedin: "https://linkedin.com/in/christoph-iserlohn"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 30
-      title: "Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day"
-      file: "2020-12-07-folge030.md"
-      youtube: "2mR56FDnoOc"
-      date: ""
-    - episode: 155
-      title: "Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn"
-      file: "2023-03-10-folge155.md"
-      youtube: "tJZ4AEc-yc8"
-      date: ""
-    - episode: 166
-      title: "Folge 166 - Zero Trust mit Christoph Iserlohn"
-      file: "2023-05-26-folge166.md"
-      youtube: "sNTHcYLAQkg"
-      date: ""
+  - name: "Ralf D. Müller"
+    linkedin: "https://www.linkedin.com/in/ralfdmueller/"
+    image: "/images/guests/ralf-mueller.jpg"  
+    bio: "Software-Architekt und Docs-as-Code Experte"
+    tags: ["Documentation", "Arc42", "Docs-as-Code", "Enterprise Architecture", "Gradle"]
+    episodes:
+      - title: "Folge 035: Docs-as-Code mit AsciiDoc"
+        url: "/2020/12/05/folge035.html"
+        date: "2020-12-05"
+        role: "guest"
+      - title: "Folge 089: Enterprise Architecture"
+        url: "/2022/02/28/folge089.html"
+        date: "2022-02-28"
+        role: "co-host"
 
-"Stefan Toth":
-  name: "Stefan Toth"
-  episode_count: 3
-  avatar: "guests/stefan_toth.svg"
-  linkedin: "https://linkedin.com/in/stefan-toth-architect"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 124
-      title: "Folge 124 - Microservices - Schlag den Eberhard & Stefan! Mit Stefan Toth"
-      file: "2022-06-23-folge124.md"
-      youtube: "GplG9Zz74ro"
-      date: ""
-    - episode: 128
-      title: "Folge 128 - Agilität und Architektur mit Stefan Toth"
-      file: "2022-07-22-folge128.md"
-      youtube: "CW9wXAnwJIU"
-      date: ""
-    - episode: 196
-      title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
-      file: "2024-01-12-folge196.md"
-      youtube: "Mnbn6WdwhrI"
-      date: ""
+  - name: "Stefan Tilkov"
+    linkedin: "https://www.linkedin.com/in/stilkov/"
+    image: "/images/guests/stefan-tilkov.jpg"
+    bio: "Software-Architekt, Berater und Autor bei innoQ"
+    tags: ["REST", "Web APIs", "Software-Architektur", "Microservices", "Hypermedia"]
+    episodes:
+      - title: "Folge 012: REST und Web APIs"
+        url: "/2020/06/15/folge012.html"
+        date: "2020-06-15"
+        role: "guest"
+      - title: "Folge 067: Hypermedia APIs"
+        url: "/2021/06/20/folge067.html"
+        date: "2021-06-20"
+        role: "guest"
 
-"Marco Emrich":
-  name: "Marco Emrich"
-  episode_count: 3
-  avatar: "guests/marco_emrich.svg"
-  linkedin: "https://linkedin.com/in/marcoemrich"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 225
-      title: "Folge 225 - Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2"
-      file: "2024-07-26-episode225.md"
-      youtube: "6M0yK3T_VpM"
-      date: ""
-    - episode: 226
-      title: "Folge 226 - Theorie des Aufräumens - Kent Beck’s “Tidy First?” mit Marco Emrich 2/2"
-      file: "2024-08-02-episode226.md"
-      youtube: "K0QVRwzbg2o"
-      date: ""
-    - episode: 236
-      title: "Folge 236 - Code Retreat live - mit Marco Emrich"
-      file: "2024-10-25-episode236.md"
-      youtube: "WksUB0pY3Ro"
-      date: ""
+  - name: "Gernot Starke"
+    linkedin: "https://www.linkedin.com/in/gernot-starke/"
+    image: "/images/guests/gernot-starke.jpg"
+    bio: "Software-Architekt, Trainer und Mitbegründer von arc42"
+    tags: ["Arc42", "Software-Architektur", "Dokumentation", "Clean Code", "Training"]
+    episodes:
+      - title: "Folge 008: Arc42 - Architektur-Dokumentation"
+        url: "/2020/05/18/folge008.html"
+        date: "2020-05-18"
+        role: "guest"
+      - title: "Folge 092: Clean Architecture"
+        url: "/2022/03/21/folge092.html"
+        date: "2022-03-21"
+        role: "guest"
 
-"Henning Schwentner":
-  name: "Henning Schwentner"
-  episode_count: 2
-  avatar: "guests/henning_schwentner.svg"
-  linkedin: "https://linkedin.com/in/henning-schwentner"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 21
-      title: "Folge 21 -  Domain Story Telling mit Henning Schwentner und Stefan Hofer"
-      file: "2020-10-09-folge021.md"
-      youtube: "XSE5m9Frvsg"
-      date: ""
-    - episode: 75
-      title: "Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner"
-      file: "2021-09-17-folge75.md"
-      youtube: "RJ0k6_MgsN4"
-      date: ""
+  - name: "Oliver Gierke"
+    linkedin: "https://www.linkedin.com/in/olivergierke/"
+    image: "/images/guests/oliver-gierke.jpg"
+    bio: "Software-Architekt bei VMware, Spring Data Lead"
+    tags: ["Spring", "Domain-Driven Design", "Spring Data", "Modularisierung", "Java"]
+    episodes:
+      - title: "Folge 018: Domain-Driven Design"
+        url: "/2020/07/27/folge018.html"
+        date: "2020-07-27"
+        role: "guest"
+      - title: "Folge 056: Spring Modularisierung"
+        url: "/2021/04/26/folge056.html"
+        date: "2021-04-26"
+        role: "guest"
 
-"Anja Kammer":
-  name: "Anja Kammer"
-  episode_count: 2
-  avatar: "guests/anja_kammer.svg"
-  linkedin: "https://linkedin.com/in/anja-kammer"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 31
-      title: "Folge 31 - DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day"
-      file: "2020-12-07-folge031.md"
-      youtube: "VEpjcYY9k6c"
-      date: ""
-    - episode: 147
-      title: "Folge 147 - Wie reißt man den Elfenbeinturm ein? mit Anja Kammer"
-      file: "2023-01-13-folge147.md"
-      youtube: "0mX3trZWux0"
-      date: ""
+  - name: "Silvia Schreier"
+    linkedin: "https://www.linkedin.com/in/silvia-schreier/"
+    image: "/images/guests/silvia-schreier.jpg"
+    bio: "Software-Architektin und Cloud-Expertin"
+    tags: ["Cloud Architecture", "AWS", "Serverless", "DevOps", "Migration"]
+    episodes:
+      - title: "Folge 043: Cloud Migration Strategien"
+        url: "/2021/01/18/folge043.html"
+        date: "2021-01-18"
+        role: "guest"
+      - title: "Folge 078: Serverless Architectures"
+        url: "/2021/09/13/folge078.html"
+        date: "2021-09-13"
+        role: "guest"
 
-"Martin Lippert":
-  name: "Martin Lippert"
-  episode_count: 2
-  avatar: "guests/martin_lippert.svg"
-  linkedin: "https://linkedin.com/in/martin-lippert"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 59
-      title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
-      file: "2021-05-21-folge59.md"
-      youtube: "UEWaxr_ds2w"
-      date: ""
-    - episode: 273
-      title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert"
-      file: "2025-08-01-folge273.md"
-      youtube: "5Q_TrSfq4Mw"
-      date: ""
+  - name: "Henning Schwentner"
+    linkedin: "https://www.linkedin.com/in/henning-schwentner/"
+    image: "/images/guests/henning-schwentner.jpg"
+    bio: "Software-Architekt und Domain-Driven Design Experte"
+    tags: ["Domain-Driven Design", "Event Storming", "Clean Architecture", "Refactoring"]
+    episodes:
+      - title: "Folge 029: Event Storming"
+        url: "/2020/10/19/folge029.html"
+        date: "2020-10-19"
+        role: "guest"
+      - title: "Folge 064: Legacy System Refactoring"
+        url: "/2021-05-31/folge064.html"
+        date: "2021-05-31"
+        role: "guest"
 
-"Lucas Dohmen":
-  name: "Lucas Dohmen"
-  episode_count: 2
-  avatar: "guests/lucas_dohmen.svg"
-  linkedin: "https://linkedin.com/in/lucas-dohmen"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 135
-      title: "Folge 135 - HTTP mit Lucas Dohmen"
-      file: "2022-09-23-folge135.md"
-      youtube: "uZ4hcgZZNqY"
-      date: ""
-    - episode: 251
-      title: "Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen"
-      file: "2025-02-21-folge251.md"
-      youtube: "2ObdIUfjdpA"
-      date: ""
-
-"Mike Sperber":
-  name: "Mike Sperber"
-  episode_count: 2
-  avatar: "guests/mike_sperber.svg"
-  linkedin: "https://linkedin.com/in/mike-sperber"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 156
-      title: "Folge 156 - Funktionale Programmierung, DDD und Architektur mit Mike Sperber"
-      file: "2023-03-14-folge156.md"
-      youtube: "1ISYi90G-mY"
-      date: ""
-    - episode: 186
-      title: "Folge 186 - Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber"
-      file: "2023-10-20-folge186.md"
-      youtube: "dgJsmflJKpI"
-      date: ""
-
-"Tanja Friedel":
-  name: "Tanja Friedel"
-  episode_count: 2
-  avatar: "guests/tanja_friedel.svg"
-  linkedin: "https://linkedin.com/in/tanja-friedel"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 249
-      title: "Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel"
-      file: "2025-01-31-folge249.md"
-      youtube: "LTueX9yu2P4"
-      date: ""
-    - episode: 263
-      title: "Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow"
-      file: "2025-05-16-folge263.md"
-      youtube: "Z9X-UjuiVkI"
-      date: ""
-
-"Hanna Prinz":
-  name: "Hanna Prinz"
-  episode_count: 1
-  avatar: "guests/hanna_prinz.svg"
-  linkedin: "https://linkedin.com/in/hanna-prinz"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 19
-      title: "Folge 19 - Service Mesh Linkerd mit Hanna Prinz"
-      file: "2020-09-18-folge019.md"
-      youtube: "hK0ZzbbigVM"
-      date: ""
-
-"DSL Domain Specific Languages":
-  name: "DSL Domain Specific Languages"
-  episode_count: 1
-  avatar: "guests/dsl_domain_specific_languages.svg"
-  linkedin: "https://linkedin.com/in/dsl-domain-specific-languages"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 22
-      title: "Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)"
-      file: "2020-10-23-folge022.md"
-      youtube: "4MUf-q1gsn0"
-      date: ""
-
-"Danilo Beuche":
-  name: "Danilo Beuche"
-  episode_count: 1
-  avatar: "guests/danilo_beuche.svg"
-  linkedin: "https://linkedin.com/in/danilo-beuche"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 24
-      title: "Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche"
-      file: "2020-11-06-folge024.md"
-      youtube: "Ix-7AyHhl-E"
-      date: ""
-
-"Johannes Seitz":
-  name: "Johannes Seitz"
-  episode_count: 1
-  avatar: "guests/johannes_seitz.svg"
-  linkedin: "https://linkedin.com/in/johannes-seitz"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 29
-      title: "Folge 29 - Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day"
-      file: "2020-12-07-folge029.md"
-      youtube: "s-SeVY12eAo"
-      date: ""
-
-"Michael Hunger":
-  name: "Michael Hunger"
-  episode_count: 1
-  avatar: "guests/michael_hunger.svg"
-  linkedin: "https://linkedin.com/in/michael-hunger"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 33
-      title: "Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger"
-      file: "2020-12-18-folge033.md"
-      youtube: "yBdx5cauXJk"
-      date: ""
-
-"Lars Hupel Lena Kraaz":
-  name: "Lars Hupel Lena Kraaz"
-  episode_count: 1
-  avatar: "guests/lars_hupel_lena_kraaz.svg"
-  linkedin: "https://linkedin.com/in/lars-hupel-lena-kraaz"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 50
-      title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
-      file: "2021-02-19-folge50.md"
-      youtube: "Jh7ive1xiLE"
-      date: ""
-
-"Erik Wilde":
-  name: "Erik Wilde"
-  episode_count: 1
-  avatar: "guests/erik_wilde.svg"
-  linkedin: "https://linkedin.com/in/erik-wilde"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 52
-      title: "Folge 52 - APIs mit Erik Wilde"
-      file: "2021-03-05-folge52.md"
-      youtube: "GYtSM6jpV5o"
-      date: ""
-
-"Spring Native Spring Boot":
-  name: "Spring Native Spring Boot"
-  episode_count: 1
-  avatar: "guests/spring_native_spring_boot.svg"
-  linkedin: "https://linkedin.com/in/spring-native-spring-boot"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 54
-      title: "Folge 54 - GraalVM mit Spring Native, Spring Boot und Spring Cloud"
-      file: "2021-04-01-folge54.md"
-      youtube: "rjN8DSoxGCo"
-      date: ""
-
-"Jochen Christ Franziska Dessart":
-  name: "Jochen Christ Franziska Dessart"
-  episode_count: 1
-  avatar: "guests/jochen_christ_franziska_dessart.svg"
-  linkedin: "https://linkedin.com/in/jochen-christ-franziska-dessart"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 56
-      title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-      file: "2021-04-16-folge56.md"
-      youtube: "-02gte-IKpY"
-      date: ""
-
-"Oliver Wehrens":
-  name: "Oliver Wehrens"
-  episode_count: 1
-  avatar: "guests/oliver_wehrens.svg"
-  linkedin: "https://linkedin.com/in/oliver-wehrens"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 68
-      title: "Folge 68 - Der Schritt zur Software-Architekt:in mit Oliver Wehrens"
-      file: "2021-07-23-folge68.md"
-      youtube: "f-aJogqqk6M"
-      date: ""
-
-"Johannes Link":
-  name: "Johannes Link"
-  episode_count: 1
-  avatar: "guests/johannes_link.svg"
-  linkedin: "https://linkedin.com/in/johannes-link"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 71
-      title: "Folge 71 - Welchen Sinn hat agiles Coaching? mit Johannes Link"
-      file: "2021-08-13-folge71.md"
-      youtube: "JKDfy7A61ug"
-      date: ""
-
-"HTTP Feeds":
-  name: "HTTP Feeds"
-  episode_count: 1
-  avatar: "guests/http_feeds.svg"
-  linkedin: "https://linkedin.com/in/http-feeds"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 98
-      title: "Folge 98 - Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ"
-      file: "2022-01-14-episode98.md"
-      youtube: "b1uwA1j7kLs"
-      date: ""
-
-"Marina Köhn Jutta Eckstein":
-  name: "Marina Köhn Jutta Eckstein"
-  episode_count: 1
-  avatar: "guests/marina_koehn_jutta_eckstein.svg"
-  linkedin: "https://linkedin.com/in/marina-koehn-jutta-eckstein"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 107
-      title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
-      file: "2022-02-02-folge107.md"
-      youtube: "SQ3sbRXK8iM"
-      date: ""
-
-"Aminata Sidibe":
-  name: "Aminata Sidibe"
-  episode_count: 1
-  avatar: "guests/aminata_sidibe.svg"
-  linkedin: "https://linkedin.com/in/aminata-sidibe"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 114
-      title: "Folge 114 -  Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur"
-      file: "2022-04-01-folge114.md"
-      youtube: "6kypcTVBmMc"
-      date: ""
-
-"Felix Müller":
-  name: "Felix Müller"
-  episode_count: 1
-  avatar: "guests/felix_mueller.svg"
-  linkedin: "https://linkedin.com/in/felix-mueller"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 122
-      title: "Folge 122 - DORA Metriken & Accelerate mit Felix Müller"
-      file: "2022-06-10-folge122.md"
-      youtube: "Z2aMzqjEoTI"
-      date: ""
-
-"Falk Sippach":
-  name: "Falk Sippach"
-  episode_count: 1
-  avatar: "guests/falk_sippach.svg"
-  linkedin: "https://linkedin.com/in/falksippach"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 138
-      title: "Folge 138 - Was ist Documentation as Code? mit Falk Sippach"
-      file: "2022-10-14-folge138.md"
-      youtube: "7cIQfjDYK04"
-      date: ""
-
-"Sönke Marahrens":
-  name: "Sönke Marahrens"
-  episode_count: 1
-  avatar: "guests/soenke_marahrens.svg"
-  linkedin: "https://linkedin.com/in/soenke-marahrens"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 141
-      title: "Folge 141 - Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens"
-      file: "2022-11-04-folge141.md"
-      youtube: "Oc4X7AZpJgA"
-      date: ""
-
-"Falk Hoppe":
-  name: "Falk Hoppe"
-  episode_count: 1
-  avatar: "guests/falk_hoppe.svg"
-  linkedin: "https://linkedin.com/in/falk-hoppe"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 150
-      title: "Folge 150 -  Frontendintegrationsmuster im Web mit Falk Hoppe"
-      file: "2023-02-03-folge150.md"
-      youtube: "cPGVqvwnWKw"
-      date: ""
-
-"Sascha Möllering":
-  name: "Sascha Möllering"
-  episode_count: 1
-  avatar: "guests/sascha_moellering.svg"
-  linkedin: "https://linkedin.com/in/sascha-moellering"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 154
-      title: "Folge 154 - Serverless Architektur mit Sascha Möllering"
-      file: "2023-03-03-folge154.md"
-      youtube: "PN6Tj_9JOGk"
-      date: ""
-
-"Gerrit Beine":
-  name: "Gerrit Beine"
-  episode_count: 1
-  avatar: "guests/gerrit_beine.svg"
-  linkedin: "https://linkedin.com/in/gerrit-beine"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 157
-      title: "Folge 157 - Single Source of Truth mit Gerrit Beine"
-      file: "2023-03-17-folge157.md"
-      youtube: "z1b-m4Pio0E"
-      date: ""
-
-"Nora Schöner":
-  name: "Nora Schöner"
-  episode_count: 1
-  avatar: "guests/nora_schoener.svg"
-  linkedin: "https://linkedin.com/in/nora-schoener"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 158
-      title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
-      file: "2023-03-24-folge158.md"
-      youtube: "6faHlYeVDz8"
-      date: ""
-
-"Michaela Kühn":
-  name: "Michaela Kühn"
-  episode_count: 1
-  avatar: "guests/michaela_kuehn.svg"
-  linkedin: "https://linkedin.com/in/michaela-kuehn"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 161
-      title: "Folge 161 - Business Analyst:in und Software-Architektur mit Michaela Kühn"
-      file: "2023-04-21-folge161.md"
-      youtube: "ARdLsB_1cik"
-      date: ""
-
-"Stefan Tilkov":
-  name: "Stefan Tilkov"
-  episode_count: 1
-  avatar: "guests/stefan_tilkov.svg"
-  linkedin: "https://linkedin.com/in/stefan-tilkov"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 162
-      title: "Folge 162 -  Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
-      file: "2023-04-27-folge162.md"
-      youtube: "Q9RrBwRt8sE"
-      date: ""
-
-"Rebecca Temme":
-  name: "Rebecca Temme"
-  episode_count: 1
-  avatar: "guests/rebecca_temme.svg"
-  linkedin: "https://linkedin.com/in/rebecca-temme"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 163
-      title: "Folge 163 - Kommunikation im Entwicklungsprozess mit Rebecca Temme"
-      file: "2023-04-28-folge163.md"
-      youtube: "Te9CJWK9Hmc"
-      date: ""
-
-"Melanie Schäfer":
-  name: "Melanie Schäfer"
-  episode_count: 1
-  avatar: "guests/melanie_schaefer.svg"
-  linkedin: "https://linkedin.com/in/melanie-schaefer"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 164
-      title: "Folge 164 - Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer"
-      file: "2023-05-17-folge164.md"
-      youtube: "utPlRMnvINI"
-      date: ""
-
-"Joseph Pelrine":
-  name: "Joseph Pelrine"
-  episode_count: 1
-  avatar: "guests/joseph_pelrine.svg"
-  linkedin: "https://linkedin.com/in/joseph-pelrine"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 167
-      title: "Folge 167 - Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special"
-      file: "2023-06-02-folge167.md"
-      youtube: "gI44roShx84"
-      date: ""
-
-"Dehla Sokenou OOP Special":
-  name: "Dehla Sokenou OOP Special"
-  episode_count: 1
-  avatar: "guests/dehla_sokenou_oop_special.svg"
-  linkedin: "https://linkedin.com/in/dehla-sokenou-oop-special"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 171
-      title: "Folge 171 - Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)"
-      file: "2023-06-30-folge171.md"
-      youtube: "sdJxLe_nWFc"
-      date: ""
-
-"Markus Völter":
-  name: "Markus Völter"
-  episode_count: 1
-  avatar: "guests/markus_voelter.svg"
-  linkedin: "https://linkedin.com/in/markus-voelter"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 175
-      title: "Folge 175 - How to Understand Almost Anything mit Markus Völter"
-      file: "2023-07-21-folge175.md"
-      youtube: "w1dV3yhnXhY"
-      date: ""
-
-"Nadine Andraczek":
-  name: "Nadine Andraczek"
-  episode_count: 1
-  avatar: "guests/nadine_andraczek.svg"
-  linkedin: "https://linkedin.com/in/nadine-andraczek"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 177
-      title: "Folge 177 - Scrum Master:in und Softwarearchitektur mit Nadine Andraczek"
-      file: "2023-08-04-folge177.md"
-      youtube: "UOtP1_8Id-s"
-      date: ""
-
-"Faktor Mensch":
-  name: "Faktor Mensch"
-  episode_count: 1
-  avatar: "guests/faktor_mensch.svg"
-  linkedin: "https://linkedin.com/in/faktor-mensch"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 178
-      title: "Folge 178 - Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?"
-      file: "2023-08-11-folge178.md"
-      youtube: "bu0vrBGnRRg"
-      date: ""
-
-"Michael Vitz":
-  name: "Michael Vitz"
-  episode_count: 1
-  avatar: "guests/michael_vitz.svg"
-  linkedin: "https://linkedin.com/in/michael-vitz"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 180
-      title: "Folge 180 - Engineering Excellence mit Michael Vitz"
-      file: "2023-09-15-folge180.md"
-      youtube: "w9EmDTbw6aE"
-      date: ""
-
-"Rakia Ben Sassi":
-  name: "Rakia Ben Sassi"
-  episode_count: 1
-  avatar: "guests/rakia_ben_sassi.svg"
-  linkedin: "https://linkedin.com/in/rakia-ben-sassi"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 188
-      title: "Folge 188 - Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee mit Rakia Ben Sassi"
-      file: "2023-11-03-folge188.md"
-      youtube: "ojCihK6PZ14"
-      date: ""
-
-"Julia Freudenberg":
-  name: "Julia Freudenberg"
-  episode_count: 1
-  avatar: "guests/julia_freudenberg.svg"
-  linkedin: "https://linkedin.com/in/julia-freudenberg"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 202
-      title: "Folge 202 - Hack the World a Better Place mit Dr. Julia Freudenberg"
-      file: "2024-02-09-folge202.md"
-      youtube: "pIC-VsGHLgs"
-      date: ""
-
-"Miriam Greis":
-  name: "Miriam Greis"
-  episode_count: 1
-  avatar: "guests/miriam_greis.svg"
-  linkedin: "https://linkedin.com/in/miriam-greis"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 205
-      title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
-      file: "2024-03-01-folge205.md"
-      youtube: "Tlg5N_xYz_c"
-      date: ""
-
-"Oliver Drotbohm":
-  name: "Oliver Drotbohm"
-  episode_count: 1
-  avatar: "guests/oliver_drotbohm.svg"
-  linkedin: "https://linkedin.com/in/oliver-drotbohm"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 219
-      title: "Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm"
-      file: "2024-05-31-episode219.md"
-      youtube: "Cat1Zzf9sjM"
-      date: ""
-
-"Michael Plöd":
-  name: "Michael Plöd"
-  episode_count: 1
-  avatar: "guests/michael_ploed.svg"
-  linkedin: "https://linkedin.com/in/michael-ploed"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 224
-      title: "Folge 224 - Quality Storming mit Michael Plöd"
-      file: "2024-07-12-episode224.md"
-      youtube: "GOkM_sfGyEA"
-      date: ""
-
-"Michael Ahrens":
-  name: "Michael Ahrens"
-  episode_count: 1
-  avatar: "guests/michael_ahrens.svg"
-  linkedin: "https://linkedin.com/in/michael-ahrens"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 227
-      title: "Folge 227 - Firmenpolitik für Architekt:innen mit Michael Ahrens"
-      file: "2024-08-09-episode227.md"
-      youtube: "lbipl4Vw7q4"
-      date: ""
-
-"Kim Nena Duggen":
-  name: "Kim Nena Duggen"
-  episode_count: 1
-  avatar: "guests/kim_nena_duggen.svg"
-  linkedin: "https://linkedin.com/in/kim-nena-duggen"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 230
-      title: "Folge 230 - Team Topologie in der Praxis mit Kim Nena Duggen"
-      file: "2024-09-16-episode230.md"
-      youtube: "Pny2lZC2I4c"
-      date: ""
-
-"Jochen Mader":
-  name: "Jochen Mader"
-  episode_count: 1
-  avatar: "guests/jochen_mader.svg"
-  linkedin: "https://linkedin.com/in/jochen-mader"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 231
-      title: "Folge 231 - Supply Chain Security mit Jochen Mader - live von der BED-Con"
-      file: "2024-09-19-episode231.md"
-      youtube: "ayf7CenWypg"
-      date: ""
-
-"Friederike Sternberg":
-  name: "Friederike Sternberg"
-  episode_count: 1
-  avatar: "guests/friederike_sternberg.svg"
-  linkedin: "https://linkedin.com/in/friederike-sternberg"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 232
-      title: "Folge 232 - Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con"
-      file: "2024-09-20-episode232.md"
-      youtube: "9gOodTcTq70"
-      date: ""
-
-"Liberating Structures":
-  name: "Liberating Structures"
-  episode_count: 1
-  avatar: "guests/liberating_structures.svg"
-  linkedin: "https://linkedin.com/in/liberating-structures"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 234
-      title: "Folge 234 - Moderation mit Liberating Structures für Architekt:innen mit Martin Günther"
-      file: "2024-10-04-episode234.md"
-      youtube: "PtpgMYoBhiE"
-      date: ""
-
-"Aydin Mir Mohammadi":
-  name: "Aydin Mir Mohammadi"
-  episode_count: 1
-  avatar: "guests/aydin_mir_mohammadi.svg"
-  linkedin: "https://linkedin.com/in/aydin-mir-mohammadi"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 235
-      title: "Folge 235 - Green Software Development mit Aydin Mir Mohammadi"
-      file: "2024-10-18-episode235.md"
-      youtube: "uqIUaElJPSM"
-      date: ""
-
-"Cosima Laube":
-  name: "Cosima Laube"
-  episode_count: 1
-  avatar: "guests/cosima_laube.svg"
-  linkedin: "https://linkedin.com/in/cosima-laube"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 239
-      title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
-      file: "2024-11-08-episode239.md"
-      youtube: "gLcdgEBOoAA"
-      date: ""
-
-"Bernd Rücker":
-  name: "Bernd Rücker"
-  episode_count: 1
-  avatar: "guests/bernd_ruecker.svg"
-  linkedin: "https://linkedin.com/in/bernd-ruecker"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 243
-      title: "Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker"
-      file: "2024-12-06-episode243.md"
-      youtube: "ItRopNk6avk"
-      date: ""
-
-"Christian Weyer":
-  name: "Christian Weyer"
-  episode_count: 1
-  avatar: "guests/christian_weyer.svg"
-  linkedin: "https://linkedin.com/in/christian-weyer"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 246
-      title: "Folge 246 - GenAI und Software-Architektur mit Christian Weyer"
-      file: "2025-01-10-folge246.md"
-      youtube: "oMoIWDOoCdg"
-      date: ""
-
-"Richard Gross":
-  name: "Richard Gross"
-  episode_count: 1
-  avatar: "guests/richard_gross.svg"
-  linkedin: "https://linkedin.com/in/richard-gross"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 248
-      title: "Folge 248 - Code Charta mit Richard Gross"
-      file: "2025-01-24-folge248.md"
-      youtube: "rDHtNNBoP6Y"
-      date: ""
-
-"Dirk Riehle":
-  name: "Dirk Riehle"
-  episode_count: 1
-  avatar: "guests/dirk_riehle.svg"
-  linkedin: "https://linkedin.com/in/dirk-riehle"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 270
-      title: "Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle"
-      file: "2025-07-04-folge270.md"
-      youtube: "xwIoFhaRwf8"
-      date: ""
-
-"Eberhard Lisa":
-  name: "Eberhard Lisa"
-  episode_count: 1
-  avatar: "guests/eberhard_lisa.svg"
-  linkedin: "https://linkedin.com/in/eberhard-lisa"
-  bio: "Gast der Software-Architektur.tv"
-  episodes:
-    - episode: 272
-      title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
-      file: "2025-07-25-episode272.md"
-      youtube: "U8a-NkR69Z8"
-      date: ""
-
+# Hinweise zur Datenpflege:
+# 1. Namen exakt wie sie in den Episodes erscheinen
+# 2. LinkedIn-URLs prüfen und aktuell halten
+# 3. Bilder im Format 300x300px, WebP bevorzugt
+# 4. Tags einheitlich verwenden (siehe bestehende Tags)
+# 5. Episode-URLs mit korrektem Datum-Format
+# 6. Rolle: host|co-host|guest|moderator
