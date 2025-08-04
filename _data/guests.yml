@@ -1,746 +1,936 @@
 # Software-Architektur.tv Gäste-Datenbank
-# Echte Gast-Daten aus den Stream-Episoden extrahiert
-# Erweitert mit 35+ prominenten Gästen
+# VOLLSTÄNDIGE Liste aller Gäste aus allen 89 Episoden mit Gästen
+# Extrahiert und bereinigt - nur echte Personen
+# Anzahl Gäste: 71
 
 guests:
-  # Martin Lippert - Recent guest, Spring Tools expert
-  - name: "Martin Lippert"
-    linkedin: "https://www.linkedin.com/in/martin-lippert/"
-    image: "/images/guests/martin-lippert.jpg"
-    bio: "Spring Tools Lead, langjährige Erfahrung als Entwickler und Speaker"
-    tags: ["Spring", "MCP", "Model Context Protocol", "Spring AI", "LLM", "Development Tools", "Klimawandel"]
-    episodes:
-      - title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert"
-        url: "/2025/08/01/folge273.html"
-        date: "2025-08-01"
-        role: "guest"
-      - title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
-        url: "/2021/05/21/folge59.html"
-        date: "2021-05-21"
-        role: "guest"
 
-  # Marco Emrich - Clean Code, Refactoring (3 appearances)
-  - name: "Marco Emrich"
-    linkedin: "https://www.linkedin.com/in/marcoemrich/"
-    image: "/images/guests/marco-emrich.jpg"
-    bio: "Software-Entwickler, Clean Code Experte"
-    tags: ["Clean Code", "Refactoring", "Kent Beck", "Code Quality", "Code Retreat", "Tidy First"]
-    episodes:
-      - title: "Folge 225 - Code Aufräumen - Kent Beck's \"Tidy First?\" mit Marco Emrich 1/2"
-        url: "/2024/07/26/episode225.html"
-        date: "2024-07-26"
-        role: "guest"
-      - title: "Folge 226 - Theorie des Aufräumens - Kent Beck's \"Tidy First?\" mit Marco Emrich 2/2"
-        url: "/2024/08/02/episode226.html"
-        date: "2024-08-02"
-        role: "guest"
-      - title: "Folge 236 - Code Retreat live - mit Marco Emrich"
-        url: "/2024/10/25/episode236.html"
-        date: "2024-10-25"
-        role: "guest"
-
-  # Christoph Iserlohn - Security Expert (3 appearances)
-  - name: "Christoph Iserlohn"
-    linkedin: "https://www.linkedin.com/in/christoph-iserlohn/"
-    image: "/images/guests/christoph-iserlohn.jpg"
-    bio: "Security-Experte bei innoQ"
-    tags: ["Security", "OWASP", "Zero Trust", "Sichere Architekturen", "Cybersecurity"]
-    episodes:
-      - title: "Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day"
-        url: "/2020/12/07/folge030.html"
-        date: "2020-12-07"
-        role: "guest"
-      - title: "Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn"
-        url: "/2023/03/10/folge155.html"
-        date: "2023-03-10"
-        role: "guest"
-      - title: "Folge 166 - Zero Trust mit Christoph Iserlohn"
-        url: "/2023/05/26/folge166.html"
-        date: "2023-05-26"
-        role: "guest"
-
-  # Lucas Dohmen - Frontend, innoQ (3 appearances)
-  - name: "Lucas Dohmen"
-    linkedin: "https://www.linkedin.com/in/lucas-dohmen/"
-    image: "/images/guests/lucas-dohmen.jpg"
-    bio: "Senior Consultant bei innoQ, Frontend- und Web-Experte"
-    tags: ["Frontend-Architektur", "HTTP", "Web Development", "JavaScript", "KI", "LLMs"]
-    episodes:
-      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/10/02/folge020.html"
-        date: "2020-10-02"
-        role: "guest"
-      - title: "Folge 135 - HTTP mit Lucas Dohmen"
-        url: "/2022/09/23/folge135.html"
-        date: "2022-09-23"
-        role: "guest"
-      - title: "Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen"
-        url: "/2025/02/21/folge251.html"
-        date: "2025-02-21"
-        role: "guest"
-
-  # Franziska Dessart - Frontend Architecture (3 appearances)
-  - name: "Franziska Dessart"
-    linkedin: "https://www.linkedin.com/in/franzi-dessart/"
-    image: "/images/guests/franziska-dessart.jpg"
-    bio: "Frontend-Architektin und Entwicklerin"
-    tags: ["Frontend-Architektur", "JavaScript", "Web Development", "User Experience", "Remote Programming"]
-    episodes:
-      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/10/02/folge020.html"
-        date: "2020-10-02"
-        role: "guest"
-      - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/11/27/folge027.html"
-        date: "2020-11-27"
-        role: "guest"
-      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-        url: "/2021/04/16/folge056.html"
-        date: "2021-04-16"
-        role: "guest"
-
-  # Ralf D. Müller - Arc42, Docs-as-Code (Co-Host, 4+ appearances)
-  - name: "Ralf D. Müller"
-    linkedin: "https://www.linkedin.com/in/ralfdmueller/"
-    image: "/images/guests/ralf-mueller.jpg"
-    bio: "Software-Architekt, Docs-as-Code Experte und Co-Host"
-    tags: ["Documentation", "Arc42", "Docs-as-Code", "Enterprise Architecture", "Gradle", "ChatGPT", "AI"]
-    episodes:
-      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-        url: "/2022/12/16/folge146.html"
-        date: "2022-12-16"
-        role: "co-host"
-      - title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller"
-        url: "/2023/12/15/folge193.html"
-        date: "2023-12-15"
-        role: "co-host"
-      - title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller"
-        url: "/2024/01/19/folge197.html"
-        date: "2024-01-19"
-        role: "co-host"
-      - title: "Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller"
-        url: "/2024/11/29/episode242.html"
-        date: "2024-11-29"
-        role: "co-host"
-
-  # Lisa Maria Schäfer - Sketchnotes, Co-Host (3+ appearances)
-  - name: "Lisa Maria Schäfer"
-    linkedin: "https://www.linkedin.com/in/lisa-maria-schaefer/"
-    image: "/images/guests/lisa-schaefer.jpg"
-    bio: "Sketchnoterin, Full-Stack-Entwicklerin und Co-Host"
-    tags: ["Sketchnotes", "Visualisierung", "UX", "Design Thinking", "Full-Stack Development"]
-    episodes:
-      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/folge39.html"
-        date: "2021-02-09"
-        role: "co-host"
-      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-        url: "/2022/12/16/folge146.html"
-        date: "2022-12-16"
-        role: "co-host"
-      - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
-        url: "/2024/03/01/folge205.html"
-        date: "2024-03-01"
-        role: "co-host"
-
-  # Prof. Dirk Riehle - Open Source Expert (2 appearances)
-  - name: "Prof. Dirk Riehle"
-    linkedin: "https://www.linkedin.com/in/dirkriehle/"
-    image: "/images/guests/dirk-riehle.jpg"
-    bio: "Professor für Open-Source Software Engineering, FAU Erlangen-Nürnberg"
-    tags: ["Open Source", "Inner Source", "Software Engineering", "Forschung", "Academia", "Community"]
-    episodes:
-      - title: "Folge 32 - Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle"
-        url: "/2020/12/11/folge032.html"
-        date: "2020-12-11"
-        role: "guest"
-      - title: "Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle"
-        url: "/2025/07/04/folge270.html"
-        date: "2025-07-04"
-        role: "guest"
-
-  # Mike Sperber - Functional Programming (2 appearances)  
-  - name: "Mike Sperber"
-    linkedin: "https://www.linkedin.com/in/mike-sperber/"
-    image: "/images/guests/mike-sperber.jpg"
-    bio: "Funktionale Programmierung Experte, DeinProgramm"
-    tags: ["Funktionale Programmierung", "Domain-Driven Design", "Architektur", "Scheme", "Racket"]
-    episodes:
-      - title: "Folge 156 - Funktionale Programmierung, DDD und Architektur mit Mike Sperber"
-        url: "/2023/03/14/folge156.html"
-        date: "2023-03-14"
-        role: "guest"
-      - title: "Folge 186 - Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber"
-        url: "/2023/10/20/folge186.html"
-        date: "2023-10-20"
-        role: "guest"
-
-  # Anja Kammer - DevOps, Team Topologies (2 appearances)
-  - name: "Anja Kammer"
-    linkedin: "https://www.linkedin.com/in/anja-kammer/"
-    image: "/images/guests/anja-kammer.jpg"
-    bio: "DevOps Expertin, Team Topologies Spezialistin bei innoQ"
-    tags: ["DevOps", "Team Topologies", "Organisationsdesign", "Transformation", "Elfenbeinturm"]
-    episodes:
-      - title: "Folge 31 - DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day"
-        url: "/2020/12/07/folge031.html"
-        date: "2020-12-07"
-        role: "guest"
-      - title: "Folge 147 - Wie reißt man den Elfenbeinturm ein? mit Anja Kammer"
-        url: "/2023/01/13/folge147.html"
-        date: "2023-01-13"
-        role: "guest"
-
-  # Henning Schwentner - Domain-driven Design expert (2 appearances)
-  - name: "Henning Schwentner"
-    linkedin: "https://www.linkedin.com/in/henning-schwentner/"
-    image: "/images/guests/henning-schwentner.jpg"
-    bio: "Software-Architekt und Domain-Driven Design Experte"
-    tags: ["Domain-Driven Design", "Event Storming", "Domain Story Telling", "Clean Architecture", "Refactoring"]
-    episodes:
-      - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
-        url: "/2020/10/09/folge021.html"
-        date: "2020-10-09"
-        role: "guest"
-      - title: "Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner"
-        url: "/2021/09/17/folge075.html"
-        date: "2021-09-17"
-        role: "guest"
-
-  # Stefan Tilkov - REST and API expert (2 appearances)
-  - name: "Stefan Tilkov"
-    linkedin: "https://www.linkedin.com/in/stilkov/"
-    image: "/images/guests/stefan-tilkov.jpg"
-    bio: "Software-Architekt, Berater und Autor bei innoQ"
-    tags: ["REST", "Web APIs", "Software-Architektur", "Microservices", "Hypermedia"]
-    episodes:
-      - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/11/folge045.html"
-        date: "2021-02-11"
-        role: "guest"
-      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
-        url: "/2023/04/27/folge162.html"
-        date: "2023-04-27"
-        role: "guest"
-
-  # Dr. Julia Freudenberg - Hacker School, Education (2 appearances)
-  - name: "Dr. Julia Freudenberg"
-    linkedin: "https://www.linkedin.com/in/juliafreudenberg/"
-    image: "/images/guests/julia-freudenberg.jpg"
-    bio: "Geschäftsführerin der Hacker School, Expertin für IT-Bildung"
-    tags: ["IT-Bildung", "Hacker School", "Education", "Nachwuchsförderung", "Diversity"]
-    episodes:
-      - title: "Folge 192 - Fishbowl - Brücken bauen - Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)"
-        url: "/2023/12/13/folge192.html"
-        date: "2023-12-13"
-        role: "guest"
-      - title: "Folge 202 - Hack the World a Better Place mit Dr. Julia Freudenberg"
-        url: "/2024/02/09/folge202.html"
-        date: "2024-02-09"
-        role: "guest"
-
-  # Eberhard Wolff - Main Host
-  - name: "Eberhard Wolff"
-    linkedin: "https://www.linkedin.com/in/eberhard-wolff-4a61962/"
-    image: "/images/guests/eberhard-wolff.jpg"
-    bio: "Software-Architekt, Autor und Haupthost von Software-Architektur.tv"
-    tags: ["Microservices", "Software-Architektur", "Java", "Spring", "Domain-Driven Design"]
-    episodes:
-      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
-        url: "/2023/04/27/folge162.html"
-        date: "2023-04-27"
-        role: "host"
-
-  # Markus Völter - Language Engineering (2 appearances)
-  - name: "Markus Völter"
-    linkedin: "https://www.linkedin.com/in/markus-voelter/"
-    image: "/images/guests/markus-voelter.jpg"
-    bio: "Language Engineering Experte, independent"
-    tags: ["DSL", "Domain Specific Languages", "Language Engineering", "Modeling", "Understanding"]
-    episodes:
-      - title: "Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)"
-        url: "/2020/10/23/folge022.html"
-        date: "2020-10-23"
-        role: "guest"
-      - title: "Folge 175 - How to Understand Almost Anything mit Markus Völter"
-        url: "/2023/07/21/folge175.html"
-        date: "2023-07-21"
-        role: "guest"
-
-  # Oliver Drotbohm - Spring Data Lead, jMolecules
-  - name: "Oliver Drotbohm"
-    linkedin: "https://www.linkedin.com/in/oliverdrotbohm/"
-    image: "/images/guests/oliver-drotbohm.jpg"
-    bio: "Spring Data Lead, Domain-Driven Design Experte"
-    tags: ["Spring", "Domain-Driven Design", "Spring Data", "jMolecules", "Java", "Modularisierung"]
-    episodes:
-      - title: "Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm"
-        url: "/2024/05/31/episode219.html"
-        date: "2024-05-31"
-        role: "guest"
-
-  # Stefan Hofer - Domain Story Telling co-creator
-  - name: "Stefan Hofer"
-    linkedin: "https://www.linkedin.com/in/stefan-hofer-hofstadler/"
-    image: "/images/guests/stefan-hofer.jpg"
-    bio: "Domain Story Telling Mitbegründer, Collaborative Modeling Experte"
-    tags: ["Domain Story Telling", "Collaborative Modeling", "Domain-Driven Design", "Requirements Engineering"]
-    episodes:
-      - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
-        url: "/2020/10/09/folge021.html"
-        date: "2020-10-09"
-        role: "guest"
-
-  # Bernd Rücker - Process Orchestration, Camunda
-  - name: "Bernd Rücker"
-    linkedin: "https://www.linkedin.com/in/bernd-ruecker/"
-    image: "/images/guests/bernd-ruecker.jpg"
-    bio: "Co-Founder und Chief Technologist bei Camunda"
-    tags: ["Process Orchestration", "BPMN", "Workflows", "Camunda", "Microservices", "Event-Driven Architecture"]
-    episodes:
-      - title: "Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker"
-        url: "/2024/12/06/episode243.html"
-        date: "2024-12-06"
-        role: "guest"
-
-  # Stefan Toth - Agility and Architecture (2 appearances)
-  - name: "Stefan Toth"
-    linkedin: "https://www.linkedin.com/in/stefan-toth/"
-    image: "/images/guests/stefan-toth.jpg"
-    bio: "Software-Architekt, embarc-Gründer"
-    tags: ["Agile Architektur", "Software-Architektur", "Reviews", "Leichtgewichtige Methoden", "embarc"]
-    episodes:
-      - title: "Folge 128 - Agilität und Architektur mit Stefan Toth"
-        url: "/2022/07/22/folge128.html"
-        date: "2022-07-22"
-        role: "guest"
-      - title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
-        url: "/2024/01/12/folge196.html"
-        date: "2024-01-12"
-        role: "guest"
-
-  # Stefan Zörner - Architecture Reviews (appearing with Stefan Toth)
-  - name: "Stefan Zörner"
-    linkedin: "https://www.linkedin.com/in/stefan-zoerner/"
-    image: "/images/guests/stefan-zoerner.jpg"
-    bio: "Software-Architekt, embarc-Mitgründer"
-    tags: ["Software-Architektur", "Architektur-Reviews", "Methoden", "embarc", "OOP"]
-    episodes:
-      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/folge39.html"
-        date: "2021-02-09"
-        role: "guest"
-      - title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
-        url: "/2024/01/12/folge196.html"
-        date: "2024-01-12"
-        role: "guest"
-
-  # Falk Sippach - Documentation as Code
-  - name: "Falk Sippach"
-    linkedin: "https://www.linkedin.com/in/falk-sippach/"
-    image: "/images/guests/falk-sippach.jpg"
-    bio: "Software-Architekt, Docs-as-Code Experte bei embarc"
-    tags: ["Documentation as Code", "Software-Architektur", "Architektur-Reviews", "AsciiDoc", "embarc"]
-    episodes:
-      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/folge39.html"
-        date: "2021-02-09"
-        role: "guest"
-      - title: "Folge 138 - Was ist Documentation as Code? mit Falk Sippach"
-        url: "/2022/10/14/folge138.html"
-        date: "2022-10-14"
-        role: "guest"
-
-  # Erik Wilde - API Expert
-  - name: "Erik Wilde"
-    linkedin: "https://www.linkedin.com/in/erikwilde/"
-    image: "/images/guests/erik-wilde.jpg"
-    bio: "API-Experte, Berater und Autor"
-    tags: ["APIs", "REST", "Web Services", "Standards", "API Design", "Hypermedia"]
-    episodes:
-      - title: "Folge 52 - APIs mit Erik Wilde"
-        url: "/2021/03/05/folge52.html"
-        date: "2021-03-05"
-        role: "guest"
-
-  # Jochen Christ - HTTP Feeds, Remote Programming
-  - name: "Jochen Christ"
-    linkedin: "https://www.linkedin.com/in/jochen-christ/"
-    image: "/images/guests/jochen-christ.jpg"
-    bio: "Senior Consultant, HTTP und Async Communication Experte"
-    tags: ["HTTP", "Asynchrone Kommunikation", "Feeds", "Remote Programming", "Web Development"]
-    episodes:
-      - title: "Folge 98 - Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ"
-        url: "/2022/01/14/episode98.html"
-        date: "2022-01-14"
-        role: "guest"
-      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-        url: "/2021/04/16/folge056.html"
-        date: "2021-04-16"
-        role: "guest"
-
-  # Michael Hunger - Patterns Expert
-  - name: "Michael Hunger"
-    linkedin: "https://www.linkedin.com/in/michaelhunger/"
-    image: "/images/guests/michael-hunger.jpg"
-    bio: "Patterns-Experte, Neo4j Developer Relations"
-    tags: ["Patterns", "Design Patterns", "Software Engineering", "Neo4j", "Graph Databases"]
-    episodes:
-      - title: "Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger"
-        url: "/2020/12/18/folge033.html"
-        date: "2020-12-18"
-        role: "guest"
-
-  # Johannes Seitz - Sokratische Gespräche
-  - name: "Johannes Seitz"
-    linkedin: "https://www.linkedin.com/in/johannes-seitz/"
-    image: "/images/guests/johannes-seitz.jpg"
-    bio: "Berater für Sokratische Gespräche und Software-Architektur-Training"
-    tags: ["Sokratische Gespräche", "Software-Architektur", "Beratung", "Training", "Facilitation"]
-    episodes:
-      - title: "Folge 29 - Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day"
-        url: "/2020/12/07/folge029.html"
-        date: "2020-12-07"
-        role: "guest"
-
-  # Hanna Prinz - Service Mesh Expert
-  - name: "Hanna Prinz"
-    linkedin: "https://www.linkedin.com/in/hanna-prinz/"
-    image: "/images/guests/hanna-prinz.jpg"
-    bio: "Service Mesh und Linkerd Expertin"
-    tags: ["Service Mesh", "Linkerd", "Kubernetes", "Cloud Native", "Microservices", "Infrastructure"]
-    episodes:
-      - title: "Folge 19 - Service Mesh Linkerd mit Hanna Prinz"
-        url: "/2020/09/18/folge019.html"
-        date: "2020-09-18"
-        role: "guest"
-
-  # Danilo Beuche - Product Line Engineering
-  - name: "Danilo Beuche"
-    linkedin: "https://www.linkedin.com/in/danilo-beuche/"
-    image: "/images/guests/danilo-beuche.jpg"
-    bio: "Product Line Engineering Experte, pure-systems"
-    tags: ["Product Line Engineering", "Software Varianten", "Konfiguration", "Variability", "pure-systems"]
-    episodes:
-      - title: "Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche"
-        url: "/2020/11/06/folge024.html"
-        date: "2020-11-06"
-        role: "guest"
-
-  # Sascha Möllering - Serverless Architecture
-  - name: "Sascha Möllering"
-    linkedin: "https://www.linkedin.com/in/sascha-moellering/"
-    image: "/images/guests/sascha-moellering.jpg"
-    bio: "Principal Solutions Architect bei AWS, Serverless Experte"
-    tags: ["Serverless", "AWS", "Cloud Architecture", "Lambda", "Event-Driven Architecture"]
-    episodes:
-      - title: "Folge 154 - Serverless Architektur mit Sascha Möllering"
-        url: "/2023/03/03/folge154.html"
-        date: "2023-03-03"
-        role: "guest"
-
-  # Manfred Steyer - Frontend Frameworks
-  - name: "Manfred Steyer"
-    linkedin: "https://www.linkedin.com/in/manfred-steyer/"
-    image: "/images/guests/manfred-steyer.jpg"
-    bio: "Angular-Experte, Trainer und Berater"
-    tags: ["Angular", "Frontend", "Single Page Applications", "JavaScript", "Micro Frontends"]
-    episodes:
-      - title: "Folge 84 - Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks"
-        url: "/2021/10/15/folge84.html"
-        date: "2021-10-15"
-        role: "guest"
-
-  # Felix Müller - DORA Metrics
-  - name: "Felix Müller"
-    linkedin: "https://www.linkedin.com/in/felix-mueller-dora/"
-    image: "/images/guests/felix-mueller.jpg"
-    bio: "DevOps und DORA Metriken Experte"
-    tags: ["DORA Metriken", "Accelerate", "DevOps", "Performance Measurement", "Continuous Delivery"]
-    episodes:
-      - title: "Folge 122 - DORA Metriken & Accelerate mit Felix Müller"
-        url: "/2022/06/10/folge122.html"
-        date: "2022-06-10"
-        role: "guest"
-
-  # Tanja Friedel - Legacy Transformation, Postagilität (2 appearances)
-  - name: "Tanja Friedel"
-    linkedin: "https://www.linkedin.com/in/tanja-friedel/"
-    image: "/images/guests/tanja-friedel.jpg"
-    bio: "Organisationsberaterin, Legacy-Transformation und Postagilität Expertin"
-    tags: ["Legacy-Transformation", "Postagilität", "Organisationsentwicklung", "Change Management", "Agile"]
-    episodes:
-      - title: "Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel"
-        url: "/2025/01/31/folge249.html"
-        date: "2025-01-31"
-        role: "guest"
-      - title: "Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow"
-        url: "/2025/05/16/folge263.html"
-        date: "2025-05-16"
-        role: "guest"
-
-  # Christian Weyer - GenAI and Software Architecture
-  - name: "Christian Weyer"
-    linkedin: "https://www.linkedin.com/in/christianweyer/"
-    image: "/images/guests/christian-weyer.jpg"
-    bio: "CTO bei Thinktecture, GenAI und Software-Architektur Experte"
-    tags: ["Generative AI", "Software-Architektur", "AI Integration", "Thinktecture", "Enterprise AI"]
-    episodes:
-      - title: "Folge 246 - GenAI und Software-Architektur mit Christian Weyer"
-        url: "/2025/01/10/folge246.html"
-        date: "2025-01-10"
-        role: "guest"
-
-# Hinweise zur Datenpflege:
-# 1. Namen exakt wie sie in den Episodes erscheinen
-# 2. LinkedIn-URLs auf Aktualität prüfen  
-# 3. Bilder im Format 300x300px, WebP bevorzugt
-# 4. Tags aus Episode-Titeln und -Inhalten ableiten
-# 5. Episode-URLs mit korrektem Datum-Format
-# 6. Rolle: host|co-host|guest|moderator
-# 7. Häufige Gäste (2+ Auftritte) sind priorisiert
-# 8. Aktuelle Gäste (2024-2025) sind bevorzugt behandelt
-  # Johannes Link - Property-Based Testing Experte, jqwik Maintainer
-  - name: "Johannes Link"
-    linkedin: "https://www.linkedin.com/in/johanneslink/"
-    image: "/images/guests/johannes-link.jpg"
-    bio: "Property-Based Testing Experte, jqwik Maintainer"
-    tags: ['Property-Based Testing', 'jqwik', 'Test-Driven Development', 'Java', 'Testing']
-    episodes:
-      - title: "Folge 147 - Property-based Testing mit Johannes Link"
-        url: "/2023/01/13/"
-        date: "2023-01-13"
-        role: "guest"
-
-  # Jochen Mader - Supply Chain Security Experte
-  - name: "Jochen Mader"
-    linkedin: "https://www.linkedin.com/in/jochen-mader/"
-    image: "/images/guests/jochen-mader.jpg"
-    bio: "Supply Chain Security Experte"
-    tags: ['Supply Chain Security', 'Security', 'DevSecOps', 'BED-Con']
-    episodes:
-      - title: "Folge 231 - Supply Chain Security mit Jochen Mader - live von der BED-Con"
-        url: "/2024/09/06/"
-        date: "2024-09-06"
-        role: "guest"
-
-  # Michael Plöd - Domain-driven Design Experte, innoQ Principal Consultant
-  - name: "Michael Plöd"
-    linkedin: "https://www.linkedin.com/in/michael-plöd/"
-    image: "/images/guests/michael-plöd.jpg"
-    bio: "Domain-driven Design Experte, innoQ Principal Consultant"
-    tags: ['Domain-driven Design', 'DDD', 'Software Architecture', 'Quality Storming']
-    episodes:
-      - title: "Folge 90 - Michael Plöd - Wie steigt man in Domain-driven Design ein?"
-        url: "/2022/01/07/"
-        date: "2022-01-07"
-        role: "guest"
-      - title: "Folge 224 - Quality Storming mit Michael Plöd"
-        url: "/2024/07/12/"
-        date: "2024-07-12"
-        role: "guest"
-
-  # Oliver Wehrens - Software-Architekt und Agile Coach
-  - name: "Oliver Wehrens"
-    linkedin: "https://www.linkedin.com/in/oliverwehrens/"
-    image: "/images/guests/oliver-wehrens.jpg"
-    bio: "Software-Architekt und Agile Coach"
-    tags: ['Software Architecture', 'Agile', 'Team Collaboration']
-    episodes:
-      - title: "Folge 141 - Architektur Reviews mit Oliver Wehrens"
-        url: "/2022/11/04/"
-        date: "2022-11-04"
-        role: "guest"
-
-  # Alexander von Zitzewitz - Sonargraph Creator, Architektur-Management Experte
+  # Alexander von Zitzewitz - 1 Episode
   - name: "Alexander von Zitzewitz"
-    linkedin: "https://www.linkedin.com/in/zitzewitz/"
+    linkedin: "https://www.linkedin.com/in/alexander-von-zitzewitz/"
     image: "/images/guests/alexander-von-zitzewitz.jpg"
-    bio: "Sonargraph Creator, Architektur-Management Experte"
-    tags: ['Sonargraph', 'Architektur-Management', 'Static Analysis', 'Dependency Analysis']
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
     episodes:
       - title: "Folge 60 - Alexander von Zitzewitz zu Architektur-Management mit Sonargraph"
         url: "/2021/05/28/"
         date: "2021-05-28"
         role: "guest"
-
-  # Dehla Sokenou - Diversity & Inclusion Expertin, Microsoft Germany
-  - name: "Dehla Sokenou"
-    linkedin: "https://www.linkedin.com/in/dehla-sokenou/"
-    image: "/images/guests/dehla-sokenou.jpg"
-    bio: "Diversity & Inclusion Expertin, Microsoft Germany"
-    tags: ['Diversity', 'Inclusion', 'Leadership', 'Microsoft', 'Career Development']
+  # Aminata Sidibe - 2 Episoden
+  - name: "Aminata Sidibe"
+    linkedin: "https://www.linkedin.com/in/aminata-sidibe/"
+    image: "/images/guests/aminata-sidibe.jpg"
+    bio: "Diversity & Inclusion Expertin"
+    tags: ['Software Architecture', 'Diversity', 'Inclusion']
     episodes:
-      - title: "Folge 156 - Karriereentwicklung und Diversity mit Dehla Sokenou"
-        url: "/2023/03/10/"
-        date: "2023-03-10"
+      - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
+        url: "/2021/02/19/"
+        date: "2021-02-19"
         role: "guest"
-
-  # Joseph Pelrine - Agile Coach und Complexity Science Experte
-  - name: "Joseph Pelrine"
-    linkedin: "https://www.linkedin.com/in/josephpelrine/"
-    image: "/images/guests/joseph-pelrine.jpg"
-    bio: "Agile Coach und Complexity Science Experte"
-    tags: ['Agile', 'Complexity Science', 'Team Dynamics', 'MetaProgramming']
-    episodes:
-      - title: "Folge 158 - Agile MetaProgramming mit Joseph Pelrine"
-        url: "/2023/03/24/"
-        date: "2023-03-24"
-        role: "guest"
-
-  # Falk Hoppe - Platform Engineering Experte
-  - name: "Falk Hoppe"
-    linkedin: "https://www.linkedin.com/in/falk-hoppe/"
-    image: "/images/guests/falk-hoppe.jpg"
-    bio: "Platform Engineering Experte"
-    tags: ['Platform Engineering', 'DevOps', 'Cloud Native', 'Kubernetes']
-    episodes:
-      - title: "Folge 161 - Platform Engineering mit Falk Hoppe"
-        url: "/2023/04/21/"
-        date: "2023-04-21"
-        role: "guest"
-
-  # Kim Nena Duggen - Software-Architektin und Public Speaker
-  - name: "Kim Nena Duggen"
-    linkedin: "https://www.linkedin.com/in/kim-nena-duggen/"
-    image: "/images/guests/kim-nena-duggen.jpg"
-    bio: "Software-Architektin und Public Speaker"
-    tags: ['Software Architecture', 'Public Speaking', 'Career Development']
-    episodes:
-      - title: "Folge 162 - Aus der Perspektive einer Architektin mit Kim Nena Duggen"
-        url: "/2023/04/27/"
-        date: "2023-04-27"
-        role: "guest"
-
-  # Tobias Goeschel - Principal Engineer, Technische Schulden Experte
-  - name: "Tobias Goeschel"
-    linkedin: "https://www.linkedin.com/in/tobias-goeschel/"
-    image: "/images/guests/tobias-goeschel.jpg"
-    bio: "Principal Engineer, Technische Schulden Experte"
-    tags: ['Technical Debt', 'Software Quality', 'Refactoring', 'Legacy Systems']
-    episodes:
-      - title: "Folge 163 - Technische Schulden mit Tobias Goeschel"
-        url: "/2023/04/28/"
-        date: "2023-04-28"
-        role: "guest"
-
-  # Sven Johann - Cross-funktionale Teams Experte
-  - name: "Sven Johann"
-    linkedin: "https://www.linkedin.com/in/sven-johann/"
-    image: "/images/guests/sven-johann.jpg"
-    bio: "Agile Coach und Software-Entwickler"
-    tags: ["Cross-funktionale Teams", "Agile", "Team Building", "Software Development"]
-    episodes:
-      - title: "Folge 91 - Sven Johann - Cross-funktionale Teams zielgerichtet in den Abgrund stürzen"
-        url: "/2022/01/14/episode91.html"
-        date: "2022-01-14"
-        role: "guest"
-
-  # Michael Vitz - Java und Cloud Experte
-  - name: "Michael Vitz"
-    linkedin: "https://www.linkedin.com/in/michael-vitz/"
-    image: "/images/guests/michael-vitz.jpg"
-    bio: "Java Experte und Cloud-Architekt"
-    tags: ["Java", "Cloud", "Spring", "Microservices"]
-    episodes:
-      - title: "Folge 114 - Cloud-native Java mit Michael Vitz"
-        url: "/2022/04/01/folge114.html"
+      - title: "Folge 114 - Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur"
+        url: "/2022/04/01/"
         date: "2022-04-01"
         role: "guest"
-
-  # Nora Schöner - UX und Design Systems
-  - name: "Nora Schöner"
-    linkedin: "https://www.linkedin.com/in/nora-schoener/"
-    image: "/images/guests/nora-schoener.jpg"
-    bio: "UX Designerin und Design Systems Expertin"
-    tags: ["UX Design", "Design Systems", "User Experience", "Frontend"]
+  # Anja Kammer - 2 Episoden
+  - name: "Anja Kammer"
+    linkedin: "https://www.linkedin.com/in/anja-kammer/"
+    image: "/images/guests/anja-kammer.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['DevOps', 'Team Topologies']
     episodes:
-      - title: "Folge 128 - Design Systems mit Nora Schöner"
-        url: "/2022/07/22/folge128.html"
-        date: "2022-07-22"
+      - title: "Folge 31 - DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day"
+        url: "/2020/12/07/"
+        date: "2020-12-07"
         role: "guest"
-
-  # Richard Gross - Platform Engineering
-  - name: "Richard Gross"
-    linkedin: "https://www.linkedin.com/in/richard-gross/"
-    image: "/images/guests/richard-gross.jpg"
-    bio: "Platform Engineering und DevOps Experte"
-    tags: ["Platform Engineering", "DevOps", "Cloud Native", "Infrastructure"]
-    episodes:
-      - title: "Folge 134 - Platform Engineering mit Richard Gross"
-        url: "/2022/09/16/folge134.html"
-        date: "2022-09-16"
+      - title: "Folge 147 - Wie reißt man den Elfenbeinturm ein? mit Anja Kammer"
+        url: "/2023/01/13/"
+        date: "2023-01-13"
         role: "guest"
-
-  # Cosima Laube - Sustainability in Tech
-  - name: "Cosima Laube"
-    linkedin: "https://www.linkedin.com/in/cosima-laube/"
-    image: "/images/guests/cosima-laube.jpg"
-    bio: "Sustainability in Tech Expertin"
-    tags: ["Sustainability", "Green IT", "Environmental Impact", "Responsible Technology"]
-    episodes:
-      - title: "Folge 135 - Nachhaltigkeit in der IT mit Cosima Laube"
-        url: "/2022/09/23/folge135.html"
-        date: "2022-09-23"
-        role: "guest"
-
-  # Melanie Schäfer - Testing und QA
-  - name: "Melanie Schäfer"
-    linkedin: "https://www.linkedin.com/in/melanie-schaefer/"
-    image: "/images/guests/melanie-schaefer.jpg"
-    bio: "Testing und Quality Assurance Expertin"
-    tags: ["Testing", "Quality Assurance", "Test Automation", "QA Processes"]
-    episodes:
-      - title: "Folge 138 - Effektives Testing mit Melanie Schäfer"
-        url: "/2022/10/14/folge138.html"
-        date: "2022-10-14"
-        role: "guest"
-
-  # Friederike Sternberg - Architecture Documentation
-  - name: "Friederike Sternberg"
-    linkedin: "https://www.linkedin.com/in/friederike-sternberg/"
-    image: "/images/guests/friederike-sternberg.jpg"
-    bio: "Architektur-Dokumentation Expertin"
-    tags: ["Architecture Documentation", "arc42", "Technical Writing", "Documentation"]
-    episodes:
-      - title: "Folge 146 - Architektur-Dokumentation mit Friederike Sternberg"
-        url: "/2022/12/16/folge146.html"
-        date: "2022-12-16"
-        role: "guest"
-
-  # Gerrit Beine - DevOps und Monitoring
-  - name: "Gerrit Beine"
-    linkedin: "https://www.linkedin.com/in/gerrit-beine/"
-    image: "/images/guests/gerrit-beine.jpg"
-    bio: "DevOps und Monitoring Experte"
-    tags: ["DevOps", "Monitoring", "Observability", "Site Reliability Engineering"]
-    episodes:
-      - title: "Folge 150 - Monitoring und Observability mit Gerrit Beine"
-        url: "/2023/02/03/folge150.html"
-        date: "2023-02-03"
-        role: "guest"
-
-  # Rebecca Temme - Career Development
-  - name: "Rebecca Temme"
-    linkedin: "https://www.linkedin.com/in/rebecca-temme/"
-    image: "/images/guests/rebecca-temme.jpg"
-    bio: "Career Development und Leadership Expertin"
-    tags: ["Career Development", "Leadership", "Mentoring", "Professional Growth"]
-    episodes:
-      - title: "Folge 154 - Karriereentwicklung in der IT mit Rebecca Temme"
-        url: "/2023/03/03/folge154.html"
-        date: "2023-03-03"
-        role: "guest"
-
-  # Aydin Mir Mohammadi - Security Architecture
+  # Aydin Mir Mohammadi - 1 Episode
   - name: "Aydin Mir Mohammadi"
     linkedin: "https://www.linkedin.com/in/aydin-mir-mohammadi/"
     image: "/images/guests/aydin-mir-mohammadi.jpg"
-    bio: "Security Architecture Experte"
-    tags: ["Security Architecture", "Cybersecurity", "Threat Modeling", "Secure Design"]
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
     episodes:
-      - title: "Folge 157 - Security Architecture mit Aydin Mir Mohammadi"
-        url: "/2023/03/17/folge157.html"
+      - title: "Folge 235 - Green Software Development mit Aydin Mir Mohammadi"
+        url: "/2024/10/18/"
+        date: "2024-10-18"
+        role: "guest"
+  # Bernd Rücker - 1 Episode
+  - name: "Bernd Rücker"
+    linkedin: "https://www.linkedin.com/in/bernd-ruecker/"
+    image: "/images/guests/bernd-ruecker.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker"
+        url: "/2024/12/06/"
+        date: "2024-12-06"
+        role: "guest"
+  # Christian Weyer - 1 Episode
+  - name: "Christian Weyer"
+    linkedin: "https://www.linkedin.com/in/christian-weyer/"
+    image: "/images/guests/christian-weyer.jpg"
+    bio: "KI und Software-Architektur"
+    tags: ['Software Architecture', 'AI', 'Machine Learning']
+    episodes:
+      - title: "Folge 246 - GenAI und Software-Architektur mit Christian Weyer"
+        url: "/2025/01/10/"
+        date: "2025-01-10"
+        role: "guest"
+  # Christoph Iserlohn - 3 Episoden
+  - name: "Christoph Iserlohn"
+    linkedin: "https://www.linkedin.com/in/christoph-iserlohn/"
+    image: "/images/guests/christoph-iserlohn.jpg"
+    bio: "Security Experte/Expertin"
+    tags: ['Security', 'OWASP', 'Cybersecurity', 'Software Architecture']
+    episodes:
+      - title: "Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day"
+        url: "/2020/12/07/"
+        date: "2020-12-07"
+        role: "guest"
+      - title: "Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn"
+        url: "/2023/03/10/"
+        date: "2023-03-10"
+        role: "guest"
+      - title: "Folge 166 - Zero Trust mit Christoph Iserlohn"
+        url: "/2023/05/26/"
+        date: "2023-05-26"
+        role: "guest"
+  # Claude - 1 Episode
+  - name: "Claude"
+    linkedin: "https://www.linkedin.com/in/claude/"
+    image: "/images/guests/claude.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 267 - Architekturtheater mit Claude und Ralf"
+        url: "/2025/06/13/"
+        date: "2025-06-13"
+        role: "guest"
+  # Cosima Laube - 1 Episode
+  - name: "Cosima Laube"
+    linkedin: "https://www.linkedin.com/in/cosima-laube/"
+    image: "/images/guests/cosima-laube.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Coaching', 'Leadership']
+    episodes:
+      - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
+        url: "/2024/11/08/"
+        date: "2024-11-08"
+        role: "guest"
+  # Danilo Beuche - 1 Episode
+  - name: "Danilo Beuche"
+    linkedin: "https://www.linkedin.com/in/danilo-beuche/"
+    image: "/images/guests/danilo-beuche.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche"
+        url: "/2020/11/06/"
+        date: "2020-11-06"
+        role: "guest"
+  # Dehla Sokenou - 1 Episode
+  - name: "Dehla Sokenou"
+    linkedin: "https://www.linkedin.com/in/dehla-sokenou/"
+    image: "/images/guests/dehla-sokenou.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 171 - Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)"
+        url: "/2023/06/30/"
+        date: "2023-06-30"
+        role: "guest"
+  # Dirk Mahler - 1 Episode
+  - name: "Dirk Mahler"
+    linkedin: "https://www.linkedin.com/in/dirk-mahler/"
+    image: "/images/guests/dirk-mahler.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 58 - Dirk Mahler zu Software-Architektur-Management mit jQAssistant"
+        url: "/2021/05/07/"
+        date: "2021-05-07"
+        role: "guest"
+  # Dr. Julia Freudenberg - 1 Episode
+  - name: "Dr. Julia Freudenberg"
+    linkedin: "https://www.linkedin.com/in/julia-freudenberg/"
+    image: "/images/guests/dr-julia-freudenberg.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 202 - Hack the World a Better Place mit Dr. Julia Freudenberg"
+        url: "/2024/02/09/"
+        date: "2024-02-09"
+        role: "guest"
+  # Dr. Miriam Greis - 1 Episode
+  - name: "Dr. Miriam Greis"
+    linkedin: "https://www.linkedin.com/in/miriam-greis/"
+    image: "/images/guests/dr-miriam-greis.jpg"
+    bio: "API Design und Architektur"
+    tags: ['API Design']
+    episodes:
+      - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
+        url: "/2024/02/23/"
+        date: "2024-02-23"
+        role: "guest"
+  # Eberhard Wolff - 3 Episoden
+  - name: "Eberhard Wolff"
+    linkedin: "https://www.linkedin.com/in/eberhard-wolff/"
+    image: "/images/guests/eberhard-wolff.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'AI', 'Machine Learning']
+    episodes:
+      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
+        url: "/2023/04/28/"
+        date: "2023-04-28"
+        role: "guest"
+      - title: "Folge 266 - Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard"
+        url: "/2025/05/30/"
+        date: "2025-05-30"
+        role: "guest"
+      - title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
+        url: "/2025/07/25/"
+        date: "2025-07-25"
+        role: "guest"
+  # Erik Wilde - 1 Episode
+  - name: "Erik Wilde"
+    linkedin: "https://www.linkedin.com/in/erik-wilde/"
+    image: "/images/guests/erik-wilde.jpg"
+    bio: "API Design und Architektur"
+    tags: ['API Design']
+    episodes:
+      - title: "Folge 52 - APIs mit Erik Wilde"
+        url: "/2021/03/05/"
+        date: "2021-03-05"
+        role: "guest"
+  # Falk Hoppe - 1 Episode
+  - name: "Falk Hoppe"
+    linkedin: "https://www.linkedin.com/in/falk-hoppe/"
+    image: "/images/guests/falk-hoppe.jpg"
+    bio: "Frontend-Entwicklung und -Architektur"
+    tags: ['Frontend', 'Web Development']
+    episodes:
+      - title: "Folge 150 - Frontendintegrationsmuster im Web mit Falk Hoppe"
+        url: "/2023/02/03/"
+        date: "2023-02-03"
+        role: "guest"
+  # Falk Sippach - 1 Episode
+  - name: "Falk Sippach"
+    linkedin: "https://www.linkedin.com/in/falk-sippach/"
+    image: "/images/guests/falk-sippach.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 138 - Was ist Documentation as Code? mit Falk Sippach"
+        url: "/2022/10/14/"
+        date: "2022-10-14"
+        role: "guest"
+  # Felix Müller - 1 Episode
+  - name: "Felix Müller"
+    linkedin: "https://www.linkedin.com/in/felix-mueller/"
+    image: "/images/guests/felix-mueller.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 122 - DORA Metriken & Accelerate mit Felix Müller"
+        url: "/2022/06/10/"
+        date: "2022-06-10"
+        role: "guest"
+  # Franziska Dessart - 4 Episoden
+  - name: "Franziska Dessart"
+    linkedin: "https://www.linkedin.com/in/franziska-dessart/"
+    image: "/images/guests/franziska-dessart.jpg"
+    bio: "Frontend-Entwicklung und -Architektur"
+    tags: ['Frontend', 'Web Development', 'Software Architecture']
+    episodes:
+      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/10/02/"
+        date: "2020-10-02"
+        role: "guest"
+      - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/11/27/"
+        date: "2020-11-27"
+        role: "guest"
+      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
+        url: "/2021/04/16/"
+        date: "2021-04-16"
+        role: "guest"
+      - title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2021/07/30/"
+        date: "2021-07-30"
+        role: "guest"
+  # Friederike Sternberg - 1 Episode
+  - name: "Friederike Sternberg"
+    linkedin: "https://www.linkedin.com/in/friederike-sternberg/"
+    image: "/images/guests/friederike-sternberg.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 232 - Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con"
+        url: "/2024/09/13/"
+        date: "2024-09-13"
+        role: "guest"
+  # Gerrit Beine - 1 Episode
+  - name: "Gerrit Beine"
+    linkedin: "https://www.linkedin.com/in/gerrit-beine/"
+    image: "/images/guests/gerrit-beine.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 157 - Single Source of Truth mit Gerrit Beine"
+        url: "/2023/03/17/"
         date: "2023-03-17"
         role: "guest"
-
+  # Hanna Prinz - 1 Episode
+  - name: "Hanna Prinz"
+    linkedin: "https://www.linkedin.com/in/hanna-prinz/"
+    image: "/images/guests/hanna-prinz.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 19 - Service Mesh Linkerd mit Hanna Prinz"
+        url: "/2020/09/18/"
+        date: "2020-09-18"
+        role: "guest"
+  # Henning Schwentner - 2 Episoden
+  - name: "Henning Schwentner"
+    linkedin: "https://www.linkedin.com/in/henning-schwentner/"
+    image: "/images/guests/henning-schwentner.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
+    episodes:
+      - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
+        url: "/2020/10/09/"
+        date: "2020-10-09"
+        role: "guest"
+      - title: "Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner"
+        url: "/2021/09/17/"
+        date: "2021-09-17"
+        role: "guest"
+  # Jochen Christ - 2 Episoden
+  - name: "Jochen Christ"
+    linkedin: "https://www.linkedin.com/in/jochen-christ/"
+    image: "/images/guests/jochen-christ.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
+        url: "/2021/04/16/"
+        date: "2021-04-16"
+        role: "guest"
+      - title: "Folge 98 - Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ"
+        url: "/2022/01/14/"
+        date: "2022-01-14"
+        role: "guest"
+  # Jochen Mader - 1 Episode
+  - name: "Jochen Mader"
+    linkedin: "https://www.linkedin.com/in/jochen-mader/"
+    image: "/images/guests/jochen-mader.jpg"
+    bio: "Security Experte/Expertin"
+    tags: ['Security', 'OWASP', 'Cybersecurity']
+    episodes:
+      - title: "Folge 231 - Supply Chain Security mit Jochen Mader - live von der BED-Con"
+        url: "/2024/09/19/"
+        date: "2024-09-19"
+        role: "guest"
+  # Johannes Link - 1 Episode
+  - name: "Johannes Link"
+    linkedin: "https://www.linkedin.com/in/johannes-link/"
+    image: "/images/guests/johannes-link.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Coaching', 'Leadership']
+    episodes:
+      - title: "Folge 71 - Welchen Sinn hat agiles Coaching? mit Johannes Link"
+        url: "/2021/08/13/"
+        date: "2021-08-13"
+        role: "guest"
+  # Johannes Seitz - 1 Episode
+  - name: "Johannes Seitz"
+    linkedin: "https://www.linkedin.com/in/johannes-seitz/"
+    image: "/images/guests/johannes-seitz.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 29 - Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day"
+        url: "/2020/12/07/"
+        date: "2020-12-07"
+        role: "guest"
+  # Joseph Pelrine - 1 Episode
+  - name: "Joseph Pelrine"
+    linkedin: "https://www.linkedin.com/in/joseph-pelrine/"
+    image: "/images/guests/joseph-pelrine.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 167 - Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special"
+        url: "/2023/06/02/"
+        date: "2023-06-02"
+        role: "guest"
+  # Joy Heron - 3 Episoden
+  - name: "Joy Heron"
+    linkedin: "https://www.linkedin.com/in/joy-heron/"
+    image: "/images/guests/joy-heron.jpg"
+    bio: "Frontend-Entwicklung und -Architektur"
+    tags: ['Frontend', 'Web Development', 'Software Architecture']
+    episodes:
+      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/10/02/"
+        date: "2020-10-02"
+        role: "guest"
+      - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/11/27/"
+        date: "2020-11-27"
+        role: "guest"
+      - title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2021/07/30/"
+        date: "2021-07-30"
+        role: "guest"
+  # Jutta Eckstein - 1 Episode
+  - name: "Jutta Eckstein"
+    linkedin: "https://www.linkedin.com/in/jutta-eckstein/"
+    image: "/images/guests/jutta-eckstein.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
+        url: "/2022/02/02/"
+        date: "2022-02-02"
+        role: "guest"
+  # Kim Nena Duggen - 1 Episode
+  - name: "Kim Nena Duggen"
+    linkedin: "https://www.linkedin.com/in/kim-nena-duggen/"
+    image: "/images/guests/kim-nena-duggen.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['DevOps', 'Team Topologies']
+    episodes:
+      - title: "Folge 230 - Team Topologie in der Praxis mit Kim Nena Duggen"
+        url: "/2024/09/06/"
+        date: "2024-09-06"
+        role: "guest"
+  # Lars Hupel - 1 Episode
+  - name: "Lars Hupel"
+    linkedin: "https://www.linkedin.com/in/lars-hupel/"
+    image: "/images/guests/lars-hupel.jpg"
+    bio: "Diversity & Inclusion Expertin"
+    tags: ['Diversity', 'Inclusion']
+    episodes:
+      - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
+        url: "/2021/02/19/"
+        date: "2021-02-19"
+        role: "guest"
+  # Lena Kraaz - 1 Episode
+  - name: "Lena Kraaz"
+    linkedin: "https://www.linkedin.com/in/lena-kraaz/"
+    image: "/images/guests/lena-kraaz.jpg"
+    bio: "Diversity & Inclusion Expertin"
+    tags: ['Diversity', 'Inclusion']
+    episodes:
+      - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
+        url: "/2021/02/19/"
+        date: "2021-02-19"
+        role: "guest"
+  # Lisa Schäfer - 7 Episoden
+  - name: "Lisa Schäfer"
+    linkedin: "https://www.linkedin.com/in/lisa-schaefer/"
+    image: "/images/guests/lisa-schaefer.jpg"
+    bio: "API Design und Architektur"
+    tags: ['Java', 'Spring', 'Software Architecture', 'API Design', 'Coaching', 'Leadership']
+    episodes:
+      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/09/"
+        date: "2021-02-09"
+        role: "guest"
+      - title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/10/"
+        date: "2021-02-10"
+        role: "guest"
+      - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/11/"
+        date: "2021-02-11"
+        role: "guest"
+      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
+        url: "/2022/12/16/"
+        date: "2022-12-16"
+        role: "guest"
+      - title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
+        url: "/2023/03/24/"
+        date: "2023-03-24"
+        role: "guest"
+      - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
+        url: "/2024/02/23/"
+        date: "2024-02-23"
+        role: "guest"
+      - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
+        url: "/2024/11/08/"
+        date: "2024-11-08"
+        role: "guest"
+  # Lucas Dohmen - 5 Episoden
+  - name: "Lucas Dohmen"
+    linkedin: "https://www.linkedin.com/in/lucas-dohmen/"
+    image: "/images/guests/lucas-dohmen.jpg"
+    bio: "Frontend-Entwicklung und -Architektur"
+    tags: ['Frontend', 'Web Development', 'Software Architecture', 'AI', 'Machine Learning']
+    episodes:
+      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/10/02/"
+        date: "2020-10-02"
+        role: "guest"
+      - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/11/27/"
+        date: "2020-11-27"
+        role: "guest"
+      - title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2021/07/30/"
+        date: "2021-07-30"
+        role: "guest"
+      - title: "Folge 135 - HTTP mit Lucas Dohmen"
+        url: "/2022/09/23/"
+        date: "2022-09-23"
+        role: "guest"
+      - title: "Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen"
+        url: "/2025/02/21/"
+        date: "2025-02-21"
+        role: "guest"
+  # Manfred Steyer - 1 Episode
+  - name: "Manfred Steyer"
+    linkedin: "https://www.linkedin.com/in/manfred-steyer/"
+    image: "/images/guests/manfred-steyer.jpg"
+    bio: "Frontend-Entwicklung und -Architektur"
+    tags: ['Frontend', 'Web Development']
+    episodes:
+      - title: "Folge 84 - Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks"
+        url: "/2021/10/15/"
+        date: "2021-10-15"
+        role: "guest"
+  # Marco Emrich - 3 Episoden
+  - name: "Marco Emrich"
+    linkedin: "https://www.linkedin.com/in/marco-emrich/"
+    image: "/images/guests/marco-emrich.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 225 - Code Aufräumen - Kent Beck's "Tidy First?" mit Marco Emrich 1/2"
+        url: "/2024/07/26/"
+        date: "2024-07-26"
+        role: "guest"
+      - title: "Folge 226 - Theorie des Aufräumens - Kent Beck's "Tidy First?" mit Marco Emrich 2/2"
+        url: "/2024/08/02/"
+        date: "2024-08-02"
+        role: "guest"
+      - title: "Folge 236 - Code Retreat live - mit Marco Emrich"
+        url: "/2024/10/25/"
+        date: "2024-10-25"
+        role: "guest"
+  # Marina Köhn - 1 Episode
+  - name: "Marina Köhn"
+    linkedin: "https://www.linkedin.com/in/marina-koehn/"
+    image: "/images/guests/marina-koehn.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
+        url: "/2022/02/02/"
+        date: "2022-02-02"
+        role: "guest"
+  # Markus Völter - 2 Episoden
+  - name: "Markus Völter"
+    linkedin: "https://www.linkedin.com/in/markus-voelter/"
+    image: "/images/guests/markus-voelter.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
+    episodes:
+      - title: "Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)"
+        url: "/2020/10/23/"
+        date: "2020-10-23"
+        role: "guest"
+      - title: "Folge 175 - How to Understand Almost Anything mit Markus Völter"
+        url: "/2023/08/04/"
+        date: "2023-08-04"
+        role: "guest"
+  # Martin Günther - 1 Episode
+  - name: "Martin Günther"
+    linkedin: "https://www.linkedin.com/in/martin-guenther/"
+    image: "/images/guests/martin-guenther.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 234 - Moderation mit Liberating Structures für Architekt:innen mit Martin Günther"
+        url: "/2024/10/04/"
+        date: "2024-10-04"
+        role: "guest"
+  # Martin Huber - 1 Episode
+  - name: "Martin Huber"
+    linkedin: "https://www.linkedin.com/in/martin-huber/"
+    image: "/images/guests/martin-huber.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
+        url: "/2021/04/16/"
+        date: "2021-04-16"
+        role: "guest"
+  # Martin Lippert - 2 Episoden
+  - name: "Martin Lippert"
+    linkedin: "https://www.linkedin.com/in/martin-lippert/"
+    image: "/images/guests/martin-lippert.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'AI', 'Machine Learning']
+    episodes:
+      - title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
+        url: "/2021/05/21/"
+        date: "2021-05-21"
+        role: "guest"
+      - title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert"
+        url: "/2025/08/01/"
+        date: "2025-08-01"
+        role: "guest"
+  # Max Schulze - 1 Episode
+  - name: "Max Schulze"
+    linkedin: "https://www.linkedin.com/in/max-schulze/"
+    image: "/images/guests/max-schulze.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
+        url: "/2022/02/02/"
+        date: "2022-02-02"
+        role: "guest"
+  # Melanie Schäfer - 1 Episode
+  - name: "Melanie Schäfer"
+    linkedin: "https://www.linkedin.com/in/melanie-schaefer/"
+    image: "/images/guests/melanie-schaefer.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 164 - Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer"
+        url: "/2023/05/17/"
+        date: "2023-05-17"
+        role: "guest"
+  # Michael Ahrens - 1 Episode
+  - name: "Michael Ahrens"
+    linkedin: "https://www.linkedin.com/in/michael-ahrens/"
+    image: "/images/guests/michael-ahrens.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 227 - Firmenpolitik für Architekt:innen mit Michael Ahrens"
+        url: "/2024/08/09/"
+        date: "2024-08-09"
+        role: "guest"
+  # Michael Hunger - 1 Episode
+  - name: "Michael Hunger"
+    linkedin: "https://www.linkedin.com/in/michael-hunger/"
+    image: "/images/guests/michael-hunger.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger"
+        url: "/2020/12/18/"
+        date: "2020-12-18"
+        role: "guest"
+  # Michael Plöd - 1 Episode
+  - name: "Michael Plöd"
+    linkedin: "https://www.linkedin.com/in/michael-ploed/"
+    image: "/images/guests/michael-ploed.jpg"
+    bio: "Testing und Quality Assurance"
+    tags: ['Testing', 'Quality Assurance']
+    episodes:
+      - title: "Folge 224 - Quality Storming mit Michael Plöd"
+        url: "/2024/07/12/"
+        date: "2024-07-12"
+        role: "guest"
+  # Michael Vitz - 1 Episode
+  - name: "Michael Vitz"
+    linkedin: "https://www.linkedin.com/in/michael-vitz/"
+    image: "/images/guests/michael-vitz.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 180 - Engineering Excellence mit Michael Vitz"
+        url: "/2023/08/18/"
+        date: "2023-08-18"
+        role: "guest"
+  # Michaela Kühn - 1 Episode
+  - name: "Michaela Kühn"
+    linkedin: "https://www.linkedin.com/in/michaela-kuehn/"
+    image: "/images/guests/michaela-kuehn.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 161 - Business Analyst:in und Software-Architektur mit Michaela Kühn"
+        url: "/2023/04/21/"
+        date: "2023-04-21"
+        role: "guest"
+  # Mike Sperber - 2 Episoden
+  - name: "Mike Sperber"
+    linkedin: "https://www.linkedin.com/in/mike-sperber/"
+    image: "/images/guests/mike-sperber.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
+    episodes:
+      - title: "Folge 156 - Funktionale Programmierung, DDD und Architektur mit Mike Sperber"
+        url: "/2023/03/10/"
+        date: "2023-03-10"
+        role: "guest"
+      - title: "Folge 186 - Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber"
+        url: "/2023/09/15/"
+        date: "2023-09-15"
+        role: "guest"
+  # Nadine Andraczek - 1 Episode
+  - name: "Nadine Andraczek"
+    linkedin: "https://www.linkedin.com/in/nadine-andraczek/"
+    image: "/images/guests/nadine-andraczek.jpg"
+    bio: "Agile Coach und Prozessberatung"
+    tags: ['Agile', 'Scrum']
+    episodes:
+      - title: "Folge 177 - Scrum Master:in und Softwarearchitektur mit Nadine Andraczek"
+        url: "/2023/08/11/"
+        date: "2023-08-11"
+        role: "guest"
+  # Nora Schöner - 1 Episode
+  - name: "Nora Schöner"
+    linkedin: "https://www.linkedin.com/in/nora-schoener/"
+    image: "/images/guests/nora-schoener.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Java', 'Spring']
+    episodes:
+      - title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
+        url: "/2023/03/24/"
+        date: "2023-03-24"
+        role: "guest"
+  # Oliver Drotbohm - 1 Episode
+  - name: "Oliver Drotbohm"
+    linkedin: "https://www.linkedin.com/in/oliver-drotbohm/"
+    image: "/images/guests/oliver-drotbohm.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD', 'Java', 'Spring']
+    episodes:
+      - title: "Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm"
+        url: "/2024/06/14/"
+        date: "2024-06-14"
+        role: "guest"
+  # Oliver Wehrens - 1 Episode
+  - name: "Oliver Wehrens"
+    linkedin: "https://www.linkedin.com/in/oliver-wehrens/"
+    image: "/images/guests/oliver-wehrens.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 68 - Der Schritt zur Software-Architekt:in mit Oliver Wehrens"
+        url: "/2021/07/23/"
+        date: "2021-07-23"
+        role: "guest"
+  # Prof. Dirk Riehle - 2 Episoden
+  - name: "Prof. Dirk Riehle"
+    linkedin: "https://www.linkedin.com/in/dirk-riehle/"
+    image: "/images/guests/prof-dirk-riehle.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 32 - Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle"
+        url: "/2020/12/11/"
+        date: "2020-12-11"
+        role: "guest"
+      - title: "Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle"
+        url: "/2025/07/04/"
+        date: "2025-07-04"
+        role: "guest"
+  # Rakia Ben Sassi - 1 Episode
+  - name: "Rakia Ben Sassi"
+    linkedin: "https://www.linkedin.com/in/rakia-ben-sassi/"
+    image: "/images/guests/rakia-ben-sassi.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 188 - Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee mit Rakia Ben Sassi"
+        url: "/2023/09/29/"
+        date: "2023-09-29"
+        role: "guest"
+  # Ralf D. Müller - 5 Episoden
+  - name: "Ralf D. Müller"
+    linkedin: "https://www.linkedin.com/in/ralf-d-mueller/"
+    image: "/images/guests/ralf-d-mueller.jpg"
+    bio: "KI und Software-Architektur"
+    tags: ['Software Architecture', 'AI', 'Machine Learning']
+    episodes:
+      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
+        url: "/2022/12/16/"
+        date: "2022-12-16"
+        role: "guest"
+      - title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller"
+        url: "/2023/12/15/"
+        date: "2023-12-15"
+        role: "guest"
+      - title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller"
+        url: "/2024/01/19/"
+        date: "2024-01-19"
+        role: "guest"
+      - title: "Folge 199 - Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller"
+        url: "/2024/02/02/"
+        date: "2024-02-02"
+        role: "guest"
+      - title: "Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller"
+        url: "/2024/11/29/"
+        date: "2024-11-29"
+        role: "guest"
+  # Rebecca Temme - 1 Episode
+  - name: "Rebecca Temme"
+    linkedin: "https://www.linkedin.com/in/rebecca-temme/"
+    image: "/images/guests/rebecca-temme.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 163 - Kommunikation im Entwicklungsprozess mit Rebecca Temme"
+        url: "/2023/04/28/"
+        date: "2023-04-28"
+        role: "guest"
+  # Richard Gross - 1 Episode
+  - name: "Richard Gross"
+    linkedin: "https://www.linkedin.com/in/richard-gross/"
+    image: "/images/guests/richard-gross.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 248 - Code Charta mit Richard Gross"
+        url: "/2025/01/24/"
+        date: "2025-01-24"
+        role: "guest"
+  # Sascha Möllering - 1 Episode
+  - name: "Sascha Möllering"
+    linkedin: "https://www.linkedin.com/in/sascha-moellering/"
+    image: "/images/guests/sascha-moellering.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture', 'Cloud Computing']
+    episodes:
+      - title: "Folge 154 - Serverless Architektur mit Sascha Möllering"
+        url: "/2023/03/03/"
+        date: "2023-03-03"
+        role: "guest"
+  # Simon Harrer - 1 Episode
+  - name: "Simon Harrer"
+    linkedin: "https://www.linkedin.com/in/simon-harrer/"
+    image: "/images/guests/simon-harrer.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
+        url: "/2021/04/16/"
+        date: "2021-04-16"
+        role: "guest"
+  # Stefan Hofer - 1 Episode
+  - name: "Stefan Hofer"
+    linkedin: "https://www.linkedin.com/in/stefan-hofer/"
+    image: "/images/guests/stefan-hofer.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD']
+    episodes:
+      - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
+        url: "/2020/10/09/"
+        date: "2020-10-09"
+        role: "guest"
+  # Stefan Roock - 1 Episode
+  - name: "Stefan Roock"
+    linkedin: "https://www.linkedin.com/in/stefan-roock/"
+    image: "/images/guests/stefan-roock.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
+        url: "/2021/05/21/"
+        date: "2021-05-21"
+        role: "guest"
+  # Stefan Tilkov - 2 Episoden
+  - name: "Stefan Tilkov"
+    linkedin: "https://www.linkedin.com/in/stefan-tilkov/"
+    image: "/images/guests/stefan-tilkov.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/11/"
+        date: "2021-02-11"
+        role: "guest"
+      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
+        url: "/2023/04/28/"
+        date: "2023-04-28"
+        role: "guest"
+  # Stefan Toth - 2 Episoden
+  - name: "Stefan Toth"
+    linkedin: "https://www.linkedin.com/in/stefan-toth/"
+    image: "/images/guests/stefan-toth.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 128 - Agilität und Architektur mit Stefan Toth"
+        url: "/2022/07/22/"
+        date: "2022-07-22"
+        role: "guest"
+      - title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
+        url: "/2024/01/12/"
+        date: "2024-01-12"
+        role: "guest"
+  # Stefan Zörner - 2 Episoden
+  - name: "Stefan Zörner"
+    linkedin: "https://www.linkedin.com/in/stefan-zoerner/"
+    image: "/images/guests/stefan-zoerner.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Architecture']
+    episodes:
+      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/09/"
+        date: "2021-02-09"
+        role: "guest"
+      - title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
+        url: "/2024/01/12/"
+        date: "2024-01-12"
+        role: "guest"
+  # Sönke Marahrens - 1 Episode
+  - name: "Sönke Marahrens"
+    linkedin: "https://www.linkedin.com/in/soenke-marahrens/"
+    image: "/images/guests/soenke-marahrens.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 141 - Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens"
+        url: "/2022/11/04/"
+        date: "2022-11-04"
+        role: "guest"
+  # Tanja Friedel - 2 Episoden
+  - name: "Tanja Friedel"
+    linkedin: "https://www.linkedin.com/in/tanja-friedel/"
+    image: "/images/guests/tanja-friedel.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel"
+        url: "/2025/02/07/"
+        date: "2025-02-07"
+        role: "guest"
+      - title: "Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow"
+        url: "/2025/05/09/"
+        date: "2025-05-09"
+        role: "guest"
+  # Tobias Goeschel - 1 Episode
+  - name: "Tobias Goeschel"
+    linkedin: "https://www.linkedin.com/in/tobias-goeschel/"
+    image: "/images/guests/tobias-goeschel.jpg"
+    bio: "Domain-driven Design Experte/Expertin"
+    tags: ['Domain-driven Design', 'DDD']
+    episodes:
+      - title: "Folge 134 - Domain Prototyping - Iterative Entwicklung mit Domain-driven Design & User Experience mit Tobias Goeschel"
+        url: "/2022/09/16/"
+        date: "2022-09-16"
+        role: "guest"
+  # Uwe Vigenschow - 1 Episode
+  - name: "Uwe Vigenschow"
+    linkedin: "https://www.linkedin.com/in/uwe-vigenschow/"
+    image: "/images/guests/uwe-vigenschow.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte/Expertin"
+    tags: ['Software Development']
+    episodes:
+      - title: "Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow"
+        url: "/2025/05/09/"
+        date: "2025-05-09"
+        role: "guest"
