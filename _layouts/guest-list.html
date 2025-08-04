@@ -337,3 +337,105 @@ function toggleEpisodes(button) {
   }
 }
 </script>
+
+<script>
+// Enhanced profile image handling
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to extract LinkedIn profile ID from URL
+  function getLinkedInProfileId(linkedinUrl) {
+    const match = linkedinUrl.match(/linkedin\.com\/in\/([^\/]+)/);
+    return match ? match[1] : null;
+  }
+  
+  // Function to try loading LinkedIn profile image
+  function tryLoadLinkedInImage(img, linkedinUrl) {
+    const profileId = getLinkedInProfileId(linkedinUrl);
+    if (!profileId) return;
+    
+    // Note: Direct LinkedIn image URLs are not publicly accessible
+    // This is a placeholder for future LinkedIn API integration
+    // For now, we keep the generated avatars
+    
+    // Alternative: Use LinkedIn's public badge/profile widgets
+    // but these have limitations and may not always work
+    
+    console.log(`LinkedIn profile ID for ${img.alt}: ${profileId}`);
+  }
+  
+  // Process all guest images
+  document.querySelectorAll('.guest-avatar img').forEach(img => {
+    const guestCard = img.closest('.guest-card');
+    const linkedinLink = guestCard.querySelector('.linkedin-link');
+    
+    if (linkedinLink) {
+      const linkedinUrl = linkedinLink.href;
+      
+      // Add click handler to LinkedIn link to open profile
+      linkedinLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.open(linkedinUrl, '_blank', 'noopener,noreferrer');
+      });
+      
+      // Try to enhance the image
+      tryLoadLinkedInImage(img, linkedinUrl);
+    }
+    
+    // Add error handling for images
+    img.addEventListener('error', function() {
+      // If image fails to load, show initials
+      const name = this.alt;
+      const initials = name.split(' ').map(n => n[0]).join('').substring(0, 2);
+      
+      // Create a canvas-based fallback
+      const canvas = document.createElement('canvas');
+      canvas.width = 200;
+      canvas.height = 200;
+      const ctx = canvas.getContext('2d');
+      
+      // Background
+      ctx.fillStyle = '#007acc';
+      ctx.fillRect(0, 0, 200, 200);
+      
+      // Text
+      ctx.fillStyle = 'white';
+      ctx.font = 'bold 80px Arial';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(initials, 100, 100);
+      
+      // Replace image with canvas
+      this.src = canvas.toDataURL();
+    });
+    
+    // Add loading state
+    img.addEventListener('load', function() {
+      this.style.opacity = '1';
+    });
+    
+    // Initial loading state
+    img.style.opacity = '0.7';
+  });
+  
+  // Add tooltip showing LinkedIn profile link
+  document.querySelectorAll('.linkedin-link').forEach(link => {
+    link.title = `LinkedIn-Profil von ${link.closest('.guest-card').querySelector('.guest-name').textContent} öffnen`;
+  });
+});
+
+// Function to update a specific person's image if we get a real LinkedIn image URL
+function updatePersonImage(name, imageUrl) {
+  const guestCards = document.querySelectorAll('.guest-card');
+  guestCards.forEach(card => {
+    const nameElement = card.querySelector('.guest-name');
+    if (nameElement && nameElement.textContent.trim() === name) {
+      const img = card.querySelector('.guest-avatar img');
+      if (img) {
+        img.src = imageUrl;
+      }
+    }
+  });
+}
+
+// Future: This could be used to load real LinkedIn images via a backend service
+// updatePersonImage('Eberhard Wolff', 'https://real-linkedin-image-url.jpg');
+</script>
