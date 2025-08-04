@@ -1,6 +1,6 @@
 # Gäste von software-architektur.tv
-# Bereinigt und validiert
-# Generiert am: Mon Aug  4 06:21:31 UTC 2025
+# Mit LinkedIn-Profilen angereichert
+# Generiert am: 2025-08-04 06:21:24
 
 "Adam Tornhill":
   name: "Adam Tornhill"
@@ -12,6 +12,12 @@
   name: "Alberto Brandolini"
   linkedin: "https://linkedin.com/in/ziobrando"
   avatar: "guests/alberto_brandolini.jpg"
+  bio: ""
+
+"Als Architekt":
+  name: "Als Architekt"
+  linkedin: "https://linkedin.com/in/als-architekt"
+  avatar: "guests/als_architekt.jpg"
   bio: ""
 
 "Aminata Sidibe":
@@ -36,6 +42,18 @@
   name: "Anne Herwanger"
   linkedin: "https://linkedin.com/in/anne-herwanger"
   avatar: "guests/anne_herwanger.jpg"
+  bio: ""
+
+"Ask Me":
+  name: "Ask Me"
+  linkedin: "https://linkedin.com/in/ask-me"
+  avatar: "guests/ask_me.jpg"
+  bio: ""
+
+"Autonome Teams":
+  name: "Autonome Teams"
+  linkedin: "https://linkedin.com/in/autonome-teams"
+  avatar: "guests/autonome_teams.jpg"
   bio: ""
 
 "Avraham Poupko":
@@ -68,6 +86,24 @@
   avatar: "guests/bernd_rücker.jpg"
   bio: ""
 
+"Bert Jan":
+  name: "Bert Jan"
+  linkedin: "https://linkedin.com/in/bert-jan"
+  avatar: "guests/bert_jan.jpg"
+  bio: ""
+
+"Big Ball":
+  name: "Big Ball"
+  linkedin: "https://linkedin.com/in/big-ball"
+  avatar: "guests/big_ball.jpg"
+  bio: ""
+
+"Bounded Context":
+  name: "Bounded Context"
+  linkedin: "https://linkedin.com/in/bounded-context"
+  avatar: "guests/bounded_context.jpg"
+  bio: ""
+
 "Carola Lilienthal":
   name: "Carola Lilienthal"
   linkedin: "https://linkedin.com/in/carola-lilienthal"
@@ -98,10 +134,22 @@
   avatar: "guests/christoph_iserlohn.jpg"
   bio: ""
 
+"Code Aufr":
+  name: "Code Aufr"
+  linkedin: "https://linkedin.com/in/code-aufr"
+  avatar: "guests/code_aufr.jpg"
+  bio: ""
+
 "Cosima Laube":
   name: "Cosima Laube"
   linkedin: "https://linkedin.com/in/cosima-laube"
   avatar: "guests/cosima_laube.jpg"
+  bio: ""
+
+"DDD When Surrounded by Legacy Systems":
+  name: "DDD When Surrounded by Legacy Systems"
+  linkedin: "https://linkedin.com/in/ddd-systems"
+  avatar: "guests/ddd_when_surrounded_by_legacy_systems.jpg"
   bio: ""
 
 "Dajana Günther":
@@ -120,6 +168,12 @@
   name: "Danilo Beuche"
   linkedin: "https://linkedin.com/in/danilo-beuche"
   avatar: "guests/danilo_beuche.jpg"
+  bio: ""
+
+"Data Mesh":
+  name: "Data Mesh"
+  linkedin: "https://linkedin.com/in/data-mesh"
+  avatar: "guests/data_mesh.jpg"
   bio: ""
 
 "Dehla Sokenou":
@@ -164,6 +218,12 @@
   avatar: "guests/erik_wilde.jpg"
   bio: ""
 
+"Extreme Programming":
+  name: "Extreme Programming"
+  linkedin: "https://linkedin.com/in/extreme-programming"
+  avatar: "guests/extreme_programming.jpg"
+  bio: ""
+
 "Falk Hoppe":
   name: "Falk Hoppe"
   linkedin: "https://linkedin.com/in/falk-hoppe"
@@ -176,10 +236,22 @@
   avatar: "guests/falk_sippach.jpg"
   bio: ""
 
+"Fearless Change":
+  name: "Fearless Change"
+  linkedin: "https://linkedin.com/in/fearless-change"
+  avatar: "guests/fearless_change.jpg"
+  bio: ""
+
 "Felix Müller":
   name: "Felix Müller"
   linkedin: "https://linkedin.com/in/felix-müller"
   avatar: "guests/felix_müller.jpg"
+  bio: ""
+
+"Fighting Agile":
+  name: "Fighting Agile"
+  linkedin: "https://linkedin.com/in/fighting-agile"
+  avatar: "guests/fighting_agile.jpg"
   bio: ""
 
 "Franziska Dessart":
@@ -192,6 +264,12 @@
   name: "Friederike Sternberg"
   linkedin: "https://linkedin.com/in/friederike-sternberg"
   avatar: "guests/friederike_sternberg.jpg"
+  bio: ""
+
+"Funktionale Programmierung":
+  name: "Funktionale Programmierung"
+  linkedin: "https://linkedin.com/in/funktionale-programmierung"
+  avatar: "guests/funktionale_programmierung.jpg"
   bio: ""
 
 "Gernot Starke":
@@ -362,10 +440,22 @@
   avatar: "guests/linda_rising.jpg"
   bio: ""
 
+"Lisa Sch":
+  name: "Lisa Sch"
+  linkedin: "https://linkedin.com/in/lisa-sch"
+  avatar: "guests/lisa_sch.jpg"
+  bio: ""
+
 "Lisa Schäfer":
   name: "Lisa Schäfer"
   linkedin: "https://linkedin.com/in/lisa-schaefer-coach"
   avatar: "guests/lisa_schäfer.jpg"
+  bio: ""
+
+"Lose Kopplung":
+  name: "Lose Kopplung"
+  linkedin: "https://linkedin.com/in/lose-kopplung"
+  avatar: "guests/lose_kopplung.jpg"
   bio: ""
 
 "Lucas Dohmen":
@@ -422,6 +512,12 @@
   avatar: "guests/melanie_schäfer.jpg"
   bio: ""
 
+"Menschen mit Michael Hunger":
+  name: "Menschen mit Michael Hunger"
+  linkedin: "https://linkedin.com/in/menschen-hunger"
+  avatar: "guests/menschen_mit_michael_hunger.jpg"
+  bio: ""
+
 "Michael Ahrens":
   name: "Michael Ahrens"
   linkedin: "https://linkedin.com/in/michael-ahrens"
@@ -432,6 +528,12 @@
   name: "Michael Mahlberg"
   linkedin: "https://linkedin.com/in/michael-mahlberg"
   avatar: "guests/michael_mahlberg.jpg"
+  bio: ""
+
+"Michael Pl":
+  name: "Michael Pl"
+  linkedin: "https://linkedin.com/in/michael-pl"
+  avatar: "guests/michael_pl.jpg"
   bio: ""
 
 "Michael Plöd":
@@ -590,6 +692,18 @@
   avatar: "guests/sofia_katsaouni.jpg"
   bio: ""
 
+"Statt Agilit":
+  name: "Statt Agilit"
+  linkedin: "https://linkedin.com/in/statt-agilit"
+  avatar: "guests/statt_agilit.jpg"
+  bio: ""
+
+"Statt Microservices":
+  name: "Statt Microservices"
+  linkedin: "https://linkedin.com/in/statt-microservices"
+  avatar: "guests/statt_microservices.jpg"
+  bio: ""
+
 "Stefan Hofer":
   name: "Stefan Hofer"
   linkedin: "https://linkedin.com/in/stefan-hofer"
@@ -644,6 +758,18 @@
   avatar: "guests/tanja_friedel.jpg"
   bio: ""
 
+"Technische Schulden":
+  name: "Technische Schulden"
+  linkedin: "https://linkedin.com/in/technische-schulden"
+  avatar: "guests/technische_schulden.jpg"
+  bio: ""
+
+"Technischer Kontext":
+  name: "Technischer Kontext"
+  linkedin: "https://linkedin.com/in/technischer-kontext"
+  avatar: "guests/technischer_kontext.jpg"
+  bio: ""
+
 "The Architecture":
   name: "The Architecture"
   linkedin: "https://linkedin.com/in/the-architecture"
@@ -678,6 +804,18 @@
   name: "Vaughn Vernon"
   linkedin: "https://linkedin.com/in/vaughn-vernon"
   avatar: "guests/vaughn_vernon.jpg"
+  bio: ""
+
+"Wardley Maps":
+  name: "Wardley Maps"
+  linkedin: "https://linkedin.com/in/wardley-maps"
+  avatar: "guests/wardley_maps.jpg"
+  bio: ""
+
+"Warum Continuous":
+  name: "Warum Continuous"
+  linkedin: "https://linkedin.com/in/warum-continuous"
+  avatar: "guests/warum_continuous.jpg"
   bio: ""
 
 "Woody Zuill":

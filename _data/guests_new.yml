@@ -1,0 +1,2018 @@
+# Gäste von software-architektur.tv
+# Automatisch generiert mit intelligenter Extraktion
+# Generiert am: 2025-08-04 06:21:15
+
+"Adam Tornhill":
+  name: "Adam Tornhill"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/adam_tornhill.jpg"
+  linkedin: ""
+  episodes:
+    - number: 168
+      title: "Episode 168 - Hands-on Behavioral Code Analysis"
+      date: "2023-06-07"
+      video: "kbQavUHrGBc"
+      description: "Adam Tornhill shows how to behavioral code analysis with the tool CodeScene."
+
+"Alberto Brandolini":
+  name: "Alberto Brandolini"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/alberto_brandolini.jpg"
+  linkedin: ""
+  episodes:
+    - number: 215
+      title: "Episode 215 - Alberto Brandolini - The Chasm Between Architecture and Business"
+      date: "2024-05-10"
+      video: "n89L3I8P7uQ"
+      description: "Alberto Brandolini discusses why architecture and business need to collaborate so closely - and why"
+
+"Als Architekt":
+  name: "Als Architekt"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/als_architekt.jpg"
+  linkedin: ""
+  episodes:
+    - number: 256
+      title: "Folge 256 - Als Architekt:in Wirkung entfalten"
+      date: "2025-03-21"
+      video: ""
+      description: "Wie können Architekt:innen dafür sorgen, dass sie im Projekt wirksam sind?"
+
+"Aminata Sidibe":
+  name: "Aminata Sidibe"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/aminata_sidibe.jpg"
+  linkedin: ""
+  episodes:
+    - number: 114
+      title: "Folge 114 - Benutzerfreundlichkeit - Wir bauen eine Software-Architektur"
+      date: "2022-04-01"
+      video: "6kypcTVBmMc"
+      description: "Aminata Sidibe erläutern Konzepte für Benutzerfreundlichkeit."
+    - number: 50
+      title: "Folge 50 - Diversity , Lena Kraaz und Aminata Sidibe"
+      date: "2021-02-19"
+      video: "Jh7ive1xiLE"
+      description: "Diversity spielt auch für Software-Architektur eine Rolle."
+
+"Ana Nad":
+  name: "Ana Nad"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/ana_nad.jpg"
+  linkedin: ""
+  episodes:
+    - number: 259
+      title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries and Lejla Vulovic"
+      date: "2025-04-04"
+      video: "WD5GVAN_zvE"
+      description: "Real world experience from setting up and succeeding with complex team structures."
+
+"Anja Kammer":
+  name: "Anja Kammer"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/anja_kammer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 147
+      title: "Folge 147 - Wie reißt man den Elfenbeinturm ein?"
+      date: "2023-01-13"
+      video: "0mX3trZWux0"
+      description: "Anja und Eberhard diskutieren Möglichkeiten, Architekt*innen aus dem Elfenbeinturm zu bekommen"
+    - number: 31
+      title: "Folge 31 - DevOps und Team Topologies - Live vom INNOQ Technology Day"
+      date: "2020-12-07"
+      video: "VEpjcYY9k6c"
+      description: "Anja Kammer erklärt DevOps und Team Topologies"
+
+"Anne Herwanger":
+  name: "Anne Herwanger"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/anne_herwanger.jpg"
+  linkedin: ""
+  episodes:
+    - number: 106
+      title: "Folge 106 - Anne Herwanger, Alexandra Hoitz, Stefan Link - Resiliente Organisation und resiliente Software Architektur - live von der OOP"
+      date: "2022-02-01"
+      video: "BTURNT7EQhk"
+      description: "Die Organisation hat großen Einfluss auf die Architektur. Wie kann man sich diesen Zusammenhang zu Nutze machen?"
+
+"Ask Me":
+  name: "Ask Me"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/ask_me.jpg"
+  linkedin: ""
+  episodes:
+    - number: 130
+      title: "Folge 130 - Ask Me Anything"
+      date: "2022-08-05"
+      video: "6D_OgQ9A6CU"
+      description: "Eberhard beantwortet Fragen der Zuschauer:innen."
+
+"Autonome Teams":
+  name: "Autonome Teams"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/autonome_teams.jpg"
+  linkedin: ""
+  episodes:
+    - number: 247
+      title: "Folge 247 - Autonome Teams - Wollen wir das wirklich?"
+      date: "2025-01-17"
+      video: "GrXMYzx0VZ8"
+      description: "Autonome Teams sind ein wichtiges Ziel - aber warum haben wir sie dann noch nicht überall?"
+
+"Avraham Poupko":
+  name: "Avraham Poupko"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/avraham_poupko.jpg"
+  linkedin: ""
+  episodes:
+    - number: 82
+      title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
+      date: "2021-10-14"
+      video: "a3qr_M_wMkw"
+      description: "What is the impact of culture on software design?"
+
+"Aydin Mir Mohammadi":
+  name: "Aydin Mir Mohammadi"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/aydin_mir_mohammadi.jpg"
+  linkedin: ""
+  episodes:
+    - number: 235
+      title: "Folge 235 - Green Software Development"
+      date: "2024-10-18"
+      video: "uqIUaElJPSM"
+      description: "Aydin erläutert, wie die CO2-Emissionen von Software reduziert werden können."
+
+"Bastian Spanneberg":
+  name: "Bastian Spanneberg"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/bastian_spanneberg.jpg"
+  linkedin: ""
+  episodes:
+    - number: 46
+      title: "Folge 46 - Bastian Spanneberg - Site Reliability Engineering - Live von der OOP"
+      date: "2021-02-11"
+      video: "tICus5YmGfo"
+      description: "Site Reliability Engineering ist ein anderer Ansatz für den Betrieb von Anwendungen."
+
+"Ben Wolf":
+  name: "Ben Wolf"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/ben_wolf.jpg"
+  linkedin: ""
+  episodes:
+    - number: 92
+      title: "Folge 92 - Ben Wolf und Lisa Schäfer - Einstieg in Softwarearchitektur"
+      date: "2021-11-19"
+      video: "rQ0d5aqhp00"
+      description: "Ben Wolf und Lisa Schäfer diskutieren, wie man in Software-Architektur einsteigen kann."
+
+"Bernd Rücker":
+  name: "Bernd Rücker"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/bernd_rücker.jpg"
+  linkedin: ""
+  episodes:
+    - number: 243
+      title: "Folge 243 - Process Orchestration, BPMN und Workflows"
+      date: "2024-12-06"
+      video: "ItRopNk6avk"
+      description: "Wir sprechen über Einsatzkontexte von Workflow Engines, Orchestration, Choreographie"
+
+"Bert Jan":
+  name: "Bert Jan"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/bert_jan.jpg"
+  linkedin: ""
+  episodes:
+    - number: 184
+      title: "Folge 184 - Bert Jan Schrijver about Generic or Specific?"
+      date: "2023-10-13"
+      video: "eJlRttUDrog"
+      description: "Bert Jan Schrijver discusses whether we should build generic or specific solutions."
+
+"Big Ball":
+  name: "Big Ball"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/big_ball.jpg"
+  linkedin: ""
+  episodes:
+    - number: 159
+      title: "Folge 159 - Big Ball of Mud"
+      date: "2023-03-31"
+      video: "Gqs8zLXei7Q"
+      description: "Big Ball of Mud Architektur des Grauens? Nein, sie hat auch Vorteile"
+
+"Bounded Context":
+  name: "Bounded Context"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/bounded_context.jpg"
+  linkedin: ""
+  episodes:
+    - number: 220
+      title: "Folge 220 - Bounded Context - Was ist das genau?"
+      date: "2024-06-14"
+      video: "e0oasqiTsGs"
+      description: "Bounded Context ist nur scheinbar einfach zu verstehen - diese Episode betrachtet das Pattern im Detail."
+
+"Carola Lilienthal":
+  name: "Carola Lilienthal"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/carola_lilienthal.jpg"
+  linkedin: ""
+  episodes:
+    - number: 57
+      title: "Folge 57 - Carola Lilienthal zu langlebigen Software-Architekturen"
+      date: "2021-04-30"
+      video: "TPLb4q95ZC4"
+      description: "Carola diskutiert, wie Software auch langfristig wartbar bleibt."
+
+"Chris Chedgey":
+  name: "Chris Chedgey"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/chris_chedgey.jpg"
+  linkedin: ""
+  episodes:
+    - number: 61
+      title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
+      date: "2021-06-04"
+      video: "5W8D95GwAZY"
+      description: "Structure 101 helps to understand the architecutre of code bases."
+
+"Chris Richardson":
+  name: "Chris Richardson"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/chris_richardson.jpg"
+  linkedin: ""
+  episodes:
+    - number: 79
+      title: "Episode 79 - Microservices, Monoliths, Modularization"
+      date: "2021-10-04"
+      video: "rCosIgyWR68"
+      description: "Chris Richardson discusses several modularization options like microservices and monoliths"
+
+"Christian Weyer":
+  name: "Christian Weyer"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/christian_weyer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 246
+      title: "Folge 246 - GenAI und Software-Architektur"
+      date: "2025-01-10"
+      video: "oMoIWDOoCdg"
+      description: "Christian Weyer und Ralf D. Müller sprechen über GenAI und die Auswirkungen auf die Software-Architektur"
+
+"Christoph Iserlohn":
+  name: "Christoph Iserlohn"
+  episode_count: 5
+  bio: ""
+  avatar: "guests/christoph_iserlohn.jpg"
+  linkedin: ""
+  episodes:
+    - number: 166
+      title: "Folge 166 - Zero Trust"
+      date: "2023-05-26"
+      video: "sNTHcYLAQkg"
+      description: "Christoph und Lisa diskutieren das Sicherheitskonzept Zero Trust"
+    - number: 155
+      title: "Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann"
+      date: "2023-03-10"
+      video: "tJZ4AEc"
+      description: ""
+    - number: 139
+      title: "Folge 139 - Christoph Iserlohn & Lisa Schäfer - Architektur und Security"
+      date: "2022-10-21"
+      video: "SA9TEltoedc"
+      description: "Christoph Iserlohn spricht mit Lisa Schäfer über Sicherheit aus Architektur-Sicht"
+    - number: 64
+      title: "Folge 64 - Christoph Iserlohn zu Security und Software-Architektur"
+      date: "2021-06-25"
+      video: "xcjQHZu"
+      description: "Christoph Iserlohn zeigt auf, warum Security auch für die Software-Architektur sehr wichtig ist."
+    - number: 30
+      title: "Folge 30 - Security - Live vom INNOQ Technology Day"
+      date: "2020-12-07"
+      video: "2mR56FDnoOc"
+      description: "Christoph Iserlohn erklärt wichtige Grundlagen von Security in Software-Systemen."
+
+"Code Aufr":
+  name: "Code Aufr"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/code_aufr.jpg"
+  linkedin: ""
+  episodes:
+    - number: 225
+      title: "Folge 225 - Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2"
+      date: "2024-07-26"
+      video: "6M0yK3T_VpM"
+      description: "Marco und Eberhard sprechen über Kent Beck's Tidyings auf Code-Ebene - leichtgewichtige Refactorings"
+
+"Cosima Laube":
+  name: "Cosima Laube"
+  episode_count: 3
+  bio: ""
+  avatar: "guests/cosima_laube.jpg"
+  linkedin: ""
+  episodes:
+    - number: 255
+      title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty and Sofia Katsaouni"
+      date: "2025-03-18"
+      video: "c5jPzaI6w2Q"
+      description: "Cosima and Sofia discuss how to deal with change and uncertainty - and how mind skills can help"
+    - number: 239
+      title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? und Lisa Schäfer"
+      date: "2024-11-08"
+      video: "gLcdgEBOoAA"
+      description: "Wie hilft Einzelcoaching als besondere Form des Coaching Techies? Wie können Coaching-Werkzeuge in der alltäglichen Arbeit unterstützen?"
+    - number: 83
+      title: "Episode 83 - Cosima Laube about D.A.R.E. more, F.E.A.R. less and Journaling"
+      date: "2021-10-14"
+      video: "a3qr_M_wMkw"
+      description: "Cosima talks about written self-relfection."
+
+"DDD When Surrounded by Legacy Systems":
+  name: "DDD When Surrounded by Legacy Systems"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/ddd_when_surrounded_by_legacy_systems.jpg"
+  linkedin: ""
+  episodes:
+    - number: 6
+      title: "Folge 6 - Eric Evans "Getting Started"
+      date: "2020-07-14"
+      video: "ZbnF0Dn6dAA"
+      description: "In seinem Paper beschreibt Eric Evans Ansätze, um Legacy Software mit DDD weiterzuentwickeln."
+
+"Dajana Günther":
+  name: "Dajana Günther"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/dajana_günther.jpg"
+  linkedin: ""
+  episodes:
+    - number: 151
+      title: "Episode 151 - So You Want to Be a Conference Speaker… , Jörg Müller, and Michael Mahlberg"
+      date: "2023-02-10"
+      video: "VnOM09Q36bs"
+      description: "Dajana Günther, Jörg Müller, and Michael Mahlberg talk about how to be successful as a conference speaker"
+
+"Daniel Terhorst":
+  name: "Daniel Terhorst"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/daniel_terhorst.jpg"
+  linkedin: ""
+  episodes:
+    - number: 100
+      title: "Episode 100 - Daniel Terhorst-North - SOLID vs. CUPID"
+      date: "2022-01-27"
+      video: "2QahGarHpXQ"
+      description: "Daniel Terhorst-North talks about the problems of the SOLID principles and the alternative CUPID"
+
+"Danilo Beuche":
+  name: "Danilo Beuche"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/danilo_beuche.jpg"
+  linkedin: ""
+  episodes:
+    - number: 24
+      title: "Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering"
+      date: "2020-11-06"
+      video: "Ix"
+      description: "Danilo Beuche erläutert, wie Product Line Engineering das Managen von Kunden-spezifische Software-Varianten erleichtert"
+
+"Data Mesh":
+  name: "Data Mesh"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/data_mesh.jpg"
+  linkedin: ""
+  episodes:
+    - number: 115
+      title: "Folge 115 - Data Mesh - nur ein neuer Datenanalyse-Hype?"
+      date: "2022-04-08"
+      video: "16Is187H7wc"
+      description: "Data Mesh ist ein neue Ansatz für dezentrale Datenanalyse."
+
+"Dehla Sokenou":
+  name: "Dehla Sokenou"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/dehla_sokenou.jpg"
+  linkedin: ""
+  episodes:
+    - number: 171
+      title: "Folge 171 - Gamification nicht nur in der Qualitätssicherung (OOP Special)"
+      date: "2023-06-30"
+      video: "sdJxLe_nWFc"
+      description: "Dehla Sokenou berichtet über Gamification vor allem für Testen"
+
+"Diana Montalion":
+  name: "Diana Montalion"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/diana_montalion.jpg"
+  linkedin: ""
+  episodes:
+    - number: 238
+      title: "Episode 238 - Learning Systems Thinking and Lisa Schäfer"
+      date: "2024-11-07"
+      video: "07IYACU8t"
+      description: "Diana Montalion talks about systems thinking to solve out often systemic challenges."
+    - number: 137
+      title: "Episode 137 - Non-linear Thinking"
+      date: "2022-10-07"
+      video: "pOvbpuv5W1A"
+      description: "Diana Montalion talks about non-liner thinking and its application to software architecture."
+
+"Dirk Mahler":
+  name: "Dirk Mahler"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/dirk_mahler.jpg"
+  linkedin: ""
+  episodes:
+    - number: 58
+      title: "Folge 58 - Dirk Mahler zu Software-Architektur-Management mit jQAssistant"
+      date: "2021-05-07"
+      video: "XHd3OICJHs0"
+      description: "thumbnail: folge58.png"
+
+"Dr. Julia Freudenberg":
+  name: "Dr. Julia Freudenberg"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/dr_julia_freudenberg.jpg"
+  linkedin: ""
+  episodes:
+    - number: 202
+      title: "Folge 202 - Hack the World a Better Place"
+      date: "2024-02-09"
+      video: "pIC"
+      description: "Die Hacker School führt Jugendliche an das Programmieren heran. Lisa Schäfer spricht mir der Geschäftsführerin Dr. Julia Freudenberg."
+
+"Dr. Miriam Greis":
+  name: "Dr. Miriam Greis"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/dr_miriam_greis.jpg"
+  linkedin: ""
+  episodes:
+    - number: 205
+      title: "Folge 205 - API-Team und Lisa Schäfer"
+      date: "2024-03-01"
+      video: "Tlg5N_xYz_c"
+      description: "API-Teams helfen anderen Teams bei dem Aufbau von APIs"
+
+"Eberhard Wolff":
+  name: "Eberhard Wolff"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/eberhard_wolff.jpg"
+  linkedin: ""
+  episodes:
+    - number: 162
+      title: "Folge 162 - Die IT-Welt vor 10 Jahren und Eberhard Wolff - live von der RheinJUG"
+      date: "2023-04-27"
+      video: "Q9RrBwRt8sE"
+      description: "Stefan und Eberhard diskutieren die IT-Welt vor 10 Jahren - und was sie für heute bedeutet."
+
+"Erik Wilde":
+  name: "Erik Wilde"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/erik_wilde.jpg"
+  linkedin: ""
+  episodes:
+    - number: 52
+      title: "Folge 52 - APIs"
+      date: "2021-03-05"
+      video: "GYtSM6jpV5o"
+      description: "APIs helfen bei der Integration in der IT und bei Wiederverwendung."
+
+"Extreme Programming":
+  name: "Extreme Programming"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/extreme_programming.jpg"
+  linkedin: ""
+  episodes:
+    - number: 148
+      title: "Folge 148 - Extreme Programming (XP) - eine Retrospektive"
+      date: "2023-01-20"
+      video: "WMql4zcUZKc"
+      description: "Extreme Programming (XP) ist mittlerweile >25 Jahre alt - Zeit es kritisch zu bewerten."
+
+"Falk Hoppe":
+  name: "Falk Hoppe"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/falk_hoppe.jpg"
+  linkedin: ""
+  episodes:
+    - number: 150
+      title: "Folge 150 - Frontendintegrationsmuster im Web"
+      date: "2023-02-03"
+      video: "cPGVqvwnWKw"
+      description: "Falk Hoppe und Lisa Schäfer diskutieren Frontendintegrationsmuster"
+
+"Falk Sippach":
+  name: "Falk Sippach"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/falk_sippach.jpg"
+  linkedin: ""
+  episodes:
+    - number: 138
+      title: "Folge 138 - Was ist Documentation as Code?"
+      date: "2022-10-14"
+      video: "7cIQfjDYK04"
+      description: "Falk Sippach spricht mit Lisa Schäfer über Documentation as Code"
+
+"Fearless Change":
+  name: "Fearless Change"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/fearless_change.jpg"
+  linkedin: ""
+  episodes:
+    - number: 233
+      title: "Folge 233 - Fearless Change - Neue Ideen etablieren"
+      date: "2024-09-27"
+      video: "PKtUowX7u6M"
+      description: "Wir spielen das Fearless-Journey-Spiel, um eine Idee in eine Organisation zu tragen."
+
+"Felix Müller":
+  name: "Felix Müller"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/felix_müller.jpg"
+  linkedin: ""
+  episodes:
+    - number: 122
+      title: "Folge 122 - DORA Metriken & Accelerate"
+      date: "2022-06-10"
+      video: "Z2aMzqjEoTI"
+      description: "Felix Müller diskutiert DORA Metriken und Accelerate"
+
+"Fighting Agile":
+  name: "Fighting Agile"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/fighting_agile.jpg"
+  linkedin: ""
+  episodes:
+    - number: 210
+      title: "Folge 210 - Fighting Agile! - Wann und warum Agilität scheitert (Robert Károly)"
+      date: "2024-04-02"
+      video: "xTqgT"
+      description: "Was ist das Problem mit Agilität?"
+
+"Franziska Dessart":
+  name: "Franziska Dessart"
+  episode_count: 4
+  bio: ""
+  avatar: "guests/franziska_dessart.jpg"
+  linkedin: ""
+  episodes:
+    - number: 69
+      title: "Folge 69 - Frontendarchitektur III - Integration , Joy Heron und Lucas Dohmen"
+      date: "2021-07-30"
+      video: "FuOpO"
+      description: "Wie und warum integriert man Web-Anwendungen miteinander"
+    - number: 56
+      title: "Folge 56 - Remote Mob Programming , Franziska Dessart, Simon Harrer, Martin Huber"
+      date: "2021-04-16"
+      video: ""
+      description: "Remote Mob Programming  verspricht Softwareentwicklung mit dem ultimativen Teamerlebnis und dem ultimativem Teamergebnis"
+    - number: 27
+      title: "Folge 27 - Architektur-Optionen für moderne Web Frontends , Joy Heron und Lucas Dohmen"
+      date: "2020-11-27"
+      video: "fl0aEwvorQw"
+      description: "Wir sprechen über verschiedene Architektur-Optionen für moderen Frontends."
+    - number: 20
+      title: "Folge 20 - Frontend-Architektur , Joy Heron und Lucas Dohmen"
+      date: "2020-10-02"
+      video: "pOIKn6BYWiY"
+      description: "Franziska Dessart, Joy Heron und Lucas Dohmen stellen sich verschiedenen Fragen zu Frontend-Architekturen"
+
+"Friederike Sternberg":
+  name: "Friederike Sternberg"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/friederike_sternberg.jpg"
+  linkedin: ""
+  episodes:
+    - number: 232
+      title: "Folge 232 - Sprache schafft Wirklichkeit - live von der BED-Con"
+      date: "2024-09-20"
+      video: "9gOodTcTq70"
+      description: "Friederike Sternberg spricht über die Auswirkung von Sprache - zum Beispiel die Nutzung von Kriegsmetaphern"
+
+"Funktionale Programmierung":
+  name: "Funktionale Programmierung"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/funktionale_programmierung.jpg"
+  linkedin: ""
+  episodes:
+    - number: 70
+      title: "Folge 70 - Funktionale Programmierung - Beating the Average?"
+      date: "2021-08-06"
+      video: "K7wHIYd2feo"
+      description: "Paper "Beating the Average" über die Überlegenheit funktionaler Programmierung"
+
+"Gernot Starke":
+  name: "Gernot Starke"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/gernot_starke.jpg"
+  linkedin: ""
+  episodes:
+    - number: 87
+      title: "Folge 87 - Gernot Starke & Benjamin Wolf - Dokumentation - ein Überblick"
+      date: "2021-10-28"
+      video: "yjhOLb1WzpM"
+      description: "Gernot Starke, Benjamin Wolf und Lisa Mooritz diskutieren Software-Dokumentation."
+
+"Gerrit Beine":
+  name: "Gerrit Beine"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/gerrit_beine.jpg"
+  linkedin: ""
+  episodes:
+    - number: 157
+      title: "Folge 157 - Single Source of Truth"
+      date: "2023-03-17"
+      video: "z1b"
+      description: "Wir diskutieren mit Gerrit Beine, dass es eine Single Source of Truth mit den "richtigen" Daten bzw. Berechnungen es nicht geben kann und soll."
+    - number: 16
+      title: "Folge 16 - Gerrit Beine zu Sozialwissenschaften und Software-Architektur"
+      date: "2020-09-10"
+      video: "dQdTLzoeKUE"
+      description: "Gerrit Beine diskutiert, was Software-Architekt:innen aus den Sozialwissenschaften lernen können"
+
+"Grady Booch":
+  name: "Grady Booch"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/grady_booch.jpg"
+  linkedin: ""
+  episodes:
+    - number: 47
+      title: "Episode 47 - Grady Booch - AI Architecture and Systems - Live from OOP"
+      date: "2021-02-11"
+      video: "lfcLOKzolpQ"
+      description: "Architecting AI systems is very different."
+
+"Hanna Prinz":
+  name: "Hanna Prinz"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/hanna_prinz.jpg"
+  linkedin: ""
+  episodes:
+    - number: 19
+      title: "Folge 19 - Service Mesh Linkerd"
+      date: "2020-09-18"
+      video: "hK0ZzbbigVM"
+      description: "Hanna Prinz und Eberhard Wolff zeigen Linkerd und diskutieren Service Meshes"
+
+"Henning Schwentner":
+  name: "Henning Schwentner"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/henning_schwentner.jpg"
+  linkedin: ""
+  episodes:
+    - number: 75
+      title: "Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger"
+      date: "2021-09-17"
+      video: "RJ0k6_MgsN4"
+      description: "Welche Architekturstile gibt es - und warum ist der Architektur-Hamburger wichtig?"
+    - number: 21
+      title: "Folge 21 - Domain Story Telling und Stefan Hofer"
+      date: "2020-10-09"
+      video: "XSE5m9Frvsg"
+      description: "Henning Schwentner und Stefan Hofer zeigen Domain Story Telling live und beantworten Fragen."
+
+"Henning Wolf":
+  name: "Henning Wolf"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/henning_wolf.jpg"
+  linkedin: ""
+  episodes:
+    - number: 44
+      title: "Folge 44 - Henning Wolf - Agilität - Agility as If You Meant It - Live von der OOP"
+      date: "2021-02-11"
+      video: "7oPkkSdZCCU"
+      description: "Was wenn wir Agilität wirklich ernst nehmen?"
+
+"Hillel Wayne":
+  name: "Hillel Wayne"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/hillel_wayne.jpg"
+  linkedin: ""
+  episodes:
+    - number: 209
+      title: "Episode 209 - Are We Engineers? With Hillel Wayne"
+      date: "2024-03-27"
+      video: "fomlv4tsubQ"
+      description: "How is Software Engineering different from other types of engineering?"
+
+"Isabel Wingen":
+  name: "Isabel Wingen"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/isabel_wingen.jpg"
+  linkedin: ""
+  episodes:
+    - number: 89
+      title: "Folge 89 - Isabel Wingen & Lars Hupel - Funktionale Programmierung in der Praxis"
+      date: "2021-10-29"
+      video: "HhBZdyNXelQ"
+      description: "Praktische Hinweise und Tipps für den Start mit funktionaler Programmierung"
+
+"Jacqui Read":
+  name: "Jacqui Read"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/jacqui_read.jpg"
+  linkedin: ""
+  episodes:
+    - number: 254
+      title: "Episode 254 - Communication Patterns"
+      date: "2025-03-14"
+      video: "JvkvG0F5SwA"
+      description: "In her book "Communication Patterns" Jacqui explains some patterns to improve our communication."
+
+"James Lewis":
+  name: "James Lewis"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/james_lewis.jpg"
+  linkedin: ""
+  episodes:
+    - number: 2021
+      title: "Epsiode 80 - Microservices, Inverse Conway Maneuver, and Flow - Live from Software Architecture Gathering"
+      date: "2021-10-13"
+      video: "6wadGK6AFO0"
+      description: "thumbnail: SAG-special.png"
+
+"Jochen Christ":
+  name: "Jochen Christ"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/jochen_christ.jpg"
+  linkedin: ""
+  episodes:
+    - number: 56
+      title: "Folge 56 - Remote Mob Programming , Franziska Dessart, Simon Harrer, Martin Huber"
+      date: "2021-04-16"
+      video: ""
+      description: "Remote Mob Programming  verspricht Softwareentwicklung mit dem ultimativen Teamerlebnis und dem ultimativem Teamergebnis"
+
+"Jochen Mader":
+  name: "Jochen Mader"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/jochen_mader.jpg"
+  linkedin: ""
+  episodes:
+    - number: 231
+      title: "Folge 231 - Supply Chain Security - live von der BED-Con"
+      date: "2024-09-19"
+      video: "ayf7CenWypg"
+      description: "Jochen Mader erklärt Supply Chain Security und warum sie notwendig ist"
+
+"Johannes Link":
+  name: "Johannes Link"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/johannes_link.jpg"
+  linkedin: ""
+  episodes:
+    - number: 71
+      title: "Folge 71 - Welchen Sinn hat agiles Coaching?"
+      date: "2021-08-13"
+      video: "JKDfy7A61ug"
+      description: "Johannes Link hat agiles Coaching aufgegeben - warum?"
+
+"Johannes Mainusch":
+  name: "Johannes Mainusch"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/johannes_mainusch.jpg"
+  linkedin: ""
+  episodes:
+    - number: 136
+      title: "Episode 136 - Encouraging Engineering Excellence and Robert Albrecht"
+      date: "2022-09-30"
+      video: "flGyqKRgpVA"
+      description: "Johannes Mainusch, Robert Albrecht, and Eberhard Wolff engineering excellence with a focus on feedback"
+
+"Johannes Seitz":
+  name: "Johannes Seitz"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/johannes_seitz.jpg"
+  linkedin: ""
+  episodes:
+    - number: 29
+      title: "Folge 29 - Sokratische Gespräche für Software-Architektur-Beratung und -Training - Live vom INNOQ Technology Day"
+      date: "2020-12-07"
+      video: "s"
+      description: "Johannes Seitz erklärt sokratische Gespräche und wie sie bei Software-Architektur-Beratung und -Training helfen können."
+
+"Joseph Pelrine":
+  name: "Joseph Pelrine"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/joseph_pelrine.jpg"
+  linkedin: ""
+  episodes:
+    - number: 167
+      title: "Folge 167 - Psychological Safety - was sagt der Psychologe dazu? - OOP Special"
+      date: "2023-06-02"
+      video: "gI44roShx84"
+      description: "Joseph Pelrine diskutiert psychological Safety mit der Expertise eines Psychologen"
+
+"Joy Heron":
+  name: "Joy Heron"
+  episode_count: 3
+  bio: ""
+  avatar: "guests/joy_heron.jpg"
+  linkedin: ""
+  episodes:
+    - number: 69
+      title: "Folge 69 - Frontendarchitektur III - Integration , Joy Heron und Lucas Dohmen"
+      date: "2021-07-30"
+      video: "FuOpO"
+      description: "Wie und warum integriert man Web-Anwendungen miteinander"
+    - number: 27
+      title: "Folge 27 - Architektur-Optionen für moderne Web Frontends , Joy Heron und Lucas Dohmen"
+      date: "2020-11-27"
+      video: "fl0aEwvorQw"
+      description: "Wir sprechen über verschiedene Architektur-Optionen für moderen Frontends."
+    - number: 20
+      title: "Folge 20 - Frontend-Architektur , Joy Heron und Lucas Dohmen"
+      date: "2020-10-02"
+      video: "pOIKn6BYWiY"
+      description: "Franziska Dessart, Joy Heron und Lucas Dohmen stellen sich verschiedenen Fragen zu Frontend-Architekturen"
+
+"Jutta Eckstein":
+  name: "Jutta Eckstein"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/jutta_eckstein.jpg"
+  linkedin: ""
+  episodes:
+    - number: 107
+      title: "Folge 107 - Klima-Panel , Jutta Eckstein, Max Schulze - live von der OOP!"
+      date: "2022-02-02"
+      video: "SQ3sbRXK8iM"
+      description: "Wie kann Software-Architektur im Kampf gegen die Klima-Katastrophe helfen?"
+    - number: 15
+      title: "Folge 15 - Jutta Eckstein über die Architektur-Rolle in agilen Projekten"
+      date: "2020-08-28"
+      video: "RX8mhRxBKYU"
+      description: "Jutta Eckstein über Architektur und Architekt:innen in agilen Projekten"
+
+"Jörg Müller":
+  name: "Jörg Müller"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/jörg_müller.jpg"
+  linkedin: ""
+  episodes:
+    - number: 151
+      title: "Episode 151 - So You Want to Be a Conference Speaker… , Jörg Müller, and Michael Mahlberg"
+      date: "2023-02-10"
+      video: "VnOM09Q36bs"
+      description: "Dajana Günther, Jörg Müller, and Michael Mahlberg talk about how to be successful as a conference speaker"
+
+"Katrin Rabow":
+  name: "Katrin Rabow"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/katrin_rabow.jpg"
+  linkedin: ""
+  episodes:
+    - number: 108
+      title: "Folge 108 - Katrin Rabow, Nicola Marsden, Silke Foth - Diversity-Panel - live von der OOP"
+      date: "2022-02-03"
+      video: "wBjUkCGFwhU"
+      description: "Wie kann Diversityhttps://1evriw.podcaster.de/software-architektur-im-stream/media/DiversityPanel.mp3 in der Software-Entwicklung erhöht werden?"
+
+"Kenny Baas":
+  name: "Kenny Baas"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/kenny_baas.jpg"
+  linkedin: ""
+  episodes:
+    - number: 101
+      title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
+      date: "2022-01-31"
+      video: "p3sSX529Zec"
+      description: "Software is developed in teams so design decision must be done collaboratively."
+
+"Kevlin Henney":
+  name: "Kevlin Henney"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/kevlin_henney.jpg"
+  linkedin: ""
+  episodes:
+    - number: 78
+      title: "Episode 78 - Kevlin Henney - Dealing with Uncertainty"
+      date: "2021-10-01"
+      video: "NbmdXj0Lm4k"
+      description: "Uncertainty makes software architecture difficult. How can we deal with it?"
+
+"Kim Nena":
+  name: "Kim Nena"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/kim_nena.jpg"
+  linkedin: ""
+  episodes:
+    - number: 63
+      title: "Folge 63 - Kim Nena Duggen zu Soft Skills für Software-Architekt:innen"
+      date: "2021-06-18"
+      video: "vyruiwR9LQc"
+      description: "Soft Skills sind auch und vor allem für Software-Architekt:innen relevant."
+
+"Kim Nena Duggen":
+  name: "Kim Nena Duggen"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/kim_nena_duggen.jpg"
+  linkedin: ""
+  episodes:
+    - number: 230
+      title: "Folge 230 - Team Topologie in der Praxis"
+      date: "2024-09-16"
+      video: "Pny2lZC2I4c"
+      description: "Kim Nena Duggen berichtet über Praxiserfahrungen mit Team Topologies"
+
+"Lars Hupel":
+  name: "Lars Hupel"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/lars_hupel.jpg"
+  linkedin: ""
+  episodes:
+    - number: 50
+      title: "Folge 50 - Diversity , Lena Kraaz und Aminata Sidibe"
+      date: "2021-02-19"
+      video: "Jh7ive1xiLE"
+      description: "Diversity spielt auch für Software-Architektur eine Rolle."
+
+"Lejla Vulovic":
+  name: "Lejla Vulovic"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/lejla_vulovic.jpg"
+  linkedin: ""
+  episodes:
+    - number: 259
+      title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries and Lejla Vulovic"
+      date: "2025-04-04"
+      video: "WD5GVAN_zvE"
+      description: "Real world experience from setting up and succeeding with complex team structures."
+
+"Lena Kraaz":
+  name: "Lena Kraaz"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/lena_kraaz.jpg"
+  linkedin: ""
+  episodes:
+    - number: 50
+      title: "Folge 50 - Diversity , Lena Kraaz und Aminata Sidibe"
+      date: "2021-02-19"
+      video: "Jh7ive1xiLE"
+      description: "Diversity spielt auch für Software-Architektur eine Rolle."
+
+"Linda Rising":
+  name: "Linda Rising"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/linda_rising.jpg"
+  linkedin: ""
+  episodes:
+    - number: 49
+      title: "Episode 49 - Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP"
+      date: "2021-02-11"
+      video: "WD6WCeBQRgU"
+      description: "thumbnail: OOP.jpg"
+
+"Lisa Sch":
+  name: "Lisa Sch"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/lisa_sch.jpg"
+  linkedin: ""
+  episodes:
+    - number: 23
+      title: "Folge 23 - Lisa Schäfer zu Sketchnotes in der IT"
+      date: "2020-10-29"
+      video: "2xX9CCndAew"
+      description: "Lisa Schäfer zeigt und zeichnet Sketchnotes - und erläutert wofür sie gerade in der IT gut sind."
+
+"Lisa Schäfer":
+  name: "Lisa Schäfer"
+  episode_count: 9
+  bio: ""
+  avatar: "guests/lisa_schäfer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 239
+      title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? und Lisa Schäfer"
+      date: "2024-11-08"
+      video: "gLcdgEBOoAA"
+      description: "Wie hilft Einzelcoaching als besondere Form des Coaching Techies? Wie können Coaching-Werkzeuge in der alltäglichen Arbeit unterstützen?"
+    - number: 238
+      title: "Episode 238 - Learning Systems Thinking and Lisa Schäfer"
+      date: "2024-11-07"
+      video: "07IYACU8t"
+      description: "Diana Montalion talks about systems thinking to solve out often systemic challenges."
+    - number: 205
+      title: "Folge 205 - API-Team und Lisa Schäfer"
+      date: "2024-03-01"
+      video: "Tlg5N_xYz_c"
+      description: "API-Teams helfen anderen Teams bei dem Aufbau von APIs"
+    - number: 158
+      title: "Folge 158 - Eindrücke von der JavaLand und Lisa Schäfer"
+      date: "2023-03-24"
+      video: "6faHlYeVDz8"
+      description: "Nora Schöner und Lisa Schäfer berichten von ihren Eindrücken von der JavaLand-Konferenz"
+    - number: 146
+      title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme und Lisa Schäfer"
+      date: "2022-12-16"
+      video: "U5e7F3LnHvY"
+      description: "Lisa und Ralf diskutieren gute Architektur-Diagramme"
+    - number: 48
+      title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP"
+      date: "2021-02-11"
+      video: "NmgwM7x5Yuo"
+      description: "How to do retrospectives successfully."
+    - number: 45
+      title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP"
+      date: "2021-02-11"
+      video: "NBU4EZapeLQ"
+      description: "Architektur muss man abhängig von der Zielgruppe betrachten."
+    - number: 42
+      title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP"
+      date: "2021-02-10"
+      video: "gqF123U71u8"
+      description: "Ernsthafte Spiele können bei der Software-Entwicklung helfen."
+    - number: 39
+      title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP"
+      date: "2021-02-09"
+      video: "8IAdFtTCrt8"
+      description: "Praktische Hinweise zu Architektur-Reviews"
+
+"Lose Kopplung":
+  name: "Lose Kopplung"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/lose_kopplung.jpg"
+  linkedin: ""
+  episodes:
+    - number: 76
+      title: "Folge 76 - Lose Kopplung"
+      date: "2021-09-24"
+      video: "B_gUlkBBpJI"
+      description: "Lose Kopplung führt zu besserer Änderbarkeit - aber was ist das genau und wie erreicht man es?"
+
+"Lucas Dohmen":
+  name: "Lucas Dohmen"
+  episode_count: 6
+  bio: ""
+  avatar: "guests/lucas_dohmen.jpg"
+  linkedin: ""
+  episodes:
+    - number: 251
+      title: "Folge 251 - KI und LLMs kritisch betrachtet"
+      date: "2025-02-21"
+      video: "2ObdIUfjdpA"
+      description: "Lucas Dohmen und Eberhard Wolff schauen hinter den KI-Hype."
+    - number: 135
+      title: "Folge 135 - HTTP"
+      date: "2022-09-23"
+      video: "uZ4hcgZZNqY"
+      description: "Lucas Dohmen diskutiert das HTTP-Protokoll aus Architektur-Sicht"
+    - number: 105
+      title: "Folge 105 - Lucas Dohmen, Lars Hupel - Hilfe, wir syncen! - live von der OOP"
+      date: "2022-02-01"
+      video: "glCrvR2MYxM"
+      description: "Daten beispielsweise lokal zu kopieren, um offline zu arbeiten, ist eine Herausforderung. Wir diskutieren, wie man sie meistern kann."
+    - number: 69
+      title: "Folge 69 - Frontendarchitektur III - Integration , Joy Heron und Lucas Dohmen"
+      date: "2021-07-30"
+      video: "FuOpO"
+      description: "Wie und warum integriert man Web-Anwendungen miteinander"
+    - number: 27
+      title: "Folge 27 - Architektur-Optionen für moderne Web Frontends , Joy Heron und Lucas Dohmen"
+      date: "2020-11-27"
+      video: "fl0aEwvorQw"
+      description: "Wir sprechen über verschiedene Architektur-Optionen für moderen Frontends."
+    - number: 20
+      title: "Folge 20 - Frontend-Architektur , Joy Heron und Lucas Dohmen"
+      date: "2020-10-02"
+      video: "pOIKn6BYWiY"
+      description: "Franziska Dessart, Joy Heron und Lucas Dohmen stellen sich verschiedenen Fragen zu Frontend-Architekturen"
+
+"Marco Emrich":
+  name: "Marco Emrich"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/marco_emrich.jpg"
+  linkedin: ""
+  episodes:
+    - number: 236
+      title: "Folge 236 - Code Retreat live"
+      date: "2024-10-25"
+      video: "WksUB0pY3Ro"
+      description: "Code-Retreats bieten ein Übungsfeld für Test-driven Development, Pair Programming, Refactoring - wir sprechen drüber und zeigen es live."
+
+"Marina Köhn":
+  name: "Marina Köhn"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/marina_köhn.jpg"
+  linkedin: ""
+  episodes:
+    - number: 107
+      title: "Folge 107 - Klima-Panel , Jutta Eckstein, Max Schulze - live von der OOP!"
+      date: "2022-02-02"
+      video: "SQ3sbRXK8iM"
+      description: "Wie kann Software-Architektur im Kampf gegen die Klima-Katastrophe helfen?"
+
+"Markus Harrer":
+  name: "Markus Harrer"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/markus_harrer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 62
+      title: "Folge 62 - Markus Harrer zu Software Analytics"
+      date: "2021-06-11"
+      video: "_i2QSJYc8EI"
+      description: "Markus Harrer spricht über die Nutzung von Datenanalyse-Werkzeugen in Software-Projekten."
+
+"Markus Völter":
+  name: "Markus Völter"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/markus_völter.jpg"
+  linkedin: ""
+  episodes:
+    - number: 175
+      title: "Folge 175 - How to Understand Almost Anything"
+      date: "2023-07-21"
+      video: "w1dV3yhnXhY"
+      description: "Markus Völter spricht über sei neues Buch "How to Understand Almost Anything"
+
+"Martin Huber":
+  name: "Martin Huber"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/martin_huber.jpg"
+  linkedin: ""
+  episodes:
+    - number: 56
+      title: "Folge 56 - Remote Mob Programming , Franziska Dessart, Simon Harrer, Martin Huber"
+      date: "2021-04-16"
+      video: ""
+      description: "Remote Mob Programming  verspricht Softwareentwicklung mit dem ultimativen Teamerlebnis und dem ultimativem Teamergebnis"
+
+"Martin Lippert":
+  name: "Martin Lippert"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/martin_lippert.jpg"
+  linkedin: ""
+  episodes:
+    - number: 273
+      title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen"
+      date: "2025-08-01"
+      video: "5Q_TrSfq4Mw"
+      description: "MCP ist ein Schnittstellenstandard, der viele neue Einsatzmöglichkeiten für LLMs bietet."
+    - number: 59
+      title: "Folge 59 - Klimawandel & Software Architektur und Stefan Roock"
+      date: "2021-05-21"
+      video: "UEWaxr_ds2w"
+      description: "Der Klimawandel ist eine große Herausforderung. Was können Software-Architekt:innen tun?"
+
+"Max Schulze":
+  name: "Max Schulze"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/max_schulze.jpg"
+  linkedin: ""
+  episodes:
+    - number: 107
+      title: "Folge 107 - Klima-Panel , Jutta Eckstein, Max Schulze - live von der OOP!"
+      date: "2022-02-02"
+      video: "SQ3sbRXK8iM"
+      description: "Wie kann Software-Architektur im Kampf gegen die Klima-Katastrophe helfen?"
+
+"Melanie Schäfer":
+  name: "Melanie Schäfer"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/melanie_schäfer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 164
+      title: "Folge 164 - Vom Wissensgefälle zur Selbstorganisation"
+      date: "2023-05-17"
+      video: "utPlRMnvINI"
+      description: "Nicht nur Architekt:innen müssen mit ihrem Wissen anderen helfen - dazu gibt Melanie Schäfer wichtige Hinweise."
+
+"Menschen mit Michael Hunger":
+  name: "Menschen mit Michael Hunger"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/menschen_mit_michael_hunger.jpg"
+  linkedin: ""
+  episodes:
+    - number: 33
+      title: "Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger"
+      date: "2020-12-18"
+      video: "yBdx5cauXJk"
+      description: "Michael Hunger berichtet über Patterns, die Erfahrungen über den Umgang mit Menschen, Code und Dingen weitergeben."
+
+"Michael Ahrens":
+  name: "Michael Ahrens"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/michael_ahrens.jpg"
+  linkedin: ""
+  episodes:
+    - number: 227
+      title: "Folge 227 - Firmenpolitik für Architekt:innen"
+      date: "2024-08-09"
+      video: "lbipl4Vw7q4"
+      description: "Michael Ahrens gibt Einblicke in Firmenpolitik und wie man mit ihr umgeht."
+
+"Michael Mahlberg":
+  name: "Michael Mahlberg"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/michael_mahlberg.jpg"
+  linkedin: ""
+  episodes:
+    - number: 38
+      title: "Folge 38 - Michael Mahlberg - Architektur-Entscheidungen finanziell bewerten - Live von der OOP"
+      date: "2021-02-09"
+      video: "y1m6t"
+      description: "Werkzeuge und Hinweise wie man Architektur-Entscheidungen finanziell bewerten kann."
+
+"Michael Pl":
+  name: "Michael Pl"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/michael_pl.jpg"
+  linkedin: ""
+  episodes:
+    - number: 181
+      title: "Folge 181 - Michael Plöd Misserfolge und Lehren aus der Anwendung von DDD - live von der BED-Con"
+      date: "2023-09-28"
+      video: "G"
+      description: "Michael Plöd spricht über seine Erfahrungen mit DDD in der Praxis"
+    - number: 90
+      title: "Folge 90 - Michael Plöd - Wie steigt man in Domain-driven Design ein?"
+      date: "2021-11-05"
+      video: "rEYsFrE_wkI"
+      description: "Michael Plöd spricht darüber, wie man mit Domain-driven Design loslegen kann."
+
+"Michael Plöd":
+  name: "Michael Plöd"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/michael_plöd.jpg"
+  linkedin: ""
+  episodes:
+    - number: 224
+      title: "Folge 224 - Quality Storming"
+      date: "2024-07-12"
+      video: "GOkM_sfGyEA"
+      description: "Quality Storming ist ein kollaboratives Vorgehen zum Ermitteln von Qualitätsanforderungen."
+
+"Michael Vitz":
+  name: "Michael Vitz"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/michael_vitz.jpg"
+  linkedin: ""
+  episodes:
+    - number: 180
+      title: "Folge 180 - Engineering Excellence"
+      date: "2023-09-15"
+      video: "w9EmDTbw6aE"
+      description: "Michael Vitz und Lisa Schäfer diskutieren Engineering Excellence"
+
+"Michaela Kühn":
+  name: "Michaela Kühn"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/michaela_kühn.jpg"
+  linkedin: ""
+  episodes:
+    - number: 161
+      title: "Folge 161 - Business Analyst:in und Software-Architektur"
+      date: "2023-04-21"
+      video: "ARdLsB_1cik"
+      description: "Michaela Kühn und Lisa Schäfer diskutieren die Rolle Business-Analyst:in und den Zusammenhang zur Architektur"
+
+"Mike Sperber":
+  name: "Mike Sperber"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/mike_sperber.jpg"
+  linkedin: ""
+  episodes:
+    - number: 186
+      title: "Folge 186 - Funktionale Architektur - Ein konkretes Beispiel"
+      date: "2023-10-20"
+      video: "dgJsmflJKpI"
+      description: "Mike Sperber diskutiert wie man die iSAQB-Beispielaufgabe mit einem funktionalen Ansatz lösen kann"
+    - number: 156
+      title: "Folge 156 - Funktionale Programmierung, DDD und Architektur"
+      date: "2023-03-14"
+      video: "1ISYi90G"
+      description: "Mike Sperber spricht über den Einfluss funktionaler Programmierung auf Architektur und Domain-driven Design (DDD)"
+
+"Nadine Andraczek":
+  name: "Nadine Andraczek"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/nadine_andraczek.jpg"
+  linkedin: ""
+  episodes:
+    - number: 177
+      title: "Folge 177 - Scrum Master:in und Softwarearchitektur"
+      date: "2023-08-04"
+      video: "UOtP1_8Id"
+      description: "Nadine Andraczek und Lisa Maria Schäfer sprechen über die Rolle "Scrum Master:in" und den Zusammenhang mit Software-Architektur"
+
+"Nick Tune":
+  name: "Nick Tune"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/nick_tune.jpg"
+  linkedin: ""
+  episodes:
+    - number: 223
+      title: "Episode 223 - Nick Tune about Architecture Modernization"
+      date: "2024-07-05"
+      video: "4y85oL9PjNE"
+      description: "Nick Tune has written a book about Architecture Modernization - an approach to handle legacy"
+    - number: 11
+      title: "Folge 11 - Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design"
+      date: "2020-08-07"
+      video: "MqNWHQ0nnaA"
+      description: "Nick Tunes Ansatz, um Domain-driven Design in Legacy Systemen zu etablieren."
+
+"Nicole Rauch":
+  name: "Nicole Rauch"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/nicole_rauch.jpg"
+  linkedin: ""
+  episodes:
+    - number: 17
+      title: "Folge 17 - Nicole Rauch zu DDD, Event Storming & Specification by Example"
+      date: "2020-09-10"
+      video: "gCzgR7g8sOs"
+      description: "Nicole Rauch diskutiert DDD, Event Storming & Specification by Example"
+
+"Nora Schöner":
+  name: "Nora Schöner"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/nora_schöner.jpg"
+  linkedin: ""
+  episodes:
+    - number: 158
+      title: "Folge 158 - Eindrücke von der JavaLand und Lisa Schäfer"
+      date: "2023-03-24"
+      video: "6faHlYeVDz8"
+      description: "Nora Schöner und Lisa Schäfer berichten von ihren Eindrücken von der JavaLand-Konferenz"
+
+"Patrick Kua":
+  name: "Patrick Kua"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/patrick_kua.jpg"
+  linkedin: ""
+  episodes:
+    - number: 34
+      title: "Episode 34 - Patrick Kua - Evolutionary Software Architecture"
+      date: "2021-01-08"
+      video: "ttL7MiF8VZw"
+      description: "Patrick Kua talks about how to architect a software system to support evolution."
+
+"Peter Gafert":
+  name: "Peter Gafert"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/peter_gafert.jpg"
+  linkedin: ""
+  episodes:
+    - number: 55
+      title: "Folge 55 - Peter Gafert zu ArchUnit"
+      date: "2021-04-09"
+      video: "XgVlEagYA_w"
+      description: "Peter Gafert zu ArchUnit - einem Tool zum Testen der Architektur von Java-Systemen"
+
+"Peter Hruschka":
+  name: "Peter Hruschka"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/peter_hruschka.jpg"
+  linkedin: ""
+  episodes:
+    - number: 93
+      title: "Folge 93 - Peter Hruschka & Gernot Starke - Requirements Engineering"
+      date: "2021-11-26"
+      video: "1dI6FT3MQC8"
+      description: "thumbnail: OOP.jpg"
+
+"Prof. Dirk Riehle":
+  name: "Prof. Dirk Riehle"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/prof_dirk_riehle.jpg"
+  linkedin: ""
+  episodes:
+    - number: 270
+      title: "Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden"
+      date: "2025-07-04"
+      video: "xwIoFhaRwf8"
+      description: "Wir sprechen über Open Source Lizenzen und ihre Bedeutung für die Software-Entwicklung."
+    - number: 32
+      title: "Folge 32 - Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen"
+      date: "2020-12-11"
+      video: "N_NZ3mFZvyA"
+      description: "Prof. Dirk Riehle forscht zu Inner Source. Man verwendet dann Open-Source-Methoden um Code in einem Unternehmen zu teilen."
+
+"Rakia Ben Sassi":
+  name: "Rakia Ben Sassi"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/rakia_ben_sassi.jpg"
+  linkedin: ""
+  episodes:
+    - number: 188
+      title: "Folge 188 - Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee"
+      date: "2023-11-03"
+      video: "ojCihK6PZ14"
+      description: "Rakia erläutert verschiedenen Architektur-Ansätze aus ihrer Karriere."
+
+"Ralf D. Müller":
+  name: "Ralf D. Müller"
+  episode_count: 5
+  bio: ""
+  avatar: "guests/ralf_d_müller.jpg"
+  linkedin: ""
+  episodes:
+    - number: 242
+      title: "Folge 242 - Generative AI Meets Software Architecture"
+      date: "2024-11-29"
+      video: "1zOVe37yvKM"
+      description: "Eberhard und Ralf sprechen über den Einfluss von KI auf Software-Entwicklung"
+    - number: 199
+      title: "Folge 199 - Wie kann ChatGPT in der Software-Architektur unterstützen?"
+      date: "2024-01-26"
+      video: "WFZppdVGqAw"
+      description: "Ralf zeigt uns, wo und wie man ChatGPT für Software-Architektur praktisch einsetzen kann."
+    - number: 197
+      title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2"
+      date: "2024-01-19"
+      video: "FcPm5PAQFaU"
+      description: "Wir bewerten die Architektur, die ChatGPT entwickelt hat."
+    - number: 193
+      title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2"
+      date: "2023-12-15"
+      video: "YOr6tIhXgFE"
+      description: "Ralf zeigt, wie er ChatGPT dazu gebracht hat, die iSAQB-Advanced-Beispielaufgabe zu lösen und wir schauen uns das Ergebnis an."
+    - number: 146
+      title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme und Lisa Schäfer"
+      date: "2022-12-16"
+      video: "U5e7F3LnHvY"
+      description: "Lisa und Ralf diskutieren gute Architektur-Diagramme"
+
+"Rebecca Parsons":
+  name: "Rebecca Parsons"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/rebecca_parsons.jpg"
+  linkedin: ""
+  episodes:
+    - number: 77
+      title: "Episode 77 - Rebecca Parsons about Evolutionary Architecture"
+      date: "2021-09-27"
+      video: "vScBOOQ4vjo"
+      description: "Rebecca Parsons (CTO, Thoughtworks) talks about fundamental concepts of evolutionary architecture."
+
+"Rebecca Temme":
+  name: "Rebecca Temme"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/rebecca_temme.jpg"
+  linkedin: ""
+  episodes:
+    - number: 163
+      title: "Folge 163 - Kommunikation im Entwicklungsprozess"
+      date: "2023-04-28"
+      video: "Te9CJWK9Hmc"
+      description: "Rebecca Temme spricht mit Lisa Schäfer über Kommunikation im Entwicklungsprozesse"
+
+"Richard Gross":
+  name: "Richard Gross"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/richard_gross.jpg"
+  linkedin: ""
+  episodes:
+    - number: 248
+      title: "Folge 248 - Code Charta"
+      date: "2025-01-24"
+      video: "rDHtNNBoP6Y"
+      description: "Code Charta stellt die Qualität eines Software-Systems als Stadt da."
+
+"Rik Marselis":
+  name: "Rik Marselis"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/rik_marselis.jpg"
+  linkedin: ""
+  episodes:
+    - number: 102
+      title: "Episode 102 - Rik Marselis - Testing and Quality - Live from OOP"
+      date: "2022-01-31"
+      video: "6PO7u4Hdb1w"
+      description: "Testing alone is not enough - the alternative is quality engineering."
+
+"Robert Albrecht":
+  name: "Robert Albrecht"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/robert_albrecht.jpg"
+  linkedin: ""
+  episodes:
+    - number: 136
+      title: "Episode 136 - Encouraging Engineering Excellence and Robert Albrecht"
+      date: "2022-09-30"
+      video: "flGyqKRgpVA"
+      description: "Johannes Mainusch, Robert Albrecht, and Eberhard Wolff engineering excellence with a focus on feedback"
+
+"Sam Newman":
+  name: "Sam Newman"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/sam_newman.jpg"
+  linkedin: ""
+  episodes:
+    - number: 99
+      title: "Folge 99 - Sam Newman - Monolith to Microservices"
+      date: "2022-01-19"
+      video: "PZlVTrJDnhw"
+      description: "Sam Newman discusses microservices and how to migrate from a monolith to microservices."
+
+"Samir Talwar":
+  name: "Samir Talwar"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/samir_talwar.jpg"
+  linkedin: ""
+  episodes:
+    - number: 131
+      title: "Episode 131 - Samir Talwar Longevity - live from SoCraTes Conference"
+      date: "2022-08-26"
+      video: "udjF"
+      description: "Samir Talwar discusses how a long lifespan of software can be suppoeted."
+
+"Sascha Möllering":
+  name: "Sascha Möllering"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/sascha_möllering.jpg"
+  linkedin: ""
+  episodes:
+    - number: 154
+      title: "Folge 154 - Serverless Architektur"
+      date: "2023-03-03"
+      video: "PN6Tj_9JOGk"
+      description: "Sascha Möllering von AWS spricht über Serverless Architekture"
+
+"Scott Ambler":
+  name: "Scott Ambler"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/scott_ambler.jpg"
+  linkedin: ""
+  episodes:
+    - number: 103
+      title: "Episode 103 - Scott Ambler - Data Technical Debt - Live from OOP"
+      date: "2022-01-31"
+      video: "9rynLTSAuxk"
+      description: "Technical debt is a well-known concept - but data can also cause technical debt."
+
+"Simon Brown":
+  name: "Simon Brown"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/simon_brown.jpg"
+  linkedin: ""
+  episodes:
+    - number: 36
+      title: "Episode 36 - Simon Brown - C4 Architecture Model and Structurizr"
+      date: "2021-01-22"
+      video: "YS0ySnnlyto"
+      description: "Simon Brown talks about the C4 Architecture Model and Structrizr - a tool to visualize C4 models."
+
+"Simon Harrer":
+  name: "Simon Harrer"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/simon_harrer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 56
+      title: "Folge 56 - Remote Mob Programming , Franziska Dessart, Simon Harrer, Martin Huber"
+      date: "2021-04-16"
+      video: ""
+      description: "Remote Mob Programming  verspricht Softwareentwicklung mit dem ultimativen Teamerlebnis und dem ultimativem Teamergebnis"
+
+"Sofia Katsaouni":
+  name: "Sofia Katsaouni"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/sofia_katsaouni.jpg"
+  linkedin: ""
+  episodes:
+    - number: 255
+      title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty and Sofia Katsaouni"
+      date: "2025-03-18"
+      video: "c5jPzaI6w2Q"
+      description: "Cosima and Sofia discuss how to deal with change and uncertainty - and how mind skills can help"
+
+"Statt Agilit":
+  name: "Statt Agilit"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/statt_agilit.jpg"
+  linkedin: ""
+  episodes:
+    - number: 264
+      title: "Folge 264 - Statt Agilität und moderner Architektur: Die Illusion von Kontrolle"
+      date: "2025-05-23"
+      video: "Cyb81iTpJnU"
+      description: "Erklärt das Bedürfnis nach Sicherheit übertriebene Planung und Architektur?"
+
+"Statt Microservices":
+  name: "Statt Microservices"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/statt_microservices.jpg"
+  linkedin: ""
+  episodes:
+    - number: 204
+      title: "Folge 204 - Statt Microservices Framework, Library, Komponenten"
+      date: "2024-02-23"
+      video: "j3_G36BYd5s"
+      description: "Sind Frameworks, Librarys oder Komponenten Alternativen zu Microservices?"
+
+"Stefan Hofer":
+  name: "Stefan Hofer"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/stefan_hofer.jpg"
+  linkedin: ""
+  episodes:
+    - number: 21
+      title: "Folge 21 - Domain Story Telling und Stefan Hofer"
+      date: "2020-10-09"
+      video: "XSE5m9Frvsg"
+      description: "Henning Schwentner und Stefan Hofer zeigen Domain Story Telling live und beantworten Fragen."
+
+"Stefan Roock":
+  name: "Stefan Roock"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/stefan_roock.jpg"
+  linkedin: ""
+  episodes:
+    - number: 59
+      title: "Folge 59 - Klimawandel & Software Architektur und Stefan Roock"
+      date: "2021-05-21"
+      video: "UEWaxr_ds2w"
+      description: "Der Klimawandel ist eine große Herausforderung. Was können Software-Architekt:innen tun?"
+
+"Stefan Tilkov":
+  name: "Stefan Tilkov"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/stefan_tilkov.jpg"
+  linkedin: ""
+  episodes:
+    - number: 162
+      title: "Folge 162 - Die IT-Welt vor 10 Jahren und Eberhard Wolff - live von der RheinJUG"
+      date: "2023-04-27"
+      video: "Q9RrBwRt8sE"
+      description: "Stefan und Eberhard diskutieren die IT-Welt vor 10 Jahren - und was sie für heute bedeutet."
+
+"Stefan Toth":
+  name: "Stefan Toth"
+  episode_count: 4
+  bio: ""
+  avatar: "guests/stefan_toth.jpg"
+  linkedin: ""
+  episodes:
+    - number: 196
+      title: "Folge 196 - Leichtgewichtige Software-Reviews und Stefan Zörner"
+      date: "2024-01-12"
+      video: "Mnbn6WdwhrI"
+      description: "Stefan Toth und Stefan Zörner sprechen über leichtgewichtige Software-Reviews und die LASR-Methode dafür"
+    - number: 128
+      title: "Folge 128 - Agilität und Architektur"
+      date: "2022-07-22"
+      video: "CW9wXAnwJIU"
+      description: "Stefan Toth spricht darüber, wie Architektur in agilen Projekten funktioniert."
+    - number: 124
+      title: "Folge 124 - Microservices - Schlag den Eberhard & Stefan! Mit Stefan Toth"
+      date: "2022-06-23"
+      video: "GplG9Zz74ro"
+      description: "Stefan Toth und Eberhard Wolff zum Streitgespräch über verschieden Architektur-Aspekte von Microservices"
+    - number: 41
+      title: "Folge 41 - Stefan Toth - Enterprise Architektur und Business Agilität - Live von der OOP"
+      date: "2021-02-10"
+      video: "bMAFtHEiB7w"
+      description: "Stefan Toth erläutert, wie Enterprise Architektur und Agilität zusammen passen."
+
+"Stefan Zörner":
+  name: "Stefan Zörner"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/stefan_zörner.jpg"
+  linkedin: ""
+  episodes:
+    - number: 196
+      title: "Folge 196 - Leichtgewichtige Software-Reviews und Stefan Zörner"
+      date: "2024-01-12"
+      video: "Mnbn6WdwhrI"
+      description: "Stefan Toth und Stefan Zörner sprechen über leichtgewichtige Software-Reviews und die LASR-Methode dafür"
+
+"Susanne Braun":
+  name: "Susanne Braun"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/susanne_braun.jpg"
+  linkedin: ""
+  episodes:
+    - number: 40
+      title: "Folge 40 - Susanne Braun - Eventual Consistency - Live von der OOP"
+      date: "2021-02-09"
+      video: "ujwdaEHjba4"
+      description: "Lösungen für Eventual Consistency mit Domain-driven Design"
+
+"Sven Johann":
+  name: "Sven Johann"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/sven_johann.jpg"
+  linkedin: ""
+  episodes:
+    - number: 91
+      title: "Folge 91 - Sven Johann - Cross-funktionale Teams zielgerichtet in den Abgrund stürzen"
+      date: "2021-11-12"
+      video: "RtKMp2uDBi0"
+      description: "Sven Johann zeigt, woran cross-funktionale Teams oft scheitern."
+
+"Sönke Marahrens":
+  name: "Sönke Marahrens"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/sönke_marahrens.jpg"
+  linkedin: ""
+  episodes:
+    - number: 141
+      title: "Folge 141 - Auftragstaktik - Agilität beim Militär?"
+      date: "2022-11-04"
+      video: "Oc4X7AZpJgA"
+      description: "thumbnail: folge141.png"
+
+"Tanja Friedel":
+  name: "Tanja Friedel"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/tanja_friedel.jpg"
+  linkedin: ""
+  episodes:
+    - number: 263
+      title: "Folge 263 - Postagilität - Was kommt jetzt? und Uwe Vigenschow"
+      date: "2025-05-16"
+      video: "Z9X"
+      description: "Agilität ist verbrannt - wie sollten wir jetzt Projekte durchführen?"
+    - number: 249
+      title: "Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen"
+      date: "2025-01-31"
+      video: "LTueX9yu2P4"
+      description: "Legacy-Software abzulösen ist mehr als ein technisches Vorhaben -  Produktmanagement spielt eine wichtig Rolle."
+
+"Technische Schulden":
+  name: "Technische Schulden"
+  episode_count: 2
+  bio: ""
+  avatar: "guests/technische_schulden.jpg"
+  linkedin: ""
+  episodes:
+    - number: 183
+      title: "Folge 183 - Technische Schulden - Software langfristig weiterentwickeln"
+      date: "2023-10-06"
+      video: "W"
+      description: "Vortrag über technische Schulden"
+    - number: 37
+      title: "Folge 37 - Technische Schulden"
+      date: "2021-02-05"
+      video: "aYE8vfNQulw"
+      description: "Technische Schulden und die schlechte Änderbarkeit von Software ist eine wichtige Herausforderung - wie geht man damit um?"
+
+"Technischer Kontext":
+  name: "Technischer Kontext"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/technischer_kontext.jpg"
+  linkedin: ""
+  episodes:
+    - number: 120
+      title: "Folge 120 - Technischer Kontext und fachliche Aufteilung - iSAQB Advanced Beispielaufgabe"
+      date: "2022-05-20"
+      video: "WEiQ0Uj7J6k"
+      description: "thumbnail: folge118.png"
+
+"The Architecture":
+  name: "The Architecture"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/the_architecture.jpg"
+  linkedin: ""
+  episodes:
+    - number: 271
+      title: "Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn"
+      date: "2025-07-11"
+      video: "w0fj9kLVjEc"
+      description: "Juan G. Carmona and Ralf D. Müller discuss an arc42 documentation example: the Death Star"
+
+"Thomas Ruhroth":
+  name: "Thomas Ruhroth"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/thomas_ruhroth.jpg"
+  linkedin: ""
+  episodes:
+    - number: 182
+      title: "Folge 182 - Thomas Ruhroth, Kai Schmidt - Technologieauswahl für wartbare Projekte - live von der BED-Con"
+      date: "2023-09-29"
+      video: "IawXrg8fDmY"
+      description: "Thomas Ruhroth  Kai Schmidt"
+
+"Tobias Goeschel":
+  name: "Tobias Goeschel"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/tobias_goeschel.jpg"
+  linkedin: ""
+  episodes:
+    - number: 134
+      title: "Folge 134 - Domain Prototyping - Iterative Entwicklung mit Domain-driven Design & User Experience"
+      date: "2022-09-16"
+      video: "wdggcdnq7T4"
+      description: "Tobias Goeschel zeigt wie Domain Protoyping UX und DDD vereinigt."
+
+"Uwe Friedrichsen":
+  name: "Uwe Friedrichsen"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/uwe_friedrichsen.jpg"
+  linkedin: ""
+  episodes:
+    - number: 8
+      title: "Folge 8 - Uwe Friedrichsen - Das Für und Wider von Microservices"
+      date: "2020-07-21"
+      video: "dgoWRFQ5Z7c"
+      description: "Prof. Dirk Riehle forscht zu Inner Source. Man verwendet dann Open-Source-Methoden um Code in einem Unternehmen zu teilen."
+
+"Uwe Vigenschow":
+  name: "Uwe Vigenschow"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/uwe_vigenschow.jpg"
+  linkedin: ""
+  episodes:
+    - number: 263
+      title: "Folge 263 - Postagilität - Was kommt jetzt? und Uwe Vigenschow"
+      date: "2025-05-16"
+      video: "Z9X"
+      description: "Agilität ist verbrannt - wie sollten wir jetzt Projekte durchführen?"
+
+"Vaughn Vernon":
+  name: "Vaughn Vernon"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/vaughn_vernon.jpg"
+  linkedin: ""
+  episodes:
+    - number: 218
+      title: "Episode 218 - Vaughn Vernon about Ports and Adapters and DDD"
+      date: "2024-05-29"
+      video: "vAi5gRrqVMk"
+      description: "Vaughn talks about ports and adapters, DDD, frameworks, and AI"
+
+"Wardley Maps":
+  name: "Wardley Maps"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/wardley_maps.jpg"
+  linkedin: ""
+  episodes:
+    - number: 258
+      title: "Episode 258 - Wardley Maps Meets Software Architecture"
+      date: "2025-04-03"
+      video: "12PF8II1RZs"
+      description: "Discussion about Wardley Maps with a group that includes the inventor himself."
+
+"Warum Continuous":
+  name: "Warum Continuous"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/warum_continuous.jpg"
+  linkedin: ""
+  episodes:
+    - number: 12
+      title: "Folge 12 - Warum Continuous Delivery - Die DevOps Studie"
+      date: "2020-08-14"
+      video: "WohIxy9Nuo0"
+      description: "Continuous Delivery bietet viel mehr als Time-to-Market - das zeigt die DevOps-Studie."
+
+"Woody Zuill":
+  name: "Woody Zuill"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/woody_zuill.jpg"
+  linkedin: ""
+  episodes:
+    - number: 252
+      title: "Episode 252 - Intro to Beyond Estimates"
+      date: "2025-02-24"
+      video: "KpsEo7"
+      description: "Woody Zuill discusses how estimates are actually harmful and how to work without them."
+
+"Xin Yao":
+  name: "Xin Yao"
+  episode_count: 1
+  bio: ""
+  avatar: "guests/xin_yao.jpg"
+  linkedin: ""
+  episodes:
+    - number: 169
+      title: "Episode 169 - Systems Thinking in Large-Scale Modeling - OOP Special"
+      date: "2023-06-16"
+      video: "gkYRKvPL2OA"
+      description: "Xin Yao talks about how Systems thinking helps to work with socio-technical systems."
+
