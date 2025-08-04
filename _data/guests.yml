@@ -1,132 +1,255 @@
 # Software-Architektur.tv Gäste-Datenbank
-# Zentrale YAML-Datei mit allen Stream-Gästen und ihren Daten
+# Echte Gast-Daten aus den Stream-Episoden extrahiert
 
 guests:
-  # Beispiel-Gäste für Entwicklung und Testing
-  - name: "Eberhard Wolff"
-    linkedin: "https://www.linkedin.com/in/eberhard-wolff-4a61962/"
-    image: "/images/guests/eberhard-wolff.jpg"
-    bio: "Software-Architekt, Autor und Host von Software-Architektur.tv"
-    tags: ["Microservices", "Software-Architektur", "Java", "Spring", "Domain-Driven Design"]
+  # Martin Lippert - Recent guest, Spring Tools expert
+  - name: "Martin Lippert"
+    linkedin: "https://www.linkedin.com/in/martin-lippert/"
+    image: "/images/guests/martin-lippert.jpg"
+    bio: "Spring Tools Lead, langjährige Erfahrung als Entwickler und Speaker"
+    tags: ["Spring", "MCP", "Model Context Protocol", "Spring AI", "LLM", "Development Tools"]
     episodes:
-      - title: "Folge 001: Einführung in Software-Architektur"
-        url: "/2020/04/01/folge001.html"
-        date: "2020-04-01"
-        role: "host"
-      - title: "Folge 050: Microservices Patterns"
-        url: "/2021/03/15/folge050.html"  
-        date: "2021-03-15"
-        role: "host"
-
-  - name: "Lisa Maria Schäfer"
-    linkedin: "https://www.linkedin.com/in/lisa-maria-schäfer/"
-    image: "/images/guests/lisa-schaefer.jpg"
-    bio: "Sketchnoterin und Co-Host von Software-Architektur.tv"
-    tags: ["Sketchnotes", "Visualisierung", "UX", "Design Thinking"]
-    episodes:
-      - title: "Folge 025: Visualisierung in der Software-Architektur"
-        url: "/2020/09/20/folge025.html"
-        date: "2020-09-20"
-        role: "co-host"
-      - title: "Folge 075: Sketchnotes für Entwickler"
-        url: "/2021/08/10/folge075.html"
-        date: "2021-08-10"
-        role: "co-host"
-
-  - name: "Ralf D. Müller"
-    linkedin: "https://www.linkedin.com/in/ralfdmueller/"
-    image: "/images/guests/ralf-mueller.jpg"  
-    bio: "Software-Architekt und Docs-as-Code Experte"
-    tags: ["Documentation", "Arc42", "Docs-as-Code", "Enterprise Architecture", "Gradle"]
-    episodes:
-      - title: "Folge 035: Docs-as-Code mit AsciiDoc"
-        url: "/2020/12/05/folge035.html"
-        date: "2020-12-05"
+      - title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert"
+        url: "/2025/08/01/folge273.html"
+        date: "2025-08-01"
         role: "guest"
-      - title: "Folge 089: Enterprise Architecture"
-        url: "/2022/02/28/folge089.html"
-        date: "2022-02-28"
-        role: "co-host"
 
+  # Henning Schwentner - Domain-driven Design expert, multiple appearances
+  - name: "Henning Schwentner"
+    linkedin: "https://www.linkedin.com/in/henning-schwentner/"
+    image: "/images/guests/henning-schwentner.jpg"
+    bio: "Software-Architekt und Domain-Driven Design Experte"
+    tags: ["Domain-Driven Design", "Event Storming", "Domain Story Telling", "Clean Architecture", "Refactoring"]
+    episodes:
+      - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
+        url: "/2020/10/09/folge021.html"
+        date: "2020-10-09"
+        role: "guest"
+      - title: "Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner"
+        url: "/2021/09/17/folge075.html"
+        date: "2021-09-17"
+        role: "guest"
+
+  # Stefan Tilkov - REST and API expert, multiple appearances
   - name: "Stefan Tilkov"
     linkedin: "https://www.linkedin.com/in/stilkov/"
     image: "/images/guests/stefan-tilkov.jpg"
     bio: "Software-Architekt, Berater und Autor bei innoQ"
     tags: ["REST", "Web APIs", "Software-Architektur", "Microservices", "Hypermedia"]
     episodes:
-      - title: "Folge 012: REST und Web APIs"
-        url: "/2020/06/15/folge012.html"
-        date: "2020-06-15"
+      - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/11/folge045.html"
+        date: "2021-02-11"
         role: "guest"
-      - title: "Folge 067: Hypermedia APIs"
-        url: "/2021/06/20/folge067.html"
-        date: "2021-06-20"
-        role: "guest"
-
-  - name: "Gernot Starke"
-    linkedin: "https://www.linkedin.com/in/gernot-starke/"
-    image: "/images/guests/gernot-starke.jpg"
-    bio: "Software-Architekt, Trainer und Mitbegründer von arc42"
-    tags: ["Arc42", "Software-Architektur", "Dokumentation", "Clean Code", "Training"]
-    episodes:
-      - title: "Folge 008: Arc42 - Architektur-Dokumentation"
-        url: "/2020/05/18/folge008.html"
-        date: "2020-05-18"
-        role: "guest"
-      - title: "Folge 092: Clean Architecture"
-        url: "/2022/03/21/folge092.html"
-        date: "2022-03-21"
+      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
+        url: "/2023/04/27/folge162.html"
+        date: "2023-04-27"
         role: "guest"
 
-  - name: "Oliver Gierke"
-    linkedin: "https://www.linkedin.com/in/olivergierke/"
-    image: "/images/guests/oliver-gierke.jpg"
-    bio: "Software-Architekt bei VMware, Spring Data Lead"
-    tags: ["Spring", "Domain-Driven Design", "Spring Data", "Modularisierung", "Java"]
+  # Dr. Julia Freudenberg - Hacker School, Education
+  - name: "Dr. Julia Freudenberg"
+    linkedin: "https://www.linkedin.com/in/juliafreudenberg/"
+    image: "/images/guests/julia-freudenberg.jpg"
+    bio: "Geschäftsführerin der Hacker School, Expertin für IT-Bildung"
+    tags: ["IT-Bildung", "Hacker School", "Education", "Nachwuchsförderung", "Diversity"]
     episodes:
-      - title: "Folge 018: Domain-Driven Design"
-        url: "/2020/07/27/folge018.html"
-        date: "2020-07-27"
+      - title: "Folge 192 - Fishbowl - Brücken bauen - Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)"
+        url: "/2023/12/13/folge192.html"
+        date: "2023-12-13"
         role: "guest"
-      - title: "Folge 056: Spring Modularisierung"
-        url: "/2021/04/26/folge056.html"
-        date: "2021-04-26"
+      - title: "Folge 202 - Hack the World a Better Place mit Dr. Julia Freudenberg"
+        url: "/2024/02/09/folge202.html"
+        date: "2024-02-09"
         role: "guest"
 
-  - name: "Silvia Schreier"
-    linkedin: "https://www.linkedin.com/in/silvia-schreier/"
-    image: "/images/guests/silvia-schreier.jpg"
-    bio: "Software-Architektin und Cloud-Expertin"
-    tags: ["Cloud Architecture", "AWS", "Serverless", "DevOps", "Migration"]
+  # Ralf D. Müller - Arc42, Docs-as-Code (Co-Host)
+  - name: "Ralf D. Müller"
+    linkedin: "https://www.linkedin.com/in/ralfdmueller/"
+    image: "/images/guests/ralf-mueller.jpg"
+    bio: "Software-Architekt, Docs-as-Code Experte und Co-Host"
+    tags: ["Documentation", "Arc42", "Docs-as-Code", "Enterprise Architecture", "Gradle", "ChatGPT", "AI"]
     episodes:
-      - title: "Folge 043: Cloud Migration Strategien"
-        url: "/2021/01/18/folge043.html"
-        date: "2021-01-18"
-        role: "guest"
-      - title: "Folge 078: Serverless Architectures"
-        url: "/2021/09/13/folge078.html"
-        date: "2021-09-13"
+      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
+        url: "/2022/12/16/folge146.html"
+        date: "2022-12-16"
+        role: "co-host"
+      - title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller"
+        url: "/2023/12/15/folge193.html"
+        date: "2023-12-15"
+        role: "co-host"
+      - title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller"
+        url: "/2024/01/19/folge197.html"
+        date: "2024-01-19"
+        role: "co-host"
+
+  # Lisa Maria Schäfer - Sketchnotes, Co-Host
+  - name: "Lisa Maria Schäfer"
+    linkedin: "https://www.linkedin.com/in/lisa-maria-schaefer/"
+    image: "/images/guests/lisa-schaefer.jpg"
+    bio: "Sketchnoterin, Full-Stack-Entwicklerin und Co-Host"
+    tags: ["Sketchnotes", "Visualisierung", "UX", "Design Thinking", "Full-Stack Development"]
+    episodes:
+      - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
+        url: "/2021/02/09/folge39.html"
+        date: "2021-02-09"
+        role: "co-host"
+      - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
+        url: "/2022/12/16/folge146.html"
+        date: "2022-12-16"
+        role: "co-host"
+      - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
+        url: "/2024/03/01/folge205.html"
+        date: "2024-03-01"
+        role: "co-host"
+
+  # Eberhard Wolff - Main Host
+  - name: "Eberhard Wolff"
+    linkedin: "https://www.linkedin.com/in/eberhard-wolff-4a61962/"
+    image: "/images/guests/eberhard-wolff.jpg"
+    bio: "Software-Architekt, Autor und Haupthost von Software-Architektur.tv"
+    tags: ["Microservices", "Software-Architektur", "Java", "Spring", "Domain-Driven Design"]
+    episodes:
+      - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
+        url: "/2023/04/27/folge162.html"
+        date: "2023-04-27"
+        role: "host"
+
+  # Oliver Drotbohm - Spring Data Lead, jMolecules
+  - name: "Oliver Drotbohm"
+    linkedin: "https://www.linkedin.com/in/oliverdrotbohm/"
+    image: "/images/guests/oliver-drotbohm.jpg"
+    bio: "Spring Data Lead, Domain-Driven Design Experte"
+    tags: ["Spring", "Domain-Driven Design", "Spring Data", "jMolecules", "Java", "Modularisierung"]
+    episodes:
+      - title: "Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm"
+        url: "/2024/05/31/episode219.html"
+        date: "2024-05-31"
         role: "guest"
 
-  - name: "Henning Schwentner"
-    linkedin: "https://www.linkedin.com/in/henning-schwentner/"
-    image: "/images/guests/henning-schwentner.jpg"
-    bio: "Software-Architekt und Domain-Driven Design Experte"
-    tags: ["Domain-Driven Design", "Event Storming", "Clean Architecture", "Refactoring"]
+  # Marco Emrich - Clean Code, Refactoring
+  - name: "Marco Emrich"
+    linkedin: "https://www.linkedin.com/in/marcoemrich/"
+    image: "/images/guests/marco-emrich.jpg"
+    bio: "Software-Entwickler, Clean Code Experte"
+    tags: ["Clean Code", "Refactoring", "Kent Beck", "Code Quality", "Code Retreat"]
     episodes:
-      - title: "Folge 029: Event Storming"
-        url: "/2020/10/19/folge029.html"
-        date: "2020-10-19"
+      - title: "Folge 225 - Code Aufräumen - Kent Beck's \"Tidy First?\" mit Marco Emrich 1/2"
+        url: "/2024/07/26/episode225.html"
+        date: "2024-07-26"
         role: "guest"
-      - title: "Folge 064: Legacy System Refactoring"
-        url: "/2021-05-31/folge064.html"
-        date: "2021-05-31"
+      - title: "Folge 226 - Theorie des Aufräumens - Kent Beck's \"Tidy First?\" mit Marco Emrich 2/2"
+        url: "/2024/08/02/episode226.html"
+        date: "2024-08-02"
+        role: "guest"
+      - title: "Folge 236 - Code Retreat live - mit Marco Emrich"
+        url: "/2024/10/25/episode236.html"
+        date: "2024-10-25"
+        role: "guest"
+
+  # Stefan Hofer - Domain Story Telling co-creator
+  - name: "Stefan Hofer"
+    linkedin: "https://www.linkedin.com/in/stefan-hofer-hofstadler/"
+    image: "/images/guests/stefan-hofer.jpg"
+    bio: "Domain Story Telling Mitbegründer, Collaborative Modeling Experte"
+    tags: ["Domain Story Telling", "Collaborative Modeling", "Domain-Driven Design", "Requirements Engineering"]
+    episodes:
+      - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
+        url: "/2020/10/09/folge021.html"
+        date: "2020-10-09"
+        role: "guest"
+
+  # Christoph Iserlohn - Security Expert
+  - name: "Christoph Iserlohn"
+    linkedin: "https://www.linkedin.com/in/christoph-iserlohn/"
+    image: "/images/guests/christoph-iserlohn.jpg"
+    bio: "Security-Experte bei innoQ"
+    tags: ["Security", "OWASP", "Zero Trust", "Sichere Architekturen", "Cybersecurity"]
+    episodes:
+      - title: "Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day"
+        url: "/2020/12/07/folge030.html"
+        date: "2020-12-07"
+        role: "guest"
+      - title: "Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn"
+        url: "/2023/03/10/folge155.html"
+        date: "2023-03-10"
+        role: "guest"
+      - title: "Folge 166 - Zero Trust mit Christoph Iserlohn"
+        url: "/2023/05/26/folge166.html"
+        date: "2023-05-26"
+        role: "guest"
+
+  # Franziska Dessart - Frontend Architecture
+  - name: "Franziska Dessart"
+    linkedin: "https://www.linkedin.com/in/franzi-dessart/"
+    image: "/images/guests/franziska-dessart.jpg"
+    bio: "Frontend-Architektin und Entwicklerin"
+    tags: ["Frontend-Architektur", "JavaScript", "Web Development", "User Experience", "Remote Programming"]
+    episodes:
+      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/10/02/folge020.html"
+        date: "2020-10-02"
+        role: "guest"
+      - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/11/27/folge027.html"
+        date: "2020-11-27"
+        role: "guest"
+      - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
+        url: "/2021/04/16/folge056.html"
+        date: "2021-04-16"
+        role: "guest"
+
+  # Lucas Dohmen - Frontend, innoQ
+  - name: "Lucas Dohmen"
+    linkedin: "https://www.linkedin.com/in/lucas-dohmen/"
+    image: "/images/guests/lucas-dohmen.jpg"
+    bio: "Senior Consultant bei innoQ, Frontend- und Web-Experte"
+    tags: ["Frontend-Architektur", "HTTP", "Web Development", "JavaScript", "KI", "LLMs"]
+    episodes:
+      - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
+        url: "/2020/10/02/folge020.html"
+        date: "2020-10-02"
+        role: "guest"
+      - title: "Folge 135 - HTTP mit Lucas Dohmen"
+        url: "/2022/09/23/folge135.html"
+        date: "2022-09-23"
+        role: "guest"
+      - title: "Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen"
+        url: "/2025/02/21/folge251.html"
+        date: "2025-02-21"
+        role: "guest"
+
+  # Bernd Rücker - Process Orchestration, Camunda
+  - name: "Bernd Rücker"
+    linkedin: "https://www.linkedin.com/in/bernd-ruecker/"
+    image: "/images/guests/bernd-ruecker.jpg"
+    bio: "Co-Founder und Chief Technologist bei Camunda"
+    tags: ["Process Orchestration", "BPMN", "Workflows", "Camunda", "Microservices", "Event-Driven Architecture"]
+    episodes:
+      - title: "Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker"
+        url: "/2024/12/06/episode243.html"
+        date: "2024-12-06"
+        role: "guest"
+
+  # Prof. Dirk Riehle - Open Source Expert
+  - name: "Prof. Dirk Riehle"
+    linkedin: "https://www.linkedin.com/in/dirkriehle/"
+    image: "/images/guests/dirk-riehle.jpg"
+    bio: "Professor für Open-Source Software Engineering, FAU Erlangen-Nürnberg"
+    tags: ["Open Source", "Inner Source", "Software Engineering", "Forschung", "Academia", "Community"]
+    episodes:
+      - title: "Folge 32 - Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle"
+        url: "/2020/12/11/folge032.html"
+        date: "2020-12-11"
+        role: "guest"
+      - title: "Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle"
+        url: "/2025/07/04/folge270.html"
+        date: "2025-07-04"
         role: "guest"
 
 # Hinweise zur Datenpflege:
 # 1. Namen exakt wie sie in den Episodes erscheinen
-# 2. LinkedIn-URLs prüfen und aktuell halten
+# 2. LinkedIn-URLs auf Aktualität prüfen
 # 3. Bilder im Format 300x300px, WebP bevorzugt
-# 4. Tags einheitlich verwenden (siehe bestehende Tags)
+# 4. Tags aus Episode-Titeln und -Inhalten ableiten
 # 5. Episode-URLs mit korrektem Datum-Format
 # 6. Rolle: host|co-host|guest|moderator
