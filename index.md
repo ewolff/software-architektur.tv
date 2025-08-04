@@ -14,42 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Umfrage zur Website-Nutzung
+## Nächste Episode: 2025-08-15 KI mit Barbara Lampl und Ralf D. Müller
 
-<div class="embed-container">
-<div class="ratio4x3">
-<iframe
-src="https://docs.google.com/forms/d/e/1FAIpQLSeQiEdpKNoi9CKfVK3FhDVf3w8yV2GQdhWr_1iDhuwdXBpDSA/viewform?embedded=true"
-width="640" height="2007" frameborder="0" marginheight="0"
-marginwidth="0">Loading…</iframe>
-</div>
-</div>
+<!-- [Add to Calendar](stream.ics) -->
 
-## Nächste Episode: 2025-06-27 13:00 CEST Was ist die Hauptherausforderung der Software-Architektur?
+<!-- ## Live Stream -->
 
-Software-Architektur gilt als anspruchsvoll und komplex – doch woran
-liegt das eigentlich?
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!-- 	src="https://www.youtube-nocookie.com/embed/5Q_TrSfq4Mw" -->
+<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!-- 	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-Auf Mastodon, BlueSky und LinkedIn haben wir gefragt: Was ist die
-zentrale Herausforderung in der Software-Architektur?
-
-In dieser Episode werfen wir einen Blick auf die Antworten und
-diskutieren, was Software-Architektur von so herausfordernd macht.
-
-[Add to Calendar](stream.ics)
-
-## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-	src="https://www.youtube-nocookie.com/embed/P__HtLf1skA"
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-	encrypted-media; gyroscope; picture-in-picture fullscreen"
-	></iframe>
-</div>
-</center>
-
-[Twitch](https://www.twitch.tv/ebrwolff)
+<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
 
 ## Fragen & Diskussion  / Question & Discussion
 
