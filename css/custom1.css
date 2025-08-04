@@ -988,3 +988,88 @@
     height: 50px;
   }
 }
+
+
+/* LINKEDIN PROFILE IMAGE ENHANCEMENTS */
+
+.guest-avatar img {
+    /* Smooth loading transitions */
+    transition: opacity 0.5s ease, transform 0.3s ease;
+    opacity: 0.7;
+}
+
+.guest-avatar img.loaded {
+    opacity: 1;
+}
+
+.guest-avatar img.error {
+    opacity: 0.8;
+}
+
+/* LinkedIn image specific styling */
+.guest-avatar img[src*="linkedin.com"] {
+    /* LinkedIn images might need special handling */
+    border: 2px solid rgba(0, 123, 204, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 123, 204, 0.2);
+}
+
+.guest-avatar img[src*="ui-avatars.com"] {
+    /* Generated avatar styling */
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Loading state animation */
+.guest-avatar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent 25%, rgba(255,255,255,0.4) 50%, transparent 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.guest-avatar img[style*="opacity: 0.7"]::before {
+    opacity: 1;
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Hover effects for profile images */
+.guest-avatar img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Status indicators */
+.guest-avatar::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #28a745;
+    border: 2px solid white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.guest-avatar img.loaded::after {
+    opacity: 1;
+}
+
+.guest-avatar img.error::after {
+    background: #dc3545;
+    opacity: 1;
+}
