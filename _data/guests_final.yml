@@ -5,7 +5,7 @@
 "Lisa Schäfer":
   name: "Lisa Schäfer"
   episode_count: 4
-  avatar: "guests/lisa_schaefer.svg"
+  avatar: "guests/lisa_schaefer.jpg"
   linkedin: "https://linkedin.com/in/lisa-schaefer-coach"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -33,7 +33,7 @@
 "Franziska Dessart Joy Heron":
   name: "Franziska Dessart Joy Heron"
   episode_count: 3
-  avatar: "guests/franziska_dessart_joy_heron.svg"
+  avatar: "guests/franziska_dessart_joy_heron.jpg"
   linkedin: "https://linkedin.com/in/franziska-dessart-joy-heron"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -56,7 +56,7 @@
 "Christoph Iserlohn":
   name: "Christoph Iserlohn"
   episode_count: 3
-  avatar: "guests/christoph_iserlohn.svg"
+  avatar: "guests/christoph_iserlohn.jpg"
   linkedin: "https://linkedin.com/in/christoph-iserlohn"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -79,7 +79,7 @@
 "Stefan Toth":
   name: "Stefan Toth"
   episode_count: 3
-  avatar: "guests/stefan_toth.svg"
+  avatar: "guests/stefan_toth.jpg"
   linkedin: "https://linkedin.com/in/stefan-toth-architect"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -102,7 +102,7 @@
 "Marco Emrich":
   name: "Marco Emrich"
   episode_count: 3
-  avatar: "guests/marco_emrich.svg"
+  avatar: "guests/marco_emrich.jpg"
   linkedin: "https://linkedin.com/in/marcoemrich"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -125,7 +125,7 @@
 "Henning Schwentner":
   name: "Henning Schwentner"
   episode_count: 2
-  avatar: "guests/henning_schwentner.svg"
+  avatar: "guests/henning_schwentner.jpg"
   linkedin: "https://linkedin.com/in/henning-schwentner"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -143,7 +143,7 @@
 "Anja Kammer":
   name: "Anja Kammer"
   episode_count: 2
-  avatar: "guests/anja_kammer.svg"
+  avatar: "guests/anja_kammer.jpg"
   linkedin: "https://linkedin.com/in/anja-kammer"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -161,7 +161,7 @@
 "Martin Lippert":
   name: "Martin Lippert"
   episode_count: 2
-  avatar: "guests/martin_lippert.svg"
+  avatar: "guests/martin_lippert.jpg"
   linkedin: "https://linkedin.com/in/martin-lippert"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -179,7 +179,7 @@
 "Lucas Dohmen":
   name: "Lucas Dohmen"
   episode_count: 2
-  avatar: "guests/lucas_dohmen.svg"
+  avatar: "guests/lucas_dohmen.jpg"
   linkedin: "https://linkedin.com/in/lucas-dohmen"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -197,7 +197,7 @@
 "Mike Sperber":
   name: "Mike Sperber"
   episode_count: 2
-  avatar: "guests/mike_sperber.svg"
+  avatar: "guests/mike_sperber.jpg"
   linkedin: "https://linkedin.com/in/mike-sperber"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -215,7 +215,7 @@
 "Tanja Friedel":
   name: "Tanja Friedel"
   episode_count: 2
-  avatar: "guests/tanja_friedel.svg"
+  avatar: "guests/tanja_friedel.jpg"
   linkedin: "https://linkedin.com/in/tanja-friedel"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -233,7 +233,7 @@
 "Hanna Prinz":
   name: "Hanna Prinz"
   episode_count: 1
-  avatar: "guests/hanna_prinz.svg"
+  avatar: "guests/hanna_prinz.jpg"
   linkedin: "https://linkedin.com/in/hanna-prinz"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -246,7 +246,7 @@
 "DSL Domain Specific Languages":
   name: "DSL Domain Specific Languages"
   episode_count: 1
-  avatar: "guests/dsl_domain_specific_languages.svg"
+  avatar: "guests/dsl_domain_specific_languages.jpg"
   linkedin: "https://linkedin.com/in/dsl-domain-specific-languages"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -259,7 +259,7 @@
 "Danilo Beuche":
   name: "Danilo Beuche"
   episode_count: 1
-  avatar: "guests/danilo_beuche.svg"
+  avatar: "guests/danilo_beuche.jpg"
   linkedin: "https://linkedin.com/in/danilo-beuche"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -272,7 +272,7 @@
 "Johannes Seitz":
   name: "Johannes Seitz"
   episode_count: 1
-  avatar: "guests/johannes_seitz.svg"
+  avatar: "guests/johannes_seitz.jpg"
   linkedin: "https://linkedin.com/in/johannes-seitz"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -285,7 +285,7 @@
 "Michael Hunger":
   name: "Michael Hunger"
   episode_count: 1
-  avatar: "guests/michael_hunger.svg"
+  avatar: "guests/michael_hunger.jpg"
   linkedin: "https://linkedin.com/in/michael-hunger"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -298,7 +298,7 @@
 "Lars Hupel Lena Kraaz":
   name: "Lars Hupel Lena Kraaz"
   episode_count: 1
-  avatar: "guests/lars_hupel_lena_kraaz.svg"
+  avatar: "guests/lars_hupel_lena_kraaz.jpg"
   linkedin: "https://linkedin.com/in/lars-hupel-lena-kraaz"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -311,7 +311,7 @@
 "Erik Wilde":
   name: "Erik Wilde"
   episode_count: 1
-  avatar: "guests/erik_wilde.svg"
+  avatar: "guests/erik_wilde.jpg"
   linkedin: "https://linkedin.com/in/erik-wilde"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -324,7 +324,7 @@
 "Spring Native Spring Boot":
   name: "Spring Native Spring Boot"
   episode_count: 1
-  avatar: "guests/spring_native_spring_boot.svg"
+  avatar: "guests/spring_native_spring_boot.jpg"
   linkedin: "https://linkedin.com/in/spring-native-spring-boot"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -337,7 +337,7 @@
 "Jochen Christ Franziska Dessart":
   name: "Jochen Christ Franziska Dessart"
   episode_count: 1
-  avatar: "guests/jochen_christ_franziska_dessart.svg"
+  avatar: "guests/jochen_christ_franziska_dessart.jpg"
   linkedin: "https://linkedin.com/in/jochen-christ-franziska-dessart"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -350,7 +350,7 @@
 "Oliver Wehrens":
   name: "Oliver Wehrens"
   episode_count: 1
-  avatar: "guests/oliver_wehrens.svg"
+  avatar: "guests/oliver_wehrens.jpg"
   linkedin: "https://linkedin.com/in/oliver-wehrens"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -363,7 +363,7 @@
 "Johannes Link":
   name: "Johannes Link"
   episode_count: 1
-  avatar: "guests/johannes_link.svg"
+  avatar: "guests/johannes_link.jpg"
   linkedin: "https://linkedin.com/in/johannes-link"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -376,7 +376,7 @@
 "HTTP Feeds":
   name: "HTTP Feeds"
   episode_count: 1
-  avatar: "guests/http_feeds.svg"
+  avatar: "guests/http_feeds.jpg"
   linkedin: "https://linkedin.com/in/http-feeds"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -389,7 +389,7 @@
 "Marina Köhn Jutta Eckstein":
   name: "Marina Köhn Jutta Eckstein"
   episode_count: 1
-  avatar: "guests/marina_koehn_jutta_eckstein.svg"
+  avatar: "guests/marina_koehn_jutta_eckstein.jpg"
   linkedin: "https://linkedin.com/in/marina-koehn-jutta-eckstein"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -402,7 +402,7 @@
 "Aminata Sidibe":
   name: "Aminata Sidibe"
   episode_count: 1
-  avatar: "guests/aminata_sidibe.svg"
+  avatar: "guests/aminata_sidibe.jpg"
   linkedin: "https://linkedin.com/in/aminata-sidibe"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -415,7 +415,7 @@
 "Felix Müller":
   name: "Felix Müller"
   episode_count: 1
-  avatar: "guests/felix_mueller.svg"
+  avatar: "guests/felix_mueller.jpg"
   linkedin: "https://linkedin.com/in/felix-mueller"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -428,7 +428,7 @@
 "Falk Sippach":
   name: "Falk Sippach"
   episode_count: 1
-  avatar: "guests/falk_sippach.svg"
+  avatar: "guests/falk_sippach.jpg"
   linkedin: "https://linkedin.com/in/falksippach"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -441,7 +441,7 @@
 "Sönke Marahrens":
   name: "Sönke Marahrens"
   episode_count: 1
-  avatar: "guests/soenke_marahrens.svg"
+  avatar: "guests/soenke_marahrens.jpg"
   linkedin: "https://linkedin.com/in/soenke-marahrens"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -454,7 +454,7 @@
 "Falk Hoppe":
   name: "Falk Hoppe"
   episode_count: 1
-  avatar: "guests/falk_hoppe.svg"
+  avatar: "guests/falk_hoppe.jpg"
   linkedin: "https://linkedin.com/in/falk-hoppe"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -467,7 +467,7 @@
 "Sascha Möllering":
   name: "Sascha Möllering"
   episode_count: 1
-  avatar: "guests/sascha_moellering.svg"
+  avatar: "guests/sascha_moellering.jpg"
   linkedin: "https://linkedin.com/in/sascha-moellering"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -480,7 +480,7 @@
 "Gerrit Beine":
   name: "Gerrit Beine"
   episode_count: 1
-  avatar: "guests/gerrit_beine.svg"
+  avatar: "guests/gerrit_beine.jpg"
   linkedin: "https://linkedin.com/in/gerrit-beine"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -493,7 +493,7 @@
 "Nora Schöner":
   name: "Nora Schöner"
   episode_count: 1
-  avatar: "guests/nora_schoener.svg"
+  avatar: "guests/nora_schoener.jpg"
   linkedin: "https://linkedin.com/in/nora-schoener"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -506,7 +506,7 @@
 "Michaela Kühn":
   name: "Michaela Kühn"
   episode_count: 1
-  avatar: "guests/michaela_kuehn.svg"
+  avatar: "guests/michaela_kuehn.jpg"
   linkedin: "https://linkedin.com/in/michaela-kuehn"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -519,7 +519,7 @@
 "Stefan Tilkov":
   name: "Stefan Tilkov"
   episode_count: 1
-  avatar: "guests/stefan_tilkov.svg"
+  avatar: "guests/stefan_tilkov.jpg"
   linkedin: "https://linkedin.com/in/stefan-tilkov"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -532,7 +532,7 @@
 "Rebecca Temme":
   name: "Rebecca Temme"
   episode_count: 1
-  avatar: "guests/rebecca_temme.svg"
+  avatar: "guests/rebecca_temme.jpg"
   linkedin: "https://linkedin.com/in/rebecca-temme"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -545,7 +545,7 @@
 "Melanie Schäfer":
   name: "Melanie Schäfer"
   episode_count: 1
-  avatar: "guests/melanie_schaefer.svg"
+  avatar: "guests/melanie_schaefer.jpg"
   linkedin: "https://linkedin.com/in/melanie-schaefer"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -558,7 +558,7 @@
 "Joseph Pelrine":
   name: "Joseph Pelrine"
   episode_count: 1
-  avatar: "guests/joseph_pelrine.svg"
+  avatar: "guests/joseph_pelrine.jpg"
   linkedin: "https://linkedin.com/in/joseph-pelrine"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -571,7 +571,7 @@
 "Dehla Sokenou OOP Special":
   name: "Dehla Sokenou OOP Special"
   episode_count: 1
-  avatar: "guests/dehla_sokenou_oop_special.svg"
+  avatar: "guests/dehla_sokenou_oop_special.jpg"
   linkedin: "https://linkedin.com/in/dehla-sokenou-oop-special"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -584,7 +584,7 @@
 "Markus Völter":
   name: "Markus Völter"
   episode_count: 1
-  avatar: "guests/markus_voelter.svg"
+  avatar: "guests/markus_voelter.jpg"
   linkedin: "https://linkedin.com/in/markus-voelter"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -597,7 +597,7 @@
 "Nadine Andraczek":
   name: "Nadine Andraczek"
   episode_count: 1
-  avatar: "guests/nadine_andraczek.svg"
+  avatar: "guests/nadine_andraczek.jpg"
   linkedin: "https://linkedin.com/in/nadine-andraczek"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -610,7 +610,7 @@
 "Faktor Mensch":
   name: "Faktor Mensch"
   episode_count: 1
-  avatar: "guests/faktor_mensch.svg"
+  avatar: "guests/faktor_mensch.jpg"
   linkedin: "https://linkedin.com/in/faktor-mensch"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -623,7 +623,7 @@
 "Michael Vitz":
   name: "Michael Vitz"
   episode_count: 1
-  avatar: "guests/michael_vitz.svg"
+  avatar: "guests/michael_vitz.jpg"
   linkedin: "https://linkedin.com/in/michael-vitz"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -636,7 +636,7 @@
 "Rakia Ben Sassi":
   name: "Rakia Ben Sassi"
   episode_count: 1
-  avatar: "guests/rakia_ben_sassi.svg"
+  avatar: "guests/rakia_ben_sassi.jpg"
   linkedin: "https://linkedin.com/in/rakia-ben-sassi"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -649,7 +649,7 @@
 "Julia Freudenberg":
   name: "Julia Freudenberg"
   episode_count: 1
-  avatar: "guests/julia_freudenberg.svg"
+  avatar: "guests/julia_freudenberg.jpg"
   linkedin: "https://linkedin.com/in/julia-freudenberg"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -662,7 +662,7 @@
 "Miriam Greis":
   name: "Miriam Greis"
   episode_count: 1
-  avatar: "guests/miriam_greis.svg"
+  avatar: "guests/miriam_greis.jpg"
   linkedin: "https://linkedin.com/in/miriam-greis"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -675,7 +675,7 @@
 "Oliver Drotbohm":
   name: "Oliver Drotbohm"
   episode_count: 1
-  avatar: "guests/oliver_drotbohm.svg"
+  avatar: "guests/oliver_drotbohm.jpg"
   linkedin: "https://linkedin.com/in/oliver-drotbohm"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -688,7 +688,7 @@
 "Michael Plöd":
   name: "Michael Plöd"
   episode_count: 1
-  avatar: "guests/michael_ploed.svg"
+  avatar: "guests/michael_ploed.jpg"
   linkedin: "https://linkedin.com/in/michael-ploed"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -701,7 +701,7 @@
 "Michael Ahrens":
   name: "Michael Ahrens"
   episode_count: 1
-  avatar: "guests/michael_ahrens.svg"
+  avatar: "guests/michael_ahrens.jpg"
   linkedin: "https://linkedin.com/in/michael-ahrens"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -714,7 +714,7 @@
 "Kim Nena Duggen":
   name: "Kim Nena Duggen"
   episode_count: 1
-  avatar: "guests/kim_nena_duggen.svg"
+  avatar: "guests/kim_nena_duggen.jpg"
   linkedin: "https://linkedin.com/in/kim-nena-duggen"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -727,7 +727,7 @@
 "Jochen Mader":
   name: "Jochen Mader"
   episode_count: 1
-  avatar: "guests/jochen_mader.svg"
+  avatar: "guests/jochen_mader.jpg"
   linkedin: "https://linkedin.com/in/jochen-mader"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -740,7 +740,7 @@
 "Friederike Sternberg":
   name: "Friederike Sternberg"
   episode_count: 1
-  avatar: "guests/friederike_sternberg.svg"
+  avatar: "guests/friederike_sternberg.jpg"
   linkedin: "https://linkedin.com/in/friederike-sternberg"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -753,7 +753,7 @@
 "Liberating Structures":
   name: "Liberating Structures"
   episode_count: 1
-  avatar: "guests/liberating_structures.svg"
+  avatar: "guests/liberating_structures.jpg"
   linkedin: "https://linkedin.com/in/liberating-structures"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -766,7 +766,7 @@
 "Aydin Mir Mohammadi":
   name: "Aydin Mir Mohammadi"
   episode_count: 1
-  avatar: "guests/aydin_mir_mohammadi.svg"
+  avatar: "guests/aydin_mir_mohammadi.jpg"
   linkedin: "https://linkedin.com/in/aydin-mir-mohammadi"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -779,7 +779,7 @@
 "Cosima Laube":
   name: "Cosima Laube"
   episode_count: 1
-  avatar: "guests/cosima_laube.svg"
+  avatar: "guests/cosima_laube.jpg"
   linkedin: "https://linkedin.com/in/cosima-laube"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -792,7 +792,7 @@
 "Bernd Rücker":
   name: "Bernd Rücker"
   episode_count: 1
-  avatar: "guests/bernd_ruecker.svg"
+  avatar: "guests/bernd_ruecker.jpg"
   linkedin: "https://linkedin.com/in/bernd-ruecker"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -805,7 +805,7 @@
 "Christian Weyer":
   name: "Christian Weyer"
   episode_count: 1
-  avatar: "guests/christian_weyer.svg"
+  avatar: "guests/christian_weyer.jpg"
   linkedin: "https://linkedin.com/in/christian-weyer"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -818,7 +818,7 @@
 "Richard Gross":
   name: "Richard Gross"
   episode_count: 1
-  avatar: "guests/richard_gross.svg"
+  avatar: "guests/richard_gross.jpg"
   linkedin: "https://linkedin.com/in/richard-gross"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -831,7 +831,7 @@
 "Dirk Riehle":
   name: "Dirk Riehle"
   episode_count: 1
-  avatar: "guests/dirk_riehle.svg"
+  avatar: "guests/dirk_riehle.jpg"
   linkedin: "https://linkedin.com/in/dirk-riehle"
   bio: "Gast der Software-Architektur.tv"
   episodes:
@@ -844,7 +844,7 @@
 "Eberhard Lisa":
   name: "Eberhard Lisa"
   episode_count: 1
-  avatar: "guests/eberhard_lisa.svg"
+  avatar: "guests/eberhard_lisa.jpg"
   linkedin: "https://linkedin.com/in/eberhard-lisa"
   bio: "Gast der Software-Architektur.tv"
   episodes:
