@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2025-08-15 Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität" mit Barbara Lampl und Ralf D. Müller
+## Nächste Episode: 2025-08-15 Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität mit Barbara Lampl und Ralf D. Müller
 
 Kimi 2, Grok 4, Windsurf, Meta's Manhattan-große KI-Rechenzentren – jeden Tag neue KI-Tools, Ankündigungen und Versprechen. Das Eichhörnchen im Kopf springt im Sekundentakt zwischen den Themen hin und her. Wie sollen Software-Architekten da noch den Überblick behalten und fundierte Entscheidungen treffen?
 
