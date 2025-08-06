@@ -15,8 +15,6 @@ Dieses Dokument definiert die Anforderungen für ein Guest-List Feature auf der 
 **WHEN** ein Gast auf der Guest-List Seite angezeigt wird,  
 **THEN** soll das System folgende Informationen darstellen:
 - Name des Gastes
-- Profilbild
-- Link zum LinkedIn-Profil
 - Tags aus den Stream-Episoden
 - Liste der Stream-Episoden mit Verlinkungen
 
@@ -44,11 +42,7 @@ Dieses Dokument definiert die Anforderungen für ein Guest-List Feature auf der 
 **WHEN** ein Zuschauer die Reihenfolge der Gäste ändern möchte,  
 **THEN** soll das System Sortieroptionen anbieten (z.B. alphabetisch, nach Anzahl Auftritte).
 
-#### UI-04: Navigation zu LinkedIn
-**WHEN** ein Zuschauer auf den LinkedIn-Link eines Gastes klickt,  
-**THEN** soll das System den LinkedIn-Profil des Gastes in einem neuen Tab öffnen.
-
-#### UI-05: Navigation zu Stream-Episoden
+#### UI-04: Navigation zu Stream-Episoden
 **WHEN** ein Zuschauer auf eine verlinkte Stream-Episode klickt,  
 **THEN** soll das System zur entsprechenden Episode-Seite navigieren.
 
@@ -58,11 +52,6 @@ Dieses Dokument definiert die Anforderungen für ein Guest-List Feature auf der 
 **WHEN** ein Zuschauer die Guest-List Seite aufruft,  
 **THEN** soll das System die Seite innerhalb von 3 Sekunden laden,  
 **SO THAT** eine gute Benutzererfahrung gewährleistet ist.
-
-#### PE-02: Bildoptimierung
-**WHEN** Profilbilder geladen werden,  
-**THEN** soll das System optimierte Bildgrößen verwenden,  
-**SO THAT** die Ladezeiten minimiert werden.
 
 ### Kompatibilität
 
@@ -87,13 +76,6 @@ Dieses Dokument definiert die Anforderungen für ein Guest-List Feature auf der 
 **THEN** soll das System automatisch die Guest-List Seite neu generieren,  
 **SO THAT** Änderungen sofort sichtbar werden.
 
-### Sicherheit
-
-#### SE-01: Externe Links
-**WHEN** ein Zuschauer auf externe Links (LinkedIn) klickt,  
-**THEN** soll das System die Links mit `rel="noopener noreferrer"` kennzeichnen,  
-**SO THAT** Sicherheitsrisiken minimiert werden.
-
 ### Usability
 
 #### US-01: Visuelle Konsistenz
@@ -112,8 +94,7 @@ Dieses Dokument definiert die Anforderungen für ein Guest-List Feature auf der 
 ```yaml
 guests:
   - name: "Max Mustermann"
-    linkedin: "https://www.linkedin.com/in/maxmustermann"
-    image: "/images/guests/max-mustermann.jpg"
+    bio: "Software-Entwicklung und -Architektur Experte"
     tags: ["Microservices", "Kubernetes", "DevOps"]
     episodes:
       - title: "Folge 042: Microservices in der Praxis"
@@ -127,7 +108,7 @@ guests:
 ## Akzeptanzkriterien
 
 1. Die Guest-List Seite ist über die Hauptnavigation erreichbar
-2. Alle Gäste werden mit Profilbild, Name und LinkedIn-Link angezeigt
+2. Alle Gäste werden mit Name und Bio angezeigt
 3. Filter- und Sortierfunktionen funktionieren korrekt
 4. Die Seite ist responsive und in allen unterstützten Browsern funktionsfähig
 5. YAML-Datei kann einfach gepflegt werden

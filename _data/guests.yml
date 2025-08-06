@@ -8,7 +8,7 @@ guests:
 
   # Adam Tornhill - 1 Episode
   - name: "Adam Tornhill"
-    linkedin: "https://www.linkedin.com/in/adam-tornhill/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -19,7 +19,7 @@ guests:
         role: "guest"
   # Aino Vonge Corry - 1 Episode
   - name: "Aino Vonge Corry"
-    linkedin: "https://www.linkedin.com/in/aino-vonge-corry/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -30,7 +30,7 @@ guests:
         role: "guest"
   # Alberto Brandolini - 1 Episode
   - name: "Alberto Brandolini"
-    linkedin: "https://www.linkedin.com/in/alberto-brandolini/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -41,7 +41,7 @@ guests:
         role: "guest"
   # Alexander von Zitzewitz - 1 Episode
   - name: "Alexander von Zitzewitz"
-    linkedin: "https://www.linkedin.com/in/alexander-von-zitzewitz/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -52,7 +52,7 @@ guests:
         role: "guest"
   # Aminata Sidibe - 2 Episoden
   - name: "Aminata Sidibe"
-    linkedin: "https://www.linkedin.com/in/aminata-sidibe/"
+    
 
     bio: "Diversity & Inclusion Experte/Expertin"
     tags: ['Software Architecture', 'Diversity', 'Inclusion']
@@ -67,7 +67,7 @@ guests:
         role: "guest"
   # Ana Nad - 1 Episode
   - name: "Ana Nad"
-    linkedin: "https://www.linkedin.com/in/ana-nad/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -78,7 +78,7 @@ guests:
         role: "guest"
   # Anja Kammer - 2 Episoden
   - name: "Anja Kammer"
-    linkedin: "https://www.linkedin.com/in/anja-kammer/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['DevOps', 'Team Topologies']
@@ -93,7 +93,7 @@ guests:
         role: "guest"
   # Avraham Poupko - 1 Episode
   - name: "Avraham Poupko"
-    linkedin: "https://www.linkedin.com/in/avraham-poupko/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -104,7 +104,7 @@ guests:
         role: "guest"
   # Aydin Mir Mohammadi - 1 Episode
   - name: "Aydin Mir Mohammadi"
-    linkedin: "https://www.linkedin.com/in/aydin-mir-mohammadi/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -115,7 +115,7 @@ guests:
         role: "guest"
   # Bernd Rücker - 1 Episode
   - name: "Bernd Rücker"
-    linkedin: "https://www.linkedin.com/in/bernd-ruecker/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -126,7 +126,7 @@ guests:
         role: "guest"
   # Chris Chedgey - 1 Episode
   - name: "Chris Chedgey"
-    linkedin: "https://www.linkedin.com/in/chris-chedgey/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -137,7 +137,7 @@ guests:
         role: "guest"
   # Chris Richardson - 1 Episode
   - name: "Chris Richardson"
-    linkedin: "https://www.linkedin.com/in/chris-richardson/"
+    
 
     bio: "Microservices Architektur Experte/Expertin"
     tags: ['Microservices', 'International Speaker']
@@ -148,7 +148,7 @@ guests:
         role: "guest"
   # Christian Weyer - 1 Episode
   - name: "Christian Weyer"
-    linkedin: "https://www.linkedin.com/in/christian-weyer/"
+    
 
     bio: "KI und Software-Architektur Experte/Expertin"
     tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
@@ -159,7 +159,7 @@ guests:
         role: "guest"
   # Christoph Iserlohn - 3 Episoden
   - name: "Christoph Iserlohn"
-    linkedin: "https://www.linkedin.com/in/christoph-iserlohn/"
+    
 
     bio: "Security und Cybersecurity Experte/Expertin"
     tags: ['Security', 'OWASP', 'Cybersecurity', 'Software Architecture']
@@ -178,7 +178,7 @@ guests:
         role: "guest"
   # Claude - 1 Episode
   - name: "Claude"
-    linkedin: "https://www.linkedin.com/in/claude/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -189,7 +189,7 @@ guests:
         role: "guest"
   # Cosima Laube - 3 Episoden
   - name: "Cosima Laube"
-    linkedin: "https://www.linkedin.com/in/cosima-laube/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Coaching', 'Leadership', 'International Speaker']
@@ -208,7 +208,7 @@ guests:
         role: "guest"
   # Dajana Günther - 1 Episode
   - name: "Dajana Günther"
-    linkedin: "https://www.linkedin.com/in/dajana-guenther/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -219,7 +219,7 @@ guests:
         role: "guest"
   # Daniel Terhorst-North - 1 Episode
   - name: "Daniel Terhorst-North"
-    linkedin: "https://www.linkedin.com/in/daniel-terhorstnorth/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -230,7 +230,7 @@ guests:
         role: "guest"
   # Danilo Beuche - 1 Episode
   - name: "Danilo Beuche"
-    linkedin: "https://www.linkedin.com/in/danilo-beuche/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -241,7 +241,7 @@ guests:
         role: "guest"
   # Dehla Sokenou - 1 Episode
   - name: "Dehla Sokenou"
-    linkedin: "https://www.linkedin.com/in/dehla-sokenou/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -252,7 +252,7 @@ guests:
         role: "guest"
   # Diana Montalion - 2 Episoden
   - name: "Diana Montalion"
-    linkedin: "https://www.linkedin.com/in/diana-montalion/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -267,7 +267,7 @@ guests:
         role: "guest"
   # Dirk Mahler - 1 Episode
   - name: "Dirk Mahler"
-    linkedin: "https://www.linkedin.com/in/dirk-mahler/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -278,7 +278,7 @@ guests:
         role: "guest"
   # Dr. Julia Freudenberg - 1 Episode
   - name: "Dr. Julia Freudenberg"
-    linkedin: "https://www.linkedin.com/in/julia-freudenberg/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -289,7 +289,7 @@ guests:
         role: "guest"
   # Dr. Miriam Greis - 1 Episode
   - name: "Dr. Miriam Greis"
-    linkedin: "https://www.linkedin.com/in/miriam-greis/"
+    
 
     bio: "API Design und Architektur Experte/Expertin"
     tags: ['API Design']
@@ -300,7 +300,7 @@ guests:
         role: "guest"
   # Erik Wilde - 1 Episode
   - name: "Erik Wilde"
-    linkedin: "https://www.linkedin.com/in/erik-wilde/"
+    
 
     bio: "API Design und Architektur Experte/Expertin"
     tags: ['API Design']
@@ -311,7 +311,7 @@ guests:
         role: "guest"
   # Evelyn Van Kelle - 1 Episode
   - name: "Evelyn Van Kelle"
-    linkedin: "https://www.linkedin.com/in/evelyn-van-kelle/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -322,7 +322,7 @@ guests:
         role: "guest"
   # Falk Hoppe - 1 Episode
   - name: "Falk Hoppe"
-    linkedin: "https://www.linkedin.com/in/falk-hoppe/"
+    
 
     bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development']
@@ -333,7 +333,7 @@ guests:
         role: "guest"
   # Falk Sippach - 2 Episoden
   - name: "Falk Sippach"
-    linkedin: "https://www.linkedin.com/in/falk-sippach/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture', 'Documentation']
@@ -348,7 +348,7 @@ guests:
         role: "guest"
   # Felienne Hermans - 1 Episode
   - name: "Felienne Hermans"
-    linkedin: "https://www.linkedin.com/in/felienne-hermans/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -359,7 +359,7 @@ guests:
         role: "guest"
   # Felix Müller - 1 Episode
   - name: "Felix Müller"
-    linkedin: "https://www.linkedin.com/in/felix-mueller/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -370,7 +370,7 @@ guests:
         role: "guest"
   # Franziska Dessart - 4 Episoden
   - name: "Franziska Dessart"
-    linkedin: "https://www.linkedin.com/in/franziska-dessart/"
+    
 
     bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development', 'Software Architecture']
@@ -393,7 +393,7 @@ guests:
         role: "guest"
   # Friederike Sternberg - 1 Episode
   - name: "Friederike Sternberg"
-    linkedin: "https://www.linkedin.com/in/friederike-sternberg/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -404,7 +404,7 @@ guests:
         role: "guest"
   # Gerrit Beine - 1 Episode
   - name: "Gerrit Beine"
-    linkedin: "https://www.linkedin.com/in/gerrit-beine/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -415,7 +415,7 @@ guests:
         role: "guest"
   # Gien Verschatse - 1 Episode
   - name: "Gien Verschatse"
-    linkedin: "https://www.linkedin.com/in/gien-verschatse/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -426,7 +426,7 @@ guests:
         role: "guest"
   # Grady Booch - 1 Episode
   - name: "Grady Booch"
-    linkedin: "https://www.linkedin.com/in/grady-booch/"
+    
 
     bio: "KI und Software-Architektur Experte/Expertin"
     tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT', 'International Speaker']
@@ -437,7 +437,7 @@ guests:
         role: "guest"
   # Hanna Prinz - 1 Episode
   - name: "Hanna Prinz"
-    linkedin: "https://www.linkedin.com/in/hanna-prinz/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -448,7 +448,7 @@ guests:
         role: "guest"
   # Henning Schwentner - 2 Episoden
   - name: "Henning Schwentner"
-    linkedin: "https://www.linkedin.com/in/henning-schwentner/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
@@ -463,7 +463,7 @@ guests:
         role: "guest"
   # Hillel Wayne - 2 Episoden
   - name: "Hillel Wayne"
-    linkedin: "https://www.linkedin.com/in/hillel-wayne/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -478,7 +478,7 @@ guests:
         role: "guest"
   # Jacqui Read - 1 Episode
   - name: "Jacqui Read"
-    linkedin: "https://www.linkedin.com/in/jacqui-read/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -489,7 +489,7 @@ guests:
         role: "guest"
   # James Lewis - 1 Episode
   - name: "James Lewis"
-    linkedin: "https://www.linkedin.com/in/james-lewis/"
+    
 
     bio: "Microservices Architektur Experte/Expertin"
     tags: ['Software Architecture', 'Microservices', 'International Speaker']
@@ -500,7 +500,7 @@ guests:
         role: "guest"
   # Jochen Christ - 2 Episoden
   - name: "Jochen Christ"
-    linkedin: "https://www.linkedin.com/in/jochen-christ/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -515,7 +515,7 @@ guests:
         role: "guest"
   # Jochen Mader - 1 Episode
   - name: "Jochen Mader"
-    linkedin: "https://www.linkedin.com/in/jochen-mader/"
+    
 
     bio: "Security und Cybersecurity Experte/Expertin"
     tags: ['Security', 'OWASP', 'Cybersecurity']
@@ -526,7 +526,7 @@ guests:
         role: "guest"
   # Johannes Link - 1 Episode
   - name: "Johannes Link"
-    linkedin: "https://www.linkedin.com/in/johannes-link/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Coaching', 'Leadership']
@@ -537,7 +537,7 @@ guests:
         role: "guest"
   # Johannes Mainusch - 1 Episode
   - name: "Johannes Mainusch"
-    linkedin: "https://www.linkedin.com/in/johannes-mainusch/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -548,7 +548,7 @@ guests:
         role: "guest"
   # Johannes Seitz - 1 Episode
   - name: "Johannes Seitz"
-    linkedin: "https://www.linkedin.com/in/johannes-seitz/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -559,7 +559,7 @@ guests:
         role: "guest"
   # Joseph Pelrine - 1 Episode
   - name: "Joseph Pelrine"
-    linkedin: "https://www.linkedin.com/in/joseph-pelrine/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -570,7 +570,7 @@ guests:
         role: "guest"
   # Joy Heron - 3 Episoden
   - name: "Joy Heron"
-    linkedin: "https://www.linkedin.com/in/joy-heron/"
+    
 
     bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development', 'Software Architecture']
@@ -589,7 +589,7 @@ guests:
         role: "guest"
   # Jutta Eckstein - 1 Episode
   - name: "Jutta Eckstein"
-    linkedin: "https://www.linkedin.com/in/jutta-eckstein/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -600,7 +600,7 @@ guests:
         role: "guest"
   # Jörg Müller - 1 Episode
   - name: "Jörg Müller"
-    linkedin: "https://www.linkedin.com/in/joerg-mueller/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -611,7 +611,7 @@ guests:
         role: "guest"
   # Kenny Baas-Schwegler - 2 Episoden
   - name: "Kenny Baas-Schwegler"
-    linkedin: "https://www.linkedin.com/in/kenny-baasschwegler/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -626,7 +626,7 @@ guests:
         role: "guest"
   # Kevin Goldsmith - 1 Episode
   - name: "Kevin Goldsmith"
-    linkedin: "https://www.linkedin.com/in/kevin-goldsmith/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -637,7 +637,7 @@ guests:
         role: "guest"
   # Kevlin Henney - 1 Episode
   - name: "Kevlin Henney"
-    linkedin: "https://www.linkedin.com/in/kevlin-henney/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -648,7 +648,7 @@ guests:
         role: "guest"
   # Kim Nena Duggen - 1 Episode
   - name: "Kim Nena Duggen"
-    linkedin: "https://www.linkedin.com/in/kim-nena-duggen/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['DevOps', 'Team Topologies']
@@ -659,7 +659,7 @@ guests:
         role: "guest"
   # Lars Hupel - 1 Episode
   - name: "Lars Hupel"
-    linkedin: "https://www.linkedin.com/in/lars-hupel/"
+    
 
     bio: "Diversity & Inclusion Experte/Expertin"
     tags: ['Diversity', 'Inclusion']
@@ -670,7 +670,7 @@ guests:
         role: "guest"
   # Laurent Bossavit - 1 Episode
   - name: "Laurent Bossavit"
-    linkedin: "https://www.linkedin.com/in/laurent-bossavit/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -681,7 +681,7 @@ guests:
         role: "guest"
   # Lejla Vulovic - 1 Episode
   - name: "Lejla Vulovic"
-    linkedin: "https://www.linkedin.com/in/lejla-vulovic/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -692,7 +692,7 @@ guests:
         role: "guest"
   # Lena Kraaz - 1 Episode
   - name: "Lena Kraaz"
-    linkedin: "https://www.linkedin.com/in/lena-kraaz/"
+    
 
     bio: "Diversity & Inclusion Experte/Expertin"
     tags: ['Diversity', 'Inclusion']
@@ -703,7 +703,7 @@ guests:
         role: "guest"
   # Linda Rising - 1 Episode
   - name: "Linda Rising"
-    linkedin: "https://www.linkedin.com/in/linda-rising/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -714,7 +714,7 @@ guests:
         role: "guest"
   # Lucas Dohmen - 5 Episoden
   - name: "Lucas Dohmen"
-    linkedin: "https://www.linkedin.com/in/lucas-dohmen/"
+    
 
     bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development', 'Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
@@ -741,7 +741,7 @@ guests:
         role: "guest"
   # Manfred Steyer - 1 Episode
   - name: "Manfred Steyer"
-    linkedin: "https://www.linkedin.com/in/manfred-steyer/"
+    
 
     bio: "Frontend-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Frontend', 'Web Development']
@@ -752,7 +752,7 @@ guests:
         role: "guest"
   # Marco Emrich - 3 Episoden
   - name: "Marco Emrich"
-    linkedin: "https://www.linkedin.com/in/marco-emrich/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -771,7 +771,7 @@ guests:
         role: "guest"
   # Marina Köhn - 1 Episode
   - name: "Marina Köhn"
-    linkedin: "https://www.linkedin.com/in/marina-koehn/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -782,7 +782,7 @@ guests:
         role: "guest"
   # Markus Völter - 2 Episoden
   - name: "Markus Völter"
-    linkedin: "https://www.linkedin.com/in/markus-voelter/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
@@ -797,7 +797,7 @@ guests:
         role: "guest"
   # Martin Günther - 1 Episode
   - name: "Martin Günther"
-    linkedin: "https://www.linkedin.com/in/martin-guenther/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -808,7 +808,7 @@ guests:
         role: "guest"
   # Martin Huber - 1 Episode
   - name: "Martin Huber"
-    linkedin: "https://www.linkedin.com/in/martin-huber/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -819,7 +819,7 @@ guests:
         role: "guest"
   # Martin Lippert - 2 Episoden
   - name: "Martin Lippert"
-    linkedin: "https://www.linkedin.com/in/martin-lippert/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
@@ -834,7 +834,7 @@ guests:
         role: "guest"
   # Max Schulze - 1 Episode
   - name: "Max Schulze"
-    linkedin: "https://www.linkedin.com/in/max-schulze/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -845,7 +845,7 @@ guests:
         role: "guest"
   # Melanie Schäfer - 1 Episode
   - name: "Melanie Schäfer"
-    linkedin: "https://www.linkedin.com/in/melanie-schaefer/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -856,7 +856,7 @@ guests:
         role: "guest"
   # Michael Ahrens - 1 Episode
   - name: "Michael Ahrens"
-    linkedin: "https://www.linkedin.com/in/michael-ahrens/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -867,7 +867,7 @@ guests:
         role: "guest"
   # Michael Hunger - 1 Episode
   - name: "Michael Hunger"
-    linkedin: "https://www.linkedin.com/in/michael-hunger/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -878,7 +878,7 @@ guests:
         role: "guest"
   # Michael Mahlberg - 1 Episode
   - name: "Michael Mahlberg"
-    linkedin: "https://www.linkedin.com/in/michael-mahlberg/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -889,7 +889,7 @@ guests:
         role: "guest"
   # Michael Plöd - 1 Episode
   - name: "Michael Plöd"
-    linkedin: "https://www.linkedin.com/in/michael-ploed/"
+    
 
     bio: "Testing und Quality Assurance Experte/Expertin"
     tags: ['Testing', 'Quality Assurance']
@@ -900,7 +900,7 @@ guests:
         role: "guest"
   # Michael Vitz - 1 Episode
   - name: "Michael Vitz"
-    linkedin: "https://www.linkedin.com/in/michael-vitz/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -911,7 +911,7 @@ guests:
         role: "guest"
   # Michaela Kühn - 1 Episode
   - name: "Michaela Kühn"
-    linkedin: "https://www.linkedin.com/in/michaela-kuehn/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -922,7 +922,7 @@ guests:
         role: "guest"
   # Mike Sperber - 2 Episoden
   - name: "Mike Sperber"
-    linkedin: "https://www.linkedin.com/in/mike-sperber/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
@@ -937,7 +937,7 @@ guests:
         role: "guest"
   # Mike Swainston-Rainford - 1 Episode
   - name: "Mike Swainston-Rainford"
-    linkedin: "https://www.linkedin.com/in/mike-swainstonrainford/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -948,7 +948,7 @@ guests:
         role: "guest"
   # Nadine Andraczek - 1 Episode
   - name: "Nadine Andraczek"
-    linkedin: "https://www.linkedin.com/in/nadine-andraczek/"
+    
 
     bio: "Agile Coach und Prozessberatung"
     tags: ['Agile', 'Scrum']
@@ -959,7 +959,7 @@ guests:
         role: "guest"
   # Nick Tune - 2 Episoden
   - name: "Nick Tune"
-    linkedin: "https://www.linkedin.com/in/nick-tune/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture', 'International Speaker']
@@ -974,7 +974,7 @@ guests:
         role: "guest"
   # Nora Schöner - 1 Episode
   - name: "Nora Schöner"
-    linkedin: "https://www.linkedin.com/in/nora-schoener/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Java', 'Spring']
@@ -985,7 +985,7 @@ guests:
         role: "guest"
   # Oliver Drotbohm - 1 Episode
   - name: "Oliver Drotbohm"
-    linkedin: "https://www.linkedin.com/in/oliver-drotbohm/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD', 'Java', 'Spring']
@@ -996,7 +996,7 @@ guests:
         role: "guest"
   # Oliver Wehrens - 1 Episode
   - name: "Oliver Wehrens"
-    linkedin: "https://www.linkedin.com/in/oliver-wehrens/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1007,7 +1007,7 @@ guests:
         role: "guest"
   # Patrick Kua - 1 Episode
   - name: "Patrick Kua"
-    linkedin: "https://www.linkedin.com/in/patrick-kua/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -1018,7 +1018,7 @@ guests:
         role: "guest"
   # Prof. Dirk Riehle - 2 Episoden
   - name: "Prof. Dirk Riehle"
-    linkedin: "https://www.linkedin.com/in/dirk-riehle/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1033,7 +1033,7 @@ guests:
         role: "guest"
   # Rakia Ben Sassi - 1 Episode
   - name: "Rakia Ben Sassi"
-    linkedin: "https://www.linkedin.com/in/rakia-ben-sassi/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -1044,7 +1044,7 @@ guests:
         role: "guest"
   # Rebecca Parsons - 1 Episode
   - name: "Rebecca Parsons"
-    linkedin: "https://www.linkedin.com/in/rebecca-parsons/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'International Speaker']
@@ -1055,7 +1055,7 @@ guests:
         role: "guest"
   # Rebecca Temme - 1 Episode
   - name: "Rebecca Temme"
-    linkedin: "https://www.linkedin.com/in/rebecca-temme/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1066,7 +1066,7 @@ guests:
         role: "guest"
   # Richard Gross - 1 Episode
   - name: "Richard Gross"
-    linkedin: "https://www.linkedin.com/in/richard-gross/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1077,7 +1077,7 @@ guests:
         role: "guest"
   # Rik Marselis - 1 Episode
   - name: "Rik Marselis"
-    linkedin: "https://www.linkedin.com/in/rik-marselis/"
+    
 
     bio: "Testing und Quality Assurance Experte/Expertin"
     tags: ['Testing', 'Quality Assurance', 'International Speaker']
@@ -1088,7 +1088,7 @@ guests:
         role: "guest"
   # Robert Albrecht - 1 Episode
   - name: "Robert Albrecht"
-    linkedin: "https://www.linkedin.com/in/robert-albrecht/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -1099,7 +1099,7 @@ guests:
         role: "guest"
   # Samir Talwar - 1 Episode
   - name: "Samir Talwar"
-    linkedin: "https://www.linkedin.com/in/samir-talwar/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -1110,7 +1110,7 @@ guests:
         role: "guest"
   # Sascha Möllering - 1 Episode
   - name: "Sascha Möllering"
-    linkedin: "https://www.linkedin.com/in/sascha-moellering/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture', 'Cloud Computing']
@@ -1121,7 +1121,7 @@ guests:
         role: "guest"
   # Scott Ambler - 1 Episode
   - name: "Scott Ambler"
-    linkedin: "https://www.linkedin.com/in/scott-ambler/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -1132,7 +1132,7 @@ guests:
         role: "guest"
   # Simon Brown - 1 Episode
   - name: "Simon Brown"
-    linkedin: "https://www.linkedin.com/in/simon-brown/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['Software Architecture', 'C4 Model', 'International Speaker']
@@ -1143,7 +1143,7 @@ guests:
         role: "guest"
   # Simon Harrer - 1 Episode
   - name: "Simon Harrer"
-    linkedin: "https://www.linkedin.com/in/simon-harrer/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1154,7 +1154,7 @@ guests:
         role: "guest"
   # Sofia Katsaouni - 1 Episode
   - name: "Sofia Katsaouni"
-    linkedin: "https://www.linkedin.com/in/sofia-katsaouni/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -1165,7 +1165,7 @@ guests:
         role: "guest"
   # Stefan Hofer - 1 Episode
   - name: "Stefan Hofer"
-    linkedin: "https://www.linkedin.com/in/stefan-hofer/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD']
@@ -1176,7 +1176,7 @@ guests:
         role: "guest"
   # Stefan Roock - 1 Episode
   - name: "Stefan Roock"
-    linkedin: "https://www.linkedin.com/in/stefan-roock/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -1187,7 +1187,7 @@ guests:
         role: "guest"
   # Stefan Tilkov - 2 Episoden
   - name: "Stefan Tilkov"
-    linkedin: "https://www.linkedin.com/in/stefan-tilkov/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -1202,7 +1202,7 @@ guests:
         role: "guest"
   # Stefan Toth - 3 Episoden
   - name: "Stefan Toth"
-    linkedin: "https://www.linkedin.com/in/stefan-toth/"
+    
 
     bio: "Microservices Architektur Experte/Expertin"
     tags: ['Software Architecture', 'Microservices']
@@ -1221,7 +1221,7 @@ guests:
         role: "guest"
   # Stefan Zörner - 2 Episoden
   - name: "Stefan Zörner"
-    linkedin: "https://www.linkedin.com/in/stefan-zoerner/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Architecture']
@@ -1236,7 +1236,7 @@ guests:
         role: "guest"
   # Sönke Marahrens - 1 Episode
   - name: "Sönke Marahrens"
-    linkedin: "https://www.linkedin.com/in/soenke-marahrens/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1247,7 +1247,7 @@ guests:
         role: "guest"
   # Tanja Friedel - 2 Episoden
   - name: "Tanja Friedel"
-    linkedin: "https://www.linkedin.com/in/tanja-friedel/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1262,7 +1262,7 @@ guests:
         role: "guest"
   # Tobias Goeschel - 1 Episode
   - name: "Tobias Goeschel"
-    linkedin: "https://www.linkedin.com/in/tobias-goeschel/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD']
@@ -1273,7 +1273,7 @@ guests:
         role: "guest"
   # Uwe Vigenschow - 1 Episode
   - name: "Uwe Vigenschow"
-    linkedin: "https://www.linkedin.com/in/uwe-vigenschow/"
+    
 
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
@@ -1284,7 +1284,7 @@ guests:
         role: "guest"
   # Vaughn Vernon - 1 Episode
   - name: "Vaughn Vernon"
-    linkedin: "https://www.linkedin.com/in/vaughn-vernon/"
+    
 
     bio: "Domain-driven Design Experte/Expertin"
     tags: ['Domain-driven Design', 'DDD', 'International Speaker']
@@ -1295,7 +1295,7 @@ guests:
         role: "guest"
   # Woody Zuill - 1 Episode
   - name: "Woody Zuill"
-    linkedin: "https://www.linkedin.com/in/woody-zuill/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -1306,7 +1306,7 @@ guests:
         role: "guest"
   # Xin Yao - 1 Episode
   - name: "Xin Yao"
-    linkedin: "https://www.linkedin.com/in/xin-yao/"
+    
 
     bio: "International Software Architecture Expert"
     tags: ['International Speaker']
@@ -1322,7 +1322,7 @@ moderators:
 
   # Eberhard Wolff - Hauptmoderator
   - name: "Eberhard Wolff"
-    linkedin: "https://www.linkedin.com/in/eberhard-wolff/"
+    
 
     bio: "INNOQ Fellow, Hauptmoderator von software-architektur.tv seit Beginn, Microservices und Software-Architektur Experte"
     role: "Hauptmoderator"
@@ -1343,7 +1343,7 @@ moderators:
         role: "moderator"
   # Lisa Schäfer - Co-Moderatorin und Gast
   - name: "Lisa Schäfer"
-    linkedin: "https://www.linkedin.com/in/lisa-schaefer/"
+    
 
     bio: "INNOQ Principal Consultant, häufige Co-Moderatorin bei OOP-Specials und JavaLand-Eindrücken"
     role: "Co-Moderatorin und Gast"
@@ -1387,7 +1387,7 @@ moderators:
         role: "co-moderator"
   # Ralf D. Müller - Co-Moderator und Gast
   - name: "Ralf D. Müller"
-    linkedin: "https://www.linkedin.com/in/ralf-d-mueller/"
+    
 
     bio: "docToolchain Maintainer, AI/ChatGPT Experte, häufiger Co-Moderator bei KI-Themen"
     role: "Co-Moderator und Gast"
