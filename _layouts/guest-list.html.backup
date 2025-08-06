@@ -3,6 +3,30 @@ layout: default
 ---
 
 <div class="guest-list-container">
+  <!-- Page Header -->
+  <header class="guest-list-header">
+    <h1>{{ page.title | default: "Gäste & Moderatoren von Software-Architektur.tv" }}</h1>
+    {% if page.description %}
+      <p class="guest-list-description">{{ page.description }}</p>
+    {% endif %}
+    <div class="stats-overview">
+      <div class="stat-item">
+        <span class="stat-number">{{ site.data.guests.guests.size }}</span>
+        <span class="stat-label">Gäste</span>
+      </div>
+      {% if site.data.guests.moderators %}
+      <div class="stat-item">
+        <span class="stat-number">{{ site.data.guests.moderators.size }}</span>
+        <span class="stat-label">Moderatoren</span>
+      </div>
+      {% endif %}
+      <div class="stat-item">
+        <span class="stat-number">271</span>
+        <span class="stat-label">Episoden</span>
+      </div>
+    </div>
+  </header>
+
   <!-- Filter and Search Controls -->
   <div class="guest-controls">
     <div class="search-container">
@@ -14,6 +38,14 @@ layout: default
       <select id="tag-filter" class="filter-select">
         <option value="">Alle Tags</option>
         <!-- Tags werden dynamisch gefüllt -->
+      </select>
+    </div>
+    
+    <div class="filter-container">
+      <select id="type-filter" class="filter-select">
+        <option value="">Alle Personen</option>
+        <option value="guest">Nur Gäste</option>
+        <option value="moderator">Nur Moderatoren</option>
       </select>
     </div>
     
@@ -30,10 +62,11 @@ layout: default
     </div>
   </div>
 
-  <!-- All Persons Section (Guests + Moderators) -->
-  <section class="guests-section">
-    <div class="guest-grid" id="guest-grid">
-      <!-- Moderators first -->
+  <!-- Moderators Section -->
+  {% if site.data.guests.moderators %}
+  <section class="moderators-section">
+    <h2>Moderatoren & Co-Hosts</h2>
+    <div class="moderator-grid">
       {% for moderator in site.data.guests.moderators %}
         <article class="guest-card moderator-card" 
                  data-name="{{ moderator.name | downcase }}"
@@ -42,7 +75,7 @@ layout: default
                  data-recent="{{ moderator.episodes.last.date }}"
                  data-type="moderator">
           
-          <!-- Avatar -->
+          <!-- Moderator Avatar -->
           <div class="guest-avatar">
             <div class="avatar-placeholder">
               <span class="avatar-initials">{{ moderator.name | split: ' ' | map: 'first' | join }}</span>
@@ -50,9 +83,11 @@ layout: default
             <div class="moderator-badge">🎙️</div>
           </div>
           
-          <!-- Info -->
+          <!-- Moderator Info -->
           <div class="guest-info">
             <h3 class="guest-name">{{ moderator.name }}</h3>
+            <p class="guest-role">{{ moderator.role }}</p>
+            <p class="guest-bio">{{ moderator.bio }}</p>
             
             <!-- Tags -->
             <div class="guest-tags">
@@ -73,65 +108,48 @@ layout: default
           
           <!-- Episodes List -->
           <div class="episodes-section">
-            {% assign total_episodes = moderator.episodes.size %}
-            {% if moderator.solo_episodes_count %}
-              {% assign total_episodes = moderator.solo_episodes_count | plus: moderator.episodes.size %}
-            {% endif %}
+            <button class="episodes-toggle" onclick="toggleEpisodes(this)">
+              <span class="toggle-text">Episoden anzeigen</span>
+              <span class="toggle-icon">▼</span>
+            </button>
             
-            {% if total_episodes <= 2 %}
-              <!-- Direct episode display for 1-2 episodes -->
-              <div class="episodes-list-direct">
-                {% if moderator.solo_episodes_count %}
-                  <div class="episode-item">
-                    <span class="episode-title">{{ moderator.solo_episodes_count }} Solo-Episoden</span>
-                  </div>
-                {% endif %}
-                {% for episode in moderator.episodes %}
-                  <div class="episode-item">
-                    <a href="{{ episode.url }}" class="episode-link">
-                      <span class="episode-title">{{ episode.title | truncate: 60 }}</span>
-                      <span class="episode-date">{{ episode.date | date: "%d.%m.%Y" }}</span>
-                    </a>
-                  </div>
-                {% endfor %}
-              </div>
-            {% else %}
-              <!-- Button for 3+ episodes -->
-              <button class="episodes-toggle" onclick="toggleEpisodes(this)">
-                <span class="toggle-text">Episoden anzeigen</span>
-                <span class="toggle-icon">▼</span>
-              </button>
+            <div class="episodes-list" style="display: none;">
+              {% if moderator.solo_episodes_count %}
+                <div class="episode-group">
+                  <h4>Als Hauptmoderator</h4>
+                  <p class="solo-episodes-note">{{ moderator.solo_episodes_count }} Solo-Episoden</p>
+                </div>
+              {% endif %}
               
-              <div class="episodes-list" style="display: none;">
-                {% if moderator.solo_episodes_count %}
-                  <div class="episode-group">
-                    <h4>Als Hauptmoderator</h4>
-                    <p class="solo-episodes-note">{{ moderator.solo_episodes_count }} Solo-Episoden</p>
-                  </div>
-                {% endif %}
-                
-                {% if moderator.episodes.size > 0 %}
-                  <div class="episode-group">
-                    <h4>Als Co-Moderator/Gast</h4>
-                    <div class="episode-list-scrollable {% if moderator.episodes.size > 5 %}scrollable{% endif %}">
-                      {% for episode in moderator.episodes %}
-                        <div class="episode-item">
-                          <a href="{{ episode.url }}" class="episode-link">
+              {% if moderator.episodes.size > 0 %}
+                <div class="episode-group">
+                  <h4>Als Co-Moderator/Gast</h4>
+                  <div class="episode-list-scrollable {% if moderator.episodes.size > 5 %}scrollable{% endif %}">
+                    {% for episode in moderator.episodes %}
+                      <div class="episode-item">
+                        <a href="{{ episode.url }}" class="episode-link">
+                          <div class="episode-header">
                             <span class="episode-title">{{ episode.title | truncate: 80 }}</span>
                             <span class="episode-date">{{ episode.date | date: "%d.%m.%Y" }}</span>
-                          </a>
-                        </div>
-                      {% endfor %}
-                    </div>
+                          </div>
+                        </a>
+                      </div>
+                    {% endfor %}
                   </div>
-                {% endif %}
-              </div>
-            {% endif %}
+                </div>
+              {% endif %}
+            </div>
           </div>
         </article>
       {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
-      <!-- Then regular guests -->
+  <!-- Guests Section -->
+  <section class="guests-section">
+    <h2>Gäste</h2>
+    <div class="guest-grid" id="guest-grid">
       {% for guest in site.data.guests.guests %}
         <article class="guest-card" 
                  data-name="{{ guest.name | downcase }}"
@@ -140,7 +158,7 @@ layout: default
                  data-recent="{{ guest.episodes.last.date }}"
                  data-type="guest">
           
-          <!-- Avatar -->
+          <!-- Guest Avatar -->
           <div class="guest-avatar">
             <div class="avatar-placeholder">
               <span class="avatar-initials">{{ guest.name | split: ' ' | map: 'first' | join }}</span>
@@ -150,9 +168,10 @@ layout: default
             {% endif %}
           </div>
           
-          <!-- Info -->
+          <!-- Guest Info -->
           <div class="guest-info">
             <h3 class="guest-name">{{ guest.name }}</h3>
+            <p class="guest-bio">{{ guest.bio }}</p>
             
             <!-- Tags -->
             <div class="guest-tags">
@@ -169,38 +188,25 @@ layout: default
           
           <!-- Episodes List -->
           <div class="episodes-section">
-            {% if guest.episodes.size <= 2 %}
-              <!-- Direct episode display for 1-2 episodes -->
-              <div class="episodes-list-direct">
+            <button class="episodes-toggle" onclick="toggleEpisodes(this)">
+              <span class="toggle-text">Episoden anzeigen</span>
+              <span class="toggle-icon">▼</span>
+            </button>
+            
+            <div class="episodes-list" style="display: none;">
+              <div class="episode-list-scrollable {% if guest.episodes.size > 5 %}scrollable{% endif %}">
                 {% for episode in guest.episodes %}
                   <div class="episode-item">
                     <a href="{{ episode.url }}" class="episode-link">
-                      <span class="episode-title">{{ episode.title | truncate: 60 }}</span>
-                      <span class="episode-date">{{ episode.date | date: "%d.%m.%Y" }}</span>
+                      <div class="episode-header">
+                        <span class="episode-title">{{ episode.title | truncate: 80 }}</span>
+                        <span class="episode-date">{{ episode.date | date: "%d.%m.%Y" }}</span>
+                      </div>
                     </a>
                   </div>
                 {% endfor %}
               </div>
-            {% else %}
-              <!-- Button for 3+ episodes -->
-              <button class="episodes-toggle" onclick="toggleEpisodes(this)">
-                <span class="toggle-text">Episoden anzeigen</span>
-                <span class="toggle-icon">▼</span>
-              </button>
-              
-              <div class="episodes-list" style="display: none;">
-                <div class="episode-list-scrollable {% if guest.episodes.size > 5 %}scrollable{% endif %}">
-                  {% for episode in guest.episodes %}
-                    <div class="episode-item">
-                      <a href="{{ episode.url }}" class="episode-link">
-                        <span class="episode-title">{{ episode.title | truncate: 80 }}</span>
-                        <span class="episode-date">{{ episode.date | date: "%d.%m.%Y" }}</span>
-                      </a>
-                    </div>
-                  {% endfor %}
-                </div>
-              </div>
-            {% endif %}
+            </div>
           </div>
         </article>
       {% endfor %}
@@ -213,6 +219,7 @@ layout: default
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('guest-search');
   const tagFilter = document.getElementById('tag-filter');
+  const typeFilter = document.getElementById('type-filter');
   const sortSelect = document.getElementById('guest-sort');
   const guestCards = document.querySelectorAll('.guest-card');
   const guestCount = document.getElementById('guest-count');
@@ -235,16 +242,19 @@ document.addEventListener('DOMContentLoaded', function() {
   function filterAndSort() {
     const searchTerm = searchInput.value.toLowerCase();
     const selectedTag = tagFilter.value.toLowerCase();
+    const selectedType = typeFilter.value;
     const sortBy = sortSelect.value;
     
     let visibleCards = Array.from(guestCards).filter(card => {
       const name = card.dataset.name;
       const tags = card.dataset.tags;
+      const type = card.dataset.type;
       
       const matchesSearch = name.includes(searchTerm);
       const matchesTag = !selectedTag || tags.includes(selectedTag);
+      const matchesType = !selectedType || type === selectedType;
       
-      return matchesSearch && matchesTag;
+      return matchesSearch && matchesTag && matchesType;
     });
     
     // Sort visible cards
@@ -265,9 +275,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Show and reorder visible cards
     const guestGrid = document.getElementById('guest-grid');
+    const moderatorGrid = document.querySelector('.moderator-grid');
+    
     visibleCards.forEach((card, index) => {
       card.style.display = '';
-      guestGrid.appendChild(card);
+      if (card.dataset.type === 'moderator' && moderatorGrid) {
+        moderatorGrid.appendChild(card);
+      } else if (card.dataset.type === 'guest' && guestGrid) {
+        guestGrid.appendChild(card);
+      }
     });
     
     // Update count
@@ -277,6 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Event listeners
   searchInput.addEventListener('input', filterAndSort);
   tagFilter.addEventListener('change', filterAndSort);
+  typeFilter.addEventListener('change', filterAndSort);
   sortSelect.addEventListener('change', filterAndSort);
   
   // Initial filter

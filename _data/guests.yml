@@ -757,11 +757,11 @@ guests:
     bio: "Software-Entwicklung und -Architektur Experte/Expertin"
     tags: ['Software Development']
     episodes:
-      - title: "Folge 225 - Code Aufräumen - Kent Beck's "Tidy First?" mit Marco Emrich 1/2"
+      - title: "Folge 225 - Code Aufräumen - Kent Beck's Tidy First? mit Marco Emrich 1/2"
         url: "/2024/07/26/"
         date: "2024-07-26"
         role: "guest"
-      - title: "Folge 226 - Theorie des Aufräumens - Kent Beck's "Tidy First?" mit Marco Emrich 2/2"
+      - title: "Folge 226 - Theorie des Aufräumens - Kent Beck's Tidy First? mit Marco Emrich 2/2"
         url: "/2024/08/02/"
         date: "2024-08-02"
         role: "guest"
