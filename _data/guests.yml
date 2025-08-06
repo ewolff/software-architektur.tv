@@ -11,7 +11,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Code Quality']
     episodes:
       - title: "Episode 168 - Hands-on Behavioral Code Analysis with Adam Tornhill"
         url: "/2023/06/07/folge168.html"
@@ -22,7 +22,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['AI']
     episodes:
       - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
         url: "/2021/02/11/folge47.html"
@@ -33,7 +33,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 215 - Alberto Brandolini - The Chasm Between Architecture and Business"
         url: "/2024/05/10/episode215.html"
@@ -70,7 +70,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Team Dynamics']
     episodes:
       - title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic"
         url: "/2025/04/04/episode259.html"
@@ -96,7 +96,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Team Dynamics']
     episodes:
       - title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
         url: "/2021/10/14/episode82.html"
@@ -129,7 +129,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['AI', 'Architecture Management', 'Software Architecture']
     episodes:
       - title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
         url: "/2021/06/04/episode61.html"
@@ -140,7 +140,7 @@ guests:
     
 
     bio: "Microservices Architektur Experte/Expertin"
-    tags: ['Microservices', 'International Speaker']
+    tags: ['Architecture Management', 'Microservices']
     episodes:
       - title: "Episode 79 - Microservices, Monoliths, Modularization with Chris Richardson"
         url: "/2021/10/04/episode79.html"
@@ -192,7 +192,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Coaching', 'Leadership', 'International Speaker']
+    tags: ['Coaching', 'Leadership', 'Software Architecture']
     episodes:
       - title: "Episode 83 - Cosima Laube about D.A.R.E. more, F.E.A.R. less and Journaling"
         url: "/2021/10/14/episode82.html"
@@ -211,7 +211,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Conference Speaking']
     episodes:
       - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
         url: "/2023/02/10/episode151.html"
@@ -222,7 +222,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Domain-Driven Design']
     episodes:
       - title: "Episode 100 - Daniel Terhorst-North - SOLID vs. CUPID"
         url: "/2022/01/27/episode100.html"
@@ -255,7 +255,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 137 - Non-linear Thinking with Diana Montalion"
         url: "/2022/10/07/folge137.html"
@@ -314,7 +314,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
         url: "/2022/01/31/episode103.html"
@@ -351,7 +351,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 81 - Felienne Hermans about How to Read Complex Code (Live from Software Architecture Gathering)"
         url: "/2021/10/13/epsiode80.html"
@@ -418,7 +418,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
         url: "/2022/01/31/episode103.html"
@@ -429,7 +429,7 @@ guests:
     
 
     bio: "KI und Software-Architektur Experte/Expertin"
-    tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT', 'International Speaker']
+    tags: ['AI', 'ChatGPT', 'Machine Learning', 'Software Architecture']
     episodes:
       - title: "Episode 47 - Grady Booch - AI Architecture and Systems - Live from OOP"
         url: "/2021/02/11/folge47.html"
@@ -466,7 +466,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 86 - Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?"
         url: "/2021/10/25/episode86.html"
@@ -481,7 +481,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Team Dynamics']
     episodes:
       - title: "Episode 254 - Communication Patterns with Jacqui Read"
         url: "/2025/03/14/folge254.html"
@@ -492,7 +492,7 @@ guests:
     
 
     bio: "Microservices Architektur Experte/Expertin"
-    tags: ['Software Architecture', 'Microservices', 'International Speaker']
+    tags: ['Microservices', 'Software Architecture']
     episodes:
       - title: "Episode 80 - Microservices, Inverse Conway Maneuver, and Flow with James Lewis - Live from Software Architecture Gathering"
         url: "/2021/10/13/epsiode80.html"
@@ -540,7 +540,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['AI']
     episodes:
       - title: "Episode 136 - Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht"
         url: "/2022/09/30/folge136.html"
@@ -603,7 +603,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Conference Speaking']
     episodes:
       - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
         url: "/2023/02/10/episode151.html"
@@ -614,7 +614,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Team Dynamics']
     episodes:
       - title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
         url: "/2021/10/14/episode82.html"
@@ -629,7 +629,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 185 - Kevin Goldsmith Architecture and Organization"
         url: "/2023/10/18/episode185.html"
@@ -640,7 +640,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['AI']
     episodes:
       - title: "Episode 78 - Kevlin Henney - Dealing with Uncertainty"
         url: "/2021/10/01/episode78.html"
@@ -673,7 +673,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 86 - Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?"
         url: "/2021/10/25/episode86.html"
@@ -684,7 +684,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Team Dynamics']
     episodes:
       - title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic"
         url: "/2025/04/04/episode259.html"
@@ -706,7 +706,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 49 - Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP"
         url: "/2021/02/11/folge47.html"
@@ -881,7 +881,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Conference Speaking']
     episodes:
       - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
         url: "/2023/02/10/episode151.html"
@@ -940,7 +940,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['AI', 'Architecture Management', 'Software Architecture']
     episodes:
       - title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
         url: "/2021/06/04/episode61.html"
@@ -962,7 +962,7 @@ guests:
     
 
     bio: "Domain-driven Design Experte/Expertin"
-    tags: ['Domain-driven Design', 'DDD', 'Software Architecture', 'International Speaker']
+    tags: ['AI', 'DDD', 'Domain-Driven Design', 'Domain-driven Design', 'Software Architecture']
     episodes:
       - title: "Folge 11 - Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design"
         url: "/2020/07/31/folge010.html"
@@ -1010,7 +1010,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 34 - Patrick Kua - Evolutionary Software Architecture"
         url: "/2021/01/08/folge34.html"
@@ -1047,7 +1047,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 77 - Rebecca Parsons about Evolutionary Architecture"
         url: "/2021/09/27/episode77.html"
@@ -1080,7 +1080,7 @@ guests:
     
 
     bio: "Testing und Quality Assurance Experte/Expertin"
-    tags: ['Testing', 'Quality Assurance', 'International Speaker']
+    tags: ['Code Quality', 'Quality Assurance', 'Testing']
     episodes:
       - title: "Episode 102 - Rik Marselis - Testing and Quality - Live from OOP"
         url: "/2022/01/31/episode103.html"
@@ -1091,7 +1091,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['AI']
     episodes:
       - title: "Episode 136 - Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht"
         url: "/2022/09/30/folge136.html"
@@ -1102,7 +1102,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 131 - Samir Talwar Longevity - live from SoCraTes Conference"
         url: "/2022/08/26/folge131.html"
@@ -1124,7 +1124,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 103 - Scott Ambler - Data Technical Debt - Live from OOP"
         url: "/2022/01/31/episode103.html"
@@ -1135,7 +1135,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['Software Architecture', 'C4 Model', 'International Speaker']
+    tags: ['C4 Model', 'Software Architecture']
     episodes:
       - title: "Episode 36 - Simon Brown - C4 Architecture Model and Structurizr"
         url: "/2021/01/22/folge36.html"
@@ -1157,7 +1157,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['AI']
     episodes:
       - title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni"
         url: "/2025/03/18/episode255.html"
@@ -1287,7 +1287,7 @@ guests:
     
 
     bio: "Domain-driven Design Experte/Expertin"
-    tags: ['Domain-driven Design', 'DDD', 'International Speaker']
+    tags: ['DDD', 'Domain-Driven Design', 'Domain-driven Design']
     episodes:
       - title: "Episode 218 - Vaughn Vernon about Ports and Adapters and DDD"
         url: "/2024/05/29/episode218.html"
@@ -1298,7 +1298,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 252 - Intro to Beyond Estimates with Woody Zuill"
         url: "/2025/02/24/episode252.html"
@@ -1309,7 +1309,7 @@ guests:
     
 
     bio: "International Software Architecture Expert"
-    tags: ['International Speaker']
+    tags: ['Software Architecture']
     episodes:
       - title: "Episode 169 - Systems Thinking in Large-Scale Modeling with Xin Yao - OOP Special"
         url: "/2023/06/16/folge169.html"
