@@ -22,6 +22,8 @@ Kimi 2, Grok 4, Windsurf, Meta's Manhattan-große KI-Rechenzentren – jeden Tag
 
 Eine Folge für alle, die sich manchmal fragen: "Passt das alles eigentlich noch zusammen?" – Spoiler: Ja, aber es ist komplexer als vielen lieb ist.
 
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
+
 [Add to Calendar](stream.ics)
 
 ## Live Stream
