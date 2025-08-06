@@ -14,7 +14,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 168 - Hands-on Behavioral Code Analysis with Adam Tornhill"
-        url: "/2023/06/07/"
+        url: "/2023/06/07/folge168.html"
         date: "2023-06-07"
         role: "guest"
   # Aino Vonge Corry - 1 Episode
@@ -25,7 +25,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
-        url: "/2021/02/11/"
+        url: "/2021/02/11/folge47.html"
         date: "2021-02-11"
         role: "guest"
   # Alberto Brandolini - 1 Episode
@@ -36,7 +36,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 215 - Alberto Brandolini - The Chasm Between Architecture and Business"
-        url: "/2024/05/10/"
+        url: "/2024/05/10/episode215.html"
         date: "2024-05-10"
         role: "guest"
   # Alexander von Zitzewitz - 1 Episode
@@ -47,7 +47,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 60 - Alexander von Zitzewitz zu Architektur-Management mit Sonargraph"
-        url: "/2021/05/28/"
+        url: "/2021/05/28/folge60.html"
         date: "2021-05-28"
         role: "guest"
   # Aminata Sidibe - 2 Episoden
@@ -58,11 +58,11 @@ guests:
     tags: ['Software Architecture', 'Diversity', 'Inclusion']
     episodes:
       - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
-        url: "/2021/02/19/"
+        url: "/2021/02/19/folge50.html"
         date: "2021-02-19"
         role: "guest"
       - title: "Folge 114 - Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur"
-        url: "/2022/04/01/"
+        url: "/2022/04/01/folge114.html"
         date: "2022-04-01"
         role: "guest"
   # Ana Nad - 1 Episode
@@ -73,7 +73,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic"
-        url: "/2025/04/04/"
+        url: "/2025/04/04/episode259.html"
         date: "2025-04-04"
         role: "guest"
   # Anja Kammer - 2 Episoden
@@ -84,11 +84,11 @@ guests:
     tags: ['DevOps', 'Team Topologies']
     episodes:
       - title: "Folge 31 - DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day"
-        url: "/2020/12/07/"
+        url: "/2020/12/07/folge029.html"
         date: "2020-12-07"
         role: "guest"
       - title: "Folge 147 - Wie reißt man den Elfenbeinturm ein? mit Anja Kammer"
-        url: "/2023/01/13/"
+        url: "/2023/01/13/folge147.html"
         date: "2023-01-13"
         role: "guest"
   # Avraham Poupko - 1 Episode
@@ -99,7 +99,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
-        url: "/2021/10/14/"
+        url: "/2021/10/14/episode82.html"
         date: "2021-10-14"
         role: "guest"
   # Aydin Mir Mohammadi - 1 Episode
@@ -110,7 +110,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 235 - Green Software Development mit Aydin Mir Mohammadi"
-        url: "/2024/10/18/"
+        url: "/2024/10/18/episode235.html"
         date: "2024-10-18"
         role: "guest"
   # Bernd Rücker - 1 Episode
@@ -121,7 +121,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker"
-        url: "/2024/12/06/"
+        url: "/2024/12/06/episode243.html"
         date: "2024-12-06"
         role: "guest"
   # Chris Chedgey - 1 Episode
@@ -132,7 +132,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
-        url: "/2021/06/04/"
+        url: "/2021/06/04/episode61.html"
         date: "2021-06-04"
         role: "guest"
   # Chris Richardson - 1 Episode
@@ -143,7 +143,7 @@ guests:
     tags: ['Microservices', 'International Speaker']
     episodes:
       - title: "Episode 79 - Microservices, Monoliths, Modularization with Chris Richardson"
-        url: "/2021/10/04/"
+        url: "/2021/10/04/episode79.html"
         date: "2021-10-04"
         role: "guest"
   # Christian Weyer - 1 Episode
@@ -154,7 +154,7 @@ guests:
     tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
     episodes:
       - title: "Folge 246 - GenAI und Software-Architektur mit Christian Weyer"
-        url: "/2025/01/10/"
+        url: "/2025/01/10/folge246.html"
         date: "2025-01-10"
         role: "guest"
   # Christoph Iserlohn - 3 Episoden
@@ -165,15 +165,15 @@ guests:
     tags: ['Security', 'OWASP', 'Cybersecurity', 'Software Architecture']
     episodes:
       - title: "Folge 30 - Security mit Christoph Iserlohn - Live vom INNOQ Technology Day"
-        url: "/2020/12/07/"
+        url: "/2020/12/07/folge029.html"
         date: "2020-12-07"
         role: "guest"
       - title: "Folge 155 - Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn"
-        url: "/2023/03/10/"
+        url: "/2023/03/10/folge155.html"
         date: "2023-03-10"
         role: "guest"
       - title: "Folge 166 - Zero Trust mit Christoph Iserlohn"
-        url: "/2023/05/26/"
+        url: "/2023/05/26/folge166.html"
         date: "2023-05-26"
         role: "guest"
   # Claude - 1 Episode
@@ -184,7 +184,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 267 - Architekturtheater mit Claude und Ralf"
-        url: "/2025/06/13/"
+        url: "/2025/06/13/folge267.html"
         date: "2025-06-13"
         role: "guest"
   # Cosima Laube - 3 Episoden
@@ -195,15 +195,15 @@ guests:
     tags: ['Coaching', 'Leadership', 'International Speaker']
     episodes:
       - title: "Episode 83 - Cosima Laube about D.A.R.E. more, F.E.A.R. less and Journaling"
-        url: "/2021/10/14/"
+        url: "/2021/10/14/episode82.html"
         date: "2021-10-14"
         role: "guest"
       - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
-        url: "/2024/11/08/"
+        url: "/2024/11/08/episode239.html"
         date: "2024-11-08"
         role: "guest"
       - title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni"
-        url: "/2025/03/18/"
+        url: "/2025/03/18/episode255.html"
         date: "2025-03-18"
         role: "guest"
   # Dajana Günther - 1 Episode
@@ -214,7 +214,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
-        url: "/2023/02/10/"
+        url: "/2023/02/10/episode151.html"
         date: "2023-02-10"
         role: "guest"
   # Daniel Terhorst-North - 1 Episode
@@ -225,7 +225,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 100 - Daniel Terhorst-North - SOLID vs. CUPID"
-        url: "/2022/01/27/"
+        url: "/2022/01/27/episode100.html"
         date: "2022-01-27"
         role: "guest"
   # Danilo Beuche - 1 Episode
@@ -236,7 +236,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 24 - Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche"
-        url: "/2020/11/06/"
+        url: "/2020/11/06/folge024.html"
         date: "2020-11-06"
         role: "guest"
   # Dehla Sokenou - 1 Episode
@@ -247,7 +247,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 171 - Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)"
-        url: "/2023/06/30/"
+        url: "/2023/06/30/folge171.html"
         date: "2023-06-30"
         role: "guest"
   # Diana Montalion - 2 Episoden
@@ -258,11 +258,11 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 137 - Non-linear Thinking with Diana Montalion"
-        url: "/2022/10/07/"
+        url: "/2022/10/07/folge137.html"
         date: "2022-10-07"
         role: "guest"
       - title: "Episode 238 - Learning Systems Thinking with Diana Montalion and Lisa Schäfer"
-        url: "/2024/11/07/"
+        url: "/2024/11/07/episode238.html"
         date: "2024-11-07"
         role: "guest"
   # Dirk Mahler - 1 Episode
@@ -273,7 +273,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 58 - Dirk Mahler zu Software-Architektur-Management mit jQAssistant"
-        url: "/2021/05/07/"
+        url: "/2021/05/07/folge58.html"
         date: "2021-05-07"
         role: "guest"
   # Dr. Julia Freudenberg - 1 Episode
@@ -284,7 +284,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 202 - Hack the World a Better Place mit Dr. Julia Freudenberg"
-        url: "/2024/02/09/"
+        url: "/2024/02/09/folge202.html"
         date: "2024-02-09"
         role: "guest"
   # Dr. Miriam Greis - 1 Episode
@@ -295,7 +295,7 @@ guests:
     tags: ['API Design']
     episodes:
       - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
-        url: "/2024/02/23/"
+        url: "/2024/02/23/folge204.html"
         date: "2024-02-23"
         role: "guest"
   # Erik Wilde - 1 Episode
@@ -306,7 +306,7 @@ guests:
     tags: ['API Design']
     episodes:
       - title: "Folge 52 - APIs mit Erik Wilde"
-        url: "/2021/03/05/"
+        url: "/2021/03/05/folge52.html"
         date: "2021-03-05"
         role: "guest"
   # Evelyn Van Kelle - 1 Episode
@@ -317,7 +317,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
-        url: "/2022/01/31/"
+        url: "/2022/01/31/episode103.html"
         date: "2022-01-31"
         role: "guest"
   # Falk Hoppe - 1 Episode
@@ -328,7 +328,7 @@ guests:
     tags: ['Frontend', 'Web Development']
     episodes:
       - title: "Folge 150 - Frontendintegrationsmuster im Web mit Falk Hoppe"
-        url: "/2023/02/03/"
+        url: "/2023/02/03/folge150.html"
         date: "2023-02-03"
         role: "guest"
   # Falk Sippach - 2 Episoden
@@ -339,11 +339,11 @@ guests:
     tags: ['Software Architecture', 'Documentation']
     episodes:
       - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/"
+        url: "/2021/02/09/folge39.html"
         date: "2021-02-09"
         role: "guest"
       - title: "Folge 138 - Was ist Documentation as Code? mit Falk Sippach"
-        url: "/2022/10/14/"
+        url: "/2022/10/14/folge138.html"
         date: "2022-10-14"
         role: "guest"
   # Felienne Hermans - 1 Episode
@@ -354,7 +354,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 81 - Felienne Hermans about How to Read Complex Code (Live from Software Architecture Gathering)"
-        url: "/2021/10/13/"
+        url: "/2021/10/13/epsiode80.html"
         date: "2021-10-13"
         role: "guest"
   # Felix Müller - 1 Episode
@@ -365,7 +365,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 122 - DORA Metriken & Accelerate mit Felix Müller"
-        url: "/2022/06/10/"
+        url: "/2022/06/10/folge122.html"
         date: "2022-06-10"
         role: "guest"
   # Franziska Dessart - 4 Episoden
@@ -376,19 +376,19 @@ guests:
     tags: ['Frontend', 'Web Development', 'Software Architecture']
     episodes:
       - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/10/02/"
+        url: "/2020/10/02/folge020.html"
         date: "2020-10-02"
         role: "guest"
       - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/11/27/"
+        url: "/2020/11/27/folge027.html"
         date: "2020-11-27"
         role: "guest"
       - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-        url: "/2021/04/16/"
+        url: "/2021/04/16/folge56.html"
         date: "2021-04-16"
         role: "guest"
       - title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2021/07/30/"
+        url: "/2021/07/30/folge69.html"
         date: "2021-07-30"
         role: "guest"
   # Friederike Sternberg - 1 Episode
@@ -399,8 +399,8 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 232 - Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con"
-        url: "/2024/09/13/"
-        date: "2024-09-13"
+        url: "/2024/09/20/episode232.html"
+        date: "2024-09-20"
         role: "guest"
   # Gerrit Beine - 1 Episode
   - name: "Gerrit Beine"
@@ -410,7 +410,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 157 - Single Source of Truth mit Gerrit Beine"
-        url: "/2023/03/17/"
+        url: "/2023/03/17/folge157.html"
         date: "2023-03-17"
         role: "guest"
   # Gien Verschatse - 1 Episode
@@ -421,7 +421,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
-        url: "/2022/01/31/"
+        url: "/2022/01/31/episode103.html"
         date: "2022-01-31"
         role: "guest"
   # Grady Booch - 1 Episode
@@ -432,7 +432,7 @@ guests:
     tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT', 'International Speaker']
     episodes:
       - title: "Episode 47 - Grady Booch - AI Architecture and Systems - Live from OOP"
-        url: "/2021/02/11/"
+        url: "/2021/02/11/folge47.html"
         date: "2021-02-11"
         role: "guest"
   # Hanna Prinz - 1 Episode
@@ -443,7 +443,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 19 - Service Mesh Linkerd mit Hanna Prinz"
-        url: "/2020/09/18/"
+        url: "/2020/09/18/folge019.html"
         date: "2020-09-18"
         role: "guest"
   # Henning Schwentner - 2 Episoden
@@ -454,11 +454,11 @@ guests:
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
     episodes:
       - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
-        url: "/2020/10/09/"
+        url: "/2020/10/09/folge021.html"
         date: "2020-10-09"
         role: "guest"
       - title: "Folge 75 - Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner"
-        url: "/2021/09/17/"
+        url: "/2021/09/17/folge75.html"
         date: "2021-09-17"
         role: "guest"
   # Hillel Wayne - 2 Episoden
@@ -469,11 +469,11 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 86 - Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?"
-        url: "/2021/10/25/"
+        url: "/2021/10/25/episode86.html"
         date: "2021-10-25"
         role: "guest"
       - title: "Episode 209 - Are We Engineers? With Hillel Wayne"
-        url: "/2024/03/27/"
+        url: "/2024/03/27/folge209.html"
         date: "2024-03-27"
         role: "guest"
   # Jacqui Read - 1 Episode
@@ -484,7 +484,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 254 - Communication Patterns with Jacqui Read"
-        url: "/2025/03/14/"
+        url: "/2025/03/14/folge254.html"
         date: "2025-03-14"
         role: "guest"
   # James Lewis - 1 Episode
@@ -495,7 +495,7 @@ guests:
     tags: ['Software Architecture', 'Microservices', 'International Speaker']
     episodes:
       - title: "Episode 80 - Microservices, Inverse Conway Maneuver, and Flow with James Lewis - Live from Software Architecture Gathering"
-        url: "/2021/10/13/"
+        url: "/2021/10/13/epsiode80.html"
         date: "2021-10-13"
         role: "guest"
   # Jochen Christ - 2 Episoden
@@ -506,11 +506,11 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-        url: "/2021/04/16/"
+        url: "/2021/04/16/folge56.html"
         date: "2021-04-16"
         role: "guest"
       - title: "Folge 98 - Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ"
-        url: "/2022/01/14/"
+        url: "/2022/01/14/episode98.html"
         date: "2022-01-14"
         role: "guest"
   # Jochen Mader - 1 Episode
@@ -521,7 +521,7 @@ guests:
     tags: ['Security', 'OWASP', 'Cybersecurity']
     episodes:
       - title: "Folge 231 - Supply Chain Security mit Jochen Mader - live von der BED-Con"
-        url: "/2024/09/19/"
+        url: "/2024/09/19/episode231.html"
         date: "2024-09-19"
         role: "guest"
   # Johannes Link - 1 Episode
@@ -532,7 +532,7 @@ guests:
     tags: ['Coaching', 'Leadership']
     episodes:
       - title: "Folge 71 - Welchen Sinn hat agiles Coaching? mit Johannes Link"
-        url: "/2021/08/13/"
+        url: "/2021/08/13/folge71.html"
         date: "2021-08-13"
         role: "guest"
   # Johannes Mainusch - 1 Episode
@@ -543,7 +543,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 136 - Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht"
-        url: "/2022/09/30/"
+        url: "/2022/09/30/folge136.html"
         date: "2022-09-30"
         role: "guest"
   # Johannes Seitz - 1 Episode
@@ -554,7 +554,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 29 - Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day"
-        url: "/2020/12/07/"
+        url: "/2020/12/07/folge029.html"
         date: "2020-12-07"
         role: "guest"
   # Joseph Pelrine - 1 Episode
@@ -565,7 +565,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 167 - Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special"
-        url: "/2023/06/02/"
+        url: "/2023/06/02/folge167.html"
         date: "2023-06-02"
         role: "guest"
   # Joy Heron - 3 Episoden
@@ -576,15 +576,15 @@ guests:
     tags: ['Frontend', 'Web Development', 'Software Architecture']
     episodes:
       - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/10/02/"
+        url: "/2020/10/02/folge020.html"
         date: "2020-10-02"
         role: "guest"
       - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/11/27/"
+        url: "/2020/11/27/folge027.html"
         date: "2020-11-27"
         role: "guest"
       - title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2021/07/30/"
+        url: "/2021/07/30/folge69.html"
         date: "2021-07-30"
         role: "guest"
   # Jutta Eckstein - 1 Episode
@@ -595,7 +595,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
-        url: "/2022/02/02/"
+        url: "/2022/02/02/folge107.html"
         date: "2022-02-02"
         role: "guest"
   # Jörg Müller - 1 Episode
@@ -606,7 +606,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
-        url: "/2023/02/10/"
+        url: "/2023/02/10/episode151.html"
         date: "2023-02-10"
         role: "guest"
   # Kenny Baas-Schwegler - 2 Episoden
@@ -617,11 +617,11 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 82 - Avraham Poupko & Kenny Baas-Schwegler - The Influence of Culture on Software Design"
-        url: "/2021/10/14/"
+        url: "/2021/10/14/episode82.html"
         date: "2021-10-14"
         role: "guest"
       - title: "Episode 101 - Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP"
-        url: "/2022/01/31/"
+        url: "/2022/01/31/episode103.html"
         date: "2022-01-31"
         role: "guest"
   # Kevin Goldsmith - 1 Episode
@@ -632,7 +632,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 185 - Kevin Goldsmith Architecture and Organization"
-        url: "/2023/10/18/"
+        url: "/2023/10/18/episode185.html"
         date: "2023-10-18"
         role: "guest"
   # Kevlin Henney - 1 Episode
@@ -643,7 +643,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 78 - Kevlin Henney - Dealing with Uncertainty"
-        url: "/2021/10/01/"
+        url: "/2021/10/01/episode78.html"
         date: "2021-10-01"
         role: "guest"
   # Kim Nena Duggen - 1 Episode
@@ -654,8 +654,8 @@ guests:
     tags: ['DevOps', 'Team Topologies']
     episodes:
       - title: "Folge 230 - Team Topologie in der Praxis mit Kim Nena Duggen"
-        url: "/2024/09/06/"
-        date: "2024-09-06"
+        url: "/2024/09/16/episode230.html"
+        date: "2024-09-16"
         role: "guest"
   # Lars Hupel - 1 Episode
   - name: "Lars Hupel"
@@ -665,7 +665,7 @@ guests:
     tags: ['Diversity', 'Inclusion']
     episodes:
       - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
-        url: "/2021/02/19/"
+        url: "/2021/02/19/folge50.html"
         date: "2021-02-19"
         role: "guest"
   # Laurent Bossavit - 1 Episode
@@ -676,7 +676,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 86 - Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?"
-        url: "/2021/10/25/"
+        url: "/2021/10/25/episode86.html"
         date: "2021-10-25"
         role: "guest"
   # Lejla Vulovic - 1 Episode
@@ -687,7 +687,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic"
-        url: "/2025/04/04/"
+        url: "/2025/04/04/episode259.html"
         date: "2025-04-04"
         role: "guest"
   # Lena Kraaz - 1 Episode
@@ -698,7 +698,7 @@ guests:
     tags: ['Diversity', 'Inclusion']
     episodes:
       - title: "Folge 50 - Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe"
-        url: "/2021/02/19/"
+        url: "/2021/02/19/folge50.html"
         date: "2021-02-19"
         role: "guest"
   # Linda Rising - 1 Episode
@@ -709,7 +709,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 49 - Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP"
-        url: "/2021/02/11/"
+        url: "/2021/02/11/folge47.html"
         date: "2021-02-11"
         role: "guest"
   # Lucas Dohmen - 5 Episoden
@@ -720,23 +720,23 @@ guests:
     tags: ['Frontend', 'Web Development', 'Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
     episodes:
       - title: "Folge 20 - Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/10/02/"
+        url: "/2020/10/02/folge020.html"
         date: "2020-10-02"
         role: "guest"
       - title: "Folge 27 - Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2020/11/27/"
+        url: "/2020/11/27/folge027.html"
         date: "2020-11-27"
         role: "guest"
       - title: "Folge 69 - Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen"
-        url: "/2021/07/30/"
+        url: "/2021/07/30/folge69.html"
         date: "2021-07-30"
         role: "guest"
       - title: "Folge 135 - HTTP mit Lucas Dohmen"
-        url: "/2022/09/23/"
+        url: "/2022/09/23/folge135.html"
         date: "2022-09-23"
         role: "guest"
       - title: "Folge 251 - KI und LLMs kritisch betrachtet mit Lucas Dohmen"
-        url: "/2025/02/21/"
+        url: "/2025/02/21/folge251.html"
         date: "2025-02-21"
         role: "guest"
   # Manfred Steyer - 1 Episode
@@ -747,7 +747,7 @@ guests:
     tags: ['Frontend', 'Web Development']
     episodes:
       - title: "Folge 84 - Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks"
-        url: "/2021/10/15/"
+        url: "/2021/10/15/folge84.html"
         date: "2021-10-15"
         role: "guest"
   # Marco Emrich - 3 Episoden
@@ -758,15 +758,15 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 225 - Code Aufräumen - Kent Beck's Tidy First? mit Marco Emrich 1/2"
-        url: "/2024/07/26/"
+        url: "/2024/07/26/episode225.html"
         date: "2024-07-26"
         role: "guest"
       - title: "Folge 226 - Theorie des Aufräumens - Kent Beck's Tidy First? mit Marco Emrich 2/2"
-        url: "/2024/08/02/"
+        url: "/2024/08/02/episode226.html"
         date: "2024-08-02"
         role: "guest"
       - title: "Folge 236 - Code Retreat live - mit Marco Emrich"
-        url: "/2024/10/25/"
+        url: "/2024/10/25/episode236.html"
         date: "2024-10-25"
         role: "guest"
   # Marina Köhn - 1 Episode
@@ -777,7 +777,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
-        url: "/2022/02/02/"
+        url: "/2022/02/02/folge107.html"
         date: "2022-02-02"
         role: "guest"
   # Markus Völter - 2 Episoden
@@ -788,11 +788,11 @@ guests:
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
     episodes:
       - title: "Folge 22 - Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)"
-        url: "/2020/10/23/"
+        url: "/2020/10/23/folge022.html"
         date: "2020-10-23"
         role: "guest"
       - title: "Folge 175 - How to Understand Almost Anything mit Markus Völter"
-        url: "/2023/08/04/"
+        url: "/2023/08/04/folge177.html"
         date: "2023-08-04"
         role: "guest"
   # Martin Günther - 1 Episode
@@ -803,7 +803,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 234 - Moderation mit Liberating Structures für Architekt:innen mit Martin Günther"
-        url: "/2024/10/04/"
+        url: "/2024/10/04/episode234.html"
         date: "2024-10-04"
         role: "guest"
   # Martin Huber - 1 Episode
@@ -814,7 +814,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-        url: "/2021/04/16/"
+        url: "/2021/04/16/folge56.html"
         date: "2021-04-16"
         role: "guest"
   # Martin Lippert - 2 Episoden
@@ -825,11 +825,11 @@ guests:
     tags: ['Software Architecture', 'AI', 'Machine Learning', 'ChatGPT']
     episodes:
       - title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
-        url: "/2021/05/21/"
+        url: "/2021/05/21/folge59.html"
         date: "2021-05-21"
         role: "guest"
       - title: "Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert"
-        url: "/2025/08/01/"
+        url: "/2025/08/01/folge273.html"
         date: "2025-08-01"
         role: "guest"
   # Max Schulze - 1 Episode
@@ -840,7 +840,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 107 - Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!"
-        url: "/2022/02/02/"
+        url: "/2022/02/02/folge107.html"
         date: "2022-02-02"
         role: "guest"
   # Melanie Schäfer - 1 Episode
@@ -851,7 +851,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 164 - Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer"
-        url: "/2023/05/17/"
+        url: "/2023/05/17/folge164.html"
         date: "2023-05-17"
         role: "guest"
   # Michael Ahrens - 1 Episode
@@ -862,7 +862,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 227 - Firmenpolitik für Architekt:innen mit Michael Ahrens"
-        url: "/2024/08/09/"
+        url: "/2024/08/09/episode227.html"
         date: "2024-08-09"
         role: "guest"
   # Michael Hunger - 1 Episode
@@ -873,7 +873,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 33 - Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger"
-        url: "/2020/12/18/"
+        url: "/2020/12/18/folge033.html"
         date: "2020-12-18"
         role: "guest"
   # Michael Mahlberg - 1 Episode
@@ -884,7 +884,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 151 - So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg"
-        url: "/2023/02/10/"
+        url: "/2023/02/10/episode151.html"
         date: "2023-02-10"
         role: "guest"
   # Michael Plöd - 1 Episode
@@ -895,7 +895,7 @@ guests:
     tags: ['Testing', 'Quality Assurance']
     episodes:
       - title: "Folge 224 - Quality Storming mit Michael Plöd"
-        url: "/2024/07/12/"
+        url: "/2024/07/12/episode224.html"
         date: "2024-07-12"
         role: "guest"
   # Michael Vitz - 1 Episode
@@ -906,8 +906,8 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 180 - Engineering Excellence mit Michael Vitz"
-        url: "/2023/08/18/"
-        date: "2023-08-18"
+        url: "/2023/09/15/folge180.html"
+        date: "2023-09-15"
         role: "guest"
   # Michaela Kühn - 1 Episode
   - name: "Michaela Kühn"
@@ -917,7 +917,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 161 - Business Analyst:in und Software-Architektur mit Michaela Kühn"
-        url: "/2023/04/21/"
+        url: "/2023/04/21/folge161.html"
         date: "2023-04-21"
         role: "guest"
   # Mike Sperber - 2 Episoden
@@ -928,11 +928,11 @@ guests:
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture']
     episodes:
       - title: "Folge 156 - Funktionale Programmierung, DDD und Architektur mit Mike Sperber"
-        url: "/2023/03/10/"
+        url: "/2023/03/10/folge155.html"
         date: "2023-03-10"
         role: "guest"
       - title: "Folge 186 - Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber"
-        url: "/2023/09/15/"
+        url: "/2023/09/15/folge180.html"
         date: "2023-09-15"
         role: "guest"
   # Mike Swainston-Rainford - 1 Episode
@@ -943,7 +943,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 61 - Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101"
-        url: "/2021/06/04/"
+        url: "/2021/06/04/episode61.html"
         date: "2021-06-04"
         role: "guest"
   # Nadine Andraczek - 1 Episode
@@ -954,7 +954,7 @@ guests:
     tags: ['Agile', 'Scrum']
     episodes:
       - title: "Folge 177 - Scrum Master:in und Softwarearchitektur mit Nadine Andraczek"
-        url: "/2023/08/11/"
+        url: "/2023/08/11/folge178.html"
         date: "2023-08-11"
         role: "guest"
   # Nick Tune - 2 Episoden
@@ -965,11 +965,11 @@ guests:
     tags: ['Domain-driven Design', 'DDD', 'Software Architecture', 'International Speaker']
     episodes:
       - title: "Folge 11 - Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design"
-        url: "/2020/07/31/"
+        url: "/2020/07/31/folge010.html"
         date: "2020-07-31"
         role: "guest"
       - title: "Episode 223 - Nick Tune about Architecture Modernization"
-        url: "/2024/07/05/"
+        url: "/2024/07/05/episode223.html"
         date: "2024-07-05"
         role: "guest"
   # Nora Schöner - 1 Episode
@@ -980,7 +980,7 @@ guests:
     tags: ['Java', 'Spring']
     episodes:
       - title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
-        url: "/2023/03/24/"
+        url: "/2023/03/24/folge158.html"
         date: "2023-03-24"
         role: "guest"
   # Oliver Drotbohm - 1 Episode
@@ -991,7 +991,7 @@ guests:
     tags: ['Domain-driven Design', 'DDD', 'Java', 'Spring']
     episodes:
       - title: "Folge 219 - Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm"
-        url: "/2024/06/14/"
+        url: "/2024/06/14/episode220.html"
         date: "2024-06-14"
         role: "guest"
   # Oliver Wehrens - 1 Episode
@@ -1002,7 +1002,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 68 - Der Schritt zur Software-Architekt:in mit Oliver Wehrens"
-        url: "/2021/07/23/"
+        url: "/2021/07/23/folge68.html"
         date: "2021-07-23"
         role: "guest"
   # Patrick Kua - 1 Episode
@@ -1013,7 +1013,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 34 - Patrick Kua - Evolutionary Software Architecture"
-        url: "/2021/01/08/"
+        url: "/2021/01/08/folge34.html"
         date: "2021-01-08"
         role: "guest"
   # Prof. Dirk Riehle - 2 Episoden
@@ -1024,11 +1024,11 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 32 - Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle"
-        url: "/2020/12/11/"
+        url: "/2020/12/11/folge032.html"
         date: "2020-12-11"
         role: "guest"
       - title: "Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle"
-        url: "/2025/07/04/"
+        url: "/2025/07/04/folge270.html"
         date: "2025-07-04"
         role: "guest"
   # Rakia Ben Sassi - 1 Episode
@@ -1039,7 +1039,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 188 - Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee mit Rakia Ben Sassi"
-        url: "/2023/09/29/"
+        url: "/2023/09/29/folge182.html"
         date: "2023-09-29"
         role: "guest"
   # Rebecca Parsons - 1 Episode
@@ -1050,7 +1050,7 @@ guests:
     tags: ['Software Architecture', 'International Speaker']
     episodes:
       - title: "Episode 77 - Rebecca Parsons about Evolutionary Architecture"
-        url: "/2021/09/27/"
+        url: "/2021/09/27/episode77.html"
         date: "2021-09-27"
         role: "guest"
   # Rebecca Temme - 1 Episode
@@ -1061,7 +1061,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 163 - Kommunikation im Entwicklungsprozess mit Rebecca Temme"
-        url: "/2023/04/28/"
+        url: "/2023/04/28/folge163.html"
         date: "2023-04-28"
         role: "guest"
   # Richard Gross - 1 Episode
@@ -1072,7 +1072,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 248 - Code Charta mit Richard Gross"
-        url: "/2025/01/24/"
+        url: "/2025/01/24/folge248.html"
         date: "2025-01-24"
         role: "guest"
   # Rik Marselis - 1 Episode
@@ -1083,7 +1083,7 @@ guests:
     tags: ['Testing', 'Quality Assurance', 'International Speaker']
     episodes:
       - title: "Episode 102 - Rik Marselis - Testing and Quality - Live from OOP"
-        url: "/2022/01/31/"
+        url: "/2022/01/31/episode103.html"
         date: "2022-01-31"
         role: "guest"
   # Robert Albrecht - 1 Episode
@@ -1094,7 +1094,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 136 - Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht"
-        url: "/2022/09/30/"
+        url: "/2022/09/30/folge136.html"
         date: "2022-09-30"
         role: "guest"
   # Samir Talwar - 1 Episode
@@ -1105,7 +1105,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 131 - Samir Talwar Longevity - live from SoCraTes Conference"
-        url: "/2022/08/26/"
+        url: "/2022/08/26/folge131.html"
         date: "2022-08-26"
         role: "guest"
   # Sascha Möllering - 1 Episode
@@ -1116,7 +1116,7 @@ guests:
     tags: ['Software Architecture', 'Cloud Computing']
     episodes:
       - title: "Folge 154 - Serverless Architektur mit Sascha Möllering"
-        url: "/2023/03/03/"
+        url: "/2023/03/03/folge154.html"
         date: "2023-03-03"
         role: "guest"
   # Scott Ambler - 1 Episode
@@ -1127,7 +1127,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 103 - Scott Ambler - Data Technical Debt - Live from OOP"
-        url: "/2022/01/31/"
+        url: "/2022/01/31/episode103.html"
         date: "2022-01-31"
         role: "guest"
   # Simon Brown - 1 Episode
@@ -1138,7 +1138,7 @@ guests:
     tags: ['Software Architecture', 'C4 Model', 'International Speaker']
     episodes:
       - title: "Episode 36 - Simon Brown - C4 Architecture Model and Structurizr"
-        url: "/2021/01/22/"
+        url: "/2021/01/22/folge36.html"
         date: "2021-01-22"
         role: "guest"
   # Simon Harrer - 1 Episode
@@ -1149,7 +1149,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 56 - Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber"
-        url: "/2021/04/16/"
+        url: "/2021/04/16/folge56.html"
         date: "2021-04-16"
         role: "guest"
   # Sofia Katsaouni - 1 Episode
@@ -1160,7 +1160,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni"
-        url: "/2025/03/18/"
+        url: "/2025/03/18/episode255.html"
         date: "2025-03-18"
         role: "guest"
   # Stefan Hofer - 1 Episode
@@ -1171,7 +1171,7 @@ guests:
     tags: ['Domain-driven Design', 'DDD']
     episodes:
       - title: "Folge 21 - Domain Story Telling mit Henning Schwentner und Stefan Hofer"
-        url: "/2020/10/09/"
+        url: "/2020/10/09/folge021.html"
         date: "2020-10-09"
         role: "guest"
   # Stefan Roock - 1 Episode
@@ -1182,7 +1182,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 59 - Klimawandel & Software Architektur mit Martin Lippert und Stefan Roock"
-        url: "/2021/05/21/"
+        url: "/2021/05/21/folge59.html"
         date: "2021-05-21"
         role: "guest"
   # Stefan Tilkov - 2 Episoden
@@ -1193,11 +1193,11 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/11/"
+        url: "/2021/02/11/folge47.html"
         date: "2021-02-11"
         role: "guest"
       - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
-        url: "/2023/04/28/"
+        url: "/2023/04/28/folge163.html"
         date: "2023-04-28"
         role: "guest"
   # Stefan Toth - 3 Episoden
@@ -1208,15 +1208,15 @@ guests:
     tags: ['Software Architecture', 'Microservices']
     episodes:
       - title: "Folge 124 - Microservices - Schlag den Eberhard & Stefan! Mit Stefan Toth"
-        url: "/2022/07/01/"
+        url: "/2022/07/01/folge125.html"
         date: "2022-07-01"
         role: "guest"
       - title: "Folge 128 - Agilität und Architektur mit Stefan Toth"
-        url: "/2022/07/22/"
+        url: "/2022/07/22/folge128.html"
         date: "2022-07-22"
         role: "guest"
       - title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
-        url: "/2024/01/12/"
+        url: "/2024/01/12/folge196.html"
         date: "2024-01-12"
         role: "guest"
   # Stefan Zörner - 2 Episoden
@@ -1227,11 +1227,11 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/"
+        url: "/2021/02/09/folge39.html"
         date: "2021-02-09"
         role: "guest"
       - title: "Folge 196 - Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner"
-        url: "/2024/01/12/"
+        url: "/2024/01/12/folge196.html"
         date: "2024-01-12"
         role: "guest"
   # Sönke Marahrens - 1 Episode
@@ -1242,7 +1242,7 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 141 - Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens"
-        url: "/2022/11/04/"
+        url: "/2022/11/04/folge141.html"
         date: "2022-11-04"
         role: "guest"
   # Tanja Friedel - 2 Episoden
@@ -1253,12 +1253,12 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 249 - Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel"
-        url: "/2025/02/07/"
-        date: "2025-02-07"
+        url: "/2025/01/31/folge249.html"
+        date: "2025-01-31"
         role: "guest"
       - title: "Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow"
-        url: "/2025/05/09/"
-        date: "2025-05-09"
+        url: "/2025/05/16/folge263.html"
+        date: "2025-05-16"
         role: "guest"
   # Tobias Goeschel - 1 Episode
   - name: "Tobias Goeschel"
@@ -1268,7 +1268,7 @@ guests:
     tags: ['Domain-driven Design', 'DDD']
     episodes:
       - title: "Folge 134 - Domain Prototyping - Iterative Entwicklung mit Domain-driven Design & User Experience mit Tobias Goeschel"
-        url: "/2022/09/16/"
+        url: "/2022/09/16/folge134.html"
         date: "2022-09-16"
         role: "guest"
   # Uwe Vigenschow - 1 Episode
@@ -1279,8 +1279,8 @@ guests:
     tags: ['Software Development']
     episodes:
       - title: "Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow"
-        url: "/2025/05/09/"
-        date: "2025-05-09"
+        url: "/2025/05/16/folge263.html"
+        date: "2025-05-16"
         role: "guest"
   # Vaughn Vernon - 1 Episode
   - name: "Vaughn Vernon"
@@ -1290,7 +1290,7 @@ guests:
     tags: ['Domain-driven Design', 'DDD', 'International Speaker']
     episodes:
       - title: "Episode 218 - Vaughn Vernon about Ports and Adapters and DDD"
-        url: "/2024/05/29/"
+        url: "/2024/05/29/episode218.html"
         date: "2024-05-29"
         role: "guest"
   # Woody Zuill - 1 Episode
@@ -1301,7 +1301,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 252 - Intro to Beyond Estimates with Woody Zuill"
-        url: "/2025/02/24/"
+        url: "/2025/02/24/episode252.html"
         date: "2025-02-24"
         role: "guest"
   # Xin Yao - 1 Episode
@@ -1312,7 +1312,7 @@ guests:
     tags: ['International Speaker']
     episodes:
       - title: "Episode 169 - Systems Thinking in Large-Scale Modeling with Xin Yao - OOP Special"
-        url: "/2023/06/16/"
+        url: "/2023/06/16/folge169.html"
         date: "2023-06-16"
         role: "guest"
 
@@ -1330,15 +1330,15 @@ moderators:
     solo_episodes_count: 140
     episodes:
       - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
-        url: "/2023/04/28/"
+        url: "/2023/04/28/folge163.html"
         date: "2023-04-28"
         role: "moderator"
       - title: "Folge 266 - Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard"
-        url: "/2025/05/30/"
+        url: "/2025/05/30/folge265.html"
         date: "2025-05-30"
         role: "moderator"
       - title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
-        url: "/2025/07/25/"
+        url: "/2025/07/25/episode272.html"
         date: "2025-07-25"
         role: "moderator"
   # Lisa Schäfer - Co-Moderatorin und Gast
@@ -1350,39 +1350,39 @@ moderators:
     tags: ['Co-Moderation', 'OOP', 'JavaLand', 'Software Architecture', 'Consulting']
     episodes:
       - title: "Folge 39 - Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/09/"
+        url: "/2021/02/09/folge39.html"
         date: "2021-02-09"
         role: "co-moderator"
       - title: "Folge 42 - Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/10/"
+        url: "/2021/02/10/folge41.html"
         date: "2021-02-10"
         role: "co-moderator"
       - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/11/"
+        url: "/2021/02/11/folge47.html"
         date: "2021-02-11"
         role: "co-moderator"
       - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
-        url: "/2021/02/11/"
+        url: "/2021/02/11/folge47.html"
         date: "2021-02-11"
         role: "co-moderator"
       - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-        url: "/2022/12/16/"
+        url: "/2022/12/16/folge146.html"
         date: "2022-12-16"
         role: "co-moderator"
       - title: "Folge 158 - Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer"
-        url: "/2023/03/24/"
+        url: "/2023/03/24/folge158.html"
         date: "2023-03-24"
         role: "co-moderator"
       - title: "Folge 205 - API-Team mit Dr. Miriam Greis und Lisa Schäfer"
-        url: "/2024/02/23/"
+        url: "/2024/02/23/folge204.html"
         date: "2024-02-23"
         role: "co-moderator"
       - title: "Episode 238 - Learning Systems Thinking with Diana Montalion and Lisa Schäfer"
-        url: "/2024/11/07/"
+        url: "/2024/11/07/episode238.html"
         date: "2024-11-07"
         role: "co-moderator"
       - title: "Folge 239 - Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer"
-        url: "/2024/11/08/"
+        url: "/2024/11/08/episode239.html"
         date: "2024-11-08"
         role: "co-moderator"
   # Ralf D. Müller - Co-Moderator und Gast
@@ -1394,30 +1394,30 @@ moderators:
     tags: ['AI', 'ChatGPT', 'iSAQB', 'docToolchain', 'Architecture Documentation', 'Co-Moderation']
     episodes:
       - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"
-        url: "/2022/12/16/"
+        url: "/2022/12/16/folge146.html"
         date: "2022-12-16"
         role: "co-moderator"
       - title: "Folge 193 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller"
-        url: "/2023/12/15/"
+        url: "/2023/12/15/folge193.html"
         date: "2023-12-15"
         role: "co-moderator"
       - title: "Folge 197 - Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller"
-        url: "/2024/01/19/"
+        url: "/2024/01/19/folge197.html"
         date: "2024-01-19"
         role: "co-moderator"
       - title: "Folge 199 - Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller"
-        url: "/2024/02/02/"
+        url: "/2024/02/02/folge201.html"
         date: "2024-02-02"
         role: "co-moderator"
       - title: "Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller"
-        url: "/2024/11/29/"
+        url: "/2024/11/29/episode242.html"
         date: "2024-11-29"
         role: "co-moderator"
       - title: "Folge 267 - Architekturtheater mit Claude und Ralf"
-        url: "/2025/06/13/"
+        url: "/2025/06/13/folge267.html"
         date: "2025-06-13"
         role: "co-moderator"
       - title: "Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf"
-        url: "/2025/07/25/"
+        url: "/2025/07/25/episode272.html"
         date: "2025-07-25"
         role: "co-moderator"
