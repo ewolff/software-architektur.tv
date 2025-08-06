@@ -22,20 +22,20 @@ Kimi 2, Grok 4, Windsurf, Meta's Manhattan-große KI-Rechenzentren – jeden Tag
 
 Eine Folge für alle, die sich manchmal fragen: "Passt das alles eigentlich noch zusammen?" – Spoiler: Ja, aber es ist komplexer als vielen lieb ist.
 
-<!-- [Add to Calendar](stream.ics) -->
+[Add to Calendar](stream.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!-- 	src="https://www.youtube-nocookie.com/embed/5Q_TrSfq4Mw" -->
-<!-- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!-- 	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!-- 	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+ 	src="https://www.youtube-nocookie.com/embed/ryhj9GRvyZM"
+ 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ 	encrypted-media; gyroscope; picture-in-picture fullscreen"
+ 	></iframe>
+</div>
+</center>
 
-<!-- [Twitch](https://www.twitch.tv/ebrwolff) -->
+[Twitch](https://www.twitch.tv/ebrwolff)
 
 ## Fragen & Diskussion  / Question & Discussion
 

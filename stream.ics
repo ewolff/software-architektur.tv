@@ -1,52 +1,46 @@
 BEGIN:VCALENDAR
-PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VTIMEZONE
-TZID:W. Europe Standard Time
-BEGIN:STANDARD
-DTSTART:16011028T030000
-RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-END:STANDARD
+TZID:Europe/Berlin
 BEGIN:DAYLIGHT
-DTSTART:16010325T020000
-RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CLASS:PUBLIC
-CREATED:20250725T151413Z
-DESCRIPTION:Das Model Context Protocol (MCP) wird nicht ohne Grund als das 
-	USB-C für Large Language Models (LLMs) bezeichnet: Es schafft einen Stand
-	ard\, wie LLMs auf Kontextinformationen zugreifen und externe Werkzeuge st
-	euern können. Das hat große Auswirkungen auf die Entwicklung von KI-Anwe
-	ndungen. In diesem Stream schauen wir uns an\, warum MCP gerade in aller M
-	unde ist\, wie es funktioniert\, und was es für Entwickler:innen konkret 
-	bedeutet. Mit dabei eine Live-Demo mit Spring AI. Martin Lippert leitet di
-	e Entwicklung der Spring-Tools und kann auf langjährige Erfahrung als Ent
-	wickler und Speaker zurückblicken.\n\nhttps://youtu.be/5Q_TrSfq4Mw https:
-	//www.twitch.tv/ebrwolff\n
-DTEND;TZID="W. Europe Standard Time":20250801T140000
-DTSTAMP:20250618T103817Z
-DTSTART;TZID="W. Europe Standard Time":20250801T130000
-LAST-MODIFIED:20250725T151413Z
-LOCATION:https://youtu.be/5Q_TrSfq4Mw https://www.twitch.tv/ebrwolff
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=de:Model Context Protocol (MCP): Schnittstellen für LLMs 
-	schaffen mit Martin Lippert
+UID:1754511503576-1k1kujmrfs2j@ics-generator.local
+DTSTAMP:20250806T221823
+DTSTART;TZID=Europe/Berlin:20250815T130000
+DTEND;TZID=Europe/Berlin:20250815T140000
+SUMMARY:Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität
+  mit Barbara Lampl und Ralf D. Müller
+DESCRIPTION:Kimi 2\, Grok 4\, Windsurf\, Meta’s Manhattan-große KI-Rechenze
+ ntren – jeden Tag neue KI-Tools\, Ankündigungen und Versprechen. Das Eichhö
+ rnchen im Kopf springt im Sekundentakt zwischen den Themen hin und her. Wie
+  sollen Software-Architekten da noch den Überblick behalten und fundierte E
+ ntscheidungen treffen?\n\nBarbara Lampl kennt dieses Problem aus erster Han
+ d: Als KI-Expertin beobachtet sie täglich die rasante Entwicklung der KI-La
+ ndschaft und weiß\, wie überwältigend die Informationsflut sein kann. In di
+ eser Folge diskutieren wir mit ihr\, wie man als Architekt einen klaren Kop
+ f behält\, wenn das Eichhörnchen mal wieder Vollgas gibt.\n\nEine Folge für
+  alle\, die sich manchmal fragen: “Passt das alles eigentlich noch zusammen
+ ?” – Spoiler: Ja\, aber es ist komplexer als vielen lieb ist.
+LOCATION:https://software-architektur.tv/  https://www.youtube.com/watch?v=
+ ryhj9GRvyZM
+STATUS:CONFIRMED
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E0080000000090C421A14DE0DB01000000000000000
-	010000000C04977AB0A5F1047BE52A7E62105CF9E
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-AUTOFILLLOCATION:FALSE
-X-MS-OLK-CONFTYPE:0
 END:VEVENT
 END:VCALENDAR
