@@ -25,7 +25,7 @@ guests:
     tags: ['AI']
     episodes:
       - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
-        url: "/2021/02/11/folge47.html"
+        url: "/2021/02/11/folge48.html"
         date: "2021-02-11"
         role: "guest"
   # Alberto Brandolini - 1 Episode
@@ -432,7 +432,7 @@ guests:
     tags: ['AI', 'ChatGPT', 'Machine Learning', 'Software Architecture']
     episodes:
       - title: "Episode 47 - Grady Booch - AI Architecture and Systems - Live from OOP"
-        url: "/2021/02/11/folge47.html"
+        url: "/2021/02/11/folge48.html"
         date: "2021-02-11"
         role: "guest"
   # Hanna Prinz - 1 Episode
@@ -709,7 +709,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Episode 49 - Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP"
-        url: "/2021/02/11/folge47.html"
+        url: "/2021/02/11/folge48.html"
         date: "2021-02-11"
         role: "guest"
   # Lucas Dohmen - 5 Episoden
@@ -1193,7 +1193,7 @@ guests:
     tags: ['Software Architecture']
     episodes:
       - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/11/folge47.html"
+        url: "/2021/02/11/folge48.html"
         date: "2021-02-11"
         role: "guest"
       - title: "Folge 162 - Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG"
@@ -1358,11 +1358,11 @@ moderators:
         date: "2021-02-10"
         role: "co-moderator"
       - title: "Folge 45 - Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer"
-        url: "/2021/02/11/folge47.html"
+        url: "/2021/02/11/folge48.html"
         date: "2021-02-11"
         role: "co-moderator"
       - title: "Episode 48 - Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer"
-        url: "/2021/02/11/folge47.html"
+        url: "/2021/02/11/folge48.html"
         date: "2021-02-11"
         role: "co-moderator"
       - title: "Folge 146 - Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer"

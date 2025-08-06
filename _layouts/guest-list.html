@@ -239,10 +239,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let visibleCards = Array.from(guestCards).filter(card => {
       const name = card.dataset.name;
-      const tags = card.dataset.tags;
+      const cardTags = card.dataset.tags.split(',').map(tag => tag.trim());
       
       const matchesSearch = name.includes(searchTerm);
-      const matchesTag = !selectedTag || tags.includes(selectedTag);
+      const matchesTag = !selectedTag || cardTags.includes(selectedTag);
       
       return matchesSearch && matchesTag;
     });
