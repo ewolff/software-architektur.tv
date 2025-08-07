@@ -39,6 +39,8 @@ Eine Folge für alle, die sich manchmal fragen: "Passt das alles eigentlich noch
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
+[LinkedIn](https://www.linkedin.com/events/eichh-rnchenimkopf-kizwischenhy7359100570722295808/)
+
 ## Fragen & Diskussion  / Question & Discussion
 
 Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
