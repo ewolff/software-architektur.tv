@@ -14,13 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2025-08-15 Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität mit Barbara Lampl und Ralf D. Müller
-
-Kimi 2, Grok 4, Windsurf, Meta's Manhattan-große KI-Rechenzentren – jeden Tag neue KI-Tools, Ankündigungen und Versprechen. Das Eichhörnchen im Kopf springt im Sekundentakt zwischen den Themen hin und her. Wie sollen Software-Architekten da noch den Überblick behalten und fundierte Entscheidungen treffen?
-
-[Barbara Lampl](https://www.linkedin.com/in/barbaralampl/) kennt dieses Problem aus erster Hand: Als KI-Expertin beobachtet sie täglich die rasante Entwicklung der KI-Landschaft und weiß, wie überwältigend die Informationsflut sein kann. In dieser Folge diskutieren wir mit ihr, wie man als Architekt einen klaren Kopf behält, wenn das Eichhörnchen mal wieder Vollgas gibt.
-
-Eine Folge für alle, die sich manchmal fragen: "Passt das alles eigentlich noch zusammen?" – Spoiler: Ja, aber es ist komplexer als vielen lieb ist.
+## Nächste Episode: 2025-08-22 Thema offen
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
@@ -28,18 +22,18 @@ Eine Folge für alle, die sich manchmal fragen: "Passt das alles eigentlich noch
 
 ## Live Stream
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
- 	src="https://www.youtube-nocookie.com/embed/ryhj9GRvyZM"
- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
- 	encrypted-media; gyroscope; picture-in-picture fullscreen"
- 	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!--  	src="https://www.youtube-nocookie.com/embed/ryhj9GRvyZM" -->
+<!--  	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!--  	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!--  	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
+
+<!-- [LinkedIn](https://www.linkedin.com/events/eichh-rnchenimkopf-kizwischenhy7359100570722295808/) -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
-
-[LinkedIn](https://www.linkedin.com/events/eichh-rnchenimkopf-kizwischenhy7359100570722295808/)
 
 ## Fragen & Diskussion  / Question & Discussion
 
