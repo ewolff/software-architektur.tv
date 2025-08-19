@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2025-08-22 Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?
+## Nächste Episode: 2025-08-22 13:00 CEST Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?
 
 In der Softwarearchitektur gilt: Systeme lassen sich besser warten und
 flexibler gestalten, wenn man sie in mehrere Bounded Contexts aufteilt
