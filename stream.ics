@@ -21,25 +21,23 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1754511503576-1k1kujmrfs2j@ics-generator.local
-DTSTAMP:20250806T221823
-DTSTART;TZID=Europe/Berlin:20250815T130000
-DTEND;TZID=Europe/Berlin:20250815T140000
-SUMMARY:Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität
-  mit Barbara Lampl und Ralf D. Müller
-DESCRIPTION:Kimi 2\, Grok 4\, Windsurf\, Meta’s Manhattan-große KI-Rechenze
- ntren – jeden Tag neue KI-Tools\, Ankündigungen und Versprechen. Das Eichhö
- rnchen im Kopf springt im Sekundentakt zwischen den Themen hin und her. Wie
-  sollen Software-Architekten da noch den Überblick behalten und fundierte E
- ntscheidungen treffen?\n\nBarbara Lampl kennt dieses Problem aus erster Han
- d: Als KI-Expertin beobachtet sie täglich die rasante Entwicklung der KI-La
- ndschaft und weiß\, wie überwältigend die Informationsflut sein kann. In di
- eser Folge diskutieren wir mit ihr\, wie man als Architekt einen klaren Kop
- f behält\, wenn das Eichhörnchen mal wieder Vollgas gibt.\n\nEine Folge für
-  alle\, die sich manchmal fragen: “Passt das alles eigentlich noch zusammen
- ?” – Spoiler: Ja\, aber es ist komplexer als vielen lieb ist.
-LOCATION:https://software-architektur.tv/  https://www.youtube.com/watch?v=
- ryhj9GRvyZM
+UID:1755612105806-6tj7tl9jmqx@ics-generator.local
+DTSTAMP:20250819T140145
+DTSTART;TZID=Europe/Berlin:20250822T130000
+DTEND;TZID=Europe/Berlin:20250822T140000
+SUMMARY:Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?
+DESCRIPTION:In der Softwarearchitektur gilt: Systeme lassen sich besser war
+ ten und flexibler gestalten\, wenn man sie in mehrere Bounded Contexts auft
+ eilt – und das ist gerade bei Microservices-System zentral. Doch nun hat au
+ sgerechnet Netflix\, ein Pionier der Microservices-Bewegung\, einen Blogpos
+ t veröffentlicht\, der einen ganz anderen Weg propagiert: „Model Once\, Rep
+ resent Everywhere: UDA (Unified Data Architecture)“.\nIn dieser Episode nim
+ mt Eberhard den Ansatz von Netflix genauer unter die Lupe und diskutiert\, 
+ ob die Zeit gekommen ist\, die Idee klar getrennter Bounded Contexts infrag
+ e zu stellen – und stattdessen auf ein zentrales Modell zu setzen.
+LOCATION:https://www.youtube.com/watch?v=Sus6UC96FsU https://www.linkedin.c
+ om/events/keineboundedcontextsbeinetflix-7363568746319282178/theater/ https
+ ://www.twitch.tv/ebrwolff
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

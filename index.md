@@ -14,7 +14,16 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2025-08-22 Thema offen
+## Nächste Episode: 2025-08-22 Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?
+
+In der Softwarearchitektur gilt: Systeme lassen sich besser warten und
+flexibler gestalten, wenn man sie in mehrere Bounded Contexts aufteilt
+– und das ist gerade bei Microservices-System zentral. Doch nun hat
+ausgerechnet Netflix, ein Pionier der Microservices-Bewegung, einen
+Blogpost veröffentlicht, der einen ganz anderen Weg propagiert: „Model
+Once, Represent Everywhere: UDA (Unified Data Architecture)“.
+
+In dieser Episode nimmt Eberhard den Ansatz von Netflix genauer unter die Lupe und diskutiert, ob die Zeit gekommen ist, die Idee klar getrennter Bounded Contexts infrage zu stellen – und stattdessen auf ein zentrales Modell zu setzen.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
@@ -22,16 +31,16 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!--  	src="https://www.youtube-nocookie.com/embed/ryhj9GRvyZM" -->
-<!--  	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!--  	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!--  	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+ 	src="https://www.youtube-nocookie.com/embed/Sus6UC96FsU"
+ 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ 	encrypted-media; gyroscope; picture-in-picture fullscreen"
+ 	></iframe>
+</div>
+</center>
 
-<!-- [LinkedIn](https://www.linkedin.com/events/eichh-rnchenimkopf-kizwischenhy7359100570722295808/) -->
+[LinkedIn](https://www.linkedin.com/events/keineboundedcontextsbeinetflix-7363568746319282178/theater/)
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
