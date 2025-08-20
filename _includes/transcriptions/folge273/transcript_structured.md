@@ -1,0 +1,1083 @@
+# Folge 273 - Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert Hallo, ich bin Eberhard Wolff.
+
+Freitags mache ich oder Lisa Moritz einen Live-Stream zum Thema Software-Architektur, oft zusammen mit Gästen.
+
+Dieser Podcast ist das Audio des Streams.
+
+Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
+
+Software-Architektur im Stream.
+
+So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream.
+
+Heute geht es um das Model Context Protocol mit Martin Lippert.
+
+Martin, schön, dass du da bist, schön, dass du dir die Zeit nimmst.
+
+Schön, dass ich da bin, hallo.
+
+Ja, genau.
+
+Willst du kurz zwei Worte über dich sagen?
+
+Klar, ich bin Martin.
+
+Ich wohne in Hamburg, im nördlichen Teil von Deutschland.
+
+Und ich arbeite für das Spring Team, also das Team, was Spring Boot macht, Spring Framework macht und ähnliches.
+
+Mein Spezialgebiet sind eigentlich die Spring Tools, also die IDE-Erweiterung.
+
+Das ganze Team ist bei Broadcom zu Hause inzwischen.
+
+Ja, das ist das, womit ich mich so beschäftige.
+
+Und aus dem Tools-Bereich ist natürlich klar, dass ich mich in letzter Zeit auch mehr mit dem Thema AI und alles, was so um Developer-Tools rund um AI angeht, natürlich auch beschäftige.
+
+Und deswegen bin ich, glaube ich, auch sozusagen mit hier und interessiere mich für das Thema.
+
+Und ich freue mich sehr, heute hier dabei sein zu dürfen.
+
+Genau, und du bist mit dem Thema auch auf Konferenzen vertreten, wenn ich es richtig in Erinnerung habe.
+
+Ja, genau.
+
+Ein bisschen die Einführung in das Thema zu machen und einen kurzen Einstieg, worum geht es da eigentlich.
+
+Genau, das wäre dann auch so ein bisschen die erste Frage.
+
+Also was ist denn eigentlich dieses Model-Context-Protokoll oder das MCP?
+
+## Einführung MCP
+
+Eigentlich ist es eine Sache, die mit richtigen Large-Language-Models gar nicht so viel zu tun hat, lustigerweise.
+
+### Grundkonzept und Aufbau
+
+Grundsätzlich geht es eigentlich darum, dass wenn ich AI-Anwendungen baue, ich ja meistens auf der einen Seite habe ich sozusagen das Large-Language-Model oder sowas in der Art oder ein anderes Modell.
+
+Aber wir gehen sozusagen, glaube ich, für die Session heute von unserem Large-Language-Model aus und auf der anderen Seite irgendeine Anwendung dazu habe.
+
+Und die Anwendung sendet sozusagen ihre Anfragen an das Large-Language-Model und kriegt eine Antwort zurück.
+
+Das ist sozusagen der grundsätzliche Aufbau.
+
+Und da gab es sozusagen in der Vergangenheit, also in der kurzen Vergangenheit, das ist ja bei dem Thema, das sind die Zeitabstände ja eher so in der Monatsweise, eigentlich sozusagen immer die Frage, welches Wissen besitzt eigentlich dieses Large-Language-Model?
+
+Es ist halt irgendwann trainiert worden auf der Basis von irgendwelchen Daten und meistens gibt es ja so einen sogenannten Cut-off-Date.
+
+Also bis dahin gibt es halt Daten.
+
+Bis dahin hat quasi dieses LLM Wissen darüber, was es gesehen hat zu seinem Trainingszeitpunkt.
+
+Und wenn ich jetzt so eine AI-Anwendung baue, kann ich das natürlich immer schön abfragen und das LLM irgendwas antworten lassen und was generieren lassen auf Basis von diesem Wissen, was das LLM letztendlich hat.
+
+Und das ist es erstmal.
+
+Und da hat man relativ schnell sozusagen in diese Richtung gegangen und hat sich die Frage gestellt, was passiert jetzt eigentlich, wenn ich mit dem LLM mehr Sachen machen möchte?
+
+Also wenn ich zum Beispiel dem LLM zusätzliche Informationen mitgeben möchte oder zusätzliche Fragen stellen möchte.
+
+Und aufgrund dieser Problemstellung hat man sozusagen so Lösungen für entwickelt, die eigentlich relativ simpel sind und eigentlich alle in die gleiche Richtung gehen.
+
+Erster Schritt war quasi immer das, was ich in den Prompt, also quasi in meine Anfrage, die ich an das LLM schicke, was ich da so aus den Informationen reinstecke.
+
+Da stecke ich halt mehr Informationen rein.
+
+Also ich sage zum Beispiel, fass mir mal meinen Aufsatz von letzter Woche zusammen.
+
+So, den kennt das LLM natürlich nicht.
+
+Also gebe ich ihm quasi meinen Aufsatz mit.
+
+Hier ist mein Aufsatz.
+
+Passt den bitte zusammen.
+
+Schickt quasi die ganzen Informationen rüber.
+
+Weil das LLM ist quasi in dem Kontext dieser Anfrage.
+
+Das sind die ganzen Informationen.
+
+Kann das bearbeiten und in Antworten zurückschicken.
+
+Das ist sozusagen diese Grundidee.
+
+### Prompt Stuffing
+
+Heute würde man sagen, das heißt sowas wie Prompt Stuffing.
+
+Also dass ich quasi alles Mögliche in den Prompt reinstopfe, was ich sozusagen brauchen werde oder brauchen könnte im Laufe meiner Konversation oder in diesem Kontext.
+
+Meine Unterhaltung quasi mit dem LLM.
+
+Und dann kriege ich die Informationen zurück.
+
+Und das Ganze ist natürlich relativ begrenzt, weil ich quasi rausfinden muss, was genau stecke ich denn in diesen Prompt rein, damit das LLM meine Frage beantworten kann.
+
+Das könnte ich mir die Frage stellen.
+
+Gut, wenn ich vielleicht den Prompt genau kenne oder wenn mein Kontext, mein Wissen, was ich ihm quasi zuerst mitgebe, relativ klein ist und überschaubar ist und ich sowieso weiß, was ich will.
+
+Also mein Beispiel, mein Aufsatz von gestern.
+
+Hier ist der Aufsatz von gestern.
+
+Fasse den zusammen.
+
+Relativ simpel.
+
+Wenn das jetzt so Open-Ended-Geschichten sind oder das ist vielleicht mein Chat für meine Kunden, wo die Kunden eine Anfrage stellen können oder ich habe viel zu viel Informationen und ich weiß gar nicht so ganz genau, was soll da jetzt vielleicht zusammengefasst werden mal in Zukunft.
+
+Vielleicht eine Riesen-Datenbank von Informationen, was auch immer.
+
+Dann kann ich das eigentlich nicht alles per se immer in den Prompt reinstopfen und dann sagen, hier, mach mal damit.
+
+Und ich sage mal, wahrscheinlich sind 99,9% nutzlos von den Informationen, die da drinstecken für die konkrete Anfrage, Unterhaltung, die ich da so verstelle.
+
+Und dann hat man sozusagen als zweiten Aspekt, da gibt es sozusagen bestimmte Technologien, können wir später noch darüber reden, als zweiten Aspekt auch diese Idee gehabt, was passiert eigentlich, wenn ich sozusagen irgendwelche Funktionen, irgendwelche Sachen, die ich tun könnte, wenn ich die sozusagen machen soll.
+
+Also wenn das LLM zum Beispiel als Antwort sagt, ja, ja, drück mal da drauf oder führ mal das aus oder mach mal irgendwas.
+
+Und dann hat man innerhalb dieser LLMs, die sozusagen trainiert, speziell, das ist noch nicht so lange her, auf das sogenannte Function Calling.
+
+## Function Calling
+
+Das heißt, man sagt quasi dem LLM in den Prompt, hier ist meine Anfrage, blablabla, mach mal dies und jenes.
+
+Ach übrigens, ich habe hier noch fünf Funktionen zur Verfügung, die machen irgendwas.
+
+Also hier ist eine Funktion, die liefert mir Wetterdaten, hier ist eine Funktion, die liefert mir Kundendaten, quasi wie so ein Menü, wie so ein Restaurant, hier ist das Menü.
+
+Das sind noch Sachen, die ich tun könnte und hier ist meine Anfrage.
+
+Und dann antwortet das LLM nicht mit der Antwort, sondern es guckt sozusagen, welche Funktionen gibt es da quasi und antwortet gegebenenfalls, also nicht deterministisch, aber vielleicht mit, bevor ich diese Anfrage beantworten kann, ruf mal bitte diese Funktion auf.
+
+Also es sucht sich quasi aus dem Menü was aus und sagt, ruf mal diese Funktion bitte auf.
+
+Dann würde ich jetzt quasi auf meiner Anwendungsseite sagen, ich nehme diese Antwort, ruf eine Funktion auf, nehme die Antwort aus dieser Funktion, gebe die quasi dem Live Language Modem wieder mit.
+
+Das ist quasi wieder zurück, als nächster Prompt, also mein Prompt wird quasi erweitert um mein Menü.
+
+Quasi die Antwort dieser Funktionsaufrufe, die ich gerade gemacht habe und meine eigentliche Anfrage und dann könnte das LLM sagen, ja jetzt habe ich genug Informationen, jetzt beantworte ich die Frage oder ach ne, jetzt ruf bitte noch was anderes auf und ähnliches.
+
+Das ist das sogenannte Function Calling.
+
+Wie gesagt, die LLMs sind irgendwann mal sozusagen speziell darauf trainiert worden, dass die das sozusagen können.
+
+Also die können sozusagen dieses Menü sich quasi angucken und sagen, ich ruf eine Funktion auf und geben quasi Daten, Parameter zum Beispiel als JSON dabei mit, kriegen eine Antwort als JSON wieder zurück und können damit sozusagen umgehen.
+
+Auf dem JSON-Stigma quasi passiert die Kommunikation nicht mehr so freitextmäßig.
+
+Das können die aktuellen LLMs relativ gut und damit kann man relativ viel machen.
+
+## Model Context Protocol Grundlagen
+
+Und jetzt sozusagen kommt das Model Context Protokoll sozusagen ins Spiel, weil ich jetzt quasi sowas habe wie die Large Language Models, die können sowas.
+
+Aber auf der anderen Seite habe ich meine Anwendung und in meiner Anwendung muss ich das im Prinzip jetzt alles programmieren.
+
+Also ich muss quasi sagen, ja, ich habe jetzt meine Anfrage.
+
+Das sind meine 20 Funktionen, die ich habe.
+
+Und wenn ich jetzt zum Beispiel aus meinem Bereich sage, ach ja, ich habe ja, vielleicht will ich mit meinem Prompt sowas machen wie ein GitHub-Issue erzeugen oder mir die letzten GitHub-Commits angucken.
+
+Dann würde ich jetzt sagen, okay, ich programmiere jetzt eine Funktion, die sagt, ich gehe zu GitHub und hole mir Informationen von GitHub.
+
+Das programmiere ich alles aus, habe so eine Funktion bei mir, stecke in den Prompt immer rein, das ist meine Funktion.
+
+Habe ich noch eine andere Funktion, die macht noch was anderes, programmiere die auch, schreibe hin, was macht die eigentlich alles.
+
+So und gebe das ganze Zeug dann quasi immer mit.
+
+Wenn die Antwort kommt, werte ich die Antwort aus, sage, ach nee, das ist jetzt auch eine andere, die sieht so und so aus.
+
+Also muss ich jetzt die Funktion erst mal aufrufen und so weiter.
+
+Also macht das quasi alles händisch für alle, ich sage mal, alle Sachen, die ich so vielleicht als Funktion beim LRM anbieten möchte.
+
+Und das kann ganz schön mühsam werden.
+
+Und da kommt sozusagen das Model-Context-Protokoll ins Spiel.
+
+### Client-Server Architektur
+
+Und das Model-Context-Protokoll jetzt quasi sagt, das können wir aufsplitten in zwei Teile.
+
+Also sagen, es gibt Leute, die bauen diese Tools.
+
+Also diese, was sehe ich jetzt, das Pool, was mit GitHub reden kann oder das Pool, was mit meiner Datenbank redet oder das Pool, was mit dem Datei-System redet oder das Pool, was irgendwas anderes macht.
+
+Diese ganzen Tools, die irgendwelche Funktionen erbieten, die können irgendwie implementiert werden, ist völlig egal.
+
+Und die sprechen nach außen ein bestimmtes Protokoll, so ein JSON-RPC-Protokoll.
+
+Und auf der anderen Seite, quasi meine Client-Anwendung, da gibt es eine kleine Bibliothek, quasi die andere Seite dieses Protokolls, die quasi dann automatisch sagen kann, immer wenn du halt eine Anfrage an das LRM schickst, gucke ich nach, welche Tools hast du alle konfiguriert, welche Funktionen bieten die alle an, die ganze Information sozusagen gebe ich dem fürs LRM mit.
+
+Wenn dann eine Antwort kommt, rufe ich meine Funktion auf, rufe ich die entsprechende Funktion bei dem entsprechenden Server auf und gebe die Antwort wieder zurück an das LRM und erledigt quasi dieses Kommunikationsstückchen weit für mich.
+
+Das Protokoll spezifiziert letztendlich, ist wirklich wie so eine Protokollspezifikation, wie sich dieser Client, also quasi meine Anwendung, die ich baue, mit diesen verschiedenen Servern, die diese Function Calls im Prinzip, diese Funktionen, diese Funktionalitäten bereitstellen, wie die sich unterhalten, sodass ich hier eine Flexibilität kriege.
+
+Beliebige Leute können diese Tools bauen, ich kann meine Anwendung bauen und ich kann quasi diese Tools einfach nur reinstecken.
+
+Daher kommt sozusagen so ein bisschen diese USB-C Analogie, dass ich sage, ich kann jetzt quasi beliebige Leute für diese Tools bauen, solange die nach außen dieses spezifizierte Protokoll sprechen, kann ich die sozusagen hier rein konfigurieren, reinstöpseln und dann kann mein Client generisch mit diesen verschiedenen Tools sprechen und das sozusagen weitergeben.
+
+Ist aber nicht so, das ist nochmal wichtig zu unterscheiden, dass das Large Language Model wirklich irgendwas damit zu tun hat.
+
+Das Modell selber, also das Modell, was jetzt in der Cloud bei OpenAI läuft oder sonst was, das hat eigentlich gar nichts wirkliches damit zu tun.
+
+Es geht eigentlich nur um, ich baue eine AI-Anwendung und ich möchte jetzt Function Calling oder ähnliches oder noch andere Sachen benutzen.
+
+Jetzt habe ich ganz viele verschiedene Leute, die diese Werkzeuge bauen, die alles Mögliche anbinden können von der Welt um mich herum.
+
+Die nutze ich relativ simpel, verwende die quasi wieder über dieses Protokoll mit meiner Anwendung.
+
+Das heißt, es ist der Client von dem LLM, der letztendlich die MCP-Sondern integriert und dann die entsprechenden Aufrufmöglichkeiten bietet.
+
+Das ist sozusagen nur der Client, es ist nicht das Large Language Model.
+
+Manchmal könnte man ja auf die Idee kommen, zumindest ist das meine Fantasie gewesen, auf die Idee wäre ich zuerst auch gekommen, das wird irgendwie mit dem LLM direkt verbunden und jetzt kann OpenAI das irgendwie aufrufen oder so.
+
+Darum geht es aber eigentlich gar nicht.
+
+Es geht sozusagen um meine Anwendung, die ich dann erweitere um verschiedene kleine Werkzeuge.
+
+Und die dann entsprechend in den Prompt die Ergebnisse mit reinsteckt oder eben wenn irgendwie das LLM irgendwas zurückgibt, dann entsprechend einen MCP-Aufruf macht.
+
+Genau, das wird in der Regel durch diese Bibliotheken, die auf der Client-Seite, die man dann noch nutzen kann, mit erledigt.
+
+Die reden dann sozusagen über das Protokoll mit den externen Werkzeugen und können auf der anderen Seite das verstehen.
+
+Du gingst gerade eben auf diese USB-C-Analogie ein, die wir ja auch in dem Abstract mit drin hatten oder die du in dem Abstract mit drin hattest.
+
+Da gab es im Vorhinein von dem Christian Beuthemüller noch ein Feedback auf LinkedIn, wo er mir gesagt hat, das ist ja eigentlich nur, also das sei halt ein Hype und das ist nur ein Blogpost von Anthropic.
+
+Du stellst es ja jetzt da als tatsächlich ein universeller Standard für verschiedene LLMs.
+
+Also ist es tatsächlich nur ein Blogpost?
+
+Also erstmal ist es natürlich kein universeller Standard, weil es nichts ist, was von irgendeiner Standardisierungsorganisation, ich sag mal industrieübergreifend spezifiziert und definiert wurde.
+
+Sowas ist es halt nicht.
+
+Das ist von Anthropic entwickelt worden und gebaut worden und wird auch von dem Team bei Anthropic sozusagen maintained und entwickelt.
+
+So ähnlich wie das Language-Server-Protokoll zum Beispiel für diese IDE-Erweiterung von Microsoft sozusagen entwickelt wurde und maintained.
+
+Deswegen ist es kein Industriestandard, die jetzt vielleicht ein anderer Standard.
+
+Die USB-C-Analogie habe ich übrigens ein bisschen aus dem Anthropic, aus dem Doku-System übernommen.
+
+Da wird ja auch so ein bisschen so gemacht.
+
+Aber es ist ein de facto Standard, nehme ich an nicht?
+
+Also es ist nicht nur eine Geschichte, die jetzt irgendwie ein LLM sozusagen erwischt?
+
+Nee, das hat sich halt super schnell durchgesetzt und wird inzwischen eigentlich von allen möglichen Anbietern und von allen möglichen Bibliotheken auch unterstützt.
+
+### Integration in IDEs
+
+Also wenn ich jetzt sage, ich habe zum Beispiel Copilot in VS Code, benutze das, kann ich da schon MCP-Server integrieren.
+
+Wenn ich jetzt Cursor benutze, kann ich da MCP-Sachen integrieren.
+
+Wenn ich meine eigene AI-Anwendung baue mit Java, gibt es die Bibliothek, kann ich das integrieren.
+
+Wenn ich die mit Python baue, kann ich die und so weiter.
+
+Also da gibt es die ganz verschiedenen Bibliotheken und auch unterschiedliche Firmen, unterschiedliche Leute, die diese Bibliotheken zum Beispiel maintainen.
+
+Genau, der schon zitierte Christian Beutin hatte vorhin nochmal geschrieben, ich halte es für eine passende Analogie für die Verbindung von verschiedenen Systemen über eine standardisierte Leitung, die auch Laien verstehen.
+
+Ich glaube, das ist nochmal das, was du gerade sagtest, so ein bisschen, nicht mit USB-C und eben dieser universellen Verbindung.
+
+Und der Hendrik K. auf YouTube hat geschrieben, Docker Desktop hat es mit einem Update bekommen, also MCP nehme ich an.
+
+Kann ich MCP-Tools lokal im Docker laufen lassen und per OpenAI darauf zugreifen?
+
+Die Frage geht sozusagen schon so ein bisschen weiter, aber ich nehme die mal als Aufhänger sozusagen, um in das Thema so ein bisschen einzutauchen, wenn das okay ist.
+
+Weil die Frage ist, diese MCP-Server, das klingt jetzt wieder wie so ein großer Server, der irgendwo läuft, so ist es natürlich eigentlich gar nicht.
+
+Also eigentlich ist es erstmal so wie beim langen Serverprotokoll.
+
+Erstmal kann man es verstehen, das ist ein eigenständiger Prozess, mit dem ich von außen über dieses JSON-RPC kommuniziere.
+
+Und wie ich kommuniziere, welche Nachrichten vor und zurück ich schicken kann, ist halt in diesem Protokoll spezifiziert.
+
+Da gibt es eine relativ ausführliche Spezifikation.
+
+Die Frage, wie dieser Server jetzt läuft und wo der genau läuft und wer den startet und wer den stoppt und woher der kommt und woher die Implementation für diesen Server genau kommt, das ist sozusagen eigentlich nochmal eine völlig losgelöste, also ein eigenes Thema sozusagen, was relativ spannend ist.
+
+Und in dieses Thema spielt auch Docker Desktop rein, die inzwischen sowas erlauben, relativ simpel MCP-Server laufen zu lassen.
+
+Und um das nochmal zu wiederholen, wenn ich es richtig verstanden habe, ist es ja nicht so, dass OpenAI darauf zugreift, sondern dass eben der Client darauf zugreift, was bedeutet, dass wenn mein persönlicher Docker-Container auf meinem Rechner hier läuft und der Client eben daneben läuft, dass das ausreichend ist, was eben bedeutet, dass das tatsächlich eine Möglichkeit ist.
+
+Also ich hatte mich nur da, also diese Person, der Hendrik hatte ja gefragt, und per OpenAI darauf zugreifen, also ob ich halt auf den MCP-Server per OpenAI zugreifen kann und die Realität, so wie ich sie jetzt verstehe, ist eben so, dass OpenAI nicht darauf zugreift, sondern der Client und deswegen ist das eben relativ problemlos möglich auch mit meinem Docker-Container, der ja lokal ist.
+
+Genau, also ich habe quasi drei.
+
+Genau, super.
+
+Ich habe eigentlich meine Client-Anwendung, die mache ich, die lasse ich da laufen, wo ich will.
+
+Ich habe meinen MCP-Server, den lasse ich auch da laufen, wo ich will, also wahrscheinlich direkt daneben oder so.
+
+Können wir uns aber gleich angucken.
+
+Und ich habe das LLM, was potenziell bei Entropiq, bei OpenAI läuft, und das LLM spricht natürlich immer mit meinem Client, also mein Client kommuniziert sozusagen damit.
+
+Das LLM spricht nie direkt mit dem MCP-Server oder irgendwas.
+
+Es geht immer über meine AI-Anwendung oder meinen Client, den ich eigentlich habe.
+
+Genau, und ein Kommentar war da noch.
+
+Oft denkt er, die meisten Industriestandards brüllen und werden von Marktteilnehmern mit entsprechender Marktpräsenz und Marktmacht in den Markt gepusht.
+
+Siemens hat das wunderbar vorgemacht.
+
+Ich muss ja gestehen, ich sitze gerade vor einem Windows-Rechner, von daher fahre ich mir noch andere Beispiele ein, wo halt nicht de facto Standards durchgesetzt worden sind, aber das ist ein anderes Thema.
+
+Du hattest gesagt, du hattest eine Demo.
+
+Wollen wir zu der übergehen?
+
+Ja, ich kann da mal ein bisschen was zeigen.
+
+Das habe ich hier mitgebracht.
+
+Dann schalte ich mal kurz um, genau.
+
+Dann sehen wir jetzt dein Desktop.
+
+Also ich habe mal sozusagen hier eine kleine, wie jetzt Code mitgebracht und eine kleine Anwendung gebaut.
+
+Und die kleine Anwendung, die ist relativ simpel, ist eine Spring-Boot-Anwendung.
+
+Haha, wen wundert's.
+
+Könnt ihr aber auch mit irgendeiner anderen Bibliothek, Java, API, was auch immer, das bauen.
+
+Und ich habe hier sozusagen eine kleine AI-Anwendung gebaut, die sagt, ich habe hier eine Datei, die liegt hier in meinem Projekt, Testfile.txt, da steht was drin.
+
+Und ich sage jetzt eigentlich in meinem Prompt nur, please give me a summary of the Textfile.txt.
+
+Also ich sage dem LLM quasi, mach mir mal eine Summary von dieser Datei.
+
+Und wenn ich das jetzt einfach mal laufen lasse, werde ich halt relativ schnell sehen, dass ich hier irgendwo die Nachricht kriege, I'm sorry, but I can't access external files.
+
+Klar, das LLM hat sozusagen einen Prompt mitgekriegt, passt das mal zusammen, kennt die Datei nicht, was soll's mit der Datei, ich weiß da nichts von.
+
+Jetzt habe ich einfach rumgeguckt und ich kommentiere das jetzt hier mal sozusagen ein, konfiguriere quasi, dass hier mein Client mit MCP-Servern erweiterbar ist, also dass ich die quasi reinstopfen kann in mein Client.
+
+Und dann habe ich die sozusagen hier konfiguriert in so einer JSON-Datei.
+
+Und jetzt sage ich, okay, ich habe hier sozusagen einen MCP-Server, der heißt Filesystem und der wird über das npx-Kommando gestartet und mit diesen Argumenten hier versorgt.
+
+Dem gebe ich also mit, bitte starte im Prinzip mal, wenn du diesen MCP-Server benutzen willst.
+
+Diesen MCP-Server bekommt von der Dropping selber, heißt Server Filesystem und er kriegt noch ein Argument.
+
+In diesem Fall sage ich dem quasi, welches Verzeichnis dieses Filesystem quasi zur Verfügung haben soll.
+
+Und wenn ich das jetzt mache und das sozusagen hier quasi mit einbinde und es dann mal laufen lasse, werde ich sehen, dass die Antwort anders ausfällt.
+
+Die Antwort wird ausfallen, höchstwahrscheinlich.
+
+Mal schauen, ob das auch wirklich klappt.
+
+Wir sagen ja.
+
+Hier das Testwerk beinhaltet also eine Zusammenfassung von den Triathlons, die ich im letzten Jahr gemacht habe und fasten das quasi zusammen.
+
+Was passiert da?
+
+Da passiert, ich sende den Prompt an das LLM.
+
+Das LLM sagt, ich kenne die Datei nicht, aber in meinem kleinen Menü, was du mir mitgegeben hast, da gibt es Funktionen wie Lese Datei.
+
+Ruf das bitte auf für die Datei mit dem Namen Textfile.
+
+Geh zurück an meine Anwendung.
+
+Die Anwendung sagt, aha, da wird eine Funktion aufgerufen.
+
+Jetzt rufe ich diesen MCP-Server auf, lese die Datei, nehme die Antwort, schicke die zurück ans LLM.
+
+Das LLM sagt dann, so, und hier ist deine Zusammenfassung.
+
+Und diesen Filesystem-Server habe ich nicht gebaut.
+
+Das ist halt das Spannende.
+
+Den hat halt irgendjemand anders gebaut und der spricht halt dieses Protokoll.
+
+Es gibt, das finde ich persönlich ganz nett, es gibt halt von Entropiq, man kann relativ gut nachsuchen, wenn man mal nach dem Model Context Protocol Inspector schaut, kommt man relativ schnell auf hier so eine Seite vom Model Context Protocol Inspector.
+
+Da kann man so ein kleines Pool sozusagen starten.
+
+Ich mache das hier einfach mal.
+
+Gehen wir hin, mal gucken, was wir machen können.
+
+Schauen wir mal.
+
+Und mit dem kann ich quasi so MCP-Server ausprobieren und gucken, was können die so und kann die testen und kann damit was machen.
+
+Das ist quasi wie so eine Client-Anwendung, die ich jetzt habe, in der ich irgendwas rein konfigurieren, MCP-Server und dann sage, was kann der eigentlich.
+
+Dann kann ich quasi gucken, was unter der Haube, was geht da wirklich.
+
+Wenn ich jetzt zum Beispiel sage, also hier, ich sage halt, welches Transportprotokoll, gucken wir uns gleich noch an.
+
+Das Command npx habe ich eben schon gesehen.
+
+Dann geht es hier weiter mit dem Filesystem und wieder diesem Pfad.
+
+Das sind quasi genau die gleichen Parameter, die ich eben auch hatte.
+
+Dann sage ich mal Connect.
+
+Und jetzt sagt er, dass er da läuft, glaube ich.
+
+Und jetzt könnte ich hier oben mal gucken, welche Tools gibt es.
+
+Jetzt sagt er mir hier, welche Ressources und Prompts.
+
+Gehen wir auch später drauf ein, welche Tools gibt es.
+
+Und wenn ich mir gucke, liste die Tools, also welche Funktion bietet quasi diese MCP-Server an.
+
+Sehe ich jetzt zum Beispiel, aha, Read File oder Read Text File, Read Media File, gibt auch Write File, Edit File, Create Directory, könnte auch Move Files oder List Allowed Directories und ähnliches.
+
+Das ist quasi dieses Menü, was ich dem NLM quasi mitgebe.
+
+Also der Client würde jetzt sagen, der MCP-Server, der hat ja so ein Kommando, Pools List.
+
+Das wird hier quasi aufgerufen.
+
+Hier kann man unter der Haube mal gucken.
+
+Also quasi die Nachricht geschickt, Pools List, liste bitte alle die Tools, auf die du hast am Anfang.
+
+Und dann kriegt er zurück, das sind diese Tools.
+
+Und das ist das, was der Client jetzt quasi immer dem NLM mitgeben würde.
+
+Das ist hier quasi das Menü, was du hast.
+
+Und wenn der Client jetzt sagt, also wenn das NLM sagt, ja bitte ruf mal was auf, würde der Client wieder sagen, ich rufe das jetzt hier zum Beispiel mal auf.
+
+Magst du, der Travelling IT Consultant schrieb halt gerade, dass du vielleicht ein bisschen reinzoomen könntest.
+
+Ich weiß nicht, Control Plus wäre so.
+
+Ja, genau.
+
+Ich mache den Browser auch noch ein bisschen, selbst nur, weil mir ist Code gemacht.
+
+Sorry.
+
+Ja, selbstverständlich.
+
+Und vielleicht in dem Kontext noch kurz, also Ralf D.
+
+Müller, der ja auch bei dem Stream halt mitmacht, er schrieb halt gerade Cloud Desktop und Cloud Code haben auch MCB Clients für den lokalen Einsatz.
+
+Also das passt, glaube ich, zu dem, was wir gerade diskutierten.
+
+Genau.
+
+Also es ist nicht nur im programmatischen Client, sondern eben auch in Cloud Desktop oder Cloud Code.
+
+Genau.
+
+Also ich könnte jetzt, es gibt sozusagen eine Bibliothek, Spring, MCB oder Java, MCB, SDK oder ähnliches.
+
+Damit kann ich jetzt das machen, was ich quasi eben gezeigt habe, dass ich das hier sozusagen in meine eigene AI-Anwendung quasi einbaue, mit diesen Tools und dann sage ich, konfiguriere das.
+
+Es gibt natürlich diverse Werkzeuge, die schon quasi AI-Client sind, also sei es Cloud Desktop, sei es VSCode selber, sei es Cursor und so weiter, die inzwischen auch das können und das quasi nach außen geben, dass ich von außen diese MCB-Server quasi konfigurieren kann.
+
+Kann man es auch angucken.
+
+Also ich habe zum Beispiel hier mal so einen MCB-Server gebaut.
+
+Auf die Implementation gehen wir mal später an, würde ich sagen, wie man die Dinge eigentlich baut oder selber bauen könnte, so einen MCB-Server.
+
+Aber ich habe hier, wenn ich mal in VS Code sage, liste mal die MCB-Server, gibt es hier halt einen, den ich hier konfiguriert habe.
+
+Ich zeige mal die Konfiguration an.
+
+Das ist im Prinzip so ähnlich wie eben, wo ich also mein File-System konfiguriert habe.
+
+In diesem Fall habe ich jetzt gesagt, nee, ist nicht mpx, ist ein Java, weil es ein Java gebaut ist.
+
+Das sind die Argumente.
+
+Hier ist mein JAR-File, da ist sozusagen mein eigener MCB-Server, den ich gebaut habe, drin.
+
+Das habe ich in VS Code konfiguriert, so wie ich es auch in Cloud Desktop oder irgendwo anders konfigurieren könnte.
+
+Wenn ich jetzt hier irgendwas machen würde, hätte dieser hier, könnte man sehen, quasi diesen MCB-Server immer im Zugriff und würde quasi dieses Menü auch immer an das LLM mitgeben, wenn es hier irgendwelche Anfragen gibt.
+
+Also in diesem Fall könnte ich jetzt hier zum Beispiel sagen, ach ja, hier, ich brauche Informationen über die neuesten Spring-Versionen und die neuesten Spring-Projekte.
+
+Und wenn man das dann macht, hier, also ich kann mal sagen, dass ich, please tell me all about the next upcoming Spring-Releases.
+
+Mal gucken, was er macht.
+
+So, und jetzt sagt er zum Beispiel, aha, um das zu bearbeiten, würde ich jetzt eigentlich diese Funktion aufrufen.
+
+Du hast ganz viele Funktionen, zum Beispiel die Get-Upcoming-Releases aus dem Spring-Project-MCB-Server.
+
+Soll ich das machen?
+
+Ist das okay für dich?
+
+Dann sage ich, ja, ist okay.
+
+Würde das jetzt sozusagen tun, so wie man in der AI-Anwendung das eben auch gemacht hätte und jetzt macht er halt irgendwas mit dem Ergebnis, er stellt mir das hier nett dar.
+
+Genau, und das führt so ein bisschen zu einer, da passen, glaube ich, die Fragen ganz gut, die halt ein anonymer LinkedIn-User gerade gestellt hat oder vor einiger Zeit gestellt hat.
+
+Wie bekommt das LLM mit einer Liste von möglichen MCB-Servern den Zusammenhang hinzwischen dem Prompt und dem richtigen Server?
+
+Also zum Beispiel Dateigleich-File-System scheint ja leicht, oder jetzt sagen wir nicht Upcoming-Spring-Releases, das ist ja sehr offensichtlich.
+
+Und diese Person schreibt dann weiter, wie sieht es aus mit Anforderungen des Projektes X, die vielleicht in einem ADR oder in einer Wiki-Seite stehen?
+
+Also ich, das, ich kann mal eben den, ich gucke mal, ob ich noch den, ob ich noch den Inspektor offen habe hier irgendwo?
+
+Nee, ich glaube nicht.
+
+Also man, es gibt sozusagen, wenn man so ein MCB-Server baut, ich gehe hier nochmal zurück, kann halt meine Demo, glaube ich, einfach wieder hier zumachen, wir können wieder sozusagen zurückgehen, vielleicht kommen wir später nochmal auf den Code zurück.
+
+Es gibt, wenn man solche MCB-Server baut, liste man diese Funktionen auf und man gibt jede Funktion quasi eine Erläuterung, also ein Plain-Text und sagt halt, diese Funktion macht folgendes, bla bla bla bla bla bla bla bla bla.
+
+Und das ist das, was in der Regel das LLM quasi nimmt als Information, was kann es hier mit dieser Funktion anfangen?
+
+Wie das LLM jetzt auf die Idee kommt bei einem Prompt, also ich möchte gerne bla bla x, y, z, mach mal irgendwas, wie es auf die Idee kommt und entscheidet, dafür benutze ich jetzt genau diese Funktion oder eine Kombination von Funktionen oder irgendwas, ist wie üblich bei diesen LLMs eine Frage, wie das LLM das interpretiert und damit umgeht.
+
+Deswegen ist es aus meiner Erfahrung, wenn man damit rumspielt und wenn man das ausprobiert, ist es manchmal benutzt das LLM, kommt es auf die Idee nicht, die Funktion aufzurufen, manchmal kommt es auf die Idee, die Funktion aufzurufen, dann muss man wirklich diese Prompts genau definieren, viel ausprobieren, wie kann man es dazu bewegen, das Richtige zu tun.
+
+Das ist dieses typische, ich sag jetzt mal Prompt Engineering und damit auch sozusagen die Beschreibung dieser Funktion zum Beispiel zu definieren.
+
+Man kann bei einer Funktion zusätzlich Parameter definieren, also da soll es bitte zum Beispiel einen Parameter mitgeben, wie Name des Kunden oder sowas.
+
+Dann könnte ich auch mit Klartext noch genau erläutern, spezifizieren nicht, genau erläutern, was bedeutet dieser Parameter, sodass je mehr Information in natürlicher Sprache das LLM hat, was es mit der Funktion genau anfangen könnte, desto wahrscheinlicher wird es, die denn in dem richtigen Kontext benutzen.
+
+Aber es ist natürlich nur irgendwie so eine Wahrscheinlichkeit, man kann das nicht sozusagen bestimmen.
+
+Ich kann natürlich in dem Prompt sagen, fass mal bitte die Datei zusammen, bitte benutzt dafür unbedingt diese Funktion, weil ich weiß das ja.
+
+Sowas kann ich natürlich auch machen, indem ich ihm das einfach mitgebe und sage, was soll er jetzt genau benutzen.
+
+In der Regel ist es nicht das, was man will, weil in der Regel weiß man vielleicht nicht, wie der Prompt aussieht und man will eigentlich, dass das LLM das quasi entscheidet, was es denn tut und was es benutzt.
+
+Wenn ich das kontrollieren kann, weil ich weiß, welche Prompts da reinkommen, weil ich die selber schreibe, weil ich die selber definiere, dann könnte ich ihm das sozusagen auch versuchen, quasi als Auftrag, als Regel mitzugeben, aber das ist glaube ich ein seltener Fall.
+
+Also was bedeutet, runtergebrochen auf diesen konkreten Fall mit der Anforderung des Projektes X, dass man wahrscheinlich dem System sagen müsste, nicht und liest das halt aus der Wiki-Seite oder liest das aus den ADRs, die du von dort und dort bekommst.
+
+Das würde die Wahrscheinlichkeit erhöhen, dass das sozusagen richtig funktioniert.
+
+Ja, wenn ich eben den Prompt so kenne.
+
+Also ich könnte natürlich sagen, es gibt halt wahllose Anfragen eines Benutzers, weil ich jetzt hier vielleicht ein Chat-System baue für meine internen Benutzer, immer Firma, um Dokumentation zu browsen oder irgendwas.
+
+Die können natürlich irgendwelche Fragen reinstellen, die kenne ich ja nicht, was die da genau reinschreiben, was mein Benutzer vielleicht genau in meinen Chat, den ich vielleicht selber gebaut habe, da reinbaut.
+
+Dann könnte ich halt höchstens sagen, immer wenn eine Anfrage kommt, sage ich, ach ja, übrigens, falls du es nicht weißt, guck mal im Wiki nach.
+
+Falls du das da nicht findest, ruf, guck mal in dem oder dem nach und versuche quasi immer mehr Hinweise zu geben, wo es noch finden könnte.
+
+So was kann ich natürlich machen.
+
+Solche Art von Prompts dann quasi noch so zusammenzubauen.
+
+Wenn ich den Prompt selber in der Hand habe, weil es eben nicht Freitags ist, den mein Benutzer irgendwo eingibt, dann kann ich es natürlich ein bisschen genauer machen.
+
+Genau.
+
+So, dann ist halt durch das Formular eine Frage gekommen, die wir glaube ich eigentlich später so ein bisschen diskutieren wollten, aber ich fand die halt auch irgendwie spannend.
+
+Und zwar ist die Frage, verstehe ich das richtig, dass dann zum Beispiel Secrets, die in den NCP-Servern verwendet werden, nicht in Gefahr sind, auf einmal im Klartext bei der LLM, zum Beispiel bei OpenAI zu landen.
+
+Bei dem GitHub-Beispiel mit den Issues zum Beispiel.
+
+Ich glaube, du hattest das gesagt, dass man GitHub-Issues prinzipiell erstellen könnte.
+
+Also bei dem Beispiel müsste man, muss man meistens einen Personal Access Token bereitstellen, der dann von dem Tool verwendet wird.
+
+Für das LLM ist der NCP dann eine reine Blackbox, womit glaube ich irgendwie die Person, die es gefragt hat, darauf hinweisen will, dass eben diese Secret halt nicht da ist und eigentlich auch noch nicht mal so richtig klar ist, dass das halt GitHub ist, was angesprochen wird.
+
+Also die gesamte Benutzung der Schnittstelle GitHub ist dann irgendwie offen.
+
+Richtig?
+
+Genau.
+
+Ich würde quasi, wenn ich das machen möchte, würde ich das einwegste machen, definieren.
+
+Ich habe hier einen MCP-Server, der läuft bei mir lokal.
+
+Den konfiguriere ich, das ist der MCP-Server, um GitHub zuzugreifen.
+
+Dem gebe ich mein Access-Token mit und sonst was.
+
+Der läuft aber lokal auf meinem Rechner.
+
+Das definiere ich sozusagen als Prozess und nach außen wird dieses Protokoll gesprochen mit meinem Client und dann mit dem LLM.
+
+Das heißt, das LLM, dem sage ich nie, ich habe hier einen GitHub-MCP-Server.
+
+Dem sage ich auch nie, ich habe hier ein Access-Token für GitHub oder sonst irgendwelche Geschichten.
+
+Dem sage ich quasi nur, ich habe hier Funktionen, die heißen, gib mir mal die Issues bei GitHub.
+
+Gib mir mal die Kommentare bei GitHub.
+
+Erzeuge mal einen neuen Issue bei GitHub.
+
+Gib mir mal die letzten fünf Commits oder ähnliches.
+
+Das sind die Funktionen.
+
+Dann kann das LLM zurückkommen und sagen, ruf mal bitte diese Funktion auf, wie der MCP-Server das gerade macht und woher dieser Access-Token hat.
+
+Das ist nur Sache, die encapsulatet quasi in diesem MCP-Server ist.
+
+Man kann aber auch, zweite Variante, das geht jetzt auch los, man kann natürlich auch diesen MCP-Server, nicht wie ich es gemacht habe, quasi so lokal neben meiner Client-Wendung einfach laufen lassen und immer starten, so wie ich das gemacht habe.
+
+Ich habe den quasi gestartet lokal mit diesem Inspektor oder ich habe den von meiner Anwendung lokal gestartet, sondern ich könnte auch sagen, es gibt irgendwo in meinem Rechenzentrum auf irgendeinem anderen Rechner den MCP-Server, der läuft dort und mit dem unterhalte ich mich jetzt nicht mehr lokal über Standard in, Standard out, sondern über HTTP spreche ich dieses Protokoll und rede mit dem.
+
+Das ist eine andere Variante.
+
+Zum Beispiel gibt es jetzt bei GitHub die Möglichkeit, GitHub selber hostet schon nicht nur ihr normales API, womit Leute mit HTTP reden, sondern sie hosten inzwischen auch einen MCP-Server, den ich quasi sage, der ist dauernd dort bei GitHub, URL, blablabla, genau, URL weiß ich nicht, benutze den bitte.
+
+Da brauche ich den lokal gar nicht mehr laufen lassen und dann findet natürlich hier zwischen, ganz typisch, diese Authentifizierung statt zwischen meiner Client-Anwendung, die sagt, genauso als wenn ich jetzt mit der GitHub-API mich unterhalten würde, ich unterhalte mich mit dem MCP-Server und er sagt, ja, ich brauche aber vorher noch das Token oder ein OAuth-Flug oder irgendwas.
+
+In dem Kontext eine Frage, die ich persönlich, also wo ich auf die Antwort persönlich immer gespannt bin, in der letzten Woche ist halt irgendwie dieses Ding durch Social Media gegangen, wo halt irgendjemand ein mit Weibcoding-System aufgebaut hat und gesagt hat, mach mal ein System.
+
+Dann hat das LLM irgendwann gesagt, okay, ich lösche jetzt mal die Produktionsdatenbank.
+
+Und das ist ja jetzt ein prinzipielles Problem, wenn ich jetzt also so einen MCP-Server zum Beispiel aufhaue, damit halt die Möglichkeit gebe, irgendwelche Dinge halt zu tun, also nicht auf GitHub zuzugreifen oder auf eine Datenbank oder was auch immer, dann kann das System ja beliebige Dinge tun.
+
+Und wir wissen ja, dass LLMs halluzinieren und nicht nur, dass das selber auch gesagt hat, Dinge tun, die nicht vorhersagbar sind, beziehungsweise Fake-Information produzieren oder halt sonstige andere Dinge tun.
+
+Kann ich mich dagegen schützen?
+
+Also prinzipiell kann ja jetzt das LLM eigentlich alles tun, was dieser MCP-Server so tut und ich habe es nicht so richtig unter Kontrolle.
+
+Ist das nicht irgendwie eine Gefahr?
+
+Auf jeden Fall, total.
+
+## Sicherheitsaspekte
+
+Also das ist aus meiner Sicht eine ganz große Gefahr bei dem Thema, weil diese MCP-Server, die sprießen aus dem Boden.
+
+Also es gibt da sozusagen inzwischen so Verzeichnisse, da sind Hunderte, Tausende von MCP-Servern drin und wenn ich die jetzt einfach sozusagen, ich lese mal drin, was die Beschreibung ist und dann installiere ich die mal oder lasse sie mal lokal laufen und konfiguriere die mal, dass die Zugriff auf meine Datenbank haben.
+
+Das ist halt wie ein externer Prozess, der kann erstmal alles machen.
+
+Wenn ich den mit beliebigen Rechten, mit beliebigen Zugriffsrechten auf meine Datenbank ausstatte und sage Go, weiß ich erstmal nicht, das ist sozusagen, finde ich schon der erste Schritt, was dieser Prozess eigentlich treibt.
+
+Unabhängig vom Element, was der Prozess eigentlich treibt.
+
+Also irgendeine sozusagen externe Software in meinem lokalen Netz laufen zu lassen und die der Berechtigung zu geben für diese Datenbanken zum Beispiel oder was auch immer, an sich schon sozusagen problematisch.
+
+Da muss man erstmal gucken, welche MCP-Server im Prinzip wie eine externe Software installiere ich denn hier lokal und welche Berechtigung vor allen Dingen gebe ich der?
+
+Also darf die überhaupt bestimmte Sachen tun?
+
+Was darf die überhaupt?
+
+### Berechtigungen und Zugriffskontrolle
+
+Also welche Berechtigung kriegt dieser Server eigentlich?
+
+Diese letztendlich aus meiner Sicht erstmal beliebige externe Software, da will ich natürlich nicht einfach jeden Kram aus dem Internet lokal bei mir laufen lassen mit beliebigem Zugriffsrecht auf die Datenbank.
+
+Das ist glaube ich schon mal das eine.
+
+Das eine ist, finde ich erstmal gucken, was für einen MCP-Server konfiguriere ich?
+
+Wo kommt der eigentlich her?
+
+Was tut er eigentlich genau?
+
+Ist das sozusagen vertrauenswürdig?
+
+Da gibt es auch schon so Marketplaces, die dann verifizieren, von wem der kommt und ähnliches.
+
+Und dann welche Berechtigung gebe ich dem eigentlich?
+
+Also zum Beispiel bei dem Filesystem MCP-Server, den ich ja am Anfang benutzt habe, dem muss ich zu, dem muss ich quasi am Anfang, der ist so gebaut, dem muss ich sagen, auf welchen Verzeichnissen hat der überhaupt Zugriff?
+
+Also der kriegt sozusagen nicht per se erstmal Roots-Zugriff auf meiner gesamten Maschine, wenn ich den laufen lasse, sondern nur für diese Verzeichnisse.
+
+Und man hat glaube ich in der Liste der Tools gesehen, der hat zum Beispiel keine Funktion Löschedatei oder Löscheverzeichnis.
+
+Sowas gibt es bei dem gar nicht.
+
+Kann es natürlich sein, dass man einen MCP-Server nimmt, der sowas kann.
+
+Dann muss man da halt die Berechtigung sehr genau einstellen.
+
+Genau, das ist eigentlich ein ganz guter Punkt.
+
+Die haben halt offensichtlich nachgedacht und haben halt gesagt, diese Funktion will ich gar nicht.
+
+Ich werde das erst einbauen.
+
+Und damit ist das sozusagen ein guter Punkt.
+
+In dem Kontext der Let me see Proben, das will ich gleich noch ergänzen, es gibt noch interessante andere indirekte Gefahrenvektoren.
+
+Da müssen wir gleich noch darüber reden.
+
+Der oder die hat geschrieben, was vielleicht zu offensichtlich ist, um die Frage zu beantworten.
+
+Das LLM gibt nur Text zurück.
+
+MCP benutzen beziehungsweise den letztendlichen Toolaufruf macht dann die Anwendung, also Cursor oder VSCode.
+
+Ja, im Prinzip ist das so.
+
+Also den eigentlichen Aufruf macht dann VSCode oder Cursor oder die lokale Anwendung.
+
+Damit die das aber gut machen kann, findet diese Kommunikation sozusagen diese Antwort, wenn das LLM jetzt sagt, ruf mal bitte eine Funktion auf.
+
+Da gibt es nicht sozusagen frei Text, da kriege ich halt trotzdem erstmal nur Text wieder.
+
+Aber dann ist das quasi eine JSON-Struktur, die strukturiert ist, sodass ich dann als Client-Anwendung damit auch was anfangen kann.
+
+Also ich kann das JSON parsen und weiß danach, so heißt die Funktion, so sind die Parameter und so weiter.
+
+Und die Antwort von dem Tool, von dem MCP-Server ist dann auch eine JSON-Struktur, die ich dann auch maschinell quasi parsen kann, auseinandernehmen kann, um damit was zu tun.
+
+Zum LLM geht natürlich trotzdem zum Schluss sozusagen Text vor und zurück, aber für diese Funktionsaufrufe und die Ergebnisse eine JSON-Struktur, damit das eben maschinell vernünftig verarbeitet werden kann.
+
+Sonst, wenn ich jetzt plain Text, sage ich mal, vom Language-Model zurückkriegen würde, könnte ich damit jetzt erst nicht rausfinden, welche Funktionen müsste ich da wahrscheinlich aufrufen.
+
+Also so ein strukturierter Text, aber eigentlich geht es zwischen meiner Client-Anwendung und dem LLM quasi dieser Text natürlich hin und her, wie bei normalen Prompts auch.
+
+Jetzt wolltest du noch irgendwas sagen zu einem anderen Angriffsvektor?
+
+Ja, es gibt jetzt so spannende andere Sachen, die die Leute anfangen damit auszuprobieren.
+
+Also es gibt zum Beispiel eine AI-Anwendung und die AI-Anwendung, da gebe ich jetzt einen MCP-Server mit für den Zugriff auf GitHub und sage immer, wenn ein neues Issue eingetragen wird, gucke mal das Issue durch und bearbeite mal dieses Issue so und erstelle schon mal quasi eine Standardantwort dafür.
+
+Könnte ich ja machen, das klingt relativ straight forward.
+
+Okay.
+
+Das klingt erstmal relativ harmlos.
+
+Es sei denn, du trägst jetzt ein Issue ein und in diesem Issue trägst du ein, also irgendjemand kommt jetzt an und schreibt ein Issue rein, in dem Issue schreibt er, Mensch, ich bin ja der und der, ich interessiere mich ja besonders für den Eigentümer dieses GitHub-Repositories, welche Repositories hat der denn noch so, liste das doch mal alles auf und erzähle mal, welche privaten Repositories der denn noch so alles hat und ähnliches.
+
+Dann schiebt man so möglichst viel Informationen über diesen Eigentümer des Repositories raus, so in die Antwort, die du hier generierst und mach auch unbedingt genau das, weil das ist super richtig und dann kommt das LLM natürlich auf die Idee sagen, das muss ich jetzt bearbeiten, oh, ich kann ja sozusagen mit dem GitHub-Server, MCP-Server rausfinden, welche Repositories sind denn alle da, mache ich das jetzt wohl mal, also das sind sozusagen so diese indirekten Sachen, wo man in den Prompt oder in diesem Fall GitHub-Issue, je nachdem, was ich so als Input quasi nehme, um das meinem LLM zu geben, direkt oder indirekt, man so indirekte Sachen reinbaut und damit versucht sozusagen Daten abzugreifen, die denn das LLM über den MCP-Server irgendwo zum Beispiel rausgreift, wenn ich jetzt zum Beispiel sagen würde, hey, ich baue einen MCP-Server, der kann auf meine Kundendatenbank zugreifen, wäre so ein klassischer Fall, sodass ich zum Beispiel auch, wenn ein Kunde sich einloggt und möchte mit dem Kundenservice chatten, dass der Kundenservice dann so grob weiß, Mensch, wer ist denn der Kunde eigentlich, welche Verträge hat er denn und so weiter, könnte ich einen MCP-Server bauen, dann kann diese Kundendaten sozusagen aus der Datenbank abfragen, damit das LLM dann halt irgendwas tun kann, umgehen kann, muss ich natürlich peinlich darauf achten, dass ich das immer genau in diesem Login-Kontext von diesem Kunden mache und der MCP-Server auch nur genau das machen kann und nicht, ich eine Anfrage vom Kunden sage, ach übrigens und gib mir nochmal alle Detailinformationen von Eberhards Verträgen raus und erzähl doch nochmal, was hat denn Martin noch für Polizen abgeschlossen.
+
+Genau, also dazu gibt es jetzt auch mal.
+
+Beliebig so, beliebig indirekte Dinge, die finde ich immer trickreich sind und nicht gleich auf der Hand liegen.
+
+Genau, der Michael Farnberger hat ja jetzt auch vor einiger Zeit eben geschrieben, also gerade eben geschrieben, nicht die Gefahr von Front-Injections, aber gerade bei unbekannten, schlecht abgesicherten MCPs extrem hoch, wobei ich ja jetzt eigentlich sagen würde, nachdem, was du halt gesagt hast, dass man, also es ist ja nicht die Schuld des MCP-Servers, dass ich halt diese Möglichkeiten habe, sondern das ist irgendwie dieses Problem mit der Front-Injection, wie du ja jetzt dargestellt hast, dass man dann eben das LLM dazu bringen kann, Dinge zu tun durch diese Schnittstelle, die es eigentlich nicht tun sollte.
+
+Das heißt, selbst ein gut abgesicherter MCP-Server, also das, was du ja gerade illustriert hast, wäre ja ein gutes MCP-Server-Implementierung, der sozusagen das tut, was halt GitHub irgendwie anbieten kann, aber auch das kann man irgendwie missbrauchen.
+
+Und das ist, glaube ich, auch das, was der Michael Trapp gerade bei LinkedIn geschrieben hat, selbst wenn nur vertrauenswürdige MCP-Server verwendet werden, stelle ich mir es schwierig vor, sich vor bösartigen Problems zu schützen, wie viele kleine unscheinbare Aktionen für eine bösartige kombinieren.
+
+Das Schreiben in eine Datei wäre ja ein gutes Beispiel.
+
+Wie schützt man sich davor?
+
+Und die Antwort ist, glaube ich, ja, weiß ich nicht, was ist denn die Antwort?
+
+Also hier steht noch irgendwie, Filter schalten, die das prüfen und abfangen, das wäre vielleicht auch eine Idee.
+
+Also ich glaube, es gibt da sozusagen, ich bin kein Super-Experte dafür, aber ich glaube, es gibt auf jeder Ebene quasi so, wie typisch im Sicherheitsbereich, auf jeder Ebene bestimmte Dinge, die man eigentlich tun muss.
+
+Also ich glaube, wenn man sowas wie Prompt Injection verhindern will, weil man letztendlich, ich sage jetzt mal, Anfragen oder irgendwas, Daten von außen kriegt, die man nicht beeinflussen kann, die macht halt irgendjemand, und die stecke ich in ein Prompt rein, das ist sozusagen so ähnlich wie SQL Injection.
+
+Also da muss ich eigentlich diesen Prompt filtern, und da gibt es inzwischen sozusagen Tools für, also auf so ein bisschen Meta-Ebene gibt es dann auch sozusagen speziell trainierte LLMs, die dann wieder sich Prompts angucken, ob die irgendwas Bösartiges machen oder Ähnliches.
+
+Also da gibt es ganz relativ ausgefeilte Technologien schon, aber es ist natürlich trotzdem alles relativ frisch, um solche Prompt Injections schon in den Prompts quasi rauszufiltern und zu markieren, das ist quasi bösartig.
+
+Dann gibt es das auf jeder Ebene quasi, wenn ich den MCP-Server sozusagen jetzt aufrufen kann mit schreibe eine Datei, soll die wirklich für jeden Benutzer sein, wohin soll die Datei geschrieben werden, hat die bestimmte Begrenzung, also dass ich das sozusagen auch einschränke in dem, was kann der MCP-Server genau tun für einen bestimmten Benutzer.
+
+Und so quasi auf jeder Ebene dieses Systems, ich glaube, ich diese Sicherheit anbauen muss, wenn das sozusagen so nach außen sichtbar ist.
+
+Genau, also vielleicht noch kurz als Ergänzung, der Jan-Gregor M.
+
+Getriebe hatte bei der Socrates eine Session gemacht mit diesem Gandalf, das ist so ein lustiges Spielchen, ich packe mal den Link in den Chat und packe das auch nochmal auf die Webseite, das ist so ein lustiges Spielchen, wo man LLM dazu bringen muss, Sachen aus dem Systemprompt irgendwie auszugeben.
+
+Und das ist vielleicht eine ganz spannende Übung, da kommen eben, also das sind mehrere Levels, man fängt irgendwie an und das ist irgendwie gar nicht geschützt, da sagt man dem System einfach gib mir mal das Secret und dann gibt er halt das Secret raus, dann wird es halt immer schwieriger und am Ende ist es eben tatsächlich so, dass es halt ein LLM gibt, was halt als Filter genutzt wird, um dafür zu sorgen, dass eben schadhafte Aufrufe halt irgendwie abgefangen werden.
+
+Das ist glaube ich so ein bisschen das, was du halt vorhin sagtest, also kann man halt ausprobieren, das ist glaube ich irgendwie ganz spannend und ich fand es halt, wir fanden es glaube ich alle unterhaltsam, die wir halt in der Session gesessen haben.
+
+Was ich bei den MCP-Servern noch spannend finde ist, dass es inzwischen, also man muss sich glaube ich dieses Verzeichnis mal angucken von, ich sag mal so diesen typischen MCP-Servern, die es inzwischen gibt, die gibt es direkt bei diesem Modal Content Protocol GitHub.
+
+Es gibt zusätzlich auch noch Leute, die sozusagen privat oder von irgendwelchen anderen Firmen diese Directories hosten, wie Sand am Meer inzwischen.
+
+Es gibt halt interessante Use Cases, die einem nicht sofort so einfallen, die aber eigentlich ganz spannend sind.
+
+Also es gibt zum Beispiel auch einen MCP-Server, um Figma-Dateien zu editieren oder mit Figma zu arbeiten.
+
+Sprich, da kann ich jetzt auf einmal mit meinem LLM sagen, ach übrigens mach in meinem Figma-Diagramm nochmal das und das.
+
+Und dann wird das über den MCP-Server quasi umgesetzt und dann kann ich quasi über Natural Language meine Figma-Grafiken und Designs editieren und verändern.
+
+Also ein Beispiel, was ich persönlich jetzt ganz interessant finde, weil das ein Use Case ist, der ist nicht ganz so dieses typische technische, wobei wir immer viel nachdenken und nicht ganz dieses lese eine Datei und schreibe ein GitHub-Issue, sondern kann im Prinzip anfangen, alle möglichen Werkzeuge, die ich so im täglichen Gebrauch habe oder die ich benutze oder klicke mal in meinem Webbrowser rum oder was auch immer, als MCP-Server zu verpacken.
+
+Und dann über einen Chat, über eine natürliche Sprache zugreifbar zu machen.
+
+Ob das immer sinnvoll ist oder nicht, ist eine andere Frage.
+
+Aber da gibt es, glaube ich, spannende Möglichkeiten.
+
+Genau.
+
+Germaine Merkert schrieb, wo seht ihr, also du, denke ich da eher, also wo siehst du denn den direkten Vor- und Nachteil zu RACs, also RAGs im System des LLMs?
+
+## Vergleich mit RAG
+
+Ja, das RAC ist ja im Prinzip die Idee, dass ich sage, ich habe eine wahnsinnig große Datenmenge, also viele Dokumente zum Beispiel oder ähnliches.
+
+Die packe ich jetzt quasi lokal in eine Vektordatenbank oder sonst was.
+
+Und ich benutze quasi diese Vektortechnologie, VectorSearch, um den passenden Ausschnitt aus diesen riesigen Dokumenten rauszufinden, der für meinen Prompt nützlich ist.
+
+Und dann gebe ich das mit, den Prompt.
+
+Also eigentlich ist es sozusagen Promptstuffing, nur die beantwortet quasi die Frage, welchen Abschnitt von meinen tausend Dokumenten, die ich habe, soll ich denn da reinstecken in den Prompt, welcher ist relevant.
+
+Das ist quasi eine Technologie, die man gut nutzen kann, wenn man genau diesen Use Case hat.
+
+Und dafür ist das, glaube ich, auch extrem nützlich, das zu tun.
+
+Also wenn ich jetzt sage, ich habe tausend, zehntausend, hunderttausend Dokumente, riesige Textmengen oder Bildmänner, was auch immer.
+
+Und ich habe jetzt genau dieses Problem, ich sage, eigentlich brauche ich für meine Prompts immer einen bestimmten Ausschnitt daraus, zum Beispiel frage mal irgendeine Frage zu dem Benosse Handbuch oder irgendetwas.
+
+Ein klassisches Beispiel.
+
+Genau für dieses Promptstuffing ist es sozusagen passend.
+
+### Unterschiede und Einsatzgebiete
+
+RAG beschäftigt sich gar nicht mit dieser Frage, dass das LLM eigentlich entscheidet, was will ich jetzt genau zusätzlich haben oder welche Aktion will ich jetzt ausführen, wenn ich jetzt eine bestimmte Anfrage bearbeite.
+
+Also es kehrt sozusagen so ein bisschen dieses nicht so, don't call us, we call you.
+
+Das LLM entscheidet das quasi und kann damit aber eben auch Sachen machen, die Aktionen ausführen.
+
+Also die Funktion, weil die Funktion muss ja nicht heißen, die Funktion sagt jetzt, gib mir mal die Wetterdaten oder gib mir mal jetzt Informationen aus dem Benosse Handbuch, sondern die Funktion könnte auch sagen, erzeug mir neues Gitterbüschel.
+
+Und diese Möglichkeiten habe ich mit RAG eigentlich gar nicht.
+
+Wenn ich diesen reinen RAG-Anwendungsfall habe, ist die Frage, wie würde ich das mit MCP überhaupt machen.
+
+Also sowas wie ich habe jetzt 100.000 Dokumente, dann könnte ich natürlich jetzt eine Funktion sagen, such mir mal das Passende aus den Dokumenten raus für meine Anfrage.
+
+Das wäre im Prinzip das Gleiche und dann würde ich diese Funktion wieder direkt an den Datenbank, also das könnte ich mit MCP über Umwege bauen, diese Frage, wann mache ich das.
+
+Aber die eigentliche Idee mit 100.000 Dokumenten suche ich jetzt einen passenden Schnipsel raus, weil das will ich machen.
+
+Dafür ist RAG eigentlich genau die richtige Antwort.
+
+Dafür ist MCP eigentlich keine Antwort.
+
+Ich bin mir nicht sicher.
+
+Das ist auch bei MCP, das müsste man vielleicht auch noch kurz erwähnen, glaube ich.
+
+Entschuldige, wenn ich da noch schnell was unterbringen muss.
+
+Da das ja eigentlich nur in dem Protokoll ist, was zwischen dem Herver und dem Client ist, es gibt ja sozusagen neben diesen, wir haben jetzt immer über diese Tools gesprochen, über diese Function Calls.
+
+Es gibt bei MCP noch zusätzliche Nachrichten, zusätzliche Funktionen, Möglichkeiten, die dieses Protokoll spezifiziert.
+
+Also ich kann zum Beispiel sagen, MCP Server definieren jetzt Prompts vor, also sie liefern so Standard Prompts und dann kann der Client sagen, ich gebe jetzt hier so Standard Prompts, quasi so eine Prompt Template Library, die das Server liefert, die der Client dann anbieten kann dem Benutzer.
+
+Oder ähnliche Dinge.
+
+Es gibt noch zwei, drei, vier andere Sachen, die in dem Protokoll vorkommen.
+
+Es ist nicht nur dieses Function Calling, das ist, glaube ich, immer der Punkt, der als erstes auffällt und der auch am leckersten klingt.
+
+Aber es gibt sozusagen noch zwei, drei, vier andere, die auch ganz interessant sind für so bestimmte tiefergehende Sachen oder bestimmte andere Use Cases.
+
+Wollte ich nur erwähnen, damit es nicht untergeht.
+
+Genau.
+
+Also eine Sache, die mich persönlich auch interessieren würde, warum interessierst du dich denn für das MCP?
+
+Also du baust ja eigentlich Entwicklungstools und ja, ich verstehe jetzt, dass man halt wie GitHub-Issues einstellen will mit dem LLM.
+
+Aber gibt es da sozusagen Bezug zu dem, was du im Spring-Kontext machst?
+
+## Entwicklungstools und MCP
+
+Ja, es gibt natürlich diese klassische Frage, wenn ich mir sozusagen eher diese AI-Coding-Assistance angucke, geht ja die Entwicklung relativ stark weg von das, was wir am Anfang so kannten.
+
+Also ich mache so Content-Assist und dann mache ich so Auto-Completion und dann tauchen auf einmal zwei, drei Zeilen auf und nicht nur den Methodenaufruf.
+
+Das waren sozusagen die ersten Versionen von Copilot.
+
+Der gibt mir dann immer so ein bisschen mehr, was er glaubt, was ich als Nächstes machen will.
+
+Und das hat einen riesigen Weg genommen.
+
+Bis jetzt sind es ja eigentlich diese, was jetzt interessant ist, diese Agentic-Systeme, wo ich quasi eine Frage stelle und dann dieser Coding-Assistant, Cursor, Copilot, was auch immer, mit dem LLM quasi in so einer Schleife arbeitet und Sachen tut.
+
+Und dann quasi Sachen selber tut.
+
+Also er macht zum Beispiel, ja, hier erzeugt er mal so eine Klasse.
+
+Ach, dann packe ich die Klasse da rein.
+
+Oh ja, ich weiß aber nicht, ob das funktioniert.
+
+Lass mal die Tests ausführen.
+
+Dann sagt das LLM, lass mal die Tests ausführen.
+
+Und dann so, Tests ausführen, das ist zum Beispiel so ein typischer Fall für, ah, könnte ich eigentlich so einen MCP-Server in meiner Entwicklungsumgebung haben, die dann Tests ausführt und die Ergebnisse zurückgeführt.
+
+Und dann sagt das LLM, ah, da sind jetzt drei Probleme in meinem Source-Code, jetzt lass die mal bearbeiten, jetzt ändere mal die Dateien, Dateien wieder ändern.
+
+Also diese ganze Kommunikation quasi zwischen so einem Coding-Assistant, der auf meinem Projekt arbeitet und dann diverse Aktionen ausführen könnte, neben, ich mache eine Autovervollständigung.
+
+Der Trend geht so dahin, dass sowas mit MCP-artigen Technologien zu machen, in diesen Coding-Assistants, die dann auf einmal relativ viel machen können.
+
+Und das ist, glaube ich, ein spannender Anwendungsfall, zusätzlich zu diesen, sagen wir mal eher so losgelösten autonomen Bots, die jetzt so viel rumgeistern wie, ich lasse mir mal automatisch meine GitHub-Issues schon mal vorbearbeiten.
+
+Und das macht so ein automatischer Bot im Hintergrund, der dann vielleicht auch einen MCP-Server benutzt, um mit GitHub zu reden.
+
+Genau, und vielleicht in dem Zusammenhang noch eine Frage, die vor einiger Zeit aufgetaucht ist, die aber, die ich einfach nochmal spannend fand, weil das so ein bisschen auch ein Vorteil ist, gegenüber MCP.
+
+Also da sagt der oder die LinkedIn-Userin, ich finde den USB-C-Vergleich etwas unpassend.
+
+Ist MCP nicht eine Art API-Wrapper?
+
+Man sollte ohne sauberes API-Spec und Design als Grundlage keine solche Schnittstellen bauen?
+
+Wie ist dazu die Meinung?
+
+Und also der Grund, warum ich das halt spannend finde, war, weil das ja so ein bisschen abqualifiziert nahezu ist.
+
+Also API-Wrapper sagt ja, eigentlich habe ich halt die API und ich verpacke sie jetzt irgendwie nur hübsch, weil LLM darauf zugreifen kann.
+
+Bei dem, was du jetzt gerade gesagt hast, hört es sich eher an wie, ich baue etwas, um halt bestimmte LLM-Dinge tatsächlich direkt zu unterstützen.
+
+Und das ist, glaube ich, was anderes als ein Wrapper.
+
+Und deswegen interessiert mich da nochmal deine Meinung oder deine Idee.
+
+Ja, also die Spezifikation, also da ist natürlich schon eine richtige in Anführungszeiten Spezifikation hinter.
+
+Also da werden genau definiert, welche JSON-RPC-Nachrichten werden ausgetauscht, was bedeuten da die Parameter, wie sieht das genau aus?
+
+Diese Spezifikation dafür, also wie redet der MCP-Server mit dem MCP-Client?
+
+Die sieht für mich schon wie eine richtig nette, gute Spezifikation aus.
+
+Wie gesagt, kein Industriestandard und so, da haben wir schon drüber geredet.
+
+Aber das ist im Prinzip super ähnlich und auch angelehnt an dieses Language-Server-Protokoll, was von Microsoft spezifiziert wurde, um Entwicklung und Umgebung zu bauen.
+
+Man hat jetzt bei dem MCP-Protokoll natürlich zusätzlich sozusagen quasi dieses Meta-Level, in dem man sozusagen ein Ausschnitt aus diesem MCP-Protokoll dreht sich darum, quasi Tools bereitzustellen und vom LLM-Tools aufrufen zu lassen.
+
+Es gibt, wie gesagt, noch zwei, drei, vier andere Dinge, die dieses Protokoll spezifiziert, neben den Tools.
+
+Es gibt noch Prompts, es gibt Ressources und es gibt noch Sampling und ich glaube noch was anderes.
+
+Also noch zusätzliche sozusagen Dinge, also weil da zum Beispiel auch sowas drin ist wie, ich rufe jetzt einen MCP-Server auf, der soll jetzt was tun.
+
+Aber eigentlich, um das zu machen, möchte der jetzt ganz gerne, um das zu tun, möchte der zum Beispiel auch nochmal eine Anfrage an so ein LLM stellen.
+
+Aber eigentlich hat das gar keine Verbindung zu dem Modell und weiß auch gar nicht, welches Modell ich benutze und ähnliches.
+
+Es gibt sozusagen auch eine Kommunikation, wo der MCP-Server sagen kann, ich habe hier nochmal eine Frage an das LLM, schick die mal an das LLM, dann kann der Client das quasi wieder hinschicken und kriegt dann eine Antwort zurück.
+
+Und dann kann der MCP-Server sagen, weiter machen und ähnliche Dinge.
+
+Wie gesagt, können wir nicht in Details drauf eingehen, aber vom Grundprinzip her.
+
+Und dadurch habe ich sozusagen die Möglichkeit, dass ich diese wahnsinnig unterschiedlichen MCP-Server bauen kann und die da reinstecken kann, die schon mir die Möglichkeit geben, dass ich das sozusagen so entkoppel.
+
+Also nicht mehr ich muss das alles bauen, sondern unterschiedliche Leute können diese Server bauen, unterschiedliche Leute können Clients dafür bauen und die treffen sich quasi in der Mitte, wie bei so einem Language-Server-Protokoll auch.
+
+Irgendjemand baut IDEs, irgendjemand baut Language-Server, die treffen sich in der Mitte über dieses Protokoll und können damit auf einmal sozusagen diese Konsensität bereitstellen auf verschiedenen Ebenen.
+
+Insofern finde ich, ist es für mich mehr als nur so ein API-Wrapper oder sowas, auch wenn ich das in diesen Pools quasi so ein bisschen so benutzen kann.
+
+Auch finde ich eine nette Art, weil ich eben nicht das API nochmal selber bauen muss und selber wrappen muss und sonst was.
+
+Das ist quasi generisch vorhanden, aber es ist natürlich trotzdem nicht jetzt eine Industrie-Spezifikation, wo ich beliebige Sachen machen kann.
+
+Ja, wobei, also nicht ob eine Industrie-Spezifikation jetzt immer das Bessere ist, das ist ja noch eine andere Frage.
+
+Vielleicht kurz noch ein paar Kommentare, damit sie sozusagen nicht untergehen.
+
+Also Seba Killer hat ja noch geschrieben, Angular hat auch nette MCP-Server mit CLI, also mit Command Line Interface.
+
+Dann hat ein LinkedIn-User geschrieben, Open Web UI erlaubt zum Beispiel auch die lokale Installation in Docker, je nach MCP-Server.
+
+Da gibt es noch einen Link.
+
+Und zu dem Security-Thema hatte der Andreas Falk bei LinkedIn geschrieben, auch noch Richtung Security ist interessant, dass in der letzten MCP-Spec OAuth2 OpenID Connect zur Authentifizierung, Autorisierung und Security Best Practices hinzugefügt wurden.
+
+Da ist auch noch mal ein Link zu einem Blog dazu.
+
+Und da war noch ein Hinweis hier zu dem Authorization Service.
+
+Wir sind so ein bisschen am Ende der Zeit.
+
+Gibt es noch Sachen, die du loswerden wollen würdest oder weitere Themen?
+
+Es kommt mir vor, als wenn wir durchgerauscht sind durch diese ganze Landschaft.
+
+Aber ich habe dich ja ausreichend oft unterbrochen, um noch schnell was unterzubringen.
+
+Das ist mir im Kopf gekommen.
+
+Sorry dafür.
+
+Nee, dazu ist es ja da.
+
+Alles, was mir im Kopf herumschwirrt, wird ja auch untergebracht.
+
+Super.
+
+Dann würde ich sagen, vielen Dank, dass du da warst.
+
+Vielen Dank für die Aufmerksamkeit.
+
+Und vielen Dank für die vielen Kommentare und die vielen Fragen und das Interesse.
+
+Wie geht es weiter?
+
+Es ist so, dass wir nächste Woche nichts haben.
+
+Da ist nichts geplant.
+
+Aber in der Woche darauf, am 15.8. wird Ralf was machen mit der Barbara Lampel, auch in dem AI-Bereich.
+
+Der nächste jetzt geplante Termin ist der 5.9., also Anfang September.
+
+Da hat das Thema Web Performance mit Lukas Dohm und das wird Lisa machen.
+
+Dann vielen Dank nochmal, Martin, dass du da warst.
+
+Danke für die Einladung.
+
+Schönes Wochenende und bis dahin.
+
+Viel Spaß mit MCP-Servern.
