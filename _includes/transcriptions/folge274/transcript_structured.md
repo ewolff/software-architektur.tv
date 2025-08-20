@@ -1,13 +1,5 @@
 # Folge 274 - Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität mit Barbara Lampl und Ralf D.
 
-Müller Hallo, ich bin Eberhard Wolff.
-
-Freitags mache ich oder Lisa Moritz einen Livestream zum Thema Software-Architektur, oft zusammen mit Gästen.
-
-Dieser Podcast ist das Audio des Streams.
-
-Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
-
 Ja, hallo und herzlich willkommen zu einer neuen Folge von Software-Architektur im Stream.
 
 Ich bin total happy, dass wir heute Barbara Lampe hier als Gast haben.
