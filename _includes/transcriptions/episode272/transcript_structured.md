@@ -1,10 +1,4 @@
-# Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf Hallo, ich bin Eberhard Wolff.
-
-Freitags mache ich oder Lisa Moritz einen Livestream zum Thema Software-Architektur, oft zusammen mit Gästen.
-
-Dieser Podcast ist das Audio des Streams.
-
-Weitere Folgen, Sketchnotes und vieles mehr findet ihr unter software-architektur.tv.
+# Folge 272 - Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf 
 
 So, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream.
 
