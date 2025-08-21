@@ -762,7 +762,7 @@ Und in diesem Fall war es halt der Sönke, der halt über Auftragstaktik diskuti
 
 Und man sieht es halt gerade, das ist halt etwas, was auf Vertrauen aufbaut.
 
-Er sagte ja, dass man halt sozusagen darauf setzt, dass die Menschen, die man halt in Auftrag gibt, am besten müssen wir mal zu Umsatz.
+Er sagte ja, dass man halt sozusagen darauf setzt, dass die Menschen, denen man einen Auftrag gibt, idealerweise das Ziel erreichen.
 
 Und es ist ein klares Delegationskonzept.
 
