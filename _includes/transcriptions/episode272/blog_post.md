@@ -18,9 +18,9 @@ Aus der Luftfahrt wurde das Konzept des "Crew Resource Management" vorgestellt. 
 
 ## Technische Debatten und Architektur-Philosophie
 
-In technischer Hinsicht gab es spannende Diskussionen, etwa über die Rolle von JavaScript in modernen Web-Frontends. Lukas Rosenstock demonstrierte eindrucksvoll, wie viele Webanwendungen auch ohne JavaScript auskommen könnten - ein Beispiel dafür, dass manchmal weniger mehr ist.
+In technischer Hinsicht gab es spannende Diskussionen, etwa über die Rolle von JavaScript in modernen Web-Frontends. Lucas Dohmen demonstrierte eindrucksvoll, wie viele Webanwendungen auch ohne JavaScript auskommen könnten - ein Beispiel dafür, dass manchmal weniger mehr ist.
 
-Eine wiederkehrende Debatte dreht sich um die Frage, ob Architekten auch selbst programmieren müssen. Statt einer eindeutigen Antwort zeigte sich hier die Wichtigkeit einer differenzierten Betrachtung: Weder der "Elfenbeinturm-Architekt" noch der "One-Man-Army-Programmierer" sind ideale Modelle.
+Eine Debatte dreht sich um die Frage, ob Architekten auch selbst programmieren müssen. Statt einer eindeutigen Antwort zeigte sich hier die Wichtigkeit einer differenzierten Betrachtung: Weder der "Elfenbeinturm-Architekt" noch der "One-Man-Army-Programmierer" sind ideale Modelle.
 
 ## Lernen aus 5 Jahren Streaming
 
