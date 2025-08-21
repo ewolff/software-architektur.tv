@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # KI-Architektur zwischen Hype und Realität: Ein Gespräch mit Barbara Lampl
 
 Die rasante Entwicklung der künstlichen Intelligenz stellt Software-Architekten vor neue Herausforderungen. In einem aufschlussreichen Gespräch mit der Verhaltensmathematikerin Barbara Lampl wurden wichtige Erkenntnisse zur Architektur und den Grenzen von KI-Systemen deutlich.
