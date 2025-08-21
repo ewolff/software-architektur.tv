@@ -20,7 +20,7 @@ Wir hatten ja die Shorts auch tatsächlich live gestellt und können hier jetzt 
 
 ### Dank an Zuschauer
 
-Bevor wir das tun, wollen wir uns alle bedanken bei den ZuschauerInnen.
+Bevor wir das tun, wollen wir uns alle bedanken bei den Zuschauer:innen.
 
 Einmal fürs Zuschauen und zum anderen auch für das Feedback.
 
