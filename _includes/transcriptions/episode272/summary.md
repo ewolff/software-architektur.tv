@@ -4,7 +4,7 @@
 
 - Die Bedeutung von Soft Skills und menschlicher Kommunikation in der Software-Entwicklung ist oft wichtiger als technische Fähigkeiten
 - Vertrauen und Delegation sind zentrale Elemente erfolgreicher Zusammenarbeit (Auftragstaktik)
-- Der Kommunikationsstil und Tonfall haben erheblichen Einfluss auf die Teamarbeit
+- Der Kommunikationsstil und Tonfall haben erheblichen Einfluss auf die Teamarbeit (Crew Resource Management)
 - Architekturentscheidungen sollten stets gut begründet und kontextabhängig getroffen werden
 - Einfache technische Lösungen sind oft besser als komplexe (z.B. bei Web-Frontends)
 
