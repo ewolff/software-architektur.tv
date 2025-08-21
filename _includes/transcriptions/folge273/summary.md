@@ -2,11 +2,11 @@
 
 ## Wichtige Keytakeaways
 
-- MCP ist ein Protokoll für die Kommunikation zwischen AI-Anwendungen und Tools/Services
-- Das Protokoll ermöglicht es LLMs, Funktionen aufzurufen und mit externen Systemen zu interagieren
-- MCP Server sind unabhängig vom eigentlichen LLM und laufen auf Client-Seite
-- Es gibt bereits ein großes Ökosystem von MCP Servern für verschiedene Anwendungsfälle
-- Sicherheitsaspekte müssen auf mehreren Ebenen berücksichtigt werden (Prompt-Filtering, Berechtigungen etc.)
+- MCP ist ein Protokoll für die Kommunikation zwischen AI-Anwendungen und Tools/Services.
+- Das Protokoll ermöglicht es LLMs, Funktionen aufzurufen und mit externen Systemen zu interagieren.
+- MCP Server sind unabhängig vom eigentlichen LLM und laufen auf der Client-Seite.
+- Es gibt bereits ein großes Ökosystem von MCP Servern für verschiedene Anwendungsfälle.
+- Sicherheitsaspekte müssen auf mehreren Ebenen berücksichtigt werden (Prompt-Filtering, Berechtigungen etc.).
 
 ## Behandelte Kernfragen
 
