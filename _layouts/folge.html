@@ -24,9 +24,8 @@
 	<li><a href="#sketchnotes">Sketchnotes</a></li>
 {% endif %}
 {% if site.data.summaries contains episode_id %}
-	<li><a href="#key-takeaways">Key Takeaways</a></li>
-	<li><a href="#wichtige-fragen-der-folge">Wichtige Fragen</a></li>
-	<li><a href="#glossar">Glossar</a></li>
+	<li><a href="#blogpost">Blog-Post</a></li>
+	<li><a href="#summary">Zusammenfassung</a></li>
 	<li><a href="#transcription">Transkription</a></li>
 {% endif %}
 </ul>	    
@@ -88,7 +87,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
 style="width:100%;min-width:275px;min-height:320px;max-width:475px;max-height:400px;border:0;overflow:hidden"
 src="{{ page.embedded-mp3 }}"></iframe>
 </center>
-
+ 
 <a href="{{ page.mp3 }}">MP3 Download</a>
 
 <br />
@@ -102,9 +101,14 @@ src="{{ page.embedded-mp3 }}"></iframe>
 <p style="font-size: small;"><b>Hinweis:</b> Die nachfolgenden Texte wurden mit KI erstellt und können somit Fehler enthalten.</p>
 
 {% capture blogpost %}{% include transcriptions/{{ episode_id }}/blog_post.md %}{% endcapture %}
-  {{ blogpost | markdownify }}
+<a id="blogpost"></a>
+		
+	{{ blogpost | markdownify }}
 
 {% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
+
+<a id="summary"></a>
+		
   {{ summary | markdownify }}
 <h2 id="transcription" >Vollständige Transkription</h2>
 
