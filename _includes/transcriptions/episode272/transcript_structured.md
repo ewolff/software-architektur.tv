@@ -182,7 +182,7 @@ Ja, genau.
 
 Und aber an der Stelle, ich greife jetzt die Chance zu sagen, ich möchte gerne irgendwann wieder Sketch Notes machen, weil das, glaube ich, einige als wichtig und cool erachten.
 
-Und ich habe aus persönlichen Gründen im Moment leider länger pausieren müssen und hoffe, wieder in die Richtung reinzuflucken, dass das wieder regelmäßiger der Fall ist.
+Und ich habe aus persönlichen Gründen im Moment leider länger pausieren müssen und hoffe, wieder in die Richtung reinzufinden, dass das wieder regelmäßiger der Fall ist.
 
 Dass es vielleicht auch noch ein Sketch Notes Buch geben kann zum Stream.
 
