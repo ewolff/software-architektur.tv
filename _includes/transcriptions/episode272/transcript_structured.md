@@ -116,7 +116,7 @@ Also eigentlich ist es dazu da, Notizen zu machen, sagst du.
 
 Warum sollte ich das tun?
 
-Ich glaube, vor mir 23.
+Folge 23.
 
 Ja, auch eine von den magischen Zahlen, wie man sich vorstellen kann.
 
@@ -446,7 +446,7 @@ Da war man ja doch eher skeptisch, weil wir eben, du hattest schon gesagt, wir e
 
 Und das war ja auch ein volles Experiment.
 
-Wir haben ja einfach Flipcharts im Cup Europa verteilt und gehofft, dass wohl irgendwer was dran pappt.
+Wir haben ja einfach Flipcharts im Kap Europa verteilt und gehofft, dass wohl irgendwer was dran pappt.
 
 Es passiert.
 
