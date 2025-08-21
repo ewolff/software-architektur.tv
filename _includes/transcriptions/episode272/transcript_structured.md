@@ -910,7 +910,7 @@ Dann kommt das ganz anders rüber, als würde ich ihm sagen, Steffen, fahr doch 
 
 ### Tonfall und Wirkung
 
-Also selbe Swerding, anderer Tonfall, ganz andere Wirkung.
+Also selbe Wording, anderer Tonfall, ganz andere Wirkung.
 
 Ich glaube, Oliver Trothbaum ist traurig, dass er gerade kann.
 
