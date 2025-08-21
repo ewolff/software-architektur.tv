@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # 5 Jahre Software-Architektur im Stream: Ein Rückblick auf prägende Momente
 
 Seit fünf Jahren bietet der Live-Stream "Software-Architektur im Stream" mit Eberhard Wolff, Lisa Moritz und weiteren Gästen spannende Einblicke in die Welt der Software-Architektur. Zum Jubiläum blicken wir auf einige der prägendsten Momente und wichtigsten Erkenntnisse zurück.
