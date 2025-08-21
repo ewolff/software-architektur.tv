@@ -1,4 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
 # Model Context Protocol (MCP): Die universelle Schnittstelle für KI-Anwendungen
 
 Large Language Models (LLMs) wie GPT-4 oder Claude stellen eine wichtige Innovation dar. Eine Herausforderung beim Einsatz dieser Modelle ist jedoch die Integration mit externen Systemen und Datenquellen. Hier kommt das Model Context Protocol (MCP) ins Spiel - ein Ansatz, der die Kommunikation zwischen KI-Anwendungen und externen Tools standardisiert.
