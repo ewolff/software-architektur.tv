@@ -1,4 +1,6 @@
-# Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle Eberhard, super, vielen Dank, dass ich dabei sein darf.
+# Folge 270 - Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle
+
+Eberhard, super, vielen Dank, dass ich dabei sein darf.
 
 Ja, genau, freut mich.
 
@@ -40,7 +42,7 @@ Gute Frage.
 
 Muss man, sollte man auch als erstes klären.
 
-Naja, ## Definition von Open-Source-Lizenzen
+## Definition von Open-Source-Lizenzen
 
 Software ist halt erst mal ein Artefakt, Source Code halt.
 
@@ -138,7 +140,7 @@ Dann ist der proprietäre Code auch unter der Copyleft-Lizenz zu lizenzieren, we
 
 Um es vielleicht zusammenzufassen, aus Sicht der Open-Source-Programmierer, die Copyleft-Lizenzen einsetzen, das tun ja nicht alle, aber die, die das gerne möchten, meistens unter dem Begriff freie Software dann statt Open-Source, diese möchten, dass sich ihre Lizenz, die sie gewählt haben, zum Beispiel die GPF2, fortpflanzt.
 
-Die Idee ist, dass man nicht einschränken kann als Mittelperson, als Hersteller in der Mitte, was die Lizenzen sind, wenn an die dritte Partei eine Kundenseite gegeben wird.
+Die Idee ist, dass man nicht einschränken kann als Mittelperson, als Hersteller in der Mitte, was die Lizenzen sind, wenn an die dritte Partei, eine Kundenseite gegeben wird.
 
 Copyleft-Lizenzierung ist also eine Strategie der Propagierung des Fortpflanzen einer bestimmten Lizenz, eben der Copyleft-Lizenz.
 
