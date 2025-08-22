@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # Open-Source-Komponenten richtig im Projekt einsetzen: Lizenzen, Pflichten und Herausforderungen
 
 Die Verwendung von Open-Source-Software ist heute für Unternehmen unverzichtbar - schätzungsweise 80-99% des Codes in modernen Softwareprodukten stammt aus Open-Source-Komponenten. Doch der Einsatz bringt auch rechtliche und organisatorische Verpflichtungen mit sich, die nicht unterschätzt werden sollten.
