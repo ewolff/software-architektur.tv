@@ -2,11 +2,11 @@
 
 ## Wichtige Keytakeaways
 
-- Open-Source-Lizenzen geben bestimmte Rechte (kostenfreie Nutzung, Zugang zum Quelltext, Modifikation) und beinhalten Verpflichtungen
-- Copyleft-Lizenzen (wie GPL) erfordern, dass modifizierter Code unter gleicher Lizenz weitergegeben wird
-- 80-99% des Codes in modernen Softwareprodukten stammt aus Open-Source-Komponenten
-- Software Bill of Materials (SBOM) wird zunehmend wichtiger für Sicherheit und Compliance
-- Attribution (Nennung der Urheber) ist eine wichtige Verpflichtung bei Open-Source-Nutzung
+- Open-Source-Lizenzen geben bestimmte Rechte (kostenfreie Nutzung, Zugang zum Quelltext, Modifikation) und beinhalten Verpflichtungen.
+- Copyleft-Lizenzen (wie GPL) erfordern, dass modifizierter Code unter gleicher Lizenz weitergegeben wird.
+- 80-99% des Codes in modernen Softwareprodukten stammt aus Open-Source-Komponenten.
+- Software Bill of Materials (SBOM) wird zunehmend wichtiger für Sicherheit und Compliance.
+- Attribution (Nennung der Urheber) ist eine wichtige Verpflichtung bei Open-Source-Nutzung.
 
 ## Behandelte Kernfragen
 
