@@ -706,7 +706,7 @@ Es ist einfacher, wenn man einen Webdienst betreibt, wo es genau die eine Versio
 
 Oh, hier ist eine Sicherheitslücke bekannt geworden für diese Bibliothek, die wir Anodat zumal verbaut haben und dann muss man die Personen, die Kunden darüber informieren.
 
-Genau, also MS setzte nochmal nach zu diesen 100 Millionen Zahlen Code, also er oder sie schrieb Danke für die Ausführung 100 Millionen Zahlen Code und trotzdem funktioniert die Bluetooth Verbindung nicht stabil.
+Genau, also MS setzte nochmal nach zu diesen 100 Millionen Zeilen Code, also er oder sie schrieb Danke für die Ausführung 100 Millionen Zeilen Code und trotzdem funktioniert die Bluetooth Verbindung nicht stabil.
 
 Ich finde die Kausalität ein bisschen umgekehrt.
 
