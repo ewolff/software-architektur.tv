@@ -17,7 +17,7 @@ Kommunikation ist nicht nur ein "Soft Skill", sondern eine zentrale Fähigkeit f
 
 ## Der Zusammenhang von Organisation und Architektur
 
-Eine weitere wichtige Herausforderung ist das Verständnis dafür, wie Organisationsstrukturen und Software-Architektur zusammenhängen (Conway's Law). Verschiedene Stakeholder ziehen oft in unterschiedliche Richtungen:
+Eine weitere wichtige Herausforderung ist das Verständnis dafür, wie Organisationsstrukturen und Software-Architektur zusammenhängen (zum Beispiel durch Conway's Law). Verschiedene Stakeholder ziehen oft in unterschiedliche Richtungen:
 
 - Architekten fokussieren sich auf die technische Architektur
 - Das Management konzentriert sich auf organisatorische Aspekte
