@@ -14,7 +14,7 @@ Dirk, willst du erst mal zwei Worte über dich sagen, was du so machst, wer du b
 
 Klar, sehr gern.
 
-Also mein Name ist Dirk Riele.
+Also mein Name ist Dirk Riehle.
 
 Ich bin Professor für Informatik an der FAU Erlangen Uni Erlangen.
 
