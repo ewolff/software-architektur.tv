@@ -1,4 +1,6 @@
-# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn Ich möchte auf Englisch zurückkehren, denn heute haben wir eine englische Session in einer Galaxie weit, weit entfernt.
+# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn
+
+Ich möchte auf Englisch zurückkehren, denn heute haben wir eine englische Session in einer Galaxie weit, weit entfernt.
 
 Es wurde oder wird ein Todesstern gebaut.
 
@@ -10,9 +12,7 @@ Ich glaube, es ist fiktiv.
 
 Die Todesstelle wird gebaut, wurde gebaut und vor 20 Jahren haben zwei Menschen, Peter Ruschka und Gernot Starke, die ein Template für architekturelle Dokumentation erschaffen haben, das arc42 heißt.
 
-Es ist jetzt 20 Jahre her, und unser Gast, Juan G.
-
-Carmona, hat dieses Template benutzt, um die Architektur der Todesstelle zu dokumentieren.
+Es ist jetzt 20 Jahre her, und unser Gast, Juan G. Carmona, hat dieses Template benutzt, um die Architektur der Todesstelle zu dokumentieren.
 
 Ich glaube, es ist das größte Projekt, das mit arc42 dokumentiert worden ist.
 
