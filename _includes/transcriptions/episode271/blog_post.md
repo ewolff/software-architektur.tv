@@ -1,5 +1,3 @@
-Hier ist ein 1000-1500 Wörter Blog-Post basierend auf dem Podcast-Transcript:
-
 # Die Architektur des Todessterns - Was wir von arc42 lernen können
 
 Als Software-Architekt Juan G. Carmona sich fragte, wie er das arc42-Template für Architektur-Dokumentation am besten demonstrieren könnte, kam ihm eine geniale Idee: Warum nicht die Architektur des wohl größten fiktiven Projekts aller Zeiten dokumentieren - den Todesstern aus Star Wars?
