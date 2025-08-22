@@ -1,6 +1,6 @@
 # Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn Ich möchte auf Englisch zurückkehren, denn heute haben wir eine englische Session in einer Galaxie weit, weit entfernt.
 
-Es wurde oder wird eine Todesstelle gebaut.
+Es wurde oder wird ein Todesstern gebaut.
 
 Ich weiß nicht, wie lange es dauert.
 
