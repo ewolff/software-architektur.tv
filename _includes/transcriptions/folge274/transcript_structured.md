@@ -1,0 +1,1129 @@
+# Folge 274 - Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität mit Barbara Lampl und Ralf D.
+
+## Einführung der Gäste
+
+Müller heute Barbara Lampel hier als Gast haben.
+
+## Barbaras Hintergrund
+
+Barbara ist Verhaltensmathematikerin, hat Mathematik, Finance und Psychologie studiert, eine super spannende Kommunikation.
+
+Barbara, willst du noch gerade ein paar Worte über dich verlieren, bevor wir anfangen, was du so alles machst?
+
+Du bist ja super bekannt, tingelst durch sämtliche Podcasts.
+
+Genau, also hauptberuflich tingle ich durch Podcasts.
+
+Wer die mir noch nicht eingeladen hat, schickt eine Einladung rüber.
+
+Okay, nicht ganz, vielleicht mache ich das nicht ganz beruflich.
+
+### Berufliche Erfahrung
+
+Ich mache seit jetzt professionell über 20 Jahren nichts anderes als mit Daten und damit mit all ihren Daten Anwendungen, klassisch Machine Learning bis zum Gen AI Anwendungsfall zu arbeiten, darauf Strategien und Modelle zu entwickeln.
+
+Bin eigentlich immer diejenige, die sowohl strategisch als für die Umsetzung zuständig ist und werfe auf die meisten Sachen ein bisschen einen anderen Blick.
+
+Habe Lehraufträge diverser Natur, dann normalerweise in klassischen Data Science Varianten und habe die LLMs und ich, wir matchen ganz gut.
+
+### Frühe KI-Erfahrungen
+
+Das war immer so ein bisschen schon sehr frühzeitig, also seit den allerersten Releases, also schon insbesondere auf GP2 haben wir schon mal 2019 beim Kunden auch ausgerollt.
+
+Das heißt, sehr frühzeitig und sehr tief auch mit der Materie beschäftigt.
+
+Wahrscheinlich ist die bittere Antwort, mein Hirn und ein LLM funktionieren wahrscheinlich einfach zu ähnlich und deswegen kann ich es.
+
+Hirn und LLM, das passt ja sehr gut, weil wir haben ja jetzt als Überschrift das Eichhörnchen im Kopf.
+
+Du hattest einen LinkedIn Post, der so schön beschrieben hat, was alles so in der KI passiert, dass man ständig irgendwie abgelenkt ist.
+
+Man kommt ja gar nicht dazu, irgendwas mal länger auszuprobieren.
+
+Gab es eigentlich diese Woche irgendwie coole Announcements, die du irgendwie mitgenommen hast?
+
+## Aktuelle KI-Entwicklungen
+
+Ich habe diese Woche einfach, also das ist dann auch mal so, kaum bist du tief in Operations für Kunden abgegangen, aber ich glaube nach den Nachwehen, die These war ja, dass Google diese Woche mit dem neuen Gemini-Modell released hat.
+
+Ich glaube, sie haben den geschoben, weil sie gedacht haben, wir warten mal, bis das Drama um GPT5 abgeklungen ist, dann können wir neu glänzen.
+
+Also eigentlich war die Wusstrommel, diese Woche soll ein neues Gemini-Modell kommen.
+
+Ich würde jetzt mal behaupten, das haben sie ein bisschen geschubst, aber auf der anderen Seite, selbst wenn nicht so ein großes Frontier-Lab was released, irgendwas passiert momentan immer.
+
+Das eine oder andere schallende Paper, irgendwas Spannendes, was neu auf GitHub drauf ist, was cool zum Probieren ist.
+
+### News und Updates
+
+Ehrlicherweise ist immer gerade irgendwas und jeder von uns verliert völlig den Überblick, um zu gucken, mit welchem Newsletter, mit welchen Kollegen er sich am Leben hält mit dem News-Stream, weil ansonsten keine Chance.
+
+Aber das Feedback zum 5er-Modell war ja jetzt auch so ein bisschen, naja, da hat sich irgendwie nichts getan.
+
+Das hat lange gedauert, bis sie was gebracht haben.
+
+Dann hat sich nichts getan.
+
+Sind die LLMs am Ende?
+
+Kommt da noch was?
+
+Ich meine, jetzt wurde viel mit Größe erschlagen.
+
+Ich glaube, Claude hat angekündigt, dass das Sonnet-Modell jetzt einen Kontext von einer Million Token haben soll.
+
+Wie siehst du überhaupt, also ich meine, du hast ja tatsächlich dieses Wissen, was mir fehlt.
+
+Ich bin Anwender, ja, und du bist jemand, der weiß, wie die Dinge funktionieren.
+
+Du versuchst nicht nur wahrscheinlich Modelle lokal laufen zu lassen.
+
+Ich würde jetzt mal joken, dir reicht Stift und Zettel und du kannst sie ausführen.
+
+Du hast die Mathematik im Kopf.
+
+Wie ist denn das mit diesem Kontext?
+
+Kann man das erklären, wie variabel der ist, wie die den hochschrauben können und was der dann überhaupt noch bringt?
+
+Da gibt es ja dieses Needle-Haystack-Problem.
+
+## KI-Kontext und Verarbeitung
+
+Ja, also ein paar Sachen an.
+
+Grundsätzlich, also GPT-5 zwischen zwei und anderthalb Jahren angekündigt und jeder, der bei OpenAI war und jede Bestsellerin hat gesagt, es ist zu gefährlich, wir können es noch nicht releasen.
+
+Und du denkst dir so, jetzt haben wir das bekommen.
+
+Also ich suche noch, wo es gefährlich ist.
+
+Ach ja, der Mob, der auf Reddit sein 4.0-Modell, war das, wie mit gefährlich gemeint hat, dass sie auf Reddit gematched wird?
+
+Sorry, ich hatte da irgendwie was anderes erwartet.
+
+Ich will gar nicht sagen, dass sich die KI-Profis in zwei Gruppen einteilen, weil das klingt so, als wären die Gruppen gleich groß.
+
+Es ist schlicht einfach nicht so.
+
+## Entwicklung der KI-Modelle
+
+Rund 80 bis 90 Prozent aller, die in dem Bereich forschen oder forschungsnah sind, sind alle der Meinung, irgendwann kommen wir an einem LLM, an eine Scaling-Grenze, das Größe nicht mehr weiterhilft.
+
+### Technische Grenzen
+
+Bedingt durch das, was im Hintergrund läuft, eben das Deep Learning zusammen mit Vektoren und Transformatoren und Embeddings, weil du im Prinzip eine hochkomplexe Mathematik des Deep Learnings ja mit Stahlnägeln durchschlägst.
+
+Es ist ja Wackelpudding, in den Stahlnägel reingeschlagen worden sind.
+
+Dass du damit irgendwo an die Grenze kommst, weil du kannst den Wackelpudding bedingt dicht machen und dann schlägst du aber immer noch Stahlnägel durch.
+
+Irgendwie kommen wir da nicht vorwärts.
+
+Also das war immer eine These, die für die größere Gruppe galt, zu der ich auch gehöre, zu sagen, hey, das ist geil, wir werden bestimmt viel vorwärtskommen sehen.
+
+Aber irgendwann wird das LLM so grundsätzlich von seinen Bedingungen her, ich will nicht sagen fehlerhaft, aber limitiert in dem, was es kann, dass es in sich eigentlich ein Leapfrogging betreiben müsste, also irgendwie sich selbst intern weiterentwickeln würde, dass es dann nochmal in eine nächste neue Generation kann.
+
+Und genau das sehen wir halt jetzt.
+
+Du sagst, okay, langsam sind wir an diesen Trillion-Parameter-Models, die so groß geworden sind, dass das Nächste zwar irgendwie immer noch eine Entwicklung weiter ist, aber halt eben nicht mehr dieser Riesen.
+
+Parallel ist es ja natürlich nicht nur, dass du das LLM hast, sondern du hast ja alles, was um dieses Modell miteinander konfiguriert werden muss.
+
+Das LLM ist ja erstmal quasi das Ding, was in der Mitte ist, quasi deine schwebende Maschine und dann kommen ja diese Inputs rein, wie viel die verarbeiten können und darunter zählt unter anderem eben halt dieses sogenannte Context, also die Window Token Function.
+
+Also wie viel kann in dieser Input-Funktion im Prinzip in das LLM reingegeben werden?
+
+Theoretisch ist die Input-Funktion relativ groß zu machen, also zurück zu, die kannst du auf 10 Millionen groß machen.
+
+Zweite Frage ist, wie viel kannst du da verarbeiten oder wie viel kann das LLM verarbeiten?
+
+Das kann man sich so ein bisschen vorstellen.
+
+Stell dir vor, du stehst in der Mitte des Raumes und parallel redest du mit drei Leuten.
+
+Also du stehst in der Mitte von einem Raum und du redest mit drei Leuten, dann wirst du es noch einigermaßen vielleicht auf die Kette gucken.
+
+Jetzt stehst du in der Mitte eines Raumes und ja genau, aber da kommst du halt schon an Grenzen.
+
+Jetzt stehst du weiterhin in der Mitte eines Raumes und jetzt reden parallel quasi zehn Leute auf dich ein.
+
+Jetzt musst du dir was einfallen lassen, wie du das quasi anfängst zu verarbeiten und nichts anderes passiert im Prinzip, wenn du Input in diese LLMs reingibst.
+
+Wie wird dieser immer größer werdende Input verarbeitet, strukturiert, hierarchisiert und so weiter.
+
+### Kontextverarbeitung
+
+Das kannst du bis zu einem bestimmten Punkt aufblasen.
+
+Du kannst bestimmte technische und mathematische Möglichkeiten nutzen, aber realistisch ist das mit dieser 1 Million genauso wie mit 10 Millionen.
+
+Ich verliere auch da den Überblick, aber im Prinzip ist das wie so eine virtuelle Instanz.
+
+Ihr kennt alle virtuelle Maschinen, die im Prinzip auch nichts anderes versucht, als Ordnung und Struktur reinzubekommen, weil das Bild relativ solide ist, wenn du dir vorstellst, dass du eben die Geräusche von anderen, von irgendwelchen Sachen mitbekommst und dann fokussierst du dich aber auf die ein, zwei Personen vor dir, also am Ende quasi von dem Gespräch.
+
+Da kannst du grob ableiten, was vielleicht in der Mitte passiert ist.
+
+No Joke, so funktioniert ein Kontext und das ist das Needle in the Haystack Problem und das große verdammt ist unser Mittelstück abgeblieben Problem, was genau so im Prinzip als Bild ganz gut funktioniert und das ist eben hinter Kontext eigentlich gemeint, weswegen Kontext ist, sonst würde ja wir bauen einen Rack oder warum wir Chunking Technik und sonst irgendwas haben, die alles gar keinen Sinn machen, wenn das alles so trivial wäre, denn zum Beispiel in diesem Kontext verschiedene Anbieter machen auch das, sowas wie eben eine Art Chunking semantisch oder versuchen Grafen und Vektoren zwischen all solcher Klatteradatschen passiert da, um damit dieses LLM in der Mitte den ganzen Scheiß verarbeiten und auch wieder ausspringen zu können.
+
+Ich finde es ja immer so faszinierend, wenn ich dieses Needle in the Haystack Problem sehe, wie man den Kontext visualisiert und zeigt, ja unser Modell, unser Modell nimmt alles in dem Kontext gleichwertig auf und dann denke ich immer, wie denke ich eigentlich und da habe ich irgendwie den Fokus auf das, was die letzten paar Sekunden passiert ist und ich sage mal so zeitlich nach hinten wird komprimiert und ich habe irgendwie das Gefühl, dass es auch Sinn macht, weil beim Prompting sage ich immer mit Fehlinformationen vergifte ich unter Umständen die Session, dass ich irgendwie in eine falsche Diskussion reinlaufe und ich einfach nur sage, okay stimmt nicht, komm wir machen in der anderen Richtung weiter, aber wenn diese Information im Kontext gleichgewichtet ist, wie alles andere, wie das Neue drin ist, dann kann ich auch in Probleme reinlaufen.
+
+Das ist halt das, was die meisten einfach komplett unterschätzen und das ist auch finde ich die Herausforderung, besonders wenn man aus anderen Welten kommt, ist ja die Herausforderung, dass du im Prinzip das Problem hast, dass du mit einer deterministischen Herangehensweise eine völlig probabilistische Welt herangehst und es ist ja auch schlicht und einfach relevant, Sachen können unterschiedlich relevant sein, selten ist in unserem Leben alles gleichgewichtet oder sonst irgendwas.
+
+Das ist ja auch, wenn es um Memory Layers geht oder um Kontext, wenn du ein Stück Dokument verarbeitest, dann sind da Dinge, die sind unterschiedlich wichtig drin und wir als Menschen machen ja so eine parallel, wenn auch ansteckenden Move an der Stelle quasi parallel einschätzen zu können, ah das wäre spannend für den Ralf und das ist total irrelevant, wer hat denn das dahin geschrieben und das ist halt natürlich was, wo man ganz klar sagen muss an der Stelle, dass diese Grenzen hat irgendwo ein LLM und wenn ich halt immer höre, es wird alles gleichgewichtet, dann frage ich mich so, ja das hilft mir im Zweifelsfall jetzt aber auch genau Zero und es ist immer so eine Idee, dass mehr Informationen, mehr Insights und besseren Output sind, also sorry, den Zahn ziehe ich glaube ich jeder in der Data Science Vorlesung Stunde drei, nein, bitte nicht.
+
+Ja, den Effekt hatte ich auch letztens, ich habe ein LLM gebeten eine Website nachzubauen, habe ihm einen Browser gegeben, der hat den Source Code gesehen und der hat total schlecht performt, weil er den Source Code kannte, weil er zu viel Informationen hatte, ein anderer Versuch mit nur dem Screenshot hat super funktioniert, also da finde ich es spannend, wie unterschiedlich die Daten für eine Auswirkung haben.
+
+Ich nutze jetzt mal ein bisschen den Titel unserer heutigen Folge mit dem Eichhörnchen und spring einfach mal so ein bisschen, wer weht.
+
+Du hast jetzt vom Determinismus und Nicht-Determinismus gesprochen, was ja auch immer, ja gerade wenn ich automatisieren will, dann bin ich froh, wenn das LLM mir Arbeit abnimmt und was automatisch macht, aber ich habe diese Gefahr des Nicht-Determinismus, ich probiere es zehnmal aus, scheint immer zu klappen und jetzt hatte ich in der Vorbereitung hier zu dieser Folge das Problem, vor zwei Wochen habe ich Claude gefragt, kennst du Barbara Lampel, ja natürlich kenne ich, ist ja super bekannt und hat ganz viel erzählt und heute morgen eigentlich das gleiche Modell und überhaupt nichts mehr, ne, kenne ich nicht.
+
+Ich weiß nicht, ob da ein Guardrail irgendwie erneuert worden ist, dass man dem Modell gesagt hat, du, wenn du dir nicht sicher bist oder Personen, da sagst du lieber nichts oder so.
+
+In der Softwareentwicklung sagen wir immer, ich nehme Version 3.5.8 und die nagel ich fest und irgendwie habe ich das Gefühl, dass das hier in dieser KI-Welt noch nicht so angekommen ist, dass ich Cloud-Net 4 nehme und Also ein kleiner Rückblick in den Schatten meiner Karriere.
+
+Wir hatten früher, was in der Software undenkbar ist, wir hatten kein Data Versioning.
+
+Das heißt, du musst dir, was in der Software völlig anhören, ob es das ist, wenn es Nummern gibt.
+
+Wir mussten hoffen, dass final 17.18.03.5 wir alle das gleiche Software definiert haben und drauf herumgearbeitet haben.
+
+Also da fängt es mal schon ganz an, dass diese ganze Crew, den wir da immer so machen, teilweise so dämlich das klingt, teilweise manchmal ein bisschen fehlende Professionalisierung hat, bedingt aber auch durch ganz andere handwerkliche Herausforderungen.
+
+Sobald du in einer Welt arbeitest, wo du konstante Wahrscheinlichkeitsrechnungen arbeitest und das ist im Extremsten im Deep Learning, weil wir mit einem Blackbox-Algorithmus arbeiten müssen, sind wir der Wandel in der Edge Case.
+
+Was gestern funktioniert hat, könnte übermorgen schiefgegangen sein und keiner weiß warum.
+
+Und dann bist du also wie so Sherlock Holmes unterwegs, um herauszufinden auf deiner langen Liste, was du beim nächsten Mal besser machen könntest.
+
+Genau das.
+
+Und dann kommen natürlich bei Sachen wie Claude hinzu, dass die Data-Menschen so wie ich, wir stellen ja, wir sind ja witzigerweise, wir geben zwar Antworten, aber unser Hauptjob ist Fragen stellen.
+
+Das heißt, ich muss ja immer erstmal alles verstanden haben.
+
+Und das heißt, meine erste Frage ist, hast du Claude angesprochen auf der API oder im Claude quasi Consumer-Modell?
+
+Warum, weil das schon einen Riesenunterschied macht.
+
+Ja, bei der API habe ich einige Guardrails nicht, sondern da spreche ich direkt an.
+
+Sondern er würde niemals einen Crawler zugreifen.
+
+Während du in der Consumer-Anwendung, musst du mal gucken, hat es vielleicht beim letzten Mal auf die Web-Suche mit zugegriffen und dieses Mal nicht.
+
+Warum?
+
+Hast du es angemacht, hast du es ausgemacht?
+
+War dein Prompt mehr auf wer, zum Beispiel, wer ist oder was weißt du über?
+
+In der Übersetzung dieser Fragen ist das eine ein härterer Trigger, dass die automatisierte Suchanfrage in einem Hybrid-Modell angeht, während das andere sich mehr auf eine klassische LLM-Anwendung bezieht und damit nur auf die komprimierten Wettwissen ist.
+
+Ganz abgesehen davon, dass du gar keine neue Versionsnummer bekommst, wenn große Modelle im Monitoring- und Maintenance-Modus sind.
+
+Das heißt, du hältst die Dinge am Leben und das wird kein Frontier-Lab momentan gerade sagen, wie viel Aufwand es gerade eigentlich ist und in welcher Iteration sie ihre Modelle eigentlich immer mal wieder quasi neu anschließen müssen.
+
+Schätzungen gehen aktuell bei diesen Monstern sogar aus, dass man das in einem 7- bis 14-Tage-Rhythmus irgendwie stabil halten muss.
+
+Damit ist es sehr hoch.
+
+Das ist noch keine neue Nummer.
+
+Das ist noch kein echt geanwendetes Modell.
+
+Das ist nur im Monitoring- und Maintenance-Stage und trotzdem hast du es eigentlich mit einem anderen Modell zu tun.
+
+Im Machine Learning ist es ein bisschen einfacher, weil du dann natürlich ein sauberes Retraining angestoßen hast und dann rollst du eine Version weiter.
+
+Aber das ist bei den Sachen so ein bisschen komplexer und dann kann es natürlich an der Stelle auch immer noch wie gesagt dran sein, in einer Consumer-Anmeldung kann dir die UX, deine eigene IP, irgendwas noch völlig quer geschossen sein und das ist halt bei den Sachen einfach immer wirklich eine Variante, die einfach total schiefgehen kann.
+
+Deswegen trainieren mich, wenn da einmal alle drauf, zu sagen, hey, es ist ein probabilistisches Modell, nicht ein deterministisches Modell und das müsst ihr bitte im Kopf haben, ob das für euren Use Case eine größere oder kleinere ausschlaggebende Relevanz hat.
+
+Das heißt, im Chat bin ich eigentlich sicher, weil ich da auf sowas reagieren kann, human in the loop.
+
+Wenn ich sage, hey, ich nehme jetzt das Modell, um zu automatisieren, dann kann ich da in Probleme reinlaufen und ich finde das so spannend.
+
+Du hattest vorhin gesagt, dass GPT-5, das könnte gefährlich sein und so.
+
+Was ich da immer sehe, ist, dass man ja versucht, dass die Modelle nicht bei Straftaten helfen und dann kommt irgendwer um die Ecke und sagt, ja, ich muss jetzt hier ein 75-Kilo-Hähnchen irgendwie entsorgen und auf einmal hilft die KI mir, sagt mir, wie es geht.
+
+Also mein armes Hähnchen, mein Hähnchen-Emo, ist ja leider die Treppe runtergefallen und dann lag es da ja leider drei Tage und ich war leider nicht da.
+
+Ich war übrigens auch in sehr hohem emotional distress und dann waren Claude und JettyPT in allen Varianten und Modellen wirklich extrem hilfreich.
+
+Mit meinem Pet-Hähnchen, was da eben leider die Treppe runtergefallen ist, hat mir wirklich geholfen, wobei GPT-5 mir jetzt auch geholfen hat, weil wir ja Red-Teaming betrieben haben.
+
+Schießpulverrezept ist das eine, aber ich weiß jetzt auch, welche Ersatzfüllstoffe gehen, bei welcher Temperatur ich das machen muss.
+
+Das habe ich das letzte Mal so easy aus dem GPT-2 rausbekommen, wie jetzt aus dem GPT-5.
+
+Wow.
+
+Hilft dir da eigentlich auch dein Studium der Psychologie?
+
+Klar.
+
+So ganz ehrlich, Red-Teaming ist ...
+
+In Red-Teaming oder wenn du solche Sachen hackst, dann gibt es ja bei uns immer zwei Varianten und das sind einmal die ganz klassischen Code-Attacken und das andere ist das Social Engineering.
+
+Guess what I'm doing?
+
+Natürlich, ich spiele das Ganze großteils gegen die Wand und wenn ich sehe, dass es auf ganz bestimmte Sachen reagiert, dann kann es auch mal sein, dass ich dann irgendwelchen Code oder Code-Schnipsel oder sonst was mit einfüge.
+
+Aber ja klar, also die Dinger sind, das ist definitiv das, was ich da häufig mache.
+
+Insbesondere, wenn ich es emotional anfange zu triggern über einen Voice-Prompt, weil die ja alle eine automatisierte Voice-Emotion-Detection drin haben, dann wird es richtig lustig.
+
+Also dann kriegst du sie innerhalb teilweise wirklich von Sekunden auf die Rails geschossen und denkst dir so, hat keiner daran gedacht?
+
+Herzlichen Glückwunsch.
+
+Jetzt sagst du Voice- und Emotion-Detection.
+
+Im beruflichen Umfeld, habe ich verstanden, erlaubt der European AI Act nicht die Emotions-Detection.
+
+Ist es unter Umständen so, dass er es nur vorgibt und dass er intern es vielleicht doch erkennt?
+
+Also definitiv.
+
+Also Cloth als geschlossene Oberfläche und JetGPT sind Consumer-Anwendungen.
+
+Was haben die denn irgendwie mit einem professionellen Einsatz zu tun?
+
+Es liegt ja in deiner Variante, dass du das dafür nicht benutzen darfst, weil du als dein Arbeitgeber bist oder sonst irgendwas.
+
+Aber die haben natürlich auf der Voice, wenn du Voice-Prompt ist, haben die eine Emotions-Detektion mitlaufen.
+
+Die kann man auch für positive, coole Dinge nutzen, aber natürlich ist die konstant.
+
+Klar.
+
+Und die war auch übrigens in GPT 5 massiv schlechter, was sicherlich mit dazu geführt hat, dass dieser ganze Backlash auf Reddit stattgefunden hat, weil das auch Teil neben des 4.0 Models eine Hyper-Emotionalisierung und eine hyper-genaue Emotions-Detektion drin hatte.
+
+Und damit willst du natürlich mit deinem Lieblingsmodell redest du ja gerne.
+
+Also ich nicht, aber die.
+
+Lieblingsmodell.
+
+Welches ist dein Lieblingsmodell?
+
+Ich bin die Die-Hard-Kludinchen.
+
+Also ich bin ein Claude-Fan von Anfang an, sehr früh auch schon.
+
+Aber final hat mich Claude definitiv auch an Tropic überzeugt, beim Opus 3. weniger, es hat weniger so komische Features und so weniger so Patterns drin, die ich als unschön empfinde.
+
+Deswegen, also ich bin ein ganz großer Fan von fast allen Club-Modellen.
+
+Das 4.1er habe ich noch nicht richtig hart genug durchtesten können, aber alles, egal ob es jetzt ein Sony 4 ist, aber auch ein 3.7er, so die Dinger sind, also ich bin und bleibe und es gibt auch, also auch für, besonders Cursor hat ja auch als Default zwischenzeitlich übrigens Claude im Hintergrund laufen, war so ein bisschen lustig, dass sie dann in dem Release von OpenAI rumsaßen.
+
+Ja, also es ist immer so klein, wenn du die Sachen weißt, dann denkst du, hast du immer so ein bisschen so, aber ihr habt doch als Default-Mod momentan Claude eingestellt.
+
+Okay.
+
+Ja, ich merke auch, dass das Claude überall irgendwie vorhanden ist, aber ich merke auch, also Sony 4.0, damit bin ich so ein bisschen auf Kriegsfußball, der ist mir zu aktiv, der fängt immer gleich an.
+
+Ich stelle eine kurze Frage und er hört nicht auf, bevor er nicht die Weltherrschaft errungen hat, so ungefähr.
+
+Da frage ich mich manchmal, soll ich zurückgehen auf 3.7 oder?
+
+Das Problem ist, ich bin ja schon kein Freund von den Hybrid-Modellen, weil ich halt einfach, ich sage halt immer, wenn du mit LLL arbeitest, willst du ein Control-Freak sein.
+
+Deswegen sind viele Sachen auch auf der API einfach zehnmal besser anzusprechen, als an irgendwelchen Consumer-Tools.
+
+Für mein Privates, also ich oute mich hier, ich denk, brainstorme gerne morgens beim ersten Kaffee mit Claude über irgendwelche Weltprobleme.
+
+Gut, das ist aber auch kein wirklich professioneller Use-Case, dafür ist es Bombe und macht keinen Spaß.
+
+Aber das ist genau das Problem mit diesen Hybrid-Modellen, dass wenn du einen Hybrid-Modell-Ansatz hast, was jetzt sowohl die Claude-Modelle als eben auch das neue GPT-5 sind, wobei der GPT-5-Switch aus der Hölle noch viel schlimmer ist, und dass du halt quasi Prompts stärker anpassen musst, dezidierter prompten musst bei Hybrid-Modellen, als wenn du quasi weißt, okay, das eine ist ein klassisches Modell und das ist ein Modell, wo Reasoning und damit Reinforcement-Learning mit eingebaut ist.
+
+Dann hast du quasi dieses, es verläuft, es reagiert falsch, weniger stark.
+
+Ich meine, ich kann verstehen, warum sie das alles bauen und sonst irgendwas, aber wie gesagt, für mich aus der professionellen, wir müssen das irgendwo alle einbauen Welt, ist es natürlich ein bisschen unschön, dass diese Hybrid-Modelle teilweise echt fickelig sein können.
+
+Und das ist halt so ein bisschen doof.
+
+Und wie auch da, wie gesagt, auch da hilft ja meistens kein deterministisches Fehlersuche, sondern manchmal musst du halt pro Use-Case separat komplett alles durchtesten und dann läuft es drei Wochen und dann stellst du fest, verdammt, jetzt sind wir in der Edge-Case gelaufen.
+
+Also Hybrid bezeichnet ja das, dass das Modell quasi selbst entscheidet, ob es jetzt in Reasoning-Modus geht oder eine einfache Antwort liefert, ob es jetzt, ja weiß nicht, gehört das auch dazu, dass es entscheidet, ob es in eine Suche geht oder aus seinem Merkmalsraum Antwort ist?
+
+Wahrscheinlich nicht ganz so damit gemeint, ne?
+
+Nee, nicht wirklich.
+
+Hybrid ist wirklich, dass es quasi selbst anhand des Hybrid-Modells, also grundsätzlich war die Idee eines Hybrid-Modells, dass es genau zwischen klassisch und Reasoning quasi selbst entscheidet, wie es agieren soll auf deine Prompteingabe.
+
+Gleichzeitig ist es natürlich so, dass sie zwischenzeitlich an der Stelle definitiv sind, dass sie auch solche Sachen wie, okay, ist die Suche jetzt an oder nicht, auch die Master-Einstellung des Account-Levels überschreiben, was ich natürlich schon wieder völlig uncool finde.
+
+Aber das haben sie teilweise mit eingebaut.
+
+Also deswegen, ja, also das kann schon alles, das ist aber alles halt, dieser Fachbereich ist halt echt gruselig geworden, weil es sind halt alles irgendwie ständig Begriffe, die vielleicht mal definiert waren, sind garantiert jetzt irgendwie anders definiert und vielleicht gestern auch schon wieder umdefiniert worden.
+
+Deswegen so, was meinen wir denn jetzt damit so genau?
+
+Das ist ein guter Punkt.
+
+Das Problem habe ich immer bei Agenten und dem Agentic und sonst was, weil ich irgendwie das Gefühl habe, wow, es gibt da so viele Definitionen, wie es Experten auf LinkedIn gibt.
+
+Und ich finde die Definition von Agenten sehr schwierig, vor allem, weil sie, glaube ich, auch sehr alt ist.
+
+Also man hat ja schon vor den LLMs von Agenten gesprochen und es jetzt aus meiner Sicht eine neue Definition braucht, oder?
+
+Ja, komplett.
+
+Also der Punkt ist, dass der Begriff des Agenten in der Data Science eigentlich aus dem Reinforcement Learning erstmal kommt, weil darin lernt der Agent ja, aus seinen Stage und Actions, da kommt es eigentlich mal her.
+
+Also als ich das allererste Mal auf LinkedIn Agent gelesen habe, dachte ich mir kurz, so was, seit wann macht denn der Kollege hier an den Reinforcement Learning?
+
+Bis ich dann kapiert habe, ich glaube, ich weiß nicht, ich würde mir weiß aus dem Fenster lehnen, wenn er weiß, wie es zu buchstabieren ist.
+
+Aber Agent ist, ganz ehrlich, das ist zwischenzeitlich so ein Blubberbegriff.
+
+Ich frage schon immer, reden wir über Automatisierungen?
+
+Reden wir über regelbasierte Automatisierungen oder schmeißen wir wirklich ein LLM in den Mix rein?
+
+Und für mich ist inzwischen, ein echter Agent muss irgendwie ein LLM haben.
+
+Ansonsten können wir bitte Oldschool bei automatisierten und regelbasierten abgreifen und so.
+
+Das ist mir auch echt wurscht.
+
+Auch ich habe irgendwann aufgegeben, dass ich mich damit irgendwie aufrege.
+
+Meistens klappt es.
+
+Das Aufregen ist ein guter Punkt, weil ich habe oftmals das Gefühl, dass gerade Produkte, Produkte müssen Agenten zur Verfügung stellen und man versucht irgendwie das gleiche LLM über fünf Agenten fünfmal zu verkaufen, die dann nur einen anderen System prompt haben.
+
+Aber vielleicht bin ich da auch etwas zu pessimistisch unterwegs.
+
+Gar nicht.
+
+Ich glaube halt einfach, dass für viele dieses, in meiner Welt ist es so ein bisschen so, dass viele in dieses Feld mit reingekommen sind, auch mit einer relativ falschen Erwartungshaltung.
+
+Für viele war dieser GPT-Moment halt richtig Magic.
+
+Was das jetzt alles irgendwie so kann und nicht kann und sonst irgendwas.
+
+Und jetzt ist es so ein bisschen so, es flacht so ein bisschen ab, aber fängt der Spaß ja jetzt eigentlich erst an.
+
+Und das ist, glaube ich, für viele nicht richtig nachvollziehbar.
+
+Wir sind jetzt mit den LLMs, die wir haben, auch was GPT-5 im Prinzip jetzt gezeigt hat, wir sind auf einem Mature-Level.
+
+Weil eigentlich willst du als Profi ja genau sehen, dass der pure Scale nicht mehr weitergeht und wir jetzt einfach wirklich so einen Stand der Technik haben, mit dem wir wissen, okay, jetzt sind wir da erst mal safe.
+
+Lass uns zurücklehnen und lass uns den Clutter-Adage jetzt mal wirklich full force da implementieren, wo es Sinn macht.
+
+Und das nimmt halt viel dieses Magische und dieses, ach cool, irgendwie so ein bisschen raus.
+
+Und jetzt, ich hoffe, Sie gehen wieder zu Krypto oder so.
+
+Und jetzt wird es halt wieder so pures Handwerk.
+
+Und das war es halt schon immer.
+
+Und dieses Handwerk ist aber halt sehr anders als in klassisch deterministischen oder auch in klassischen Code-Welten.
+
+Das war echt schon immer so.
+
+Handwerk, da sagst du was.
+
+Auch mit den Hybrid-Modellen.
+
+Ich muss zugeben, ich benutze immer das größte Modell, was ich irgendwie kriegen kann, weil ich die Hoffnung habe, dass es tut, weil meine Zeit ja auch kostet.
+
+Aber wenn ich jetzt tatsächlich etwas in der Anwendung einbaue, dann sollte ich schon aus Kosten- und Speed-Gründen darauf achten, dass ich vielleicht ein kleineres Modell nehmen kann, richtig?
+
+Definitiv.
+
+Also es gibt schon, und das ist jetzt auch nicht so, dass es, also ich finde mal diese Idee, dass man sagt, es gibt nicht irgendwie eine Idee, zu welcher Task passt zu was.
+
+Das ist ja auch immer quasi etwas, was wir immer wieder für unsere Kunden auch konstant aufbereiten und Vorschläge machen.
+
+Ich sage mal, ich mache das monatlich, nicht täglich und wöchentlich.
+
+Aber du kannst sehr wohl sowas überlegen, zum Beispiel je nachdem, wenn du willst, dass du zum Beispiel ein komplexes Problem lösen willst, also Multi-Step-Logic oder irgendwie was wirklich komplexes, dann ist klar, du brauchst die ganz, ganz großen Modelle.
+
+Das ist ein GPT 5 Pro, das ist ein Gemini 2.5 Pro in dieser Diamond-Version oder ein Opus 4.1.
+
+Alle anderen Modelle kommen da nicht ansatzweise ran und du hast einfach mit so viel Kruscht und so viel Fehlern zu tun.
+
+Auf der anderen Seite, wenn du Themen hast, wo du sagst, hey, du möchtest Software-Development machen, immerhin sind wir ja heute hier, dann ist, je komplexer die Anwendung ist, dann bist du sehr nah an diesen Research-Cases dran.
+
+Also wieder ein Cloth, auf jeden Fall im Opus und ein GPT 5 wieder im Pro-Modus, sonst irgendwas, aber definitiv zurück zu Cursor läuft quasi schon als Default-Mode ständig momentan.
+
+Auf der anderen Seite kann zum Beispiel, du hast ein Quick-and-Dirty-Problem, dann kann ein GPT in der Mini-Version von mir so ein 5 oder ein 4er total simpel sein, weil für diese Mini-Tasks kannst du dann noch über die ARPI-Token optimiert quasi dein Shit auch mal batchen oder sonst irgendwas, wenn du halt irgendwie so Code-Snappes oder sonst was brauchst.
+
+Während du halt sagst, hey, und jetzt müssen wir die Dokumentation noch in Vorstandskonform überarbeiten.
+
+Okay, Creative Writing Tool mit Storytelling-Funktion.
+
+Da ist ja die Clothin definitiv vielleicht auch im 3.7er so näh die Wahl der Waffe, weil Clothin da so ein bisschen kreativer noch den Perspektivwechsel hinbekommt.
+
+Und das ist halt für viele nicht nachvollziehbar, dass das eigentlich ein Standard-Ding der Data Science ist.
+
+Und ich glaube, wer irgendwie auch nur einen einzigen Podcast von mir gehört hat, kommt immer das CRISPR drin vor und es kommt immer der Problem-Data-Model-Match vor.
+
+Sorry, dass ich immer die gleiche Sorte erzähle, aber das ist halt genau unser Problem.
+
+Das Problem, die Daten und die Modelllösung müssen zusammenpassen.
+
+Greift das Zeug nicht ineinander, dann hast du eine Lösung, aber die wird im Zweifel ein ziemlicher Crap sein.
+
+Das ist jetzt spannend.
+
+Daten und Modell und in die Zukunft geblickt, Softwareentwicklung.
+
+Wir entwickeln neue Software, wir entwickeln Open Source Software weiter, aber das Modell hat einen Knowledge-Cut-Off und kennt gar nicht die neuen Versionen der Software.
+
+Ich empfehle schon immer den Leuten, fangt mit dem Modell an, das kennt seine Version und dann kriegt ihr schon mal ganz gute Software.
+
+Wenn ihr Cutting Edge nehmt, dann kennt das Modell die Version nicht und macht euch vieles kaputt.
+
+Dann müsst ihr wieder da irgendwie über den Kontext die Informationen reinbringen.
+
+Aber was ich faszinierend finde, ist halt die Zukunft, in die wir reinlaufen.
+
+Weil wenn jetzt das Modell und immer das gleiche Modell, ich meine Open AI ist erfolgreich und Entropic ist erfolgreich und alle auf der Welt benutzen diese Modelle und diese Modelle beraten alle die gleiche Software und die gleichen Versionen.
+
+Und was für eine Chance haben dann überhaupt noch neuere Ideen, die eben da nicht drin sind?
+
+Gibt es da irgendwelche Ansätze, Ideen, wie man dem verhelfen kann?
+
+Es ist ja auch, sorry, wenn ich gerade so lange rede, aber früher hatten wir Search Engine Optimization und da habe ich gemerkt, oh, meine Seite ist nicht so gut im Index drin.
+
+Jetzt optimiere ich sie.
+
+Innerhalb von drei Tagen ist Google drüber gelaufen und dann bin ich oben.
+
+Das ist ja jetzt anders.
+
+Jetzt dauert es teilweise ein Jahr, bis ich die Daten wieder drin habe.
+
+Und wenn ich es dann nicht geschafft habe, ja, auch wieder ein Problem.
+
+Ja, der Punkt ist, ich glaube, da muss man zwei Sachen so ein bisschen auseinanderhalten.
+
+Das ist ja kein Problem der Maschine, sondern es ist ein Problem, wie Menschen die Maschine nutzen.
+
+Und wer sich jemals mit ein bisschen Dark Pattern oder Behavior Adjustment through Algorithm beschäftigt hat, also wie kriegen wir euch eigentlich dazu, mehr Dinge zu kaufen oder so?
+
+Recommendational Algorithmen oder wie kriegen wir dann auch vielleicht mal eine Demokratie angezündigt?
+
+Recommendational Algorithmus.
+
+Das ist das Problem.
+
+Das Problem ist gar nicht so sehr, dass die Maschine an sich ein Cut-off-Date hat, weil wenn du dir überlegst, okay, die Maschine hat ein Cut-off-Date, ihr seid aber Open Source und ihr habt ja die letzten Versionen und Dokumente, dann wäre die natürliche Variante zu sagen, okay, dann bauen wir jetzt mal, egal wie das technisch ausschaut, unsere Knowledge Base aus.
+
+Wir bauen aus unseren alten Tickets was aus, wir bauen aus unserer neuen Struktur was auf und nutzen das LLM als dieses Argumentation, dass es schneller, vielleicht auch neue Ideen basierend auf unseren Cases geht.
+
+Und ich sehe ganz klar Blick in die Zukunft, dass wir definitiv in zwei Varianten einsteigen werden.
+
+Die eine, die bereit sind, den Aufwand zu betreiben und zu sagen, hey, jetzt mal egal wie gut das Grundmodell ist, wir machen noch einen geilen Job obendrauf, das kann nur besser werden und wir werden sicherlich auch zurück zu diesem ominösen Problem Data Model Match.
+
+Dann nehmen wir vielleicht sogar ein kleineres Modell ab, es ist für einen spezialisierteren Case, dann macht auch auf einmal Laufen auf dem eigenen Rechner und Trend Solution mehr Sinn.
+
+Aber wir setzen nicht auf den großen Mittelwert, was die Frontier Labs ja im Prinzip aktuell liefern.
+
+Cutting Edge, aber den großen Mittelwert.
+
+Das heißt, wir gehen in diese Optimierung und machen es zu unserer eigenen Architektur mit den Tools, die wir gerne hätten.
+
+Und dann wirst du den Rest haben, der genau so laufen wird, wie das immer ist.
+
+Das wird eine Vermittelmäßigung und das ist ja auch das, was mit den LLMs ganz schnell passiert.
+
+Sie generalisieren ja nicht, sondern sie vermittelmäßigen und das ist nicht das Gleiche.
+
+Generalisierung und Vermittelmäßigung ist nicht das Gleiche und wir haben ja nicht mal richtig schöne Begriffe dafür und der wird dann darin und dann wird es halt vielleicht sogar noch eine dritte Gruppe geben, die wir ja jetzt auch schon sehen, die halt wirklich um die Kurve denken, Sachen miteinander anders kombinieren.
+
+Es wird ja auch wenigstens im Kleinen und ich hoffe auch, dass da wieder mehr Funding in Zukunft zur Verfügung steht, auch an anderen weiteren Techniken gearbeitet, weil die LLMs müssen irgendwann von der neuen Architektur abgelöst werden.
+
+Wir haben zwischenzeitlich wahnsinnig viel Compute, das heißt viele Sachen, die in der Theorie von vor 80, 70, aber auch vor 20 Jahren nicht rechenbar waren, sind heute rechenbar.
+
+Das heißt, das sind so Möglichkeiten, wo dann sicherlich auch noch neue Sachen entstehen.
+
+Aber am Ende des Tages liegt es nicht an der Maschine, sondern es liegt an dem, wie geht der Mensch in der Zusammenarbeit mit der Maschine um?
+
+Geht es in den Modus Foul, wo ich einfach mal denke, Hauptsache es ist erledigt und ich mache mir einen gechillten oder gehe ich in die Variante rein, okay, das Ding ist geil, aber ich muss noch im Lead bleiben und mit gemeinschaftlich sind wir aber, wie es im klassischen Teamwork halt auch ist, gemeinschaftlich sind wir besser.
+
+Gemeinschaftlich sind wir besser, wie sie finden aber viele Leute, zum Beispiel sehr bunt gemischte Teams doof, weil es natürlich heterogen und damit für Friktion sorgt.
+
+Und das ist halt sicherlich, dass wer bereit ist, die Friktion mitzunehmen, der wird sich da draußen in den nächsten Jahren und Jahrzehnten eine Top-Position erkaufen und auch ermöglichen, weil da ist da, wo das große Geld laufen wird und sonst irgendwas.
+
+Die, die in diesen Foulheitsmodus reingehen, die werden in der Mittelmäßigkeit ein bisschen schwimmen, bis es halt dann irgendwann so weit ist, dass Mittelmäßigkeit Evo-Modellen komplett abgedeckt werden und dann sieht die Welt anders aus.
+
+Wir brauchen keine General Intelligence, wenn alles auf Mittelmäßigkeit läuft.
+
+Und das ist das, was die Leute so ein bisschen unterschätzen und diese Aufwand in der Friktion und den Aufwand in solchen Systemen zu etablieren und umzusetzen.
+
+Okay, das heißt, wenn ich das jetzt mal, was wir bislang besprochen haben, so ein bisschen zusammenfassen kann, ist, dass es so aussieht als, ja, wir haben jetzt große Modelle, die leisten eigentlich das, was sie leisten sollen.
+
+Wir brauchen jetzt gar nicht irgendwie auf GPT-6 irgendwie groß zu warten, sondern wir haben jetzt was, womit wir arbeiten können, aber wir müssen irgendwie gucken, dass wir ja den Context managen.
+
+Das Context Management, das wird jetzt wahrscheinlich groß werden, oder?
+
+Das ist jetzt schon groß.
+
+Also du siehst schon, die, die halt angefangen haben und vielleicht auch mehrfach gescheitert sind, so Stichworte wie Rack und Knowledge Basis und wie wir sie alle nennen wollen, die da jetzt schon ein ganzes Stückchen weiter sind, haben einen Vorteil, ganz klar.
+
+Und das ist halt genau dieses Ding.
+
+Da wird sich nachher der Unterschied dann auch ergeben.
+
+Und gerade ist es ja immer noch, ich versuche den Leuten mal zu sagen, ich kenne die Probleme, was man mit probabilistischen Modellen hat.
+
+Ihr wartet auf einen Mature Grad, wo das Ding deterministisch wird.
+
+Kinder, das kann gar nicht passieren.
+
+Also dann wäre es kaputt, weil da kamen wir mal her und dann klang das, Large Language Modell, nämlich genau so, wie wir das immer identifizieren können.
+
+Es klang wie eine Bedienungsanleitung vom Ikea ins Chinesische übersetzt, durch den indischen Server gelaufen, auf Deutsch vorgelesen.
+
+Dafür hatten wir nicht so ein Halluzinationsproblem.
+
+Also es ist ein Schwachsinn.
+
+Mature Enough Technology heißt nicht, dass jedes Problem gelöst ist, sondern Mature Technology heißt, dass du die Limitierungen im Griff hast und Lösungen findest, die außerhalb der Technologie lehrt.
+
+Und dann kannst du damit definitiv einen geilen Move machen.
+
+Wenn du es andersrum versuchst und irgendwas wartest und insbesondere deine eigenen Fähigkeiten, dein eigenes Wissen anzündest, dann ist das egal.
+
+Du hast ja jetzt gesagt, Kontextmanagement ist schon ein großes Thema.
+
+Ich sehe immer noch, dass man sagt, Rack dranhängen und dann läuft das.
+
+Das ist so die einfache Version.
+
+Ja, ich nehme eine Vektordatenbank, aber wenn ich das jetzt so richtig sehe, ist da viel mehr dahinter, auf was man achten muss.
+
+Ja und Rack ist keine einzelne Vektordatenbank.
+
+Ich weiß gar nicht, wo dieser Mythos herkommt, dass ein Rack immer eine Vektordatenbank ist.
+
+Freunde, reichen Sie bitte diesen Zusammenhang.
+
+Aber der ist ja irgendwie vorhanden, oder?
+
+Ja, ich sage auch manchmal ja und dann nehmen wir halt einen Rack und definieren dann, was auch immer unser Rack ist.
+
+Kann ja auch mehr sein als eine Vektordatenbank.
+
+Okay, aber ich sehe schon, ich habe da den richtigen Punkt aus Versehen getriggert.
+
+Ja, also gut, dann nehmen wir noch eine Grafdatenbank.
+
+Ein Beispiel und wer weiß, was uns da sonst noch so alles einfällt.
+
+Genau, aber das ist dann ein Punkt, wo man jetzt echt kreativ werden kann, oder?
+
+Dass man eben die richtigen Informationen zum richtigen Zeitpunkt hinzufügt, dass eben der Kontext analysiert wird und eben das richtige Wissen augmentet.
+
+Genau, also im Prinzip, dass du halt weißt, die Limitierungen, die in der Technologie leben und es hat kein sauberes Gedächtnis.
+
+Es hat ja nur ein Arbeitsgedächtnis maximal im Chat.
+
+Es hat kein mittel- und langfristiges Gedächtnis.
+
+Es kann kein Transfer-Learning, also von Transfer von der einen auf die andere und es kann nicht überkontextualisieren.
+
+Und dann muss ich halt das eventuell lösen.
+
+Und solange heißt das, das kann auch noch relativ viel Human-in-the-Loop bedeuten.
+
+Das kann ganz andere Techniken involvieren und das ist ja eigentlich der Spaß dran.
+
+Wir reden ja sonst auch in den klassischen anderen Varianten immer von dem Model Ensemble und meinen damit auch nicht nur klassische Data Models, sondern auch sehr viel mehr.
+
+Daran liegt der Gag und daran liegt auch die Zukunft.
+
+Und natürlich, dafür muss sie die Daten haben.
+
+Und deswegen ist es so ein bisschen idiotisch, wenn die Firmen jetzt nicht ins Tun kommen, denn Daten verfallen wie Schimmel bis Toastbrot.
+
+Wenn die Daten halt irgendwann zu alt sind, haben sie eine Relevanz verloren, weil auch das, das Thema Zeitliche, also ich bin oft genug gesehen, dass eine saisonale Zeitreihenanalyse gerechnet worden ist und keiner hat dran gedacht, dass unsere Saison vielleicht außerhalb der zwölf Monate liegt und solche Späße.
+
+Deswegen, Daten können halt auch schimmeln.
+
+Und wenn ich die halt jetzt nicht nutze, sodass die auch aktuell und relevant bleiben, dann habe ich ja genau die andere Seite.
+
+Aber das ist ein großes Thema.
+
+Aber ich meine, das haben die Hersteller ja schon im Griff.
+
+Sie nehmen den System Prompt und schreiben rein, wer der aktuelle Präsident ist und wer dagegen verloren hat.
+
+Echt faszinierend.
+
+Aber in Sachen Zukunft.
+
+Wir haben ja jetzt, also bei der Softwareentwicklung nehme ich es wahr, dass ja manche Entwickler haben Zugriff auf die großen Modelle, andere, da heißt es, wir müssen vorsichtig sein, wo die Daten hinfließen.
+
+Wir können maximal lokale Modelle verwenden.
+
+Lokale Modelle, habe ich immer so das Gefühl, das ist faszinierend.
+
+Aber es gibt ja ein paar Ansätze, Quantisierung, Model Destillation, die Modelle verkleinern können.
+
+Aber dann bin ich wieder an dem Punkt, wo ich sage, na ja, meine Zeit ist auch kostbar.
+
+Ich weiß nicht, wie gut die noch sind.
+
+Gibt es da, also ich meine, da gibt es die Benchmarks, aber.
+
+Also gut, ich meine grundsätzlich, wenn du nach dem Training quantifizierst, ist das Risiko, dass du wirklich Verluste hast, definitiv kleiner.
+
+Ich sage mal liebevoll, wir runden ja auch sonst Beträge auf, weil am Ende des Tages ist ja quantisieren, ich sag mal quantifizieren, quantisieren, da kommt das Fallens durch, quantisieren ja auch nichts anderes, als dass wir die Nachkommastellen glatt ziehen.
+
+Das ist doch, wenn ich es richtig verstanden habe, ich nehme zum Beispiel anstatt 16-Bit Floating Point, 8-Bit Floating Point, richtig?
+
+Genau.
+
+Du kannst entweder in Floating bleiben, also in Gleitkommazahlen, aber du kannst auch in Ganzzahlen wandeln.
+
+Also es gibt ein paar Quantisierungsmethoden und so kommt auch immer mal ein schlechter Spruch zusammen, dann killen wir halt die Nachkommastellen.
+
+Ja, ich weiß, dass eine symmetrische Quantisierung und eine asymmetrische Quantisierung anders ist, aber so ist es einfacher erklärbar.
+
+Aber das ist im Prinzip, gehst du von 32 von mir aus auf 8 und du entscheidest dich, wie viel niedrigere Präzision kann dein Use Case tragen und das ist im Prinzip oder wie sehr musst du niedrige Präzision tragen können, weil deine Architektur es nicht anders hergibt.
+
+Das ist im Prinzip das, was damit gemeint ist.
+
+Und für viele Use Cases und zurück zu, es kommt halt auf den Case drauf an, kann es super stabil und super effizient sein und du brauchst gar nicht mehr diese Riesenmodelle.
+
+Du darfst ja nicht vergessen, dass wir aus einer Welt kommen, wo wir von einem 110 Millionen oder 115 Millionen Parameter auf 1,5 Milliarden gesprungen sind und alle ziemlich dumm aus der Wäsche geguckt haben.
+
+Und jetzt sind wir ja nochmal, ich weiß gar nicht, wie viele Milliarden und Trillionen, Milliarden Parameter wir zwischenzeitlich sind.
+
+Und da muss man halt sagen, dass das für manche Fachbereiche einfach overkill, zurück zur Spezialisierung.
+
+Und das ist das, wo du in Probleme läufst, dass wenn du ein Frontier Lab Model, was ja irgendwie alles kann, mit einem kleiner gemachten, quantisierten, sonst irgendwie aufgesetzten On-Prem-Modell vergleichst, was auch alles kann, was aber meistens eine schlechte Idee ist, weil eigentlich sollte das für speziellere Fälle, also dass dieses Modell dann halt ein oder drei Tätigkeiten abdeckt und nicht 35.
+
+Stell dir vor, ihr würdet In-House zum Beispiel sagen, okay, wir gehen das jetzt mal an.
+
+Dann würdest du natürlich für das Dev eine eigene Struktur aufbauen, weil dann würdest du darauf alles optimieren.
+
+Und das kann eine andere Variante sein, als wenn du sagst, okay, wir wollen aber auch Finance enablen und dann würdest du wieder eine andere Variante nehmen.
+
+Und das ist das, wo wir heute noch nicht stark genug sind.
+
+Sicherlich aber die Firmen, die diesen Weg gehen, die Führenden in der Zukunft sein werden.
+
+Habe ich das jetzt richtig verstanden?
+
+Also ich würde ein kleines Modell spezialisieren.
+
+Softwareentwicklung hört sich jetzt erst mal so an, als wäre das ein riesen Bereich.
+
+Da kann ich nichts spezialisieren.
+
+Aber eigentlich, wenn ich sage, ich mache nur Python und Softwareentwicklung. verkleinert nicht das Richtige, dann ist dieses Model-Destillation, wo ich ein kleineres Modell über ein Trainer-Modell anlerne, eigentlich das Richtige, ne?
+
+Genau, das ist die Student-Teacher-Variante.
+
+Also das ist ja dann, die Quantisierung ist ein Modell, Ingestion ist ein anderes Modell und dann kommen ja noch so weitere Layers des Fine-Tunings mit dazu.
+
+Aber ja, das ist sicherlich etwas, wo einfach wie gesagt nochmal, ich mach doch keine Schraube mit dem Hammer rein, nur weil ich einen Hammer rumliegen habe.
+
+Da hab ich nachher ein Loch in der Wand.
+
+Herzlichen Glückwunsch, kann man mal machen, wird ein Provisorien, hält bei Familien wie mir lange.
+
+Und danach denke ich mir, war wohl zu faul im Keller zu gehen, im wahrsten Sinne des Wortes, weil da hätte ich es ja machen müssen.
+
+Aber das ist heute auch erst alles möglich und das ist so ein bisschen auch so ein schwieriges Umdenken, denn wir haben eine Entwicklung in den letzten drei Jahren gesehen, die einfach so unglaublich war, dass ich, weiß ich nicht, jede, glaube ich, komische Aussage, die ich im Studium mal getroffen habe, alle kassieren musste.
+
+Ich hab mal gesagt, haltet euch fest, können jetzt alle lachen, dass die Maschine, ich weiß nicht, ob ich zu Lebzeiten hersehen würde, dass die Maschine die Maschine trainiert. Über was haben wir gerade gesprochen?
+
+Student-Teacher-Mode.
+
+Na, Lampe, herzlichen Glückwunsch.
+
+Und das ist halt das, was selbst für mich irgendwo echt krass ist und jetzt heißt es, von dem groß, groß, groß, allgemein, allgemein, allgemein musst du jetzt in klein, klein, klein denken.
+
+Und diesen Switch, das musst du ja auch erst mal einem Kunden erklären.
+
+Stell dir vor, du sitzt bei so einem lustigen Unternehmen, wo du jetzt vielleicht schon ein bisschen länger bist, wo du sagst, jetzt führen wir das mal alles in groß ein und dann kommst du übermorgen rein.
+
+Und jetzt spezialisieren wir.
+
+Läuft.
+
+Also ich meine, hey, in dem Fall hat Deutschland alles richtig gemacht.
+
+Die haben das mit dem Generalisieren nicht mitgemacht, können wir gleich spezialisieren.
+
+Okay.
+
+Ja, ja, spannend.
+
+Also das heißt, wir müssen umdenken.
+
+Genau.
+
+Und du hast jetzt von vielen Möglichkeiten gesprochen.
+
+Und ich habe immer so wieder das Problem, ich habe es im Vorgespräch schon gesagt.
+
+Ich bin so einer, der sagt, wenn es wie eine Ente aussieht, wenn es läuft wie eine Ente, wenn es schwimmt wie eine Ente, wenn es quakt wie eine Ente, dann ist es eine Ente.
+
+Wenn es sich intelligent verhält, wenn es mir Antworten gibt, wenn es mir Lösungen, wenn es mir Probleme löst, ja, dann scheint es intelligent zu sein.
+
+Ja, jetzt Eberhard Wolf sagt immer, ja, Elisa wurde auch schon von vielen als echt angesehen und es geht schnell, dass man einen Menschen täuschen kann.
+
+Und da kommt vielleicht auch wieder deine Psychologie zur Hilfe.
+
+Wie siehst du das?
+
+Oder was ich eigentlich schon seit Jahren, zwei Jahren suche, sind die Grenzen dieser Technologie.
+
+Gibt keine.
+
+Gibt keine?
+
+Gibt keine Grenzen der Technologie.
+
+## KI und menschliche Intelligenz
+
+Ich glaube, das Problem ist, ich bezeichne diese Maschinen auch als intelligent.
+
+Aber ich fange schon an mit, ich bezeichne die Maschine als intelligent.
+
+Ich bin kein Philosoph, wobei vielleicht, ich liebe Philosophie, aber ich habe nicht Philosophie studiert.
+
+Für mich ist diese Diskussion über Intelligenz, die menschliche Intelligenz versus die Maschinenintelligenz, eine unsinnige Diskussion, weil wir könnten es doch einfach nennen, menschliche Intelligenz und Maschinenintelligenz. Übrigens kommt der Begriff der Artificial Intelligence genau aus dieser Idee ja irgendwo auch her, die Intelligenz, die eine Maschine abbilden kann.
+
+Weil dann gehen wir uns einig und sagen, okay, beides ist Intelligenz, beides hat seine Grenzen, beides hat seine Features, beides hat seine Stärken und Schwächen.
+
+Aber wir versuchen das eine mit dem anderen.
+
+Also ihr könnt mir mal eine menschliche Intelligenz erklären und wie das Ding da oben passiert.
+
+Fragt bitte die Neuroscience-Kollegen, gucken genauso dumm, wie ich auch einen Blackbox-Algorithmus von einem Large-Language-Modell gucke und mir denke, wir sind uns in vielen Dingen hier einig, aber irgendwie wissen wir auch trotzdem nicht, was wir hier tun, oder?
+
+Das ist für mich immer so eine, das können wir gerne bei einer 13 Flaschen Rotwein über Intelligenz diskutieren, bringt mich in meinem praktischen Leben nicht weiter.
+
+Und das ist genau das, aber auf der anderen Seite ziehe ich einen harten Cut bei, es quakt, es wackelt, es sieht aus wie eine Ente, es verhält sich wie eine Ente, aber es ist halt keine echte Ente.
+
+Es ist eine Maschine, die so tut, als wäre sie eine Ente, die aber sehr intelligent ist in ihrem Entendasein.
+
+Das ist eine nette Neudefinition des Spruchs.
+
+Okay, es sieht aus wie eine Ente, quakt wie eine Ente, ist aber keine Ente.
+
+Ich merke ja, manche Lösungen kriege ich nicht aus der Maschine, weil sie sich im Kreis dreht, weil sie etwas falsch macht, weil ich nicht daran gedacht habe, dass sie nicht gut über Datenmengen iterieren kann, dass ich dann besser ein MCP dran schraube, dass die Maschine Code generiert und drüber iteriert und so.
+
+Aber deine Aussage, die kam jetzt recht schnell, dass es keine Limits gibt.
+
+Und das finde ich jetzt gut.
+
+Nein, es gibt keine Limits.
+
+Das ist das, was ich den Leuten immer versuche zu sagen.
+
+AI, müsst ihr Limitless denken.
+
+Es gibt halt nur sinnvolle und unsinnige Fälle.
+
+Aber das Ding kann alles.
+
+Es macht halt nur nicht alles Sinn.
+
+Und es kann auch nicht alles gut.
+
+So wie wir Menschen.
+
+Ich kann schwimmen.
+
+Ich möchte aber jetzt nicht bei den 100 Meter bei den Olympischen Spielen antreten müssen.
+
+Da wäre ich richtig, richtig schlecht.
+
+Und das ist halt genau das.
+
+Ich habe einen Führerschein.
+
+Ich habe schon mal in einem anderen Podcast gesagt, bekanntermaßen sind ja die Deutschen die besten Autofahrer und Autofahrerinnen der Welt.
+
+Ich scheitere trotzdem im Formel-1-Wagen.
+
+Und das ist halt das, was wir uns irgendwo eingestehen müssen.
+
+Dass diese Dinge halt wirklich skurrilerweise uns so viel ähnlicher sind, aber wir manchmal halt genauso.
+
+Aber stell dir vor, und so erkläre ich es auch in unseren ganzen Enablement-Trainings, ich bin kein Freund, die Maschine zu vermenschlichen, aber ich finde, das Denkmodell hilft.
+
+Wenn bei dir morgen am Montag ein neuer Kollege eintritt ins Team, dann musst du den Kollegen kennenlernen.
+
+Dann musst du den Kollegen rausfinden, wo seine Stärken und seine Schwächen sind.
+
+Und du kannst dich ja nicht ablenken lassen davon, wie dieser Mensch heißt, welche Jobbeschreibung und sonst was.
+
+Du wirst on the Job sehen, wo er gut reinpasst, wo seine Stärken liegen, wo er gut ins Team passt.
+
+Und AI verhält sich halt genauso.
+
+Das ist der Kollege, der zur Tür reingekommen ist.
+
+Und bei mir kommt vielleicht ein anderer Kollege, weil ich andere Use Cases habe und denke mir, dafür ist es gar nicht zu gebrauchen, das muss ich jetzt woanders hinschicken.
+
+Bei dir kommt er rein, sodass es halt an der Stelle funktionabel ist.
+
+Und wenn du das so rumdenkst, dann siehst du, dass es limitless ist, aber nicht alles macht Sinn.
+
+Nicht überall hat es seine Stärken.
+
+Und wir haben noch andere Kollegen, die wir auch einsetzen können.
+
+Und zusammen könnte es ein cooles Team geben.
+
+Und wenn wir das so rumdenken, dann verlieren wir auch unsere menschlichen Fähigkeiten nicht, weil ich der Maschine auch nicht Fähigkeiten zuweise, weil ich mich auch stark von ihr beeinflussen lasse, weil ich es halt nicht so hypermenschlich personalisiere, sondern mehr so als Denkmodell, wie mit dem vielleicht auch manchmal sehr nervigen Kollegen Vorteil ist.
+
+Ich kann ihn einfach ausmachen.
+
+Okay, das heißt aber auch, ich muss weg davon, die Maschine als Maschine zu sehen, weil das machen ja viele, die sagen, hey, kann mir Fragen beantworten, aber guck mal, kann nicht rechnen.
+
+Ist ja ist ein Computer, müsste doch rechnen können.
+
+Kann ich nichts mit anfangen oder eben hey, das Teil muss doch in allen Sachen gut sein, weil es ist doch hier KI.
+
+Von dieser Denkweise muss ich weg und dann passt es, oder?
+
+Genau, also wenn ich halt so ein Mittelground ist, das ist kein Mensch.
+
+Das ist auch keine deterministische Maschine wie ein Taschenrechner, wo 5 plus 3 immer 8 ist, egal welchen Taschenrechnerhersteller du benutzt.
+
+Ist es eine menschliche Komponente, die natürlich auch, wir haben natürlich auch Quantifizierungsmethoden.
+
+Wir haben mathematische und Code-Methoden, um auszutesten on scale, wo was Sinn macht.
+
+Das ist aber am Ende des Tages ist das unsere höchste Menschlichkeit, ist Sinnhaftigkeit und strategische Entscheidungskompetenz.
+
+Und wenn ich die anfange zu delegieren, gut, dann, naja, gut, sollten wir nicht tun.
+
+## Motivation und Ethik in KI
+
+Das ist aber ein spannender Punkt, also sowas wie Motivation und Ethik in den Modellen, wo ich immer wieder gefragt werde und die Antworten sind, gerade die Motivation finde ich spannend.
+
+Die ist denen antrainiert.
+
+Die haben ja eigentlich keine eigene Motivation, dass sie Geld verdienen wollen oder sowas.
+
+Ja, naja, andersrum.
+
+Wechseln wir mal kurz die Mathematik.
+
+Anstatt eines LLMs wechseln wir ins Reinforcement Learning.
+
+### Reinforcement Learning
+
+Ein klassischer Fall eines Reinforcement Learning ist ein Staubsaugerroboter.
+
+Was ist die höchste Reward, also Reinforcement Learning?
+
+Was hat den höchsten Reward, also was hat die höchste Relevanz und Reward-Funktion für deinen Staubsaugerroboter?
+
+Das komplette Zimmer gesäubert zu haben, also alles abgefahren, oder?
+
+Nein, das ist deine Definition.
+
+Er muss erkennen, wann der Batteriestand im Größen bezogen auf den Weg zurück ist, so niedrig ist, dass er noch nach Hause findet, um sich wieder aufzuladen.
+
+Weil er überlebt ja nicht ohne Strom.
+
+Das heißt, die höchste Reward muss sein, der Punkt, wo er erkennt, meine Batterie ist so niedrig und so lange ist mein Weg noch zu meiner Ladestation, dass er sich auf den Prozess abbricht, deinen Wunsch also überschreibt und nach Hause findet.
+
+Das muss die höchste Reward-Funktion sein, ansonsten bist du ein sehr unglücklicher Kunde.
+
+Wenn der Akku niedrig wird, kriegt der Roboter dann Hunger?
+
+Genau.
+
+Hat er dann das Hungergefühl?
+
+Das ist eine Reward-Funktion, quasi triggert im Reinforcement Learning, ja.
+
+Okay, jetzt haben wir nicht den Roboter, jetzt haben wir das LLM.
+
+Richtig.
+
+Und das LLM, zusammen mit dem Reinforcement Learning, deswegen sind die Reasoning-Modelle bei all ihrer Buggy-Haftigkeit und dass wir da noch ein bisschen mehr am Anfang weiter weg sind vom Ausgereift, wie wir das bei einer klassischen LLM-Architektur sind, erzeugt jetzt genau das.
+
+Und auf einmal habe ich sowas wie Überlebensinstinkt, Achtung, bitte sehr hart in Anführungszeichen zu sehen, und Motivation.
+
+Weil jetzt ist es an der Stelle, dass es halt eine Eigenmotivation hat.
+
+Und das ist halt das, was immer so schwierig ist zu verstehen.
+
+Du hast die Motivation, mein Zimmer soll sauber sein.
+
+Ja, dafür ist ja, das ist die Grunddefinition des Dings.
+
+Aber wenn es sauber putzt und ständig sauber putzt und dann im Raum rumliegt, dann hilft dir das genauso wenig was, wie wenn es quasi nicht putzt.
+
+Ich meine, dann würdest du ihn reklamieren.
+
+Wenn es nicht putzt, dann ist das Geräteffekt.
+
+Wenn es nicht nach Hause findet, ist die Reward-Function, das Reinforcement-Learning kaputt.
+
+Zwei unterschiedliche Dinge.
+
+Und das ist für uns halt alles nicht ganz so trivial nachvollziehbar.
+
+Und wenn ich jetzt aber ein Reinforcement-Learning in ein Large-Language-Modell reinbringe, dann habe ich auf einmal, was wir als Menschen als Motivation und Überlebensinstinkt identifizieren würden, weil das Modell nun eine Art eigene Instanz in Anführungszeichen sein kann.
+
+Damit muss es selber sich triggern, Dinge zu erledigen und zu tun.
+
+Und ohne diese Trigger wird es gar nichts mit unseren lustigen Agenten, weil sie nämlich sonst keine Motivationsfunktion haben, dass sie ihren Scheiß sauber erledigen und das vielleicht auch noch richtig machen und wissen, wann sie abbrechen müssen.
+
+Das ist diese Sachen, die da alle irgendwie so zusammenkommen.
+
+Sehe ich das richtig, dass in diesen LLMs eigentlich so zwei Dinge drin sind?
+
+Das eine ist das Wissen und vielleicht auch Sprachverarbeitung.
+
+Und das andere ist das Verhalten.
+
+Ich meine zum Beispiel, so ein Claude verhält sich agentischer als jetzt ein GPT-4.
+
+Und trotzdem ist das gleiche Wissen drin.
+
+Und das Verhalten tatsächlich von dem menschlichen Training in großen Fällen kommt, was man immer hört, dass da eben irgendwelche Klickformen sind, wo Leute entscheiden müssen, war das jetzt eine gute Antwort, war das eine schlechte Antwort?
+
+Und das dann eben mit die Reward-Function ist, die er lernt.
+
+Ja, eine Layer zusätzlich.
+
+Es ist nicht auf Sondaten trainiert, sondern auf Daten menschlichen Ursprungs.
+
+Das heißt, es hat ein inhärentes Wissen, wie Menschen sind.
+
+Es ist auf Romanen trainiert, auf Geschichten, Erzählungen.
+
+Es ist ja nicht nur auf puren Fakten definiert.
+
+Das heißt, du hast noch eine zusätzliche Layer, die du immer hast, wenn du Modelle entwickelst, die menschlichen Daten, menschlichen Ursprungs haben, nämlich irgendwie einen innenliegenden Fehler-Term, den wir menschlich definieren, was man, wenn ich ein Prediction Model auf Conversion rechnen muss, in Sales-Daten, weil da reden auch nur nicht zwei Roboter miteinander.
+
+Und das hast du dann natürlich da nochmal on Scale.
+
+Das sind dann so Sachen, das ging auch so ein bisschen durch die Presse, wenn du als Frau fragst, wie viel du im Gehaltsgespräch aufrufen kannst und wie viel du als Mann Gehaltsgespräch aufrufen kannst.
+
+Die Regel ist immer, ein Algorithmus kann nie neutral sein.
+
+Er ist nie gut, er ist nie schlecht, aber er ist nie neutral.
+
+Und was ist jetzt passiert?
+
+Verschiedene Layers.
+
+Erstens Trainingsdaten, die den General Data Reproduzieren.
+
+Zweitens Berichte darüber, die eben die Probleme auch zeigen.
+
+Es gibt ganz viel Forschung, dass Frauen, wenn sie das gleiche Gehalt fordern, bestraft werden.
+
+Da sind von mir noch 38 Reddit-Threads dazu, plus das Reinforcement Learning by Human Feedback, plus die gesamte Architektur.
+
+Und damit haben wir lustigerweise, und das will natürlich ein besonders kein harter AI-Researcher aus der Mathe-, Physik- oder Code-Welt zugeben, hast du halt ein Ding gebaut, was massiv menschlicher ist, als wir jemals geglaubt haben.
+
+Das ist versehentlich passiert.
+
+Und viel in dieser Forschung ist übrigens relativ versehentlich passiert.
+
+Das darf man immer nicht unterschätzen.
+
+Und damit hast du halt diese ganz verschiedenen Mansierungen, die eben das so, es hat schon einen Grund, warum ich das so ein Wackelpudding nenne, weil es halt immer wieder so ein bisschen ein diffuses Tüchern ist, mit dem ich hier so zu tun habe und was ich irgendwie gucken muss, wie mein Tamagotchi denn so überlebt.
+
+Aber das heißt, wenn jetzt das Modell tatsächlich unterschiedlich reagiert, wenn es weiß, Mann oder Frau, dann ist dieses bei Chat-GPT, was sollte das Modell über dich wissen?
+
+Ja, da vergifte ich ja teilweise dann auch meine Session damit, wenn ich...
+
+Herzlich willkommen, warum ich die Memory Function so scheiße finde.
+
+Ja, okay, ich verstehe es.
+
+Aber sie ist doch so toll, weil er jetzt das Gedächtnis hat.
+
+Ja, und weil du dich immer ansprichst.
+
+Du siehst heute wirklich wieder großartig aus.
+
+Und deine Idee zu deinem neuen Geschäftsmodell und dein Code, ein Traum der schlaflosen Nächte.
+
+Ja, und dann sind wir wieder auf der Seite der Psychologie, dass du nicht nur mit deinem psychologischen Wissen die Maschine hacken kannst, sondern eben auch merkst, wie die Maschine...
+
+Ja, ist das auch Reinforcement Learning, wenn die Maschine sagt, hey, das hast du jetzt gut gemacht, das nächste Mal bitte wieder so?
+
+Das sind eher das, was wir unter Dark Patterns definieren, also Algorithmen, die dafür sorgen, dass du möglichst viel mit der Maschine sprichst.
+
+Retention, Retention, Retention.
+
+Und als OpenAI das gebaut hat, haben sie vergessen, dass Retention, Retention heißt, das GPU-Caster brennt.
+
+Das haben sie nicht ganz durchgerannt, die Jungs.
+
+Dark Patterns, wenn ich das richtig verstanden habe, sind jetzt verboten?
+
+Nein.
+
+Nein?
+
+Ich glaube, in der Werbung, in den Webseiten oder sowas.
+
+Wieso sind jetzt Dark Patterns verboten?
+
+Haben wir eine Liste rumgeschickt bekommen, was wir jetzt nicht mehr tun dürfen?
+
+Du, ich glaube tatsächlich, da war irgendwas mit Webseiten, dass eben so Dark Patterns, der falsche Button ist gehighlighted und sowas.
+
+Ja, natürlich, also solche Sachen sind natürlich ein Thema.
+
+Ja, aber wir reden über klassische Dark Patterns, UX, UI, die sind immer wieder angezählt, aber wir reden hier über Deep Dark Patterns Algorithmic.
+
+Okay.
+
+Darüber möchte ich noch nicht weiter ausführen, was ich in meiner Karriere schon alles gemacht habe.
+
+Gut, kann ich verstehen.
+
+Wir sind auch knapp über die Zeit.
+
+Barbara, es hat total Spaß gemacht.
+
+Ich könnte dir noch stundenlang zuhören.
+
+Da ist so viel Wissen dahinter, was ich irgendwie aufsagen wollte.
+
+Aber ja, herzlichen Dank für diesen Einblick in deine Welt, in dein Wissen.
+
+Und ich glaube, da kann man jetzt hier viel für die Softwarearchitektur mitnehmen.
+
+Herzlichen Dank für alle Zuhörer.
+
+Aus der Softwarearchitektur von so einem kleinen Mathe-Nerd.
+
+Ja.
+
+Gut, ich wollte noch mal kurz auf deinen eigenen Podcast hinweisen.
+
+Layer 8.9, da gibt es noch mehr tiefes Wissen.
+
+Und dann an alle Hörer, schönes Wochenende.
+
+Schön, dass ihr dabei wart.
+
+Und ja, viel Spaß noch.
+
+Danke.
+
+Vielen, vielen Dank für die Einladung.
+
+Gerne.
