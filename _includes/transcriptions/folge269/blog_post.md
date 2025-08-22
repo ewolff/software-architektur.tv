@@ -29,10 +29,10 @@ Diese verschiedenen Perspektiven unter einen Hut zu bringen und eine gemeinsame 
 
 Software-Systeme entwickeln sich über die Zeit weiter und wachsen. Eine große Herausforderung besteht darin, diese Evolution zu steuern ohne dass Chaos entsteht. Dabei spielen mehrere Faktoren eine Rolle:
 
-- Requirements und Technologien ändern sich kontinuierlich
-- Neue Funktionen werden hinzugefügt und eingebaut
-- Die ursprüngliche Architektur muss angepasst werden
-- Teams und Organisationen verändern sich
+- Requirements und Technologien ändern sich kontinuierlich.
+- Neue Funktionen werden hinzugefügt und eingebaut.
+- Die ursprüngliche Architektur muss angepasst werden.
+- Teams und Organisationen verändern sich.
 
 Diese evolutionäre Entwicklung erfordert einen iterativen Ansatz. Die Vorstellung einer "fertigen" Architektur ist dabei hinderlich - Architektur muss sich kontinuierlich weiterentwickeln.
 
@@ -40,10 +40,10 @@ Diese evolutionäre Entwicklung erfordert einen iterativen Ansatz. Die Vorstellu
 
 Ein oft unterschätzter Aspekt sind die persönlichen und emotionalen Komponenten:
 
-- Architekten können ihre Architektur als "ihr Baby" sehen und Änderungen als persönlichen Angriff wahrnehmen
-- Teams haben unterschiedliche Perspektiven und Erfahrungen
-- Egos und Politik spielen eine wichtige Rolle
-- Entscheidungen bedeuten immer auch das "Töten" von Alternativen
+- Architekten können ihre Architektur als "ihr Baby" sehen und Änderungen als persönlichen Angriff wahrnehmen.
+- Teams haben unterschiedliche Perspektiven und Erfahrungen.
+- Egos und Politik spielen eine wichtige Rolle.
+- Entscheidungen bedeuten immer auch das "Töten" von Alternativen.
 
 Diese menschlichen Aspekte erfordern viel Diplomatie und die Fähigkeit, mit verschiedenen Persönlichkeiten umzugehen.
 
