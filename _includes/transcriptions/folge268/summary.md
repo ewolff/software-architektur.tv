@@ -3,7 +3,7 @@
 ## Wichtige Keytakeaways
 - Claude Code kann selbstständig aus Anforderungen und Architektur-Dokumentation lauffähigen Code generieren
 - Der Output ist nicht deterministisch - gleiche Prompts können zu unterschiedlichen Ergebnissen führen
-- Das Spark Framework bietet einen strukturierten Prozess für die KI-gestützte Entwicklung
+- Das SPARC Framework bietet einen strukturierten Prozess für die KI-gestützte Entwicklung
 - Die Qualität der Spezifikation ist entscheidend für das Ergebnis
 - KI-Systeme werden immer günstiger und leistungsfähiger, was neue Entwicklungsansätze ermöglicht
 
@@ -16,7 +16,7 @@
 
 ## Glossar wichtiger Begriffe
 - Devcontainer: Isolierte Entwicklungsumgebung in Docker
-- Spark Framework: Framework für KI-gestützte Softwareentwicklung
+- SPARC Framework: Framework für KI-gestützte Softwareentwicklung
 - Temperature Parameter: Steuert die "Kreativität"/Zufälligkeit des KI-Outputs
 - Plan Mode: Modus in Claude Code für Planung ohne direkte Ausführung
 - Prompt Engineering: Gestaltung der Anweisungen an das KI-System
