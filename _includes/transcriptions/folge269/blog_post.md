@@ -1,5 +1,3 @@
-Hier ist ein Blog-Post basierend auf dem Podcast-Transcript:
-
 # Die größte Herausforderung der Software-Architektur: Es sind die Menschen
 
 Software-Architektur wird oft als rein technische Disziplin wahrgenommen. Doch wenn man Software-Architekten nach ihrer größten Herausforderung fragt, zeigt sich ein anderes Bild: Die meisten Antworten drehen sich um Menschen, Kommunikation und organisatorische Aspekte.
