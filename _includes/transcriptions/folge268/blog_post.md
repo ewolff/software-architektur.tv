@@ -1,25 +1,23 @@
 # KI-gestützte Softwareentwicklung: Von der Architektur zum Code mit Claude
 
-Die Integration von KI in den Softwareentwicklungsprozess gewinnt zunehmend an Bedeutung. In diesem Artikel betrachten wir ein praktisches Experiment, bei dem die KI Claude Code eine Webanwendung auf Basis einer Architekturspezifikation implementiert.
+Die Integration von KI in den Softwareentwicklungsprozess gewinnt zunehmend an Bedeutung. In dieser Folge betrachten wir ein praktisches Experiment, bei dem die KI Claude Code eine Webanwendung auf Basis einer Architekturspezifikation implementiert.
 
-## Das Spark Framework und Claude Code
+## Das SPARC Framework und Claude Code
 
 Als Grundlage dient das Spark Framework - ein Prompt-Builder für die Arbeit mit Claude Code. Es definiert verschiedene Entwicklungsphasen:
 
 - Research & Discovery
-- Spezifikation
-- Pseudocode
-- Architektur 
-- Implementierung
-- Test-Driven Development
-- System Integration
-- Completion Phase
+- **S**pezifikation
+- **P**seudocode
+- **A**rchitektur 
+- **R**efinement
+- **C**ompletion Phase
 
 Der Entwicklungsprozess läuft dabei weitgehend autonom ab - Claude Code arbeitet die Phasen selbstständig durch und generiert den Code.
 
 ## Das praktische Experiment
 
-In unserem Experiment sollte eine "Worldly Map" Webanwendung implementiert werden. Dafür wurde Claude Code mit einem spezifizierten Prompt und den Anforderungen gefüttert. 
+In unserem Experiment sollte eine "Warldly Map" Webanwendung implementiert werden. Dafür wurde Claude Code mit einem Prompt und den Anforderungen gefüttert. 
 
 Das Ergebnis war beeindruckend: Innerhalb weniger Minuten erstellte die KI eine funktionsfähige Web-Anwendung mit:
 
