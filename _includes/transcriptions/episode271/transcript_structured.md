@@ -1,0 +1,521 @@
+# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn switch to English, because today we have an English session.
+
+In a galaxy far, far away, there had been or will be a Death Star built.
+
+I don't know the time frame.
+
+I don't know the year.
+
+I think it's fictional.
+
+So, the Death Star will be built, has been built, and 20 years ago, there were two people, Peter Ruschka and Gernot Starke, who created a template for architectural documentation, which is called arc42.
+
+It's now 20 years ago, and our guest, Juan G.
+
+Camona, used this template to document the architecture of the Death Star, and I think, I guess, it's the biggest project which has been documented with arc42 by now.
+
+So, Juan, will you introduce yourself a little bit and then tell us about your project?
+
+Okay, well, first of all, I'm honored to be here in such an amazing audience, full of software engineers and software architects from all around the globe.
+
+So, thanks for the opportunity to talk about this fictional and learning stuff that I prepared last year.
+
+So, let me introduce myself.
+
+I'm a software engineer based on Spain, and I've been coding and creating software stuff for more than 20 years now.
+
+I'm still learning every single day, as every one of us, and, well, I started to think about this project a few years ago.
+
+I guess I was working with, well, I won't say the client name, but we were managing a very big documentation, software documentation, and I wanted to add some order into that documentation, and I went to TADDPT.
+
+It was the very first time on TADDPT, so probably two or three years ago, and I asked him, please, can you remember, remind me the name of that software architecture framework to document a big project, and he gave me a bunch of options, but at the end, he told me, maybe you are looking for this arc42, and then I remind, and I, that reflects my mind, and I say, yes, this was the framework.
+
+I went to the repo, I reviewed completely, and I used few of the sections proposed by the framework to bring some more order into what we were dealing at that time, and, well, we solved the issues there, and then I passed away from that project, and, you know, I have a YouTube channel, and I just, I used to create learning and stuff for my audience, and they always ask for content, technical content created in Spanish, not only in English, but also in Spanish, because the internet is full of great learning stuff, but not in Spanish, or not so technical, so I decided to talk about arc42, because in few of the chapters I was doing, I talked about UML, and the beauty of UML, and how you can communicate with the stakeholders with UML, then I also talked about C4, I guess you all know C4 a lot, and then the next step was...
+
+Before the diagramming approach by Simon...
+
+Contents, containers, components, and code, so then I went to the next step, and I wanted to talk about arc42, and I thought, okay, what a fictional thing can I use to document or use the framework, and then a light on my mind, and it was like, oh, come on, why this doesn't exist yet, so I thought, okay, the biggest project in the galaxy is the Death Star, so let's document the Death Star, and also I thought on the movies, I'm quite fond of the saga, and I thought about one of the movies that is not official, one is, if you are a fan of the saga, please don't kill me, but the movie that explains the better how everything goes with the Death Star plans is Route 1, it tells the story of the spies that brings the Death Star plans to Leia, the princess, and so there, at that moment, the saga starts, and she puts the plans into arc2d2 memory.
+
+The plans which you created.
+
+Let's see, or let's think that these are the plans that I created, but don't talk about me, the creator of these plans was Galen Erso, it's fictional, you know, so he was the chief engineer of the Death Star, if you have seen the movie, you know that, and he was one of the rebels, but he was forced to work for the Empire, so in order to hide the plans and the weakness of the Death Star, he created an official documentation that, at the end, he knew the business managers won't read at any time, because they never do, so he documented the single point of failure, we will pass through it, work through it, and you will see, and at the end, just doing this, this exercise, he knew that if at any point in time these plans got into the rebel's hands, they will literally see the flaw in a minute, and will plan how to attack and explode this single point of failure, so that was a very nice story, a very beautiful exercise, and I have to say that I passed, I don't know, a couple of weeks documenting this crazy stuff, just having fun.
+
+What I do understand is that you're saying that the creator of the Death Star architecture has hidden the flaws, the single point of failure for the rebels in the documentation, in plain sight, but nobody reads the documentation, and so, yeah, it was somehow hidden.
+
+That's a cool story.
+
+Yeah, you know how these things go with, you know, our clients, we are always dealing and delivering software, and we have a lot of constraints and risk, and when we talk about risk assessment, the decisions are not always going in the right direction, because everything is impacted by budgets, regulation, legacy stuff, and, you know, at the end, in this case, that was the strategy of this guy, just, I will put the very big problem in the face of the managers, we are dealing with this, this is problematic, but is this or nothing?
+
+So, it's also part of the technical decisions, the building blocks, the architectural decision records, that I would like, also, I would love, indeed, to talk about architectural decision records, because when somebody comes to us and says, why did you do this?
+
+Okay, it's not, I did, we did, we took the decision, this is the architectural decision record, we evaluated this, this, and this option, and considering these options together, we decided this, because of, you know, this kind of, you know, constraints or whatever, and it's recorded, so the history of our technical decisions is here, and this impacted on the building blocks, the cross-cutting, the quality assurance, and so on and so forth, and in this case, this flow is on the very first page, and on the very last page, okay, we have this problem, and nobody cared, and the data started exploding.
+
+That's quite a good story, I mean, you tell me that you use Arc42 as a living document in your team, that you work with a team to make decisions and document those decisions, but you also mentioned that, yeah, the team works with the architecture, it knows the architecture, and because of this, nobody re-reads the architecture, and the basic flaw is kept in plain sight.
+
+That's cool.
+
+Yeah, not only that, but if we land into the real world, you know, I'm a kind of freelancer, and I also create documentation for tenders, in the last tender, I bet, I used this framework to measure everything, so I thought, okay, how would look like the documentation of the system I want to create for this client, and I used this same framework, which is quite strict on the headers, but quite open on the content of the header, so it's something quite dynamic that you can adapt to one product or another, and everything, let's say, is optional, helps us to put different hats on different levels, and get out of the surrounding scopes, and focus on some very interesting points you need to develop, if you want to see the big picture, because at the end, when we get the role of software architects, we need to see the big picture, we need to mix technical constraints with business constraints, with the technology stack, and so on and so forth, and that also helps to create a tender documentation, and a proposal, so it's nice, it's a tool that, since I found it, I'm using not every day, but it helps a lot, it's something that I would recommend for every software engineer that is going into the next level in his or her career.
+
+That sounds like a very good advice.
+
+Yes, I would give the same advice.
+
+I love this template, and I mean, in your story, I just said, hey, nobody reads documentation, but in your story, the smart people read the documentation to find the flaw, and to attack, so hey, what a great story, smart people read the architecture documentation.
+
+Yeah, that's cool, that's nice.
+
+Also, when I was a plain developer, I always loved to read the big picture, the architectural documentation, and luckily, this is not something usual to find in big projects, or maybe they didn't use a framework like this, and the documentation is a mess.
+
+It's something that it needs to be said.
+
+We, as developers, we are not always so dedicated to to mix the art and the technical stuff that we are dealing with in order to document, I mean, documentation skills and technical skills within a quite well-organized framework can help us to go straight to the point whenever something arises.
+
+Documentation is something that everyone forgets until it's needed, so it's something that if we don't want to be blamed, we need to start working since the very beginning before writing a single line of code, and also, we are on 2025.
+
+We are on the edge of AI, and I guess that people writing source code like we did in the early 90s, like monkey coding, that's not going to work anymore.
+
+I guess that we should focus on being prepared to manage and control and bring good prompting because we own the architectural big picture so we can let agentics or AI and co-pilots and that kind of new tools that are arising every single day with this kind of stuff, with the high-level overview that I hope they don't get it until the next 5 or 10 years because if they do, and when I say they, I mean AI, if they are prepared to generate this kind of architectural stuff, maybe our career or this profession is aimed to die, so let's focus on what we can do today.
+
+Let's be prepared for the nearly future.
+
+Let's bring that step back to put our eye in an upper level and we can do so with our architectural documentation.
+
+So that's also another good point of view and another way to think about this stuff.
+
+So we had some sessions in the past about AI and architecture and you just said we should own the architecture and use it to drive AI to the large language models to create code to help us to shape the architecture.
+
+At least we shouldn't give it out of our hands the control over the architecture.
+
+Yeah, true.
+
+Let me bring some more meaning to what I said.
+
+During the last few months, I'd say, I passed from GitHub Copilot because I deal with my clients intellectual propriety and I don't want that what I'm writing for them and they are buying me for that goes to GitHub on every single keystroke.
+
+So what I did is just I created a large language model living on my workstation.
+
+I had to invest a good amount of money on a GPU, a good one, but now I can have it locally.
+
+So I managed this, let's say, automatic code generation for me.
+
+And as you know, models are getting better and the context size is getting bigger.
+
+So there will be a point on time in which we could bring on every single prompt the entire or a summarized architectural documentation to this kind of client.
+
+So they will know the context and I will say, given this context, I want you to help me to generate this model or this module.
+
+And then the conversation can start.
+
+And that's why I guess, as you said, owning the architectural documentation is going to be a key or a mandatory tool in our toolset as software engineers.
+
+That sounds good.
+
+That sounds like the future is bright for us architects, but maybe other people have to switch gears.
+
+Yeah, we have been betting for software engineering to our children for the last 10, 15 years, and maybe now it's not the best choice.
+
+I would encourage my son to become a plumber or an electrician instead of a software engineer or a programmer, a mere programmer.
+
+Anyway, yeah.
+
+Should we take a look at a template at the documentation of the test?
+
+I'd love to.
+
+So, well, everyone can find it on github.
+
+It's on my github.
+
+It's Juan G.
+
+Carbona slash Star Wars Death Star R42 documentation.
+
+Ralph will leave the link.
+
+Yes, already did.
+
+At the end, well, as I said, I tried to put the documentation in English and in Spanish because of my audience.
+
+So, you will find everything duplicated in both languages and everything is, well, you have this very nice intro page with some visuals that I created for this stuff.
+
+Remember that this was intended to be part of my YouTube channel, but at the end, this is a very educational, let's say, a set of documents that I will share with you just now.
+
+So, in the English folder, you will have 13 documents from 0 to 12.
+
+So, the very first one is the overview.
+
+At the end, when we document anything, when we bring or we want to bring to the audience, to whoever will read this, is it?
+
+I see some questions.
+
+Maybe we can answer the questions just at the very end because I see interesting questions.
+
+Anyway, let me please walk through the framework and then I'll try to answer the question.
+
+So, when we document a system, a small one or something as through the context, the contents, we have the introduction and goals.
+
+At the end, every system in which our clients invest needs to have a purpose.
+
+So the purpose is defined by the stakeholders and the stakeholders' goals.
+
+I mean, the big, big feature that we want to solve, the problem that the system is about.
+
+And in this case, as an example, the stakeholders are the emperor, Darth Vader, all the imperial engineers, all the military staff, like stormtroopers and so on.
+
+And also, they shouldn't be here, it's just a joke, but the rebel spies that probably will work as threat actors.
+
+And as I said, stakeholders on one hand, on the other hand, the quality goals, what they want is to ensure that the stack operates under the entire galaxy, on all conditions, in a security manner.
+
+I mean, preventing unauthorized access, especially from the rebel alliance, and the maintainability.
+
+I mean, it should be easy to maintain life and operational.
+
+That's the introduction.
+
+Then we have a bunch of constraints.
+
+You will see we have external constraints like legal or political factors and internal constraints.
+
+I invite you to read this thing because it's a story.
+
+It's my invention, but it's open for pull requests.
+
+So if you find you can improve this, I will be proud of reading your pull request, your ideas and working on it.
+
+But let's go to, and this is where everything begins, the context and the scope, because this is where everything starts being saved.
+
+I mean, we have two big parts here.
+
+We have, and this happens on, correct me if I am wrong, on almost every project we will deal with.
+
+We have the business context, so where we are in terms of business and how the business managers want or are planning to use the system we are dealing with, and the technical context, which can mean the tech stack, the systems and all this stuff.
+
+So we start dividing here the system into two, let's say, two big building blocks, not building blocks, two big contexts, the business and the tech.
+
+In this example, business can be the imperial command, the emperor, the fleet management, the planetary government, governors.
+
+What's the name of these guys?
+
+I will say these guys, the trade federation, which they impact on everything in terms of the business.
+
+And on the other hand, what we have is the technical context.
+
+I mean, how we manage data transmissions, how are we dealing with weapon systems or the sensors are right to let the data start to know how the surrounding planetary systems are working or they feel or they deal with the rebel alliance and so on.
+
+So at the end, this is fictional, it's the end time, I say, but you get, and this is the educational purpose.
+
+This makes the audience to get into the context and the scope, and they will learn and put their heads into the heart of the business and the technical managers that are dealing with.
+
+And we as software architects need to know this, and we can use our communication skills out of the software skills that we need to develop just to grind down this as best as we can.
+
+So any engineer can, if he or she gets lost, read this, get back to everything, and then start thinking on how we will decide.
+
+So these very three sections led us to get into context, one, two, three, and then we start deciding.
+
+Deciding what?
+
+Deciding the strategy.
+
+The strategy means our strategy, a strategy in terms of the technical stack, the designs, the patterns that we will use, and the security, which at the end more or less can be seen in the further sections.
+
+Juan, before you move on, a small question.
+
+We talked about it before the session, and when we started to talk about it, the documentation still had no diagrams.
+
+I asked Claude to analyze the architecture, and this was one thing which Claude came back with, that it could be better because of the diagrams.
+
+So I asked two days ago, I think, Claude to add some context diagrams, and it created then in a plant UML, and send pull request, and two questions.
+
+One is the technical context diagram, which does not only contain the context, but also some inner components.
+
+Is it still the diagram made up of by the AI?
+
+No, you have two questions, or maybe you, but no.
+
+Yeah, the second question is, I noticed that Claude proposed to use plant UML, and I saw the pull request, and it didn't render on GitHub, and now you managed to show some diagrams here on GitHub.
+
+How did you do it?
+
+Yes, that's two very good questions.
+
+Let me start with the second one.
+
+Claude proposed a pull request, I reviewed the plant UML diagrams into an online visualizer, and everything looked very good to me.
+
+It was nice, because I also had the code, and how it would look like.
+
+So I tried, and then I approved the pull request, I merged everything, and then I realized that GitHub doesn't naturally or automatically render plant UML diagrams.
+
+That was the same, but then I went to a weapon that is also on my toolkit, which I have to say thank to Oleg Mogorukhnov, that showed it to me three years ago.
+
+It's Mermaid.
+
+Mermaid is another, or yet another way to draw the diagrams with code.
+
+It's a markup language, in which you define which kind of diagram, and the elements, and the interactions between the elements.
+
+So I transformed the very first proposal from your bot, your cloud bot, into this.
+
+To be honest, I directly used TagGPT to transform from one to another.
+
+That was quite easy.
+
+And then I spent the morning fixing or filling those to-do items that were on the very first version of this documentation, because I hadn't done any diagram up or until today.
+
+And then what I did was just to create the technical diagram, and the business diagram at the end.
+
+I don't know if you can see, I can try to zoom in.
+
+You have the Emperor Palpatine here, and also the Imperial Command, which at the end commands or brings strategic directives by secure tunnels to the Death Star, the ultimate weapon and mobile space station, which belongs to the Galactic Empire.
+
+As you can see, we are doing that thing that we love the most, which is draw boxes.
+
+So we're architecting arrows.
+
+By the way, I wasn't aware that when you render Mermaid in GitHub, that you get those controls to zoom in, and to pan, and zoom, and get it full screen.
+
+That's a very cool feature, I think.
+
+Yes, but I guess this only happens if the diagram is very big.
+
+I can't assure that.
+
+But I also have another repo in which I review the entire set of design patterns, type by type, because I made a one minute video for each one.
+
+It's on my YouTube channel.
+
+I'm sorry, it's only in Spanish, but I also use the repo to generate the diagrams that were going to be placed on the videos, and I made everything with Mermaid.
+
+It's a very easy tool, and any large language model can bring you the result just with a very simple prompt.
+
+Please, can you help me to draw this, this, and this?
+
+Boom, there you have it.
+
+Very cool.
+
+Well, the technical context is also nice, because, well, maybe you can see that we have the imperial command, and we bring strategic orders through encrypted hyperspace communication.
+
+That's nice.
+
+And we use also the encryption challenge to send mission critical to the command center, to the imperial operating system, which at the end is, let's say, core in the star system.
+
+And then we now here start to oversee some of the things that will be saved in further sections.
+
+Communication, laser, seal generation, sensor array, life support system.
+
+At the end, these technical modules will be part of the solution strategy and the building blocks.
+
+So maybe I didn't tell it, but one of the things I love the most on this framework is that at the end, same as here, we tell a story.
+
+So depending on where you are in the story, you can read the entire story or go straight to the chapter you are dealing with, because maybe you want to review cross-cutting concepts, or you are a DevOps engineer and want to review the deployment strategy.
+
+So as you see, and I hope the audience will start seeing, we are documenting everything.
+
+It's not just software documentation, it's the entire software engineering process, which at the end we are wearing that hat as software architects.
+
+And maybe now just we can start deciding, because everything that we have read up to here, also we don't have to forget that this is live documentation, which means we are responsible on maintaining this on every single demo day after the spring, or in the planning or the grouping sessions.
+
+If we take another decision on how the system will look like, we should go to here and go to the right section, which is open for changes, and do the changes to matters.
+
+By the way, I do have to ask this question.
+
+Is this the architecture for the first tester or the second?
+
+It's the first one.
+
+At the end, the second one is a replica of the first one, but they left the less useful stuff away.
+
+For the second one, as far as I remember, they kept only the weapon, the laser, and the live support.
+
+Then the rest, the field generator, the sensor array, they didn't care because they were on a war mode.
+
+So, as far as I can see, one of the points of the solution strategy was to build a test in a modular way, and this helped with the second version, I guess.
+
+Yes, yes.
+
+Let's go to that, because we now can decide how will we build our solution, decide how will we build our solution.
+
+Now is where things get funny.
+
+We took a bunch of architectural decisions that are also documented in depth here in the proper section, section nine, architectural decision, but we have decided on the technology stack, which will use a proprietary mix of high-energy reactors, advanced AI, distributed control system, blah, blah, blah.
+
+A modular design, as you said, because the system is designed in a modular approach, separating weaponry, power generation, and you know the power generation, the live support, and so on.
+
+We will decompose this in different levels, and as always, a layered architecture, and then everything is surrounded as much as possible by authentication and authorization, which means security and access control all over the place.
+
+That's the strategy, so considering that we knew the system, we knew the stakeholders, the business, the technical, we will go in this way with the next set of building blocks.
+
+At the end, when we talk about building blocks, they are top-level components that help us to divide and conquer, which means if we want to change something for the weapons, we will go to the super laser weapon system.
+
+If we are dealing with energy, we have the reactor core system, and we will also extract the command and control system, so a DNA-based system, and same happens when you share documentation or a proposal with the C4 template.
+
+You have the context, then you have the containers, the very big subsystems that shape the entire system.
+
+I have identified four, the weapon, the super laser, the reactor, the command and control, and the life support system.
+
+At the end, the Death Star, I will zoom in, sorry for this, we will find the super laser with the targeting model, the energy amplifier to generate the laser, the reactor core with the power distribution for the entire Death Star, and the cooling system.
+
+At the end, as you see, we always deal with hierarchy, and this is the place where hierarchy should be, let's say, shaped, and command and control and life support.
+
+I don't want to go in so big detail because we are running out of time, but as you see, this is the static view of the system.
+
+We can draw everything that is static in terms of model subsystems and different not moving parts, but if we combine this static view with the runtime view, which is the dynamic one, what we can see here in the next section is these dynamic things.
+
+This is the place where we draw out or we, let's say, explain sequences of interactions between the users and our system, like in this example, planetary destruction sequence, in which the command, the emperor or Darth Vader says, okay, we will destroy Alderaan.
+
+So, the sequence starts, the command and control system activates the super laser, and the reactor brings the energy to it, and it's being amplified, and then the planet explodes, and as you can see, this is a very simple sequence diagram you are used to create your own, and we have also this error alternative flow, because in this case, we have an overheating detected, so we notify the risk, we reduce the power, and nothing happens.
+
+That's also something that, if I remember well, happened on the third movie, so they tried to shoot, they can't, and they repaired, and then finally shoot.
+
+So, the scenario looks fairly simple, but I would like to see the test case for this.
+
+Yes, I mean. sequences, intruder detection, and hyper-threat activation, blah, blah, blah.
+
+Let me go to get another point of view, because we are dealing with big systems, and big systems at the end need to follow some kind of DevOps, call it philosophy, call it culture, call it whatever, but at the end, development and operations need to go hand-to-hand, and that's where, at least in my opinion, this section brings its power, it's the deployment view, and here in this example, I tell, okay, is this node, I added this, because I reviewed everything this morning, development, testing, and production environments share the same physical data center, because we can't replicate the entire hardware of the Death Star just for testing purposes, so at the end, the isolation is enforced through logical separations, virtual networks, and so on and so forth, in the same hardware, in the same data center, and I have this, I hope you find it nice, we have the production environment, which I hope you can read it, and maybe we can make it a little bigger, we have the production environment in the Death Star core systems with the central reactor core, the data centers, the communication arrives, and the security controls, and the deployment, the development environment, and the testing environment, at the end, they are isolated stuff that, because of, or thanks to our DevOps magic, our pipelines, they will come to the data center in the same, or maybe a next building place, and they will do the magic, so probably a bunch of Stormtroopers developers will do their stuff in a room, they will deploy on the development environments, and they will say, okay, explode, and they will do their funny things, and the QA team will have probably the same, but more stable versions in the next room, and they will try, okay, this didn't work, this didn't work, they will blame each other, and everything will start the loop again, but at the end, we will have stable versions that will also, thanks to the pipelines, the DevOps pipelines, to the real data center that, at the end, will be used on production environment, which is the big one, and as architects, we also should consider this, or take into consideration, maybe not as detailed as a DevOps engineer, but as this happens in many of the sections, this will be the place to go when a DevOps engineer is under question, how to do one thing or another, so should I go GitOps, or do green, blue deployment, let's go here and see, and let me go to the next section, I don't want the audience to get bored, or get asleep, that will be the worst thing in my life.
+
+Maybe we should skip the cross-cutting concepts, and I think that architectural decisions and the quality requirements are quite interesting, because...
+
+Yes, cross-cutting concepts, you all know this, they are things that go from top to bottom, they cool down the entire system, like security, security is everywhere, we can talk about reliability, observability, and so on, so if you want to get deep into it, feel free to read it, I love comments.
+
+Architectural decisions, let's go to this point, because as I said at the very beginning, we have this architectural decision, we decided to go on a centralized power reactor, because we had a couple of options, having multiple smaller reactors versus a single reactor, and we decided to go on this one, because this allows efficient energy control and simplifies system integration, but can you see this here, this risk is explicitly analyzed in section 11, risk and technical depth, so the risk is here, Galen Erso, the chief engineer did it, he did the Temple post, he talked about other risks, and some other architectural decisions, like communications, blah blah blah, not important here, you can take a look on it, we have this, which is critical, and this brings us to the quality requirements, at the end, we have a bunch of quality goals, like operational reliability and unsecurity, blah blah blah, and I will go directly to the core of this documentation, this exercise, which is the section 11, in which we clearly see that the very first risk, which is critical, is the reactor core vulnerability, which at the end, it explains that it's a single point of failure, it explains that a small bunch of rebels could go here and send a couple of missiles, and it also says, okay, we should protect against direct strikes, but it's clear that reactor core vulnerability is critical, and we have a mitigation strategy that we don't know, nobody cares, maybe nobody read the documentation, or the emperor, or Darth Vader didn't come to it, and nobody did anything, we talk about technical depth, it's not so important at this point in time, because at the end, what Galen also wanted was to, I said at the very beginning, but now that we came through the walkthrough, and you have seen the entire set of sections, where we also have a glossary, which is nice and funny, and in this last section, we have the weakness, low and clear for the rebel alliance, so that when they got the plans, they, in a minute, saw what they could do just to win against the empire, and that's the story, I hope you enjoyed, maybe I took too much time.
+
+It was quite interesting, so for instance, when I first heard about this architecture, I just gave it to Claude, my AI, to analyze it, and what was funny was, that in the first run, it said, yes, it's a R42 document, and it could be a little bit better, more detailed, little bit better, more detailed, more diagrams, but yes, it's a fun project, so I didn't expect too many details, I didn't expect the core schematics of the laser, or something like this, so that was okay, but then I asked Claude to check whether the architecture will implement the quality requirements, and then Claude replied, oh, that's a good idea, I didn't take this into account, and you are absolutely right, because reality showed us that the quality requirements, what was the first one, the high operational reliability, and the enhanced security, were not fulfilled by the single energy core, because the rebels managed to destroy the system, and that was so interesting, because I mean, we want to create a quality-based architectures, we first want to analyze the quality requirements, and then make decisions upon those quality requirements, I mean, the mitigations to add some more shielding is a great way, but it shows that the architecture itself could be nice, I mean, the Death Star looks great on my table, so the model, yeah, but it's not the goal to have it looking nice, it should be functional and meet the quality criteria, that was a good lesson I learned from that.
+
+Yeah, you know what, life has taught me in software and in most of the contexts that there are no silver bullets anywhere, we have cabins here and there, depending on the decision, there we will have to deal with the goods and the bads on our decisions.
+
+If I were one of the, let's say, more committed engineers on the Empire, probably I would have passed on these quality requirements, and also the risk and the mitigations, because the idea was to destroy the rebels, and probably I wouldn't have cared, because we had the biggest weapon on the galaxy, so at the end everything makes sense.
+
+Yeah, it's always a trade-off.
+
+We have just one question from the beginning of showing the architecture from Enrique, what about legal aspects, contracts, NDAs, before moving forward with any project?
+
+Which is your experience?
+
+Is it part of Arc42?
+
+Not exactly, but it would be nice and we have the perfect place to put at least links or document that this exists, and this is on the context and on the scope, as I said at the very beginning, we have the business context and it talks about constraints, maybe external constraints, yes, we have external factors such as political or legal, NDAs are legal, contracts are legal, Enrique also talks and asks about legal aspects, I would, as I said at the beginning, this is not a strict, it's, let's say, a guide to do proper architectural or software architectural documentation, and we can expand this as we wish to meet this kind of requirement, so if we want the software engineers to get access to this, we could place here some links or we could comment, okay, this guy with name and surname is the chief data officer or whatever, that kind of information should be placed here.
+
+So, these constraints like an NDA could affect our decisions because we will not be able to, yeah, bring in external consultants or something like this.
+
+Let me interrupt you just for a second, the very three sections is the place where we think and we put ourselves in the context, the context of everything, which includes legal, technical, business, and so on and so forth, from this point up to the bottom is the place where we decide our strategy, the building blocks, the functionality, the deployment, and so on and so forth, so for sure there are right places to talk about this kind of stuff on the very first three sections and then we could add technical stuff on its place.
+
+Okay, so quite nice.
+
+So, did you learn something from this experiment, something special, would you recommend others to do such an experiment to create a fictional architecture?
+
+Yeah, I think so.
+
+At the end of the day, when we work as software engineers, as freelancers or senior consultants, we need to consider so many aspects of the development we will start with or we are dealing with that a framework that could be this one or could be another because there are many frameworks, but I know I like this because I know it and I know how to use it, but you can choose your one.
+
+As I said, there are no silver bullets and this maybe is a very big one just to create an Android application, but if you are dealing with a very big mobility platform with car sharing, maybe you could use this framework for your purposes.
+
+What I wanted to say is this is a good exercise because it teaches you how to abstract your mind and get things into consideration that if you were wearing only the software engineer hat, you wouldn't do in your entire life.
+
+So, it forces you to think about the context, the business, the legal and other stuff that we as software engineers would consider.
+
+So, that's nice.
+
+I also, probably a few of the audience know this guy.
+
+I propose you to talk about or create the software documentation for this Mazinger Z, Mazinger Zeta in Spanish.
+
+It's a robot from the late 80s.
+
+My brother loved him and it's another good exercise that I propose to the audience.
+
+If you want me to help in there, I will be glad.
+
+But at the end, also I give another example.
+
+I work on a tender and I use this framework just to bring me the numbers, not all the sections, but I wanted to see how I would develop the building blocks, the components, the systems and subsystems and how many people would I need to use in my team to develop that.
+
+I counted men and hours by men and month and then that gave me the numbers with, let's say, real data, not just guessing.
+
+That sounds like a good exercise.
+
+So, we can expect from you more architectures of some large machines.
+
+So, after creating the architecture for the world's biggest system, not the universe, the galaxy's biggest, largest systems, you're now into robots.
+
+That's a great idea.
+
+Yeah, well, I won't work on that at the moment.
+
+I am dealing with a few other projects, I'm betting for them.
+
+There is nothing signed yet.
+
+I'm open to any suggestions.
+
+Meanwhile, I get deep into anything big.
+
+What I am doing is just to work for my audience.
+
+I have documented already more than 30 architectures.
+
+Everything is in Spanish.
+
+I'm sorry for the English-speaking audience.
+
+This is what I'm doing, just reading, learning and teaching because teaching is the way I know to learn the best.
+
+There's another comment by Duda Root.
+
+Given the impact and relevance of security, I think that will be a good starting point if Arc42 will incorporate some aspects regarding a matrix licensing enforcing S-bombs, RAF to scorecard, etc.
+
+I think, isn't it the cross-cutting concerns where we can put things like this?
+
+Yes, the very first one is security.
+
+So, security impacts on everything, top to bottom.
+
+It will impact command and control, reactor, navigation system, weapons, access control list, white list, black list, blah, blah, blah.
+
+Probably, I will talk about this, but at the end, this could become the root page of the security, let's say, documentation.
+
+Same as with quality, we will talk about because security is a very, very big topic that, as I said, impacts everywhere.
+
+So, I will talk about it here and this will be the very first point to see and then we could get into the security documentation anywhere, maybe a wiki or maybe another dedicated repo because we have a lot of stuff there and it impacts also in the deployments, security, secrets, connection strings, how you will handle that.
+
+Many, many topics are impacted by the security.
+
+So, I don't know if I answered the question, but probably, I will add something here and then I will expand the documentation anywhere else.
+
+Great.
+
+So, we are at the end of the session and sorry, I have to do it.
+
+It was a quite nice session.
+
+It was interesting.
+
+It was fun.
+
+Thanks for being here.
+
+Thanks for sharing your experience and I have to spoil the Star Wars session by saying live long and...
+
+No, come on.
+
+No, that's another movie.
+
+No, no, no.
+
+May the documentation be with you.
+
+I prefer that.
+
+Yeah, may the documentation be with you.
+
+Thank you very much.
+
+Yeah.
+
+It was great and you will get all the links in the show notes to dive deeper into this documentation and into ARC42.
+
+Thanks for attending the session and I'm not sure whether we have a session next week.
+
+Just visit softwarearchitecture.tv and see what will be next.
+
+Thanks and bye-bye.
