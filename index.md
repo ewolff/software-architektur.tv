@@ -14,24 +14,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Offen
+## Nächste Episode: Montag 2025-09-01 18:00 CEST Wie wird eine Software-Architektur flexibel?
+
+Die Zukunft ist schwer vorhersehbar – umso wichtiger ist es, dass eine
+Software-Architektur auf neue Anforderungen und Veränderungen
+reagieren kann. Doch wie erreicht man diese Flexibilität? In dieser
+Episode sprechen wir über Eure Ideen und Ansätze – und natürlich teilt
+auch Eberhard seine eigenen Konzepte.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [Add to Calendar](stream.ics) -->
+[Add to Calendar](stream.ics)
 
-<!-- ## Live Stream -->
+## Live Stream
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!--  	src="https://www.youtube-nocookie.com/embed/Sus6UC96FsU" -->
-<!--  	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!--  	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!--  	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+ 	src="https://www.youtube-nocookie.com/embed/0d4Aub6f7uQ"
+ 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ 	encrypted-media; gyroscope; picture-in-picture fullscreen"
+ 	></iframe>
+</div>
+</center>
 
-<!-- [LinkedIn](https://www.linkedin.com/events/keineboundedcontextsbeinetflix-7363568746319282178/theater/) -->
+[LinkedIn](https://www.linkedin.com/events/7365793260352479232/)
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
