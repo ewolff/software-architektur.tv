@@ -100,7 +100,7 @@ Es gibt diese Idee, E-Mails zu verschicken, statt Meetings zu machen.
 
 Finde ich auch ein bisschen problematisch, weil nicht am Ende sind Meetings.
 
-Direkte Kommunikation hat doch Vorteilhaft.
+Direkte Kommunikation ist doch vorteilhaft.
 
 Und diese Idee, Jira-Tickets zu übertragen, zu schreiben, statt in einer direkten Kommunikation, das ist etwas, was ich tatsächlich, glaube ich, in einem YouTube-Kommentar gesehen habe von meinem Stream, wo also jemand im Projekt dazu gezwungen worden ist, letztendlich nur noch über Jira-Tickets mit anderen Menschen zu kommunizieren.
 
