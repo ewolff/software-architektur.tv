@@ -20,9 +20,7 @@ Okay, well, first of all, I'm honored to be here in such an amazing audience, fu
 
 So, thanks for the opportunity to talk about this fictional and learning stuff that I prepared last year.
 
-So, let me introduce myself.
-
-I'm a software engineer based on Spain, and I've been coding and creating software stuff for more than 20 years now.
+I'm a software engineer based in Spain, and I've been coding and creating software stuff for more than 20 years now.
 
 I'm still learning every single day, as every one of us, and, well, I started to think about this project a few years ago.
 
