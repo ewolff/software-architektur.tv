@@ -326,7 +326,7 @@ It is a way of getting consensus between multiple people in often difficult area
 
 So mapping with others is important.
 
-I've never used worldly maps myself yet.
+I've never used Wardley Maps myself yet.
 
 That's okay.
 
