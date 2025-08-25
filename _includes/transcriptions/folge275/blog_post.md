@@ -16,7 +16,7 @@ Allerdings fehlt eine klare Darstellung der konkreten Business-Auswirkungen dies
 
 Die UDA basiert auf mehreren Komponenten:
 
-1. Ein zentrales Domänenmodell, das in verschiedene Repräsentationen gemappt wird:
+1. Ein zentrales Domänenmodell, das in verschiedene Repräsentationen gemappt wird wie beispielsweise:
 - Apache Iceberg für Big Data Analysen
 - GraphQL für Datencontainer
 - Data Mesh für Datenprodukte
@@ -29,26 +29,26 @@ Die UDA basiert auf mehreren Komponenten:
 3. Sphere:
 - Self-Service Reporting Tool für Business-Experten
 - Traversiert den Knowledge Graph
-- Generiert SQL Queries
+- Generiert u.a. SQL Queries
 
-4. APPA:
+4. Upper:
 - Eigene Sprache zur Domänenmodellierung
 - Definiert Schlüsselattribute und Beziehungen
 - Kann in verschiedene Formate (GraphQL, Avro, Java) übersetzt werden
 
 ## Kritische Einordnung
 
-Der Blogpost erweckt zunächst den Eindruck eines radikalen Paradigmenwechsels weg von Bounded Contexts. Bei genauerer Betrachtung zeigen sich jedoch mehrere wichtige Aspekte:
+Der Blogpost erweckt zunächst den Eindruck eines Paradigmenwechsels weg von Bounded Contexts und mehreren Modellen. Bei genauerer Betrachtung zeigen sich jedoch mehrere wichtige Aspekte:
 
 1. Begrenzter Scope:
-- Die UDA betrifft primär den Content Engineering Bereich
-- Dieser existiert erst seit 2020
-- Es handelt sich möglicherweise um einen einzelnen Bounded Context
+- Die UDA betrifft den Content Engineering Bereich.
+- Dieser existiert erst seit 2020.
+- Es handelt sich möglicherweise um einen einzelnen Bounded Context.
 
 2. Fokus auf Datenanalyse:
-- Das eigentliche Ziel scheint eine integrierte Analyseplattform zu sein
-- Es geht weniger um die Implementierung von Geschäftslogik
-- Ähnelt eher dem Konzept von Data Mesh und Datenprodukten
+- Das eigentliche Ziel scheint eine integrierte Analyseplattform zu sein.
+- Es geht weniger um die Implementierung von Geschäftslogik.
+- Das ähnelt eher dem Konzept von Data Mesh und Datenprodukten.
 
 3. Technische Komplexität:
 - Erheblicher Entwicklungsaufwand für Infrastruktur
