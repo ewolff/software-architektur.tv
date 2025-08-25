@@ -126,9 +126,7 @@ So, well, everyone can find it on github.
 
 It's on my github.
 
-It's Juan G.
-
-Carbona slash Star Wars Death Star R42 documentation.
+It's Juan G. Carbona slash Star Wars Death Star R42 documentation.
 
 Ralph will leave the link.
 
