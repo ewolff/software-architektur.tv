@@ -44,7 +44,7 @@ I'm from Hamburg, from the company Workplace Solutions WPS.
 
 And my role is architect and managing director, and I did a lot of work on architecture reviews and how to find out at what state you are with your software architecture.
 
-And Wordly Maps, I know them, I've seen them a lot, and I heard your speech this morning.
+And Wardley Maps, I know them, I've seen them a lot, and I heard your speech this morning.
 
 So I'm very curious to discuss this topic from the viewpoint of architecture.
 
