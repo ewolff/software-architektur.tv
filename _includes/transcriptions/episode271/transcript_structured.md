@@ -1,4 +1,6 @@
-# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn switch to English, because today we have an English session.
+# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn
+
+I will switch to English, because today we have an English session.
 
 In a galaxy far, far away, there had been or will be a Death Star built.
 
@@ -10,9 +12,7 @@ I think it's fictional.
 
 So, the Death Star will be built, has been built, and 20 years ago, there were two people, Peter Ruschka and Gernot Starke, who created a template for architectural documentation, which is called arc42.
 
-It's now 20 years ago, and our guest, Juan G.
-
-Camona, used this template to document the architecture of the Death Star, and I think, I guess, it's the biggest project which has been documented with arc42 by now.
+It's now 20 years ago, and our guest, Juan G. Camona, used this template to document the architecture of the Death Star, and I think, I guess, it's the biggest project which has been documented with arc42 by now.
 
 So, Juan, will you introduce yourself a little bit and then tell us about your project?
 
