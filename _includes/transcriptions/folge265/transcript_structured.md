@@ -926,7 +926,7 @@ Und die könnte ich ja jetzt irgendwie auch nehmen, um das nach Teams aufzuteile
 
 Da gibt es auch das Konzept von Cognitive Load.
 
-Das ist auch so ein Team Tomologies Konzept.
+Das ist auch so ein Team Topologies Konzept.
 
 Das heißt, wenn ich so einen kompletten Strom verantworte, dann ist das halt aufwendig und schwierig.
 
