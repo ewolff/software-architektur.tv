@@ -42,7 +42,7 @@ Dann habe ich eine große Menge an Schwierigkeiten.
 
 Aber auf der anderen Seite ist es eben auch so, dass ich halt durch Kommunikation Fortschritt verhindern kann.
 
-Und es dauert einfach nicht.
+Und es dauert einfach.
 
 Also gerade so EntwicklerInnen und TechnikerInnen sind, glaube ich, bekannt dafür, dass sie sagen, naja, ich sitze die ganze Zeit in Meetings.
 
