@@ -2,7 +2,7 @@
 
 It's just that we changed minor details, probably.
 
-So we will have an interesting discussion, I believe, in the next hour about Worthly Maps and more than that.
+So we will have an interesting discussion, I believe, in the next hour about Wardley Maps and more than that.
 
 And we are live from AirGermany's architecture, and I suggest that we start with an introduction.
 
@@ -54,15 +54,15 @@ I'm working for InnoQ.
 
 I'm doing legacy system modernization.
 
-And someone just said you poisoned some people with your thinking and Wordly Mapping.
+And someone just said you poisoned some people with your thinking and Wardley Mapping.
 
 I think I'm one of those people because I'm using that in the background for diverse consultancy projects.
 
 And when it's the time, I take out some ideas, discuss it with my clients or with other developers to show them a path to the future, for example, or discuss what they should get rid of.
 
-So that's what I'm doing with Wordly Mapping and software architecture in general.
+So that's what I'm doing with Wardley Mapping and software architecture in general.
 
-So first question is, what are Wordly Maps even?
+So first question is, what are Wardley Maps even?
 
 And why would we care about that?
 
