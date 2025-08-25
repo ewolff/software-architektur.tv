@@ -398,7 +398,7 @@ Müssen wir am Ende mal schauen.
 
 Vielleicht beantworte ich die da dann nochmal.
 
-Ich würde jetzt gerne noch ein Beispiel machen für dieses Team Apologies Thema.
+Ich würde jetzt gerne noch ein Beispiel machen für dieses Team Topologies Thema.
 
 Also ich könnte jetzt irgendwelche Stream Align Teams haben.
 
