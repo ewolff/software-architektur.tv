@@ -1,12 +1,12 @@
-## Software Architecture SoC Folge 266: Soll man LLMs für Software-Architektur nutzen?
+## Software Architecture im Stream Folge 266: Soll man LLMs für Software-Architektur nutzen?
 
 ## Wichtige Keytakeaways:
 
-1. LLMs können als unterstützendes Werkzeug in der Software-Architektur dienen, sollten aber nicht allein verantwortlich sein
-2. LLMs produzieren Halluzinationen/Fake-Informationen, die nicht vermeidbar sind
-3. Der Prozess der Architekturentwicklung ist wichtiger als das finale Dokument
-4. LLMs eignen sich gut als Sparringspartner für Architekturentscheidungen
-5. Die Ergebnisse von LLMs müssen immer kritisch geprüft werden
+1. LLMs können als unterstützendes Werkzeug in der Software-Architektur dienen, sollten aber nicht allein verantwortlich sein.
+2. LLMs produzieren Halluzinationen/Fake-Informationen, die nicht vermeidbar sind.
+3. Der Prozess der Architekturentwicklung kann wichtiger sein als das finale Dokument.
+4. LLMs eignen sich gut als Sparringspartner für Architekturentscheidungen.
+5. Die Ergebnisse von LLMs müssen immer kritisch geprüft werden.
 
 ## Behandelte Kernfragen:
 
@@ -18,7 +18,7 @@
 
 ## Glossar wichtiger Begriffe:
 
-- **Halluzinationen**: Falsche/erfundene Informationen, die von LLMs produziert werden
+- **Halluzinationen**: Falsche / erfundene Informationen, die von LLMs produziert werden
 - **Arc42**: Ein Template für Architekturdokumentation
 - **Qualitätsszenarien**: Beschreibungen der qualitativen Eigenschaften eines Systems
 - **Chain-of-Thought**: Prozess, bei dem LLMs schrittweise Überlegungen durchführen
