@@ -28,7 +28,7 @@ And my perspective is more of a continuous learning person.
 
 So I specialize in learning and organizational learning.
 
-So recently in the meetup, we were bringing in Wordly Mapping in the meetup.
+So recently in the meetup, we were bringing in Wardley Mapping in the meetup.
 
 So we were practicing this, and I discovered that.
 
