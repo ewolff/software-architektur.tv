@@ -4,7 +4,7 @@ Die Diskussion um den Einsatz von Large Language Models (LLMs) in der Software-A
 
 ## Die Herausforderung der Halluzinationen
 
-Ein zentrales Problem beim Einsatz von LLMs ist das Phänomen der "Halluzinationen" - die Tendenz der Modelle, falsche oder erfundene Informationen zu produzieren. Ein konkretes Beispiel: Bei der Analyse eines Systems durch Claude (via JQS) wurde fälschlicherweise behauptet, das System würde ActiveMQ und Artemis nutzen, obwohl diese Technologien gar nicht implementiert waren. Solche Fehlinformationen können schwerwiegende Konsequenzen haben, da sie das Vertrauen in die Architekturanalyse untergraben und zu falschen Entscheidungen führen können.
+Ein zentrales Problem beim Einsatz von LLMs ist das Phänomen der "Halluzinationen" - die Tendenz der Modelle, falsche oder erfundene Informationen zu produzieren. Ein konkretes Beispiel: Bei der Analyse eines Systems durch Claude wurde fälschlicherweise behauptet, das System würde ActiveMQ und Artemis nutzen, obwohl diese Technologien gar nicht genutzt wurden. Solche Fehlinformationen können schwerwiegende Konsequenzen haben, da sie das Vertrauen in die Architekturanalyse untergraben und zu falschen Entscheidungen führen können.
 
 ## Sinnvolle Einsatzgebiete
 
@@ -20,7 +20,7 @@ Trotz dieser Herausforderungen gibt es durchaus sinnvolle Anwendungsfälle für 
 
 Der Einsatz von LLMs in der Software-Architektur hat jedoch klare Grenzen:
 
-- **Keine eigenständige Architekturarbeit**: LLMs sollten nicht als Ersatz für menschliche Architekten eingesetzt werden.
+- **Keine eigenständige Architekturarbeit**: LLMs sollten nicht als Ersatz für menschliche Architekt:innen eingesetzt werden.
 - **Notwendigkeit der Überprüfung**: Alle Ausgaben müssen kritisch geprüft werden.
 - **Gefahr des "Architekturtheaters"**: Die Versuchung, oberflächliche Dokumentation zu generieren statt echte architektonische Arbeit zu leisten.
 
