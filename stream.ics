@@ -21,23 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1755612105806-6tj7tl9jmqx@ics-generator.local
-DTSTAMP:20250819T140145
-DTSTART;TZID=Europe/Berlin:20250822T130000
-DTEND;TZID=Europe/Berlin:20250822T140000
-SUMMARY:Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?
-DESCRIPTION:In der Softwarearchitektur gilt: Systeme lassen sich besser war
- ten und flexibler gestalten\, wenn man sie in mehrere Bounded Contexts auft
- eilt – und das ist gerade bei Microservices-System zentral. Doch nun hat au
- sgerechnet Netflix\, ein Pionier der Microservices-Bewegung\, einen Blogpos
- t veröffentlicht\, der einen ganz anderen Weg propagiert: „Model Once\, Rep
- resent Everywhere: UDA (Unified Data Architecture)“.\nIn dieser Episode nim
- mt Eberhard den Ansatz von Netflix genauer unter die Lupe und diskutiert\, 
- ob die Zeit gekommen ist\, die Idee klar getrennter Bounded Contexts infrag
- e zu stellen – und stattdessen auf ein zentrales Modell zu setzen.
-LOCATION:https://www.youtube.com/watch?v=Sus6UC96FsU https://www.linkedin.c
- om/events/keineboundedcontextsbeinetflix-7363568746319282178/theater/ https
- ://www.twitch.tv/ebrwolff
+UID:1756142233299-3qjoylujrbo@ics-generator.local
+DTSTAMP:20250825T191713
+DTSTART;TZID=Europe/Berlin:20250901T180000
+DTEND;TZID=Europe/Berlin:20250901T190000
+SUMMARY:Wie wird eine Software-Architektur flexibel?
+DESCRIPTION:Die Zukunft ist schwer vorhersehbar – umso wichtiger ist es\, d
+ ass eine Software-Architektur auf neue Anforderungen und Veränderungen reag
+ ieren kann. Doch wie erreicht man diese Flexibilität? In dieser Episode spr
+ echen wir über Eure Ideen und Ansätze – und natürlich teilt auch Eberhard s
+ eine eigenen Konzepte.
+LOCATION:https://www.youtube.com/watch?v=0d4Aub6f7uQ https://www.linkedin.c
+ om/events/7365793260352479232/ https://www.twitch.tv/ebrwolff
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
