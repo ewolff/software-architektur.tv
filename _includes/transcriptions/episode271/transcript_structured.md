@@ -1,4 +1,6 @@
-# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn switch to English, because today we have an English session.
+# Episode 271 - The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn
+
+I will switch to English, because today we have an English session.
 
 In a galaxy far, far away, there had been or will be a Death Star built.
 
