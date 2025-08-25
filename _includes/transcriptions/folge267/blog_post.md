@@ -1,10 +1,10 @@
 # Architekturtheater mit KI: Live-Entwicklung einer Softwarearchitektur mit Claude
 
-In dieser spannenden Live-Session wurde demonstriert, wie die Zusammenarbeit zwischen Mensch und KI bei der Entwicklung einer Softwarearchitektur aussehen kann. Als Beispielprojekt diente ein Wardley Map Editor - eine bewusst überschaubare Aufgabenstellung, die sich gut für die zur Verfügung stehende Zeit von einer Stunde eignete.
+Diese Live-Session demonstriert, wie die Zusammenarbeit zwischen Mensch und KI bei der Entwicklung einer Softwarearchitektur aussehen kann. Als Beispielprojekt diente ein Wardley Map Editor - eine bewusst überschaubare Aufgabenstellung, die sich gut für die zur Verfügung stehende Zeit von einer Stunde eignete.
 
 ## Die Ausgangssituation
 
-Das Projekt startete mit einem vorbereiteten GitHub Repository, das bereits grundlegende Requirements und eine Doc-Toolchain-Integration enthielt. Als KI-Partner kam Claude zum Einsatz - speziell Claude Desktop in der Beta-Version, das durch seine MCPs (Multimodal Capability Protocols) direkte Interaktionen mit GitHub ermöglichte.
+Das Projekt startete mit einem vorbereiteten GitHub-Repository, das bereits grundlegende Requirements und eine docToolchain-Integration enthielt. Als KI kam Claude zum Einsatz - speziell Claude Desktop in der Beta-Version, das durch MCP (Model Context Protocol) direkte Interaktionen mit GitHub ermöglichte.
 
 ## Der Architekturentwicklungsprozess
 
@@ -22,7 +22,7 @@ Die Architekturentwicklung folgte dem arc42-Template und begann mit den grundleg
 
 Mehrere interessante Aspekte der Mensch-KI-Zusammenarbeit wurden deutlich:
 
-- **Eigenständigkeit vs. Kontrolle**: Claude zeigte teilweise große Eigeninitiative und musste gelegentlich "gebremst" werden, um den kollaborativen Charakter zu wahren.
+- **Eigenständigkeit vs. Kontrolle**: Claude zeigte teilweise viel Eigeninitiative und musste gelegentlich "gebremst" werden, um den kollaborativen Charakter zu wahren.
 
 - **Kritische Reflexion**: Die KI hinterfragte Entscheidungen und Anforderungen konstruktiv, statt einfach "nach dem Mund zu reden".
 
@@ -44,7 +44,7 @@ Die Session zeigte mehrere wichtige Erkenntnisse:
 
 ## Fazit
 
-Das "Architekturtheater" demonstrierte eindrucksvoll, dass KI-Systeme wie Claude durchaus in der Lage sind, bei der Architekturentwicklung substantielle Unterstützung zu leisten. Dabei geht es weniger darum, den Menschen zu ersetzen, sondern vielmehr darum, einen kompetenten Kollaborationspartner zu haben, der den Architekturentwicklungsprozess bereichert.
+Das "Architekturtheater" demonstriert, dass KI-Systeme wie Claude durchaus in der Lage sind, bei der Architekturentwicklung substantielle Unterstützung zu leisten. Dabei geht es weniger darum, den Menschen zu ersetzen, sondern vielmehr darum, einen kompetenten Kollaborationspartner zu haben, der den Architekturentwicklungsprozess bereichert.
 
 Die erstellte Architektur mag nicht perfekt sein, aber sie bietet eine solide Grundlage für die weitere Entwicklung und demonstriert die Möglichkeiten der Mensch-KI-Zusammenarbeit in der Softwarearchitektur. Die nächsten Schritte wären die testgetriebene Implementierung des Systems - ein Prozess, der ebenfalls mit KI-Unterstützung durchgeführt werden könnte.
 
