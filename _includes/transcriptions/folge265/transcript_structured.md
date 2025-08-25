@@ -212,7 +212,7 @@ Und ich würde behaupten, eine gute Domänenarchitektur sollte Änderungen an de
 
 Das ist eigentlich das, worauf wir insbesondere optimieren.
 
-Und denn die Geschäftslogik und die Features sind der primäre Wert, den unsere Software für irgendwelche Kundinnen und Benutzer in anderer Stilekoder repräsentiert.
+Denn die Geschäftslogik und die Features sind der primäre Wert, den unsere Software für irgendwelche Kundinnen und Benutzer und andere Stakeholder repräsentiert.
 
 Und ich könnte jetzt sagen, ich habe ein Team, ein Team hat eine Domäne und damit einen Teil von dem Code.
 
