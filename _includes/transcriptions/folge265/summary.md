@@ -1,15 +1,15 @@
 # Folge 265 - Die Evolution von Architektur durch Team Topologies
 
 ## Wichtige Keytakeaways
-- Team Topologies ist eine natürliche Evolution der Software-Architektur
-- Software-Architektur dient dazu, Informationsfluss zu begrenzen und Kommunikationsbedarf zu reduzieren
+- Team Topologies ist eine natürliche Evolution der Software-Architektur.
+- Software-Architektur dient dazu, Informationsfluss zu begrenzen und Kommunikationsbedarf zu reduzieren.
 - Team Topologies erkennt verschiedene Team-Typen:
   - Stream-Aligned Teams (Haupttyp)
   - Enabling Teams
   - Platform Teams  
   - Complicated Subsystem Teams
-- Teams können nach verschiedenen "Fracture Planes" aufgeteilt werden (nicht nur nach Domänen)
-- Software-Entwicklung ist ein soziotechnisches Thema - technische und organisatorische Aspekte müssen zusammen betrachtet werden
+- Teams können nach verschiedenen "Fracture Planes" aufgeteilt werden - nicht nur nach Domänen.
+- Software-Entwicklung ist ein soziotechnisches Thema - technische und organisatorische Aspekte müssen zusammen betrachtet werden.
 
 ## Behandelte Kernfragen
 - Wie hängen Software-Architektur und Team-Organisation zusammen?
