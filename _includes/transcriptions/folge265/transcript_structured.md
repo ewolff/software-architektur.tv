@@ -1,4 +1,6 @@
-# Folge 265 - Die Evolution von Architektur durch Team Topologies den ich in den letzten Jahren irgendwie öfter mal gehalten habe, und den wollte ich jetzt gerne nochmal im Stream halten.
+# Folge 265 - Die Evolution von Architektur durch Team Topologies
+
+Basis ist ein Vortrag, den ich in den letzten Jahren irgendwie öfter mal gehalten habe, und den wollte ich jetzt gerne nochmal im Stream halten.
 
 ## Einführung in Team Topologies
 
