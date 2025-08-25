@@ -1,8 +1,4 @@
-# Folge 267 - Architekturtheater mit Claude und Ralf mir, Ralf Müller und als Stargast, als besonderen Gast haben wir Claude, Claude als KI.
-
-Muss ich mal gerade umschalten.
-
-Muss mich hier noch ein bisschen eingrooven.
+# Folge 267 - Architekturtheater mit Claude und Ralf 
 
 ## Einführung und Zielsetzung
 
