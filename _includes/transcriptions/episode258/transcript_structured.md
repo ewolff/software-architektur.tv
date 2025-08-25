@@ -540,7 +540,7 @@ So what do you want to do with what maps in your case?
 
 We have a very interesting meetup community in Berlin, collaborative modeling.
 
-And recently we brought in worldly mapping because we just get together.
+And recently we brought in Wardley Mapping because we just get together.
 
 We want to learn about something and we do it together.
 
