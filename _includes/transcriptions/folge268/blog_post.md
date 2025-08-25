@@ -2,9 +2,9 @@
 
 Die Integration von KI in den Softwareentwicklungsprozess gewinnt zunehmend an Bedeutung. In dieser Folge betrachten wir ein praktisches Experiment, bei dem die KI Claude Code eine Webanwendung auf Basis einer Architekturspezifikation implementiert.
 
-## Das SPARC Framework und Claude Code
+## Das SPARC-Framework und Claude Code
 
-Als Grundlage dient das Spark Framework - ein Prompt-Builder für die Arbeit mit Claude Code. Es definiert verschiedene Entwicklungsphasen:
+Als Grundlage dient das SPARC-Framework - ein Prompt-Builder für die Arbeit mit Claude Code. Es definiert verschiedene Entwicklungsphasen:
 
 - Research & Discovery
 - **S**pezifikation
@@ -13,15 +13,15 @@ Als Grundlage dient das Spark Framework - ein Prompt-Builder für die Arbeit mit
 - **R**efinement
 - **C**ompletion Phase
 
-Der Entwicklungsprozess läuft dabei weitgehend autonom ab - Claude Code arbeitet die Phasen selbstständig durch und generiert den Code.
+Der Entwicklungsprozess läuft dabei weitgehend autonom ab. Claude Code arbeitet die Phasen selbstständig durch und generiert den Code.
 
 ## Das praktische Experiment
 
-In unserem Experiment sollte eine "Warldly Map" Webanwendung implementiert werden. Dafür wurde Claude Code mit einem Prompt und den Anforderungen gefüttert. 
+In unserem Experiment sollte eine ardley-Map-Webanwendung implementiert werden. Dafür wurde Claude Code mit einem Prompt und den Anforderungen gefüttert. 
 
 Das Ergebnis war beeindruckend: Innerhalb weniger Minuten erstellte die KI eine funktionsfähige Web-Anwendung mit:
 
-- Interaktiver SVG-Oberfläche
+- Interaktiver Oberfläche
 - Drag & Drop Funktionalität
 - Live-Updates der Parameter
 - Domain Specific Language (DSL) zur textuellen Diagramm-Erstellung
@@ -32,10 +32,10 @@ Interessanterweise implementierte Claude Code auch Features wie Verbindungen zwi
 
 Das Experiment zeigte aber auch einige Schwachstellen:
 
-- Die Test-Driven Development Phase wurde weitgehend ignoriert
-- Nicht alle Qualitätskriterien wurden erfüllt (z.B. Usability)
-- Die Integration der Arc42 Architektur-Dokumentation war unvollständig
-- Der autonome Modus führte teilweise zu unkontrollierten Aktionen
+- Die Test-Driven-Development-Phase wurde weitgehend ignoriert.
+- Nicht alle Qualitätskriterien wurden erfüllt (z.B. Usability).
+- Die Integration der arc42-Architektur-Dokumentation war unvollständig.
+- Der autonome Modus führte teilweise zu unkontrollierten Aktionen.
 
 ## Lessons Learned
 
@@ -53,10 +53,10 @@ Einige wichtige Erkenntnisse aus dem Experiment:
 
 Die Integration von KI in den Entwicklungsprozess wird zunehmen. Dabei kristallisieren sich einige Trends heraus:
 
-- KI-Systeme werden leistungsfähiger und kostengünstiger
-- Die Spezifikation wird zum zentralen Steuerungsinstrument
-- Parallele Implementierungen und automatische Bewertung werden Standard
-- Der Fokus verschiebt sich von manueller Entwicklung zur KI-gesteuerten Generierung
+- KI-Systeme werden leistungsfähiger und kostengünstiger.
+- Die Spezifikation wird zum zentralen Steuerungsinstrument.
+- Parallele Implementierungen und automatische Bewertung werden Standard.
+- Der Fokus verschiebt sich von manueller Entwicklung zur KI-gesteuerten Generierung.
 
 ## Fazit
 
