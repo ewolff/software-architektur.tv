@@ -10,7 +10,7 @@ So, Simon, do you want to go first and say a few words about yourself?
 
 Hello.
 
-So I'm Simon Worthly, a former CEO, startup founder, advisory board for different startups, worked in government, worked across industry, and during this accidental journey, because it was more accident than nothing else, I also developed a way of mapping out my competitive landscape, both from a technological, economic, social, and political standpoint.
+So I'm Simon Wardley, a former CEO, startup founder, advisory board for different startups, worked in government, worked across industry, and during this accidental journey, because it was more accident than nothing else, I also developed a way of mapping out my competitive landscape, both from a technological, economic, social, and political standpoint.
 
 And I thought it was useful for me, that it might be helpful for other people, but I had no real idea.
 
