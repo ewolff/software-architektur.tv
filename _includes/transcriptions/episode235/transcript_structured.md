@@ -176,7 +176,7 @@ And AI is not really there yet.
 
 So we do have this massive expansion.
 
-But these three, these LLMs, Tata and Business.
+But these three, these LLMs, Data and Business.
 
 That's not AI yet.
 
