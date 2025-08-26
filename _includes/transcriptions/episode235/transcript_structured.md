@@ -126,7 +126,7 @@ One is about the formula.
 
 The question is, do all our efforts towards green software play a role at all, if you see that old nuclear power plants are being reanimated because of AI?
 
-I think that's this thing in Philipsburg, where there was this plan to reanimate it again, where there was the nuclear pain in the late 70s.
+I think that's this thing in Philipsburg, where there was this plan to reanimate it again, where there was the nuclear plant in the late 70s.
 
 And even if it's being rebuilt, it's not just a drop on the hot stone.
 
