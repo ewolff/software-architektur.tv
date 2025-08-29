@@ -1,4 +1,4 @@
-# Die Illusion der Kontrolle in Softwareprojekten: Warum wir trotz besseren Wissens an detaillierter Planung festhalten
+# Die Illusion der Kontrolle in Softwareprojekten: Warum wir trotz besseren Wissens an exzessiver Planung festhalten
 
 In der Softwareentwicklung wissen wir seit Jahrzehnten, dass iterativ-inkrementelles Vorgehen und agile Methoden der effektivste Weg sind, um erfolgreiche Projekte durchzuführen. Dennoch sehen wir in der Praxis immer wieder übertriebene Planungs- und Kontrollversuche. Warum ist das so und was können wir dagegen tun?
 
@@ -12,7 +12,7 @@ Selbst das vielzitierte Wasserfallmodell war nie als strikt sequentielles Vorgeh
 
 ## Die psychologische Dimension 
 
-Wenn die rationale Perspektive so eindeutig ist - warum halten wir dann trotzdem an detaillierten Plänen und der Illusion von Kontrolle fest? Die Gründe sind vor allem psychologischer Natur:
+Wenn die rationale Perspektive so eindeutig ist - warum halten wir dann trotzdem am zu detaillierten Plänen und der Illusion von Kontrolle fest? Die Gründe sind vor allem psychologischer Natur:
 
 1. **Natürliches Kontrollbedürfnis**: Menschen haben ein grundlegendes Bedürfnis nach Kontrolle und Vorhersagbarkeit. Die Vorstellung, nicht alles planen zu können, erzeugt Unbehagen.
 
