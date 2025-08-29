@@ -20,11 +20,11 @@ Diese Neuausrichtung auf Effektivität erfordert auch neue Formen des Stakeholde
 
 Was können wir aus den Erfahrungen der agilen Transformation lernen? Hier einige zentrale Erkenntnisse:
 
-- Agilität ist kein Selbstzweck, sondern muss sich am konkreten Nutzen messen lassen
-- Nicht jedes Projekt oder Team muss agil arbeiten - es braucht einen situativen Ansatz
-- Der Fokus muss auf Wertschöpfung und Effektivität liegen, nicht auf reiner Effizienz
-- Wichtig sind echte Kommunikation und Zusammenarbeit statt oberflächlicher Rituale
-- Teams brauchen Autonomie UND klare Ziele/Rahmenbedingungen
+- Agilität ist kein Selbstzweck, sondern muss sich am konkreten Nutzen messen lassen.
+- Nicht jedes Projekt oder Team muss agil arbeiten - es braucht einen situativen Ansatz.
+- Der Fokus muss auf Wertschöpfung und Effektivität liegen, nicht auf reiner Effizienz.
+- Wichtig sind echte Kommunikation und Zusammenarbeit statt oberflächlicher Rituale.
+- Teams brauchen Autonomie UND klare Ziele/Rahmenbedingungen.
 
 Die Post-Agile Ära bedeutet nicht das Ende agiler Prinzipien. Vielmehr geht es darum, einen pragmatischeren und zielgerichteteren Ansatz zu finden. Statt dogmatischer Methodentreue braucht es maßgeschneiderte Lösungen, die sich an den spezifischen Herausforderungen und Zielen orientieren.
 
