@@ -1,4 +1,6 @@
-# Episode 262 - Questions from Agile Meets Architecture And the reason is because I'm going to answer all the questions due to my talk, Architecture and Agility, a Shared Skillset from the Architecture Meets Agile Conference.
+# Episode 262 - Questions from Agile Meets Architecture
+
+I'm going to answer all the questions due to my talk, Architecture and Agility, a Shared Skillset from the Architecture Meets Agile Conference.
 
 And as the original talk was in English, I figured that I would also do this question and answer in English.
 
@@ -104,7 +106,7 @@ I will link to it.
 
 However, it's in German, I'm afraid.
 
-And this is what comes to mind, these different styles of micro-macro-architecture and micro-macro-architecture in general, which means if there are a lot of decisions made for the teams, they're probably not that agile.
+And this is what comes to mind, these different styles of micro-architecture and macro-architecture in general, which means if there are a lot of decisions made for the teams, they're probably not that agile.
 
 They're not really autonomous.
 
