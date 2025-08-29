@@ -1,6 +1,6 @@
 # Bridging Architecture and Agility: Key Insights from Architecture Meets Agile
 
-Architecture and agility are often seen as opposing forces in software development, but they share more commonalities than differences, especially when it comes to working with people. This article explores key insights from questions raised during the "Architecture and Agility" conference talk, revealing how these disciplines intersect and complement each other.
+Architecture and agility are often seen as opposing forces in software development, but they share more commonalities than differences, especially when it comes to working with people. This episode explores key insights from questions raised during the "Architecture and Agility" conference talk, revealing how these disciplines intersect and complement each other.
 
 ## The People-Centric Nature of Architecture
 
