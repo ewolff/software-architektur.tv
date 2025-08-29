@@ -1,6 +1,4 @@
-# Folge 264 - Statt Agilität und moderner Architektur: Die Illusion von Kontrolle Agilität und moderne Architektur.
-
-Ich packe noch mal kurz den Hinweis auf die Möglichkeiten zu fragen in den Chat.
+# Folge 264 - Statt Agilität und moderner Architektur: Die Illusion von Kontrolle
 
 Ja, worum geht es eigentlich?
 
