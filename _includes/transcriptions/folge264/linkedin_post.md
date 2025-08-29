@@ -2,15 +2,15 @@
 
 In der neuesten Software-Architektur im Stream Episode diskutiere ich über die "Illusion der Kontrolle" in der Software-Entwicklung:
 
-• Warum wir trotz überwältigender Evidenz für iterativ-inkrementelles Vorgehen immer noch an detaillierten Vorab-Planungen festhalten
+• Warum wir trotz überwältigender Evidenz für iterativ-inkrementelles Vorgehen immer noch an detaillierten Vorab-Planungen festhalten.
 
-• Weshalb selbst erfahrene Teams in die Falle tappen, alles bis ins kleinste Detail planen zu wollen
+• Weshalb selbst erfahrene Teams in die Falle tappen, alles bis ins kleinste Detail planen zu wollen.
 
-• Wie psychologische Faktoren und sozialer Druck uns dazu bringen, eine Kontrolle vorzutäuschen, die es nie geben wird
+• Wie psychologische Faktoren und sozialer Druck uns dazu bringen, eine Kontrolle vorzutäuschen, die es nie geben wird.
 
-• Warum Software-Entwicklung eher ein Lernprozess als ein Fertigungsprozess ist
+• Warum Software-Entwicklung eher ein Lernprozess als ein Fertigungsprozess ist.
 
-• Welche Rolle Fehlerkultur und psychologische Sicherheit für erfolgreiche Projekte spielen
+• Welche Rolle Fehlerkultur und psychologische Sicherheit für erfolgreiche Projekte spielen.
 
 🎧 Die komplette Folge jetzt anhören und erfahren, wie wir aus dieser Planungsfalle herauskommen.
 
