@@ -16,7 +16,7 @@ Ich lebe in Hamburg und bin Partnerin und Principal Consultant bei Swaglab.
 
 Dort berate ich unsere Kunden im Bereich Produkt- und Projektmanagement, das heißt von der Rolle Product Owner, Produkt Manager, Projektleitung, aber auch Business Analyst ist im Grunde alles dabei.
 
-Und ich habe zudem noch einen Hintergrund im Bereich Customer Experience, das heißt mein Fokus sind immer wieder die Kundenbedürfnisse, die ja letzten Endes auch für den Projekt erfolglich so ganz unwesentlich sind.
+Und ich habe zudem noch einen Hintergrund im Bereich Customer Experience, das heißt mein Fokus sind immer wieder die Kundenbedürfnisse, die ja letzten Endes auch für den Projekterfolg so ganz wesentlich sind.
 
 Dann gebe ich weiter an Uwe.
 
