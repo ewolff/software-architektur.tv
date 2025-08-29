@@ -1,0 +1,28 @@
+# Folge 265 - Die Evolution von Architektur durch Team Topologies
+
+## Wichtige Keytakeaways
+- Team Topologies ist eine natürliche Evolution der Software-Architektur.
+- Software-Architektur dient dazu, Informationsfluss zu begrenzen und Kommunikationsbedarf zu reduzieren.
+- Team Topologies erkennt verschiedene Team-Typen:
+  - Stream-Aligned Teams (Haupttyp)
+  - Enabling Teams
+  - Platform Teams  
+  - Complicated Subsystem Teams
+- Teams können nach verschiedenen "Fracture Planes" aufgeteilt werden - nicht nur nach Domänen.
+- Software-Entwicklung ist ein soziotechnisches Thema - technische und organisatorische Aspekte müssen zusammen betrachtet werden.
+
+## Behandelte Kernfragen
+- Wie hängen Software-Architektur und Team-Organisation zusammen?
+- Welche Rolle spielt Kommunikation in der Software-Entwicklung?
+- Wie können Teams sinnvoll aufgeteilt werden?
+- Warum ist die reine domänenbasierte Team-Aufteilung oft nicht ausreichend?
+- Wie kann der "Cognitive Load" für Teams reduziert werden?
+
+## Glossar wichtiger Begriffe
+- Information Hiding: Konzept zur Kapselung von Informationen in Modulen
+- Cognitive Load: Mentale Belastung eines Teams durch Komplexität
+- Stream-Aligned Team: Team das einen vollständigen Änderungsstrom verantwortet
+- Fracture Planes: Verschiedene Dimensionen nach denen Teams aufgeteilt werden können
+- Enabling Team: Unterstützendes Team das anderen Teams hilft besser zu werden
+- Platform Team: Team das eine interne Plattform für andere Teams bereitstellt
+- Complicated Subsystem Team: Team das sich um komplexe technische Teilsysteme kümmert
