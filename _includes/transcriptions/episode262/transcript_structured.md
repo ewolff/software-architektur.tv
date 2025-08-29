@@ -50,7 +50,7 @@ Another problem that might happen is that the teams actually don't set up and do
 
 And then you have another agile blocker.
 
-So this division between micro and microarchitecture might make such agile blockers visible.
+So this division between macro and microarchitecture might make such agile blockers visible.
 
 And there are also different approaches towards micro and microarchitecture.
 
