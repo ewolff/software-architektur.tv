@@ -2,12 +2,12 @@
 
 ## Wichtige Keytakeaways:
 
-1. Die vollständige Planung von Software-Projekten ist nicht möglich - Änderungen sind unvermeidlich 
-2. Iterativ-inkrementelles Vorgehen und Agilität sind bewährte Ansätze im Software Engineering
-3. Software-Entwicklung ist ein Lernprozess (Knowledge Crunching), nicht nur reine Umsetzung
-4. Requirements können nie vollständig und fehlerfrei spezifiziert werden
-5. Die Illusion der Kontrolle durch übermäßige Planung ist oft psychologisch motiviert
-6. Eine gute Fehlerkultur ist wichtiger als perfekte initiale Planung
+1. Die vollständige Planung von Software-Projekten ist nicht möglich - Änderungen sind unvermeidlich.
+2. Iterativ-inkrementelles Vorgehen und Agilität sind bewährte Ansätze im Software Engineering.
+3. Software-Entwicklung ist ein Lernprozess (Knowledge Crunching), nicht nur reine Umsetzung.
+4. Requirements können nie vollständig und fehlerfrei spezifiziert werden.
+5. Die Illusion der Kontrolle durch übermäßige Planung ist oft psychologisch motiviert.
+6. Eine gute Fehlerkultur ist wichtiger als perfekte initiale Planung.
 
 ## Behandelte Kernfragen:
 
