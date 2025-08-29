@@ -1,4 +1,4 @@
-# Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow habe ich mir Tanja und Uwe eingeladen.
+# Folge 263 - Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow
 
 Tanja, willst du erst mal zwei Worte über dich sagen?
 
@@ -8,9 +8,9 @@ Erstmal danke für die Einladung, Eberhard.
 
 ## Vorstellung der Gäste
 
-Tanja Friedl heiße ich.
+Tanja Friedel heiße ich.
 
-### Tanja Friedl
+### Tanja Friedel
 
 Ich lebe in Hamburg und bin Partnerin und Principal Consultant bei Swaglab.
 
@@ -24,7 +24,7 @@ Ja, danke schön.
 
 ### Uwe Vigenschow
 
-Ja, mein Name ist Uwe Figencio.
+Ja, mein Name ist Uwe Vigenschow.
 
 Ich bin ebenfalls bei Swaglab Principal Consultant und in meinen Beratungen greife ich halt auf jahrzehntelange Erfahrung als Entwickler, Führungskraft, Berater, Projektleiter, ja, Durchführer von Workshops zurück und vielleicht ein paar Punkte daraus, die vielleicht ganz interessant sind.
 
