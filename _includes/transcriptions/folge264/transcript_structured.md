@@ -172,7 +172,7 @@ Und das Feedback aus dem Projekt war eben auch dieses öfter mehrere Iterationen
 
 Ich glaube, sie hatten nur zwei gemacht, den Prototypen und die wirkliche Implementierung.
 
-Und sie hätten eigentlich im Nachhinein lieber mehr Episoden gemacht.
+Und sie hätten eigentlich im Nachhinein lieber mehr Iterationen gemacht.
 
 Das wird kontrastiert in der Praxis mit genau so einem Ansatz, wo man versucht, nicht den Scope und den Termin festzumachen.
 
