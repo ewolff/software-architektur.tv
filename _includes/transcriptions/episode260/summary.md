@@ -1,11 +1,11 @@
 # Folge 260 - KI = Bullshit?
 
-## Wichtige Keytakeaways
-- LLMs sind primär Textgeneratoren ohne echtes Verständnis oder Wahrheitsanspruch
-- Das Hauptziel von LLMs ist überzeugende, nicht unbedingt wahre Texte zu generieren
-- Der Begriff "Bullshit" beschreibt treffend die Ausgaben von LLMs - es geht um Glaubwürdigkeit statt Wahrheit
-- Bei der Nutzung von LLMs ist eine Kontrolle der Ergebnisse zwingend erforderlich
-- Die unbekannten Trainingsdaten sind ein großes Problem für Vertrauenswürdigkeit und Sicherheit
+## Wichtige Takeaways
+- LLMs sind primär Textgeneratoren ohne echtes Verständnis oder Wahrheitsanspruch.
+- Das Hauptziel von LLMs ist überzeugende, nicht unbedingt wahre Texte zu generieren.
+- Der Begriff "Bullshit" beschreibt treffend die Ausgaben von LLMs - es geht um gefällige Texte, nicht um Wahrheit.
+- Bei der Nutzung von LLMs ist eine Kontrolle der Ergebnisse zwingend erforderlich.
+- Die unbekannten Trainingsdaten sind ein großes Problem für Vertrauenswürdigkeit und Sicherheit.
 
 ## Behandelte Kernfragen
 - Warum sind die anthropomorphen Metaphern bei KI problematisch?
@@ -15,7 +15,7 @@
 - Wie sinnvoll ist der Einsatz von LLMs in der Software-Entwicklung?
 
 ## Glossar wichtiger Begriffe
-- Bullshit: Aussagen mit Fokus auf Glaubwürdigkeit statt Wahrheit
+- Bullshit: Aussagen mit Fokus auf Gefälligkeit und Überzeugen statt Wahrheit
 - Anthropomorphe Metaphern: Vermenschlichende Beschreibungen von KI-Systemen
 - Halluzinationen: Fehlerhafte Ausgaben von LLMs
 - Konfabulation: Alternative Bezeichnung für falsche "Erinnerungen" von LLMs
