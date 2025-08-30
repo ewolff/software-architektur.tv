@@ -6,7 +6,7 @@ Wardley Maps have emerged as a powerful strategic tool that helps organizations 
 
 A Wardley Map is fundamentally different from traditional business diagrams or architectural drawings. While most diagrams are simply graphs showing nodes and connections, Wardley Maps give meaning to space itself - you cannot move components without changing the map's meaning. The basic elements of a Wardley Map include:
 
-1. Anchors (Users/Customers)
+1. Anchors (Users / Customers)
 2. Value Chain (Chain of Needs)
 3. Evolution Axis (Genesis → Custom → Product → Commodity)
 
@@ -26,9 +26,9 @@ The process of mapping itself is valuable - it's not just about the final artifa
 
 An interesting parallel exists between Wardley Maps and software architecture diagrams. Both are representations of reality, but architecture diagrams often represent beliefs rather than actual system structure. This raises important questions about how we document and communicate about software systems:
 
-- Hand-drawn architecture diagrams may miss critical components
-- Generated diagrams from code show the actual system structure
-- The "why" behind architectural decisions often isn't captured in either approach
+- Hand-drawn architecture diagrams may miss critical components.
+- Generated diagrams from code show the actual system structure.
+- The "why" behind architectural decisions often isn't captured in either approach.
 
 The solution isn't necessarily to abandon hand-drawn diagrams, but to recognize them as statements of belief that can be compared against reality. This comparison can lead to valuable insights about system understanding and evolution.
 
