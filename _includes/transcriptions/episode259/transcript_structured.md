@@ -62,7 +62,7 @@ We had many legacy systems, 13.
 
 For example, in lending, also similarly, we were practically losing money, right?
 
-And also in foreign exchange, similarly, we were losing, we were facing potential loss of business because digital competitors, such Revolut and 26, of course, not only were emerging, they were already there.
+And also in foreign exchange, similarly, we were losing, we were facing potential loss of business because digital competitors, such as Revolut and N26, of course, not only were emerging, they were already there.
 
 Yeah.
 
