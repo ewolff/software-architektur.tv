@@ -1,6 +1,6 @@
 # Wardley Maps Meets Software Architecture
 
-## Wichtige Keytakeaways
+## Wichtige Key-Takeaways
 - Wardley Maps sind eine Methode zur Visualisierung der Wettbewerbslandschaft aus technologischer, wirtschaftlicher, sozialer und politischer Sicht
 - Maps unterscheiden sich von Graphen dadurch, dass der Raum Bedeutung hat - Komponenten können nicht beliebig verschoben werden
 - Wardley Maps haben eine Evolution-Achse von Genesis (neu) bis Commodity (Standard)
