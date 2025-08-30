@@ -188,7 +188,7 @@ Also ich müsste dann halt einen Kunden haben, der gleichzeitig in der SwagClub 
 
 Also ich habe ja drei Dinge.
 
-Ich habe den Kunden, der die Richtung bekommt, SwagClub GmbH.
+Ich habe den Kunden, der die Rechnung bekommt, SwagClub GmbH.
 
 Ich habe den Kunden, der sich eincheckt.
 
