@@ -1,12 +1,12 @@
 ## Titel: Modelle statt Bounded Contexts? Eine Alternative für fachliche Modularisierung
 
 ## Wichtige Keytakeaways
-- Bounded Contexts vermischen drei verschiedene Aspekte: Ubiquitous Language, Modelle und Teamzuordnung
-- Diese Vermischung macht das Konzept unnötig kompliziert
-- Stattdessen sollte der Fokus auf Modellen als zentralem Konzept für fachliche Modularisierung liegen
-- Modelle sollten durch Schnittstellen definiert werden (inspiriert von Abstract Data Types)
-- Autonomie der Modelle sollte ein wichtiges Ziel sein
-- Die technische Deployment-Struktur sollte getrennt von der fachlichen Modellierung betrachtet werden
+- Bounded Contexts vermischen drei verschiedene Aspekte: Ubiquitous Language, Modelle und Teamzuordnung.
+- Diese Vermischung macht das Konzept unnötig kompliziert.
+- Stattdessen sollte der Fokus auf Modellen als zentralem Konzept für fachliche Modularisierung liegen.
+- Modelle sollten durch Schnittstellen definiert werden (inspiriert von Abstract Data Types).
+- Die Autonomie der Modelle sollte ein wichtiges Ziel sein.
+- Die technische Deployment-Struktur sollte getrennt von der fachlichen Modellierung betrachtet werden.
 
 ## Behandelte Kernfragen
 - Wie kann man Systeme sinnvoll fachlich modularisieren?
