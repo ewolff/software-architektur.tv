@@ -2,7 +2,7 @@
 
 ## Einführung und Ankündigung
 
-Eine Alternative für fachliche Modularisierung Modellen und ob das halt sozusagen eine Alternative ist zu bauenden Kontexten.
+Eine Alternative für fachliche Modularisierung sind Modellen und ob das halt sozusagen eine Alternative ist zu Bounded Contexts.
 
 Bevor ich da loslege, noch ein Hinweis.
 
@@ -24,23 +24,23 @@ Man führt das also alles selber durch und ich würde mich da natürlich freuen,
 
 Und ja genau, legen wir inhaltlich los.
 
-Also eine von den offensichtlichen, also das ist in gewisser Weise eine Fortsetzung von der Episode, die ich halt gemacht habe vor einiger Zeit, wo es halt um diesen Begriff von dem Bauenden Kontexten ging.
+Also eine von den offensichtlichen, also das ist in gewisser Weise eine Fortsetzung von der Episode, die ich halt gemacht habe vor einiger Zeit, wo es halt um diesen Begriff von dem Bounded Context ging.
 
-Und da ist eigentlich die Aussage, dass irgendwie die Geschichte mit dem Bauenden Kontexten so ein bisschen problematisch ist.
+Und da ist eigentlich die Aussage, dass irgendwie die Geschichte mit dem Bounded Context so ein bisschen problematisch ist.
 
 ## Problematik von Bounded Contexts
 
-Und das wesentliche Problem, was ich dabei sehe, ist, dass es halt eigentlich drei Dinge sind, über die wir da reden, wenn wir über Bauenden Kontexte reden.
+Und das wesentliche Problem, was ich dabei sehe, ist, dass es halt eigentlich drei Dinge sind, über die wir da reden, wenn wir über Bounded Contexts reden.
 
-Das eine ist eben, dass ein Bauenden Kontext ein begrenzter Bereich ist für ein ubiquitous language.
+Das eine ist eben, dass ein BBounded Context ein begrenzter Bereich ist für ein ubiquitous language.
 
 ### Ubiquitous Language
 
-Ein ubiquitous language ist halt diese Sprache, die halt Domenexpertinnen sprechen, die auch sich im Kode niederschlägt.
+Ein ubiquitous language ist halt diese Sprache, die halt Domenexpert:innen sprechen, die auch sich im Kode niederschlägt.
 
 Und wir haben da halt irgendwie dieses Problem, dass bestimmte Begriffe irgendwie mehr deutlich sind.
 
-Und im Moment mein beliebtestes Beispiel ist halt, also erst mal ist es halt so, es gibt in unterschiedlichen Bauenden Kontexten unterschiedliche Begrifflichkeiten.
+Und im Moment mein beliebtestes Beispiel ist halt, also erst mal ist es halt so, es gibt in unterschiedlichen Bounded Contexts unterschiedliche Begrifflichkeiten.
 
 Also wenn ich halt über das Liefern rede, dann habe ich halt eine Lieferung, die habe ich halt offensichtlich da, da habe ich leider nicht, wo ich es hinschicken will.
 
@@ -86,9 +86,9 @@ Und also, wie soll ich sagen, in einem kleinen Projekt ist es nicht einsehbar, w
 
 Und ich würde halt auch behaupten, dass es notwendig sein kann, und darüber habe ich ja auch so eine Episode gemacht, nicht über diese Frage.
 
-Genau, ein Beispiel aus der Praxis ist das, wo ich gesagt habe, was ist denn eigentlich, wenn drei Teams an einem modernen Kontext arbeiten.
+Genau, ein Beispiel aus der Praxis ist das, wo ich gesagt habe, was ist denn eigentlich, wenn drei Teams an einem Bounded Context arbeiten.
 
-Und es kann durchaus sein, dass das halt irgendwie Sinn macht, weil man halt irgendwie eine Deadline erreichen möchte und dafür halt irgendwie mehr Menschen auf einen modernen Kontext schickt.
+Und es kann durchaus sein, dass das halt irgendwie Sinn macht, weil man halt irgendwie eine Deadline erreichen möchte und dafür halt irgendwie mehr Menschen auf einen Bounded Context schickt.
 
 Ich verlinke das auch nochmal in den Shownotes, genau, und da wird man das dann halt sozusagen finden.
 
@@ -110,11 +110,11 @@ Glaube ich nicht, ich würde halt eher behaupten, dass halt ein Modell, nicht zu
 
 Das sollte aber eigentlich auch klar sein aus den vorherigen Episoden.
 
-So, also einmal glaube ich halt, es ist nicht sinnvoll, das zu kombinieren, weil das drei unterschiedliche Dinge sind und ich halt diesen komplexen Begriff habe und dann ist ja eigentlich die zentrale Frage, die mich jetzt interessiert, also ebenso als Architekt oder Architekturberater, wie komme ich zu einer gruppengranularen Modularisierung meines Systems, zum Beispiel in beiden Kontexten und da gibt es Antworten, also zum Beispiel halt Eventstorming, aber eigentlich will ich halt diese Modelle haben, also ich will jetzt eigentlich ein Modell haben, was halt einen Teil der Logik implementiert und das ist der Aspekt, der zentral ist für mich aus einer Architekturperspektive in Bezug auf Bauenden Kontext.
+So, also einmal glaube ich halt, es ist nicht sinnvoll, das zu kombinieren, weil das drei unterschiedliche Dinge sind und ich halt diesen komplexen Begriff habe und dann ist ja eigentlich die zentrale Frage, die mich jetzt interessiert, also ebenso als Architekt oder Architekturberater, wie komme ich zu einer gruppengranularen Modularisierung meines Systems, zum Beispiel in beiden Kontexten und da gibt es Antworten, also zum Beispiel halt Eventstorming, aber eigentlich will ich halt diese Modelle haben, also ich will jetzt eigentlich ein Modell haben, was halt einen Teil der Logik implementiert und das ist der Aspekt, der zentral ist für mich aus einer Architekturperspektive in Bezug auf Bounded Contexts.
 
-Es gibt Ansätze, wie man solche Bauenden Kontexte finden kann, zum Beispiel Eventstorming, haben wir auch eine Episode darüber gemacht, das sollte eigentlich irgendwie auch klar sein, aber dieses Modell da irgendwie nochmal tiefer reinzugraben, das ist glaube ich irgendwie auch nochmal eine spannende Sache und ich habe gerade eben nochmal in das blaue Buch geguckt, also das Instrument und Design Buch von dem Eric Evans und es stellt sich halt heraus, dass halt der Begriff Modell als solcher gar nicht im Index steht.
+Es gibt Ansätze, wie man solche BBounded Contexts finden kann, zum Beispiel Eventstorming, haben wir auch eine Episode darüber gemacht, das sollte eigentlich irgendwie auch klar sein, aber dieses Modell da irgendwie nochmal tiefer reinzugraben, das ist glaube ich irgendwie auch nochmal eine spannende Sache und ich habe gerade eben nochmal in das blaue Buch geguckt, also das Instrument und Design Buch von dem Eric Evans und es stellt sich halt heraus, dass halt der Begriff Modell als solcher gar nicht im Index steht.
 
-Also nicht, wenn man hinten halt irgendwie sagt, okay, hinten im Index nachguckt, ob dieser Begriff irgendwie definiert ist und ob da was explizit zusteht, ich habe es da nicht gefunden und ich habe es mir jetzt irgendwie erspart, die 600 Seiten sozusagen nochmal durchzulesen, die da irgendwie drin sind und das halt irgendwie zu verstehen und das führt irgendwie zu der Frage, haben wir nicht eigentlich den falschen Fokus, also das, was uns jetzt Bauende Kontext sagt, ist, es gibt mehrere Modelle und das macht ja Sinn, aber was ist ein Modell, sagt es uns nicht, sondern das ist eben etwas anderes und nachdem ich halt irgendwie daran gescheitert bin, in dem Design Buch das irgendwie auf den ersten Blick zu finden, habe ich mir gedacht, ich gucke mal irgendwie in Wikipedia und in der deutschen Wikipedia steht, Modell ist ein Begriff, der sowohl im wissenschaftlichen Sprachgebrauch als auch in der Umgangssprache unterschiedliche Bedeutungen besitzt.
+Also nicht, wenn man hinten halt irgendwie sagt, okay, hinten im Index nachguckt, ob dieser Begriff irgendwie definiert ist und ob da was explizit zusteht, ich habe es da nicht gefunden und ich habe es mir jetzt irgendwie erspart, die 600 Seiten sozusagen nochmal durchzulesen, die da irgendwie drin sind und das halt irgendwie zu verstehen und das führt irgendwie zu der Frage, haben wir nicht eigentlich den falschen Fokus, also das, was uns jetzt Bounded Context sagt, ist, es gibt mehrere Modelle und das macht ja Sinn, aber was ist ein Modell, sagt es uns nicht, sondern das ist eben etwas anderes und nachdem ich halt irgendwie daran gescheitert bin, in dem Design Buch das irgendwie auf den ersten Blick zu finden, habe ich mir gedacht, ich gucke mal irgendwie in Wikipedia und in der deutschen Wikipedia steht, Modell ist ein Begriff, der sowohl im wissenschaftlichen Sprachgebrauch als auch in der Umgangssprache unterschiedliche Bedeutungen besitzt.
 
 Die häufigste ist dabei ein analoger Realitätsausschnitt, also Analogie bedeutet, ich baue etwas, was so aussieht wie die Realität und dann stand da weiter in der Wissenschaft, definiert man ein Modell als eine vereinfachte Darstellung eines Originals, die spezifische Eigenschaften hervorhebt und für einen bestimmten Zweck verwendet wird.
 
@@ -214,7 +214,7 @@ Das heißt, wir können auch dadurch, dass wir sagen, das sind unterschiedliche 
 
 Dadurch kommen wir zu einem ähnlichen Ding, zu einer ähnlichen Idee.
 
-Und das bedeutet, dass diese Geschichte mit dem Bauenden Kontext unser Problem nicht löst.
+Und das bedeutet, dass diese Geschichte mit dem Bounded Context unser Problem nicht löst.
 
 Also es sagt zwar, wir brauchen mehrere Modelle.
 
@@ -268,7 +268,7 @@ Aber die Details sollen versteckt sein und sich unabhängig von der Schnittstell
 
 Das heißt, solange die Schnittstelle stabil bleibt, kann man die Implementierung ändern, was dazu führt, dass wir eben stärkere Unabhängigkeit haben, weil eben andere sich nur auf die Schnittstelle verlassen.
 
-Und ich kann jetzt eben unabhängig von dem, was andere Teams tun oder EntwicklerInnen tun, in der Implementierung etwas ändern, solange die Schnittstelle konstant bleibt.
+Und ich kann jetzt eben unabhängig von dem, was andere Teams tun oder Entwickler:innen tun, in der Implementierung etwas ändern, solange die Schnittstelle konstant bleibt.
 
 Und das ist genau Information-Hiding.
 
@@ -592,7 +592,7 @@ Kannst du noch mal kurz sagen, wie sich ADT thematisch zu Baune Context verhält
 
 Also erst mal, ich diskutiere ja Modelle.
 
-Und das ist ein Teil von diesen Baune Kontexten.
+Und das ist ein Teil von diesen Bounded Context.
 
 Und diese Abstract Data Types sind für mich nur eine Inspiration, noch mal tiefer über Schnittstellen zu reden.
 
@@ -780,7 +780,7 @@ Und dann steht da etwas von unabhängigem Deployment und Skalierung.
 
 ### Kritik an Cell-Based Architecture
 
-Und da sind wir jetzt wieder an der Stelle, was ich auch bei den Bauern und Kontexten kritisiere, dass wir plötzlich drei Ziele haben, die halt unterschiedliche Aspekte betrachten.
+Und da sind wir jetzt wieder an der Stelle, was ich auch bei den Bounded Contexts kritisiere, dass wir plötzlich drei Ziele haben, die halt unterschiedliche Aspekte betrachten.
 
 Also unabhängige Entwicklung impliziert nicht unbedingt unabhängiges Deployment.
 
@@ -796,7 +796,7 @@ Ist das eine blöde Idee?
 
 Nein, weil es kann eben sein, dass ich nicht dieses modulare Deployment benötige und ich benötige vielleicht auch keine modulare Skalierung.
 
-Und da ist wieder dasselbe Problem wie bei den Bauern und Kontexten.
+Und da ist wieder dasselbe Problem wie bei den Bounded Contexts.
 
 Also warum sage ich halt, dass ich Zellen haben will, die ich unabhängig deployen und skalieren und entwickeln will?
 
@@ -822,15 +822,15 @@ Trotzdem will ich das unabhängig deployen auf Rechtern, die GPUs haben und die 
 
 Ich verstehe wirklich nicht, warum man das kombinieren möchte.
 
-Und dann ist die Aussage, eine Zelle ist ein Bauern und Kontext.
+Und dann ist die Aussage, eine Zelle ist ein Bounded Context.
 
-Da wird also eigentlich jetzt der Bauern und Kontext nur in der Definition oder im Sinne von Modell genutzt.
+Da wird also eigentlich jetzt der Bounded Context nur in der Definition oder im Sinne von Modell genutzt.
 
 Intern können dann solche Zellen Legacy Komponenten haben oder Microservices oder was anderes, was halt eine technische Aussage ist.
 
 Und ich finde das eben, wie gesagt, schwierig, weil es eben Technik, Organisationen und Modelle mischt.
 
-Und es ist so ein bisschen schlimmer als Bauern und Kontexte, weil die immerhin damit nichts zur Technik sagen, nicht also Bauern und Kontext könnte oder das Modell eines Bauern und Kontextes kann eben in einem Microservices implementiert sein oder hat in einem Deployment Monolithen als ein Teil des Deployment Monolithen.
+Und es ist so ein bisschen schlimmer als Bounded Contexts, weil die immerhin damit nichts zur Technik sagen, nicht also Bounded Context könnte oder das Modell eines Bounded Contexts kann eben in einem Microservices implementiert sein oder hat in einem Deployment Monolithen als ein Teil des Deployment Monolithen.
 
 Das geht beides so und das fokussiert jetzt eben plötzlich an irgendeiner Stelle auf solche Qualitäts Attribute wie Skalierbarkeit.
 
@@ -872,7 +872,7 @@ Das ist halt eine Fachlichkeit.
 
 Und ich kann durchaus eben ein Team auf mehr Fachlichkeiten arbeiten lassen und ich kann auch durchaus mehrere Teams an diesem Bestellprozess arbeiten lassen.
 
-Es führt nun potenziell zu Reibungsverlusten und sowas wie Cell-Based gibt halt ein sehr einfaches Schema vor, ähnlich wie bauende Kontexte, was halt sagt, du baust halt einfach eine Zelle.
+Es führt nun potenziell zu Reibungsverlusten und sowas wie Cell-Based gibt halt ein sehr einfaches Schema vor, ähnlich wie Bounded Contexts, was halt sagt, du baust halt einfach eine Zelle.
 
 Diese Zelle ist eben so, dass sie ein Team ist, eine Fachlichkeit umfasst und so weiter.
 
@@ -902,7 +902,7 @@ Und das würde ich eben, also wie soll ich sagen, in dieser, ich sage jetzt mal 
 
 Dann hat dieses separate Deployment nichts mit der Fachlichkeit zu tun, sondern es ist eine technische Geschichte.
 
-Das kann man natürlich sagen, nicht lieber Eberhard, du ziehst halt irgendwie Dinge sozusagen an den Haaren herbei, aber das, also erst mal so etwas begegnen mir ja tatsächlich in der Praxis und das andere ist auch, wie soll ich sagen, ich, wieso muss ich drei Dinge, die halt unterschiedlich sind, Deployment, Fachlichkeit oder eben Teamverantwortung, wieso muss ich das zwangsläufig bei einem Kamm scheren und also insbesondere, also nicht bei dem Deployment ist das, was du sagst, Matthias, glaube ich, noch am ehesten als Vereinfachung nachvollziehbar, bei den Teams halte ich das mittlerweile für relativ absurd, weil wenn ich sage Teams müssen an einem bauenden Kontext arbeiten, dann sage ich, es gibt keine technischen Infrastruktur, Teams, die hat eine technische Komponente bauen, das gibt es nun wirklich, nicht, also es gibt nun wirklich Leute, die halt irgendwie rumlaufen und sagen, ich kümmere mich halt um das Technik, solche Infrastrukturgeschichten wie Kubernetes oder so, nicht so was, was ein Plattformteam macht in Team Topologies oder auch irgendwelche anderen technischen Infrastruktur-Teams als eigene Libraries und die haben, sind natürlich validerweise da und natürlich müssen die dann auch mit Teams interagieren, die hat Fachlichkeiten bauen und das muss sich irgendwie abdecken und da jetzt irgendwie zu sagen, ein Team definiert sich halt durch einen bauenden Kontext, nee, also da gibt es andere Teams und die sind halt auch wertvoll und das ist eben dann tatsächlich irgendwie ein Fehlschluss, nicht, und deswegen würde ich halt dafür plädieren, diese drei Aspekte, also Deployment-technisch, Teams irgendwie so organisatorisch und eben diese Modelle, über die ich spreche, das halt zu trennen und das ist ja der Grund, weswegen ich halt sage, diese Geschichte mit den bauenden Kontexten finde ich halt schwierig und vielleicht sollten wir uns auf Modelle fokussieren, weil ich glaube, das ist das zentrale Thema.
+Das kann man natürlich sagen, nicht lieber Eberhard, du ziehst halt irgendwie Dinge sozusagen an den Haaren herbei, aber das, also erst mal so etwas begegnen mir ja tatsächlich in der Praxis und das andere ist auch, wie soll ich sagen, ich, wieso muss ich drei Dinge, die halt unterschiedlich sind, Deployment, Fachlichkeit oder eben Teamverantwortung, wieso muss ich das zwangsläufig bei einem Kamm scheren und also insbesondere, also nicht bei dem Deployment ist das, was du sagst, Matthias, glaube ich, noch am ehesten als Vereinfachung nachvollziehbar, bei den Teams halte ich das mittlerweile für relativ absurd, weil wenn ich sage Teams müssen an einem Bounded Context arbeiten, dann sage ich, es gibt keine technischen Infrastruktur, Teams, die hat eine technische Komponente bauen, das gibt es nun wirklich, nicht, also es gibt nun wirklich Leute, die halt irgendwie rumlaufen und sagen, ich kümmere mich halt um das Technik, solche Infrastrukturgeschichten wie Kubernetes oder so, nicht so was, was ein Plattformteam macht in Team Topologies oder auch irgendwelche anderen technischen Infrastruktur-Teams als eigene Libraries und die haben, sind natürlich validerweise da und natürlich müssen die dann auch mit Teams interagieren, die hat Fachlichkeiten bauen und das muss sich irgendwie abdecken und da jetzt irgendwie zu sagen, ein Team definiert sich halt durch einen Bounded Context, nee, also da gibt es andere Teams und die sind halt auch wertvoll und das ist eben dann tatsächlich irgendwie ein Fehlschluss, nicht, und deswegen würde ich halt dafür plädieren, diese drei Aspekte, also Deployment-technisch, Teams irgendwie so organisatorisch und eben diese Modelle, über die ich spreche, das halt zu trennen und das ist ja der Grund, weswegen ich halt sage, diese Geschichte mit den Bounded Contexts finde ich halt schwierig und vielleicht sollten wir uns auf Modelle fokussieren, weil ich glaube, das ist das zentrale Thema.
 
 Jetzt muss ich mal zu dem was Matthias noch geschrieben hat.
 
@@ -912,11 +912,11 @@ Ein Kontext ist ein Bereich, in dem sich verschiedene Menschen über die Bedeutu
 
 Wenn sie es nicht sind, wird das Modell mehrdeutig.
 
-Ja, also ich glaube auch, dass bauenden Kontext eigentlich in erster Linie hilfreich ist in Bezug auf ubiquitous language.
+Ja, also ich glaube auch, dass Bounded Contexts eigentlich in erster Linie hilfreich ist in Bezug auf ubiquitous language.
 
 Ich bin mir gerade nicht sicher, ob das tatsächlich auch im blauen Buch so in den Mittelpunkt gestellt wird.
 
-Sprich, diese Idee, dass eben Kunden in unterschiedlichen bauenden Kontexten eine unterschiedliche Bedeutung haben, das ist glaube ich eine sehr mächtige Idee und das führt dazu, dass ich diese Modelle eigentlich idealerweise trennen sollte.
+Sprich, diese Idee, dass eben Kunden in unterschiedlichen Bounded Contexts eine unterschiedliche Bedeutung haben, das ist glaube ich eine sehr mächtige Idee und das führt dazu, dass ich diese Modelle eigentlich idealerweise trennen sollte.
 
 Aber Software ist Soft.
 
@@ -934,7 +934,7 @@ Ich weiß nicht.
 
 Wenn ich eine krasse Kunde habe, ist sie nicht mehr eindeutig.
 
-Deswegen ist es schon so, dass diese bauenden Kontexte mit der ubiquitous language, dieser Aspekt der Idee ein guter Indikator dafür ist, dass ich Sachen getrennt umsetzen will mit getrennten Modellen.
+Deswegen ist es schon so, dass diese Bounded Contexts mit der ubiquitous language, dieser Aspekt der Idee ein guter Indikator dafür ist, dass ich Sachen getrennt umsetzen will mit getrennten Modellen.
 
 Ich bin mir noch nicht sicher, ob das hilfreich ist.
 
@@ -952,7 +952,7 @@ Rechnung geht auf Swagglab GmbH, Lieferung für den Laptop geht zu Eberhardt.
 
 Dann komme ich zu einem ähnlichen Ergebnis, ohne dass ich sage, ich habe ubiquitous language und diese getrennten Bedeutungen von irgendwelchen Begriffen.
 
-Mein Motivator oder mein Punkt, den ich versuche, mit dieser Episode zu machen ist, wir brauchen als TechnikerInnen eine Möglichkeit, Systeme fachlich aufzuteilen.
+Mein Motivator oder mein Punkt, den ich versuche, mit dieser Episode zu machen ist, wir brauchen als Techniker:innen eine Möglichkeit, Systeme fachlich aufzuteilen.
 
 Dafür liegt vielleicht dieser Denkprozess, den ich jetzt gerade beschrieben habe, als der Denkprozess, den ich eher beim Business-Analytiker sehen würde, der feststellt, der Kunde ist tatsächlich etwas unterschiedliches durch Analyse.
 
@@ -974,17 +974,17 @@ Modelle sind Abbilder eines Originals, abstrahieren nur die relevanten Eigenscha
 
 Das heißt, ein Modell für eine andere pragmatische Funktion kann ein anderes Modell sein und kann andere relevante Eigenschaften haben.
 
-Das heißt, in dem Begriff Modell ist schon Baune Kontext angelegt.
+Das heißt, in dem Begriff Modell ist schon Bounded Context angelegt.
 
 Matthias schreibt, lass uns eindeutige Modelle machen.
 
-Dann brauchen wir den Baune Kontext eigentlich nicht, weil wir ihn implizit schon haben.
+Dann brauchen wir den Bounded Context eigentlich nicht, weil wir ihn implizit schon haben.
 
-Es wäre mal interessant, in einer Welt zu leben, wo wir nicht mehr über Baune Kontext reden, sondern über Modelle.
+Es wäre mal interessant, in einer Welt zu leben, wo wir nicht mehr über Bounded Contexts reden, sondern über Modelle.
 
 Und dann im Sinne von Dinge, die wir als Software implementieren, als Abbildung von Realität.
 
-Ich würde das deswegen für gut halten, weil es dann klar ist, dass wir nur über diesen Aspekt von Baune Kontext reden und die anderen Aspekte, nämlich die Geschichte mit der ubiquitous language und mit den Teams, dass die sekundär sind.
+Ich würde das deswegen für gut halten, weil es dann klar ist, dass wir nur über diesen Aspekt von Bounded Context reden und die anderen Aspekte, nämlich die Geschichte mit der ubiquitous language und mit den Teams, dass die sekundär sind.
 
 Ich glaube, dass dann Dinge einfach zu verstehen sind.
 
