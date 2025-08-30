@@ -39,13 +39,13 @@ Stattdessen sollten wir diese Systeme nüchtern als das sehen, was sie sind: Tex
 
 LLMs sind zweifellos mächtige Werkzeuge, die in bestimmten Kontexten sehr nützlich sein können. Wir müssen uns aber ihrer fundamentalen Limitierungen bewusst sein:
 
-- Sie verstehen nicht wirklich, was sie ausgeben
-- Sie sind nicht auf Wahrheit, sondern auf Plausibilität optimiert  
-- Ihre Ausgaben müssen immer validiert werden
-- Der Begriff "Künstliche Intelligenz" ist irreführend
+- Sie verstehen nicht, was sie ausgeben.
+- Sie sind nicht auf Wahrheit optimiert, sondern die Antworten sollen Menschen gefallen. 
+- Ihre Ausgaben müssen immer validiert werden.
+- Der Begriff "Künstliche Intelligenz" ist irreführend.
 
-Für die Praxis bedeutet das: LLMs können als Unterstützung dienen, aber nie kritisches Denken und echte Expertise ersetzen. Besonders in der Softwareentwicklung braucht es weiterhin Menschen, die Verantwortung übernehmen und Ergebnisse validieren.
+Für die Praxis bedeutet das: LLMs können als Unterstützung dienen, aber nie kritisches Denken und echte Expertise ersetzen. Besonders in der Softwareentwicklung braucht es weiterhin und sogar verstärkt Menschen, die Verantwortung übernehmen und Ergebnisse validieren.
 
-Die Technologie wird sich weiterentwickeln, aber die grundsätzliche Problematik des "Bullshit" wird bleiben, solange diese Systeme nur auf überzeugende Textgenerierung und nicht auf echtes Verstehen optimiert sind.
+Die Technologie wird sich weiterentwickeln, aber die grundsätzliche Problematik des "Bullshit" wird bleiben, solange diese Systeme nur auf überzeugende Textgenerierung optimiert sind und die Texte nicht verstehen .
 
 Der bewusste und kritische Umgang mit diesen Limitierungen wird entscheidend sein für den sinnvollen Einsatz von LLMs in der Praxis.
