@@ -1,12 +1,12 @@
 # Building Product Teams Across Boundaries: Lessons from Banking Digital Transformation
 
-Digital transformation in traditional banking presents unique challenges, especially when building products across organizational and geographical boundaries. This article shares insights from a successful transformation journey at Raiffeisen Bank International, focusing on two key products: lending for small and medium enterprises (SME) and foreign exchange (FX) services.
+Digital transformation in traditional banking presents unique challenges, especially when building products across organizational and geographical boundaries. This episode shares insights from a successful transformation journey at Raiffeisen Bank International, focusing on two key products: lending for small and medium enterprises (SME) and foreign exchange (FX) services.
 
 ## The Challenge
 
 Raiffeisen Bank International, a traditional banking group with over 100 years of heritage, faced significant challenges in their core markets across Central and Eastern Europe:
 
-- Customer loan processing times of 3-4 weeks
+- Customer loan processing take 3-4 weeks.
 - Manual processes across 13 legacy systems
 - Growing competition from digital-first competitors like Revolut
 - Potential loss of business and revenue
@@ -23,10 +23,10 @@ The transformation initiative started with a clear business vision:
 
 ### Aligned Autonomy
 The teams operated under a model of "aligned autonomy" where:
-- Teams shared common goals and vision
-- A unified product backlog guided priorities
-- Teams retained autonomy in how they implemented solutions
-- Local teams could adapt to market-specific requirements while contributing to the group solution
+- Teams share common goals and vision.
+- A unified product backlog guided priorities.
+- Teams retained autonomy in how they implemented solutions.
+- Local teams could adapt to market-specific requirements while contributing to the group solution.
 
 ### Regular Alignment Mechanisms
 Several practices ensured ongoing alignment:
@@ -72,10 +72,10 @@ Key learnings about team composition:
 The journey wasn't without challenges:
 
 ### Market Evolution
-- Original assumptions needed regular review
-- Some markets required more local customization
-- Business needs evolved over time
-- Strategy adapted to changing circumstances
+- Original assumptions needed regular review.
+- Some markets required more local customization.
+- Business needs evolved over time.
+- Strategy adapted to changing circumstances.
 
 ### Balance of Control
 - Tension between group standardization and local needs
