@@ -1,14 +1,16 @@
-# Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic And it's my pleasure to welcome Anna and Leia.
+# Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
+
+And it's my pleasure to welcome Ana and Lejla.
 
 We are going to discuss building product teams beyond organizational and geographical boundaries.
 
 So first of all, do you want to say a few words about yourself?
 
-So Anna, do you want to go first?
+So Ana, do you want to go first?
 
 Sure.
 
-So my name is Anna.
+So my name is Ana.
 
 I work as a Senior Agile Coach at Ryfus and Bank International.
 
@@ -18,7 +20,7 @@ And I guess the tagline is that I help teams, organizations, and leadership on t
 
 Thank you so much.
 
-Leia, do you want to say a few words about yourself?
+Lejla, do you want to say a few words about yourself?
 
 Yes, of course.
 
@@ -26,7 +28,7 @@ Thanks for inviting us.
 
 I am Lejla.
 
-I work everything the same as Anna.
+I work everything the same as Ana.
 
 So I will not repeat.
 
@@ -88,7 +90,7 @@ We are a huge banking group, traditional with more than 100 years of heritage, h
 
 So these are our core markets.
 
-And of course, Raifising does both of these businesses, FX and lending in all these markets.
+And of course, Raiffeisen does both of these businesses, FX and lending in all these markets.
 
 When we started on this transformation journey, we didn't know really, will we cover all of them or not.
 
@@ -130,7 +132,7 @@ So we would count all of those people in the team, yeah.
 
 And each team would be in one location, like in one country, or are those mixed teams with people from different countries?
 
-These are, we have different, maybe I can share like a bit of lending and Anna can share a bit of foreign exchange because we were like coaching in these areas.
+These are, we have different, maybe I can share like a bit of lending and Ana can share a bit of foreign exchange because we were like coaching in these areas.
 
 It's like we have different examples.
 
@@ -154,7 +156,7 @@ But maybe we should take one step back.
 
 We are talking about these two products and we should actually, I think, explain what was the vision.
 
-Maybe Anna, you can try to give some context like how we what was our vision about this, like why we started, what we wanted to do, because it's like.
+Maybe Ana, you can try to give some context like how we what was our vision about this, like why we started, what we wanted to do, because it's like.
 
 Yeah, then this is easier than to explain afterwards the teams.
 
@@ -612,7 +614,7 @@ Because what you're explaining in a way is, okay, there is a process, everyone i
 
 So why would they just go ahead and do it?
 
-And I think the other point that is also something that we discussed just before the stream is the point that Anna made, that it's not just about implementing the very specific stuff for each country, it's also about streamlining the businesses and making.
+And I think the other point that is also something that we discussed just before the stream is the point that Ana made, that it's not just about implementing the very specific stuff for each country, it's also about streamlining the businesses and making.
 
 So therefore, and I think that's interesting because, how should I put it, naive software architecture or naive projects seem to say, okay, there is something that the business wants and I will just implement it.
 
