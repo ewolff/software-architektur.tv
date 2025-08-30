@@ -82,7 +82,7 @@ When we started, we were not sure.
 
 So our banking group is present on 11 core markets, mainly in Central and Eastern Europe and part of Southeast Europe.
 
-So these are core markets of Raifising Bank International.
+So these are core markets of Raiffeisen Bank International.
 
 We are a huge banking group, traditional with more than 100 years of heritage, history heritage, and very well known, I think, in this region and successful.
 
