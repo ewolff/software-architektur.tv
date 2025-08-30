@@ -105,16 +105,22 @@ src="{{ page.embedded-mp3 }}"></iframe>
 		
 	{{ blogpost | markdownify }}
 
+<p style="font-size: small;"><a href="https://github.com/ewolff/software-architektur.tv/edit/master/_includes/transcriptions/{{ episode_id }}/blog_post.md">Fehler gefunden? Stelle doch einen PR!</a></p>
+
 {% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
 
 <a id="summary"></a>
 		
   {{ summary | markdownify }}
+
+<p style="font-size: small;"><a href="https://github.com/ewolff/software-architektur.tv/edit/master/_includes/transcriptions/{{ episode_id }}/summary.md">Fehler gefunden? Stelle doch einen PR!</a></p>
 <h2 id="transcription" >Vollständige Transkription</h2>
 
 <p style="font-size: small;"><b>Hinweis:</b> Dieses Transkript wurde mit KI erstellt und kann somit Fehler enthalten.</p>
   {% capture transcription %}{% include transcriptions/{{ episode_id }}/transcript_structured.md %}{% endcapture %}
   {{ transcription | markdownify }}
+
+<p style="font-size: small;"><a href="https://github.com/ewolff/software-architektur.tv/edit/master/_includes/transcriptions/{{ episode_id }}/transcript_structured.md">Fehler gefunden? Stelle doch einen PR!</a></p>
 {% endif %}
 
 {% include page-footer.html %}
