@@ -1,24 +1,27 @@
 # Wardley Maps Meets Software Architecture
 
-## Wichtige Key-Takeaways
-- Wardley Maps sind eine Methode zur Visualisierung der Wettbewerbslandschaft aus technologischer, wirtschaftlicher, sozialer und politischer Sicht
-- Maps unterscheiden sich von Graphen dadurch, dass der Raum Bedeutung hat - Komponenten können nicht beliebig verschoben werden
-- Wardley Maps haben eine Evolution-Achse von Genesis (neu) bis Commodity (Standard)
-- Architekturdiagramme sind oft nur "Glaubensvorstellungen", wenn sie nicht aus Code generiert werden
-- Die kollaborative Erstellung von Maps ist wichtig für gemeinsames Verständnis
-- KI/LLMs können für Prototypen nützlich sein, aber kritisches Denken und menschliche Kontrolle bleiben wichtig
+## Key Takeaways
 
-## Behandelte Kernfragen
-- Was sind Wardley Maps und wie unterscheiden sie sich von anderen Diagrammen?
-- Warum sollten Architekturdiagramme aus Code generiert werden?
-- Wie können Wardley Maps in der Softwarearchitektur eingesetzt werden?
-- Welche Rolle spielen KI/LLMs in der Softwareentwicklung?
-- Wie kann man Maps für bessere Kommunikation und Entscheidungsfindung nutzen?
+- Wardley Maps are a method for visualizing competitive landscapes from technological, economic, social, and political perspectives
+- Maps differ from graphs in that space has meaning - components cannot be moved arbitrarily
+- Wardley Maps have an evolution axis from Genesis (new) to Commodity (standard)
+- Architecture diagrams are often just "beliefs" when they are not generated from code
+- Collaborative creation of maps is important for shared understanding
+- AI/LLMs can be useful for prototypes, but critical thinking and human control remain important
 
-## Glossar wichtiger Begriffe
-- Wardley Maps: Visualisierungsmethode für Wettbewerbslandschaften mit Evolution-Achse
-- Genesis: Früheste Entwicklungsstufe in Wardley Maps (neu/innovativ) 
-- Commodity: Letzte Entwicklungsstufe in Wardley Maps (standardisiert)
-- Value Chain: Wertkette innerhalb einer Organisation
-- Supply Chain: Lieferkette über Organisationsgrenzen hinweg
-- LLM (Large Language Model): KI-Sprachmodelle wie ChatGPT
+## Core Questions Addressed
+
+- What are Wardley Maps and how do they differ from other diagrams?
+- Why should architecture diagrams be generated from code?
+- How can Wardley Maps be used in software architecture?
+- What role do AI/LLMs play in software development?
+- How can maps be used for better communication and decision-making?
+
+## Glossary of Important Terms
+
+- Wardley Maps: Visualization method for competitive landscapes with evolution axis
+- Genesis: Earliest development stage in Wardley Maps (new/innovative)
+- Commodity: Final development stage in Wardley Maps (standardized)
+- Value Chain: Value chain within an organization
+- Supply Chain: Supply chain across organizational boundaries
+- LLM (Large Language Model): AI language models like ChatGPT
