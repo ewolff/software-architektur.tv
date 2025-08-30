@@ -68,7 +68,11 @@ Und das führt eben dazu, dass unterschiedliche Begrifflichkeiten, unterschiedli
 
 Und das ist so eben ein Aspekt.
 
-Also ein Modern Context ist ein begrenzter Bereich, in dem eine ubiquitous Language gilt.
+Und das führt eben dazu, dass unterschiedliche Begrifflichkeiten, unterschiedliche Bounded Contexts definiert sind.
+
+Und das ist so eben ein Aspekt.
+
+Also ein Bounded Context ist ein begrenzter Bereich, in dem eine ubiquitous Language gilt.
 
 ## Modelle statt Bounded Contexts
 
