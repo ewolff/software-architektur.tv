@@ -1,8 +1,8 @@
 # Modelle statt Bounded Contexts? Eine Alternative für fachliche Modularisierung
 
-Die Modularisierung von Software-Systemen nach fachlichen Gesichtspunkten ist eine zentrale Herausforderung in der Software-Architektur. Während Bounded Contexts aus dem Domain-Driven Design (DDD) häufig als Lösung genannt werden, zeigen sich dabei einige Probleme. Dieser Artikel schlägt einen alternativen Ansatz vor, der sich auf Modelle statt Bounded Contexts fokussiert.
+Die Modularisierung von Software-Systemen nach fachlichen Gesichtspunkten ist eine zentrale Herausforderung in der Software-Architektur. Während Bounded Contexts aus dem Domain-Driven Design (DDD) häufig als Lösung genannt werden, zeigen sich dabei einige Probleme. Diese Episode schlägt einen alternativen Ansatz vor, der sich auf Modelle statt Bounded Contexts fokussiert.
 
-## Die Problematik mit Bounded Contexts
+## Die Probleme mit Bounded Contexts
 
 Bounded Contexts vereinen drei unterschiedliche Aspekte:
 
@@ -10,7 +10,7 @@ Bounded Contexts vereinen drei unterschiedliche Aspekte:
 2. Ein Bereich, in dem ein spezifisches Modell gilt  
 3. Ein Verantwortungsbereich für ein Team
 
-Diese Vermischung verschiedener Konzepte macht Bounded Contexts schwerer verständlich und anwendbar. Zudem sind die drei Aspekte nicht zwangsläufig miteinander gekoppelt - ein Team kann durchaus mehrere fachliche Bereiche verantworten oder mehrere Teams können an einem Bereich arbeiten.
+Diese Vermischung verschiedener Konzepte macht Bounded Contexts schwerer verständlich und anwendbar. Zudem sind die drei Aspekte nicht zwangsläufig miteinander gekoppelt - ein Team kann beispielsweise durchaus mehrere fachliche Bereiche verantworten oder mehrere Teams können an einem Bereich arbeiten.
 
 ## Der Modell-Ansatz
 
@@ -30,11 +30,11 @@ Diese Definition impliziert bereits, dass unterschiedliche Zwecke unterschiedlic
 
 Ein wichtiges Ziel bei der Modularisierung sollte ein hohes Maß an Autonomie sein. Autonome Module können unabhängig voneinander geändert und weiterentwickelt werden. Dies wird erreicht durch:
 
-1. Information Hiding: Die interne Implementierung wird hinter Schnittstellen versteckt
-2. Minimale Abhängigkeiten: Module sollten möglichst wenige Verbindungen untereinander haben
-3. Fachliche Kohäsion: Zusammengehörige Funktionalität wird gebündelt
+1. Information Hiding: Die interne Implementierung wird hinter Schnittstellen versteckt.
+2. Minimale Abhängigkeiten: Module sollten möglichst wenige Verbindungen untereinander haben.
+3. Fachliche Kohäsion: Zusammengehörige Funktionalität wird in einem Modell umgesetzt.
 
-Statt also einen zentralen "Kunden-Bounded-Context" zu haben, der von vielen anderen Kontexten abhängt, ist es oft besser die kundenrelevanten Daten direkt in den jeweiligen fachlichen Modellen zu halten.
+Statt also ein zentrales Kunden-Modell zu haben, der von vielen anderen Kontexten abhängt, ist es oft besser die kundenrelevanten Daten direkt in den jeweiligen fachlichen Modellen zu halten.
 
 ## Praktische Vorgehensweise
 
