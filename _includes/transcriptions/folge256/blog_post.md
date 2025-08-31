@@ -1,6 +1,6 @@
 # Als Architekt:in Wirkung entfalten - Zwischen technischer Expertise und Kommunikation
 
-Die Rolle der Software-Architektin oder des Software-Architekten wird häufig primär mit technischen Skills in Verbindung gebracht. Dabei geht es um Themen wie die Strukturierung von Software, das Einhalten von Qualitätszielen und die Auswahl geeigneter Technologien. Doch um wirklich Wirkung zu entfalten, reichen technische Fähigkeiten allein nicht aus.
+Die Rolle der Software-Architekt:in wird häufig primär mit technischen Skills in Verbindung gebracht. Dabei geht es um Themen wie die Strukturierung von Software, das Einhalten von Qualitätszielen und die Auswahl geeigneter Technologien. Doch um wirklich Wirkung zu entfalten, reichen technische Fähigkeiten allein nicht aus.
 
 ## Über technische Skills hinausdenken
 
