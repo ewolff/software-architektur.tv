@@ -18,7 +18,7 @@ Wir haben nächste Woche zwei Episoden.
 
 Die eine ist am 3.4., das müsste der Donnerstag sein, wenn ich das richtig in Erinnerung habe.
 
-Und da haben wir um 15 Uhr eine Episode zum Thema Wortly Maps mit Software-Architektur mit Simon Wortley, der die Wortly Maps erfunden hat, und Markus Harrer und mir.
+Und da haben wir um 15 Uhr eine Episode zum Thema Wardley Maps mit Software-Architektur mit Simon Wardley, der die Wardley Maps erfunden hat, und Markus Harrer und mir.
 
 Markus ist auch da ein großer Experte in diesem Bereich.
 
