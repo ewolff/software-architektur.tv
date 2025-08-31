@@ -1042,7 +1042,7 @@ Ich packe da auch nochmal den Link in den Chat.
 
 Diesmal ohne den Typo und sonst gibt es den halt auch in den Shownotes.
 
-Wie gesagt, nächste Woche sind die beiden Episoden einmal zum Thema WortliMaps mit Herrn Wortli himself und dem Markus Harra am Donnerstag und dann am Freitag Building Product Teams Beyond Organisational and Geographical Boundaries mit Anna Nath und Leja Vulovic.
+Wie gesagt, nächste Woche sind die beiden Episoden einmal zum Thema Wardley Maps mit Herrn Wardley himself und dem Markus Harrer am Donnerstag und dann am Freitag Building Product Teams Beyond Organisational and Geographical Boundaries mit Anna Nath und Leja Vulovic.
 
 Vielen Dank für die Aufmerksamkeit.
 
