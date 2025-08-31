@@ -1,0 +1,1129 @@
+# Episode 259 - Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic
+
+And it's my pleasure to welcome Ana and Lejla.
+
+We are going to discuss building product teams beyond organizational and geographical boundaries.
+
+So first of all, do you want to say a few words about yourself?
+
+So Ana, do you want to go first?
+
+Sure.
+
+So my name is Ana.
+
+I work as a Senior Agile Coach at Ryfus and Bank International.
+
+I come from Vienna, but I'm originally from Serbia.
+
+And I guess the tagline is that I help teams, organizations, and leadership on their journey in adaptive transformation.
+
+Thank you so much.
+
+Lejla, do you want to say a few words about yourself?
+
+Yes, of course.
+
+Thanks for inviting us.
+
+I am Lejla.
+
+I work everything the same as Ana.
+
+So I will not repeat.
+
+We are based in Vienna, and I am originally Bosnian from Sarajevo.
+
+Okay, cool.
+
+So yesterday, you gave the presentation here about, well, exactly that, building product teams beyond organizational and geographical boundaries.
+
+And you explained, I guess, what you mean by that.
+
+So do you want to say a few words about those projects, what they were about, what the background was, why Ryfus did these projects, these kinds of things?
+
+Yeah, sure.
+
+Yes, we, yesterday, we brought two examples, how we did transformation for the two products.
+
+One is lending, very typical banking product, of course.
+
+And the other one is foreign exchange.
+
+Why?
+
+Well, the perception of our, our internal perception in the bank was completely different than what our customers had about these products.
+
+For example, in lending, time to money was measured in three to four weeks.
+
+So this was the duration that our customers needed to wait to get their money after they applied for the loan.
+
+In the background, our processes were totally manual.
+
+We had many legacy systems, 13.
+
+For example, in lending, also similarly, we were practically losing money, right?
+
+And also in foreign exchange, similarly, we were losing, we were facing potential loss of business because digital competitors, such as Revolut and N26, of course, not only were emerging, they were already there.
+
+Yeah.
+
+So these were, I would say, main reasons why we embarked on this journey.
+
+Okay, cool.
+
+And you did an MVP first, I think, and then you scaled it up to a large number of teams, right?
+
+Yeah, correct.
+
+Yeah.
+
+And the goal was, I mean, how many markets would these applications be built for?
+
+When we started, we were not sure.
+
+So our banking group is present on 11 core markets, mainly in Central and Eastern Europe and part of Southeast Europe.
+
+So these are core markets of Raiffeisen Bank International.
+
+We are a huge banking group, traditional with more than 100 years of heritage, history heritage, and very well known, I think, in this region and successful.
+
+So these are our core markets.
+
+And of course, Raiffeisen does both of these businesses, FX and lending in all these markets.
+
+When we started on this transformation journey, we didn't know really, will we cover all of them or not.
+
+Okay.
+
+It came later.
+
+Okay, I see.
+
+And how many teams were involved in the endeavor at the end or at the peak time?
+
+So the peak time is, I think, at the moment for both products.
+
+For foreign exchange, it's actually only three countries at the moment.
+
+So we have in total four teams, actually five teams.
+
+And for you, it's eight at the moment, yeah.
+
+But it's live on the five markets.
+
+Yeah.
+
+Okay.
+
+And I guess we are talking about typical Scrum teams.
+
+So like five or six people, is that what we're talking about?
+
+Yes, yes.
+
+Ten-ish.
+
+In lending, 10, 11, yeah.
+
+Closer to 10 because of the business analysts, Scrum masters.
+
+So we would count all of those people in the team, yeah.
+
+And each team would be in one location, like in one country, or are those mixed teams with people from different countries?
+
+These are, we have different, maybe I can share like a bit of lending and Ana can share a bit of foreign exchange because we were like coaching in these areas.
+
+It's like we have different examples.
+
+Scrum teams are basically located in their countries, but also we have people in all teams which are joining remotely because we have also some vendors and we have people from everywhere actually across Europe.
+
+So it's not 100% correct if we say that they are like only local teams.
+
+No, they are staffed from people from elsewhere.
+
+So that wouldn't be like a Bosnian team, it would be a team with people from different countries working?
+
+Yes, correct.
+
+So it would be people from the Bosnia, but also still they have members from head office in Vienna or members from the vendor that they are building solution with us.
+
+I see.
+
+But would that team be specifically targeting a specific market or like would a team that mostly consists of Bosnian people target the Bosnian market or?
+
+But maybe we should take one step back.
+
+We are talking about these two products and we should actually, I think, explain what was the vision.
+
+Maybe Ana, you can try to give some context like how we what was our vision about this, like why we started, what we wanted to do, because it's like.
+
+Yeah, then this is easier than to explain afterwards the teams.
+
+That's why I mean, no, but just shortly, it's about actually achieving one group solution.
+
+So all of those teams, regardless of the country where they were coming from or the market that they potentially were serving, ideally, actually, they were contributing to building a one solution for the whole group.
+
+So this was the hypothesis that we had in mind, that if we can put as many functionalities in this one group solution to serve as many markets to cover the maturity of those markets and as little customizations as possible, this was the original goal.
+
+So the assumption would be, I think this is where Leila can continue, that from every country, those teams, yes, they were serving the market, of course, but predominantly, that team was contributing to the group solution.
+
+Okay, I see.
+
+So I think this is the answer.
+
+Okay.
+
+And in your talk, you made the point about how important it is that all those teams are aligned to one another.
+
+So, but how should I put it?
+
+Alignment has kind of lots of different meanings.
+
+So what do you mean if you say that they are aligned?
+
+What is an alignment and why is it so important?
+
+So I think it's very important that we always have in mind, this is what Ana explained, what was our vision and our optimizing goal.
+
+And for us, first thing, as you said, in many areas, and we had many guidelines and practices that we evolved to and in all these, in both landscapes, FX and lending.
+
+And the first one was that we wanted to have a aligned, shared goal, like that everyone, all these teams, everyone in this product group is going toward this one common goal, that we all know what's our purpose and what we want to achieve.
+
+So what we are betting for all together.
+
+And can you like spell that out, what the goal would be?
+
+So the goal would be to achieve.
+
+So our vision first was that we would have one unique solution for lending, also for FX, but different visions with different business goals to allow our customers to easily get access to the money like conveniently and faster, much faster than they used to have it.
+
+And also for us as an organization, that we earn more money there also, that we make more business.
+
+So this was our vision.
+
+And then also, it was pretty tangible and described also in measurable outcomes, business outcomes, which were like, of course, revenue growth, time to market, time to money for our customers.
+
+Also, we had and still have concrete measurables about efficiency, like, for example, deployment frequency or cycle time or incident resolvement rate and stuff like this.
+
+So these were all concrete things that we were hoping to achieve with these changes.
+
+I think you said it, maybe, if I forgot something, I don't know.
+
+I think you said it, but I don't know how deep we should go here.
+
+This is interesting on which level do we consider alignment, because alignment might be also an example, if we talk about simple functionalities that we would expect from some of these products, maybe on different markets, these functionalities would look differently, or they would be understood differently by the business of a respected country, or maybe even by the user.
+
+So at the beginning, if you all want to strive towards the same vision that we had for our products, and this is, hey, we are supposed to give a valuable thing to our users so that we will then earn money as a bank, it might be that we didn't have the same understanding of those same functionalities.
+
+And then we would have to first have a conversation and then input and then align what does this really mean, so to even define it.
+
+So I have to admit, I took a note there.
+
+So it seems there, from what you said, I learned that there is a business goal, which is revenue and profit.
+
+Yeah.
+
+I mean, that's basically numbers.
+
+Yes.
+
+Yeah.
+
+Okay.
+
+And I think that that makes a lot of sense.
+
+I mean, that's obviously the goal that we all have in any economic endeavor.
+
+And then you said that the goal would be to have one platform.
+
+Now, that's different, right?
+
+Because that means it's more like an implementation thing.
+
+So you prefer one thing over having specific things for the different markets, which would be the alternative.
+
+First of all, that seems to be on a different level.
+
+And it might even contradict the original goal to make more profit because, well, it means that you won't have the specialized solutions per market.
+
+So is there a contradiction?
+
+How does that fit in?
+
+How do you get buy-in?
+
+Because I mean, even though these goals could even compete to one another, right?
+
+Yeah, they can, of course.
+
+Yes.
+
+So I would rather like to phrase it that the business goal or the revenue is the business goal.
+
+And the platform building one group solution was an assumption, right?
+
+So it was an assumption that this will lead us to exactly to this goal of earning money.
+
+So this is where we started.
+
+And yes, they can be contradicting.
+
+And we had to closely and constantly have this inspect and adapt.
+
+Are we going on the right way?
+
+Is this still going to fulfill the vision of earning money and satisfying our customer needs?
+
+I think the moment where we are today, especially for the foreign exchange, and Leila maybe can share for lending differently.
+
+We might are on the verge of learning that this is not anymore the right hypothesis and not because years ago when it was introduced, it was wrong.
+
+But today for the technology that is on the market and the maturity of the markets, they changed since four or five years ago when we started doing this.
+
+So it is obvious that we would have to maybe just leave this goal or hypothesis, as I said, and in order to reach this business goal with the foreign exchange itself, start developing local solutions or think about other distribution channels, maybe existing products, how to reach this goal.
+
+Okay.
+
+So sorry.
+
+Yeah.
+
+So what you're saying is, if I understand correctly, that the idea to have one thing, one system, now you skip that idea and now you are building specific systems for different markets because, well, things changed.
+
+And therefore, which in a way means that there has to be some process to challenge the alignment, and to challenge at least that part of the goal.
+
+Correct.
+
+So we still haven't made a decision to go in this direction.
+
+Some countries, yes, but I will keep it.
+
+But yes, there is a process how we challenge the alignment.
+
+The examples would be every four to six weeks, all of those countries would sit down and kind of take a look at the product vision and take a look at the business vision.
+
+So we would still do a feedback loop on, are we really on the track?
+
+Are we really achieving by this development and by this work, the KPIs that we set for ourselves and exactly these business goals?
+
+So you have to be realistic, really.
+
+And now, of course, the tough decisions need to be made.
+
+Which in a way means that there was no one to actually push that decision through and make sure that it was actually not challenged and implemented without any hesitation.
+
+But instead, there was an open communication about that.
+
+Yes and no.
+
+There was someone who truly believed in this vision and that this is the right way.
+
+And for sure, there was a certain commitment or maybe encouragement to go this way.
+
+But this same person would be then also open for the feedback of the countries and to know when to question and when to stop.
+
+Because otherwise, this would never be a collaborative moment.
+
+And I truly believe there wouldn't be even a buy-in from these countries to accept this platform and a group solution as we know it.
+
+And then finally, there seems to be like a third level.
+
+And you said that there was, I'm not sure whether that's just an example, like the frequency of deployments.
+
+That seems to be something very technical.
+
+So how does that fit in?
+
+I think it fits perfectly because this concrete example of what we measure of frequency of deployments actually totally relates to this time to market measure that we wanted.
+
+So previously, for example, in lending and maybe what I missed at the beginning to say we are talking about lending for the segment of small and medium companies.
+
+So it's also a part kind of niche in the banking.
+
+And in this area, the changes that we were deploying in the production that were tangible to our customers were done in average twice in half a year.
+
+But now with this solution, I just checked before we coming here to Berlin, quarterly in average, it's done 21 times in the lending area, which means that 21 times per quarter this lending product group can deliver particular change to our customer.
+
+So it's, I think, a huge improvement.
+
+So what you seem to be saying is that there is a business goal, which is we want to be more agile on the market.
+
+So therefore, there is a technical goal, which is deploy more frequently.
+
+And that's basically the rational behind the whole thing.
+
+I think our goal was never that we want to be agile.
+
+Our goal was that we want to be faster in delivering good, valuable things to our customers and to simultaneously earn money.
+
+I think which is really important that I think this is also was driver for us if we discuss autonomy, that, of course, sometimes we had to do some tradeoffs.
+
+Right.
+
+And to see, OK, and to balance these things.
+
+Exactly.
+
+And what you said during your talk was how very important it is to get everyone on the same page and to align everyone.
+
+So how did you do that?
+
+I mean, can you give concrete examples how you made sure that those teams would align behind those goals?
+
+Yeah, I mean, it's also on different levels.
+
+You have the alignment, first of all, between all of those countries on the respective businesses, so the owners of those businesses.
+
+And this is where it all starts.
+
+So they all have to commit first to this. connected exactly with those platforms, so this is the first level where they would do it more or less on their own.
+
+So here, to be perfectly honest, we didn't have to have any intervention.
+
+This is what is happening in any case.
+
+Sorry if I may interrupt.
+
+I mean, that seems to be like a business goal of some Raiffeisen business in some country for some, as you said, lending for a small and medium, and that seems to be something I would believe that this is beyond the reach of someone who is working in software development like you.
+
+So how do you actually, well, enforce or influence that this actually takes place?
+
+I think, yeah, here we can discuss it.
+
+We are lucky enough that although our position is under IT and software development, in order actually to coach the whole tribe, we consider, or the whole organization, we consider and we were allowed to have an impact in coaching on business and IT and even leadership.
+
+So if someone would come and say, we are building this product and we need these teams to align, and the two of us would identify that the alignment on the business level has not been done previously, before this team was handed over the goals to deliver this group solution, we would hear, raise our hand, and we will say, this is a precondition and we have to do this.
+
+Can we help you somehow, or we will find people in the organization who would help to do something like this.
+
+So I think this is also very important to say that you, this is what we also mean with system thinking and understanding what are the factors and who are the people who will impact your delivery and reaching your goals.
+
+But also maybe it's valid to say through the scaling up, I don't like this word, but okay, how we were like emerging and adding more teams and expanding on the markets.
+
+We were also evolving what we also shared in our talk, some group practices that we kind of wanted to enforce to be there in place that we ensure this alignment.
+
+And one of the example would be, for example, on this business that we had something what we called group roadmapping that happened, depends like every three to four weeks, where different kinds of discussions would happen.
+
+Business alignment, sometimes also architecture and technical, but it essentially was like a group roadmapping, right?
+
+And different others we had.
+
+That's a second level where more tactical, where you have practically alignment between representatives of all of those teams from all of those countries, IT and business.
+
+And also if you had any dependent, maybe platform teams or vendor teams, you would put them in this roadmapping session together with those business owners, of course, because they have to first clarify the vision and the KPIs on a high level before we start talking about practicalities, which functionalities we want to implement, how does it look like in the backlog, which type of dependencies and risks do we have?
+
+And that's then a second level of alignment.
+
+And the third group of practice, I mean, the practice also, which would address the maybe next level, maybe more operational, would be if you had to have any refinements between the teams or daily syncs and stand-ups, but to be honest, this was already then left on the teams and on the scrum masters of those teams to make sure that they align between each other.
+
+Okay.
+
+So for the development teams, you would delegate it to the scrum masters to make sure that We would be expecting that this is their role and yeah, it was not explicitly written in our operating model, but it is, yeah, kind of we coached them to do this.
+
+So sometimes I have the impression that like whatever the business says would be implemented in IT projects.
+
+And what you're saying is that it's important to also sort of influence those business teams and those business owners and align them.
+
+So what I'm wondering is, let's assume that there is the next project and for some reason you are not allowed or you can't influence the business side of things, so you can't align them.
+
+Would you sign up for that job?
+
+Would you think that it's doomed from the very beginning or is it just something that you would think you could still manage somehow?
+
+So, you know, I'm wondering how important that is to you.
+
+Us personally or what we should advise others to do?
+
+I don't know, it's up to you.
+
+I mean, I'm wondering how important that is to you, right?
+
+Because it seems to be, it's something that is about the role of IT.
+
+So is it just that IT gets orders from business or should there be some feedback cycle and how, I mean, obviously there probably should be, but how important is it to you if that feedback cycle doesn't work, would you still think it's worthwhile doing the project?
+
+Me personally, and I think also professionally in every context, I find it extremely important and I think in order for things to function properly, it needs to happen.
+
+So this alignment is absolutely essential.
+
+I think it's our job in the current role of coaches to make it happen, right?
+
+And try to achieve it.
+
+Most of the time we succeed, but of course there are people and situations that are not coachable and sometimes it doesn't happen, right?
+
+And most of the time in these situations, in my experience, these results are like rather failures, right?
+
+Okay, things sometimes also turn better than we expect, but we are talking about some outliers.
+
+But me personally, I wouldn't, I say it's really important.
+
+Because we cannot choose, we are facing people that don't want to collaborate, but this is another story.
+
+Yes.
+
+So the commitment, in short, the commitment of the business is very important and jointly working on those or joint commitment on those topics is important.
+
+What I saw, so that's the first part.
+
+The second part is, would I sign?
+
+Yes, I would sign and I would still try to coach and actually show the value or maybe show the failure if this is not happening.
+
+That would be the second and also because I'm a little bit suicidal on those things.
+
+And the third thing would be, which I wanted to mention is, I did see teams which in the absence of business, took over also the business role.
+
+So this also might happen where they become closer to the customer or more educated on the product and business topics.
+
+And then they tell business, well, we don't need, it happens.
+
+It depends on who are the people, what's the product, et cetera, et cetera.
+
+So I wouldn't disclose fully, there are these like adaptive moments, but it's very rare.
+
+I mean, just from my perspective, the story that you told about the goals and the alignment, I mean, to me it was quite convincing because, you know, there is a train of thought and it's clear why you would do that and you can, you know, bring it back to the ultimate goal, which is, you know, profit and revenue.
+
+So I guess that is also one part, right?
+
+I mean, if that doesn't really resonate with business, there is something wrong on a completely different level.
+
+Yeah.
+
+Yeah.
+
+Okay.
+
+Let me see.
+
+Oh yeah, right.
+
+So there was that one question at the end of your talk where one person said, okay, so let's imagine that one team has some competing goals.
+
+And in particular, if you have these teams that seem to be focused rather on geography, it might be that they see some low-hanging fruit, something that is easy to implement that would help them a lot and they just want to do it.
+
+But somehow, yeah, I mean, should they?
+
+I mean, are they allowed to just, you know, have their own agenda and put it forward and just do it or should they coordinate?
+
+How do you, what's sort of the limit of autonomy in that regard?
+
+So maybe I can start with the landing example in the segment of small and medium companies that we are talking about here, about this group product.
+
+On this group product level, straight simple answer would be no, because at the beginning we all agreed that we want to test and we are betting for this solution that will help us achieve these goals.
+
+And we do it quarterly and this is how we all applying this, right?
+
+Or living these principles.
+
+So in this respect, of course, we have local representatives, what we call in our setup local product owners from these country teams.
+
+And they, of course, need to understand the market.
+
+They come with also requests.
+
+And this is all discussed jointly if it serves this common goal, right?
+
+And of course, sometimes it's taken into consideration, but we had situations when it was not prioritized or it was left for later.
+
+So it's kind of, they are autonomous, of course, but still we always check in how it is relevant to this common purpose.
+
+But still, I think it's important, maybe it's hard to explain the context that this is happening on this product group for small and medium lending, for lending for small and medium companies.
+
+But if I look at the broader context and if I take any country team that is responsible for delivering lending on that market, they are totally autonomous, of course.
+
+So they are serving their customers in different segments differently.
+
+But here we are talking about group solution for this end-to-end value chain, right?
+
+And this, we had this aligned autonomy, I would say, towards the common goal, which we also, as Ana explained, was not top down at the beginning.
+
+This was a joint discussion, okay, how can we address our pains that we are facing on this market?
+
+And it was recognized that in the SME lending on these markets, we had similar customer pains and apparently organizationally the same.
+
+And we said, okay, maybe we can try to address them with this group solution.
+
+And four years we are on this journey, it is absolutely proven that this digital transformation of this lending was game changer.
+
+But still, as we also mentioned at the end of our talk, and Ana explained for FX, it's similar for lending.
+
+The colleagues are jointly now discussing, okay, how they can adopt actually this product strategy now to also adopt to the business needs.
+
+Because it's changing in some markets and it maybe doesn't make sense anymore.
+
+So we resolve these main pains.
+
+Now some things are like coming differently.
+
+Yeah, I'm still wondering, so what you seem to be saying in a way is, okay, so we agreed to have that one group solution.
+
+And if I think that for some market that I'm in, I should do something differently, probably I won't because I bought into the original plan, which basically says that the problem somehow disappears.
+
+And that seems to be, well, it's somewhat surprising because if there is a case where there's really low-hanging fruit and I'm not able to harvest those fruits because I still keep working on that common goal and it hurts me more than it helps me, then I will eventually, I mean, what's the solution then?
+
+I mean, if I lack this kind of insight and if it's truly something that I should do by myself, so what happens?
+
+Actually, this would not happen because we have these feedback loops so frequently.
+
+And of course, if it's that impactful, low-hanging fruit, it didn't happen in lending for these four years, I must say.
+
+But I'm quite sure given the process, how we work and this collaboration agreements that we have, it would then happen that this for-sure country team would materialize on that low-hanging fruit.
+
+And I think actually similar things is happening at the moment because in some markets, it's recognized that there are some different pains that they have.
+
+For example, they are not very interested in this front-end part of this solution, but for the back-end, for risk engines, they might have benefit from.
+
+And this is what I meant by adjusting the product strategy, where our group product owner is pretty much aware of that and they are going into direction to adjust the product strategy in terms of, OK, so for these markets, we will have this approach.
+
+And it's already diverting from this original vision.
+
+I think for us, it's a little bit different.
+
+And if I would do it retrospective now, I would really question if this was, if we maybe lost some potential opportunities in not allowing a little bit more of autonomy on allowing or maybe having a little bit more autonomy on the countryside where they could knowing the market or maybe the market was more mature.
+
+One country had more mature market than the other, and maybe they couldn't, they had a low-hanging fruit with which they could locally earn more money, obviously.
+
+And then this would be their local benefit and not the group benefit.
+
+But still over time, maybe the other markets would also come to this level of maturity and then we could exploit this locally customized or suggested idea.
+
+So I tend to wonder, but I think this is related to different businesses.
+
+And also it might be that there was an underlying agenda to rather, with these group approaches, what you are really doing is you are assuming or you are harmonizing and streamlining the business processes around the group in different countries.
+
+And whether this is a good idea or not, it really depends on the business and what you achieve with this goal of harmonization.
+
+And I think on some level, this is an underlying goal and it was.
+
+It was never spoken, outspoken.
+
+And whether this is a good or bad, I think we should still reflect on this.
+
+So it might be that we had some missed opportunities.
+
+I would still like to see this, yeah.
+
+Yeah, I think to me there are a few takeaways.
+
+So one takeaway to me seems, if that really happens, if one team really does something on their own, probably the process is broken.
+
+Because what you're explaining in a way is, okay, there is a process, everyone is hurt, and if it makes sense, it will eventually happen.
+
+So why would they just go ahead and do it?
+
+And I think the other point that is also something that we discussed just before the stream is the point that Ana made, that it's not just about implementing the very specific stuff for each country, it's also about streamlining the businesses and making.
+
+So therefore, and I think that's interesting because, how should I put it, naive software architecture or naive projects seem to say, okay, there is something that the business wants and I will just implement it.
+
+While in your case, it's more like a holistic approach where you say, okay, we want to streamline the stuff and this is what we are going to put in the software so we won't just build every weird stuff that one geography has, but we rather want to have some common things and that's also a goal of the project.
+
+It's a higher purpose maybe of the organization, yes, somewhere in the background.
+
+Which by the way, is interesting because you didn't mention that when we were talking about the alignment, like to streamline the… Yes, it was not explicitly somehow, yeah.
+
+Okay, interesting.
+
+But it seems to be at least on the agenda.
+
+That's very good.
+
+Oh, and so this is something… So why was autonomy even a goal at all?
+
+I mean, we have discussed how alignment is useful and how that means that we are all on the same page and working on the same things.
+
+So what does it, or let me put it slightly differently.
+
+So what does it even mean for a team to be autonomous then?
+
+I mean, there is that common goal and every team works towards that common goal.
+
+So obviously, that limits my autonomy, but where is the autonomy that I can still execute on?
+
+Go for it, yeah.
+
+So it's, as I said, we were always striving for this aligned autonomy and autonomy is happening given this frame, right?
+
+So in terms that these teams are given technological radar, given these practices, but how they do their stuff, they don't get instructions from anyone.
+
+They plan their work.
+
+Okay, obviously, we did incremental delivery.
+
+So we tried to have the same talk, like two weeks delivery for the teams, obviously, because they had to integrate, but it was not, how should I put it?
+
+It was not instructed to them.
+
+So it's like how they do, how they organize themselves and how they work on that.
+
+It was their decision, yeah.
+
+So the setup of the teams would be something that they do individually.
+
+What about the technology?
+
+So you mentioned a technology radar.
+
+So would I just be able to use any technology that I would?
+
+Yeah, so in this particular context, no, it's very specific that they will maybe, everyone will use Java or that there was an expectation that everyone would use GitHub or so.
+
+There were recommendations coming from the engineering values and principles and the toolbox defined.
+
+Now it's in the technology radar, but back then was purely an agreement.
+
+Of course, there are specifics for the country teams.
+
+As we said, they have different IT systems to which we were supposed to integrate our solutions.
+
+So, yes, you have a different core banking system or you have a different, maybe online banking system.
+
+Some are developed in Java, some are developed in, I don't know, Rust or something like this.
+
+Even Delphi.
+
+Even Delphi, yeah.
+
+So here we couldn't, and those levels of autonomy were kind of, are they autonomy or they are already provided by or bounded to the legacy history that they already have.
+
+The solutions that we developed are relatively simple.
+
+But if you remember, we were all integrating or the assumption was that we are all integrating into one repository, one, there was one code base, et cetera.
+
+And here you by default have to align on what you are using and which technology we are using and how we are integrating and which environments we are having.
+
+Also the way how we are doing scrum in the teams, there were recommendations from our side.
+
+So I would argue that their level of alignment was more, or the level autonomy was, so we were providing the why, we were providing maybe even the what sometimes, but the how.
+
+How particular functionality will be implemented.
+
+How will it look like?
+
+Maybe whether they will, how them inside of the team will distribute this work.
+
+It was really on them.
+
+Also this is an example from our side.
+
+Sometimes in the country team, if you had a dependency towards other systems or platforms, we would of course take a look into this, whether those, that skill set should be part of the team or they would organize themselves in such a way that when they are working inside of the sprint, they agree with this other team that they are dependent on how to mitigate this dependency during the sprint.
+
+But it was, let's say, left a little bit to them because they know the best their country and the way of working in those other teams.
+
+So this would be the practical example.
+
+And also integrations with external systems.
+
+In the case of lending, it needed to be integrated with the state-owned customer register.
+
+It was completely done, of course, like in the way how they wanted or needed to do it.
+
+On the level of organization, so outside these two examples, because they are relatively straightforward applications, right, relatively, at least the front end part.
+
+In our organization, when we were starting with the agile transformation and when we were starting understanding and learning and hiring engineers, it was very open in the experimentation, which tools, technologies we should use for testing, for deployment, for coding.
+
+So there were a lot of experimentation because we wanted to understand a lot.
+
+Now, how we are learning more, so our level of knowledge, what is good for us, what is easy to learn, what is, we have to be cost effective aware, we have to be cost efficient.
+
+Right.
+
+But also what we have to be aware is banks are not IT first companies.
+
+So you don't have a huge pool of engineers so that every time that someone leaves the team, you can easily take someone else from another team or hire from the market for that particular technology.
+
+So you have to be a little bit more aware of what you can maintain, which technology stack you should maintain.
+
+So now our premise about how much autonomy and choice of tools you should have is a little bit changing because we are optimizing for something else.
+
+And now this technology radar is a little bit more giving recommendations and restricting the number of tools that we are using in the whole bank.
+
+So let's see whether I can sum that up.
+
+So what you're saying is that nowadays, that's the last point that you made, that there will be more strict recommendations concerning tools.
+
+You said everyone would use Java anyway.
+
+So that's something that I'm bound to.
+
+I think that's pretty much what you said on the technical level.
+
+For our products, yeah.
+
+Exactly.
+
+And then something that you said in the talk but you didn't say here, I think, is that there is a common backlog.
+
+Like there's one PO that would distribute things from one backlog to the team.
+
+So that's also something that is set for me and controlled from the outside.
+
+And oh yeah, and you said that it's up to each team to understand how the external systems will be integrated and the specific systems for the geography.
+
+So that's pretty much my sort of... geography would build, so each geography would build, I don't know, so there is some shared functionality that would just be distributed to some arbitrary team depending on some, I mean, so there is a story that says, okay, we are building this thing, which is really part of the common goal, and it's something that everyone profits from, so which team would get that story?
+
+Seems to be a random decision, so.
+
+I didn't get this question, I have to say.
+
+If you prioritize on our one backlog for the group and there is a one, number one priority, who takes out of all of those countries in your case?
+
+They agree together, so this, I think you first, let me reflect, you summarize correct, but I still find it important to emphasize that we are talking, yes, on the level of this product group, so this is absolutely one common product roadmap, common goal, and one common group product backlog that we want all teams to look at.
+
+How to explain it, but not to go into details, it's happening, the prioritization ultimately happens of course by group product owner, he's the one who owns the vision and visionary but he is not autocrat or she.
+
+It's happening jointly with the team and it's discussed on the roadmapping session, and for example, they decide together, given where it makes sense for like if they will have, if it makes sense, and we had the same, so we did MVP, for example, in landing in Croatia, and this specific set of features or modules then was like, okay, taken by next two countries that were joining, but then the next thing was discussed, okay, among these three, where it makes sense to start first, like which team first, given like the market need, but also capacity and skill set that we have, right?
+
+So then it was decided, okay, some specific set will be done by Bosnian team, helped with vendor, and this is like joint decision.
+
+Of course, many parameters are contributing, final decision is on group product owner, of course, and sometimes he can use Vettel, but it's mostly like jointly decided, yeah.
+
+So it's a negotiation process.
+
+Exactly.
+
+Yeah.
+
+Let's switch to something entirely different.
+
+If it's fine for me, I mean, I'm not sure whether there is anything else we should discuss concerning alignment.
+
+I thought it was very interesting and, yeah.
+
+So next point, that is something that's like a minor remark that you made in your presentation but it kept me wondering.
+
+So you said that there was a process first thinking versus system thinking, and obviously we had some episodes about system thinking.
+
+So that made me wonder what that actually means.
+
+So we connected those two things together, but we can also talk about them separately.
+
+On one side, when we talk about systems thinking, what we consider is if we are building a whole like a solution for the whole group, we have to take into the account that this is our system where we are supposed to be aware of and that we should be opting, whichever practice and principle we want to suggest as Agile coaches, we have to be aware that we are, that our system is much larger than one team where we are starting to work with.
+
+So and that we were always optimizing for this whole system.
+
+So that's one side, but you call it, or we called it a process first thinking.
+
+We live under the impression that in Europe, but also in highly regulated environments such as the bank where we are working in, we always tend to think about solving any type of a problem by thinking, oh, which process we should apply first or which process we should use or methodology to solve this problem.
+
+For our particular case, it was about, hey, we had one team, this team is working in Scrum.
+
+Now we have to scale it in the collaboration of multiple teams, which scaled framework we should apply for this.
+
+What's on the market, what's popular, what are consulting companies recommending, what's the flavor of the day.
+
+So this is our, I think it became very aware.
+
+We were a little bit laughing and then we said, no, this is not the way how we should be thinking.
+
+We should be thinking about where is our system, what is our optimizing goal, what is that we are supposed to achieve, what makes sense, and then let's use, and we call it between the two of us as a joke, let's use a methodology called common sense.
+
+So common sense for us meant, okay, this is a need, this is a problem.
+
+The example would be, okay, how do we align all of these country teams to align on the roadmap or business goals?
+
+Maybe okay, in safe, there is this big room planning.
+
+What do they do here?
+
+Uh-huh, yeah, exactly.
+
+This, this is maybe exactly what we should try and experiment or something similar.
+
+The other topics were, why wouldn't we have group retrospective or cross-country retrospective?
+
+And then we would take a look, hey, LESS has good kind of a history with this and they are recommending, well, let's try it.
+
+So I think that this is the goal.
+
+And then what we also discussed was we were a little bit inspired by, at the moment, how Silicon Valley is working and how Europe is working.
+
+And they are rather focused on experimentation first and rapid prototyping.
+
+And we are focused on processes, regulators, and risk mitigation, and keeping it safe.
+
+So this was just something that we wanted to touch briefly and reflect in our talk, but rather it's about use common sense, stay flexible, then thinking about which methodology or process will solve your, your thing, problem.
+
+And we found it interesting to mention because we are coming from highly regulated and strict financial environment, and it's not common in these large enterprises in banking that people are going for this experimentation.
+
+And we were really grateful that we were supported and allowed to do it.
+
+Yes.
+
+Okay.
+
+So, which seems to be like, okay, so you're cherry picking from different ideas from different environments and try to use whatever matches your case.
+
+So I want to ask a similar question to the question whether you want to have that influence on business.
+
+So for the next project, what would you do?
+
+Would you cherry pick different things again?
+
+Would you start with what you're using right now?
+
+Or would you rather use, you know, one of these frameworks like SAFE or whatever it is?
+
+So, and, and how important is that to you?
+
+Is that something where you would say, okay, if I don't get my way, I don't think this project will work?
+
+Certainly we will, or I would use learnings that we have from this, of course.
+
+Right.
+
+And build up on that.
+
+But it's really super important to understand that there is no copy paste and it's really important to this work in this context.
+
+But in another context, most probably it will not work if we just a hundred percent apply all of this.
+
+I'm actually a hundred percent sure it will not work.
+
+We also have proof in the organization where it didn't work, although we 99% tried the same.
+
+So there are many, many factors and it's really important first to understand the context and what are the constraints and how we like approach them.
+
+Yeah.
+
+So in our organization, when we speak about building exactly these group products or cross country products, this model, let's call it out of our experimentation, yes, there is an best practice model that we can start with and that we can recommend.
+
+But as Leila said, in another business, in our organization, exactly this model is being applied, but it's not working or there is an assumption that it's not working because the people who are in the roles of business owners, product owners maybe are not the right people.
+
+So this is even more important to consider than do you have the right model or the right process.
+
+Which in a way seems to suggest that, or should I put it, you can't compensate for this problem by using a different model.
+
+It's rather that at one point you have a limit because of the people that are working on the project.
+
+Correct.
+
+And this is also our experience, again, thanks to our management in certain situations, also in our roles, in this project or other, we were raising this point.
+
+You come, you hit the wall and either we will change, not change the person, but really bring someone else.
+
+Yeah.
+
+Because...
+
+Change the setup.
+
+Change the setup.
+
+Constellation of the people.
+
+Change the setup.
+
+Maybe you don't have the skill, enough skills, or you have the wrong skills.
+
+This would be one point that you should raise and address.
+
+And the second one would be the right mindset.
+
+Okay.
+
+So, you really, and I think this is what we have learned, you really cannot, you can apply less, say, if you can apply team topologies, you can apply all the magic of those frameworks, this will not solve, if you don't have the right person, this will not solve the problem.
+
+But your advice, I mean, you could try to solve the problem by somehow trying to influence those persons.
+
+Yeah, of course.
+
+Yeah, yeah, of course.
+
+This is not the first measure that we would do.
+
+Let's be clear.
+
+Okay, I see.
+
+Okay.
+
+Let's be clear.
+
+We try a lot.
+
+We try a lot.
+
+Most of the time we succeed, but it's also sometimes not possible, right?
+
+I think it's important.
+
+You cannot change if someone doesn't want to change.
+
+Yes.
+
+The reason why I said it like this is I think it's important to mention because we have all of these expectations that we should continue to try and that something needs to happen.
+
+Yes.
+
+Let's be honest.
+
+We also tried, we would put the proxy roles in the meantime, we don't have to go according to the model.
+
+We would kind of like do some things that are not by the book or that are not by common sense.
+
+But at the end, I think it's really important to say, really, if you tried for three months, six months, one year, you did all of the measures possible, the goal of the group is always higher than the behavior or the goal of the individual.
+
+Okay, I see.
+
+So we are at the Architecture Conference and I think we haven't, I'm not sure whether we have used the word architecture in our conversation.
+
+Not so much.
+
+Yeah.
+
+So I was wondering how do architects and architecture add to that picture?
+
+So do you have any idea about that?
+
+So where are the architects, what is about the architecture?
+
+I mean, it's obviously there and it's discussed a lot.
+
+Speaking of the roles, we don't have like strict rules that we need to have someone specifically in that role.
+
+But that skill, skillset needs to be, of course, present and on a high seniority level.
+
+In Lending, we had different stages when we first started with first team and even I think first two, three teams, we didn't have anyone in the role of software or solution architect because it was practically done by senior engineers in the team and it was discussed like among them.
+
+At the moment, we actually have someone in the role of solution architect.
+
+Still senior person who is hands on.
+
+And it's not someone just drawing the graphs, not maps, as we learned from Simon yesterday.
+
+Difference between graphs and maps.
+
+So yeah, joking aside.
+
+So yes, we have someone.
+
+So it's from the role of skills needed, absolutely.
+
+And from the process itself, we don't have on the product group level anything like board or like someone who is formally giving approvals.
+
+But that person or person from also country teams are present in different sessions.
+
+One would be this roadmapping where even these decisions are made or discussed or in cross country refinements and different sessions.
+
+So on the Lending example, this is how it's working.
+
+Correct.
+
+So they would also have to be part of this collaboration because for these different systems, maybe for IT landscape that was already existing and then for this new solution, they have to align every functionality that we are building.
+
+How is this impacting architecture at the moment?
+
+Do we have to adapt it?
+
+Do we have to evolve?
+
+So what we, I think, try to argue also in our talk is that we establish this communication path.
+
+If we establish communication between all of them who are responsible for different parts of our systems, IT systems, then this would also enable a potential adaptation of the architecture or simplification or restructuring.
+
+Because if it's not happening, then we would just stay, we would never evolve.
+
+Right.
+
+So you said that you do now have that explicit role of a solution architect while before you didn't.
+
+So why?
+
+So what made you change that?
+
+We have to blame someone.
+
+Yeah.
+
+Yeah.
+
+Oh, okay.
+
+No, I'm kidding.
+
+I honestly don't have super smart answer for that.
+
+It's the person who is from the beginning there, it's, if I think of this specific, it's like senior engineer guy who is still hands-on and it's rather maybe someone to make sure, you know, it's like now eight teams, it's 90 people and rather to have someone in informal glue role, like taking care of this.
+
+With the overview.
+
+Exactly.
+
+Like, or we can use these terms like chapter or whatever, but someone making sure that there is some alignment on architectural level happening for this solution.
+
+There is additional.
+
+I think this would be the only answer.
+
+There is additional thing because this person is also part with the, maybe or in connection with the enterprise architecture of the organization and part of the solution design or architecture communities of practice where they agree on common guidelines and practices.
+
+So, this is a person who can contribute on one side with the real use case to those communities and vice versa, come back from the communities with the agreed guidelines to be respected by the solution that we are developing.
+
+It sounds like a natural evolution to me, like, you know, it's just something that happened because it needed to happen.
+
+Okay.
+
+Anything else you want to mention, any other learnings, any other things that you want to?
+
+Actually, in your talk, and I like that a lot, at the very beginning you said that it's just, well, just, it's an experience that you want to share and it's not so much about any advice.
+
+So, I think that's good and it's good that we openly talk about projects because actually we do that quite infrequently.
+
+So, is there anything else that you want to add, anything else that we forgot to mention?
+
+Yeah, from my side, I think, no, we extensively discussed many things.
+
+Thank you for inviting us and I think, yes, I would subscribe to that, that this was not by any means any kind of advising or giving some prescription or best practice.
+
+These are just our learnings and our experience that might serve as inspiration to someone.
+
+And we find it really interesting to share to the world how even in the highly regulated environment it's possible, you know, to do these things.
+
+Same from my side.
+
+I think we should acknowledge that we have been lucky enough to get this opportunity in our company to experiment this much and to learn this much.
+
+And also how it's really something that we can recommend to everyone to not try blindly to hit the wall with trying to change things if they don't have the buy-in from the management.
+
+And we are the lucky ones who felt this.
+
+And I think that's why, especially in Raiffeisen Bank International, we managed to go this far from a very traditional perception of this bank to really an advanced or let's say mature, adaptive, agile organization.
+
+So I really feel and feel lucky to be able to learn this much and to be allowed to do all of these things.
+
+One thing that we didn't really discuss but we had a conversation before about was that maybe the pressure in the marketplace actually made the company change in this way.
+
+Correct.
+
+Yeah, that's very important connected to us.
+
+As a bank, you're earning money.
+
+You will always earn money.
+
+You're business first.
+
+And there is not that much prominent sense of urgency than for a certain startup.
+
+But if you are able to create this in the bank, in any organization, then your agile transformation really has a goal and a drive.
+
+Okay, thanks.
+
+Thanks a lot.
+
+Thank you.
+
+Thank you for having us.
+
+And have a great last few hours on the conference.
+
+Have a great weekend and I hope to talk to you again soon.
+
+Likewise.
+
+Likewise.
+
+Thank you.
