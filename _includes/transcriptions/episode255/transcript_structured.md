@@ -576,7 +576,7 @@ So creating such support spaces in smaller groups that feel safer also, because 
 
 So you can create this unofficial, informal space.
 
-I think it's interesting how sort of the answer is in a part, at least already in the Scrum Guide, sort of the answer is in a part, at least already in the Scrum Guide, right?
+I think it's interesting how sort of the answer is in a part, at least already in the Scrum Guide, right?
 
 Because they talk about retrospectives.
 
