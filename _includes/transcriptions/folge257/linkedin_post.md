@@ -1,11 +1,11 @@
 🎙 [Neue Podcast-Folge] Monolithen vs. Microservices - Eine zeitgemäße Perspektive
 
-In der neuen Folge des Software-Architektur Podcasts diskutieren wir die ewige Frage: Sind Monolithen wirklich out und Microservices alternativlos?
+In der neuen Folge von "Software-Architektur im Stream" diskutieren wir die ewige Frage: Sind Monolithen wirklich out und Microservices alternativlos?
 
 Spannende Einblicke zu:
 • Unterscheidung zwischen Architektur- und Deployment-Monolithen
 • Vor- und Nachteile beider Architekturstile
-• Warum die fachliche Architektur wichtiger ist als technische Entscheidungen
+• Warum die fachliche Architektur wichtiger ist als die technische.
 • Wann Microservices Sinn machen - und wann nicht
 • Praktische Erfahrungen aus realen Projekten
 
