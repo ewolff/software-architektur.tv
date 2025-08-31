@@ -1,4 +1,4 @@
-# Folge 256 - Als Architekt:in Wirkung entfalten kann.
+# Folge 256 - Als Architekt:in Wirkung entfalten
 
 Hintergrund ist eben, dass ich glaube, dass das ein grundsätzliches Thema ist, was wir uns immer stellen müssen.
 
