@@ -1,11 +1,11 @@
 ## Als Architekt:in Wirkung entfalten
 
-## Wichtige Keytakeaways
-- Technische Skills sind eine wichtige Grundvoraussetzung für Architekt:innen, aber nicht ausreichend
-- Wirkungsvolle Architekturarbeit erfordert Kollaboration und Einbindung verschiedener Perspektiven
-- Partizipative Entscheidungsfindung ist meist effektiver als ein diktatorischer Führungsstil
-- Empathie und Kommunikationsfähigkeit sind zentrale Erfolgsfaktoren
-- Als Architekt:in sollte man nicht nur die eigene technische Perspektive durchsetzen wollen
+## Wichtige Takeaways
+- Technische Skills sind eine wichtige Grundvoraussetzung für Architekt:innen, aber nicht ausreichend.
+- Wirkungsvolle Architekturarbeit erfordert Kollaboration und Einbindung verschiedener Perspektiven.
+- Partizipative Entscheidungsfindung ist meist effektiver als ein diktatorischer Führungsstil.
+- Empathie und Kommunikationsfähigkeit sind zentrale Erfolgsfaktoren.
+- Als Architekt:in sollte man nicht nur die eigene technische Perspektive durchsetzen wollen.
 
 ## Behandelte Kernfragen
 - Was bedeutet es als Architekt:in zu arbeiten?
