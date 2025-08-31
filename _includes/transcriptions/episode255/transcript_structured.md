@@ -1,4 +1,4 @@
-# Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni Moments of Change and Uncertainty with Cosima and Sofia.
+# Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni
 
 So first of all, Sofia, do you want to say a few words about yourself, what you do and who you are?
 
@@ -32,7 +32,7 @@ So this is another episode that is sort of influenced by the HRMeets Architectur
 
 And Sofia will talk about riding the roller coaster of change, turning uncertainty into growth.
 
-And there is a discount code for 10% off, which is A-M-A, like HRMeets Architecture, under by S-A-I-S, under by 10.
+And there is a discount code for 10% off, which is AMA_SAIS_10.
 
 And, yeah, so, and the idea of this episode was to sort of mix the subjects of those two talks together and have a conversation about this.
 
