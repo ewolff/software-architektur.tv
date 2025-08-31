@@ -2,14 +2,14 @@
 
 ## Key Takeaways
 
-- The transformation focused on two banking products: Lending (loans) and Foreign Exchange (currency trading)
-- Goal was a group-wide solution for 11 core markets in Central and Eastern Europe
+- The transformation focused on two banking products: Lending (loans) and Foreign Exchange (currency trading).
+- The goal was a group-wide solution for 11 core markets in Central and Eastern Europe.
 - Critical success factors were:
   - Shared vision and measurable business goals
   - Regular feedback loops every 4-6 weeks
   - Balance between alignment and team autonomy
   - Systems thinking instead of pure process thinking
-- Deployment frequency increased from 2x per half-year to 21x per quarter
+- Deployment frequency increased from 2x per half-year to 21x per quarter.
 
 ## Core Questions Addressed
 
