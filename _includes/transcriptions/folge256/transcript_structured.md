@@ -84,7 +84,7 @@ Dann habe ich ja ein VSQL-Injection oder was auch immer da das Problem ist.
 
 Also ich habe einen Blogpost jetzt diese Woche geschrieben, da ging es um den VW-Datenskandal.
 
-Da war es halt die Vierkonfiguration eines Systems, sodass eben ein Heapdump gemacht werden konnte.
+Da war es halt die Fehlkonfiguration eines Systems, sodass eben ein Heapdump gemacht werden konnte.
 
 Und das führt eben dazu, dass Daten abfließen.
 
