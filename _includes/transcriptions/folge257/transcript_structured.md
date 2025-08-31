@@ -22,9 +22,9 @@ Und da haben wir um 15 Uhr eine Episode zum Thema Wardley Maps mit Software-Arch
 
 Markus ist auch da ein großer Experte in diesem Bereich.
 
-Und dann haben wir am Freitag um 14 Uhr, also eine Stunde später als sonst, Building Product Teams Beyond Organizational and Geographical Boundaries mit Anna Nath und Leja Bulovic.
+Und dann haben wir am Freitag um 14 Uhr, also eine Stunde später als sonst, Building Product Teams Beyond Organizational and Geographical Boundaries mit Ana Nad und Lejla Vulovic.
 
-Das beides live von der Agile-Architecture.
+Das beides live von der "Agile meets Architecture".
 
 Gut, soviel zum Vorspann und zu den Themen, die uns dann demnächst erwarten.
 
