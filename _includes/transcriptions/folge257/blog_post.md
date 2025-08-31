@@ -59,6 +59,6 @@ Unabhängig von der gewählten Architektur sind folgende Aspekte wichtig:
 
 Die Wahl zwischen Monolith und Microservices sollte nicht als dogmatische Entscheidung getroffen werden. Stattdessen gilt es, basierend auf den konkreten Anforderungen und Rahmenbedingungen die passende Architektur zu wählen. Dabei kann auch ein hybrider Ansatz sinnvoll sein, bei dem bestimmte Komponenten als Microservices realisiert werden, während andere im Monolithen bleiben.
 
-Ein gut strukturierter Monolith kann durchaus die bessere Wahl sein als ein schlecht designtes Microservices-System. Entscheidend ist nicht die technische Architektur an sich, sondern wie gut sie die fachlichen Anforderungen unterstützt und wie effektiv Teams damit arbeiten können.
+Ein gut strukturierter Monolith ist wahrscheinlich die bessere Wahl sein als ein schlecht designtes Microservices-System. Entscheidend ist nicht die technische Architektur an sich, sondern wie gut sie die fachlichen Anforderungen unterstützt und wie effektiv Teams damit arbeiten können.
 
-Die Evolution von Systemen sollte dabei als kontinuierlicher Prozess verstanden werden. Was heute als Monolith beginnt, kann morgen teilweise in Microservices aufgeteilt werden - oder umgekehrt. Wichtig ist, dass diese Entscheidungen auf konkreten Anforderungen und messbaren Vorteilen basieren.
+Die Evolution von Systemen sollte dabei als kontinuierlicher Prozess verstanden werden. Was heute als Monolithbeginnt, kann morgen teilweise in Microservices aufgeteilt werden - oder umgekehrt. Wichtig ist, dass diese Entscheidungen auf konkreten Anforderungen und messbaren Vorteilen basieren.
