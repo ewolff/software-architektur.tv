@@ -346,7 +346,7 @@ It's while training this muscle, you basically train all these things you need f
 
 Experimentation, small steps, feedback loops, all these things, right?
 
-It's exactly basically how I would summarize what Cosimo said.
+It's exactly basically how I would summarize what Cosima said.
 
 So there is another question by Vaishali Patel.
 
