@@ -1,4 +1,4 @@
-🎙️ Neue Software Architecture Radio Folge: "Als Architekt:in Wirkung entfalten"
+🎙️ Neue Software-Architektur-im-Stream-Folge: "Als Architekt:in Wirkung entfalten"
 
 Wie können Architekt:innen in Projekten wirklich etwas bewegen? 
 
