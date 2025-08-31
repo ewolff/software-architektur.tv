@@ -422,7 +422,7 @@ And of course, we all have different definitions.
 
 What I've seen is that we all cope very differently with very big changes.
 
-The last few years, I've experienced quite a few layups, as many of us maybe.
+The last few years, I've experienced quite a few layoffs, as many of us maybe.
 
 But maybe not, I don't know.
 
