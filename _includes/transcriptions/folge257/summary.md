@@ -1,11 +1,11 @@
-## Titel der Folge: Monolithen zu Microservices - Macht man das noch so?
+## Monolithen zu Microservices - Macht man das noch so?
 
 ## Wichtige Keytakeaways:
-- Es gibt zwei Arten von Monolithen: Architekturmonolithen (unstrukturiert) und Deployment-Monolithen (nur als Ganzes deploybar)
-- Microservices sind weder per se besser noch schlechter als Monolithen - es kommt auf den konkreten Anwendungsfall an
-- Die fachliche Architektur ist wichtiger als technische Entscheidungen wie Microservices vs. Monolith
-- Schnelles Deployment ist ein wichtiger Vorteil von Microservices, aber nicht der einzige Weg dorthin
-- Die Migration zu Microservices sollte durch fachliche/wirtschaftliche Gründe motiviert sein, nicht durch technische Aspekte
+- Es gibt zwei Arten von Monolithen: Architektur-Monolithen (unstrukturiert) und Deployment-Monolithen (nur als Ganzes deploybar).
+- Microservices sind weder per se besser noch schlechter als Monolithen - es kommt auf den konkreten Anwendungsfall an.
+- Die fachliche Architektur ist wichtiger als viele technische Entscheidungen wie Microservices vs. Monolith.
+- Schnelles Deployment ist ein wichtiger Vorteil von Microservices, aber nicht der einzige Weg dorthin.
+- Die Migration zu Microservices sollte durch fachliche oder wirtschaftliche Gründe motiviert sein, nicht durch technische Aspekte.
 
 ## Behandelte Kernfragen:
 - Wann macht eine Migration von Monolith zu Microservices Sinn?
@@ -15,7 +15,7 @@
 - Wie kann man Deployment-Geschwindigkeit optimieren?
 
 ## Glossar wichtiger Begriffe:
-- Architekturmonolith: System ohne klare innere Struktur/Modularisierung
+- Architektur-Monolith: System ohne klare innere Struktur oder Modularisierung
 - Deployment-Monolith: System, das nur als Ganzes deploybar ist
 - Distributed Monolith: Verteiltes System ohne saubere Architektur
 - OSGi: Java-Framework für modulare Entwicklung
