@@ -1058,7 +1058,7 @@ I think that's very good advice to to to start developing these these mind skill
 
 However, I know I'm not sure I'm I will try to provoke the two of you.
 
-So so here is here is something or, you know, I could I could play the avocados and Diaboli.
+So so here is here is something or, you know, I could I could play the advocatus diaboli.
 
 So here is something that I could say.
 
