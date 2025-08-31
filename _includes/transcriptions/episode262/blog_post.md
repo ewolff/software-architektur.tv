@@ -1,6 +1,6 @@
-# Bridging Architecture and Agility: Key Insights from Architecture Meets Agile
+# Bridging Architecture and Agility: Questions from Architecture Meets Agile
 
-Architecture and agility are often seen as opposing forces in software development, but they share more commonalities than differences, especially when it comes to working with people. This episode explores key insights from questions raised during the "Architecture and Agility" conference talk, revealing how these disciplines intersect and complement each other.
+Architecture and agility are often seen as opposing forces in software development, but they share more commonalities than differences, especially when it comes to working with people. This episode explores key insights from questions raised during Eberhard's conference talk "“Architecture and Agility: A Shared Skillset!", revealing how these disciplines intersect and complement each other.
 
 ## The People-Centric Nature of Architecture
 
@@ -18,9 +18,9 @@ This division provides guardrails while allowing teams autonomy in their specifi
 ## Technology Choices and Team Culture
 
 Technology selections come with inherent cultures and philosophies that influence team dynamics. For example:
-- Java often brings an enterprise-focused, conservative culture
-- Smalltalk historically influenced object-oriented practices and testing approaches
-- Different JavaScript frameworks can create distinct team subcultures
+- Java often brings an enterprise-focused, conservative culture.
+- Smalltalk historically influenced object-oriented practices and testing approaches.
+- Different JavaScript frameworks can create distinct team subcultures.
 
 Instead of fighting these cultural aspects, successful architects consider them when making technology choices. The focus should be on finding solutions that align with team preferences and capabilities rather than forcing "ideal" technical solutions.
 
@@ -59,5 +59,4 @@ Engineering teams often have a natural bias toward building solutions. To make e
 ## Conclusion
 
 Successful software architecture in an agile context requires embracing both technical and people aspects. By recognizing that architecture work is fundamentally about people and communication, we can better align architectural practices with agile principles. The key is finding the right balance between structure and flexibility, always keeping business value and team dynamics in mind.
-
-The intersection of architecture and agility isn't about choosing one over the other - it's about leveraging the strengths of both approaches to create better software systems and more effective teams.
+The intersection of architecture and agility isn't about choosing one over the other - it's about leveraging the strengths of both approaches to create better software systems and mor effective teams.
