@@ -672,9 +672,9 @@ Aber wenn ich dann irgendwie sagen kann, nicht und es wird irgendwie besser, als
 
 Und das ist wieder eine Geschichte von Kommunikation und halt sozusagen eben ein Schreiter kompatibler Kommunikation.
 
-Wir haben da jetzt gerade durch die HMS Architecture Konferenz so ein paar ganz gute Episoden gehabt.
+Wir haben da jetzt gerade durch die Agile-Meets-Architecture-Konferenz so ein paar ganz gute Episoden gehabt.
 
-Also es gibt halt die Episode mit der Jackie Reed von vor 14 Tagen, wo es halt um Kommunikationspatterns ging.
+Also es gibt halt die Episode mit der Jacqui Read von vor 14 Tagen, wo es halt um Kommunikationspatterns ging.
 
 Ich glaube das ist falsch, die ist von letzter Woche gewesen.
 
