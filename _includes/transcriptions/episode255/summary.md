@@ -1,27 +1,27 @@
-## Titel der Folge
+## Episode Title
 Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni
 
-## Wichtige Keytakeaways
-- Psychologische Flexibilität ist wie ein mentaler Muskel, der trainiert werden kann
-- Selbstreflexion und bewusstes Wahrnehmen von Emotionen sind wichtige Fähigkeiten
-- Als Führungskraft sollte man Vorbild sein und Veränderung vorleben
-- Unsicherheit muss nicht "umarmt", sondern navigiert werden
-- Balance zwischen technischer Expertise und "Soft Skills" ist wichtig für Tech-Leader
-- Retrospektiven bieten gute Möglichkeiten für offene Kommunikation
-- Kleine Schritte und regelmäßiges Feedback helfen beim Umgang mit Veränderung
+## Key Takeaways
+- Psychological flexibility is like a mental muscle that can be trained
+- Self-reflection and conscious awareness of emotions are important skills
+- As a leader, you should be a role model and exemplify change
+- Uncertainty doesn't need to be "embraced" but navigated
+- Balance between technical expertise and "soft skills" is important for tech leaders
+- Retrospectives offer good opportunities for open communication
+- Small steps and regular feedback help in dealing with change
 
-## Behandelte Kernfragen
-- Was ist psychologische Flexibilität und warum ist sie wichtig?
-- Wie kann man mentale Resilienz aufbauen?
-- Wie schafft man ein Umfeld, in dem offen über Veränderung gesprochen werden kann?
-- Wie balanciert man Stabilität und Innovation?
-- Wie bleibt man als Coach motiviert bei schwierigen Veränderungen?
-- Wie entwickelt man als technische Führungskraft emotionale Intelligenz?
+## Core Questions Addressed
+- What is psychological flexibility and why is it important?
+- How can one build mental resilience?
+- How do you create an environment where change can be openly discussed?
+- How do you balance stability and innovation?
+- How do you stay motivated as a coach during difficult changes?
+- How do you develop emotional intelligence as a technical leader?
 
-## Glossar wichtiger Begriffe
-- Psychologische Flexibilität: Fähigkeit, im gegenwärtigen Moment präsent zu sein und authentisch zu handeln
-- FEAR-Akronym: Fusion with thoughts, Evaluation, Avoidance, Reason-giving
-- Mentale Resilienz: Fähigkeit, mit Veränderung und Unsicherheit umzugehen
-- Human Systems Coach: Unterstützt Menschen/Teams bei effektiveren Arbeitsweisen
-- Psychologische Sicherheit: Vertrauensvolle Teamatmosphäre (nicht zu verwechseln mit psychologischer Flexibilität)
-- Street Credibility: Glaubwürdigkeit aufgrund von Erfahrung und Position
+## Glossary of Important Terms
+- Psychological Flexibility: The ability to be present in the current moment and act authentically
+- FEAR Acronym: Fusion with thoughts, Evaluation, Avoidance, Reason-giving
+- Mental Resilience: The ability to deal with change and uncertainty
+- Human Systems Coach: Supports people/teams in more effective ways of working
+- Psychological Safety: Trusting team atmosphere (not to be confused with psychological flexibility)
+- Street Credibility: Credibility based on experience and position
