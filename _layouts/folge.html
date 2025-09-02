@@ -5,32 +5,9 @@
 
   <body>
     {% include page-header.html %}
-
-{% assign episode_id = page.url | split: '/' | last | remove: '.html' %}
-{% assign summary_path = '/_transcriptions/' |append: episode_id | append: '/summary.md' %}
 	  
     <section class="main-content">
-<ul>
-{% if page.peertube %}
-	<li><a href="#peertube">PeerTube Video - no Big Tech!</a></li>
-{% endif %}
-{% if page.video %}
-	<li><a href="#youtube">YouTube Video</a></li>
-{% endif %}
-{% if page.mp3 %}
-	<li><a href="#podcast">Audio als Podcast</a></li>
-{% endif %}
-{% if page.sketchnote-video %}
-	<li><a href="#sketchnotes">Sketchnotes</a></li>
-{% endif %}
-{% if site.data.summaries contains episode_id %}
-	<li><a href="#blogpost">Blog-Post</a></li>
-	<li><a href="#summary">Zusammenfassung</a></li>
-	<li><a href="#transcription">Transkription</a></li>
-{% endif %}
-</ul>	    
-
-	    
+      
     {{ content }}
 
 {% if page.thumbnail %}
@@ -94,33 +71,6 @@ src="{{ page.embedded-mp3 }}"></iframe>
 
 <a href="/podcast.html">Infos und Feeds zum Audio als Podcast</a>
 
-{% endif %}
-
-{% if site.data.summaries contains episode_id %}
-
-<p style="font-size: small;"><b>Hinweis:</b> Die nachfolgenden Texte wurden mit KI erstellt und können somit Fehler enthalten.</p>
-
-{% capture blogpost %}{% include transcriptions/{{ episode_id }}/blog_post.md %}{% endcapture %}
-<a id="blogpost"></a>
-		
-	{{ blogpost | markdownify }}
-
-<p style="font-size: small;"><a href="https://github.com/ewolff/software-architektur.tv/edit/master/_includes/transcriptions/{{ episode_id }}/blog_post.md">Fehler gefunden? Stelle doch einen PR!</a></p>
-
-{% capture summary %}{% include transcriptions/{{ episode_id }}/summary.md %}{% endcapture %}
-
-<a id="summary"></a>
-		
-  {{ summary | markdownify }}
-
-<p style="font-size: small;"><a href="https://github.com/ewolff/software-architektur.tv/edit/master/_includes/transcriptions/{{ episode_id }}/summary.md">Fehler gefunden? Stelle doch einen PR!</a></p>
-<h2 id="transcription" >Vollständige Transkription</h2>
-
-<p style="font-size: small;"><b>Hinweis:</b> Dieses Transkript wurde mit KI erstellt und kann somit Fehler enthalten.</p>
-  {% capture transcription %}{% include transcriptions/{{ episode_id }}/transcript_structured.md %}{% endcapture %}
-  {{ transcription | markdownify }}
-
-<p style="font-size: small;"><a href="https://github.com/ewolff/software-architektur.tv/edit/master/_includes/transcriptions/{{ episode_id }}/transcript_structured.md">Fehler gefunden? Stelle doch einen PR!</a></p>
 {% endif %}
 
 {% include page-footer.html %}
