@@ -1,13 +1,13 @@
 # Coaching für Techies: Ein Wegweiser zur persönlichen und beruflichen Weiterentwicklung
 
-Coaching ist in der IT-Branche zunehmend relevant geworden - aber was steckt eigentlich dahinter und wie können Software-Entwickler, Architekten und andere Tech-Professionals davon profitieren? In diesem Artikel beleuchten wir, basierend auf einem Gespräch mit der erfahrenen Coach Cosima Laube, die wichtigsten Aspekte des Coachings für Techies.
+Coaching wird in der IT-Branche zunehmend relevant - aber was steckt eigentlich dahinter und wie können Software-Entwickler:innen, Architekt:innen und andere Tech-Professionals davon profitieren? In dieser Episode beleuchten wir, basierend auf einem Gespräch mit der erfahrenen Coach Cosima Laube, die wichtigsten Aspekte des Coachings für Techies.
 
 ## Was ist Coaching überhaupt?
 
 Coaching lässt sich am besten als "selbstgewählte temporäre Denkpartnerschaft" beschreiben. Dabei sind zwei Aspekte besonders wichtig:
 
-- Freiwilligkeit: Der Coachee muss aus eigenem Antrieb teilnehmen und Themen einbringen wollen
-- Temporärer Charakter: Anders als bei dauerhafter Beratung ist Coaching zeitlich begrenzt und zielt darauf ab, dass der Coachee eigenständig weiterkommt
+- Freiwilligkeit: Der Coachee muss aus eigenem Antrieb teilnehmen und Themen einbringen wollen.
+- Temporärer Charakter: Anders als bei dauerhafter Beratung ist Coaching zeitlich begrenzt und zielt darauf ab, dass der Coachee eigenständig weiterkommt.
 
 Es geht beim Coaching nicht um Ratschläge oder fertige Lösungen, sondern um einen Prozess der gemeinsamen Reflexion und Entwicklung. Der Coach unterstützt dabei durch gezielte Fragen und Methoden, aber die eigentliche Arbeit und Umsetzung liegt beim Coachee.
 
