@@ -1,12 +1,12 @@
 ## IT im Jahr 2034 – Wo wollen wir hin?
 
 ## Wichtige Keytakeaways:
-- Green IT und Energieeffizienz werden wichtige Herausforderungen bleiben
-- Quantencomputing und sichere Kryptographie werden relevante Themen
-- Die Komplexität von Software muss besser gehandhabt werden
-- KI wird zur Selbstverständlichkeit, birgt aber auch neue Herausforderungen
-- Kommunikation bleibt eine zentrale Herausforderung in der IT
-- Software-Qualität ist weiterhin ein wichtiger Architektur-Treiber
+- Green IT und Energieeffizienz werden wichtige Herausforderungen bleiben.
+- Quantencomputing und sichere Kryptographie werden relevante Themen.
+- Die Komplexität von Software muss besser gehandhabt werden.
+- KI wird zur Selbstverständlichkeit, birgt aber auch neue Herausforderungen.
+- Kommunikation bleibt eine zentrale Herausforderung in der IT.
+- Software-Qualität ist weiterhin ein wichtiger Architektur-Treiber.
 
 ## Behandelte Kernfragen:
 - Wie können wir Green IT und Energieeffizienz verbessern?
