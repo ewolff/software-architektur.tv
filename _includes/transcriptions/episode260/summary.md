@@ -1,0 +1,25 @@
+# Folge 260 - KI = Bullshit?
+
+## Wichtige Takeaways
+- LLMs sind primär Textgeneratoren ohne echtes Verständnis oder Wahrheitsanspruch.
+- Das Hauptziel von LLMs ist überzeugende, nicht unbedingt wahre Texte zu generieren.
+- Der Begriff "Bullshit" beschreibt treffend die Ausgaben von LLMs - es geht um gefällige Texte, nicht um Wahrheit.
+- Bei der Nutzung von LLMs ist eine Kontrolle der Ergebnisse zwingend erforderlich.
+- Die unbekannten Trainingsdaten sind ein großes Problem für Vertrauenswürdigkeit und Sicherheit.
+
+## Behandelte Kernfragen
+- Warum sind die anthropomorphen Metaphern bei KI problematisch?
+- Welche Risiken bergen LLMs für Software-Entwicklung?
+- Wie unterscheidet sich "Bullshit" von Lügen?
+- Welche Sicherheitsaspekte müssen bei LLMs beachtet werden?
+- Wie sinnvoll ist der Einsatz von LLMs in der Software-Entwicklung?
+
+## Glossar wichtiger Begriffe
+- Bullshit: Aussagen mit Fokus auf Gefälligkeit und Überzeugen statt Wahrheit
+- Anthropomorphe Metaphern: Vermenschlichende Beschreibungen von KI-Systemen
+- Halluzinationen: Fehlerhafte Ausgaben von LLMs
+- Konfabulation: Alternative Bezeichnung für falsche "Erinnerungen" von LLMs
+- Large Language Models (LLMs): KI-Systeme zur Textgenerierung wie ChatGPT
+- Gaslighting: Psychologische Manipulation zur Verzerrung der Realitätswahrnehmung
+
+Der Podcast betont die Wichtigkeit einer kritischen und realistischen Sicht auf KI-Systeme sowie die Notwendigkeit der Qualitätskontrolle bei deren Einsatz in der Software-Entwicklung.
