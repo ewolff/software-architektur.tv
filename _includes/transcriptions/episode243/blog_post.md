@@ -12,15 +12,15 @@ Eine **Workflow Engine** oder **Process Orchestration Engine** ist eine Software
 
 Am Beispiel einer Kontoeröffnung bei einer Bank lässt sich die Prozessautomatisierung gut veranschaulichen:
 
-1. Der Kunde gibt seine Daten über die Website ein
-2. Verschiedene Prüfungen werden durchgeführt (Adresse, Schufa etc.)
-3. Compliance-Checks werden ausgeführt
-4. Die Bank trifft eine Entscheidung
-5. Bei positiver Entscheidung wird die IBAN vergeben und das Konto angelegt
+1. Der Kunde gibt seine Daten über die Website ein.
+2. Verschiedene Prüfungen werden durchgeführt (Adresse, Schufa etc.).
+3. Compliance-Checks werden ausgeführt.
+4. Die Bank trifft eine Entscheidung.
+5. Bei positiver Entscheidung wird die IBAN vergeben und das Konto angelegt.
 
 Die Prozessautomatisierung umfasst dabei zwei Aspekte:
-- Die **Orchestrierung** steuert die korrekte Reihenfolge der Schritte
-- Die **Task-Automation** automatisiert die einzelnen Aufgaben durch System- oder API-Aufrufe
+- Die **Orchestrierung** steuert die korrekte Reihenfolge der Schritte.
+- Die **Task-Automation** automatisiert die einzelnen Aufgaben durch System- oder API-Aufrufe.
 
 ## Orchestrierung vs. Choreographie
 
@@ -34,14 +34,14 @@ In der Architektur werden zwei grundlegende Ansätze unterschieden:
 
 Die Process Orchestration lässt sich gut mit Domain Driven Design (DDD) und Microservices kombinieren:
 
-- Als **Capability innerhalb eines Bounded Context** kann die Workflow Engine die Domänenlogik durch BPMN ausdrücken
-- Als **separater Process Layer** kann sie Ende-zu-Ende-Geschäftsprozesse orchestrieren
+- Als **Capability innerhalb eines Bounded Context** kann die Workflow Engine die Domänenlogik durch BPMN ausdrücken.
+- Als **separater Process Layer** kann sie Ende-zu-Ende-Geschäftsprozesse orchestrieren.
 
 Wichtige Vorteile der Prozessorchestrierung sind:
 
-- **Transparenz**: Grafische Modelle ermöglichen Kommunikation mit Stakeholdern
-- **Monitoring**: Prozessausführung und Performance können überwacht werden  
-- **Änderbarkeit**: Geschäftsprozesse können flexibel angepasst werden
+- **Transparenz**: Grafische Modelle ermöglichen Kommunikation mit Stakeholdern.
+- **Monitoring**: Prozessausführung und Performance können überwacht werden.
+- **Änderbarkeit**: Geschäftsprozesse können flexibel angepasst werden.
 - **Ownership**: Klare Verantwortlichkeiten für Prozesse
 
 ## Fazit
