@@ -1,5 +1,3 @@
-Here's a LinkedIn post teaser for the podcast episode:
-
 🎯 Domain-Driven Design (DDD) in der Praxis: Vom Big Picture zur technischen Umsetzung
 
 In dieser Episode tauchen wir tief in die taktische Seite von DDD ein und zeigen anhand eines E-Commerce-Beispiels:
@@ -10,9 +8,9 @@ In dieser Episode tauchen wir tief in die taktische Seite von DDD ein und zeigen
 ✅ Layered vs. Hexagonal Architecture im DDD-Kontext
 
 Wichtige Takeaways:
-- DDD ist nicht für jedes Projekt die richtige Wahl
-- Die internen Events eines Systems unterscheiden sich von den externen
-- Hexagonal Architecture ist keine komplexere Alternative zum Layering
+- DDD ist nicht für jedes Projekt die richtige Wahl.
+- Die internen Events eines Systems unterscheiden sich von den externen.
+- Hexagonal Architecture ist eine Alternative zum Layering - aber nicht wirklich komplexer.
 
 Für alle, die DDD nicht nur verstehen, sondern auch praktisch umsetzen wollen! 
 
