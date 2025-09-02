@@ -3,11 +3,11 @@ Hier ist meine Zusammenfassung des Podcast-Transcripts:
 Episode 239 - Was ist (Einzel-)Coaching und wie nützt es Techies?
 
 ## Wichtige Kernpunkte
-- Coaching ist eine selbstgewählte, temporäre Denkpartnerschaft
-- Coaching unterscheidet sich von Beratung oder Therapie
-- Wichtige Elemente sind Freiwilligkeit, Vertraulichkeit und aktive Mitarbeit des Coachees 
-- Der Coach gibt keine direkten Lösungen vor, sondern unterstützt durch Fragen und Reflexion
-- Coaching kann sowohl berufliche als auch persönliche Entwicklung unterstützen
+- Coaching ist eine selbstgewählte, temporäre Denkpartnerschaft.
+- Coaching unterscheidet sich von Beratung oder Therapie.
+- Wichtige Elemente sind Freiwilligkeit, Vertraulichkeit und aktive Mitarbeit des Coachees. 
+- Der Coach gibt keine direkten Lösungen vor, sondern unterstützt durch Fragen und Reflexion.
+- Coaching kann sowohl berufliche als auch persönliche Entwicklung unterstützen.
 
 ## Behandelte Kernfragen
 - Was ist professionelles Coaching und wie unterscheidet es sich von anderen Formaten?
@@ -29,5 +29,3 @@ Episode 239 - Was ist (Einzel-)Coaching und wie nützt es Techies?
 - Bewusst auf die Art der gestellten Fragen achten (offen vs. geschlossen)
 - Journaling als Reflexionswerkzeug nutzen
 - Vor Start eines Coachings ein "Chemistry Call" zur gegenseitigen Kennenlernung durchführen
-
-Dies sind die wichtigsten Aspekte aus dem sehr informativen Gespräch über Coaching im IT-Kontext.
