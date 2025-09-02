@@ -1,19 +1,19 @@
 # Generative AI in der Softwarearchitektur - Ein Experiment mit einem AsciiDoc-Linter
 
-Die Entwicklung von Software mithilfe von Künstlicher Intelligenz ist eines der spannendsten Themen unserer Zeit. In diesem Artikel berichte ich von einem interessanten Experiment, bei dem ein KI-System nicht nur Code generiert, sondern auch architektonische Entscheidungen trifft und dokumentiert.
+Die Entwicklung von Software mithilfe von Künstlicher Intelligenz ist eines der spannendsten Themen unserer Zeit. In dieser Folge führen wir ein interessantes Experiment durch, bei dem ein KI-System nicht nur Code generiert, sondern auch architektonische Entscheidungen trifft und dokumentiert.
 
 ## Der Ausgangspunkt: Ein fehlender AsciiDoc-Linter
 
-Der Anlass für das Experiment war ein fehlendes Feature: Seit Jahren gibt es keinen Linter für AsciiDoc, eine Markup-Sprache für technische Dokumentation. Ein Linter ist ein Werkzeug, das den geschriebenen Text auf Konsistenz und Best Practices prüft. Diese Lücke bot eine ideale Gelegenheit, die Fähigkeiten von Generativer KI in einem realen Entwicklungsszenario zu testen.
+Der Anlass für das Experiment war ein fehlendes Feature: Seit Jahren gibt es keinen Linter für AsciiDoc, eine Markup-Sprache für technische Dokumentation. Ein Linter ist ein Werkzeug, das Code auf Konsistenz und Best Practices prüft. Diese Lücke bot eine ideale Gelegenheit, die Fähigkeiten von Generativer KI in einem realen Entwicklungsszenario zu testen.
 
 ## Der Entwicklungsprozess mit KI
 
-Für das Experiment nutzte ich einen eigenen Chatbot-Frontend mit "agentischem Workflow". Das bedeutet, dass das KI-System selbstständig Funktionen wie Python-Code-Ausführung oder PlantUML-Diagramm-Generierung aufrufen kann. Der Entwicklungsprozess folgte dabei einem testgetriebenen Ansatz:
+Für das Experiment nutzten wir einen eigenen Chatbot-Frontend mit "agentischem Workflow". Das bedeutet, dass das KI-System selbstständig Funktionen wie Python-Code-Ausführung oder PlantUML-Diagramm-Generierung aufrufen kann. Der Entwicklungsprozess folgte dabei einem testgetriebenen Ansatz:
 
-1. Das System schrieb zunächst Tests für die gewünschte Funktionalität
-2. Anschließend implementierte es den Code
-3. Bei Fehlern korrigierte es sich selbst
-4. Es führte auch Code Coverage Analysen durch
+1. Das System schrieb zunächst Tests für die gewünschte Funktionalität.
+2. Anschließend implementierte es den Code.
+3. Bei Fehlern korrigierte es sich selbst.
+4. Es führte auch Code Coverage Analysen durch.
 
 Das System entwickelte dabei eigenständig sinnvolle Regeln für den Linter, zum Beispiel:
 - Prüfung der korrekten Verwendung von Überschriftenebenen
@@ -23,7 +23,7 @@ Das System entwickelte dabei eigenständig sinnvolle Regeln für den Linter, zum
 
 ## Architektur-Dokumentation durch KI
 
-Besonders interessant war, dass das System nicht nur Code generierte, sondern auch eine vollständige Architekturdokumentation nach dem ARC42-Template erstellte. Dies umfasste:
+Besonders interessant war, dass das System nicht nur Code generierte, sondern auch eine vollständige Architekturdokumentation nach dem arc42-Template erstellte. Dies umfasste:
 - Ein Architecture Communication Canvas als Überblick
 - Qualitätsszenarien mit Priorisierungen
 - Architekturentscheidungen mit Begründungen
