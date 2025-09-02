@@ -2,13 +2,13 @@
 Episode 255 - Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni
 
 ## Key Takeaways
-- Psychological flexibility is like a mental muscle that can be trained
-- Self-reflection and conscious awareness of emotions are important skills
-- As a leader, you should be a role model and exemplify change
-- Uncertainty doesn't need to be "embraced" but navigated
-- Balance between technical expertise and "soft skills" is important for tech leaders
-- Retrospectives offer good opportunities for open communication
-- Small steps and regular feedback help in dealing with change
+- Psychological flexibility is like a mental muscle that can be trained.
+- Self-reflection and conscious awareness of emotions are important skills.
+- As a leader, you should be a role model and exemplify change.
+- Uncertainty doesn't need to be "embraced" but navigated.
+- Balance between technical expertise and "soft skills" is important for tech leaders.
+- Retrospectives offer good opportunities for open communication.
+- Small steps and regular feedback help in dealing with change.
 
 ## Core Questions Addressed
 - What is psychological flexibility and why is it important?
