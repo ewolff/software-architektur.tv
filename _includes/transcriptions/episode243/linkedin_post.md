@@ -5,8 +5,8 @@ Wie passen Process Orchestration und Domain Driven Design zusammen? Was sind die
 In dieser spannenden Episode spreche ich mit Bernd Rücker, Co-Founder von Camunda, über:
 
 • Die richtige Granularität von Prozessen und deren Implementierung
-• Warum zentrale Prozess-Orchestrierung und Microservices kein Widerspruch sind
-• Wie BPMN als Kommunikationsbrücke zwischen Business und IT dient
+• Warum zentrale Prozess-Orchestrierung und Microservices kein Widerspruch sind.
+• Wie BPMN als Kommunikationsbrücke zwischen Business und IT dient.
 • Die Bedeutung von Prozess-Transparenz und Monitoring
 
 Bernd teilt wertvolle Insights aus über 10 Jahren Erfahrung mit Process Orchestration und erklärt, warum gerade in Zeiten schneller Veränderung eine klare Prozesssicht unverzichtbar ist.
