@@ -1,30 +1,29 @@
 # Domain-Driven Design in der Praxis: Ein vollständiger Leitfaden für taktisches Design
 
-Domain-Driven Design (DDD) ist ein mächtiger Ansatz zur Entwicklung komplexer Softwaresysteme. Dieser Artikel konzentriert sich auf das taktische Design als wichtigen Baustein von DDD und zeigt anhand praktischer Beispiele, wie es effektiv eingesetzt werden kann.
+Domain-Driven Design (DDD) ist ein mächtiger Ansatz zur Entwicklung komplexer Softwaresysteme. Diese Episode konzentriert sich auf das taktische Design als wichtigen Baustein von DDD und zeigt anhand praktischer Beispiele, wie es effektiv eingesetzt werden kann.
 
 ## Die Grundlagen des taktischen Designs
 
 Taktisches Design beschäftigt sich mit der objektorientierten Strukturierung auf Klassenebene. Es stellt verschiedene Patterns bereit, die helfen, Business-Logik optimal zu organisieren:
 
 ### Entities und Value Objects
-- **Entities** haben eine eigene Identität (z.B. eine Person oder ein Produkt)
-- **Value Objects** repräsentieren Werte ohne eigene Identität (z.B. Geldbeträge oder Längenmaße)
-- Value Objects sind unveränderlich (immutable) und haben Wert-Semantik
+- **Entities** haben eine eigene Identität (z.B. eine Person oder ein Produkt).
+- **Value Objects** repräsentieren Werte ohne eigene Identität (z.B. Geldbeträge oder Längenmaße).
+- Value Objects sind unveränderlich (immutable) und haben Wert-Semantik.
 
 ### Aggregates und Domain Events  
-- **Aggregates** fassen mehrere Entities und Value Objects zusammen
-- Sie haben eine Aggregate Root, die Konsistenz sicherstellt
-- **Domain Events** dokumentieren relevante fachliche Ereignisse
-- Konsistenz wird innerhalb von Aggregates synchron gewährleistet, zwischen Aggregates asynchron
+- **Aggregates** fassen mehrere Entities und Value Objects zusammen.
+- Sie haben eine Aggregate Root, die Konsistenz sicherstellt.
+- Konsistenz wird innerhalb von Aggregates synchron gewährleistet, zwischen Aggregates asynchron.
+- **Domain Events** dokumentieren relevante fachliche Ereignisse.
 
 ### Repositories und Factories
-- **Repositories** kapseln den Datenbankzugriff und geben die Illusion einer In-Memory Collection
-- Sie definieren fachlich sinnvolle Abfragen
-- **Factories** erzeugen komplexe Value Objects oder Aggregates
+- **Repositories** kapseln den Datenbankzugriff und geben die Illusion einer In-Memory Collection.
+- Sie definieren fachlich sinnvolle Abfragen.
+- **Factories** erzeugen komplexe Value Objects oder Aggregates.
 
 ### Services
-- **Services** implementieren Business-Logik, die nicht in Entities/Aggregates passt
-- Zum Beispiel für Operationen über mehrere Aggregates hinweg
+- **Services** implementieren Business-Logik, die nicht in Entities, Value Objects oder Aggregates passt, zum Beispiel Operationen über mehrere Aggregates hinweg
 
 ## Praktisches Beispiel: E-Commerce System
 
@@ -35,12 +34,14 @@ Am Beispiel eines E-Commerce Systems mit Lieferkontext lässt sich die Anwendung
 class Package {
   private PackageId id;
   private List<Product> products;
+  // Geschäftslogik
 }
 
 // Value Object  
 class Address {
   private String street;
   private String city;
+  // Geschäftslogik
 }
 
 // Aggregate
@@ -72,7 +73,7 @@ class DeliveryService {
 Diese Patterns können das taktische Design ergänzen:
 
 ### Event Sourcing
-- Speichert nicht nur den aktuellen Zustand, sondern auch die Events die dazu führten
+- Speichert nicht nur den aktuellen Zustand, sondern auch die Events, die zu dem Zustand führten
 - Gut geeignet für Domänen wo die Historie wichtig ist (z.B. Bankkonto)
 - Sollte eine interne Implementierungsentscheidung bleiben
 
@@ -93,7 +94,7 @@ Für die Gesamtarchitektur bieten sich zwei Hauptansätze an:
 
 ### Hexagonale Architektur
 - Business-Logik definiert Ports (Interfaces)
-- Adapter implementieren die technischen Details
+- Adapter implementieren die Ports mit konkreten Technologien (beispielsweise einer konkreten Datenbank oder einem konkreten Persistenz-Framework)
 - Bessere Testbarkeit durch Isolation der Domänenlogik
 - Nicht wesentlich komplexer als Schichtenarchitektur
 
@@ -101,9 +102,9 @@ Für die Gesamtarchitektur bieten sich zwei Hauptansätze an:
 
 Taktisches Design ist ein mächtiges Werkzeug für die Strukturierung komplexer Geschäftslogik. Die Patterns sollten jedoch nicht blind angewendet werden:
 
-- Für einfache CRUD-Operationen sind Transaction Scripts oft ausreichend
+- Für einfache CRUD-Operationen sind Transaction Scripts oft ausreichend.
 - Event Sourcing und CQRS nur bei echtem Bedarf einsetzen
-- Architektur (Schichten vs. Hexagonal) nach Projektkontext wählen
+- Schichten-Architektur oder hexagonale Architektuir nach Projektkontext wählen
 - Fokus auf die Abbildung der Fachlichkeit legen
 
 Der Erfolg von DDD liegt nicht in der peniblen Befolgung aller Patterns, sondern in der geschickten Auswahl und Kombination der passenden Werkzeuge für den jeweiligen Anwendungsfall.
