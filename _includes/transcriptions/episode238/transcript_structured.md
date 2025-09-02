@@ -1,12 +1,4 @@
-# Episode 238 - Learning Systems Thinking with Diana Montalion and Lisa Schäfer I'm not so sure, but we have Eberhard as a backup, so maybe he can say that everything works.
-
-I'm still not sure because we...
-
-Everything works.
-
-Okay, because in restream I can't see us.
-
-Thank you, Eberhard, for the small note.
+# Episode 238 - Learning Systems Thinking with Diana Montalion and Lisa Schäfer
 
 Welcome to a new episode of Software-Architektur im Stream.
 
