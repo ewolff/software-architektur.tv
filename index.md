@@ -14,13 +14,13 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Montag 2025-09-01 18:00 CEST Wie wird eine Software-Architektur flexibel?
+## Nächste Episode: Freitag 2025-09-05 13:00 CEST Web Performance mit Lucas Dohmen und Lisa Maria Schäfer
 
-Die Zukunft ist schwer vorhersehbar – umso wichtiger ist es, dass eine
-Software-Architektur auf neue Anforderungen und Veränderungen
-reagieren kann. Doch wie erreicht man diese Flexibilität? In dieser
-Episode sprechen wir über Eure Ideen und Ansätze – und natürlich teilt
-auch Eberhard seine eigenen Konzepte.
+In dieser Folge sprechen Lucas Dohmen und Lisa Maria Schäfer über Web
+Performance. Sie klären, was sich dahinter verbirgt und warum das
+Thema wichtig ist – und zwar für alle, die Webseiten entwickeln. Des
+Weiteren stellen sie Tools zum Messen der Web Performance vor und
+geben euch Impulse, wie ihr eure Website schneller machen könnt.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
@@ -30,14 +30,14 @@ auch Eberhard seine eigenen Konzepte.
 
 <center>
 <div class="embed-container"> <iframe width="560" height="315"
- 	src="https://www.youtube-nocookie.com/embed/0d4Aub6f7uQ"
+ 	src="https://www.youtube-nocookie.com/embed/ObT05w23oB8"
  	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
  	encrypted-media; gyroscope; picture-in-picture fullscreen"
  	></iframe>
 </div>
 </center>
 
-[LinkedIn](https://www.linkedin.com/events/7365793260352479232/)
+[LinkedIn](https://www.linkedin.com/events/7368304271701811201/)
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
