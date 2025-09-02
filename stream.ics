@@ -21,18 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1756142233299-3qjoylujrbo@ics-generator.local
-DTSTAMP:20250825T191713
-DTSTART;TZID=Europe/Berlin:20250901T180000
-DTEND;TZID=Europe/Berlin:20250901T190000
-SUMMARY:Wie wird eine Software-Architektur flexibel?
-DESCRIPTION:Die Zukunft ist schwer vorhersehbar – umso wichtiger ist es\, d
- ass eine Software-Architektur auf neue Anforderungen und Veränderungen reag
- ieren kann. Doch wie erreicht man diese Flexibilität? In dieser Episode spr
- echen wir über Eure Ideen und Ansätze – und natürlich teilt auch Eberhard s
- eine eigenen Konzepte.
-LOCATION:https://www.youtube.com/watch?v=0d4Aub6f7uQ https://www.linkedin.c
- om/events/7365793260352479232/ https://www.twitch.tv/ebrwolff
+UID:1756752479138-92wjom2tezt@ics-generator.local
+DTSTAMP:20250901T204759
+DTSTART;TZID=Europe/Berlin:20250905T130000
+DTEND;TZID=Europe/Berlin:20250905T140000
+SUMMARY:Web Performance mit Lucas Dohmen und Lisa Maria Schäfer
+DESCRIPTION:In dieser Folge sprechen Lucas Dohmen und Lisa Maria Schäfer üb
+ er Web Performance. Sie klären\, was sich dahinter verbirgt und warum das T
+ hema wichtig ist – und zwar für alle\, die Webseiten entwickeln. Des Weiter
+ en stellen sie Tools zum Messen der Web Performance vor und geben euch Impu
+ lse\, wie ihr eure Website schneller machen könnt.
+LOCATION:https://youtu.be/ObT05w23oB8 https://www.linkedin.com/events/73683
+ 04271701811201/ https://www.twitch.tv/ebrwolff
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
