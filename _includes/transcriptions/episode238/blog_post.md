@@ -21,8 +21,8 @@ Systems thinking helps identify leverage points - places where small changes can
 
 ## Practical Applications
 
-### Yes, And
-One simple but powerful practice from improvisational comedy is the "Yes, and" technique. Instead of immediately critiquing or disagreeing, acknowledge what others contribute before adding your own perspective. This builds better communication and collaboration within teams.
+### Yes, And ...
+One simple but powerful practice from improvisational comedy is the "Yes, and ..." technique. Instead of immediately critizing or disagreeing, acknowledge what others contribute before adding your own perspective. This builds better communication and collaboration within teams.
 
 ### Systemic Reasoning
 When proposing solutions, share not just what should be done, but why it matters and how you reached that conclusion. Include:
@@ -57,7 +57,7 @@ Systems thinking helps teams:
 ## Getting Started
 
 Starting with systems thinking doesn't require a complete transformation. Begin with small practices:
-1. Practice "Yes, and" in team discussions
+1. Practice "Yes, and ..." in team discussions
 2. Document reasoning behind decisions, not just the decisions themselves
 3. Use visual modeling to explore problems together
 4. Consider relationships and impacts when making changes
