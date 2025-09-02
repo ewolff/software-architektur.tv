@@ -1,4 +1,4 @@
-## Titel: "Warum ist Software(-Architektur) eigentlich immer so schlecht?"
+## Warum ist Software(-Architektur) eigentlich immer so schlecht?
 
 ## Wichtige Kernthemen
 - Qualitätsprobleme in der Softwareentwicklung, insbesondere bezüglich Wartbarkeit und Codequalität
@@ -7,11 +7,11 @@
 - Die Rolle von Zeitdruck bei der Entstehung von technischen Schulden
 
 ## Wichtige Keytakeaways
-- Zeitdruck ist einer der Hauptgründe für schlechte Softwarequalität
-- Maximale Qualität überall anzustreben ist nicht realistisch (Eric Evans' Core Domain Konzept)
-- Die Kommunikation zwischen Management und Entwicklern muss verbessert werden
-- Qualitätsprobleme müssen in geschäftlichen Metriken (Kosten, Zeit) kommuniziert werden
-- Nachhaltige Entwicklung erfordert einen Trade-off zwischen schneller Feature-Entwicklung und langfristiger Wartbarkeit
+- Zeitdruck ist einer der Hauptgründe für schlechte Softwarequalität.
+- Maximale Qualität überall anzustreben ist nicht realistisch. Eric Evans' Core Domain Konzept besagt, dass wir Prioritäten setzen müssen.
+- Die Kommunikation zwischen Management und Entwicklern über Qualität muss verbessert werden.
+- Qualitätsprobleme müssen mit Hilfe von geschäftlichen Metriken (Kosten, Zeit) kommuniziert werden.
+- Nachhaltige Entwicklung erfordert einen Trade-off zwischen schneller Feature-Entwicklung und langfristiger Wartbarkeit.
 
 ## Behandelte Kernfragen
 1. Warum ist Softwarequalität oft suboptimal?
