@@ -12,9 +12,9 @@ Große Cloud-Anbieter wie Microsoft bauen weltweit alle drei Tage ein neues Rech
 
 Ein wichtiger Hebel ist die maximale Auslastung vorhandener Hardware-Ressourcen. Server-Konsolidierung und Lebensdauerverlängerung können die gebundenen Emissionen deutlich reduzieren. Dabei gilt:
 
-- Ein Server verbraucht im Leerlauf bereits etwa 100 Watt
-- Bei 50% Last steigt der Verbrauch auf ca. 180 Watt
-- Bei Volllast werden etwa 200 Watt benötigt
+- Ein Server verbraucht im Leerlauf bereits etwa 100 Watt.
+- Bei 50% Last steigt der Verbrauch auf ca. 180 Watt.
+- Bei Volllast werden etwa 200 Watt benötigt.
 
 Das bedeutet: Die Differenz zwischen Halb- und Volllast beträgt nur 20 Watt. Eine möglichst hohe Auslastung ist daher entscheidend für die Energieeffizienz.
 
@@ -34,11 +34,11 @@ Durch gezieltes Scheduling von Workloads in Zeiten mit hohem Anteil erneuerbarer
 
 ## Praktische Handlungsempfehlungen
 
-1. Systeme konsequent abschalten wenn sie nicht benötigt werden (Test-, CI/CD-Systeme etc.)
-2. Dynamische Skalierung implementieren, z.B. über Kubernetes
-3. Batch-Jobs in Zeiten mit niedrigerer CO2-Intensität verschieben
-4. Cloud-Ressourcen intelligent nutzen, z.B. über Spot-Instanzen
-5. Monitoring und Transparenz über tatsächliche Verbräuche schaffen
+1. Systeme konsequent abschalten, wenn sie nicht benötigt werden (Test-, CI/CD-Systeme etc.).
+2. Dynamische Skalierung implementieren, z.B. über Kubernetes.
+3. Batch-Jobs in Zeiten mit niedrigerer CO2-Intensität verschieben.
+4. Cloud-Ressourcen intelligent nutzen, z.B. über Spot-Instanzen.
+5. Monitoring und Transparenz über tatsächliche Verbräuche schaffen.
 
 ## Messung und Standards
 
