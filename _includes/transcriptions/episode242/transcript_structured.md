@@ -1,6 +1,7 @@
-# Folge 242 - Generative AI Meets Software Architecture mit Ralf D.
+# Folge 242 - Generative AI Meets Software Architecture mit Ralf D. Müller
 
-Müller ## Einführung und Themenänderung
+
+## Einführung und Themenänderung
 
 Unfortunately, this has been temporarily prevented.
 
