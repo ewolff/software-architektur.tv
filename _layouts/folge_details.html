@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+  
+{% assign filename = page.path | split: '/' | last %}
+{% assign episode_id = filename | split: '.' | first %}
+{% assign episode = site.posts | where_exp: "post", "post.path contains episode_id" | first %}
+
+{% if page.path contains 'blog_post' %}
+  {% assign calculated_title = episode.title | append: ' | Blog Post' %}
+{% elsif page.path contains 'summary' %}
+  {% assign calculated_title = episode.title | append: ' | Zusammenfassung' %}
+{% elsif page.path contains 'transcriptions' %}
+  {% assign calculated_title = episode.title | append: ' | Transkript' %}
+{% endif %}
+
+  {% include head-folge-details.html %}
+
+  <body>
+    {% include page-header.html %}
+	  
+    <section class="main-content">
+      <section id="content-links">
+	<a href="{{ episode.url }}">Folge</a>
+	&nbsp;
+	<a href="/blog_post/{{ episode_id }}.html">Blog Post</a>
+	&nbsp;
+	<a href="/summary/{{ episode_id }}.html">Zusammenfassung</a>
+	&nbsp;
+	<a href="/transcriptions/{{ episode_id }}.html">Transkript</a>
+      </section>
+
+      
+    {{ content }}
+
+{% if page.thumbnail %}
+    {{ page.date | date: "%Y-%m-%d"}} <a href="{{ site.url }}/thumbnails/{{ page.thumbnail }}">Thumbnail</a>
+{% endif %}
+
+{% if page.peertube %}
+<h2 id="peertube">PeerTube Video - no Big Tech!</h2>
+
+<center>
+    <div class="embed-container">
+      <iframe title="{{ page.title }}"
+	width="560" height="315"
+	src="{{page.peertube}}"
+	frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+    </div>
+</center>
+{% endif %}
+    
+{% if page.video %}
+<h2 id="youtube">YouTube Video</h2>
+
+<center>
+  <div class="embed-container">
+    <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/{{ page.video }}" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" ></iframe>
+    </div>
+</center>
+{% endif %}
+
+{% if page.sketchnote-video %}
+{% if page.sketchnote-video-header %}
+<h2 anchor="sketchnotes">{{ page.sketchnote-video-header }}</h2>
+{% else %}
+<h2 anchor="sketchnotes">Live Sketchnoting</h2>
+{% endif %}
+<center>
+  <div class="embed-container">
+    <iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/{{ page.sketchnote-video }}" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+       picture-in-picture; fullscreen"></iframe>
+    </div>
+</center>
+
+{% endif %}
+
+{% if page.mp3 %}
+<h2 id="podcast">Audio als Podcast</h2>
+
+<center>
+<iframe
+style="width:100%;min-width:275px;min-height:320px;max-width:475px;max-height:400px;border:0;overflow:hidden"
+src="{{ page.embedded-mp3 }}"></iframe>
+</center>
+ 
+<a href="{{ page.mp3 }}">MP3 Download</a>
+
+<br />
+
+<a href="/podcast.html">Infos und Feeds zum Audio als Podcast</a>
+
+{% endif %}
+
+{% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>

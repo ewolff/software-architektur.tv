@@ -10,3 +10,22 @@ plugins:
   - jekyll-feed
 
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: "blog_post"
+      type: "pages"
+    values:
+      layout: folge_details
+
+  - scope:
+      path: "summary"
+      type: "pages"
+    values:
+      layout: folge_details
+
+  - scope:
+      path: "transcriptions"
+      type: "pages"
+    values:
+      layout: folge_details
