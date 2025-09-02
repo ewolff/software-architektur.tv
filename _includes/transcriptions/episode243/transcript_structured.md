@@ -1,18 +1,4 @@
-# Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker in Adventskalender, offensichtlich noch bis Weihnachten, wo es jeden Tag einen Buchtipp gibt von irgendeiner Person.
-
-Sehr vielfältig und sehr spannend.
-
-Guckt da gerne rein.
-
-Ich habe die Links auch in den Chat getan.
-
-Und bei Mastodon kann man dem sogar folgen.
-
-Da gibt es also dann einen Account, wo die neuen Videos dann irgendwie kommen.
-
-Dank FeliVerse kann man eben auch Videos, neue Videos sozusagen, abonnieren.
-
-Und der zweite Hinweis.
+# Folge 243 - Process Orchestration, BPMN und Workflows mit Bernd Rücker
 
 Nächste Woche gibt es eine Episode von den IT-Tagen.
 
