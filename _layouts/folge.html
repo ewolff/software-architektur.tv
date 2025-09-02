@@ -7,6 +7,20 @@
     {% include page-header.html %}
 	  
     <section class="main-content">
+<!-- {{ page.episode_id }} -->
+{% assign blog_path = "blog_post/" | append: page.episode_id | append: ".md" %}
+{% assign blog = site.pages | where: "path", blog_path | first %}
+{% if blog %}     
+      <section id="content-links">
+	<a href="{{ page.url }}">Folge</a>
+	&nbsp;
+	<a href="/blog_post/{{ page.episode_id }}.html">Blog Post</a>
+	&nbsp;
+	<a href="/summary/{{ page.episode_id }}.html">Zusammenfassung</a>
+	&nbsp;
+	<a href="/transcriptions/{{ page.episode_id }}.html">Transkript</a>
+      </section>
+{% endif %}
       
     {{ content }}
 
