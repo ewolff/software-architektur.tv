@@ -5,10 +5,10 @@
 {% assign episode_id = filename | split: '.' | first %}
 {% assign episode = site.posts | where_exp: "post", "post.path contains episode_id" | first %}
 
-{% if page.path contains 'blog_post' %}
-  {% assign calculated_title = episode.title | append: ' | Blog Post' %}
-{% elsif page.path contains 'summary' %}
+{% if page.path contains 'zusammenfassung' %}
   {% assign calculated_title = episode.title | append: ' | Zusammenfassung' %}
+{% elsif page.path contains 'stichpunkte' %}
+  {% assign calculated_title = episode.title | append: ' | Stichpunkte' %}
 {% elsif page.path contains 'transcriptions' %}
   {% assign calculated_title = episode.title | append: ' | Transkript' %}
 {% endif %}
