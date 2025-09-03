@@ -1,0 +1,30 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{{ calculated_title }}</title>
+  {% feed_meta %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/custom1.css">
+  <meta name="twitter:card" content="player" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="twitter:title" content="{{ calculated_title }} " />
+  <meta property="og:title" content="{{ calculated_title }}" />
+  <meta property="og:type" content="{{ page.type | default: "article" }}" />
+  <meta property="twitter:player" content="https://www.youtube.com/embed/{{ episode.video }}" />
+  <meta property="twitter:player:width" content="560" />
+  <meta property="twitter:player:height" content="315" />
+{% if episode.thumbnail %}
+  <meta property="twitter:image" content="{{ site.url }}/thumbnails/{{ episode.thumbnail }}" />
+  <meta property="twitter:image:alt" content="Titel der Folge" />
+  <meta property="og:image" content="{{ site.url }}/thumbnails/{{ episode.thumbnail }}" />  
+{% else %}
+  <meta property="twitter:image" content="{{ site.url }}/twitter-image.jpg" />
+  <meta property="twitter:image:alt" content="Eberhard Wolff vor einem Software Architektur im Stream-Hintergrund" />
+  <meta property="og:image" content="{{ site.url }}/twitter-image.jpg" />
+{% endif %}
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="twitter:description" content="{{ page.description }}" />
+</head>
+

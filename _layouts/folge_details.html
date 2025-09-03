@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+  
+{% assign filename = page.path | split: '/' | last %}
+{% assign episode_id = filename | split: '.' | first %}
+{% assign episode = site.posts | where_exp: "post", "post.path contains episode_id" | first %}
+
+{% if page.path contains 'blog_post' %}
+  {% assign calculated_title = episode.title | append: ' | Blog Post' %}
+{% elsif page.path contains 'summary' %}
+  {% assign calculated_title = episode.title | append: ' | Zusammenfassung' %}
+{% elsif page.path contains 'transcriptions' %}
+  {% assign calculated_title = episode.title | append: ' | Transkript' %}
+{% endif %}
+
+  {% include head-folge-details.html %}
+
+  <body>
+    {% include page-header.html %}
+	  
+    <section class="main-content">
+      <section id="content-links">
+	<a href="{{ episode.url }}">Folge (Video / Podcast)</a>
+	&nbsp;
+	<a href="/blog_post/{{ episode_id }}.html">Blog Post</a>
+	&nbsp;
+	<a href="/summary/{{ episode_id }}.html">Zusammenfassung</a>
+	&nbsp;
+	<a href="/transcriptions/{{ episode_id }}.html">Transkript</a>
+      </section>
+
+      
+    {{ content }}
+
+{% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>

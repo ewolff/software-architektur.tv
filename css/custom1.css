@@ -4,6 +4,11 @@
 	color: #FFFFFF
 }
 
+.main-content #content-links {
+    text-align: center;
+    font-size: 1rem;
+}
+
 .embed-container {
   position: relative; 
   padding-bottom: 56.25%; /* ratio 16x9 */
