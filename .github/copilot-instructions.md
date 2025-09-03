@@ -1,6 +1,6 @@
-# software-architektur.tv
+# Software Architektur im Stream
 
-Software-architektur.tv is a German podcast and live stream website about software architecture hosted by Eberhard Wolff. This is a Jekyll-based static website that generates podcast episode pages with embedded videos, audio podcasts, transcripts, and blog posts. The site is deployed to GitHub Pages.
+Software Architektur im Stream is a German podcast and live stream website about software architecture hosted by Eberhard Wolff. This is a Jekyll-based static website that generates podcast episode pages with embedded videos, audio podcasts, transcripts, and blog posts. The site is deployed to GitHub Pages.
 
 **Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.**
 
