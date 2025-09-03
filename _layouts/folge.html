@@ -10,7 +10,18 @@
 
 {% assign zusammenfassung_path = "zusammenfassung/" | append: page.episode_id | append: ".md" %}
 {% assign zusammenfassung = site.pages | where: "path", zusammenfassung_path | first %}
-{% if zusammenfassung %}     
+{% if zusammenfassung %}
+{% if page.tags contains "English" %}
+      <section id="content-links">
+	<a href="{{ page.url }}">Episode (Video / Podcast)</a>
+	&nbsp;
+	<a href="/zusammenfassung/{{ page.episode_id }}.html">Summary</a>
+	&nbsp;
+	<a href="/stichpunkte/{{ page.episode_id }}.html">Bullet Points</a>
+	&nbsp;
+	<a href="/transcriptions/{{ page.episode_id }}.html">Transcript</a>
+      </section>
+{% else %}
       <section id="content-links">
 	<a href="{{ page.url }}">Folge (Video / Podcast)</a>
 	&nbsp;
@@ -19,7 +30,8 @@
 	<a href="/stichpunkte/{{ page.episode_id }}.html">Stichpunkte</a>
 	&nbsp;
 	<a href="/transcriptions/{{ page.episode_id }}.html">Transkript</a>
-      </section>
+      </section>      
+{% endif %}      
 {% endif %}
       
     {{ content }}
@@ -67,11 +79,16 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture; fullscreen"></iframe>
     </div>
 </center>
-
 {% endif %}
 
 {% if page.mp3 %}
-<h2 id="podcast">Audio als Podcast</h2>
+<h2 id="podcast">Podcast</h2>
+
+{% if page.tags contains "English" %}
+This is the audio as a podcast.
+{% else %}
+Hier findet sich das Audio als Podcast.
+{% endif %}
 
 <center>
 <iframe
@@ -83,7 +100,11 @@ src="{{ page.embedded-mp3 }}"></iframe>
 
 <br />
 
-<a href="/podcast.html">Infos und Feeds zum Audio als Podcast</a>
+{% if page.tags contains "English" %}
+<a href="/podcast.html">Information and feeds for the Podcast</a>
+{% else %}
+<a href="/podcast.html">Infos und Feeds zum Podcast</a>
+{% endif %}
 
 {% endif %}
 
