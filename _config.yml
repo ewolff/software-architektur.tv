@@ -13,13 +13,13 @@ markdown: kramdown
 
 defaults:
   - scope:
-      path: "blog_post"
+      path: "zusammenfassung"
       type: "pages"
     values:
       layout: folge_details
 
   - scope:
-      path: "summary"
+      path: "stichpunkte"
       type: "pages"
     values:
       layout: folge_details

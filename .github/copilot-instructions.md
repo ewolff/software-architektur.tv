@@ -64,7 +64,7 @@ Software-architektur.tv is a German podcast and live stream website about softwa
 
 ### Content Validation
 - **Episode structure**: Each episode post should have frontmatter with video, peertube, mp3, and thumbnail fields
-- **Transcript integration**: Episodes with transcripts should automatically include blog posts, summaries, and full transcripts from `_includes/transcriptions/`
+- **Transcript integration**: Episodes with transcripts should automatically include summaries (Zusammenfassung), bullet points (Stichpunkte) and full transcripts (Transkript) from `transcriptions/`
 - **Media embedding**: Verify YouTube and PeerTube video embeds work correctly
 
 ### Network Considerations

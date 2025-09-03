@@ -8,15 +8,15 @@
 	  
     <section class="main-content">
 
-{% assign blog_path = "blog_post/" | append: page.episode_id | append: ".md" %}
-{% assign blog = site.pages | where: "path", blog_path | first %}
-{% if blog %}     
+{% assign zusammenfassung_path = "zusammenfassung/" | append: page.episode_id | append: ".md" %}
+{% assign zusammenfassung = site.pages | where: "path", zusammenfassung_path | first %}
+{% if zusammenfassung %}     
       <section id="content-links">
 	<a href="{{ page.url }}">Folge (Video / Podcast)</a>
 	&nbsp;
-	<a href="/blog_post/{{ page.episode_id }}.html">Blog Post</a>
+	<a href="/zusammenfassung/{{ page.episode_id }}.html">Zusammenfassung</a>
 	&nbsp;
-	<a href="/summary/{{ page.episode_id }}.html">Zusammenfassung</a>
+	<a href="/stichpunkte/{{ page.episode_id }}.html">Stichpunkte</a>
 	&nbsp;
 	<a href="/transcriptions/{{ page.episode_id }}.html">Transkript</a>
       </section>
