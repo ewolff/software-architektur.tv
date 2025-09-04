@@ -41,24 +41,11 @@ geben euch Impulse, wie ihr eure Website schneller machen könnt.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-## Fragen & Diskussion  / Question & Discussion
+Fragen und Diskussion sonst gerne im Twitch-Chat oder
+YouTube-Chat oder anonym hier:
 
-Der [Slack-Workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) ist eine Möglichkeit für Fragen und
-Interaktionen.
-Es gibt auch eine
-[LinkedIn-Gruppe](https://www.linkedin.com/groups/12879027/).
-Fragen und Diskussion sonst auch gerne im Twitch-Chat oder
-YouTube-Chat, 
-[Mastodon](https://mastodon.social/web/@ewolff) oder anonym
-hier:
-
-The [Slack workspace](https://join.slack.com/t/softwarearchi-z7a7941/shared_invite/zt-1tulnbk2p-RfGUvFstUIqywdZFU3MhAw) is an opportunity to ask questions and
-interact.
-There is also a [LinkedIn
-group](https://www.linkedin.com/groups/12879027/).
-Questions and discussion are also welcome in the Twitch chat or the
-YouTube chat, via
-[Mastodon](https://mastodon.social/web/@ewolff), or
+Questions and discussion are welcome in the Twitch chat or the
+YouTube chat or
 anonymously here:
 
 <div class="embed-container">
