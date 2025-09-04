@@ -5,12 +5,22 @@
 {% assign episode_id = filename | split: '.' | first %}
 {% assign episode = site.posts | where_exp: "post", "post.path contains episode_id" | first %}
 
+{% if episode.tags contains "English" %}
+{% if page.path contains 'zusammenfassung' %}
+  {% assign calculated_title = episode.title | append: ' | Summary' %}
+{% elsif page.path contains 'stichpunkte' %}
+  {% assign calculated_title = episode.title | append: ' | Bullet Points' %}
+{% elsif page.path contains 'transcriptions' %}
+  {% assign calculated_title = episode.title | append: ' | Transcript' %}
+{% endif %}
+{% else %}
 {% if page.path contains 'zusammenfassung' %}
   {% assign calculated_title = episode.title | append: ' | Zusammenfassung' %}
 {% elsif page.path contains 'stichpunkte' %}
   {% assign calculated_title = episode.title | append: ' | Stichpunkte' %}
 {% elsif page.path contains 'transcriptions' %}
   {% assign calculated_title = episode.title | append: ' | Transkript' %}
+{% endif %}
 {% endif %}
 
   {% include head-folge-details.html %}
