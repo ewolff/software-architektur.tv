@@ -9,6 +9,19 @@
     font-size: 1rem;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;              /* space between tiles */
+    align-items: start;
+}
+.image-grid img {
+    width: 100%;
+    height: auto;           /* keeps original aspect ratio */
+    display: block;
+    border-radius: .25rem;  /* small rounding to match Cayman vibe */
+}
+
 .embed-container {
   position: relative; 
   padding-bottom: 56.25%; /* ratio 16x9 */

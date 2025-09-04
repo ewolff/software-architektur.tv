@@ -70,6 +70,18 @@ marginwidth="0">Loading…</iframe>
 </div>
 </div>
 
+## Neueste Folgen
+
+<div class="image-grid">
+{% for post in site.posts limit:4 %}
+	<a href="{{ post.url }}">
+		<img src="{{ site.url }}/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}"
+		loading="lazy">
+	<p>{{ post.title }}</p>
+	</a>
+{% endfor %}
+</div>
+
 ## Links
 
 * [YouTube Channel](https://www.youtube.com/user/ewolff/)
