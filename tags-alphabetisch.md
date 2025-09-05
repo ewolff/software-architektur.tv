@@ -30,11 +30,13 @@ description: Folgen nach Tags
 {% for search_tag in site.tags %}
 	{% if search_tag[0] == tag %}
 	  {% for post in search_tag[1] %}
-<a href="{{ post.url }}">
-<img src="{{ site.url }}/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}"
-		loading="lazy">
-		<p>{{ post.title }}</p>
-</a>
+{% assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{% include link-card.html
+  url=post.url
+  title=post.title
+  image-url=image-url
+  keep-size=true
+  %}
       {% endfor %}
 	{% endif %}
   {% endfor %}

@@ -57,11 +57,13 @@ marginwidth="0">Loading…</iframe>
 
 <div class="image-grid">
 {% for post in site.posts limit:4 %}
-	<a href="{{ post.url }}">
-		<img src="{{ site.url }}/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}"
-		loading="lazy">
-	<p>{{ post.title }}</p>
-	</a>
+{% assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{% include link-card.html
+  url=post.url
+  title=post.title
+  image-url=image-url
+  keep-size=true
+  %}
 {% endfor %}
 </div>
 

@@ -28,7 +28,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 160px;             /* fixed width for uniform cards */
+  width: 180px;             /* fixed width for uniform cards */
   text-decoration: none;    /* remove underline */
   color: inherit;           /* inherit text color */
 }
@@ -40,13 +40,23 @@
   margin-bottom: 0.5em;
 }
 
+.link-card.keep-size img {
+  width: auto;
+  height: auto;
+  object-fit: initial;
+}
+
 .link-card:hover {
   transform: scale(1.05);        /* zoom */
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2); /* deeper shadow */
+
 }
 
 .link-card:hover img {
   transform: scale(1.1);         /* image zooms slightly */
+}
+
+.link-card.keep-size:hover img {
+  transform: scale(1.05);         /* image zooms slightly */
 }
 
 .embed-container {

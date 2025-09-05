@@ -7,11 +7,14 @@ description: Folgen chronologisch
 <div class="image-grid">
 {% for post in site.posts %}
    {% if post.title != "Folge149" %}
-   <a href="{{ post.url }}">
-		<img src="{{ site.url }}/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}"
-		loading="lazy">
-	<p>{{ post.title }}</p>
-	</a>
+{% assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{% include link-card.html
+  url=post.url
+  title=post.title
+  image-url=image-url
+  keep-size=true
+  %}
+
    {% endif %}
 {% endfor %}
 </div>
