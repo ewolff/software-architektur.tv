@@ -10,9 +10,13 @@ Das Audio von Software Architektur im Stream gibt es auch als
 Podcast. So kann man sich die Folgen einfach herunterladen und da
 hören, wo es passt.
 
-[RSS Feed](https://1evriw.podcaster.de/software-architektur-im-stream.rss)
-
 <div class="image-grid">
+{% include link-card.html
+   url="https://1evriw.podcaster.de/software-architektur-im-stream.rss"
+   title="RSS Feed"
+   image-url="/images/Feed-icon.svg" 
+   image-alt="RSS Logo, von Mozilla Foundation - feedicons.com" %}
+
 {% include link-card.html
    url="https://podcasts.apple.com/us/podcast/softwarearchitektur-im-stream/id1538545458"
    title="iTunes"
