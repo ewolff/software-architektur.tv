@@ -14,32 +14,30 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Freitag 2025-09-05 13:00 CEST Web Performance mit Lucas Dohmen und Lisa Maria Schäfer
+## Nächste Episode: Freitag 2025-09-12 13:00 CEST 
 
-In dieser Folge sprechen Lucas Dohmen und Lisa Maria Schäfer über Web
-Performance. Sie klären, was sich dahinter verbirgt und warum das
-Thema wichtig ist – und zwar für alle, die Webseiten entwickeln. Des
-Weiteren stellen sie Tools zum Messen der Web Performance vor und
-geben euch Impulse, wie ihr eure Website schneller machen könnt.
+Thema offen
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[Add to Calendar](stream.ics)
+<!-- [Add to Calendar](stream.ics) -->
 
-## Live Stream
+<!-- ## Live Stream -->
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
- 	src="https://www.youtube-nocookie.com/embed/ObT05w23oB8"
- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
- 	encrypted-media; gyroscope; picture-in-picture fullscreen"
- 	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!--  	src="https://www.youtube-nocookie.com/embed/ObT05w23oB8" -->
+<!--  	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!--  	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!--  	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-[LinkedIn](https://www.linkedin.com/events/7368304271701811201/)
+<!-- [LinkedIn](https://www.linkedin.com/events/7368304271701811201/) -->
 
 [Twitch](https://www.twitch.tv/ebrwolff)
+
+[YouTube Channel](https://www.youtube.com/@EberhardWolff)
 
 Fragen und Diskussion gerne im Twitch-Chat oder
 YouTube-Chat oder anonym hier:
