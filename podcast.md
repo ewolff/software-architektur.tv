@@ -12,32 +12,75 @@ hören, wo es passt.
 
 [RSS Feed](https://1evriw.podcaster.de/software-architektur-im-stream.rss)
 
-[iTunes](https://podcasts.apple.com/us/podcast/softwarearchitektur-im-stream/id1538545458)
+<div class="image-grid">
+{% include link-card.html
+   url="https://podcasts.apple.com/us/podcast/softwarearchitektur-im-stream/id1538545458"
+   title="iTunes"
+   image-url="https://podcasts.apple.com/assets/meta/apple-podcasts.png" %}
 
-[Spotify](https://open.spotify.com/show/7ySg1eZoWYBshd6QpGaW8B)
+{% include link-card.html
+   url="https://open.spotify.com/show/7ySg1eZoWYBshd6QpGaW8B"
+   title="Spotify"
+   image-url="https://open.spotifycdn.com/cdn/images/download-page-image-mac.fec937cc.png" %}
 
-[podcast.de](https://www.podcast.de/podcast/882369/)
+{% include link-card.html
+   url="https://www.podcast.de/podcast/882369/"
+   title="podcast.de"
+   image-url="https://www.podcast.de/images1/podcast.de.svg" %}
 
-[Amazon Music](https://music.amazon.de/podcasts/181ab408-55c2-4bc1-84dc-45a28ccffe05/SoftwareArchitektur-im-Stream)
+{% include link-card.html
+   url="https://music.amazon.de/podcasts/181ab408-55c2-4bc1-84dc-45a28ccffe05/SoftwareArchitektur-im-Stream"
+   title="Amazon Music"
+   image-url="https://m.media-amazon.com/images/G/01/music/logo/1.0/smile_256x256.png" %}
 
-YouTube
-[Audio](https://www.youtube.com/playlist?list=PLeXlULyOtEneSL05ekgpJMS257ZQ51K9A)
-[Video](https://www.youtube.com/playlist?list=PLeXlULyOtEnfkxd4yLoPT7ckxxPmNncN0)
+{% include link-card.html
+   url="https://www.youtube.com/playlist?list=PLeXlULyOtEneSL05ekgpJMS257ZQ51K9A"
+   title="YouTube Audio"
+   image-url="https://www.youtube.com/s/desktop/814d40a6/img/favicon_144x144.png" %}
 
-[RTL+](https://plus.rtl.de/podcast/software-architektur-im-stream-1g0mjs7bhi524)
+{% include link-card.html
+   url="https://www.youtube.com/playlist?list=PLeXlULyOtEnfkxd4yLoPT7ckxxPmNncN0"
+   title="YouTube Video"
+   image-url="https://www.youtube.com/s/desktop/814d40a6/img/favicon_144x144.png" %}
 
-[Deezer](https://www.deezer.com/de/show/1925562)
+{% include link-card.html
+   url="https://plus.rtl.de/podcast/software-architektur-im-stream-1g0mjs7bhi524"
+   title="RTL+"
+   image-url="https://plus.rtl.de/assets/favicon/app-icon-196x196.png" %}
 
-[TuneIn](https://tunein.com/podcasts/Technology-Podcasts/SoftwareArchitektur-im-Stream-p1380036/)
+{% include link-card.html
+   url="https://www.deezer.com/de/show/1925562"
+   title="Deezer"
+   image-url="https://cdn-files.dzcdn.net/cache/images/common/favicon/favicon-240x240.bb3a6a29ad16a77f10cb.png" %}
 
-[Stitcher](https://www.stitcher.com/podcast/softwarearchitektur-im-stream)
+{% include link-card.html
+   url="https://tunein.com/podcasts/Technology-Podcasts/SoftwareArchitektur-im-Stream-p1380036/"
+   title="TuneIn"
+   image-url="https://cdn-web.tunein.com/assets/img/apple-touch-icon-180.png" %}
 
-[PlayerFM](https://de.player.fm/series/softwarearchitektur-im-stream)
+{% include link-card.html
+   url="https://de.player.fm/series/softwarearchitektur-im-stream"
+   title="PlayerFM"
+   image-url="https://imagehost.player.fm/logos/logo-180x180.png" %}
 
-[Listen Notes](https://www.listennotes.com/de/podcasts/softwarearchitektur-im-stream-eberhard-wolff-bjXoK4EwMI8/)
+{% include link-card.html
+   url="https://www.listennotes.com/de/podcasts/softwarearchitektur-im-stream-eberhard-wolff-bjXoK4EwMI8/"
+   title="Listen Notes"
+   image-url="https://www.listennotes.com/static/v4/img/logo/apple-touch-icon.png" %}
 
-[fydd](https://fyyd.de/podcast/softwarearchitektur-im-stream/)
+{% include link-card.html
+   url="https://fyyd.de/podcast/softwarearchitektur-im-stream/"
+   title="fydd"
+   image-url="https://fyyd.de/images/fyyd-touch-180.png" %}
 
-[Castbox](https://castbox.fm/channel/id3486389?country=de)
+{% include link-card.html
+   url="https://castbox.fm/channel/id3486389?country=de"
+   title="Castbox"
+   image-url="https://s3.castbox.fm/app/castbox/static/images/logo_120.png" %}
 
-[Pocket Casts](https://pca.st/aqy9rqwd)
+{% include link-card.html
+   url="https://pca.st/aqy9rqwd"
+   title="Pocket Casts"
+   image-url="https://static.pocketcasts.com/webplayer/favicons/favicon-256x256.png" %}
+
+</div>

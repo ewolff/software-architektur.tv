@@ -14,12 +14,30 @@
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1rem;              /* space between tiles */
     align-items: start;
+    justify-items: center; 
 }
 .image-grid img {
     width: 100%;
     height: auto;           /* keeps original aspect ratio */
     display: block;
     border-radius: .25rem;  /* small rounding to match Cayman vibe */
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 160px;             /* fixed width for uniform cards */
+  text-decoration: none;    /* remove underline */
+  color: inherit;           /* inherit text color */
+}
+
+.link-card img {
+  width: 100px;             /* normalize image width */
+  height: 100px;            /* normalize image height */
+  object-fit: contain;      /* keep aspect ratio inside box */
+  margin-bottom: 0.5em;
 }
 
 .embed-container {
