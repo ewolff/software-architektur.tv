@@ -83,4 +83,14 @@ hören, wo es passt.
    title="Pocket Casts"
    image-url="https://static.pocketcasts.com/webplayer/favicons/favicon-256x256.png" %}
 
+{% include link-card.html
+   url="https://podimo.com/s/BkDO05Z4"
+   title="Podimo"
+   image-url="https://studio.podimo.com/faviconNew.ico" %}
+
+{% include link-card.html
+   url="https://podcastaddict.com/podcast/software-architektur-im-stream/3151301"
+   title="Podcast Addict"
+   image-url="https://podcastaddict.com/res/images/apple-icon-180x180.png" %}
+
 </div>
