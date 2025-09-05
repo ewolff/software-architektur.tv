@@ -29,8 +29,6 @@
   align-items: center;
   text-align: center;
   width: 180px;             /* fixed width for uniform cards */
-  text-decoration: none;    /* remove underline */
-  color: inherit;           /* inherit text color */
 }
 
 .link-card img {
