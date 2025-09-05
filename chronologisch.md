@@ -4,12 +4,15 @@ type: website
 description: Folgen chronologisch
 ---
 
-<ul>
+<div class="image-grid">
 {% for post in site.posts %}
    {% if post.title != "Folge149" %}
-   <li>
-	<a href="{{ post.url }}">{{ post.title }}</a>
-   </li>
+   <a href="{{ post.url }}">
+		<img src="{{ site.url }}/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}"
+		loading="lazy">
+	<p>{{ post.title }}</p>
+	</a>
    {% endif %}
 {% endfor %}
-</ul>
+</div>
+
