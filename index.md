@@ -9,7 +9,7 @@ Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
 D. Müller
 Software-Architektur im
 Live-Stream auf YouTube und Twitch - oft zusammen mit einem
-Gast. Zuschauer können über den Twitch- und YouTube-Chat und
+Gast. Zuschauer können über den Chat und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
@@ -41,7 +41,7 @@ geben euch Impulse, wie ihr eure Website schneller machen könnt.
 
 [Twitch](https://www.twitch.tv/ebrwolff)
 
-Fragen und Diskussion sonst gerne im Twitch-Chat oder
+Fragen und Diskussion gerne im Twitch-Chat oder
 YouTube-Chat oder anonym hier:
 
 Questions and discussion are welcome in the Twitch chat or the
