@@ -10,21 +10,20 @@ description: Folgen nach Tags
 	<a href="/tags-alphabetisch.html">alphabetisch sortiert</a>
 </section>
 
-# Nach Anzahl Folgen sortiert
+# Alphabetisch sortiert
 
-{% capture counts_with_tags_string %}
+{% capture tags %}
 {% for tag in site.tags %}
-{{ tag[1] | size | prepend:"000000" | slice:-6,6 }}:{{ tag[0] }}
+{{ tag[0] }}
 {% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% endcapture %}
 
-{% assign counts_with_tags = counts_with_tags_string | split:"," | sort | reverse %}
+{% assign tags_sorted = tags | split:"," | sort %}
 
-
-{% for count_with_tag in counts_with_tags %}
-  {% assign tag = count_with_tag | split:":" | last | strip %}
-  <h3 id="{{ tag }}">{{ tag }} <a href="#{{ tag }}">#</a></h3>
+{% for unstripped_tag in tags_sorted %}
+  {% assign tag = unstripped_tag | strip %}
+  <h3 id="{{ tag }}">{{ tag }} <a href="/tags.html#{{ tag }}">#</a></h3>
   <ul>
   {% for search_tag in site.tags %}
 	{% if search_tag[0] == tag %}
