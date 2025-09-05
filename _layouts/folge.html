@@ -36,10 +36,19 @@
       
     {{ content }}
 
+Tags:      
+{% if page.tags %}
+{% for tag in page.tags %}
+  <a href="/tags.html/#{{ tag }}">{{ tag }}</a></h3>
+{% endfor %}      
+{% endif %}
+
+<br />
+      
 {% if page.thumbnail %}
     {{ page.date | date: "%Y-%m-%d"}} <a href="{{ site.url }}/thumbnails/{{ page.thumbnail }}">Thumbnail</a>
 {% endif %}
-
+      
 {% if page.peertube %}
 <h2 id="peertube">PeerTube Video - no Big Tech!</h2>
 
