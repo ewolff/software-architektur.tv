@@ -14,9 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Freitag 2025-09-12 13:00 CEST 
-
-Thema offen
+## Nächste Episode: Freitag 2025-09-12 13:00 CEST Wie führe ich mein störrisches LLM? (Ralf)
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
