@@ -40,6 +40,15 @@
   margin-bottom: 0.5em;
 }
 
+.link-card:hover {
+  transform: scale(1.05);        /* zoom */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2); /* deeper shadow */
+}
+
+.link-card:hover img {
+  transform: scale(1.1);         /* image zooms slightly */
+}
+
 .embed-container {
   position: relative; 
   padding-bottom: 56.25%; /* ratio 16x9 */
