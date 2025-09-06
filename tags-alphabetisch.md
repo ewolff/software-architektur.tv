@@ -23,9 +23,10 @@ description: Folgen nach Tags
 
 {% for unstripped_tag in tags_sorted %}
   {% assign tag = unstripped_tag | strip %}
-  <h3 id="{{ tag }}">{{ tag }} <a href="#{{ tag }}">#</a></h3>
   <details>
-  <summary>Folgen ...</summary>
+  <summary>
+  <h3 id="{{ tag }}">{{ tag }} <a href="#{{ tag }}">#</a></h3>
+  </summary>
 <div class="image-grid">
 {% for search_tag in site.tags %}
 	{% if search_tag[0] == tag %}
