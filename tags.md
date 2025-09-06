@@ -25,7 +25,8 @@ description: Folgen nach Tags
   {%- assign tag = count_with_tag | split:":" | last | strip %}
   <details>
   <summary>
-  <h3 id="{{-tag }}">{{-tag }} <a href="#{{-tag }}">#</a></h3>
+  {%- assign count = site.tags[tag] | size %}
+  <h3 id="{{-tag }}">{{-tag }}  ({{count}}) <a href="#{{-tag }}">#</a></h3>
   </summary>
 <div class="image-grid">
 {%- for search_tag in site.tags %}
