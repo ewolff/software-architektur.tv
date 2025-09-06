@@ -1,123 +1,123 @@
 <!DOCTYPE html>
 <html lang="de">
   
-  {% include head-folge.html %}
+  {%- include head-folge.html %}
 
   <body>
-    {% include page-header.html %}
+    {%- include page-header.html %}
 	  
     <section class="main-content">
 
-{% assign zusammenfassung_path = "zusammenfassung/" | append: page.episode_id | append: ".md" %}
-{% assign zusammenfassung = site.pages | where: "path", zusammenfassung_path | first %}
-{% if zusammenfassung %}
-{% if page.tags contains "English" %}
+{%- assign zusammenfassung_path = "zusammenfassung/" | append: page.episode_id | append: ".md" %}
+{%- assign zusammenfassung = site.pages | where: "path", zusammenfassung_path | first %}
+{%- if zusammenfassung %}
+{%- if page.tags contains "English" %}
       <section id="content-links">
-	<a href="{{ page.url }}">Episode (Video/Podcast)</a>
+	<a href="{{-page.url }}">Episode (Video/Podcast)</a>
 	&nbsp;
-	<a href="/zusammenfassung/{{ page.episode_id }}.html">Summary</a>
+	<a href="/zusammenfassung/{{-page.episode_id }}.html">Summary</a>
 	&nbsp;
-	<a href="/stichpunkte/{{ page.episode_id }}.html">Bullet Points</a>
+	<a href="/stichpunkte/{{-page.episode_id }}.html">Bullet Points</a>
 	&nbsp;
-	<a href="/transcriptions/{{ page.episode_id }}.html">Transcript</a>
+	<a href="/transcriptions/{{-page.episode_id }}.html">Transcript</a>
       </section>
-{% else %}
+{%- else %}
       <section id="content-links">
-	<a href="{{ page.url }}">Folge (Video/Podcast)</a>
+	<a href="{{-page.url }}">Folge (Video/Podcast)</a>
 	&nbsp;
-	<a href="/zusammenfassung/{{ page.episode_id }}.html">Zusammenfassung</a>
+	<a href="/zusammenfassung/{{-page.episode_id }}.html">Zusammenfassung</a>
 	&nbsp;
-	<a href="/stichpunkte/{{ page.episode_id }}.html">Stichpunkte</a>
+	<a href="/stichpunkte/{{-page.episode_id }}.html">Stichpunkte</a>
 	&nbsp;
-	<a href="/transcriptions/{{ page.episode_id }}.html">Transkript</a>
+	<a href="/transcriptions/{{-page.episode_id }}.html">Transkript</a>
       </section>      
-{% endif %}      
-{% endif %}
+{%- endif %}      
+{%- endif %}
       
-    {{ content }}
+    {{-content }}
 
 Tags:      
-{% if page.tags %}
-{% for tag in page.tags %}
-  <a href="/tags.html/#{{ tag }}">{{ tag }}</a></h3>
-{% endfor %}      
-{% endif %}
+{%- if page.tags %}
+{%- for tag in page.tags %}
+  <a href="/tags.html/#{{-tag }}">{{-tag }}</a></h3>
+{%- endfor %}      
+{%- endif %}
 
 <br />
       
-{% if page.thumbnail %}
-    {{ page.date | date: "%Y-%m-%d"}} <a href="{{ site.url }}/thumbnails/{{ page.thumbnail }}">Thumbnail</a>
-{% endif %}
+{%- if page.thumbnail %}
+    {{-page.date | date: "%Y-%m-%d"}} <a href="{{-site.url }}/thumbnails/{{-page.thumbnail }}">Thumbnail</a>
+{%- endif %}
       
-{% if page.peertube %}
+{%- if page.peertube %}
 <h2 id="peertube">PeerTube Video - no Big Tech!</h2>
 
 <center>
     <div class="embed-container">
-      <iframe title="{{ page.title }}"
+      <iframe title="{{-page.title }}"
 	width="560" height="315"
-	src="{{page.peertube}}"
+	src="{{-page.peertube}}"
 	frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
     </div>
 </center>
-{% endif %}
+{%- endif %}
     
-{% if page.video %}
+{%- if page.video %}
 <h2 id="youtube">YouTube Video</h2>
 
 <center>
   <div class="embed-container">
     <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/{{ page.video }}" frameborder="0"
+src="https://www.youtube-nocookie.com/embed/{{-page.video }}" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" ></iframe>
     </div>
 </center>
-{% endif %}
+{%- endif %}
 
-{% if page.sketchnote-video %}
-{% if page.sketchnote-video-header %}
-<h2 anchor="sketchnotes">{{ page.sketchnote-video-header }}</h2>
-{% else %}
+{%- if page.sketchnote-video %}
+{%- if page.sketchnote-video-header %}
+<h2 anchor="sketchnotes">{{-page.sketchnote-video-header }}</h2>
+{%- else %}
 <h2 anchor="sketchnotes">Live Sketchnoting</h2>
-{% endif %}
+{%- endif %}
 <center>
   <div class="embed-container">
     <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/{{ page.sketchnote-video }}" frameborder="0"
+src="https://www.youtube-nocookie.com/embed/{{-page.sketchnote-video }}" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
        picture-in-picture; fullscreen"></iframe>
     </div>
 </center>
-{% endif %}
+{%- endif %}
 
-{% if page.mp3 %}
+{%- if page.mp3 %}
 <h2 id="podcast">Podcast</h2>
 
-{% if page.tags contains "English" %}
+{%- if page.tags contains "English" %}
 This is the audio as a podcast.
-{% else %}
+{%- else %}
 Hier findet sich das Audio als Podcast.
-{% endif %}
+{%- endif %}
 
 <center>
 <iframe
 style="width:100%;min-width:275px;min-height:320px;max-width:475px;max-height:400px;border:0;overflow:hidden"
-src="{{ page.embedded-mp3 }}"></iframe>
+src="{{-page.embedded-mp3 }}"></iframe>
 </center>
  
-<a href="{{ page.mp3 }}">MP3 Download</a>
+<a href="{{-page.mp3 }}">MP3 Download</a>
 
 <br />
 
-{% if page.tags contains "English" %}
+{%- if page.tags contains "English" %}
 <a href="/podcast.html">Information and feeds for the Podcast</a>
-{% else %}
+{%- else %}
 <a href="/podcast.html">Infos und Feeds zum Podcast</a>
-{% endif %}
+{%- endif %}
 
-{% endif %}
+{%- endif %}
 
-{% include page-footer.html %}
+{%- include page-footer.html %}
 
     </section>
 

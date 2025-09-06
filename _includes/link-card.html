@@ -1,8 +1,8 @@
-<a href="{{ include.url }}" class="link-card {% if include.keep-size %}keep-size{% endif %}">
-{% if include.image-alt %}
-  <img src="{{ include.image-url }}" alt="{{ include.image-alt  }}" loading="lazy">
-{% else %}
-    <img src="{{ include.image-url }}" alt="{{ include.title  }}" loading="lazy">
-{% endif %}
-<p>{{ include.title }}</p>
+<a href="{{-include.url }}" class="link-card {%- if include.keep-size %}keep-size{%- endif %}">
+{%- if include.image-alt %}
+  <img src="{{-include.image-url }}" alt="{{-include.image-alt  }}" loading="lazy">
+{%- else %}
+    <img src="{{-include.image-url }}" alt="{{-include.title  }}" loading="lazy">
+{%- endif %}
+<p>{{-include.title }}</p>
 </a>

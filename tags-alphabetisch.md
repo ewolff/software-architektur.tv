@@ -12,35 +12,35 @@ description: Folgen nach Tags
 
 # Alphabetisch sortiert
 
-{% capture tags %}
-{% for tag in site.tags %}
-{{ tag[0] }}
-{% unless forloop.last %},{% endunless %}
-{% endfor %}
-{% endcapture %}
+{%- capture tags %}
+{%- for tag in site.tags %}
+{{-tag[0] }}
+{%- unless forloop.last %},{%- endunless %}
+{%- endfor %}
+{%- endcapture %}
 
-{% assign tags_sorted = tags | split:"," | sort %}
+{%- assign tags_sorted = tags | split:"," | sort %}
 
-{% for unstripped_tag in tags_sorted %}
-  {% assign tag = unstripped_tag | strip %}
+{%- for unstripped_tag in tags_sorted %}
+  {%- assign tag = unstripped_tag | strip %}
   <details>
   <summary>
-  <h3 id="{{ tag }}">{{ tag }} <a href="#{{ tag }}">#</a></h3>
+  <h3 id="{{-tag }}">{{-tag }} <a href="#{{-tag }}">#</a></h3>
   </summary>
 <div class="image-grid">
-{% for search_tag in site.tags %}
-	{% if search_tag[0] == tag %}
-	  {% for post in search_tag[1] %}
-{% assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
-{% include link-card.html
+{%- for search_tag in site.tags %}
+	{%- if search_tag[0] == tag %}
+	  {%- for post in search_tag[1] %}
+{%- assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{%- include link-card.html
   url=post.url
   title=post.title
   image-url=image-url
   keep-size=true
   %}
-      {% endfor %}
-	{% endif %}
-  {% endfor %}
+      {%- endfor %}
+	{%- endif %}
+  {%- endfor %}
 </div>
   </details>
-{% endfor %}
+{%- endfor %}

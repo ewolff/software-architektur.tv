@@ -56,15 +56,15 @@ marginwidth="0">Loading…</iframe>
 ## Neueste Folgen
 
 <div class="image-grid">
-{% for post in site.posts limit:4 %}
-{% assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
-{% include link-card.html
+{%- for post in site.posts limit:4 %}
+{%- assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{%- include link-card.html
   url=post.url
   title=post.title
   image-url=image-url
   keep-size=true
   %}
-{% endfor %}
+{%- endfor %}
 </div>
 
 ## Links

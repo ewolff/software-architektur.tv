@@ -27,12 +27,12 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
 ## Videos
 
 <div class="image-grid">
-{% include link-card.html
+{%- include link-card.html
   url="https://www.youtube.com/playlist?list=PLeXlULyOtEnc90H7ENshqn2wc3FJu1GO0"
   title="YouTube Playlist"
   image-url="https://www.youtube.com/s/desktop/814d40a6/img/favicon_144x144.png"
   %}
-{% include link-card.html
+{%- include link-card.html
   url="https://tube.tchncs.de/c/software_architektur_beruf/videos"
   title="PeerTube Kanal"
   image-url="https://tube.tchncs.de/client/assets/images/icons/icon-192x192.png"
@@ -42,37 +42,37 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
 ## Podcast
 
 <div class="image-grid">
-{% include link-card.html
+{%- include link-card.html
    url="https://1evriw.podcaster.de/software-architektur-als-beruf.rss"
    title="RSS Feed"
    image-url="/images/Feed-icon.svg" 
    image-alt="RSS Logo, von Mozilla Foundation - feedicons.com" %}
-{% include link-card.html
+{%- include link-card.html
    url="https://podcasts.apple.com/de/podcast/software-architektur-als-beruf/id1609845784"
    title="iTunes"
    image-url="https://podcasts.apple.com/assets/meta/apple-podcasts.png" %}
-{% include link-card.html
+{%- include link-card.html
    url="https://open.spotify.com/show/2DpgXYFgzqOvNy30pLRj0S"
    title="Spotify"
    image-url="https://open.spotifycdn.com/cdn/images/download-page-image-mac.fec937cc.png" %}
-{% include link-card.html
+{%- include link-card.html
    url="https://www.podcast.de/podcast/2768500/software-architektur-als-beruf"
    title="podcast.de"
    image-url="https://www.podcast.de/images1/podcast.de.svg" %}
-{% include link-card.html
+{%- include link-card.html
    url="https://music.amazon.de/podcasts/ecc13103-a62f-4815-99c2-cfa5fa31b2d0/software-architektur-als-beruf"
    title="Amazon Music"
    image-url="https://m.media-amazon.com/images/G/01/music/logo/1.0/smile_256x256.png" %}
-{% include link-card.html
+{%- include link-card.html
    url="https://www.youtube.com/playlist?list=PLeXlULyOtEnfNxtRBCubR2OoM12LxH61u"
    title="YouTube Audio"
    image-url="https://www.youtube.com/s/desktop/814d40a6/img/favicon_144x144.png" %}
 
-{% include link-card.html
+{%- include link-card.html
    url="https://www.youtube.com/playlist?list=PLeXlULyOtEnc90H7ENshqn2wc3FJu1GO0"
    title="YouTube Video"
    image-url="https://www.youtube.com/s/desktop/814d40a6/img/favicon_144x144.png" %}
-{% include link-card.html
+{%- include link-card.html
    url="https://plus.rtl.de/podcast/software-architektur-als-beruf-c1dgxv2utyhtj"
    title="RTL+"
    image-url="https://plus.rtl.de/assets/favicon/app-icon-196x196.png" %}

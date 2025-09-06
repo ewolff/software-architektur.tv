@@ -5,17 +5,17 @@ description: Folgen chronologisch
 ---
 
 <div class="image-grid">
-{% for post in site.posts %}
-   {% if post.title != "Folge149" %}
-{% assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
-{% include link-card.html
+{%- for post in site.posts %}
+   {%- if post.title != "Folge149" %}
+{%- assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{%- include link-card.html
   url=post.url
   title=post.title
   image-url=image-url
   keep-size=true
   %}
 
-   {% endif %}
-{% endfor %}
+   {%- endif %}
+{%- endfor %}
 </div>
 
