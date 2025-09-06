@@ -67,18 +67,6 @@ marginwidth="0">Loading…</iframe>
 {%- endfor %}
 </div>
 
-## Links
-
-* [YouTube Channel](https://www.youtube.com/user/ewolff/)
-* [Folgen nach Tags](tags.html)
-* [Folgen chronologisch](chronologisch.html)
-* [Podcast](podcast.html)
-* [Buch](/sketchnote-buch)
-* [Kafka Comic](/kafka-comic)
-* [SpreadShop](https://software-architektur-im-stream.myspreadshop.de/)
-  mit Merch
-* [Feed](feed.xml)
-
 ## Lizenz
 
 Inhalte von Software-Architektur im Stream zu konsumieren ist
