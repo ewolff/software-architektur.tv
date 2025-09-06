@@ -44,3 +44,21 @@ description: Folgen nach Tags
 </div>
   </details>
 {% endfor %}
+
+<script>
+document.querySelectorAll('details.hover-details').forEach(details => {
+  // Open when mouse enters the entire details
+  details.addEventListener('mouseenter', () => {
+    details.setAttribute('open', true);
+  });
+
+document.querySelectorAll('details').forEach(details => {
+  const summary = details.querySelector('summary');
+
+  summary.addEventListener('mouseenter', () => {
+    details.setAttribute('open', true);
+  });
+
+
+</script>
+

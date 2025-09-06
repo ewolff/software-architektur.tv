@@ -57,6 +57,17 @@
   transform: scale(1.05);         /* image zooms slightly */
 }
 
+summary h3::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary h3::before {
+  transform: rotate(90deg);
+}
+
 .embed-container {
   position: relative; 
   padding-bottom: 56.25%; /* ratio 16x9 */
