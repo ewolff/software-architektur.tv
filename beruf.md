@@ -26,9 +26,18 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
 
 ## Videos
 
-[YouTube
-Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnc90H7ENshqn2wc3FJu1GO0)&nbsp;&nbsp;&nbsp;[PeerTube
-Kanal](https://tube.tchncs.de/c/software_architektur_beruf/videos)
+<div class="image-grid">
+{% include link-card.html
+  url="https://www.youtube.com/playlist?list=PLeXlULyOtEnc90H7ENshqn2wc3FJu1GO0"
+  title="YouTube Playlist"
+  image-url="https://www.youtube.com/s/desktop/814d40a6/img/favicon_144x144.png"
+  %}
+{% include link-card.html
+  url="https://tube.tchncs.de/c/software_architektur_beruf/videos"
+  title="PeerTube Kanal"
+  image-url="https://tube.tchncs.de/client/assets/images/icons/icon-192x192.png"
+  %}
+</div>
 
 ## Podcast
 
