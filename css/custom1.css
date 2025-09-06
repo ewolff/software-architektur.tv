@@ -1,7 +1,5 @@
-#links a:visited,
-#links a:link
-{	  
-	color: #FFFFFF
+#links a:visited, #links a:link {	  
+    color: #FFFFFF
 }
 
 .main-content #content-links {
@@ -12,89 +10,79 @@
 .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1rem;              /* space between tiles */
+    gap: 1rem;
     align-items: start;
     justify-items: center; 
 }
 .image-grid img {
     width: 100%;
-    height: auto;           /* keeps original aspect ratio */
+    height: auto;
     display: block;
-    border-radius: .25rem;  /* small rounding to match Cayman vibe */
+    border-radius: .25rem;
 }
 
 .link-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 180px;             /* fixed width for uniform cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
 }
-
 .link-card img {
-  width: 100px;             /* normalize image width */
-  height: 100px;            /* normalize image height */
-  object-fit: contain;      /* keep aspect ratio inside box */
-  margin-bottom: 0.5em;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 0.5em;
 }
-
 .link-card.keep-size img {
-  width: auto;
-  height: auto;
-  object-fit: initial;
+    width: auto;
+    height: auto;
+    object-fit: initial;
 }
-
 .link-card:hover {
-  transform: scale(1.05);        /* zoom */
-
+    transform: scale(1.05)
 }
-
 .link-card:hover img {
-  transform: scale(1.1);         /* image zooms slightly */
+    transform: scale(1.1);
 }
-
 .link-card.keep-size:hover img {
-  transform: scale(1.05);         /* image zooms slightly */
+    transform: scale(1.05);
 }
 
 summary h3::before {
-  content: "▶";
-  display: inline-block;
-  margin-right: 0.5em;
-  transition: transform 0.2s ease;
+    content: "▶";
+    display: inline-block;
+    margin-right: 0.5em;
+    transition: transform 0.2s ease;
 }
-
 details[open] summary h3::before {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .embed-container {
-  position: relative; 
-  padding-bottom: 56.25%; /* ratio 16x9 */
-  height: 0; 
-  overflow: hidden; 
-  width: 100%;
-  height: auto;
+    position: relative; 
+    padding-bottom: 56.25%; /* ratio 16x9 */
+    height: 0; 
+    overflow: hidden; 
+    width: 100%;
+    height: auto;
 }
-
 .embed-container iframe {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
 }
-
 .embed-container.ratio4x3 {
-  padding-bottom: 75%;
+    padding-bottom: 75%;
 }
 
 .site-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
-
 .site-footer nav a + a {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
