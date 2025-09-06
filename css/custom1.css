@@ -49,6 +49,11 @@
     transform: scale(1.05);
 }
 
+.link-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
 summary h3::before {
     content: "▶";
     display: inline-block;
