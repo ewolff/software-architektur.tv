@@ -2,9 +2,21 @@
     color: #FFFFFF
 }
 
-.main-content #content-links {
-    text-align: center;
-    font-size: 1rem;
+#content-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#content-links a {
+  padding: 0.4em 0.8em;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+#content-links a:hover {
+  border-bottom: 2px solid #007acc;
+  color: #007acc;
 }
 
 .image-grid {
