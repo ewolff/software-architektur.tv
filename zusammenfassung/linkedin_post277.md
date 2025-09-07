@@ -7,12 +7,12 @@ Wie schnell ist Ihre Website wirklich? In der neuesten Episode von Software Arch
 ▶️ Praktische Tools zur Performance-Messung
 ▶️ Best Practices aus der Praxis
 
-Bonus: Wie Lucas bei Komoot den Largest Contentful Paint von über 3 auf 2,6 Sekunden reduziert habe.
+Bonus: Wie Lucas bei Komoot den Largest Contentful Paint von über 3 auf 2,6 Sekunden reduziert hat.
 
-Fun fact: Ein schlechter Performance-Score kann Ihr Google-Ranking direkt beeinflussen! 
+Fun fact: Ein schlechter Performance-Score kann Ihr Google-Ranking direkt beeinflussen!
 
-Interessiert? Die komplette Episode jetzt auf software-architektur.tv
+Interessiert? Die komplette Episode gibt es als Video / Podcast hier:
 
 #webperformance #webdevelopment #softwarearchitecture #userexperience #seo
 
-Was sind Ihre Erfahrungen mit Web Performance? Lassen Sie es mich in den Kommentaren wissen! 🤔
+Was sind Deine Erfahrungen mit Web Performance? Lass es mich in den Kommentaren wissen! 🤔
