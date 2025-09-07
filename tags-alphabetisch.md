@@ -32,7 +32,7 @@ description: Folgen nach Tags
 {%- for search_tag in site.tags %}
 	{%- if search_tag[0] == tag %}
 	  {%- for post in search_tag[1] %}
-{%- assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{%- assign image-url=site.url | append: "/thumbnails-small/" | append: post.thumbnail %}
 {%- include link-card.html
   url=post.url
   title=post.title
