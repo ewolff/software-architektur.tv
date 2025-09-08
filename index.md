@@ -57,7 +57,7 @@ marginwidth="0">Loading…</iframe>
 
 <div class="image-grid">
 {%- for post in site.posts limit:4 %}
-{%- assign image-url=site.url | append: "/thumbnails/" | append: post.thumbnail %}
+{%- assign image-url=site.url | append: "/thumbnails-small/" | append: post.thumbnail %}
 {%- include link-card.html
   url=post.url
   title=post.title

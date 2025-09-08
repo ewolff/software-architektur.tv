@@ -9,7 +9,7 @@ twitterimage:alt: Software-Architektur als Beruf Logo
 # Software-Architektur als Beruf
 
 <center>
-<img src="/thumbnails/beruf.png" alt="Software-Architektur als Beruf Logo" />
+<img src="/thumbnails-small/beruf.png" alt="Software-Architektur als Beruf Logo" />
 </center>
 
 Bei "Software-Architektur als Beruf" erzählen Menschen, wie ihr
