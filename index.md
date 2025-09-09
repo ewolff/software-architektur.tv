@@ -1,5 +1,5 @@
 ---
-title: Software-Architektur im Stream
+title: "Software-Architektur im Stream"
 type: website
 description: Live-Diskussion zu Software-Architektur im Stream
 tagline: Live-Diskussion zu Software-Architektur
