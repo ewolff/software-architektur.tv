@@ -16,6 +16,21 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Episode: Freitag 2025-09-12 13:00 CEST "Wie führe ich mein störrisches LLM auf den richtigen Weg?" mit Oliver Jägle und Ralf D. Müller
 
+<center>
+<div class="embed-container"> <iframe width="560" height="315"
+  	src="https://www.youtube-nocookie.com/embed/Im8Bzdjkpys"
+ 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ 	encrypted-media; gyroscope; picture-in-picture fullscreen"
+ 	></iframe>
+</div>
+</center>
+
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
+
 "Implementiere Feature X" - und schon spuckt das LLM komplexen Code aus, ohne dass du nach der Architektur gefragt hast. Du bekommst funktionsfähigen Code, aber keine Ahnung, warum diese Entscheidungen getroffen wurden. Das Resultat: Du verbringst mehr Zeit damit, generierten Code zu verstehen als das eigentliche Problem zu lösen.
 
 Oliver Jägle, Senior Engineer bei DB Systel, hat eine überraschende Erklärung: Das LLM ist nicht schuld - wir kommunizieren schlecht, was wir brauchen. Mit "Responsible Vibe MCP" demonstriert er, wie ein intelligenter "Conversation State Manager" als digitaler Projektleiter fungiert und LLMs durch strukturierte Entwicklungsworkflows führt.
@@ -29,21 +44,6 @@ Ein praktisches Gespräch über die Transformation von Code-generierenden Maschi
 [Add to Calendar](stream.ics)
 
 ## Live Stream
-
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-  	src="https://www.youtube-nocookie.com/embed/Im8Bzdjkpys"
- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
- 	encrypted-media; gyroscope; picture-in-picture fullscreen"
- 	></iframe>
-</div>
-</center>
-
-[LinkedIn](https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/)
-
-[Twitch](https://www.twitch.tv/ebrwolff)
-
-[YouTube Channel](https://www.youtube.com/@EberhardWolff)
 
 Fragen und Diskussion gerne im Twitch-Chat oder
 YouTube-Chat oder anonym hier:
