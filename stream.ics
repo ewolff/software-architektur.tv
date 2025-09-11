@@ -21,18 +21,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1756752479138-92wjom2tezt@ics-generator.local
-DTSTAMP:20250901T204759
-DTSTART;TZID=Europe/Berlin:20250905T130000
-DTEND;TZID=Europe/Berlin:20250905T140000
-SUMMARY:Web Performance mit Lucas Dohmen und Lisa Maria Schäfer
-DESCRIPTION:In dieser Folge sprechen Lucas Dohmen und Lisa Maria Schäfer üb
- er Web Performance. Sie klären\, was sich dahinter verbirgt und warum das T
- hema wichtig ist – und zwar für alle\, die Webseiten entwickeln. Des Weiter
- en stellen sie Tools zum Messen der Web Performance vor und geben euch Impu
- lse\, wie ihr eure Website schneller machen könnt.
-LOCATION:https://youtu.be/ObT05w23oB8 https://www.linkedin.com/events/73683
- 04271701811201/ https://www.twitch.tv/ebrwolff
+UID:1757531051383-t7m41hahxk@ics-generator.local
+DTSTAMP:20250910T210411
+DTSTART;TZID=Europe/Berlin:20250912T130000
+DTEND;TZID=Europe/Berlin:20250912T140000
+SUMMARY:"Wie führe ich mein störrisches LLM auf den richtigen Weg?" mit Oli
+ ver Jägle und Ralf D. Müller
+DESCRIPTION:"Implementiere Feature X" - und schon spuckt das LLM komplexen 
+ Code aus\, ohne dass du nach der Architektur gefragt hast. Du bekommst funk
+ tionsfähigen Code\, aber keine Ahnung\, warum diese Entscheidungen getroffe
+ n wurden. Das Resultat: Du verbringst mehr Zeit damit\, generierten Code zu
+  verstehen als das eigentliche Problem zu lösen.\n\nOliver Jägle\, Senior E
+ ngineer bei DB Systel\, hat eine überraschende Erklärung: Das LLM ist nicht
+  schuld - wir kommunizieren schlecht\, was wir brauchen. Mit "Responsible V
+ ibe MCP" demonstriert er\, wie ein intelligenter "Conversation State Manage
+ r" als digitaler Projektleiter fungiert und LLMs durch strukturierte Entwic
+ klungsworkflows führt.\n\nStatt sofortiger Code-Dumps führt das Tool system
+ atisch durch Requirements-Klärung: Wer sind die Nutzer? Welche Constraints?
+  Welche Features sind kritisch? Das Ergebnis: Durchdachte\, begründete Arch
+ itektur-Entscheidungen statt zufälliger Tech-Stack-Kombinationen.\n\nEin pr
+ aktisches Gespräch über die Transformation von Code-generierenden Maschinen
+  zu durchdachten Entwicklungspartnern - durch bessere Kommunikation statt L
+ LM-Zähmung.
+LOCATION:https://software-architektur.tv/  https://www.youtube.com/watch?v=
+ Im8Bzdjkpys
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
