@@ -16,10 +16,10 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
 
-<!-- {% include youtube.html -->
+<!--  include youtube.html -->
 <!--   youtube-video-id="Im8Bzdjkpys" -->
 <!--   image-url="/thumbnails/folge278.png" -->
-<!--   %} -->
+<!--    -->
 
 <!-- <section id="content-links"> -->
 <!-- 	<a href="https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/">LinkedIn</a> -->
