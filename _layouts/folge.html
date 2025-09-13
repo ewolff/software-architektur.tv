@@ -53,15 +53,24 @@ Tags:
 <h2 id="peertube">PeerTube Video - no Big Tech!</h2>
 
 <center>
-    <div class="embed-container">
-      <iframe title="{{-page.title }}"
-	width="560" height="315"
-	src="{{-page.peertube}}"
-	frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-    </div>
+    <div class="embed-container" peertube-video-link="{{-page.peertube}}">
+    {%- assign peertube_link = page.peertube | replace: "videos/embed/", "w/" %}
+      <a href="{{-peertube_link}}" >
+	<img src="{{-site.url }}/thumbnails/{{-page.thumbnail }}" width="832"
+	     />
+      </a>
+  <div class="play-icon">▶<br /></div>
 </center>
 {%- endif %}
-    
+
+<p>Durch Klick auf das „Video abspielen“-Symbol willigen Sie ein, dass
+    Inhalte von Tchns.de angezeigt werden. Dabei können
+    personenbezogene Daten übertragen werden und Daten im Local
+    Storage gespeichert werden. Details finden Sie in
+    unserer <a href="/datenschutzhinweise.html">Datenschutzerklärung</a>.
+</p>
+
+
 {%- if page.video %}
 <h2 id="youtube">YouTube Video</h2>
 
@@ -85,22 +94,35 @@ Tags:
 <script>
 document.querySelectorAll(".embed-container").forEach(container => {
   const videoId = container.getAttribute("youtube-video-id");
-  if (!videoId) return;  // Skip this container if missing or empty
-
   const link = container.querySelector("a");
-
-  link.addEventListener("click", event => {
-    event.preventDefault();
-    const iframe = document.createElement("iframe");
-    iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + videoId + "?autoplay=1");
-    iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("width", "560");
-    iframe.setAttribute("height", "315");
-    iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen");
-
-    container.innerHTML = "";
-    container.appendChild(iframe);
-  });
+  if (videoId) {
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      const iframe = document.createElement("iframe");
+      iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + videoId + "?autoplay=1");
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("width", "560");
+      iframe.setAttribute("height", "315");
+      iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen");
+      container.innerHTML = "";
+      container.appendChild(iframe);
+    })
+  }
+  const peertubeVideoLink = container.getAttribute("peertube-video-link");
+  if (peertubeVideoLink) {
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      const iframe = document.createElement("iframe");
+      iframe.setAttribute("src", peertubeVideoLink+"?autoplay=1");
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("width", "560");
+      iframe.setAttribute("height", "315");
+      iframe.setAttribute("allowfullscreen", "");
+      iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
+      container.innerHTML = "";
+      container.appendChild(iframe);
+    })
+  }
 });
 </script>
 
