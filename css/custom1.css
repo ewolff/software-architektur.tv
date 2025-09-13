@@ -100,9 +100,9 @@ details[open] summary h3::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4rem;
-  color: black;
-  text-shadow: 0 0 12px rgba(0,0,0,0.7);
+  font-size: 6rem;
+  color: #63c7b2;
+  text-shadow: 0 0 24px rgba(0,0,0,0.9);
 
   pointer-events: none;
 }
