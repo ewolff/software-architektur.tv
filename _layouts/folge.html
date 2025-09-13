@@ -93,13 +93,13 @@ Tags:
 
 <script>
 document.querySelectorAll(".embed-container").forEach(container => {
-  const videoId = container.getAttribute("youtube-video-id");
+  const youtubeVideoId = container.getAttribute("youtube-video-id");
   const link = container.querySelector("a");
-  if (videoId) {
+  if (youtubeVideoId) {
     link.addEventListener("click", event => {
       event.preventDefault();
       const iframe = document.createElement("iframe");
-      iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + videoId + "?autoplay=1");
+      iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + youtubeVideoId + "?autoplay=1");
       iframe.setAttribute("frameborder", "0");
       iframe.setAttribute("width", "560");
       iframe.setAttribute("height", "315");
