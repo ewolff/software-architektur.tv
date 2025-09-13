@@ -76,14 +76,13 @@ Tags:
 {%- else %}
 <h2 anchor="sketchnotes">Live Sketchnoting</h2>
 {%- endif %}
-<center>
-  <div class="embed-container">
-    <iframe width="560" height="315"
-src="https://www.youtube-nocookie.com/embed/{{-page.sketchnote-video }}" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-       picture-in-picture; fullscreen"></iframe>
-    </div>
-</center>
+{%- assign image-url=site.url | append: "/thumbnails/" | append: page.thumbnail %}
+
+{%- include youtube.html
+  youtube-video-id=page.sketchnote-video
+  image-url=image-url
+  %}
+
 {%- endif %}
 
 {%- if page.mp3 %}
