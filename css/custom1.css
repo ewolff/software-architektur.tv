@@ -77,13 +77,14 @@ details[open] summary h3::before {
 
 .embed-container {
     position: relative; 
-    padding-bottom: 56.25%; /* ratio 16x9 */
+    padding-bottom: 56.25%;
     height: 0; 
     overflow: hidden; 
     width: 100%;
     height: auto;
 }
-.embed-container iframe {
+.embed-container iframe,
+.embed-container img {
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -93,6 +94,20 @@ details[open] summary h3::before {
 .embed-container.ratio4x3 {
     padding-bottom: 75%;
 }
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: black;
+  text-shadow: 0 0 12px rgba(0,0,0,0.7);
+
+  pointer-events: none;
+}
+
+
 
 .site-footer {
     display: flex;
