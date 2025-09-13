@@ -117,3 +117,7 @@ details[open] summary h3::before {
 .site-footer nav a + a {
     margin-left: 1rem;
 }
+
+.fineprint {
+  font-size: .8rem;
+}
