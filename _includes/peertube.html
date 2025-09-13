@@ -1,0 +1,16 @@
+<center>
+    <div class="embed-container" peertube-video-link="{{-include.peertube}}">
+    {%- assign peertube_link = include.peertube | replace: "videos/embed/", "w/" %}
+      <a href="{{-peertube_link}}" >
+	<img src="{{-include.image-url}}" width="832" />
+      </a>
+    <div class="play-icon">▶<br /></div>
+    </div>    
+</center>
+
+<div class="fineprint">Durch Klick auf das '▶'-Symbol willigen Sie ein, dass
+    Inhalte von Tchns.de angezeigt werden. Dabei können
+    personenbezogene Daten übertragen werden und Daten im Local
+    Storage gespeichert werden. Details finden Sie in
+    unserer <a href="/datenschutzhinweise.html">Datenschutzerklärung</a>.
+</div>
