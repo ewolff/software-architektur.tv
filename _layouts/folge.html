@@ -56,9 +56,9 @@ Tags:
     <div class="embed-container" peertube-video-link="{{-page.peertube}}">
     {%- assign peertube_link = page.peertube | replace: "videos/embed/", "w/" %}
       <a href="{{-peertube_link}}" >
-	<img src="{{-site.url }}/thumbnails/{{-page.thumbnail }}" width="832"
-	     />
+	<img src="{{-site.url }}/thumbnails/{{-page.thumbnail }}" width="832" />
       </a>
+    </div>
   <div class="play-icon">▶<br /></div>
 </center>
 {%- endif %}
@@ -74,22 +74,11 @@ Tags:
 {%- if page.video %}
 <h2 id="youtube">YouTube Video</h2>
 
-<center>
-  <div class="embed-container" youtube-video-id="{{-page.video}}" >
-  <a href="https://www.youtube.com/watch?v={{-page.video}}" >
-    <img src="{{-site.url }}/thumbnails/{{-page.thumbnail }}" width="832"
-    />
-  </a>
-  <div class="play-icon">▶<br /></div>
-  </div>
-</center>
-
-<div class="fineprint">Durch Klick auf das '▶'-Symbol willigen Sie ein, dass
-    Inhalte von YouTube angezeigt werden. Dabei können
-    personenbezogene Daten an Google übertragen und Cookies gesetzt
-    werden. Details finden Sie in
-    unserer <a href="/datenschutzhinweise.html">Datenschutzerklärung</a>.
-</div>
+{%- assign image-url=site.url | append: "/thumbnails/" | append: page.thumbnail %}
+{%- include youtube.html
+  youtube-video-id=page.video
+  image-url=image-url
+  %}
 {%- endif %}
 
 {%- if page.sketchnote-video %}
