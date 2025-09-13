@@ -14,41 +14,43 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Freitag 2025-09-12 13:00 CEST "Wie führe ich mein störrisches LLM auf den richtigen Weg?" mit Oliver Jägle und Ralf D. Müller
+## Nächste Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
 
-<center>
-<div class="embed-container"> <iframe width="560" height="315"
-  	src="https://www.youtube-nocookie.com/embed/Im8Bzdjkpys"
- 	frameborder="0" allow="accelerometer; autoplay; clipboard-write;
- 	encrypted-media; gyroscope; picture-in-picture fullscreen"
- 	></iframe>
-</div>
-</center>
+<!-- <center> -->
+<!-- <div class="embed-container"> <iframe width="560" height="315" -->
+<!--   	src="https://www.youtube-nocookie.com/embed/Im8Bzdjkpys" -->
+<!--  	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!--  	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
+<!--  	></iframe> -->
+<!-- </div> -->
+<!-- </center> -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-"Implementiere Feature X" - und schon spuckt das LLM komplexen Code aus, ohne dass du nach der Architektur gefragt hast. Du bekommst funktionsfähigen Code, aber keine Ahnung, warum diese Entscheidungen getroffen wurden. Das Resultat: Du verbringst mehr Zeit damit, generierten Code zu verstehen als das eigentliche Problem zu lösen.
-
-Oliver Jägle, Senior Engineer bei DB Systel, hat eine überraschende Erklärung: Das LLM ist nicht schuld - wir kommunizieren schlecht, was wir brauchen. Mit "Responsible Vibe MCP" demonstriert er, wie ein intelligenter "Conversation State Manager" als digitaler Projektleiter fungiert und LLMs durch strukturierte Entwicklungsworkflows führt.
-
-Statt sofortiger Code-Dumps führt das Tool systematisch durch Requirements-Klärung: Wer sind die Nutzer? Welche Constraints? Welche Features sind kritisch? Das Ergebnis: Durchdachte, begründete Architektur-Entscheidungen statt zufälliger Tech-Stack-Kombinationen.
-
-Ein praktisches Gespräch über die Transformation von Code-generierenden Maschinen zu durchdachten Entwicklungspartnern - durch bessere Kommunikation statt LLM-Zähmung.
+Residuality theory is a revolutionary new theory of software design
+that aims to make it easier to design software systems for complex
+business environments. Residuality theory models software systems as
+interconnected residues – an alternative to component and process
+modeling. It uses applied complexity science to make managing
+uncertainty a fundamental part of the design process. In this episode,
+we will discuss this novel approach with Barry O’Reilly, veteran
+architect. Barry will also do a workshop and a talk about this subject
+at the Software Architecture Gathering.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
 [Add to Calendar](stream.ics)
 
-## Live Stream
+## Fragen, Diskussion und Anregungen
 
-Fragen und Diskussion gerne im Twitch-Chat oder
+Fragen, Diskussion und Anregungen für die Episode oder den Stream gerne im Twitch-Chat oder
 YouTube-Chat oder anonym hier:
 
-Questions and discussion are welcome in the Twitch chat or the
+Questions, discussion, and suggestions are welcome in the Twitch chat or the
 YouTube chat or
 anonymously here:
 
