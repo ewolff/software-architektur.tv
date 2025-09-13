@@ -16,14 +16,10 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
 
-<!-- <center> -->
-<!-- <div class="embed-container"> <iframe width="560" height="315" -->
-<!--   	src="https://www.youtube-nocookie.com/embed/Im8Bzdjkpys" -->
-<!--  	frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
-<!--  	encrypted-media; gyroscope; picture-in-picture fullscreen" -->
-<!--  	></iframe> -->
-<!-- </div> -->
-<!-- </center> -->
+<!-- {% include youtube.html -->
+<!--   youtube-video-id="Im8Bzdjkpys" -->
+<!--   image-url="/thumbnails/folge278.png" -->
+<!--   %} -->
 
 <!-- <section id="content-links"> -->
 <!-- 	<a href="https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/">LinkedIn</a> -->
@@ -91,3 +87,5 @@ Attributiert werden sollen:
 * Für Sketchnotes Lisa Maria Schäfer
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
+
+<script src="/js/embed-video.js"></script>
