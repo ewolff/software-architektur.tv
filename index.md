@@ -8,7 +8,7 @@ tagline: Live-Diskussion zu Software-Architektur
 Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
 D. Müller
 Software-Architektur im
-Live-Stream auf YouTube und Twitch - oft zusammen mit einem
+Live-Stream auf YouTube, Twitch und manchmal LinkedIn - oft zusammen mit einem
 Gast. Zuschauer können über den Chat und
 das Formular unten mitdiskutieren oder Fragen
 stellen. 
@@ -43,7 +43,7 @@ at the Software Architecture Gathering.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[Add to Calendar](stream.ics)
+[Zum Kalendar hinzufügen](stream.ics)
 
 ## Fragen, Diskussion und Anregungen
 
