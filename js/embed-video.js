@@ -24,7 +24,7 @@ document.querySelectorAll(".embed-container").forEach(container => {
       iframe.setAttribute("width", "560");
       iframe.setAttribute("height", "315");
       iframe.setAttribute("allowfullscreen", "");
-      iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups");
+      iframe.setAttribute("sandbox", "allow-same-origin allow-scripts allow-popups allow-forms");
       container.innerHTML = "";
       container.appendChild(iframe);
     })
