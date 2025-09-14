@@ -87,5 +87,3 @@ Attributiert werden sollen:
 * Für Sketchnotes Lisa Maria Schäfer
 
 <a rel="me" href="https://mastodon.social/@ewolff"></a>
-
-<script src="/js/embed-video.js"></script>
