@@ -1,8 +1,8 @@
 const peertubeContainer=document.getElementById("peertubeContainer");
-const peertubeLink = peertubeContainer.querySelector("a");
+const peertubeConsent = document.getElementById("peertubeConsent");
 const peertubeVideoLink = peertubeContainer.getAttribute("peertube-video-link");
 if (peertubeVideoLink) {
-    peertubeLink.addEventListener("click", event => {
+    peertubeConsent.addEventListener("change", event => {
 	event.preventDefault();
 	const iframe = document.createElement("iframe");
 	iframe.setAttribute("src", peertubeVideoLink+"?autoplay=1");
@@ -15,4 +15,3 @@ if (peertubeVideoLink) {
 	peertubeContainer.appendChild(iframe);
     })
 }
-

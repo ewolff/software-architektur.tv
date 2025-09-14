@@ -1,8 +1,8 @@
 const youtubeContainer = document.getElementById("youtubeContainer");
 const youtubeVideoId = youtubeContainer.getAttribute("youtube-video-id");
-const youtubeLink = youtubeContainer.querySelector("a");
+const youtubeConsent = document.getElementById("youtubeConsent");
 if (youtubeVideoId) {
-    youtubeLink.addEventListener("click", event => {
+    youtubeConsent.addEventListener("change", event => {
 	event.preventDefault();
 	const iframe = document.createElement("iframe");
 	iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + youtubeVideoId + "?autoplay=1");
@@ -14,4 +14,3 @@ if (youtubeVideoId) {
 	youtubeContainer.appendChild(iframe);
     })
 }
-
