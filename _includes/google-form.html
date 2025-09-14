@@ -1,0 +1,16 @@
+{%- assign form-url-embed = include.form-url | append: "?embedded=true" %}
+<center>
+  <div id="googleFormContainer" 
+       form-url="{{-form-url-embed}}">
+    <a href="{{-include.form-url}}" >
+      <img src="{{-include.image-url}}" />
+    </a>
+  </div>
+</center>
+
+<input type="checkbox" id="googleformConsent" value="no">
+Google-Formular anzeigen siehe
+<a href="/datenschutzhinweise.html">Datenschutzerklärung</a>
+
+<script src="/js/embed-google-form.js" defer></script>
+

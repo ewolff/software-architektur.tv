@@ -50,14 +50,10 @@ Questions, discussion, and suggestions are welcome in the Twitch chat or the
 YouTube chat or
 anonymously here:
 
-<div class="embed-container">
-<div class="ratio4x3">
-<iframe
-src="https://docs.google.com/forms/d/e/1FAIpQLSf0xIZkNG_wRJ0IiobVcO3Z-q3dQMcwYTww0wgiWCupZCKM4A/viewform?embedded=true"
-width="640" height="450" frameborder="0" marginheight="0"
-marginwidth="0">Loading…</iframe>
-</div>
-</div>
+{%- include google-form.html
+  form-url="https://docs.google.com/forms/d/e/1FAIpQLSf0xIZkNG_wRJ0IiobVcO3Z-q3dQMcwYTww0wgiWCupZCKM4A/viewform"
+  image-url="/images/google-form.png"
+  %}
 
 ## Neueste Folgen
 
