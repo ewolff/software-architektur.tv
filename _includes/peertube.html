@@ -1,12 +1,11 @@
-<center>
-    <div id="peertubeContainer" class="embed-container" peertube-video-link="{{-include.peertube}}">
-    {%- assign peertube_link = include.peertube | replace: "videos/embed/", "w/" %}
-      <a href="{{-peertube_link}}" >
-	<img src="{{-include.image-url}}" width="832" />
-      </a>
-    <div class="play-icon">▶<br /></div>
-    </div>    
-</center>
+<div id="peertubeContainer" class="embed-container" peertube-video-link="{{-include.peertube}}">
+  {%- assign peertube_link = include.peertube | replace: "videos/embed/", "w/" %}
+  <a href="{{-peertube_link}}" >
+    <img src="{{-include.image-url}}" width="832" />
+  </a>
+  <div class="play-icon">▶<br /></div>
+</div>    
+
 
 <input type="checkbox" id="peertubeConsent" value="no">
 Peertube-Video von tchncs.de anzeigen 
