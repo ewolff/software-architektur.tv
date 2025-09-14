@@ -2,8 +2,10 @@
   <meta charset="UTF-8">
   {%- if page.title !=  "Software-Architektur im Stream" %} 
   <title>{{-page.title }} | Software Architektur im Stream</title>
+  <meta property="og:title" content="{{-page.title }} | Software Architektur im Stream" />
   {% else %}
   <title>Software Architektur im Stream</title>
+  <meta property="og:title" content="Software Architektur im Stream" />
   {% endif %}
   {%- feed_meta %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +14,6 @@
   <link rel="stylesheet" href="{{-site.baseurl }}/css/cayman.css">
   <link rel="stylesheet" href="{{-site.baseurl }}/css/custom1.css">
   <meta property="og:url" content="{{-site.url }}{{-page.url }}" />
-  <meta property="og:title" content="{{-page.title }} | Software Architektur im Stream" />
   <meta property="og:type" content="{{-page.type | default: "article" }}" />
   {%- if page.twitterimage %}
   <meta property="og:image" content="{{-site.url }}/{{-page.twitterimage }}" />
