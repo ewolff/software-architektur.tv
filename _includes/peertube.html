@@ -1,5 +1,5 @@
 <center>
-    <div class="embed-container" peertube-video-link="{{-include.peertube}}">
+    <div id="peertubeContainer" class="embed-container" peertube-video-link="{{-include.peertube}}">
     {%- assign peertube_link = include.peertube | replace: "videos/embed/", "w/" %}
       <a href="{{-peertube_link}}" >
 	<img src="{{-include.image-url}}" width="832" />

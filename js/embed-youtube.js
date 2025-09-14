@@ -1,8 +1,8 @@
-const container=document.getElementById("youtubeContainer");
-const youtubeVideoId = container.getAttribute("youtube-video-id");
-const link = container.querySelector("a");
+const youtubeContainer = document.getElementById("youtubeContainer");
+const youtubeVideoId = youtubeContainer.getAttribute("youtube-video-id");
+const youtubeLink = youtubeContainer.querySelector("a");
 if (youtubeVideoId) {
-    link.addEventListener("click", event => {
+    youtubeLink.addEventListener("click", event => {
 	event.preventDefault();
 	const iframe = document.createElement("iframe");
 	iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + youtubeVideoId + "?autoplay=1");
@@ -10,8 +10,8 @@ if (youtubeVideoId) {
 	iframe.setAttribute("width", "560");
 	iframe.setAttribute("height", "315");
 	iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen");
-	container.innerHTML = "";
-	container.appendChild(iframe);
+	youtubeContainer.innerHTML = "";
+	youtubeContainer.appendChild(iframe);
     })
 }
 
