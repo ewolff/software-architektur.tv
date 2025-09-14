@@ -1,14 +1,13 @@
 <div id="peertubeContainer" class="embed-container" peertube-video-link="{{-include.peertube}}">
   {%- assign peertube_link = include.peertube | replace: "videos/embed/", "w/" %}
-  <a href="{{-peertube_link}}" >
-    <img src="{{-include.image-url}}" width="832" />
-  </a>
+  <img src="{{-include.image-url}}" width="832" />
   <div class="play-icon">▶<br /></div>
 </div>    
 
-
 <input type="checkbox" id="peertubeConsent" value="no">
-Peertube-Video von tchncs.de anzeigen 
+Peertube-Video von tchncs.de eingebettet anzeigen 
 <a href="/datenschutzhinweise.html">Datenschutzerklärung</a>
+<br />
+<a href="{{-peertube_link}}" >Video bei tchncs.de</a>
 
 <script src="/js/embed-peertube.js" defer></script>
