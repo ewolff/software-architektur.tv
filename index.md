@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
+## Next Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
 
 {% include youtube.html
   youtube-video-id="dkAmXBLCmHI"
