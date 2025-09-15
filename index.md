@@ -16,16 +16,16 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
 
-<!--  include youtube.html -->
-<!--   youtube-video-id="Im8Bzdjkpys" -->
-<!--   image-url="/thumbnails/folge278.png" -->
-<!--    -->
+{% include youtube.html
+  youtube-video-id="dkAmXBLCmHI"
+  image-url="/thumbnails/episode279.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/wief-hreichmeinst-rrischesllmau7370919397768601600/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7373429480855347200/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 Residuality theory is a revolutionary new theory of software design
 that aims to make it easier to design software systems for complex
