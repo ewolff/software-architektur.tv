@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Freitag 2025-09-26 13:00 CEST Thema offen
+## Nächste Folge: Freitag 2025-09-26 13:00 CEST Thema offen
 
 
 
