@@ -14,32 +14,34 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Freitag 2025-09-19 13:00 CEST Residuality Theory with Barry O’Reilly 
+## Next Episode: Freitag 2025-09-26 13:00 CEST Thema offen
 
-{% include youtube.html
-  youtube-video-id="dkAmXBLCmHI"
-  image-url="/thumbnails/episode279.png"
-%}
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7373429480855347200/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
 
-Residuality theory is a revolutionary new theory of software design
-that aims to make it easier to design software systems for complex
-business environments. Residuality theory models software systems as
-interconnected residues – an alternative to component and process
-modeling. It uses applied complexity science to make managing
-uncertainty a fundamental part of the design process. In this episode,
-we will discuss this novel approach with Barry O’Reilly, veteran
-architect. Barry will also do a workshop and a talk about this subject
-at the Software Architecture Gathering.
+<!--  include youtube.html -->
+<!--   youtube-video-id="dkAmXBLCmHI" -->
+<!--   image-url="/thumbnails/episode279.png" -->
+<!-- %} -->
 
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7373429480855347200/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-[Zum Kalendar hinzufügen](stream.ics)
+<!-- Residuality theory is a revolutionary new theory of software design -->
+<!-- that aims to make it easier to design software systems for complex -->
+<!-- business environments. Residuality theory models software systems as -->
+<!-- interconnected residues – an alternative to component and process -->
+<!-- modeling. It uses applied complexity science to make managing -->
+<!-- uncertainty a fundamental part of the design process. In this episode, -->
+<!-- we will discuss this novel approach with Barry O’Reilly, veteran -->
+<!-- architect. Barry will also do a workshop and a talk about this subject -->
+<!-- at the Software Architecture Gathering. -->
+
+<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
+
+<!-- [Zum Kalendar hinzufügen](stream.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
