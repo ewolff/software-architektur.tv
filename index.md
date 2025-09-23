@@ -16,16 +16,16 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Folge: Freitag 2025-09-26 13:00 CEST Monorepos bei Uber: 👍 oder 👎?
 
-<!--  include youtube.html -->
-<!--   youtube-video-id="dkAmXBLCmHI" -->
-<!--   image-url="/thumbnails/episode279.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="HlR70AlCwpA"
+  image-url="/thumbnails/folge280.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7373429480855347200/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7376204788746620929/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 Anstatt den Code jedes Projekts in einem eigenen Repository zu
 verwalten, fassen Monorepos mehrere Projekte in einem einzigen
