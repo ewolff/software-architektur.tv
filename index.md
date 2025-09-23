@@ -14,9 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: Freitag 2025-09-26 13:00 CEST Thema offen
-
-
+## Nächste Folge: Freitag 2025-09-26 13:00 CEST Monorepos bei Uber: 👍 oder 👎?
 
 <!--  include youtube.html -->
 <!--   youtube-video-id="dkAmXBLCmHI" -->
@@ -29,17 +27,19 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 <!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
 <!-- </section> -->
 
-<!-- Residuality theory is a revolutionary new theory of software design -->
-<!-- that aims to make it easier to design software systems for complex -->
-<!-- business environments. Residuality theory models software systems as -->
-<!-- interconnected residues – an alternative to component and process -->
-<!-- modeling. It uses applied complexity science to make managing -->
-<!-- uncertainty a fundamental part of the design process. In this episode, -->
-<!-- we will discuss this novel approach with Barry O’Reilly, veteran -->
-<!-- architect. Barry will also do a workshop and a talk about this subject -->
-<!-- at the Software Architecture Gathering. -->
+Anstatt den Code jedes Projekts in einem eigenen Repository zu
+verwalten, fassen Monorepos mehrere Projekte in einem einzigen
+Repository zusammen. Das hat Vorteile: Projektübergreifende Änderungen
+lassen sich dadurch deutlich einfacher umsetzen. Unternehmen wie
+Google oder Uber setzen auf dieses Konzept – und sie wissen
+vermutlich, warum.
 
-<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
+Was auf den ersten Blick vielleicht wie eine großartige Idee wirkt,
+bringt auch Herausforderungen mit sich. In dieser Episode werfen wir
+einen Blick auf Ubers Erfahrungen mit Monorepos und was wir daraus
+lernen können.
+
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\->
 
 <!-- [Zum Kalendar hinzufügen](stream.ics) -->
 
