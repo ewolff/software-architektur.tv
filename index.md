@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: offen
+## Nächste Folge: Freitag 2025-10-10 Barrierefreiheit in Web-Projekten – Von der Architektur bis zur Implementierung
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="HlR70AlCwpA" -->
@@ -27,17 +27,50 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 <!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
 <!-- </section> -->
 
-<!-- Anstatt den Code jedes Projekts in einem eigenen Repository zu -->
-<!-- verwalten, fassen Monorepos mehrere Projekte in einem einzigen -->
-<!-- Repository zusammen. Das hat Vorteile: Projektübergreifende Änderungen -->
-<!-- lassen sich dadurch deutlich einfacher umsetzen. Unternehmen wie -->
-<!-- Google oder Uber setzen auf dieses Konzept – und sie wissen -->
-<!-- vermutlich, warum. -->
+**Gäste:** Maximilian Franzke & Danny Koppenhagen
 
-<!-- Was auf den ersten Blick vielleicht wie eine großartige Idee wirkt, -->
-<!-- bringt auch Herausforderungen mit sich. In dieser Episode werfen wir -->
-<!-- einen Blick auf Ubers Erfahrungen mit Monorepos und was wir daraus -->
-<!-- lernen können. -->
+Barrierefreiheit ist kein "Nice-to-have" mehr, sondern wird durch das
+Barrierefreiheitsstärkungsgesetz (BFSG) ab 2025 für viele digitalen
+Dienste zur Pflicht. Doch wie integriert man Accessibility erfolgreich
+in moderne Web-Architekturen? Unsere Gäste Maximilian Franzke und
+Danny Koppenhagen von der DB Systel zeigen, wie sie barrierefreie
+Web-Anwendungen entwickeln – von der strategischen
+Architekturentscheidung bis zur praktischen Umsetzung.
+
+Was erwartet euch:
+* **Architektur-Impact:** Wie beeinflusst Barrierefreiheit eure
+  Frontend-Architektur und Design System-Entscheidungen?
+* **Praktische Umsetzung:** Konkrete Patterns und Techniken für
+  barrierefreie Web-Anwendungen
+* **Tooling & Automatisierung:** Welche Tools helfen bei der
+  kontinuierlichen Überprüfung von Accessibility-Standards?
+* **Enterprise-Scale:** Herausforderungen bei der Umsetzung in großen
+  Organisationen mit mehreren Teams
+* **Performance vs. Accessibility:** Wie balanciert man
+  High-Performance-Anforderungen mit Barrierefreiheit?
+* **Rechtliche Aspekte:** Was bedeuten WCAG, EAA und BFSG konkret für
+  Entwicklungsteams?
+
+Maximilian und Danny bringen ihre Erfahrung aus der Entwicklung des DB
+UX Design Systems mit und zeigen, wie man von Anfang an
+"accessibility-first" denkt, statt Barrierefreiheit nachträglich
+"draufzupacken". Dabei geht es nicht nur um technische Lösungen,
+sondern auch um organisatorische Prozesse und die Frage: Wie macht man
+Barrierefreiheit zu einem natürlichen Teil der Softwarearchitektur?
+
+**Für wen ist das interessant:**
+
+* Software-Architekt:innen, die Barrierefreiheit von Beginn an
+  mitdenken wollen
+* Frontend-Entwickler:innen, die praktische Umsetzungsstrategien suchen
+* Teams, die vor der Herausforderung stehen, bestehende Anwendungen
+  barrierefrei zu machen
+* Alle, die verstehen wollen, wie sich rechtliche Anforderungen auf
+  Architekturentscheidungen auswirken
+  
+*Nach diesem Stream werdet ihr Barrierefreiheit nicht mehr als
+"Extra-Aufwand" sehen, sondern als integralen Bestandteil guter
+Software-Architektur.*
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\->
 
