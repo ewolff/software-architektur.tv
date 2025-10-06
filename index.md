@@ -29,12 +29,11 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 **Gäste:** Maximilian Franzke & Danny Koppenhagen
 
-Barrierefreiheit ist kein "Nice-to-have" mehr, sondern wird durch das
-Barrierefreiheitsstärkungsgesetz (BFSG) ab 2025 für viele digitalen
-Dienste zur Pflicht. Doch wie integriert man Accessibility erfolgreich
-in moderne Web-Architekturen? Unsere Gäste Maximilian Franzke und
-Danny Koppenhagen zeigen, wie sie barrierefreie
-Web-Anwendungen entwickeln – von der strategischen
+Barrierefreiheit ist kein "Nice-to-have" mehr, sondern wird spätestens durch
+das Barrierefreiheitsstärkungsgesetz (BFSG) seit Mitte 2025 für viele digitale
+Dienste zur Pflicht. Doch wie integriert man Accessibility erfolgreich in
+moderne Web-Architekturen? Unsere Gäste Danny Koppenhagen und Maximilian Franzke
+zeigen, wie sie barrierefreie Web-Anwendungen entwickeln – von der strategischen
 Architekturentscheidung bis zur praktischen Umsetzung.
 
 Was erwartet euch:
@@ -51,12 +50,12 @@ Was erwartet euch:
 * **Rechtliche Aspekte:** Was bedeuten WCAG, EAA und BFSG konkret für
   Entwicklungsteams?
 
-Maximilian und Danny bringen ihre Erfahrung aus der Entwicklung des DB
-UX Design Systems sowie der Arbeit im BIK BITV Prüfverbund und dem Austausch 
-auf europäischer Ebene mit und zeigen, wie man von Anfang an
+Danny und Maximilian bringen ihre Erfahrung aus der Entwicklung des 
+DB UX Design Systems sowie der Arbeit im BIK BITV Prüfverbund und dem
+Austausch auf europäischer Ebene mit und zeigen, wie man von Anfang an
 "accessibility-first" denkt, statt Barrierefreiheit nachträglich
-"draufzupacken". Dabei geht es nicht nur um technische Lösungen,
-sondern auch um organisatorische Prozesse und die Frage: Wie macht man
+"draufzupacken". Dabei geht es nicht nur um technische Lösungen, sondern
+auch um organisatorische Prozesse und die Frage: Wie macht man
 Barrierefreiheit zu einem natürlichen Teil der Softwarearchitektur?
 
 **Für wen ist das interessant:**
