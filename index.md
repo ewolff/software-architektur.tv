@@ -33,7 +33,7 @@ Barrierefreiheit ist kein "Nice-to-have" mehr, sondern wird durch das
 Barrierefreiheitsstärkungsgesetz (BFSG) ab 2025 für viele digitalen
 Dienste zur Pflicht. Doch wie integriert man Accessibility erfolgreich
 in moderne Web-Architekturen? Unsere Gäste Maximilian Franzke und
-Danny Koppenhagen von der DB Systel zeigen, wie sie barrierefreie
+Danny Koppenhagen zeigen, wie sie barrierefreie
 Web-Anwendungen entwickeln – von der strategischen
 Architekturentscheidung bis zur praktischen Umsetzung.
 
@@ -52,7 +52,8 @@ Was erwartet euch:
   Entwicklungsteams?
 
 Maximilian und Danny bringen ihre Erfahrung aus der Entwicklung des DB
-UX Design Systems mit und zeigen, wie man von Anfang an
+UX Design Systems sowie der Arbeit im BIK BITV Prüfverbund und dem Austausch 
+auf europäischer Ebene mit und zeigen, wie man von Anfang an
 "accessibility-first" denkt, statt Barrierefreiheit nachträglich
 "draufzupacken". Dabei geht es nicht nur um technische Lösungen,
 sondern auch um organisatorische Prozesse und die Frage: Wie macht man
