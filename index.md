@@ -16,16 +16,16 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Folge: Freitag 2025-10-10 Barrierefreiheit in Web-Projekten – Von der Architektur bis zur Implementierung
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="HlR70AlCwpA" -->
-<!--   image-url="/thumbnails/folge280.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="JuO1RaA6aqM"
+  image-url="/thumbnails/folge280.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7376204788746620929/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7381586002278027265/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 **Gäste:** Maximilian Franzke & Danny Koppenhagen
 
