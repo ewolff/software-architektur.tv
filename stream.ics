@@ -21,30 +21,24 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1757531051383-t7m41hahxk@ics-generator.local
-DTSTAMP:20250910T210411
-DTSTART;TZID=Europe/Berlin:20250912T130000
-DTEND;TZID=Europe/Berlin:20250912T140000
-SUMMARY:"Wie führe ich mein störrisches LLM auf den richtigen Weg?" mit Oli
- ver Jägle und Ralf D. Müller
-DESCRIPTION:"Implementiere Feature X" - und schon spuckt das LLM komplexen 
- Code aus\, ohne dass du nach der Architektur gefragt hast. Du bekommst funk
- tionsfähigen Code\, aber keine Ahnung\, warum diese Entscheidungen getroffe
- n wurden. Das Resultat: Du verbringst mehr Zeit damit\, generierten Code zu
-  verstehen als das eigentliche Problem zu lösen.\n\nOliver Jägle\, Senior E
- ngineer bei DB Systel\, hat eine überraschende Erklärung: Das LLM ist nicht
-  schuld - wir kommunizieren schlecht\, was wir brauchen. Mit "Responsible V
- ibe MCP" demonstriert er\, wie ein intelligenter "Conversation State Manage
- r" als digitaler Projektleiter fungiert und LLMs durch strukturierte Entwic
- klungsworkflows führt.\n\nStatt sofortiger Code-Dumps führt das Tool system
- atisch durch Requirements-Klärung: Wer sind die Nutzer? Welche Constraints?
-  Welche Features sind kritisch? Das Ergebnis: Durchdachte\, begründete Arch
- itektur-Entscheidungen statt zufälliger Tech-Stack-Kombinationen.\n\nEin pr
- aktisches Gespräch über die Transformation von Code-generierenden Maschinen
-  zu durchdachten Entwicklungspartnern - durch bessere Kommunikation statt L
- LM-Zähmung.
-LOCATION:https://software-architektur.tv/  https://www.youtube.com/watch?v=
- Im8Bzdjkpys
+UID:1760103853023-3kp2j3wbtcl@ics-generator.local
+DTSTAMP:20251010T134413
+DTSTART;TZID=Europe/Berlin:20251017T130000
+DTEND;TZID=Europe/Berlin:20251017T140000
+SUMMARY:Wardley Maps mit Markus Harrer (Software Architektur im Stream)
+DESCRIPTION:Wardley Maps sind ein visuelles Werkzeug\, das dabei unterstütz
+ en kann\, Systeme im strategischen Zusammenhang zu betrachten und Entscheid
+ ungen bewusster zu treffen. In dieser Episode zeigt Markus Harrer\, wie sic
+ h mit Wardley Mapping Abhängigkeiten in Softwaresystemen nachvollziehbarer 
+ darstellen lassen und wie es helfen kann\, Architekturentscheidungen besser
+  einzuordnen. Zusätzlich macht er anhand von Beispielen aus der Legacy-Mode
+ rnisierung deutlich\, wie diese Technik genutzt werden kann\, um Diskussion
+ en über den Umgang mit gewachsenen Systemen anzuregen und neue Blickwinkel 
+ darauf zu eröffnen. Teilnehmende erhalten Anregungen\, wie Wardley Maps im 
+ Alltag eine strukturiertere und entspanntere Auseinandersetzung mit Softwar
+ esystemen ermöglichen können.
+LOCATION:https://youtu.be/Bql2Vye_Nbc https://www.linkedin.com/events/73824
+ 09763109752832/ https://www.twitch.tv/ebrwolff
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

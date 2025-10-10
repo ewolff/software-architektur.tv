@@ -14,67 +14,35 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: Freitag 2025-10-10 Barrierefreiheit in Web-Projekten – Von der Architektur bis zur Implementierung
+## Nächste Folge: Freitag 2025-10-15 13:00 CEST Wardley Maps mit Markus Harrer
 
 {% include youtube.html
-  youtube-video-id="JuO1RaA6aqM"
-  image-url="/thumbnails/folge282.png"
+  youtube-video-id="Bql2Vye_Nbc"
+  image-url="/thumbnails/folge283.png"
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7381586002278027265/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7382409763109752832/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
 
-**Gäste:** Maximilian Franzke & Danny Koppenhagen
+Wardley Maps sind ein visuelles Werkzeug, das dabei unterstützen kann,
+Systeme im strategischen Zusammenhang zu betrachten und Entscheidungen
+bewusster zu treffen. In dieser Episode zeigt Markus Harrer, wie sich
+mit Wardley Mapping Abhängigkeiten in Softwaresystemen
+nachvollziehbarer darstellen lassen und wie es helfen kann,
+Architekturentscheidungen besser einzuordnen. Zusätzlich macht er
+anhand von Beispielen aus der Legacy-Modernisierung deutlich, wie
+diese Technik genutzt werden kann, um Diskussionen über den Umgang mit
+gewachsenen Systemen anzuregen und neue Blickwinkel darauf zu
+eröffnen. Teilnehmende erhalten Anregungen, wie Wardley Maps im Alltag
+eine strukturiertere und entspanntere Auseinandersetzung mit
+Softwaresystemen ermöglichen können.
 
-Barrierefreiheit ist kein "Nice-to-have" mehr, sondern wird spätestens durch
-das Barrierefreiheitsstärkungsgesetz (BFSG) seit Mitte 2025 für viele digitale
-Dienste zur Pflicht. Doch wie integriert man Accessibility erfolgreich in
-moderne Web-Architekturen? Unsere Gäste Danny Koppenhagen und Maximilian Franzke
-zeigen, wie sie barrierefreie Web-Anwendungen entwickeln – von der strategischen
-Architekturentscheidung bis zur praktischen Umsetzung.
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-Was erwartet euch:
-* **Architektur-Impact:** Wie beeinflusst Barrierefreiheit eure
-  Frontend-Architektur und Design System-Entscheidungen?
-* **Praktische Umsetzung:** Konkrete Patterns und Techniken für
-  barrierefreie Web-Anwendungen
-* **Tooling & Automatisierung:** Welche Tools helfen bei der
-  kontinuierlichen Überprüfung von Accessibility-Standards?
-* **Enterprise-Scale:** Herausforderungen bei der Umsetzung in großen
-  Organisationen mit mehreren Teams
-* **Performance vs. Accessibility:** Wie balanciert man
-  High-Performance-Anforderungen mit Barrierefreiheit?
-* **Rechtliche Aspekte:** Was bedeuten WCAG, EAA und BFSG konkret für
-  Entwicklungsteams?
-
-Danny und Maximilian bringen ihre Erfahrung aus der Entwicklung des 
-DB UX Design Systems sowie der Arbeit im BIK BITV Prüfverbund und dem
-Austausch auf europäischer Ebene mit und zeigen, wie man von Anfang an
-"accessibility-first" denkt, statt Barrierefreiheit nachträglich
-"draufzupacken". Dabei geht es nicht nur um technische Lösungen, sondern
-auch um organisatorische Prozesse und die Frage: Wie macht man
-Barrierefreiheit zu einem natürlichen Teil der Softwarearchitektur?
-
-**Für wen ist das interessant:**
-
-* Software-Architekt:innen, die Barrierefreiheit von Beginn an
-  mitdenken wollen
-* Frontend-Entwickler:innen, die praktische Umsetzungsstrategien suchen
-* Teams, die vor der Herausforderung stehen, bestehende Anwendungen
-  barrierefrei zu machen
-* Alle, die verstehen wollen, wie sich rechtliche Anforderungen auf
-  Architekturentscheidungen auswirken
-  
-*Nach diesem Stream werdet ihr Barrierefreiheit nicht mehr als
-"Extra-Aufwand" sehen, sondern als integralen Bestandteil guter
-Software-Architektur.*
-
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\->
-
-<!-- [Zum Kalendar hinzufügen](stream.ics) -->
+[Zum Kalendar hinzufügen](stream.ics)
 
 ## Fragen, Diskussion und Anregungen
 
