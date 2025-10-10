@@ -22,7 +22,7 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7382409763109752832/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7382484587475578881/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
