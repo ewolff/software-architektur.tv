@@ -1,6 +1,6 @@
-🤖 Spannende Einblicke: KI entwickelt eigenständig einen ASCII-Doc Linter
+🤖 Spannende Einblicke: KI entwickelt eigenständig einen AsciiDoc Linter
 
-In der neuesten Episode des Software-Architektur im Stream berichtet Ralf D. Müller von einem faszinierenden Experiment: Eine KI entwickelte komplett eigenständig einen Linter für ASCII-Doc - inklusive Tests, Dokumentation und Architekturentscheidungen.
+In der neuesten Episode des Software-Architektur im Stream berichtet Ralf D. Müller von einem faszinierenden Experiment: Eine KI entwickelte komplett eigenständig einen Linter für AsciiDoc - inklusive Tests, Dokumentation und Architekturentscheidungen.
 
 Spannende Erkenntnisse:
 - Die KI arbeitet testgetrieben und korrigiert sich selbst
