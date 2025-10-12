@@ -1,6 +1,6 @@
 🎯 Was macht einen guten Tech-Leader aus? Technische Expertise allein reicht nicht! 
 
-In der neuen Podcast-Folge spreche ich mit Cosima Laube über professionelles Coaching für Techies und wie es uns helfen kann, bessere Führungskräfte zu werden.
+In der neuen Folge von "Software Architektur im Stream" sprechen wir mit Cosima Laube über professionelles Coaching für Techies und wie es uns helfen kann, bessere Führungskräfte zu werden.
 
 Highlights:
 - Was ist (Einzel-)Coaching eigentlich und wie unterscheidet es sich von Mentoring?
