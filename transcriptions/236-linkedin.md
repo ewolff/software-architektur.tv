@@ -1,6 +1,6 @@
 🎯 Code Retreat: Der perfekte Ort zum Experimentieren und Lernen!
 
-In der neuen Folge des Softwarearchitektur im Stream Podcasts sprechen wir mit Marco Emrich über Code Retreats - ein spannendes Format für bewusstes Üben und Experimentieren mit Code.
+In der neuen Folge von Software-Architektur im Stream sprechen wir mit Marco Emrich über Code Retreats - ein spannendes Format für das Üben und Experimentieren mit Code.
 
 Highlights der Episode:
 - Was ist ein Code Retreat und warum löscht man am Ende den Code?
