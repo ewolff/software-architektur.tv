@@ -1,6 +1,6 @@
 🌱 #GreenSoftwareDevelopment - Wie wir als Entwickler das Klima schützen können
 
-Spannende Einblicke von @Aydin Mir Mohammadi zum Thema nachhaltige Softwareentwicklung:
+Spannende Einblicke von Aydin Mir Mohammadi zum Thema nachhaltige Softwareentwicklung:
 
 • Wussten Sie, dass der IT-Sektor für 4% der globalen CO2-Emissionen verantwortlich ist? Tendenz stark steigend!
 
