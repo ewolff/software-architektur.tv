@@ -1,6 +1,6 @@
 🎯 Taktisches Domain-Driven Design praktisch erklärt! 
 
-In dieser spannenden Podcast-Folge tauchen wir tief in die praktische Umsetzung von DDD ein. Wir klären:
+In dieser spannenden Folge von Software Architektur im Stream tauchen wir tief in die praktische Umsetzung von DDD ein. Wir klären:
 
 • Wie Entities, Value Objects und Aggregates zusammenspielen
 • Warum Events Sourcing nicht immer die beste Wahl ist
