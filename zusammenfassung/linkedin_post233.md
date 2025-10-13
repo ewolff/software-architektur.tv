@@ -10,12 +10,8 @@ Highlights der Folge:
 
 Mein Key Learning: Change Management ist keine technische, sondern vor allem eine soziale Herausforderung. Mit den richtigen Strategien können auch Architekt:innen erfolgreich Veränderungen vorantreiben.
 
-Mit dabei: @Tanja Friedl und @Ralf Müller
+Mit dabei: Tanja Friedel und Ralf Müller
 
 #SoftwareArchitektur #ChangeManagement #FearlessChange #Leadership
 
 Was sind eure Erfahrungen mit der Einführung von Architektur-Änderungen? 
-
----
-Aufgenommen von @Eberhard Wolff
-Alle Folgen unter software-architektur.tv
