@@ -14,6 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
+## Umfrage DiversIT(y): Diversität in der IT
+
+Für unsere Special Episode live von den IT-Tagen zum Thema "Diversität
+in der IT" suchen wir persönliche Erfahrungsberichte von Menschen, die
+in der Tech-Branche unterrepräsentiert sind oder sich dort nicht immer
+willkommen gefühlt haben. 👩🏽‍💻👨🏻‍💻🧑🏿‍💻🌈♿
+
+<center>
+<a
+href="https://tally.so/r/w76VV6#tally-open=w76VV6&tally-align-left=1&tally-emoji-text=:wave:&tally-emoji-animation=wave"><img
+src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
+</center>
+
 ## Nächste Folge: Freitag 2025-10-17 13:00 CEST Wardley Maps mit Markus Harrer
 
 {% include youtube.html
@@ -57,19 +70,6 @@ anonymously here:
   form-url="https://docs.google.com/forms/d/e/1FAIpQLSf0xIZkNG_wRJ0IiobVcO3Z-q3dQMcwYTww0wgiWCupZCKM4A/viewform"
   image-url="/images/google-form.png"
   %}
-
-## Umfrage DiversIT(y): Diversität in der IT
-
-Für unsere Special Episode live von den IT-Tagen zum Thema "Diversität
-in der IT" suchen wir persönliche Erfahrungsberichte von Menschen, die
-in der Tech-Branche unterrepräsentiert sind oder sich dort nicht immer
-willkommen gefühlt haben. 👩🏽‍💻👨🏻‍💻🧑🏿‍💻🌈♿
-
-<center>
-<a
-href="https://tally.so/r/w76VV6#tally-open=w76VV6&tally-align-left=1&tally-emoji-text=:wave:&tally-emoji-animation=wave"><img
-src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
-</center>
 
 ## Neueste Folgen
 
