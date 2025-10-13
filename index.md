@@ -5,8 +5,6 @@ description: Live-Diskussion zu Software-Architektur im Stream
 tagline: Live-Diskussion zu Software-Architektur
 ---
 
-<script src="https://tally.so/widgets/embed.js"></script>
-
 Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
 D. Müller
 Software-Architektur im
