@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: Freitag 2025-10-15 13:00 CEST Wardley Maps mit Markus Harrer
+## Nächste Folge: Freitag 2025-10-17 13:00 CEST Wardley Maps mit Markus Harrer
 
 {% include youtube.html
   youtube-video-id="Bql2Vye_Nbc"
