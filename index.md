@@ -23,35 +23,25 @@ willkommen gefühlt haben. 👩🏽‍💻👨🏻‍💻🧑🏿‍💻🌈♿
 
 <center>
 <a
-href="https://tally.so/r/w76VV6#tally-open=w76VV6&tally-align-left=1&tally-emoji-text=:wave:&tally-emoji-animation=wave"><img
+href="https://tally.so/r/w76VV6"><img
 src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 </center>
 
-## Nächste Folge: Freitag 2025-10-17 13:00 CEST Wardley Maps mit Markus Harrer
+## Next Episode: Friday 2025-10-24 13:00 CEST Experiencing Generative AI mit Oliver Zeigermann
 
 {% include youtube.html
-  youtube-video-id="Bql2Vye_Nbc"
-  image-url="/thumbnails/folge284.png"
+  youtube-video-id="td-rndE9JVk"
+  image-url="/thumbnails/folge285.png"
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7382484587475578881/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/experiencinggenerativeaiwitholi7384895756765249536/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
 
-Wardley Maps sind ein visuelles Werkzeug, das dabei unterstützen kann,
-Systeme im strategischen Zusammenhang zu betrachten und Entscheidungen
-bewusster zu treffen. In dieser Episode zeigt Markus Harrer, wie sich
-mit Wardley Mapping Abhängigkeiten in Softwaresystemen
-nachvollziehbarer darstellen lassen und wie es helfen kann,
-Architekturentscheidungen besser einzuordnen. Zusätzlich macht er
-anhand von Beispielen aus der Legacy-Modernisierung deutlich, wie
-diese Technik genutzt werden kann, um Diskussionen über den Umgang mit
-gewachsenen Systemen anzuregen und neue Blickwinkel darauf zu
-eröffnen. Teilnehmende erhalten Anregungen, wie Wardley Maps im Alltag
-eine strukturiertere und entspanntere Auseinandersetzung mit
-Softwaresystemen ermöglichen können.
+Oliver Zeigermann und Lisa Maria Schäfer sprechen anhand einer
+Demo-Applikation über das Thema generative KI.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
