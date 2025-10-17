@@ -35,7 +35,7 @@ src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/experiencinggenerativeaiwitholi7384895756765249536/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7384962157848797184/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
