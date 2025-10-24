@@ -1,6 +1,6 @@
 🎙️ Neue Episode von Software-Architektur im Stream: "Sprache schafft Wirklichkeit"
 
-Militärische Metaphern wie "War Room", "Bombenwetter" oder "in die Schützengräben" - unsere Sprache in der IT-Welt ist oft von Kriegs-Rhetorik geprägt. Doch welche Auswirkungen hat das auf unsere Zusammenarbeit und Unternehmenskultur?
+Militärische Metaphern wie "War Room", "Bombenwetter" oder "Vertriebsoffensive" - unsere Sprache in der IT-Welt ist oft von Kriegs-Rhetorik geprägt. Doch welche Auswirkungen hat das auf unsere Zusammenarbeit und Unternehmenskultur?
 
 In dieser spannenden Folge spreche ich mit Kommunikationsexpertin Friederike Sternberg über:
 
