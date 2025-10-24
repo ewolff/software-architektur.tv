@@ -27,21 +27,33 @@ href="https://tally.so/r/w76VV6"><img
 src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 </center>
 
-## Next Episode: Friday 2025-10-24 13:00 CEST Experiencing Generative AI mit Oliver Zeigermann
+## Next Episode: Friday 2025-10-31 13:00 CEST Transkription und Code für den Stream: LLMs - Süßes oder Saures?
 
-{% include youtube.html
-  youtube-video-id="td-rndE9JVk"
-  image-url="/thumbnails/folge285.png"
-%}
+<!-- { include youtube.html -->
+<!--   youtube-video-id="td-rndE9JVk" -->
+<!--   image-url="/thumbnails/folge285.png" -->
+<!-- } -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7384962157848797184/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7384962157848797184/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-Oliver Zeigermann und Lisa Maria Schäfer sprechen anhand einer
-Demo-Applikation über das Thema generative KI.
+KI war schon mehrfach Thema im Stream. Doch diesmal geht darum, wie
+wir sie für den Stream selbst einsetzen: Es gibt jetzt automatische
+Transkriptionen und Zusammenfassungen.
+
+Diese neuen Features sind mit Hilfe von KI, Prompt-Driven Development
+und GitHub Copilot entstanden. In dieser Episode sprechen Ralf und
+Eberhard darüber, wie sie dabei vorgegangen sind und welche
+Erfahrungen sie gesammelt haben:
+
+Was hat gut funktioniert? Was weniger? Und vor allem – was haben wir
+über den praktischen Einsatz von LLMs in echten Projekten gelernt?
+
+So stehen in dieser Halloween-Episode keine Kürbisse, sondern Code und
+KI im Mittelpunkt.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
