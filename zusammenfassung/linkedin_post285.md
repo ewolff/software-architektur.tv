@@ -1,6 +1,6 @@
 🤖 Wie funktioniert eigentlich Generative AI? 
 
-In der neuen Folge von software-architektur.tv erklärt uns KI-Experte Oliver Zeigermann die Grundlagen:
+In der neuen Folge von Software Architektur im Stream erklärt uns KI-Experte Oliver Zeigermann die Grundlagen:
 
 - Wie Generative AI wie ChatGPT tatsächlich funktioniert
 - Warum Kontrolle über die KI-Systeme so wichtig ist
