@@ -5,13 +5,13 @@ In dieser spannenden Episode spreche ich mit Kim Nena Duggen über die praktisch
 ✅ Die 4 Kernteam-Arten und ihre Rollen:
 - Stream-Aligned Teams als wertschöpfende Teams
 - Enabling Teams als Unterstützer 
-- Platform Teams als Service-Provider
+- Platform Teams als Anbieter interner Produkte
 - Complicated Subsystem Teams für komplexe Spezialthemen
 
 🔑 Zentrale Learnings aus der Praxis:
-- Vertrauen und Fehlerkultur sind essentiell
-- Teams müssen befähigt werden, autonom zu arbeiten
-- Organisationsstrukturen explizit machen und regelmäßig hinterfragen
+- Vertrauen und Fehlerkultur sind essentiell.
+- Teams müssen befähigt werden, autonom zu arbeiten.
+- Organisationsstrukturen explizit machen und regelmäßig hinterfragen.
 - Cross-funktionale Teams statt Silodenken
 
 💡 Interessiert an der praktischen Umsetzung von Team Topologies? 
