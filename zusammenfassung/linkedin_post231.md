@@ -2,7 +2,7 @@
 
 Spannende Einblicke von Jochen Mader zur Absicherung von Software-Lieferketten:
 
-• Was bedeutet Supply Chain Security konkret? Es geht darum, den kompletten Weg einer Software von der Entwicklung bis zum Produktivbetrieb abzusichern
+• Was bedeutet Supply Chain Security konkret? Es geht darum, den kompletten Weg einer Software von der Entwicklung bis zum Produktivbetrieb abzusichern!
 
 • Praktische Tipps zur Umsetzung:
 - Git Commits signieren (z.B. mit YubiKey) für Nachvollziehbarkeit
