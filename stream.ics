@@ -21,24 +21,22 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1760103853023-3kp2j3wbtcl@ics-generator.local
-DTSTAMP:20251010T134413
-DTSTART;TZID=Europe/Berlin:20251017T130000
-DTEND;TZID=Europe/Berlin:20251017T140000
-SUMMARY:Wardley Maps mit Markus Harrer (Software Architektur im Stream)
-DESCRIPTION:Wardley Maps sind ein visuelles Werkzeug\, das dabei unterstütz
- en kann\, Systeme im strategischen Zusammenhang zu betrachten und Entscheid
- ungen bewusster zu treffen. In dieser Episode zeigt Markus Harrer\, wie sic
- h mit Wardley Mapping Abhängigkeiten in Softwaresystemen nachvollziehbarer 
- darstellen lassen und wie es helfen kann\, Architekturentscheidungen besser
-  einzuordnen. Zusätzlich macht er anhand von Beispielen aus der Legacy-Mode
- rnisierung deutlich\, wie diese Technik genutzt werden kann\, um Diskussion
- en über den Umgang mit gewachsenen Systemen anzuregen und neue Blickwinkel 
- darauf zu eröffnen. Teilnehmende erhalten Anregungen\, wie Wardley Maps im 
- Alltag eine strukturiertere und entspanntere Auseinandersetzung mit Softwar
- esystemen ermöglichen können.
-LOCATION:https://youtu.be/Bql2Vye_Nbc https://www.linkedin.com/events/738248
- 4587475578881/ https://www.twitch.tv/ebrwolff
+UID:1761576560361-wrmg4tcww6i@ics-generator.local
+DTSTAMP:20251027T154920
+DTSTART;TZID=Europe/Berlin:20251031T130000
+DTEND;TZID=Europe/Berlin:20251031T140000
+SUMMARY:Transkription und Code für den Stream: LLMs - Süßes oder Saures?
+DESCRIPTION:KI war schon mehrfach Thema im Stream. Doch diesmal geht darum\
+ , wie wir sie für den Stream selbst einsetzen: Es gibt jetzt automatische T
+ ranskriptionen und Zusammenfassungen.\n\nDiese neuen Features sind mit Hilf
+ e von KI\, Prompt-Driven Development und GitHub Copilot entstanden. In dies
+ er Episode sprechen Ralf und Eberhard darüber\, wie sie dabei vorgegangen s
+ ind und welche Erfahrungen sie gesammelt haben:\n\nWas hat gut funktioniert
+ ? Was weniger? Und vor allem – was haben wir über den praktischen Einsatz v
+ on LLMs in echten Projekten gelernt?\n\nSo stehen in dieser Halloween-Episo
+ de keine Kürbisse\, sondern Code und KI im Mittelpunkt.
+LOCATION:https://www.youtube.com/watch?v=xkKyBGJcgPA https://www.linkedin.c
+ om/events/7388584794655203329/ https://www.twitch.tv/ebrwolff
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
