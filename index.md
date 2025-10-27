@@ -29,16 +29,16 @@ src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 
 ## Next Episode: Friday 2025-10-31 13:00 CEST Transkription und Code für den Stream: LLMs - Süßes oder Saures?
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="td-rndE9JVk" -->
-<!--   image-url="/thumbnails/folge285.png" -->
-<!-- } -->
+{% include youtube.html
+  youtube-video-id="xkKyBGJcgPA"
+  image-url="/thumbnails/folge286.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7384962157848797184/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7388584794655203329/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 KI war schon mehrfach Thema im Stream. Doch diesmal geht darum, wie
 wir sie für den Stream selbst einsetzen: Es gibt jetzt automatische
