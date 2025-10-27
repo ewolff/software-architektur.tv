@@ -27,7 +27,7 @@ href="https://tally.so/r/w76VV6"><img
 src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 </center>
 
-## Next Episode: Friday 2025-10-31 13:00 CEST Transkription und Code für den Stream: LLMs - Süßes oder Saures?
+## Next Episode: Friday 2025-10-31 13:00 CET Transkription und Code für den Stream: LLMs - Süßes oder Saures?
 
 {% include youtube.html
   youtube-video-id="xkKyBGJcgPA"
