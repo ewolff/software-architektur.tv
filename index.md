@@ -27,33 +27,30 @@ href="https://tally.so/r/w76VV6"><img
 src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 </center>
 
-## Next Episode: Friday 2025-10-31 13:00 CET Transkription und Code für den Stream: LLMs - Süßes oder Saures?
+## Next Episode: Thurday 2025-11-06 13:00 CET Team Work – Do we still need to talk about it? with Aino Vonge Corry and Lisa Maria Schäfer
 
 {% include youtube.html
-  youtube-video-id="xkKyBGJcgPA"
-  image-url="/thumbnails/folge286.png"
+  youtube-video-id="7I9H-sZTwcI"
+  image-url="/thumbnails/episode287.png"
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7388584794655203329/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7387439364940734465/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
 
-KI war schon mehrfach Thema im Stream. Doch diesmal geht darum, wie
-wir sie für den Stream selbst einsetzen: Es gibt jetzt automatische
-Transkriptionen und Zusammenfassungen.
+In IT most of us need to work in teams for various reasons, and if you
+think that is not always easy, this is the stream you should join. We
+think a lot has been said about team work already, but let us dive
+into various aspects together; team topologies, psychological safety,
+personality types, body language, remote work and teams and just plain
+old communication. Aino Vonge Corry and Lisa Maria Schäfer are
+discussing all those topics and are happily looking forward to your
+questions. Aino will also have a talk at Software Architecture
+Gathering called "What We (Should Have) Learned From Lord of the
+Rings".
 
-Diese neuen Features sind mit Hilfe von KI, Prompt-Driven Development
-und GitHub Copilot entstanden. In dieser Episode sprechen Ralf und
-Eberhard darüber, wie sie dabei vorgegangen sind und welche
-Erfahrungen sie gesammelt haben:
-
-Was hat gut funktioniert? Was weniger? Und vor allem – was haben wir
-über den praktischen Einsatz von LLMs in echten Projekten gelernt?
-
-So stehen in dieser Halloween-Episode keine Kürbisse, sondern Code und
-KI im Mittelpunkt.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
