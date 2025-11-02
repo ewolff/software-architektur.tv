@@ -10,7 +10,7 @@ function showGoogleForm() {
     iframe.setAttribute("marginheight", "0");
     iframe.setAttribute("marginwidth", "0");
     iframe.setAttribute("width", "640");
-    iframe.setAttribute("height", "450");
+    iframe.setAttribute("height", "554");
     
     googleFormContainer.innerHTML = "";
     googleFormContainer.appendChild(iframe);
