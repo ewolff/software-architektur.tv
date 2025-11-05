@@ -31,7 +31,7 @@ src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 
 {% include youtube.html
   youtube-video-id="7I9H-sZTwcI"
-  image-url="/thumbnails/episode287.png"
+  image-url="/thumbnails/episode288.png"
 %}
 
 <section id="content-links">
