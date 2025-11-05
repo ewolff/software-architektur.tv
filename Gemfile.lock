@@ -35,8 +35,9 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    ethon (0.17.0)
+    ethon (0.18.0)
       ffi (>= 1.15.0)
+      logger
     eventmachine (1.2.7)
     execjs (2.10.0)
     faraday (2.14.0)
@@ -287,7 +288,7 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    uri (1.1.0)
+    uri (1.1.1)
     wdm (0.2.0)
     webrick (1.9.1)
 
