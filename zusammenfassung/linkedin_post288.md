@@ -16,6 +16,4 @@ Here's what they unpack:
 
 The key takeaway? Stop romanticizing teamwork and start building the conditions where it actually matters.
 
-**Listen now to discover how to make your team *want* to improve together.** 🎧
-
-#SoftwareArchitecture #Teamwork #Retrospectives #AgileTeams #TeamDynamics
+**Listen or watch now to discover how to make your team *want* to improve together.** 🎧
