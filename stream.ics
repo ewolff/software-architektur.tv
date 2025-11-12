@@ -21,22 +21,21 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1761576560361-wrmg4tcww6i@ics-generator.local
-DTSTAMP:20251027T154920
-DTSTART;TZID=Europe/Berlin:20251031T130000
-DTEND;TZID=Europe/Berlin:20251031T140000
-SUMMARY:Transkription und Code für den Stream: LLMs - Süßes oder Saures?
-DESCRIPTION:KI war schon mehrfach Thema im Stream. Doch diesmal geht darum\
- , wie wir sie für den Stream selbst einsetzen: Es gibt jetzt automatische T
- ranskriptionen und Zusammenfassungen.\n\nDiese neuen Features sind mit Hilf
- e von KI\, Prompt-Driven Development und GitHub Copilot entstanden. In dies
- er Episode sprechen Ralf und Eberhard darüber\, wie sie dabei vorgegangen s
- ind und welche Erfahrungen sie gesammelt haben:\n\nWas hat gut funktioniert
- ? Was weniger? Und vor allem – was haben wir über den praktischen Einsatz v
- on LLMs in echten Projekten gelernt?\n\nSo stehen in dieser Halloween-Episo
- de keine Kürbisse\, sondern Code und KI im Mittelpunkt.
-LOCATION:https://www.youtube.com/watch?v=xkKyBGJcgPA https://www.linkedin.c
- om/events/7388584794655203329/ https://www.twitch.tv/ebrwolff
+UID:1762934049475-308cud9ot7e@ics-generator.local
+DTSTAMP:20251112T075409
+DTSTART;TZID=Europe/Berlin:20251114T130000
+DTEND;TZID=Europe/Berlin:20251114T140000
+SUMMARY:Subjektives Schätzen\, beliebige Deadlines?
+DESCRIPTION:Schätzen gehört zum Alltag vieler Projekte – doch jede Schätzun
+ g ist immer spezifisch für ein Team. Kann man Aufwand objektiv bewerten ode
+ r gar “absolut” schätzen? Und wie gehen wir mit Deadlines um\, deren Name s
+ chon suggeriert\, dass sie über Leben und Tod eines Projekts entscheiden?\n
+ \nIn dieser Episode beleuchten wir den Umgang mit Schätzungen und Terminen 
+ aus unterschiedlichen Perspektiven: Wie viel Objektivität ist wirklich mögl
+ ich\, welche psychologischen und organisatorischen Faktoren beeinflussen un
+ s – und was bedeutet das für den realistischen Umgang mit Deadlines?
+LOCATION:https://youtu.be/kio_YE45jIU https://www.twitch.tv/ebrwolff https:
+ //www.linkedin.com/events/7394277534428778496/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
