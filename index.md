@@ -27,27 +27,25 @@ href="https://tally.so/r/w76VV6"><img
 src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
 </center>
 
-## Nächste Folge: Freitag 2025-11-14 13:00 CET Subjektives Schätzen, beliebige Deadlines?
+## Nächste Folge: Freitag 2025-11-14 13:00 CET Digitale Souveränität in der Software-Architektur mit Sven Müller
 
 {% include youtube.html
-  youtube-video-id="kio_YE45jIU"
-  image-url="/thumbnails/folge289.png"
+  youtube-video-id="LOO3ldBLLmM"
+  image-url="/thumbnails/folge290.png"
 %}
 
-Schätzen gehört zum Alltag vieler Projekte – doch jede Schätzung ist
-immer spezifisch für ein Team. Kann man Aufwand objektiv bewerten oder
-gar "absolut" schätzen? Und wie gehen wir mit Deadlines um, deren Name
-schon suggeriert, dass sie über Leben und Tod eines Projekts
-entscheiden?
-
-In dieser Episode beleuchten wir den Umgang mit Schätzungen und
-Terminen aus unterschiedlichen Perspektiven: Wie viel Objektivität ist
-wirklich möglich, welche psychologischen und organisatorischen
-Faktoren beeinflussen uns – und was bedeutet das für den realistischen
-Umgang mit Deadlines?
+Digitale Souveränität ist aktuell ein sehr heiß diskutiertes Thema und
+im Mainstream der Gesellschaft angekommen. In dieser Episode
+diskutiert Sven Müller mit Eberhard Wolff den Einfluss von digitaler
+Souveränität auf Software-Architektur. Ziel ist es, die digitale
+Handlungsfähigkeit unserer Organisationen zu stärken. Aspekte sind
+nicht nur die häufig diskutierte Unabhängigkeit von
+US-Cloud-Anbietern, sondern vor allem gezielte
+Make-or-buy-Enscheidungen, der Einsatz von offenen Standards oder Open
+Source nicht nur zum Sparen von Lizenzkosten.
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7394277534428778496/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7395526920718934016/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
