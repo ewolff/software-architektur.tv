@@ -55,7 +55,7 @@ workflows.
 
 [Add to calendar](diagrams-as-code-with-ai-with-jacqui-read.ics)
 
-## 2025-11-25 18:45 CET Diagrams as Code with AI with Jacqui Read
+## 2025-11-25 18:45 CET Fish Bowl “Software Architecture – Is It About Human Intelligence or Artificial Intelligence?”
 
 {% include youtube.html
   youtube-video-id="_w6_WA1VmlI"
