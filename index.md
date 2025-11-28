@@ -72,6 +72,8 @@ anonymously here:
 {%- endfor %}
 </div>
 
+[Weitere Folgen...](/chronologisch.html)
+
 ## Lizenz
 
 Inhalte von Software-Architektur im Stream zu konsumieren ist
