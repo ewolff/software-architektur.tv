@@ -14,18 +14,10 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Umfrage DiversIT(y): Diversität in der IT
+## Adventskalender 2025
 
-Für unsere Special Episode live von den IT-Tagen zum Thema "Diversität
-in der IT" suchen wir persönliche Erfahrungsberichte von Menschen, die
-in der Tech-Branche unterrepräsentiert sind oder sich dort nicht immer
-willkommen gefühlt haben. 👩🏽‍💻👨🏻‍💻🧑🏿‍💻🌈♿
-
-<center>
-<a
-href="https://tally.so/r/w76VV6"><img
-src="images/diversITy.png" /><p>Hier geht es zur Umfrage</p></a>
-</center>
+[Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
+dem Thema "Advice for Designing Good Software Architecture".
 
 ## Nächste Episode: Offen
 
