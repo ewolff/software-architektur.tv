@@ -1,6 +1,6 @@
 # 🎨 Diagrams as Code + AI: The Future of Architecture Documentation?
 
-Just dropped a fascinating conversation with @JacquiRead on our podcast about transforming how we document software architecture.
+Ralf D Müller and me had a fascinating conversation with JacquiRead about transforming how we document software architecture at Software Architecture Gathering.
 
 Here's what we explored:
 
@@ -21,5 +21,3 @@ Not all tools fit all jobs. C4 diagrams? Structurizr wins. Sequence diagrams in 
 The truth: Humans still drive this. AI is a tool, not a replacement for architectural thinking.
 
 🎙️ Full episode available now—whether you're a skeptic or an AI enthusiast, there's something here to challenge your thinking.
-
-#SoftwareArchitecture #AI #DiagramsAsCode #C4Model #SpecDrivenDevelopment #TechLeadership
