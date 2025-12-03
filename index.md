@@ -19,7 +19,13 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Nächste Episode: Offen
+## Nächste Episode: 2025-12-12 15:00 CET Models and Modularization with Alistair Cockburn
+
+At the recent Software Architecture Gathering, Eberhard gave a talk on
+models, modularization, and Bounded Contexts, while Alistair explored
+similar themes in conversations with attendees. In this episode, the
+two come together to discuss the key concepts behind these topics,
+compare their perspectives, and answer questions from the audience.
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="QvESyTxeN4o" -->
