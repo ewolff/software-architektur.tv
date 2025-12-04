@@ -38,9 +38,9 @@ compare their perspectives, and answer questions from the audience.
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
 
-<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [Add to calendar](diagrams-as-code-with-ai-with-jacqui-read.ics) -->
+[Add to calendar](models-and-modularization-with-alistair-cockburn.ics)
 
 ## Fragen, Diskussion und Anregungen
 
