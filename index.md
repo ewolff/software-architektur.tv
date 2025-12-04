@@ -27,16 +27,16 @@ similar themes in conversations with attendees. In this episode, the
 two come together to discuss the key concepts behind these topics,
 compare their perspectives, and answer questions from the audience.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="QvESyTxeN4o" -->
-<!--   image-url="/thumbnails/episode291.png" -->
-<!-- } -->
+{% include youtube.html
+  youtube-video-id="88OZiIjHh8s"
+  image-url="/thumbnails/episode296.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7397174415198789632/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7402136197893869568/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 <!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
 
