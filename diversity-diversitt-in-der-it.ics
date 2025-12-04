@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1764808860720-dfhudlld6@ics-generator.local
+DTSTAMP:20251204T014100
+DTSTART;TZID=Europe/Berlin:20251209T130000
+DTEND;TZID=Europe/Berlin:20251209T140000
+SUMMARY:DiversIT(y) – Diversität in der IT
+DESCRIPTION:Stimmen aus der Praxis – Live-Stream mit Erfahrungsberichten un
+ d Diskussion\n\nWie erleben Menschen\, die in der IT unterrepräsentiert sin
+ d\, ihren Arbeitsalltag wirklich? In diesem Live-Stream bringen wir ungefil
+ terte Stimmen direkt auf die Bühne der IT-Tage.\n\nIm Vorfeld haben wir per
+ sönliche Erfahrungsberichte gesammelt – von Mikroaggressionen im Team-Meeti
+ ng bis zu strukturellen Hürden beim Karrierestart. Diese anonymisierten Ges
+ chichten lesen wir vor und diskutieren gemeinsam: Was läuft schief? Was fun
+ ktioniert bereits gut? Und vor allem: Was kannst Du selbst\, Dein Team oder
+  Deine Organisation morgen konkret anders machen?\n\nAus der Praxis für die
+  Praxis: Diese Session richtet sich an alle\, die Diversität nicht nur als 
+ HR-Thema verstehen\, sondern als strategischen Erfolgsfaktor für ihre IT-Or
+ ganisation. Ob CTO\, Teamlead oder Entwickler:in – hier erhältst Du ungefil
+ terte Einblicke aus dem Projektalltag\, die sonst oft unsichtbar bleiben\, 
+ und kannst konkrete Impulse direkt in Deinen Alltag mitnehmen.\n\nWas Du mi
+ tnimmst: Echte Erfahrungen statt Theorie\, Verständnis für Barrieren im IT-
+ Alltag und Handlungsfelder für inklusive Teams – so konkret wie möglich\, s
+ o anonym wie nötig.\n\nMit Liam Bergh\, Sabine Wojcieszak und Eberhard Wolf
+ f
+LOCATION:https://youtu.be/rpOC-Dnc1KM https://www.linkedin.com/events/74021
+ 42898470830081/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
