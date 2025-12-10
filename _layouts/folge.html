@@ -94,12 +94,16 @@ This is the audio as a podcast.
 Hier findet sich das Audio als Podcast.
 {%- endif %}
 
+{%- if page.embedded-mp3 %}
 <center>
 <iframe
 style="width:100%;min-width:275px;min-height:320px;max-width:475px;max-height:400px;border:0;overflow:hidden"
 src="{{-page.embedded-mp3 }}"></iframe>
 </center>
- 
+{%- endif %}
+
+<br />
+
 <a href="{{-page.mp3 }}">MP3 Download</a>
 
 <br />
