@@ -19,47 +19,6 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Nächste Episode: 2025-12-09 13:00 CET DiversIT(y) – Diversität in der IT
-
-Stimmen aus der Praxis – Live-Stream mit Erfahrungsberichten und Diskussion
-
-Wie erleben Menschen, die in der IT unterrepräsentiert sind, ihren
-Arbeitsalltag wirklich? In diesem Live-Stream bringen wir ungefilterte
-Stimmen direkt auf die Bühne der IT-Tage.
-
-Im Vorfeld haben wir persönliche Erfahrungsberichte gesammelt – von
-Mikroaggressionen im Team-Meeting bis zu strukturellen Hürden beim
-Karrierestart. Diese anonymisierten Geschichten lesen wir vor und
-diskutieren gemeinsam: Was läuft schief? Was funktioniert bereits gut?
-Und vor allem: Was kannst Du selbst, Dein Team oder Deine Organisation
-morgen konkret anders machen?
-
-Aus der Praxis für die Praxis: Diese Session richtet sich an alle, die
-Diversität nicht nur als HR-Thema verstehen, sondern als strategischen
-Erfolgsfaktor für ihre IT-Organisation. Ob CTO, Teamlead oder
-Entwickler:in – hier erhältst Du ungefilterte Einblicke aus dem
-Projektalltag, die sonst oft unsichtbar bleiben, und kannst konkrete
-Impulse direkt in Deinen Alltag mitnehmen.
-
-Was Du mitnimmst: Echte Erfahrungen statt Theorie, Verständnis für
-Barrieren im IT-Alltag und Handlungsfelder für inklusive Teams – so
-konkret wie möglich, so anonym wie nötig.
-
-Mit Liam Bergh, Sabine Wojcieszak und Eberhard Wolff
-
-{% include youtube.html
-  youtube-video-id="rpOC-Dnc1KM"
-  image-url="/thumbnails/folge295.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7402142898470830081/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
-
-[In Kalendar eintragen](diversity-diversitt-in-der-it.ics)
-
 ## 2025-12-12 15:00 CET Models and Modularization with Alistair Cockburn
 
 At the recent Software Architecture Gathering, Eberhard gave a talk on
