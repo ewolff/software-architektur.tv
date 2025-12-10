@@ -1,6 +1,6 @@
 # Let's Stop Making Each Other Feel Stupid – A Game-Changer for Tech Teams
 
-I had an incredible conversation with Clare Sudberry at the Software Architecture Gathering in Berlin, and I had to share this.
+I had an incredible conversation with Clare Sudbery at the Software Architecture Gathering in Berlin, and I had to share this.
 
 **The core issue:** In tech, we're obsessed with *what people know*. This creates a toxic cycle where people hide their ignorance, pretend to understand jargon they don't, and feel like frauds. The result? Imposter syndrome, tribal gatekeeping, and talented engineers leaving the industry.
 
