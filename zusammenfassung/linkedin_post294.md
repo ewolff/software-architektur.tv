@@ -1,6 +1,6 @@
 # Let's Stop Making Each Other Feel Stupid – A Game-Changer for Tech Teams
 
-Just caught an incredible conversation with Clare Sudberry at the Software Architecture Gathering in Berlin, and I had to share this.
+I had an incredible conversation with Clare Sudberry at the Software Architecture Gathering in Berlin, and I had to share this.
 
 **The core issue:** In tech, we're obsessed with *what people know*. This creates a toxic cycle where people hide their ignorance, pretend to understand jargon they don't, and feel like frauds. The result? Imposter syndrome, tribal gatekeeping, and talented engineers leaving the industry.
 
@@ -24,8 +24,6 @@ Whether you're an architect, tech lead, or individual contributor, this hits hom
 
 Ready to build teams where people feel safe, curious, and valued?
 
-**Listen to the full episode for the powerful story of how this completely changed Clare's career.**
+**Listen to or watch the full episode for the powerful story of how this completely changed Clare's career.**
 
-🎙️ [Link to episode]
-
-#SoftwareArchitecture #TechCulture #Leadership #Collaboration #CareerGrowth
+🎙️ https://software-architektur.tv/2025/11/26/episode294.html
