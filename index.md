@@ -19,28 +19,22 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## 2025-12-12 15:00 CET Models and Modularization with Alistair Cockburn
+## Nächste Episode: nächstes Jahr
 
-At the recent Software Architecture Gathering, Eberhard gave a talk on
-models, modularization, and Bounded Contexts, while Alistair explored
-similar themes in conversations with attendees. In this episode, the
-two come together to discuss the key concepts behind these topics,
-compare their perspectives, and answer questions from the audience.
+<!-- { include youtube.html -->
+<!--   youtube-video-id="88OZiIjHh8s" -->
+<!--   image-url="/thumbnails/episode296.png" -->
+<!-- } -->
 
-{% include youtube.html
-  youtube-video-id="88OZiIjHh8s"
-  image-url="/thumbnails/episode296.png"
-%}
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7402136197893869568/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7402136197893869568/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
 
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
-
-[Add to calendar](models-and-modularization-with-alistair-cockburn.ics)
+<!-- [Add to calendar](models-and-modularization-with-alistair-cockburn.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
