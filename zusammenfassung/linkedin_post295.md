@@ -18,4 +18,4 @@ Diese Epsiode von "Software-Architektur im Stream" beschäftigt sich mit einem T
 
 Mit Gästen Sabine Wojcieszak und Liam Bergh.
 
-🎙️ Hör oler schau rein: https://software-architektur.tv/2025/12/09/episode295.html
+🎙️ Hör oder schau rein: https://software-architektur.tv/2025/12/09/episode295.html
