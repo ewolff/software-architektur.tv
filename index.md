@@ -19,7 +19,7 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Nächste Episode: nächstes Jahr
+## Nächste Episode: noch offen
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="88OZiIjHh8s" -->
