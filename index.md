@@ -19,7 +19,7 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Nächste Episode: Spec-Driven-Development mit Simon Martinelli
+## Freitag, 2026-01-16 13:00 CET Spec-Driven-Development mit Simon Martinelli
 
 Code-First war gestern – Requirements-Driven ist die Zukunft! Doch bedeutet das wirklich, dass wir zu detaillierten Wasserfall-Spezifikationen zurückkehren müssen? Mitnichten!
 
