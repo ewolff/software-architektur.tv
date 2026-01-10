@@ -19,7 +19,22 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Nächste Episode: noch offen
+## Freitag, 2026-01-16 13:00 CET Spec-Driven-Development mit Simon Martinelli
+
+Code-First war gestern – Requirements-Driven ist die Zukunft! Doch bedeutet das wirklich, dass wir zu detaillierten Wasserfall-Spezifikationen zurückkehren müssen? Mitnichten!
+
+In dieser Episode spricht Ralf D. Müller mit Simon Martinelli über den AI Unified Process (AIUP), einen agilen und iterativen Entwicklungsansatz, der Requirements ins Zentrum stellt – nicht den Code. Simon zeigt, wie man mit AIUP moderne Software entwickelt, bei der Anforderungen, Spezifikationen, Code und Tests gemeinsam durch kurze Iterationen wachsen, während KI als Konsistenz-Engine dient.
+
+Wir diskutieren die zentrale Frage: Brauchen wir perfekte, deterministische Spezifikationen für KI-Code-Generierung? Simon argumentiert, dass dies der falsche Ansatz ist. Stattdessen ermöglicht AIUP iterative Verbesserung: Requirements treiben die Entwicklung, Spezifikationen werden detaillierter, Tests schützen das Systemverhalten, während der generierte Code sich gemeinsam mit allem anderen weiterentwickelt.
+
+<!--
+## Links
+- 
+- [AI Unified Process (AIUP)](https://aiup.dev)
+- [Simon Martinelli](https://martinelli.ch)
+- [AIUP Marketplace auf GitHub](https://github.com/martinellich/aiup-marketplace)
+- [Spec-Driven Development with AI – A New Approach and a Journey Into the Past](https://martinelli.ch/spec-driven-development-with-ai-a-new-approach-and-a-journey-into-the-past/)
+-->
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="88OZiIjHh8s" -->
