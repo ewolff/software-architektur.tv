@@ -36,20 +36,20 @@ Wir diskutieren die zentrale Frage: Brauchen wir perfekte, deterministische Spez
 - [Spec-Driven Development with AI – A New Approach and a Journey Into the Past](https://martinelli.ch/spec-driven-development-with-ai-a-new-approach-and-a-journey-into-the-past/)
 -->
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="88OZiIjHh8s" -->
-<!--   image-url="/thumbnails/episode296.png" -->
-<!-- } -->
+{%- include youtube.html
+  youtube-video-id="_VkC-CCEptk"
+  image-url="/thumbnails/folge298.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7402136197893869568/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7416516817726332928/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
-<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [Add to calendar](models-and-modularization-with-alistair-cockburn.ics) -->
+[In Kalendar eintragen](spec-driven-development-mit-simon-martinelli.ics)
 
 ## Fragen, Diskussion und Anregungen
 
