@@ -11,7 +11,7 @@ description: Überblick über die geplanten Folgen
 | 30.01.2026      | Agile Doku mit Liam Berg (Ralf) |
 
 <!--
-Agile Doki mit Liam Berg
+Agile Doko mit Liam Berg
 
 Dokumentation hat bei Vielen keinen guten Ruf: zu aufwendig, zu trocken, zu weit weg vom eigentlichen Entwickeln. Häufig entsteht sie losgelöst vom Entwicklungsprozess, wird einmal geschrieben und danach kaum noch gelesen oder gepflegt. Statt ein lebendiger Teil des Produkts zu sein, veraltet sie stillschweigend.
 
