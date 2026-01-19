@@ -19,37 +19,24 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Freitag, 2026-01-16 13:00 CET Spec-Driven-Development mit Simon Martinelli
+## Freitag, 2026-01-23 13:00 CET Persistenz-Stratgegien
 
-Code-First war gestern – Requirements-Driven ist die Zukunft! Doch bedeutet das wirklich, dass wir zu detaillierten Wasserfall-Spezifikationen zurückkehren müssen? Mitnichten!
+Details folgen
 
-In dieser Episode spricht Ralf D. Müller mit Simon Martinelli über den AI Unified Process (AIUP), einen agilen und iterativen Entwicklungsansatz, der Requirements ins Zentrum stellt – nicht den Code. Simon zeigt, wie man mit AIUP moderne Software entwickelt, bei der Anforderungen, Spezifikationen, Code und Tests gemeinsam durch kurze Iterationen wachsen, während KI als Konsistenz-Engine dient.
+<!-- { include youtube.html -->
+<!--   youtube-video-id="_VkC-CCEptk" -->
+<!--   image-url="/thumbnails/folge298.png" -->
+<!-- %} -->
 
-Wir diskutieren die zentrale Frage: Brauchen wir perfekte, deterministische Spezifikationen für KI-Code-Generierung? Simon argumentiert, dass dies der falsche Ansatz ist. Stattdessen ermöglicht AIUP iterative Verbesserung: Requirements treiben die Entwicklung, Spezifikationen werden detaillierter, Tests schützen das Systemverhalten, während der generierte Code sich gemeinsam mit allem anderen weiterentwickelt.
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7416516817726332928/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-<!--
-## Links
-- 
-- [AI Unified Process (AIUP)](https://aiup.dev)
-- [Simon Martinelli](https://martinelli.ch)
-- [AIUP Marketplace auf GitHub](https://github.com/martinellich/aiup-marketplace)
-- [Spec-Driven Development with AI – A New Approach and a Journey Into the Past](https://martinelli.ch/spec-driven-development-with-ai-a-new-approach-and-a-journey-into-the-past/)
--->
+<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
 
-{%- include youtube.html
-  youtube-video-id="_VkC-CCEptk"
-  image-url="/thumbnails/folge298.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7416516817726332928/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
-
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
-
-[In Kalendar eintragen](spec-driven-development-mit-simon-martinelli.ics)
+<!-- [In Kalendar eintragen](spec-driven-development-mit-simon-martinelli.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
