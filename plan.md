@@ -6,9 +6,10 @@ description: Überblick über die geplanten Folgen
 
 # Planung
 
-| Datum           | Thema / Gäste                   |
-|----------------:|:--------------------------------|
-| 2026-01-30      | Agile Doku mit Liam Berg (Ralf) |
+|      Datum | Thema / Gäste                                                                     |
+|-----------:|:----------------------------------------------------------------------------------|
+| 2026-01-30 | Agile Doku mit Liam Berg (Ralf)                                                   |
+| 2026-02-06 | Soziotechnische Architektur Reviews mit Jonas Clusen und Hansjörg Gude (Eberhard) |
 
 <!--
 Agile Doko mit Liam Berg
