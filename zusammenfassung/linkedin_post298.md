@@ -1,6 +1,6 @@
-# 🚀 Spec-Driven Development mit KI – Der Game Changer für Software-Architektur?
+# 🚀 Spec-Driven Development mit KI – Ein Game Changer für Software-Architektur?
 
-Statt "Vibe-Coding" Spezifikationen? **Simon Martinelli** zeigt in unserem neuesten Podcast, wie er mit **Spec-Driven Development** und KI-Agenten produktive Applikationen entwickelt – und das sogar schneller als traditionelle Handschrift!
+Statt "Vibe-Coding" Spezifikationen? **Simon Martinelli** aht in unserem Stream gezeigt, wie er mit **Spec-Driven Development** und KI-Agenten produktive Applikationen entwickelt – und das schneller mit traditionellem Handcoding!
 
 ## Die Kernideen:
 
@@ -15,6 +15,4 @@ Simon verwandelt Legacy-Systeme nicht nur, sondern dokumentiert sie so präzise,
 
 **Die wichtigste Erkenntnis:** Es geht nicht um weniger Planung, sondern um bessere, strukturierte Planung. Agil und spezifikationsgetrieben schließen sich nicht aus – sie ergänzen sich perfekt!
 
-➡️ Mehr Details im Podcast auf **software-architektur.tv**
-
-#SoftwareArchitektur #KI #SpecDrivenDevelopment #UseCase #CloudCode #Vaadin #SelfContainedSystems #LLM
+➡️ Mehr Details im Video oder Podcast: https://software-architektur.tv/2026/01/16/folge298.html
