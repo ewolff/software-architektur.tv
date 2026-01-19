@@ -8,7 +8,7 @@ description: Überblick über die geplanten Folgen
 
 | Datum           | Thema / Gäste                   |
 |----------------:|:--------------------------------|
-| 30.01.2026      | Agile Doku mit Liam Berg (Ralf) |
+| 2026-01-30      | Agile Doku mit Liam Berg (Ralf) |
 
 <!--
 Agile Doko mit Liam Berg
