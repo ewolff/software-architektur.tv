@@ -19,9 +19,18 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 [Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
 dem Thema "Advice for Designing Good Software Architecture".
 
-## Freitag, 2026-01-23 13:00 CET Persistenz-Stratgegien
+## Freitag, 2026-01-23 13:00 CET Wie Datenbanken die Architektur formen
 
-Details folgen
+Persistenz ist kein Detail, sondern prägt die gesamte Architektur. In
+dieser Episode diskutieren wir den klassischen Mismatch zwischen
+objekt-orientierter Domänenlogik und relationalen Datenbanken, die
+Rolle von O/R-Mappern und die Bedeutung u.a. von Aggregates und
+Domain-driven Design.
+
+Wir vergleichen relationale und NoSQL-Ansätze wie
+Dokumenten-Datenbanken und zeigen, warum unterschiedliche
+Persistenztechnologien zu unterschiedliche Architekturen führt.
+
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="_VkC-CCEptk" -->
