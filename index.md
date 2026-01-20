@@ -31,21 +31,20 @@ Wir vergleichen relationale und NoSQL-Ansätze wie
 Dokumenten-Datenbanken und zeigen, warum unterschiedliche
 Persistenztechnologien zu unterschiedliche Architekturen führt.
 
+{% include youtube.html
+  youtube-video-id="lL-gkue0Gx8"
+  image-url="/thumbnails/folge299.png"
+%}
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="_VkC-CCEptk" -->
-<!--   image-url="/thumbnails/folge298.png" -->
-<!-- %} -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7419370023393263617/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7416516817726332928/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
-
-<!-- [In Kalendar eintragen](spec-driven-development-mit-simon-martinelli.ics) -->
+[In Kalendar eintragen](wie-datenbanken-die-architektur-formen.ics)
 
 ## Fragen, Diskussion und Anregungen
 
