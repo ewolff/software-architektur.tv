@@ -10,6 +10,12 @@ description: Folgen nach Tags
 	<a href="/tags-alphabetisch.html">alphabetisch sortiert</a>
 </section>
 
+{%- include filter.html
+   placeholder="Tags filtern"
+   to-be-filtered="details"
+   filter-subelement="summary h3"
+%}
+
 # Alphabetisch sortiert
 
 {%- capture tags %}

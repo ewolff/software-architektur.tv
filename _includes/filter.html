@@ -1,0 +1,20 @@
+<input type="text"
+  id="filterInput"
+  placeholder="{{-include.placeholder}}"
+  style="margin-bottom: 1rem; padding: 0.5rem; width: 100%;"
+  />
+  
+<script>
+  const filterInput = document.getElementById("filterInput");
+
+  filterInput.addEventListener("input", () => {
+    const filterText = filterInput.value.toLowerCase();
+
+    document.querySelectorAll("{{-include.to-be-filtered}}").forEach(toBeFiltered => {
+      const filterSubelement = toBeFiltered.querySelector("{{-include.filter-subelement}}");
+      const text = filterSubelement ? filterSubelement.textContent.toLowerCase() : "";
+
+      toBeFiltered.style.display = text.includes(filterText) ? "" : "none";
+    });
+  });
+</script>
