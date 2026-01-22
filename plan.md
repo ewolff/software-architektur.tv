@@ -10,6 +10,7 @@ description: Überblick über die geplanten Folgen
 |-----------:|:----------------------------------------------------------------------------------|
 | 2026-01-30 | Agile Doku mit Liam Berg (Ralf)                                                   |
 | 2026-02-06 | Soziotechnische Architektur Reviews mit Jonas Clusen und Hansjörg Gude (Eberhard) |
+| 2026-02-20 | Hyperscaler-Exit mit Lucas Dohmen                                                 |
 
 <!--
 Agile Doko mit Liam Berg
