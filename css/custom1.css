@@ -121,3 +121,8 @@ details[open] summary h3::before {
 .fineprint {
   font-size: .8rem;
 }
+
+.page-header input,
+.page-header button {
+  color: #606c71;
+}
