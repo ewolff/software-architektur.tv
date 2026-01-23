@@ -14,11 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Adventskalender 2025
-
-[Hier](/adventskalender2025.html) geht es zum Adventskalender 2025 mit
-dem Thema "Advice for Designing Good Software Architecture".
-
 ## Freitag, 2026-01-23 13:00 CET Wie Datenbanken die Architektur formen
 
 Persistenz ist kein Detail, sondern prägt die gesamte Architektur. In
