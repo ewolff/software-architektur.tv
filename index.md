@@ -32,7 +32,7 @@ Dokumenten-Datenbanken und zeigen, warum unterschiedliche
 Persistenztechnologien zu unterschiedliche Architekturen führt.
 
 {% include youtube.html
-  youtube-video-id="lL-gkue0Gx8"
+  youtube-video-id="nNWu7o4dnUE"
   image-url="/thumbnails/folge299.png"
 %}
 
