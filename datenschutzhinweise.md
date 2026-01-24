@@ -133,3 +133,19 @@ möglich. Dienstanbieter ist das Unternehmen Piwik PRO SA,
 ul. Św. Antoniego 2/4, 50073 Wrocław, Polen. Mehr über die Daten, die
 durch die Verwendung von Piwik PRO verarbeitet werden, erfahren Sie in
 der [Privacy Policy](https://piwikpro.de/datenschutz/).
+
+## Nutzung von DuckDuckGo
+
+Auf unserer Website stellen wir eine Suchfunktion zur Verfügung, bei
+deren Nutzung eine Weiterleitung zu dem Suchmaschinenanbieter
+DuckDuckGo (Duck Duck Go, Inc., 20 Paoli Pike, Paoli, PA 19301, USA)
+erfolgen kann. Bei Nutzung der Suchfunktion werden insbesondere die
+eingegebenen Suchbegriffe sowie Ihre IP-Adresse an DuckDuckGo
+übermittelt. Die Verarbeitung erfolgt zum Zweck der Anzeige von
+Suchergebnissen bezogen auf unsere Website. DuckDuckGo verarbeitet die
+Daten als eigener Verantwortlicher im Sinne von Art. 4 Nr. 7
+DSGVO. Weitere Informationen zur Datenverarbeitung durch DuckDuckGo
+finden Sie unter: https://duckduckgo.com/privacy . Die Nutzung der
+Suchfunktion erfolgt auf Grundlage unseres berechtigten Interesses
+gemäß Art. 6 Abs. 1 lit. f DSGVO an einer nutzerfreundlichen
+Suchmöglichkeit.
