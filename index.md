@@ -14,32 +14,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-01-23 13:00 CET Wie Datenbanken die Architektur formen
+## Freitag, 2026-01-30 13:00 CET Agile Doku mit Liam Bergh
 
-Persistenz ist kein Detail, sondern prägt die gesamte Architektur. In
-dieser Episode diskutieren wir den klassischen Mismatch zwischen
-objekt-orientierter Domänenlogik und relationalen Datenbanken, die
-Rolle von O/R-Mappern und die Bedeutung u.a. von Aggregates und
-Domain-driven Design.
+Dokumentation hat bei Vielen keinen guten Ruf: zu aufwändig, zu trocken, zu weit weg vom eigentlichen Entwickeln. Häufig entsteht sie losgelöst vom Entwicklungsprozess, wird einmal geschrieben und danach kaum noch gelesen oder gepflegt. Statt ein lebendiger Teil des Produkts zu sein, veraltet sie stillschweigend.
 
-Wir vergleichen relationale und NoSQL-Ansätze wie
-Dokumenten-Datenbanken und zeigen, warum unterschiedliche
-Persistenztechnologien zu unterschiedliche Architekturen führt.
+Im agilen Manifest heißt es: „Funktionierende Software mehr als umfassende Dokumentation.“ Diese Aussage wird oft als Aufruf verstanden, Dokumentation zu vernachlässigen oder ganz wegzulassen. Doch war das wirklich die Intention? Oder geht es vielmehr um eine neue Art von Dokumentation – zur richtigen Zeit, mit dem richtigen Fokus?
+
+In diesem Stream geht es darum, wie Dokumentation im agilen Umfeld sinnvoll funktionieren kann: leichtgewichtig statt schwerfällig, integriert statt nachgelagert, hilfreich statt Pflichtübung. Es geht um Praxis, Haltung und konkrete Ansätze, um Teams durch Doku zu unterstützen, statt sie auszubremsen.
 
 {% include youtube.html
-  youtube-video-id="nNWu7o4dnUE"
-  image-url="/thumbnails/folge299.png"
+  youtube-video-id="2WMQMzkZnaE"
+  image-url="/thumbnails/folge300.png"
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7419370023393263617/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7421627789709115392/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](wie-datenbanken-die-architektur-formen.ics)
+[In Kalendar eintragen](agile-doku.ics)
 
 ## Fragen, Diskussion und Anregungen
 
