@@ -14,15 +14,11 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-01-30 13:00 CET Agile Doku mit Liam Bergh
+## Freitag, 2026-02-06 13:00 CET Soziotechnische Architektur Reviews mit Jonas Clusen und Hansjörg Gude
 
-Dokumentation hat bei Vielen keinen guten Ruf: zu aufwändig, zu trocken, zu weit weg vom eigentlichen Entwickeln. Häufig entsteht sie losgelöst vom Entwicklungsprozess, wird einmal geschrieben und danach kaum noch gelesen oder gepflegt. Statt ein lebendiger Teil des Produkts zu sein, veraltet sie stillschweigend.
 
-Im agilen Manifest heißt es: „Funktionierende Software mehr als umfassende Dokumentation.“ Diese Aussage wird oft als Aufruf verstanden, Dokumentation zu vernachlässigen oder ganz wegzulassen. Doch war das wirklich die Intention? Oder geht es vielmehr um eine neue Art von Dokumentation – zur richtigen Zeit, mit dem richtigen Fokus?
-
-In diesem Stream geht es darum, wie Dokumentation im agilen Umfeld sinnvoll funktionieren kann: leichtgewichtig statt schwerfällig, integriert statt nachgelagert, hilfreich statt Pflichtübung. Es geht um Praxis, Haltung und konkrete Ansätze, um Teams durch Doku zu unterstützen, statt sie auszubremsen.
-
-{% include youtube.html
+<!--
+{ include youtube.html
   youtube-video-id="2WMQMzkZnaE"
   image-url="/thumbnails/folge300.png"
 %}
@@ -35,7 +31,8 @@ In diesem Stream geht es darum, wie Dokumentation im agilen Umfeld sinnvoll funk
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](agile-doku.ics)
+<!-- [In Kalendar eintragen](agile-doku.ics)
+-->
 
 ## Fragen, Diskussion und Anregungen
 
