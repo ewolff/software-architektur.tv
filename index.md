@@ -28,22 +28,23 @@ Verbesserungen für Systeme und Organisationen abzuleiten - und wie
 durch den Ansatz Organisationen auch schon nachweisbar verbessert
 worden sind.
 
-<!--
-{ include youtube.html
-  youtube-video-id="2WMQMzkZnaE"
-  image-url="/thumbnails/folge300.png"
+* [STAR-Reviews](https://swaglab.rocks/star-review/) 
+* [Virtueller Kaffee mit Hansjörg, Jonas oder Eberhard](https://swaglab.rocks/virtueller-kaffee/)
+
+{% include youtube.html
+  youtube-video-id="s3nLR-_dl_4"
+  image-url="/thumbnails/folge301.png"
 %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7421627789709115392/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7424728617802186752/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [In Kalendar eintragen](agile-doku.ics)
--->
+[In Kalendar eintragen](soziotechnische-architektur-reviews-mit-jonas-clus.ics)
 
 ## Fragen, Diskussion und Anregungen
 
