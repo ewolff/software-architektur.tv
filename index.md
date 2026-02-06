@@ -14,37 +14,36 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-06 13:00 CET Soziotechnische Architektur Reviews mit Hansjörg Gude
+## Freitag, 2026-02-13 13:00 CET Architecture and Organization Inverse Conway and Team Topologies
 
-Soziotechnische Architektur Reviews mit Jonas Clusen und Hansjörg Gude
-In dieser Episode von Software-Architektur im Stream spricht 
-Hansjörg Gude mit Eberhard Wolff über soziotechnische
-Architektur Reviews (STAR). Der Ansatz erweitert klassische Reviews um
-die organisatorische Perspektive. Das Ergebnis des Reviews zeigt, wie
-Teams, Kommunikation und Strukturen die Architektur
-beeinflussen. Gemeinsam diskutieren wir, wie STAR hilft, technische
-und soziale Spannungsfelder zu erkennen und daraus konkrete, wirksame
-Verbesserungen für Systeme und Organisationen abzuleiten - und wie
-durch den Ansatz Organisationen auch schon nachweisbar verbessert
-worden sind.
+Software architecture and organizational design are deeply
+interconnected. Conway’s Law captures this relationship, while the
+Inverse Conway Maneuver uses it to shape architecture through team
+structures. Team Topologies adds a practical model for designing
+effective team interactions and boundaries. This talk explores how
+organizational decisions directly influence architectural outcomes —
+and why integrating Team Topologies into your architectural strategy
+is probably critical. You’ll learn how purposeful team design can
+reduce cognitive load, improve system modularity, and create
+architectures that evolve more sustainably.
 
-* [STAR-Reviews](https://swaglab.rocks/star-review/) 
-* [Virtueller Kaffee mit Hansjörg, Jonas oder Eberhard](https://swaglab.rocks/virtueller-kaffee/)
+This episode is supported by [Agile meets
+Architecture](https://www.agile-meets-architecture.com/).
 
 {% include youtube.html
-  youtube-video-id="s3nLR-_dl_4"
-  image-url="/thumbnails/folge301.png"
+  youtube-video-id="u5aejGmWy2g"
+  image-url="/thumbnails/episode302.png"
 %}
 
-<section id="content-links">
+<!-- section id="content-links">
 	<a href="https://www.linkedin.com/events/7424728617802186752/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+</section -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](soziotechnische-architektur-reviews-mit-jonas-clus.ics)
+<!-- [In Kalendar eintragen](soziotechnische-architektur-reviews-mit-jonas-clus.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
