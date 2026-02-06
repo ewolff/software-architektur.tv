@@ -14,11 +14,11 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-06 13:00 CET Soziotechnische Architektur Reviews mit Jonas Clusen und Hansjörg Gude
+## Freitag, 2026-02-06 13:00 CET Soziotechnische Architektur Reviews mit Hansjörg Gude
 
 Soziotechnische Architektur Reviews mit Jonas Clusen und Hansjörg Gude
-In dieser Episode von Software-Architektur im Stream sprechen Jonas
-Clusen und Hansjörg Gude mit Eberhard Wolff über soziotechnische
+In dieser Episode von Software-Architektur im Stream spricht 
+Hansjörg Gude mit Eberhard Wolff über soziotechnische
 Architektur Reviews (STAR). Der Ansatz erweitert klassische Reviews um
 die organisatorische Perspektive. Das Ergebnis des Reviews zeigt, wie
 Teams, Kommunikation und Strukturen die Architektur
