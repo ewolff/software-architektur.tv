@@ -21,7 +21,7 @@ Sämtliche Inhalte von ewolff.com unterliegen dem deutschen
 Urheberrecht. Vervielfältigung, Veränderung, Verbreitung und jegliche
 Verwertung außerhalb des geltenden Urheberrechts bedürfen meiner
 schriftlichen Zustimmung. Die Inhalte unterliegen der
-[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.de) Lizenz.
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) Lizenz.
 
 Eingefügte Links wurden zum Zeitpunkt der Einfügung von mir geprüft.
 Aufgrund der Natur des Internets verändern sich die Inhalte der
