@@ -17,11 +17,11 @@ ausdrücklich widersprochen. Ich behalte mir ausdrücklich rechtliche
 Schritte im Falle der unverlangten Zusendung von Werbeinformationen
 etwa durch Spam-Emails oder Postsendungen vor.
 
-Sämtliche Inhalte von ewolff.com unterliegen dem deutschen
+Sämtliche Inhalte von software-architektur.tv unterliegen dem deutschen
 Urheberrecht. Vervielfältigung, Veränderung, Verbreitung und jegliche
 Verwertung außerhalb des geltenden Urheberrechts bedürfen meiner
 schriftlichen Zustimmung. Die Inhalte unterliegen der
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) Lizenz.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) Lizenz.
 
 Eingefügte Links wurden zum Zeitpunkt der Einfügung von mir geprüft.
 Aufgrund der Natur des Internets verändern sich die Inhalte der
