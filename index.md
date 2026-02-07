@@ -30,6 +30,9 @@ architectures that evolve more sustainably.
 This episode is supported by [Agile meets
 Architecture](https://www.agile-meets-architecture.com/).
 
+This will be an instant premiere and I will be present in the chat on
+YouTube when the episode goes live.
+
 {% include youtube.html
   youtube-video-id="u5aejGmWy2g"
   image-url="/thumbnails/episode302.png"
