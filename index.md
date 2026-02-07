@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-13 13:00 CET Architecture and Organization Inverse Conway and Team Topologies
+## Freitag, 2026-02-13 13:00 CET Architecture and Organization: Inverse Conway and Team Topologies
 
 Software architecture and organizational design are deeply
 interconnected. Conway’s Law captures this relationship, while the
