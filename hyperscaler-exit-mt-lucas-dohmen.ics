@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1770985437604-xusomophksp@ics-generator.local
+DTSTAMP:20260213T132357
+DTSTART;TZID=Europe/Berlin:20260220T130000
+DTEND;TZID=Europe/Berlin:20260220T140000
+SUMMARY:Hyperscaler Exit mt Lucas Dohmen
+DESCRIPTION:In dieser Episode spricht Lucas Dohmen mit Eberhard Wolff darüb
+ er\, wie man Anwendungen aus dem Cloud-Angebot großer Hyperscalers wegmigri
+ ert. Er berichtet dabei aus der Praxis: Gemeinsam mit dem Team von fejo.dk\
+ , einem der meistgenutzten Portale für Ferienhäuser in Dänemark\, hat er di
+ e Anwendung von Amazon Web Services (AWS) in die Hetzner Cloud umgezogen. L
+ ucas erläutert\, wie sie dabei vorgegangen sind\, welche Vorteile es gibt\,
+  welche Herausforderungen sie lösen mussten und wie ein solcher Weg typisch
+ erweise aussieht.
+LOCATION:https://www.linkedin.com/events/7427460134106402816/ https://www.t
+ witch.tv/ebrwolff https://youtube.com/live/xBBfbma0WGw
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

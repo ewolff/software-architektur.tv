@@ -14,39 +14,31 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-13 13:00 CET Architecture and Organization: Inverse Conway and Team Topologies
+## Freitag, 2026-02-20 13:00 CET Hyperscaler Exit mit Lucas Dohmen
 
-Software architecture and organizational design are deeply
-interconnected. Conway’s Law captures this relationship, while the
-Inverse Conway Maneuver uses it to shape architecture through team
-structures. Team Topologies adds a practical model for designing
-effective team interactions and boundaries. This talk explores how
-organizational decisions directly influence architectural outcomes —
-and why integrating Team Topologies into your architectural strategy
-is probably critical. You’ll learn how purposeful team design can
-reduce cognitive load, improve system modularity, and create
-architectures that evolve more sustainably.
-
-This episode is supported by [Agile meets
-Architecture](https://www.agile-meets-architecture.com/).
-
-This will be an instant premiere and I will be present in the chat on
-YouTube when the episode goes live.
+In dieser Episode spricht Lucas Dohmen mit Eberhard Wolff darüber, wie
+man Anwendungen aus dem Cloud-Angebot großer Hyperscalers
+wegmigriert. Er berichtet dabei aus der Praxis: Gemeinsam mit dem Team
+von fejo.dk, einem der meistgenutzten Portale für Ferienhäuser in
+Dänemark, hat er die Anwendung von Amazon Web Services (AWS) in die
+Hetzner Cloud umgezogen. Lucas erläutert, wie sie dabei vorgegangen
+sind, welche Vorteile es gibt, welche Herausforderungen sie lösen
+mussten und wie ein solcher Weg typischerweise aussieht.
 
 {% include youtube.html
-  youtube-video-id="u5aejGmWy2g"
-  image-url="/thumbnails/episode302.png"
+  youtube-video-id="xBBfbma0WGw"
+  image-url="/thumbnails/folge303.png"
 %}
 
-<!-- section id="content-links">
-	<a href="https://www.linkedin.com/events/7424728617802186752/">LinkedIn</a>
+section id="content-links">
+	<a href="https://www.linkedin.com/events/7427460134106402816/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section -->
+</section>
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [In Kalendar eintragen](soziotechnische-architektur-reviews-mit-jonas-clus.ics) -->
+[In Kalendar eintragen](soziotechnische-architektur-reviews-mit-jonas-clus.ics)
 
 ## Fragen, Diskussion und Anregungen
 
