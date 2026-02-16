@@ -30,7 +30,7 @@ mussten und wie ein solcher Weg typischerweise aussieht.
   image-url="/thumbnails/folge303.png"
 %}
 
-section id="content-links">
+<section id="content-links">
 	<a href="https://www.linkedin.com/events/7427460134106402816/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
