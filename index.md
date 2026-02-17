@@ -38,7 +38,7 @@ mussten und wie ein solcher Weg typischerweise aussieht.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](soziotechnische-architektur-reviews-mit-jonas-clus.ics)
+[In Kalendar eintragen](hyperscaler-exit-mt-lucas-dohmen.ics)
 
 ## Fragen, Diskussion und Anregungen
 
