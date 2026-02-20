@@ -14,31 +14,23 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-20 13:00 CET Hyperscaler Exit mit Lucas Dohmen
+## Freitag, 2026-02-27 13:00 CET Thema offen
 
-In dieser Episode spricht Lucas Dohmen mit Eberhard Wolff darüber, wie
-man Anwendungen aus dem Cloud-Angebot großer Hyperscalers
-wegmigriert. Er berichtet dabei aus der Praxis: Gemeinsam mit dem Team
-von fejo.dk, einem der meistgenutzten Portale für Ferienhäuser in
-Dänemark, hat er die Anwendung von Amazon Web Services (AWS) in die
-Hetzner Cloud umgezogen. Lucas erläutert, wie sie dabei vorgegangen
-sind, welche Vorteile es gibt, welche Herausforderungen sie lösen
-mussten und wie ein solcher Weg typischerweise aussieht.
 
-{% include youtube.html
-  youtube-video-id="xBBfbma0WGw"
-  image-url="/thumbnails/folge303.png"
-%}
+<!-- { include youtube.html -->
+<!--   youtube-video-id="xBBfbma0WGw" -->
+<!--   image-url="/thumbnails/folge303.png" -->
+<!-- %} -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7427460134106402816/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7427460134106402816/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](hyperscaler-exit-mt-lucas-dohmen.ics)
+<!-- [In Kalendar eintragen](hyperscaler-exit-mt-lucas-dohmen.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
