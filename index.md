@@ -14,8 +14,21 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-27 13:00 CET Thema offen
+## Freitag, 2026-02-27 13:00 CET Programmierung als Theoriebildung
 
+Der Informatik-Pionier Peter Naur formulierte 1985 in seinem Aufsatz
+"Programming as Theory Building" die These, dass Programmieren im Kern
+bedeutet, eine Theorie zu entwickeln – ein tiefes Verständnis eines
+Problems und seiner Lösung.
+
+Diese Perspektive erklärt, warum Änderungen an bestehenden Systemen so
+schwierig sind, wie Legacy-Software entsteht und weshalb iterative
+Softwareentwicklung so wirkungsvoll sein kann.
+
+In dieser Episode diskutiert Eberhard Naurs Überlegungen und setzt sie
+in Beziehung zu aktuellen Herausforderungen der Softwareentwicklung –
+etwa zur verbreiteten Vorstellung im Kontext generativer KI,
+Programmieren bestehe primär lediglich im Erzeugen von Code.
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="xBBfbma0WGw" -->
