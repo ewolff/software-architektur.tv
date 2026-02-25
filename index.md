@@ -30,20 +30,20 @@ in Beziehung zu aktuellen Herausforderungen der Softwareentwicklung –
 etwa zur verbreiteten Vorstellung im Kontext generativer KI,
 Programmieren bestehe primär lediglich im Erzeugen von Code.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="xBBfbma0WGw" -->
-<!--   image-url="/thumbnails/folge303.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="xCp_lSSMSPY"
+  image-url="/thumbnails/folge304.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7427460134106402816/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7432523479897448450/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [In Kalendar eintragen](hyperscaler-exit-mt-lucas-dohmen.ics) -->
+[In Kalendar eintragen](programmierung-als-theoriebildung.ics)
 
 ## Fragen, Diskussion und Anregungen
 

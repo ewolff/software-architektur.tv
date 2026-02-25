@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1772052048381-bn8denu4ro@ics-generator.local
+DTSTAMP:20260225T214048
+DTSTART;TZID=Europe/Berlin:20260227T130000
+DTEND;TZID=Europe/Berlin:20260227T140000
+SUMMARY:Programmierung als Theoriebildung
+DESCRIPTION:Der Informatik-Pionier Peter Naur formulierte 1985 in seinem Au
+ fsatz “Programming as Theory Building” die These\, dass Programmieren im Ke
+ rn bedeutet\, eine Theorie zu entwickeln – ein tiefes Verständnis eines Pro
+ blems und seiner Lösung.\n\nDiese Perspektive erklärt\, warum Änderungen an
+  bestehenden Systemen so schwierig sind\, wie Legacy-Software entsteht und 
+ weshalb iterative Softwareentwicklung so wirkungsvoll sein kann.\n\nIn dies
+ er Episode diskutiert Eberhard Naurs Überlegungen und setzt sie in Beziehun
+ g zu aktuellen Herausforderungen der Softwareentwicklung – etwa zur verbrei
+ teten Vorstellung im Kontext generativer KI\, Programmieren bestehe primär 
+ lediglich im Erzeugen von Code.
+LOCATION:https://www.youtube.com/watch?v=xCp_lSSMSPY https://www.twitch.tv/
+ ebrwolff  https://www.linkedin.com/events/7432523479897448450/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
