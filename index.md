@@ -14,36 +14,87 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Freitag, 2026-02-27 13:00 CET Programmierung als Theoriebildung
+## Tuesday, 2026-03-10 12:00 CET Splitting without Splitting (Tsvetelina Plummer, Pricillia Gunawan)
 
-Der Informatik-Pionier Peter Naur formulierte 1985 in seinem Aufsatz
-"Programming as Theory Building" die These, dass Programmieren im Kern
-bedeutet, eine Theorie zu entwickeln – ein tiefes Verständnis eines
-Problems und seiner Lösung.
+This episode will be streamed live from [Agile meets Architecture
+conference](https://www.agile-meets-architecture.com/).
 
-Diese Perspektive erklärt, warum Änderungen an bestehenden Systemen so
-schwierig sind, wie Legacy-Software entsteht und weshalb iterative
-Softwareentwicklung so wirkungsvoll sein kann.
+We all know it - our team has become too big, meetings take too long,
+half of the conversations don’t apply to our work, and the sprint goal
+is now "finish all stories in the sprint"! The classic textbook and
+the chatbot are certain: The team should be split!
 
-In dieser Episode diskutiert Eberhard Naurs Überlegungen und setzt sie
-in Beziehung zu aktuellen Herausforderungen der Softwareentwicklung –
-etwa zur verbreiteten Vorstellung im Kontext generativer KI,
-Programmieren bestehe primär lediglich im Erzeugen von Code.
+And this is indeed the optimal solution. But real life isn’t a
+textbook, and our resources aren't infinite. What if instead of
+slicing to be a-two-pizza-team, we asked the question: "What do we
+actually need to work well together?"
 
-{% include youtube.html
-  youtube-video-id="xCp_lSSMSPY"
-  image-url="/thumbnails/folge304.png"
-%}
+After over 4 years working with several large data science and
+engineering teams that wrestled with multiple variations of the same
+problem, we've resisted the urge to split by the book.
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7432523479897448450/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+Instead of insisting on the one right way, we want to show you how
+tuning in, listening, and deliberately choosing the solution, can
+bring back the fun, ease and coveted efficiency we all are after.
+
+That could mean: changing who does what in the team, redrawing team
+boundaries, or combining pragmatic approaches of multiple
+organizational design systems like LeSS, Team Topologies, and Fluid
+Teams.
+
+The trick is to stop chasing the perfect model and start designing
+something that actually fits both the team’s culture and unique
+problem domain. Think of it like tailoring a suit: it has to fit the
+people wearing it, not just look good on a cover.
+
+## Wednesday, 2026-03-11 13:00 CET CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Jan Solhøy, Guro Fladvad Størdal)
+
+This episode will be streamed live from [Agile meets Architecture
+conference](https://www.agile-meets-architecture.com/).
+
+In this episode, we will discuss the multi-year journey of Circle
+K's eMobility organization as it scales to support growth from Norway
+to European and global markets.
+
+The eMobility organization began as a small team focused on validating
+the electric vehicle (EV) charging business in Norway. However, due to
+its success, it quickly had to shift from "validating to scaling" and
+expand to various countries and multiple products in an industry that
+is still in development.
+
+Throughout the talk, we will share valuable "mistakes", lessons
+learned, experiments, methods, and practices we have employed during
+this journey. We will particularly emphasize the importance of
+breaking down functional silos within the organization as a means to
+support sustainable scaling. Initially, we focused on overcoming the
+Product and Technology silos. Still, in time, we went further to
+develop truly cross-functional value streams, also involving and
+continuously engaging with marketing, sales, operations, and other
+disciplines, with the goal of defining the best ways to support the
+activities necessary for rapid and sustainable business growth.
+
+We have employed various ideas and techniques, including Domain-driven
+Design, Team Topologies, Wardley Mapping, and others. However, you
+will see that there are no silver bullets. The secret is embracing
+this as a continuous improvement process, involving people with
+knowledge and expertise, maximizing learning, and empowering value
+streams and their teams to drive the necessary design and
+decision-making with a clear long-term vision.
+
+<!-- { include youtube.html -->
+<!--   youtube-video-id="xCp_lSSMSPY" -->
+<!--   image-url="/thumbnails/folge304.png" -->
+<!-- %} -->
+
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7432523479897448450/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](programmierung-als-theoriebildung.ics)
+<!-- [In Kalendar eintragen](programmierung-als-theoriebildung.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
