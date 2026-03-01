@@ -4,7 +4,7 @@ Stellt euch vor, zwei Teams arbeiten am selben Compiler. Team A hat ihn gebaut, 
 
 **Was ist hier los?**
 
-In unserer neuesten Episode diskutiere ich ein bahnbrechendes Paper von Peter Naur (1985): **"Programming is Theorybuilding"**
+In unserer neuesten Episode diskutiere ich ein Paper von Peter Naur (1985): **"Programming is Theorybuilding"**
 
 Die zentrale These: Programmierung ist nicht das Schreiben von Code – es ist das Entwickeln einer **Theorie über die Realität**, die dein System abbildet und unterstützt. Diese Theorie:
 
@@ -15,16 +15,12 @@ Die zentrale These: Programmierung ist nicht das Schreiben von Code – es ist d
 
 **Warum ist das gerade jetzt relevant?**
 
-In einer Zeit, in der LLMs automatisch Code generieren, wird eine fundamentale Frage gestellt: Kann KI diese Theorie bauen? Kann sie wirklich verstehen, wie ein System funktioniert – oder nur Code produzieren?
+In einer Zeit, in der Large Language Models (LLMs) automatischCode generieren, wird eine fundamentale Frage gestellt: Kann KI diese Theorie bauen? Kann sie wirklich verstehen, wie ein System funktioniert – oder nur Code produzieren?
 
-🎙️ In dieser Episode:
-- Case Studies über erfolgreiche vs. gescheiterte Softwareübernahmen
+🎙️ In dieser Episode geht es um:
+- Case Studies aus Naurs Paper
 - Warum Dokumentation allein nicht reicht
-- Der Unterschied zwischen Code und echter Architektur
+- Der Unterschied zwischen Code und Verständnis eines Software-Systems
 - Implikationen für AI-gestützte Softwareentwicklung
 
-Ein tiefgehendes Gespräch über das, was Softwareentwicklung wirklich ist.
-
-**Jetzt reinhören:** [Link zu software-architektur.tv]
-
-#SoftwareArchitektur #Theorybuilding #SoftwareDevelopment #LLM #CodeQuality #Wartbarkeit
+**Jetzt reinhören oder reinschauen:** https://software-architektur.tv/2026/02/27/folge304.html
