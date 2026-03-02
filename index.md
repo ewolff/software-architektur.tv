@@ -47,7 +47,7 @@ something that actually fits both the team’s culture and unique
 problem domain. Think of it like tailoring a suit: it has to fit the
 people wearing it, not just look good on a cover.
 
-## Wednesday, 2026-03-11 13:00 CET CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Jan Solhøy, Guro Fladvad Størdal)
+## Wednesday, 2026-03-11 13:00 CET CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Guro Fladvad Størdal)
 
 This episode will be streamed live from [Agile meets Architecture
 conference](https://www.agile-meets-architecture.com/).
@@ -62,7 +62,8 @@ its success, it quickly had to shift from "validating to scaling" and
 expand to various countries and multiple products in an industry that
 is still in development.
 
-Throughout the talk, we will share valuable "mistakes", lessons
+Throughout the episode, Eduardo and Guro will share valuable
+"mistakes", lessons
 learned, experiments, methods, and practices we have employed during
 this journey. We will particularly emphasize the importance of
 breaking down functional silos within the organization as a means to
@@ -73,7 +74,8 @@ continuously engaging with marketing, sales, operations, and other
 disciplines, with the goal of defining the best ways to support the
 activities necessary for rapid and sustainable business growth.
 
-We have employed various ideas and techniques, including Domain-driven
+Eduardo and Guro have employed various ideas and techniques, including
+Domain-driven
 Design, Team Topologies, Wardley Mapping, and others. However, you
 will see that there are no silver bullets. The secret is embracing
 this as a continuous improvement process, involving people with
