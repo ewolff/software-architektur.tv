@@ -98,20 +98,20 @@ knowledge and expertise, maximizing learning, and empowering value
 streams and their teams to drive the necessary design and
 decision-making with a clear long-term vision.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="xCp_lSSMSPY" -->
-<!--   image-url="/thumbnails/folge304.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="_ByDhOSI9iY"
+  image-url="/thumbnails/episode306.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7432523479897448450/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7434660180006453248/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [In Kalendar eintragen](programmierung-als-theoriebildung.ics) -->
+[In Kalendar eintragen](programmierung-als-theoriebildung.ics)
 
 ## Fragen, Diskussion und Anregungen
 
