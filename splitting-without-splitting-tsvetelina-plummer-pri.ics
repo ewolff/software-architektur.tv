@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1772560418032-y9a47ast2ii@ics-generator.local
+DTSTAMP:20260303T175338
+DTSTART;TZID=Europe/Berlin:20260310T120000
+DTEND;TZID=Europe/Berlin:20260310T130000
+SUMMARY:Splitting without Splitting (Tsvetelina Plummer\, Pricillia Gunawan
+ ) from AmA Conference
+DESCRIPTION:This episode will be streamed live from Agile meets Architectur
+ e conference https://www.agile-meets-architecture.com/ .\n\nWe all know it 
+ - our team has become too big\, meetings take too long\, half of the conver
+ sations don’t apply to our work\, and the sprint goal is now “finish all st
+ ories in the sprint”! The classic textbook and the chatbot are certain: The
+  team should be split!\n\nAnd this is indeed the optimal solution. But real
+  life isn’t a textbook\, and our resources aren’t infinite. What if instead
+  of slicing to be a-two-pizza-team\, we asked the question: “What do we act
+ ually need to work well together?”\n\nAfter over 4 years working with sever
+ al large data science and engineering teams that wrestled with multiple var
+ iations of the same problem\, we’ve resisted the urge to split by the book.
+ \n\nInstead of insisting on the one right way\, we want to show you how tun
+ ing in\, listening\, and deliberately choosing the solution\, can bring bac
+ k the fun\, ease and coveted efficiency we all are after.\n\nThat could mea
+ n: changing who does what in the team\, redrawing team boundaries\, or comb
+ ining pragmatic approaches of multiple organizational design systems like L
+ eSS\, Team Topologies\, and Fluid Teams.\n\nThe trick is to stop chasing th
+ e perfect model and start designing something that actually fits both the t
+ eam’s culture and unique problem domain. Think of it like tailoring a suit:
+  it has to fit the people wearing it\, not just look
+LOCATION:https://youtu.be/y18Hv6_m1a8 https://www.linkedin.com/events/74346
+ 53715099205632/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -47,6 +47,21 @@ something that actually fits both the team’s culture and unique
 problem domain. Think of it like tailoring a suit: it has to fit the
 people wearing it, not just look good on a cover.
 
+{% include youtube.html
+  youtube-video-id="y18Hv6_m1a8"
+  image-url="/thumbnails/folge305.png"
+%}
+
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7434653715099205632/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
+
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
+
+[In Kalendar eintragen](splitting-without-splitting-tsvetelina-plummer-pri..ics)
+
 ## Wednesday, 2026-03-11 13:00 CET CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Guro Fladvad Størdal)
 
 This episode will be streamed live from [Agile meets Architecture
