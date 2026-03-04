@@ -18,6 +18,8 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 This episode will be streamed live from [Agile meets Architecture
 conference](https://www.agile-meets-architecture.com/).
+Get 10% with code AMA\_SPEAKER\_10 or use this link:
+<https://pretix.eu/AmA/2026/redeem?voucher=AMA_SPEAKER_10> .
 
 We all know it - our team has become too big, meetings take too long,
 half of the conversations don’t apply to our work, and the sprint goal
@@ -66,6 +68,8 @@ people wearing it, not just look good on a cover.
 
 This episode will be streamed live from [Agile meets Architecture
 conference](https://www.agile-meets-architecture.com/).
+Get 10% with code AMA\_SPEAKER\_10 or use this link:
+<https://pretix.eu/AmA/2026/redeem?voucher=AMA_SPEAKER_10> .
 
 In this episode, we will discuss the multi-year journey of Circle
 K's eMobility organization as it scales to support growth from Norway
