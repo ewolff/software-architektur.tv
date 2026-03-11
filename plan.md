@@ -9,4 +9,6 @@ description: Überblick über die geplanten Folgen
 |            Datum | Thema / Gäste                                 |
 |-----------------:|:----------------------------------------------|
 | 2026-03-27 13:00 | Michael Stal zu LLMs für Architekturbewertung |
+| 2026-04-10 13:00 | Andrew Harmel-Law Anarchy                     |
+
 
