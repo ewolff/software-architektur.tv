@@ -14,56 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Tuesday, 2026-03-10 12:00 CET Splitting without Splitting (Tsvetelina Plummer, Pricillia Gunawan)
-
-This episode will be streamed live from [Agile meets Architecture
-conference](https://www.agile-meets-architecture.com/).
-Get 10% with code AMA\_AIS\_2026 or use this link:
-<https://pretix.eu/AmA/2026/redeem?voucher=AMA_AIS_2026> .
-
-We all know it - our team has become too big, meetings take too long,
-half of the conversations don’t apply to our work, and the sprint goal
-is now "finish all stories in the sprint"! The classic textbook and
-the chatbot are certain: The team should be split!
-
-And this is indeed the optimal solution. But real life isn’t a
-textbook, and our resources aren't infinite. What if instead of
-slicing to be a-two-pizza-team, we asked the question: "What do we
-actually need to work well together?"
-
-After over 4 years working with several large data science and
-engineering teams that wrestled with multiple variations of the same
-problem, we've resisted the urge to split by the book.
-
-Instead of insisting on the one right way, we want to show you how
-tuning in, listening, and deliberately choosing the solution, can
-bring back the fun, ease and coveted efficiency we all are after.
-
-That could mean: changing who does what in the team, redrawing team
-boundaries, or combining pragmatic approaches of multiple
-organizational design systems like LeSS, Team Topologies, and Fluid
-Teams.
-
-The trick is to stop chasing the perfect model and start designing
-something that actually fits both the team’s culture and unique
-problem domain. Think of it like tailoring a suit: it has to fit the
-people wearing it, not just look good on a cover.
-
-{% include youtube.html
-  youtube-video-id="y18Hv6_m1a8"
-  image-url="/thumbnails/folge305.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7434653715099205632/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
-
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
-
-[In Kalendar eintragen](splitting-without-splitting-tsvetelina-plummer-pri..ics)
-
 ## Wednesday, 2026-03-11 13:00 CET CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Guro Fladvad Størdal)
 
 This episode will be streamed live from [Agile meets Architecture
