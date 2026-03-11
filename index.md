@@ -31,20 +31,6 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 <!-- [In Kalendar eintragen](programmierung-als-theoriebildung.ics) -->
 
-## Fragen, Diskussion und Anregungen
-
-Fragen, Diskussion und Anregungen für die Episode oder den Stream gerne im Twitch-Chat oder
-YouTube-Chat oder anonym hier:
-
-Questions, discussion, and suggestions are welcome in the Twitch chat or the
-YouTube chat or
-anonymously here:
-
-{%- include google-form.html
-  form-url="https://docs.google.com/forms/d/e/1FAIpQLSf0xIZkNG_wRJ0IiobVcO3Z-q3dQMcwYTww0wgiWCupZCKM4A/viewform"
-  image-url="/images/google-form.png"
-  %}
-
 ## Neueste Folgen
 
 <div class="image-grid">
@@ -60,6 +46,20 @@ anonymously here:
 </div>
 
 [Weitere Folgen...](/chronologisch.html)
+
+## Fragen, Diskussion und Anregungen
+
+Fragen, Diskussion und Anregungen für die Episode oder den Stream gerne im Twitch-Chat oder
+YouTube-Chat oder anonym hier:
+
+Questions, discussion, and suggestions are welcome in the Twitch chat or the
+YouTube chat or
+anonymously here:
+
+{%- include google-form.html
+  form-url="https://docs.google.com/forms/d/e/1FAIpQLSf0xIZkNG_wRJ0IiobVcO3Z-q3dQMcwYTww0wgiWCupZCKM4A/viewform"
+  image-url="/images/google-form.png"
+  %}
 
 ## Lizenz
 
