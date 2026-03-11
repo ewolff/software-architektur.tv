@@ -14,58 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Wednesday, 2026-03-11 13:00 CET CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Guro Fladvad Størdal)
+## Nächste Episode: offen
 
-This episode will be streamed live from [Agile meets Architecture
-conference](https://www.agile-meets-architecture.com/).
-Get 10% with code AMA\_AIS\_2026 or use this link:
-<https://pretix.eu/AmA/2026/redeem?voucher=AMA_AIS_2026> .
+<!-- { include youtube.html -->
+<!--   youtube-video-id="_ByDhOSI9iY" -->
+<!--   image-url="/thumbnails/episode306.png" -->
+<!-- } -->
 
-In this episode, we will discuss the multi-year journey of Circle
-K's eMobility organization as it scales to support growth from Norway
-to European and global markets.
-
-The eMobility organization began as a small team focused on validating
-the electric vehicle (EV) charging business in Norway. However, due to
-its success, it quickly had to shift from "validating to scaling" and
-expand to various countries and multiple products in an industry that
-is still in development.
-
-Throughout the episode, Eduardo and Guro will share valuable
-"mistakes", lessons
-learned, experiments, methods, and practices we have employed during
-this journey. We will particularly emphasize the importance of
-breaking down functional silos within the organization as a means to
-support sustainable scaling. Initially, we focused on overcoming the
-Product and Technology silos. Still, in time, we went further to
-develop truly cross-functional value streams, also involving and
-continuously engaging with marketing, sales, operations, and other
-disciplines, with the goal of defining the best ways to support the
-activities necessary for rapid and sustainable business growth.
-
-Eduardo and Guro have employed various ideas and techniques, including
-Domain-driven
-Design, Team Topologies, Wardley Mapping, and others. However, you
-will see that there are no silver bullets. The secret is embracing
-this as a continuous improvement process, involving people with
-knowledge and expertise, maximizing learning, and empowering value
-streams and their teams to drive the necessary design and
-decision-making with a clear long-term vision.
-
-{% include youtube.html
-  youtube-video-id="_ByDhOSI9iY"
-  image-url="/thumbnails/episode306.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7434660180006453248/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7434660180006453248/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-[In Kalendar eintragen](programmierung-als-theoriebildung.ics)
+<!-- [In Kalendar eintragen](programmierung-als-theoriebildung.ics) -->
 
 ## Fragen, Diskussion und Anregungen
 
