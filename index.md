@@ -14,7 +14,23 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: offen
+## Nächste Episode: 2026-03-27 13:00 CET Independent Service Heuristics: Wie unabhängig ist dein Service wirklich?
+
+Der fachliche Schnitt eines Systems entscheidet darüber, ob es
+langfristig änderbar bleibt. Doch wie findet man einen sinnvollen
+Schnitt, ohne sich direkt in die Komplexität von Domain-Driven Design
+zu stürzen?
+
+In dieser Episode schauen wir uns die Independent Service Heuristics
+(ISH) aus dem Team-Topologies-Umfeld an. Sie liefern einfache, aber
+wirkungsvolle Fragen, um zu beurteilen, ob ein „Ding“ als
+eigenständiger Service funktionieren kann.
+
+Wir diskutieren, wie diese Heuristiken helfen, Domänengrenzen
+greifbarer zu machen, warum sie besonders gut mit
+Business-Expert:innen funktionieren und wo ihre Grenzen liegen. Ein
+pragmatischer Ansatz für alle, die bessere Services schneiden wollen –
+ohne sich in Abstraktionen zu verlieren.
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="_ByDhOSI9iY" -->
