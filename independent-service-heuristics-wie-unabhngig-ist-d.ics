@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1774365587018-3m69a7obx8p@ics-generator.local
+DTSTAMP:20260324T151947
+DTSTART;TZID=Europe/Berlin:20260327T130000
+DTEND;TZID=Europe/Berlin:20260327T140000
+SUMMARY:Independent Service Heuristics: Wie unabhängig ist dein Service wir
+ klich?
+DESCRIPTION:Der fachliche Schnitt eines Systems entscheidet darüber\, ob es
+  langfristig änderbar bleibt. Doch wie findet man einen sinnvollen Schnitt\
+ , ohne sich direkt in die Komplexität von Domain-Driven Design zu stürzen?\
+ n\nIn dieser Episode schauen wir uns die Independent Service Heuristics (IS
+ H) aus dem Team-Topologies-Umfeld an. Sie liefern einfache\, aber wirkungsv
+ olle Fragen\, um zu beurteilen\, ob ein „Ding“ als eigenständiger Service f
+ unktionieren kann.\n\nWir diskutieren\, wie diese Heuristiken helfen\, Domä
+ nengrenzen greifbarer zu machen\, warum sie besonders gut mit Business-Expe
+ rt:innen funktionieren und wo ihre Grenzen liegen. Ein pragmatischer Ansatz
+  für alle\, die bessere Services schneiden wollen – ohne sich in Abstraktio
+ nen zu verlieren.
+LOCATION:https://www.youtube.com/watch?v=X3B0-H1RvEY https://www.linkedin.c
+ om/events/7442226721845837824/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -32,20 +32,20 @@ Business-Expert:innen funktionieren und wo ihre Grenzen liegen. Ein
 pragmatischer Ansatz für alle, die bessere Services schneiden wollen –
 ohne sich in Abstraktionen zu verlieren.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="_ByDhOSI9iY" -->
-<!--   image-url="/thumbnails/episode306.png" -->
-<!-- } -->
+{% include youtube.html
+  youtube-video-id="X3B0-H1RvEY"
+  image-url="/thumbnails/folge307.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7434660180006453248/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7442226721845837824/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [In Kalendar eintragen](programmierung-als-theoriebildung.ics) -->
+[In Kalendar eintragen](independent-service-heuristics-wie-unabhngig-ist-d.ics)
 
 ## Neueste Folgen
 
