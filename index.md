@@ -14,38 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: 2026-03-27 13:00 CET Independent Service Heuristics: Wie unabhängig ist dein Service wirklich?
+## Nächste Episode: Offen
 
-Der fachliche Schnitt eines Systems entscheidet darüber, ob es
-langfristig änderbar bleibt. Doch wie findet man einen sinnvollen
-Schnitt, ohne sich direkt in die Komplexität von Domain-Driven Design
-zu stürzen?
+<!-- { include youtube.html -->
+<!--   youtube-video-id="X3B0-H1RvEY" -->
+<!--   image-url="/thumbnails/folge307.png" -->
+<!-- %} -->
 
-In dieser Episode schauen wir uns die Independent Service Heuristics
-(ISH) aus dem Team-Topologies-Umfeld an. Sie liefern einfache, aber
-wirkungsvolle Fragen, um zu beurteilen, ob ein „Ding“ als
-eigenständiger Service funktionieren kann.
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7442226721845837824/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-Wir diskutieren, wie diese Heuristiken helfen, Domänengrenzen
-greifbarer zu machen, warum sie besonders gut mit
-Business-Expert:innen funktionieren und wo ihre Grenzen liegen. Ein
-pragmatischer Ansatz für alle, die bessere Services schneiden wollen –
-ohne sich in Abstraktionen zu verlieren.
+<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
 
-{% include youtube.html
-  youtube-video-id="X3B0-H1RvEY"
-  image-url="/thumbnails/folge307.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7442226721845837824/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
-
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
-
-[In Kalendar eintragen](independent-service-heuristics-wie-unabhngig-ist-d.ics)
+<!-- [In Kalendar eintragen](independent-service-heuristics-wie-unabhngig-ist-d.ics) -->
 
 ## Neueste Folgen
 
