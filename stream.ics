@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1774975959525-uzk653nrxa@ics-generator.local
+DTSTAMP:20260331T185239
+DTSTART;TZID=Europe/Berlin:20260402T143000
+DTEND;TZID=Europe/Berlin:20260402T153000
+SUMMARY:Michael Stal: Analyse großer Softwaresysteme mit LLMs
+DESCRIPTION:Bei der Verwendung von LLMs für Software-Architektur geht es me
+ istens um das Erstellen von Architektur. Prof. Dr. Michael Stal ist Princip
+ al Key Expert Engineer bei der Siemens AG. In diesem Stream sprechen wir üb
+ er seine Erfahrungen bei der Benutzung von LLMs für die Code-Analyse. Die A
+ nalyse großer Softwarearchitekturen und Codebasen durch LLMs scheitert unte
+ r anderem an dem beschränkten Kontextfenster der Foundation-Modelle. Wie si
+ ch diese Problematik zumindest teilweise umgehen lässt\, möchte der Spreche
+ r anhand geeigneter Techniken zeigen.\n\nDen vollmundigen Versprechen manch
+ er Anbieter und Influencer für generative KI steht die praktische Realität 
+ gegenüber\, dass die Beschränkungen von LLMs zu vielen Problemen führen\, g
+ anz besonders beim Softwareengineering. Die Analyse großer Softwarearchitek
+ turen und Codebasen durch LLMs scheitert unter anderem an dem beschränkten 
+ Kontextfenster der Foundation-Modelle. Das gilt im Umkehrschluss auch für d
+ eren Generierung. Wie sich diese Problematik zumindest teilweise umgehen lä
+ sst\, möchte der Sprecher anhand geeigneter Techniken zeigen.
+LOCATION:https://youtu.be/LuiiPYfcRKg https://www.linkedin.com/events/74447
+ 87032842969088/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

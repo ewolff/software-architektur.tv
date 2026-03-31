@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Donnerstag, 2026-04-02 Michael Stal: Analyse großer Softwaresysteme mit LLMs
+## Nächste Episode: Donnerstag, 2026-04-02 14:30 Michael Stal: Analyse großer Softwaresysteme mit LLMs
 
 Bei der Verwendung von LLMs für Software-Architektur geht es meistens
 um das Erstellen von Architektur. Prof. Dr. Michael Stal ist Principal
@@ -36,20 +36,20 @@ für deren Generierung. Wie sich diese Problematik zumindest teilweise
 umgehen lässt, möchte der Sprecher anhand geeigneter Techniken zeigen.
 
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="X3B0-H1RvEY" -->
-<!--   image-url="/thumbnails/folge307.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="LuiiPYfcRKg"
+  image-url="/thumbnails/folge308.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7442226721845837824/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7444787032842969088/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
-<!-- <\!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -\-> -->
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
-<!-- [In Kalendar eintragen](independent-service-heuristics-wie-unabhngig-ist-d.ics) -->
+[In Kalendar eintragen](stream.ics)
 
 ## Neueste Folgen
 
