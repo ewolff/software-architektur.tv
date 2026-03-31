@@ -14,7 +14,27 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Offen
+## Nächste Episode: Donnerstag, 2026-04-02 Michael Stal: Analyse großer Softwaresysteme mit LLMs
+
+Bei der Verwendung von LLMs für Software-Architektur geht es meistens
+um das Erstellen von Architektur. Prof. Dr. Michael Stal ist Principal
+Key Expert Engineer bei der Siemens AG. In diesem Stream sprechen wir
+über seine Erfahrungen bei der Benutzung von LLMs für die
+Code-Analyse. Die Analyse großer Softwarearchitekturen und Codebasen
+durch LLMs scheitert unter anderem an dem beschränkten Kontextfenster
+der Foundation-Modelle. Wie sich diese Problematik zumindest teilweise
+umgehen lässt, möchte der Sprecher anhand geeigneter Techniken zeigen.
+
+
+Den vollmundigen Versprechen mancher Anbieter und Influencer für
+generative KI steht die praktische Realität gegenüber, dass die
+Beschränkungen von LLMs zu vielen Problemen führen, ganz besonders
+beim Softwareengineering. Die Analyse großer Softwarearchitekturen und
+Codebasen durch LLMs scheitert unter anderem an dem beschränkten
+Kontextfenster der Foundation-Modelle. Das gilt im Umkehrschluss auch
+für deren Generierung. Wie sich diese Problematik zumindest teilweise
+umgehen lässt, möchte der Sprecher anhand geeigneter Techniken zeigen.
+
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="X3B0-H1RvEY" -->
