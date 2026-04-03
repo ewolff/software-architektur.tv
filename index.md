@@ -14,42 +14,36 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Episode: Donnerstag, 2026-04-02 14:30 Michael Stal: Analyse großer Softwaresysteme mit LLMs
+## Next Episode: Friday, 2026-04-10 13:00 CEST Anarchy: A Solution to Software Development Organizations? with Andrew Harmel-Law
 
-Bei der Verwendung von LLMs für Software-Architektur geht es meistens
-um das Erstellen von Architektur. Prof. Dr. Michael Stal ist Principal
-Key Expert Engineer bei der Siemens AG. In diesem Stream sprechen wir
-über seine Erfahrungen bei der Benutzung von LLMs für die
-Code-Analyse. Die Analyse großer Softwarearchitekturen und Codebasen
-durch LLMs scheitert unter anderem an dem beschränkten Kontextfenster
-der Foundation-Modelle. Wie sich diese Problematik zumindest teilweise
-umgehen lässt, möchte der Sprecher anhand geeigneter Techniken zeigen.
+“Patterns of Anarchy” is a collection of writings published
+in 1966. Andrew came to it because a) Christopher Alexander quotes
+from it in “A Pattern Language” and b) because as a consultant and
+developer he is interested in different patterns of organizing.
 
+What interested him most about this book was the section “Constructive
+Anarchism: Alternative Communities and Programs”. This covers the how
+of anarchist organisation.
 
-Den vollmundigen Versprechen mancher Anbieter und Influencer für
-generative KI steht die praktische Realität gegenüber, dass die
-Beschränkungen von LLMs zu vielen Problemen führen, ganz besonders
-beim Softwareengineering. Die Analyse großer Softwarearchitekturen und
-Codebasen durch LLMs scheitert unter anderem an dem beschränkten
-Kontextfenster der Foundation-Modelle. Das gilt im Umkehrschluss auch
-für deren Generierung. Wie sich diese Problematik zumindest teilweise
-umgehen lässt, möchte der Sprecher anhand geeigneter Techniken zeigen.
+He will share some of the most interesting insights from his
+perspective as a student of socio-technical organisation
+design. Sometimes he’ll add some commentary. And of course the
+question is how it relates to software engineering.
 
+<!-- { include youtube.html -->
+<!--   youtube-video-id="LuiiPYfcRKg" -->
+<!--   image-url="/thumbnails/folge308.png" -->
+<!-- %} -->
 
-{% include youtube.html
-  youtube-video-id="LuiiPYfcRKg"
-  image-url="/thumbnails/folge308.png"
-%}
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7444787032842969088/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7444787032842969088/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- [In Kalendar eintragen](stream.ics) -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
-
-[In Kalendar eintragen](stream.ics)
 
 ## Neueste Folgen
 
