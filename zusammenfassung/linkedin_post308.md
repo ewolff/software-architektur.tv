@@ -1,27 +1,24 @@
-# 🤖 KI-gestützte Architekturanalyse: Wie LLMs große Softwaresysteme knacken
+🤖 KI-gestützte Architekturanalyse: Wie LLMs beim Review großer Softwaresysteme helfen
 
-Stellt euch vor: Ein großes Softwaresystem mit Millionen Zeilen Code – und nur wenige Tage Zeit für eine gründliche Analyse. Unmöglich?
+Stellt euch vor: Ein großes Softwaresystem mit Millionen Zeilen Code – und nur wenige Tage Zeit für eine gründliche Analyse.
+In diesen Fällen hilft der Siemens Architecture Review Agent (SARA)!
 
-Nicht mit dem **Siemens Architecture Review Agent (SARA)** von Michael Stal!
+Ich habe mit Prof. Dr. Michael Stal über dieses spannende Projekt gesprochen:
 
-In unserem neuen Podcast sprechen wir mit Michael über ein faszinierendes Projekt:
+🔍 Die Kernidee:
+LLMs + Knowledge Graphs + Retrieval Augmented Generation unterstützern zusammen beim Analysieren großer Softwarearchitekturen
 
-🔍 **Die Kernidee:** Wie LLMs + Knowledge Graphs + Retrieval Augmented Generation zusammen große Softwarearchitekturen analysieren – schneller und gründlicher als je zuvor
+⚙️ Die Realität:
+Human-in-the-Loop als Basis
+Halluzinationen gibt es – sind so aber oft managebar
 
-⚙️ **Die Realität:** 
-- SQL-Injections erkennen (aber Vorsicht: SonarQube tut das auch!)
-- Microservice-Herausforderungen aufdecken
-- Human-in-the-Loop als Sicherheitsmechanismus
-- Halluzinationen? Ja – aber managebar!
+🎯 Wo genutzt:
+Architektur-Reviews vor allem unter Zeitdruck
+Übernahmen & Due Diligence
+Legacy-Systeme verstehen
 
-🎯 **Für wen relevant:**
-- Architektur-Reviews unter Zeitdruck
-- Übernahmen & Due Diligence
-- Legacy-Systeme verstehen
-- Multiagenten-Systeme in der Praxis
-
-⚠️ **Wichtig:** Michael warnt zu Recht – das ist ein Assistent, keine Automatisierung! Kritisches Nachfragen bleibt essentiell.
+⚠️ Wichtig: Michael warnt zu Recht – das ist ein Assistent, keine Automatisierung! Kritisches Nachfragen bleibt essentiell.
 
 Von Siemens-Praktikern, nicht von Tool-Verkäufern – echte Erfahrungen statt Marketing-Versprechen.
 
-#SoftwareArchitektur #KI #LLM #AI #Microservices #ArchitectureReview #Podcast
+Schaut oder hört hier rein: https://lnkd.in/dbWD74VA
