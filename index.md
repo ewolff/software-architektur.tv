@@ -23,23 +23,25 @@ developer they are interested in different patterns of organizing.
 
 What interested them most about this book was the section “Constructive
 Anarchism: Alternative Communities and Programs”. This covers the how
-of anarchist organisation.
+of anarchist organization.
 
 They will share some of the most interesting insights from their
-perspective as a student of socio-technical organisation
+perspective as a student of socio-technical organization
 design. Sometimes they’ll add some commentary. And of course the
 question is how it relates to software engineering.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="LuiiPYfcRKg" -->
-<!--   image-url="/thumbnails/folge308.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="8FenEnkGGJU"
+  image-url="/thumbnails/episode309.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7444787032842969088/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7447311162662277120/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
+
+[Add to calendar](anarchy-a-solution-to-software-development-organiz.ics)
 
 <!-- [In Kalendar eintragen](stream.ics) -->
 
