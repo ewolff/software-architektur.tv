@@ -19,15 +19,15 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 “Patterns of Anarchy” is a collection of writings published
 in 1966. Andrew came to it because a) Christopher Alexander quotes
 from it in “A Pattern Language” and b) because as a consultant and
-developer he is interested in different patterns of organizing.
+developer they are interested in different patterns of organizing.
 
-What interested him most about this book was the section “Constructive
+What interested them most about this book was the section “Constructive
 Anarchism: Alternative Communities and Programs”. This covers the how
 of anarchist organisation.
 
-He will share some of the most interesting insights from his
+They will share some of the most interesting insights from their
 perspective as a student of socio-technical organisation
-design. Sometimes he’ll add some commentary. And of course the
+design. Sometimes they’ll add some commentary. And of course the
 question is how it relates to software engineering.
 
 <!-- { include youtube.html -->
