@@ -9,7 +9,7 @@ In unserem neuen Podcast sprechen wir mit Michael über ein faszinierendes Proje
 🔍 **Die Kernidee:** Wie LLMs + Knowledge Graphs + Retrieval Augmented Generation zusammen große Softwarearchitekturen analysieren – schneller und gründlicher als je zuvor
 
 ⚙️ **Die Realität:** 
-- SQL-Injections erkennen (aber vorsicht: SonarQube tut das auch!)
+- SQL-Injections erkennen (aber Vorsicht: SonarQube tut das auch!)
 - Microservice-Herausforderungen aufdecken
 - Human-in-the-Loop als Sicherheitsmechanismus
 - Halluzinationen? Ja – aber managebar!
