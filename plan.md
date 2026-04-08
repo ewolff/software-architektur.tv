@@ -9,4 +9,4 @@ description: Überblick über die geplanten Folgen
 |            Datum | Thema / Gäste                                                             |
 |-----------------:|:--------------------------------------------------------------------------|
 | 2026-04-17 13:00 | Nikita Golovko GenAI and Software Architecture in Industrial Applications |
-| 2026-04-30 13:00 | ERP für Architekt:innen                                                   |
+| 2026-06-12 13:00 | ERP für Architekt:innen                                                   |
