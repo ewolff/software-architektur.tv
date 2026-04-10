@@ -14,34 +14,35 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday, 2026-04-10 13:00 CEST Anarchy: A Solution to Software Development Organizations? with Andrew Harmel-Law
+## Next Episode: Friday, 2026-04-17 13:00 CEST How AI Succeeds  — Insights from Manufacturing Applications with Nikita Golovko
 
-“Patterns of Anarchy” is a collection of writings published
-in 1966. Andrew came to it because a) Christopher Alexander quotes
-from it in “A Pattern Language” and b) because as a consultant and
-developer they are interested in different patterns of organizing.
+Most AI discussions confuse Large Language Models (LLMs) with AI as a
+whole. In this episode Eberhard sits down with Nikita Golovko —
+industrial AI architect and practitioner at Siemens — to challenge
+that view and explores what happens when probabilistic systems meet
+deterministic environments like industrial automation.
 
-What interested them most about this book was the section “Constructive
-Anarchism: Alternative Communities and Programs”. This covers the how
-of anarchist organization.
+We clarify the differences between LLMs, Generative AI, and other AI
+methods — and where each actually creates value. From there, the focus
+shifts to architecture: how to safely integrate probabilistic AI into
+systems that require reliability, precision, and control.
 
-They will share some of the most interesting insights from their
-perspective as a student of socio-technical organization
-design. Sometimes they’ll add some commentary. And of course the
-question is how it relates to software engineering.
+Finally, we generalize these lessons beyond industry, showing how
+choosing the right tool for the right problem  leads to better
+outcomes in any domain.
 
-{% include youtube.html
-  youtube-video-id="8FenEnkGGJU"
-  image-url="/thumbnails/episode309.png"
-%}
+<!-- { include youtube.html -->
+<!--   youtube-video-id="8FenEnkGGJU" -->
+<!--   image-url="/thumbnails/episode309.png" -->
+<!-- %} -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7447311162662277120/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7447311162662277120/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-[Add to calendar](anarchy-a-solution-to-software-development-organiz.ics)
+<!-- [Add to calendar](anarchy-a-solution-to-software-development-organiz.ics) -->
 
 <!-- [In Kalendar eintragen](stream.ics) -->
 
