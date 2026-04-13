@@ -31,18 +31,18 @@ Finally, we generalize these lessons beyond industry, showing how
 choosing the right tool for the right problem  leads to better
 outcomes in any domain.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="8FenEnkGGJU" -->
-<!--   image-url="/thumbnails/episode309.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="1FmdktJVHhE"
+  image-url="/thumbnails/episode310.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7447311162662277120/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7449385628313690112/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
-<!-- [Add to calendar](anarchy-a-solution-to-software-development-organiz.ics) -->
+[Add to calendar](how-ai-succeeds-insights-from-manufacturing-applic.ics)
 
 <!-- [In Kalendar eintragen](stream.ics) -->
 
