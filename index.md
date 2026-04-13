@@ -31,6 +31,10 @@ Finally, we generalize these lessons beyond industry, showing how
 choosing the right tool for the right problem  leads to better
 outcomes in any domain.
 
+Nikita will talk at the [TechRiders Summit](https://tech-riders.de/)
+in Cologne. Register for [FREE with the rebate code
+ARCH-TECHRIDER-2026](https://app.tech-riders.de/offers/1/book?v=ARCH-TECHRIDER-2026&pr=10) .
+
 {% include youtube.html
   youtube-video-id="1FmdktJVHhE"
   image-url="/thumbnails/episode310.png"
