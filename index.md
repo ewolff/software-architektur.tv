@@ -14,7 +14,17 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: 2026-04-27 16:00 CEST Lars Hupel zu formalen Methoden
+## Nächste Folge: 2026-04-27 16:00 CEST Wozu formale Methoden? mit Lars Hupel
+
+Wenn Systeme bestimmte Eigenschaften wie Sicherheit garantieren
+müssen, können formale Methoden diese Eigenschaften beweisen - ähnlich
+wie bei einem mathematischen Beweis. In der Finanzbranche will man
+beispielsweise sicherstellen, dass nicht in den Systemen irgendwo Geld
+verschwindet. Welche Rolle spielen solche Methoden im
+Software-Architektur-Alltag und wie kann man sie gewinnbringend
+nutzen? Das diskutieren wir mit Dr. Lars Hupel, Chief Evangelist bei
+Giesecke+Devrient.
+
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="1FmdktJVHhE" -->
