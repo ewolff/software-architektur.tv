@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1777009758495-pm7i3w34r1b@ics-generator.local
+DTSTAMP:20260424T074918
+DTSTART;TZID=Europe/Berlin:20260427T160000
+DTEND;TZID=Europe/Berlin:20260427T170000
+SUMMARY:Wozu formale Methoden? mit Lars Hupel
+DESCRIPTION:Wenn Systeme bestimmte Eigenschaften wie Sicherheit garantieren
+  müssen\, können formale Methoden diese Eigenschaften beweisen - ähnlich wi
+ e bei einem mathematischen Beweis. In der Finanzbranche will man beispielsw
+ eise sicherstellen\, dass nicht in den Systemen irgendwo Geld verschwindet.
+  Welche Rolle spielen solche Methoden im Software-Architektur-Alltag und wi
+ e kann man sie gewinnbringend nutzen? Das diskutieren wir mit Dr. Lars Hupe
+ l\, Chief Evangelist bei Giesecke+Devrient.
+LOCATION:https://www.youtube.com/watch?v=CG96ZdzBHdo https://www.linkedin.c
+ om/events/7453135840647639041/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -25,21 +25,24 @@ Software-Architektur-Alltag und wie kann man sie gewinnbringend
 nutzen? Das diskutieren wir mit Dr. Lars Hupel, Chief Evangelist bei
 Giesecke+Devrient.
 
+Lars spricht beim [iSAQB Software Architecture
+Forum](https://conferences.isaqb.org/software-architecture-forum/). Mit
+dem Code SATV15SAF gibt es 15% Rabatt.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="1FmdktJVHhE" -->
-<!--   image-url="/thumbnails/episode310.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="CG96ZdzBHdo"
+  image-url="/thumbnails/folge311.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7449385628313690112/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7453135840647639041/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 <!-- [Add to calendar](how-ai-succeeds-insights-from-manufacturing-applic.ics) -->
 
-<!-- [In Kalendar eintragen](stream.ics) -->
+[In Kalendar eintragen](wozu-formale-methoden-mit-lars-hupel.ics)
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
