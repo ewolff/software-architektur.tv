@@ -14,35 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: 2026-04-27 16:00 CEST Wozu formale Methoden? mit Lars Hupel
+## Nächste Folge: Offen
 
-Wenn Systeme bestimmte Eigenschaften wie Sicherheit garantieren
-müssen, können formale Methoden diese Eigenschaften beweisen - ähnlich
-wie bei einem mathematischen Beweis. In der Finanzbranche will man
-beispielsweise sicherstellen, dass nicht in den Systemen irgendwo Geld
-verschwindet. Welche Rolle spielen solche Methoden im
-Software-Architektur-Alltag und wie kann man sie gewinnbringend
-nutzen? Das diskutieren wir mit Dr. Lars Hupel, Chief Evangelist bei
-Giesecke+Devrient.
+<!-- { include youtube.html -->
+<!--   youtube-video-id="CG96ZdzBHdo" -->
+<!--   image-url="/thumbnails/folge311.png" -->
+<!-- %} -->
 
-Lars spricht beim [iSAQB Software Architecture
-Forum](https://conferences.isaqb.org/software-architecture-forum/). Mit
-dem Code SATV15SAF gibt es 15% Rabatt.
-
-{% include youtube.html
-  youtube-video-id="CG96ZdzBHdo"
-  image-url="/thumbnails/folge311.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7453135840647639041/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7453135840647639041/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
 <!-- [Add to calendar](how-ai-succeeds-insights-from-manufacturing-applic.ics) -->
 
-[In Kalendar eintragen](wozu-formale-methoden-mit-lars-hupel.ics)
+<!-- [In Kalendar eintragen](wozu-formale-methoden-mit-lars-hupel.ics) -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
