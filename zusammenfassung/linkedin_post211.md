@@ -1,8 +1,6 @@
-# LinkedIn Post
+🎯 **Formale Methoden – Ein Missing Link in der Software-Architektur?**
 
-🎯 **Formale Methoden – Das Missing Link in der Software-Architektur?**
-
-In unserer neuesten Episode mit Lars Hupel (Co-Kurator des ISAQB Moduls "Formale Methoden") beleuchten wir eine unbequeme Wahrheit: Warum sind formale Beweise von Software-Korrektheit noch immer die Ausnahme und nicht die Regel?
+In unserer neuesten Episode mit Lars Hupel (Co-Kurator des iSAQB Moduls "Formale Methoden") beleuchten wir eine interessante Frage: Warum sind formale Beweise von Software-Korrektheit noch immer die Ausnahme und nicht die Regel?
 
 **Was wir diskutiert haben:**
 
@@ -10,17 +8,16 @@ In unserer neuesten Episode mit Lars Hupel (Co-Kurator des ISAQB Moduls "Formale
 
 ✅ **State Machines & Korrektheit** – Wie man kritische Fehler *vor* der Implementierung aufdeckt
 
-✅ **Der echte ROI** – Wann formale Verifikation sich wirtschaftlich lohnt (Spoiler: Aviation, Healthcare, Defense)
+✅ **Der ROI** – Wann formale Verifikation sich wirtschaftlich lohnt
 
-✅ **KI trifft Verifikation** – Können LLMs endlich die Kosten senken?
+✅ **KI trifft Verifikation** – Können LLMs den Aufwand und die Kosten senken?
 
 **Die wichtigste Erkenntnis:**
+
 Nicht die Tools sind entscheidend – sondern die **Denkweise**. Ein gut gestaltetes System mit sauberen Abstraktionen, Immutability und klarer Domänen-Modellierung ist bereits der erste Schritt.
 
-Und ja: Auch normale Entwickler können damit anfangen. Mit TLA+ und State Machines. Am Whiteboard. 🎨
+Und ja: Auch normale Entwickler können damit anfangen. Mit TLA+ und State Machines. Oder am Whiteboard. 🎨
 
 Hört rein und entdeckt, warum formale Methoden weniger "Raketenwissenschaft" sind, als ihr denkt.
 
-🔗 [software-architektur.tv](https://software-architektur.tv)
-
-#SoftwareArchitektur #FormaleMethoden #ISAQB #SoftwareQuality
+https://software-architektur.tv/2026/04/27/episode311.html
