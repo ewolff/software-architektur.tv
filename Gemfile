@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "github-pages", "~> 231", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5.1"
 
@@ -25,8 +25,8 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1", :install_if => Gem.win_platform?
+gem "wdm", "~> 0.2", :install_if => Gem.win_platform?
 
 
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
 gem "csv"
