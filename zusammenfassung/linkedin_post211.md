@@ -15,7 +15,7 @@ In unserer neuesten Episode mit Lars Hupel (Co-Kurator des ISAQB Moduls "Formale
 ✅ **KI trifft Verifikation** – Können LLMs endlich die Kosten senken?
 
 **Die wichtigste Erkenntnis:**
-Nicht die Tools sind entscheidend – sondern die **Denkweise**. Ein gut gestaltetes System mit sauberen Abstraktion, Immutability und klarer Domänen-Modellierung ist bereits der erste Schritt.
+Nicht die Tools sind entscheidend – sondern die **Denkweise**. Ein gut gestaltetes System mit sauberen Abstraktionen, Immutability und klarer Domänen-Modellierung ist bereits der erste Schritt.
 
 Und ja: Auch normale Entwickler können damit anfangen. Mit TLA+ und State Machines. Am Whiteboard. 🎨
 
