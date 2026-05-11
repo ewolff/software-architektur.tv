@@ -12,3 +12,4 @@ description: Überblick über die geplanten Folgen
 | 2026-05-29 13:00 | KI Coding Produktivität mit Ingo Eichhorst |
 | 2026-06-12 13:00 | ERP für Architekt:innen                    |
 | 2026-06-19 13:00 | AI Vampire mit Martin Lippert              |
+| 2026-06-26 13:00 | Wie fährst du dein Projekt an die Wand? Mit Andreas Monschau. |
