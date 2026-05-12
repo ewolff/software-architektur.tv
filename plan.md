@@ -8,7 +8,6 @@ description: Überblick über die geplanten Folgen
 
 |            Datum | Thema / Gäste                              |
 |-----------------:|:-------------------------------------------|
-| 2026-05-15 13:00 | Romeros Prinzipien mit Tom Asel            |
 | 2026-05-29 13:00 | KI Coding Produktivität mit Ingo Eichhorst |
 | 2026-06-12 13:00 | ERP für Architekt:innen                    |
 | 2026-06-19 13:00 | AI Vampire mit Martin Lippert              |

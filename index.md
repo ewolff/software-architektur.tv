@@ -14,7 +14,17 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: Offen
+## Nächste Folge: 2026-05-15 13:00 CEST John Romeros Prinzipien mit Tom Asel
+
+John Romero ist bekannt als eine der treibenden Kräfte hinter id
+Software. Mit weniger als 10 Menschen hat id mit Doom und Quake die
+Spiele-Welt revolutioniert, Shareware als Vertriebsmodell etabliert,
+Spiele-Engines zu einem eigenständigen Produkt gemacht und viele
+seiner Innovationen später als Open Source veröffentlicht. In seinen
+aktuellen Vorträgen hat er einige fundamentale Prinzipien für
+Software-Entwicklung diskutiert. In dieser Episode diskutiert Tom Asel
+mit Eberhard Wolff was wir daraus für Software-Engineering für die
+Entwicklung von Informationssystemen im allgemeinen lernen können.
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="CG96ZdzBHdo" -->
