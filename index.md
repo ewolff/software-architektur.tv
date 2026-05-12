@@ -26,20 +26,20 @@ Software-Entwicklung diskutiert. In dieser Episode diskutiert Tom Asel
 mit Eberhard Wolff was wir daraus für Software-Engineering für die
 Entwicklung von Informationssystemen im allgemeinen lernen können.
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="CG96ZdzBHdo" -->
-<!--   image-url="/thumbnails/folge311.png" -->
-<!-- %} -->
+{% include youtube.html
+  youtube-video-id="aKpmCO6HFUk"
+  image-url="/thumbnails/folge312.png"
+%}
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7453135840647639041/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7460012258610368513/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
 <!-- [Add to calendar](how-ai-succeeds-insights-from-manufacturing-applic.ics) -->
 
-<!-- [In Kalendar eintragen](wozu-formale-methoden-mit-lars-hupel.ics) -->
+[In Kalendar eintragen](john-romeros-prinzipien-mit-tom-asel.ics)
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
