@@ -33,6 +33,23 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
+## Der Stream bei Konferenzen
+
+Wir sind bei einigen Konferenzen präsent und haben auch Rabatt-Codes:
+
+* [iSAQB Software Architecture Forum
+  2026](https://conferences.isaqb.org/software-architecture-forum/)
+  * 2026-06-16 - 17, München
+  * Code SATV15SAF  (15% Rabatt)
+* [TechRiders Summit 2026](https://tech-riders.de/)
+  * 2026-06-17 - 18, Köln
+  * [Code ARCH-TECHRIDER-2026 - kostenlos für  End-Benutzer/ „Anwender:innen“](https://app.tech-riders.de/offers/1/book?v=ARCH-TECHRIDER-2026&pr=10)
+* [iSAQB Software Architecture Gathering
+  2026](https://www.software-architecture-gathering.com/),
+  * 2026-11-16 - 19, Berlin
+* [IT-Tage 2026](https://www.ittage.informatik-aktuell.de/index.html)
+  * 2026-12-07 - 10, Frankfurt
+
 ## Neueste Folgen
 
 <div class="image-grid">
