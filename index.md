@@ -14,32 +14,22 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: 2026-05-15 13:00 CEST John Romeros Prinzipien mit Tom Asel
+## Nächste Folge: 2026-05-29 13:00 CEST KI Coding Produktivität mit Ingo Eichhorst
 
-John Romero ist bekannt als eine der treibenden Kräfte hinter id
-Software. Mit weniger als 10 Menschen hat id mit Doom und Quake die
-Spiele-Welt revolutioniert, Shareware als Vertriebsmodell etabliert,
-Spiele-Engines zu einem eigenständigen Produkt gemacht und viele
-seiner Innovationen später als Open Source veröffentlicht. In seinen
-aktuellen Vorträgen hat er einige fundamentale Prinzipien für
-Software-Entwicklung diskutiert. In dieser Episode diskutiert Tom Asel
-mit Eberhard Wolff was wir daraus für Software-Engineering für die
-Entwicklung von Informationssystemen im allgemeinen lernen können.
+<!-- { include youtube.html -->
+<!--   youtube-video-id="aKpmCO6HFUk" -->
+<!--   image-url="/thumbnails/folge312.png" -->
+<!-- %} -->
 
-{% include youtube.html
-  youtube-video-id="aKpmCO6HFUk"
-  image-url="/thumbnails/folge312.png"
-%}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7460012258610368513/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7460012258610368513/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
 <!-- [Add to calendar](how-ai-succeeds-insights-from-manufacturing-applic.ics) -->
 
-[In Kalendar eintragen](john-romeros-prinzipien-mit-tom-asel.ics)
+<!-- [In Kalendar eintragen](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
