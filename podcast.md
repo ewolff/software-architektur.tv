@@ -50,7 +50,7 @@ hören, wo es passt.
 {%- include link-card.html
    url="https://plus.rtl.de/podcast/software-architektur-im-stream-1g0mjs7bhi524"
    title="RTL+"
-   image-url="https://plus.rtl.de/assets/favicon/app-icon-196x196.png" %}
+   image-url="https://company.rtl.com/.galleries/images/RTL_logo_collection_02_16-9.png" %}
 
 {%- include link-card.html
    url="https://www.deezer.com/de/show/1925562"
