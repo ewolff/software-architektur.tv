@@ -30,7 +30,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
 <div class="image-grid">
 {%- include link-card-3urls.html
    title="Ina Einemann"
-   image-url="https://tube.tchncs.de/lazy-static/previews/6eb2d3aa-59a9-406e-a34e-90e4ac18631b.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/116aa406-2ef2-4776-b682-3f72a2e61872.jpg"
    url1="https://www.youtube.com/watch?v=CLbnyTQml9s"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/nfxpjm4PLtwYsmmZrPSeZZ"
@@ -40,7 +40,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Rakia Ben Sassi"
-   image-url="https://tube.tchncs.de/lazy-static/previews/06365266-f103-489e-8c06-1d048328bdb0.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/ea290278-d47d-4bd7-b8ce-549ff831de1a.jpg"
    url1="https://www.youtube.com/watch?v=pp5BTVb8HE8"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/7JCom1thS1VQBMMTDh4v2W"
@@ -50,7 +50,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Axel Rotter"
-   image-url="https://tube.tchncs.de/lazy-static/previews/56bbfae1-1d4e-412d-96ad-d050ceca6f59.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/a9ce4251-ce51-4a5e-836b-a3b86b2a24e2.jpg"
    url1="https://www.youtube.com/watch?v=EcFcC9KLUpY"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/tCbPrb66iwrtv3HKSA4TRa"
@@ -60,7 +60,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Marcel Nitsch"
-   image-url="https://tube.tchncs.de/lazy-static/previews/517ba6b4-357a-42f2-9989-165e3e61732b.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/7f35c968-2220-43f9-882c-fa684172292f.jpg"
    url1="https://www.youtube.com/watch?v=4ehq_JNnve4"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/iaBiNgqZRqgsMJJxtUaKNE"
@@ -70,7 +70,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Alaa Reuschenbach"
-   image-url="https://tube.tchncs.de/lazy-static/previews/62ef716f-063b-4fa8-8488-6aa7f679fd91.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/c470dfc2-56b1-4893-96b5-9fe3f40d43d9.jpg"
    url1="https://www.youtube.com/watch?v=PqxXLqTz6yk"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/oohF4ZPgRW6yNVBgk6UTeW"
@@ -80,7 +80,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Niklas Brünker"
-   image-url="https://tube.tchncs.de/lazy-static/previews/a31523fb-6d12-4d2d-98e8-2c62a14e3fa8.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/a792c7a6-d347-4b7b-ad7a-bbb7d4e2a7a6.jpg"
    url1="https://www.youtube.com/watch?v=w7s2iXNqdsI"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/smp4uxv9y8Uor8Yx1mU84A"
@@ -90,7 +90,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Martin Kohner"
-   image-url="https://tube.tchncs.de/lazy-static/previews/5c7ccbcd-ed10-4d57-89f2-cb34b6190c8b.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/70af2287-9560-439b-b204-1508730ec25a.jpg"
    url1="https://www.youtube.com/watch?v=DhmFqSTTuGY"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/dRe61yFXXj4HD34sAnZmQi"
@@ -100,7 +100,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Sarah Lucia"
-   image-url="https://tube.tchncs.de/lazy-static/previews/f039c528-1d77-4c29-81ff-28d5e3b93eb0.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/b9509d59-8329-4486-a207-d5a2e95d76dd.jpg"
    url1="https://www.youtube.com/watch?v=45HbyUckFWY"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/gu2DZAqZutNSUoDGFf3ncX"
@@ -110,7 +110,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Mike Sperber"
-   image-url="https://tube.tchncs.de/lazy-static/previews/cfd7b8fe-704b-42e5-aa4e-5220b7be129e.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/9c1292d2-6499-4950-a9a7-a9f12e6e3a95.jpg"
    url1="https://www.youtube.com/watch?v=gpdW8zt_VQA"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/kBaHTLkNcJy3vUmMkqq8Um"
@@ -120,7 +120,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Michael Simons"
-   image-url="https://tube.tchncs.de/lazy-static/previews/745ba74a-48dd-415b-a57c-79c0254bb963.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/13891010-62fe-484e-9ba3-7f86cdeeea93.jpg"
    url1="https://www.youtube.com/watch?v=4ajruAbl9XA"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/vSNNCHQxeNUyg2aNVxfmn9"
@@ -130,7 +130,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Sandra Parsick"
-   image-url="https://tube.tchncs.de/lazy-static/previews/e95f8621-aea4-4ee8-8711-4c1641bfb37b.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/e0372e62-b233-4cc7-aec9-2c8edda26de7.jpg"
    url1="https://www.youtube.com/watch?v=6G2cj8ySeps"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/bARJsfrKjfZA2vy6XUXu9e"
@@ -140,7 +140,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Ralf D. Müller"
-   image-url="https://tube.tchncs.de/lazy-static/previews/771d617d-b8df-4b0b-9edc-e95f3a230912.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/610808a2-5612-49af-8352-c15232e79ddd.jpg"
    url1="https://www.youtube.com/watch?v=xsi9ErFzPiQ"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/55pxdYw9MBGJbgrp5TpK8M"
@@ -150,7 +150,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Susanne Braun"
-   image-url="https://tube.tchncs.de/lazy-static/previews/8990a59c-5028-4a10-8cce-5885f0b87235.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/7a78eb2c-2b59-4117-bb3f-131870e650b1.jpg"
    url1="https://www.youtube.com/watch?v=diLPF0lf1nY"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/a6HzYPCkLjBKUrexZ1MhMF"
@@ -160,7 +160,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Christina Kübler"
-   image-url="https://tube.tchncs.de/lazy-static/previews/65e30018-00c4-40ad-ab67-7fd502eeb3dc.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/a45653b8-1721-4dff-aa68-a5de42c764f6.jpg"
    url1="https://www.youtube.com/watch?v=t2eDLJIQmOs"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/2tMNYFSb7p3U2qwvsRSn2m"
@@ -170,7 +170,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Martina Freers"
-   image-url="https://tube.tchncs.de/lazy-static/previews/bf35df89-6f2f-4283-a79e-b4177a924f7c.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/6f543b52-893f-4de9-9ac2-d0d6640bafde.jpg"
    url1="https://www.youtube.com/watch?v=AKmYtpCP4Kk"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/wLrPURBx3JBqPrckE6NK4t"
@@ -180,7 +180,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Larysa Visengeriyeva"
-   image-url="https://tube.tchncs.de/lazy-static/previews/969d21c3-d88c-4dd1-9a87-778ee13ed10c.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/59834dca-d233-42cc-b05d-d43796d5f8f9.jpg"
    url1="https://www.youtube.com/watch?v=qDSWKg2gzd4"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/d9GQAEnYqRsMCiik4vddAx"
@@ -190,7 +190,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Anja Kammer"
-   image-url="https://tube.tchncs.de/lazy-static/previews/fed34481-52d9-456d-9555-bc48fbd1e841.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/3c8cfe20-423c-4802-a02c-f8f0b20f7172.jpg"
    url1="https://www.youtube.com/watch?v=cPaZ0SkjFnM"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/rSTJarekRpuo1Vkm2HMyt2"
@@ -200,7 +200,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Aminata Sidibe"
-   image-url="https://tube.tchncs.de/lazy-static/previews/969d21c3-d88c-4dd1-9a87-778ee13ed10c.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/15488170-e358-4183-ae4a-00e99c5b4a5c.jpg"
    url1="https://www.youtube.com/watch?v=C79Esm-Iqt8"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/remaPCm3tj8cZh41JX9xhD"
@@ -210,7 +210,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Jutta Eckstein"
-   image-url="https://tube.tchncs.de/lazy-static/previews/365246c5-655a-48ec-aca0-955a77071dc4.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/fc70d192-27da-4bc2-9b4e-3697b7aff501.jpg"
    url1="https://www.youtube.com/watch?v=BnErlp5p0DM"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/ofggFcBN33hMnnKXFqv8EN"
@@ -220,7 +220,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Uwe Friedrichsen"
-   image-url="https://tube.tchncs.de/lazy-static/previews/8411c6db-00c1-4425-ba63-43dbe4b9a0a2.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/a6b9c74b-20f8-448a-bdf6-350e55994dc8.jpg"
    url1="https://www.youtube.com/watch?v=pT8C6HTVrYI"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/6jttd7bKCLcqfZDutuAM27"
@@ -230,7 +230,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Sven Johann"
-   image-url="https://tube.tchncs.de/lazy-static/previews/cf2ccbff-6147-4781-8cb8-b506cc213ab5.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/3acee839-96a2-41d5-abd0-13196c8e6e38.jpg"
    url1="https://www.youtube.com/watch?v=4VoS2AGAC6s"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/x2zagK4QTMJThKmCnCxg4C"
@@ -240,7 +240,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Alexander Simon"
-   image-url="https://tube.tchncs.de/lazy-static/previews/287349a8-2e07-4e57-874d-d4cdda611d1b.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/9980ee25-4530-4c90-aabf-ec5503858f67.jpg"
    url1="https://www.youtube.com/watch?v=XE7J8cdJPmU"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/mbkFmKxevR2HRa4pxfZpKD"
@@ -250,7 +250,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Manfred Steyer"
-   image-url="https://tube.tchncs.de/lazy-static/previews/d08dc1f5-7ab3-4d4b-97ba-e180593c4ced.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/5062044c-9dba-4804-995b-2d10dace533e.jpg"
    url1="https://www.youtube.com/watch?v=gTlhv08lNuE"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/juXbAABcxGvR5oHUjfHSXW"
@@ -260,7 +260,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Gernot Starke"
-   image-url="https://tube.tchncs.de/lazy-static/previews/ae5fc6c6-f9fb-4c6f-b2f2-4bd22c9ebb87.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/f20f7aa8-223b-47a5-b786-3438a4c72ac3.jpg"
    url1="https://www.youtube.com/watch?v=kMqoCxqHz3g"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/4YzjB5j5NBGBizPgbwQS2D"
@@ -270,7 +270,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Lisa Schäfer"
-   image-url="https://tube.tchncs.de/lazy-static/previews/adb5d0d5-efc9-4d1f-a7b4-f8ffae358502.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/b31c5a75-0fd0-4bd0-b1ac-dd6c55a4aa0f.jpg"
    url1="https://www.youtube.com/watch?v=3Kk449tMblA"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/rf48GmduP8D9ujRv5VaNWU"
@@ -280,7 +280,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Eberhard Wolff"
-   image-url="https://tube.tchncs.de/lazy-static/previews/75cb228b-6c3a-441b-aac9-dc40c4cfabfc.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/1687cc9a-43ba-4495-a3d9-cbb161ee12f8.jpg"
    url1="https://www.youtube.com/watch?v=BDVFyNamkJM"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/abR9BnZygSgbJWt9hqRh1j"
