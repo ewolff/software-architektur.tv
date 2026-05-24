@@ -14,7 +14,23 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: 2026-05-29 13:00 CEST KI Coding Produktivität mit Ingo Eichhorst
+## Nächste Folge: 2026-05-27 12:30 CEST Best Practices für Agentic Coding mit Tobias Wagner und Yadullah Duman
+
+Agentic Coding ist der letzte Schrei im Bereich der KI-gestützten
+Entwicklung. In dieser Episode sprechen Eberhard Wolff und Ralf
+D. Müller mit Tobias Wagner und Yadullah Duman von MaibornWolff über
+Best Practices für Agentic Coding wie Context oder Harness
+Engineering - und welche Produktivitätsvorteile sich aus diesem Ansatz
+tatsächlich in der Praxis ergeben.
+
+## 2026-05-29 13:00 CEST KI Coding Produktivität mit Ingo Eichhorst
+
+Wächst die Produktivität durch den Einsatz von KI? Wie viel? Und sind
+die entstehenden Systeme wartbar oder nicht? Dazu gibt es viele
+Meinungen, aber in dieser Episode diskutiert Eberhard Wolff mit Ingo
+Eichhorst verschiedene wissenschaftliche Studien, die dieser Frage
+nachgehen und so Meinungen Daten und Wissenschaft entgegen stellen.
+
 
 <!-- { include youtube.html -->
 <!--   youtube-video-id="aKpmCO6HFUk" -->
