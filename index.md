@@ -27,6 +27,13 @@ tatsächlich in der Praxis ergeben.
 youtube-video-id="n7yc_gYn0yQ" 
   image-url="/thumbnails/folge313.png" %}
 
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7464613259879403521/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
+
+[In Kalendar eintragen](best-practices-fr-agentic-coding-mit-tobias-wagner.ics)
 
 ## 2026-05-29 13:00 CEST KI Coding Produktivität mit Ingo Eichhorst
 

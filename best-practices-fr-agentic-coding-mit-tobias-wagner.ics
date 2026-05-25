@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1779724326856-9s2dug2hft@ics-generator.local
+DTSTAMP:20260525T175206
+DTSTART;TZID=Europe/Berlin:20260527T123000
+DTEND;TZID=Europe/Berlin:20260527T133000
+SUMMARY:Best Practices für Agentic Coding mit Tobias Wagner und Yadullah Du
+ man
+DESCRIPTION:Agentic Coding ist der letzte Schrei im Bereich der KI-gestützt
+ en Entwicklung. In dieser Episode sprechen Eberhard Wolff und Ralf D. Mülle
+ r mit Tobias Wagner und Yadullah Duman von MaibornWolff über Best Practices
+  für Agentic Coding wie Context oder Harness Engineering - und welche Produ
+ ktivitätsvorteile sich aus diesem Ansatz tatsächlich in der Praxis ergeben.
+ 
+LOCATION:https://www.youtube.com/watch?v=n7yc_gYn0yQ https://www.linkedin.c
+ om/events/7464613259879403521/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
