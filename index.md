@@ -23,6 +23,11 @@ Best Practices für Agentic Coding wie Context oder Harness
 Engineering - und welche Produktivitätsvorteile sich aus diesem Ansatz
 tatsächlich in der Praxis ergeben.
 
+{% include youtube.html 
+youtube-video-id="n7yc_gYn0yQ" 
+  image-url="/thumbnails/folge313.png" %}
+
+
 ## 2026-05-29 13:00 CEST KI Coding Produktivität mit Ingo Eichhorst
 
 Wächst die Produktivität durch den Einsatz von KI? Wie viel? Und sind
