@@ -43,21 +43,19 @@ Meinungen, aber in dieser Episode diskutiert Eberhard Wolff mit Ingo
 Eichhorst verschiedene wissenschaftliche Studien, die dieser Frage
 nachgehen und so Meinungen Daten und Wissenschaft entgegen stellen.
 
+{% include youtube.html 
+youtube-video-id="WxO1ms6svC8" 
+  image-url="/thumbnails/folge314.png" %}
 
-<!-- { include youtube.html -->
-<!--   youtube-video-id="aKpmCO6HFUk" -->
-<!--   image-url="/thumbnails/folge312.png" -->
-<!-- %} -->
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7464615329621504000/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7460012258610368513/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+[In Kalendar eintragen](ki-coding-produktivitt-mit-ingo-eichhorst.ics)
 
-<!-- [Add to calendar](how-ai-succeeds-insights-from-manufacturing-applic.ics) -->
-
-<!-- [In Kalendar eintragen](john-romeros-prinzipien-mit-tom-asel.ics) -->
+<!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
 <!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
