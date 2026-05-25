@@ -43,6 +43,11 @@ Meinungen, aber in dieser Episode diskutiert Eberhard Wolff mit Ingo
 Eichhorst verschiedene wissenschaftliche Studien, die dieser Frage
 nachgehen und so Meinungen Daten und Wissenschaft entgegen stellen.
 
+Ingo spricht beim TechRiders Festival in Köln 2026-06-17 - 18. Mit
+[Code ARCH-TECHRIDER-2026](https://app.tech-riders.de/offers/1/book?v=ARCH-TECHRIDER-2026&pr=10) ist die Teilnahme  kostenlos für
+End-Benutzer/ „Anwender:innen“.
+
+
 {% include youtube.html 
 youtube-video-id="WxO1ms6svC8" 
   image-url="/thumbnails/folge314.png" %}
