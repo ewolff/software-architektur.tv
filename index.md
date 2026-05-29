@@ -14,30 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: 2026-05-29 13:00 CEST KI Coding Produktivität mit Ingo Eichhorst
-
-Wächst die Produktivität durch den Einsatz von KI? Wie viel? Und sind
-die entstehenden Systeme wartbar oder nicht? Dazu gibt es viele
-Meinungen, aber in dieser Episode diskutiert Eberhard Wolff mit Ingo
-Eichhorst verschiedene wissenschaftliche Studien, die dieser Frage
-nachgehen und so Meinungen Daten und Wissenschaft entgegen stellen.
-
-Ingo spricht beim TechRiders Festival in Köln 2026-06-17 - 18. Mit
-[Code ARCH-TECHRIDER-2026](https://app.tech-riders.de/offers/1/book?v=ARCH-TECHRIDER-2026&pr=10) ist die Teilnahme  kostenlos für
-End-Benutzer/ „Anwender:innen“.
+## Nächste Folge: offen
 
 
-{% include youtube.html 
-youtube-video-id="WxO1ms6svC8" 
-  image-url="/thumbnails/folge314.png" %}
+<!-- { include youtube.html  -->
+<!-- youtube-video-id="WxO1ms6svC8"  -->
+<!--   image-url="/thumbnails/folge314.png" %} -->
 
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7464615329621504000/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7464615329621504000/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-[In Kalendar eintragen](ki-coding-produktivitt-mit-ingo-eichhorst.ics)
+<!-- [In Kalendar eintragen](ki-coding-produktivitt-mit-ingo-eichhorst.ics) -->
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
