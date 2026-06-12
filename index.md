@@ -14,20 +14,57 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: offen
+## Nächste Folge: 2026-10-16 17:30 CEST Fishbowl: Lernen & LLMs – Was und Wie wollen wir lernen, wenn sich alles ändert?
 
+LLMs verändern, wie wir arbeiten. Aber verändert sie auch, wie wir
+lernen – und was es überhaupt bedeutet, etwas zu wissen?
 
-<!-- { include youtube.html  -->
-<!-- youtube-video-id="WxO1ms6svC8"  -->
-<!--   image-url="/thumbnails/folge314.png" %} -->
+Die Frage "Was sollen wir lernen, um bessere Software-Architekt:innen
+zu werden?" stellt sich heute neu. Denn wenn Wissen jederzeit abrufbar
+ist, rückt das Wie und das Warum in den Vordergrund: Welche
+Kompetenzen brauchen Software-Architekt:innen wirklich? Wie verändert
+sich die Rolle von Trainer:innen, Curricula und Zertifizierungen? Und
+was passiert mit unserem Verständnis von Expertise, wenn ein guter
+Prompt vieles zu ersetzen vermeint?
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7464615329621504000/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+In dieser Fishbowl-Diskussion treffen LLM-Begeisterte auf
+LLM-Skeptiker, angehende Architekt:innen auf erfahrene Trainer:innen
+und iSAQB-Mitglieder – und alle bringen ihre eigene Perspektive
+mit. Keine Keynote, keine Slides. Nur offene Fragen, echte Meinungen
+und eine Diskussion, die auch unbequeme Antworten zulässt.
 
-<!-- [In Kalendar eintragen](ki-coding-produktivitt-mit-ingo-eichhorst.ics) -->
+Fragen ohne einfache Antworten:
+
+* Was unterscheidet Wissen von Können – und was davon bleibt relevant?
+
+* Wie verändern sich Lernen, Mentoring und Wissensweitergabe im LLMs-Zeitalter?
+
+* Was bedeuten die iSAQB-Zertifizierungen noch, wenn LLMs
+Wissensfragen beantwortet?
+
+* Brauchen wir neue Lernkulturen – in Teams, Organisationen und Communities?
+
+Das Publikum ist nicht nur Zuschauer. Vor Ort ist die Grenze zwischen
+Publikum und Panel fließend – wer etwas beitragen möchte, tut es
+einfach. 
+
+Mit Carola Lilienthal, Lars Hupel, Dr. Guido Gryczan und Dr. Gernot
+Starke, Moderation Eberhard Wolff. Live vom [iSAQB Software
+Architecture Forum
+2026](https://conferences.isaqb.org/software-architecture-forum/). Wer
+vor Ort dabei sein will: Mit dem Code SATV15SAF gibt es 15% Rabatt.
+
+{% include youtube.html
+youtube-video-id="tDDRVkEImOw"
+  image-url="/thumbnails/folge315.png" %}
+
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7471157563389095937/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
+
+[In Kalendar eintragen](fishbowl-lernen-llms-was-und-wie-wollen-wir-lernen.ics)
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
