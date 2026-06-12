@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: 2026-10-16 17:30 CEST Fishbowl: Lernen & LLMs – Was und Wie wollen wir lernen, wenn sich alles ändert?
+## Nächste Folge: 2026-06-16 17:30 CEST Fishbowl: Lernen & LLMs – Was und Wie wollen wir lernen, wenn sich alles ändert?
 
 LLMs verändern, wie wir arbeiten. Aber verändert sie auch, wie wir
 lernen – und was es überhaupt bedeutet, etwas zu wissen?
