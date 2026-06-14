@@ -123,6 +123,31 @@ ist es kostenlos für End-Benutzer und "Anwender:innen".
 
 [In Kalendar eintragen](fishbowl-lernen-llms-was-und-wie-wollen-wir-lernen.ics)
 
+## 2026-06-19 13:00 CEST Zwischen KI-Hype und KI-Vampire - wie wir den Einsatz von KI im Alltag erleben
+
+GenAI erledigt Tasks in atemberaubendem Tempo - und trotzdem sind wir abends erschöpft und leer. Steve Yegge nennt es den „AI Vampire": Wir bauen mehr denn je, aber FOMO, Dopamin-Loops beim Prompten, Review-Müdigkeit und die schleichende Erosion des eigenen Verständnisses („Cognitive Debt") saugen uns aus. Und manch einer fragt sich leise: Macht Coden eigentlich noch Spaß?
+
+<a href="https://www.linkedin.com/in/martin-lippert-9a1909/">Martin Lippert</a> (Spring Tools Lead, Broadcom) und Ralf D. Müller sprechen offen darüber, was sie selbst erleben, wie sich ihre tägliche Arbeit verändert hat, und was der Einsatz von KI mit ihnen und ihrer Arbeit macht.
+
+Eine Folge über den täglichen Einsatz von KI in der Softwareentwicklung - ohne Verteufelung, ohne Hype.
+
+<!--
+{% include youtube.html
+youtube-video-id="tDDRVkEImOw"
+  image-url="/thumbnails/folge315.png" %}
+
+<section id="content-links">
+	<a href="https://www.linkedin.com/events/7471157563389095937/">LinkedIn</a>
+	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+</section>
+-->
+
+[In Kalendar eintragen](vampir.ics)
+
+<!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
+
+<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
 
 ## Der Stream bei Konferenzen
 
