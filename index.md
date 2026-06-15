@@ -101,8 +101,6 @@ Risiken. Die Diskussion adressiert zentrale Fragen:
   
 Gäste aus dem Speaker Line-Up des TechRiders Summit:
 
-- Daniel Gebler
-
 - Sebastian Kleinschmager 
 
 - Axel Schulz
