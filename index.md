@@ -129,17 +129,15 @@ GenAI erledigt Tasks in atemberaubendem Tempo - und trotzdem sind wir abends ers
 
 Eine Folge über den täglichen Einsatz von KI in der Softwareentwicklung - ohne Verteufelung, ohne Hype.
 
-<!--
 {% include youtube.html
-youtube-video-id="tDDRVkEImOw"
-  image-url="/thumbnails/folge315.png" %}
+youtube-video-id="mRX9TTvFf_k"
+  image-url="/thumbnails/folge317.png" %}
 
 <section id="content-links">
-	<a href="https://www.linkedin.com/events/7471157563389095937/">LinkedIn</a>
+	<a href="https://www.linkedin.com/events/7472231202003853314/">LinkedIn</a>
 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
 </section>
--->
 
 [In Kalendar eintragen](vampir.ics)
 
