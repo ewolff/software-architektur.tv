@@ -93,10 +93,6 @@ youtube-video-id="mRX9TTvFf_k"
 
 Wir sind bei einigen Konferenzen präsent und haben auch Rabatt-Codes:
 
-* [iSAQB Software Architecture Forum
-  2026](https://conferences.isaqb.org/software-architecture-forum/)
-  * 2026-06-16 - 17, München
-  * Code SATV15SAF  (15% Rabatt)
 * [TechRiders Summit 2026](https://tech-riders.de/)
   * 2026-06-17 - 18, Köln
   * [Code ARCH-TECHRIDER-2026 - kostenlos für  End-Benutzer/ „Anwender:innen“](https://app.tech-riders.de/offers/1/book?v=ARCH-TECHRIDER-2026&pr=10)
