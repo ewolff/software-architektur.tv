@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-06-26 13:00 CEST Wie fährst du dein Projekt an die Wand? Mit Andreas Monschau. 
+## 2026-06-26 13:00 CEST Wie fährst du dein Projekt an die Wand? Mit Andreas Monschau
 
 <!-- { include youtube.html -->
 <!-- youtube-video-id="mRX9TTvFf_k" -->
