@@ -93,9 +93,6 @@ youtube-video-id="mRX9TTvFf_k"
 
 Wir sind bei einigen Konferenzen präsent und haben auch Rabatt-Codes:
 
-* [TechRiders Summit 2026](https://tech-riders.de/)
-  * 2026-06-17 - 18, Köln
-  * [Code ARCH-TECHRIDER-2026 - kostenlos für  End-Benutzer/ „Anwender:innen“](https://app.tech-riders.de/offers/1/book?v=ARCH-TECHRIDER-2026&pr=10)
 * [iSAQB Software Architecture Gathering
   2026](https://www.software-architecture-gathering.com/),
   * 2026-11-16 - 19, Berlin
