@@ -14,25 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-06-19 13:00 CEST Zwischen KI-Hype und KI-Vampire - wie wir den Einsatz von KI im Alltag erleben
+## 2026-06-26 13:00 CEST Wie fährst du dein Projekt an die Wand? Mit Andreas Monschau. 
 
-GenAI erledigt Tasks in atemberaubendem Tempo - und trotzdem sind wir abends erschöpft und leer. Steve Yegge nennt es den „AI Vampire": Wir bauen mehr denn je, aber FOMO, Dopamin-Loops beim Prompten, Review-Müdigkeit und die schleichende Erosion des eigenen Verständnisses („Cognitive Debt") saugen uns aus. Und manch einer fragt sich leise: Macht Coden eigentlich noch Spaß?
+<!-- { include youtube.html -->
+<!-- youtube-video-id="mRX9TTvFf_k" -->
+<!--   image-url="/thumbnails/folge317.png" %} -->
 
-[Martin Lippert](https://www.linkedin.com/in/martin-lippert-9a1909/) (Spring Tools Lead, Broadcom) und Ralf D. Müller sprechen offen darüber, was sie selbst erleben, wie sich ihre tägliche Arbeit verändert hat, und was der Einsatz von KI mit ihnen und ihrer Arbeit macht.
+<!-- <section id="content-links"> -->
+<!-- 	<a href="https://www.linkedin.com/events/7472231202003853314/">LinkedIn</a> -->
+<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!-- </section> -->
 
-Eine Folge über den täglichen Einsatz von KI in der Softwareentwicklung - ohne Verteufelung, ohne Hype.
-
-{% include youtube.html
-youtube-video-id="mRX9TTvFf_k"
-  image-url="/thumbnails/folge317.png" %}
-
-<section id="content-links">
-	<a href="https://www.linkedin.com/events/7472231202003853314/">LinkedIn</a>
-	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
-	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
-</section>
-
-[In Kalendar eintragen](vampir.ics)
+<!-- [In Kalendar eintragen](vampir.ics) -->
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
