@@ -91,10 +91,13 @@ youtube-video-id="mRX9TTvFf_k"
 
 ## Der Stream bei Konferenzen
 
-Wir sind bei einigen Konferenzen präsent und haben auch Rabatt-Codes:
+Wir werden von einigen Konferenzen unterstützt und haben auch Rabatt-Codes:
 
+* [BEDcon](https://bed-con.org/2026/)
+  * 2026-09-23 - 24, Berlin
+  * [Code A-ARCH205 40€ Rabatt](https://pretix.eu/bedcon-berlin/2026/redeem?voucher=A-ARCH205)
 * [iSAQB Software Architecture Gathering
-  2026](https://www.software-architecture-gathering.com/),
+  2026](https://www.software-architecture-gathering.com/)
   * 2026-11-16 - 19, Berlin
   * Code SATV_15 (15% Rabatt)
 * [IT-Tage 2026](https://www.ittage.informatik-aktuell.de/index.html)
