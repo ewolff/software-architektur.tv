@@ -96,7 +96,7 @@ Wir sind bei einigen Konferenzen präsent und haben auch Rabatt-Codes:
 * [iSAQB Software Architecture Gathering
   2026](https://www.software-architecture-gathering.com/),
   * 2026-11-16 - 19, Berlin
-  *  * Code SATV_15  (15% Rabatt)
+  * Code SATV_15 (15% Rabatt)
 * [IT-Tage 2026](https://www.ittage.informatik-aktuell.de/index.html)
   * 2026-12-07 - 10, Frankfurt
 
