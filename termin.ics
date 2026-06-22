@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1782150544903-e536mbog1qh@ics-generator.local
+DTSTAMP:20260622T194904
+DTSTART;TZID=Europe/Berlin:20260626T130000
+DTEND;TZID=Europe/Berlin:20260626T140000
+SUMMARY:Wie fährst du dein Projekt zuverlässig an die Wand? Mit Andreas Mon
+ schau
+DESCRIPTION:Ein paar goldene Regeln\n\nSoftwareprojekte sind chaotisch\, an
+ strengend und voller Überraschungen. Und ganz ehrlich: So soll es auch blei
+ ben. Ordnung würde ja nur den Spaß verderben. Trotzdem gibt es immer wieder
+  Menschen\, die glauben\, man könnte Projekte wirklich zu Erfolg führen … u
+ nglaublich\, oder?\n\nIn dieser Folge werfen Andreas Monschau und Ralf Müll
+ er einen Blick auf goldene Anti-Pattern\, mit denen sich Softwareprojekte b
+ esonders zuverlässig ruinieren lassen. Nicht alle\, aber einige besonders w
+ irkungsvolle Regeln kommen auf den Tisch\, welche genau wird aber eine Über
+ raschung.\n\nDas Gemeine daran: Diese Muster sind nicht ausgedacht. Sie beg
+ egnen uns in echten Projekten immer wieder – oft gut getarnt als Pragmatism
+ us\, Zeitdruck oder „das haben wir schon immer so gemacht“. Manche entfalte
+ n ihre volle Zerstörungskraft sofort\, andere erst Monate später.\n\nAm End
+ e bleibt die Frage: Wenden wir diese Anti-Pattern weiterhin mit beeindrucke
+ nder Konsequenz an – oder verändern wir vielleicht doch etwas?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
