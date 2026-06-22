@@ -14,7 +14,17 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-06-26 13:00 CEST Wie fährst du dein Projekt an die Wand? Mit Andreas Monschau
+## 2026-06-26 13:00 CEST Wie fährst du dein Projekt zuverlässig an die Wand? Mit Andreas Monschau
+
+Ein paar goldene Regeln
+
+Softwareprojekte sind chaotisch, anstrengend und voller Überraschungen. Und ganz ehrlich: So soll es auch bleiben. Ordnung würde ja nur den Spaß verderben. Trotzdem gibt es immer wieder Menschen, die glauben, man könnte Projekte wirklich zu Erfolg führen … unglaublich, oder?
+
+In dieser Folge werfen [Andreas Monschau](https://www.linkedin.com/in/andreas-monschau-544aa141/) und Ralf Müller einen Blick auf goldene Anti-Pattern, mit denen sich Softwareprojekte besonders zuverlässig ruinieren lassen. Nicht alle, aber einige besonders wirkungsvolle Regeln kommen auf den Tisch, welche genau wird aber eine Überraschung.
+
+Das Gemeine daran: Diese Muster sind nicht ausgedacht. Sie begegnen uns in echten Projekten immer wieder – oft gut getarnt als Pragmatismus, Zeitdruck oder „das haben wir schon immer so gemacht“. Manche entfalten ihre volle Zerstörungskraft sofort, andere erst Monate später.
+
+Am Ende bleibt die Frage: Wenden wir diese Anti-Pattern weiterhin mit beeindruckender Konsequenz an – oder verändern wir vielleicht doch etwas?
 
 <!-- { include youtube.html -->
 <!-- youtube-video-id="mRX9TTvFf_k" -->
@@ -26,7 +36,7 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 <!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
 <!-- </section> -->
 
-<!-- [In Kalendar eintragen](vampir.ics) -->
+[In Kalendar eintragen](termin.ics)
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
