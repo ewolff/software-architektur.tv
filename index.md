@@ -31,7 +31,7 @@ Andreas spricht bei den
 2026](https://www.ittage.informatik-aktuell.de/index.html),2026-12-07 -
 10 in Frankfurt.
 
- { include youtube.html 
+ {% include youtube.html 
  youtube-video-id="uirY-dxT8uQ" 
    image-url="/thumbnails/folge318.png" %} 
 
