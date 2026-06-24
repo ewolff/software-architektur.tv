@@ -31,15 +31,15 @@ Andreas spricht bei den
 2026](https://www.ittage.informatik-aktuell.de/index.html),2026-12-07 -
 10 in Frankfurt.
 
-<!-- { include youtube.html -->
-<!-- youtube-video-id="mRX9TTvFf_k" -->
-<!--   image-url="/thumbnails/folge317.png" %} -->
+ { include youtube.html 
+ youtube-video-id="uirY-dxT8uQ" 
+   image-url="/thumbnails/folge318.png" %} 
 
-<!-- <section id="content-links"> -->
-<!-- 	<a href="https://www.linkedin.com/events/7472231202003853314/">LinkedIn</a> -->
-<!-- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!-- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!-- </section> -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7475474006117265408/">LinkedIn</a> 
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> 
+ </section> 
 
 [In Kalendar eintragen](termin.ics)
 
