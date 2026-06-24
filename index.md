@@ -30,7 +30,8 @@ Andreas spricht bei den
 [IT-Tagen
 2026](https://www.ittage.informatik-aktuell.de/index.html),2026-12-07 -
 10 in Frankfurt.
-
+Mit dem Code ITT26-SIS-352 gibt es 100 Euro Rabatt.
+ 
  {% include youtube.html 
  youtube-video-id="uirY-dxT8uQ" 
    image-url="/thumbnails/folge318.png" %} 
