@@ -26,6 +26,11 @@ Das Gemeine daran: Diese Muster sind nicht ausgedacht. Sie begegnen uns in echte
 
 Am Ende bleibt die Frage: Wenden wir diese Anti-Pattern weiterhin mit beeindruckender Konsequenz an – oder verändern wir vielleicht doch etwas?
 
+Andreas spricht bei den
+[IT-Tagen
+2026](https://www.ittage.informatik-aktuell.de/index.html),2026-12-07 -
+10 in Frankfurt.
+
 <!-- { include youtube.html -->
 <!-- youtube-video-id="mRX9TTvFf_k" -->
 <!--   image-url="/thumbnails/folge317.png" %} -->
