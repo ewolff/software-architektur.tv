@@ -14,35 +14,27 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-06-26 13:00 CEST Wie fährst du dein Projekt zuverlässig an die Wand? Mit Andreas Monschau
+## 2026-07-03 13:00 CEST Johannes Link zu Anti-GenAI-Aktivismus
 
-Ein paar goldene Regeln
+Johannes Link hat sich intensiv mit der ethischen Seite von GenAI
+auseinandergesetzt. Daher hat er im Projekt jqwik für
+Property-basiertes-Testing Vorkehrungen gegen die Nutzung mit GenAI
+getroffen. Das hat zu einem Aufschrei in Teilen der Community
+geführt - aber auch zu Unterstützung. In dieser Episode spricht
+Eberhard mit Johannes darüber - und was er dabei gelernt hat.
 
-Softwareprojekte sind chaotisch, anstrengend und voller Überraschungen. Und ganz ehrlich: So soll es auch bleiben. Ordnung würde ja nur den Spaß verderben. Trotzdem gibt es immer wieder Menschen, die glauben, man könnte Projekte wirklich zu Erfolg führen … unglaublich, oder?
-
-In dieser Folge werfen [Andreas Monschau](https://www.linkedin.com/in/andreas-monschau-544aa141/) und Ralf Müller einen Blick auf goldene Anti-Pattern, mit denen sich Softwareprojekte besonders zuverlässig ruinieren lassen. Nicht alle, aber einige besonders wirkungsvolle Regeln kommen auf den Tisch, welche genau wird aber eine Überraschung.
-
-Das Gemeine daran: Diese Muster sind nicht ausgedacht. Sie begegnen uns in echten Projekten immer wieder – oft gut getarnt als Pragmatismus, Zeitdruck oder „das haben wir schon immer so gemacht“. Manche entfalten ihre volle Zerstörungskraft sofort, andere erst Monate später.
-
-Am Ende bleibt die Frage: Wenden wir diese Anti-Pattern weiterhin mit beeindruckender Konsequenz an – oder verändern wir vielleicht doch etwas?
-
-Andreas spricht bei den
-[IT-Tagen
-2026](https://www.ittage.informatik-aktuell.de/index.html),2026-12-07 -
-10 in Frankfurt.
-Mit dem Code ITT26-SIS-352 gibt es 100 Euro Rabatt.
  
- {% include youtube.html 
- youtube-video-id="uirY-dxT8uQ" 
-   image-url="/thumbnails/folge318.png" %} 
+<!--  { include youtube.html  -->
+<!--  youtube-video-id="uirY-dxT8uQ"  -->
+<!--    image-url="/thumbnails/folge318.png" %}  -->
 
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7475474006117265408/">LinkedIn</a> 
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> 
- </section> 
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7475474006117265408/">LinkedIn</a>  -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>  -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>  -->
+<!--  </section>  -->
 
-[In Kalendar eintragen](termin.ics)
+<!-- [In Kalendar eintragen](termin.ics) -->
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
