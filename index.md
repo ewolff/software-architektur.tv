@@ -24,17 +24,17 @@ geführt - aber auch zu Unterstützung. In dieser Episode spricht
 Eberhard mit Johannes darüber - und was er dabei gelernt hat.
 
  
-<!--  { include youtube.html  -->
-<!--  youtube-video-id="uirY-dxT8uQ"  -->
-<!--    image-url="/thumbnails/folge318.png" %}  -->
+ {% include youtube.html
+ youtube-video-id="j4pkGJ2LU7M"
+   image-url="/thumbnails/folge319.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7475474006117265408/">LinkedIn</a>  -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>  -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>  -->
-<!--  </section>  -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7477255708606963712/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
 
-<!-- [In Kalendar eintragen](termin.ics) -->
+[In Kalendar eintragen](johannes-link-zu-anti-genai-aktivismus.ics)
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 

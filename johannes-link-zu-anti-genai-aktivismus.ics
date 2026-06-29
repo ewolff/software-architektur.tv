@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Generator//ICS Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1782717284445-ne9wvo8ekqm@ics-generator.local
+DTSTAMP:20260629T091444
+DTSTART;TZID=Europe/Berlin:20260703T130000
+DTEND;TZID=Europe/Berlin:20260703T140000
+SUMMARY:Johannes Link zu Anti-GenAI-Aktivismus
+DESCRIPTION:Johannes Link hat sich intensiv mit der ethischen Seite von Gen
+ AI auseinandergesetzt. Daher hat er im Projekt jqwik für Property-basiertes
+ -Testing Vorkehrungen gegen die Nutzung mit GenAI getroffen. Das hat zu ein
+ em Aufschrei in Teilen der Community geführt - aber auch zu Unterstützung. 
+ In dieser Episode spricht Eberhard mit Johannes darüber - und was er dabei 
+ gelernt hat.
+LOCATION:https://www.youtube.com/watch?v=j4pkGJ2LU7M https://www.linkedin.c
+ om/events/7477255708606963712/ https://www.twitch.tv/ebrwolff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
