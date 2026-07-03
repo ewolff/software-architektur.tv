@@ -1,6 +1,6 @@
 # 🤖 KI macht Software billiger – aber macht sie Projekte wirklich einfacher?
 
-Eine wichtige Diskussion von der #TechRidersSummit: Sebastian Kleinschmarger (SparePartsNow) und Axel Schulz stellen die kritischen Fragen, die wir uns stellen müssen.
+Eine wichtige Diskussion vom #TechRidersSummit: Sebastian Kleinschmarger (SparePartsNow) und Axel Schulz stellen die kritischen Fragen, die wir uns stellen müssen.
 
 **Das Versprechen:** KI beschleunigt die Codeerstellung massiv – bis zu Faktor 90 Produktivitätssteigerung! 🚀
 
