@@ -14,27 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-07-03 13:00 CEST Johannes Link zu Anti-GenAI-Aktivismus
-
-Johannes Link hat sich intensiv mit der ethischen Seite von GenAI
-auseinandergesetzt. Daher hat er im Projekt jqwik für
-Property-basiertes-Testing Vorkehrungen gegen die Nutzung mit GenAI
-getroffen. Das hat zu einem Aufschrei in Teilen der Community
-geführt - aber auch zu Unterstützung. In dieser Episode spricht
-Eberhard mit Johannes darüber - und was er dabei gelernt hat.
+## 2026-07-17 13:00 CEST Dr. Felix Sühlmann-Faul zu Big Tech und digitialer Souveranität
 
  
- {% include youtube.html
- youtube-video-id="j4pkGJ2LU7M"
-   image-url="/thumbnails/folge319.png" %}
+<!-- { include youtube.html -->
+<!--  youtube-video-id="j4pkGJ2LU7M" -->
+<!--    image-url="/thumbnails/folge319.png" %} -->
 
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7477255708606963712/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7477255708606963712/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
 
-[In Kalendar eintragen](johannes-link-zu-anti-genai-aktivismus.ics)
+<!-- [In Kalendar eintragen](johannes-link-zu-anti-genai-aktivismus.ics) -->
 
 <!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
 
