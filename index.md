@@ -14,9 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-07-17 13:00 CEST Dr. Felix Sühlmann-Faul zu Big Tech und digitialer Souveranität
+## 2026-07-17 13:00 CEST Digitale Souveränität und Datenschutz mit Dr. Felix Sühlmann-Faul
 
- 
+Digitale Souveränität und Datenschutz scheinen manchmal wie ein
+Hemmnis, sind aber sogar für unsere Gesellschaft und unsere Demokratie
+essentiell. In dieser Episode spricht Eberhard mit Dr. Felix
+Sühlmann-Faul, dem Erfinder dem PRIVA SCORE, über die Auswirkungen
+dieses Themenkomplexes - und was er für Software-Architektur
+tatsächlich in der Praxis bedeutet.
+
+Felix spricht bei den [IT-Tagen
+2026](https://www.ittage.informatik-aktuell.de/index.html),
+2026-12-07 - 10 in Frankfurt. Mit dem Code ITT26-SIS-352 gibt es 100
+Euro Rabatt.
+
 <!-- { include youtube.html -->
 <!--  youtube-video-id="j4pkGJ2LU7M" -->
 <!--    image-url="/thumbnails/folge319.png" %} -->
