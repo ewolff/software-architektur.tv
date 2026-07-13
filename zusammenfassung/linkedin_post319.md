@@ -8,7 +8,7 @@ In der neuen Folge "Software-Architektur im Stream" sprechen wir über:
 
 ✅ Die ethischen Probleme der hyperskalierten generativen KI (Energieverbrauch, Wasserverbrauch, Copyright-Verletzungen)
 
-✅ Warum Johannes eine „Prompt Injection" in seine beliebte Test-Bibliothek jQuick eingebaut hat – und was das ausgelöst hat
+✅ Warum Johannes eine „Prompt Injection“ in seine beliebte Test-Bibliothek jQuick eingebaut hat – und was das ausgelöst hat
 
 ✅ Die daraus entstandene Community-Spaltung und wie man damit umgeht
 
@@ -16,11 +16,11 @@ In der neuen Folge "Software-Architektur im Stream" sprechen wir über:
 
 Das Besondere: Johannes hat dafür echten Gegenwind bekommen – juristische Drohungen, GitHub-Spam, negative Presse. Trotzdem denkt er: Aktivismus lohnt sich.
 
-Ein wichtiges Gespräch darüber, wie einzelne Entwickler im Spannungsfeld zwischen persönischen Werten und technologischer Realität agieren können.
+Ein wichtiges Gespräch darüber, wie einzelne Entwickler im Spannungsfeld zwischen persönlichen Werten und technologischer Realität agieren können.
 
 🎧 **Jetzt anhören auf software-architektur.tv**
 
-#SoftwareArchitektur #OpenSource #EthiksInTech #KI #Aktivismus
+#SoftwareArchitektur #OpenSource #EthicsInTech #KI #Aktivismus
 
 ---
 
