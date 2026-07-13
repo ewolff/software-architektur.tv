@@ -9,4 +9,5 @@ description: Überblick über die geplanten Folgen
 |            Datum | Thema / Gäste                              |
 |-----------------:|:-------------------------------------------|
 | 2026-07-24 13:00 | James Coplien: Is Software Architecture Really About Dependencies? |
+| 2026-07-28 13:00 | Event Storming / kollaborative Modellierung mit Daniel Sack und Tom Asel |
 | 2026-08-21 13:00 | Francesco Cesarini: Evolution of the Erland Eco System |
