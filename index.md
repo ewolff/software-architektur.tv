@@ -28,15 +28,17 @@ Felix spricht bei den [IT-Tagen
 2026-12-07 - 10 in Frankfurt. Mit dem Code ITT26-SIS-352 gibt es 100
 Euro Rabatt.
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="j4pkGJ2LU7M" -->
-<!--    image-url="/thumbnails/folge319.png" %} -->
+{% include youtube.html
+ youtube-video-id="RoTSa23rtdw"
+   image-url="/thumbnails/folge322.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7477255708606963712/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7482697647955349504/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
+
+[Event bei treff.tech](https://treff.tech/events/03f8d461-4cd9-4c58-b431-c6d100a6f738)
 
 <!-- [In Kalendar eintragen](johannes-link-zu-anti-genai-aktivismus.ics) -->
 
