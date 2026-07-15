@@ -2,7 +2,7 @@
 
 🌍 **Digitale Souveränität ist kein Luxus – es ist eine Notwendigkeit**
 
-In unserer neuesten Folge spreche ich mit Karin Paul, IT-Leitung von Greenpeace Deutschland, über ein Thema, das immer dringlicher wird: Wie organisiert man sich digital unabhängig, wenn der geopolitische Druck steigt?
+In unserer neuesten Folge spreche ich mit Karen Paul, IT-Leitung von Greenpeace Deutschland, über ein Thema, das immer dringlicher wird: Wie organisiert man sich digital unabhängig, wenn der geopolitische Druck steigt?
 
 Was ich besonders beeindruckend finde:
 
