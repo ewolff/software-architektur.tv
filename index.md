@@ -14,31 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-07-17 13:00 CEST Digitale Souveränität und Datenschutz mit Dr. Felix Sühlmann-Faul
+## 2026-07-24 13:00 CEST James Coplien: Is Software Architecture Really About Dependencies?
 
-Digitale Souveränität und Datenschutz scheinen manchmal wie ein
-Hemmnis, sind aber sogar für unsere Gesellschaft und unsere Demokratie
-essentiell. In dieser Episode spricht Eberhard mit Dr. Felix
-Sühlmann-Faul, dem Erfinder dem PRIVA SCORE, über die Auswirkungen
-dieses Themenkomplexes - und was er für Software-Architektur
-tatsächlich in der Praxis bedeutet.
+<!-- { include youtube.html -->
+<!--  youtube-video-id="RoTSa23rtdw" -->
+<!--    image-url="/thumbnails/folge322.png" %} -->
 
-Felix spricht bei den [IT-Tagen
-2026](https://www.ittage.informatik-aktuell.de/index.html),
-2026-12-07 - 10 in Frankfurt. Mit dem Code ITT26-SIS-352 gibt es 100
-Euro Rabatt.
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7482697647955349504/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
 
-{% include youtube.html
- youtube-video-id="RoTSa23rtdw"
-   image-url="/thumbnails/folge322.png" %}
-
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7482697647955349504/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
-
-[Event bei treff.tech](https://treff.tech/events/03f8d461-4cd9-4c58-b431-c6d100a6f738)
+<!-- [Event bei treff.tech](https://treff.tech/events/03f8d461-4cd9-4c58-b431-c6d100a6f738) -->
 
 <!-- [In Kalendar eintragen](johannes-link-zu-anti-genai-aktivismus.ics) -->
 
