@@ -14,25 +14,28 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-07-24 13:00 CEST James Coplien: Is Software Architecture Really About Dependencies?
+## 2026-07-24 13:00 CEST Software Architecture: What Is It Really About? A Discussion with James Coplien
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="RoTSa23rtdw" -->
-<!--    image-url="/thumbnails/folge322.png" %} -->
+Dependencies are often seen as the foundation of software
+architecture. Some even argue that architecture is little more than
+managing dependencies. But is that really true? Inspired by one of
+Eberhard Wolff's blog posts, an interesting discussion with James
+Coplien challenged this common assumption. Do dependencies matter as
+much as we think? If not, what is software architecture actually
+about? In this episode, we explore these questions and discuss what
+truly shapes software architecture in practice.
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7482697647955349504/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+{% include youtube.html
+ youtube-video-id="y1mac8LVQV8"
+   image-url="/thumbnails/folge325.png" %}
 
-<!-- [Event bei treff.tech](https://treff.tech/events/03f8d461-4cd9-4c58-b431-c6d100a6f738) -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7485608806564044801/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
 
-<!-- [In Kalendar eintragen](johannes-link-zu-anti-genai-aktivismus.ics) -->
-
-<!-- [Add to calendar](john-romeros-prinzipien-mit-tom-asel.ics) -->
-
-<!-- https://claude.ai/public/artifacts/e3c372ae-47cd-4706-9316-61aafb0be64a -->
+[Event at treff.tech](https://treff.tech/events/7f1190f7-261b-452f-a433-fc8a419fdfbf)
 
 ## Der Stream bei Konferenzen
 
