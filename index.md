@@ -41,7 +41,7 @@ truly shapes software architecture in practice.
 
 Event Storming hat sich als eines der wichtigsten Werkzeuge zur
 kollaborativen Modellierung von Geschäftslogik etabliert. In dieser
-Episode berichten Tom Asel, Daniel Sacke und Eberhard Wolff von ihren
+Episode berichten Tom Asel, Daniel Sack und Eberhard Wolff von ihren
 Erfahrungen aus der Praxis. Sie diskutieren, warum Event Storming so
 erfolgreich ist, welche Herausforderungen es löst und weshalb
 kollaborative Modellierung weit über Event Storming
