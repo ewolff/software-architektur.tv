@@ -2,15 +2,15 @@
 
 📍 **Die Frage aller Fragen**: Wir haben eine textlastige Dokumentation, die niemand gerne schreibt – und plötzlich gibt es KI-Systeme, die Text generieren können. Zufall? Nein, ein perfekter Match!
 
-In unserer neuen Podcast-Folge sprechen wir mit **Stefan Zörner** vom ISRQB Software-Architektur Forum darüber, wie **Docs-as-Code und Generative AI zusammenpassen** – und wo sie bewusst getrennt werden sollten.
+In unserer neuen Podcast-Folge sprechen wir mit **Stefan Zörner** vom ISAQB Software-Architektur Forum darüber, wie **Docs-as-Code und Generative AI zusammenpassen** – und wo sie bewusst getrennt werden sollten.
 
 ## Was erwartet dich?
 
-✅ **Dialogue mit KI statt Automation**: Warum der interaktive Dialog mit Claude, Mistral & Co. bei Qualitätszielen und ADRs besser funktioniert als reine Automation
+✅ **Dialog mit KI statt Automatisierung**: Warum der interaktive Dialog mit Claude, Mistral & Co. bei Qualitätszielen und ADRs besser funktioniert als reine Automatisierung
 
 ✅ **Reverse Engineering mit KI**: Wie tiefe Software-Systeme durch AI-gestützte Dokumentation wie DeepWiki zugänglich werden – und wo die Grenzen liegen
 
-✅ **Intelligente Code-Reviews**: Automatische Konsistenz-Checks für deine Arch-42 Dokumentation, die echte (!) Inkonsistenzen finden
+✅ **Intelligente Code-Reviews**: Automatische Konsistenz-Checks für deine arc42-Dokumentation, die echte (!) Inkonsistenzen finden
 
 ✅ **Die wichtigste Erkenntnis**: Warum Qualitätsziele lieber in der Gruppe entstehen sollten – und wo KI trotzdem unterstützt
 
