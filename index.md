@@ -37,6 +37,18 @@ truly shapes software architecture in practice.
 
 [Event at treff.tech](https://treff.tech/events/7f1190f7-261b-452f-a433-fc8a419fdfbf)
 
+## 2026-07-28 13:00 CEST Kollaborative Modellierung - warum und wie funktioniert  Event Storming in der Praxis
+
+Event Storming hat sich als eines der wichtigsten Werkzeuge zur
+kollaborativen Modellierung von Geschäftslogik etabliert. In dieser
+Episode berichten Tom Asel, Daniel Sacke und Eberhard Wolff von ihren
+Erfahrungen aus der Praxis. Sie diskutieren, warum Event Storming so
+erfolgreich ist, welche Herausforderungen es löst und weshalb
+kollaborative Modellierung weit über Event Storming
+hinausgeht. Außerdem zeigen sie konkret, welche typischen Fallstricke
+es gibt und weshalb Teams sich nicht blind auf das Format verlassen
+sollten.
+
 ## Der Stream bei Konferenzen
 
 Wir werden von einigen Konferenzen unterstützt und haben auch Rabatt-Codes:
