@@ -49,6 +49,18 @@ hinausgeht. Außerdem zeigen sie konkret, welche typischen Fallstricke
 es gibt und weshalb Teams sich nicht blind auf das Format verlassen
 sollten.
 
+{% include youtube.html
+ youtube-video-id="8Nz2nL-m0to"
+   image-url="/thumbnails/folge326.png" %}
+
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7485937227194142721/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
+
+[Event bei treff.tech](https://treff.tech/events/917171d1-f56c-474b-bec4-6022b9dbcb7c)
+
 ## Der Stream bei Konferenzen
 
 Wir werden von einigen Konferenzen unterstützt und haben auch Rabatt-Codes:
