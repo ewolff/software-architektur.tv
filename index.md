@@ -14,29 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-07-24 13:00 CEST Software Architecture: What Is It Really About? A Discussion with James Coplien
-
-Dependencies are often seen as the foundation of software
-architecture. Some even argue that architecture is little more than
-managing dependencies. But is that really true? Inspired by one of
-Eberhard Wolff's blog posts, an interesting discussion with James
-Coplien challenged this common assumption. Do dependencies matter as
-much as we think? If not, what is software architecture actually
-about? In this episode, we explore these questions and discuss what
-truly shapes software architecture in practice.
-
-{% include youtube.html
- youtube-video-id="y1mac8LVQV8"
-   image-url="/thumbnails/folge325.png" %}
-
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7485608806564044801/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
-
-[Event at treff.tech](https://treff.tech/events/7f1190f7-261b-452f-a433-fc8a419fdfbf)
-
 ## 2026-07-28 13:00 CEST Kollaborative Modellierung - warum und wie funktioniert  Event Storming in der Praxis
 
 Event Storming hat sich als eines der wichtigsten Werkzeuge zur
