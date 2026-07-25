@@ -12,7 +12,7 @@ Key insights from this deep dive:
 
 📚 **Code is a liability; theory is the asset** – The knowledge your team holds matters infinitely more than the code artifacts you produce.
 
-🔄 **Stable teams > Dependencies management** – The path to maintainability isn't better abstractions or message buses. It's teams that stay together long enough to truly understand their domain.
+🔄 **Stable teams > Dependency management** – The path to maintainability isn't better abstractions or message buses. It's teams that stay together long enough to truly understand their domain.
 
 💡 **The hard truth:** Most software architecture talk is wishful thinking. Real solutions require organizational culture, domain expertise, and teams committed to deep, long-term mastery.
 
