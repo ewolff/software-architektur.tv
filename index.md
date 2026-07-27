@@ -43,13 +43,16 @@ gibt es bis 2026-10-04 20% auf den normalen Ticketpreis für unser
 
 [Event bei treff.tech](https://treff.tech/events/917171d1-f56c-474b-bec4-6022b9dbcb7c)
 
-## Der Stream bei Konferenzen
+## Der Stream bei Konferenzen und Trainings
 
-Wir werden von einigen Konferenzen unterstützt und haben auch Rabatt-Codes:
+Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rabatt-Codes:
 
 * [BEDcon](https://bed-con.org/2026/)
   * 2026-09-23 - 24, Berlin
   * [Code A-ARCH205 40€ Rabatt](https://pretix.eu/bedcon-berlin/2026/redeem?voucher=A-ARCH205)
+* [Training "kollaborative Modellierung" bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
+  * Code
+[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4978817) 20% auf den normalen Ticketpreis bis 2026-10-04 
 * [iSAQB Software Architecture Gathering
   2026](https://www.software-architecture-gathering.com/)
   * 2026-11-16 - 19, Berlin
