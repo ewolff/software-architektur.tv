@@ -28,8 +28,12 @@ sollten.
 
 Mit dem Code
 [SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4978817)
-gibt es bis 2026-10-04 20% auf den normalen Ticketpreis für unser
+gibt es bis 2026-10-04 20% auf den normalen Ticketpreis für Toms und Eberhards
 [Training bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
+
+Daniel führt ebenfalls ein
+[Training](https://training.techtalk.at/trainings/cosmo/) durch. 
+
 
 {% include youtube.html
  youtube-video-id="8Nz2nL-m0to"
