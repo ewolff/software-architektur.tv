@@ -26,6 +26,11 @@ hinausgeht. Außerdem zeigen sie konkret, welche typischen Fallstricke
 es gibt und weshalb Teams sich nicht blind auf das Format verlassen
 sollten.
 
+Mit dem Code
+[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4978817)
+gibt es bis 2026-10-04 20% auf den normalen Ticketpreis für unser
+[Training bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
+
 {% include youtube.html
  youtube-video-id="8Nz2nL-m0to"
    image-url="/thumbnails/folge326.png" %}
