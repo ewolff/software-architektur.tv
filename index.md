@@ -14,38 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## 2026-07-28 13:00 CEST Kollaborative Modellierung - warum und wie funktioniert  Event Storming in der Praxis
+## Nächste Folge: offen
 
-Event Storming hat sich als eines der wichtigsten Werkzeuge zur
-kollaborativen Modellierung von Geschäftslogik etabliert. In dieser
-Episode berichten Tom Asel, Daniel Sack und Eberhard Wolff von ihren
-Erfahrungen aus der Praxis. Sie diskutieren, warum Event Storming so
-erfolgreich ist, welche Herausforderungen es löst und weshalb
-kollaborative Modellierung weit über Event Storming
-hinausgeht. Außerdem zeigen sie konkret, welche typischen Fallstricke
-es gibt und weshalb Teams sich nicht blind auf das Format verlassen
-sollten.
+<!-- { include youtube.html -->
+<!--  youtube-video-id="8Nz2nL-m0to" -->
+<!--    image-url="/thumbnails/folge326.png" %} -->
 
-Mit dem Code
-[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4978817)
-gibt es bis 2026-10-04 20% auf den normalen Ticketpreis für Toms und Eberhards
-[Training bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7485937227194142721/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
 
-Daniel führt ebenfalls ein
-[Training](https://training.techtalk.at/trainings/cosmo/) durch. 
-
-
-{% include youtube.html
- youtube-video-id="8Nz2nL-m0to"
-   image-url="/thumbnails/folge326.png" %}
-
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7485937227194142721/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
-
-[Event bei treff.tech](https://treff.tech/events/917171d1-f56c-474b-bec4-6022b9dbcb7c)
+<!-- [Event bei treff.tech](https://treff.tech/events/917171d1-f56c-474b-bec4-6022b9dbcb7c) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
