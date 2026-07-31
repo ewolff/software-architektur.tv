@@ -8,7 +8,7 @@ Was bedeutet **digitale Souveränität** wirklich? Alexander Heusinkveld und ich
 
 ✅ **Deutschland war mal schneller:** In den 90ern bei Unix, jetzt sind wir zögerlich. Warum? Kontrollverlust, Komplexität, Angst vor Fehlern – und Corporate-Kommunikation, die Fehler lieber versteckt, statt daraus zu lernen.
 
-✅ **Die echte Lösung:** Klein anfangen, Risiken begrenzen („Blast Radius"), experimentieren und vor allem: **über Fehler sprechen statt über Erfolge zu prahlen.**
+✅ **Die echte Lösung:** Klein anfangen, Risiken begrenzen („Blast Radius“), experimentieren und vor allem: **über Fehler sprechen statt über Erfolge zu prahlen.**
 
 🤝 **Ein konkreter Aufruf:** Lasst uns einen Expertenkreis gründen, wo KMUs von echten Learnings profitieren – nicht von Marketing-Narrativen.
 
