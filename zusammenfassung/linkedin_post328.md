@@ -18,13 +18,13 @@ Mit **Sönke Magnussen** diskutieren wir eine kritische Frage: Wie sichern wir K
 - Algorithmische Validierung statt blindes Vertrauen
 - Human-in-the-Loop als echter Sicherheitsmechanismus
 
-🔐 **Die unbequeme Wahrheit:** Prompt Injection lässt sich nicht einfach „wegfixen" – es ist inherent in der Funktionsweise von LLMs. Das erfordert neue Architektur-Ansätze!
+🔐 **Die unbequeme Wahrheit:** Prompt Injection lässt sich nicht einfach „wegfixen“ – es ist inhärent in der Funktionsweise von LLMs. Das erfordert neue Architektur-Ansätze!
 
 Die Episode zeigt: Mit den richtigen Sicherheitsmechanismen können wir LLM-Agenten verantwortungsvoll einsetzen – auch in kritischen Prozessen.
 
 Reinhören lohnt sich! 🎧
 
-#SoftwareArchitektur #KI #LLM #Sicherheit #AgentenSysteme #AI #ISAQB
+#SoftwareArchitektur #KI #LLM #Sicherheit #AgentenSysteme #AI #iSAQB
 
 ---
 
