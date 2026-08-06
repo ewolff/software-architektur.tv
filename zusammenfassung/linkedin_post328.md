@@ -1,31 +1,25 @@
 # LinkedIn Post
 
-🚨 Neue Episode: LLM-basierte Systeme sicher machen – Ein Must-Listen für alle, die mit KI-Agenten arbeiten!
+🚨 Neue Episode: LLM-basierte Systeme sicher machen!
 
-Mit **Sönke Magnussen** diskutieren wir eine kritische Frage: Wie sichern wir KI-Agenten wirklich ab?
+Mit **Sönke Magnussen** diskutierte ich auf dem iSAQB  Software Architecture Forum eine kritische Frage: Wie sichern wir KI-Agenten wirklich ab?
 
 **Die Kernthemen:**
 
-🎯 **Prompt Injection & Goal Hijacking** – Warum ein harmloses E-Mail-System plötzlich Millionen-Rechnungen freigeben könnte
+🎯 **Prompt Injection & Goal Hijacking** – Warum eine harmloses E-Mail an einen Agenten zur Rechnungsfreigabe plötzlich Unsumme überweist, wenn man nicht aufpasst.
 
-🛠️ **Tool Misuse** – Wenn Agenten Tools für völlig andere Zwecke missbrauchen, als ursprünglich gedacht
+🛠️ **Tool Misuse** – Wenn Angreifer Agenten ihre Tools für völlig andere Zwecke missbrauchen lässt, als ursprünglich gedacht
 
-📋 **Der Spagat zwischen Flexibilität und Sicherheit** – Wie wir autonome Agenten mit Guardrails, klassischen Algorithmen und symbolischer KI absichern
+📋 **Der Spagat zwischen Flexibilität und Sicherheit** – Autonome Agenten mit Guardrails, klassischen Algorithmen und symbolischer KI absichern
 
 💡 **Praktische Lösungen:**
-- Input/Output Guardrails
+- Guardrails
 - Symbolische KI statt nur LLMs
 - Algorithmische Validierung statt blindes Vertrauen
-- Human-in-the-Loop als echter Sicherheitsmechanismus
+- Human-in-the-Loop als Sicherheitsmechanismus
 
-🔐 **Die unbequeme Wahrheit:** Prompt Injection lässt sich nicht einfach „wegfixen“ – es ist inhärent in der Funktionsweise von LLMs. Das erfordert neue Architektur-Ansätze!
+🔐 **Besonders kritisch:** Prompt Injection lässt sich nicht einfach „wegfixen“ – es ist inhärent in der Funktionsweise von LLMs. Das erfordert neue Architektur-Ansätze!
 
 Die Episode zeigt: Mit den richtigen Sicherheitsmechanismen können wir LLM-Agenten verantwortungsvoll einsetzen – auch in kritischen Prozessen.
 
-Reinhören lohnt sich! 🎧
-
-#SoftwareArchitektur #KI #LLM #Sicherheit #AgentenSysteme #AI #iSAQB
-
----
-
-*Folge 328 – jetzt überall verfügbar*
+Reinhören und reinschauen lohnt sich! 🎧 https://software-architektur.tv/2026/08/06/folge328.html
