@@ -21,6 +21,7 @@
 	&nbsp;
 	<a href="/transcriptions/{{-page.episode_id }}.html">Transcript</a>
       </section>
+      Episode {{page.episode_id}}
 {%- else %}
       <section id="content-links">
 	<a href="{{-page.url }}">Folge (Video/Podcast)</a>
@@ -30,7 +31,8 @@
 	<a href="/stichpunkte/{{-page.episode_id }}.html">Stichpunkte</a>
 	&nbsp;
 	<a href="/transcriptions/{{-page.episode_id }}.html">Transkript</a>
-      </section>      
+      </section>
+      Folge {{page.episode_id}}
 {%- endif %}      
 {%- endif %}
       
