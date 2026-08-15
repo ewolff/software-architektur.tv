@@ -30,3 +30,5 @@ gem "wdm", "~> 0.2", :install_if => Gem.win_platform?
 
 gem "webrick", "~> 1.9"
 gem "csv"
+
+gem "jekyll-redirect-from"

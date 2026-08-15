@@ -315,6 +315,7 @@ DEPENDENCIES
   csv
   github-pages (~> 232)
   jekyll-feed (~> 0.17)
+  jekyll-redirect-from
   minima (~> 2.5.1)
   tzinfo (~> 2.0)
   tzinfo-data
