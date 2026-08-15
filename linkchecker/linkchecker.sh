@@ -1,2 +1,2 @@
 #!/bin/sh
-linkchecker chronologisch.html
+linkchecker --check-extern -t 10 chronologisch.html
