@@ -1,4 +1,5 @@
 ---
+slug: für die URL z.B. dieses-super-thema alles klein
 episode_id: 
 title: layout: folge
 video: Hex Code You Tube
