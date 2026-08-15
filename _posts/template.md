@@ -1,7 +1,6 @@
 ---
 episode_id: 
-title: Folge 297 - 
-layout: folge
+title: layout: folge
 video: Hex Code You Tube
 peertube: PeerTube URL
 embedded-mp3-new: link
