@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+  <meta charset="UTF-8"> 
+  <title>Folgen chronologisch | Software Architektur im Stream</title>
+  <meta property="og:title" content="Folgen chronologisch | Software Architektur im Stream" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="software-architektur.tv" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/cayman.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/custom1.css">
+  <meta property="og:url" content="http://localhost:4000/chronologisch" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/twitter-image.jpg" />
+  <meta property="og:description" content="Folgen chronologisch" />
+</head>
+
+
+  <body><section class="page-header">
+  <h1 class="project-name">Folgen chronologisch</h1>
+  <h2 class="project-tagline">Software Architektur im Stream</h2>
+
+
+  <section id="links">
+    <a href="http://localhost:4000/index.html">Home</a>
+    &nbsp;
+    <a href="http://localhost:4000/chronologisch.html">Folgen</a>
+    &nbsp;
+    <a href="http://localhost:4000/tags.html">Tags</a>
+    &nbsp;
+    <a href="http://localhost:4000/plan.html">Planung</a>
+    &nbsp;
+    <a href="http://localhost:4000/podcast.html">Podcast</a>
+    &nbsp;
+    <a href="http://localhost:4000/sketchnote-buch">Buch</a>
+    <br />
+    <br />
+    <a href="http://localhost:4000/beruf.html">Architektur als Beruf</a>
+    &nbsp;
+    <a href="http://localhost:4000/feed.xml">Feed</a>
+    <br />
+    <br />
+  </section>
+</section>
+
+
+    <section class="main-content"><p><input type="text" id="filterInput" placeholder="Episoden filtern" style="margin-bottom: 1rem; padding: 0.5rem; width: 100%;" /></p>
+
+<script>
+  const filterInput = document.getElementById("filterInput");
+
+  filterInput.addEventListener("input", () => {
+    const filterText = filterInput.value.toLowerCase();
+
+    document.querySelectorAll("a.link-card").forEach(toBeFiltered => {
+      const filterSubelement = toBeFiltered.querySelector("p");
+      const text = filterSubelement ? filterSubelement.textContent.toLowerCase() : "";
+
+      toBeFiltered.style.display = text.includes(filterText) ? "" : "none";
+    });
+  });
+</script>
+
+<div class="image-grid"><a href="http://localhost:4000/2026/08/06/llm-basierte-systeme-sicher-machen-mit-sonke-magnussen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge328.png" alt="LLM-basierte Systeme sicher machen mit Sönke Magnussen" loading="lazy" />
+<p>LLM-basierte Systeme sicher machen mit Sönke Magnussen</p>
+</a>
+<a href="http://localhost:4000/2026/07/31/bewusste-entscheidungen-europas-zukunft-liegt-in-unseren-handen-techriders-summit-special.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode327.png" alt="Bewusste Entscheidungen Europas Zukunft liegt in unseren Händen  (TechRiders Summit Special)" loading="lazy" />
+<p>Bewusste Entscheidungen Europas Zukunft liegt in unseren Händen  (TechRiders Summit Special)</p>
+</a>
+<a href="http://localhost:4000/2026/07/28/kollaborative-modellierung-warum-und-wie-funktioniert-event-storming-in-der-praxis.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge326.png" alt="Kollaborative Modellierung - warum und wie funktioniert  Event Storming in der Praxis" loading="lazy" />
+<p>Kollaborative Modellierung - warum und wie funktioniert  Event Storming in der Praxis</p>
+</a>
+<a href="http://localhost:4000/2026/07/24/software-architecture-what-is-it-really-about-a-discussion-with-james-coplien.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge325.png" alt="Software Architecture: What Is It Really About? A Discussion with James Coplien" loading="lazy" />
+<p>Software Architecture: What Is It Really About? A Discussion with James Coplien</p>
+</a>
+<a href="http://localhost:4000/2026/07/22/docs-as-code-trifft-genai-mit-stefan-zorner.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge324.png" alt="Docs-as-Code trifft GenAI mit Stefan Zörner" loading="lazy" />
+<p>Docs-as-Code trifft GenAI mit Stefan Zörner</p>
+</a>
+<a href="http://localhost:4000/2026/07/17/digitale-souveranitat-und-datenschutz-mit-dr-felix-suhlmann-faul.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge322.png" alt="Digitale Souveränität und Datenschutz mit Dr. Felix Sühlmann-Faul" loading="lazy" />
+<p>Digitale Souveränität und Datenschutz mit Dr. Felix Sühlmann-Faul</p>
+</a>
+<a href="http://localhost:4000/2026/07/15/digitale-souveranitat-im-hartetest-greenpeaces-weg-zu-globaler-resilienz.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge323.png" alt="Digitale Souveränität im Härtetest: Greenpeaces Weg zu globaler Resilienz" loading="lazy" />
+<p>Digitale Souveränität im Härtetest: Greenpeaces Weg zu globaler Resilienz</p>
+</a>
+<a href="http://localhost:4000/2026/07/10/aufbau-von-digitaler-souveranitat-in-deutschland-bzw-europa.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge321.png" alt="Aufbau von digitaler Souveranität in Deutschland bzw. Europa" loading="lazy" />
+<p>Aufbau von digitaler Souveranität in Deutschland bzw. Europa</p>
+</a>
+<a href="http://localhost:4000/2026/07/03/johannes-link-zu-anti-genai-aktivismus.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge319.png" alt="Johannes Link zu Anti-GenAI-Aktivismus" loading="lazy" />
+<p>Johannes Link zu Anti-GenAI-Aktivismus</p>
+</a>
+<a href="http://localhost:4000/2026/07/01/max-schrems-cloud-und-datenschutz-ist-das-kompatibel-techriderssummit-special.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge320.png" alt="Max Schrems: Cloud und Datenschutz - ist das kompatibel? (TechRidersSummit Special)" loading="lazy" />
+<p>Max Schrems: Cloud und Datenschutz - ist das kompatibel? (TechRidersSummit Special)</p>
+</a>
+<a href="http://localhost:4000/2026/06/26/wie-fahrst-du-dein-projekt-zuverlassig-an-die-wand-mit-andreas-monschau.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge318.png" alt="Wie fährst du dein Projekt zuverlässig an die Wand? Mit Andreas Monschau" loading="lazy" />
+<p>Wie fährst du dein Projekt zuverlässig an die Wand? Mit Andreas Monschau</p>
+</a>
+<a href="http://localhost:4000/2026/06/19/zwischen-ki-hype-und-ki-vampire-wie-wir-den-einsatz-von-ki-im-alltag-erleben.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge317.png" alt="Zwischen KI-Hype und KI-Vampire - wie wir den Einsatz von KI im Alltag erleben" loading="lazy" />
+<p>Zwischen KI-Hype und KI-Vampire - wie wir den Einsatz von KI im Alltag erleben</p>
+</a>
+<a href="http://localhost:4000/2026/06/18/ki-macht-software-vermeintlich-billiger-macht-sie-projekte-einfacher.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge316.png" alt="KI macht Software vermeintlich billiger. Macht sie Projekte einfacher?" loading="lazy" />
+<p>KI macht Software vermeintlich billiger. Macht sie Projekte einfacher?</p>
+</a>
+<a href="http://localhost:4000/2026/06/17/fishbowl-lernen-llms-was-und-wie-wollen-wir-lernen-wenn-sich-alles-andert.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge315.png" alt="Fishbowl: Lernen &amp; LLMs – Was und Wie wollen wir lernen, wenn sich alles ändert?" loading="lazy" />
+<p>Fishbowl: Lernen &amp; LLMs – Was und Wie wollen wir lernen, wenn sich alles ändert?</p>
+</a>
+<a href="http://localhost:4000/2026/05/29/ki-coding-produktivitat-mit-ingo-eichhorst.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge314.png" alt="KI Coding Produktivität mit Ingo Eichhorst" loading="lazy" />
+<p>KI Coding Produktivität mit Ingo Eichhorst</p>
+</a>
+<a href="http://localhost:4000/2026/05/27/best-practices-fur-agentic-coding-mit-tobias-wagner-und-yadullah-duman.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge313.png" alt="Best Practices für Agentic Coding mit Tobias Wagner und Yadullah Duman" loading="lazy" />
+<p>Best Practices für Agentic Coding mit Tobias Wagner und Yadullah Duman</p>
+</a>
+<a href="http://localhost:4000/2026/05/15/john-romeros-prinzipien-mit-tom-asel.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge312.png" alt="John Romeros Prinzipien mit Tom Asel" loading="lazy" />
+<p>John Romeros Prinzipien mit Tom Asel</p>
+</a>
+<a href="http://localhost:4000/2026/04/27/wozu-formale-methoden-mit-lars-hupel.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge311.png" alt="Wozu formale Methoden? mit Lars Hupel" loading="lazy" />
+<p>Wozu formale Methoden? mit Lars Hupel</p>
+</a>
+<a href="http://localhost:4000/2026/04/17/how-ai-succeeds-insights-from-manufacturing-applications-with-nikita-golovko.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode310.png" alt="How AI Succeeds  — Insights from Manufacturing Applications with Nikita Golovko" loading="lazy" />
+<p>How AI Succeeds  — Insights from Manufacturing Applications with Nikita Golovko</p>
+</a>
+<a href="http://localhost:4000/2026/04/10/anarchy-a-solution-to-software-development-organizations-with-andrew-harmel-law.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode309.png" alt="Anarchy: A Solution to Software Development Organizations? with Andrew Harmel-Law" loading="lazy" />
+<p>Anarchy: A Solution to Software Development Organizations? with Andrew Harmel-Law</p>
+</a>
+<a href="http://localhost:4000/2026/04/02/michael-stal-analyse-groer-softwaresysteme-mit-llms.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge308.png" alt="Michael Stal: Analyse großer Softwaresysteme mit LLMs" loading="lazy" />
+<p>Michael Stal: Analyse großer Softwaresysteme mit LLMs</p>
+</a>
+<a href="http://localhost:4000/2026/03/27/independent-service-heuristics-wie-unabhangig-ist-dein-service-wirklich.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge307.png" alt="Independent Service Heuristics: Wie unabhängig ist dein Service wirklich?" loading="lazy" />
+<p>Independent Service Heuristics: Wie unabhängig ist dein Service wirklich?</p>
+</a>
+<a href="http://localhost:4000/2026/03/11/circlek-emobility-journey-towards-effective-cross-functional-value-streams-eduardo-da-silva-guro-fladvad-strdal.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode306.png" alt="CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Guro Fladvad Størdal)" loading="lazy" />
+<p>CircleK eMobility Journey Towards Effective Cross-functional Value Streams (Eduardo da Silva, Guro Fladvad Størdal)</p>
+</a>
+<a href="http://localhost:4000/2026/03/10/splitting-without-splitting-tsvetelina-plummer-pricillia-gunawan.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge305.png" alt="Splitting without Splitting (Tsvetelina Plummer, Pricillia Gunawan)" loading="lazy" />
+<p>Splitting without Splitting (Tsvetelina Plummer, Pricillia Gunawan)</p>
+</a>
+<a href="http://localhost:4000/2026/02/27/programmierung-als-theoriebildung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge304.png" alt="Programmierung als Theoriebildung" loading="lazy" />
+<p>Programmierung als Theoriebildung</p>
+</a>
+<a href="http://localhost:4000/2026/02/20/hyperscaler-exit-mit-lucas-dohmen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge303.png" alt="Hyperscaler Exit mit Lucas Dohmen" loading="lazy" />
+<p>Hyperscaler Exit mit Lucas Dohmen</p>
+</a>
+<a href="http://localhost:4000/2026/02/13/architecture-and-organization-inverse-conway-and-team-topologies.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode302.png" alt="Architecture and Organization Inverse Conway and Team Topologies" loading="lazy" />
+<p>Architecture and Organization Inverse Conway and Team Topologies</p>
+</a>
+<a href="http://localhost:4000/2026/02/06/soziotechnische-architektur-reviews-mit-hansjorg-gude.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge301.png" alt="Soziotechnische Architektur Reviews mit Hansjörg Gude" loading="lazy" />
+<p>Soziotechnische Architektur Reviews mit Hansjörg Gude</p>
+</a>
+<a href="http://localhost:4000/2026/01/30/agile-doku-mit-liam-bergh.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge300.png" alt="Agile Doku mit Liam Bergh" loading="lazy" />
+<p>Agile Doku mit Liam Bergh</p>
+</a>
+<a href="http://localhost:4000/2026/01/23/wie-datenbanken-die-architektur-formen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge299.png" alt="Wie Datenbanken die Architektur formen" loading="lazy" />
+<p>Wie Datenbanken die Architektur formen</p>
+</a>
+<a href="http://localhost:4000/2026/01/16/spec-driven-development-mit-simon-martinelli.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge298.png" alt="Spec-Driven-Development mit Simon Martinelli" loading="lazy" />
+<p>Spec-Driven-Development mit Simon Martinelli</p>
+</a>
+<a href="http://localhost:4000/2026/01/05/ralf-d-muller-future-of-software-architecture-how-genai-llms-are-shaping-the-code-of-tomorrow.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode297.jpg" alt="Ralf D. Müller: Future of Software Architecture: How GenAI &amp; LLMs Are Shaping the Code of Tomorrow" loading="lazy" />
+<p>Ralf D. Müller: Future of Software Architecture: How GenAI &amp; LLMs Are Shaping the Code of Tomorrow</p>
+</a>
+<a href="http://localhost:4000/2025/12/12/models-and-modularization-with-alistair-cockburn.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode296.png" alt="Models and Modularization with Alistair Cockburn" loading="lazy" />
+<p>Models and Modularization with Alistair Cockburn</p>
+</a>
+<a href="http://localhost:4000/2025/12/09/diversit-y-diversitat-in-der-it.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge295.png" alt="DiversIT(y) – Diversität in der IT" loading="lazy" />
+<p>DiversIT(y) – Diversität in der IT</p>
+</a>
+<a href="http://localhost:4000/2025/11/26/let-s-stop-making-each-other-feel-stupid-with-clare-sudbery.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode294.png" alt="Let's Stop Making Each Other Feel Stupid with Clare Sudbery" loading="lazy" />
+<p>Let's Stop Making Each Other Feel Stupid with Clare Sudbery</p>
+</a>
+<a href="http://localhost:4000/2025/11/26/collaborative-software-architecting-with-llms-with-claudine-allen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode293.png" alt="Collaborative Software Architecting with LLMs with Claudine Allen" loading="lazy" />
+<p>Collaborative Software Architecting with LLMs with Claudine Allen</p>
+</a>
+<a href="http://localhost:4000/2025/11/25/fish-bowl-software-architecture-is-it-about-human-intelligence-or-artificial-intelligence.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode292.png" alt="Fish Bowl “Software Architecture – Is It About Human Intelligence or Artificial Intelligence?”" loading="lazy" />
+<p>Fish Bowl “Software Architecture – Is It About Human Intelligence or Artificial Intelligence?”</p>
+</a>
+<a href="http://localhost:4000/2025/11/25/diagrams-as-code-with-ai-with-jacqui-read.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode291.png" alt="Diagrams as Code with AI with Jacqui Read" loading="lazy" />
+<p>Diagrams as Code with AI with Jacqui Read</p>
+</a>
+<a href="http://localhost:4000/2025/11/21/digitale-souveranitat-in-der-software-architektur-mit-sven-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge290.png" alt="Digitale Souveränität in der Software-Architektur mit Sven Müller" loading="lazy" />
+<p>Digitale Souveränität in der Software-Architektur mit Sven Müller</p>
+</a>
+<a href="http://localhost:4000/2025/11/14/subjektives-schatzen-beliebige-deadlines.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge289.png" alt="Subjektives Schätzen, beliebige Deadlines?" loading="lazy" />
+<p>Subjektives Schätzen, beliebige Deadlines?</p>
+</a>
+<a href="http://localhost:4000/2025/11/06/team-work-do-we-still-need-to-talk-about-it-with-aino-vonge-corry-and-lisa-maria-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode288.png" alt="Team Work – Do we still need to talk about it? with Aino Vonge Corry and Lisa Maria Schäfer" loading="lazy" />
+<p>Team Work – Do we still need to talk about it? with Aino Vonge Corry and Lisa Maria Schäfer</p>
+</a>
+<a href="http://localhost:4000/2025/11/05/ki-hohere-coding-produktivitat.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode287.jpg" alt="KI = Höhere Coding-Produktivität?" loading="lazy" />
+<p>KI = Höhere Coding-Produktivität?</p>
+</a>
+<a href="http://localhost:4000/2025/10/31/transkription-und-code-fur-den-stream-llms-sues-oder-saures.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge286.png" alt="Transkription und Code für den Stream: LLMs - Süßes oder Saures?" loading="lazy" />
+<p>Transkription und Code für den Stream: LLMs - Süßes oder Saures?</p>
+</a>
+<a href="http://localhost:4000/2025/10/24/experiencing-generative-ai-mit-oliver-zeigermann.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge285.png" alt="Experiencing Generative AI mit Oliver Zeigermann" loading="lazy" />
+<p>Experiencing Generative AI mit Oliver Zeigermann</p>
+</a>
+<a href="http://localhost:4000/2025/10/17/wardley-maps-mit-markus-harrer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge284.png" alt="Wardley Maps mit Markus Harrer" loading="lazy" />
+<p>Wardley Maps mit Markus Harrer</p>
+</a>
+<a href="http://localhost:4000/2025/10/14/requirements-engineering-mit-req42-mit-peter-hruschka.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge283.png" alt="Requirements Engineering mit req42 mit Peter Hruschka" loading="lazy" />
+<p>Requirements Engineering mit req42 mit Peter Hruschka</p>
+</a>
+<a href="http://localhost:4000/2025/10/10/barrierefreiheit-in-web-projekten-von-der-architektur-bis-zur-implementierung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge282.png" alt="Barrierefreiheit in Web-Projekten – Von der Architektur bis zur Implementierung" loading="lazy" />
+<p>Barrierefreiheit in Web-Projekten – Von der Architektur bis zur Implementierung</p>
+</a>
+<a href="http://localhost:4000/2025/10/07/carsten-lill-mit-gamification-und-storytelling-im-threat-modeling-zur-sicheren-anwendung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode281.jpg" alt="Carsten Lill: Mit Gamification und Storytelling im Threat Modeling zur sicheren Anwendung" loading="lazy" />
+<p>Carsten Lill: Mit Gamification und Storytelling im Threat Modeling zur sicheren Anwendung</p>
+</a>
+<a href="http://localhost:4000/2025/09/26/monorepos-bei-uber-oder.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge280.png" alt="Monorepos bei Uber: 👍 oder 👎?" loading="lazy" />
+<p>Monorepos bei Uber: 👍 oder 👎?</p>
+</a>
+<a href="http://localhost:4000/2025/09/19/residuality-theory-with-barry-oreilly.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode279.png" alt="Residuality Theory with Barry O’Reilly" loading="lazy" />
+<p>Residuality Theory with Barry O’Reilly</p>
+</a>
+<a href="http://localhost:4000/2025/09/12/wie-fuhre-ich-mein-storrisches-llm-auf-den-richtigen-weg-mit-oliver-jagle-und-ralf-d-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge278.png" alt="Wie führe ich mein störrisches LLM auf den richtigen Weg? mit Oliver Jägle und Ralf D. Müller" loading="lazy" />
+<p>Wie führe ich mein störrisches LLM auf den richtigen Weg? mit Oliver Jägle und Ralf D. Müller</p>
+</a>
+<a href="http://localhost:4000/2025/09/05/web-performance-mit-lucas-dohmen-und-lisa-maria-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge277.png" alt="Web Performance mit Lucas Dohmen und Lisa Maria Schäfer" loading="lazy" />
+<p>Web Performance mit Lucas Dohmen und Lisa Maria Schäfer</p>
+</a>
+<a href="http://localhost:4000/2025/09/01/wie-wird-eine-software-architektur-flexibel.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge276.png" alt="Wie wird eine Software-Architektur flexibel?" loading="lazy" />
+<p>Wie wird eine Software-Architektur flexibel?</p>
+</a>
+<a href="http://localhost:4000/2025/08/22/keine-bounded-contexts-bei-netflix-irrweg-oder-inspiration.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge275.png" alt="Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?" loading="lazy" />
+<p>Keine Bounded Contexts bei Netflix: Irrweg oder Inspiration?</p>
+</a>
+<a href="http://localhost:4000/2025/08/15/das-eichhornchen-im-kopf-ki-architektur-zwischen-hype-und-realitat-mit-barbara-lampl-und-ralf-d-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge274.png" alt="Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität mit Barbara Lampl und Ralf D. Müller" loading="lazy" />
+<p>Das Eichhörnchen im Kopf: KI-Architektur zwischen Hype und Realität mit Barbara Lampl und Ralf D. Müller</p>
+</a>
+<a href="http://localhost:4000/2025/08/01/model-context-protocol-mcp-schnittstellen-fur-llms-schaffen-mit-martin-lippert.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge273.png" alt="Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert" loading="lazy" />
+<p>Model Context Protocol (MCP): Schnittstellen für LLMs schaffen mit Martin Lippert</p>
+</a>
+<a href="http://localhost:4000/2025/07/25/shorts-aus-funf-jahren-stream-mit-eberhard-lisa-und-ralf.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge272.png" alt="Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf" loading="lazy" />
+<p>Shorts aus fünf Jahren Stream mit Eberhard, Lisa und Ralf</p>
+</a>
+<a href="http://localhost:4000/2025/07/11/the-architecture-of-the-death-star-20-years-of-arc42-and-what-we-can-learn.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode271.png" alt="The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn" loading="lazy" />
+<p>The Architecture of the Death Star - 20 Years of arc42 and What We Can Learn</p>
+</a>
+<a href="http://localhost:4000/2025/07/04/open-source-komponenten-richtig-im-projekt-oder-produkt-verwenden-mit-prof-dirk-riehle.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge270.png" alt="Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle" loading="lazy" />
+<p>Open-Source-Komponenten richtig im Projekt oder Produkt verwenden mit Prof. Dirk Riehle</p>
+</a>
+<a href="http://localhost:4000/2025/06/27/was-ist-die-hauptherausforderung-der-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge269.png" alt="Was ist die Hauptherausforderung der Software-Architektur?" loading="lazy" />
+<p>Was ist die Hauptherausforderung der Software-Architektur?</p>
+</a>
+<a href="http://localhost:4000/2025/06/20/garbage-in-garbage-out-claude-code-und-die-express-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge268.png" alt="Garbage-In/Garbage-Out? Claude Code und die Express-Architektur" loading="lazy" />
+<p>Garbage-In/Garbage-Out? Claude Code und die Express-Architektur</p>
+</a>
+<a href="http://localhost:4000/2025/06/13/architekturtheater-mit-claude-und-ralf.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge267.png" alt="Architekturtheater mit Claude und Ralf" loading="lazy" />
+<p>Architekturtheater mit Claude und Ralf</p>
+</a>
+<a href="http://localhost:4000/2025/06/06/soll-man-llms-fur-software-architektur-nutzen-mit-ralf-und-eberhard.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge266.png" alt="Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard" loading="lazy" />
+<p>Soll man LLMs für Software-Architektur nutzen? mit Ralf und Eberhard</p>
+</a>
+<a href="http://localhost:4000/2025/05/30/die-evolution-von-architektur-durch-team-topologies.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode265.jpg" alt="Die Evolution von Architektur durch Team Topologies" loading="lazy" />
+<p>Die Evolution von Architektur durch Team Topologies</p>
+</a>
+<a href="http://localhost:4000/2025/05/23/statt-agilitat-und-moderner-architektur-die-illusion-von-kontrolle.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge264.png" alt="Statt Agilität und moderner Architektur: Die Illusion von Kontrolle" loading="lazy" />
+<p>Statt Agilität und moderner Architektur: Die Illusion von Kontrolle</p>
+</a>
+<a href="http://localhost:4000/2025/05/16/postagilitat-was-kommt-jetzt-mit-tanja-friedel-und-uwe-vigenschow.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge263.png" alt="Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow" loading="lazy" />
+<p>Postagilität - Was kommt jetzt? mit Tanja Friedel und Uwe Vigenschow</p>
+</a>
+<a href="http://localhost:4000/2025/05/02/questions-from-agile-meets-architecture.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode262.png" alt="Questions from Agile Meets Architecture" loading="lazy" />
+<p>Questions from Agile Meets Architecture</p>
+</a>
+<a href="http://localhost:4000/2025/04/25/modelle-statt-bounded-contexts-eine-alternative-fur-fachliche-modularisierung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge261.png" alt="Modelle statt Bounded Contexts? Eine Alternative für fachliche Modularisierung" loading="lazy" />
+<p>Modelle statt Bounded Contexts? Eine Alternative für fachliche Modularisierung</p>
+</a>
+<a href="http://localhost:4000/2025/04/11/ki-bullshit.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge260.png" alt="KI = Bullshit?" loading="lazy" />
+<p>KI = Bullshit?</p>
+</a>
+<a href="http://localhost:4000/2025/04/04/building-product-teams-beyond-organizational-and-geographical-boundaries-with-ana-nad-and-lejla-vulovic.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode259.png" alt="Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic" loading="lazy" />
+<p>Building Product Teams Beyond Organizational and Geographical Boundaries with Ana Nad and Lejla Vulovic</p>
+</a>
+<a href="http://localhost:4000/2025/04/03/wardley-maps-meets-software-architecture.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode258.png" alt="Wardley Maps Meets Software Architecture" loading="lazy" />
+<p>Wardley Maps Meets Software Architecture</p>
+</a>
+<a href="http://localhost:4000/2025/03/28/monolithen-zu-microservices-macht-man-das-noch-so.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge257.png" alt="Monolithen zu Microservices - Macht man das noch so?" loading="lazy" />
+<p>Monolithen zu Microservices - Macht man das noch so?</p>
+</a>
+<a href="http://localhost:4000/2025/03/21/als-architekt-in-wirkung-entfalten.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge256.png" alt="Als Architekt:in Wirkung entfalten" loading="lazy" />
+<p>Als Architekt:in Wirkung entfalten</p>
+</a>
+<a href="http://localhost:4000/2025/03/18/impactful-mind-skills-for-moments-of-change-and-uncertainty-with-cosima-laube-and-sofia-katsaouni.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode255.png" alt="Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni" loading="lazy" />
+<p>Impactful Mind Skills for Moments of Change and Uncertainty with Cosima Laube and Sofia Katsaouni</p>
+</a>
+<a href="http://localhost:4000/2025/03/14/communication-patterns-with-jacqui-read.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode254.png" alt="Communication Patterns with Jacqui Read" loading="lazy" />
+<p>Communication Patterns with Jacqui Read</p>
+</a>
+<a href="http://localhost:4000/2025/03/07/it-im-jahr-2034-das-follow-up-zu-den-it-tagen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge253.png" alt="IT im Jahr 2034 – Das Follow Up zu den IT-Tagen" loading="lazy" />
+<p>IT im Jahr 2034 – Das Follow Up zu den IT-Tagen</p>
+</a>
+<a href="http://localhost:4000/2025/02/24/intro-to-beyond-estimates-with-woody-zuill.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode252.png" alt="Intro to Beyond Estimates with Woody Zuill" loading="lazy" />
+<p>Intro to Beyond Estimates with Woody Zuill</p>
+</a>
+<a href="http://localhost:4000/2025/02/21/ki-und-llms-kritisch-betrachtet-mit-lucas-dohmen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge251.png" alt="KI und LLMs kritisch betrachtet mit Lucas Dohmen" loading="lazy" />
+<p>KI und LLMs kritisch betrachtet mit Lucas Dohmen</p>
+</a>
+<a href="http://localhost:4000/2025/02/14/spa-mit-ki-agentic-workflows-und-self-verification.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge250.png" alt="Spaß mit KI - Agentic Workflows und Self-Verification" loading="lazy" />
+<p>Spaß mit KI - Agentic Workflows und Self-Verification</p>
+</a>
+<a href="http://localhost:4000/2025/01/31/warum-legacy-transformation-mehr-braucht-als-techniker-innen-mit-tanja-friedel.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge249.png" alt="Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel" loading="lazy" />
+<p>Warum Legacy-Transformation mehr braucht als Techniker:innen mit Tanja Friedel</p>
+</a>
+<a href="http://localhost:4000/2025/01/24/code-charta-mit-richard-gross.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge248.png" alt="Code Charta mit Richard Gross" loading="lazy" />
+<p>Code Charta mit Richard Gross</p>
+</a>
+<a href="http://localhost:4000/2025/01/17/autonome-teams-wollen-wir-das-wirklich.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge247.png" alt="Autonome Teams - Wollen wir das wirklich?" loading="lazy" />
+<p>Autonome Teams - Wollen wir das wirklich?</p>
+</a>
+<a href="http://localhost:4000/2025/01/10/genai-und-software-architektur-mit-christian-weyer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge246.png" alt="GenAI und Software-Architektur mit Christian Weyer" loading="lazy" />
+<p>GenAI und Software-Architektur mit Christian Weyer</p>
+</a>
+<a href="http://localhost:4000/2024/12/20/ki-in-der-software-entwicklung-uber-oder-unterhypt.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge245.png" alt="KI in der Software-Entwicklung - Über- oder unterhypt?" loading="lazy" />
+<p>KI in der Software-Entwicklung - Über- oder unterhypt?</p>
+</a>
+<a href="http://localhost:4000/2024/12/10/it-im-jahr-2034-wo-wollen-wir-hin.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode234.jpg" alt="IT im Jahr 2034 – Wo wollen wir hin?" loading="lazy" />
+<p>IT im Jahr 2034 – Wo wollen wir hin?</p>
+</a>
+<a href="http://localhost:4000/2024/12/06/process-orchestration-bpmn-und-workflows-mit-bernd-rucker.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode243.png" alt="Process Orchestration, BPMN und Workflows mit Bernd Rücker" loading="lazy" />
+<p>Process Orchestration, BPMN und Workflows mit Bernd Rücker</p>
+</a>
+<a href="http://localhost:4000/2024/11/29/generative-ai-meets-software-architecture-mit-ralf-d-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode242.png" alt="Generative AI Meets Software Architecture mit Ralf D. Müller" loading="lazy" />
+<p>Generative AI Meets Software Architecture mit Ralf D. Müller</p>
+</a>
+<a href="http://localhost:4000/2024/11/22/domain-driven-design-ein-vollstandiges-beispiel-2-2.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode241.png" alt="Domain-Driven Design - Ein vollständiges Beispiel 2/2" loading="lazy" />
+<p>Domain-Driven Design - Ein vollständiges Beispiel 2/2</p>
+</a>
+<a href="http://localhost:4000/2024/11/18/domain-driven-design-ein-vollstandiges-beispiel-1-2.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode240.png" alt="Domain-Driven Design - Ein vollständiges Beispiel 1/2" loading="lazy" />
+<p>Domain-Driven Design - Ein vollständiges Beispiel 1/2</p>
+</a>
+<a href="http://localhost:4000/2024/11/08/was-ist-einzel-coaching-und-wie-nutzt-es-techies-mit-cosima-laube-und-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode239.png" alt="Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer" loading="lazy" />
+<p>Was ist (Einzel-)Coaching und wie nützt es Techies? mit Cosima Laube und Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2024/11/07/learning-systems-thinking-with-diana-montalion-and-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode238.png" alt="Learning Systems Thinking with Diana Montalion and Lisa Schäfer" loading="lazy" />
+<p>Learning Systems Thinking with Diana Montalion and Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2024/10/30/warum-ist-software-architektur-eigentlich-immer-so-schlecht.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode237.png" alt="Warum ist Software(-Architektur) eigentlich immer so schlecht?" loading="lazy" />
+<p>Warum ist Software(-Architektur) eigentlich immer so schlecht?</p>
+</a>
+<a href="http://localhost:4000/2024/10/25/code-retreat-live-mit-marco-emrich.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode236.png" alt="Code Retreat live - mit Marco Emrich" loading="lazy" />
+<p>Code Retreat live - mit Marco Emrich</p>
+</a>
+<a href="http://localhost:4000/2024/10/18/green-software-development-mit-aydin-mir-mohammadi.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge235.png" alt="Green Software Development mit Aydin Mir Mohammadi" loading="lazy" />
+<p>Green Software Development mit Aydin Mir Mohammadi</p>
+</a>
+<a href="http://localhost:4000/2024/10/04/moderation-mit-liberating-structures-fur-architekt-innen-mit-martin-gunther.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode234.png" alt="Moderation mit Liberating Structures für Architekt:innen mit Martin Günther" loading="lazy" />
+<p>Moderation mit Liberating Structures für Architekt:innen mit Martin Günther</p>
+</a>
+<a href="http://localhost:4000/2024/09/27/fearless-change-neue-ideen-etablieren.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode233.png" alt="Fearless Change - Neue Ideen etablieren" loading="lazy" />
+<p>Fearless Change - Neue Ideen etablieren</p>
+</a>
+<a href="http://localhost:4000/2024/09/20/sprache-schafft-wirklichkeit-mit-friederike-sternberg-live-von-der-bed-con.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode232.png" alt="Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con" loading="lazy" />
+<p>Sprache schafft Wirklichkeit mit Friederike Sternberg - live von der BED-Con</p>
+</a>
+<a href="http://localhost:4000/2024/09/19/supply-chain-security-mit-jochen-mader-live-von-der-bed-con.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode231.png" alt="Supply Chain Security mit Jochen Mader - live von der BED-Con" loading="lazy" />
+<p>Supply Chain Security mit Jochen Mader - live von der BED-Con</p>
+</a>
+<a href="http://localhost:4000/2024/09/16/team-topologie-in-der-praxis-mit-kim-nena-duggen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode230.png" alt="Team Topologie in der Praxis mit Kim Nena Duggen" loading="lazy" />
+<p>Team Topologie in der Praxis mit Kim Nena Duggen</p>
+</a>
+<a href="http://localhost:4000/2024/08/21/teams-und-die-dunbar-zahl.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode229.png" alt="Teams und die Dunbar-Zahl" loading="lazy" />
+<p>Teams und die Dunbar-Zahl</p>
+</a>
+<a href="http://localhost:4000/2024/08/16/was-ist-der-wichtigste-skill-in-der-it.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode228.png" alt="Was ist der wichtigste Skill in der IT?" loading="lazy" />
+<p>Was ist der wichtigste Skill in der IT?</p>
+</a>
+<a href="http://localhost:4000/2024/08/09/firmenpolitik-fur-architekt-innen-mit-michael-ahrens.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode227.png" alt="Firmenpolitik für Architekt:innen mit Michael Ahrens" loading="lazy" />
+<p>Firmenpolitik für Architekt:innen mit Michael Ahrens</p>
+</a>
+<a href="http://localhost:4000/2024/08/02/theorie-des-aufraumens-kent-becks-tidy-first-mit-marco-emrich-2-2.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode226.png" alt="Theorie des Aufräumens - Kent Beck’s “Tidy First?” mit Marco Emrich 2/2" loading="lazy" />
+<p>Theorie des Aufräumens - Kent Beck’s “Tidy First?” mit Marco Emrich 2/2</p>
+</a>
+<a href="http://localhost:4000/2024/07/26/code-aufraumen-kent-becks-tidy-first-mit-marco-emrich-1-2.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode225.png" alt="Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2" loading="lazy" />
+<p>Code Aufräumen - Kent Beck’s “Tidy First?” mit Marco Emrich 1/2</p>
+</a>
+<a href="http://localhost:4000/2024/07/12/quality-storming-mit-michael-plod.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode224.png" alt="Quality Storming mit Michael Plöd" loading="lazy" />
+<p>Quality Storming mit Michael Plöd</p>
+</a>
+<a href="http://localhost:4000/2024/07/05/nick-tune-about-architecture-modernization.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode223.png" alt="Nick Tune about Architecture Modernization" loading="lazy" />
+<p>Nick Tune about Architecture Modernization</p>
+</a>
+<a href="http://localhost:4000/2024/06/28/software-architektur-den-menschlichen-faktor-verbessern.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode222.jpg" alt="Software Architektur - Den menschlichen Faktor verbessern!" loading="lazy" />
+<p>Software Architektur - Den menschlichen Faktor verbessern!</p>
+</a>
+<a href="http://localhost:4000/2024/06/21/warum-scheitert-agilitat-reaktionen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode221.png" alt="Warum scheitert Agilität - Reaktionen" loading="lazy" />
+<p>Warum scheitert Agilität - Reaktionen</p>
+</a>
+<a href="http://localhost:4000/2024/06/14/bounded-context-was-ist-das-genau.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode220.png" alt="Bounded Context - Was ist das genau?" loading="lazy" />
+<p>Bounded Context - Was ist das genau?</p>
+</a>
+<a href="http://localhost:4000/2024/05/31/taktisches-domain-driven-design-mit-java-und-jmolecules-mit-oliver-drotbohm.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge219.png" alt="Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm" loading="lazy" />
+<p>Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm</p>
+</a>
+<a href="http://localhost:4000/2024/05/29/vaughn-vernon-about-ports-and-adapters-and-ddd.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode218.png" alt="Vaughn Vernon about Ports and Adapters and DDD" loading="lazy" />
+<p>Vaughn Vernon about Ports and Adapters and DDD</p>
+</a>
+<a href="http://localhost:4000/2024/05/24/warum-agile-projekte-kippen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode217.jpg" alt="Warum (agile) Projekte kippen" loading="lazy" />
+<p>Warum (agile) Projekte kippen</p>
+</a>
+<a href="http://localhost:4000/2024/05/17/objektorientierung-was-ist-das-eigentlich.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge216.png" alt="Objektorientierung - Was ist das eigentlich?" loading="lazy" />
+<p>Objektorientierung - Was ist das eigentlich?</p>
+</a>
+<a href="http://localhost:4000/2024/05/10/alberto-brandolini-the-chasm-between-architecture-and-business.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode215.png" alt="Alberto Brandolini - The Chasm Between Architecture and Business" loading="lazy" />
+<p>Alberto Brandolini - The Chasm Between Architecture and Business</p>
+</a>
+<a href="http://localhost:4000/2024/05/03/taktisches-domain-driven-design-ddd.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge214.png" alt="Taktisches Domain-driven Design (DDD)" loading="lazy" />
+<p>Taktisches Domain-driven Design (DDD)</p>
+</a>
+<a href="http://localhost:4000/2024/04/18/team-topologies.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge213.png" alt="Team Topologies" loading="lazy" />
+<p>Team Topologies</p>
+</a>
+<a href="http://localhost:4000/2024/04/12/integration.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge212.png" alt="Integration" loading="lazy" />
+<p>Integration</p>
+</a>
+<a href="http://localhost:4000/2024/04/02/wahrheiten-uber-software-entwicklung-daruber-mochte-ich-nicht-mehr-sprechen-mussen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge211.jpg" alt="Wahrheiten über Software-Entwicklung - Darüber möchte ich nicht mehr sprechen müssen!" loading="lazy" />
+<p>Wahrheiten über Software-Entwicklung - Darüber möchte ich nicht mehr sprechen müssen!</p>
+</a>
+<a href="http://localhost:4000/2024/04/02/fighting-agile-wann-und-warum-agilitat-scheitert-robert-karoly.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge210.jpg" alt="Fighting Agile! - Wann und warum Agilität scheitert (Robert Károly)" loading="lazy" />
+<p>Fighting Agile! - Wann und warum Agilität scheitert (Robert Károly)</p>
+</a>
+<a href="http://localhost:4000/2024/03/27/are-we-engineers-with-hillel-wayne.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge209.png" alt="Are We Engineers? With Hillel Wayne" loading="lazy" />
+<p>Are We Engineers? With Hillel Wayne</p>
+</a>
+<a href="http://localhost:4000/2024/03/22/fehler-in-der-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge208.png" alt="Fehler in der Software-Architektur" loading="lazy" />
+<p>Fehler in der Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2024/03/15/software-architektur-auf-groe-organisationen-skalieren.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge207.png" alt="Software-Architektur auf große Organisationen skalieren?" loading="lazy" />
+<p>Software-Architektur auf große Organisationen skalieren?</p>
+</a>
+<a href="http://localhost:4000/2024/03/08/software-architektur-muss-das-sein.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge206.png" alt="Software-Architektur - Muss das sein?" loading="lazy" />
+<p>Software-Architektur - Muss das sein?</p>
+</a>
+<a href="http://localhost:4000/2024/03/01/api-team-mit-dr-miriam-greis-und-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge205.png" alt="API-Team mit Dr. Miriam Greis und Lisa Schäfer" loading="lazy" />
+<p>API-Team mit Dr. Miriam Greis und Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2024/02/23/statt-microservices-framework-library-komponenten.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge204.png" alt="Statt Microservices Framework, Library, Komponenten" loading="lazy" />
+<p>Statt Microservices Framework, Library, Komponenten</p>
+</a>
+<a href="http://localhost:4000/2024/02/16/legacy-wirklich-ein-problem.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge203.jpg" alt="Legacy - Wirklich ein Problem?" loading="lazy" />
+<p>Legacy - Wirklich ein Problem?</p>
+</a>
+<a href="http://localhost:4000/2024/02/09/hack-the-world-a-better-place-mit-dr-julia-freudenberg.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge202.png" alt="Hack the World a Better Place mit Dr. Julia Freudenberg" loading="lazy" />
+<p>Hack the World a Better Place mit Dr. Julia Freudenberg</p>
+</a>
+<a href="http://localhost:4000/2024/02/02/software-entwicklung-optimieren-no-silver-bullet.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge201.png" alt="Software-Entwicklung optimieren? No Silver Bullet!" loading="lazy" />
+<p>Software-Entwicklung optimieren? No Silver Bullet!</p>
+</a>
+<a href="http://localhost:4000/2024/01/31/die-kontroverse-schlag-den-stefan-und-eberhard-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge200.png" alt="Die Kontroverse - Schlag den Stefan und Eberhard von der OOP" loading="lazy" />
+<p>Die Kontroverse - Schlag den Stefan und Eberhard von der OOP</p>
+</a>
+<a href="http://localhost:4000/2024/01/26/wie-kann-chatgpt-in-der-software-architektur-unterstutzen-mit-ralf-d-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge199.png" alt="Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller" loading="lazy" />
+<p>Wie kann ChatGPT in der Software-Architektur unterstützen? mit Ralf D. Müller</p>
+</a>
+<a href="http://localhost:4000/2024/01/22/afd-und-software-architektur-im-stream-unvereinbar.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge198.png" alt="AfD und Software Architektur im Stream - Unvereinbar" loading="lazy" />
+<p>AfD und Software Architektur im Stream - Unvereinbar</p>
+</a>
+<a href="http://localhost:4000/2024/01/19/besteht-chatgpt-die-isaqb-advanced-level-prufung-2-2-mit-ralf-d-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge197.png" alt="Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller" loading="lazy" />
+<p>Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 2/2 mit Ralf D. Müller</p>
+</a>
+<a href="http://localhost:4000/2024/01/12/lasr-leichtgewichtige-software-reviews-mit-stefan-toth-und-stefan-zorner.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge196.png" alt="LASR: Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner" loading="lazy" />
+<p>LASR: Leichtgewichtige Software-Reviews mit Stefan Toth und Stefan Zörner</p>
+</a>
+<a href="http://localhost:4000/2024/01/01/was-ist-gute-software-architektur-adventskalender.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge195.png" alt="Was ist gute Software-Architektur? Adventskalender" loading="lazy" />
+<p>Was ist gute Software-Architektur? Adventskalender</p>
+</a>
+<a href="http://localhost:4000/2023/12/22/konnen-wir-entwickler-innen-produktivitat-messen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge194.png" alt="Können wir Entwickler:innen-Produktivität messen?" loading="lazy" />
+<p>Können wir Entwickler:innen-Produktivität messen?</p>
+</a>
+<a href="http://localhost:4000/2023/12/15/besteht-chatgpt-die-isaqb-advanced-level-prufung-1-2-mit-ralf-d-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge193.png" alt="Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller" loading="lazy" />
+<p>Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller</p>
+</a>
+<a href="http://localhost:4000/2023/12/13/fishbowl-brucken-bauen-erfolgreiche-wege-fur-it-nachwuchs-und-quereinsteiger-it-tage.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge192.png" alt="Fishbowl - Brücken bauen - Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)" loading="lazy" />
+<p>Fishbowl - Brücken bauen - Erfolgreiche Wege für IT-Nachwuchs und Quereinsteiger (IT-Tage)</p>
+</a>
+<a href="http://localhost:4000/2023/12/08/software-entwicklung-lernen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge191.png" alt="Software-Entwicklung = Lernen?" loading="lazy" />
+<p>Software-Entwicklung = Lernen?</p>
+</a>
+<a href="http://localhost:4000/2023/12/01/microservices-mit-spring.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge190.png" alt="Microservices mit Spring" loading="lazy" />
+<p>Microservices mit Spring</p>
+</a>
+<a href="http://localhost:4000/2023/11/24/dapr-eine-umgebung-fur-microservices.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge189.png" alt="Dapr - Eine Umgebung für Microservices" loading="lazy" />
+<p>Dapr - Eine Umgebung für Microservices</p>
+</a>
+<a href="http://localhost:4000/2023/11/03/software-architektur-das-gute-und-das-schlechte-eine-17-jahrige-odyssee-mit-rakia-ben-sassi.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge188.png" alt="Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee mit Rakia Ben Sassi" loading="lazy" />
+<p>Software Architektur - Das Gute und das Schlechte - eine 17 jährige Odyssee mit Rakia Ben Sassi</p>
+</a>
+<a href="http://localhost:4000/2023/10/27/software-architektur-inspiration-von-anderen-branchen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode187.png" alt="Software-Architektur - Inspiration von anderen Branchen" loading="lazy" />
+<p>Software-Architektur - Inspiration von anderen Branchen</p>
+</a>
+<a href="http://localhost:4000/2023/10/20/funktionale-architektur-ein-konkretes-beispiel-mit-mike-sperber.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge186.png" alt="Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber" loading="lazy" />
+<p>Funktionale Architektur - Ein konkretes Beispiel mit Mike Sperber</p>
+</a>
+<a href="http://localhost:4000/2023/10/18/kevin-goldsmith-architecture-and-organization.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode185.png" alt="Kevin Goldsmith Architecture and Organization" loading="lazy" />
+<p>Kevin Goldsmith Architecture and Organization</p>
+</a>
+<a href="http://localhost:4000/2023/10/13/bert-jan-schrijver-about-generic-or-specific.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode184.png" alt="Bert Jan Schrijver about Generic or Specific?" loading="lazy" />
+<p>Bert Jan Schrijver about Generic or Specific?</p>
+</a>
+<a href="http://localhost:4000/2023/10/06/technische-schulden-software-langfristig-weiterentwickeln.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge183.jpg" alt="Technische Schulden - Software langfristig weiterentwickeln" loading="lazy" />
+<p>Technische Schulden - Software langfristig weiterentwickeln</p>
+</a>
+<a href="http://localhost:4000/2023/09/29/thomas-ruhroth-kai-schmidt-technologieauswahl-fur-wartbare-projekte-live-von-der-bed-con.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge182.png" alt="Thomas Ruhroth, Kai Schmidt - Technologieauswahl für wartbare Projekte - live von der BED-Con" loading="lazy" />
+<p>Thomas Ruhroth, Kai Schmidt - Technologieauswahl für wartbare Projekte - live von der BED-Con</p>
+</a>
+<a href="http://localhost:4000/2023/09/28/michael-plod-misserfolge-und-lehren-aus-der-anwendung-von-ddd-live-von-der-bed-con.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge181.png" alt="Michael Plöd Misserfolge und Lehren aus der Anwendung von DDD - live von der BED-Con" loading="lazy" />
+<p>Michael Plöd Misserfolge und Lehren aus der Anwendung von DDD - live von der BED-Con</p>
+</a>
+<a href="http://localhost:4000/2023/09/15/engineering-excellence-mit-michael-vitz.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge180.png" alt="Engineering Excellence mit Michael Vitz" loading="lazy" />
+<p>Engineering Excellence mit Michael Vitz</p>
+</a>
+<a href="http://localhost:4000/2023/09/01/software-architektur-abhangigkeiten-managen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge179.png" alt="Software-Architektur = Abhängigkeiten Managen?" loading="lazy" />
+<p>Software-Architektur = Abhängigkeiten Managen?</p>
+</a>
+<a href="http://localhost:4000/2023/08/11/crew-ressource-management-wie-geht-die-luftfahrt-mit-dem-faktor-mensch-um.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge178.png" alt="Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?" loading="lazy" />
+<p>Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?</p>
+</a>
+<a href="http://localhost:4000/2023/08/04/scrum-master-in-und-softwarearchitektur-mit-nadine-andraczek.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge177.png" alt="Scrum Master:in und Softwarearchitektur mit Nadine Andraczek" loading="lazy" />
+<p>Scrum Master:in und Softwarearchitektur mit Nadine Andraczek</p>
+</a>
+<a href="http://localhost:4000/2023/07/28/domain-driven-design-konzepte-und-fallstricke.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge176.jpg" alt="Domain-driven Design - Konzepte und Fallstricke" loading="lazy" />
+<p>Domain-driven Design - Konzepte und Fallstricke</p>
+</a>
+<a href="http://localhost:4000/2023/07/21/how-to-understand-almost-anything-mit-markus-volter.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge175.png" alt="How to Understand Almost Anything mit Markus Völter" loading="lazy" />
+<p>How to Understand Almost Anything mit Markus Völter</p>
+</a>
+<a href="http://localhost:4000/2023/07/16/arcards-ein-spiel-um-begriffe-aus-der-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge174.png" alt="Arcards - Ein Spiel um Begriffe aus der Software-Architektur" loading="lazy" />
+<p>Arcards - Ein Spiel um Begriffe aus der Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2023/07/07/missverstandnisse-uber-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge173.png" alt="Missverständnisse über Software-Architektur" loading="lazy" />
+<p>Missverständnisse über Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2023/07/04/aua-ask-us-anything-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge172.png" alt="AUA - Ask Us Anything live von der OOP" loading="lazy" />
+<p>AUA - Ask Us Anything live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2023/06/30/gamification-nicht-nur-in-der-qualitatssicherung-mit-dehla-sokenou-oop-special.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge171.png" alt="Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)" loading="lazy" />
+<p>Gamification nicht nur in der Qualitätssicherung mit Dehla Sokenou (OOP Special)</p>
+</a>
+<a href="http://localhost:4000/2023/06/23/disziplinubergreifende-zusammenarbeit-in-cross-funktionalen-teams-andrea-nutsi-cornelia-seraphin-oop-special.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge170.png" alt="Disziplinübergreifende Zusammenarbeit in cross-funktionalen Teams Andrea Nutsi &amp; Cornelia Seraphin - OOP Special" loading="lazy" />
+<p>Disziplinübergreifende Zusammenarbeit in cross-funktionalen Teams Andrea Nutsi &amp; Cornelia Seraphin - OOP Special</p>
+</a>
+<a href="http://localhost:4000/2023/06/16/systems-thinking-in-large-scale-modeling-with-xin-yao-oop-special.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode169.png" alt="Systems Thinking in Large-Scale Modeling with Xin Yao - OOP Special" loading="lazy" />
+<p>Systems Thinking in Large-Scale Modeling with Xin Yao - OOP Special</p>
+</a>
+<a href="http://localhost:4000/2023/06/07/hands-on-behavioral-code-analysis-with-adam-tornhill.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode168.png" alt="Hands-on Behavioral Code Analysis with Adam Tornhill" loading="lazy" />
+<p>Hands-on Behavioral Code Analysis with Adam Tornhill</p>
+</a>
+<a href="http://localhost:4000/2023/06/02/psychological-safety-was-sagt-der-psychologe-dazu-mit-joseph-pelrine-oop-special.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge167.png" alt="Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special" loading="lazy" />
+<p>Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special</p>
+</a>
+<a href="http://localhost:4000/2023/05/26/zero-trust-mit-christoph-iserlohn.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge166.png" alt="Zero Trust mit Christoph Iserlohn" loading="lazy" />
+<p>Zero Trust mit Christoph Iserlohn</p>
+</a>
+<a href="http://localhost:4000/2023/05/19/amazon-von-microservices-zuruck-zu-monolithen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge165.png" alt="Amazon - Von Microservices zurück zu Monolithen?" loading="lazy" />
+<p>Amazon - Von Microservices zurück zu Monolithen?</p>
+</a>
+<a href="http://localhost:4000/2023/05/17/vom-wissensgefalle-zur-selbstorganisation-mit-melanie-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge164.png" alt="Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer" loading="lazy" />
+<p>Vom Wissensgefälle zur Selbstorganisation mit Melanie Schäfer</p>
+</a>
+<a href="http://localhost:4000/2023/04/28/kommunikation-im-entwicklungsprozess-mit-rebecca-temme.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge163.png" alt="Kommunikation im Entwicklungsprozess mit Rebecca Temme" loading="lazy" />
+<p>Kommunikation im Entwicklungsprozess mit Rebecca Temme</p>
+</a>
+<a href="http://localhost:4000/2023/04/27/die-it-welt-vor-10-jahren-mit-stefan-tilkov-und-eberhard-wolff-live-von-der-rheinjug.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge162.png" alt="Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG" loading="lazy" />
+<p>Die IT-Welt vor 10 Jahren mit Stefan Tilkov und Eberhard Wolff - live von der RheinJUG</p>
+</a>
+<a href="http://localhost:4000/2023/04/21/business-analyst-in-und-software-architektur-mit-michaela-kuhn.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge161.png" alt="Business Analyst:in und Software-Architektur mit Michaela Kühn" loading="lazy" />
+<p>Business Analyst:in und Software-Architektur mit Michaela Kühn</p>
+</a>
+<a href="http://localhost:4000/2023/04/14/cloud-native-was-und-warum.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode160.png" alt="Cloud Native - Was und warum?" loading="lazy" />
+<p>Cloud Native - Was und warum?</p>
+</a>
+<a href="http://localhost:4000/2023/03/31/big-ball-of-mud.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge159.png" alt="Big Ball of Mud" loading="lazy" />
+<p>Big Ball of Mud</p>
+</a>
+<a href="http://localhost:4000/2023/03/24/eindrucke-von-der-javaland-mit-nora-schoner-und-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge158.png" alt="Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer" loading="lazy" />
+<p>Eindrücke von der JavaLand mit Nora Schöner und Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2023/03/17/single-source-of-truth-mit-gerrit-beine.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge157.png" alt="Single Source of Truth mit Gerrit Beine" loading="lazy" />
+<p>Single Source of Truth mit Gerrit Beine</p>
+</a>
+<a href="http://localhost:4000/2023/03/14/funktionale-programmierung-ddd-und-architektur-mit-mike-sperber.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge156.png" alt="Funktionale Programmierung, DDD und Architektur mit Mike Sperber" loading="lazy" />
+<p>Funktionale Programmierung, DDD und Architektur mit Mike Sperber</p>
+</a>
+<a href="http://localhost:4000/2023/03/10/sichere-architekturen-wie-die-owasp-helfen-kann-mit-christoph-iserlohn.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge155.png" alt="Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn" loading="lazy" />
+<p>Sichere Architekturen – Wie die OWASP helfen kann mit Christoph Iserlohn</p>
+</a>
+<a href="http://localhost:4000/2023/03/03/serverless-architektur-mit-sascha-mollering.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge154.png" alt="Serverless Architektur mit Sascha Möllering" loading="lazy" />
+<p>Serverless Architektur mit Sascha Möllering</p>
+</a>
+<a href="http://localhost:4000/2023/02/24/domain-driven-design-nur-vernunftige-software-entwicklung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge153.png" alt="Domain-driven Design - nur vernünftige Software-Entwicklung?" loading="lazy" />
+<p>Domain-driven Design - nur vernünftige Software-Entwicklung?</p>
+</a>
+<a href="http://localhost:4000/2023/02/17/das-kippen-agiler-software-projekte.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge152.png" alt="Das Kippen agiler Software-Projekte" loading="lazy" />
+<p>Das Kippen agiler Software-Projekte</p>
+</a>
+<a href="http://localhost:4000/2023/02/10/so-you-want-to-be-a-conference-speaker-with-dajana-gunther-jorg-muller-and-michael-mahlberg.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode151.png" alt="So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg" loading="lazy" />
+<p>So You Want to Be a Conference Speaker… with Dajana Günther, Jörg Müller, and Michael Mahlberg</p>
+</a>
+<a href="http://localhost:4000/2023/02/03/frontendintegrationsmuster-im-web-mit-falk-hoppe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge150.png" alt="Frontendintegrationsmuster im Web mit Falk Hoppe" loading="lazy" />
+<p>Frontendintegrationsmuster im Web mit Falk Hoppe</p>
+</a>
+<a href="http://localhost:4000/2023/01/27/das-strangler-fig-pattern.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge149.png" alt="Das Strangler Fig Pattern" loading="lazy" />
+<p>Das Strangler Fig Pattern</p>
+</a>
+<a href="http://localhost:4000/2023/01/20/extreme-programming-xp-eine-retrospektive.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge148.png" alt="Extreme Programming (XP) - eine Retrospektive" loading="lazy" />
+<p>Extreme Programming (XP) - eine Retrospektive</p>
+</a>
+<a href="http://localhost:4000/2023/01/13/wie-reit-man-den-elfenbeinturm-ein-mit-anja-kammer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge147.png" alt="Wie reißt man den Elfenbeinturm ein? mit Anja Kammer" loading="lazy" />
+<p>Wie reißt man den Elfenbeinturm ein? mit Anja Kammer</p>
+</a>
+<a href="http://localhost:4000/2022/12/16/mehr-als-pfeile-und-kasten-architekturdiagramme-mit-ralf-d-muller-und-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge146.png" alt="Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer" loading="lazy" />
+<p>Mehr als Pfeile und Kästen - Architekturdiagramme mit Ralf D. Müller und Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2022/12/02/jahresruckblick-2022.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge145.png" alt="Jahresrückblick 2022" loading="lazy" />
+<p>Jahresrückblick 2022</p>
+</a>
+<a href="http://localhost:4000/2022/11/25/continuous-delivery-eine-kultur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge144.png" alt="Continuous Delivery - Eine Kultur?" loading="lazy" />
+<p>Continuous Delivery - Eine Kultur?</p>
+</a>
+<a href="http://localhost:4000/2022/11/18/architektur-migration-nicht-nur-zu-microservices.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge143.png" alt="Architektur-Migration (nicht nur) zu Microservices" loading="lazy" />
+<p>Architektur-Migration (nicht nur) zu Microservices</p>
+</a>
+<a href="http://localhost:4000/2022/11/11/best-practices-keine-gute-idee.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge142.png" alt="Best Practices - Keine gute Idee" loading="lazy" />
+<p>Best Practices - Keine gute Idee</p>
+</a>
+<a href="http://localhost:4000/2022/11/04/auftragstaktik-agilitat-beim-militar-mit-sonke-marahrens.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge141.png" alt="Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens" loading="lazy" />
+<p>Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens</p>
+</a>
+<a href="http://localhost:4000/2022/10/28/zukunftssichere-architekturen-keine-gute-idee.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge140.png" alt="Zukunftssichere Architekturen - Keine gute Idee?" loading="lazy" />
+<p>Zukunftssichere Architekturen - Keine gute Idee?</p>
+</a>
+<a href="http://localhost:4000/2022/10/21/christoph-iserlohn-lisa-schafer-architektur-und-security.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge139.png" alt="Christoph Iserlohn &amp; Lisa Schäfer - Architektur und Security" loading="lazy" />
+<p>Christoph Iserlohn &amp; Lisa Schäfer - Architektur und Security</p>
+</a>
+<a href="http://localhost:4000/2022/10/14/was-ist-documentation-as-code-mit-falk-sippach.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge138.png" alt="Was ist Documentation as Code? mit Falk Sippach" loading="lazy" />
+<p>Was ist Documentation as Code? mit Falk Sippach</p>
+</a>
+<a href="http://localhost:4000/2022/10/07/non-linear-thinking-with-diana-montalion.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge137.png" alt="Non-linear Thinking with Diana Montalion" loading="lazy" />
+<p>Non-linear Thinking with Diana Montalion</p>
+</a>
+<a href="http://localhost:4000/2022/09/30/encouraging-engineering-excellence-with-johannes-mainusch-and-robert-albrecht.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge136.png" alt="Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht" loading="lazy" />
+<p>Encouraging Engineering Excellence with Johannes Mainusch and Robert Albrecht</p>
+</a>
+<a href="http://localhost:4000/2022/09/23/http-mit-lucas-dohmen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge135.png" alt="HTTP mit Lucas Dohmen" loading="lazy" />
+<p>HTTP mit Lucas Dohmen</p>
+</a>
+<a href="http://localhost:4000/2022/09/16/domain-prototyping-iterative-entwicklung-mit-domain-driven-design-user-experience-mit-tobias-goeschel.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge134.png" alt="Domain Prototyping - Iterative Entwicklung mit Domain-driven Design &amp; User Experience mit Tobias Goeschel" loading="lazy" />
+<p>Domain Prototyping - Iterative Entwicklung mit Domain-driven Design &amp; User Experience mit Tobias Goeschel</p>
+</a>
+<a href="http://localhost:4000/2022/09/09/wie-software-architekt-innen-ausbilden.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge133.png" alt="Wie Software-Architekt:innen ausbilden?" loading="lazy" />
+<p>Wie Software-Architekt:innen ausbilden?</p>
+</a>
+<a href="http://localhost:4000/2022/09/02/der-self-contained-systems-architekturansatz.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge132.png" alt="Der Self-contained-Systems-Architekturansatz" loading="lazy" />
+<p>Der Self-contained-Systems-Architekturansatz</p>
+</a>
+<a href="http://localhost:4000/2022/08/26/samir-talwar-longevity-live-from-socrates-conference.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge131.png" alt="Samir Talwar Longevity - live from SoCraTes Conference" loading="lazy" />
+<p>Samir Talwar Longevity - live from SoCraTes Conference</p>
+</a>
+<a href="http://localhost:4000/2022/08/05/ask-me-anything.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge130.png" alt="Ask Me Anything" loading="lazy" />
+<p>Ask Me Anything</p>
+</a>
+<a href="http://localhost:4000/2022/07/29/software-architektur-und-ethik.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge129.png" alt="Software-Architektur und Ethik" loading="lazy" />
+<p>Software-Architektur und Ethik</p>
+</a>
+<a href="http://localhost:4000/2022/07/22/agilitat-und-architektur-mit-stefan-toth.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge128.png" alt="Agilität und Architektur mit Stefan Toth" loading="lazy" />
+<p>Agilität und Architektur mit Stefan Toth</p>
+</a>
+<a href="http://localhost:4000/2022/07/15/die-rolle-software-architekt-in-folge-2.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge127.png" alt="Die Rolle 'Software-Architekt:in' - Folge 2" loading="lazy" />
+<p>Die Rolle 'Software-Architekt:in' - Folge 2</p>
+</a>
+<a href="http://localhost:4000/2022/07/07/die-rolle-software-architekt-in-folge-1.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge126.png" alt="Die Rolle 'Software-Architekt:in' - Folge 1" loading="lazy" />
+<p>Die Rolle 'Software-Architekt:in' - Folge 1</p>
+</a>
+<a href="http://localhost:4000/2022/07/01/organisation-und-architektur-ein-beispiel.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge125.png" alt="Organisation und Architektur - ein Beispiel" loading="lazy" />
+<p>Organisation und Architektur - ein Beispiel</p>
+</a>
+<a href="http://localhost:4000/2022/06/23/microservices-schlag-den-eberhard-stefan-mit-stefan-toth.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge124.png" alt="Microservices - Schlag den Eberhard &amp; Stefan! Mit Stefan Toth" loading="lazy" />
+<p>Microservices - Schlag den Eberhard &amp; Stefan! Mit Stefan Toth</p>
+</a>
+<a href="http://localhost:4000/2022/06/17/technologie-entscheidungen-bewertung-isaqb-advanced-beispielaufgabe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge118.png" alt="Technologie-Entscheidungen &amp; Bewertung - iSAQB Advanced Beispielaufgabe" loading="lazy" />
+<p>Technologie-Entscheidungen &amp; Bewertung - iSAQB Advanced Beispielaufgabe</p>
+</a>
+<a href="http://localhost:4000/2022/06/10/dora-metriken-accelerate-mit-felix-muller.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge122.png" alt="DORA Metriken &amp; Accelerate mit Felix Müller" loading="lazy" />
+<p>DORA Metriken &amp; Accelerate mit Felix Müller</p>
+</a>
+<a href="http://localhost:4000/2022/06/03/airbnb-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge121.png" alt="Airbnb-Architektur" loading="lazy" />
+<p>Airbnb-Architektur</p>
+</a>
+<a href="http://localhost:4000/2022/05/20/technischer-kontext-und-fachliche-aufteilung-isaqb-advanced-beispielaufgabe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge118.png" alt="Technischer Kontext und fachliche Aufteilung - iSAQB Advanced Beispielaufgabe" loading="lazy" />
+<p>Technischer Kontext und fachliche Aufteilung - iSAQB Advanced Beispielaufgabe</p>
+</a>
+<a href="http://localhost:4000/2022/05/13/gibt-es-das-wasserfallmodell-uberhaupt.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge119.png" alt="Gibt es das Wasserfallmodell überhaupt?" loading="lazy" />
+<p>Gibt es das Wasserfallmodell überhaupt?</p>
+</a>
+<a href="http://localhost:4000/2022/05/06/losungsstrategie-isaqb-advanced-beispielaufgabe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge118.png" alt="Lösungsstrategie - iSAQB Advanced Beispielaufgabe" loading="lazy" />
+<p>Lösungsstrategie - iSAQB Advanced Beispielaufgabe</p>
+</a>
+<a href="http://localhost:4000/2022/04/29/eine-architektur-entwerfen-isaqb-advanced-beispielaufgabe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge117.png" alt="Eine Architektur entwerfen - iSAQB Advanced Beispielaufgabe" loading="lazy" />
+<p>Eine Architektur entwerfen - iSAQB Advanced Beispielaufgabe</p>
+</a>
+<a href="http://localhost:4000/2022/04/22/events-event-sourcing-und-cqrs.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge116.png" alt="Events, Event Sourcing und CQRS" loading="lazy" />
+<p>Events, Event Sourcing und CQRS</p>
+</a>
+<a href="http://localhost:4000/2022/04/08/data-mesh-nur-ein-neuer-datenanalyse-hype.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge115.png" alt="Data Mesh - nur ein neuer Datenanalyse-Hype?" loading="lazy" />
+<p>Data Mesh - nur ein neuer Datenanalyse-Hype?</p>
+</a>
+<a href="http://localhost:4000/2022/04/01/benutzerfreundlichkeit-mit-aminata-sidibe-wir-bauen-eine-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge114.png" alt="Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur" loading="lazy" />
+<p>Benutzerfreundlichkeit mit Aminata Sidibe - Wir bauen eine Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2022/03/25/qualitaten-nicht-funktionale-anforderungen-umsetzen-wir-bauen-eine-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge111.png" alt="Qualitäten / nicht-funktionale Anforderungen umsetzen - Wir bauen eine Software-Architektur" loading="lazy" />
+<p>Qualitäten / nicht-funktionale Anforderungen umsetzen - Wir bauen eine Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2022/03/11/wir-bauen-eine-software-architektur-struktur-der-losung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge111.png" alt="Wir bauen eine Software-Architektur - Struktur der Lösung" loading="lazy" />
+<p>Wir bauen eine Software-Architektur - Struktur der Lösung</p>
+</a>
+<a href="http://localhost:4000/2022/02/25/wir-bauen-eine-sofware-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge111.png" alt="Wir bauen eine Sofware-Architektur" loading="lazy" />
+<p>Wir bauen eine Sofware-Architektur</p>
+</a>
+<a href="http://localhost:4000/2022/02/18/conway-s-law.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge110.png" alt="Conway's Law" loading="lazy" />
+<p>Conway's Law</p>
+</a>
+<a href="http://localhost:4000/2022/02/11/was-ist-software-architektur-uberhaupt.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge109.png" alt="Was ist Software-Architektur überhaupt?" loading="lazy" />
+<p>Was ist Software-Architektur überhaupt?</p>
+</a>
+<a href="http://localhost:4000/2022/02/03/katrin-rabow-nicola-marsden-silke-foth-diversity-panel-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022-diversity.png" alt="Katrin Rabow, Nicola Marsden, Silke Foth - Diversity-Panel - live von der OOP" loading="lazy" />
+<p>Katrin Rabow, Nicola Marsden, Silke Foth - Diversity-Panel - live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2022/02/02/klima-panel-mit-marina-kohn-jutta-eckstein-max-schulze-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022-klima.png" alt="Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!" loading="lazy" />
+<p>Klima-Panel mit Marina Köhn, Jutta Eckstein, Max Schulze - live von der OOP!</p>
+</a>
+<a href="http://localhost:4000/2022/02/01/anne-herwanger-alexandra-hoitz-stefan-link-resiliente-organisation-und-resiliente-software-architektur-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022.png" alt="Anne Herwanger, Alexandra Hoitz, Stefan Link - Resiliente Organisation und resiliente Software Architektur - live von der OOP" loading="lazy" />
+<p>Anne Herwanger, Alexandra Hoitz, Stefan Link - Resiliente Organisation und resiliente Software Architektur - live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2022/02/01/lucas-dohmen-lars-hupel-hilfe-wir-syncen-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022.png" alt="Lucas Dohmen, Lars Hupel - Hilfe, wir syncen! - live von der OOP" loading="lazy" />
+<p>Lucas Dohmen, Lars Hupel - Hilfe, wir syncen! - live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2022/02/01/erik-dornenburg-devsecops-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022.png" alt="Erik Dörnenburg - DevSecOps - live von der OOP" loading="lazy" />
+<p>Erik Dörnenburg - DevSecOps - live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2022/01/31/scott-ambler-data-technical-debt-live-from-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022.png" alt="Scott Ambler - Data Technical Debt - Live from OOP" loading="lazy" />
+<p>Scott Ambler - Data Technical Debt - Live from OOP</p>
+</a>
+<a href="http://localhost:4000/2022/01/31/rik-marselis-testing-and-quality-live-from-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022.png" alt="Rik Marselis - Testing and Quality - Live from OOP" loading="lazy" />
+<p>Rik Marselis - Testing and Quality - Live from OOP</p>
+</a>
+<a href="http://localhost:4000/2022/01/31/kenny-baas-schwegler-gien-verschatse-evelyn-van-kelle-facilitating-collaborative-design-decisions-live-from-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP2022.png" alt="Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP" loading="lazy" />
+<p>Kenny Baas-Schwegler, Gien Verschatse, Evelyn Van Kelle - Facilitating Collaborative Design Decisions - Live from OOP</p>
+</a>
+<a href="http://localhost:4000/2022/01/27/daniel-terhorst-north-solid-vs-cupid.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode100.png" alt="Daniel Terhorst-North - SOLID vs. CUPID" loading="lazy" />
+<p>Daniel Terhorst-North - SOLID vs. CUPID</p>
+</a>
+<a href="http://localhost:4000/2022/01/19/sam-newman-monolith-to-microservices.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode99.png" alt="Sam Newman - Monolith to Microservices" loading="lazy" />
+<p>Sam Newman - Monolith to Microservices</p>
+</a>
+<a href="http://localhost:4000/2022/01/14/asynchrone-kommunikation-mit-http-feeds-jochen-christ.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge98.png" alt="Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ" loading="lazy" />
+<p>Asynchrone Kommunikation mit HTTP Feeds - Jochen Christ</p>
+</a>
+<a href="http://localhost:4000/2022/01/07/junior-oder-senior-was-ist-der-unterschied.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode97.png" alt="Junior oder Senior - Was ist der Unterschied?" loading="lazy" />
+<p>Junior oder Senior - Was ist der Unterschied?</p>
+</a>
+<a href="http://localhost:4000/2021/12/17/organisation-architektur-was-ich-im-stream-gelernt-habe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge96.png" alt="Organisation, Architektur - Was ich im Stream gelernt habe" loading="lazy" />
+<p>Organisation, Architektur - Was ich im Stream gelernt habe</p>
+</a>
+<a href="http://localhost:4000/2021/12/10/software-architektur-als-beruf-die-beta-test-folge.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge95.png" alt="Software-Architektur als Beruf - Die Beta-Test-Folge" loading="lazy" />
+<p>Software-Architektur als Beruf - Die Beta-Test-Folge</p>
+</a>
+<a href="http://localhost:4000/2021/12/03/makro-architektur-prioritaten-und-uberblick.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge94.png" alt="Makro-Architektur - Prioritäten und Überblick" loading="lazy" />
+<p>Makro-Architektur - Prioritäten und Überblick</p>
+</a>
+<a href="http://localhost:4000/2021/11/26/peter-hruschka-gernot-starke-requirements-engineering.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Peter Hruschka &amp; Gernot Starke - Requirements Engineering" loading="lazy" />
+<p>Peter Hruschka &amp; Gernot Starke - Requirements Engineering</p>
+</a>
+<a href="http://localhost:4000/2021/11/19/ben-wolf-und-lisa-schafer-einstieg-in-softwarearchitektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge92.png" alt="Ben Wolf und Lisa Schäfer - Einstieg in Softwarearchitektur" loading="lazy" />
+<p>Ben Wolf und Lisa Schäfer - Einstieg in Softwarearchitektur</p>
+</a>
+<a href="http://localhost:4000/2021/11/12/sven-johann-cross-funktionale-teams-zielgerichtet-in-den-abgrund-sturzen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge91.png" alt="Sven Johann - Cross-funktionale Teams zielgerichtet in den Abgrund stürzen" loading="lazy" />
+<p>Sven Johann - Cross-funktionale Teams zielgerichtet in den Abgrund stürzen</p>
+</a>
+<a href="http://localhost:4000/2021/11/05/michael-plod-wie-steigt-man-in-domain-driven-design-ein.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge90.png" alt="Michael Plöd - Wie steigt man in Domain-driven Design ein?" loading="lazy" />
+<p>Michael Plöd - Wie steigt man in Domain-driven Design ein?</p>
+</a>
+<a href="http://localhost:4000/2021/10/29/isabel-wingen-lars-hupel-funktionale-programmierung-in-der-praxis.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge89.png" alt="Isabel Wingen &amp; Lars Hupel - Funktionale Programmierung in der Praxis" loading="lazy" />
+<p>Isabel Wingen &amp; Lars Hupel - Funktionale Programmierung in der Praxis</p>
+</a>
+<a href="http://localhost:4000/2021/10/28/gernot-starke-benjamin-wolf-dokumentation-ein-uberblick.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge87.png" alt="Gernot Starke &amp; Benjamin Wolf - Dokumentation - ein Überblick" loading="lazy" />
+<p>Gernot Starke &amp; Benjamin Wolf - Dokumentation - ein Überblick</p>
+</a>
+<a href="http://localhost:4000/2021/10/25/hillel-wayne-laurent-bossavit-is-it-all-built-on-sand-what-do-we-actually-know-about-software-development.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/episode86.png" alt="Hillel Wayne &amp; Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?" loading="lazy" />
+<p>Hillel Wayne &amp; Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?</p>
+</a>
+<a href="http://localhost:4000/2021/10/22/wiederverwendung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge85.png" alt="Wiederverwendung" loading="lazy" />
+<p>Wiederverwendung</p>
+</a>
+<a href="http://localhost:4000/2021/10/15/manfred-steyer-zu-frontendarchitekturen-mit-single-page-frameworks.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge84.png" alt="Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks" loading="lazy" />
+<p>Manfred Steyer zu Frontendarchitekturen mit Single Page Frameworks</p>
+</a>
+<a href="http://localhost:4000/2021/10/14/cosima-laube-about-d-a-r-e-more-f-e-a-r-less-and-journaling.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/SAG-special.png" alt="Cosima Laube about D.A.R.E. more, F.E.A.R. less and Journaling" loading="lazy" />
+<p>Cosima Laube about D.A.R.E. more, F.E.A.R. less and Journaling</p>
+</a>
+<a href="http://localhost:4000/2021/10/14/avraham-poupko-kenny-baas-schwegler-the-influence-of-culture-on-software-design.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/SAG-special.png" alt="Avraham Poupko &amp; Kenny Baas-Schwegler - The Influence of Culture on Software Design" loading="lazy" />
+<p>Avraham Poupko &amp; Kenny Baas-Schwegler - The Influence of Culture on Software Design</p>
+</a>
+<a href="http://localhost:4000/2021/10/13/felienne-hermans-about-how-to-read-complex-code-live-from-software-architecture-gathering.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/SAG-special.png" alt="Felienne Hermans about How to Read Complex Code (Live from Software Architecture Gathering)" loading="lazy" />
+<p>Felienne Hermans about How to Read Complex Code (Live from Software Architecture Gathering)</p>
+</a>
+<a href="http://localhost:4000/2021/10/13/microservices-inverse-conway-maneuver-and-flow-with-james-lewis-live-from-software-architecture-gathering.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/SAG-special.png" alt="Microservices, Inverse Conway Maneuver, and Flow with James Lewis - Live from Software Architecture Gathering" loading="lazy" />
+<p>Microservices, Inverse Conway Maneuver, and Flow with James Lewis - Live from Software Architecture Gathering</p>
+</a>
+<a href="http://localhost:4000/2021/10/04/microservices-monoliths-modularization-with-chris-richardson.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge79.png" alt="Microservices, Monoliths, Modularization with Chris Richardson" loading="lazy" />
+<p>Microservices, Monoliths, Modularization with Chris Richardson</p>
+</a>
+<a href="http://localhost:4000/2021/10/01/kevlin-henney-dealing-with-uncertainty.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge78.png" alt="Kevlin Henney - Dealing with Uncertainty" loading="lazy" />
+<p>Kevlin Henney - Dealing with Uncertainty</p>
+</a>
+<a href="http://localhost:4000/2021/09/27/rebecca-parsons-about-evolutionary-architecture.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge77.png" alt="Rebecca Parsons about Evolutionary Architecture" loading="lazy" />
+<p>Rebecca Parsons about Evolutionary Architecture</p>
+</a>
+<a href="http://localhost:4000/2021/09/24/lose-kopplung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge76.png" alt="Lose Kopplung" loading="lazy" />
+<p>Lose Kopplung</p>
+</a>
+<a href="http://localhost:4000/2021/09/17/architekturstil-vergleich-und-architektur-hamburger-mit-henning-schwentner.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge75.png" alt="Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner" loading="lazy" />
+<p>Architekturstil-Vergleich und Architektur-Hamburger mit Henning Schwentner</p>
+</a>
+<a href="http://localhost:4000/2021/09/10/bucher-schreiben-warum-und-wie.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge74.png" alt="Bücher Schreiben - Warum und Wie?" loading="lazy" />
+<p>Bücher Schreiben - Warum und Wie?</p>
+</a>
+<a href="http://localhost:4000/2021/09/03/das-spotify-modell-gibt-es-gar-nicht.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge73.png" alt="Das Spotify-Modell gibt es gar nicht!" loading="lazy" />
+<p>Das Spotify-Modell gibt es gar nicht!</p>
+</a>
+<a href="http://localhost:4000/2021/08/27/strategisches-domain-driven-design-grundlegende-patterns-unter-der-lupe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge72.png" alt="Strategisches Domain-driven Design - Grundlegende Patterns unter der Lupe" loading="lazy" />
+<p>Strategisches Domain-driven Design - Grundlegende Patterns unter der Lupe</p>
+</a>
+<a href="http://localhost:4000/2021/08/13/welchen-sinn-hat-agiles-coaching-mit-johannes-link.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge71.png" alt="Welchen Sinn hat agiles Coaching? mit Johannes Link" loading="lazy" />
+<p>Welchen Sinn hat agiles Coaching? mit Johannes Link</p>
+</a>
+<a href="http://localhost:4000/2021/08/06/funktionale-programmierung-beating-the-average.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge70.png" alt="Funktionale Programmierung - Beating the Average?" loading="lazy" />
+<p>Funktionale Programmierung - Beating the Average?</p>
+</a>
+<a href="http://localhost:4000/2021/07/30/frontendarchitektur-iii-integration-mit-franziska-dessart-joy-heron-und-lucas-dohmen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge69.png" alt="Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen" loading="lazy" />
+<p>Frontendarchitektur III - Integration mit Franziska Dessart, Joy Heron und Lucas Dohmen</p>
+</a>
+<a href="http://localhost:4000/2021/07/23/der-schritt-zur-software-architekt-in-mit-oliver-wehrens.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge68.png" alt="Der Schritt zur Software-Architekt:in mit Oliver Wehrens" loading="lazy" />
+<p>Der Schritt zur Software-Architekt:in mit Oliver Wehrens</p>
+</a>
+<a href="http://localhost:4000/2021/07/16/qualitatsszenarien.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge67.png" alt="Qualitätsszenarien" loading="lazy" />
+<p>Qualitätsszenarien</p>
+</a>
+<a href="http://localhost:4000/2021/07/09/prof-christiane-floyd-zu-menschenzentrierter-software-entwicklung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge66.png" alt="Prof. Christiane Floyd zu “menschenzentrierter Software-Entwicklung”" loading="lazy" />
+<p>Prof. Christiane Floyd zu “menschenzentrierter Software-Entwicklung”</p>
+</a>
+<a href="http://localhost:4000/2021/07/02/muss-ich-mich-schamen-ein-software-architekt-zu-sein.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Muss ich mich schämen, ein Software-Architekt zu sein?" loading="lazy" />
+<p>Muss ich mich schämen, ein Software-Architekt zu sein?</p>
+</a>
+<a href="http://localhost:4000/2021/06/25/christoph-iserlohn-zu-security-und-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge64.png" alt="Christoph Iserlohn zu Security und Software-Architektur" loading="lazy" />
+<p>Christoph Iserlohn zu Security und Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2021/06/18/kim-nena-duggen-zu-soft-skills-fur-software-architekt-innen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge63.png" alt="Kim Nena Duggen zu Soft Skills für Software-Architekt:innen" loading="lazy" />
+<p>Kim Nena Duggen zu Soft Skills für Software-Architekt:innen</p>
+</a>
+<a href="http://localhost:4000/2021/06/11/markus-harrer-zu-software-analytics.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge62.png" alt="Markus Harrer zu Software Analytics" loading="lazy" />
+<p>Markus Harrer zu Software Analytics</p>
+</a>
+<a href="http://localhost:4000/2021/06/04/chris-chedgey-and-mike-swainston-rainford-architecture-management-with-structure-101.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge61.png" alt="Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101" loading="lazy" />
+<p>Chris Chedgey and Mike Swainston-Rainford - Architecture Management with Structure 101</p>
+</a>
+<a href="http://localhost:4000/2021/05/28/alexander-von-zitzewitz-zu-architektur-management-mit-sonargraph.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge60.png" alt="Alexander von Zitzewitz zu Architektur-Management mit Sonargraph" loading="lazy" />
+<p>Alexander von Zitzewitz zu Architektur-Management mit Sonargraph</p>
+</a>
+<a href="http://localhost:4000/2021/05/21/klimawandel-software-architektur-mit-martin-lippert-und-stefan-roock.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge59.png" alt="Klimawandel &amp; Software Architektur mit Martin Lippert und Stefan Roock" loading="lazy" />
+<p>Klimawandel &amp; Software Architektur mit Martin Lippert und Stefan Roock</p>
+</a>
+<a href="http://localhost:4000/2021/05/07/dirk-mahler-zu-software-architektur-management-mit-jqassistant.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge58.png" alt="Dirk Mahler zu Software-Architektur-Management mit jQAssistant" loading="lazy" />
+<p>Dirk Mahler zu Software-Architektur-Management mit jQAssistant</p>
+</a>
+<a href="http://localhost:4000/2021/04/30/carola-lilienthal-zu-langlebigen-software-architekturen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge57.png" alt="Carola Lilienthal zu langlebigen Software-Architekturen" loading="lazy" />
+<p>Carola Lilienthal zu langlebigen Software-Architekturen</p>
+</a>
+<a href="http://localhost:4000/2021/04/16/remote-mob-programming-mit-jochen-christ-franziska-dessart-simon-harrer-martin-huber.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge56.png" alt="Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber" loading="lazy" />
+<p>Remote Mob Programming mit Jochen Christ, Franziska Dessart, Simon Harrer, Martin Huber</p>
+</a>
+<a href="http://localhost:4000/2021/04/09/peter-gafert-zu-archunit.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge55.png" alt="Peter Gafert zu ArchUnit" loading="lazy" />
+<p>Peter Gafert zu ArchUnit</p>
+</a>
+<a href="http://localhost:4000/2021/04/01/graalvm-mit-spring-native-spring-boot-und-spring-cloud.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge54.png" alt="GraalVM mit Spring Native, Spring Boot und Spring Cloud" loading="lazy" />
+<p>GraalVM mit Spring Native, Spring Boot und Spring Cloud</p>
+</a>
+<a href="http://localhost:4000/2021/03/19/q-a.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge53.png" alt="Q&amp;A" loading="lazy" />
+<p>Q&amp;A</p>
+</a>
+<a href="http://localhost:4000/2021/03/05/apis-mit-erik-wilde.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge52.png" alt="APIs mit Erik Wilde" loading="lazy" />
+<p>APIs mit Erik Wilde</p>
+</a>
+<a href="http://localhost:4000/2021/02/26/agilitat.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge51.png" alt="Agilität" loading="lazy" />
+<p>Agilität</p>
+</a>
+<a href="http://localhost:4000/2021/02/19/diversity-mit-lars-hupel-lena-kraaz-und-aminata-sidibe.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge50.png" alt="Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe" loading="lazy" />
+<p>Diversity mit Lars Hupel, Lena Kraaz und Aminata Sidibe</p>
+</a>
+<a href="http://localhost:4000/2021/02/11/linda-rising-fearless-change-and-the-unconscious-mind-live-from-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP" loading="lazy" />
+<p>Linda Rising - Fearless Change and the Unconscious Mind - Live from OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/11/aino-vonge-corry-retrospectives-live-from-oop-with-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer" loading="lazy" />
+<p>Aino Vonge Corry - Retrospectives - Live from OOP with Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2021/02/11/grady-booch-ai-architecture-and-systems-live-from-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Grady Booch - AI Architecture and Systems - Live from OOP" loading="lazy" />
+<p>Grady Booch - AI Architecture and Systems - Live from OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/11/bastian-spanneberg-site-reliability-engineering-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Bastian Spanneberg - Site Reliability Engineering - Live von der OOP" loading="lazy" />
+<p>Bastian Spanneberg - Site Reliability Engineering - Live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/11/stefan-tilkov-software-architektur-fur-verschiedene-zielgruppen-live-von-der-oop-mit-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer" loading="lazy" />
+<p>Stefan Tilkov - Software-Architektur für verschiedene Zielgruppen - Live von der OOP mit Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2021/02/11/henning-wolf-agilitat-agility-as-if-you-meant-it-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Henning Wolf - Agilität - Agility as If You Meant It - Live von der OOP" loading="lazy" />
+<p>Henning Wolf - Agilität - Agility as If You Meant It - Live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/10/lars-rowekamp-kunstliche-intelligenz-und-ethik-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Lars Röwekamp - Künstliche Intelligenz und Ethik - Live von der OOP" loading="lazy" />
+<p>Lars Röwekamp - Künstliche Intelligenz und Ethik - Live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/10/dennis-wagner-marc-bless-ernsthafte-spiele-live-von-der-oop-mit-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer" loading="lazy" />
+<p>Dennis Wagner, Marc Bless - Ernsthafte Spiele - Live von der OOP mit Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2021/02/10/stefan-toth-enterprise-architektur-und-business-agilitat-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Stefan Toth - Enterprise Architektur und Business Agilität - Live von der OOP" loading="lazy" />
+<p>Stefan Toth - Enterprise Architektur und Business Agilität - Live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/09/susanne-braun-eventual-consistency-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Susanne Braun - Eventual Consistency - Live von der OOP" loading="lazy" />
+<p>Susanne Braun - Eventual Consistency - Live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/09/stefan-zorner-falk-sippach-architektur-reviews-live-von-der-oop-mit-lisa-schafer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer" loading="lazy" />
+<p>Stefan Zörner / Falk Sippach - Architektur-Reviews - Live von der OOP mit Lisa Schäfer</p>
+</a>
+<a href="http://localhost:4000/2021/02/09/michael-mahlberg-architektur-entscheidungen-finanziell-bewerten-live-von-der-oop.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/OOP.jpg" alt="Michael Mahlberg - Architektur-Entscheidungen finanziell bewerten - Live von der OOP" loading="lazy" />
+<p>Michael Mahlberg - Architektur-Entscheidungen finanziell bewerten - Live von der OOP</p>
+</a>
+<a href="http://localhost:4000/2021/02/05/technische-schulden.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge37.png" alt="Technische Schulden" loading="lazy" />
+<p>Technische Schulden</p>
+</a>
+<a href="http://localhost:4000/2021/01/22/simon-brown-c4-architecture-model-and-structurizr.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge36.jpg" alt="Simon Brown - C4 Architecture Model and Structurizr" loading="lazy" />
+<p>Simon Brown - C4 Architecture Model and Structurizr</p>
+</a>
+<a href="http://localhost:4000/2021/01/15/andre-neubauer-cto-chief-technical-debt-owner.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge35.jpg" alt="André Neubauer - CTO = Chief Technical Debt Owner?" loading="lazy" />
+<p>André Neubauer - CTO = Chief Technical Debt Owner?</p>
+</a>
+<a href="http://localhost:4000/2021/01/08/patrick-kua-evolutionary-software-architecture.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge34.png" alt="Patrick Kua - Evolutionary Software Architecture" loading="lazy" />
+<p>Patrick Kua - Evolutionary Software Architecture</p>
+</a>
+<a href="http://localhost:4000/2020/12/18/patterns-kondensierte-erfahrungen-mit-code-dingen-und-menschen-mit-michael-hunger.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge33.png" alt="Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger" loading="lazy" />
+<p>Patterns - Kondensierte Erfahrungen mit Code, Dingen und Menschen mit Michael Hunger</p>
+</a>
+<a href="http://localhost:4000/2020/12/11/inner-source-mit-open-source-methoden-unternehmenssilos-einreien-mit-prof-dirk-riehle.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge32.jpg" alt="Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle" loading="lazy" />
+<p>Inner Source - Mit Open-Source-Methoden Unternehmenssilos einreißen mit Prof. Dirk Riehle</p>
+</a>
+<a href="http://localhost:4000/2020/12/07/devops-und-team-topologies-mit-anja-kammer-live-vom-innoq-technology-day.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/ITD.png" alt="DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day" loading="lazy" />
+<p>DevOps und Team Topologies mit Anja Kammer - Live vom INNOQ Technology Day</p>
+</a>
+<a href="http://localhost:4000/2020/12/07/security-mit-christoph-iserlohn-live-vom-innoq-technology-day.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/ITD.png" alt="Security mit Christoph Iserlohn - Live vom INNOQ Technology Day" loading="lazy" />
+<p>Security mit Christoph Iserlohn - Live vom INNOQ Technology Day</p>
+</a>
+<a href="http://localhost:4000/2020/12/07/sokratische-gesprache-fur-software-architektur-beratung-und-training-mit-johannes-seitz-live-vom-innoq-technology-day.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/ITD.png" alt="Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day" loading="lazy" />
+<p>Sokratische Gespräche für Software-Architektur-Beratung und -Training mit Johannes Seitz - Live vom INNOQ Technology Day</p>
+</a>
+<a href="http://localhost:4000/2020/12/07/der-innoq-technology-day-mit-dem-technology-day-programm-komitee.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/ITD.png" alt="Der INNOQ Technology Day mit dem Technology-Day-Programm-Komitee" loading="lazy" />
+<p>Der INNOQ Technology Day mit dem Technology-Day-Programm-Komitee</p>
+</a>
+<a href="http://localhost:4000/2020/11/27/architektur-optionen-fur-moderne-web-frontends-mit-franziska-dessart-joy-heron-und-lucas-dohmen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge27.png" alt="Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen" loading="lazy" />
+<p>Architektur-Optionen für moderne Web Frontends mit Franziska Dessart, Joy Heron und Lucas Dohmen</p>
+</a>
+<a href="http://localhost:4000/2020/11/20/modularisierung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge26.png" alt="Modularisierung" loading="lazy" />
+<p>Modularisierung</p>
+</a>
+<a href="http://localhost:4000/2020/11/13/microservices-transaktionen-konsistenz.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge25.png" alt="Microservices, Transaktionen &amp; Konsistenz" loading="lazy" />
+<p>Microservices, Transaktionen &amp; Konsistenz</p>
+</a>
+<a href="http://localhost:4000/2020/11/06/kundenspezifische-software-varianten-und-product-line-engineering-mit-danilo-beuche.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge24.png" alt="Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche" loading="lazy" />
+<p>Kundenspezifische Software-Varianten und Product Line Engineering mit Danilo Beuche</p>
+</a>
+<a href="http://localhost:4000/2020/10/29/lisa-schafer-zu-sketchnotes-in-der-it.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge23.png" alt="Lisa Schäfer zu Sketchnotes in der IT" loading="lazy" />
+<p>Lisa Schäfer zu Sketchnotes in der IT</p>
+</a>
+<a href="http://localhost:4000/2020/10/23/markus-volter-zu-fachliche-architekturen-mit-dsl-domain-specific-languages.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge22.png" alt="Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)" loading="lazy" />
+<p>Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)</p>
+</a>
+<a href="http://localhost:4000/2020/10/09/domain-story-telling-mit-henning-schwentner-und-stefan-hofer.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge21.jpg" alt="Domain Story Telling mit Henning Schwentner und Stefan Hofer" loading="lazy" />
+<p>Domain Story Telling mit Henning Schwentner und Stefan Hofer</p>
+</a>
+<a href="http://localhost:4000/2020/10/02/frontend-architektur-mit-franziska-dessart-joy-heron-und-lucas-dohmen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge20.png" alt="Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen" loading="lazy" />
+<p>Frontend-Architektur mit Franziska Dessart, Joy Heron und Lucas Dohmen</p>
+</a>
+<a href="http://localhost:4000/2020/09/18/service-mesh-linkerd-mit-hanna-prinz.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge19.jpg" alt="Service Mesh Linkerd mit Hanna Prinz" loading="lazy" />
+<p>Service Mesh Linkerd mit Hanna Prinz</p>
+</a>
+<a href="http://localhost:4000/2020/09/10/nicole-rauch-zu-ddd-event-storming-specification-by-example.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge17.jpg" alt="Nicole Rauch zu DDD, Event Storming &amp; Specification by Example" loading="lazy" />
+<p>Nicole Rauch zu DDD, Event Storming &amp; Specification by Example</p>
+</a>
+<a href="http://localhost:4000/2020/09/10/gerrit-beine-zu-sozialwissenschaften-und-software-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge16.jpg" alt="Gerrit Beine zu Sozialwissenschaften und Software-Architektur" loading="lazy" />
+<p>Gerrit Beine zu Sozialwissenschaften und Software-Architektur</p>
+</a>
+<a href="http://localhost:4000/2020/08/28/jutta-eckstein-uber-die-architektur-rolle-in-agilen-projekten.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge15.jpg" alt="Jutta Eckstein über die Architektur-Rolle in agilen Projekten" loading="lazy" />
+<p>Jutta Eckstein über die Architektur-Rolle in agilen Projekten</p>
+</a>
+<a href="http://localhost:4000/2020/08/21/fragen-und-antworten.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge14.jpg" alt="Fragen und Antworten" loading="lazy" />
+<p>Fragen und Antworten</p>
+</a>
+<a href="http://localhost:4000/2020/08/14/warum-continuous-delivery-die-devops-studie.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge12.jpg" alt="Warum Continuous Delivery - Die DevOps Studie" loading="lazy" />
+<p>Warum Continuous Delivery - Die DevOps Studie</p>
+</a>
+<a href="http://localhost:4000/2020/08/07/nick-tune-legacy-architecture-modernisation-with-strategic-domain-driven-design.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge11.jpg" alt="Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design" loading="lazy" />
+<p>Nick Tune - Legacy Architecture Modernisation With Strategic Domain-Driven Design</p>
+</a>
+<a href="http://localhost:4000/2020/07/31/12-factor-apps-und-independent-systems-architecture.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge10.jpg" alt="12 Factor Apps und Independent Systems Architecture" loading="lazy" />
+<p>12 Factor Apps und Independent Systems Architecture</p>
+</a>
+<a href="http://localhost:4000/2020/07/24/ubers-domain-oriented-microservices-architecture-doma.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge9.jpg" alt="Ubers Domain-Oriented Microservices Architecture DOMA" loading="lazy" />
+<p>Ubers Domain-Oriented Microservices Architecture DOMA</p>
+</a>
+<a href="http://localhost:4000/2020/07/21/uwe-friedrichsen-das-fur-und-wider-von-microservices.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge8.jpg" alt="Uwe Friedrichsen - Das Für und Wider von Microservices" loading="lazy" />
+<p>Uwe Friedrichsen - Das Für und Wider von Microservices</p>
+</a>
+<a href="http://localhost:4000/2020/07/17/vortrage-architekt-innen-rolle-lernen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge7.jpg" alt="Vorträge, Architekt:innen-Rolle, Lernen" loading="lazy" />
+<p>Vorträge, Architekt:innen-Rolle, Lernen</p>
+</a>
+<a href="http://localhost:4000/2020/07/14/eric-evans-getting-started-with-ddd-when-surrounded-by-legacy-systems.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge6.jpg" alt="Eric Evans 'Getting Started with DDD When Surrounded by Legacy Systems'" loading="lazy" />
+<p>Eric Evans 'Getting Started with DDD When Surrounded by Legacy Systems'</p>
+</a>
+<a href="http://localhost:4000/2020/07/10/oliver-drotbohm-module-in-monolithen.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge5.jpg" alt="Oliver Drotbohm - Module in Monolithen" loading="lazy" />
+<p>Oliver Drotbohm - Module in Monolithen</p>
+</a>
+<a href="http://localhost:4000/2020/07/02/fachliche-architektur-warum-und-wie.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/folge4.jpg" alt="Fachliche Architektur - Warum und wie?" loading="lazy" />
+<p>Fachliche Architektur - Warum und wie?</p>
+</a>
+<a href="http://localhost:4000/2020/06/26/isaqb-und-zertifizierung.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/default.jpg" alt="iSAQB und Zertifizierung" loading="lazy" />
+<p>iSAQB und Zertifizierung</p>
+</a>
+<a href="http://localhost:4000/2020/06/19/organisation-und-architektur.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/default.jpg" alt="Organisation und Architektur" loading="lazy" />
+<p>Organisation und Architektur</p>
+</a>
+<a href="http://localhost:4000/2020/06/15/die-verungluckte-folge.html" class="link-card keep-size">
+    <img src="http://localhost:4000/thumbnails-small/default.jpg" alt="Die verunglückte Folge" loading="lazy" />
+<p>Die verunglückte Folge</p>
+</a>
+
+</div>
+
+<footer class="site-footer">
+  <span class="site-footer-owner">
+    Sketchnotes von Lisa Maria Schäfer
+  </span>
+  <nav>
+    <a href="http://localhost:4000/datenschutzhinweise.html">Datenschutzhinweise</a>
+    <a href="http://localhost:4000/impressum.html">Impressum</a>
+  </nav>
+  <span class="site-footer-credits" lang="en">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+</footer>
+
+
+    </section>
+
+  </body>
+</html>
