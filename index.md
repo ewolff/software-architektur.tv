@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge: offen
+## Next Episode: Friday 2026-08-21 13:00 CEST Francesco Cesarini: Evolution of the Erlang Eco System
 
 <!-- { include youtube.html -->
 <!--  youtube-video-id="8Nz2nL-m0to" -->
