@@ -24,7 +24,7 @@ so great for truly tough technical requirements.
 
 {% include youtube.html
  youtube-video-id="cJx0nQ7-L2A"
-   image-url="/thumbnails/folge329.png" %}
+   image-url="/thumbnails/episode329.png" %}
 
  <section id="content-links">
  	<a href="https://www.linkedin.com/events/7495755213254057984/">LinkedIn</a>
