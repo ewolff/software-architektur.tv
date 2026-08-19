@@ -16,17 +16,23 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 ## Next Episode: Friday 2026-08-21 13:00 CEST Francesco Cesarini: Evolution of the Erlang Eco System
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="8Nz2nL-m0to" -->
-<!--    image-url="/thumbnails/folge326.png" %} -->
+The programming language Erlang and its technologies are now 40 years
+old. They are at the core of many systems that have exceptionally high
+demands for reliability and scalability. In this episode, Francesco
+Cesarini talks to Eberhard about the Erlang eco-systems and why it is
+so great for truly tough technical requirements.
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7485937227194142721/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+{% include youtube.html
+ youtube-video-id="cJx0nQ7-L2A"
+   image-url="/thumbnails/folge329.png" %}
 
-<!-- [Event bei treff.tech](https://treff.tech/events/917171d1-f56c-474b-bec4-6022b9dbcb7c) -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7495755213254057984/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
+
+[Event bei treff.tech](https://treff.tech/events/917171d1-f56c-474b-bec4-6022b9dbcb7c)
 
 ## Der Stream bei Konferenzen und Trainings
 
