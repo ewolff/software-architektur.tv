@@ -14,25 +14,20 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-08-21 13:00 CEST Francesco Cesarini: Evolution of the Erlang Eco System
+## Next Episode: Friday 2026-08-28 13:00 CEST with Kevlin Henney
 
-The programming language Erlang and its technologies are now 40 years
-old. They are at the core of many systems that have exceptionally high
-demands for reliability and scalability. In this episode, Francesco
-Cesarini talks to Eberhard about the Erlang eco-systems and why it is
-so great for truly tough technical requirements.
 
-{% include youtube.html
- youtube-video-id="cJx0nQ7-L2A"
-   image-url="/thumbnails/episode329.png" %}
+<!-- { include youtube.html -->
+<!--  youtube-video-id="cJx0nQ7-L2A" -->
+<!--    image-url="/thumbnails/episode329.png" %} -->
 
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7495755213254057984/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7495755213254057984/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
 
-[Event bei treff.tech](https://treff.tech/events/fd743ca3-6527-470a-b994-0d997ca6e9f8)
+<!-- [Event bei treff.tech](https://treff.tech/events/fd743ca3-6527-470a-b994-0d997ca6e9f8) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
