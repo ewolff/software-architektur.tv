@@ -18,7 +18,7 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
 
 {% include youtube.html
- youtube-video-id="bvg377h95f"
+ youtube-video-id="mZBDDy9AXZk"
    image-url="/thumbnails/episode330.png" %}
 
  <section id="content-links">
