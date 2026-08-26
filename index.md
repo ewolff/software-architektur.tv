@@ -17,15 +17,15 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 ## Next Episode: Friday 2026-08-28 13:00 CEST with Kevlin Henney
 
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="cJx0nQ7-L2A" -->
-<!--    image-url="/thumbnails/episode329.png" %} -->
+{ include youtube.html
+ youtube-video-id="bvg377h95f"
+   image-url="/thumbnails/episode330.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7495755213254057984/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7498272370990796800/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
 
 <!-- [Event bei treff.tech](https://treff.tech/events/fd743ca3-6527-470a-b994-0d997ca6e9f8) -->
 
