@@ -14,8 +14,9 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-08-28 13:00 CEST with Kevlin Henney
+## Next Episode: Friday 2026-08-28 13:00 CEST AI as a Mirror — a Conversation with Kevlin Henney
 
+Kevlin Henney — consultant, keynote speaker, and editor of the "97 Things" series — joins Ralf D. Müller to ask where generative AI is actually taking software development. They explore why typing was never the bottleneck, why "vibes are not enough," the difference between being in, on, or out of the loop — and whether understanding and testing matter more than ever. Less a conversation about AI than about us and how we relate to our tools. (In English.)
 
 {% include youtube.html
  youtube-video-id="mZBDDy9AXZk"
