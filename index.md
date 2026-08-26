@@ -17,7 +17,7 @@ Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 ## Next Episode: Friday 2026-08-28 13:00 CEST with Kevlin Henney
 
 
-{ include youtube.html
+{% include youtube.html
  youtube-video-id="bvg377h95f"
    image-url="/thumbnails/episode330.png" %}
 
