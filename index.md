@@ -14,13 +14,13 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-08-28 13:00 CEST AI as a Mirror — a Conversation with Kevlin Henney
+## Next Episode: Friday 2026-09-04 13:00 CEST Building Software in the Age of AI — a Conversation with Randy Shoup
 
-Kevlin Henney — consultant, keynote speaker, and editor of the "97 Things" series — joins Ralf D. Müller to ask where generative AI is actually taking software development. They explore why typing was never the bottleneck, why "vibes are not enough," the difference between being in, on, or out of the loop — and whether understanding and testing matter more than ever. Less a conversation about AI than about us and how we relate to our tools. (In English.)
+For 30 years Randy Shoup has helped shape engineering at some of the industry’s most demanding companies — eBay, Google, Stitch Fix and WeWork among them — building highly scalable, distributed systems that serve hundreds of millions of users; today he leads engineering at CircleCI. He is also a long-time speaker and writer on how healthy engineering organizations really work: small multidisciplinary teams, autonomy and accountability, goals over solutions. He joins Ralf D. Müller for an hour on the question our whole field is circling right now: what does generative AI really change about how we build software, and what does it leave exactly where it was? One of Randy’s long-standing lines is to “model the world as it really is, not the way you would like it to be”; we carry that into the AI moment, asking where teams keep building the world they wish they had, and where Randy nods along with the current AI hype versus where he pushes back. (In English.)
 
 {% include youtube.html
- youtube-video-id="mZBDDy9AXZk"
-   image-url="/thumbnails/episode330.png" %}
+ youtube-video-id="GBupucY3fmE"
+   image-url="/thumbnails/episode331.png" %}
 
  <section id="content-links">
  	<a href="https://www.linkedin.com/events/7498272370990796800/">LinkedIn</a>
@@ -28,7 +28,7 @@ Kevlin Henney — consultant, keynote speaker, and editor of the "97 Things" ser
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
  </section>
 
-[Event bei treff.tech](https://treff.tech/events/550a9818-cb1c-4674-9338-3c4c2ffd8f3c)
+[Event bei treff.tech](https://treff.tech/events/4a676c23-507d-4fed-8582-c82261c51002)
 
 ## Der Stream bei Konferenzen und Trainings
 
