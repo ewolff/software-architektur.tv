@@ -23,7 +23,7 @@ For 30 years Randy Shoup has helped shape engineering at some of the industry’
    image-url="/thumbnails/episode331.png" %}
 
  <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7498272370990796800/">LinkedIn</a>
+ 	<a href="https://www.linkedin.com/events/7500477238539124737/">LinkedIn</a>
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
  </section>
