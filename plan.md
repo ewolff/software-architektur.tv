@@ -13,3 +13,4 @@ description: Überblick über die geplanten Folgen
 | 2026-09-25 13:00 | Lucas mit Dirk Breuer                                  |
 | 2026-10-02 13:00 | Lucas mit Dylan Beattie                                |
 | 2026-10-09 13:00 | Lisa mit Sandra Parsick                                |
+| 2026-10-23 13:00 | Lisa mit Marcel Koch.                                  |
