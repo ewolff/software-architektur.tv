@@ -47,8 +47,14 @@ Tags:&nbsp;
 
 <br />
       
+
+{%- if page.tags contains "English" %}
+      Episode {{page.episode_id }}
+{%- else %}
+      Folge {{page.episode_id }}
+{%- endif %} {{ page.date | date: "%Y-%m-%d"}}
 {%- if page.thumbnail %}
-    {{-page.date | date: "%Y-%m-%d"}} <a href="{{-site.url }}/thumbnails/{{-page.thumbnail }}">Thumbnail</a>
+<a href="{{-site.url }}/thumbnails/{{-page.thumbnail }}">Thumbnail</a>
 {%- endif %}
       
 {%- if page.peertube %}
