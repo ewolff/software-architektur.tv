@@ -26,17 +26,17 @@ is missing, and what can be done to improve it.
 
 Gitte will also talk about this subject at Software Architecture Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="GBupucY3fmE" -->
-<!--    image-url="/thumbnails/episode331.png" %} -->
+{% include youtube.html
+ youtube-video-id="-b75FTXkpcE"
+   image-url="/thumbnails/episode332.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7500477238539124737/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7502982595689771008/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
 
-<!-- [Event bei treff.tech](https://treff.tech/events/4a676c23-507d-4fed-8582-c82261c51002) -->
+[Event bei treff.tech](https://treff.tech/events/7d1573ab-9a65-4d3f-bbd5-589808f8119e)
 
 ## Der Stream bei Konferenzen und Trainings
 
