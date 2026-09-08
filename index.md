@@ -14,21 +14,29 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-09-04 13:00 CEST Building Software in the Age of AI — a Conversation with Randy Shoup
+## Next Episode: Friday 2026-09-11 13:00 CEST Leadership and Psychological Safety with Gitte Klitgaard
 
-For 30 years Randy Shoup has helped shape engineering at some of the industry’s most demanding companies — eBay, Google, Stitch Fix and WeWork among them — building highly scalable, distributed systems that serve hundreds of millions of users; today he leads engineering at CircleCI. He is also a long-time speaker and writer on how healthy engineering organizations really work: small multidisciplinary teams, autonomy and accountability, goals over solutions. He joins Ralf D. Müller for an hour on the question our whole field is circling right now: what does generative AI really change about how we build software, and what does it leave exactly where it was? One of Randy’s long-standing lines is to “model the world as it really is, not the way you would like it to be”; we carry that into the AI moment, asking where teams keep building the world they wish they had, and where Randy nods along with the current AI hype versus where he pushes back. (In English.)
+Psychological safety is essential for teams to speak up, disagree,
+make mistakes, and learn. But it is not about making everyone
+comfortable — it is about feeling safe enough to be uncomfortable.
 
-{% include youtube.html
- youtube-video-id="GBupucY3fmE"
-   image-url="/thumbnails/episode331.png" %}
+In this episode, Gitte Klitgaard explores with Eberhard the role of
+leadership in creating psychological safety, how to recognize when it
+is missing, and what can be done to improve it.
 
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7500477238539124737/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
+Gitte will also talk about this subject at Software Architecture Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
 
-[Event bei treff.tech](https://treff.tech/events/4a676c23-507d-4fed-8582-c82261c51002)
+<!-- { include youtube.html -->
+<!--  youtube-video-id="GBupucY3fmE" -->
+<!--    image-url="/thumbnails/episode331.png" %} -->
+
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7500477238539124737/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
+
+<!-- [Event bei treff.tech](https://treff.tech/events/4a676c23-507d-4fed-8582-c82261c51002) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
