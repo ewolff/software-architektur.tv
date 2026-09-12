@@ -14,29 +14,36 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-09-11 13:00 CEST Leadership and Psychological Safety with Gitte Klitgaard
+## Next Episode: Friday 2026-09-11 13:00 CEST Sander Hoogendoorn
 
-Psychological safety is essential for teams to speak up, disagree,
-make mistakes, and learn. But it is not about making everyone
-comfortable — it is about feeling safe enough to be uncomfortable.
+Sander will also talk about this subject at Software Architecture
+Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
 
-In this episode, Gitte Klitgaard explores with Eberhard the role of
-leadership in creating psychological safety, how to recognize when it
-is missing, and what can be done to improve it.
+## Next Episode: Friday 2026-09-11 18:00 CEST Kubernetes and Software Development with Kelsey Hightower
 
-Gitte will also talk about this subject at Software Architecture Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
+Kelsey Hightower is one of the most influential voices in the
+Kubernetes community. During his career, he worked in a variety of
+engineering roles at Puppet Labs and CoreOS before joining Google,
+where he became a developer advocate and engineer working with
+Kubernetes.
 
-{% include youtube.html
- youtube-video-id="-b75FTXkpcE"
-   image-url="/thumbnails/episode332.png" %}
+In this episode, Kelsey talks with Eberhard about the evolution of
+modern infrastructure, Kubernetes, and what these changes mean for
+software development more broadly. They explore the ideas, practices,
+and lessons that matter when building and operating software in an
+increasingly complex world.
 
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7502982595689771008/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
+<!-- { include youtube.html -->
+<!--  youtube-video-id="-b75FTXkpcE" -->
+<!--    image-url="/thumbnails/episode332.png" %} -->
 
-[Event bei treff.tech](https://treff.tech/events/7d1573ab-9a65-4d3f-bbd5-589808f8119e)
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7502982595689771008/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
+
+<!-- [Event bei treff.tech](https://treff.tech/events/7d1573ab-9a65-4d3f-bbd5-589808f8119e) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
