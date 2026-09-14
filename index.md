@@ -33,17 +33,17 @@ software development more broadly. They explore the ideas, practices,
 and lessons that matter when building and operating software in an
 increasingly complex world.
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="-b75FTXkpcE" -->
-<!--    image-url="/thumbnails/episode332.png" %} -->
+{% include youtube.html
+ youtube-video-id="KYGpF6pZADg"
+   image-url="/thumbnails/episode334.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7502982595689771008/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7505290025190940673/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
 
-<!-- [Event bei treff.tech](https://treff.tech/events/7d1573ab-9a65-4d3f-bbd5-589808f8119e) -->
+[Event at treff.tech](https://treff.tech/events/beb9c703-5ec7-4941-97dd-6082cc7de3d7)
 
 ## Der Stream bei Konferenzen und Trainings
 
