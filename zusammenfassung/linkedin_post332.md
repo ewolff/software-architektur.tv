@@ -23,6 +23,6 @@ This hits different when you realize: psychological safety isn't soft—it's the
 
 🎤 Full episode drops on software-architektur.tv
 
-Gitte speaks at ISAQB Software Architecture Gathering Berlin (Nov 16-19). Use code SATV for 15% off.
+Gitte speaks at ISAQB Software Architecture Gathering Berlin (Nov 16-19). Use code SATV_15 for 15% off.
 
 #Leadership #PsychologicalSafety #TeamPerformance #Agile #SoftwareArchitecture
