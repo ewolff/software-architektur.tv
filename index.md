@@ -32,7 +32,21 @@ the AI-native era, but to thrive in it?
 Sander will also talk about this subject at Software Architecture
 Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
 
+{% include youtube.html
+ youtube-video-id="lFqUijC0iU8"
+   image-url="/thumbnails/episode333.png" %}
+
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7505556575936339968/">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
+
+[Event at treff.tech](https://treff.tech/events/3ccc6546-ae20-49c9-a605-724076251de3)
+
+
 ## Next Episode: Friday 2026-09-18 18:00 CEST Kubernetes and Software Development with Kelsey Hightower
+
 
 Kelsey Hightower is one of the most influential voices in the
 Kubernetes community. During his career, he worked in a variety of
