@@ -14,7 +14,7 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-09-11 13:00 CEST Surviving the AI-Native Era with Sander Hoogendoorn
+## Next Episode: Friday 2026-09-18 13:00 CEST Surviving the AI-Native Era with Sander Hoogendoorn
 
 In this episode Sander Hoogendoorn will talk with Eberhard about his
 experience at iBOOD with AI-supported software development. Why
@@ -32,7 +32,7 @@ the AI-native era, but to thrive in it?
 Sander will also talk about this subject at Software Architecture
 Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
 
-## Next Episode: Friday 2026-09-11 18:00 CEST Kubernetes and Software Development with Kelsey Hightower
+## Next Episode: Friday 2026-09-18 18:00 CEST Kubernetes and Software Development with Kelsey Hightower
 
 Kelsey Hightower is one of the most influential voices in the
 Kubernetes community. During his career, he worked in a variety of
