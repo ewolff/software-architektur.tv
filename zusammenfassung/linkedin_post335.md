@@ -5,7 +5,7 @@
 Petra Clemens, CIO bei Eppendorf, teilt im Interview ihre größten Herausforderungen und Erkenntnisse aus 7 Monaten an der Spitze einer IT mit 800 Applikationen:
 
 ✅ **Strategische Klarheit statt Quick Fixes**
-Das Business muss seine Probleme klar definieren – nicht die Lösungen. Ein jahrelang scheiterndes S4HANA-Projekt zeigt: Ohne klare Ziele wird aus Transformation schnell ein teurer Loop ohne Ergebnis.
+Das Business muss seine Probleme klar definieren – nicht die Lösungen. Ein anderthalb Jahre laufendes S4HANA-Projekt zeigt: Ohne klare Ziele wird aus Transformation schnell ein teurer Loop ohne Ergebnis.
 
 ✅ **IT auf Augenhöhe**
 Echte Zusammenarbeit zwischen IT und Business: gemeinsame Problemlösung statt einseitige Anforderungen. Mit KPIs und Business Cases statt Bauchgefühl.
@@ -22,4 +22,4 @@ Diverse Teams sind nachweislich erfolgreicher. Petra setzt konkrete Maßnahmen u
 
 ---
 
-🎧 **Mehr zum Podcast auf der TechRiders Summit Special Episode**
+🎧 **Mehr dazu in der TechRiders Summit Special Episode**
