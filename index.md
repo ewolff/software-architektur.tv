@@ -14,37 +14,6 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-09-18 13:00 CEST Surviving the AI-Native Era with Sander Hoogendoorn
-
-In this episode Sander Hoogendoorn will talk with Eberhard about his
-experience at iBOOD with AI-supported software development. Why
-abandon Pull Requests? What does AI-assisted coding review really
-change? And what happens to collaboration when AI is used?
-
-We’ll also look beyond the tools: How does AI change the role of
-developers, software architecture, and technical leadership? If
-developers increasingly own outcomes rather than keystrokes, what
-skills and practices become important?
-
-And perhaps most importantly: What does it take not just to survive
-the AI-native era, but to thrive in it?
-
-Sander will also talk about this subject at Software Architecture
-Gathering (2026-11-16 - 19, Berlin). Use code SATV_15 for 15% off.
-
-{% include youtube.html
- youtube-video-id="lFqUijC0iU8"
-   image-url="/thumbnails/episode333.png" %}
-
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7505556575936339968/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
-
-[Event at treff.tech](https://treff.tech/events/3ccc6546-ae20-49c9-a605-724076251de3)
-
-
 ## Next Episode: Friday 2026-09-18 18:00 CEST Kubernetes and Software Development with Kelsey Hightower
 
 
