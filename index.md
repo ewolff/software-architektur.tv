@@ -14,32 +14,19 @@ das Formular unten mitdiskutieren oder Fragen
 stellen. 
 Die Aufnahme steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-09-18 18:00 CEST Kubernetes and Software Development with Kelsey Hightower
+## Next Episode: Friday 2026-09-25 Dirk Breuer
 
+<!-- { include youtube.html -->
+<!--  youtube-video-id="KYGpF6pZADg" -->
+<!--    image-url="/thumbnails/episode334.png" %} -->
 
-Kelsey Hightower is one of the most influential voices in the
-Kubernetes community. During his career, he worked in a variety of
-engineering roles at Puppet Labs and CoreOS before joining Google,
-where he became a developer advocate and engineer working with
-Kubernetes.
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.linkedin.com/events/7505290025190940673/">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  </section> -->
 
-In this episode, Kelsey talks with Eberhard about the evolution of
-modern infrastructure, Kubernetes, and what these changes mean for
-software development more broadly. They explore the ideas, practices,
-and lessons that matter when building and operating software in an
-increasingly complex world.
-
-{% include youtube.html
- youtube-video-id="KYGpF6pZADg"
-   image-url="/thumbnails/episode334.png" %}
-
- <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7505290025190940673/">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- </section>
-
-[Event at treff.tech](https://treff.tech/events/beb9c703-5ec7-4941-97dd-6082cc7de3d7)
+<!-- [Event at treff.tech](https://treff.tech/events/beb9c703-5ec7-4941-97dd-6082cc7de3d7) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
