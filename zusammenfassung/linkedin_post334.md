@@ -4,7 +4,7 @@ Just released: A fascinating deep dive into some of the most pressing questions 
 
 In this episode, we explore:
 
-✨ **Why Kubernetes dominates** – and why healthy competition might still save us from complacency after 20 years
+✨ **Why Kubernetes dominates** – and why healthy competition might still save us from complacency at the 20-year mark
 
 🤖 **The "Zero Token Architecture"** – How to build AI systems that don't just brute-force solutions through LLMs, but use intelligence strategically to avoid unnecessary costs
 
