@@ -15,11 +15,12 @@ steht danach als Video und Podcast zur Verfügung.
 
 Wie betreibt man eine Webanwendung in der Simple Cloud – also auf transparenter
 Basis-Infrastruktur (VPS, Networking, Firewalls) ohne Cloud-Managed-Services?
-Mit [Dirk Breuer](https://codelater.de) bespreche ich, wie unser Setup bei
+Lucas Dohmen bespricht mit [Dirk Breuer](https://codelater.de), wie ihr Setup bei
 fejo.dk, einem der führenden Portale, um Ferienhäuser in Dänemark zu buchen,
-funktioniert und wie wir dabei auf Einfachheit gesetzt haben. Wir gehen das
-Setup durch: von Terraform über Ansible zu Docker und Capistrano. Wir freuen
-uns auf eure Fragen vorab auf
+funktioniert und wie sie dabei auf Einfachheit gesetzt haben. Sie gehen das
+Setup durch: von Terraform über Ansible zu Docker und Capistrano.
+
+Wir freuen uns auf eure Fragen vorab auf
 [Mastodon](https://podcasts.social/@maschinenraum) oder LinkedIn oder live bei
 der Aufnahme.
 
@@ -33,7 +34,7 @@ der Aufnahme.
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
  </section>
 
-<!-- [Event at treff.tech](https://treff.tech/events/beb9c703-5ec7-4941-97dd-6082cc7de3d7) -->
+[Event at treff.tech](https://treff.tech/events/c7e57223-7040-4797-81da-91322f2fd162)
 
 ## Der Stream bei Konferenzen und Trainings
 
