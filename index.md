@@ -5,26 +5,33 @@ description: Live-Diskussion zu Software-Architektur im Stream
 tagline: Live-Diskussion zu Software-Architektur
 ---
 
-Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer oder Ralf
-D. Müller
-Software-Architektur im
-Live-Stream auf YouTube, Twitch und manchmal LinkedIn - oft zusammen mit einem
-Gast. Zuschauer können über den Chat und
-das Formular unten mitdiskutieren oder Fragen
-stellen. 
-Die Aufnahme steht danach als Video und Podcast zur Verfügung.
+Einmal in der Woche diskutiert Eberhard Wolff, Lisa Schäfer, Ralf D. Müller
+oder Lucas Dohmen bei Software-Architektur im Live-Stream auf YouTube, Twitch
+und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
+Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
+steht danach als Video und Podcast zur Verfügung.
 
-## Next Episode: Friday 2026-09-25 Dirk Breuer
+## Nächste Folge am Freitag 2026-09-25: Simple Cloud in der Praxis mit Lucas Dohmen & Dirk Breuer
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="KYGpF6pZADg" -->
-<!--    image-url="/thumbnails/episode334.png" %} -->
+Wie betreibt man eine Webanwendung in der Simple Cloud – also auf transparenter
+Basis-Infrastruktur (VPS, Networking, Firewalls) ohne Cloud-Managed-Services?
+Mit [Dirk Breuer](https://codelater.de) bespreche ich, wie unser Setup bei
+fejo.dk, einem der führenden Portale, um Ferienhäuser in Dänemark zu buchen,
+funktioniert und wie wir dabei auf Einfachheit gesetzt haben. Wir gehen das
+Setup durch: von Terraform über Ansible zu Docker und Capistrano. Wir freuen
+uns auf eure Fragen vorab auf
+[Mastodon](https://podcasts.social/@maschinenraum) oder LinkedIn oder live bei
+der Aufnahme.
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.linkedin.com/events/7505290025190940673/">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  </section> -->
+{ include youtube.html
+ youtube-video-id="5L1xBA2A6us"
+   image-url="/thumbnails/episode338.png" %}
+
+ <section id="content-links">
+ 	<a href="https://www.linkedin.com/events/7507805199416270848">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ </section>
 
 <!-- [Event at treff.tech](https://treff.tech/events/beb9c703-5ec7-4941-97dd-6082cc7de3d7) -->
 
