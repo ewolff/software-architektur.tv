@@ -23,9 +23,9 @@ uns auf eure Fragen vorab auf
 [Mastodon](https://podcasts.social/@maschinenraum) oder LinkedIn oder live bei
 der Aufnahme.
 
-<!-- {%- include youtube.html -->
-<!--  youtube-video-id="5L1xBA2A6us" -->
-<!--    image-url="/thumbnails/episode338.png" %} -->
+{% include youtube.html
+ youtube-video-id="5L1xBA2A6us"
+   image-url="/thumbnails/episode338.png" %}
 
  <section id="content-links">
  	<a href="https://www.linkedin.com/events/7507805199416270848">LinkedIn</a>
