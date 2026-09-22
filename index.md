@@ -23,7 +23,7 @@ uns auf eure Fragen vorab auf
 [Mastodon](https://podcasts.social/@maschinenraum) oder LinkedIn oder live bei
 der Aufnahme.
 
-{ include youtube.html
+{%- include youtube.html
  youtube-video-id="5L1xBA2A6us"
    image-url="/thumbnails/episode338.png" %}
 
