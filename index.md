@@ -13,6 +13,9 @@ steht danach als Video und Podcast zur Verfügung.
 
 ## Nächste Folge am Freitag 2026-09-25: Simple Cloud in der Praxis mit Lucas Dohmen & Dirk Breuer
 
+_Diese Episode ist eine Kollaboration zwischen "Software Architektur im Stream"
+und dem Spin-Off [maschinenraum](https://maschinenraum.fm)._
+
 Wie betreibt man eine Webanwendung in der Simple Cloud – also auf transparenter
 Basis-Infrastruktur (VPS, Networking, Firewalls) ohne Cloud-Managed-Services?
 Lucas Dohmen bespricht mit [Dirk Breuer](https://codelater.de), wie ihr Setup bei
@@ -23,6 +26,10 @@ Setup durch: von Terraform über Ansible zu Docker und Capistrano.
 Wir freuen uns auf eure Fragen vorab auf
 [Mastodon](https://podcasts.social/@maschinenraum) oder LinkedIn oder live bei
 der Aufnahme.
+
+Beim neuen Podcast [maschinenraum](https://maschinenraum.fm) dreht sich alles
+um Webentwicklung, Operations und Design – von Menschen, die Hands-on arbeiten.
+Jeden Monat lädt [Lucas Dohmen](https://lucas.dohmen.io) einen Gast ein.
 
 {% include youtube.html
  youtube-video-id="5L1xBA2A6us"
