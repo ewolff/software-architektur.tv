@@ -1,6 +1,6 @@
 # 🚀 Surviving the AI-Native Era: From Pull Requests to Personal IDEs
 
-What does the future of software development look like when AI enters the game? In this eye-opening episode of Software-Architektur im Stream, we dive deep with Sander Hoogendoorn into how teams are fundamentally rethinking their entire approach to building software.
+What does the future of software development look like when AI enters the game? In this episode of Software-Architektur im Stream, we dive deep with Sander Hoogendoorn into how teams are fundamentally rethinking their entire approach to building software.
 
 **Key takeaways:**
 
@@ -22,4 +22,4 @@ Tune in to hear why automation and smart architecture matter more than throwing 
 
 **See you at the Software Architecture Gathering in Berlin (Nov 16-19)? Use code SATV_15 for 15% off!**
 
-#SoftwareArchitecture #AI #Agile #DevOps #ProductEngineering #TrunkBasedDevelopment
+Watch or listen to the full episode here: https://software-architektur.tv/2026/09/18/surviving-the-ai-native-era-with-sander-hoogendoorn.html
