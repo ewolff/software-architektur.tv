@@ -27,8 +27,8 @@ simplify front-end architecture, reduce dependency on frameworks like React,
 and help developers ship faster and more maintainably. Tune in to discover how
 web development is being reimagined.
 
-Both Dylan and Lucas will be onsite at the upcoming Software Architecture
-Gathering (16-19th Nov. 2026, Berlin), where Dylan will talk about "Open
+Both Dylan and Lucas will be onsite at the upcoming [Software Architecture
+Gathering](https://www.software-architecture-gathering.com) (16-19th Nov. 2026, Berlin), where Dylan will talk about "Open
 Source, Open Mind: The Cost of Free Software" and Lucas will co-host the
 speaker panel “Friction is a Feature: Navigating the Inevitable Tensions of
 Software Architecture (Fish Bowl)”. Use the discount code `SATV_15` for 15% off
@@ -58,9 +58,6 @@ month, [Lucas Dohmen](https://lucas.dohmen.io) invites a guest.
 
 Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rabatt-Codes:
 
-* [BEDcon](https://bed-con.org/2026/)
-  * 2026-09-23 - 24, Berlin
-  * [Code A-ARCH205 40€ Rabatt](https://pretix.eu/bedcon-berlin/2026/redeem?voucher=A-ARCH205)
 * [Training "kollaborative Modellierung" bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
   * Code
 [SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4978817) 20% auf den normalen Ticketpreis bis 2026-10-04 
