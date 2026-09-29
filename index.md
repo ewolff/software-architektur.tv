@@ -11,7 +11,7 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## Next episode on 2026-10-02: The Power of Modern CSS with Lucas Dohmen & Dylan Beattie
+## Next episode on 2026-10-02 13:00 CEST: The Power of Modern CSS with Lucas Dohmen & Dylan Beattie
 
 _This episode is a collaboration between "Software Architektur im Stream"
 and the spin-off [maschinenraum](https://maschinenraum.fm)._
