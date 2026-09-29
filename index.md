@@ -54,6 +54,38 @@ month, [Lucas Dohmen](https://lucas.dohmen.io) invites a guest.
 
 <!-- [Event at treff.tech](https://treff.tech/events/c7e57223-7040-4797-81da-91322f2fd162) -->
 
+## 2026-10-06 9:15 CEST Der Architektur-Turing-Test
+
+Wir stellen einen Menschen und eine KI vor dieselbe Architekturfrage
+und bitten beide, ihre Empfehlung kurz und knackig zu formulieren: mit
+Architekturentscheidung, Begründung, Diagramm und bei Bedarf einem
+kurzen Code-Beispiel.
+
+Diese beiden Entscheidungen legen wir euch vor, natürlich ohne zu
+verraten, wer welche geschrieben hat. Dazu jeweils zwei Fragen:
+
+- Welche Empfehlung stammt vom Menschen?
+- Welche Empfehlung würdet ihr in eurem eigenen Projekt umsetzen?
+
+Damit die ADRs greifbar bleiben, arbeiten wir an einem durchgehenden
+Beispielprojekt, das mit jedem ADR weiter wächst.
+
+Am Ende interessiert uns vor allem eins: Wie gut trifft die KI eine
+Architekturentscheidung, wenn sie dieselben Fakten vor sich hat wie
+wir?
+
+Dies ist die [Keynote für die Software Architecture Info  Days](https://www.infodays.de/sa/programm/konferenzprogramm/details/keydi-1).
+
+{% include youtube.html
+ youtube-video-id="iiNWOeQaJIY"
+   image-url="/thumbnails/folge340.png" %}
+
+ <section id="content-links">
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7510745377298366465">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ </section>
+
 ## Der Stream bei Konferenzen und Trainings
 
 Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rabatt-Codes:
