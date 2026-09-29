@@ -52,7 +52,7 @@ month, [Lucas Dohmen](https://lucas.dohmen.io) invites a guest.
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
  </section>
 
-<!-- [Event at treff.tech](https://treff.tech/events/c7e57223-7040-4797-81da-91322f2fd162) -->
+[Event at treff.tech](https://treff.tech/events/e2aa6298-fc08-43c2-8cc8-e8dd80ac935b) 
 
 ## 2026-10-06 9:15 CEST Der Architektur-Turing-Test
 
@@ -85,6 +85,8 @@ Dies ist die [Keynote für die Software Architecture Info  Days](https://www.inf
  	<a href="https://www.linkedin.com/events/7510745377298366465">LinkedIn</a>
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
  </section>
+
+[Termin bei treff.tech](https://treff.tech/events/64769ed1-a6e6-4c3a-9ddc-4928b04cac1e) 
 
 ## Der Stream bei Konferenzen und Trainings
 
