@@ -11,37 +11,48 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## Nächste Folge am Freitag 2026-09-25: Simple Cloud in der Praxis mit Lucas Dohmen & Dirk Breuer
+## Next episode on 2026-10-02: The Power of Modern CSS with Lucas Dohmen & Dylan Beattie
 
-_Diese Episode ist eine Kollaboration zwischen "Software Architektur im Stream"
-und dem Spin-Off [maschinenraum](https://maschinenraum.fm)._
+_This episode is a collaboration between "Software Architektur im Stream"
+and the spin-off [maschinenraum](https://maschinenraum.fm)._
 
-Wie betreibt man eine Webanwendung in der Simple Cloud – also auf transparenter
-Basis-Infrastruktur (VPS, Networking, Firewalls) ohne Cloud-Managed-Services?
-Lucas Dohmen bespricht mit [Dirk Breuer](https://codelater.de), wie ihr Setup bei
-fejo.dk, einem der führenden Portale, um Ferienhäuser in Dänemark zu buchen,
-funktioniert und wie sie dabei auf Einfachheit gesetzt haben. Sie gehen das
-Setup durch: von Terraform über Ansible zu Docker und Capistrano.
+In this special episode of Software-Architektur im Stream and maschinenraum.fm,
+host Lucas Dohmen sits down with web development veteran Dylan Beattie to
+explore the surprising power of modern CSS. Long dismissed as a mere styling
+tool, CSS has evolved into a robust language for layout, animation,
+accessibility, and complex interactions — often eliminating the need for heavy
+JavaScript frameworks. Drawing on decades of experience building for the open
+web, Dylan shares how combining semantic HTML with contemporary CSS can
+simplify front-end architecture, reduce dependency on frameworks like React,
+and help developers ship faster and more maintainably. Tune in to discover how
+web development is being reimagined.
 
-Wir freuen uns auf eure Fragen vorab auf
-[Mastodon](https://podcasts.social/@maschinenraum) oder LinkedIn oder live bei
-der Aufnahme.
+Both Dylan and Lucas will be onsite at the upcoming Software Architecture
+Gathering (16-19th Nov. 2026, Berlin), where Dylan will talk about "Open
+Source, Open Mind: The Cost of Free Software" and Lucas will co-host the
+speaker panel “Friction is a Feature: Navigating the Inevitable Tensions of
+Software Architecture (Fish Bowl)”. Use the discount code `SATV_15` for 15% off
+to join them onsite.
 
-Beim neuen Podcast [maschinenraum](https://maschinenraum.fm) dreht sich alles
-um Webentwicklung, Operations und Design – von Menschen, die Hands-on arbeiten.
-Jeden Monat lädt [Lucas Dohmen](https://lucas.dohmen.io) einen Gast ein.
+You can ask questions before the show on
+[Mastodon](https://podcasts.social/@maschinenraum) or LinkedIn or live during
+the show.
+
+The new podcast [maschinenraum](https://maschinenraum.fm) is all about web
+development, operations and design - from people working hands-on.  Every
+month, [Lucas Dohmen](https://lucas.dohmen.io) invites a guest.
 
 {% include youtube.html
- youtube-video-id="5L1xBA2A6us"
-   image-url="/thumbnails/episode338.png" %}
+ youtube-video-id="JYe8of-ukVs"
+   image-url="/thumbnails/episode339.png" %}
 
  <section id="content-links">
- 	<a href="https://www.linkedin.com/events/7507805199416270848">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7510698990280212480?viewAsMember=true">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
  </section>
 
-[Event at treff.tech](https://treff.tech/events/c7e57223-7040-4797-81da-91322f2fd162)
+<!-- [Event at treff.tech](https://treff.tech/events/c7e57223-7040-4797-81da-91322f2fd162) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
