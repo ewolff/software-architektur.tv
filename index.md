@@ -94,7 +94,7 @@ Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rab
 
 * [Training "kollaborative Modellierung" bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
   * Code
-[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4978817) 20% auf den normalen Ticketpreis bis 2026-10-04 
+[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4983797) 20% auf den normalen Ticketpreis bis 2026-11-01 
 * [iSAQB Software Architecture Gathering
   2026](https://www.software-architecture-gathering.com/)
   * 2026-11-16 - 19, Berlin
