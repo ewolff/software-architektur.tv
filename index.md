@@ -11,49 +11,6 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## 2026-10-02 13:00 CEST: The Power of Modern CSS with Lucas Dohmen & Dylan Beattie
-
-_This episode is a collaboration between "Software Architektur im Stream"
-and the spin-off [maschinenraum](https://maschinenraum.fm)._
-
-In this special episode of Software-Architektur im Stream and maschinenraum.fm,
-host Lucas Dohmen sits down with web development veteran Dylan Beattie to
-explore the surprising power of modern CSS. Long dismissed as a mere styling
-tool, CSS has evolved into a robust language for layout, animation,
-accessibility, and complex interactions — often eliminating the need for heavy
-JavaScript frameworks. Drawing on decades of experience building for the open
-web, Dylan shares how combining semantic HTML with contemporary CSS can
-simplify front-end architecture, reduce dependency on frameworks like React,
-and help developers ship faster and more maintainably. Tune in to discover how
-web development is being reimagined.
-
-Both Dylan and Lucas will be onsite at the upcoming [Software Architecture
-Gathering](https://www.software-architecture-gathering.com) (16-19th Nov. 2026, Berlin), where Dylan will talk about "Open
-Source, Open Mind: The Cost of Free Software" and Lucas will co-host the
-speaker panel “Friction is a Feature: Navigating the Inevitable Tensions of
-Software Architecture (Fish Bowl)”. Use the discount code `SATV_15` for 15% off
-to join them onsite.
-
-You can ask questions before the show on
-[Mastodon](https://podcasts.social/@maschinenraum) or LinkedIn or live during
-the show.
-
-The new podcast [maschinenraum](https://maschinenraum.fm) is all about web
-development, operations and design - from people working hands-on.  Every
-month, [Lucas Dohmen](https://lucas.dohmen.io) invites a guest.
-
-{% include youtube.html
- youtube-video-id="JYe8of-ukVs"
-   image-url="/thumbnails/episode339.png" %}
-
- <section id="content-links">
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7510698990280212480">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- </section>
-
-[Event at treff.tech](https://treff.tech/events/e2aa6298-fc08-43c2-8cc8-e8dd80ac935b) 
-
 ## 2026-10-06 9:15 CEST Der Architektur-Turing-Test
 
 Wir stellen einen Menschen und eine KI vor dieselbe Architekturfrage
