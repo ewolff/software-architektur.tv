@@ -11,39 +11,19 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## 2026-10-06 9:15 CEST Der Architektur-Turing-Test
+## 2026-10-16 13:00 CEST Ralf with Avraham Poupko
 
-Wir stellen einen Menschen und eine KI vor dieselbe Architekturfrage
-und bitten beide, ihre Empfehlung kurz und knackig zu formulieren: mit
-Architekturentscheidung, Begründung, Diagramm und bei Bedarf einem
-kurzen Code-Beispiel.
+<!-- { include youtube.html -->
+<!--  youtube-video-id="iiNWOeQaJIY" -->
+<!--    image-url="/thumbnails/folge340.png" %} -->
 
-Diese beiden Entscheidungen legen wir euch vor, natürlich ohne zu
-verraten, wer welche geschrieben hat. Dazu jeweils zwei Fragen:
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  	<a href="https://www.linkedin.com/events/7510745377298366465">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  </section> -->
 
-- Welche Empfehlung stammt vom Menschen?
-- Welche Empfehlung würdet ihr in eurem eigenen Projekt umsetzen?
-
-Damit die ADRs greifbar bleiben, arbeiten wir an einem durchgehenden
-Beispielprojekt, das mit jedem ADR weiter wächst.
-
-Am Ende interessiert uns vor allem eins: Wie gut trifft die KI eine
-Architekturentscheidung, wenn sie dieselben Fakten vor sich hat wie
-wir?
-
-Dies ist die [Keynote für die Software Architecture Info  Days](https://www.infodays.de/sa/programm/konferenzprogramm/details/keydi-1).
-
-{% include youtube.html
- youtube-video-id="iiNWOeQaJIY"
-   image-url="/thumbnails/folge340.png" %}
-
- <section id="content-links">
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7510745377298366465">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- </section>
-
-[Termin bei treff.tech](https://treff.tech/events/64769ed1-a6e6-4c3a-9ddc-4928b04cac1e) 
+<!-- [Termin bei treff.tech](https://treff.tech/events/64769ed1-a6e6-4c3a-9ddc-4928b04cac1e)  -->
 
 ## Der Stream bei Konferenzen und Trainings
 

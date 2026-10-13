@@ -8,7 +8,5 @@ description: Überblick über die geplanten Folgen
 
 |            Datum | Thema / Gäste                                          |
 |-----------------:|:-------------------------------------------------------|
-| 2026-10-09 13:00 | Lisa mit Sandra Parsick                                |
-| 2026-10-16 13:00 | Ralf with Avraham Poupko                               |
 | 2026-10-23 13:00 | Lisa mit Marcel Koch.                                  |
 | 2026-10-30 13:00 | Self-contained Systems mit Joahnnes Seitz, Silvia Schreier und Simon Martinelli |
