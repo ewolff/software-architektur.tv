@@ -23,7 +23,7 @@ But what is a team, really? Not a group. Not a workforce. A team is something ol
 
 In this episode, Avraham Poupko and Ralf D. Müller explore what it actually means for an AI to be a teammate rather than a tool.
 
-{ include youtube.html 
+{% include youtube.html 
  youtube-video-id="YiiiuHs3xto" 
     image-url="/thumbnails/folge341.png" %} 
 
