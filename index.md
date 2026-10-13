@@ -13,17 +13,27 @@ steht danach als Video und Podcast zur Verfügung.
 
 ## 2026-10-16 13:00 CEST Ralf with Avraham Poupko
 
-<!-- { include youtube.html -->
-<!--  youtube-video-id="iiNWOeQaJIY" -->
-<!--    image-url="/thumbnails/folge340.png" %} -->
+### My Teammates Can't Dream (But they sure can hallucinate)
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  	<a href="https://www.linkedin.com/events/7510745377298366465">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  </section> -->
+We are rapidly moving from AI as a tool to AI as a participant.
 
-<!-- [Termin bei treff.tech](https://treff.tech/events/64769ed1-a6e6-4c3a-9ddc-4928b04cac1e)  -->
+Agentic systems now write code, review designs, raise flags, and hold context across long-running tasks. We are, whether we intend it or not, building teams that include non-human members.
+
+But what is a team, really? Not a group. Not a workforce. A team is something older and stranger. Perhaps it begins with family, with the commitment to show up even when it is costly, with the shared meaning that makes humans build, play, march, dance, and sacrifice together.
+
+In this episode, Avraham Poupko and Ralf D. Müller explore what it actually means for an AI to be a teammate rather than a tool.
+
+{ include youtube.html 
+ youtube-video-id="YiiiuHs3xto" 
+    image-url="/thumbnails/folge341.png" %} 
+
+ <section id="content-links">
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7515819835109429248">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
+ </section> 
+
+[Termin bei treff.tech](https://treff.tech/events/64769ed1-a6e6-4c3a-9ddc-4928b04cac1e)  
 
 ## Der Stream bei Konferenzen und Trainings
 
