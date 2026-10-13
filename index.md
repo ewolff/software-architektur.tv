@@ -33,7 +33,7 @@ In this episode, Avraham Poupko and Ralf D. Müller explore what it actually mea
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
  </section> 
 
-[Termin bei treff.tech](https://treff.tech/events/64769ed1-a6e6-4c3a-9ddc-4928b04cac1e)  
+[Termin bei treff.tech](https://treff.tech/events/ca4fc7f6-c843-4891-bbcf-c5aa244945cc)  
 
 ## Der Stream bei Konferenzen und Trainings
 
