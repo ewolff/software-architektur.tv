@@ -11,9 +11,7 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## 2026-10-16 13:00 CEST Ralf with Avraham Poupko
-
-### My Teammates Can't Dream (But they sure can hallucinate)
+## 2026-10-16 13:00 CEST Ralf with Avraham Poupko: My Teammates Can't Dream (But they sure can hallucinate)
 
 We are rapidly moving from AI as a tool to AI as a participant.
 
