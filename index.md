@@ -19,7 +19,7 @@ Agentic systems now write code, review designs, raise flags, and hold context ac
 
 But what is a team, really? Not a group. Not a workforce. A team is something older and stranger. Perhaps it begins with family, with the commitment to show up even when it is costly, with the shared meaning that makes humans build, play, march, dance, and sacrifice together.
 
-In this episode, Avraham Poupko and Ralf D. Müller explore what it actually means for an AI to be a teammate rather than a tool.
+In this episode, <a href="https://www.linkedin.com/in/avrahampoupko/">Avraham Poupko</a> from <a href="https://www.linkedin.com/company/imperva/">Imperva</a> (part of <a href="https://www.linkedin.com/company/thalescloudsec/">Thales Cybersecurity Products</a>) and Ralf D. Müller explore what it actually means for an AI to be a teammate rather than a tool.
 
 {% include youtube.html 
  youtube-video-id="YiiiuHs3xto" 
