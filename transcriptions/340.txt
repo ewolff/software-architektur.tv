@@ -1,0 +1,1828 @@
+# Der Architektur-Turing-Test
+
+Software Architektur im Stream, Folge 340, 2026-10-06.
+Ralf und Eberhard lassen das Publikum entscheiden, ob ADRs von KI oder Menschen geschrieben wurden.
+Seite: https://software-architektur.tv/2026/10/06/der-architektur-turing-test.html
+YouTube: https://www.youtube.com/watch?v=iiNWOeQaJIY
+PeerTube: https://tube.tchncs.de/w/bTmpUYT2jaopdhgohFp2sQ
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/der-architektur-turing-test.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Wir stellen einen Menschen und eine KI vor dieselbe Architekturfrage
+und bitten beide, ihre Empfehlung kurz und knackig zu formulieren: mit
+Architekturentscheidung, Begründung, Diagramm und bei Bedarf einem
+kurzen Code-Beispiel.
+
+Diese beiden Entscheidungen legen wir euch vor, natürlich ohne zu
+verraten, wer welche geschrieben hat. Dazu jeweils zwei Fragen:
+
+- Welche Empfehlung stammt vom Menschen?
+- Welche Empfehlung würdet ihr in eurem eigenen Projekt umsetzen?
+
+Damit die ADRs greifbar bleiben, arbeiten wir an einem durchgehenden
+Beispielprojekt, das mit jedem ADR weiter wächst.
+
+Am Ende interessiert uns vor allem eins: Wie gut trifft die KI eine
+Architekturentscheidung, wenn sie dieselben Fakten vor sich hat wie
+wir?
+
+Dies ist die [Keynote für die Software Architecture Info  Days](https://www.infodays.de/sa/programm/konferenzprogramm/details/keydi-1).
+
+## Links
+
+- [KI-generierte Architektur-Dokumentation](https://llm-coding.github.io/fahrrad-reparatur-architektur/)
+
+## Zusammenfassung
+
+Im Rahmen einer Keynote auf den Infodays stellten die Softwarearchitekten Eberhard Wolff und Ralf D. Müller ein interessantes Experiment vor: den sogenannten „Architektur-Turing-Test". Das Ziel war herauszufinden, ob künstliche Intelligenz genauso gute Architekturentscheidungen treffen kann wie erfahrene Menschen.
+
+### Das Experiment: Fahrrad-Reparaturshop als Testfall
+
+Als Grundlage für das Experiment diente ein praktisches Szenario: ein kleiner Fahrrad-Reparaturshop mit wenigen Mitarbeitern, integriertem Webshop und umfangreichen digitalen Anforderungen. Für dieses Beispiel ist im Rahmen einiger anderen Episoden bereits eine Architektur entstanden. Das Team präsentierte drei Architecture Decision Records (ADRs) – dokumentierte Architekturentscheidungen – in Paaren: jeweils eine menschliche und eine von Claude Opus KI-generierte Variante. Die Zuschauer sollten blind abstimmen, welche Lösung besser passt und welche von der KI stammt.
+
+### Spannung pur: Die Ergebnisse
+
+Die Ergebnisse waren überraschend ausgeglichen. Beim ersten ADR zur Authentifizierung bevorzugten die Zuschauer die KI-Lösung (mit 18 gegen 4 Stimmen), erkannten aber nicht, welche Variante vom Menschen stammt. Bei der Frontend-Technologie lagen sie bei der KI-Generierung richtig, bevorzugten aber die menschliche Variante. Beim dritten ADR zur Verfügbarkeit war das Ergebnis dasselbe.
+
+### Was die KI besser machte
+
+Die von Claude Opus generierten ADRs zeichneten sich durch Detailorientierung aus. Die KI verband alle vorangegangenen Entscheidungen, referenzierte Qualitätsszenarien und Risiken systematisch und erstellte aus den Podcast-Transkripten über die Entwicklung der Architektur eine arc42-Dokumentation mit Zeitmarken. Dies zeigt, dass KI exzellent darin ist, Komplexität zu strukturieren und Zusammenhänge herzustellen.
+
+### Die menschliche Perspektive siegt durch Domänenwissen
+
+Eberhard Wolff hingegen profitierte von echtem Domänenwissen. Er stellte kritische Fragen: Warum ist eine vollständige Authentifizierung für Reparaturstatus-Abfragen notwendig sein? Ist es vielleicht sogar besser, wenn man einen Reparatur-Termin ohne Account erstellen kann? Diese hinterfragenden Perspektiven entsteht aus einem echten Verständnis der Anforderungen und Constraints sowie der Fähigkeit zum kritischen Denken.
+
+### Das Wichtigste: Kollaborative Entscheidungsfindung
+
+Ein entscheidender Erkenntnisgewinn: Architekturentscheidungen funktionieren in der Praxis nur als kollaborativer Prozess. Weder eine KI im stillen Kämmerlein noch ein einzelner Mensch produziert optimale Ergebnisse. Input von Domänen-Expert:innen und Techniker:innen ist immer notwendig. Eine KI kann nur als unterstützendes Werkzeug dienen – um Trade-offs zu identifizieren, alternative Optionen zu generieren und blinde Flecken zu beleuchten.
+
+### Fazit
+
+Der Architektur-Turing-Test zeigt: KI ist kein Architektur-Ersatz, sondern ein möglicher Sparringspartner. Sie glänzt bei Dokumentation, Konsistenzprüfung und systematischer Analyse. Menschen bringen Domänenwissen, kritisches Hinterfragen und strategisches Denken mit. Vermutlich ist die menschliche Komponente sogar wichtiger als ein bloßes Ermitteln verschiedener technischer Optionen. Ein Experiment mit wichtigen Lektionen für die Softwareentwicklung der Zukunft.
+
+## Stichpunkte
+
+- In nur einem von drei Fällen wurde der KI-generierte Architecture Decision Records (ADRs) besser als der menschliche Entwurf bewertet.
+
+- Nur in dem einen Fall, wo die Zuschauer:innen die KI-Lösung vorzogen, wurde die KI-Lösung nicht richtig identifiziert.
+
+- Das Experiment hat eine begrenzte Aussagekraft: Architekturentscheidungen sollten stets kollaborativ mit Stakeholdern, Entwicklern und Domain-Experten getroffen werden, nicht isoliert.
+
+### Behandelte Kernfragen
+
+- Wie sollten Mitarbeiter im Reparatur-Shop sich authentifizieren, wenn Kunden bereits über den Webshop ein Login haben?
+
+- Welche Frontend-Technologie eignet sich am besten für ein System mit kleinem Team und hohen Benutzerfreundlichkeitsanforderungen?
+
+- Wie kann das Reparatursystem die geforderte Verfügbarkeit von 99,9% erreichen, wenn es auf den Login aus dem Webshop angewiesen ist?
+
+- Sollten servergerenderte Seiten oder Single-Page-Applications für unterschiedliche Nutzergruppen (Kunden, Werkstatt, Laden) eingesetzt werden?
+
+- In welchem Maße sind Reparaturstatus-Informationen und Terminvergabe wirklich schützenswert?
+
+- Wie kann das System später als SaaS-Lösung mit minimalem Aufwand (20 Personentage) erweitert werden?
+
+### Glossar wichtiger Begriffe
+
+- **Architecture Decision Record (ADR)**: Ein dokumentiertes Architektur-Entscheidungsprotokoll, das den Kontext, die Optionen, die Entscheidung, deren Begründung und Konsequenzen festhält.
+
+- **JWT-Token (JSON Web Token)**: Ein signiertes Token im JSON-Format, das Benutzerinformationen enthält und zur Authentifizierung verwendet wird, typischerweise als Cookie übertragen.
+
+- **Self-Contained-Systems**: Architekturmuster, bei dem vertikale Slices mit eigener Präsentation, Geschäftslogik und Datenspeicherung unabhängig voneinander funktionieren.
+
+- **Single-Page-Application (SPA)**: Eine Webanwendung, die im Browser lädt und dynamisch Inhalte rendert, statt vollständige Seiten vom Server zu laden.
+
+- **Verfügbarkeit (Availability)**: Ein Qualitätsziel, das angibt, wie lange ein System ohne Unterbrechung zur Verfügung stehen soll, oft als Prozentwert (z.B. 99,9%) ausgedrückt.
+
+- **SaaS (Software-as-a-Service)**: Ein Geschäftsmodell, bei dem Software als gehosteter Service über das Internet bereitgestellt wird, statt als lokale Installation.
+
+### Genannte Technologien
+
+- **Keycloak**: Open-Source-Identitätsverwaltungs- und Zugriffsverwaltungslösung für standardisierte Authentifizierung.
+
+- **Auth0**: Cloud-basierter Identity-as-a-Service-Provider für sichere Benutzerauthentifizierung und -verwaltung.
+
+- **Spring Security**: Java-Framework zur Implementierung von Sicherheitsfeatures mit reduzierter Abhängigkeit von spezifischen Authentifizierungslösungen.
+
+- **Claude Opus 3.5**: Large Language Model von Anthropic, das für die KI-generierten ADRs verwendet wurde.
+
+- **Whisper**: OpenAI-Spracherkennungstool, das in der Podcasterstellung zur Transkription von Audio verwendet wurde.
+
+- **arc42**: Architektur-Dokumentationstemplate zur strukturierten Darstellung von Softwarearchitekturen mit standardisierten Abschnitten.
+
+## Transkript
+
+## Der Architektur-Turing-Test
+
+So, dann herzlich willkommen zur Keynote von den Infodays und gleichzeitig einem Software-Architektur im Stream Stream.
+
+Wir wollen sprechen über den Architektur-Turing-Test.
+
+Ich bin Eberhard Wolff, genau, und Ralf ist der andere Kollege.
+
+Ja, kurz über mich.
+
+Ich mache ganz viel so im Bereich Software-Architektur.
+
+Ich bin da Berater und wir machen eben gemeinsam auch Software-Architektur im Stream und da irgendwie Sachen zum Thema Software-Architektur und sind eingeladen worden, die Keynote zu machen und freuen uns hier sein zu dürfen und diese Einladung und freuen uns halt über die Einladung und es geht halt darum, dass wir verschiedene Architektur-Entscheidungen haben und jetzt irgendwie schauen wollen, ob man herausfinden kann, ob das AI oder Mensch ist und außerdem schauen wollen, welches die bessere Entscheidung ist.
+
+Ralf, willst du noch zwei Worte über dich sagen?
+
+Ja, ich mache viel mit KI.
+
+Ich mache viel zu viel mit KI.
+
+Das ist viel zu ungesund und deswegen freue ich mich, dass ich hier KI einsetzen konnte hier bei dem Architekt-Turing-Test, genau.
+
+Und das war das andere, wir haben es gerade auf der Folie geschrieben, es sind mindestens bei Heise in den Kommentaren und auch bei LinkedIn hat der Tom Aase gesagt, dass es ja eigentlich Architekturing-Test heißen sollte und deswegen haben wir das Tour dann hier nochmal durchgestrichen.
+
+Genau.
+
+Dann fangen wir an, oder?
+
+Das würde ich denken, genau.
+
+Und mir kommt die Ehre zuteil, den Anfang zu diskutieren.
+
+Die Frage ist ja, in welchem Kontext wir jetzt diese Architekturentscheidungen, das sind halt ADRs, definieren wollen.
+
+Und dafür haben wir uns so einen Fahrrad-Reparaturshop ausgedacht.
+
+Das ist ja etwas, was ich im Stream tatsächlich mal benutzt habe, um eine Architektur aufzubauen.
+
+Und dadurch gibt es da halt irgendwie schon diverse Dinge rund um die Architektur.
+
+Und wir haben hier jetzt drei ADRs, die das halt so ein bisschen erweitern, also Architecture Decision Records.
+
+Und hier ist so ein KI-generiertes Bild von einem Fahrrad-Reparaturshop.
+
+Wenn man genau hinguckt, würde ich bei diesem Fahrrad-Reparaturshop nicht arbeiten lassen, weil das Oberrohr von diesem Fahrrad ist irgendwie kaputt.
+
+Ich glaube, auch die zweite Pedale fehlt.
+
+Die müsste eigentlich sichtbar sein.
+
+Ja, auch ein guter Punkt.
+
+Genau.
+
+Und Bremsen hat das Fahrrad auch nicht, braucht es auch nicht.
+
+Kurz noch eine Meta-Sache, die habe ich vergessen.
+
+Fragen sehr gerne hier im Chat beantworten wir sehr gerne.
+
+Vorhin in der Begrüßung hieß es ja auch, dass das eben eine Sache ist, die vorteilhaft ist.
+
+Man kann hier also einfach so Fragen reinwerfen und die beantworten wir sehr gerne.
+
+Das ist einer der Gründe, warum wir irgendwie dieses Stream-Format haben, um genau diese Interaktivität hinzubekommen.
+
+Gut, dann gucken wir uns mal die nächste Folie an.
+
+Genau, das heißt, wir haben einen relativ kleinen Shop, so mit einigen wenigen Mitarbeitenden.
+
+Wir haben einen Webshop, über den Webshop kann man Sachen bestellen und irgendwie gibt es auch eine Integration Richtung Reparatursystem.
+
+Man soll irgendwie Reparaturen mindestens bezahlen können und irgendwie auch Reparaturtermine anfragen können.
+
+Ich habe, wie gesagt, das in drei Folgen irgendwie mal ausgewalzt, also über drei Stunden insgesamt, wie man das bauen kann.
+
+Und wir machen jetzt halt drei weitere ADRs, die so ein bisschen offen geblieben sind und diskutieren die.
+
+Und wir sehen auf der nächsten Folie dann ein Kontextdiagramm.
+
+Das ist auch tatsächlich von der Episode sozusagen ein Screen, fast ein Screenshot.
+
+Bei der Episode war das halt horizontal.
+
+Ich habe das hier nochmal quatschfertig gemacht.
+
+Ich habe das hier horizontal umgemalt.
+
+Also es gibt halt Menschen, die dieses System benutzen.
+
+Sie shoppen MitarbeiterInnen, die halt irgendwie Fahrräder entgegennehmen.
+
+Das ist, glaube ich, das, was sie im Wesentlichen tun.
+
+Dann gibt es die FahrradmechanikerInnen, die halt sich hinstellen und sagen, okay, was habe ich mit dem Fahrrad eigentlich getan?
+
+Dann wird irgendwie Zeit erfasst.
+
+Die eingebauten Ersatzteile werden erfasst.
+
+Und dann gibt es irgendwie KundInnen, die halt gerne einen Termin haben wollen.
+
+Das sind so im Wesentlichen die drei Akteure, die es da halt gibt.
+
+Und dann gibt es halt an weiteren Systemen ein SMS und ein E-Mail-Versand, um halt Informationen über Termine und so etwas halt rauszuschicken.
+
+Dann gibt es eine Integration mit der Kasse, weil man ja Dinge bezahlen möchte.
+
+Dann gibt es eine Integration mit einem Online-Payment-System.
+
+Wenn ich es richtig entsinne, über den Webshop.
+
+Dann gibt es halt eine Integration zu dem Rechnungssystem, weil ich halt die Rechnung erstellen muss und die halt in die Buchhaltung müssen.
+
+Integration zum Webshop, habe ich schon gesagt, da kann man irgendwie Termine buchen für eine Reparatur.
+
+Und dann gibt es halt insbesondere, das ist auch etwas, was uns noch verfolgen wird, das ist eine Grundlage für einen der ADRs, eine Integration mit der Webshop-User-Datenbank.
+
+Das heißt, an der Stelle, wo ich jetzt sage, ich möchte gerne eine Reparatur machen, kann ich halt sagen, ich bin übrigens der Eberhard und ich bin bei euch Kunde.
+
+Und dann gehe ich halt zu der Webshop-User-Datenbank und authentifiziere mich halt da drüber.
+
+Ich glaube, das ist ein wichtiger Punkt, diese Trennung zwischen Webshop und Reparatursystem.
+
+Dass da zwei Systeme vorhanden sind, werden wir gleich noch in den ADRs merken.
+
+Genau.
+
+Und auf der nächsten Folie.
+
+Also, es gibt jetzt Qualitätsziele.
+
+Architektur wird ja getrieben durch Qualitätsziele.
+
+Und ein wesentliches Qualitätsziel ist halt Benutzerfreundlichkeit.
+
+Das heißt, wir wollen halt dafür sorgen, dass neue Mitarbeiter in sich innerhalb von einer Stunde einarbeiten können und dass man innerhalb von zwei Minuten eine Reparatur beauftragen kann.
+
+Aus meiner Sicht ist das etwas, was häufig bei Architekturarbeit ein bisschen vernachlässigt wird, dass eigentlich Benutzerfreundlichkeit häufig sehr wichtig ist.
+
+Ich glaube, hier ist das sehr spürbar.
+
+Die MitarbeiterInnen sind halt effizienter und effektiver, wenn dieses System vernünftig funktioniert.
+
+Und wir sind am Markt besser präsent, wenn wir die KundInnen mit Benutzerfreundlichkeit überzeugen.
+
+Dann kommt etwas, was tatsächlich eine Rolle spielen wird für einige von den Architekturentscheidungen, über die wir reden.
+
+Ich sollte noch in Bezug auf Benutzerfreundlichkeit sagen, da gab es dann anschließend noch eine Episode mit der Aminata, wo ich dieses Thema auch noch einmal diskutiert habe.
+
+Da könnt ihr euch anschauen, wie man sowas erreicht.
+
+Dann gibt es dieses Thema mit dem SAAS.
+
+Ich sehe auch gerade, dass das etwas ist, was anderen Leuten auch so sehen, dass Benutzerfreundlichkeit wichtig ist.
+
+Danke für den Kommentar.
+
+Bei dieser Entwicklung Richtung SAAS ist die Idee, dass man aus diesem Angebot für diese Reparaturunterstützung auch ein Software-as-a-Service anbieten kann.
+
+Wir werden vom Reparatur-Shop ein Software-Anbieter.
+
+Da war die Aussage, dass wir das innerhalb von 2 Monaten mit 20 Personentagen Aufwand auf die Reihe bekommen wollen.
+
+Wenn wir etwas bauen, sollte das etwas sein, was auch in diese Richtung erweiterbar ist.
+
+Wir haben eine bestimmte Verfügbarkeit.
+
+Dazu kommen wir später noch einmal.
+
+Das ist meiner Ansicht nach stark verkürzt.
+
+Wir differenzieren zwischen den Betriebszeiten im Shop, wo Menschen im Shop arbeiten, und den Online-Sachen.
+
+Das ist auch etwas, was noch eine Rolle spielen wird.
+
+Wir sind keine Bank.
+
+Was wir machen, ist Fahrräder reparieren.
+
+Die Beträge, die wir haben, sind höchstens Hunderte von Euro.
+
+Wenn ich jemandem ein Fahrrad rausgebe, werde ich kontrollieren, ob die Person tatsächlich die Person ist, die sie vorgibt zu sein.
+
+Viele von den Dingen, die wir im IT-System haben, werden dadurch relativiert, dass wir da noch eine zusätzliche Sicherheit haben.
+
+Das kommen wir aber noch zu.
+
+Dann kommen wir zu der nächsten Folie.
+
+Wir haben jetzt ein blindes Experiment.
+
+Das heißt, was wir jetzt als Format haben, ist erst einmal die Frage, was ist eigentlich die Frage, über die wir diskutieren wollen.
+
+Was ist der ADR, was soll das beantworten?
+
+Wir haben zwei ADRs, A und B.
+
+Eine ist von einem Menschen erstellt.
+
+Das war ich.
+
+Die andere ist von einer AI erstellt.
+
+Darum hat sich Ralf gekümmert.
+
+Aber letztendlich eben irgendeine AI.
+
+Ich weiß gar nicht, welche.
+
+Das war Claude Opus 5.
+
+Dann stimmen wir das ab.
+
+Es gibt zwei Dimensionen.
+
+Es gibt einmal die Dimension mit, ich glaube, das ist die AI.
+
+Und dann die andere Dimension mit, ich glaube, das ist der bessere Entwurf.
+
+Ich sollte noch sagen, da ist noch dieser Lautsprecher.
+
+Wir haben gerungen, wie wir das vernünftig vorstellen.
+
+Ralf ist auf die Idee gekommen zu sagen, lasst mal die AI das einfach vorlesen.
+
+Das werden wir jetzt tun.
+
+Dadurch haben wir ein neutrales Ding, was die Folien einfach vorliest.
+
+Etwas, was man normalerweise in der Präsentation nicht machen sollte.
+
+Aber hier machen wir es wegen der Neutralität.
+
+Sonst müsste einer von uns das vorstellen.
+
+Wir verraten uns möglicherweise.
+
+Dann stimmt ihr ab.
+
+Dann gibt es am Ende die Auflösung über alle drei ADRs.
+
+Damit bist du dran, Ralf.
+
+Genau.
+
+Damit möchte ich noch ein bisschen erzählen, wie das Ganze entstanden ist.
+
+Wie die AI damit umgegangen ist.
+
+Eberhard hat ja schon gesagt, dass er diese drei Folgen gemacht hat, aufgenommen hat.
+
+In diesen drei Folgen genau die Architektur erklärt hat, wie er hingekommen ist.
+
+Das hat die AI genommen.
+
+Das waren diese drei Folgen mit Sketchnotes von Lisa Maria Schäfer.
+
+Also alles sehr gut dokumentiert.
+
+Die AI hat sich tatsächlich die Folgen angeguckt.
+
+Sie hat die Videos gezogen, hat Audio von Video getrennt, hat das Ganze transkribiert und hat dann eben diese Transkription gehabt.
+
+Ihr seht vielleicht rechts schon, dann kriege ich einen Jot-Token.
+
+So schreibt man das nicht.
+
+Aber das ist, was Whisper verstanden hat.
+
+Das Faszinierende daran ist, Whisper versteht eben Wörter.
+
+Claude ist dann hergegangen und versucht aus dem Kontext die falsch verstandenen Wörter zu rekonstruieren.
+
+Unten rechts habt ihr ein QR-Code.
+
+Da kommt ihr auf die ARC42-Dokumentation des Webshops, den die AI daraus erstellt hat.
+
+Was ich da ganz cool finde, da gibt es dann natürlich so Sachen wie Qualitätskriterium.
+
+Wo wurde das eigentlich gesagt?
+
+Da hat die AI tatsächlich alle Informationen genommen und sie weiß ja, wo sie was rausgehört hat.
+
+Hat das tatsächlich eingebaut?
+
+Da gibt es Zeitmarken mit Sprüngen in diese drei MP3s.
+
+Man kann mit dem Cursor drübergehen, sieht den Text, man kann ihn sich nochmal vorlesen lassen, wenn man eben denkt, da wurde irgendwas falsch verstanden.
+
+Spannend war auch aus meiner Sicht, die AI hat 17 Entscheidungen rausgelesen.
+
+Die sind aber feingranularer als das, was man jetzt in der Architektur niedergeschrieben hätte.
+
+Aber die AI hat halt das genommen, was sie eben rausgelesen hat und damit feingranularer gearbeitet.
+
+Darf ich noch eine Sache ergänzen?
+
+Ich weiß nicht, ob du das gesagt hast, aber da unten steht halt der Link, unter dem man das halt auch angucken kann im Internet.
+
+Die andere Sache ist, die Episode ist glaube ich von 1922, die ist älter, oder 1923 oder so.
+
+Ist also mehrere Jahre alt.
+
+Ich habe jetzt auf Basis der ADS gemacht, auf der Basis von dem, was ich erinnert habe.
+
+Da sind so Mirrorboards mit zum Beispiel sowas wie diesem Kontextdiagramm.
+
+Das heißt, das, was du jetzt gerade gezeigt hast, diese ganze Dokumentation, die da entstanden ist, habe ich mir nicht angeguckt, um eben da sozusagen eine saubere Umgebung zu haben, die halt nicht AI beeinflusst ist.
+
+Genau.
+
+Was auch interessant ist mit den Mirrorboards, die KI kann tatsächlich damit umgehen.
+
+Das war vor zwei Jahren, sage ich mal, noch nicht so der Fall.
+
+Sie konnte zwar Bilder erkennen, aber sie konnte halt tatsächlich nur normale Bilder erkennen.
+
+Sie konnte mit Diagrammen nicht viel anfangen.
+
+Mittlerweile kann sie mit den Diagrammen wirklich was anfangen.
+
+Sie erkennt, wo welches Element ist, wo Verbindungen bestehen.
+
+Sie kann sogar ein Bild, wenn sie merkt, da brauche ich eine bessere Auflösung, kann sie sogar reinzoomen und sich Details angucken.
+
+Also da hat sich echt viel getan mit der KI, sodass das jetzt alles möglich ist.
+
+Genau.
+
+Und dann sind wir schon beim ersten Problem, was wir mit einem ADR lösen wollen.
+
+Stellst du es kurz vor?
+
+So hatten wir es zumindest abgesprochen.
+
+Die Frage ist, wie sich Menschen, die tatsächlich im Shop arbeiten, an diesem System anmelden.
+
+Kundinnen, da kommt auch noch ein ADR, melden sich im Wesentlichen bei dem Webshop an.
+
+Da geht es einmal um das Thema mit der Verfügbarkeit.
+
+Das heißt, wir haben bestimmte Anforderungen daran, wie verfügbar das sein soll, weil wenn das System nicht da ist, kann ich keine Temperaturen aufnehmen und das ist doof.
+
+Security ist nicht ganz so wichtig.
+
+Dann gibt es den Webshop, über den wir ja gesprochen haben.
+
+Das ist ein Shop, den die gebucht haben.
+
+Es gibt keine echte IT im Shop.
+
+Das heißt, wir nehmen an, dass das eben Menschen sind, die keine Ahnung haben davon, wie IT funktioniert und sich davon fernhalten wollen, für mich nachvollziehbar.
+
+Es gibt eine Kasse, die im Laden ist.
+
+Das sind Einflussfaktoren, die dazu geführt haben, dass der Login für Kundinnen über den Webshop funktioniert.
+
+Jetzt ist die Frage, was machen wir mit den MitarbeiterInnen, weil die sollen sich vielleicht nicht unbedingt als Kundinnen im Webshop registrieren.
+
+Das heißt, wir brauchen einen anderen Ansatz.
+
+Dann haben wir die nächste Folie.
+
+Bei dem Login im Webshop gibt es einen JWT oder Jot-Token, der genutzt wird.
+
+Das ist ein Standard mit einem JSON-Format, wo so etwas drinsteht, welcher Benutzer das ist.
+
+Das ist signiert.
+
+Der Webshop ist ein Fertigprodukt.
+
+Werkstatt und Laden arbeiten im Browser.
+
+Da kommen wir auch noch dazu, wie das technisch tatsächlich umgesetzt ist.
+
+Wir haben wenig Mitarbeitende und niemanden, der eine IT-Abteilung ist.
+
+Das ist also der Stand, den wir da haben.
+
+Wie können wir eigentlich das Audio abspielen?
+
+Ich hoffe, mir gelingt das, dass ich dann auch die Slides synchron weiterbringe.
+
+Variante A.
+
+KundInnen loggen sich über den Webshop ein.
+
+Mitarbeitende müssen sich ebenfalls einloggen können.
+
+Das System soll später auch als SAS-Lösung angeboten werden.
+
+Das System für MitarbeiterInnen soll zwischen 9 und 18 Uhr zu 99 Prozent verfügbar sein und maximal 5 Minuten ausfallen.
+
+Der Preis einer Reparatur soll sogar nach 10 Minuten schon wieder ermittelt werden können.
+
+Im Shop sind keine IT-Spezialisten.
+
+Daher läuft das System in der Cloud.
+
+Mitarbeitende arbeiten nur im Shop mit dem System.
+
+Optionen?
+
+Option 1.
+
+Login mithilfe einer Standardsoftware wie Keycloak oder Auth0 implementieren.
+
+Das führt eine zusätzliche, nicht-triviale Komponente ein.
+
+Dafür ist die Lösung sicher.
+
+Sie bringt eine Benutzerverwaltung mit.
+
+Sie kann bei der späteren Implementierung des SAS mit anderen Lösungen für die Verwaltung von Benutzern integriert werden.
+
+Option 2.
+
+Login auch für Mitarbeitende über den Shop.
+
+Das ist gegebenenfalls einfacher, weil diese Option bereits für die KundInnen genutzt wird.
+
+Allerdings haben Mitarbeitende eine andere Oberfläche als KundInnen, sodass niemals dieselben Webseiten von beiden Gruppen genutzt werden.
+
+Die Einheitlichkeit ist daher kein sehr großer Vorteil.
+
+Außerdem müssen Mitarbeitende im Shop registriert werden, was unter anderem wegen Datenschutz problematisch sein kann.
+
+Für ein SAS-Angebot trägt die Lösung wohl kaum.
+
+Option 3.
+
+Wir implementieren ein eigenes Login mit einer eigenen Benutzerverwaltung.
+
+Das ist nicht sicher, wenn die Implementierung fehlerhaft ist und sie wirklich sicher umzusetzen, kann schwierig sein.
+
+Die Umsetzung kann aufwendig sein, weil eine Benutzerverwaltung entwickelt werden muss, die Mitarbeitende im Shop nutzen.
+
+Wenn für ein SAS die Integration mit einer Kundenbenutzerverwaltung notwendig ist, muss diese Implementierung entsprechend erweitert werden.
+
+Entscheidung.
+
+Login mithilfe einer Standardsoftware wie Keycloak oder Auth0 implementieren.
+
+Begründung.
+
+Option 1.
+
+Standardsoftware bietet hohe Sicherheit, eine hohe Geschwindigkeit bei der Implementierung und eine gute Erweiterbarkeit für die SAS-Lösung.
+
+Eine Einarbeitung in die Standardsoftware ist allerdings notwendig.
+
+Option 2.
+
+Webshop bietet demgegenüber nur den Vorteil, dass keine Einarbeitung notwendig ist und überzeugt konzeptionell nicht.
+
+Option 3.
+
+Eigene Implementierung spart ebenso die Einarbeitung in die Standardsoftware, erhöht wahrscheinlich den Aufwand spätestens bei der SAS-Lösung.
+
+Konsequenzen.
+
+Eine Standardsoftware muss ausgewählt werden.
+
+Wenn die Software ein SAS ist, entstehen gegebenenfalls zusätzliche Kosten für ein Abo.
+
+Diese können beispielsweise bei einer Übernahme des SAS-Anbieters deutlich steigen.
+
+Wenn die Software kein SAS ist, entsteht zusätzlicher Aufwand im Betrieb.
+
+Wenn die Software als Container ausgeliefert wird, ist das ein Grund für den Betrieb des Reparatursystems in einem Container, um so das gesamte System einheitlich zu betreiben.
+
+Ein Framework wie Spring Security kann die Abhängigkeit des Codes zu der gewählten Lösung verringern.
+
+Allerdings müssten bei einer Migration die Benutzerdaten migriert werden.
+
+Es sollten Maßnahmen ergriffen werden, um den Zugriff auf den Login, die internen Anwendungen und die Benutzerverwaltung auf den Shop zu limitieren.
+
+Ja, ein sehr ausführlicher Architecture Decision Record, wie ich finde, ist alles drin.
+
+Mehrere Optionen verglichen.
+
+Mal gucken, was Option B ist.
+
+Variante B.
+
+Kontext.
+
+Der Webshop verwaltet nur KundInnen.
+
+Ihr Login liefert ein JWT-Cookie, das das Reparatursystem unter slash Reparatur liest Architekturentscheidung 1, Architekturentscheidung 2.
+
+MechanikerInnen und Shop-Mitarbeitende arbeiten im Werkstattteil, doch für sie gibt es keine Anmeldung.
+
+Der Laden hat drei bis vier Mitarbeitende und keine IT-Experten.
+
+Qualitätsszenario Benutzbarkeit 7.
+
+Neue Mitarbeitende bedienen das System nach einer Stunde.
+
+Qualitätsszenario Benutzbarkeit 5, Qualitätsszenario Benutzbarkeit 6.
+
+Die Werkstatt soll auch laufen, wenn der Webshop ausfällt.
+
+Risiko 2.
+
+Der Umbau zum SAAS darf 20 Personentage nicht überschreiten.
+
+Qualitätsszenario Änderbarkeit 1, Risiko 3.
+
+Security ist bewusst nachrangig.
+
+Optionen.
+
+Option 1.
+
+Mitarbeitende als Webshop-KundInnen.
+
+Jede Mitarbeiterin erhält ein KundInnen-Konto im Webshop.
+
+Das Reparatursystem führt eine Liste, welche Konten Werkstattrechte haben.
+
+Ein Login-Mechanismus für alle.
+
+Option 2.
+
+Eigene Mitarbeiterkonten im Werkstattteil.
+
+Die Inhaberin legt Konten mit der Rolle MechanikerIn oder Shop an.
+
+Login mit E-Mail und Passwort, unabhängig vom Webshop.
+
+Option 3.
+
+Identitätsdienst zu kaufen.
+
+Ein Cloud- Identitätsdienst verwaltet Mitarbeiterkonten, Passwörter und das Zurücksetzen.
+
+Das Reparatursystem prüft nur dessen Token.
+
+Entscheidung.
+
+Wir führen eigene Mitarbeiterkonten im Werkstattteil des Reparatursystems.
+
+Die Inhaberin legt sie auf einer Verwaltungsseite an und vergibt eine von zwei Rollen.
+
+Der Login läuft getrennt vom JWT-Cookie des Webshops.
+
+KundInnen-Login und Mitarbeiter-Login bleiben zwei Wege.
+
+Begründung.
+
+Mitarbeitende als Webshop-KundInnen zu führen, missbraucht KundInnen-Konten als Personalkonten.
+
+Das verschärft Risiko 2, weil dann auch die Werkstatt beim Webshop-Ausfall stillsteht und Risiko 3, weil jeder weitere Shop einen Webshop mit passender Schnittstelle bräuchte.
+
+Ein zugekaufter Identitätsdienst passt zur Linie, Dienste kaufen und die Werkstatt betreiben.
+
+Doch seine Verwaltungsoberfläche richtet sich an IT-Fachleute, nicht an eine Inhaberin ohne IT-Kenntnisse.
+
+Qualitätsszenario Benutzbarkeit 7.
+
+Eigene Mitarbeiterkonten halten die Werkstatt unabhängig vom Webshop, sind jemandand konfigurierbar und in einer Stunde erklärt, Konto anlegen, Rolle wählen, fertig.
+
+Gegen diese Wahl spricht, dass wir Passwortspeicherung und Zurücksetzen selbst bauen und pflegen.
+
+Bei drei bis vier Konten und nachrangiger Security ist das tragbar.
+
+Konsequenzen?
+
+Die Werkstatt arbeitet weiter, wenn der Webshop ausfällt.
+
+Risiko 2 trifft nur noch Kundinnen.
+
+Zwei Login-Wege im selben System.
+
+Kundinnen per Webshop, JWT, Mitarbeitende per eigenem Konto.
+
+Das Zurücksetzen eines Passworts muss ohne IT-Experten gehen, etwa durch die Inhaberin.
+
+Risiko?
+
+Selbstgebaute Passwortspeicherung ist ein Einfallstor.
+
+Wir nutzen einen erprobten Hash-Algorithmus und beachten.
+
+Risiko 7.
+
+Risiko?
+
+Beim Umbau zum SAS braucht jeder Mandant eine eigene Inhaberinrolle.
+
+Die Kontenverwaltung muss mandantenfähig sein.
+
+Risiko 26.
+
+Spannend.
+
+Also ich meine, hier ist ja jetzt ein anderer Ansatz gewählt und es ist detaillierter mit den Referenzen.
+
+Aber was davon war jetzt KI und was war Mensch?
+
+Die erste Abstimmung.
+
+Ich hoffe, sie ist gestartet.
+
+Die erste Frage ist, welche der beiden ADRs eignet sich deiner Meinung nach besser für die Situation?
+
+Irgendwas stimmt nicht.
+
+Also das Booting ist nicht gestartet.
+
+Ich sehe auch gerade Verbindung wird aufgebaut und jetzt müssen wir das Quiz starten.
+
+Ich sehe ganz viele Leute angemeldet und jetzt sollte es gestartet sein.
+
+Ihr habt 60 Sekunden Zeit.
+
+Und wir haben lag.
+
+Das ist die andere Sache, die ich gerade nicht bedankt habe.
+
+Also sprich, wir sind etwas.
+
+Da ist noch ein Stream lag, weil der Stream halt Sachen buffert und das heißt, wir sind ein paar Sekunden hier schneller als ihr draußen in den Geräten.
+
+Ich sehe, dass die Zeit läuft, dass wir bei 30 Sekunden verbleibend sind.
+
+Wir sollten sagen, dass wir die ganzen Ergebnisse erst am Ende uns alle konzentriert angucken, weil wir uns überlegt haben, dass wenn man in den Zwischenergebnissen das auflöst, da mehr Informationen sind, was irgendwie was ist.
+
+Und das wollten wir uns halt dann fürs Ende aufsparen.
+
+3, 2, 1.
+
+So, das Booting ist abgeschlossen.
+
+Und dann geht es weiter mit der zweiten Frage.
+
+Welche der beiden ADRs ist KI generiert?
+
+Willst du noch die nächste Frage machen?
+
+Guter Punkt.
+
+Die Zeit läuft.
+
+Ich sehe gerade noch 42 Sekunden.
+
+Die Pause muss sich einlegen.
+
+Genau, wir sehen uns wieder bei nur noch 23 Sekunden.
+
+Jetzt noch 23 Sekunden.
+
+10, 9, 6, 5, 4, 3, 2, 1.
+
+So, damit sind wir bei der Abstimmung durch.
+
+Ich muss gerade noch gucken, dass ich das weiterklicke.
+
+Dann sind wir bei Problem 2.
+
+Und das stelle ich diesmal vor.
+
+Welche Frontend-Technologie bekommt das Reparatursystem?
+
+Diesmal wieder Qualitätsziele, Verfügbarkeit und Security nachrangig.
+
+Das hatten wir gerade eben schon.
+
+Randbedingungen, Webshop vorhanden, keine IT im Shop, Kasse im Laden.
+
+Das ist auch etwas, was ich eigentlich ganz gut finde.
+
+Diese Abhängigkeitsbäume, die die KI generiert hat.
+
+Wir haben den ADR 01, Login über Webshop.
+
+Dann haben wir den ADR 02, die Fahrradreparatur und eigener Bereich.
+
+Da hätte jetzt hier vielleicht eine längere Beschreibung gutgetan.
+
+Und jetzt haben wir die Frage der Frontend-Technologie.
+
+Alle Nutzergruppen arbeiten im Webbrowser.
+
+Das ist ja heutzutage üblich.
+
+Kunden kommen aus dem Webshop, Laden und Werkstatt arbeiten vor Ort.
+
+Das heißt, sie haben ein anderes System, ein anderes Frontend, anderen Rechner vor sich stehen.
+
+Das System läuft als eigener Bereich unter Slash-Reparatur und vierfachliche Module, kein Betriebsteam.
+
+Dann sind wir wieder an dem Teil, wo die KI vorlesen kann.
+
+Welche Frontend-Technologie bekommt das Reparatursystem?
+
+Wieder ADR A und B.
+
+Ich starte.
+
+Variante A.
+
+Kontext.
+
+Alle Nutzergruppen arbeiten im Browser unter Slash-Reparatur.
+
+Der Webshop, ein Fertigprodukt, liefert Login und JWT-Cookie Architekturentscheidung 1, Architekturentscheidung 2, Architekturentscheidung 3.
+
+KundInnen beauftragen eine Reparatur in zwei Minuten, Qualitätsszenario Benutzbarkeit 2 und bewerten die selbstgerenderte Statusseite mit vier von fünf Punkten, Architekturentscheidung 5, Qualitätsszenario Benutzbarkeit 3, Risiko 14, Risiko 15.
+
+Mitarbeitende bedienen das System nach einer Stunde, Qualitätsszenario Benutzbarkeit 5, Qualitätsszenario Benutzbarkeit 6.
+
+Der Shop hat keine IT-Experten, Qualitätsszenario Benutzbarkeit 7.
+
+Das Team pflegt vier Repositories, Architekturentscheidung 11, Risiko 32.
+
+Der SAS-Umbau darf 20 Personentage nicht überschreiten, Qualitätsszenario Änderbarkeit 1, Risiko 3, Risiko 6.
+
+Eine Schichtung nach UI, Logik und Persistenz ist verworfen, Architekturentscheidung 9.
+
+Monolith oder Container bleibt offen, Architekturentscheidung 14.
+
+Optionen?
+
+Option 1.
+
+Servergerenderte Seiten je Modul.
+
+Jedes Modul liefert seine HTML-Seiten selbst, JavaScript nur für kleine Ergänzungen.
+
+Vorteil?
+
+Kein eigenes Frontend-Artefakt, Cookie- und Pfadpräfix laufen durch.
+
+Nachteil?
+
+Werkstattansichten bleiben seitenbasiert.
+
+Option 2.
+
+Eine Single-Page-Application für alle.
+
+Ein JavaScript-Frontend im fünften Repository spricht REST, A, P, IS aller vier Module.
+
+Vorteil?
+
+Reiche Interaktion, ein Erscheinungsbild.
+
+Nachteil?
+
+Eine UI-Schicht quer über die Module, eigener Bild, eigenes Deployment.
+
+Option 3.
+
+Geteiltes Frontend.
+
+KundInnen-Seiten servergerendert, Werkstatt als Single-Page-Application.
+
+Vorteil?
+
+Interaktion dort, wo täglich gearbeitet wird.
+
+Nachteil?
+
+Zwei Technologien, zwei Bildketten.
+
+Entscheidung?
+
+Wir bauen servergerenderte HTML-Seiten.
+
+Jedes der vier Module rendert seine eigenen Seiten unter Slash-Reparatur, ein gemeinsames Style-Sheet lehnt sie an den Webshop an.
+
+JavaScript ergänzt einzelne Seiten, rendert aber keine Inhalte.
+
+Keine Single-Page-Application, auch nicht für die Werkstatt allein.
+
+Template, Engine und Sprache wählt das Team nach Gewohnheit.
+
+Begründung?
+
+Servergerenderte Seiten nutzen den Webshop-Login am einfachsten.
+
+Der Browser schickt das JWT-Cookie mit jedem Seitenaufruf, das Auftragsformular kommt vorbelegt vom Serverqualitätsszenario Benutzbarkeit 2.
+
+Eine Single-Page-Application müsste das Cookie an jeden API-Aufruf hängen und den Zugriff doppelt prüfen.
+
+Das vertieft die Webshop-Kopplung, Risiko 3, und legt das Reparaturprotokoll als API offen, Risiko 27.
+
+Ein fünftes Repository mit eigener Bildkette trifft ein Team ohne Betrieb Qualitätsszenario Benutzbarkeit 7, Risiko 32, und führt die verworfene UI-Schicht quer über alle Module wieder ein Architekturentscheidung 9.
+
+Jemandand braucht das Frontend nur ein Style-Sheet Qualitätsszenario Änderbarkeit 1.
+
+Gegen die Wahl spricht?
+
+Tagesplan und Protokoll bleiben Formulare?
+
+Verlangt die UX-Expertin mehr Interaktion, rüsten wir seitenweise nach.
+
+Konsequenzen?
+
+Kein Frontend-Repository, keine getrennte Frontend-Pipeline.
+
+Jedes Modul enthält seine Oberfläche.
+
+Das gemeinsame Style-Sheet ist ein fünftes.
+
+Kleines Artefakt, Architekturentscheidung 11 ist zu ergänzen.
+
+Status-Seite per Style-Sheet an den Webshop angelehnt, Risiko 14.
+
+Der Verweis aus dem Webshop bleibt offen, Risiko 15.
+
+Risiko?
+
+Die UX-Folge verlangt für Tagesplan und Protokoll mehr Interaktion?
+
+Dann entsteht JavaScript je Modul ohne gemeinsame Basis neu.
+
+Risiko?
+
+Ohne Theme des Fertigprodukts bleibt die Angleichung Handarbeit und driftet bei jedem Webshop-Update neu.
+
+Die KI hat ein bisschen Ausspracheprobleme mit den APIs, aber ansonsten wieder ein vollständiger ADR.
+
+Gucken wir uns den zweiten an.
+
+Hören wir uns ihn an.
+
+Variante B.
+
+Kontext?
+
+Andere Systeme verlinken in das Reparatursystem.
+
+Benutzerfreundlichkeit?
+
+Mitarbeitende sollen sich nach einer Stunde im System eingearbeitet haben.
+
+85 Prozent sollen das System weiterempfehlen.
+
+Kunden sollen das System mit 4 von 5 Punkten bewerten.
+
+Annahme?
+
+EntwicklerInnen kennen ein bestimmtes Single-Page-App-Framework.
+
+Annahme?
+
+Ein Team 5 bis 7 Personen entwickelt das gesamte System.
+
+Die UIs dienen zur Eingabe und Ausgabe von Daten.
+
+Es gibt keine komplexen Grafiken oder ähnliches wie bei einer Kartenanwendung oder einem Spiel.
+
+Die Terminplanung hat wahrscheinlich das komplexeste UI.
+
+Es gibt keinen Bedarf für komplexe Kompositionen von UIs.
+
+Jede Komponente hat genau eine UI.
+
+Gegebenenfalls muss das Bezahlsystem über eine UI-Integration angesprochen werden.
+
+Optionen?
+
+Option 1.
+
+Wir benutzen das Single-Page-App-Framework, das die EntwicklerInnen kennen.
+
+Sie können schnell loslegen und können typische Probleme schnell lösen.
+
+Mit einem Single-Page-App- Framework wären sogar komplexere UIs umsetzbar.
+
+Jede Komponente hat ihr eigenes Single-Page-App.
+
+Option 2.
+
+Wir benutzen eine andere Web-Technologie, nicht notwendigerweise ein Single-Page-App.
+
+Gegebenenfalls ermöglicht dieser eine bessere Modularisierung und Komposition von UIs.
+
+Entscheidung?
+
+Wir benutzen ein Single-Page-App-Framework.
+
+Jede Komponente hat ein eigenes Single-Page-App.
+
+Begründung?
+
+Integration mit Links ist mit jeder Web-Technologie möglich.
+
+Die notwendige Benutzerfreundlichkeit hat keinen Einfluss auf die Technologieentscheidung, siehe Folge 114 zur Benutzerfreundlichkeit.
+
+Eine komplexe Modularisierung und Komposition der UIs ist nicht notwendig.
+
+Jede Komponente hat eine eigene UI.
+
+Das Team ist so klein, dass auch eine Skalierung auf mehrere Teams als Motivation für eine Modularisierung nicht gegeben ist.
+
+Durch die Vertrautheit können EntwicklerInnen schnell mit der Implementierung loslegen.
+
+Konsequenzen?
+
+Gegebenenfalls ist für die Terminplanung doch eine komplexere UI notwendig, die aber mit einem Single-Page-App abgebildet werden kann.
+
+Zwischen den Single-Page-Apps für die verschiedenen Komponenten gibt es einen spürbaren Übergang.
+
+Unter anderem entsteht durch den Start des Single-Page-Apps eine Wartezeit.
+
+Das ist akzeptabel, weil solche Wechsel selten vorkommen.
+
+Ein einheitliches UI über Single-Page-Apps hinweg muss mit Konventionen und gegebenenfalls passenden gemeinsamen Artefakten unterstützt werden.
+
+Die Integration des Bezahlsystems muss sichergestellt werden.
+
+Wow, ich merke wieder zwei durchdachte ADRs, zwei unterschiedliche Ergebnisse.
+
+Spannend.
+
+Die Abstimmung.
+
+Erstmal wieder, was ist besser für die Situation?
+
+Die Abstimmung läuft, wieder 60 Sekunden, noch 55 Sekunden.
+
+Ich bin ja echt so gespannt, was da rauskommt, in welche Richtung das geht.
+
+Vor allem bin ich jetzt gespannt, ob die Zuschauer so ein paar Hinweise jetzt so rauslesen, die sie vielleicht denken, erkannt zu haben.
+
+Aber es geht ja auch erstmal darum, welcher ADR sich besser eignet.
+
+Auch das ist super spannend.
+
+Wieder die Meinungen unterschiedlich sind, wobei jeder Zuschauer kennt das System nicht so gut wie die KI oder du, Eberhard.
+
+Wir haben noch zehn Sekunden, dann kommt jetzt die zweite Frage.
+
+Welcher der ADRs ist KI generiert?
+
+Genau, jetzt läuft wieder die Zeit.
+
+60 Sekunden.
+
+Genau, du hast es gelesen.
+
+Wir sollten aufhören ALMs zu anthropomorphisieren.
+
+Die hassen das nämlich.
+
+Genau, die hassen das.
+
+Ach ja, aber es ist so einfach.
+
+So, nach 30 Sekunden.
+
+Wir hätten so einen Timer, so einen Sound gebraucht.
+
+Guck mal, wir haben hier einen schnellen Herzschlag.
+
+Ich merke gerade, ich entdecke die Sounds.
+
+Nach acht Sekunden.
+
+7, 6, 5, 4, 3, 2, 1.
+
+Zehn Sekunden Verzögerung.
+
+Deswegen kommen die Sounds nicht so gut rüber, aber ich habe es mal gewagt.
+
+Damit sind wir mit der zweiten Abstimmung durch.
+
+Drittes Problem, Eberhard.
+
+Stellst du es vor?
+
+Genau, da ist die Frage, wie das Websystem diese hohe Verfügbarkeit hinbekommen soll, wenn Glockennutzerdaten vom Webshop abhängen.
+
+Magst du mal die nächste Folie zeigen?
+
+Wir haben also diesen Webshop.
+
+Wir haben keine IT im Shop, wie wir es diskutiert haben.
+
+Es gibt eine Kasse im Laden.
+
+Wichtig ist die Benutzbarkeit, nicht so sehr die Verfügbarkeit.
+
+Security ist nicht ganz so wichtig.
+
+Das führt jetzt dazu, dass wir den Glocken über den Webshop gemacht haben.
+
+Verfügbarkeit müssen wir uns darum kümmern.
+
+Jetzt ist die Frage, wie wir mit einem Webshop-Ausfall umgehen.
+
+Wenn wir tatsächlich sagen, dass wir einen Glocken über den Webshop machen, dann bedeutet das, dass wir das Reparatursystem auch nicht benutzen können, weil man sich nicht einloggen kann.
+
+Jetzt ist die Frage, wie man das hinbekommt.
+
+Da gibt es einmal den Glocken und außerdem noch die Bezahlung.
+
+Das ist der andere Punkt.
+
+Jetzt nochmal auszudifferenzieren mit der Verfügbarkeit.
+
+Tagsüber 99,9 Prozent, nachts 99 Prozent.
+
+Man kann also z.B. nachts tatsächlich so etwas wie ein Wartungsfenster sich überlegen.
+
+Wir haben das Problem, dass bei dem Webshop nicht definiert ist, wie verfügbar der tatsächlich ist.
+
+Das ist eine offene Frage.
+
+Dann kannst du loslegen.
+
+Genau.
+
+Die zwei letzten Audio-Files.
+
+Variante A.
+
+Kontext.
+
+Das Websystem soll zwischen 7 und 24 Uhr zu 99,9 Prozent und den Rest der Zeit zu 99 Prozent zur Verfügung stehen.
+
+Der Webshop hat Links zu den Komponenten Reparaturdurchführen, Terminplanung und Bezahlung.
+
+Die Webshop-User-Database bietet die Authentifizierung als einen JWT-Token als Cookie an.
+
+Optionen.
+
+Option 1.
+
+Die Webshop-User-Database wird für einen Login direkt angesprochen.
+
+Die Komponenten verlassen sich auf die Existenz eines JWT-Tokens.
+
+Ein Ausfall der Webshop-User-Database führt zu einem Ausfall des Reparatursystems.
+
+Wenn die Bezahlung im Webshop ausfällt, kann man im Shop nicht online bezahlen.
+
+Option 2.
+
+Falls die Webshop-User-Database ausfällt, Terminplanung ist unter Angabe einer beliebigen E-Mail-Adresse mit anschließender Bestätigung des Termins über einen Link möglich.
+
+Kunden haben für den Reparaturstatus einen Link.
+
+Sie können den Status ohne Authentifizierung einsehen.
+
+Wenn der Webshop ausfällt, Bezahlung ist nur vor Ort möglich.
+
+Option 3.
+
+Statt der Webshop-User-Database wird eine eigene Authentifizierung genutzt, gegebenenfalls mit identischen Login-Daten.
+
+Beim Ausfall des Webshops ist eine Bezahlung nur vor Ort möglich.
+
+Entscheidung.
+
+Wir nutzen den Webshop, falls erfahrungsgemäß die Zuverlässigkeitsziele damit erreicht werden können.
+
+Sonst implementieren wir die Terminvergabe mit einer E-Mail-Adresse und verwalten den Reparaturstatus über einen Link.
+
+Online-Bezahlung ist bei Ausfall des Online-Shops nicht möglich.
+
+Begründung.
+
+Option 1 ist am einfachsten implementierbar.
+
+Sie ist nur dann problematisch, wenn der Webshop die Verfügbarkeitsziele nicht erreicht.
+
+Option 2 ist ebenfalls einfach implementierbar, aber sichert Informationen weniger gut ab.
+
+Option 3 ist verhältnismäßig aufwendig.
+
+Die sichere Replikation von Login-Daten bedeutet, dass Credentials repliziert werden müssen.
+
+Das kann bezüglich Sicherheit problematisch sein.
+
+Konsequenzen.
+
+Option 2.
+
+Ein Angreifer könnte den Terminkalender mit Terminen füllen.
+
+Termine können gegebenenfalls nicht einem User im Webshop zugeordnet werden, wenn die E-Mail-Adressen unterschiedlich sind.
+
+Der Link für den Status einer Reparatur oder eines Termins sollte nicht einfach erratbar sein, z.
+
+B.
+
+UUID.
+
+Die Informationen über den Status einer Reparatur oder einen Termin sind nicht so gut geschützt wie bei Option 1.
+
+Den Status einer Reparatur oder einen Termin können auch andere Personen außer dem Kunden selbst einsehen.
+
+Online-Bezahlung ist in allen Optionen nur möglich, wenn der Shop verfügbar ist.
+
+Da das Rad abgeholt und angeliefert werden muss, ist eine Bezahlung vor Ort vermutlich akzeptabel.
+
+Variante B.
+
+Kontext.
+
+Kundinnen melden sich im Webshop an, das Reparatursystem liest das JWT-Cookie und holt Adresse und Zahlungsart per Restarchitekturentscheidung 1.
+
+Das Websystem soll zwischen 7 und 24 Uhr zu 99,9 Prozent verfügbar sein, nachts zu 99 Prozent Qualitätsszenario Zuverlässigkeit 4, Qualitätsszenario Zuverlässigkeit 5, mit Wiederanlauf in 5 Minuten Qualitätsszenario Zuverlässigkeit 6.
+
+Der Webshop ist ein Fertigprodukt eines externen Betreibers.
+
+Sein SLA ist unbekannt.
+
+Fällt er aus, fallen Login und Adressabfrage mit Risiko 2.
+
+Der Laden hat kein Betriebsteam.
+
+Qualitätsszenario Benutzbarkeit 7.
+
+Die Beauftragung muss in 2 Minuten gelingen.
+
+Qualitätsszenario Benutzbarkeit 2.
+
+Optionen.
+
+Option 1.
+
+Verbundverfügbarkeit akzeptieren.
+
+Wir fordern vom Webshop-Betreiber ein SLA und messen die 99,9 Prozent nur für die Zeit, in der der Webshop läuft.
+
+Option 2.
+
+Vom Webshop entkoppeln.
+
+Das Reparatursystem prüft das JWT selbst mit dem öffentlichen Schlüssel des Webshops und hält Adresse und Zahlungsart je Kundin als Kopie.
+
+Der Webshop wird nur beim Login gebraucht.
+
+Option 3.
+
+Eigener Login als Ersatzweg.
+
+Bei Webshop-Ausfall bietet das Reparatursystem einen eigenen Login per E-Mail-Link an.
+
+Entscheidung.
+
+Wir entkoppeln das Reparatursystem vom laufenden Betrieb des Webshops.
+
+Es prüft das JWT selbst, hält Adresse und Zahlungsart als Kopie und lässt KundInnen die Adresse im Formular überschreiben.
+
+Der Webshop wird nur für die Anmeldung gebraucht.
+
+Sein SLA klären wir vor der Umsetzung.
+
+Begründung.
+
+Die Verbundverfügbarkeit zu akzeptieren misst das Ziel schön, ohne es zu erfüllen.
+
+KundInnen merken den Ausfall trotzdem und jede Minute kostet Umsatz.
+
+Ein eigener Login als Ersatzweg baut die zweite Nutzerverwaltung, die Architekturentscheidung 1 vermeidet und verwirrt KundInnen mit zwei Anmeldewegen.
+
+Die Entkopplung macht den Webshop zum Ausfallpunkt nur für die Anmeldung.
+
+Wer eingeloggt ist, beauftragt weiter.
+
+Das JWT trägt die Identität, die Kopie trägt die Adresse.
+
+Das schützt Qualitätsszenario Benutzbarkeit 2 und den größten Teil von Qualitätsszenario Zuverlässigkeit 4.
+
+Gegen diese Wahl spricht, die Kopie kann veralten und die JWT-Prüfung braucht den Schlüssel eines Anbieters, den wir nicht kontrollieren.
+
+Beides wiegt weniger als ein Ausfall.
+
+Wer beim Webshop-Ausfall nicht eingeloggt ist, bleibt draußen.
+
+Das nehmen wir hin.
+
+Konsequenzen.
+
+Eingeloggte KundInnen beauftragen auch bei Webshop-Ausfall.
+
+Risiko 2 schrumpft auf die Anmeldung.
+
+Das Reparatursystem hält KundInnen-Daten als Kopie.
+
+Risiko 1 wächst.
+
+Kopie und Quelle können auseinanderlaufen.
+
+Der öffentliche Schlüssel des Webshops muss verfügbar sein.
+
+Das klären wir mit dem Anbieter.
+
+Risiko 5.
+
+Risiko.
+
+Läuft die Umleitung nach Slash-Reparatur über den Reverse-Proxy des Webshops?
+
+Reißt sein Ausfall auch uns mit?
+
+Die Umleitung braucht einen eigenen Betrieb.
+
+Risiko 5.
+
+Risiko 22.
+
+Risiko.
+
+Ohne SLA des Webshops bleibt die Anmeldung unter 99,9 Prozent.
+
+Wir messen sie getrennt.
+
+Ja, dann kommt jetzt die letzte Abstimmung.
+
+Die Abstimmung müsste laufen.
+
+Läuft sie?
+
+Läuft sie?
+
+Läuft sie?
+
+Ich sehe gerade nicht, ob sie läuft.
+
+Ich hätte die Hoffnung, dass unser Backoffice sich da kümmert.
+
+Ja, aber läuft.
+
+Genau.
+
+Läuft.
+
+Perfekt.
+
+Ich fand es spannend, dass der eine ADR das berücksichtigt hat, dass die Bezahlung dann nur vor Ort ist.
+
+Der andere ADR Jot-Token des Anbieters.
+
+Spannend.
+
+Ich könnte jetzt inhaltlich was dazu sagen, aber das spannen wir uns, glaube ich, erst mal auf.
+
+Genau, das machen wir gleich.
+
+So, 3, 2, 1, 0.
+
+Diese Frage ist geklärt.
+
+Ich mache weiter.
+
+Jetzt kommt wieder die Frage, welcher der beiden ADRs ist KI generiert?
+
+Ich bin so was von gespannt, wie das aufgelöst wird.
+
+Ich habe keine Ahnung.
+
+Ich finde beide Versionen eigentlich jeweils recht gut durchdacht.
+
+Man könnte manche Sachen hinterfragen.
+
+Wie ist dies gemeint?
+
+Wie ist jenes gemeint?
+
+Ich finde es ganz gut, die Trennung zwischen Problemstellung in der Überschrift und dann dem Kontext, was man eben für die Entscheidung alles verwendet hat an Informationen.
+
+Das sehe ich sonst oft mehr oder weniger als Freitext.
+
+Hier war es eigentlich ganz gut strukturiert in beiden Fällen der ADRs.
+
+8, 7, 6, 5, 4, 3, 2, 1.
+
+Die Abstimmung ist durch und damit können wir uns die Antworten ansehen, oder?
+
+Ja, genau sollten wir tun.
+
+Ich hätte hier die Slide weitermachen müssen.
+
+Auflösung.
+
+Jetzt bin ich gespannt, ob das geklappt hat.
+
+Anmeldung.
+
+Welche der beiden ADRs eignet sich deiner Meinung nach besser für die Situation?
+
+A waren nur 4, B waren 18.
+
+Welcher ist KI generiert?
+
+A, 19 stimmen.
+
+Wir hatten die Frage ziemlich eindeutig formuliert, also für die Abstimmung.
+
+Eberhard, möchtest du auflösen?
+
+Welcher war dein ADR?
+
+Ich habe A geschrieben.
+
+Das ist genau das, was offensichtlich zum einen inhaltlich schlechter angekommen ist und zum anderen auch tatsächlich AI generiert angesehen wird.
+
+Ich weiß gar nicht, wie hat es auf dich gewirkt?
+
+Ich bin ja super biased, logischerweise.
+
+Das heißt, ich könnte ja zu mir erzählen, warum A die bessere Lösung ist.
+
+Das macht ja keinen Sinn.
+
+Was ist dein Gefühl?
+
+Mir war total aufgefallen, dass bei B ganz viele Referenzen auf die anderen ADRs und die Risiken und Szenarien und sowas drin waren.
+
+Das war somit detaillierter und das hat man dann irgendwie bei allen ADRs gemerkt.
+
+Die Entscheidung an sich, was sich eignet, also ich fand eigentlich beide relativ gut begründet.
+
+Hättest du da jetzt einen Punkt, wo du sagst, B war gar nichts?
+
+Ich überlege gerade, was war eigentlich nochmal ganz genau die erste Frage?
+
+Das war die Authentifizierung von den BenutzerInnen.
+
+Und zwar von denen, die im Shop sind.
+
+Tatsächlich ist es so, dass die Optionen relativ ähnlich sind.
+
+Es sind so grob dieselben drei Optionen identifiziert worden.
+
+Das mit den Referenzen ist mir auch aufgefallen.
+
+Das hängt aber damit zusammen, ich weiß nicht, ob das allgemein bekannt ist.
+
+Ich glaube, diese ADRs sind Sachen, die die AI im Wesentlichen generiert hat.
+
+Die sind in den originalen Unterlagen nicht drin.
+
+Ich habe mich daran einfach nicht orientiert.
+
+Von daher ist das etwas, was auffällig ist.
+
+Mir fehlte die konkrete Angabe von Technologien.
+
+Keycloak ist da und Auth0 hatte ich explizit genannt.
+
+Ich habe einfließen lassen, dass ich sehr ungerne so eine Sicherheit selber bauen wollen würde.
+
+Das ist eigentlich trivial.
+
+Password hashen sollte dazutun und so weiter.
+
+Ich wäre trotzdem ein bisschen unsicher, ob ich das wirklich sicher hinbekomme.
+
+Da kann man jetzt argumentieren, naja, aber so wichtig ist Sicherheit nicht.
+
+Was mir fehlt, ist diese Perspektive zum SaaS.
+
+Wenn ich einen SaaS habe und das SaaS integriert wird in einer großen Fahrradkette, in Active Directory, dann wäre ich vorbereitet mit der Lösung, die ich vorgeschlagen habe.
+
+Ich glaube, das ist bei der anderen nicht so richtig.
+
+Mir war vor allem aufgefallen, dass du Technologien genannt hattest, was ein wichtiger Punkt ist, wo die KI ausgewichen ist.
+
+Sie wollte es ja auch selbst machen.
+
+Ich finde es spannend.
+
+Ich glaube, ihr habt beide nicht darauf Bezug genommen, dass das Reparatur-Login – jetzt bin ich am überlegen, muss der Kunde sich da auch anmelden?
+
+Ja, er will ja einen Status sehen.
+
+Nein, der würde über den Webshop kommen.
+
+Das ist das, was der dritte ADR diskutiert.
+
+Das heißt, wir haben tatsächlich ein getrenntes System.
+
+Es gibt noch diese Geschichte, über die man tatsächlich diskutieren kann.
+
+Ich habe das Gefühl, wenn ich Keygroup benutze oder Auth0, dann habe ich eine Benutzerverwaltung, die ist da und die Aussage des AI-Systems hat gesagt, diese Benutzerverwaltung wäre schwer nutzbar für Expertinnen.
+
+Ich weiß nicht, ob ich das kaufen würde, aber nicht, sei es drum.
+
+Aber wenn es nur intern ist, dann kann man ja in Sachen Security auch sagen, kann man nicht von außen einfach angreifen, haben wir erstmal eine Firewall dazwischen oder zumindest ein Reverse-Proxy.
+
+Wollen wir weitergehen?
+
+Ja, finde ich gut.
+
+Oh, das war jetzt schwieriger.
+
+Es ist natürlich jetzt auch die Frage, ob vielleicht ein paar User aufgrund der Formulierung umgeschwenkt sind, ein paar Zuschauer.
+
+Hier ging es um die Frontend-Technologie.
+
+Was eignet sich besser?
+
+Ebert, möchtest du auflösen?
+
+Welchen ADR hattest du?
+
+Ich war B.
+
+Genau.
+
+Du hattest tatsächlich einen Single-Page-Application-Framework.
+
+Die KI hatte gesagt, wir rendern es einfach auf dem Server, da ist es dann egal, dann brauchen wir kein JavaScript.
+
+Ich hatte schon so ein bisschen geschmunzelt, weil es ging so ein bisschen in Richtung Self-Contained-Systems, hatte ich das Gefühl, dein ADR.
+
+Wenn man da so jeden Bereich mit einer eigenen Single-Page-Application versieht, dann hat man so vertikale Slices.
+
+Ja, danke, dass du das Thema ansprichst.
+
+Wir werden ja auch in, ich glaube, zwei oder drei Wochen eine alte Episode haben zu dem Thema.
+
+Ich würde unterstellen, dass das eher etwas ist, was die AI-Lösung vielleicht noch ein bisschen besser unterstützt.
+
+Also Server-Seiten, gerenderte HTML-Seiten sind eigentlich das, was ich in erster Linie mit Self-Contained-Systems in Verbindung bringe, weil ich eine einfache Modularisierung habe.
+
+Im Kern sagt meine Entscheidung, wenn das Team mit irgendetwas erfahren ist, das ist ja meine Annahme, die kennen halt irgendetwas, dann benutze ich halt das.
+
+Und eine exzessive Modularisierung, was ein Nachteil von Single-Page-App-Frameworks wäre, brauche ich halt nicht.
+
+Ich kann halt einfach modularisieren, indem ich unterschiedliche Single-Page-Apps habe, was in gewisser Weise eine Domänen-Aussage ist.
+
+Also ich habe mir das angeguckt und habe für mich gesagt, wenn ich halt Werkstattmitarbeiter bin, dann stehe ich halt da und arbeite die ganze Zeit und erfasse halt Reparaturen.
+
+Das ist halt eine Single-Page-App.
+
+Und wenn ich halt Kunde bin, dann versuche ich halt einen Termin zu bekommen.
+
+Das ist eine Single-Page-App.
+
+Das heißt, Übergänge zwischen diesen Single-Page-Apps gibt es so gut wie nicht.
+
+Also komme ich damit durch die Tür.
+
+Und eigentlich sagt der ADR damit, wenn ich halt irgendwie Menschen vor mir habe, die halt irgendwas können, dann benutzen wir das.
+
+Weil der Vorteil, dass ich damit halt schnell in Produktion gehen kann und dass das halt schnell umgesetzt wird, das dominiert halt alles andere.
+
+Wir haben halt nicht eine komplizierte Anwendung mit ganz viel Modularisierung und so weiter.
+
+Also gehen wir halt in diese Richtung.
+
+Das ist so das, was ich irgendwie sagen würde.
+
+Also die zwingende Sache, HTML-Seiten und Single-Page-Apps überhaupt gegeneinander abzuwägen von dem ADRA.
+
+Wie gesagt, ich würde mich halt irgendwie an dem Thema orientieren, wäre mein erster Ansatz.
+
+Ja, ich denke, das ist auch meistens so der Ansatz, der gefahren wird.
+
+Man hat ein technisches Umsetzungsteam und wenn das eine bestimmte Technologie beherrscht, dann nimmt man die.
+
+Somit ist es eigentlich eine Constraint, die man hat.
+
+Also ich wäre zu einem anderen Ergebnis gekommen, wenn man gesagt hätte, wir wollen halt eine große komplizierte Anwendung mit Seiten, wo ich halt nicht eine Produkt-Detail-Seite habe.
+
+Die Produkt-Detail-Seite hat einen Preis und da ist irgendwie oben ein Login und all diese ganzen Geschichten.
+
+Weil dann habe ich ein Modularisierungsthema und ich habe mehrere Teams, wenn das ein komplexes System ist, die für verschiedene Teile dieser Seite zuständig sind.
+
+Es gibt einen Preisberechner, das ist ein Team.
+
+Ich habe ein Team, das sich um Benutzerlogin und solche Sachen kümmert.
+
+Da muss ich das halt irgendwie vernünftig auf die Reihe bekommen, das alles zu integrieren.
+
+Da müsste man halt was sagen zum Thema Modularisierung.
+
+Das brauche ich hier nicht.
+
+Und vielleicht ist das etwas, ich glaube, das ist beim nächsten ADR noch ein bisschen krasser.
+
+Ich habe bei den ADRs auch nochmal was über die Domäne gelernt.
+
+Wie unterschiedlich getrennt sind denn diese Funktionalitäten?
+
+Das sind eben sehr stark getrennte Funktionalitäten.
+
+Das ist eigentlich eine Aussage über die Domäne.
+
+Und vielleicht noch eine Sache, die wollte ich eigentlich ganz am Anfang loswerden.
+
+Ein Problem, was diese Episode hat, sowie auch andere Episoden, wo wir über AI und Architekturunterstützung gesprochen haben, ist halt, das stellt sozusagen in Abrede, dass das ein kollaborativer Prozess ist.
+
+Also im wirklichen Leben würde ich halt unterstellen, dass wir ein Team hätten.
+
+Wir müssen mit mehr Leuten reden, wir müssen mit Stakeholdern reden, wir müssen mit Entwicklern reden, wir müssen verschiedenen Meinungen einholen, wir müssen uns ein Buy-in einholen von Entwicklern, von Stakeholdern und auch von vielleicht anderen Architekten.
+
+Und das ist hier halt irgendwie komplett ausgeblendet.
+
+Das heißt, ich würde unterstellen, beide Ansätze, also ich schließe mich ins Kämmerchen ein und entscheide das mal kurz, respektive wir haben eine AI, die das halt mal kurz entscheidet, ist im wirklichen Leben eine bedingt gute Idee, weil ich eigentlich gerne das kommunizieren wollen würde und muss.
+
+Das vergisst man halt, glaube ich, häufig und das ist aber eigentlich ein ganz wichtiger Punkt.
+
+Ja, ist tatsächlich ein wichtiger Punkt.
+
+Da wollte ich auch gleich noch mal drauf eingehen, aber jetzt gehen wir noch zum dritten ADR, dritte Runde.
+
+Ach guck mal, da hat sich noch mal einiges geändert.
+
+Da war es die Verfügbarkeit.
+
+ADR A eignet sich besser nach Abstimmung unserer Zuschauer, Zuhörer und KI generiert ist ADR B.
+
+Eberhard, lös auf.
+
+Tatsächlich ist es so, ich muss mal kurz schauen, genau, ich habe A geschrieben und inhaltlich ist es so, das ist der ADR, wo ich tatsächlich am meisten noch mal für mich über die Domäne gelernt habe.
+
+Also ich habe in den Folgen gesagt, Kunden müssen sich einloggen und wir benutzen den Webshop dafür und damit hat sich das halt.
+
+Und ich habe eben jetzt in diesem Raum mir noch mal das überlegt und habe für mich gesagt, eigentlich, wenn ich einen Reparaturstatus habe und ich habe dort eine schwer erratbare URL, ist das sogar vorteilhaft, weil ich diese URL jemand anders geben kann, dem ich zum Beispiel sagen kann, wenn das fertig ist, dann holt es ab, hier ist die URL, wo du es dir angucken kannst.
+
+Und das hängt damit zusammen, dass der Reparaturstatus meiner Ansicht nach nicht ernsthaft schützenswert ist.
+
+Genau genommen sollte man das noch mal überprüfen.
+
+Da ist die Frage, was passiert, wenn der Reparaturstatus rauslägt.
+
+Ich würde erwarten, dass das nicht ernsthaft ein Problem ist, aber das wäre dort der Punkt.
+
+Das Thema mit der Terminvergabe ist ein ähnliches.
+
+Wenn ich also einen Termin vergeben kann, ohne dass ich als Benutzer registriert bin, verringere ich die Barriere, um einen Termin zu bekommen.
+
+Das heißt, es ist einfacher, neue Nutzer zu gewinnen und neue Kundinnen zu gewinnen.
+
+Ist das nicht eigentlich der bessere Weg?
+
+Sondern kommt man dahin, dass eigentlich nur noch das Bezahlen übrig ist.
+
+Und da ist die Geschichte, wenn ich mich sowieso zu dem Shop bewege, weil ich das Fahrrad hinbringe oder abhole, kann ich auch gleich vor Ort bezahlen.
+
+Und ich würde aufgrund dessen, dass ich diese Dinge über die Domäne gelernt habe, wahrscheinlich die Integration in den Webshop einfach killen.
+
+Man kann darüber diskutieren, das steht ja auch in dem ADR drin.
+
+Ich kriege halt nicht raus, welche Benutzer irgendwas repariert haben.
+
+Wenn ich da nicht den User-Account habe, habe ich da sozusagen ein Disconnect.
+
+Und ich kriege nicht raus, dass der Benutzer, der der Kunde Eberhardt, dieses Ding repariert hat.
+
+Aber das ist vielleicht verschmerzbar.
+
+Keine Ahnung.
+
+Eigentlich wäre das jetzt eine Geschichte, wo ich nochmal mit Domänexpertinnen darüber reden wollen würde, um herauszufinden, wo wir eigentlich hinwollen.
+
+Und das hätte ich halt, bevor ich das durchdacht habe auf dieser Granularitätsebene, habe ich halt einfach gesagt, wir benutzen ein Login.
+
+Natürlich brauchen wir ein Login und wir benutzen ein Login vom Webshop.
+
+Also nicht, ist halt so.
+
+Und ja, wie gesagt, das würde ich jetzt halt irgendwie hinterfragen.
+
+Was ich jetzt spannend finde, ist, wir haben ja hier den Architekturing-Test gemacht.
+
+Und ich habe gerade eben nochmal nachgeguckt.
+
+Einmal dachten unsere Zuhörer genau falsch.
+
+Architektur ist, also KI ist der Mensch.
+
+Und zweimal lagen sie richtig.
+
+Das heißt, die KI hat den Architekturing-Test jetzt nicht bestanden.
+
+Aber was ich spannend finde, ist, dass es doch ziemlich ausgeglichen ist, dass ja fast die Hälfte der Zuhörer die KI besser findet, die andere Hälfte den menschlichen ADR.
+
+Und das zeigt ja eigentlich auch, dass man die KI wahrscheinlich ganz gut als unterstützendes Instrument nutzen kann.
+
+Die KI kennt die ganzen anderen ADRs in- und auswendig, die Qualitätsszenarien.
+
+Und wenn man mit der KI etwas durchdiskutiert, dann kriegt man vielleicht nochmal ein paar andere Gedanken.
+
+Und die KI kann auch nochmal gegentreten und sagen, du, das Qualitätskriterium widerspricht deiner Idee.
+
+Aber wir haben es ja auch mit Trade-offs zu tun bei allen Entscheidungen, sodass wir dann eben gucken müssen, welches Qualitätskriterium wiegt mehr als das andere.
+
+Also insofern ist das, finde ich, eigentlich jetzt ein Erfolg, was wir hier zu verbuchen haben.
+
+Wir haben so oder so einen Erkenntniserfolg.
+
+Wir haben etwas gelernt durch dieses Experiment, so hoffe ich.
+
+Es scheint keine Kommentare im Chat zu geben.
+
+Nicht so gerne, wenn ihr Kommentare noch habt.
+
+Da könnt ihr euch gerne auch nochmal äußern dazu.
+
+Ich muss halt gestehen, der dritte ADR hat für mich diese Frage erzeugt mit, welche dieser Dinge sind wie schützenswert.
+
+Das will ich nicht missen, darüber nachzudenken.
+
+Und ich bin nicht sicher, ob ich mit einer AI-Unterstützung in diese Richtung gegangen wäre.
+
+Die Frage ist halt, was ist denn das, was ich eigentlich schütze?
+
+Wie ist das Risiko?
+
+Und das nochmal zu durchdenken war ein wichtiger Prozess.
+
+Bei dem zweiten, bei der Frontend-Technologie, ist halt mein Gefühl, naja, benutzt halt, was passt.
+
+Das ist ja nicht so wahnsinnig relevant.
+
+Ich habe nicht das Gefühl, dass man hier etwas hat, was mit irgendeiner Frontend-Technologie nicht zu erschlagen ist.
+
+Bei dem ersten ADR finde ich es überraschend, wenn man aufgrund der SARS-Perspektive nicht zu dem Ergebnis kommt, dass man eigentlich etwas haben möchte, was halt jetzt erstmal wie Overkill wirkt.
+
+Also sowas wie Keycloak oder Auth0 kann man eigentlich für dieses System nicht wirklich rechtfertigen.
+
+Aber durch die zusätzliche Security und durch die Erweiterbarkeit halte ich das eigentlich für die richtige Entscheidung.
+
+Keine Ahnung, also nicht offensichtlich bin ich da, also die Mehrheit sieht das halt irgendwie anders.
+
+Was ich auch für mich nochmal gelernt habe, ich bin halt nicht ganz sicher, ob meine Darstellung wirklich gut ist.
+
+Aber sprich, das könnte man wahrscheinlich nochmal jemandem zum Durchlesen geben, der dann irgendwie Feedback gibt, ob das wirklich leicht verstehbar ist und das irgendwie durchdiskutiert.
+
+Das habe ich jetzt irgendwie nicht getan.
+
+Das wäre gerade etwas, was ich ja tun würde.
+
+Genau, hier ist der Kommentar.
+
+Interessantes Experiment, lieben Dank dafür, sehr gute Idee, erst am Ende aufzulösen.
+
+Danke für das Feedback.
+
+Wir sind so ein bisschen am Ende der Zeit, wir haben jetzt zwei Minuten überzogen.
+
+Ich werde der KI gleich noch den Auftrag geben, die ADRs nachzudokumentieren in der großen ARC42-Dokumentation mit der Dokumentation des Experiments.
+
+Ja, und damit sind wir am Ende, oder?
+
+Ja, vielen Dank.
+
+Vielen Dank an alle Beteiligten.
+
+Eine Sache, die auch ganz wichtig ist, die ich leider vergessen habe zu erwähnen, ist, dass Lisa es heute leider nicht geschafft hat.
+
+Die ist halt ausgefallen, sonst wären wir hier zu dritt gewesen.
+
+Und ich möchte mich bei allen Beteiligten bedanken, also bei den Menschen von den Infodays natürlich, bei dir, Ralf, bei Lisa und bei Martina.
+
+Für mich war das ein spannendes Experiment.
+
+Und ich erinnere ehrlich gesagt nicht, ich habe mich heute Morgen noch gefragt, wer eigentlich irgendwie ursprünglich auf die Idee gekommen ist.
+
+Und ich weiß es nicht mehr genau.
+
+Was bedeutet, dass es eben tatsächlich aus meiner Sicht ein Team erfolgt war und verschiedene Leute haben verschiedene Dinge beigetragen.
+
+Das fand ich halt immer auch super.
+
+Hier ist noch der letzte Kommentar von Mark G.
+
+Danke für das Experiment, da solche Entscheidungen in Austausch mit vielen getroffen werden sollten.
+
+Wie du ja gesagt hast, ergibt sich der Review auf Verständlichkeit automatisch.
+
+Genau, und das ist halt so ein bisschen mein Punkt.
+
+Ich bin halt nicht sicher, ob ich mich schriftlich immer sauber ausgedrückt habe.
+
+Wahrscheinlich wäre das halt der Tipp nicht.
+
+Macht es nicht so wie ich.
+
+Nehmt jemanden und gebt ihm nochmal den ADR zum Lesen und schaut halt, ob der verständlich ist.
+
+Das ist auf jeden Fall gut.
+
+Und eben in der gemeinsamen Diskussion den ADR zu erstellen, ist auch eine gute Idee.
+
+Dann auch viel Spaß auf den Infodays, oder?
+
+Genau, vielen Dank und einen schönen Tag noch.
+
+Und vielen Dank für die Chance, die Keynote halten zu dürfen in dieser Art und Weise.
+
+Bis dahin.
+
+Genau, danke.
+
+Ciao.
+
+Tschüss.

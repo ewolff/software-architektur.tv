@@ -1,0 +1,1260 @@
+# Monorepos bei Uber: 👍 oder 👎?
+
+Software Architektur im Stream, Folge 280, 2025-09-26.
+Google hat vor langer Zeit Monorepos eingeführt. Uber berichtet über Tooling. Sind Monorepos eher gut oder schlecht?
+Seite: https://software-architektur.tv/2025/09/26/monorepos-bei-uber-oder.html
+YouTube: https://www.youtube.com/watch?v=HlR70AlCwpA
+PeerTube: https://tube.tchncs.de/w/a9mQsZv2ufdBoLicAuQZG1
+MP3: https://1evriw.podcaster.de/download/Monorepos_bei_Uber.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Anstatt den Code jedes Projekts in einem eigenen Repository zu
+verwalten, fassen Monorepos mehrere Projekte in einem einzigen
+Repository zusammen. Das hat Vorteile: Projektübergreifende Änderungen
+lassen sich dadurch deutlich einfacher umsetzen. Unternehmen wie
+Google oder Uber setzen auf dieses Konzept – und sie wissen
+vermutlich, warum.
+
+Was auf den ersten Blick vielleicht wie eine großartige Idee wirkt,
+bringt auch Herausforderungen mit sich. In dieser Episode werfen wir
+einen Blick auf Ubers Erfahrungen mit Monorepos und was wir daraus
+lernen können.
+
+## Links
+
+- [Rachel Potvin, Josh Levenberg: Why Google Stores Billions of Lines of Code in a Single Repository](https://dl.acm.org/doi/pdf/10.1145/2854146)
+- [Aron Lorincz, Goncalo Alvarez, Rasmus Vestergaard (Uber): Controlling the Rollout of Large-Scale Monorepo Changes](https://www.uber.com/en-AU/blog/controlling-the-rollout-of-large-scale-monorepo-changes/)
+- [Rasmus Vestergaard, Kasper Munck (Uber): Continuous Deployment for Large Monorepos](https://www.uber.com/en-DE/blog/continuous-deployment/)
+
+## Zusammenfassung
+
+## Monorepos bei Uber: Vor- und Nachteile einer kontroversen Architekturentscheidung
+
+Die Diskussion um Monorepos - also einzelne große Code-Repositories, die mehrere Projekte enthalten - ist in der Software-Entwicklung nach wie vor sehr aktuell. Ein besonders interessanter Einblick kommt von Uber, die kürzlich ihre Erfahrungen mit Monorepos und dem dazugehörigen Tooling veröffentlicht haben. Doch was genau sind die Vor- und Nachteile dieser Architekturentscheidung?
+
+### Was ist ein Monorepo?
+
+Ein Monorepo ist ein zentrales Code-Repository, in dem mehrere Projekte oder Services gemeinsam verwaltet werden. Bei Uber bedeutet das konkret: Tausende von Microservices werden in wenigen großen Repositories organisiert, hauptsächlich aufgeteilt nach Programmiersprachen.
+
+### Die Vorteile von Monorepos
+
+Die wichtigsten Vorteile dieser Architektur sind:
+
+- Einfacheres Teilen von Code zwischen Projekten
+- Koordinierte Änderungen über Komponentengrenzen hinweg
+- Einheitliche Versionierung
+- Atomare Änderungen über mehrere Services
+- Vereinfachtes Dependency Management
+- Bessere Kollaboration über Teamgrenzen hinweg
+
+### Die Herausforderungen bei Uber
+
+Bei Uber zeigen sich aber auch  Herausforderungen:
+
+1. **Sehr große Deployments**: Eine einzelne Änderung kann bis zu 2000 Microservices betreffen.
+2. **Komplexes Deployment-Management**: Uber musste ein ausgeklügeltes Kohorten-System entwickeln.
+3. **Blockierte Deployments**: Teams müssen teilweise warten, bis zentrale Änderungen durchgeführt sind.
+4. **Hoher Tooling-Aufwand**: Spezielle Tools für das Management großer Codemengen sind notwendig.
+
+### Der Uber-Ansatz: Kohorten-basiertes Deployment
+
+Uber hat ein System entwickelt, das Änderungen in Kohorten ausrollt:
+- Services werden nach Kritikalität gruppiert.
+- Deployments erfolgen schrittweise Kohorte für Kohorte.
+- Fehler werden früh erkannt durch Beta-Testing in weniger kritischen Kohorten.
+- Ziel ist, dass weitere Deployments weniger als 24 Stunden gesperrt werden.
+
+### Kritische Betrachtung
+
+Mehrere Aspekte des Uber-Ansatzes werfen Fragen auf:
+
+1. **Lose Kopplung vs. zentrale Koordination**: Der Ansatz scheint dem Microservice-Prinzip der unabhängigen Deployments zu widersprechen.
+
+2. **Technische vs. fachliche Organisation**: Die Aufteilung nach Programmiersprachen statt nach fachlichen Domänen erscheint fragwürdig.
+
+3. **Deployment-Abhängigkeiten**: Teams werden in ihrer Deployment-Autonomie eingeschränkt.
+
+4. **Komplexität**: Das System erscheint sehr komplex.
+
+### Alternative Ansätze
+
+Google zeigt mit seinem Monorepo-Ansatz eine Alternative:
+- Pull-Request basierte Änderungen
+- Stärkerer Fokus auf Code Ownership
+- Mehr Autonomie für einzelne Teams
+
+### Fazit
+
+Monorepos können in bestimmten Kontexten sinnvoll sein, besonders wenn:
+- Teams eng zusammenarbeiten müssen
+- Zentrale Libraries häufig geändert werden
+
+Allerdings sollte man genau abwägen:
+- Ist der zusätzliche Tooling-Aufwand gerechtfertigt?
+- Passen die Einschränkungen zur gewünschten Entwicklungskultur?
+- Gibt es einfachere Alternativen?
+
+Die Entscheidung für oder gegen Monorepos sollte nicht leichtfertig getroffen werden. Sie muss zur Größe der Organisation, der Entwicklungskultur und den technischen Anforderungen passen. Ubers Ansatz zeigt eindrucksvoll die Komplexität, die mit dieser Architekturentscheidung einhergehen kann.
+
+## Stichpunkte
+
+### Titel: Monorepos bei Uber: 👍 oder 👎?
+
+### Wichtige Keytakeaways
+- Monorepos sind große Repositories, die den Code mehrerer Projekte oder Services enthalten.
+- Bei Uber gibt es mehrere Monorepos, aufgeteilt nach Programmiersprachen.
+- Das Go-Repository enthält ca. 3000 Microservices.
+- 50% der Änderungen betreffen nur einen Service, aber 0,1% der Änderungen betreffen über 2000 Services.
+- Uber nutzt ein Kohorten-basiertes Deployment-System für große Änderungen, um die Risiken solcher Deployments in den Griff zu bekommen.
+- Die Kohorten werden nach Kritikalität (Tiers) unterschieden, zunächst werden weniger kritische Services deployt.
+- Weitere Deployments der betroffenen Services werden gesperrt, bis das Kohorten-basierte Deployment durchgelaufen sind
+
+### Behandelte Kernfragen
+- Wann sind Monorepos sinnvoll bzw. nicht sinnvoll?
+- Wie geht man mit übergreifenden Änderungen in Microservice-Architekturen um?
+- Wie lassen sich Deployments bei tausenden Services koordinieren?
+- Wie kann man Risiken bei systemweiten Änderungen minimieren?
+- Steht das Konzept im Widerspruch zur Microservice-Philosophie der Unabhängigkeit?
+
+### Glossar wichtiger Begriffe
+- Monorepo: Ein Repository, das mehrere Projekte oder Services enthält
+- Trunk-Based Development: Entwicklung auf einem Hauptzweig ohne langlebige Feature-Branches
+- Kohorte: Gruppe von Services, die gemeinsam deployed werden
+- RPC Library: (Remote Procedure Call) Library für Netzwerkkommunikation
+- Feature Toggle: Mechanismus zum Ein-/Ausschalten von Features in Produktion
+- Cherry-Picking: Selektives Auswählen bestimmter Commits für ein Release
+
+## Transkript
+
+## Folge 280 - Monorepos bei Uber: 👍 oder 👎? mit den Monorepos.
+
+Aufhänger ist so ein Artikel, den Uber vor einiger Zeit oft nicht hat, wo sie halt ein Tooling rund um Monorepos kurz erläutern.
+
+Und also stellt sich erst mal die Frage, was ist denn eigentlich Monorepo?
+
+### Was ist ein Monorepo?
+
+Ein Monorepo ist ein großes Repository, in dem mehrere Dinge, mehrere verschiedene Projekte untergebracht sind, also zum Beispiel alle Microservices eines Unternehmens oder halt zumindest sehr viele Microservices, was auch immer Teil deines Systems.
+
+Und jetzt ist ja die Frage, warum würde man das halt tun wollen?
+
+#### Vorteile von Monorepos
+
+Also ein Vorteil davon ist, dass man leichter Code teilen kann.
+
+Ein anderer Vorteil davon ist, dass es halt leicht möglich ist, Änderungen über Komponentengrenzen weg zu vorzunehmen und dann halt auch irgendwie automat zu versionieren.
+
+Das heißt, ich kann jetzt sagen, ich habe eine bestimmte Änderung.
+
+Diese Änderung beeinflusst eben ganz viele Microservices und die ist eben eine Änderung in einem Projekt, in diesem Monorepo, obwohl sie halt mehrere Microservices beeinflusst.
+
+Das ist auch gleich für mich so ein bisschen der Punkt, weswegen ich das so auf einer abstrakten Ebene ein bisschen problematisch finde, weil ich würde behaupten, dass wir eigentlich lose Kopplung haben wollen und eigentlich Änderungen haben wollen, die jetzt jeweils in einem Repo für einen Microservice relevant sind.
+
+Und man kann jetzt irgendwie sagen, wenn ich also übergreifende Änderungen erleichtere, dann ist es so, dass ich im Prinzip sage, meine Modularisierung hat nicht funktioniert.
+
+Ich muss eben modulübergreifende Änderungen erleichtern und ich habe eben keine lose Kopplung.
+
+Also Änderungen erwischen eben mehr als nur ein Microservice, sondern eben viele Sachen.
+
+Das muss sich erleichtern und das finde ich ein bisschen problematisch.
+
+Die andere Sache ist, und das ist glaube ich das, was uns auch den Rest der Session so ein bisschen verfolgen wird, wir haben halt ein Repository, das ist also das Source Code, aber der Source Code muss ja dann irgendwie deployed werden.
+
+Wenn ich jetzt irgendwie sage, ich habe irgendwie Microservices, mehrere Microservices in einem Repo, dann bedeutet das eben immer noch, dass ich mehrere Microservices deployen muss.
+
+Und das ist ja eigentlich eher sogar ein Feature.
+
+Also die Idee ist ja, dass ich nicht mehr große monolithische Deployments machen und irgendwie alles auf einmal deploye, sondern dass ich eben kleinere Einheiten deploye, Microservices.
+
+Das ist gerade der Unterschied zwischen Microservices und Deploymentmonolithen, was also bedeutet, dass ich dann zwar immer noch eine große Änderung machen kann, über viele Microservices hinweg, aber das Deployment ist halt dann schwierig, weil ich eben mehrere Sachen deployen muss.
+
+Ich brauche dann halt irgendwie auch noch eine Infrastruktur, die irgendwie dafür sorgt, dass das irgendwie effizient umsetzbar ist.
+
+Ich werde gleich nochmal das Beispiel von Google genauer erläutern.
+
+Will heißen, wenn ich jetzt irgendwie ganz Google auschecke und halt irgendwie bearbeiten will, das kann ich nicht einfach so tun.
+
+Da brauche ich also ein Studium drumherum und das ist eben das, was uns insbesondere dann nachher bei dem Uber-Thema auch nochmal verfolgen wird.
+
+Ich habe nochmal das Google-Paper rausgesucht.
+
+Das verlinke ich auch später nochmal.
+
+### Google's Monorepo-Ansatz
+
+Das ist halt ein ACM-Paper von 2016, also mittlerweile fast zehn Jahre alt und dort diskutieren sie eben, dass sie im Prinzip fast ganz Google in einem großen Repository haben.
+
+Die beiden populären Ausnahmen sind Android und Chrome, die zu dem damaligen Zeitpunkt zumindest eben nicht in diesem Repository drin sind.
+
+Die ganzen Daten sind natürlich eben auch zehn Jahre alt.
+
+Es ist ja wahrscheinlich so, dass Google da halt mittlerweile noch viel größer und umfänglicher geworden ist.
+
+#### Größenordnung des Google Monorepos
+
+Zu dem Zeitpunkt war es so, dass sie dort neun Millionen Source-Code-Dateien hatten, mit zwei Milliarden Zeilen Code, so sagen sie, 35 Millionen commits insgesamt, 18 Jahre Code-Basis.
+
+Das kann man sich überlegen, seit 1998 und insgesamt 86 Terabyte Daten.
+
+Im Vergleich dazu, Linux hat 15 Millionen Zeilen Code, das ist also nicht zwei Milliarden, 15 Millionen.
+
+Das ist also deutlich weniger und hat 40.000 Dateien statt eben neun Millionen bei Google.
+
+Das heißt also, wir reden über ein wirklich, wirklich, wirklich großes Ding in Bezug auf die Menge an Source-Code und es ist eben tatsächlich zu dem damaligen Zeitpunkt ganz Google-exklusive Android und Chrome, also die Suche-Engine und nicht Gmail und was auch immer da halt irgendwie sonst alles rumfliegt.
+
+Sie haben 800.000 Queries pro Sekunde Peak, also in der Spitze, 500.000 Queries pro Sekunde unter normaler Last und insgesamt 25.000 EntwicklerInnen.
+
+Das heißt also, sie sind dort auf einer Ebene, die weit jenseits dessen ist, was KundInnen von mir typischerweise halt irgendwie machen und sowohl in Bezug darauf die Anzahl EntwicklerInnen, die dort irgendwie arbeiten, wie auch die Menge an Code, die produziert wird, wie auch die Menge Code, die dort irgendwie sozusagen unter Kontrolle ist.
+
+Und das ist so ein bisschen die erste Sache, also wenn es sozusagen nicht Google wäre, von dem wir ja wissen, dass sie ja technisch sehr, sehr gut sind, dann ist irgendwie die Frage, ob wir das nicht irgendwie also sozusagen als historisch gewachsen klassifizieren würden und als außer Kontrolle geraten.
+
+Und bei Google ist es jetzt so, dass sie eben in dieser Ebene rangieren, wo sie halt selber Werkzeuge bauen für solche Sachen.
+
+Sie haben also Piper gebaut, um diesem ganzen Zeug irgendwie herzuwerden.
+
+Und das Piper, was Google dort veröffentlicht hat, finde ich persönlich eigentlich sehr schön, weil es halt irgendwie sagt, was so die Vorteile von diesem Ansatz sind, aber auch eben die Nachteile.
+
+Also eben nicht so eine Geschichte, wo man jetzt sagt, das ist alles supi und wir haben halt die gesamte Weisheit und machen es halt sozusagen richtig.
+
+#### Trunk-Based Development bei Google
+
+Die Vorteile, die sie nennen, sind einmal Trank-Based Development.
+
+Das heißt also, Trank-Based bedeutet, dass eben die aktuelle Version tatsächlich die Version ist, die halt in Produktion ist und dass es halt nicht ernsthaft Branches gibt, die eine längere Zeit irgendwie offen sind.
+
+Also klassisches Gegenbeispiel sind Feature-Branches, wo ich dann irgendwie sage, für ein Feature mache ich einen Branch auf und irgendwann merche ich das halt irgendwie zurück.
+
+Was halt bedeutet, dass sie halt als Vorteile haben, dass sie halt Branches nicht mehr merken müssen.
+
+Was halt sonst bei Branches, insbesondere wenn sie längere Zeit offen sind, halt zu Problemen führen kann.
+
+Und das ist so ein bisschen das erste Interessante.
+
+Also Trank-Based Development, was ja häufig so ein bisschen kritisch sozusagen gesehen wird, geht halt auch in der Größenordnung von Google und ist dort auch das, was eben Google selber als die bessere Variante ansieht.
+
+Bedeutet, sie haben eine konsistente Code-Basis, also sie wissen, was das ist, was in Produktion ist und das ist irgendwie auch trivial MWC-Bahn.
+
+Ich kann irgendwie auschecken und es ist halt irgendwie da.
+
+Sie haben logischerweise Features ausgetrockelt.
+
+Das heißt, wenn ich Trank-Based arbeite und halt ständig Sachen kommite, dann ist natürlich die Frage, wenn ich jetzt irgendwie an einem Feature arbeite und das dauert länger als ein Kommit, was es wahrscheinlich tut, dann muss ich halt irgendwie dafür sorgen, dass das nicht aus Versehen in Produktion plötzlich live ist.
+
+Dafür haben sie Features ausgetrockelt und bedeutet halt, dass Dinge, die halt noch nicht durch Kundinnen gesehen werden sollen, dann eben noch nicht aktiviert sind und erst mal in Produktion ausgeschaltet sind.
+
+Und was ich auch interessant fand, sie machen Cherry-Picking für Releases.
+
+Das heißt also, sie nehmen bestimmte Kommits raus aus dem Trunk und darauf basierend werden dann Releases gemacht.
+
+Also es ist nicht Continuous Deployment in dem Sinne, dass halt Sachen sofort automatisch in Produktion gehen, wenn jemand etwas ändert, sondern da gibt es irgendwie nochmal einen Cherry-Picking-Prozess.
+
+Sie müssen auch irgendwie Rollbacks können.
+
+Das heißt, wenn irgendwas in Produktion schief geht, muss es zurückgerollt werden.
+
+Mittlerweile ja etwas, was glaube ich unstrittig ist, dass das irgendwie eine gute Sache ist und mit Kubernetes auch umgesetzt wird, wo ich eben dann sage, ich mache halt ein Kommit.
+
+Wenn es schief geht, wird eben der Container nicht ausgerollt.
+
+Jetzt haben wir ja dieses Thema mit, wie gehe ich damit um, dass ich große Änderungen habe, die halt über mehrere Microservices, Dienste, whatever, halt hinweggehen.
+
+Und auf Google Scale ist es eben tatsächlich so, dass wir zum Beispiel Basis-Libraries haben, also irgendwelche technischen Dinge, die dort gebaut werden.
+
+Sie sprachen auch später davon, dass es eine Compiler-Gruppe gibt, die sich so darum kümmert, dass der Compiler vernünftig funktioniert.
+
+Und Änderungen, die jetzt dort vorgenommen werden, wenn ich sage, es gibt eine neue Compiler-Version, gehen Cross-Cutting über alle Services hinweg.
+
+Was eben zu der Frage führt, wie kann ich solche Änderungen abhandeln.
+
+Ich hatte schon gesagt, wenn ich viele von diesen Änderungen habe, dann würde ich sagen, ist eigentlich irgendwie etwas doof.
+
+Sprich, dann ist vielleicht mein Schnitt nicht in Ordnung.
+
+Mindestens würde ich das sagen für die Größenordnung, in der ich typischerweise operiere.
+
+Bei Google ist es halt, glaube ich, erstmal ein anderes Setting, weil ich habe eben diese Teile der Organisation, die technische Infrastruktur bauen.
+
+Die haben Leute, die sich um das Linux-Betriebssystem kümmern, um Compiler und was auch immer da ist.
+
+Was bedeutet, dass sie einfach eine größere technische Tiefe haben, als das der Fall ist bei den meisten Unternehmen, mit denen ich arbeite.
+
+Die benutzen Open-Source-Projekte und benutzen Betriebssysteme von der Stange und benutzen ganz viele Libraries von der Stange, weil sie nicht springen oder was auch immer die Libraries sind.
+
+Das ist bei Google nochmal etwas anderes.
+
+Was dazu führt, dass vielleicht diese querschnittlichen Sachen, wo jetzt jemand an der technischen Infrastruktur was dreht, dort häufiger sind.
+
+Deswegen ist das vielleicht eher ein Thema.
+
+Sie haben dafür eine Lösung, die sich ROSI nennt.
+
+Das ist offensichtlich ein Werkzeug.
+
+Sie arbeiten dort außerdem mit Rückwärtskompatibilität.
+
+Das heißt, was sie jetzt machen, wenn zum Beispiel eine Library sich ändert, ist, dass sie sagen, ich ändere diese Library.
+
+Das hat irgendwelche Dinge geändert werden müssen, in welchen Projekten.
+
+Dann deprecate ich nur den alten Weg.
+
+Der neue Weg ist nicht der einzige.
+
+Der alte bleibt erstmal bestehen.
+
+Dann teile ich halt diese große Änderung.
+
+Alle Projekte, die diese Library benutzen, sind potenziell beeinflusst von dieser Änderung dieser Library.
+
+Das teile ich jetzt mit ROSI in lauter kleine Änderungen auf pro Projekt.
+
+Die werden dann reviewed von, wer auch immer dafür zuständig ist, dieses Projekt unter Kontrolle zu haben.
+
+Dann gehe ich weiter vor.
+
+Ich persönlich finde das jetzt erstmal gar keinen schlechten Ansatz.
+
+Es wirkt für mich so, als würde ich jetzt eine Serviceeinheit haben, die für mich irgendwelche Dinge macht.
+
+Hier ist übrigens eine neue Library.
+
+Ich fixe das mal für dich, was sich ändert.
+
+Ich kann jetzt sehen, das machst du.
+
+Cool, das gefällt mir oder eben auch nicht.
+
+FS schreibt, wenn tausende Devs an Monorepo arbeiten, kommt es dann nicht öfter zu Merge-Konflikten.
+
+Das ist ja das, weswegen dieses Joint-Based-Development so entscheidend ist.
+
+Es bedeutet, es gibt eine aktuelle Version von jeder Datei.
+
+Dass parallel Menschen daran arbeiten, sollte dann eben relativ wenig häufig der Fall sein, weil es eben keine Branches gibt.
+
+Das ist so ein bisschen der Hinweis.
+
+Kann ich eigentlich in dieser Größenordnung noch mit Branches zumindest arbeiten?
+
+Bin ich mir nicht sicher.
+
+Meine ausgecheckte Version ist natürlich in gewisser Weise ein Branch.
+
+Das bedeutet, dass ich regelmäßig vom Trunk mir die Änderungen holen muss.
+
+Die Frage, die man sich stellen kann, ist, ob Google eine ernsthafte Alternative hat.
+
+Man kann die in gewisser Weise beantworten, weil Google selber bei Chrome und Android, was ja auch große Projekte sind, anders vorgeht.
+
+Es gibt also eine Alternative, um dem sozusagen vorzugreifen.
+
+Das, was Sie meiner Ansicht nach in dem Paper schreiben und für mich auch nachvollziehbar ist, ist, dass es der Weg ist, wie Sie arbeiten.
+
+Wenn Sie jetzt fundamental diesen Weg ändern, warum sollten die das tun?
+
+Ich glaube, es ist nicht so sehr die Aussage, dass es der Weg ist, sondern es ist eher die Aussage, wir haben uns daran gewöhnt.
+
+Wir haben uns darum herum gestrickt.
+
+Wenn wir das jetzt fix ändern, dann gibt es ein Problem.
+
+Vorteile laut Google.
+
+Die Vorteile sind, einheitliche Versionierung.
+
+Es gibt eine Quelle der Wahrheit, was die aktuelle Version ist.
+
+Es gibt die Möglichkeit, Code zu teilen und wiederzuverwenden.
+
+Nicht-Code-Wiederverwendung ist letztendlich das Einführen von Abhängigkeiten.
+
+Darüber kann man jetzt diskutieren.
+
+Das ist in gewisser Weise natürlich eine gute Sache, aber es führt eben zu diesem Problem, dass ich dann viele Abhängigkeiten habe.
+
+Es gibt ein Detailproblem, was Sie als Vorteil nennen.
+
+Interessanterweise ist das Dependency Management im Allgemeinen und dann insbesondere Diamanten Dependency Management.
+
+Also ich habe oben eine Komponente, eine Komponente A.
+
+A hängt ab von B und C, also von zwei anderen Komponenten.
+
+Und B und C hängt beides ab von D.
+
+Ich habe also ein Diamant.
+
+Oben ist A.
+
+A hängt von B und C ab und B und C hängen beide von D ab.
+
+Jetzt ist halt das Problem, wenn ich D ändere, dann habe ich eine neue Version von D.
+
+Richtig unschön wäre es, wenn ich jetzt B und C unterschiedliche Versionen von D benötigen.
+
+Das kann ich hiermit jetzt irgendwie verhindern.
+
+Also ich sage, ich habe einen Atom-Organ-Commit, der ändert halt D.
+
+Ich ändere in dem Zug B und C gleich mit und dann habe ich eben einen einheitlichen Stand.
+
+B und C benutzen beide dieselbe neue Version von D.
+
+Das kann ich atomar dann ändern.
+
+Also atomare Änderungen sind ein Vorteil.
+
+Ich kann große Refactorings machen.
+
+Das heißt, ich kann jetzt irgendwie sagen, ich mache tatsächlich eine nicht rückwärts kompatible Änderung einer API, sehe halt alle, die es benutzen und kann das überhaupt erstmal einigermaßen vernünftig durchführen.
+
+Ich kann über Teamgrenzen hinweg kollaborieren.
+
+Nämlich Team-Co-Teile.
+
+Ich habe flexible Teamgrenzen.
+
+Ich kann also ohne größere Probleme sagen, ich bin jetzt für einen anderen größeren Teil verantwortlich und sie können eben durch da entsprechend auch Sichtbarkeiten einführen, dass sie bestimmte Teile des Teams bestimmte Dinge halt sehen.
+
+Große Änderungen, die halt unterstützt werden, da hatten sie als Beispiel zum Beispiel, das ist zehn Jahre her, nicht x86-Code, also ARM-Code oder sowas.
+
+Ich kann da jetzt mehr als überlegen, ob ich eben das ganze Zeug auch auf ARM kompiliert bekomme.
+
+So und das ist eben etwas, was inherent eine große Änderung ist.
+
+C++11 hatten sie genannt als ein Beispiel, wo also neuer Compiler, dann neuer Standard, neue Sprachstandard unterstützt wird und auch irgendwelche Performance-Optimierung möglicherweise, die halt vielleicht auf Libraries irgendwie durchgreifen.
+
+Die fließenden Grenzen zwischen Teams hatte ich schon erwähnt und das sind so die wesentlichen Vorteile.
+
+Und das ist nachvollziehbar auf Google-Ebene.
+
+Wäre ich jetzt eine kleinere Organisation, hätte ich halt bestimmte Dinge vielleicht nicht.
+
+Vielleicht wäre es dann so, dass ich eben nur Open-Source-Frameworks benutze, die halt da draußen existieren und dann ist es vielleicht so, dass ich besser damit fahre, dass ich eben jedem Team überlasse, wann sie halt eine neue Version einer Library verwenden.
+
+Nachteile.
+
+Also Tooling, sagen sie, ist notwendig.
+
+Kann man sich vorstellen.
+
+Ich kann nicht auf meinem Rechner 85 Terabyte einfach auschecken und das Ganze mal kurz durchkompilieren, sondern da muss ich halt irgendwie anders vorgehen.
+
+Dann fand ich halt sehr spannend, die Menschen lesen eher den Code und versuchen den zu verstehen, statt der Dokumentation.
+
+Es schleichen sich eher Abhängigkeiten ein.
+
+Die Interna, die ich halt lerne durch Code lesen, werden eher ausgenutzt.
+
+Und damit sind wir eigentlich bei dem Information-Hiding-Thema, was der Pranas schon diskutiert hat.
+
+Also ich kann jetzt eben, ich habe mehr Information, ich sehe den gesamten Code.
+
+Ich nutze also alles, was irgendwie da ist und dadurch kriege ich tiefere Abhängigkeiten, was halt dazu führt, dass das ganze Ding dazu neigt, stärker unwartbar zu sein, weil eben alles irgendwie mit allem abhängt.
+
+Und das erleichtere ich ja dadurch, dass ich halt Monorepo habe, weil ich eben dann tatsächlich eben alles erst mal sehe.
+
+Und die Gegenmaßnahme ist dann eben explizite APIs einzuführen, wo ich eben sage, das sind Dinge, die man tatsächlich benutzen darf.
+
+Andere Dinge darf man nicht benutzen und das halt irgendwie explizit zu machen.
+
+Das ist Information-Hiding.
+
+Das ist das, was der Pranas schon vorher gesagt hat.
+
+Ich muss also definiert sagen, welche Dinge genutzt werden können und nur die sollten dann noch genutzt werden.
+
+Ja und das Paper sagt eben auch sehr offen, wenn man was anderes einführen würde, dann gibt es eine aufwendige Migration und das würde die Arbeitsweise ändern.
+
+Und da ist tatsächlich die Frage, also wenn 25.000 EntwicklerInnen auf diese Art und Weise arbeiten, kann ich mich jetzt hinstellen und sagen, ich mache es kurz mal anders.
+
+Und dass Android und Chrome nicht so verwalten, sondern da tatsächlich einzelne Repositories haben für die einzelnen Bestandteile des Browsers beziehungsweise des Betriebssystems, sagt halt, dass es nicht ein universelles Konzept ist.
+
+Bedeutet eigentlich, dass es eben eine bestimmte Art von Kollaboration ist.
+
+Ich habe also jetzt irgendein Team, was irgendwelche Libraries baut und durch das Monorepo habe ich eben eine Möglichkeit erreicht, mit denen eben dieses Team mit anderen Teams, die es benutzen, kollaborieren kann.
+
+Und ich glaube, dass ich halt irgendwie insbesondere, also wie soll ich sagen, ich könnte mir vorstellen, wenn ich jetzt in der Umgebung arbeiten würde von dem, was in dem Paper steht, dass das etwas ist, was tatsächlich vorteilhaft ist.
+
+Ich komme also morgens zur Arbeit, habe einen Pull-Request.
+
+Der Pull-Request sagt halt, ich habe für dich halt mal die neue Library da irgendwie reingebaut.
+
+Und das ist etwas, was auch im Minimumsrost-Projekten passiert.
+
+So, jetzt geht es um das eigentliche Paper oder das andere Paper von Uber.
+
+Uber ist dieser Fahrdienst.
+
+Und da sind erstmal verschiedene Disclaimer.
+
+Den einen habe ich schon mal gebracht.
+
+Es ist eben so, dass wir jetzt nicht über eine Größenordnung reden, die ich typischerweise bei meinen Kundinnen so sehe, sondern das ist eigentlich eher drüber.
+
+Und das Paper von Uber ist anders als das Google-Paper.
+
+Das Google-Paper sagt halt im Prinzip Monorepos.
+
+Hier ist die Art und Weise, wie wir es halt machen.
+
+Wir haben beobachtet, dass es eben hilfreich ist.
+
+Uber sagt halt, wir haben Monorepos.
+
+Hier ist ein Tooling rund um Monorepos.
+
+### Uber's Monorepo-Ansatz
+
+Was halt bedeutet, dass wir eigentlich nur die Frage stellen können, was bringt uns eigentlich dieses Tooling?
+
+Und es geht um das Thema mit den Rollouts.
+
+Also es geht irgendwie darum, wie ich jetzt Änderungen, die viele im Fall von Uber sind es tatsächlich die Microservices, betreffen, wie ich dafür sorge, dass die halt irgendwie koordiniert ausgerollt werden. offensichtlich Go-Code und anderer Code, die jeweils in anderen Repositories sind.
+
+Jeder von denen hat hunderte oder tausende Microservices.
+
+Und es gibt ein anderes Paper über Continuous Delivery bei Uber, das verlinke ich auch noch, bei dem halt steht, dass eben dieses Go-Repository 1.000 Commits pro Tag bekommt und 3.000 Microservices enthält.
+
+So, und um jetzt zu verstehen, was der Impact eines Commits ist, muss ich den Abhängigkeitsgrafen des Bildsystems, das ist bei dem Bazel, verstehen.
+
+Das heißt also, durch das Bild wird irgendwie angestoßen, welche abhängigen Sachen auch gebaut werden sollen.
+
+Wenn ich also eine Library baue, dann sagt er mir dieses Bildsystem, okay, ich baue irgendwie auch alle anderen Dinge, die von dieser Library abhängig sind.
+
+Und jeder Commit, der jetzt also das Binary eines Services ändert, also auch ein Commit, der nur auf eine Library geht, zählt dann sozusagen als ein Commit für den Service, in dem Sinne, dass es eben den Service ändert.
+
+Und die haben halt im Rahmen von diesem Continuous Delivery Paper beschrieben, sie hat eine Art, wie sie halt ihr Continuous Delivery System standardisiert und vereinheitlicht haben.
+
+Also eben nicht gesagt haben, sorgt halt irgendwie dafür, dass das Zeug in Produktion geht, euer Problem, sondern gesagt haben, hier ist halt ein Set an Dingen, die ihr benutzen sollt oder vielleicht sogar müsst.
+
+Und die sollen irgendwie diese Continuous Delivery Funktionalitäten ermöglichen, was ja auch schon eine gewisse Zentralisierung ist.
+
+Also es sagt halt irgendwie, ihr als Teams seid dann ein bisschen befreiter von euch, um dieses Thema selber zu kümmern.
+
+Da gibt es eine zentrale Einheit, die das für euch anbietet.
+
+Und sie sagen dann, dass man mit einem Commit tatsächlich tausende von Services ändern kann, beispielsweise mit der Anpassung einer RPC Library, also Remote Procedure Codes, also für die verteilte Kommunikation.
+
+Nachvollziehbar, die wird halt wahrscheinlich überall benutzt, weil eben alle Services über Netzwerk miteinander reden.
+
+Und dann sorgt irgendwie so ein Commit dafür, dass ich halt irgendwie ganz viele Services habe, die davon beeinflusst sind.
+
+Und das bedeutet, dass eben eine Änderung potenziell viele Services beeinflussen und auch brechen kann.
+
+Und da haben die jetzt in dem Paper eine Statistik veröffentlicht.
+
+Und zwar sind das Perzentile, das heißt also 50 Prozent der Commits ändern einen Service.
+
+95 ändern bis zu 14 Services.
+
+Das heißt, ich habe 95 Prozent der Commits, haben höchstens 14 Services, die sie beeinflussen.
+
+Bei 99 Prozent sind es höchstens 182 Services und bei 99,9 Prozent sind es 2178 Services.
+
+Das heißt, wir können jetzt daraus ableiten, dass halt vier Prozent der Commits zwischen 14 und 182 Services erwischen und 0,9 Prozent erwischen 182 bis 2178 Services.
+
+So und das bedeutet, dass halt so ungefähr größenordnungsmäßig ein Prozent der Commits wahnsinnig viele Services ändern.
+
+So und das ist jetzt irgendwie eine Geschichte, wo man ja sagen würde How hard can it possibly be?
+
+Also das wirkt ja jetzt erst mal nicht so schlimm.
+
+Man muss sie aber vergegenwärtigen, dass sie halt irgendwie so das andere Paper 1000 Commits pro Tag haben.
+
+Und das bedeutet halt, ein Prozent von 1000 sind irgendwie 10.
+
+Das heißt, sie haben bis zu zehn Änderungen, die halt in diesen so großen Impact irgendwie reingehen.
+
+Wenn man dem anderen Paper vertraut, was sie jetzt in dem Paper zu dem Studium geschrieben haben, ist, dass es halt eine Änderung pro Tag gibt, die mehr als 2000 Services erwischt.
+
+Das ist ein bisschen, also da, wie soll ich sagen, sagen die Paper ein bisschen unterschiedliche Dinge.
+
+Aber wir nehmen also eigentlich aber einen Commit pro Tag, der mindestens 2000 Services erwischt.
+
+Und also ich weiß nicht, wie es euch geht, aber ich empfinde es jetzt erst mal als erschreckend.
+
+Also das bedeutet halt, dass ich eine Änderung pro Tag habe, die im Prinzip praktisch fast das gesamte System erwischt.
+
+Also ich habe 3000 Go-Services insgesamt.
+
+Zwei Drittel des Systems werden also durch ein Commit geändert und das passiert jeden Tag.
+
+Und das kann ja wieder zu, also das bedeutet halt, dass da halt sozusagen ein Problem auf der Hand ist.
+
+Genau, wir können noch mal kurz zurückspringen.
+
+Jules Schulz hat gerade geschrieben, Merge-Konflikts würden entstehen, wenn tausende Devs an einem gleichen Base-Code arbeiten würden.
+
+Meiner Ansicht nach, Devs, die an derselben Basis gleichzeitig arbeiten, sind weniger und kommunizieren miteinander.
+
+Würde ich halt auch so erwarten.
+
+Ich würde halt erwarten, insbesondere in dem Google-Modell, dass ich halt sozusagen ein Team habe, was für einen Teil verantwortlich ist, was zum Beispiel dort Änderungen auch reviewt.
+
+Und es wäre jetzt irgendwie extrem überraschend, wenn halt an einem Teil sehr viele Leute ändern, nicht?
+
+Aber wie dem auch sei.
+
+Also die Annahme ist halt, dass die Änderungen im Wesentlichen gleich verteilt sind.
+
+Das, was halt dann ein Problem ist, das hier in der Tabelle ist, dass eben bestimmte Änderungen am Basis Sachen halt irgendwie sozusagen große Auswirkungen hat.
+
+So, was Sie jetzt eben weiterschreiben, ist, dass also ein schlechter Komit durchkommen kann.
+
+Damit meinen Sie einen Komit, der jetzt dafür sorgt, dass sozusagen beobachtbar durch Menschen, das System irgendwie schlecht performt.
+
+Und das wollen Sie jetzt, dieses Risiko wollen Sie managen.
+
+Das heißt, Sie wollen jetzt irgendwie herausfinden, ob ein Service überhaupt ein Problem haben wird.
+
+Und dazu sind Sie halt auf die Idee gekommen, das Deployment in Kohorten aufzuteilen.
+
+#### Kohortenbasiertes Deployment
+
+Das heißt also, ich mache eine Änderung an so einer OPC-Library beispielsweise.
+
+Es erwischt 2000 Microservices.
+
+Ich deploye die nicht alle auf einmal, sondern ich deploye eine Kohorte, dann die nächste und die nächste.
+
+Und ich kann die nach Kritikalität, die haben sie nach Kritikalität aufgeteilt.
+
+Das heißt, ich deploye erst mal die Kohorte mit den Services, die halt nicht so wichtig sind, weil sie eben vielleicht eh nicht so stark verfügbar sein sollen, sein müssen.
+
+Und dann arbeite ich mir weiter durch die Kohorten fort.
+
+Und das Deployment geht eben nur dann weiter, wenn die Änderung keine Fehler erzeugt hat.
+
+Beispiele für Fehler, die ich jetzt haben kann, ist zum Beispiel, dass der Ressourcenverbrauch plötzlich zu hoch ist.
+
+Das also spricht, das ist irgendwie etwas, was aus Monitoring herausfällt.
+
+Das ist noch nicht ein Ausfall, sondern bedeutet nur Irgendetwas ist komisch.
+
+Der Ressourcenverbrauch sei plötzlich hoch.
+
+Speicher geht hoch.
+
+CPU geht hoch.
+
+Ich habe vielleicht einen ineffizienten Algorithmus.
+
+Ich habe vielleicht irgendwo Memory Leak.
+
+Und das hatte ich eben vorher im Testing nicht gefunden, weil eben eine bestimmte Benutzung das erst ermöglicht.
+
+Ich habe irgendwelche SLA's, die verletzt sind, also Service Level Agreements, sprich Antwortzeiten sind zu lang oder was auch immer.
+
+Oder im Worst Case der Container startet nicht.
+
+Und das führt jetzt zu einer.
+
+Also.
+
+Da gibt es jetzt ein Problem.
+
+Das Problem ist halt, ich habe also eine Änderung an einem Microservice und diese Änderung ist noch nicht deployed, weil der ist in einer Kohorte, die jetzt später deployed wird.
+
+Und das ist irgendwie doof, weil das bedeutet, ich habe jetzt irgendwie etwas, was eben noch nicht in Produktion ist.
+
+Und ich will ja eigentlich idealerweise Trunk Based arbeiten.
+
+Und das bedeutet, dass ich jetzt irgendwie Dinge habe, die sozusagen in der Schwebe sind und dem muss ich jetzt irgendwie begegnen.
+
+Und die begegnen dem, indem sie sagen, dass sie halt die Container für das automatische Deployment sperren.
+
+Das heißt also, so verstehe ich das zumindest, wenn ich jetzt eine Änderung mache, während ich in einer Kohorte bin, die noch nicht deployed ist, dann kann ich die halt im Moment nicht deployen.
+
+Was bedeutet, dass die sich halt sozusagen auftürmt.
+
+Also irgendjemand ändert diese RPC Library.
+
+Mein Service ist betroffen.
+
+Ich möchte jetzt gerne mit dem Service live gehen.
+
+Geht nicht, weil der ist in einer Kohorte, die eben noch nicht durch die RPC Library, durch diese Änderung halt durch ist und halt deployed worden ist.
+
+Und das ist eben etwas, was zwei Drittel der Services einmal pro Tag sozusagen durchgehen.
+
+So der Uwe Patel hat gefragt, welchen zeitlichen Abstand haben die Kohorten, denn die Kohortendeployments, dazu kommen wir gleich.
+
+Da gibt es eine Grafik, die ich zeigen möchte.
+
+Dann schreibt der Tobi Wan Kenobi, ab welcher Metrik Größen, Devs, Teams, Anzahl der Projekte würde man überhaupt beginnen, über Monorepos nachzudenken bzw. umgekehrt.
+
+Wann sind Monorepos überhaupt nicht sinnvoll?
+
+Ja, das ist halt die Frage, die ich halt am Ende nochmal gerne beantworten möchte.
+
+Zwischenstand ist halt, dass Monorepos nach dem Google Paper eine bestimmte Art ermöglichen, zu kollaborieren zwischen Teams und dass das wahrscheinlich hilfreich ist, wenn ich ein hohes Maß an Investment, insbesondere an gemeinsamen Libraries habe.
+
+Was das bedeutet, das ist wahrscheinlich aus dieser Motivation für die meisten Unternehmen, mit denen ich arbeite, die halt Standard Open Source Systeme benutzen als Basis und nicht die Basis, wenn wir komplett selber bauen, was vielleicht nicht so sinnvoll ist.
+
+Aber dazu kommen wir noch.
+
+Genau, so.
+
+Ich muss mal kurz schauen.
+
+Ach so, genau.
+
+Also diese Sperren, über die ich sprach, möchte ich natürlich möglichst schnell aufhalten, also dafür sorgen, dass die möglichst schnell wieder freigegeben werden.
+
+Dafür haben die jetzt gesagt, wir bauen einen Simulator, der sich überlegt, wenn wir so ein kohäurantenbasiertes Deployment machen, wie lange denn das dauert, bis es gesperrt worden ist.
+
+Und da kann man halt so Parameter einstellen wie Kohortengröße, also wie viel ich auf einmal deploye, Progress Threshold, also ab wie viel erfolgreich deployten Services ich halt die nächste Kohorte nehme und halt weitere Policies für die CD-Pipeline.
+
+Und da gibt es zwei Abbildungen in dem Paper.
+
+Da gibt es also einmal die Abbildung, die zeigt, wie das halt sozusagen unoptimiert ist und dann haben sie die Abbildung mit optimiert.
+
+Und die möchte ich jetzt eigentlich ganz gerne zeigen.
+
+Das ist die da, nee, das ist nicht die da.
+
+Das ist die da.
+
+Und die möchte ich eigentlich nochmal hübsch machen.
+
+So sieht es besser aus.
+
+So, was wir da jetzt sehen, ist folgendes.
+
+Wir sehen also eine Woche unten.
+
+Die Woche fängt an bei Sonntag, 18 Uhr, UTC und geht bis Donnerstag, 18 Uhr, UTC.
+
+Und wir haben hier die Zeit, die es halt benötigt, bis eine Kohorte entsperrt ist und die Zeit, die sie sich halt dort geben sind oder wie sie anstreben, sind 24 Stunden.
+
+Das ist die gestrichelte horizontale Linie.
+
+Dann gibt es hier irgendwie den Tier 0, 1, 2.
+
+Das ist die Business-Kritikalität und dann irgendwie das vollständige.
+
+Und was das jetzt bedeutet, ist folgendes.
+
+Wenn ich halt am Sonntag um 18 Uhr UTC in die Programme anwerfe, dann kann ich damit rechnen, dass ich halt innerhalb von, was sind das, 15 Stunden Tier 2 entblockt habe, innerhalb von ungefähr 20 Stunden Tier 1, innerhalb von etwas über 24 Stunden Tier 0 und komplett ist es halt irgendwie nach 41 Stunden.
+
+Wenn ich dasselbe am Mittwoch mache, dann Mittwoch um 18 Uhr, dann dauert es halt 120 Stunden, bis alles entblockt ist.
+
+Die Tier 0, 1, 2 Sachen sind halt unterhalb von 24 Stunden entblockt.
+
+Und wenn ich das Donnerstag um 18 Uhr mache, dann dauert halt auch der Tier 0 irgendwie, was sind das, 85 Stunden oder so.
+
+Dazu muss man jetzt sagen, dass ein wesentlicher Einfluss die Konfiguration ist, die zum Beispiel erlaubte Zeitfenster definiert.
+
+Also das bedeutet, dass die Teams jetzt sagen können, wir möchten halt gerne nur deployen zu den Zeiten, zu denen wir halt vor Ort sind, damit wir da mehr eingreifen können.
+
+Ich glaube, das ist das, was die ja auch typischerweise tun.
+
+Ich bin ehrlich gesagt nicht sicher.
+
+Das Paper ist meiner Ansicht nach nicht ganz eindeutig.
+
+Man kann es entweder so lesen, wie ich es gerade gesagt habe, dass sie also die Zeiten so einschränken, dass zu den Zeiten, wo sie selber arbeiten, Deployments stattfinden sollen.
+
+Das ist wahrscheinlich auch logisch, weil man dann eingreifen kann.
+
+Ich hatte halt so ein bisschen oder das Optimum wäre ja eigentlich, dass es passiert, während sie nicht arbeiten, damit sie halt in ihrer Arbeit nicht gehemmt werden, also dann einfach sozusagen ihre tägliche Arbeit mit.
+
+Ich mache eine Änderung und ich deploye es halt, dass sie die irgendwie machen können.
+
+Ich glaube, am Ende ist es halt so, dass sie eigentlich eher sicher spielen wollen.
+
+Also zu den Zeitpunkten, wo es deployt wird, sie eben dann arbeiten wollen.
+
+Und das erklärt halt, glaube ich, warum irgendwie nicht das Donnerstag halt so in die Höhe geht, weil sie dann nicht am Freitag noch schauen wollen, dass sie das halt irgendwie deployt wird.
+
+Was bedeutet, dass da irgendwie das Wochenende inzwischen steckt?
+
+Dann geht es halt in die Höhe.
+
+Also es ist nicht so, dass das jetzt die reine Zeit ist, die das technisch benötigt, sondern dass das eben eher offensichtlich die Constraints sind, die halt die Teams einführen.
+
+So verstehe ich das halt zumindest.
+
+Und das ist da, glaube ich, so im Wesentlichen die Aussage, also eher Erfolg.
+
+Und sie haben dieses Werkzeug dann, also Uwe Bartel hat gerade geschrieben, oder es gibt Spitzenzeiten, wo sie unkritische Deployments vermeiden.
+
+Genau, sowas kann irgendwie auch sein.
+
+Weißes Uber, Wochenende, unkritisch.
+
+Also ich glaube nicht, dass das Wochenende da ein Peak ist, aber keine Ahnung.
+
+Achso, und sie benutzen das Werkzeug halt auch zum Koordinieren von Deployments mit nur Konfigurationsunterschieden.
+
+Also es gibt halt offensichtlich Machine Learning Systeme, wo sie dann eben nur unterschiedliche Modelle haben, die unterschiedliche Daten nehmen, aber die halt am Ende dann letztendlich denselben Code haben.
+
+Und dafür nutzt sie halt auch dieses Koordinierungswerkzeug.
+
+Soweit, so gut.
+
+Jetzt ist die Frage, wie wir das bewerten.
+
+Und da ist erstmal mein Disclaimer.
+
+Also das ist halt die Papierform.
+
+Und wenn ich irgendwie Architekturreviews mache, lassen wir uns typischerweise irgendwie die Papiere alle zuschicken, die man irgendwie so haben kann.
+
+Und wir lesen die halt irgendwie durch.
+
+Und weil halt die Hoffnung ist, dass man mit den Papieren irgendwie mehr weiß als ohne.
+
+Und das ist eben auch so.
+
+Aber die Sachen, die halt irgendwie in den Papieren drinstehen, sind halt häufig missverständlich, falsch oder beantworten dann bestimmte Fragen nicht.
+
+Das heißt also, ich kann hier halt einen ersten Eindruck schildern, nicht eine echte Bewertung.
+
+Und es führt irgendwie eher zu der Frage, okay, nehmen wir jetzt mal an, wir würden das halt bewerten wollen.
+
+Was wären irgendwie Sachen, die wir halt diesen Uber-Menschen fragen würden?
+
+Und was wäre also das, womit wir halt in die Termine mit ihnen reingehen würden?
+
+Das Erste ist so eine, ich sag mal so eine Art Geschmacksfrage.
+
+Also will heißen, das ist eben tatsächlich super subjektiv, mein allererster Eindruck.
+
+Und ich weiß nicht, wie es euch geht.
+
+Für mich war das auch einer der Gründe, warum ich das Paper jetzt irgendwie diskutieren wollte, insbesondere das Uber-Paper.
+
+### Kritische Analyse des Uber-Ansatzes
+
+Mir widerstrebt halt die Komplexität dieser Lösung und dieser Koordination.
+
+Also wir wollen doch am Ende, hätte ich jetzt erwartet, Teams haben, die halt idealerweise für ihre Microservices zuständig sind oder für einen Teil des Systems und halt unabhängig von allen anderen irgendetwas tun können.
+
+Und das sollte halt hoffentlich einfach sein.
+
+Also ich sollte einen Knopf drücken und dann sollte halt in die Probleme losgehen.
+
+Und das ist es halt.
+
+Und das konterkarieren wir hier gerade, weil wir halt den Teams, sie davon abhalten, die Deployments zu machen, weil wir halt irgendwie ein zentralisiertes Deployment von einem anderen Team höher priorisieren.
+
+Das bedeutet also, mein Eindruck, so lese ich das aus dem Paper raus, irgendjemand ändert eine RPC-Library und ich stehe da und sage, cool, ich kann halt jetzt irgendwie mein Zeug nicht deployen in Produktion.
+
+Und das ist halt insbesondere deswegen schmerzhaft, weil eben ein häufiges Produktions-Deployment zahlreiche Vorteile mit sich bringt.
+
+Es bringt halt letztendlich höher Produktivität.
+
+Und führt eben auch dazu, nicht nur ein besseres Time-to-Market, sondern eben auch höhere Produktivität.
+
+Und da gibt es irgendwie die DevOps-Studie, die belegt das.
+
+Und da gehe ich jetzt gerade im Kompromiss rein und das finde ich halt irgendwie schwierig.
+
+Insbesondere, weil wir ja so eine, also das ist das andere, was ich halt so ein bisschen paradox finde.
+
+Also teilweise ist Deployment ist ja irgendwie offensichtlich akzeptabel.
+
+Das heißt also ich kann, mein Service ist noch nicht deployed, der Service von den Leuten um mich herum ist deployed mit der neuen RPC-Library.
+
+Warum müssen wir das dann überhaupt koordinieren?
+
+Also warum kann ich dann nicht irgendwie sagen, ich deploy halt, wenn ich Bock habe, irgendwann.
+
+Und wenn ich das nächste Mal eine Feature-Änderung mache, dann deploy ich halt einfach.
+
+Und wenn es halt irgendwie schief geht, dann weiß ich halt, dass ich da ein Problem habe.
+
+Und dann kann ich halt irgendwie zurückrollen.
+
+Und ich bin halt der Herr über den Service und entscheide das halt.
+
+Das ist nach meinem Empfinden das, was halt dieses Konzept von Google und ROSI halt eher sagt, wo ich eben tatsächlich dann selber die Person bin, die sich halt kümmern muss oder kann.
+
+Und ich dann eben die Person bin, die halt die Herrschaft über den Server hat, über den Service hat und eben sagen kann, nee, ich rolle das jetzt irgendwie zurück oder die Änderung ist irgendwie doof oder nicht, geht halt nicht durch den Test oder was auch immer.
+
+Und ja genau, also diese Geschichte mit dem Sperren von Containern für Deployments finde ich schwierig.
+
+Und irgendwie führt das zu so einer komischen Zuständigkeit.
+
+Also es führt irgendwie dazu, dass diese Menschen, die halt den RPC-Service ändern, den ich halt irgendwie als Beispiel nur nehme, weil das das einzige Beispiel ist, dass ich da halt irgendwie, was halt in dem Paper halt direkt drinsteht, die übernehmen jetzt eine Verantwortung dafür indirekt, dass mein Service nicht bricht.
+
+Finde ich ja nett von denen, aber eigentlich sollte ich verantwortlich sein für meinen Service.
+
+Und da ist irgendwie dieses Pool-Prinzip, dass ich also eher sage, okay, ich nehme halt die Änderung rein, ich review die, liegt mir persönlich näher.
+
+#### Probleme mit Deployment-Sperren
+
+Und diese Summe aus dem, der Anzahl, der Dauer der Sperren, nicht Ziel unter 24 Stunden und der Frequenz der übergreifenden Änderung, eine Änderung mit mehr als 2000 Microservices jeden Tag, da liegt halt sozusagen die Frage so ein bisschen auf dem Tisch, die man jetzt irgendwie stellen muss, wie stark behindert das die Teams bei der Arbeit?
+
+Also so aus der Papierform hört sich das an, wie das.
+
+Und da kann halt kein Team arbeiten.
+
+Das kann aber eigentlich nicht sein.
+
+Und deswegen verstehe ich da vielleicht irgendwas nicht.
+
+Müssen wir halt schieben.
+
+Genau.
+
+Uwe schreibt halt gerade, das Verschwimmen der Verantwortlichkeiten finde ich auch schwierig.
+
+Und das führt dazu, das ist das, was ich bei dem Google-Modell schon sagte, dass wir eigentlich ein Tooling und einen Ansatz haben, um halt eine bestimmte Art von Kollaboration zu unterstützen.
+
+Da schreibt er irgendwie weiter.
+
+Das klingt so, dass ohne Not die Probleme erschaffen werden, wo irgendwie alles deployt werden muss.
+
+Genau.
+
+Das ist so ein bisschen das Problem.
+
+Stimmt nicht.
+
+Es sind nicht die Probleme mit Monolithen.
+
+Es ist eben so, dass seit 50 Prozent der Änderungen mindestens, wahrscheinlich ja noch mehr.
+
+Ich kann noch mal die Grafik zeigen.
+
+Nee, das war nicht die Grafik, die ich zeigen wollte.
+
+Die da.
+
+50 Prozent der Änderungen erwischen nur einen Service.
+
+So irgendwo zwischen 95 und 50 Prozent wächst diese Zahl auf zwei.
+
+Bei 95 sind es 14 Services.
+
+Das heißt also im Wesentlichen sind Deployments unabhängig, mindestens die Hälfte.
+
+Also die Mehrheit ist unabhängig.
+
+Und deswegen ist es nicht ein Deployment Monolith, aber es gibt nicht dieses eine Prozent, was halt irgendwie so extrem krass ist und hat das gesamte System nahezu beeinflusst.
+
+Und bei nicht 2000 Microservices ist es halt irgendwie schon offensichtlich problematisch.
+
+So was hat der Urs Enzler geschrieben?
+
+Ich war nicht von Anfang an mit dabei, darum fehlen mir wahrscheinlich etwas Informationen.
+
+Könnte es sein, dass das Problem darin liegt, dass die Deployment-Units nicht direkt zu den logischen Service-Einheiten passen?
+
+Das ist eine von den Sachen, die ich eigentlich noch mal diskutieren wollen würde.
+
+Kann ich jetzt eigentlich auch machen.
+
+Das, was wir hier eigentlich diskutieren ist, also mir ist das Problemstatement nicht ganz klar.
+
+Und das läuft halt letztendlich in diese Richtung rein.
+
+Das einzige konkrete Beispiel für eine übergreifende Änderung ist eine RPC Service Änderung.
+
+Und dass die übergreifen, ist halt irgendwie trivial.
+
+So was mich jetzt interessieren würde, und das wäre eine von den Fragen, die ich stellen würde, was sind diese Änderungen, die zu viele Microservices erwischen?
+
+Wie viele sind das und welche Art von Änderungen ist das genau und welche Constraints gibt es?
+
+Also wenn man jetzt sagt, ich mache eine Änderung auf eine RPC Service, muss ich das auf die RPC Library zeitnah deployen.
+
+Warum muss ich das?
+
+Also bei einem Security Update ist das was anderes.
+
+Wenn ich jetzt sage, ich habe ein Security Problem erwischt, dann muss ich eben sehr schnell alles Mögliche deployen.
+
+Und das ist auch wichtiger als Features.
+
+Aber nur eine RPC Library, die vielleicht irgendwo irgendeinen Corner Case jetzt irgendwie anders löst, muss ich das halt wirklich deployen.
+
+So und das ist eben eine von den Fragen und etwas, was das Paper nicht beantwortet.
+
+Also was sind denn eigentlich die Dinge, die halt diese vielen Änderungen triggern?
+
+Und da sind noch ein paar andere Sachen, die ich halt irgendwie erstaunlich finde.
+
+#### Deployment-Koordination
+
+Also die haben halt eine Modularisierung.
+
+Ich behaupte, die Aufteilung in mehrere Monorepos ist eine Modularisierung.
+
+Ich sage nämlich, dass ich halt mein System habe und ich habe es jetzt aufgeteilt in Monorepos und das sind Module in dem Sinne, dass ich eben meine gesamte Software aufgeteilt habe, so wie ich halt eben in einem Unternehmen auch irgendwie Systeme habe.
+
+Ich habe ein ERP, Enterprise Resource Planning System, CRM für Customer Relationship Management, ich habe eine Webseite und hier habe ich jetzt irgendwie entschieden, dass ich auf dieser sehr grobgranularen Ebene Monorepos habe.
+
+So und bei Google ist halt die Aussage, die gesamte Webseite ist halt Monorepo, also nicht Gmail und Google Mail und was da drauf was.
+
+Android und Chrome sind extra.
+
+So und bei Uber ist halt die Aussage, die Monorepos sind aufgeteilt nach Programmiersprache.
+
+Das ist keine fachliche Aufteilung.
+
+Die Aufteilung bei Google ist eine fachliche Aufteilung und das ist halt ein bisschen komisch und das zieht sich ja jetzt weiter durch.
+
+Das heißt, also letztendlich ist das eine rein technische Aufteilung.
+
+Also ob ich was in Go schreibe oder nicht, ist halt nicht abhängig von der Fachlichkeit, behaupte ich jetzt mal.
+
+Und das bedeutet, diese Aufteilung in diese Monorepos, die grobgranulare Aufteilung, die sie halt haben, die ist halt technisch beeinflusst.
+
+Und das liegt dem Verdacht nahe, dass wir ja auch über eine technische Optimierung sprechen.
+
+Also das hat bestimmte technische Commits, zum Beispiel Änderungen an einer RPC Library.
+
+Das sind die, weswegen ich irgendwie dieses System baue.
+
+Und da ist die Frage, warum muss ich das eben schnell zeitnah alles deployen, wenn es eben kein Sicherheitsupdate ist.
+
+Und das ist halt insbesondere deswegen ein Thema, weil ich eben immer noch behaupten würde, fachliche Änderungen sind das, was eigentlich wichtig ist.
+
+Also die neue RPC Library interessiert halt niemanden.
+
+Was mich interessiert, ist, dass halt Uber aus irgendwelchen Gründen mir das Auto schneller anbieten kann, mir mehr Informationen gibt über das Auto oder was auch immer.
+
+Also irgendwelche Fachlichkeiten, das sind halt die Sachen, die Kunden typischerweise beeindrucken und nicht die RPC Library, wenn sie nicht irgendwie kundenwirksame Features hat.
+
+So und das bedeutet halt, dass irgendwie dieses ganze Ding halt technisch wirkt.
+
+Und das führt irgendwie dazu, dass ich mir da nicht sicher bin, was denn eigentlich der Grund ist, dass man eben diesen Ansatz wählt und dass man halt insbesondere diese Art von Deployment wählt.
+
+Also letztendlich bedeutet es halt, wenn die da drüben die RPC Library ändern, dann ist mein Service blockiert und ich kann meine eigenen Features halt erst mal nicht ausliefern.
+
+Und das finde ich komisch.
+
+Genauso fehlt halt die Frage, was denn eigentlich Alternativen sind.
+
+#### Fehlende Alternativen
+
+Also ich würde behaupten, die offensichtliche Alternative ist, diese Änderung halt irgendwie zu pullen.
+
+Also das, was eben Rosie bei Google über solche, für mich wirkt es wie Pull-Requests, halt da irgendwie macht, kann man ja auch irgendwie anders machen.
+
+Also man könnte sagen, es gibt halt die neue Library oder was auch immer die Abhängigkeit halt ist und ich mache gar keinen Pull-Request, sondern ich kann mir das irgendwie selber reinziehen.
+
+Und diese Alternative, warum die nicht gewählt worden ist, ist hier nicht diskutiert worden, was jetzt bei dem Uber-Paper nicht erstaunlich ist, weil sie ja nur über das Tooling sprechen.
+
+Sie sagen nicht, warum sie überhaupt so vorgehen.
+
+Also sie sagen, im Prinzip sagt dieses Paper Prämisse, wir machen eben Monorepos, wir machen es so, wie wir es halt bei Uber machen.
+
+Konklusion, wir bauen ein System, um eben Deployments über viele Microservices zu koordinieren.
+
+Aber da fehlt halt was.
+
+Und ich würde halt bei dieser Diskussion eher das konkrete Problem mit möglichen Corner Cases diskutieren und analysieren und Alternativen betrachten.
+
+Dann würde ich es halt bewerten und das ist auch der Grund, warum wir halt in Architectural Decision Records ja genau das machen, dass wir halt irgendwie schauen, was ist eigentlich die Entscheidung, was sind die Alternativen, warum haben wir diese Entscheidung halt gefällt.
+
+Und das fehlt eben in diesem Paper, was, wie gesagt, man dem nicht anlasten kann, weil es eben ein Paper ist über Tooling.
+
+Die Ziele sind mir auch nicht so klar.
+
+Ich finde es, also was ich dadurch erreiche, ist halt eine stärkere Konsolidierung und Einheitlichkeit.
+
+Also ich kann jetzt irgendwie Leute dazu zwingen, eine bestimmte Version der Library zum Nutzen in allen Services.
+
+Und das ist eben einheitlich und konsolidiert.
+
+Und die Gründe sind jetzt irgendwie auch nicht so klar.
+
+Also was wir ja jetzt erreichen, ist eine höhere Zuverlässigkeit von Änderungen.
+
+Und zwar erreichen wir das deswegen, weil wir jetzt eben eine Kohorte erst mal loslaufen lassen und die Änderung sozusagen Beta testen lassen.
+
+Und dann lassen wir halt die nächste Kohorte, die nächste Kohorte laufen und dann kriegen wir halt irgendwann alles deployed.
+
+So das heißt, die Zuverlässigkeit, die Deployments wächst.
+
+Aber es steht ja jetzt ein wenig drin, wir hatten übrigens andere Produktionsprobleme, weil uns halt irgendwie Commits durchgerutscht sind, durch Änderungen von Basis-Libraries oder Basis-Dingen.
+
+Das würde da aber auch nicht stehen, weil nicht, also wir werden nicht ein Paper schreiben, wo sie irgendwie reinschreiben.
+
+Wir bei Uber hatten übrigens ein Zuverlässigkeitsproblem, halte ich für eher unwahrscheinlich.
+
+Es führt aber auch noch zu anderen Fragen.
+
+Es führt eben zum Beispiel zu der Frage, warum die lokalen Tests solche Probleme nicht gefunden haben.
+
+Also deploy jetzt irgendeinen Service, da ist der neue RPC-Library.
+
+Die RPC-Library hat ein Problem, das eben dazu führt, dass in der Produktion irgendetwas nicht funktioniert.
+
+Wieso merkt mein Test das nicht?
+
+Das wäre eine Frage, die man halt irgendwie stellen muss.
+
+Und da, ja das ist auch noch eine gute Frage, der Uwe fragt gerade die Frage, die sich mir stellt, werden alle Kohorten bei einem Fehler zurückgerollt und nur die Kohorte, wo der Fehler aufgetreten ist, das ist eine gute Frage.
+
+Und das ist auch die Frage, was mache ich denn, wenn in der Kohorte, die bereits ausgerollt ist, noch Änderungen danach gekommen sind und die neuen Änderungen auch ausgerollt worden sind.
+
+Also RPC-Libraries geändert, ich habe das Ding in Produktion, es ist also entsperrt, also mache ich jetzt eine Änderung.
+
+Die Änderung umfasst halt irgendwelche Dinge.
+
+Jetzt habe ich also zwei Änderungen, die RPC-Library und meine Änderungen vielleicht an den Features.
+
+Jetzt möchte ich ja zurückrollen, nehme ich dann irgendwie diese RPC-Änderung raus, irgendwie auch doof, nicht?
+
+Also dann torpediere ich ein bisschen diese Trunk-basierte Entwicklung, weil ich eben nicht immer nur vorwärtsgehe, sondern ich nehme irgendwo hinten einen Kuh mit raus und lasse das dann nicht live gehen.
+
+Ja, dann die Frage grundsätzlich, also es gibt jetzt vier Repros mit 100 oder 1000 Microservices und meine These, also bei dem Go-Repro sind es offensichtlich deutlich über 2000.
+
+Ich behaupte, das kann niemand überblicken.
+
+Also es ist nicht menschenmöglich, 2000 Microservices zu verstehen und im Kopf zu behalten.
+
+Das heißt, da muss meine Behauptung irgendetwas sein, was das noch stärker strukturiert.
+
+Also ich würde erwarten, dass man halt, wenn man jemanden fragt, hey, diese 2000 Microservices oder vielleicht sind es auch 3000, sind ja genau genommen nur etwas über 2000, die halt durch einen Kommitt einmal geändert werden, sind die irgendwie noch unterstrukturiert.
+
+Und da würde ich jetzt irgendwie erwarten, dass halt rauskommt, ja, da gibt es irgendwelche Strukturen, nicht?
+
+Also vielleicht ist ein Teil davon die Kommunikation mit dem Uber-Fahrer, ein anderer Teil davon ist irgendwie die Buchung oder was auch immer.
+
+So und der Hintergrund ist für mich die Frage, will ich vielleicht eine andere Lösung haben, bei der nicht Kommitts von 1000 Microservices passieren oder 2000?
+
+So und dann ist die Frage, ob ich halt diese explizite Änderung halt irgendwie abbilden möchte oder dieses implizite Clustering, dass ich also sage, okay, ich habe also jetzt ein Cluster von Services, die sind halt verantwortlich für die Kommunikation mit dem Uber-Fahrer und diese Services baue ich halt in ein eigenes Repro.
+
+Und dadurch habe ich jetzt vielleicht sowas wie eine Art Kohorte, nur irgendwie fachlich und eine Änderung in der RPC-Library lasse ich eben dort als erstes oder als letztes durchlaufen, weil das eben besonders businesskritisch ist oder besonders wenig businesskritisch.
+
+Der Urs hat geschrieben, was hat er geschrieben?
+
+Um so eine Änderung in einer Serviceeinheit zu Änderungen in mehreren Diplomate-Units führen.
+
+Genau, also das ist ja so ein bisschen die Frage.
+
+Und letztendlich optimieren wir nur in Anführungsstrichen auf, glaube ich, irgendwie wenige Prozent.
+
+Also wir können es uns doch mal angucken.
+
+Nicht die Sachen, die wirklich schwer handelbar sind, sind halt so die letzten fünf Prozent.
+
+Also ab 14 Microservices oder mehr, die beeinflusst sind, sind halt fünf Prozent von den Kommitts.
+
+Da wird es halt irgendwie schwierig.
+
+Das ist vom Anteil nicht viel, aber wenn ich halt irgendwie 1000 Kommitts pro Tag habe, sind das irgendwie 15 und das hat irgendwie dann doch vier.
+
+So, die fundamentale Frage ist ja, würde ich ein Monorepo einführen?
+
+Das erleuchtet halt die Kommitts über Grenzen von Services hinweg.
+
+Ist das eher ein Feature oder eher ein Bug?
+
+Ich finde das schwer zu beantworten.
+
+Was wir hier auf jeden Fall sehen, ist, dass es halt zu einem Risiko im Deployment führt.
+
+Also ja, ich kann jetzt eine Library ändern, aber diese Änderung geht irgendwie quer über alles.
+
+Und ich muss das sozusagen später beim Deployment irgendwie im Kompromiss eingehen, damit eben nicht die Änderung wirklich über alles geht.
+
+Sondern ich will dann irgendwie erst mal Kohorten deployen und ich bin mir nicht sicher, ob es nicht dann besser wäre, das irgendwie aufzuteilen, aber das müsste man halt schauen.
+
+Und die andere Frage, die sich halt stellt, ist, warum benutzt man denn überhaupt Microservices?
+
+Die sollten ja eigentlich unabhängig sein und insbesondere das unabhängige Deployment ist halt für mich ein wesentliches Feature.
+
+Ich will also einem Team die Möglichkeit geben, ein Microservice zu deployen, möglichst ohne Koordination.
+
+So, und da fehlt mir die Frage, sind die eigentlich unabhängig?
+
+Und ich finde die Frage schwer zu beantworten.
+
+Was wir wissen ist, dass die Mehrheit der Commits nur ein Microservice erwischt.
+
+Aber wir haben also eine Grauzone, also zwischen 95 Prozent der Änderungen beeinflussen 14 oder weniger Microservices, 50 Prozent ein Microservice.
+
+Das heißt also zwischen 50 Prozent der Commits und 95 Prozent der Commits wächst die Anzahl der beeinflussten Microservices von 1 auf 14.
+
+So, und da wäre jetzt die Frage, also da fände ich halt interessant zu sehen, wie genau dort die Aufteilung ist.
+
+Wenn also, sagen wir mal, 90 Prozent der Commits immer noch nur zwei Microservices erwischen und 80 Prozent nur ein Microservice, dann würde ich sagen, sind die Microservices im Wesentlichen unabhängig und es ist vielleicht auf so einer Architekturebene gar nicht so schlimm, weil die halt im Wesentlichen unabhängig sind.
+
+Aber wenn das halt irgendwie anders aussieht, wenn also 60 Prozent der Änderungen schon fünf Microservices erwischen, dann habe ich vielleicht ein anderes Thema.
+
+So, da ist noch eine Meldung von dem Uwe Bartelt, der schreibt, wenn es Ökosystem ohne vernünftige Dependency Management Systeme gibt, kann ein Monorepro interessant sein.
+
+Ich stelle mir aber auch die Frage, ob dann der Service-Schnitt stimmt.
+
+Ja, also nicht ein vernünftiges Dependency Management kann ja Monorepro sein.
+
+So, was bedeutet das jetzt?
+
+Also, das war eine von den Fragen, die wir vorhin hier irgendwie rumgespürt sind.
+
+Das war die von dem Tobi Van Kenobi.
+
+Ab welcher Metrikgröße Devs würde man überhaupt beginnen, über Monorepros nachzudenken, beziehungsweise umgekehrt, waren Monorepros überhaupt nicht sinnvoll?
+
+#### Wann sind Monorepos sinnvoll?
+
+Das finde ich ist eine spannende Frage und ist auch ein bisschen der Motivator.
+
+Ich würde behaupten, Monorepros helfen halt dabei, in einer bestimmten Art und Weise zu arbeiten.
+
+Also, ich kann dadurch eben querschnittliche Änderungen machen, durch beispielsweise irgendwelche Einheiten, die halt tief unten im Dependency grafen sind.
+
+Aber genau genommen könnte ich das ja auch anders machen.
+
+#### Alternative Ansätze
+
+Also, wenn ich mir Android angucke, die halt offensichtlich kein Monorepro fahren, dann kann ich dort eben das trotzdem Änderungen machen, die mehrere Teile umfasst, indem ich eben mehrere Repositories auschecke und die halt irgendwie ändere.
+
+Dafür brauche ich auch Tooling und Maßnahmen, wie für Monorepros halt auch, so dass irgendwie dieser Unterschied zunehmend für mich verschwimmt, ob das nun wirklich, wirklich notwendig ist.
+
+Aber irgendwas brauche ich halt für solche übergreifenden Änderungen.
+
+### Fazit und Empfehlungen
+
+Ich persönlich würde halt diese Code Ownership beibehalten, so wie Google sie fährt.
+
+Ich würde also sagen, irgendjemand reviewt halt alle Änderungen, auch wenn es halt Änderungen sind von irgendwelchen Basis-Libraries, die halt eigentlich nur problemlos sein sollten.
+
+Aber dass da halt jemand noch mal drauf guckt, der die Komponente sozusagen kennt, jemand, der verantwortlich ist für die Komponente, finde ich grundsätzlich gut.
+
+Deswegen hat mir halt dieser Ansatz von MitRosy eher geholfen oder ich den eher gut finde.
+
+Und dann brauche ich das Tooling von Uber halt nicht, weil irgendjemand guckt sich das halt an, irgendjemand übernimmt die Änderung, dann wird es halt deployed und ich muss nicht das sozusagen generalstabsmäßig über alle durchdeployen.
+
+Und da kann ich jetzt irgendwie auch eine Abwägung treffen und kann halt sagen, okay, es ist jetzt erstmal wichtiger, dass wir dieses Feature schippen und das halt irgendwie rausbekommen und dann kümmere ich mich später um diesen Änderungen, wo halt irgendwie die RPC-Library geändert werden muss.
+
+Und dann ist das mit dem Sperren nicht so problematisch.
+
+Aber es ist irgendwie schwierig zu verstehen, was genau Uber's Problem ist und was die Alternativen sind, die sie zu diesem Ansatz untersucht haben und was die Nachteile sind.
+
+Uber's Paper ist da deutlich besser, hat aber auch einen anderen Scope.
+
+Da geht es nicht um Tooling, sondern um das grundsätzliche Vorgehen.
+
+Ich gucke nochmal, was also insgesamt bedeutet, dass eigentlich dahinter so ein bisschen die Frage steht, wie gehe ich mit übergreifenden Änderungen um und wie arbeite ich damit?
+
+Und offensichtlich ist eben eine Möglichkeit, ein Monorepo zu bauen, aber es ist auf jeden Fall nicht die einzige Möglichkeit, die ich da habe.
+
+Gut, schaue ich nochmal, ob es irgendwo Fragen gab, zusätzliche Fragen, das scheint nicht der Fall zu sein.
+
+Dann würde ich sagen, erstmal vielen Dank soweit für die Diskussion, für die Fragen, schönes Wochenende.
+
+Und wir müssen mal sehen, was wir nächste Woche machen.
+
+Der dritte ist ja mit dem Feiertag, glaube ich nicht, dass wir am dritten direkt was machen werden, aber eigentlich sollte es schon eine Episode geben, würde ich mich nochmal sozusagen melden, guckt auf die Webseite und genießt das Wochenende und bis dahin, vielen Dank.
