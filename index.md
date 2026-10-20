@@ -11,6 +11,14 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
+<script src="/js/talkitover.js"></script>
+<p>
+<talk-it-over url="{{-site.url }}/episoden.txt"
+              prompt="Lade {url}. Ich suche passende Folgen von Software-Architektur im Stream zu einem Thema."
+              label="Let's talk it over"
+              providers="claude,chatgpt,copy"><a href="/episoden.txt">Alle Folgen als Text für deine KI</a></talk-it-over>
+</p>
+
 ## 2026-10-23 16:00 CEST Ralf mit Alexander von Zitzewitz: Wie relevant ist eine saubere Software-Architektur im Zeitalter der KI?
 
 Moderne LLM's generieren oder überarbeiten ganze Applikationen in Rekordzeit. Die Frage ist, wie sich Architektur und Struktur auf die Qualität und die Wartbarkeit der Ergebnisse auswirkt. Spielt eine saubere Struktur noch eine Rolle? Was passiert, wenn die KI ein Problem nicht beheben kann?
