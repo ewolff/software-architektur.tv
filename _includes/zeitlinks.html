@@ -1,0 +1,26 @@
+{%- comment -%}
+Timestamp with links to the same point in YouTube, PeerTube and MP3.
+Parameter: s = position in seconds. The media addresses come from the
+post with the same episode_id as the including page (transcriptions/<id>.md).
+A link is left out when the post has no address for that medium.
+{%- endcomment -%}
+{%- unless zl_episode -%}
+{%- assign zl_filename = page.path | split: '/' | last -%}
+{%- assign zl_episode_id = zl_filename | split: '.' | first -%}
+{%- assign zl_episode = site.posts | where: "episode_id", zl_episode_id | first -%}
+{%- endunless -%}
+{%- assign zl_s = include.s | plus: 0 -%}
+{%- assign zl_h = zl_s | divided_by: 3600 -%}
+{%- assign zl_m = zl_s | modulo: 3600 | divided_by: 60 | prepend: '0' | slice: -2, 2 -%}
+{%- assign zl_sec = zl_s | modulo: 60 | prepend: '0' | slice: -2, 2 -%}
+{%- capture zl_pt -%}
+{%- if zl_h > 0 -%}{{ zl_h }}h{%- endif -%}
+{%- assign zl_mi = zl_s | modulo: 3600 | divided_by: 60 -%}{%- if zl_mi > 0 -%}{{ zl_mi }}m{%- endif -%}
+{%- assign zl_si = zl_s | modulo: 60 -%}{%- if zl_si > 0 or zl_s == 0 -%}{{ zl_si }}s{%- endif -%}
+{%- endcapture -%}
+{%- capture zl_links -%}
+{%- if zl_episode.video -%}<a href="https://www.youtube.com/watch?v={{ zl_episode.video }}&amp;t={{ zl_s }}s">YouTube</a>{%- endif -%}
+{%- if zl_episode.peertube -%}{%- if zl_episode.video %} · {% endif -%}<a href="{{ zl_episode.peertube | replace: 'videos/embed/', 'w/' }}?start={{ zl_pt }}">PeerTube</a>{%- endif -%}
+{%- if zl_episode.mp3 -%}{%- if zl_episode.video or zl_episode.peertube %} · {% endif -%}<a href="{{ zl_episode.mp3 }}#t={{ zl_s }}">MP3</a>{%- endif -%}
+{%- endcapture -%}
+{{ zl_h }}:{{ zl_m }}:{{ zl_sec }}{% if zl_links != "" %} <span class="fineprint">{{ zl_links }}</span>{% endif -%}
