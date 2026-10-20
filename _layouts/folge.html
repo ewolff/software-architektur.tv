@@ -36,6 +36,25 @@
       
     {{-content }}
 
+{%- assign talkitover_path = "/transcriptions/" | append: page.episode_id | append: ".txt" %}
+{%- assign talkitover_file = site.static_files | where: "path", talkitover_path | first %}
+{%- if talkitover_file %}
+<script src="/js/talkitover.js"></script>
+<p>
+{%- if page.tags contains "English" %}
+<talk-it-over url="{{-site.url }}{{-talkitover_path }}"
+              prompt="Load {url}. I would like to talk this episode over with you."
+              label="Let's talk it over"
+              providers="claude,chatgpt,copy"><a href="{{-talkitover_path }}">Episode as text for your AI</a></talk-it-over>
+{%- else %}
+<talk-it-over url="{{-site.url }}{{-talkitover_path }}"
+              prompt="Lade {url}. Ich möchte diese Folge mit dir besprechen."
+              label="Folge mit KI besprechen"
+              providers="claude,chatgpt,copy"><a href="{{-talkitover_path }}">Folge als Text für deine KI</a></talk-it-over>
+{%- endif %}
+</p>
+{%- endif %}
+
 Tags:&nbsp;
 {%- if page.tags %}
 {%- for tag in page.tags %}
