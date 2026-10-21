@@ -11,27 +11,23 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## 2026-10-16 13:00 CEST Ralf with Avraham Poupko: My Teammates Can't Dream (But they sure can hallucinate)
+## 2026-10-23 16:00 CEST Ralf mit Alexander von Zitzewitz: Wie relevant ist eine saubere Software-Architektur im Zeitalter der KI?
 
-We are rapidly moving from AI as a tool to AI as a participant.
+Moderne LLM's generieren oder überarbeiten ganze Applikationen in Rekordzeit. Die Frage ist, wie sich Architektur und Struktur auf die Qualität und die Wartbarkeit der Ergebnisse auswirkt. Spielt eine saubere Struktur noch eine Rolle? Was passiert, wenn die KI ein Problem nicht beheben kann?
 
-Agentic systems now write code, review designs, raise flags, and hold context across long-running tasks. We are, whether we intend it or not, building teams that include non-human members.
-
-But what is a team, really? Not a group. Not a workforce. A team is something older and stranger. Perhaps it begins with family, with the commitment to show up even when it is costly, with the shared meaning that makes humans build, play, march, dance, and sacrifice together.
-
-In this episode, <a href="https://www.linkedin.com/in/avrahampoupko/">Avraham Poupko</a> from <a href="https://www.linkedin.com/company/imperva/">Imperva</a> (part of <a href="https://www.linkedin.com/company/thalescloudsec/">Thales Cybersecurity Products</a>) and Ralf D. Müller explore what it actually means for an AI to be a teammate rather than a tool.
+<a href="https://www.linkedin.com/in/azitzewitz/">Alexander von Zitzewitz</a>
 
 {% include youtube.html 
- youtube-video-id="YiiiuHs3xto" 
-    image-url="/thumbnails/folge341.png" %} 
+ youtube-video-id="fxOSHPLuL_I" 
+    image-url="/thumbnails/folge342.png" %} 
 
  <section id="content-links">
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7515819835109429248">LinkedIn</a>
+ 	<a href="https://www.linkedin.com/events/7518626878572912640">LinkedIn</a>
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
  </section> 
 
-[Termin bei treff.tech](https://treff.tech/events/ca4fc7f6-c843-4891-bbcf-c5aa244945cc)  
+[Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  
 
 ## Der Stream bei Konferenzen und Trainings
 
