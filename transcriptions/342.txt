@@ -1,0 +1,641 @@
+# Wie relevant ist eine saubere Software-Architektur im Zeitalter der KI?
+
+Software Architektur im Stream, Folge 342, 2026-10-23.
+Alexander von Zitzewitz und Ralf D. Müller über Zyklen, Architekturmodelle und warum KI verstärkt, was sie im Code vorfindet
+Seite: https://software-architektur.tv/2026/10/23/wie-relevant-ist-eine-saubere-software-architektur-im-zeitalter-der-ki.html
+YouTube: https://www.youtube.com/watch?v=fxOSHPLuL_I
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Moderne LLMs generieren oder überarbeiten ganze Applikationen in
+Rekordzeit. Spielt eine saubere Struktur da noch eine Rolle? <a
+href="https://www.linkedin.com/in/azitzewitz/">Alexander von
+Zitzewitz</a>, Gründer von <a
+href="https://www.hello2morrow.com/">hello2morrow</a> und seit Jahrzehnten
+mit der inneren Struktur von Software beschäftigt, antwortet mit einem
+klaren Ja: KI verstärkt, was sie im Code vorfindet. Mit Ralf D. Müller
+spricht er über die zwei Säulen einer guten Struktur, zyklenfreie
+Abhängigkeiten und ein Architekturmodell, und darüber, warum ein Big Ball
+of Mud auch für die KI zum Problem wird. In einer Live-Demo an Gradle
+zeigt er in Sonargraph, wie man in einem Zyklus aus 92 Dateien die zwei
+Kanten findet, die man schneiden muss, und wie Claude das Refactoring
+danach übernimmt. Es geht um Grep gegen ein echtes Dependency-Modell, um
+die Grenzen von ArchUnit und Java-Modulen, um eine Architektur-DSL, die
+Claude lesen kann, und um den MCP-Server Zügel, der die Regeln vor der
+ersten Zeile Code prüft. Zum Schluss beantworten die beiden Fragen aus
+dem Chat zu dynamischen Sprachen, Reflection und der Frage, ob das alles
+nur im Greenfield funktioniert.
+
+## Zusammenfassung
+
+Alexander von Zitzewitz baut seit 2005 mit hello2morrow Werkzeuge, die
+die innere Struktur von Software vermessen, allen voran Sonargraph. In
+dieser Folge diskutiert er mit Ralf D. Müller, ob eine saubere
+Architektur noch zählt, wenn KI den Code schreibt. Seine Antwort: Sie
+zählt mehr als vorher, weil die KI verstärkt, was sie im Code vorfindet.
+Die Folge verbindet die Theorie mit einer Live-Demo an Gradle und mit
+Erfahrungen aus einem eigenen MCP-Server.
+
+### Architektur heißt innere Struktur
+
+Für Alexander ist Architektur die innere Struktur eines Systems: Welche
+Komponenten gibt es, in welche Richtung dürfen sie kommunizieren,
+welcher Teil einer Box ist von außen sichtbar. Boxen sind geschachtelt
+wie in einem UML-Komponentendiagramm, und die Struktur soll am Ende
+zyklenfrei sein. Dass auch große Projekte ohne diese Struktur
+funktionieren, bestreitet er nicht. Hibernate habe einen Zyklus aus
+1.500 Klassen, Cassandra sehe ähnlich aus: „Das heißt, da gibt es keine
+Architektur. Da gibt es nur eine große Box und 500.000 Zeilen Code."
+Sein Argument ist die Lesbarkeit: Wer neu dazukommt, muss herausfinden,
+wo ein Feature hingehört, und das dauert in einer solchen Codebasis
+„viel, viel Zeit".
+
+### Zwei Säulen und der Big Ball of Mud
+
+Eine gute Struktur steht für Alexander auf zwei Säulen: einer möglichst
+zyklenfreien Abhängigkeitsstruktur und einem Architekturmodell. Kleine
+Zyklen, etwa im Visitor-Pattern, stören ihn nicht. Das Problem beginnt,
+wenn Zyklen auf 20, 100 oder 1.000 Elemente wachsen: „Dann ziehst du an
+dieser Klasse und plötzlich hängen 999 andere Klassen dran." Dann ist
+die Modularisierung dahin und die Abstraktionen verwässern. Solche
+Strukturen nennt Alexander nicht technische Schulden, sondern Technical
+Friction: „Weil technische Schulden impliziert, dass jemand ein Darlehen
+aufgenommen hat, also eine bewusste Entscheidung getroffen hat." Die
+Zyklen entstehen unbewusst, weil kein Entwickler beim Einbau einer
+Abhängigkeit sieht, dass damit ein Zyklus über fünf Packages entsteht,
+und der Compiler es ihm nicht sagt.
+
+### Braucht KI noch Architektur?
+
+Ralf stellt die Frage, die viele sich stellen: Wenn die KI den Code
+schreibt und pflegt, warum sollte mir die innere Struktur noch wichtig
+sein? Alexander nennt es eine Glaubensfrage und zitiert eine
+Stanford-Studie mit 120.000 Entwicklern, die im Durchschnitt nur rund
+zehn Prozent Produktivitätsgewinn durch KI fand. Manche Teams waren
+200 bis 300 Prozent schneller, andere wurden langsamer. Die stärkste
+Korrelation: Die größten Gewinne gab es bei der besten Softwarestruktur.
+Sein Fazit: „KI verstärkt, was sie vorfindet. Baut auf dem auf, was
+schon da ist und benutzt dieselben Patterns, die sie schon im Code
+findet. Und wenn das Pattern Big Ball of Mud ist, dann produziert die KI
+mehr Big Ball of Mud." In Tests brauchte Claude in schlecht
+strukturiertem Code außerdem erheblich mehr Tokens. Ralf kennt den
+Effekt aus einem eigenen AsciiDoc-Linter, bei dem die KI in jeder neuen
+Session ein anderes Test-Framework wählte, weil sie keine Entscheidung
+vorfand. Als gut strukturierte Beispiele nennt Alexander das Spring
+Framework, bei dem Jürgen Höller Abhängigkeiten streng reviewt habe,
+und weite Teile von Gradle, dessen Dependency-Management-Modul aber zum
+Big Ball of Mud tendiert.
+
+### Live-Demo: Gradle in Sonargraph
+
+Alexander zeigt Gradle in Sonargraph. 15 Prozent der Codebasis liegen
+in Zyklen, der größte umfasst 92 Java-Files aus 16 Packages. Der Graph
+dazu sieht aus wie ein Big Ball of Mud, zeigt aber mit Packages als
+Farben eine verwaschene Trennlinie. Fasst man die Knoten nach Farbe
+zusammen, wird der Graph einfacher. Der Exploration View ordnet die
+Elemente untereinander an und zeichnet Abhängigkeiten als Bögen, die
+auf der linken Seite nach unten und auf der rechten Seite nach oben
+laufen. Ein Graph-Algorithmus sortiert die Knoten so, dass möglichst
+wenige Bögen auf der rechten Seite liegen. Hinter einem Bogen können
+167 Abhängigkeiten stecken, die Dicke folgt einer logarithmischen Skala.
+Im Beispiel reichen zwei Bögen, um den Zyklus bis auf drei Klassen
+aufzulösen. Per Virtual Refactoring wird das Entfernen zur Aufgabe, die
+Alexander an Claude gibt: „Und 20 Minuten später hat Claude die Kanten
+weggehauen und dann kann man zum nächsten Schritt übergehen." Das Ziel
+sind inkrementelle Verbesserungen, nicht ein einziges großes Change-Set.
+
+### Grep reicht nicht: der MCP-Server als Quelle der Wahrheit
+
+Ohne Werkzeug analysiert die KI Abhängigkeiten mit Grep, weil sie kein
+internes Dependency-Modell der Software hat. Auf Package-Ebene reicht
+das, bei Zyklen zwischen Java-Files versagt es. Auch das Language
+Server Protocol hilft nicht, weil ihm die semantische Phase fehlt, die
+Abhängigkeiten auflöst. hello2morrow hat deshalb einen MCP-Server
+gebaut, der das Dependency-Modell aus Sonargraph in Sekunden aufbaut.
+„Der ist die Quelle der Wahrheit", sagt Alexander, und Claude „muss nie
+mehr Grep benutzen". In einem Experiment mit dem Open-Source-Projekt
+jPOS, das über 4.000 Tests mitbringt, entfernte Claude Kante für Kante,
+ließ die Tests laufen und fragte den MCP-Server, ob die Struktur noch
+stimmt. Das Dependency Inversion Pattern mit Interfaces dreht dabei die
+Richtung einer Abhängigkeit um.
+
+### ArchUnit kommt zu spät
+
+Für die zweite Säule, das Architekturmodell, vergleicht Alexander seinen
+Ansatz mit ArchUnit. ArchUnit prüft erst, nachdem der Agent den Code
+geschrieben hat, und beschreibt kein Modell, sondern eine Menge von
+Verboten, die man vorher alle vorhersehen muss. Ein Architekturmodell
+erlaubt dagegen zu messen, ob jede Klasse zu einer Komponente gehört,
+und Verletzungen zu beweisen. Der MCP-Server beantwortet zwei Fragen,
+bevor die erste Zeile Code entsteht: Ist diese Kante konform mit der
+Architektur, und erzeugt oder vergrößert sie einen Zyklus? Sprachmittel
+wie public und private reichen dafür nicht, weil sie nur auf
+Package-Ebene wirken, und Java-Module lassen sich nicht schachteln. Sein
+Wunsch: „die Sprache für das nächste Jahrtausend, dann würde die
+definitiv Architektur-Constraints mit drin haben".
+
+### Die Architektur-DSL und Zügel
+
+Alexander zeigt die textuelle Architektur-DSL von Sonargraph: Artefakte
+mit Include-Mustern, Relaxed Layering zwischen Geschwistern und
+Interfaces, die nur eine Teilmenge einer Komponente nach außen sichtbar
+machen. Claude verstand die Sprache nach wenigen Erklärungen, macht aber
+bei subtilen Dingen wie dem Pattern Matching Fehler. Deshalb steckt die
+Sprache im MCP-Server, der Zügel heißt, „der Zügel fürs Pferd, fürs
+Wildpferd, das in die falsche Richtung rennen will". Er unterstützt
+Python, Java und C#. Auf den Prompt, eine Layered Architecture nach
+Domains zu erzeugen, schrieb Claude eine komplette Architekturspezifikation
+und hielt sich beim Codieren daran. In Alexanders eigenem Projekt
+verwischte Claude ohne klare Regeln die Grenzen zwischen den
+Sprachmodulen, bis er die Architektur von Hand nachschärfte.
+
+### Mehrere Agenten, CLAUDE.md und die CI-Pipeline
+
+Richtig wichtig wird ein gemeinsames Architekturmodell, wenn mehrere
+Entwickler mit mehreren Agenten am selben System arbeiten. Regeln in
+CLAUDE.md sind für Claude nur eine Suggestion, eine formale DSL ist
+präzise und messbar. Im Vergleich baute sich Claude allein ein kleines
+Architektur-Framework auf Basis von Import-Statements; mit MCP-Server
+brauchte jeder Schritt weniger Tokens. Als Sicherheitsnetz gehört die
+Prüfung in die CI-Pipeline, wo Sonargraph Build dieselbe Sprache
+versteht. Grenzen gibt es bei dynamischen Abhängigkeiten: Python
+liefert kein vollständiges Modell, Reflection in Java bleibt unsichtbar.
+Zur Frage aus dem Chat, ob nicht alle nur Greenfield bauen, verweist
+Alexander auf die erste Hälfte der Folge: Genau bei der Modernisierung
+bestehender Systeme kommt man mit KI und Dependency-Modell „in die Nähe
+von dem magischen Fix-It-Button".
+
+### Fazit
+
+Die Folge beantwortet die Titelfrage mit einem klaren Ja. Eine saubere
+Struktur hilft Menschen und KI aus demselben Grund: Beide müssen
+verstehen, wo etwas hingehört. Alexanders Schlusswort: „das fundamentale
+Problem, wie bauen wir sauber strukturierte Software, das fundamentale
+Problem hat sich seit 30 Jahren nicht geändert. Es ist immer noch
+dasselbe." Mit KI werde es noch wichtiger: „Je besser die Struktur, desto
+besser die Ergebnisse."
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Architektur heißt für Alexander von Zitzewitz innere Struktur: Komponenten, erlaubte Kommunikationsrichtungen, Interfaces, geschachtelt wie in einem UML-Komponentendiagramm
+- Eine gute Struktur steht auf zwei Säulen: eine möglichst zyklenfreie Abhängigkeitsstruktur und ein Architekturmodell
+- Kleine Zyklen sind harmlos, große Zyklen mit 20 bis 1.000 Elementen zerstören die Modularisierung und bilden den Big Ball of Mud
+- Hibernate und Cassandra funktionieren trotz Zyklen aus über 1.000 Klassen, aber niemand kann sich schnell einarbeiten
+- Technical Friction statt technische Schulden: Die Zyklen entstehen unbewusst, weil weder Entwickler noch Compiler sie beim Einbau einer Abhängigkeit sehen
+- KI verstärkt, was sie vorfindet: Eine Stanford-Studie fand die größten Produktivitätsgewinne bei der besten Softwarestruktur, in schlechtem Code braucht Claude mehr Tokens
+- Ohne Werkzeug analysiert die KI Abhängigkeiten per Grep, weil sie kein internes Dependency-Modell hat; auch das Language Server Protocol löst keine Abhängigkeiten auf
+- Ein MCP-Server mit Dependency-Modell ist die Quelle der Wahrheit und beantwortet vor der ersten Zeile Code, ob eine Kante erlaubt ist und ob sie einen Zyklus erzeugt
+- ArchUnit prüft erst nach dem Codieren und beschreibt Verbote statt eines Modells; Sprachmittel wie public und private oder Java-Module reichen nicht aus
+- Zyklen löst man inkrementell: zwei Kanten schneiden, Claude das Refactoring geben, Tests laufen lassen, nächster Schritt
+
+### Behandelte Fragen
+
+- Was bedeutet Architektur, wenn Alexander von Zitzewitz von Struktur spricht?
+- Warum sind große Zyklen ein Problem, wenn Projekte wie Hibernate damit erfolgreich sind?
+- Brauche ich noch Architektur, wenn die KI den Code schreibt und pflegt?
+- Was sind gute Beispiele für strukturierte Software?
+- Wie findet man in einem Big Ball of Mud die Kanten, die man schneiden muss?
+- Kann die KI Zyklen selbst auflösen, und wo braucht sie deterministisches Tooling?
+- Wie sagt man Claude, womit es entfernte Kanten ersetzen soll, ohne Funktionalität zu brechen?
+- Warum reicht eine Regeldefinition in CLAUDE.md nicht?
+- Was sieht der MCP-Server bei dynamischen Sprachen und Reflection nicht?
+- Hilft der Ansatz nur im Greenfield oder auch bei Modernisierung und Legacy?
+
+### Glossar
+
+- **Big Ball of Mud**: Ein Zyklus aus vielen Klassen über Schichten und Komponenten hinweg, in dem die Architektur erodiert ist
+- **Zyklenfreiheit**: Abhängigkeiten laufen nur in eine Richtung; Voraussetzung, um Komponenten herauslösen und ersetzen zu können
+- **Technical Friction**: Alexanders Begriff für unbewusst entstandene Strukturprobleme, im Gegensatz zur bewusst aufgenommenen technischen Schuld
+- **Exploration View**: Darstellung in Sonargraph, die Elemente untereinander anordnet und Abhängigkeiten als Bögen zeichnet; wenige Bögen auf der rechten Seite zeigen, wo man schneiden muss
+- **Virtual Refactoring**: Simulation in Sonargraph, was passiert, wenn eine Kante entfernt wird, mit Aufgabenbeschreibung für die Umsetzung
+- **Dependency Inversion**: Pattern, mit dem ein Interface die Richtung einer Abhängigkeit umdreht und so Zyklen aufbricht
+- **Architektur-DSL**: Textuelle Sprache aus Artefakten, Include-Mustern, Relaxed Layering und Interfaces, die beschreibt, welche Komponenten auf welche zugreifen dürfen
+- **MCP-Server**: Werkzeug, das einem KI-Agenten deterministische Funktionen bereitstellt, hier das Dependency-Modell und die Architekturprüfung
+
+### Erwähnte Technologien und Werke
+
+- **Sonargraph**: Produktfamilie von hello2morrow für statische Analyse mit Schwerpunkt auf Architektur und Metriken, in der Folge an Gradle gezeigt
+- **Zügel**: MCP-Server von hello2morrow für Python, Java und C#, der Dependency-Modell und Architektur-DSL für KI-Agenten bereitstellt
+- **Dependometer**: Frühes Architektur-Tool, das Alexander um 2000 für BMW gebaut hat
+- **Claude und Claude Code**: Anthropics LLM und Coding-Agent, mit denen die Experimente der Folge liefen
+- **ArchUnit**: Java-Bibliothek, die Architekturregeln als Tests prüft
+- **Spring Framework, Gradle, Hibernate, Apache Cassandra, jPOS**: Open-Source-Projekte, deren Struktur Alexander analysiert hat
+- **Language Server Protocol (LSP)**: Protokoll für Editor-Funktionen, dem die Abhängigkeitsauflösung fehlt
+- **Stanford-Studie zur KI-Produktivität**: Beobachtung von 120.000 Entwicklern mit im Schnitt zehn Prozent Produktivitätsgewinn
+
+## Transkript
+
+## Wie relevant ist eine saubere Software-Architektur im Zeitalter der KI?
+
+Das Intro (0:00:00 bis 0:00:37) ist ausgelassen. Das Transkript entstand aus den
+getrennten Tonspuren der beiden Sprecher; die Sprecherzuordnung ist deshalb nicht geraten.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube) oder im Podcast (MP3).
+
+### Begrüßung und Vorstellung
+
+**Ralf D. Müller:** [0:00:37] Hallo und herzlich willkommen zu einer weiteren Ausgabe von Software Architektur im Stream. Heute etwas später dran, weil wir haben einen Gast, der nicht in unserer Zeitzone ist und wir werden uns trotzdem auf Deutsch unterhalten. Heute mit Alexander von Zitzewitz und wir werden uns über Architektur und, ja, KI unterhalten. Wie KI mit Architektur? Braucht KI noch Architektur oder kann das weg oder ist es umso wichtiger jetzt? Alexander, möchtest du dich kurz vorstellen?
+
+**Alexander von Zitzewitz:** [0:01:11] Ja, okay. Ja, meinen Namen hast du ja schon vorgestellt. Ich lebe hier jetzt gerade an der Ostküste der Vereinigten Staaten in Massachusetts, aber bin die meiste Zeit meines Lebens in Deutschland verbracht und da unter anderem auch verschiedene Unternehmen gegründet. Das letzte Unternehmen, was ich gegründet habe, war die hello2morrow GmbH in 2005. Die gibt es immer noch. Da bin ich immer noch tätig in dem Bereich und hello2morrow ist vor allem bekannt für unsere Sonargraph-Produktfamilie, statische Analyse mit Schwerpunkt auf Architektur und Metriken. Und das war schon immer so mein Thema so ein bisschen. Ich habe Informatik studiert an der TU in München. Ich bin vor langer, langer Zeit fertig geworden. Das war 1990. Ich kann es kaum glauben, wie lange schon her ist alles. Aber es hat sich eine Menge getan seitdem, aber manche Themen tauchen auch immer wieder auf und bleiben konstant. Und ein Thema, das mich immer beschäftigt hat, war die Struktur von Software. Weil in meiner ersten Firma, das war eine Software-Dienstleistungsfirma, haben wir festgestellt, dass wenn wir zu schnell losgelegt haben, uns zu wenig Gedanken über Architektur gemacht haben, dass die Projekte dann schnell in eine ungute Richtung gegangen sind und alles länger gedauert hat und schwieriger geworden ist, als ursprünglich erhofft oder geplant. Das hat am Ende dann echtes Geld gekostet, vor allem bei Festpreisprojekten. Das heißt, das Architekturthema ist eigentlich relativ früh auf dem Radar aufgetaucht. Und wir haben uns dann damals schon Gedanken gemacht, wie können wir denn sicherstellen, dass wir gewisse Architectural Boundaries im Code forcieren können. Wir haben kleine Tools geschrieben zu der Zeit, die ein bisschen dabei helfen und zumindest minimal Absicherung machen. Und es hat uns damals sehr geholfen. Und dann gab es Ende 90er Jahre, Anfang 2000, gab es ein Projekt mit BMW, die damals voll auf Java umgestiegen sind und relativ schnell in der Lage waren, Big Balls of Mud in Java zu programmieren. Die alle möglichen Probleme hatten. Und die haben uns dann gebeten, für die auch so ein Architektur-Tool zu bauen. Da haben wir damals das Dependometer gebaut. Das war ein relativ einfaches Java-Programm, was eine Architektur- und Metrik-Schwellwert-Spezifikation in XML übernommen hat und dann aus dem XML-File geschrieben hat, welche Klassen wohin gehören und wie die Beziehungen zwischen verschiedenen Containern waren und hat es dann im Continuous Integration Build sozusagen automatisch gecheckt, ob die Architektur eingehalten worden ist oder nicht. Und das war letzten Endes eine Erfolgsstory, also für BMW zumindest damals. Das ist sehr gut angekommen. Und irgendwann 2005, die erste Firma hatte ich dann verkauft, dann kam 2005 irgendwie um die Ecke und dann kam die Idee, hey, warum machen wir da nicht eine Firma draus, die sich genau um dieses Thema kümmert, um Architektur und Struktur. Und ich stehe nach wie vor dazu, dass eigentlich Architektur und Struktur, das wichtigste Asset für die Langlebigkeit und Wartbarkeit von der Software ist. Weil Entwickler verbringen die meiste Zeit mit Code lesen und relativ wenig Zeit mit Code schreiben. Und je besser der Code strukturiert ist, desto einfacher ist er zu verstehen, desto einfacher ist er zu verändern und zu erweitern und zu warten. Und das bleibt bis heute wahr.
+
+### Architektur heißt hier: die innere Struktur
+
+**Ralf D. Müller:** [0:04:22] Jetzt hast du gerade schon oft von Architektur gesprochen. Was ist deine Definition von Architektur?
+
+**Alexander von Zitzewitz:** [0:04:29] Wenn ich von Architektur spreche, dann meine ich die innere Struktur von einem Software-System. Also welche Komponenten hat das System und wie dürfen die Komponenten miteinander kommunizieren, also in welche Richtung. Das heißt im Prinzip, ich unterteile das System in verschiedene Boxen und dann definiere ich für die Boxen vielleicht noch Interfaces. Sagen, also du darfst, wenn du mit dieser Box redest, nur einen Teil der Klassen, die da drin sind, irgendwie benutzen von außen. Und dann möchte ich natürlich sicherstellen, dass diese Struktur am Ende zyklenfrei ist. Boxen können natürlich auch geschachtelt sein, eigentlich wie ein UML-Component-Diagramm. Wenn du eine Software in einem UML-Component-Diagramm beschreibst, dann hast du ja auch diese geschachtelten Komponenten. Symbole mit Interfaces und Konnektoren, die irgendwie sich miteinander verbinden. Und das ist eigentlich meine, also wenn ich jetzt im Kontext von diesem Vortrag von Architektur rede, ist das, was ich meine. Die Struktur, die die Software am Ende hat, aus der man sozusagen dann verstehen kann, was die Software tut und wie die Aufgaben der Software aufgeteilt sind.
+
+### Hibernate, Cassandra und das Argument Lesbarkeit
+
+**Ralf D. Müller:** [0:05:33] Okay. Und wenn du jetzt von der inneren Struktur sprichst, dann gehe ich mal davon aus, dass du eher mit größeren bis riesigen Software-Systemen zu tun hast und nicht so klassischen drei Schichten und ist alles übersichtlich und da brauche ich nicht irgendwie groß analysieren, oder?
+
+**Alexander von Zitzewitz:** [0:05:54] Ja und nein. Also natürlich, für größere Systeme wird es lebenswichtig, so eine Architektur zu haben, weil ich meine, es gibt ja viele praktische Beispiele. Draußen zum Beispiel in der Open-Source-Welt haben wir viele Systeme analysiert. In Hibernate und Hibernate zum Beispiel haben Klassenzyklus, da sind 1500 Klassen in einem großen Zyklus. Das heißt, da gibt es keine Architektur. Da gibt es nur eine große Box und 500.000 Zeilen Code und alles ist in derselben Box drin. Da gibt es keine innere Struktur.
+
+**Ralf D. Müller:** [0:06:19] Okay.
+
+**Alexander von Zitzewitz:** [0:06:20] Dasselbe ist wahr für Apache Cassandra zum Beispiel auch. Und da kann man natürlich jetzt gleich mit dem Argument kommen, ja, Hibernate und Cassandra sind doch erfolgreiche Projekte. Sie werden überall eingesetzt, sind überall in Produktion. Und das stimmt auch. Das sind erfolgreiche Projekte, haben auch eine enorm gute Testsuite, die brauchen sie auch, weil bei der internen chaotischen Struktur muss man natürlich jeden Fall irgendwie gut abtesten. Das Argument, trotzdem eine Architektur zu versuchen oder zu haben oder warum es besser ist, eine zu haben, ist, dass wer kann sich denn da einarbeiten in so eine Codebasis? Die Leute, die es ursprünglich mal geschrieben haben, die verstehen vielleicht noch einigermaßen, was sie da gemacht haben. Aber wenn jemand von außen dazu kommt, sozusagen bei Null anfängt und in der Codebasis irgendwie herausfinden muss, wo tue ich denn dieses Feature hier einbauen, der tut sich enorm schwer, braucht viel, viel Zeit. Also es geht immer wieder um das Argument Lesbarkeit von Code. Wenn wir uns absolut sicher sind, dass wir unsere Software nicht mehr ändern müssen, oder nur sicher sind, dass wir für immer leben und es für immer warten können und nie jemand Neues an der Software arbeiten muss, dann ist es wahrscheinlich weniger wichtig. Und wir alle wissen, dass es natürlich eine unrealistische Erwartung ist.
+
+### Zwei Säulen: zyklenfreie Struktur und Architekturmodell
+
+**Ralf D. Müller:** [0:07:30] Naja, viele Leute haben ja jetzt die Erwartung, dass zumindest wir Menschen nicht mehr in den Code reingucken müssen, sondern das nur noch die Maschine macht. Und dann kann ich mich ja schon zurücklehnen und sagen, macht ja die Maschine und ist mir doch egal, wie die innere Struktur aussieht. Aber du hast jetzt schon öfters davon gesprochen, dass Zyklen... Schlecht sind für die Architektur.
+
+**Alexander von Zitzewitz:** [0:07:53] Genau, also Zyklen sind so, ich sage immer, eine gute Struktur von der Software hat zwei Säulen, auf der sie stehen muss. Die eine ist eine möglichst zyklenfreie Abhängigkeitsstruktur und die zweite ist eben ein Architekturmodell. Die UML-Component-Diagramme drüberlegen kann, sondern eine saubere Struktur in der Software hat am Ende. Was viele Vorteile mit sich bringt. Modularisierbarkeit, ja, du kannst dann Komponenten rauslösen, ersetzen und so weiter. All diese Sachen werden viel flexibler, wenn du eine gute Software-Struktur hast. Ja, aber Zyklen... Kleine Zyklen sind erstmal auch kein großes Problem. Wenn Klasse A benutzt Klasse B und Klasse B benutzt Klasse A, zum Beispiel im Visitor-Pattern, das ist ein häufiges Ding, das vorkommt, ist kein Issue, über den ich mir Sorgen machen würde. Ich mache mir dann Sorgen, wenn wir plötzlich 20, 30, 50, 100 Klassen aus verschiedensten Schichten zusammen in einem großen Zyklus haben. Dann haben wir das, was wir den Big Ball of Mud bezeichnen. Und dann ist die Architektur dahin erodiert sozusagen. Existiert dann nicht mehr so richtig. Und dann wird es für alle schwieriger, auch für die KI, an dem Code zu arbeiten.
+
+### Warum große Zyklen die Modularisierung zerstören
+
+**Ralf D. Müller:** [0:08:55] Aber wo ist jetzt das konkrete Problem an dem Zyklus? Also wie kann ich mir das vorstellen? Ich habe Klasse A, die referenziert Klasse B und Klasse B referenziert Klasse C und Klasse C wieder A. Ist das der...
+
+**Alexander von Zitzewitz:** [0:09:11] Das ist auch noch ein kleiner Zyklus mit drei Elementen. Da machen wir uns keine zu großen Sorgen dabei, weil das sind drei Elemente. Wenn die idealerweise auch im selben Directory oder Package oder Namespace liegen, Kein großes Ding. Das Problem entsteht, wenn diese Zyklen dann wachsen. Wenn wir plötzlich Zyklen mit 20, 50, 100, 1000 Elementen haben. Dann hast du keine Modularisierbarkeit mehr. Und wenn du eine Klasse von denen dann wiederverwenden willst, eine einzige Klasse, Dann ziehst du an dieser Klasse und plötzlich hängen 999 andere Klassen dran, die du auch mitnehmen musst, wenn du irgendwas wiederverwenden willst an der Klasse. Und dann wird es zäh. Du kannst nicht mehr modularisieren, du kannst keine Features mehr rauslösen, du kannst keine einfach Schnittstellen ändern und solche Sachen. Das wird in so einem großen Big Ball of Mud, wie es so schön heißt, viel, viel schwieriger.
+
+**Ralf D. Müller:** [0:09:59] Okay, also die Zyklen machen die Modularisierung kaputt und dadurch muss ich dann unter Umständen auch, wenn ich an einer Stelle was ändere, an so vielen anderen Stellen irgendwie was nachziehen, solche Geschichten, weil ich dann auch mit der fehlenden Modularisierbarkeit eben auch die fehlende Abstraktion habe. Richtig?
+
+**Alexander von Zitzewitz:** [0:10:19] Genau. Die Abstraktionen werden verwaschen sozusagen. Die werden irgendwie verwässert in dem ganzen Ding. Und man kann einfach nicht mehr klar sehen, wo was hingehört in der Software, weil alles irgendwie mit allem verbunden ist. Und dann wird es eigentlich von da ab meistens nur noch schlimmer. Also ich habe ja mal ein richtiges Research-Projekt gemacht und Apache Cassandra über die... Verschiedene Versionen verfolgt von 1.0 bis 4 oder 5 im Moment. Und in einem Satz zusammengefasst, and then it got worse. Also es wurde mit jeder Iteration, ist am Ende immer weniger Architektur übrig geblieben. Das war am Anfang schon nicht besonders gut strukturiert von der Gesamtstruktur, aber sobald du mal diese Kerne hast, also diese Zyklenkerne, die eben dann auch über Schichten hinweggehen und über Architekturkomponenten hinweggehen, wird es in der Regel eher schlechter als besser. Und wie gesagt, das Hauptargument ist wieder, dass die Lesbarkeit muss verstehen. Wenn du so einen Zyklus hast, dann musst du, wenn du jetzt eine kleine Komponente hast, die independent ist und zehn Klassen umfasst, die ist relativ leicht zu verstehen. In dem Fall ist deine Komponente, besteht aber aus tausend Klassen, die alle irgendwie miteinander verbunden sind. Und da wird es, dauert es doch erheblich länger durchzublicken, wo was ist, wenn überhaupt, wenn es überhaupt möglich ist, dann solides Verständnis zu entwickeln.
+
+**Ralf D. Müller:** [0:11:39] Aber jetzt hast du von Apache Cassandra und von Hibernate gesprochen. Und mit Hibernate hatte ich ein bisschen was zu tun. Und irgendwie, ich habe bei diesen Open-Source-Projekten oftmals das Gefühl, sie kommen mir riesig vor. Ich sehe keine Architektur. Ich vermute eine Architektur, baue mir irgendwo meine Abstraktion im Kopf zusammen. Und hätte jetzt eigentlich gedacht, dass Hibernate eigentlich ganz gut modular aufgebaut sein muss. Okay, du grinst schon.
+
+**Alexander von Zitzewitz:** [0:12:11] Ist nicht.
+
+**Ralf D. Müller:** [0:12:13] Es ist spannend, dass...
+
+**Alexander von Zitzewitz:** [0:12:13] Das ist definitiv nicht modular. Also definitiv nicht modular, ja.
+
+### Visualisierung, Domain-Driven Design und der Magic Fix-It-Button
+
+**Ralf D. Müller:** [0:12:18] Weil da hätte ich jetzt gedacht, sowas wie verschiedene Datenbankadapter, das muss ja irgendwie modular sein, dass man damit arbeiten kann. Okay, aber wie komme ich dann zu dieser Architektur, dass ich überhaupt, ich meine, Abhängigkeiten zwischen drei Klassen, das traue ich mir noch zu.
+
+**Alexander von Zitzewitz:** [0:12:38] Genau.
+
+**Ralf D. Müller:** [0:12:39] Sieben plus minus zwei Elemente kriege ich irgendwo im Kopf hin. Wenn es größer wird, wenn es komplexer wird, dann habe ich da echt ein Problem. Und ich kenne viele solche Projekte, wo man sagt, nee, wir können das nicht so einfach stückweise erneuern, weil... Ja, Big Ball of Mud, hängt alles irgendwie zusammen. Und hilft da dein Ansatz, um das zu visualisieren, um diese Zyklen zu finden und sie dann auch zu beseitigen?
+
+**Alexander von Zitzewitz:** [0:13:08] Definitiv. Visualisierung ist ein ganz entscheidendes Werkzeug dabei, weil wenn ich in der Lage bin, eine Graphvisualisierung von so einer Struktur zu machen und ich Glück habe, das ist natürlich auch eine Glücksfrage im Moment, manche Graphen eignen sich gut zum Aufsplitten, da kann man schon mit einem Blick sehen, hier und hier muss ich schneiden. Dann zerfällt diese Struktur und es wird übersichtlicher, das Ganze. Aber wenn ich dann eine Struktur habe wie bei Hibernate oder Cassandra, da wird es dann erheblich schwieriger, weil wir dann wirklich von tausenden von Elementen reden. Dann ist die Kopplung so enorm stark zwischen den ganzen Teilen, dass es nicht einfach ist, ohne Graph-Algorithmen überhaupt irgendeine Chance zu bekommen, was zu sehen an der Stelle.
+
+**Ralf D. Müller:** [0:13:49] Das heißt, im Idealfall habe ich zwar einen riesigen Graphen, aber merke, ja, da sind zwei Brücken und die muss ich irgendwie auflösen und dann kann ich ein Modul rausziehen. Wenn ich Pech gehabt habe, dann habe ich den Big Ball of Mud und alles spricht mit allem. Und die Kunst ist dann die richtigen Blöcke.
+
+**Alexander von Zitzewitz:** [0:14:08] Dann wird es wirklich schwieriger.
+
+**Ralf D. Müller:** [0:14:12] Hilft da eigentlich Domain-Driven Design? Wahrscheinlich nicht. Domain-Driven Design.
+
+**Alexander von Zitzewitz:** [0:14:17] Ja, absolut. Also Domain-Driven-Design schneidet dein System ja in verschiedene Silos sozusagen, die nebeneinander liegen und die intern auch wieder eine Layering-Struktur haben. Hilft absolut. Ja, weil wenn du ein Domain-Driven-Design wirklich umgesetzt hast, dann hast du keinen Big Ball of Mud.
+
+**Ralf D. Müller:** [0:14:33] Genau, wenn ich von Anfang an es gemacht habe, wenn ich dann aber den Big Ball of Mud habe, dann kenne ich zwar den richtigen Zuschnitt, aber da hinzukommen ist ja schwierig.
+
+**Alexander von Zitzewitz:** [0:14:46] Genau, da kommt jetzt eigentlich das ideale Thema, wo die KI mit reinkommt. Ich habe ja immer gescherzt, lange Zeit. Ich meine, wir alle wissen, Tool verkaufen ist ja kein einfaches Geschäft. hello2morrow hat zwar immer überlebt, aber so reich geworden sind wir damit auch nicht, weil einfach, es heißt nicht umsonst, das Developer-Ghetto, in dem wir uns befinden, das ist schwierig, Tools zu verkaufen und damit wirklich. Gut Geld zu verdienen. Aber ich habe immer gedacht, das schönste Feature, was uns reich machen würde, wäre der Magic Fix-It-Button. Du hast irgendeinen Button in Sonargraph, da steht Fix-It drauf und der nimmt dann den ganzen Big Ball of Mud auseinander und transformiert die Software in eine schöne Struktur, die dann am Ende von jedem verstanden und genutzt werden kann und alle Tests sind auch für grün. Dieser Fix-It-Button, der wäre echt Geld wert. Das Schöne ist, und das ist eigentlich die ideale Überleitung zu dem KI-Thema jetzt, mit KI kommen wir jetzt in die Nähe von sowas träumen zu dürfen.
+
+### Braucht KI noch Architektur? Die Stanford-Studie
+
+**Ralf D. Müller:** [0:15:41] Da will ich jetzt aber erstmal kurz, wir hatten auch schon im Vorfeld kurz drüber gesprochen, auf das Thema kommen. KI, brauche ich überhaupt noch Architektur? Es hat, glaube ich, jetzt mittlerweile jeder schon mal ausprobiert, dass man einfach mit Claude Code oder einer anderen Umgebung sagt, ich stelle mir dies und jenes vor und jetzt mach mal bitte. Und dann kriege ich was. Das heißt, die Architektur ist mir ja dann eigentlich egal. Die KI wird sich schon darum kümmern. Die KI wird immer besser und die wird es hoffentlich auch supermodular aufbauen.
+
+**Alexander von Zitzewitz:** [0:16:19] Ja.
+
+**Ralf D. Müller:** [0:16:19] Wie siehst du das?
+
+**Alexander von Zitzewitz:** [0:16:20] Gut, also ich meine letzten Endes, die Endfrage ist eine Glaubensfrage. Ist die KI am Ende wirklich so gut, dass sie das alles hinbekommen kann und wir uns gar nicht mehr, nie mehr mit Code auseinandersetzen müssen und Claude regelt das alles für uns. Ich meine, im Moment kann man tatsächlich sehen, dass der Fortschritt ziemlich stark in die Richtung geht, aber es sind immer noch offene Grenzen. Es gibt eine Studie, eine Stanford-Studie dazu, die ist jetzt allerdings auch schon wieder über ein Jahr alt, was in unseren Zeiten wahrscheinlich Lichtjahre sind in Entfernung, aber... In dieser Studie hatten 120.000 Entwickler beobachtet und versucht zu messen, wie viel Produktivitätsgewinn sie durch KI-Nutzung erreichen. Und bei allen 120.000 Entwicklern im Durchschnitt kam lediglich ein Produktivitätsgewinn von 10% bei raus. Das ist deutlich geringer, als was wir persönlich teilweise erfahren, wenn wir mit KI arbeiten. Und dann ist die Frage, warum ist das so? Und dann hat man Korrelationen gemacht und festgestellt, dass manche Teams sind 200, 300 Prozent schneller und andere Teams werden langsamer durch KI-Nutzung und haben einfach mehr Probleme und weniger. Und es tauchen immer mehr Bugs in der Software auf. KI-Slop wird erzeugt und plötzlich fallen Produktionssysteme aus. Die eigentlich jahrelang stabil gelaufen sind. Ich meine, wir haben alle diese Story schon gelesen. Es passiert im Prinzip jede Woche jetzt irgendwas in die Richtung, dass plötzlich die Ergebnisse doch nicht ganz so toll gewesen sind, wie erwartet. Und letzten Endes die interessanteste Korrelation in dieser Studie war, dass man festgestellt hat, die Teams, die schon auf einer sauberen Codebasis gearbeitet haben, also die Struktur vermessen von dem Code, wie gibt es Metriken, mit denen man eben die sagen kann, wie gut ist die Struktur von der Software oder wie schlecht ist sie. Hat solche Metriken über die Software laufen lassen und festgestellt, dass die größten Produktivitätsgewinne korreliert haben mit der besten Softwarestruktur. Das heißt, je besser die Struktur ist, desto besser funktioniert KI. Und was im Prinzip bei rauskam, ist, dass KI das verstärkt, was die KI vorfindet. Claude und Co. Sind ja inzwischen richtig gut darin, sozusagen auch deinen Stil nachzuahmen und deine Konventionen einzuhalten und so weiter und so fort. Und wenn deine Konvention Big Ball of Mud ist, dann arbeitet Claude an Big Ball of Mud. Und was wir bei Tests festgestellt haben, dass wenn du so eine Struktur hast und dann Änderungen machen willst, braucht Claude erheblich mehr Tokens.
+
+### KI verstärkt, was sie vorfindet: Spring und Gradle als Beispiele
+
+**Ralf D. Müller:** [0:18:46] Also das hatte ich auch so schon gemerkt, dass die KI sich tatsächlich im Code Beispiele sucht und dass das viel besser geworden ist. Ich hatte mal ein ASCII-Doc-Linter geschrieben, komplett mit der KI Dark Factory. Und als jemand mal einen Blick in den Code geworfen hat, hat er mich dann gefragt, sag mal, warum hast du jede Regel mit einem anderen Test-Framework abgecheckt? Und dann kam es mir so, ich habe jede Regel in einer neuen Session angefangen und die KI hat keine Entscheidung irgendwo vorgefunden. Ich glaube, sie hat auch nicht richtig gesucht, was eben schon verwendet wird. Und das war dann, ja, jedes Mal ein anderes Test-Framework. Aber das wird ja wirklich besser. Wir haben hier eine Frage aus dem Publikum. Hast du gute Beispiele für strukturierte Software?
+
+**Alexander von Zitzewitz:** [0:19:41] Ja, also das ist mein Lieblingsbeispiel, das Spring Framework. Extrem gut strukturiert und die haben auch von Anfang an strikte Architekturregeln umgesetzt. Die haben Tools benutzt wie damals JDepend oder die haben auch mal Sonargraph eingesetzt für eine Zeit lang, um ihre Strukturen zu analysieren mit Spring. Und Jürgen Höller, einer der Gründer von dem Spring-Framework, war immer sehr, sehr streng beim Review von Dependencies. Das hat sich am Ende ausgezahlt. Die innere Struktur von Spring, wenn du ihn anschaust, ist fast komplett zyklenfrei. Es gibt ganz wenige Zyklen da drin. Und damit kommen bessere. Und dann gibt es so Projekte in der Mitte, zum Beispiel Gradle, das ist auch so ein Open-Source-Projekt, das Build-Tool für Java. Gradle ist auch überwiegend relativ gut strukturiert. Es gibt ein großes Modul, da haben sie schon die Tendenz zum Big Ball of Mud. Das ist Dependency-Management-Modul, das ist auch das größte Modul in Gradle, auch das wichtigste. Und da sieht man die Probleme gerade wachsen. Also da sieht man gerade, dass sich die Struktur auch von Version zu Version eher verschlechtert als verbessert.
+
+**Ralf D. Müller:** [0:20:50] Bei Gradle würde ich ja sagen, durch das Plugin-System muss das Ganze irgendwo modular sein. Bei Spring bin ich ja, als ich noch damit gearbeitet habe und nicht die KI habe arbeiten lassen, da habe ich immer so ein bisschen die Architektur vermisst, dass ich mal irgendeinen Blick drauf habe. In den Source-Code wollte ich nie reingucken. Ansonsten hat man ja die User-Dokumentation. Von daher, ja. Aber worauf das Ganze ja hinausläuft, ist, wir machen jetzt alle Greenfield, bauen uns unsere Software, sind begeistert, was die KI macht. Wir können aber, glaube ich, alle noch nicht sagen, ob die KI jetzt über die nächsten Jahrzehnte diese Software auch weiterentwickeln und warten kann. Und da geht ja eigentlich dein Ansatz rein, dass man hergeht und dafür sorgt, dass die innere Struktur passt. Und was du ja so sagst, dass... Die KI sich auch über Modularität freut, ist ja glaube ich auch dieses, ich meine, wir Menschen brauchen die Modularität, dass wir den Überblick behalten, weil wir eben 7 plus minus 2 im Kopf handeln können. Die KI mit ihrem begrenzten Kontext, die muss ja auch irgendwo schauen, dass sie ihren Weg findet und dass sie irgendwo... Den Überblick hat. Wollen wir mal einen Blick auf so eine Visualisierung werfen?
+
+### Live-Demo: Gradle in Sonargraph
+
+**Alexander von Zitzewitz:** [0:22:18] Ja. Ja, wir können, das ist vielleicht ganz spannend, ich habe Sonargraph hier offen und hier haben wir gerade das Gradle-Projekt. Gradle-Projekt, da sieht man hier so einen Überblick über die wichtigsten Metriken. Man sieht also Entanglement, das ist also wie viele Zyklen sind da, schaut eigentlich gar nicht so schlecht aus. Also der Balken ist relativ wenig rot. Insgesamt 15% der Codebasis ist in Zyklen drin. Und die meisten Zyklen sind kleine Zyklen mit 2-5 Elementen. Das ist dieser gelbe Balken hier. Rot sind die größeren Zyklen.
+
+**Ralf D. Müller:** [0:22:52] Das ist jetzt alles ein bisschen klein. Ich glaube, du kannst jetzt nicht auf die Schnelle reinzoomen, oder?
+
+**Alexander von Zitzewitz:** [0:22:58] Ich könnte die Screen-Resolution ändern, dann wird es ein bisschen größer. Das mache ich mal.
+
+**Ralf D. Müller:** [0:23:05] Also das heißt, das Tooling analysiert hier die Modularität, die Zyklen und kann es dann somit gleich visualisieren.
+
+**Alexander von Zitzewitz:** [0:23:18] Genau, also das ist jetzt eine Visualisierung, genau wie wir es hinbekommen. Und in Gradle gibt es jetzt zum Beispiel, wenn wir hier mal reinkommen, das gibt es ein... Sieht man das jetzt besser, ich habe die Auflösung jetzt ein bisschen umgestellt.
+
+**Ralf D. Müller:** [0:23:25] Yeah, yeah.
+
+**Alexander von Zitzewitz:** [0:23:29] Komponentenzyklen in dem Fall sind Zyklen zwischen Source-Files. Es gibt hier, wie ich schon erwähnt habe, vorhin den größten Zyklus mit 92 Elementen im Dependency Management Modul.
+
+**Ralf D. Müller:** [0:23:40] Okay, das heißt, ich sehe, ich beschreibe das jetzt mal gerade so ein bisschen für die Hörer. Ich sehe jetzt hier die verschiedenen, anscheinend, ja, das sind Zyklengruppen, keine Elemente, sondern Zyklengruppen und die sind nach ihrer Größe sortiert.
+
+**Alexander von Zitzewitz:** [0:23:51] Zyklen gucken. Genau.
+
+**Ralf D. Müller:** [0:23:58] Und dann kann man da... Gleichen Drilldown machen und sich das angucken.
+
+**Alexander von Zitzewitz:** [0:24:03] Genau, jetzt gehe ich in Show in Cycle View, jetzt wird es mir visualisiert. Ich bekomme jetzt diesen Graphen hier. Da ist natürlich jetzt klar, wegen der Screenauflösung sieht man jetzt nicht besonders viel, aber es fällt auf, wir haben insgesamt diese 92 Java-Files, die diesen großen Zyklus bilden. Und die Farben sind die Packages in dem Fall.
+
+**Ralf D. Müller:** [0:24:21] Und das sieht jetzt wirklich aus wie ein Big Ball of Mud, weil ich sehe hier ganz viele Texte, die eingefärbt sind, die Komponentennamen und da ganz viele Verbindungen durcheinander drinnen.
+
+**Alexander von Zitzewitz:** [0:24:24] Genau. Genau, aber man sieht so ein bisschen, dass eigentlich so eine Trennlinie so in der Mitte hier durchgeht, so ein bisschen oben links und unten rechts, mal ganz grob.
+
+**Ralf D. Müller:** [0:24:34] Okay.
+
+**Alexander von Zitzewitz:** [0:24:43] Vielleicht gibt es da einige.
+
+**Ralf D. Müller:** [0:24:43] Was bedeuten die beiden Farben? Ich sehe, oben links ist vieles rot, unten rechts ist vieles blau und tatsächlich scheint da die Trennlinie dazwischen zu laufen.
+
+**Alexander von Zitzewitz:** [0:24:53] Genau, die Farben stehen in dem Fall für den Direct Structural Parent. In unserem Fall, nachdem wir kein Architekturmodell haben, sind es die Packages. Also alle, die im selben Package liegen, haben dieselbe Farbe. Und es wird hier die Palette auch dargestellt. Hier können wir sehen, dass wir insgesamt in diesem Zyklus 16 verschiedene Packages hier beteiligt sind.
+
+**Ralf D. Müller:** [0:25:12] Aber das zeigt ja jetzt, eigentlich haben wir hier schon zwei Packages. Wir sehen auch visuell da etwas. Aber jetzt sehen wir es. Okay.
+
+**Alexander von Zitzewitz:** [0:25:23] Genau. Also man kann sehen, dass eben irgendwann ist hier diese Trennung, die eigentlich da sein sollte zwischen den Farben, die ist irgendwie verloren gegangen. Und jetzt wird es ein bisschen gemischt, so das Blaue wird mit Gelb hier unten vermischt, ein bisschen Lachsfarben und so weiter. Es ist alles ein bisschen durcheinander, aber man sieht schon, dass es gibt, das ist ein sogenanntes Spring-Embedder-Layout, der sucht also Dinge, die in einem Graphen näher zusammenliegen, auch nebeneinander abzubilden. Also man kann schon noch sehen, dass es hier eine Struktur gibt irgendwo, aber die ist halt so ein bisschen verwaschen inzwischen durch diese große Zyklik.
+
+### Technische Schulden oder Technical Friction?
+
+**Ralf D. Müller:** [0:25:52] Ist es was, was du als technische Schuld bezeichnen würdest, dass man mit Modulen angefangen hat und dann vielleicht mal, weil, ach komm, so geht es schneller und dann machen wir da die direkte Verbindung, das müssen wir irgendwann fixen oder denkst, mhm, mhm.
+
+**Alexander von Zitzewitz:** [0:26:08] Also ich bin inzwischen mit einem neuen Term gekommen und mein neuer Term heißt Technical Friction. Reibung. Weil technische Schulden impliziert, dass jemand ein Darlehen aufgenommen hat, also eine bewusste Entscheidung getroffen hat, dass wir die Struktur jetzt so entarten lassen. Aber ich glaube, so eine bewusste Entscheidung ist nie getroffen worden.
+
+**Ralf D. Müller:** [0:26:28] Das ist das Problem, wie ich es erfasse, weil eigentlich, wie du sagst, die Definition ist, ja, ich nehme hier Schulden auf, um zum Beispiel schneller zu sein, um schneller das Release rauszubringen. Nehme ich hier mal den Shortcut, aber muss eben den Fix irgendwann bringen. Und wie du sagst, meistens macht man das nicht bewusst und damit, ja, ja.
+
+### Den Graphen partitionieren
+
+**Alexander von Zitzewitz:** [0:26:48] Genau. Das geschieht komplett unbewusst. Also die Leute, die Gradle bauen, die wachen ja nicht morgens auf und sagen, wie kann ich jetzt heute die Struktur kaputt machen. Das wird keiner tun. Die wissen genau, was sie da tun. Die haben eine komplexe Software, die relativ gut funktioniert. Wir haben halt keine Tools, die in die Architektur sozusagen überprüfen und versuchen, so gewisse Boundaries einzuhalten. Wenn du das eben nicht machst, wenn du keine automatische Überprüfung hast, für einen Menschen ist es unmöglich zu sehen, wenn du diese Strukturen implizit aufbaust. Wenn er jetzt aus Versehen mal eine Abhängigkeit zu einem anderen Package einbaut, kann er nicht sehen, dass dadurch jetzt ein Zyklus mit fünf anderen Packages entsteht. Das merkt er nicht beim Programmieren. Und der Compiler, dummerweise, erzählt es ihm auch nicht. Das heißt, das wächst dann halt so im Laufe der Zeit. Aber das Interessante jetzt hier, wo man hier mal gucken kann, ist, stellen wir uns vor, wir würden diesen Graph partitionieren. Weil wir müssen diesen Graph vereinfachen, um irgendwas tun zu können. Und wenn ich das jetzt partitionieren würde, dann kann ich nach Farbe gehen. Und dann sage ich hier, wie sieht denn der Graph aus, wenn ich alle, die dieselbe Farbe in einen Knoten zusammenfasse. Dann bekomme ich jetzt, zack, zack, einen deutlich einfachen Graphen.
+
+**Ralf D. Müller:** [0:27:56] Weil ich nicht mehr die Komponenten sehe, sondern die Packages, in denen die Komponenten sind.
+
+**Alexander von Zitzewitz:** [0:28:00] Genau, alle, die im selben Package sind, sind jetzt hier zusammengefasst in einen Knoten. Und jetzt sind die Farben die Parent-Packages von diesen Packs. Wir sehen hier zum Beispiel das Graph-Package, das blaue hier. Insgesamt drei Dinge und es gibt ein Unterpackage Selectors, Builder und Conflicts.
+
+**Ralf D. Müller:** [0:28:17] Und jetzt sehe ich nicht mehr so eindeutig den Schnitt, sondern jetzt sehe ich wirklich, alles spielt mit allem zusammen.
+
+**Alexander von Zitzewitz:** [0:28:24] Genau, aber wir können es ja weiter vereinfachen. Jetzt können wir das Spiel ja nochmal machen. Fassen wir nochmal alle Knoten zusammen, die dieselbe Farbe haben. Immer noch nicht viel besser. Immer noch nicht viel besser. Und jetzt plötzlich wird es schon ein bisschen übersichtlicher. Noch weiter gehen, dann bleiben am Ende nur noch drei Knoten übrig.
+
+**Ralf D. Müller:** [0:28:52] Okay, zum Schluss, wenn ich nur noch einen Knoten habe, dann ist es sehr übersichtlich mit den Verbindungen.
+
+**Alexander von Zitzewitz:** [0:28:56] Ja, genau. Aber was ich jetzt zeigen will, ist eigentlich, gehen wir nochmal auf den vorigen zurück. Hier wird es einfacher zu überlegen, wo kann ich aufbrechen. Ich kann jetzt hier sagen, zeig mir das mal in einer anderen Darstellung.
+
+**Ralf D. Müller:** [0:29:11] Also ich bin gerade etwas erstaunt. Ja, okay, jetzt wird ein Schuh draus, weil ich hätte jetzt gerade eben noch gesagt, ja, du mit deiner Erfahrung, du weißt vielleicht, wie man es da aufbrechen kann.
+
+**Alexander von Zitzewitz:** [0:29:16] Genau.
+
+**Ralf D. Müller:** [0:29:23] Ich hätte da jetzt gerade nicht viel gesehen, aber jetzt haben wir eine Darstellung, wo... Ich sehe Verschachtelung, ich sehe aber vor allem rechts Kreise, ich sehe ein paar Quadrate. Ja, ja, okay.
+
+### Exploration View: Bögen, Breakup-Set und zwei Kanten
+
+**Alexander von Zitzewitz:** [0:29:36] Das sind diese Bögen, das sogenannte Exploration View, den wir hier sehen. Und der Exploration View ordnet die Elemente untereinander an. Und die Bögen gehen gegen den Uhrzeigersinn. Also auf der linken Seite gehen die Bögen von oben nach unten und auf der rechten Seite von unten nach oben. Der Clou daran ist, dass wir jetzt hier diese Knoten so sortieren, dass wir die minimale Anzahl von Bögen auf der rechten Seite haben. Dass wir benutzen einen Graph-Algorithmus, um sozusagen hier... Einen Breakup-Set zu finden.
+
+**Ralf D. Müller:** [0:30:10] Aber das heißt, durch diese vertikale Anordnung und dass ich wirklich Bögen mache und nicht Linien, ist, wenn jetzt ein Bogen größer ist, ist der Radius größer und ich habe dadurch auch keine Überschneidung von den Bögen, dass die übereinander liegen, sondern ich sehe tatsächlich sehr schön die Anzahl der Bögen überall.
+
+**Alexander von Zitzewitz:** [0:30:26] Genau. Genau. Genau. Genau. Und ich kann jetzt auf so einen Bogen draufklicken und dann sehe ich, das sind 167 Abhängigkeiten. Die werden jetzt mir unten hier angezeigt, einzeln. Wenn ich hier auf so eine Zeile, das ist eine von den 167 Abhängigkeiten, wenn ich da drauf, doppelklickt drauf, bin ich im Source-Code, kann mir die Stelle angucken.
+
+**Ralf D. Müller:** [0:30:46] Okay, das heißt, ein Bogen liegen doch mehrere Abhängigkeiten übereinander, aber es ist jeweils von dem einen Modul ins andere jeweils eine Abhängigkeit und die müsste ich dann alle auflösen.
+
+**Alexander von Zitzewitz:** [0:30:51] Genau. Genau, und was du hier auch sehen kannst, dass die Bögen verschiedene Dicke haben. Also manche sind dicker und manche sind dünner. Das ist eine logarithmische Skala, die sagt, wie viele Abhängigkeiten sind dahinter. Hier zum Beispiel dieser Bogen umfasst nur zwölf Abhängigkeiten und der hier unten zehn. Und das Coole ist, ich kann es mit einem Blick sehen, ich kann diese Struktur dramatisch vereinfachen, indem ich diese beiden Bögen hier entferne. Die beiden, die auf der rechten Seite hochgehen. Dann bleiben am Ende nur noch diese drei im Zyklus übrig, weil die sich auch intensiv gegenseitig benutzen, aber der Rest wird zyklenfrei.
+
+**Ralf D. Müller:** [0:31:34] Okay, weil alle Abhängigkeiten quasi in eine Richtung gehen, dadurch kann es keinen Zyklus geben. Und das ist der Trick, dass ich eben auf der rechten, die, die, ja.
+
+**Alexander von Zitzewitz:** [0:31:41] Genau. Der Zyklus entsteht nur durch diese beiden Kanten hier. Wenn die weg wären, Und das Coole ist, ich kann das jetzt simulieren. Das ist genau das, was wir für die KI auch gebaut haben, dass die KI eben solche Untersuchungen intern im Speicher macht.
+
+**Ralf D. Müller:** [0:31:54] Okay.
+
+**Alexander von Zitzewitz:** [0:31:57] Das sieht natürlich dann keiner. Aber auf die Art und Weise kann man natürlich der KI enorm helfen, wenn man solche Strukturen hat. Wie bricht denn das jetzt auf an der Stelle?
+
+**Ralf D. Müller:** [0:32:05] Also ich fand es vorhin schon mal interessant, dass du ja gesagt hast, die KI, wenn die Struktur besser ist, sie guckt sich das Ganze an und sieht, aha, okay, ich darf jetzt nicht von da nach da irgendwie eine Abhängigkeit einbauen, beziehungsweise umgekehrt, wenn sie sowas vorfindet, dann sagt sie sich, naja, hier haben wir schon zehn Abhängigkeiten, dann kommen noch die elfte und die zwölfte hinzu. Das ist wahrscheinlich die Gefahr, dass die KI... So einen schlechten Code, eine schlechte innere Architektur über die Abhängigkeiten dann mit ihrer Arbeit verstärkt und verfestigt.
+
+**Alexander von Zitzewitz:** [0:32:44] Genau. Wie gesagt, ich glaube, das wichtigste Pattern zum Verstehen von KI und von der Qualität von KI, KI verstärkt, was sie vorfindet. Baut auf dem auf, was schon da ist und benutzt dieselben Patterns, die sie schon im Code findet. Und wenn das Pattern Big Ball of Mud ist, dann produziert die KI mehr Big Ball of Mud.
+
+**Ralf D. Müller:** [0:33:06] Beziehungsweise, wenn sie irgendwo merkt, da ist schon mal unsauber gearbeitet, dann arbeite ich halt unsauber weiter. Funktioniert ja. Okay, verstanden.
+
+### Virtual Refactoring: die KI entfernt Kanten
+
+**Alexander von Zitzewitz:** [0:33:20] Das Coole ist jetzt hier noch, um das mal zu Ende zu bringen, wir können jetzt simulieren diesen Change. Man kann jetzt hier draufklicken auf die Kante und sagen, was passiert, wenn die Kante nicht mehr da ist. Ich mache ein sogenanntes Virtual Refactoring. Kann ich jemandem zuweisen, noch eine Aufgabenbeschreibung dazu geben, da wird eine Task draus. Und dann sieht man schon, der hier unten wird einfacher und jetzt tun wir den auch noch weghauen hier.
+
+**Ralf D. Müller:** [0:33:48] Jetzt bin ich gerade etwas erstaunt. Du brauchst sie einfach weg. Ich sehe einen Fortschrittsbalken, er refactored irgendwas. Du sagst jetzt virtuell, also nicht echt. Ich meine, so eine Abhängigkeit ist ja nicht einfach rauszunehmen.
+
+**Alexander von Zitzewitz:** [0:33:58] Genau, so ein Code wird dann. Richtig, genau. Aber da ist die KI zum Beispiel relativ gut drin, zum Beispiel eine Abhängigkeit zu entfernen, zum Beispiel durch Einführung von einem Interface oder durch Verschieben von Code. Es gibt ja verschiedene Techniken, wie man solche Abhängigkeiten entfernen kann. Die wichtigste Technik ist immer das Arbeiten mit Interfaces, aber es gibt auch andere Techniken. Durch Umstrukturieren von Code, durch Abändern von Klassen sozusagen, solche Abhängigkeiten dann loszuwerden. Aber natürlich ist es eine schwierige Aufgabe, die in der Regel einen Menschen braucht. Aber jetzt in der Zwischenzeit, das, was ich gesehen habe, wenn es um Entfernen von Kanten geht, ist die KI sehr, sehr gut. Das haben wir simuliert an Open-Source-Projekten, was passiert. Und dann haben wir tatsächlich mal versucht, Mit dem MCP-Server zusammen mal so einen Big Ball of Mud aufzulösen und das ist enorm gut gelaufen.
+
+### Grep, LSP und warum es einen MCP-Server braucht
+
+**Ralf D. Müller:** [0:34:48] Jetzt, du hast gerade die Theorie gut erklärt, sie ist einleuchtend. Und was machen wir beim Agentic Coding? Wir sagen ja nicht mehr Vibe Coding. Wir sagen einfach der KI. Du kannst mal nach Zyklen gucken und kannst sie auflösen. Das wäre jetzt so das Triviale.
+
+**Alexander von Zitzewitz:** [0:35:11] Genau.
+
+**Ralf D. Müller:** [0:35:13] Funktioniert das gut?
+
+**Alexander von Zitzewitz:** [0:35:15] Tja, da kommt genau so ein MCP-Server ins Spiel. Also es funktioniert, wenn wir jetzt von Java reden, ich meine, für jede Sprache ist es ein bisschen anders, weil jede Sprache ihre eigenen Patterns hat und eigene Strukturmuster und so weiter. Wenn wir jetzt mal von Java ausgehen und da eine Package-Struktur haben, wenn ich der KI prompt gebe, dass sie Zyklen auflösen soll, dann kann sie das sehr gut auf der Package-Ebene. Dafür braucht die kein Tool, weil das, was er macht, er analysiert die Imports sozusagen, baut sich sein eigenes Bild auf und fängt an loszulegen. Aber was man nicht vergessen darf dabei, dass die KI kein internes Modell der Software hat. Die hat kein Dependency-Modell der Software. Das heißt, sie muss alles, also wenn Dependencies analysiert werden mit KI, dann benutzt sie meistens ein Tool wie Grep dafür. Grep nach einem Namen, um herauszufinden, wo kommt der überall vor in der Codebase, egal ob der in einem Kommentar steht oder zufällig eine Overloaded Function ist oder was auch immer. Und das führt natürlich dazu, dass das direkt...
+
+**Ralf D. Müller:** [0:36:13] Ist ja das richtige Tool. Der Name sagt es ja schon.
+
+**Alexander von Zitzewitz:** [0:36:16] Genau.
+
+**Ralf D. Müller:** [0:36:17] Kommt ja Dependency Analysis in Grep vor. Nein, das ist also nur ein Hilfsmittel, was die KI nutzt.
+
+**Alexander von Zitzewitz:** [0:36:21] Genau. Und was wir dann festgestellt haben bei dem Experiment ohne den MCP-Server, komplett blind, was Java-File-Zyklen angeht. Das kann sie nicht handeln.
+
+**Ralf D. Müller:** [0:36:36] Hier haben wir ein gutes Feedback, wie ich finde, in das Language Server Protokoll. Das könnte schon helfen, um im Source Code zu navigieren.
+
+**Alexander von Zitzewitz:** [0:36:47] Ja und nein. Also das war auch interessant, weil wir haben ja... Ich meine, als wir den MCP-Server gebaut haben und gesagt haben, wir müssen eigentlich im Memory eine Abhängigkeitsstruktur des Codes haben, um wirklich gute Aussagen, um solche Algorithmen laufen lassen und so weiter und so fort. Weil die KI hat es nicht. Das heißt, wir benutzen dann das, was wir mit Sonargraph gelernt haben, um sozusagen so einen Parser drin zu haben, der ein paar Sekunden... So ein System komplett parst, analysiert und Dependency-Modell aufbaut. Wenn du jetzt mit einem Language-Server-Protokoll arbeitest, die Language-Server sind gut, was die Struktur angeht, aber nicht gut, was Abhängigkeiten angeht. Die machen diesen Schritt der Abhängigkeitsauflösung, der findet in dem LSP-Protokoll nicht statt. Ein LSP ist super, um zum Beispiel einen syntaxsensitiven Editor zu schreiben, der Highlighting macht und so weiter und so fort und so ein bisschen die Struktur erkennt, also den Syntaxbaum sozusagen analysiert. Aber was beim LSP fehlt, ist die semantische Phase, die dann die Dependencies auflöst, die dann sagt, aha, hier habe ich einen Function Call, der von der Klasse A in die Klasse B geht.
+
+**Ralf D. Müller:** [0:37:46] Ich dachte, dass zumindest so Features drin sind, wie zeig mir mal alle Aufrufe von dieser Funktion oder sowas. Aber das ist dann nicht ganz so strukturiert, wie man es eigentlich bräuchte.
+
+**Alexander von Zitzewitz:** [0:38:04] Genau, also als wir den MCP-Server gebaut haben, war natürlich mein erstes Ding, hey, können wir dafür nicht LSP benutzen? Und Claude hat mir dafür dann gleich 20 Gründe genannt, warum das eben nicht geht. Weil eben genau diese Dependency-Auflösung rudimentär ist oder eben nur on demand gemacht wird und es gibt keine komplette Auflösung. Wenn du jetzt fragst, wer benutzt denn das alles? Dann läuft irgendwie eine Syntaxbaum-Suche los über alle möglichen Stellen. Und das heißt, das Modell ist nicht fest vorhanden. Es wird on demand sozusagen erzeugt, was zu spät ist. Wenn du eine Zyklenanalyse willst, musst du alle Abhängigkeiten kennen.
+
+**Ralf D. Müller:** [0:38:39] Das heißt, die Motivation für den MCP-Server war, dass... Ja, die KI zu unterstützen, so eine Architekturanalyse zu machen, weil es ist für uns Menschen schwer, sich durch die ganzen Klassen durchzuwühlen. Für die KI ohne deterministisches Tooling genauso. Und der MCP-Server liefert genau dieses deterministische Tooling.
+
+### Der Graph nach zwei geschnittenen Kanten
+
+**Alexander von Zitzewitz:** [0:39:01] Genau so ist es. Genau, der ist die Quelle der Wahrheit. Das heißt, einer der großen Vorteile für Claude ist, wenn er den MCP-Server los, er muss nie mehr Grep benutzen. Der Dependency-Auflösungstool im MCP-Server kann direkt fragen, wer benutzt denn das hier und kriegt präzise Antworten und nicht irgendwelche Grep-Ergebnisse. Hier nochmal kurz, damit wir das mit den Zyklen hier oben nochmal abschließen können, bevor wir jetzt weiterspringen in die Details mit Claude und so weiter. Wir haben ja hier diese beiden Kanten jetzt entfernt. Wenn ich jetzt zurück in meine Graphen hier gehe, sieht man, dass der plötzlich zyklenfrei ist. Dieser Graph hat jetzt plötzlich noch eine Zyklengruppe hier unten. Das heißt, die ganzen Graphen vom ersten,
+
+**Ralf D. Müller:** [0:39:52] Jetzt sind wir also aus der spezialisierten Ansicht raus, sind wieder in der Ansicht, wo wir die Komponenten, sind wir jetzt hier schon auf Klassenebene, wo wir wieder
+
+**Alexander von Zitzewitz:** [0:40:01] Genau, das ist der ursprüngliche Graph, den wir mal gesehen haben. Der sieht jetzt ganz anders aus. Diese Klassen in der Mitte sind alle zyklenfrei. Dann gibt es hier unten noch zwei größere Cluster, nämlich den blauen Cluster hier oben und den gelben hier unten.
+
+**Ralf D. Müller:** [0:40:18] Also man sieht jetzt auf jeden Fall besser die Trennung zwischen den Clustern, zwischen den Packages, weil die Klassen sind ja nach Packages eingefärbt.
+
+**Alexander von Zitzewitz:** [0:40:30] Genau.
+
+**Ralf D. Müller:** [0:40:30] Aber es ist jetzt noch nicht so, dass ich jetzt als Laie sagen würde, wow, da ist jetzt zwischen den Packages quasi nur noch eine Verbindung, sondern das sind... Das sind die auf der linken Seite, die von oben nach unten gehen.
+
+**Alexander von Zitzewitz:** [0:40:40] Ja, das sind immer noch...
+
+**Ralf D. Müller:** [0:40:45] Es sind ja immer noch viele Abhängigkeiten, aber nur noch in eine Richtung.
+
+**Alexander von Zitzewitz:** [0:40:49] Genau, also die in der Mitte sind jetzt alle okay, weil das ist eine klar hierarchische Struktur. Das ist also levelized, dieser Graph. Das heißt, die mit den meisten Ausgehenden sind oben und die mit den Eingehenden sind unten. Es gibt also einen Cluster oben, einen Cluster unten. In der Mitte gibt es ungefähr 40, 50 Klassen, die zyklenfrei sind. Und das war jetzt nur eine kleine Session. Wir haben nur zwei Kanten geschnitten. Das darf man nicht vergessen. Das war jetzt der Beginn von der Session und das kann ich jetzt an Claude geben. Tu mir mal die Kanten raushauen. Und 20 Minuten später hat Claude die Kanten weggehauen und dann kann man zum nächsten Schritt übergehen. Das Ziel ist ja nicht... Mit einem einzigen Schritt sozusagen alle Zyklen komplett aufzulösen. Das ist unrealistisch, weil es wird ein viel zu großes Change-Set am Ende. Das Ziel ist, durch inkrementelle Verbesserungen langsam an diesem Big Ball of Mud reinzuhämmern und Stückchen rauszuhauen, bis es irgendwie das Ganze in eine gute modulare Struktur übergeführt werden kann. Wir können jetzt das Spiel hier mit den beiden Remaining Clusters, das ist wahrscheinlich dieselbe Session again, das mir hier anfängt.
+
+**Ralf D. Müller:** [0:41:54] Wir kriegen hier gerade den Halloween-Kommentar.
+
+**Alexander von Zitzewitz:** [0:41:54] Das sieht gruselig aus, kriegen wir als Kommentar. Das sieht immer noch gruselig aus und das ist auch... Ja, genau. Passend zu Halloween. Aber come on, also hier... Sieht schon mal deutlich besser aus auf der Package-Ebene, wenn man das mal anschaut hier. Aber klar, das war jetzt ein erster Schritt. Aber mit zwei weiteren Sessions für jeden von diesen Clustern kann man sich vorstellen, dass wir das weiter so weit verbessern, bis wir am Ende eine Struktur haben. Also der Grund, warum wir diese Zyklen ja alle weghauen wollen, ist auch, dass ich am Ende darüber dann mein UML-Component-Diagramm drüberlegen kann, ohne dass ich eine zyklische Komponentenstruktur bekomme.
+
+### Vom Zyklenschnitt zur Modernisierung
+
+**Ralf D. Müller:** [0:42:28] Aber sag mal, das wäre doch jetzt ein Weg. Ich habe ein Big Ball of Mud. Ich kann keine Komponenten rausziehen. Das heißt, mir fällt es auch schwer, das Ganze zu erneuern, weil ich eben nicht die Modularität habe.
+
+**Alexander von Zitzewitz:** [0:42:42] Genau.
+
+**Ralf D. Müller:** [0:42:42] Jetzt habe ich Zyklen entdeckt, habe gesehen, welche Kanten ich entfernen muss. Gebt das an Claude, dass der das Heavy Lifting macht und danach kann ich Module schneiden und könnte dann die Software dementsprechend modernisieren, oder?
+
+**Alexander von Zitzewitz:** [0:42:52] Genau. Genau so ist es ja. Und jetzt das nächste Thema. Wir haben ja gesagt, über zwei Säulen gesprochen. Die eine Säule war das Architekturmodell und die zweite Säule war die möglichst zyklenfreie Struktur. Wenn es mir gelingt, die Struktur über weite Strecken zyklenfrei zu halten oder Zyklen zu minimieren, dass ich nur kleine Zyklen drin habe, dann kann ich immer später ein Architekturmodell drüberlegen. Wenn ich umgekehrt aber dann diese großen Zyklen bekomme, in diesem Dependency-Management-Modul gibt es keine Unterstruktur mehr. Das ist alles ein großer Big Ball of Mud. Das heißt, da kann ich dann nichts mehr unterteilen, weil die Unterteilstruktur wäre genauso zyklisch und damit eben keine Struktur. Wie die Basisstruktur, von der wir ausgegangen sind. Und jetzt kommt halt der nächste Schritt. Idealerweise willst du eigentlich dahin kommen, dass die KI schon bevor sie eine neue Abhängigkeit im Code anlegt, jemand fragen kann, ist das eine gute Abhängigkeit, kann ich den Code einbauen? Bevor überhaupt der Code generiert wird. Und wenn du so ein Tool dann hast und die KI fragen kannst, Hier sehe ich gerade die Frage: Wie sagst du Claude, womit er entfernte Kanten richtig ersetzt?
+
+### Kanten ersetzen, ohne Funktionalität zu brechen: jPOS
+
+**Ralf D. Müller:** [0:44:19] Das wäre jetzt auch so demnächst meine Frage gewesen. Also ich komme aus der arc42-Welt, ich habe Qualitätskriterien, ich habe Architekturentscheidungen und ich denke mir, Kriegen wir das bei Software tatsächlich hin, dass wir Kanten ersetzen? Du sprachst vorhin von Interfaces und solchen Geschichten, sodass wir die Funktionalität und die Qualitäten nicht verändern.
+
+**Alexander von Zitzewitz:** [0:44:48] Ja, absolut möglich. Also das war genau der Test. Wir haben da mit einem Open-Source-Projekt, das heißt jPOS, da haben wir mal so ein Experiment gemacht. Das hat auch so einen Big Ball of Mud Cluster drin gehabt mit Packages und Komponenten involviert. Und da haben wir dann mal eine Session gemacht mit Claude. Wie können wir das jetzt verbessern? Und das Gute an dem Ding ist, dass dieses Open-Source-Projekt hat eine Test-Suite gehabt mit 4000 plus Tests, die aber relativ schnell durchgelaufen ist. Dadurch hat man dann einen schnellen Turnaround gehabt und konnte immer noch nachweisen, dass die Funktionalität noch so ist, wie sie ist. Und Claude ist erstaunlich gut darin, diese Kanten zu entfernen. Der benutzt alle Patterns, die er so kennt, um Kanten eben zu ersetzen oder loszuwerden oder eben die Richtung umzudrehen. Das ist das Dependency Inversion Pattern, gerade Interfaces erlaubt dir, die Richtung von der Dependency umzudrehen und damit eben Zyklenstrukturen aufzubrechen. Und das macht er gut. Also das habe ich gesehen, da habe ich live gesehen, dass er nach und nach eine Kante nach der anderen entfernt hat und dann immer wieder die Tests hat laufen lassen, ob die alle noch gehen und dann den MCP-Server gefragt hat, stimmt meine Struktur noch? Und dann eben nach und nach die Struktur verbessert.
+
+### ArchUnit kommt zu spät: das Architekturmodell als zweite Säule
+
+**Alexander von Zitzewitz:** [0:45:58] Aber wie gesagt, die zweite Säule ist jetzt eigentlich die entscheidende. Nämlich die Architekturmodellierungssäule. Wie modellierst du die Architektur? Als ich das Thema researched habe für den SAG-Vortrag, habe ich im März angefangen, im April sowas mit dem Vortrag dann gemacht. Dann kam Claude, ja, wir brauchen irgendwelche Architectural Boundaries, um eben das auch überprüfen zu können. Und dazu besorgen wir Tools wie ArchUnit benutzen. Was ja schon mal ein Schritt in die richtige Richtung ist. Der Nachteil ist, dass ArchUnit ein bisschen spät im Spiel kommt, weil der Agent erzeugt den Code, dann muss er die Testsuite laufen lassen und dann sagt ihm ArchUnit, hey, das war jetzt nicht okay, mach bitte was anderes. Dann geht er wieder zurück, muss die Änderung wieder zurückdrehen, anders probieren, geht er wieder an ArchUnit, ArchUnit sagt ihm wieder, ist immer noch falsch, hier und da stimmt noch irgendwas nicht. Es hat so eine Iteration, die länger dauert unter Umständen. Das zweite Problem ist, dass es in ArchUnit und ähnlichen Tools kein Architekturmodell dahintersteht. In ArchUnit baust du nicht ein UML-Component-Diagramm auf. Im Prinzip definierst du eine Menge von Regeln, die alles definieren, was verboten ist. Es gibt da zwar elementare Ansätze, zum Beispiel eine Layered Architecture aufzubauen, solche Dinge sind auch in ArchUnit drin. Ein Schritt in die richtige Richtung, aber sehr rudimentär, sagen wir mal so. Also das heißt, du musst im Vornherein schon alles vorhersehen, was verboten ist und dann für jede der möglichen verbotenen Aktionen einen ArchUnit-Test schreiben. Und dann weißt du auch noch nicht, ob alles abgedeckt ist. Deswegen ist so ein Architekturmodell immer besser, wenn du sagen kannst, ich kann feststellen, ich kann actually messen, dass ich meine ganze Software mit abgedeckt habe, dass jede Klasse zu irgendeiner Komponente gehört, UML-Komponente. Und dann kann ich am Ende, wenn ich so ein Modell habe, kann ich dann über die statische Analyse beweisen, dass es keine Architekturverletzungen gibt oder wenn es welche gibt, kann ich beweisen, wo sie sind. Und jetzt kann natürlich ein MCP-Server, der so ein Modell hat, kann jetzt zwei Fragen an das Modell stellen. Zum Ersten, ist diese Kante, die du hier einführen willst, konform mit meiner Architektur? Und die zweite Frage, die er stellen kann, wenn du diese Kante hier einbaust, tut die einen Zyklus entstehen lassen oder einen bestehenden Zyklus vergrößern? Zwei Fragen, die der MCP-Server in Bruchteilen von Sekunden beantworten kann, aufgrund von dem Modell. Das heißt, Claude kriegt, bevor er überhaupt die erste Zeile Code geschrieben hat, schon mit, ob das eine erlaubte Abhängigkeit ist oder nicht. Das heißt, wenn die Abhängigkeit nicht erlaubt ist, dann kann der MCP-Server sogar Vorschläge machen, was stattdessen möglich ist.
+
+### Sichtbarkeiten und Java-Module reichen nicht
+
+**Ralf D. Müller:** [0:48:36] Aber sag mal, ich habe ja früher auch viel Java gemacht und da hat man ja auch so die Sichtbarkeit von Klassen, von Properties, Public, Private, sonst was, die Modifier. Sorgen die nicht eigentlich schon dafür, dass nur die richtigen Verbindungen aufgebaut werden können? Sollte das nicht eigentlich das Sprachelement sein, was sich darum kümmert?
+
+**Alexander von Zitzewitz:** [0:49:07] Ja, dann erklär mir, wie der Big Ball of Mud in Hibernate oder Cassandra entstanden ist.
+
+**Ralf D. Müller:** [0:49:14] Yeah.
+
+**Alexander von Zitzewitz:** [0:49:14] Also die reicht es nicht aus, weil diese Public- und Private-Geschichten gehen ja nur auf Package-Ebene. Bezieht sich ja nur auf den Package-Scope. Das ist viel zu gering, um jetzt sozusagen eine größere Architektur zu mobilisieren. Dann könnte man jetzt argumentieren, naja, wir können ja stattdessen Java-Module benutzen. Das ist ja ein gutes Feature, wo sie sehr lange gebraucht haben, das umzusetzen. Aber selbst Module können auch nicht geschachtelt sein. Immerhin haben sie dann ein Interface, dass ich sagen kann, ich mache nicht alles sichtbar, was in dem Modul drin ist, sondern nur gewisse Sachen. Das ist schon ein Schritt in die richtige Richtung. Aber du hast immer noch eine eindimensionale, nicht schachtelbare Struktur. Und selbst beim einfachsten Domain-Driven-Modell hast du eigentlich schon eine geschachtelte Struktur. Du hast die Domains. Als Hauptblöcke und innerhalb von den Domains hast du wieder Schichten. Das heißt, du hast hier automatisch schon eine geschachtelte Struktur. Nichts von dem kannst du mit Java-Sprachmitteln abbilden. Und die meisten Programmiersprachen sind leider, was diese Architektur-Ecke angeht, einfach unterbelichtet. Das ist eigentlich schade, wenn ich eine Programmiersprache entwickeln würde, jetzt, wenn ich die Chance hätte zu sagen, Bitte die Sprache für das nächste Jahrtausend, dann würde die definitiv Architektur-Constraints mit drin haben, schon in der Sprache selbst.
+
+### Die Architektur-DSL
+
+**Ralf D. Müller:** [0:50:27] Also das heißt, dein Ansatz ist, erstmal eine Architektur entwerfen, damit das LLM weiß, was erlaubt ist, aber dann auch die Architektur überprüfen, um zu sehen, ob es sich an die Regeln gehalten hat. Stimmt das so?
+
+**Alexander von Zitzewitz:** [0:50:45] Genau, ich kann jetzt mal ein Beispiel zeigen dafür, wie so eine Architektur aussieht. Ich habe hier diese Folien noch irgendwo, wenn ich Glück habe. So suche ich jetzt mal eine mit einem Architekturbeispiel raus. Ja, das ist im Prinzip ein ganz einfaches Beispiel von dieser Architektur-DSL, was wir hier sehen. Es gibt ein Artefakt. Artefakt ist sozusagen unsere Komponente oder die Box im Architekturdiagramm. Und das Include-Statement sagt mir, was ist da drin. Zum Beispiel alle, wo Web im Package-Namen vorkommt. Das ist unser Artefakt Web, dann gibt es ein Service-Artefakt und ein Domain-Artefakt. Und das ist also die einfachstmögliche Architektur, die wir hier sehen. Und die Abhängigkeitsstruktur wird durch dieses Keyword Relaxed hier ersetzt. Das heißt, Relaxed Layering bedeutet, dieses Web-Ding darf auf alle Geschwisterkomponenten zugreifen, die unten drunter definiert sind. So Web darf auf Service und Domain zugreifen und Service darf auf Domain zugreifen.
+
+**Ralf D. Müller:** [0:51:56] Das heißt jetzt für unsere Hörer, es ist eine textuelle, eine Domain-Specific Language, in der ich definiere, welche Komponenten auf welche zugreifen dürfen über einfache Regeln.
+
+**Alexander von Zitzewitz:** [0:52:11] Genau. Genau, das kann dann noch verfeinert werden. Also hier gibt es jetzt zum Beispiel ein Artefakt Tree, das aber ein Interface hat. Das heißt, in dem Tree-Artefakt ist alles drin, wo Tree irgendwo im Package-Namen vorkommt. Und dann gibt es ein sogenanntes Default-Interface, also das ist die Default-Schnittstelle. Wenn jemand sich mit Tree connectet und kein Interface angibt, bekommt er dieses Interface hier. Und er sagt, da ist alles drin aus Tree, außer... dem FocusHandler, TreeHandler, CollapseInfo und diverse andere Sachen, die dann eben ausgeblendet werden. Das heißt, wir definieren über das Interface, was ist nach außen sichtbar und das ist in der Regel dann eine Teilmenge von dem, was in der Komponente drin ist. Das ist halt im Prinzip so in zwei Sätzen die Architekturbeschreibungssprache. Und das Coole ist, wenn du diese Sprache hast, die habe ich dann Claude mal gezeigt. Und Claude war begeistert, wenn man sowas sagen kann über einen KI-Agenten. Manchmal schleimt er auch ein bisschen und will nett sein, aber... Claude hat die Sprache eigentlich relativ auf Anhieb verstanden. Ich müsste ihm noch zwei, drei Konzepte erklären. Allein mit dieser Sprachdefinition schon ohne MCP-Server. Kann Claude schon was anfangen. Da kann das lesen, verstehen und versucht sich schon in die Regel zu halten. Das Problem ist, dass natürlich dann sind subtile Dinge drin, wie dieses Pattern Matching funktioniert und so weiter. Da ist Claude dann nicht perfekt, macht gerne noch Fehler. Deswegen kann man das natürlich in den MCP-Server reinpacken. Der versteht die Sprache perfekt, weiß genau, was wo zugeordnet ist. Und kann dann alle möglichen Fragen zum Thema beantworten.
+
+### Claude lernt die DSL: der MCP-Server Zügel
+
+**Ralf D. Müller:** [0:53:49] Das heißt, wir hatten es ja auch schon früher zum Beispiel PlantUML, die ersten PlantUML-Diagramme, hat die KI nicht so ganz die Syntax verstanden,
+
+**Alexander von Zitzewitz:** [0:53:49] Und wurde es dann?
+
+**Ralf D. Müller:** [0:54:00] waren immer irgendwelche Fehler drin und man hat versucht, sie irgendwie zu korrigieren. Mittlerweile sind die LLMs da ziemlich gut. PlantUML ist jetzt auch Open Source und recht bekannt. Und hier sagst du, dass die KI die Sprache eigentlich ganz gut versteht, aber der MCP-Server eben darauf ausgelegt ist, die KI auch zu guiden. Ja, dann diese Sprache zu schreiben und zum Beispiel verhindert, dass Keywords reinkommen, die falsch sind oder so, weil Claude sagt, ach, ich habe mir gedacht, das könnte so gehen.
+
+**Alexander von Zitzewitz:** [0:54:34] Genau.
+
+**Ralf D. Müller:** [0:54:36] Ist das so?
+
+**Alexander von Zitzewitz:** [0:54:38] Das ist ein bisschen genau in die Richtung. Das hast du schon relativ nah angedeutet. Das Coole ist, dass der MCP-Server dem Claude eben auch beibringt, wie die Sprache funktioniert. Also er hat eine Erklärungsfeature. Und das heißt, Claude kann dann selber die Architektur mit der Sprache definieren. Das haben wir auch mal ausprobiert in einem Projekt, wo wir dann so ein Testprojekt aufgesetzt haben, um zu sehen, wie das funktioniert. Und ich habe ihm eigentlich als Prompt gegeben, create me a domain-driven architecture oder create a layered architecture divided by domains. Das war der Prompt.
+
+**Ralf D. Müller:** [0:55:13] Okay.
+
+**Alexander von Zitzewitz:** [0:55:14] Und hat er gemacht, hat dann komplette Architekturspezifikation rausgehauen und sich dann beim späteren Kodieren an seiner eigenen Architekturspezifikation gehalten. Die habe ich natürlich überprüft und war im Großen und Ganzen okay. Und dann gab es aber andere Beispiele wieder, wo man auch sehen kann, wie wichtig das für den MCP-Server gebaut haben. Der heißt Zügel by the Way, das ist also der Produktname dafür. Zügel haben wir entwickelt, weil wir sagen, der Zügel fürs Pferd, fürs Wildpferd, das in die falsche Richtung rennen will. Der MCP-Server kann ja nun drei Sprachen, der kann Python, Java und C-Sharp. Und eine der wichtigsten Architekturregeln ist, dass diese Sprachmodule komplett irgendwie getrennt sind voneinander und irgendwie auch austauschbar sein müssen, weil jede Sprache anders die Analyse durchführt. Als da der Claude dann gearbeitet hat an einem Ding und ohne die klare Architekturregeln, hat er das schnell irgendwie Boundaries verwischt zwischen den verschiedenen Elementen, die dann nicht mehr so klar auseinanderzuhalten waren, nicht mehr so klar modularisiert waren. Da musste ich dann die Architektur nachschärfen. Also da habe ich dann von Hand nachgeschärft, um sicherzustellen, dass das nicht mehr passieren kann und dann hat es auch funktioniert.
+
+**Ralf D. Müller:** [0:56:25] Okay, das heißt also, der korrekte Ansatz wäre, dass Claude erstmal eine Architektur in Form von einer Komponentenverschachtelung entwirft, das über den MCP-Server in diese DSL gießt, damit klar definiert ist, wie die Architektur sein soll. Und dass man dann eben später die Regeln überprüft, dass eben wirklich keine Zyklen drin sind. Beziehungsweise, wenn man eben Legacy-Software hat und schon den Big Ball of Mud, dass man dann eben gleich reingehen kann, die Zyklen analysieren kann und erstmal auflösen kann. Wobei wir hier, den Christopher haben wir noch nicht ganz abgeholt, der immer noch sich fragt, wie ist das mit der Kantenersetzung? Aber wenn ich das richtig verstanden habe, dann ist das ja quasi eine Sprachdefinition, diese Kanten, diese Abhängigkeiten, die da entstehen und nicht unbedingt Features, Qualitäten, ja, Qualitäten, Modularität, ja. Aber ich kriege die Ersetzung, ich glaube, man muss mal erlebt haben, dass man sieht, dass die Ersetzung funktioniert, ohne dass man die Funktionalität bricht.
+
+### Mehrere Agenten, CLAUDE.md und die CI-Pipeline
+
+**Alexander von Zitzewitz:** [0:57:43] Genau, genau. Wir haben jetzt noch ein paar Fragen. Ich wollte eine Sache noch erwähnen bei dem Ganzen. Ich meine, wo es dann wirklich enormen Unterschied macht mit so einem MCP-Server zu arbeiten, ist, wenn ich dann mehrere Agenten habe, also mehrere Entwickler, die alle mit Claude arbeiten, auf demselben System. Da wird dann sowas lebenswichtig. Weil du hast Claude oft, also Claude ist lokal eigentlich ganz gut, aber wenn jetzt zehn Claudes auf demselben System arbeiten, die wir mit dem eigenen Entwickler, dann kann es sein, dass plötzlich Chaos entsteht.
+
+**Ralf D. Müller:** [0:58:15] Das ist so ein bisschen, das erinnert mich jetzt an mein Beispiel vorhin mit dem Linter, wo jeder Lauf ein eigenes Testframework verwendet hat.
+
+**Alexander von Zitzewitz:** [0:58:15] Und da werden natürlich dann diese Regeln dann wichtig, wenn die alle mit denselben Architekturregeln arbeiten. Kann man dieses Problem sehr stark mitigieren damit.
+
+**Ralf D. Müller:** [0:58:34] Das wäre jetzt hier so, wenn mehrere Agenten arbeiten und merken, oh, sie müssen hier vielleicht ein neues Modul einführen, ja, dann macht das eine, setzt das in die Regeln rein und die anderen sehen schon, guck mal, ist da, halten wir uns dran, beziehungsweise. Naming ist das Gleiche und ja, wahrscheinlich auch noch andere Aspekte.
+
+**Alexander von Zitzewitz:** [0:58:56] Genau, also man kann damit einfach einen übergreifenden Rahmen vorgeben, der auch von parallel laufenden Agenten genutzt werden kann, was dann wirklich zu großem Mehrwert führt am Ende. Wir haben hier noch eine Menge Fragen im Chat drin, vielleicht nachdem die Zeit jetzt so ein bisschen zu Ende geht. So, wir nochmal drauf gucken. Also Regeldefinition in CLAUDE.md zum Beispiel ist eine gute Frage. Damit fangen alle an und Claude selber sagt, was in CLAUDE.md steht, ist für ihn eine Suggestion, die er benutzen kann oder nicht. Und die Frage ist, wie ausführlich man, wie genau man es beschreiben kann. Der Vorteil von einer formalen Beschreibungssprache, von einer formalen DSL, dass es halt präzise ist, dass sie genau vermessen werden kann und auch genau Stellen im Code finden, wo Verletzungen stattfinden. Aber CLAUDE.md ist mit Sicherheit ein Anfang. Man könnte zum Beispiel die Architektur DSL referenzieren von CLAUDE.md und Claude kann dann schon ganz gute Ergebnisse damit erreichen. Ich habe sogar gesehen in einem anderen Beispiel, wo wir versucht haben, mal dasselbe Projekt aufsetzen, einmal mit Claude allein und einmal mit Claude und MCP-Server, dass wenn Claude allein war, also in dem Prompt-Start natürlich drin, dass wir Architekturregeln haben wollen, hat er sich selber ein kleines Architektur-Framework gebaut und dann über Grep von Import-Statements und so weiter Architekturregeln. Definiert.
+
+**Ralf D. Müller:** [1:00:12] Ja, so kennen wir Claude hier.
+
+**Alexander von Zitzewitz:** [1:00:13] Es ist also von alleine draufgekommen, was gut war, es war nicht perfekt, die Lösung, aber besser als nichts. Mit dem MCP-Server haben wir festgestellt, dass es dann schneller geworden ist. Von jeder Iteration, von jedem Step wurde dann der Schritt, der den MCP-Server benutzt, hat weniger Tokens gebraucht, ist schneller fertig geworden als der andere.
+
+**Ralf D. Müller:** [1:00:30] Aber auch der MCP-Server ist ja eine Empfehlung, die quasi in der CLAUDE.md drin steht. Du hast hier einen MCP-Server, nutzt den. Ja, ist vielleicht auch in der Function Definition. Aber er muss sie ja nicht benutzen, die MCP-Server. Kann ich das Tooling auch quasi in die Build-Pipeline, den Outer Loop, reinsetzen, sodass... Ja, er muss ja die Build-Pipeline grün bekommen und wenn es eine Architekturverletzung gibt, dann checkt er das automatisch und sagt, nee, ist nicht.
+
+**Alexander von Zitzewitz:** [1:01:06] Genau, also das ist genau das, was immer noch als Sicherheit mit drin ist. Die Regeln sollten auch in der CI-Pipeline drin sein. Das heißt, beim Jenkins oder was immer ich da benutze, müssen natürlich auch geprüft haben, wie die Architektur da ist. Da kommt dann die Zusammenarbeit zwischen Sonargraph und Zügel ins Spiel. Und Sonargraph hat natürlich dann den Sonargraph Build, der dieselbe Sprache versteht und der sozusagen dann im Build checken kann, ob das alles korrekt ist oder nicht.
+
+### Dynamische Sprachen, Reflection und Greenfield versus Legacy
+
+**Ralf D. Müller:** [1:01:31] Wir haben hier noch eine Frage, was mit dynamischen Systemen ist. Aber du hast ja jetzt schon gesagt, C-Sharp, Java und war nicht auch Python dabei?
+
+**Alexander von Zitzewitz:** [1:01:40] Python ist auch dabei.
+
+**Ralf D. Müller:** [1:01:41] Und Python ist ja eigentlich hochgradig dynamisch.
+
+**Alexander von Zitzewitz:** [1:01:45] Genau, also in Python hat man natürlich ein nicht 100% vollständiges Abhängigkeitsmodul. Das darf man nicht vergessen. Ich kann Abhängigkeiten sehen, manchmal kann ich Abhängigkeiten, weil die dynamisch sind und jetzt zur Laufzeit überhaupt berechenbar sind, sehe ich die nicht. Und ich kann natürlich jetzt erstmal nur mit dem arbeiten, was der MCP-Server sehen kann, nämlich die echten Abhängigkeiten. Also dynamische Abhängigkeiten werden so nicht gesehen. Und dasselbe gilt auch, was der Herr Nguyen hier gefragt hat. Dynamische Systeme, in denen man zum Beispiel in Java Reflection verwendet wird, das wird nicht berücksichtigt. Also wenn jemand irgendwelche Shenanigans über Reflection macht, das sehen wir in dem MCP-Server nicht.
+
+**Ralf D. Müller:** [1:02:24] Aber ich glaube, das ist dann auch eine erste Architekturentscheidung, was für eine Sprache ich nehme. Ob ich jetzt, ja, ich meine, wenn ich zum Beispiel eine typisierte Compiler-Sprache nehme, dann weiß ich, wenn das Ganze kompiliert, dann ist es Syntax-Error-frei und die Typen sind korrekt. Wenn ich eine interpretierte Sprache nehme, dann kann ich nicht den Compiler anschmeißen, sondern dann muss ich halt... Testen, ob der Code interpretiert werden kann, indem ich jedes Fall mal irgendwie lade. Ist eine erste Architekturentscheidung und ich gehe jetzt davon aus, dass dein Framework eben auf statischen Systemen, also Java ohne Dynamik,
+
+**Alexander von Zitzewitz:** [1:03:07] Auf dem, was man zur Compile-Zeit finden kann, basiert das Ganze. Also dynamische Abhängigkeiten werden nicht. Aber es ist auch wieder relativ einfach. Ich kann zum Beispiel Reflection in ein Artefakt reinstecken und dann beschränken, wer das benutzen kann. Wäre zum Beispiel der erste Schritt, dass nicht jeder mit Reflection irgendwelche Shenanigans macht. Das wäre schon mal gut. Es gibt noch eine Frage, die jetzt auch wichtig ist, und zwar Wolfgang Frech hat gefragt, wir bauen jetzt alle Greenfield und schauen dann. Und hat er auch erwähnt, ich habe in den letzten 30 Jahren nie im engeren Sinne Greenfield-Projekte gehabt, wenn AI nützlich sein soll, dann für Weiterentwicklung, Modernisierung. Das war eigentlich die ganze erste Hälfte von dem Talk, wo wir darüber gesprochen haben, wie können wir existierende Systeme modernisieren und verbessern, auch mit der Hilfe von KI. Und da ist ja KI genau die große Stärke, dass ich damit in die Nähe von dem magischen Fix-It-Button bekomme. So eine Kopplung aus einem MCP-Server mit Dependency-Modell und KI ist enorm stark, um solche Strukturen zu modernisieren, zu verbessern und in die richtige Richtung zu bringen. Sorry.
+
+**Ralf D. Müller:** [1:04:14] Ja, ich glaube, das ist tatsächlich auch die große Herausforderung. Wir sehen momentan sehr viele KI-Demos, wo Leute auch Software nachbauen oder so. Aber alles Greenfield, wo die KI ihre Entscheidungen treffen kann. Und wenn wir auf Legacy treffen. Ja, dann fängt es erstmal an. Haben wir Testabdeckung? Haben wir Dokumentation? Haben wir eine Architektur? Und dann ist natürlich ein Tool, mit dem ich die Architektur erstmal mir angucken kann, Gold wert.
+
+**Alexander von Zitzewitz:** [1:04:50] Absolut, ja. Das ist ein Game Changer, würde ich sagen.
+
+### Ist ein LLM das richtige Werkzeug? Dank und Ausblick
+
+**Ralf D. Müller:** [1:04:56] Ja, sehr cool. Wir sind schon über die Zeit, aber ich fand es jetzt echt extrem wertvoll, was du jetzt hier so uns näher gebracht hast. Den Ansatz, wie ich mit der KI die innere Architektur irgendwo sauber hinbekommen kann und den Big Ball of Mud aufräumen kann. Aber auch beim nächsten Mal, wenn ich Greenfield mache, irgendwie die Architektur besser vorgeben kann. Fand ich super spannend. Herzlichen Dank für diesen Einblick.
+
+**Alexander von Zitzewitz:** [1:05:31] Gerne, gern geschehen. Hat auch mir Spaß gemacht. Hier ist nochmal der Wolfgang Frech. Ist denn ein LLM das richtige Werkzeug, um Code zu arbeiten und zum Beispiel Abhängigkeiten umzudrehen? Absolut. Das macht definitiv Claude schneller, als ich das machen könnte. Habe ich auch schon ausprobiert. Also zum Beispiel dieses Feature mit der Graph-Partitionierung, was wir in so einer Graph gesehen haben. Das war das erste größere Feature, wo ich Claude allein in so einer Graph habe arbeiten lassen und das Feature war in zwei Stunden fertig. Also da war ich schon sehr beeindruckt.
+
+**Ralf D. Müller:** [1:06:04] Aber das Spannende an dieser Frage ist, also nur der erste Teil hätte ich gesagt, naja, genauso ist die Frage, ob ein Mensch das richtige Werkzeug ist, um im Code mit Abhängigkeiten zu arbeiten. Aber dann dieser zweite Teil mit der guten IDE. Und ich glaube, da kommt ja eben auch dein MCP-Gedanke rein, dass ich damit, ja, die KI könnte jetzt zyklische Abhängigkeiten finden, aber mit dem richtigen deterministischen Tool über MCP angebunden geht das besser.
+
+**Alexander von Zitzewitz:** [1:06:42] Genau.
+
+**Ralf D. Müller:** [1:06:42] Und wenn ich jetzt eben diese Refactoring-Module aus der IDE, keine Ahnung, Methode rausziehen oder sowas, auch noch als MCP hätte, ich glaube, da hat Wolfgang schon...
+
+**Alexander von Zitzewitz:** [1:06:56] Oh, jetzt ist er plötzlich weg. Haha, das ist jetzt schade.
+
+**Ralf D. Müller:** [1:07:12] Cool. Da war ich.
+
+**Alexander von Zitzewitz:** [1:07:13] Jetzt warst du mal kurz weg, dachte, okay, perfektes Timing.
+
+**Ralf D. Müller:** [1:07:18] StreamYard hat gesagt, ups, irgendwas ist schiefgelaufen. Ja, ich habe es gemerkt. Ich war weg. Ja, also ich glaube, das Thema bleibt spannend und ich glaube, da können wir noch lange drüber reden.
+
+**Alexander von Zitzewitz:** [1:07:29] Ja, definitiv.
+
+### Verabschiedung
+
+**Ralf D. Müller:** [1:07:32] Aber jetzt sollten wir mal dann unsere Zuschauer auch ins Wochenende verabschieden. Alexander, herzlichen Dank für deine Einblicke. Für allen, denen es Spaß gemacht hat. Das nächste Mal, nächsten Freitag, haben wir eine größere Gesprächsrunde über Self-Contained Systems. Das wird, glaube ich, auch nochmal spannend, weil auch da nochmal das Zusammenspiel von KI und wie schneide ich Module und Kann ich hier Self-Contained Systems auch abbilden, die Abhängigkeiten? Ist wahrscheinlich über die verschiedenen Ebenen etwas schwieriger, ne? Es sei denn, ich verwende sowas wie Vaadin.
+
+**Alexander von Zitzewitz:** [1:08:07] Genau, also das Tool, also der MCP-Server schaut nur innerhalb eines Systems rein, also innerhalb einer Codebasis. Auf Projekte beschränkt und kann also jetzt nicht zum Beispiel, also er kann zwar zwischen Projekten hin und her springen, das kann er schon, also einfach Switch Project machen. Aber kann jetzt keine Abhängigkeiten zwischen Projekten, die jetzt über andere Kanäle, zum Beispiel Messaging oder sowas kommen, das wird im Moment nicht analysiert. Das wäre vielleicht die nächste Stufe, dann mal eine Ebene weiter hoch zu gehen.
+
+**Ralf D. Müller:** [1:08:37] Aber wenn ich jetzt zum Beispiel das Frontend über Vaadin abfrühstücke, was ja eben in Java das Frontend definiert, dann müsste ja das Tooling wieder greifen können.
+
+**Alexander von Zitzewitz:** [1:08:50] Genau. Genau so ist es, ja.
+
+**Ralf D. Müller:** [1:08:54] Okay, dann herzlichen Dank. Und man sieht sich.
+
+**Alexander von Zitzewitz:** [1:08:58] Auch vielen Dank für die Einladung. Es hat viel Spaß gemacht. Ich glaube, das ist ein Thema, wo man sehen kann, dass mir das sehr am Herzen liegt. Und ich glaube, dass sich das fundamentale Problem, wie bauen wir sauber strukturierte Software, das fundamentale Problem hat sich seit 30 Jahren nicht geändert. Es ist immer noch dasselbe.
+
+**Ralf D. Müller:** [1:09:16] Ja, definitiv.
+
+**Alexander von Zitzewitz:** [1:09:16] Auch mit KI.
+
+**Ralf D. Müller:** [1:09:17] Das wird auch bleiben.
+
+**Alexander von Zitzewitz:** [1:09:19] Und jetzt wird es, ich würde sagen, mit KI wird es sogar noch wichtiger jetzt.
+
+**Ralf D. Müller:** [1:09:19] Schönes Schlusswort.
+
+**Alexander von Zitzewitz:** [1:09:23] Je besser die Struktur, desto besser die Ergebnisse.
+
+**Ralf D. Müller:** [1:09:25] Ja. Gut, dann.
+
+**Alexander von Zitzewitz:** [1:09:27] Okay, also dann. Tschüss, schönes Wochenende und auf bald.
+
+**Ralf D. Müller:** [1:09:29] Ciao.
