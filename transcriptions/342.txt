@@ -23,16 +23,24 @@ Moderne LLMs generieren oder überarbeiten ganze Applikationen in
 Rekordzeit. Spielt eine saubere Struktur da noch eine Rolle? [Alexander von
 Zitzewitz](https://www.linkedin.com/in/azitzewitz/), Gründer von [hello2morrow](https://www.hello2morrow.com/) und seit Jahrzehnten
 mit der inneren Struktur von Software beschäftigt, antwortet mit einem
-klaren Ja: KI verstärkt, was sie im Code vorfindet. Mit Ralf D. Müller
+klaren Ja: KI verstärkt, was sie im Code vorfindet.
+
+Mit Ralf D. Müller
 spricht er über die zwei Säulen einer guten Struktur, zyklenfreie
 Abhängigkeiten und ein Architekturmodell, und darüber, warum ein Big Ball
-of Mud auch für die KI zum Problem wird. In einer Live-Demo an Gradle
+of Mud auch für die KI zum Problem wird.
+
+In einer Live-Demo an Gradle
 zeigt er in Sonargraph, wie man in einem Zyklus aus 92 Dateien die zwei
 Kanten findet, die man schneiden muss, und wie Claude das Refactoring
-danach übernimmt. Es geht um Grep gegen ein echtes Dependency-Modell, um
+danach übernimmt.
+
+Es geht um Grep gegen ein echtes Dependency-Modell, um
 die Grenzen von ArchUnit und Java-Modulen, um eine Architektur-DSL, die
 Claude lesen kann, und um den MCP-Server Zügel, der die Regeln vor der
-ersten Zeile Code prüft. Zum Schluss beantworten die beiden Fragen aus
+ersten Zeile Code prüft.
+
+Zum Schluss beantworten die beiden Fragen aus
 dem Chat zu dynamischen Sprachen, Reflection und der Frage, ob das alles
 nur im Greenfield funktioniert.
 
@@ -64,7 +72,7 @@ wo ein Feature hingehört, und das dauert in einer solchen Codebasis
 
 Eine gute Struktur steht für Alexander auf zwei Säulen: einer möglichst
 zyklenfreien Abhängigkeitsstruktur und einem Architekturmodell. Kleine
-Zyklen, etwa im Visitor-Pattern, stören ihn nicht. Das Problem beginnt,
+Zyklen, etwa im [Visitor-Pattern](https://de.wikipedia.org/wiki/Besucher_(Entwurfsmuster)), stören ihn nicht. Das Problem beginnt,
 wenn Zyklen auf 20, 100 oder 1.000 Elemente wachsen: „Dann ziehst du an
 dieser Klasse und plötzlich hängen 999 andere Klassen dran." Dann ist
 die Modularisierung dahin und die Abstraktionen verwässern. Solche
@@ -226,13 +234,13 @@ besser die Ergebnisse."
 
 ### Erwähnte Technologien und Werke
 
-- **Sonargraph**: Produktfamilie von hello2morrow für statische Analyse mit Schwerpunkt auf Architektur und Metriken, in der Folge an Gradle gezeigt
-- **Zügel**: MCP-Server von hello2morrow für Python, Java und C#, der Dependency-Modell und Architektur-DSL für KI-Agenten bereitstellt
+- **[Sonargraph](https://www.hello2morrow.com/products/sonargraph)**: Produktfamilie von hello2morrow für statische Analyse mit Schwerpunkt auf Architektur und Metriken, in der Folge an Gradle gezeigt
+- **[Zügel](https://www.hello2morrow.com/products/zugel)**: MCP-Server von hello2morrow für Python, Java und C#, der Dependency-Modell und Architektur-DSL für KI-Agenten bereitstellt
 - **Dependometer**: Frühes Architektur-Tool, das Alexander um 2000 für BMW gebaut hat
-- **Claude und Claude Code**: Anthropics LLM und Coding-Agent, mit denen die Experimente der Folge liefen
-- **ArchUnit**: Java-Bibliothek, die Architekturregeln als Tests prüft
-- **Spring Framework, Gradle, Hibernate, Apache Cassandra, jPOS**: Open-Source-Projekte, deren Struktur Alexander analysiert hat
-- **Language Server Protocol (LSP)**: Protokoll für Editor-Funktionen, dem die Abhängigkeitsauflösung fehlt
+- **[Claude](https://claude.ai) und [Claude Code](https://claude.com/claude-code)**: Anthropics LLM und Coding-Agent, mit denen die Experimente der Folge liefen
+- **[ArchUnit](https://www.archunit.org/)**: Java-Bibliothek, die Architekturregeln als Tests prüft
+- **[Spring Framework](https://spring.io/projects/spring-framework), [Gradle](https://gradle.org/), [Hibernate](https://hibernate.org/), [Apache Cassandra](https://cassandra.apache.org/), [jPOS](https://jpos.org/)**: Open-Source-Projekte, deren Struktur Alexander analysiert hat
+- **[Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/)**: Protokoll für Editor-Funktionen, dem die Abhängigkeitsauflösung fehlt
 - **Stanford-Studie zur KI-Produktivität**: Beobachtung von 120.000 Entwicklern mit im Schnitt zehn Prozent Produktivitätsgewinn
 
 ## Transkript
@@ -248,7 +256,7 @@ Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, 
 
 **Ralf D. Müller:** [0:00:37] Hallo und herzlich willkommen zu einer weiteren Ausgabe von Software Architektur im Stream. Heute etwas später dran, weil wir haben einen Gast, der nicht in unserer Zeitzone ist und wir werden uns trotzdem auf Deutsch unterhalten. Heute mit Alexander von Zitzewitz und wir werden uns über Architektur und, ja, KI unterhalten. Wie KI mit Architektur? Braucht KI noch Architektur oder kann das weg oder ist es umso wichtiger jetzt? Alexander, möchtest du dich kurz vorstellen?
 
-**Alexander von Zitzewitz:** [0:01:11] Ja, okay. Ja, meinen Namen hast du ja schon vorgestellt. Ich lebe hier jetzt gerade an der Ostküste der Vereinigten Staaten in Massachusetts, aber bin die meiste Zeit meines Lebens in Deutschland verbracht und da unter anderem auch verschiedene Unternehmen gegründet. Das letzte Unternehmen, was ich gegründet habe, war die hello2morrow GmbH in 2005. Die gibt es immer noch. Da bin ich immer noch tätig in dem Bereich und hello2morrow ist vor allem bekannt für unsere Sonargraph-Produktfamilie, statische Analyse mit Schwerpunkt auf Architektur und Metriken. Und das war schon immer so mein Thema so ein bisschen. Ich habe Informatik studiert an der TU in München. Ich bin vor langer, langer Zeit fertig geworden. Das war 1990. Ich kann es kaum glauben, wie lange schon her ist alles. Aber es hat sich eine Menge getan seitdem, aber manche Themen tauchen auch immer wieder auf und bleiben konstant. Und ein Thema, das mich immer beschäftigt hat, war die Struktur von Software. Weil in meiner ersten Firma, das war eine Software-Dienstleistungsfirma, haben wir festgestellt, dass wenn wir zu schnell losgelegt haben, uns zu wenig Gedanken über Architektur gemacht haben, dass die Projekte dann schnell in eine ungute Richtung gegangen sind und alles länger gedauert hat und schwieriger geworden ist, als ursprünglich erhofft oder geplant. Das hat am Ende dann echtes Geld gekostet, vor allem bei Festpreisprojekten. Das heißt, das Architekturthema ist eigentlich relativ früh auf dem Radar aufgetaucht. Und wir haben uns dann damals schon Gedanken gemacht, wie können wir denn sicherstellen, dass wir gewisse Architectural Boundaries im Code forcieren können. Wir haben kleine Tools geschrieben zu der Zeit, die ein bisschen dabei helfen und zumindest minimal Absicherung machen. Und es hat uns damals sehr geholfen. Und dann gab es Ende 90er Jahre, Anfang 2000, gab es ein Projekt mit BMW, die damals voll auf Java umgestiegen sind und relativ schnell in der Lage waren, Big Balls of Mud in Java zu programmieren. Die alle möglichen Probleme hatten. Und die haben uns dann gebeten, für die auch so ein Architektur-Tool zu bauen. Da haben wir damals das Dependometer gebaut. Das war ein relativ einfaches Java-Programm, was eine Architektur- und Metrik-Schwellwert-Spezifikation in XML übernommen hat und dann aus dem XML-File geschrieben hat, welche Klassen wohin gehören und wie die Beziehungen zwischen verschiedenen Containern waren und hat es dann im Continuous Integration Build sozusagen automatisch gecheckt, ob die Architektur eingehalten worden ist oder nicht. Und das war letzten Endes eine Erfolgsstory, also für BMW zumindest damals. Das ist sehr gut angekommen. Und irgendwann 2005, die erste Firma hatte ich dann verkauft, dann kam 2005 irgendwie um die Ecke und dann kam die Idee, hey, warum machen wir da nicht eine Firma draus, die sich genau um dieses Thema kümmert, um Architektur und Struktur. Und ich stehe nach wie vor dazu, dass eigentlich Architektur und Struktur, das wichtigste Asset für die Langlebigkeit und Wartbarkeit von der Software ist. Weil Entwickler verbringen die meiste Zeit mit Code lesen und relativ wenig Zeit mit Code schreiben. Und je besser der Code strukturiert ist, desto einfacher ist er zu verstehen, desto einfacher ist er zu verändern und zu erweitern und zu warten. Und das bleibt bis heute wahr.
+**Alexander von Zitzewitz:** [0:01:11] Ja, okay. Ja, meinen Namen hast du ja schon vorgestellt. Ich lebe hier jetzt gerade an der Ostküste der Vereinigten Staaten in Massachusetts, aber habe die meiste Zeit meines Lebens in Deutschland verbracht und da unter anderem auch verschiedene Unternehmen gegründet. Das letzte Unternehmen, was ich gegründet habe, war die hello2morrow GmbH in 2005. Die gibt es immer noch. Da bin ich immer noch tätig in dem Bereich und hello2morrow ist vor allem bekannt für unsere Sonargraph-Produktfamilie, statische Analyse mit Schwerpunkt auf Architektur und Metriken. Und das war schon immer so mein Thema so ein bisschen. Ich habe Informatik studiert an der TU in München. Ich bin vor langer, langer Zeit fertig geworden. Das war 1990. Ich kann es kaum glauben, wie lange schon her ist alles. Aber es hat sich eine Menge getan seitdem, aber manche Themen tauchen auch immer wieder auf und bleiben konstant. Und ein Thema, das mich immer beschäftigt hat, war die Struktur von Software. Weil in meiner ersten Firma, das war eine Software-Dienstleistungsfirma, haben wir festgestellt, dass wenn wir zu schnell losgelegt haben, uns zu wenig Gedanken über Architektur gemacht haben, dass die Projekte dann schnell in eine ungute Richtung gegangen sind und alles länger gedauert hat und schwieriger geworden ist, als ursprünglich erhofft oder geplant. Das hat am Ende dann echtes Geld gekostet, vor allem bei Festpreisprojekten. Das heißt, das Architekturthema ist eigentlich relativ früh auf dem Radar aufgetaucht. Und wir haben uns dann damals schon Gedanken gemacht, wie können wir denn sicherstellen, dass wir gewisse Architectural Boundaries im Code forcieren können. Wir haben kleine Tools geschrieben zu der Zeit, die ein bisschen dabei helfen und zumindest minimal Absicherung machen. Und es hat uns damals sehr geholfen. Und dann gab es Ende 90er Jahre, Anfang 2000, gab es ein Projekt mit BMW, die damals voll auf Java umgestiegen sind und relativ schnell in der Lage waren, Big Balls of Mud in Java zu programmieren. Die alle möglichen Probleme hatten. Und die haben uns dann gebeten, für die auch so ein Architektur-Tool zu bauen. Da haben wir damals das Dependometer gebaut. Das war ein relativ einfaches Java-Programm, was eine Architektur- und Metrik-Schwellwert-Spezifikation in XML übernommen hat und dann aus dem XML-File geschrieben hat, welche Klassen wohin gehören und wie die Beziehungen zwischen verschiedenen Containern waren und hat es dann im Continuous Integration Build sozusagen automatisch gecheckt, ob die Architektur eingehalten worden ist oder nicht. Und das war letzten Endes eine Erfolgsstory, also für BMW zumindest damals. Das ist sehr gut angekommen. Und irgendwann 2005, die erste Firma hatte ich dann verkauft, dann kam 2005 irgendwie um die Ecke und dann kam die Idee, hey, warum machen wir da nicht eine Firma draus, die sich genau um dieses Thema kümmert, um Architektur und Struktur. Und ich stehe nach wie vor dazu, dass eigentlich Architektur und Struktur, das wichtigste Asset für die Langlebigkeit und Wartbarkeit von der Software ist. Weil Entwickler verbringen die meiste Zeit mit Code lesen und relativ wenig Zeit mit Code schreiben. Und je besser der Code strukturiert ist, desto einfacher ist er zu verstehen, desto einfacher ist er zu verändern und zu erweitern und zu warten. Und das bleibt bis heute wahr.
 
 ### Architektur heißt hier: die innere Struktur
 
