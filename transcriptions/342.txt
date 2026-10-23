@@ -20,10 +20,8 @@ YouTube: https://www.youtube.com/watch?v=fxOSHPLuL_I
 ## Über die Folge
 
 Moderne LLMs generieren oder überarbeiten ganze Applikationen in
-Rekordzeit. Spielt eine saubere Struktur da noch eine Rolle? <a
-href="https://www.linkedin.com/in/azitzewitz/">Alexander von
-Zitzewitz</a>, Gründer von <a
-href="https://www.hello2morrow.com/">hello2morrow</a> und seit Jahrzehnten
+Rekordzeit. Spielt eine saubere Struktur da noch eine Rolle? [Alexander von
+Zitzewitz](https://www.linkedin.com/in/azitzewitz/), Gründer von [hello2morrow](https://www.hello2morrow.com/) und seit Jahrzehnten
 mit der inneren Struktur von Software beschäftigt, antwortet mit einem
 klaren Ja: KI verstärkt, was sie im Code vorfindet. Mit Ralf D. Müller
 spricht er über die zwei Säulen einer guten Struktur, zyklenfreie
@@ -110,8 +108,8 @@ auf der linken Seite nach unten und auf der rechten Seite nach oben
 laufen. Ein Graph-Algorithmus sortiert die Knoten so, dass möglichst
 wenige Bögen auf der rechten Seite liegen. Hinter einem Bogen können
 167 Abhängigkeiten stecken, die Dicke folgt einer logarithmischen Skala.
-Im Beispiel reichen zwei Bögen, um den Zyklus bis auf drei Klassen
-aufzulösen. Per Virtual Refactoring wird das Entfernen zur Aufgabe, die
+Im Beispiel reichen zwei Bögen, dann bleibt im nach Packages
+partitionierten Graphen nur ein Zyklus aus drei Knoten übrig. Per Virtual Refactoring wird das Entfernen zur Aufgabe, die
 Alexander an Claude gibt: „Und 20 Minuten später hat Claude die Kanten
 weggehauen und dann kann man zum nächsten Schritt übergehen." Das Ziel
 sind inkrementelle Verbesserungen, nicht ein einziges großes Change-Set.
