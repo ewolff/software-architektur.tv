@@ -11,15 +11,25 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## 2026-10-23 16:00 CEST Ralf mit Alexander von Zitzewitz: Wie relevant ist eine saubere Software-Architektur im Zeitalter der KI?
+## 2026-10-30 13:00 CET Die SCS-Runde
 
-Moderne LLM's generieren oder überarbeiten ganze Applikationen in Rekordzeit. Die Frage ist, wie sich Architektur und Struktur auf die Qualität und die Wartbarkeit der Ergebnisse auswirkt. Spielt eine saubere Struktur noch eine Rolle? Was passiert, wenn die KI ein Problem nicht beheben kann?
+Wie lassen sich komplexe Web-Anwendungen so schneiden, dass Teams ihre
+Teile weitgehend unabhängig entwickeln und betreiben können – und
+trotzdem ein zusammenhängendes System entsteht? Self-contained Systems
+(SCS) lösen genau dieses Problem.
 
-<a href="https://www.linkedin.com/in/azitzewitz/">Alexander von Zitzewitz</a>
+Doch wie gut funktioniert das in der Praxis? Wo liegen die Stärken und
+Herausforderungen dieses Architekturansatzes?
+
+Silvia Schreier, Johannes Seitz, Simon Martinelli und Eberhard Wolff
+diskutieren ihre Erfahrungen, hinterfragen zentrale Prinzipien und
+beleuchten, wann Self-contained Systems eine gute
+Architekturentscheidung sind.
+
 
 {% include youtube.html 
- youtube-video-id="fxOSHPLuL_I" 
-    image-url="/thumbnails/folge342.png" %} 
+ youtube-video-id="Qqi_grtTfyM" 
+    image-url="/thumbnails/folge343.png" %} 
 
  <section id="content-links">
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
