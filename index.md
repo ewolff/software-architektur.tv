@@ -23,11 +23,11 @@ Moderne LLM's generieren oder überarbeiten ganze Applikationen in Rekordzeit. D
 
  <section id="content-links">
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7518626878572912640">LinkedIn</a>
+ 	<a href="https://www.linkedin.com/events/7520378082223001600">LinkedIn</a>
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
  </section> 
 
-[Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  
+<!-- [Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  -->
 
 ## Der Stream bei Konferenzen und Trainings
 
