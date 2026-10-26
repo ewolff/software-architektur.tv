@@ -39,6 +39,47 @@ Architekturentscheidung sind.
 
 <!-- [Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  -->
 
+## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
+
+Software architecture doesn’t live in diagrams – it’s forged in the
+gaps between teams, technologies, timelines, and trade-offs. Today,
+that landscape is shifting fast. LLMs and agentic workflows promise to
+erase friction – but often amplify it through toolchain sprawl,
+quality drift, and shifting accountability.
+
+Yet friction is a signal. The most resilient teams channel it through
+shared understanding, recognizing that we’re shaping socio-technical
+systems – aligned through collaborative modelling woven into everyday
+decisions across architects, developers, QA, analysts, etc.
+
+This fishbowl session confronts the reality behind the hype: how
+AI-generated code collides with architectural rigor, QA concerns, and
+production constraints. We’ll examine classic tensions (Conway’s Law,
+legacy vs. innovation, business urgency vs. technical debt) alongside
+new ones (toolchain sprawl, quality drift, over-reliance on generative
+AI).
+
+As a conference attendee, you’re invited to step into the circle and
+challenge assumptions. Whether you’re an architect, engineer, QA lead,
+or system analyst, you’ll walk away with a refreshed perspective of
+timeless insights – and the courage to question them when it matters
+most.
+
+This is a live stream from iSAQB Software Architecture Gathering.
+
+{% include youtube.html 
+ youtube-video-id="VzrNTrjp_jc" 
+    image-url="/thumbnails/episode343.png" %} 
+
+ <section id="content-links">
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7520417493513904128">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
+ </section> 
+
+<!-- [Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  -->
+
+
 ## Der Stream bei Konferenzen und Trainings
 
 Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rabatt-Codes:
