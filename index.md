@@ -37,7 +37,7 @@ Architekturentscheidung sind.
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
  </section> 
 
-<!-- [Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  -->
+[Termin bei treff.tech](https://treff.tech/events/d3ed00fe-4271-46c7-acb2-10d2c8484de7)
 
 ## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
@@ -77,7 +77,7 @@ This is a live stream from iSAQB Software Architecture Gathering.
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
  </section> 
 
-<!-- [Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  -->
+[Event at treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4)
 
 
 ## Der Stream bei Konferenzen und Trainings
