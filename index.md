@@ -69,7 +69,7 @@ This is a live stream from iSAQB Software Architecture Gathering.
 
 {% include youtube.html 
  youtube-video-id="VzrNTrjp_jc" 
-    image-url="/thumbnails/episode343.png" %} 
+    image-url="/thumbnails/episode344.png" %} 
 
  <section id="content-links">
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
