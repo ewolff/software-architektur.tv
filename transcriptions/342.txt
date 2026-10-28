@@ -4,6 +4,8 @@ Software Architektur im Stream, Folge 342, 2026-10-23.
 Alexander von Zitzewitz und Ralf D. Müller über Zyklen, Architekturmodelle und warum KI verstärkt, was sie im Code vorfindet
 Seite: https://software-architektur.tv/2026/10/23/wie-relevant-ist-eine-saubere-software-architektur-im-zeitalter-der-ki.html
 YouTube: https://www.youtube.com/watch?v=fxOSHPLuL_I
+PeerTube: https://tube.tchncs.de/w/oxTKbHSKpG8kDmrRpoSEzY
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/Wie_relevant_ist_eine_saubere_Software_Architektur_im_Zeitalter_der_KI.mp3
 
 > **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
 > Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
