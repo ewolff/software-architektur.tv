@@ -40,7 +40,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Rakia Ben Sassi"
-   image-url="https://tube.tchncs.de/lazy-static/thumbnails/ea290278-d47d-4bd7-b8ce-549ff831de1a.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/422709a3-eb11-4167-8d5f-b9fd82d57dd8.jpg"
    url1="https://www.youtube.com/watch?v=pp5BTVb8HE8"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/7JCom1thS1VQBMMTDh4v2W"
@@ -120,7 +120,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Michael Simons"
-   image-url="https://tube.tchncs.de/lazy-static/thumbnails/13891010-62fe-484e-9ba3-7f86cdeeea93.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/c97b9d94-211f-467d-a606-c443e46988d3.jpg"
    url1="https://www.youtube.com/watch?v=4ajruAbl9XA"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/vSNNCHQxeNUyg2aNVxfmn9"
@@ -190,7 +190,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Anja Kammer"
-   image-url="https://tube.tchncs.de/lazy-static/thumbnails/3c8cfe20-423c-4802-a02c-f8f0b20f7172.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/5d803506-65d3-455f-a9d3-0aa3b57dbdd3.jpg"
    url1="https://www.youtube.com/watch?v=cPaZ0SkjFnM"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/rSTJarekRpuo1Vkm2HMyt2"
@@ -200,7 +200,7 @@ Die Episoden gibt es als Videos oder das Audio als Podcast.
    %}
 {%- include link-card-3urls.html
    title="Aminata Sidibe"
-   image-url="https://tube.tchncs.de/lazy-static/thumbnails/15488170-e358-4183-ae4a-00e99c5b4a5c.jpg"
+   image-url="https://tube.tchncs.de/lazy-static/thumbnails/14eb99ba-4f5e-49d4-a9b0-8018f16cb5c4.jpg"
    url1="https://www.youtube.com/watch?v=C79Esm-Iqt8"
    title1="YouTube"
    url2="https://tube.tchncs.de/w/remaPCm3tj8cZh41JX9xhD"
