@@ -11,34 +11,6 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
-## 2026-10-30 13:00 CET Die SCS-Runde
-
-Wie lassen sich komplexe Web-Anwendungen so schneiden, dass Teams ihre
-Teile weitgehend unabhängig entwickeln und betreiben können – und
-trotzdem ein zusammenhängendes System entsteht? Self-contained Systems
-(SCS) lösen genau dieses Problem.
-
-Doch wie gut funktioniert das in der Praxis? Wo liegen die Stärken und
-Herausforderungen dieses Architekturansatzes?
-
-Silvia Schreier, Johannes Seitz, Simon Martinelli und Eberhard Wolff
-diskutieren ihre Erfahrungen, hinterfragen zentrale Prinzipien und
-beleuchten, wann Self-contained Systems eine gute
-Architekturentscheidung sind.
-
-
-{% include youtube.html 
- youtube-video-id="Qqi_grtTfyM" 
-    image-url="/thumbnails/folge343.png" %} 
-
- <section id="content-links">
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7520378082223001600">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
- </section> 
-
-[Termin bei treff.tech](https://treff.tech/events/d3ed00fe-4271-46c7-acb2-10d2c8484de7)
-
 ## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
 Software architecture doesn’t live in diagrams – it’s forged in the
