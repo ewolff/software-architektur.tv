@@ -31,3 +31,9 @@ defaults:
       type: "pages"
     values:
       layout: folge_details
+
+  - scope:
+      path: "highlights"
+      type: "pages"
+    values:
+      layout: folge_details

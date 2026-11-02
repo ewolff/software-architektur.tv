@@ -94,6 +94,30 @@ details[open] summary h3::before {
 .embed-container.ratio4x3 {
     padding-bottom: 75%;
 }
+.embed-container.ratio4x5 {
+    padding-bottom: 125%;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.short {
+    margin: 0;
+}
+.short img {
+    object-fit: cover;
+}
+.short .play-icon {
+    font-size: 3rem;
+}
+@media screen and (max-width: 42em) {
+    .highlights {
+        grid-template-columns: 1fr;
+    }
+}
 
 .play-icon {
   position: absolute;
