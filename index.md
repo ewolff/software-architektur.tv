@@ -11,6 +11,17 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
+## 2026-11-13 13:00 CET Warum Schichten? Und wie viele?
+
+Schichten sind ein Erfolgsmodell in der Software-Architektur - oder
+zumindest werden sie häufig genutzt. Aber in der Realität hat dieser
+Ansatz oft seine eigenen Herausforderungen. In dieser Episode geht es
+um die grundlegenden Ideen hinter dem Schichten-Modell und
+verschiedene Nutzungen: Beispielsweise die Drei-Schichten-Architektur
+oder das Anti Corruption Layer aus Domain-driven Design. Dabei geht es
+insbesondere um die Frage, wann Schichten tatsächlich entkoppeln – und
+wann sie lediglich zusätzlichen Aufwand verursachen.
+
 ## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
 Software architecture doesn’t live in diagrams – it’s forged in the
