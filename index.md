@@ -22,6 +22,19 @@ oder das Anti Corruption Layer aus Domain-driven Design. Dabei geht es
 insbesondere um die Frage, wann Schichten tatsächlich entkoppeln – und
 wann sie lediglich zusätzlichen Aufwand verursachen.
 
+{% include youtube.html 
+ youtube-video-id="yskSjQMVdQA" 
+    image-url="/thumbnails/folge345.png" %} 
+
+ <section id="content-links">
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7526541206303023105">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
+ </section> 
+
+[Event bei treff.tech](https://treff.tech/events/5d078616-5643-4fd5-bcf2-0c7c555200ae)
+
+
 ## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
 Software architecture doesn’t live in diagrams – it’s forged in the
