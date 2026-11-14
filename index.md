@@ -19,23 +19,46 @@ steht danach als Video und Podcast zur Verfügung.
               providers="claude,chatgpt,copy"><a href="/episoden.txt">Alle Folgen als Text für deine KI</a></talk-it-over>
 </p>
 
-## 2026-10-23 16:00 CEST Ralf mit Alexander von Zitzewitz: Wie relevant ist eine saubere Software-Architektur im Zeitalter der KI?
+## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
-Moderne LLM's generieren oder überarbeiten ganze Applikationen in Rekordzeit. Die Frage ist, wie sich Architektur und Struktur auf die Qualität und die Wartbarkeit der Ergebnisse auswirkt. Spielt eine saubere Struktur noch eine Rolle? Was passiert, wenn die KI ein Problem nicht beheben kann?
+Software architecture doesn’t live in diagrams – it’s forged in the
+gaps between teams, technologies, timelines, and trade-offs. Today,
+that landscape is shifting fast. LLMs and agentic workflows promise to
+erase friction – but often amplify it through toolchain sprawl,
+quality drift, and shifting accountability.
 
-<a href="https://www.linkedin.com/in/azitzewitz/">Alexander von Zitzewitz</a>
+Yet friction is a signal. The most resilient teams channel it through
+shared understanding, recognizing that we’re shaping socio-technical
+systems – aligned through collaborative modelling woven into everyday
+decisions across architects, developers, QA, analysts, etc.
+
+This fishbowl session confronts the reality behind the hype: how
+AI-generated code collides with architectural rigor, QA concerns, and
+production constraints. We’ll examine classic tensions (Conway’s Law,
+legacy vs. innovation, business urgency vs. technical debt) alongside
+new ones (toolchain sprawl, quality drift, over-reliance on generative
+AI).
+
+As a conference attendee, you’re invited to step into the circle and
+challenge assumptions. Whether you’re an architect, engineer, QA lead,
+or system analyst, you’ll walk away with a refreshed perspective of
+timeless insights – and the courage to question them when it matters
+most.
+
+This is a live stream from iSAQB Software Architecture Gathering.
 
 {% include youtube.html 
- youtube-video-id="fxOSHPLuL_I" 
-    image-url="/thumbnails/folge342.png" %} 
+ youtube-video-id="VzrNTrjp_jc" 
+    image-url="/thumbnails/episode344.png" %} 
 
  <section id="content-links">
  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7518626878572912640">LinkedIn</a>
+ 	<a href="https://www.linkedin.com/events/7520417493513904128">LinkedIn</a>
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
  </section> 
 
-[Termin bei treff.tech](https://treff.tech/events/11001c60-50f2-4269-9a0f-56473233b568)  
+[Event at treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4)
+
 
 ## Der Stream bei Konferenzen und Trainings
 
@@ -43,7 +66,7 @@ Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rab
 
 * [Training "kollaborative Modellierung" bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
   * Code
-[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4983797) 20% auf den normalen Ticketpreis bis 2026-11-01 
+[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4983797) 20% auf den normalen Ticketpreis bis 2026-11-15 
 * [iSAQB Software Architecture Gathering
   2026](https://www.software-architecture-gathering.com/)
   * 2026-11-16 - 19, Berlin

@@ -1,0 +1,450 @@
+# Die SCS-Runde
+
+Software Architektur im Stream, Folge 343, 2026-10-30.
+Silvia Schreier, Johannes Seitz, Simon Martinelli und Eberhard Wolff über Laufzeitunabhängigkeit, geteilte Datenbanken und die Frage, ob wir in zehn Jahren noch über Self-contained Systems reden
+Seite: https://software-architektur.tv/2026/10/30/die-scs-runde.html
+YouTube: https://www.youtube.com/watch?v=Qqi_grtTfyM
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Wie lassen sich komplexe Web-Anwendungen so schneiden, dass Teams ihre
+Teile weitgehend unabhängig entwickeln und betreiben können – und
+trotzdem ein zusammenhängendes System entsteht? Self-contained Systems
+(SCS) lösen genau dieses Problem.
+
+Doch wie gut funktioniert das in der Praxis? Wo liegen die Stärken und
+Herausforderungen dieses Architekturansatzes?
+
+Silvia Schreier, Johannes Seitz, Simon Martinelli und Eberhard Wolff
+diskutieren ihre Erfahrungen, hinterfragen zentrale Prinzipien und
+beleuchten, wann Self-contained Systems eine gute
+Architekturentscheidung sind.
+
+## Links
+
+- [Self-contained Systems Homepage](https://scs-architecture.org)
+- [Episode: Der Self-contained-Systems-Architekturansatz](https://software-architektur.tv/2022/09/02/der-self-contained-systems-architekturansatz.html)
+- Podcast über SCS
+  - [Teil 1](https://www.innoq.com/de/podcast/030-scs-teil-1/)
+  - [Teil 2](https://www.innoq.com/de/podcast/031-scs-teil-2/)
+- [Sebastian Sprenger, Silvia Schreier: Präsentation "Team-oriented Architecture - Facharchitektur mit mehreren Teams auf die Straße bringen"](https://speakerdeck.com/sebsprenger/team-oriented-architecture-facharchitektur-mit-mehreren-teams-auf-die-strasse-bringen)
+- Frontend-Integration
+  - [Episoden zu Frontend-Integration](https://software-architektur.tv/tags.html#Frontend)
+  - [Till Schulte-Coerne1, Tammo van Lessen: Web Frontend Integration Pattern](https://www.taval.de/publications/2025-09-schulte-coerne-van-lessen-web-frontend-integration-patterns.pdf)
+  - [Frederik Dohr, Till Schulte-Coerne1: Leichtgewichtige Systemintegration mittels Web-Frontends](https://entwickler.de/software-architektur/leichtgewichtige-systemintegration-mittels-web-frontends)
+- [Vlad Khononov: Balancing Coupling in Software Design](https://www.oreilly.com/library/view/balancing-coupling-in/9780137353514/)
+
+## Zusammenfassung
+
+Die Website zu Self-contained Systems (SCS) ist über zehn Jahre alt. Der
+Artikel von Philipp Ghadir und Stefan Tilkov, auf den sie zurückgeht,
+ist sogar 15 Jahre alt. Eberhard Wolff, der den ersten Commit auf der Website
+gemacht hat, fragt in dieser Runde, was von dem Ansatz geblieben ist.
+Silvia Schreier kennt SCS aus ihrer Zeit bei INNOQ und arbeitet seit
+knapp zehn Jahren im Groß- und Einzelhandel. Johannes Seitz zerlegt als
+Berater bei INNOQ gewachsene Systeme, vor allem in der Finanzbranche und
+im E-Commerce. Simon Martinelli modernisiert als selbstständiger Berater
+Software, unter anderem bei einem Schweizer Großhändler.
+
+### Mehr als Microservices mit Oberfläche
+
+Eberhards Ausgangsdefinition lautet: Self-contained Systems sind
+Microservices mit eigener Web-Oberfläche. Johannes sieht es anders,
+geprägt durch Stefan Tilkov, der Monolithen in einem Vortrag „total
+super“ fand und vorschlug, viele davon zu bauen. Ein SCS ist für ihn
+ein „begrenzter Monolith“, der alles von der UI bis zur Datenhaltung
+enthält, aber nicht grenzenlos gewachsen ist. Simon spricht lieber von
+Teilapplikationen; das verstehen auch Leute außerhalb der IT. Für Silvia
+ist die Oberfläche nicht das Wesentliche, sondern die Unabhängigkeit im
+Betrieb: „selbst wenn alle anderen Systeme weg sind, kann das eine
+Self-contained System immer noch seinen Job zu einem großen Teil
+erfüllen.“ In einer vertikalisierten Microservice-Landschaft, die nicht
+nach SCS-Regeln gebaut war, hat sie Dominoeffekte erlebt; bei SCS dagegen
+gelte: „wenn da einer umfällt, fallen die anderen in der Regel nicht
+auch mit um.“ Johannes ergänzt, dass SCS anders als Microservices eine
+klare Integrationspräferenz vorgibt.
+
+### Verfügbarkeit oder fachlicher Schnitt?
+
+Eberhard widerspricht dem Konsens: Verfügbarkeit liefere oft schon
+Kubernetes, ihm sei der fachliche Schnitt wichtiger. Wer fachlich nicht
+vernünftig aufteile, habe Abhängigkeiten, egal wie er technisch baue;
+für ihn sei die Diskussion deshalb von Microservices zu Domain-driven
+Design gewandert. Johannes sieht beides Hand in Hand: Wer unabhängig
+betreibbar ist, kann auch lokal testen, ohne andere Systeme hochzufahren.
+Simon nennt Testcontainers mit generierten Testdaten als Voraussetzung
+dafür. Silvia hält an der Verfügbarkeit fest, weil auch in
+Kubernetes-Clustern Releases schiefgehen. Ein schlechterer fachlicher
+Schnitt lasse sich manchmal in Kauf nehmen, etwa wenn Teams
+unterschiedlich ausgelastet sind.
+
+### Die Nicht-Vernetzung zählt
+
+Ralf D. Müller fand in einem Kommentar die Vernetzung der Systeme spannend.
+Eberhard dreht das um: „das Spannende ist die Nicht-Vernetzung der
+Systeme, nicht die Vernetzung der Systeme.“ Johannes stimmt zu: Die
+erste Empfehlung lautet, Integration zu vermeiden. Muss integriert
+werden, dann so lose wie möglich, im einfachsten Fall per Link, sonst
+durch eingebettete UI-Elemente. Asynchrone Kommunikation ist für
+Eberhard so selbstverständlich, dass er Netflix und Service Meshes mit
+ihrem Fokus auf synchrone Aufrufe nicht versteht. Synchron rufe er nur
+auf, wo es nicht anders geht, etwa bei einem kundenspezifischen
+Preisberechner.
+
+### Kaum geteilte Infrastruktur
+
+Dass die Regel „kaum geteilte“ statt „keine geteilte Infrastruktur“
+heißt, geht nach Eberhards Erinnerung womöglich auf ihn zurück: Ob ein
+Datenbank-Server dasteht oder mehrere, „ist aus meiner Sicht nahezu
+egal.“ Johannes erklärt, woher der Schmerz kommt: In Versicherungen und
+Banken laufe „bestimmt 80 Prozent der Integration zwischen Systemen über
+gemeinsam genutzte Datenbanken“, weil der Connection String schon da
+ist. Simon teilt Datenbankinstanzen, trennt aber über Schemas und
+Berechtigungen und prüft, dass kein Schema unerlaubt auf ein anderes
+zugreift. Daten repliziert sein Team bewusst, denormalisiert und
+gefiltert. Silvia würde ideal alles trennen, scheitert aber oft an den
+Kosten; ein geteiltes Kubernetes-Cluster bedeute zudem Upgrades, die
+sich über Wochen und Monate ziehen. Johannes sieht Self-Service-Plattformen
+als Teil der Antwort: Geteilte Infrastruktur sei „heute nicht mehr das
+gleiche Biest, was sie vor zehn Jahren vielleicht mal war.“
+
+### Information Hiding auch bei Datenbanken
+
+Ist Datenbankintegration eine Erfolgsgeschichte? Johannes verneint:
+Viele hätten verstanden, dass es eine schlechte Idee ist, ihnen fehle
+aber die Erfahrung mit Alternativen. Wer jedes Detail preisgibt, muss
+bei jeder Modelländerung die ganze Firma abklappern. Eberhard verweist
+auf Information Hiding: Warum man nicht direkt auf Instanzvariablen
+zugreift, erklärt er in Trainings am Bankkonto, dessen Stand gespeichert
+oder aus Überweisungen berechnet sein kann. Bei Klassen sei das ein
+Tabu, bei Datenbanken fehle dieser Schluss. Johannes führt das auf die
+datenbankzentrische Tradition der Großrechner zurück, Simon auf
+durchgängige Hibernate-Mappings, die allen Modulen dieselbe Sicht auf die
+Daten aufzwingen. Modularität heißt für Johannes vor allem: Was geht
+über die Schnittstelle zwischen zwei Boxen, und wie viel sehen sie
+voneinander?
+
+### Das Team, an dem jedes Projekt hängt
+
+Silvia hat in fast jedem Unternehmen ein Bottleneck-SCS erlebt, gern den
+Checkout im E-Commerce, an dem jede Initiative hängt. Wo eine neue
+Fähigkeit hingehört, entscheidet sich dann nicht nur fachlich, sondern
+auch danach, wie ausgelastet ein Team ist, in welchem Produktlebenszyklus
+es steckt und welche Skills es hat. Ein Team größer zu machen helfe
+selten. Simon organisiert die Teams nach Hauptdomänen wie Einkauf,
+Verkauf, Logistik und Finanzen; der Engpass sei meist das fachliche
+Know-how, das ein anderes Team auch nicht hätte. Aus dem Chat empfiehlt
+mklinke82 das Buch „Balancing Coupling in Software Design“ von Vlad
+Khononov; Johannes schließt sich an.
+
+### Gemeinsame Navigation
+
+Ralf D. Müller wendet auf LinkedIn ein, Nutzer sollten keine x Systeme
+sehen, sondern eine gemeinsame Navigation. Simon hält das bei seinem
+Kunden für kaum ein Thema: Ein Designsystem und unveränderbare Links
+reichen, und Amazon habe früher für Suche, Checkout und Payment völlig
+unterschiedliche Oberflächen gehabt. Eberhard fragt, warum ein Checkout
+als Wizard aussehen soll wie die Produktsuche. Silvia betont dagegen den
+Nutzerwert guter Integration: Preise und Artikelnummern sollten
+konsistent aussehen, ein Link vom Nachbestellen ins BI-Tool spart Wege,
+und konzernweit habe man eine gemeinsame Navigationsleiste über mehrere
+CMS- und Shop-Systeme gebaut, die der Endkunde nicht bemerkt habe.
+
+### Kein Qualitätssiegel
+
+Eine anonyme Frage lautet, ob ein reines Datenaustauschsystem wie andere
+Module zu behandeln ist. Eberhard verneint: Ohne Geschäftslogik genügt
+etwa ein Transaction Script, und ohne Oberfläche ist es kein SCS. Johannes
+verortet den Sweet Spot von SCS wie den von Domain-driven Design: hohe
+fachliche Komplexität und mehrere Teams. Bei einem Kunden mit
+Telefonanlagen-Software war die Komplexität technisch, dort passten
+Vertikalen nicht. Silvia rät, einzelne Regeln wie asynchrone
+Datenreplikation trotzdem zu übernehmen. Eberhard warnt davor, SCS als
+Qualitätssiegel zu sehen: „es geht nicht darum, dass wir
+Self-contained Systems bauen, sondern wir wollen halt eine Architektur
+bauen“. Johannes sieht Ideen auch für Mobile-Apps.
+
+### Duplikation und Autonomie
+
+baumrinde-k8y berichtet aus einer großen SCS-Umsetzung von gigantischer
+Code-Duplikation und inkompatiblen Technologien bei über 20 Teams.
+Silvia bestätigt das Risiko; InnerSource helfe ein Stück, mit KI seien
+Änderungen an dupliziertem Code heute leichter. Simon sieht bei seinem
+Kunden praktisch keine Duplikation: Designsystem, geteilte Bibliotheken
+für Single Sign-on und Observability, ein Archetype für neue Systeme und
+ein Architektur-Board mit ADRs. Silvia nennt das eine bewusste
+Beschneidung der Freiheit in der Mikroarchitektur, die sie für richtig
+hält. Eberhard sieht einen Trade-off: Ein vorgeschriebenes Framework
+schafft Konsistenz, kann aber schaden, wenn es technisch schlecht ist.
+
+### Monolith als Alternative?
+
+Der Kommentator sieht im Backend keinen Vorteil von SCS gegenüber
+Microservices
+und würde lange auf Monolithen setzen. Für Simons Kunden ist ein Monolith
+zu groß und zu unflexibel, Microfrontends brächten wieder
+Deployment-Abhängigkeiten. Ein Team setzt den ganzen vertikalen Schnitt
+um, und das passe zu KI, die ohnehin Full-Stack entwickle. Bei einer
+Schweizer Versicherung mit Microservices und Microfrontends kämpfe er
+gerade damit, welche Teile zu einem Use Case gehören. Johannes empfiehlt
+den klassischen Monolithen nur Start-ups, und auch dann mit
+Sollbruchstellen. Eberhard stört schon der Begriff modularer Monolith:
+Wer Monolithen nicht modularisieren wolle, dem fehle Softwarearchitektur.
+
+### Fazit
+
+Reden wir in zehn Jahren noch über Self-contained Systems? Alle vier
+sagen Ja. Simon hält SCS für den optimalen Schnitt für KI, weil der
+Kontext für Mensch und Maschine begrenzt ist, und für schneller zu
+modernisieren als Monolithen, bei denen das drei bis fünf Jahre dauern
+kann. Für Johannes adressiert SCS Probleme, „die genauso alt sind wie
+Software-Systeme selbst“, und ist eine Sammlung bewährter Good
+Practices. Silvia erwartet, dass KI das Web verändert, aber fachlich
+sinnvolle, resiliente Systeme mit kleinem Blast-Radius bleiben. Eberhard
+fasst zusammen: Modularisierung ist auch für KI ein wichtiges Thema.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Ein Self-contained System ist mehr als ein Microservice mit Web-Oberfläche: Johannes Seitz nennt es einen begrenzten Monolithen, Simon Martinelli eine Teilapplikation
+- Für Silvia Schreier ist die Laufzeitunabhängigkeit das zentrale Feature: Fallen alle anderen Systeme aus, erfüllt ein SCS seinen Job noch zu einem großen Teil
+- Eberhard Wolff stellt den fachlichen Schnitt über die Verfügbarkeit; Johannes sieht beides Hand in Hand, weil unabhängiger Betrieb auch unabhängiges Entwickeln und lokales Testen erleichtert
+- SCS gibt anders als Microservices eine Integrationspräferenz vor: Integration vermeiden, sonst so lose wie möglich, etwa per Link oder eingebettetem UI-Element
+- Das Spannende ist für Eberhard die Nicht-Vernetzung der Systeme; synchrone Aufrufe nur, wo es nicht anders geht, etwa beim Preisberechner
+- Für Eberhard ist kaum geteilte Infrastruktur ein weiches Kriterium; Simon teilt Datenbankinstanzen mit getrennten Schemas und Berechtigungen, Silvia sieht geteilte Kubernetes-Cluster als Risiko für Unabhängigkeit und Upgrades
+- In Banken und Versicherungen laufen nach Johannes' Erfahrung etwa 80 Prozent der Integration über gemeinsam genutzte Datenbanken; das verletzt Information Hiding wie ein direkter Zugriff auf Instanzvariablen
+- In fast jedem Unternehmen gibt es ein Bottleneck-SCS wie den Checkout, an dem jede Initiative hängt; wo ein Feature hingehört, hängt auch von Auslastung, Lebenszyklus und Skills der Teams ab
+- Eine gemeinsame Navigation über Systemgrenzen ist machbar, aber nicht immer nötig; Designsystem, unveränderbare Deep Links und eingebettete UI-Komponenten decken viel ab
+- SCS ist kein Qualitätssiegel: Der Sweet Spot liegt wie bei Domain-driven Design bei hoher fachlicher Komplexität und mehreren Teams, einzelne Regeln lassen sich auch anderswo übernehmen
+- Code-Duplikation über viele Teams ist ein echtes Risiko; Designsystem, geteilte Bibliotheken, Archetypes und ein Architektur-Board mit ADRs halten sie klein
+- Alle vier erwarten, dass Self-contained Systems in zehn Jahren noch relevant sind, auch weil der begrenzte Kontext KI-getriebener Entwicklung hilft
+
+### Behandelte Fragen
+
+- Sind Self-contained Systems Microservices mit eigener Web-Oberfläche?
+- Was ist wichtiger: getrennte Verfügbarkeit oder ein guter fachlicher Schnitt?
+- Warum ist die Nicht-Vernetzung spannender als die Vernetzung der Systeme?
+- Wie viel geteilte Infrastruktur, etwa eine gemeinsame Datenbank, ist vertretbar?
+- Warum integrieren so viele Unternehmen über gemeinsame Datenbanken, und was hat das mit Information Hiding zu tun?
+- Wie geht man mit einem Team um, an dem jede Initiative hängt?
+- Braucht es eine gemeinsame Navigation über alle Systeme?
+- Wie behandelt man ein System, das nur Daten austauscht und keine Oberfläche hat?
+- Wie verhindert man Code-Duplikation und Inkonsistenz bei mehr als 20 Teams?
+- Wäre ein Monolith die bessere Wahl?
+- Reden wir in zehn Jahren noch über Self-contained Systems?
+
+### Glossar
+
+- **Self-contained System (SCS)**: Fachlich abgegrenztes System mit eigener UI, Logik und Datenhaltung, das einem Team gehört und möglichst unabhängig von anderen Systemen läuft
+- **Laufzeitunabhängigkeit**: Ein System erfüllt seine Aufgabe weitgehend auch dann, wenn andere Systeme ausgefallen sind
+- **UI-Integration**: Systeme verbinden sich über Links oder eingebettete UI-Elemente statt über Backend-Aufrufe
+- **Kaum geteilte Infrastruktur**: SCS-Regel, nach der Systeme möglichst wenig Infrastruktur wie Datenbanken oder Cluster teilen
+- **Information Hiding**: Prinzip, Implementierung und Datenmodellierung hinter einer Schnittstelle zu verbergen, damit sie sich ändern lassen
+- **Bottleneck-SCS**: System, dessen Team an fast jeder Initiative beteiligt ist, etwa der Checkout im E-Commerce
+- **Makro- und Mikroarchitektur**: Regeln, die für alle Systeme gelten, und Entscheidungen, die jedes Team innerhalb seines Systems selbst trifft
+- **Designsystem**: Gemeinsame Bausteine und Gestaltungsregeln, die Oberflächen verschiedener Systeme einheitlich aussehen lassen
+- **Reverse-Conway-Manöver**: Teams so organisieren, dass die gewünschte Architektur entsteht
+- **Sollbruchstelle**: Vorab eingeplante Grenze in einem Monolithen, an der er sich später auf Teams und Systeme aufteilen lässt
+
+### Erwähnte Technologien und Werke
+
+- **[Self-contained Systems](https://scs-architecture.org/)**: Website zum Architekturansatz, auf der Eberhard Wolff vor über zehn Jahren den ersten Commit gemacht hat
+- **Artikel von Philipp Ghadir und Stefan Tilkov**: Etwa 15 Jahre alter Ursprung der Self-contained Systems, auf der SCS-Website verlinkt
+- **[Balancing Coupling in Software Design](https://www.informit.com/store/balancing-coupling-in-software-design-universal-design-9780137353484)**: Buch von Vlad Khononov, im Chat empfohlen
+- **[Team Topologies](https://teamtopologies.com/)**: Ansatz, aus dem Johannes den Begriff Stream-aligned Team übernimmt
+- **[Testcontainers](https://testcontainers.com/)**: Bibliothek, mit der Teams laut Simon ihre Systeme mit generierten Testdaten lokal testen
+- **[Kubernetes](https://kubernetes.io/)**: Container-Plattform, deren geteilte Cluster in der Folge als Risiko für die Unabhängigkeit gelten
+- **[Hibernate](https://hibernate.org/)**: Java-Persistenz-Framework, dessen durchgängige Mappings laut Simon allen Modulen dieselbe Sicht auf die Daten geben
+- **[iSAQB](https://www.isaqb.org/)**: Verband, nach dessen Lehrplan Johannes Architekturtrainings gibt
+
+## Transkript
+
+## Die Self-contained-Systems-Runde
+
+Das Intro (0:00:00 bis 0:00:36) ist ausgelassen. Das Transkript entstand aus den
+getrennten Tonspuren der vier Sprecher; die Sprecherzuordnung ist deshalb nicht geraten.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube) oder im Podcast (MP3).
+
+### Begrüßung und Vorstellungsrunde
+
+**Eberhard Wolff:** [0:00:36] So, dann herzlich willkommen zu einer weiteren Episode von Software Architektur im Stream. Dieses Mal geht es um die Self-contained-Systems-Runde und ich habe mir dazu drei weitere Personen eingeladen und freue mich, dass die auch alle gekommen sind. Wir wollen loslegen mit einer Vorstellungsrunde und die Vorstellungsfrage ist, wer bist du und welche Rolle spielen Self-contained Systems für dich? Silvia, möchtest du als erste Person was dazu sagen?
+
+**Silvia Schreier:** [0:00:59] Gerne. Ich bin Silvia, Informatikerin aus Leidenschaft, würde ich sagen. Und ein bisschen der Zusammenhang. Ich war früher bei INNOQ, aber inzwischen bin ich seit knapp zehn Jahren im Groß- und Einzelhandel unterwegs. Und was hat das mit SCS zu tun? Klar, bei INNOQ bin ich mit dem Thema schon in Kontakt bekommen. Und jetzt in meiner ganzen Handelszeit war ich eigentlich immer in vertikalisierten Systemlandschaften, zumindest teilweise unterwegs. Und manchmal mit SCS gebaut, manchmal nicht und habe da so ein bisschen was zu erzählen, wie sich das dann aus verschiedensten Rollen dann auch heraus anfühlt.
+
+**Eberhard Wolff:** [0:01:40] Dazu wäre vielleicht noch zu ergänzen, dass eben der Otto-Versand, das steht auch auf der Webseite, eben eines von den großen Beispielen ist für Self-contained Systems. Also das ist eben auch in Nutzung, aber wie dem auch sei. Genau, Johannes, möchtest du dich auch kurz vorstellen?
+
+**Johannes Seitz:** [0:01:56] Gerne. Ich bin der Johannes. Ich arbeite als Softwarearchitekt und Berater bei INNOQ und häufig helfe ich Unternehmen, gerade aus der Finanzbranche, aber auch E-Commerce dabei, wenn sie große, gewachsene, sehr komplexe Systeme haben, die so zu zerlegen, dass Teams unabhängig daran arbeiten können. Und da spielt Self-contained Systems natürlich eine ganz große Rolle. Außerdem gebe ich Architekturtrainings unter anderem nach dem iSAQB oder schreibe über Self-contained Systems.
+
+**Eberhard Wolff:** [0:02:29] Und Simon, möchtest du auch noch was zu dir sagen?
+
+**Simon Martinelli:** [0:02:32] Gerne, ich bin selbstständiger Berater und bin seit ungefähr zehn Jahren vor allem mit Softwaremodernisierungsprojekten betraut. Und auch im Großhandel in der Schweiz, also auch E-Commerce-Systeme. Und dort passt die Vertikalisierung, wie Silvia bereits erwähnt hat, sehr gut. Und weil es so gut funktioniert, habe ich auch Artikel geschrieben und spreche an Konferenzen über dieses Thema. Und es passt super zu KI-getriebener Softwareentwicklung im Übrigen.
+
+**Eberhard Wolff:** [0:03:03] Und dann, also ich bin Eberhard. Meine Beziehung zu Self-contained Systems ist, dass ich tatsächlich vor über zehn Jahren den ersten Commit auf der Self-contained-Systems-Webseite gemacht habe und die so ein bisschen aus der Taufe gehoben habe. Ich habe ja außerdem verschiedene Bücher geschrieben über das Thema Microservices und bin damit irgendwie lange durch die Gegend gelaufen. Da sind halt Self-contained Systems, fand ich immer ein sehr guter Ansatz, um das halt vernünftig auf die Reihe zu bekommen. Vielleicht sogar vielversprechender als Microservices selber. Und das ist so ein bisschen mein Hintergrund, um es historisch zu klären. Ich weiß nicht, ob wir da noch zukommen. Also ich habe zwar diesen Commit gemacht auf die Webseite, aber ursprünglich geht das Ganze eben zurück auf diesen Artikel von Philipp Ghadir und Stefan Tilkov, dem mittlerweile verstorbenen Stefan Tilkov, wo es halt um das Thema Self-contained Systems letztendlich ging. Das ist also so ein bisschen der historische... Ursprung und der ist 15 Jahre alt und ist auf der Self-contained-Systems-Webseite verlinkt. Wir werden auch irgendwie nachher, also wir haben jetzt schon eine große Menge an Links, da wird es also sicherlich in den Shownotes noch irgendwie Informationen geben. Gut.
+
+### Microservices mit eigener Web-Oberfläche?
+
+**Eberhard Wolff:** [0:04:17] Fragt sich ja so ein bisschen, worüber wir eigentlich reden, Self-contained Systems. Und die Frage ist, was das eigentlich ist. Für mich ist so ein bisschen die Definition, die mir am nächsten liegt, die Definition, das sind eben Microservices mit einer eigenen Web-Oberfläche. Passt das für euch oder habt ihr eine andere Definition? Ist das etwas, was für euch das vernünftig ausdrückt oder wie seht ihr das?
+
+**Johannes Seitz:** [0:04:49] Ich habe tatsächlich auch durch Stefan Tilkov geprägt, das Ganze ein bisschen anders sehen gelernt. Der hat nämlich irgendwann mal gesagt, in einem Konferenzvortrag Monolithen findet er total super, lass uns viele davon bauen. Und aus der Richtung kommend ist für mich ein Self-contained System inzwischen eher ein sehr kleiner, überschaubarer Monolith, der sehr, sehr viele Vorteile hat im Sinne von Ich habe alles, was ich brauche, um Feature umzusetzen, von der UI bis zur eigenen Datenhaltung quasi in diesem System drin und muss mich nicht mit anderen abstimmen, ob ich da jetzt irgendwas ändern kann. Und deswegen sage ich, es ist eigentlich eher so eine Art, begrenzter Monolith, der halt nicht grenzenlos gewachsen ist und deswegen all die negativen Eigenschaften bekommen hat, die wir mit Monolithen inzwischen verbinden würden.
+
+**Simon Martinelli:** [0:05:46] Ich spreche gerne von Teilapplikationen, also dass ich eigene große Applikationen in Teile aufteile. Ich glaube, das ist ein Begriff, der ist uralt. Ich bin zumindest schon sehr lange in der Softwareentwicklung tätig und das erklärt es auch für Leute, die nicht aus der IT kommen, sehr gut. Die wissen, wir haben unser System aufgeteilt in verschiedene Teile und die arbeiten unabhängig und ich arbeite jetzt mit einem oder mehreren Teilen und ich merke gar nicht eigentlich, mit welchem Teil ich arbeite als Benutzer. Und deshalb denke ich, ist der Begriff vielleicht auch nicht so schlecht.
+
+**Silvia Schreier:** [0:06:21] Und ich würde sagen, das Thema Web-Oberfläche, ja, ich glaube, im Großteil der Fälle braucht es das. Also für mich ist es ein System, was alles... alleine kann und dazu gehört meistens auch eine Nutzerinteraktion, mag aber auch SCS geben, die vielleicht wenig bis keine brauchen, dann wäre das für mich auch okay. Für mich ist eigentlich, zumindest in der Praxis, das wichtigste Feature immer gewesen, dass es relativ unabhängig im Betrieb ist. Das heißt natürlich, das System redet mit anderen Systemen, aber selbst wenn alle anderen Systeme weg sind, kann das eine Self-contained System immer noch seinen Job zu einem großen Teil erfüllen. Das wäre so für mich eigentlich die wichtigste Aufgabe. Natürlich brauche ich Load Balancer und was auch immer noch technisch drumherum, aber so das SCS in sich kann immer noch einen Business-Mehrwert schaffen, eventuell etwas reduziert. Und diese Laufzeitunabhängigkeit zu einem gewissen Grad ist für mich eigentlich das zentrale Feature. Wie das dann innen drin technisch aussieht und wie es sich mit anderen dann integriert, ich glaube, da muss man dann Einzelfallentscheidungen vielleicht auch treffen, was in dem Kontext wichtig ist. Aber diese Resilienz zur Laufzeit ist für mich eigentlich der größte Benefit.
+
+**Johannes Seitz:** [0:07:30] Ich denke, das ist auch so eine Abgrenzung zu den Plain Microservices, weil die ja ohne eine vorgeschriebene, ich sage jetzt mal Integrationspräferenz kommen, während SCS ganz, ganz deutlich sagt, hier ist eine Art und Weise, wie Systeme interagieren sollten, wie sie integrieren sollten, die diese wahnsinnige Laufzeitunabhängigkeit zur Folge hat. Und das ist eine Sache, wo dieses Microservices plus UI, glaube ich, ein bisschen zu kurz greift in der Definition.
+
+**Simon Martinelli:** [0:08:04] Ich denke auch eben diese Resilienz oder diese Unabhängigkeit spiegelt sich ja auch wieder bei der Releasebarkeit der einzelnen Self-contained Systems, damit eben die Benutzer, die das verwenden, nicht gestört werden, auch wenn wir vielleicht mal einen Ausfall hätten, weil das wichtige Thema ist, wenn nicht jeder Self-contained System hat die gleichen Verfügbarkeitsanforderungen, das heißt es könnte Self-contained Systems geben, die sehr wenig verfügbar oder nicht eine hohe Verfügbarkeit haben müssen. Und die könnten wir dann aus dem Betrieb nehmen für ein Release zum Beispiel. Aber das Gesamtsystem würde davon eigentlich gar nichts mitkriegen. Das finde ich ein wichtiger Aspekt, weil
+
+**Silvia Schreier:** [0:08:39] Ich würde auf Johannes hin mit dem Microservice, weil was ich erlebt habe, ist so eine Microservice-Landschaft, die war vertikalisiert, aber es war eben nicht SCS-Style. Und dann, wenn ein Microservice ausgefallen ist, dann ist so diese Domino-Kette los. Und du konntest dann anhand welcher Symptome du gesehen hast, schon fast darauf schließen, was der Ursprung der Domino-Steine war, die umgefallen sind. Und das habe ich halt bei SCSen... selten erlebt. Man hat dann andere Probleme, da habe ich auch schon mal was zu erzählt, aber da würde ich sagen, wenn da einer umfällt, fallen die anderen in der Regel nicht auch mit um. Und das finde ich ist schon, das habe ich auch in Produktion mehrfach gesehen, das funktioniert wirklich.
+
+### Verfügbarkeit oder fachliche Aufteilung?
+
+**Eberhard Wolff:** [0:09:21] Also was ich daran gut finde an der Diskussion ist, das bedeutet halt, dass der Begriff Self-contained Systems gut gewählt ist, weil das, was ihr jetzt irgendwie in den Mittelpunkt stellt, bedeutet eben genau diese Selbstabgeschlossenheit. Es gab auch mal diese Idee, das System of Systems zu nennen und irgendwie, ich weiß nicht mehr, wo die Diskussion war, das ist halt dann verworfen worden. Eine Frage, also um mal den großen Konsens ein bisschen sozusagen zu brechen, das impliziert ja, dass die herausragende Eigenschaft eigentlich die Verfügbarkeit ist. Also ich kriege halt Self-contained Systems, die halt getrennt verfügbar sind und getrennt halt ausfallen. Und ich bin nicht sicher, wie wichtig das ist, weil ich halt erwarten würde, dass in vielen Fällen diese Verfügbarkeit sowieso garantieren können, weil eben Kubernetes da ist, Cluster da ist und so weiter und so weiter. Und ich habe immer das Gefühl, bei Softwarearchitektur oder das, was ich versuche in den Mittelpunkt zu stellen, ist immer so eine fachliche, vernünftige Aufteilung. Und da sind ja Self-contained Systems auch stark, weil sie halt sagen, Das ist halt eine Domäne und ich habe dann eben alles für diese Fachlichkeit, alle technischen Aspekte inklusive der Web-Oberfläche halt in einem System, sodass das eigentlich für mich wichtiger ist als die Verfügbarkeit. Und da bin ich dann vielleicht einer anderen Meinung oder vielleicht kriegen wir das halt auch hin, dass das eben, weil das eigentlich dasselbe ist oder wie auch immer.
+
+**Johannes Seitz:** [0:10:50] Ich würde sagen, beides geht Hand in Hand. Also du hast auf der einen Seite diese unabhängige Entwickelbarkeit. Aber diese unabhängige Betreibbarkeit unterstützt zu einem großen Teil auch die unabhängige Entwickelbarkeit, weil das für mich zum Beispiel bedeutet, ich kann sehr viel in meiner lokalen Entwicklungsumgebung testen, ohne dass ich dafür andere Systeme auch hochfahren muss. Also ich kann mir deren Daten, die bei mir lokal repliziert vorhanden sind, einfach in die Datenbank reintun und solange sie sich an das gleiche Format halten, was mal ausgemacht wurde, kann ich mir relativ sicher sein, dass diese Integration dann auch in Produktion funktionieren würde. Und das bedeutet für mich, also ich bin organisatorisch in der Entwicklung relativ lose gekoppelt an die anderen Teams und halt aber auch gleichzeitig durch die gleichen Integrationsmuster in der Laufzeitumgebung, falls dieses andere System kurzzeitig weg sein sollte.
+
+**Simon Martinelli:** [0:11:51] Bis jetzt bei monolithischen Applikationen vor allem hatte man sehr viele Abhängigkeiten zwischen den Entwicklungsteams, also wenn es etwas Größeres war natürlich. Und so wird verwendet überall mittlerweile Testcontainers mit generierten Testdaten und nicht mehr kopieren wie früher vom Produktivsystem zum Beispiel. Und das macht die unabhängige Entwicklung erst so richtig möglich. Also das heißt, die Teams können wirklich ein Self-contained System bei sich klonen, mitarbeiten, testen und sind überhaupt nicht angewiesen auf irgendwelche andere Dienste, die irgendwie laufen müssen. Das ist sehr wichtig.
+
+**Silvia Schreier:** [0:12:24] Also ich glaube, diese fachliche Trennung und die Vorteile, die da mit sich kommen, unabhängige Entwicklung und so weiter und auch Parallelisierbarkeit vielleicht, ist genauso wichtig. Für mich würde aber immer noch, wenn ich mich entscheiden müsste, es hilft mir nichts, wenn ich ein System ganz schnell und super unabhängig entwickeln kann und es dann aber zur Laufzeit umfällt. Das hilft mir da nicht, deswegen würde ich sagen, im besten Fall ist es die Mischung, glaube ich, aus beidem. Trotzdem ist diese Verfügbarkeit einfach ein so riesiges Asset in der Realität, weil auch in Kubernetes-Clustern jemand macht ein Release und das zerhagelt. Und wenn alle anderen Abhängigkeit auf diesen einen Service haben oder viele andere, dann ist der Rest halt in dem Moment auch weg. Menschen und auch die KI heute machen immer noch Fehler, also es wird immer was schief gehen, da können wir mal ausgehen und selbst wenn es nicht mal wir selbst sind, dementsprechend würde ich sagen, das Fachliche ist auch super wichtig und hat auch genauso viele Challenges, glaube ich, noch zusätzlich. Also wir haben diese technischen Challenges, nur weil ich weiß, wie ich es baue, ist ja trotzdem noch nicht einfach und alles, aber ich glaube, fachlich gut geschnitten und was bedeutet das dann auch über den Lebenszyklus? Das ist nochmal eine ganz andere Herausforderung, wenn ich so ein System baue und betreibe.
+
+**Eberhard Wolff:** [0:13:42] Okay, also spannend, weil ich hatte halt gedacht, dass so ein bisschen die Antwort hier in der Luft, also die für mich eigentlich in der Luft lag, irgendwie die Aussage ist, naja, eigentlich machen wir halt vernünftige Modularisierung. Wir machen insbesondere fachlich vernünftige Modularisierung und wir haben dann, und das ist eigentlich der Auslöser, also sprich, wenn ich das nicht hinbekomme, das fachlich vernünftig aufzuteilen, sodass ich da eben beherrschbare Abhängigkeiten habe, dann nützt mir das halt, also dann werde ich trotzdem Abhängigkeiten haben, egal wie ich das halt technisch ausführe, als Self-contained Systems oder nicht. Und dann habe ich aber eben mit Self-contained Systems diese, ich sage mal, vernünftige technische Modularisierung, die halt sagt, okay, ich habe eben ein Ding, was alle drei Schichten hat und dadurch, also eben inklusive UI, was eben dadurch dann mir ermöglicht, diese fachliche Unabhängigkeit auch zu einer sehr starken Unabhängigkeit bei der Umsetzung von fachlichen Anforderungen zu überführen, dahin zu überführen, dass sich dort eben dann auch alle drei Schichten durch die fachliche Anforderung ja typischerweise gehen, eben in einem zu ändern. Also das ist so ein bisschen das, was mein Gefühl ist. Was dann auch bedeutet, dass, glaube ich, oder für mich persönlich zumindest, dann die Diskussion irgendwann weggegangen ist von diesem Thema mit den Microservices hin zu diesem Thema mit Domain-driven Design und kriege ich das fachlich vernünftig hin, weil das eben das Problem hauptsächlich ist. Wäre ein Gefühl, aber ja.
+
+**Simon Martinelli:** [0:15:04] Ja, würde ich auch sagen. Also beim Großhandelskunden zum Beispiel geht es ja auch darum, dass eigentlich nur eine Abteilung für ein Self-contained System nötig ist, um das zu entwickeln. Weil sonst hast du Stakeholder-Management übergreifend über verschiedene Abteilungen und das ist immer schwierig, da Konsens zu finden und vor allem mit denen zusammenzuarbeiten. Und deshalb hilft es auch den Product Ownern zum Beispiel bei der Firma, dass sie wirklich nur einen Ansprechpartner haben. Also auf beiden Seiten macht es dann die fachliche Trennung viel einfacher. Genau.
+
+**Silvia Schreier:** [0:15:40] Ich glaube aber, ich kann im Zweifelsfall mal... Ein guter Schnitt erleichtert es mir auch eine gute Modularisierung und eine gute technische Umsetzbarkeit. Es wird aber bei Schnitten immer, ich sage mal, Grauzonen geben und ich kann da auch mal einen aus Gründen einen schlechteren fachlichen Schnitt nehmen, aber kann es trotzdem noch technisch gut und stabil bauen. Also ich glaube, auch da muss man manchmal wirklich sagen, da gibt es Trade-offs. Eben weil ich nicht immer in der Realität dann fachlich perfekt schneiden kann oder will oder es irgendwelche Beweggründe geben mag. Und da sehe ich dann schon, wenn ich natürlich richtig schlecht fachlich schneide, dann habe ich so viele Abhängigkeiten und dann wird es technisch auch unmachbar. Deswegen, ich muss beides berücksichtigen. Aber man kann da vielleicht mal Abstriche machen, wenn es dem großen Ganzen dient, wenn ich nämlich Auslastungskapazitätsprobleme habe in den Teams. Weil das ist natürlich schon, finde ich, eine Herausforderung, wenn ich mehrere Teams habe, die Arbeit auch unter den Teams möglichst gleich zu verteilen. Das ist dann eher so diese organisatorische Frage wieder drauf.
+
+### Das Spannende ist die Nicht-Vernetzung
+
+**Eberhard Wolff:** [0:16:44] Genau, ich will jetzt, damit wir das sozusagen auch noch einmal eingeblendet haben, also der Ralf, der ja auch mit dem Stream arbeitet, hat halt geschrieben, die grobe Definition, ich nehme an, das ist halt diese von wegen, das ist halt Microservices mit Web, ist halt meines Erachtens leichter zu verstehen. Die Vernetzung der Systeme finde ich spannend. Und die Aussage finde ich spannend, weil ich würde behaupten, oder das wäre halt die Frage, ich würde behaupten, eigentlich sagen, Self-contained Systems, auch durch den Namen, nicht Self-contained, das ist ja fast die Abwesenheit einer Vernetzung. Also ja, es gibt halt diese Idee, dass ich halt diese Systeme asynchron integrieren kann und deswegen eine UI-Integration haben will, aber eigentlich sagt halt Self-contained und auch meiner Ansicht nach Modularisierung, dass das eigentlich ein Minimum sein sollte. Deswegen würde ich mich dazu hinreißen lassen, zu sagen, das Spannende ist die Nicht-Vernetzung der Systeme, nicht die Vernetzung der Systeme.
+
+**Johannes Seitz:** [0:17:38] Ich finde, das sieht man auch ganz gut reflektiert, wenn man sich anguckt, was empfohlen wird bei der Systemintegration von Self-contained Systems, weil das Erste und eigentlich Implizite ist, wenn ich eine Integration vermeiden kann, sollte ich sie auch vermeiden. Und das spricht zum Beispiel aus dieser kaum geteilte Infrastruktur-Kriterium, die auf der Seite beschrieben ist. Wenn ich mir nichts teile, dann bin ich auch wesentlich unabhängiger mit einem anderen System. Und das sollte meine erste Präferenz sein. Wenn ich tatsächlich integrieren muss, sollte ich dann die loseste Form der Integration wählen, die es gibt oder die ich mir leisten kann. Und im Zweifelsfall ist das dann vielleicht nur auf einer UI-Ebene, dass ich einen Link von A nach B setze, damit ich von A nach B gelangen kann. Oder ein bisschen größer gefasst, dass ich mir ein UI-Element aus einer anderen Applikation in meine eigene Applikation reinnehme und die bei mir anzeige, ohne dass ich genau wissen muss, was steckt jetzt dahinter, was verbirgt sich da an Datenstruktur, was ist das fachlich genau, was ich mir da reingeholt habe. Ich zeige es dem Nutzer nur an und biete ihm vielleicht im Kontext irgendwelche Operationen aus einer fremden Fachlichkeit an.
+
+### Asynchrone Integration als Normalfall
+
+**Eberhard Wolff:** [0:18:57] Ich muss dazu sagen, dieser Fokus auf die asynchrone Kommunikation ist für mich vollkommen natürlich und bis hin zu dem, dass ich nicht verstehe, also Netflix ist ja irgendwie ein populäres System, sehr stark synchron integriert und es scheint auch so zu sein, wenn man sich Service Meshes anguckt, dass die halt insbesondere synchrone Kommunikation halt unterstützen. Und es ist so, dass ich es nicht verstehe. Also ich verstehe, dass es Dinge gibt, wo ich eine synchrone Integration benötige. Das Beispiel, was ich halt immer nenne, ist ein Preisberechner. Wenn ich den Preis eines Produkts in der Webseite anzeigen will und da habe ich einen Preisberechner, der das halt irgendwie aufgrund von irgendwelchen komplexen Dingen halt tut, dann werde ich den halt synchron aufrufen müssen. Es geht eben nicht anders, wenn das eben spezifisch für den Kunden und so weiter ist. Und da bin ich halt dazu gezwungen, da habe ich halt keine Wahl. Sonst finde ich halt den Fokus auf asynchrone Integration, eben völlig natürlich, weil synchrone Kommunikation bedeutet eben, dass ich halt diesen Ausfallaspekt habe und es ist insgesamt eigen, also es gibt ja auch diese Fallacy, dass irgendwie dieses Verbergen von Netzwerk, dass das eben eine schlechte Idee ist, weil das Netzwerk kann irgendwie ausfallen und so weiter und deswegen versch... Ist das für mich so natürlich, dass es eigentlich fast nicht mehr erwähnenswert ist.
+
+### Kaum geteilte Infrastruktur
+
+**Eberhard Wolff:** [0:20:17] Bei dieser kaum geteilten Infrastruktur, die du ja ansprachst, muss ich halt gestehen, also in meiner Erinnerung ist es halt so, dass das irgendwie als zusätzlicher Punkt reinkam und ich bin der Meinung, dass es eine Diskussion gab und ich möglicherweise daran schuld bin, dass es eben kaum geteilte Infrastruktur heißt und nicht keine geteilte Infrastruktur. Weil ich ehrlich gesagt diesen Punkt nie wirklich verstanden, also nie wirklich für mich verstanden habe. Also, dass mehrere Komponenten sich zum Beispiel in der Datenbank teilen. Ist etwas, was halt jahrelang gang und gäbe war und was irgendwie bis zu einem gewissen Maß bei einer bestimmten Skalierung halt auch nicht so lange die Datenbank hat skaliert. Das ist, glaube ich, auch irgendwie kein Problem. Und ich verstehe nicht, warum man dort sagt, dass man möglichst wenig geteilte Infrastruktur haben will, weil das auch so ein weiches Kriterium ist. Also will ich jetzt eine gemeinsame Datenbank haben, ja oder nein, hängt halt von technischen Eigenschaften ab. Komme ich halt an das Skalierungsende dieser Datenbank und ist diese Datenbank ausreichend verfügbar. Das ist irgendwie... Also das ist halt ein weicher Faktor. Also es ist nicht hart, so wie, oder es ist für mich nicht so entscheidend. Es ist für mich, ob da jetzt ein Datenbank-Server steht oder mehrere, ist aus meiner Sicht nahezu egal. Und ich kann es ja auch revidieren. Also ich kann halt aus, wenn ich getrennte Datenbank-Schemata habe, relativ easy aus einem Datenbank-Server mehrere machen. Für eine Definition von easy.
+
+**Johannes Seitz:** [0:21:59] Aber ich glaube, da genau kommt dieser Satz und auch der Schmerz, der sich dahinter verbirgt, her. Wenn du halt einen gemeinsam genutzten Datenbank-Server hast, was gefühlt bei 80 bis 90 Prozent der Unternehmen, die ich berate, eigentlich... die zentrale Realität und die zentrale Datenquelle ist, dann macht es das sehr, sehr einfach, auf eine Systemintegration zu verzichten und einfach zu sagen, wenn du das brauchst, lies es doch aus der Datenbank. Du hast doch den Connection String und es steht in deinem Schema, du brauchst nur die Tabelle einfach lesen und warum sollten wir hier irgendwie eine Schnittstelle bauen? Und de facto ist es so, dass wenn ich mich umgucke in der Versicherungswelt, in der Bankenwelt, wo ich unterwegs bin, geschieht bestimmt 80 Prozent der Integration zwischen Systemen über gemeinsam genutzte Datenbanken.
+
+**Simon Martinelli:** [0:22:53] Also vielleicht kann ich dazu was sagen. Wir haben auch technisch gesehen ein... Oder mehrere Datenbankinstanzen natürlich, die sind auch geteilt, weil ich bin eigentlich Eberhards Meinung, das spielt eigentlich gar nicht so eine Rolle, rein aus Applikationssicht, weil die Schnittstellen respektive die Isolation passiert über das Schema, also grundsätzlich über Berechtigung, was man in der Datenbank darf und was nicht. Und zur asynchronen Kommunikation möchte ich noch ergänzen, dass wir auch asynchron Daten replizieren. Also wir haben Datenreplikation zwischen Self-contained System, weil wir grundsätzlich ein System haben, das verantwortlich ist für einen bestimmten Datenbereich und die Daten werden dann auch je nachdem, wie aktuell die sein müssen, repliziert. Also nicht, dass wir Domain-Events rumschieben und irgendwie Event-Sourcing oder sowas betreiben, sondern wir replizieren bewusst gewisse Daten von System A nach System B. Die aber dann denormalisiert in der Regel und gefiltert repliziert werden, damit wir die Datenmenge möglichst klein halten. Das ist halt so, weil du hast Artikelstammdaten zum Beispiel, die brauchst du praktisch überall gewisse davon. Die werden dann halt einfach so repliziert. Und wir versuchen eigentlich eben über Berechtigungssteuerung und Schemas und Views und materialisierte Views und was auch immer wir zur Verfügung stellen, eine starke Entkopplung auf Datenbankebene zu erreichen, die auch überwacht wird. Also grundsätzlich wird dann geprüft, dass nicht irgendwie ein Schema auf ein anderes Schema zugreift, das da nicht erlaubt ist. Wie wenn wir auf das Package-Struktur-Ebene machen würden, machen wir das auch auf Datenbank-Ebene.
+
+**Silvia Schreier:** [0:24:34] Also ich würde auch sagen, pragmatisch kann ich bei der Infrastruktur Abstriche machen. In einer idealen Welt würde ich die Infrastruktur auch komplett trennen. Das scheitert, ich sage mal, oft an Kosten, weil überall eine eigene Datenbankinstanz, überall ein eigenes Kubernetes-Cluster und Betrieb. Wobei ich jetzt ja heute sagen würde, mit KI müsste dieser ganze Wartungsbetriebsaufwand vielleicht wieder besser werden. Aber es ist nicht nur... Wir teilen uns die Datenbank. Natürlich sollte ich Schema trennen. Also da stimme ich vollkommen zu. Das ist das Minimum dafür, dass ich sowas dann zustimmen würde. Aber wenn es dann schon Richtung Kubernetes-Cluster geht, da dreht irgendwo was durch. Natürlich kann ich das auch absichern, aber irgendjemand macht was in seinem Kubernetes-Cluster und das ist geteilt, da läuft der Rest auch drauf. Und zack ist meine Unabhängigkeit zur Laufzeit halt auch dahin. Das ist das Gleiche bei Datenbanken. Das ist das eine. Und das andere ist, wir machen Upgrades der Infrastruktur. Also wir hatten geteiltes Kubernetes-Cluster. Alle Teams müssen sich rechtzeitig vorbereitet haben. Und dann zieht sich so ein Upgrade über Wochen und Monate. Weil, nee, wir haben da gerade was Wichtigeres. Und ach nee, jetzt ist hier nochmal. Und das sind halt so die Sachen, je weniger geteilt ist, desto mehr Unabhängigkeit hast du dann so auch in der Entwicklung. Aber die Realität zeigt oft, das ist halt auch ein Skill-Betriebskostenthema, was dann da schnell mit dazu kommt.
+
+**Simon Martinelli:** [0:25:56] Genau, es kommt auch auf die Größe der Firma drauf an, im Endeffekt.
+
+**Johannes Seitz:** [0:25:58] Alles gut.
+
+**Silvia Schreier:** [0:26:01] Ja, und der Teams.
+
+**Johannes Seitz:** [0:26:04] Ich glaube auch tatsächlich, dass ein Teil der Antwort jetzt inzwischen ist, dass zunehmend Self-Service-Plattformen in den Unternehmen diese Koordinationsaufwände zu einem Teil auch zu drücken versuchen, dass ich mir selbst dann das Kubernetes-Update verpasse oder dass ich sage, ich bestimme selbst, wann ich von A nach B umziehe, weil wir beide Cluster für eine Zeit lang parallel betreiben können. Und dass deswegen diese geteilte Infrastruktur nicht mehr so schmerzt, wenn ich sie halt mehr in die Kontrolle der Stream-aligned Teams, wenn ich mal die Team-Topologies-Terminologie benutzen darf, legen würde. Und das war früher, also am Anfang der 2010er Jahre, wo dieses Self-contained-Systems-Thema, glaube ich, das erste Mal so richtig hochgekocht ist, war das, glaube ich, nicht der Standard. Es sei denn, man war ganz vorne im Cloud-Business mit dabei. Und das verschiebt, glaube ich, auch so ein bisschen zugunsten von die geteilte Infrastruktur ist heute nicht mehr das gleiche Biest, was sie vor zehn Jahren vielleicht mal war.
+
+### Integration über die Datenbank und Information Hiding
+
+**Eberhard Wolff:** [0:27:12] Ich will noch eine Frage stellen, eigentlich an dich, Johannes, oder auch diskutieren. Du hast ja vorhin gesagt, diese Integration über die Datenbanken und das kam fast an wie so ein Naturgesetz, so nach dem Motto, das ist halt das, was die Menschen machen. Ich habe, glaube ich, eine etwas oder... Ich glaube, eine andere Wahrnehmung zu haben, auch darüber, was halt sozusagen der Rest der Welt darüber denkt. Und ich habe halt eher so einen Kundenpattern, wo die Kunden halt irgendwie sagen, okay, cool, wir haben halt diese gemeinsame Datenbank und das ist ja eine große Katastrophe, wir kommen davon irgendwie nicht weg. Und daraus hätte ich jetzt so ein bisschen abgeleitet, es ist schon so, dass halt mindestens größere Teile unseres Business verstanden haben, dass halt eine Integration mit einer Datenbank eine echt schlechte Idee ist, weil das eben bedeutet, dass diese Systeme halt sehr stark aneinander gebunden sind. Und ich kriege halt super komplizierte Datenbankmodellierungen, die halt irgendwie auch nicht bei mir versteht und so weiter. Und ich hatte das Gefühl, das war jetzt bei dir eher so, naja, das machen die Leute halt und impliziert ja, dass wir damit zufrieden sind. Ist deine Wahrnehmung da eine andere? Also ist das bei dir eine Success-Story oder ist das eher so eine, die haben verstanden, dass das eigentlich eine schlechte Idee ist?
+
+**Johannes Seitz:** [0:28:27] Ich glaube, viele haben verstanden, dass es eine schlechte Idee ist. Das Problem ist so ein bisschen, wenn man das seit Jahren oder Jahrzehnten gelebt hat und einem die Alternativerfahrung fehlt. Also wenn man noch nie eine Schnittstelle gebaut hat, die halt dieses gemeinsam genutzte unternehmensweite Modell von der Domäne so ein bisschen versteckt absichtlich, sondern weil man sagt, wir haben doch schon immer auf alles zugreifen können und wenn wir alles preisgeben, dann braucht man die Schnittstelle ja nie ändern. Weil dann ist die quasi stabil. Sie ist ja allumfänglich und egal, welche Anforderungen wir morgen haben, die Daten sind schon da. Was halt die Kehrseite der Medaille ist, wenn ich das bestehende Modell irgendwie ändern möchte oder die Annahmen, die da reingeflossen sind, ändern möchte, dann muss ich die komplette Firma abklappern und muss herausfinden, wer benutzt und interpretiert denn die Daten in dieser Schnittstelle. Und das ist dann der riesen Change, der ein firmenweites Programm auf den Plan ruft. Und gerade wenn ich Geschäftsmodell-Innovation betreibe, wenn ich versuche, neue Kundenkreise zu erschließen, wie in diesen wahnsinnig gesättigten Märkten bei den Banken und Versicherern, dann ist das halt das größere Hindernis, dass ich sage, ich muss irgendwie an dieses gemeinsam geteilte Modell im Kern ran, muss das ändern können. Und eine saubere Schnittstelle, die sehr viel versteckt von den Daten, die mich eigentlich fachlich nichts angehen, hätte in dem Fall einfach sehr, sehr geholfen, das Geschäftsmodell schneller weiterzuentwickeln und neue Funktionen umzusetzen.
+
+**Eberhard Wolff:** [0:30:10] Wenn ich da vielleicht noch kurz ergänzen darf, also was ich halt bei meinen Trainings mittlerweile öfter mal mache, ist halt irgendwie die Frage stellen, warum darf man eigentlich auf Instanzvariablen von Klassen nicht zugreifen? Und, ähm, die also nicht direkt zugreifen. Und die Antwort ist aus meiner Sicht Information Hiding. Also ich möchte halt die Implementierung und insbesondere die Datenmodellierung verstecken. Und das Beispiel, was ich da halt irgendwie immer nehme, ist halt ein Konto. Also ein Bankkonto ist eben, da kann ich jetzt irgendwie abspeichern, dass ich halt 42 Euro auf dem Konto habe oder ich kann das halt berechnen aus den letzten Überweisungen. Und wenn ich jetzt sage, gib mir den Kontostand, also nicht den Kontostand exponiere, kann ich die eine Implementierung in die andere überführen. Und meine Beobachtung ist halt, es sind eigentlich zwei Dinge. Die eine Beobachtung ist halt, dass man das nicht soll, Instanzvariablen nach draußen zugreifbar machen. Das ist irgendwie klar. Also ist mein Gefühl oder ist das, was ich halt irgendwie merke, es kann immer daran liegen, nicht wie ich die Fragen stelle und so weiter, nicht klar oder nicht so richtig bekannt ist irgendwie diese Beziehung hin zu dem Information Hiding. Und der Grund, warum ich das heute irgendwie erzähle, ist, weil das ist genau das Problem, das wir halt haben. Bei dem Zugriff auf die Datenbanken. Wenn ich halt die Datenbanken nutze, dann bedeutet das, dass eben die Modellierung in der Datenbank eine Abhängigkeit halt ist. Und irgendwie ist das bei Klassen total klar. Also es ist halt ein Tabu. Also tatsächlich Tabu im Sinne von, es ist vielleicht gar nicht klar, warum das halt nicht gemacht wird, aber es ist halt ein Tabu. Und bei den Datenbanken fehlt irgendwie dieser Schluss. Und das ist, was mich dabei halt so fasziniert ist, Das ist halt eine fundamentale Softwarearchitekturfrage. Information Hiding ist halt fundamental, das ist Modularisierung und eigentlich ergibt sich das daraus und dann kann man halt weiter diskutieren und das ist aber so ein bisschen die Grundlage.
+
+**Johannes Seitz:** [0:32:09] Ich habe das Gefühl, wir kämpfen da aber auch zu einem Teil gegen eine Herangehensweise an die Softwareentwicklung an, die historisch sehr datenbankzentrisch geprägt war. Also wenn ich einen Großrechner entworfen habe, habe ich als erstes das Datenbankschema modelliert und habe das umgesetzt und auf der Basis entstanden dann all die Prozeduren, die auf den Daten operiert haben und all die Batchläufe etc. Und dieser Gedanke von das Schema ist das Zentrum und das Fundament meiner Anwendung, der ist noch sehr stark in den Köpfen, gerade bei den alteingesessenen Unternehmen, die sehr früh auf Großrechner gesetzt haben.
+
+**Simon Martinelli:** [0:32:49] Ich denke, das Problem ist auch, dass die Leute nicht begriffen haben, dass verschiedene Module in einem System nicht dieselbe Sicht auf die Daten haben. Also zum Beispiel nehmen wir an, wir haben ein Artikelstamm-System, das hat sehr eine normalisierte Struktur und Sicht auf die Artikel mit Preishistory und so weiter. Und das braucht das Verkaufssystem nicht, weil dort gilt ein Preis und ganz wenige Informationen vom Artikel. Also eigentlich hätten wir das schon in einer monolithischen Applikation mit einer riesen Datenbank gehabt. Man hat es aber nicht gemacht, sondern man hat eigentlich ein durchgängiges Hibernate-Mapping gemacht, sehr häufig. Und dann haben alle auf dieselben Entitäten zugegriffen. Und eigentlich wäre es viel cleverer gewesen, wenn man zum Beispiel dort schon Views definiert hätte oder halt Aggregation von Daten, die man austauscht und nicht direkt auf dieselbe Datenbasis geht. Das liegt auch... Gilt auch fürs Kleine. Also auch wenn man kleine Applikationen macht, ist das sehr häufig eigentlich ein Unding, dass man dieses globale Datenmodell irgendwie allen Komponenten zur Verfügung stellt.
+
+**Johannes Seitz:** [0:33:55] Ich würde auch sagen, was ganz viele denken, was Modularität bedeutet, ist, dass ich gewisse Teile in eine Box gepackt habe und andere Teile habe ich in eine andere Box gepackt. Aber sehr viel relevanter und sehr viel interessanter ist, wenn diese beiden Boxen miteinander sprechen, was genau geht über diese Schnittstelle zwischen den beiden Boxen drüber und wie viel können die voneinander sehen. Also das Information Hiding, was du schon erwähnt hast, Eberhard, dass das eigentlich der Punkt ist und dass ich das eigentlich am liebsten auf jeder Ebene haben möchte. Also in meiner Mikroarchitektur, in der eigenen Anwendung drin, aber auch vor allem in der Makroarchitektur, wenn ich zwischen verschiedenen Anwendungen gucke, möchte ich, dass ich an den Schnittstellen nur wirklich das sehe, was auch wirklich notwendig ist zu sehen.
+
+### Das Bottleneck-Team und ungleich verteilte Arbeit
+
+**Eberhard Wolff:** [0:34:45] Kurz nochmal ein ganz anderes Thema, was ich aus der Vorbesprechung mitgenommen habe, was ich spannend fand, um das anzusprechen, das ist diese Geschichte mit, das hattest du, Silvia, auch schon kurz versucht anzuschneiden, also wenn ein SCS einem Team gehört, aber ich habe irgendwie diese nicht gleichmäßige Verteilung von Last, wie gehe ich damit um? Ich glaube, das war das Thema, was du da genannt hattest. Möchtest du dazu was sagen?
+
+**Silvia Schreier:** [0:35:10] Ja, kann ich kurz. Ich glaube, da kommen wir ein bisschen auf die Brücke zu diesen Datenbankintegrationen spielen, weil ich glaube, die ist auch vielleicht ganz oft passiert, weil sie geht schnell. Wenn ich schon Zugriff auf die Datenbank habe und die Tabellen liegen da, dann ist auch kein Aufwand, die da dran zu kommen. Wenn ich aber bisher Artikelstammdaten habe ich vielleicht schon, aber vielleicht habe ich bisher keine Kundenstammdaten gebraucht. Jetzt brauche ich zukünftig Kundenstammdaten, die sind aber noch nicht so exposed oder nicht mit den Attributen, die ich brauche. Natürlich wäre das leicht, rein in die Kundendatenbanktabelle und dann werde ich damit schon klarkommen, wenn jetzt aber jemand anders für mich diese Daten bereitstellen muss, weil die noch nicht so, wie ich sie brauche, da sind oder nicht vollständig, dann ist das eine Abhängigkeit. Und das ist das, was ich ganz oft erlebt habe, dass... die Teams zwar an sich unabhängig voneinander entwickeln können, aber sie haben natürlich trotzdem fachlich-inhaltliche Abhängigkeiten und brauchen sich gegenseitig. Das ist so dieses eine und deswegen glaube ich, hängt das so ein bisschen zusammen. Das war früher halt leichter. Das Problem ist auch heute immer noch da, dass ich, ich will was bauen, ich brauche Dinge von anderen Teams. Das andere ist aber, wenn ich neue Sachen baue, dann habe ich es fast in jedem Unternehmen erlebt, es gibt immer dieses Bottleneck-System, das Bottleneck-SCS, das immer gebraucht wird, egal was wir bauen, gerne der Checkout im E-Commerce oder das eine Team, was das, also es gibt immer so dieses eine Team, das ist immer mit involviert bei jeder Initiative, bei jedem Projekt, weil, sind wir auch ehrlich, je größer so ein Initiative-Projekt in einem Unternehmen ist, Unternehmen, desto mehr Teams sind daran beteiligt. Die haben aber auch alle noch irgendwas anderes, ihre eigenen Produktverbesserungen und so weiter. Dieses Scheduling, dann zu entscheiden, ich will ein neues Feature bauen, eine neue Fähigkeit in mein System bringen, wo packe ich es denn hin? Oft gibt es, okay, da ungefähr passt es hin, dann fange ich aber darüber nachzudenken, dann gibt es diese Grauzonen und das ist für mich so die eigentliche Herausforderung, mit der ich mich dann beschäftigen muss, es gibt das Idealbild. Dieses Team hat aber eigentlich gerade gar keine Zeit, wenn ich das aber jetzt haben will, weil das ist mein Business Need. Dann gucke ich, kann ich es vielleicht woanders hinbauen? Mache ich das Team größer? Das ist dann immer so der zweite Versuch. Aber wir wissen alle, mehr Leute machen es halt auch nicht besser. Ich habe mal mit einem Kollegen einen Vortrag ausgearbeitet, ich glaube, den hat man für die Shownotes vorgesehen. Und da haben wir das unterschieden in, es gibt diese ideale Seite, wie ich etwas verorte, also den fachlichen Schnitt mache. Ich mache es schön vertikal, ich berücksichtige fachliche Prozesse, ich berücksichtige vielleicht auch technische Abhängigkeiten. Weil gerade wenn ich mich mit Third Parties integrieren will, will ich dann, dass ich zehn Teams mit dem gleichen alten Legacy-System integrieren oder will ich das womöglich in einem Team kapseln? Auch solche Fragestellungen kommen da mit rein. Und auf der anderen Seite die Realität, wie viele Themen liegen schon in dem Team? Wie viel hat das Team gerade zu tun? In welchem Produktlebenszyklus ist es? Hat es gerade lauter neue Sachen, die noch ganz viel Weiterentwicklung brauchen, weil das ist alles MVP, was da gerade rumschwirrt und eigentlich muss das erstmal nochmal... ein bisschen besser werden oder sind die eigentlich in so einem Wartungsmodus und hätten eigentlich Kapazität, was Neues reinzubauen und das ist halt was, das wirst du auf einer technischen Seite nie unbedingt sehen und dann auch welche Skills hat das Team, oh ich will da jetzt was Machine Learning mäßiges reinbauen, hat das Team überhaupt die Fähigkeiten, passt das da rein, wie sieht der Tech-Stack aus, den ich jetzt dafür brauche, was für eine Datenbank brauche ich. Und das sind so für mich Aspekte, die kommen einfach noch dazu in der Realität. Das sind so ein bisschen sozio-technische Themen dann auch oft. Aber das ist das, was für mich schon über den Laufe der Zeit dann eigentlich das Thema ist. Also das SCS kann nicht verschwinden, aber wann brauche ich das Team noch? Wie viel SCS kann auch ein Team besitzen? Auch das ist eine Frage, die ich mir irgendwann im Laufe der Organisationsentwicklung mal stellen muss.
+
+**Simon Martinelli:** [0:38:53] Wir haben das so gemacht, dass wir eigentlich Hauptdomänen definiert haben. Also wenn man Handel anschaut, hat man in der Regel Einkauf, Verkauf, Logistik, Finanzen und noch irgendwelche Basisdienste. Und die Teams werden organisiert nach diesen Strukturen. Es ist natürlich klar, dass das Verkaufs-Domain die größte ist, weil Logistik ist typischerweise eingekauft und macht man nicht selber. Also das sind dann die fremden Self-contained Systems sozusagen, die auch erwähnt werden. Und grundsätzlich ist genau das Thema, also wie kriegen wir die Leute da hin? Das hat natürlich auch mit der Makroarchitektur zu tun zum Beispiel, damit sich die Leute eigentlich relativ rasch zurechtfinden. Das Problem ist da in der Regel jetzt in diesem Kontext nicht unbedingt das technische Zurechtfinden, sondern das fachliche Zurechtfinden. Also wer versteht dann die Anforderungen, die implementiert werden müssen? Und das ist eigentlich der Haupttreiber dann. Und dort nutzt es auch nichts, wenn es ein anderes Team machen würde, weil die hätten das Fach-Know-how eben wahrscheinlich eben auch nicht.
+
+**Eberhard Wolff:** [0:39:56] Genau, es gab einen Hinweis in der Literaturempfehlung von mklinke82 bei YouTube, Balancing Coupling in Software Design von Vlad Khononov. Das wäre dort eine Idee. Johannes, du scheinst dem beizupflichten.
+
+**Johannes Seitz:** [0:40:11] Kann ich empfehlen.
+
+### Gemeinsame Navigation und UI-Integration
+
+**Eberhard Wolff:** [0:40:15] Wir können springen zu einem etwas anderen Thema, also nahezu ein Klassiker, den, glaube ich, Ralf ja auch wieder aufmacht, im Kommentar bei LinkedIn. Dort hat er geschrieben, aber ich möchte gegenüber dem Nutzer ja nicht x Systeme zeigen, sondern zum Beispiel eine gemeinsame Navigation und einen nicht sichtbaren Sprung zwischen zum Beispiel Warenkatalog und Bestellsystem vermeiden. Und das ist, glaube ich, so dieser Hinweis zu der Vernetzung der Systeme, über den wir vor einiger Zeit gesprochen haben. Das ist also Vernetzung gemeint. Wir haben vorhin auch kurz, du hattest es, glaube ich, gesagt, Simon, ich glaube, du hast es als erster in den Mund genommen, in dieser Session, den Begriff von Makroarchitektur, ich glaube, der hängt damit zusammen. Was ist da eure Erfahrung? Ist das ein Thema? Wie geht man das an? Und ich glaube, das ist ja auch ein bisschen so ein Klassiker, den er da aufwirft.
+
+**Simon Martinelli:** [0:41:14] Das ist bei uns fast kein Thema, weil wir relativ wenige Self-contained Systems haben, die tatsächlich von mehreren Benutzerkreisen benutzt werden vom Schnitt her. Auf der anderen Seite haben wir ein Designsystem, das für alle passt. Wir haben auch Konzepte, wie wir verlinken, zum Beispiel wie machen wir Links zwischen Applikationen, die unveränderbar sind, damit wenn wir dort Daten übertragen, dass die nicht verändert werden können. Und im Endeffekt merken das die Benutzer nicht. Wir haben einen typischen Fall, wir haben im Prinzip das Auftragserfassungssystem, also das Order-Management-System, das das Callcenter braucht und die haben auch natürlich irgendwelche Qualitätsbeanstandungen oder Rückrufaktionen von Lieferanten zum Beispiel und das sind zwei getrennte Systeme und die müssen dort hin und her springen, aber die merken das im Wesentlichen nicht, dass sie hin und her springen tatsächlich. Und ich nehme da immer gerne das Beispiel von Amazon, weil Amazon, ohne dass sie gedacht haben, sind eigentlich Self-contained Systems. Wenn du Produkte suchst, zum Beispiel Bücher suchst, dann bist du in einem Self-contained System und dann der ganze Checkout ist ein zweites System und das Payment ist ein drittes System. Heute sieht man es nicht mehr so gut, aber früher hat sich da Amazon überhaupt keine Mühe gegeben. Die drei Teile haben alle völlig anders ausgesehen. Und im Endeffekt stört das vielleicht weniger, wenn man es richtig macht, weil man darf auch nicht vergessen, dass sehr häufig jetzt in Geschäftsanwendungen die User sowieso mit verschiedenen Systemen unterwegs sind. Also die sehen nicht nur eins, die haben noch zum Beispiel ein Mail-System, ein CRM, die haben vielleicht noch irgendeinen Logistik-Monitor, der vom Hersteller von einem anderen System da ist. Und ich denke, das stört gar nichts. Es ist eher, wenn es eben Customer-Facing-Applikationen sind, dann möchte man natürlich, dass das ziemlich seamless ist. Aber wie gesagt, durch den Schnitt kann man steuern, wie viel Integrationsdaten tatsächlich braucht auf dieser Ebene.
+
+**Silvia Schreier:** [0:43:13] Ich glaube aber, dass die...
+
+**Eberhard Wolff:** [0:43:13] Ich hatte ja auch zwei Sätze. Ich hatte... Ich als jemand, der nicht so wahnsinnig tief in E-Commerce drinsteckt, habe ich auch immer gefragt, warum jetzt ein Checkout, der irgendwie da ein Wizard ist, genauso aussehen soll wie irgendwie Produktsuche und Produkte browsen. Und das sind eben unterschiedliche Sachen. Hätte ich jetzt gedacht, weiß ich nicht. Silvia, ich habe dich unterbrochen.
+
+**Silvia Schreier:** [0:43:37] Nein, also ich glaube, ja, sie sehen unterschiedlich aus, aber gewisse Informationen sollten auch konsistent aussehen. Also ein Preis und eine Artikelbeschreibung sollte nicht jedes Mal irgendwie völlig anders strukturiert sein, Artikelnummern, auch wenn es einmal in der Suche und einmal im Checkout ist. Ich glaube aber... Das, was total wichtig ist, ist die Integrations- oder wie gut Systeme integriert sind, so viel höher ist der Nutzerwert. Das heißt, ich habe durchaus noch diese Anforderungen an, wie gut lassen sich meine Systeme integrieren. Also ja, ich erlaube Deep Links. Das ist das absolute Basic, unveränderbare Deep Links. Ich habe womöglich UI-Komponenten, die ich einbetten kann, hatte Johannes vorhin schon gesagt. Also dieses ganze Frontend-Web-Integrationsthema. Die Möglichkeiten sind da. Ich muss es, glaube ich, dann zum einen technisch machen und ich muss es aber auch von der Produktseite her denken. Wir hatten bei uns das Beispiel, es gibt das typische BI-Tool, wo ich mir Abverkaufszahlen zu meinen Artikeln anschauen kann als Händler. Gleichzeitig habe ich ein System, wo ich Sachen nachbestellen kann. Das ist doch das Naheliegendste, eigentlich zu sagen, ich bin gerade auf einer Produktseite, wo ich etwas nachbestellen kann. Ich schaue mir nochmal die Performance von dem Artikel an. Will ich den oder wie viel brauche ich davon? Da einen Link ins BI-Tool rein, aber auf solche Sachen muss ich erstmal kommen. Das heißt, oft muss die Integration gar nicht eins zu eins sein. Ich darf auch sehen, dass es einen Systembruch gibt. Das ist so das eine. Und das andere Extrem ist, wir haben einmal sogar unternehmensübergreifend, also im Konzern, eine gemeinsame Navigationsleiste über mehrere CMS- und Shop-Systeme hinweggebaut. Und ich behaupte, der Endkunde hat das nicht gemerkt. Das heißt, es gab ein Designsystem, so ein bisschen das ganze CI-Thema abgebildet und eben diese Navigationsleiste wurde dann von einem System aus verteilt. Ja, da muss ich mir dann wieder über die Kopplung Gedanken machen, aber ich glaube, das geht und da steckt extrem viel Benefit für den Nutzer hinter. Wenn ich Glück habe, ich muss nur eins benutzen, gerade in so Backoffice-Anwendungen ist das, glaube ich, üblich, dass ich ein, zwei Systeme vielleicht habe. Aber der echte Mehrwert von den Systemen kommt, wenn sie gut integriert sind, ich direkt von einer Analyse in eine Aktivität abspringen kann und so weiter, auch bei internen Mitarbeitern, je nachdem, wie es sich halt verhält. Es gibt Bereiche, die dann doch irgendwie fünf Informationsquellen brauchen oder so.
+
+### Systeme ohne Oberfläche und der Sweet Spot von SCS
+
+**Eberhard Wolff:** [0:45:59] Es gibt eine Frage, die ist durch die Website reingekommen und ist deswegen anonym. Ich habe sie jetzt hier wieder mal sozusagen in YouTube veröffentlicht, damit wir sie hier auch einblenden können. Und habe sie auch etwas reformuliert. Ich hoffe, dass das okay ist. Also die Frage ist, ist ein System für den Austausch von Daten mit verschiedenen Tools und Programmen ebenso zu behandeln bei seinen Slices wie das Modularitätsthema sonst auch gehandhabt wird? Und wenn ich mich daran versuchen darf, ich würde behaupten, nein, weil ein System, was halt nur Daten von links nach rechts schaufelt, hat eine technische Aufgabe in erster Linie. Und da sind viele von den Techniken, über die wir sonst reden für Business-Logik, Schwergewichte nicht so relevant, weil ich einfach keine Geschäftslogik habe. Und diese ganzen Sachen, die ich bei taktischem DDD mache, mit Entities und Aggregates und Services und so weiter, die würde ich zum Beispiel unterlassen. Es macht vielleicht auch, so ein System hat vielleicht auch gar keine Benutzeroberfläche, sodass es kein Self-contained System sein kann. Und manchmal ist es da dann, also deswegen gibt es ja solche Sachen wie Transaction Script oder so, womit ich dann einfach sage, hier ist halt ein Stück Code, ich gehe mal kurz auf die Datenbank, mache halt irgendetwas oder schicke die Daten halt irgendwo hin und das ist es dann. Ich würde vielleicht noch anmerken, dass solche Systeme manchmal... Die Chance vertun, Geschäftslogik zu haben. Also ein System, wo jetzt Benutzer sagen, ich will halt nur diese Daten sehen, Da sollte man dann jetzt nächstes fragen, warum und was machst du damit? Weil das ist das, was tatsächlich interessant ist. Also werden die interpretiert, wird damit irgendwas getan und das ist ja eigentlich, das ist eigentlich dann die Geschäftslogik, vielleicht will ich das automatisieren.
+
+**Johannes Seitz:** [0:47:48] Yeah. Ich finde, das bringt auch ganz gut den Punkt heraus, SCS ist natürlich nicht die Silver Bullet, die überall passt, sondern ich glaube, der Sweet Spot für diese Architektur ist ähnlich verortet, wie auch der Sweet Spot für Domain-driven Design im Allgemeinen ist. Also wenn ich eine wahnsinnige fachliche Komplexität habe, idealerweise so viel, dass es nicht ein Team alleine stemmen kann, sondern ich mir verschiedene Teams habe, die daran parallel arbeiten möchten und weitgehend unabhängig sein möchten. Und wie gesagt, die Komplexität ist fachlicher Natur. Sie ist nicht aufgrund der technischen Lösungen, nicht aufgrund dem, was wir machen. Ich hatte mal einen Kunden, der hat... Telefonanlagen-Software gebaut. Und bei denen war die Komplexität nicht fachlicher Natur, sondern vor allem technischer Natur. Verschiedene Standards von Telefonverbindungen, SIP muss mit ISDN und hast du nicht gesehen. Und da kam die Komplexität halt einfach wo ganz woanders her. Da hat das mit dem Self-contained Systems und mach Vertikalen und so einfach nicht drauf gepasst auf deren Domäne.
+
+**Silvia Schreier:** [0:49:07] Ich hätte auch gesagt, man kann nochmal trotzdem potenziell von Self-contained Systems lernen, weil man muss das Ding nicht als ganzes Paket kaufen, sondern ich muss eigentlich verstehen, welche der Regeln bringt mir welchen Benefit und dann kann ich auch sagen, oh, asynchrone Datenreplikation ist echt nützlich, das ganze UI-Zeug brauche ich nicht, weil deswegen, ich war mir bei der Frage gerade gar nicht sicher, macht dieses Tool wirklich nichts mit den Daten oder hat das doch eine Geschäftslogik, hat aber keine... Nutzerinteraktion und braucht deswegen diesen UI-Teil nicht. Ich glaube, ja, dann muss ich nicht alles, was dieses UI bedingt, haben, aber ich kann trotzdem, asynchrone Datenreplikation kann auch total nützlich sein ohne eine UI oder die geteilte Infrastrukturthematik kann ich mir auch rauspicken und überlegen, was das für mich bedeutet.
+
+**Simon Martinelli:** [0:49:51] Genau. Ich denke, bei unserem System, also beim Großhandelskunden, hat es natürlich ganz viele Kundenschnittstellen. Es hat Lieferanten-Datenschnittstellen und jetzt ist die Frage, was machen die? Also gehen die direkt auf die Datenbanken, die Daten sammeln oder haben die eben auch eine Sicht oder eine Replikation auf die Daten, die sie brauchen und exportieren die dort dann von dort? Also das hat sicher, unabhängig davon, dass es eben kein UI gibt natürlich, wobei es meistens eben trotzdem ein UI geben könnte, weil vielleicht jemand sehen möchte, was da gerade läuft oder wenn es Probleme gibt. Und deshalb könnte das dort ja auch irgendwann gelten.
+
+**Eberhard Wolff:** [0:50:29] Und ich glaube, das ist ein ganz wichtiger Punkt, also zu sagen, dass das halt eine Inspirationsquelle ist und eine Zusammensetzung von bestimmten Ansätzen. Und was ich manchmal so als Frage bekomme, bekommen habe, insbesondere in Trainings ist, naja, ich habe hier ein System, keine Benutzeroberfläche, wie mache ich denn daraus Self-contained Systems? Und also die Antwort ist, naja, macht man halt nicht. Und ich glaube, da ist halt so ein bisschen dieses Problem, dass das scheinbar so eine Art, wie soll ich sagen, Qualitätssiegel ist, nicht? Also ja, offiziell Self-contained System und das ist irgendwie am Ziel vorbei, nicht? Also es geht nicht darum, dass wir Self-contained Systems bauen, sondern wir wollen halt eine Architektur bauen und die Architektur soll irgendwie das unterstützen, was wir gerade tun. Self-contained Systems sind irgendwie besonders, merkt man hier ja auch, eben in sowas wie Web-E-Commerce, insbesondere dort und allgemein eben für Web-Systeme hilfreich. Und das bedeutet, dass es halt in anderen Bereichen eben nicht hilfreich ist und man was anderes machen sollte.
+
+**Johannes Seitz:** [0:51:39] Wobei ich jetzt nicht ausschließen würde, dass man gewisse Systeme, die per Definition ein Deployment-Monolith sind, nicht auch irgendwie Ideen daraus nehmen kann. Also ich denke vor allem an Mobile-Apps. Die lassen sich zu einem gewissen Grad auch vertikalisieren und sei es, indem ich Teile davon zur Web-App mache und sage, dieser Tab hier ist eine reine Web-View oder dass ich hergehe und versuche, das halt als modulare, monolithische Code-Basis zu pflegen, aber auch dann wieder mit unabhängigen Teams, die unabhängige Module voneinander entwickeln und beisteuern dürfen. Also es kann durchaus Inspiration sein, wie ihr schon gesagt habt.
+
+**Eberhard Wolff:** [0:52:21] Und da ist aber dann für mich tatsächlich der Fokus eben Modularisierung, Domain-driven Design und dieses ganze Zeug. Und deswegen ist ja, also ich halte das tatsächlich, es gibt in unserer Branche viele Sachen, die man halt kritisieren kann, aber dass jetzt eben wir stärker auf diese Themen, über diese Themen reden, obwohl Domain-driven Design ja noch älter ist, das ist irgendwie, ich glaube, 25 Jahre alt mindestens. Finde ich halt deswegen gut.
+
+### Code-Duplikation, Designsystem und Autonomie
+
+**Eberhard Wolff:** [0:52:45] Ah, hier ist ein Kommentar von baumrinde-k8y bei YouTube. Er oder sie schreibt nur meine drei Cents zum Thema. Hatte eine Querschnittsrolle Performance Engineer für eine signifikant große SCS-Umsetzung. Und dann kommt halt die Aussage, das Konzept führt zu gigantischen... Zur gigantischen Duplikation von Code, insbesondere im Bereich der Web-Frontends, war es ein Uphill-Battle gegen mehr als 20 Teams, gegen Inkonsistenz, Duplikation, inkompatible Technologien. Ich sehe Nicken.
+
+**Silvia Schreier:** [0:53:24] Ich würde sagen, ja, bestimmt. Also die Wahrscheinlichkeit, dass sich Code dupliziert, ist groß. Da muss ich mir dann, glaube ich, Gedanken machen, mache ich sowas wie InnerSource oder also Shared Libraries im Sinne von, als wären sie Open Source. Das kann das ein Stück weit helfen, aber auch das hat in der Realität sich dann oft auch sehr unabhängig von weiterentwickelt. Die Frage ist, ja, es ist ein Preis, den ich zahle, für einen Benefit möglicherweise, dass ich die Unabhängigkeit habe. Da bin ich jetzt dann vielleicht auch langsam zu lange weg von der Entwicklung. Heute mit KI, wie schlimm ist die Code-Duplikation vielleicht noch? Also die Frage ist, da würde ich sagen, das war vor fünf Jahren noch deutlich schlimmer, weil dann wollte ich was upgraden oder verbessern oder verändern. Das würde ich sagen, ist heute deutlich leichter geworden. Inkonsistenz, ja, gutes Designsystem hilft an der Stelle, was dann auch wirklich nicht unbedingt dupliziert ist. Auf der anderen Seite auch da wieder der Trade-off, merkt es der Kunde überhaupt, stört das den Kunden, wird er deswegen nicht kaufen oder kauft er nicht, weil mein System nicht da ist. Also ich glaube, das ist, ja.
+
+**Simon Martinelli:** [0:54:29] Ich würde sagen, wir haben praktisch keine Duplikation, weil wir ein sehr gutes Designsystem haben. Es liegt auch mit der Webtechnologie zusammen, die wir verwenden. Und auf der anderen Seite haben wir ganz viele Integrationssachen, zum Beispiel für Single Sign-On oder für andere Dinge, Monitoring, Tracing, Observability. Und das ist alles geteilt. Also das heißt, wir haben diesen praktisch Open-Source-Gedanken, dass wir Libraries zur Verfügung stellen, die dann von den Teams gewählt werden. Auch wenn ein Self-contained System gestartet wird, gibt es ein Archetype, um das zu starten und nicht jeder macht dann von Hand irgendwas, bis das Projekt da ist. Und man kann die Duplikation schon reduzieren, wenn man sich das bewusst macht, also auch in den Teams oder teamübergreifend eben, und das ist halt Architekturarbeit, dass man Vorteile aufzeigt und Antworten und dann das versucht.
+
+**Silvia Schreier:** [0:55:20] Aber in dem Moment beschneidest du ein Stück weit die vermeintliche Freiheit in der Mikroarchitektur. Ich glaube, aber meiner Meinung nach ist das eine gute Entscheidung, die in gewissen Grenzen zu setzen für eine Mikroarchitektur, weil nur weil ich kann, heißt das noch lange nicht, dass ich diese Freiheit nutzen muss für das große Ganze, für die Effizienz im Gesamtunternehmen, Projekt, Flexibilität zwischen Teams und so weiter.
+
+**Simon Martinelli:** [0:55:47] Wir haben auch ein Architektur-Board, wo wir ADRs definieren, die übergreifend gelten sollen. Und wenn es eben anders sein muss, gibt es Ausnahmen. Also ganz normaler Architektur-Prozess an und für sich.
+
+**Eberhard Wolff:** [0:56:00] Genau, er oder sie schreibt jetzt auch, die einzige Lösung, auf die ich kam, war mit großer Fanfare Dinge wie ein Designsystem einzuführen. Da sind wir halt offensichtlich der Meinung, dass das eine gute Idee ist. und abgespacete Lösungen zum Beispiel für Caching einzuführen, da bin ich mir nicht sicher, abgespacet, also was das bedeuten soll, Ich würde halt behaupten, das ist eben ein Teil von Architekturarbeit im Bereich von Self-contained Systems. Und also sozusagen auf die Gefahr, mich unbeliebt zu machen, Das ist halt ein Trade-off. Inkonsistenzen, und das hat sich ein bisschen schon angekündigt, oder ist ja schon in der Diskussion so ein bisschen angeklungen, wenn ich halt Inkonsistenzen tatsächlich vermeiden will, dann müsste ich halt irgendwie die Freiheit der Teams signifikant beschneiden. Und das geht manchmal nach hinten los. Also ich kenne ein Beispiel, was ja auch gar nicht so abwegig ist, wo irgendwie die Aussage ist, ihr müsst halt alle irgendwie ein Framework benutzen. Das ist halt in dem Legacy-System ein Framework. Das war damals die richtige Entscheidung. Es gab ja auch diese Generation von Architektinnen, die halt irgendwie darauf geachtet haben, dass irgendwie ein einheitliches Framework gebaut und dann umgesetzt wird. Und das ist halt in dem spezifischen Fall, natürlich führt das zu Konsistenz, weil alle halt das Framework benutzen und das ist technisch alles irgendwie dasselbe. Das hat halt andere dramatische Konsequenzen, weil dieses Framework halt technisch einfach schlecht ist. Und das ist halt sozusagen das andere. Ich glaube, die Aussage ist, es gibt hier eine gewisse Gefahr. Es gibt einen starken Fokus auf eine Autonomie. Und das, was hier beschrieben wird, ist, dass dieser starke Fokus auf die Autonomie eben sich in einen Nachteil verwandelt. Da muss man halt aufpassen. Das gilt aber, glaube ich, für jeden Architekturansatz. Und da ist es dann die Aufgabe der Architektin, dafür zu sorgen, dass eben diese Nachteile eben ausgeglichen werden im Designsystem.
+
+### Monolith, Microservices oder SCS?
+
+**Eberhard Wolff:** [0:57:50] Was er hier noch schreibt, im Backend sehe ich gegenüber Microservices überhaupt keinen Vorteil von SCS. Im Webfrontend würde ich, falls nötig, Microfrontends einführen. Und lange auf Monolithen setzen. Naja, also es sagt ja, dass es kein Backend und Frontend gibt. Und wenn man mit Monolithen sein Problem erschlägt, ist das für mich auch fein. Ich habe Schwierigkeit, mir vorzustellen, dass in den Kontexten, in denen sich Silvia und Simon zumindest bewegen, der ja so durchklingt, also ist da Monolith eine Alternative?
+
+**Simon Martinelli:** [0:58:29] Nein, viel zu groß. Also zu groß und zu unflexibel würde ich behaupten. Und Microservices und Microfrontends würden überhaupt nicht gut passen, weil wir dann eben wiederum eine Deployment-Abhängigkeit hätten. Und das löst ja auch das Design-Problem im Endeffekt nicht, das vorher angesprochen wurde. Ich denke, der Charme von Self-contained Systems ist primär der, dass eben der ganze vertikale Schnitt umgesetzt wird von einem Team und es eben keine Trennung gibt zwischen Backend und Frontend im Sinn von, wir machen verschiedene Teams, die dann unabhängig voneinander entwickeln. Und auf der anderen Seite, wenn wir an KI-Entwicklung denken, ist das der richtige Schnitt, weil KI ein Fullstack-Entwickler ist sowieso. Und da gibt es keine dieses Reverse-Conway-Manöver, brauchen wir dort nicht zu machen, weil wir grundsätzlich sowieso alles... implementieren können. Ich habe einen Kunden, eine große Versicherung in der Schweiz, die haben Microservices und Microfrontends und dort kämpfen wir im Moment darum, wie können wir jetzt zum Beispiel spec-driven arbeiten, welche Microfrontend-Teile und welche Microservices gehören jetzt zu diesem Use Case, den wir im Moment gerade umsetzen wollen. Ich denke, eine große Herausforderung in solchen Architekturen. Und das hilft bei Self-contained System, weil es sich eben in dem Umfeld, die wir uns bewegen, eigentlich wie natürlich daherkommen. Es gibt Trade-offs und Grauzonen, das haben wir mehrfach erwähnt, aber der Schnitt ist sehr natürlich eigentlich, wenn man drauf schaut.
+
+**Johannes Seitz:** [1:00:06] Ich denke, so den klassischen Monolithen würde ich auch wenigen Firmen wirklich noch ans Herz legen. Ich würde, wenn dann dort, wo ich wirklich als kleines Team starten möchte oder starten muss, weil ich ein Startup bin, würde ich vielleicht so beginnen. Und selbst dann würde ich relativ bald, wenn klar ist, wo das Geschäftsmodell hinfährt, gucken, dass ich zumindest eine Modularisierung innerhalb dieses Monolithen investiere und gucke, dass ich quasi Sollbruchstellen habe, wenn ich irgendwann zum Scale-up werde, dass ich sagen kann, dieser Teil geht an ein Team, dieser Teil geht an ein anderes Team. Das lässt sich mit ein bisschen strategischem Architekturvoraussicht, lässt sich das relativ gut gestalten, dass man so einen Monolithen strukturiert aufbaut und splitbar macht in verschiedene Self-contained Systems, Microservices, was auch immer man da anstrebt.
+
+**Eberhard Wolff:** [1:01:05] Und ich würde mir wünschen, dass wir in einer Realität leben würden, in der es klar ist, dass man Monolithen modularisieren will. Also du gehst noch ein bisschen weiter und sagst halt, dass es halt Sollbruchstellen geben soll. Aber ich finde halt immer diese Geschichte mit den modularen Monolithen halt schwierig, weil wer ernsthaft sagt, wir wollen Monolithen nicht modularisieren, okay. Das bedeutet halt die Abwesenheit von Softwarearchitektur.
+
+### Reden wir in zehn Jahren noch über Self-contained Systems?
+
+**Eberhard Wolff:** [1:01:27] So ein bisschen als Abschlussfrage, wir sind ein bisschen über die Zeit. Das Interessante bei dieser Episode ist eben tatsächlich, dass die Self-contained-Systems-Webseite zehn Jahre alt ist. Der Artikel von Philipp und Stefan ist sogar 15 Jahre alt. Sprechen wir also in zehn Jahren noch über Self-contained Systems?
+
+**Simon Martinelli:** [1:01:48] Zehn Jahre sind vielleicht mit KI-Zeitrechnung ein wenig lange. Aber ich würde sagen, ja, weil ich habe es bereits erwähnt, für KI finde ich Self-contained Systems der optimale Schnitt, weil nicht nur für den Menschen der Kontext geschnitten wird und eine gewisse Grenze darstellt, sondern auch für KI. Also das heißt, eigentlich passt das super gut. Das ist auch ein Teil meiner Vorträge, deshalb habe ich eine schöne Überleitung bei meinen Vorträgen von Self-contained Systems zu KI-getriebener Softwareentwicklung. Und deshalb denke ich, das hilft. Ich denke, kleine Applikationen auch in Bezug auf Modernisierung ist viel besser. Ich mache Modernisierungsprojekte und einen Monolithen zu modernisieren dauert vielleicht drei bis fünf Jahre oder länger, je nachdem. Und wenn wir jetzt Self-contained Systems modernisieren würden, wären wir natürlich viel schneller, weil wir nur einzelne Teile der Applikation austauschen müssten. Also das hat definitiv auch auf die Nachhaltigkeit deiner Softwarearchitektur einen großen Einfluss.
+
+**Johannes Seitz:** [1:02:51] Ich sehe es relativ ähnlich. Die Probleme, die damit adressiert werden mit der Architektur, sind einfach Probleme, die genauso alt sind wie Software-Systeme selbst. Also Sachen werden zu groß, Sachen werden zu komplex und ich möchte sie irgendwie so zerteilen in verschiedene Teilsysteme, dass sie halt relativ unabhängig voneinander sind. Also wir sind am Kern der Software-Architektur, der Software-Modularisierung dran. Und Self-contained Systems ist für mich eine Sammlung von Good Practices, die sich bewährt haben in den Szenarien, die ich vorhin schon genannt habe. Also komplexe Fachlichkeit, verschiedene Teams, die daran arbeiten möchten. Und solange wir diese Szenarien haben, denke ich, wird da irgendwas drin sein, was wir rausziehen können, was uns die Arbeit vielleicht in irgendeiner Weise vereinfachen wird.
+
+**Silvia Schreier:** [1:03:43] Ich hätte so eine Mischung aus beiden. Also KI wird vielleicht das Web verändern. Also ob unsere UX noch in zehn Jahren genauso aussieht, das traue ich mich jetzt nicht zu sagen. Aber der Grundgedanke dahinter, fachlich sinnvolle Systeme, die resilient laufen, ich glaube, die wird es auch in zehn Jahren noch benötigen, die Aspekte davon auf jeden Fall. Wie die dann integriert vielleicht werden, was sich da noch verändert. Da lassen wir uns überraschen. Und für die Entwicklung mit KI sind die eben durch diese Abgeschlossenheit, diese Unabhängigkeit, habe ich auch da viel kleineren Blastradius. Das heißt, das ist, glaube ich, weiterhin ein guter Ansatz für die nächsten zehn Jahre.
+
+**Eberhard Wolff:** [1:04:23] Ja, also ich habe dem wenig hinzuzufügen. Ich glaube, Modularisierung ist für AI sicherlich auch ein sehr wichtiges Thema und das ist zweifellos so. Und daher ist das, glaube ich, sehr klar. Also wir wollen halt einfach schauen, dass wir Systeme bauen können aus kleinen Anteilen. Dann würde ich sagen, vielen Dank, dass ihr da wart und eure Erfahrungen, Ideen und Meinungen ausgetauscht hat. Ich fand es sehr spannend und interessant und hilfreich. Und ich wünsche schon mal ein schönes Wochenende. Und vielleicht sehen wir uns auf einer Konferenz oder so. Bis dahin. Tschüss.
+
+**Silvia Schreier:** [1:04:56] Ciao.
+
+**Simon Martinelli:** [1:04:56] Tschüss.
