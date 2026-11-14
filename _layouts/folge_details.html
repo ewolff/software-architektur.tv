@@ -4,6 +4,8 @@
 {%- assign filename = page.path | split: '/' | last %}
 {%- assign episode_id = filename | split: '.' | first %}
 {%- assign episode = site.posts | where_exp: "post", "post.path contains episode_id" | first %}
+{%- assign highlights_path = "highlights/" | append: episode_id | append: ".md" %}
+{%- assign highlights = site.pages | where: "path", highlights_path | first %}
 
 {%- if episode.tags contains "English" %}
 {%- if page.path contains 'zusammenfassung' %}
@@ -12,6 +14,8 @@
   {%- assign calculated_title = episode.title | append: ' | Bullet Points' %}
 {%- elsif page.path contains 'transcriptions' %}
   {%- assign calculated_title = episode.title | append: ' | Transcript' %}
+{%- elsif page.path contains 'highlights' %}
+  {%- assign calculated_title = episode.title | append: ' | Highlights' %}
 {%- endif %}
 {%- else %}
 {%- if page.path contains 'zusammenfassung' %}
@@ -20,6 +24,8 @@
   {%- assign calculated_title = episode.title | append: ' | Stichpunkte' %}
 {%- elsif page.path contains 'transcriptions' %}
   {%- assign calculated_title = episode.title | append: ' | Transkript' %}
+{%- elsif page.path contains 'highlights' %}
+  {%- assign calculated_title = episode.title | append: ' | Highlights' %}
 {%- endif %}
 {%- endif %}
 
@@ -40,11 +46,17 @@
 	<a href="/stichpunkte/{{-episode_id }}.html">Bullet Points</a>
 	&nbsp;
 	<a href="/transcriptions/{{-episode_id }}.html">Transcript</a>
+{%- if highlights %}
+	&nbsp;
+	<a href="/highlights/{{-episode_id }}.html">Highlights</a>
+{%- endif %}
       </section>
+{%- unless page.shorts %}
       <p>
 	This text was generated using AI and might contain
 	mistakes. Found a mistake? 
 	<a href="https://github.com/ewolff/software-architektur.tv/edit/master/{{-page.path }}">Edit at GitHub</a>
+{%- endunless %}
 {%- else %}
 	<a href="{{-episode.url }}">Folge (Video/Podcast)</a>
 	&nbsp;
@@ -53,14 +65,33 @@
 	<a href="/stichpunkte/{{-episode_id }}.html">Stichpunkte</a>
 	&nbsp;
 	<a href="/transcriptions/{{-episode_id }}.html">Transkript</a>
+{%- if highlights %}
+	&nbsp;
+	<a href="/highlights/{{-episode_id }}.html">Highlights</a>
+{%- endif %}
       </section>
+{%- unless page.shorts %}
       <p>
 	Der nachfolgende Text wurden mit KI erstellt und kann Fehler enthalten.
 	Fehler gefunden? <a href="https://github.com/ewolff/software-architektur.tv/edit/master/{{-page.path }}">Bei GitHub editieren</a>
       </p>
+{%- endunless %}
 {%- endif %}      
 
 {{-content }}
+
+{%- if page.shorts %}
+{%- assign image-url = site.url | append: "/thumbnails/" | append: episode.thumbnail %}
+<h2 id="highlights">Highlights</h2>
+{%- include highlights.html
+  shorts=page.shorts
+  image-url=image-url
+  %}
+<input type="checkbox" id="highlightsConsent" value="no">
+<label for="highlightsConsent">Peertube-Videos von tchncs.de eingebettet anzeigen</label>
+<a href="/datenschutzhinweise.html">Datenschutzerklärung</a>
+<script src="/js/embed-highlights.js" defer></script>
+{%- endif %}
 
 {%- include page-footer.html %}
 

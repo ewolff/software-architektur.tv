@@ -10,6 +10,8 @@
 
 {%- assign zusammenfassung_path = "zusammenfassung/" | append: page.episode_id | append: ".md" %}
 {%- assign zusammenfassung = site.pages | where: "path", zusammenfassung_path | first %}
+{%- assign highlights_path = "highlights/" | append: page.episode_id | append: ".md" %}
+{%- assign highlights = site.pages | where: "path", highlights_path | first %}
 {%- if zusammenfassung %}
 {%- if page.tags contains "English" %}
       <section id="content-links">
@@ -20,6 +22,10 @@
 	<a href="/stichpunkte/{{-page.episode_id }}.html">Bullet Points</a>
 	&nbsp;
 	<a href="/transcriptions/{{-page.episode_id }}.html">Transcript</a>
+{%- if highlights %}
+	&nbsp;
+	<a href="/highlights/{{-page.episode_id }}.html">Highlights</a>
+{%- endif %}
       </section>
 {%- else %}
       <section id="content-links">
@@ -30,6 +36,10 @@
 	<a href="/stichpunkte/{{-page.episode_id }}.html">Stichpunkte</a>
 	&nbsp;
 	<a href="/transcriptions/{{-page.episode_id }}.html">Transkript</a>
+{%- if highlights %}
+	&nbsp;
+	<a href="/highlights/{{-page.episode_id }}.html">Highlights</a>
+{%- endif %}
       </section>
 {%- endif %}      
 {%- endif %}

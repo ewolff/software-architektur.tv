@@ -1,0 +1,20 @@
+<div class="highlights">
+{%- for short in include.shorts %}
+  {%- assign short_link = short.peertube | replace: "videos/embed/", "w/" %}
+  {%- if short.thumbnail %}
+    {%- assign short_image = site.url | append: "/thumbnails/" | append: short.thumbnail %}
+  {%- else %}
+    {%- assign short_image = include.image-url %}
+  {%- endif %}
+  <figure class="short">
+    <div class="embed-container ratio4x5 highlight-container" data-peertube-video-link="{{-short.peertube}}" data-title="{{-short.title | escape}}">
+      <img src="{{-short_image}}" alt="" loading="lazy" />
+      <div class="play-icon" aria-hidden="true">▶<br /></div>
+    </div>
+    <figcaption>
+      {{-short.title | escape}}<br />
+      <a href="{{-short_link}}">Video bei tchncs.de</a>
+    </figcaption>
+  </figure>
+{%- endfor %}
+</div>
