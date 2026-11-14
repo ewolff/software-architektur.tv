@@ -170,6 +170,8 @@ Folgen, die neuesten zuerst. Startseite: {{ site.url }}
   {%- if profile.hinweis -%}{{ profile.hinweis }}{{- nl -}}{%- endif -%}
   {%- if id != "" and transcripts contains key -%}
     Transkript: ja – Text: {{ site.url }}/transcriptions/{{ id }}.txt
+  {%- elsif source == "profil" or source == "zusammenfassung" -%}
+    Transkript: noch nicht als Text verfügbar – Inhaltsangabe aus der Sendung
   {%- elsif source == "beschreibung" -%}
     Transkript: nein – Inhaltsangabe aus der Kurzbeschreibung vor der Sendung
   {%- else -%}
