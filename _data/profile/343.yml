@@ -1,0 +1,15 @@
+themen:
+- Self-contained Systems
+- Laufzeitunabhängigkeit und Resilienz
+- Fachlicher Schnitt und Domain-driven Design
+- Asynchrone Integration und UI-Integration
+- Geteilte Infrastruktur und Datenbankintegration
+- Information Hiding
+- Teamorganisation und Bottleneck-Teams
+- Designsystem und Code-Duplikation
+- Monolith, Microservices und Microfrontends
+gaeste:
+- Silvia Schreier
+- Johannes Seitz
+- Simon Martinelli
+profil: 'Eberhard Wolff, der vor über zehn Jahren die Website zu Self-contained Systems angelegt hat, diskutiert mit Silvia Schreier, Johannes Seitz (INNOQ) und Simon Martinelli, was von dem Ansatz geblieben ist. Ist ein SCS ein Microservice mit eigener Web-Oberfläche, ein begrenzter Monolith oder eine Teilapplikation? Silvia stellt die Laufzeitunabhängigkeit in den Mittelpunkt, Eberhard den fachlichen Schnitt. Weitere Themen: warum die Nicht-Vernetzung der Systeme zählt, asynchrone und UI-Integration, wie viel geteilte Infrastruktur vertretbar ist, warum Integration über gemeinsame Datenbanken Information Hiding verletzt, Bottleneck-Teams wie der Checkout, gemeinsame Navigation, Systeme ohne Oberfläche, Code-Duplikation bei über 20 Teams, Designsystem und Architektur-Board sowie Monolith und Microfrontends als Alternativen. Zum Schluss: Hilft der begrenzte Kontext von SCS auch KI-getriebener Entwicklung? Interessant für alle, die große Web-Anwendungen auf mehrere Teams aufteilen oder modernisieren.'

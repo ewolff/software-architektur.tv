@@ -1,0 +1,12 @@
+themen:
+- Saubere Software-Architektur und KI
+- Zyklenfreie Abhängigkeiten
+- Big Ball of Mud und Technical Friction
+- Architekturmodell und Architektur-DSL
+- MCP-Server für KI-Agenten
+- Statische Analyse mit Sonargraph
+- ArchUnit und CI-Pipeline
+- Modernisierung bestehender Systeme
+gaeste:
+- Alexander von Zitzewitz
+profil: 'Ralf D. Müller fragt Alexander von Zitzewitz, Gründer von hello2morrow, ob saubere Architektur noch zählt, wenn KI den Code schreibt. Seine These: mehr als vorher, denn KI verstärkt, was sie vorfindet; in einem Big Ball of Mud erzeugt sie mehr davon und braucht mehr Tokens. Architektur ist für ihn innere Struktur auf zwei Säulen: zyklenfreie Abhängigkeiten und ein Architekturmodell. Unbewusst entstandene Zyklen nennt er Technical Friction statt technischer Schulden. In einer Live-Demo zeigt er Gradle in Sonargraph und wie Claude per Virtual Refactoring Zyklen schrittweise auflöst. Weitere Themen: warum Grep und LSP kein Dependency-Modell liefern, der MCP-Server Zügel als Quelle der Wahrheit für Agenten, warum ArchUnit zu spät prüft, eine textuelle Architektur-DSL statt Regeln in CLAUDE.md, mehrere Agenten am selben System, Prüfung in der CI-Pipeline, Grenzen bei Python und Reflection. Interessant für alle, die mit KI-Agenten an gewachsenen Codebasen arbeiten oder sie modernisieren wollen.'

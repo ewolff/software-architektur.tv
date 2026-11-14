@@ -1,0 +1,11 @@
+themen:
+- Schichtenarchitektur
+- Netzwerk-Stack und Information Hiding
+- Drei-Schichten-Architektur
+- Hexagonale Architektur und Ports and Adapters
+- Übersetzungsschichten und Entkopplung
+- Datenmodelle je Schicht
+- Architektur auf Vorrat
+- Anti-Corruption Layer
+- Testbarkeit
+profil: 'Eberhard Wolff fragt allein vor der Kamera und im Austausch mit dem Chat, was Schichten leisten und wie viele ein System braucht. Vorbild ist der Netzwerk-Stack, in dem untere Schichten austauschbar und ihre Details verborgen sind. In der Drei-Schichten-Architektur aus UI, Logik und Persistenz gelingt das schlechter: Das Datenbankmodell prägt die Logik, technische Exceptions scheinen durch, und für Drittsysteme ist unklar, ob sie oben oder unten liegen. Die hexagonale Architektur dreht die Abhängigkeit um und macht die Logik testbar. Zweiter Schwerpunkt sind Übersetzungsschichten, die Modelle umkopieren: sinnvoll an Schnittstellen zu anderen Teams, innerhalb eines Systems meist nur Aufwand, weil eine typische Änderung durch alle Schichten geht. Eberhards Rat: nicht auf Vorrat bauen, sondern erst bei Bedarf. Weitere Themen: das Anti-Corruption Layer als Schutz vor einem schlechten Altmodell statt als Entkopplung, ein eigenes Modell für die UI, der Sinn eines UI-Ports und die Frage, ob man im KI-Zeitalter noch selbst programmiert. Interessant für alle, die über Schichten, Mapping zwischen Modellen und hexagonale Architektur entscheiden.'

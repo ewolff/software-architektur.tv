@@ -1,0 +1,10 @@
+themen:
+- Schichtenarchitektur
+- Dependency Inversion Principle
+- Hexagonale Architektur
+- Ports and Adapters
+- Clean Architecture
+- Refactoring
+- Testbarkeit und Mocking
+- ArchUnit
+profil: 'Kurzvideo von knapp sieben Minuten: Eberhard Wolff zeigt an einem bewusst einfachen Beispiel aus einem Training, wie aus einer Schichtenarchitektur eine hexagonale Architektur wird. Ausgangspunkt sind drei Schichten: UI, Logik und Datenbankschicht mit einem Repository. Was daran stört: Die Geschäftslogik hängt von der Persistenz ab, Technik wie Exceptions schleicht sich ein, die Technologie lässt sich für Tests schwer ersetzen, und es bleibt unklar, wohin der Zugriff auf ein Drittsystem gehört. Die Lösung besteht aus zwei Refactorings: ein Interface aus dem Repository extrahieren und es in das Package der Geschäftslogik verschieben. Damit dreht sich die statische Abhängigkeit um, die Aufrufe zur Laufzeit bleiben gleich. Mit Database-Port, UI-Port und den passenden Adaptern ist daraus Ports and Adapters geworden; ArchUnit-Tests sichern die Abhängigkeiten ab. Fazit, angeregt durch ein Interview mit Vaughn Vernon: Der Unterschied zwischen Schichten und Ports and Adapters ist kleiner als gedacht. Interessant für alle, die das Dependency Inversion Principle und hexagonale Architektur in wenigen Minuten verstehen wollen.'
