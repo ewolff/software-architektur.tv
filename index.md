@@ -11,6 +11,14 @@ und manchmal LinkedIn - oft zusammen mit einem Gast. Zuschauer können über den
 Chat und das Formular unten mitdiskutieren oder Fragen stellen. Die Aufnahme
 steht danach als Video und Podcast zur Verfügung.
 
+<script src="/js/talkitover.js"></script>
+<p>
+<talk-it-over url="{{-site.url }}/episoden.txt"
+              prompt="Lade {url}. Ich suche passende Folgen von Software-Architektur im Stream zu einem Thema."
+              label="Let's talk it over"
+              providers="claude,chatgpt,copy"><a href="/episoden.txt">Alle Folgen als Text für deine KI</a></talk-it-over>
+</p>
+
 ## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
 Software architecture doesn’t live in diagrams – it’s forged in the
