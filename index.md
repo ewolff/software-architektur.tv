@@ -19,45 +19,32 @@ steht danach als Video und Podcast zur Verfügung.
               providers="claude,chatgpt,copy"><a href="/episoden.txt">Alle Folgen als Text für deine KI</a></talk-it-over>
 </p>
 
-## 2026-11-17 18:45 CET Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
+## 2026-11-20 13:00 CET Produktivität mit KI: Das Harvard-Paper
 
-Software architecture doesn’t live in diagrams – it’s forged in the
-gaps between teams, technologies, timelines, and trade-offs. Today,
-that landscape is shifting fast. LLMs and agentic workflows promise to
-erase friction – but often amplify it through toolchain sprawl,
-quality drift, and shifting accountability.
+Wie viel schneller werden Entwickler:innen durch den Einsatz von KI?
+Viele Studien untersuchen vor allem, wie stark KI das Coding
+beschleunigt. Doch schnellerer Code bedeutet nicht automatisch mehr
+Produktivität. Entscheidend ist letztlich, ob tatsächlich mehr
+sinnvolle Features entstehen und bei den Kunden ankommen.
 
-Yet friction is a signal. The most resilient teams channel it through
-shared understanding, recognizing that we’re shaping socio-technical
-systems – aligned through collaborative modelling woven into everyday
-decisions across architects, developers, QA, analysts, etc.
+Die [Harvard-Studie](https://fion.ac/jellyfish.pdf) hat Daten
+von 720.542 Entwicklern aus 655 Firmen ausgewertet und dabei mehr als
+nur die Coding-Leistung bewertet. In dieser Folge erläutert Eberhard
+die Ergebnisse der Studie an und diskutieren sie. Was lässt sich aus
+den Zahlen tatsächlich ableiten? Und was sagen sie über den
+Produktivitätsgewinn durch KI in der Software-Entwicklung aus?
 
-This fishbowl session confronts the reality behind the hype: how
-AI-generated code collides with architectural rigor, QA concerns, and
-production constraints. We’ll examine classic tensions (Conway’s Law,
-legacy vs. innovation, business urgency vs. technical debt) alongside
-new ones (toolchain sprawl, quality drift, over-reliance on generative
-AI).
+<!-- { include youtube.html  -->
+<!--  youtube-video-id="VzrNTrjp_jc"  -->
+<!--     image-url="/thumbnails/episode344.png" %}  -->
 
-As a conference attendee, you’re invited to step into the circle and
-challenge assumptions. Whether you’re an architect, engineer, QA lead,
-or system analyst, you’ll walk away with a refreshed perspective of
-timeless insights – and the courage to question them when it matters
-most.
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  	<a href="https://www.linkedin.com/events/7520417493513904128">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>  -->
+<!--  </section>  -->
 
-This is a live stream from iSAQB Software Architecture Gathering.
-
-{% include youtube.html 
- youtube-video-id="VzrNTrjp_jc" 
-    image-url="/thumbnails/episode344.png" %} 
-
- <section id="content-links">
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7520417493513904128">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> 
- </section> 
-
-[Event at treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4)
+<!-- [Event at treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4) -->
 
 
 ## Der Stream bei Konferenzen und Trainings
