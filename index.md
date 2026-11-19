@@ -34,18 +34,18 @@ die Ergebnisse der Studie an und diskutieren sie. Was lässt sich aus
 den Zahlen tatsächlich ableiten? Und was sagen sie über den
 Produktivitätsgewinn durch KI in der Software-Entwicklung aus?
 
-<!-- { include youtube.html  -->
-<!--  youtube-video-id="VzrNTrjp_jc"  -->
-<!--     image-url="/thumbnails/episode344.png" %}  -->
+{% include youtube.html
+	youtube-video-id="bRagCCFkUYM"
+    image-url="/thumbnails/folge347.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  	<a href="https://www.linkedin.com/events/7520417493513904128">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>  -->
-<!--  </section>  -->
+ <section id="content-links">
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7529217477957025795">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ </section>
 
-<!-- [Event at treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4) -->
-
+<!-- [Event at -->
+<!-- treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
