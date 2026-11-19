@@ -44,8 +44,7 @@ Produktivitätsgewinn durch KI in der Software-Entwicklung aus?
  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
  </section>
 
-<!-- [Event at -->
-<!-- treff.tech](https://treff.tech/events/3438863e-71a1-449e-a96a-50c2430628c4) -->
+[Event bei treff.tech](https://treff.tech/events/edit/29b2cd5d-860b-417b-8c61-e541d561f44f)
 
 ## Der Stream bei Konferenzen und Trainings
 
