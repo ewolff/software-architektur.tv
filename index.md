@@ -19,32 +19,19 @@ steht danach als Video und Podcast zur Verfügung.
               providers="claude,chatgpt,copy"><a href="/episoden.txt">Alle Folgen als Text für deine KI</a></talk-it-over>
 </p>
 
-## 2026-11-20 13:00 CET Produktivität mit KI: Das Harvard-Paper
+## Nächste Folge: offen
 
-Wie viel schneller werden Entwickler:innen durch den Einsatz von KI?
-Viele Studien untersuchen vor allem, wie stark KI das Coding
-beschleunigt. Doch schnellerer Code bedeutet nicht automatisch mehr
-Produktivität. Entscheidend ist letztlich, ob tatsächlich mehr
-sinnvolle Features entstehen und bei den Kunden ankommen.
+<!-- { include youtube.html -->
+<!-- 	youtube-video-id="bRagCCFkUYM" -->
+<!--     image-url="/thumbnails/folge347.png" %} -->
 
-Die [Harvard-Studie](https://fion.ac/jellyfish.pdf) hat Daten
-von 720.542 Entwicklern aus 655 Firmen ausgewertet und dabei mehr als
-nur die Coding-Leistung bewertet. In dieser Folge erläutert Eberhard
-die Ergebnisse der Studie an und diskutieren sie. Was lässt sich aus
-den Zahlen tatsächlich ableiten? Und was sagen sie über den
-Produktivitätsgewinn durch KI in der Software-Entwicklung aus?
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  	<a href="https://www.linkedin.com/events/7529217477957025795">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  </section> -->
 
-{% include youtube.html
-	youtube-video-id="bRagCCFkUYM"
-    image-url="/thumbnails/folge347.png" %}
-
- <section id="content-links">
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7529217477957025795">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- </section>
-
-[Event bei treff.tech](https://treff.tech/events/edit/29b2cd5d-860b-417b-8c61-e541d561f44f)
+<!-- [Event bei treff.tech](https://treff.tech/events/edit/29b2cd5d-860b-417b-8c61-e541d561f44f) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
