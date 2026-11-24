@@ -10,5 +10,3 @@ peertube:
 mp3:
   - ab: 0
     versatz: -3.21
-  - ab: 3636.77
-    versatz:

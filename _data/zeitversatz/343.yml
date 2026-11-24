@@ -7,7 +7,7 @@ peertube:
     versatz:
   - ab: 35
     versatz: -2.62
-  - ab: 3891.88
+  - ab: 3896.58
     versatz:
   - ab: 3898
     versatz: -4.74
@@ -20,7 +20,7 @@ mp3:
     versatz:
   - ab: 35
     versatz: -2.62
-  - ab: 3891.88
+  - ab: 3896.58
     versatz:
   - ab: 3898
     versatz: -4.74
