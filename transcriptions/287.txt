@@ -1,0 +1,178 @@
+# KI = Höhere Coding-Produktivität?
+
+Software Architektur im Stream, Folge 287, 2025-11-05.
+Ihr habt abgestimmt: Was bringt KI beim Coding?
+Seite: https://software-architektur.tv/2025/11/05/ki-hohere-coding-produktivitat.html
+YouTube: https://www.youtube.com/watch?v=Rh5hiqXSKeg
+PeerTube: https://tube.tchncs.de/w/7T3NHgDCy6kL8M6H8Jv4QV
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Steigert KI wirklich die Produktivität von Entwickler:innen – oder ist
+das nur ein Hype? In dieser kurzen Folge stellen wir die Ergebnisse
+unserer Umfrage vor und diskutieren, was sie über den tatsächlichen
+Einfluss von KI auf die Softwareentwicklung verraten.
+
+## Links
+
+- [Mastodon-Post: The Majority AI View](https://mastodon.social/@ewolff/115404841133849928
+)
+- [Können wir Entwickler:innen-Produktivität messen?](/2023/12/22/folge194.html)
+- [Umfrage bei
+  Mastodon](https://mastodon.social/@ewolff/115434363546195087)
+- [Umfrage bei
+  LinkedIn](https://www.linkedin.com/posts/eberhardwolff_what-kind-of-productivity-increase-for-coding-activity-7387799554600882176-pmQQ)
+
+## Zusammenfassung
+
+Hilft KI tatsächlich bei der Softwareentwicklung? Eberhard Wolff hat
+seine Follower auf Mastodon und LinkedIn gefragt. In dieser kurzen
+Folge zeigt er die Ergebnisse und ordnet sie ein. Auslöser war eine
+Diskussion mit Johannes Link auf Mastodon. Es ging darum, wie die
+Mehrheit KI wahrnimmt: Ein Post sagte, die Mehrheit finde sie
+vielleicht gar nicht so hilfreich. Johannes Link sah ein
+differenzierteres Bild.
+
+### Die Frage und die Kategorien
+
+Eberhard fragt nicht nach Erwartungen an die Zukunft, denn das wäre
+für ihn „totales Glaskugellesen“. Er fragt, welche Verbesserung der
+Produktivität die Menschen im Moment beim Coding sehen. Dort ist KI,
+glaubt er, besonders vorteilhaft. Zur Wahl standen vier
+Kategorien:
+
+- **Mehr als Faktor 5**: Dort müssen die KI-Unternehmen nach Eberhards
+  Einschätzung hin, um ihre Investments einzuspielen. Auf dieser Ebene
+  könnte man auch sagen, dass man Coding vielleicht nicht mehr lernen
+  sollte.
+- **Faktor 2 bis 5**: Das ist signifikant, aber kein massiver Vorteil.
+  Coding ist nur ein kleiner Teil der Arbeit. Anforderungen verstehen,
+  Gespräche mit Domänenexpert:innen, Meetings und die Auswahl von
+  Technologien bleiben davon unberührt.
+- **Faktor 1 bis 2**: Das hält Eberhard für nahezu neutral. Auch
+  bessere Continuous-Delivery-Pipelines, Refactoring, Testing oder
+  Code-Qualität können in diesem Bereich helfen. KI ist dann ein
+  Werkzeug unter vielen.
+- **Weniger als Faktor 1**: Die Produktivität nimmt mit KI ab.
+
+### Die Ergebnisse
+
+- **Mastodon**: 40% sehen eine Abnahme der Produktivität, 49% einen
+  Faktor von 1 bis 2, 9% einen Faktor von 2 bis 5 und 2% mehr als
+  Faktor 5.
+- **LinkedIn**: 14% sehen eine Abnahme, 58% einen Faktor von 1 bis 2,
+  19% einen Faktor von 2 bis 5 und 9% Faktor 5 oder mehr.
+
+Auf Mastodon haben 174 Menschen teilgenommen, auf LinkedIn 383. Die
+Umfrage ist keine wissenschaftliche Arbeit: Es haben Eberhards
+Follower geantwortet, das ist schon eine Auswahl.
+
+### Die Bewertung
+
+Die 40% Abnahme auf Mastodon haben Eberhard überrascht. Menschen auf
+Mastodon sind gegenüber KI deutlich pessimistischer als auf LinkedIn.
+Eberhard glaubt, dass die Menschen auf Mastodon selbst coden und die Erfahrung gemacht haben, dass KI
+vielleicht nicht hilft. Auf LinkedIn sieht er teilweise beinahe einen Hype.
+Beides ist für ihn ein Teil der Erklärung.
+
+Zählt man Faktor 1 bis 2 als neutral, sagen auf Mastodon 89%, KI
+bringe beim Coding eigentlich nichts. Auf LinkedIn sagen 72%, sie bringe nicht sehr viel. Ob ein Faktor
+bis 2 wirklich keinen Vorteil bringt, darüber kann man nach Eberhards
+Worten diskutieren.
+
+### Fazit
+
+Eberhards Follower sehen den aktuellen Nutzen von KI beim Coding eher
+negativ. Ihn überrascht das, denn er selbst findet es sehr vorteilhaft,
+mit ChatGPT zu entwickeln, weil er darüber sehr gute Informationen
+bekommt. Die Umfrage zeigt für ihn ein vielleicht wichtiges Werkzeug,
+aber nur eins unter vielen und keinen Quantensprung. Der
+Produktivitätsvorteil ist gering. Dass man Coding nicht mehr lernen sollte,
+lässt sich mit diesen Daten aus seiner Sicht schwer rechtfertigen.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Eberhard Wolff hat seine Follower auf Mastodon (174 Teilnehmende) und LinkedIn (383 Teilnehmende) gefragt, welche Verbesserung der Produktivität sie im Moment durch KI beim Coding sehen.
+- Auf Mastodon sehen 40% eine Abnahme der Produktivität, 49% einen Faktor von 1 bis 2, 9% einen Faktor von 2 bis 5 und 2% mehr als Faktor 5.
+- Auf LinkedIn sehen 14% eine Abnahme, 58% einen Faktor von 1 bis 2, 19% einen Faktor von 2 bis 5 und 9% Faktor 5 oder mehr.
+- Einen Faktor von 1 bis 2 hält Eberhard für nahezu neutral. Danach sagen auf Mastodon 89%, KI bringe eigentlich nichts. Auf LinkedIn sagen 72%, sie bringe nicht sehr viel. Über diese Interpretation kann man diskutieren, sagt er selbst.
+- Coding ist nur ein kleiner Teil der Entwicklung. Anforderungen verstehen, Meetings oder die Auswahl von Technologien bleiben davon unberührt.
+- Die Umfrage ist nicht wissenschaftlich: Es haben Eberhards Follower geantwortet, dadurch gibt es eine Selektion.
+- Eberhard selbst findet das Entwickeln mit ChatGPT sehr vorteilhaft. Ob er einen deutlichen Vorteil sehen würde, weiß er nicht. Für ihn ist es aber ein wichtiges Werkzeug.
+- Dass man Coding nicht mehr lernen sollte, lässt sich mit den Daten der Umfrage aus Eberhards Sicht schwer rechtfertigen.
+
+### Behandelte Fragen
+
+- Warum fragt die Umfrage nach dem aktuellen Nutzen und nicht nach Erwartungen?
+- Welche Produktivitätskategorien gibt es, und was bedeuten sie?
+- Wie unterscheiden sich die Ergebnisse auf Mastodon und LinkedIn, und warum?
+- Wie aussagekräftig ist die Umfrage?
+- Sollte man noch Coding lernen?
+
+### Glossar
+
+- **Faktor**: Vielfaches der Produktivität mit KI im Vergleich zu ohne KI; unter 1 bedeutet weniger Produktivität
+- **Selektion**: Auswahl der Teilnehmenden; hier sind es Eberhards Follower
+- **Quantensprung**: hier ein sehr großer Fortschritt, den die Umfrage für KI beim Coding nicht zeigt
+
+## Transkript
+
+## KI = Höhere Coding-Produktivität?
+
+In dieser Folge spricht Eberhard Wolff allein. Er stellt die Ergebnisse seiner Umfrage auf Mastodon und LinkedIn vor.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube).
+
+### Der Auslöser: eine Diskussion auf Mastodon
+
+[0:00:00] Hilft uns KI tatsächlich bei der Softwareentwicklung? Das ist, glaube ich, ein Thema, was sehr viele von uns bewegt. Und in diesem Video möchte ich kurz darüber berichten, was ihr so über dieses Thema denkt. Auslöser ist eine Diskussion mit Johannes Link bei Mastodon. Da ging es halt um die Frage: Was ist eigentlich die Wahrnehmung der Mehrheit über das Thema AI? Da gab es einen Post, der hat gesagt, die Mehrheit findet AI vielleicht gar nicht so hilfreich. Und Johannes sagte halt, naja, ich nehme halt irgendwie ein etwas differenzierteres Bild wahr. Und daraufhin habe ich mir halt gedacht, mache ich eine Umfrage und schaue mal, was ihr so über dieses Thema denkt.
+
+### Die Frage der Umfrage
+
+[0:00:34] Also ist erstmal die Frage, wie machen wir denn diese Umfrage genau? Man kann jetzt natürlich sagen, wir schauen mal, was so die Erwartungshaltung in der Zukunft ist über die Produktivitätsvorteile, die wir so erwarten. Das finde ich schwierig, weil das ist halt totales Glaskugellesen. Deswegen habe ich mir gedacht, die Frage, die ich halt stelle, ist: Welche Verbesserungen in der Produktivität seht ihr im Moment? Und welche Verbesserungen in der Produktivität seht ihr im Moment gerade im Bereich Coding? Weil dort ist, glaube ich, AI besonders vorteilhaft.
+
+[0:01:07] Man kann natürlich über Produktivität diskutieren. Ich habe darüber auch eine Episode gemacht im Stream. Das heißt, das ist jetzt mal einfach die Frage gestellt.
+
+### Die Kategorien
+
+[0:01:14] Es ist irgendwie die nächste Frage: Welche Kategorien sehe ich denn dort überhaupt vor? Und ich habe mich halt dazu entschieden zu sagen, also es gibt halt die Kategorie mehr als Faktor fünf. Das ist die Stelle, wo die AI-Unternehmen, glaube ich, irgendwann mal hin müssen, wenn sie ihre Investments tatsächlich einspielen. Und das ist irgendwie auch die Ebene, wo man irgendwie sagen kann, also Coding lernen ist vielleicht doch nicht mehr das, was man irgendwie machen sollte, was ja tatsächlich einige schon tun. Dann gibt es so den Faktor zwei bis fünf, der ist durchaus signifikant, aber noch nicht so, dass es jetzt eben einen massiven Vorteil bringt.
+
+[0:01:53] Man muss sich ja auch irgendwie vergegenwärtigen: Coding ist nur eine Aufgabe, die halt Entwickler:innen wahrnehmen, und viele andere Aufgaben sind eben davon gar nicht beeinflusst. Ich muss erst mal verstehen, was will ich überhaupt schreiben. Ich muss mich mit Domänenexpert:innen auseinandersetzen, ich muss in Meetings sitzen, um mich halt zu koordinieren, muss Technologien auswählen, und Coding ist da eben nur ein kleiner Teil. Dann gibt es so den Bereich eins bis zwei, Faktor eins bis zwei. Das ist halt im Wesentlichen, würde ich behaupten, nahezu neutral. Es gibt viele Maßnahmen, die man ergreifen kann, denke ich, um dort in dem Bereich besser zu werden: bessere Continuous-Delivery-Pipelines, besseres Refactoring, besseres Testing, bessere Code-Qualität und so weiter und so weiter. Das heißt, AI ist dann da nur ein Werkzeug unter vielen. Und dann gibt es natürlich noch den Bereich, dass es abnimmt. Das wäre dann weniger als Faktor eins, das heißt eben, dass man, wenn man AI benutzt, weniger produktiv ist.
+
+### Das Ergebnis auf Mastodon und LinkedIn
+
+[0:02:48] Die Umfrage habe ich gestellt auf Mastodon und auf LinkedIn, eben unter meinen Followern. Und das Ergebnis seht ihr jetzt hier. Das ist das Ergebnis bei Mastodon. Und da ist es so, dass 40 Prozent der Teilnehmer sagen, dass die Produktivität abnimmt. 49 Prozent sagen, die ist im Wesentlichen neutral. Neun Prozent sagen, es ist irgendwo Faktor zwei bis fünf, und zwei Prozent sagen, es ist mehr als Faktor fünf.
+
+[0:03:20] Auf LinkedIn ergibt sich ein anderes Bild, das sieht man hier. Da ist die Aussage, dass es eine Abnahme in der Produktivität gibt von 14 Prozent, Faktor eins bis zwei ist 58 Prozent, zwei bis fünf hat 19 Prozent und Faktor fünf oder mehr hat neun Prozent.
+
+### Bewertung: zwei unterschiedliche Communitys
+
+[0:03:38] Ich muss gestehen, ich weiß nicht, wie es euch geht, aber die 40 Prozent Abnahme in der Produktivität bei Mastodon haben mich tatsächlich überrascht. Wie ist das jetzt zu bewerten? Also es gibt zwei Sachen.
+
+[0:03:49] Die eine Sache ist, Menschen bei Mastodon sind gegenüber AI deutlich pessimistischer als Menschen bei LinkedIn. Ich glaube, das liegt daran, dass die Leute bei Mastodon selber Erfahrungen damit gesammelt haben, selber coden und die Erfahrung gemacht haben, dass das vielleicht eben tatsächlich nicht hilfreich ist, während ich das Gefühl habe, dass bei LinkedIn eher eine nahezu AI-Hype teilweise existiert, und ich glaube, das ist ein Teil der Erklärung dafür. Ich muss natürlich hinzufügen, das ist nicht so, dass wir jetzt dort eine irgendwie wissenschaftliche Arbeit haben, es sind am Ende meine Follower und dadurch gibt es halt eine bestimmte Selektion, aber bei Mastodon haben 174 Leute mitgemacht und bei LinkedIn sogar 383, das heißt zumindest von der Menge her ist das sozusagen fair.
+
+[0:04:35] Wenn man sich Mastodon anguckt, dann hat der Faktor eins bis zwei, der hat 49 Prozent, zusammen mit Abnahme sind es 89 Prozent. Wenn man sagt, dass ein Faktor von eins bis zwei nahezu neutral ist, bedeutet das, dass 89 Prozent der Menschen bei Mastodon sagen, es bringt eigentlich nichts. Ist meine Interpretation, nicht, dass ein Faktor von zwei eigentlich bei Coding nicht wirklich einen echten Vorteil bringt, darüber kann man diskutieren.
+
+[0:05:03] Bei LinkedIn ist das Bild zwar positiver, aber dieses Faktor eins bis zwei ist halt auch 58 Prozent, zusammen mit den 14 Prozent von der Abnahme sind das halt insgesamt 72 Prozent. Das ist auch eine signifikante Menge, die eigentlich sagt, es bringt nicht sehr viel. Es ist weniger erschreckend, weil halt weniger Leute sagen, es führt sogar zu einer Abnahme. Aber auch das ist nicht wirklich positiv.
+
+### Fazit: ein Werkzeug unter vielen
+
+[0:05:26] Und was das jetzt bedeutet, ist tatsächlich: Wir als Community, mindestens die Follower, die ich halt irgendwie auf Social Media habe, sind bezüglich AI, was es jetzt gerade bringt, in Bezug auf Coding eher negativ eingestellt.
+
+[0:05:40] Und ich muss sagen, ich bin halt überrascht, denn ich finde das zumindest sehr vorteilhaft, mit ChatGPT zu entwickeln, denn ich bekomme darüber sehr gute Informationen. Es hilft mir tatsächlich weiter. Ich weiß nicht, ob ich einen deutlichen Vorteil sehen würde, aber es ist eben ein wichtiges Tool. Aber was die Umfrage halt sagt, eigentlich sagt es, es ist vielleicht wirklich ein wichtiges Tool, aber eben nur eins unter vielen und nicht so ein Quantensprung.
+
+[0:06:03] Wer also heute sagt, man sollte nicht mehr coden lernen, zumindest durch die aktuellen Daten, die sich jetzt aus dieser Umfrage ergeben, finde ich schwer, das zu rechtfertigen. Offensichtlich ist es halt so, dass es nur einen geringen Produktivitätsvorteil bringt. Ich bin gespannt, was ihr dazu meint, und vielen Dank an alle, die halt mitgemacht haben bei der Umfrage, und genau, bis dahin.
