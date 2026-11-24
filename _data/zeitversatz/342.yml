@@ -1,0 +1,20 @@
+# Versatz der Zeitmarken von Folge 342, gemessen am 24.11.2026 mit tools/zeitversatz.py (sastv-pipeline).
+# ab: Sekunde der Zeitmarke. versatz: Sekunden, die im Medium dazukommen; leer: Stelle fehlt dort.
+peertube:
+  - ab: 0
+    versatz: -0.78
+  - ab: 34.02
+    versatz:
+  - ab: 37
+    versatz: -3.62
+  - ab: 4171.64
+    versatz:
+mp3:
+  - ab: 0
+    versatz: -0.78
+  - ab: 34.02
+    versatz:
+  - ab: 37
+    versatz: -3.62
+  - ab: 4171.62
+    versatz:

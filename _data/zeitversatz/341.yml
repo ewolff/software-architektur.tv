@@ -1,0 +1,40 @@
+# Versatz der Zeitmarken von Folge 341, gemessen am 24.11.2026 mit tools/zeitversatz.py (sastv-pipeline).
+# ab: Sekunde der Zeitmarke. versatz: Sekunden, die im Medium dazukommen; leer: Stelle fehlt dort.
+peertube:
+  - ab: 0.0
+    versatz:
+  - ab: 1
+    versatz: -1.0
+  - ab: 19.96
+    versatz:
+  - ab: 22
+    versatz: -3.44
+  - ab: 2798.08
+    versatz:
+  - ab: 2822
+    versatz: -3.5
+  - ab: 3799.36
+    versatz:
+  - ab: 3802
+    versatz: -6.24
+  - ab: 3835.06
+    versatz:
+mp3:
+  - ab: 0.0
+    versatz:
+  - ab: 1
+    versatz: -1.0
+  - ab: 19.96
+    versatz:
+  - ab: 22
+    versatz: -3.44
+  - ab: 2798.08
+    versatz:
+  - ab: 2822
+    versatz: -3.5
+  - ab: 3799.36
+    versatz:
+  - ab: 3802
+    versatz: -6.24
+  - ab: 3835.04
+    versatz:
