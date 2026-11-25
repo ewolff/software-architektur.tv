@@ -1,12 +1,9 @@
-# Versatz der Zeitmarken von Folge 347, gemessen am 24.11.2026 mit tools/zeitversatz.py (sastv-pipeline).
-# ab: Sekunde der Zeitmarke. versatz: Sekunden, die im Medium dazukommen; leer: Stelle fehlt dort.
-# Die Marken stammen aus einer aelteren YouTube-Fassung und liegen gut 3 s zu spaet.
-youtube:
-  - ab: 0
-    versatz: -3.05
+# Versatz der Zeitmarken von Folge 347, gemessen am 24.11.2026.
+# ab: Sekunde der Zeitmarke (YouTube). versatz: Sekunden, die im Medium dazukommen;
+# leer: Die Stelle fehlt dort.
 peertube:
   - ab: 0
-    versatz: -3.21
+    versatz: -0.16
 mp3:
   - ab: 0
-    versatz: -3.21
+    versatz: -0.16

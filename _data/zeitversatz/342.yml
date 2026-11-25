@@ -1,5 +1,8 @@
-# Versatz der Zeitmarken von Folge 342, gemessen am 24.11.2026 mit tools/zeitversatz.py (sastv-pipeline).
-# ab: Sekunde der Zeitmarke. versatz: Sekunden, die im Medium dazukommen; leer: Stelle fehlt dort.
+# Versatz der Zeitmarken von Folge 342, gemessen am 24.11.2026.
+# ab: Sekunde der Zeitmarke (YouTube). versatz: Sekunden, die im Medium dazukommen;
+# leer: Die Stelle fehlt dort.
+# Kein Eintrag fuer mp3: Die Datei hat variable Bitrate, Browser springen darin ungenau.
+# Stichproben an vier Folgen in Chromium (24.11.2026) lagen bis zu 17 s daneben.
 peertube:
   - ab: 0
     versatz: -0.78
@@ -8,13 +11,4 @@ peertube:
   - ab: 37
     versatz: -3.62
   - ab: 4171.64
-    versatz:
-mp3:
-  - ab: 0
-    versatz: -0.78
-  - ab: 34.02
-    versatz:
-  - ab: 37
-    versatz: -3.62
-  - ab: 4171.6
     versatz:

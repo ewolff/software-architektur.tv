@@ -1,5 +1,6 @@
-# Versatz der Zeitmarken von Folge 287, gemessen am 24.11.2026 mit tools/zeitversatz.py (sastv-pipeline).
-# ab: Sekunde der Zeitmarke. versatz: Sekunden, die im Medium dazukommen; leer: Stelle fehlt dort.
+# Versatz der Zeitmarken von Folge 287, gemessen am 24.11.2026.
+# ab: Sekunde der Zeitmarke (YouTube). versatz: Sekunden, die im Medium dazukommen;
+# leer: Die Stelle fehlt dort.
 peertube:
   - ab: 0
-    versatz: -0.04
+    versatz: 0.0
