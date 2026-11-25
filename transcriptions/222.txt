@@ -1,0 +1,385 @@
+# Software Architektur - Den menschlichen Faktor verbessern!
+
+Software Architektur im Stream, Folge 222, 2024-06-28.
+Software-Architektur und Menschen hängen zusammen - wie kann man den Faktor Mensch verbessern?
+Seite: https://software-architektur.tv/2024/06/28/software-architektur-den-menschlichen-faktor-verbessern.html
+YouTube: https://www.youtube.com/watch?v=Y7rljtCldoM
+PeerTube: https://tube.tchncs.de/w/f7a80fd6-2817-4266-96af-038ff0179cbf
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/Software_Architektur_-_Den_menschlichen_Faktor_verbessern.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Gute Software-Architektur strukturiert komplexe Software-Systeme so
+übersichtlich, dass Menschen sie verstehen und weiterentwickeln
+können. Also geht es bei der Software-Architektur um den Faktor
+Mensch. Deswegen kann sich Architektur aber nicht auf Maßnahmen für
+die Strukturierung der Software begrenzen, sondern muss sich auch mit
+den Menschen beschäftigen. In diesem Vortrag geht es um einige
+konkrete Ansätze und Erfahrungen, die Entwicklung durch Maßnahmen in
+Bezug auf den Faktor Mensch zu verbessern.
+
+## Links
+
+* [Episode zu Team Topologies](/2024/04/18/folge213.html)
+* [Flugunglück auf Teneriffa bei Wikipedia](https://en.wikipedia.org/wiki/Tenerife_airport_disaster)
+* [United Airlines Flug 173 bei Wikipedia](https://en.wikipedia.org/wiki/United_Airlines_Flight_173)
+* [Episode Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?](/2023/08/11/folge178.html)
+* [Episode Scrum Master:in und Softwarearchitektur mit Nadine Andraczek](/2023/08/04/folge177.html)
+* [Episode Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens](/2022/11/04/folge141.html)
+* [Episode Software-Architektur - Inspiration von anderen Branchen](/2023/10/27/folge187.html)
+* [Episode Psychological Safety - was sagt der Psychologe dazu? mit Joseph Pelrine - OOP Special](/2023/06/02/folge167.html)
+* [Episode  Wie reißt man den Elfenbeinturm ein? mit Anja Kammer](/2023/01/13/folge147.html)
+
+## Zusammenfassung
+
+Wie kann man den Faktor Mensch in der Softwarearchitektur verbessern?
+Eberhard Wolff zeigt in diesem Vortrag, warum Org-Charts dafür nicht
+ausreichen. Organisation ist ein Werkzeug, um Architektur zu
+verbessern und andere Ziele zu erreichen. Das eigentliche Problem sind
+für ihn aber Kultur und soziale Beziehungen. Die Luftfahrt und das
+Militär haben systematische Ansätze für die Zusammenarbeit. Eberhard
+fragt, was die Softwareentwicklung daraus lernen kann.
+
+### Org-Charts sind nicht Kommunikation
+
+Nach dem Gesetz von Conway kopiert die Architektur die
+Kommunikationsstruktur der Organisation. Das Inverse Conway-Manöver
+dreht das um: Man stellt die Teams so auf, dass sich die gewünschte
+Architektur ergibt. Eberhard hält das für eine Vereinfachung. Geändert
+wird die Organisation auf der Ebene des Org-Charts, nicht die
+Kommunikation. Im Extremfall ignorieren die Menschen eine
+Reorganisation einfach. Außerdem bleiben andere Möglichkeiten außen
+vor, zum Beispiel die physische Distanz: Als in einem Projekt die Idee
+aufkam, einen Chat in die Entwicklungsumgebung einzubauen, schlug er
+vor, sich zusammenzusetzen. Das kann eine Architekturmaßnahme sein.
+
+Auch DevOps sollte die Kollaboration zwischen Entwicklung und Betrieb
+verbessern. In der Realität entstehen stattdessen neue Rollen und
+Reorganisationen: ein weiteres Silo in der Mitte, ein Betrieb, der
+jetzt DevOps Engineers heißt, oder die Entwicklung übernimmt den
+Betrieb. Dabei wird der Betrieb im Extremfall entlassen, was Eberhard
+mindestens einmal gesehen hat.
+
+Team Topologies unterscheidet Stream-aligned Teams, Enabling Teams,
+Plattform-Teams und Complicated Subsystem Teams. Auch das klingt, als
+würde mit der richtigen Organisation alles gut. Schon auf Seite 6 des
+Buchs steht jedoch, dass die tatsächliche Kommunikation anders aussehen
+kann als das Org-Chart.
+
+### Die Illusion von Kontrolle
+
+Diagramme lügen oft, weil sie keine sinnvolle Abstraktion über den
+Code sind. Code kann man aber immerhin so organisieren, wie das
+Diagramm es zeigt. Bei Menschen liegt es nahe, genauso vorzugehen.
+Org-Charts geben nach Eberhards Einschätzung jedoch nur die Illusion
+von Kontrolle und einer Lösung.
+
+Zwei Projekte zeigen, was Org-Charts nicht abbilden. Im ersten
+arbeiteten mehrere Beratungen für denselben Kunden und bekriegten sich
+untereinander, um mehr Umsatz zu machen. Das erinnert Eberhard an die
+vielen kleinen Staaten in Deutschland vor der Einigung. Im zweiten war
+die Frage, ob ein Plattform-Team sinnvoll ist. Die Umgebung war aber
+toxisch: Wer Probleme kommunizierte, wurde bestraft. Deswegen kann man
+einem Plattform-Team nicht vertrauen, weil es Probleme aus Selbstschutz
+verschweigt. Ein Stream-aligned Team will die Plattform dann
+vielleicht selbst bauen, obwohl das weniger effizient ist.
+
+Eberhard ist zunehmend unsicher, wie wichtig Artefakte wie Diagramme
+und Org-Charts sind. Interessanter findet er den Prozess, in dem
+Menschen sie gemeinsam erstellen. Probleme mit der Kultur gelten als
+schwer zu lösen. In seinen Trainings klappt die vertrauensvolle
+Zusammenarbeit aber üblicherweise, und man kann systematisch etwas
+dafür tun.
+
+### Lernen aus Flugunglücken
+
+Auf Teneriffa stießen zwei Jumbojets am Boden zusammen, 583 Menschen
+starben. Solche Unglücke haben immer mehrere Gründe, hier zum Beispiel
+Nebel, fehlendes Bodenradar und Probleme beim Funk. Am Ende hob aber
+ein sehr erfahrener KLM-Pilot ohne Freigabe ab, und der Rest der Crew
+hat nicht wirklich interveniert. Bei United-Airlines-Flug 173 kreiste
+die Crew 60 Minuten, um ein scheinbares Problem mit dem Fahrwerk zu
+lösen, bis kein Treibstoff mehr da war. Beide erfahrenen Crews sind an
+etwas scheinbar Trivialem gescheitert. Bei Flug 173 vermutet Eberhard
+ein Kollaborationsproblem, denn irgendjemand hätte sich um den
+Treibstoff kümmern müssen.
+
+Analogien sind immer schwierig. Aber wenn Crews Schwierigkeiten haben
+zu kollaborieren, obwohl es um ihr Leben geht und die Rollen klar sind,
+warum sollte es dann in Software-Teams einfach so funktionieren? In der
+Softwareentwicklung lernen die Stakeholder zudem ständig dazu, und die
+Requirements ändern sich. Kollaboration ist dort wahrscheinlich noch
+wichtiger.
+
+### Crew Resource Management und Auftragstaktik
+
+Die Luftfahrt hat daraus Crew Resource Management abgeleitet: Man will
+jede Ressource vollständig nutzen, Menschen wie technische Werkzeuge.
+Ziel ist nicht, alle glücklich zu machen, sondern erfolgreich zu sein.
+Allein entscheidet der Flugkapitän nur den Startabbruch. Deswegen soll
+man auch Junior:innen so behandeln, dass sie ihre Meinung sagen. Im Buch
+„The Soul of a New Machine“ wird dagegen aggressive Kommunikation
+belohnt: Wichtige Entscheidungen fallen in einem Shouting Match. Wer
+darauf keine Lust hat, zieht sich zurück.
+
+Piloten bekommen im Simulator auch Feedback zur Zusammenarbeit.
+Softwareteams haben Retros und Scrum Master:innen, doch Eberhard ist
+nicht sicher, wo sie solches Feedback sonst bekommen. Positiv findet er
+auch, dass eine Untersuchung nie bei der Frage stehen bleibt, wieso
+jemand einen Fehler gemacht hat, sondern nach den Umständen fragt. Beim
+Militär überraschte ihn die Auftragstaktik: Statt blindem Gehorsam ist
+Delegation ein Kernelement und wird in der Offiziersausbildung
+systematisch vermittelt.
+
+### Was man tun kann
+
+Kultur geht alle an, und das Verhalten des Managements wird kopiert. Aus
+Star Trek: The Next Generation nimmt Eberhard zwei Rollen als Anleihe.
+Counselor Deanna Troi berät und gibt dem Kapitän direktes Feedback,
+gleichberechtigt mit dem ersten Offizier. Guinan beruhigt andere und
+arbeitet in einer Bar. So eine Person gibt es vielleicht informell in
+einigen Projekten. Ob es eine Rolle wie die von Troi offiziell gibt,
+daran zweifelt Eberhard.
+Ohne Feedback gibt es keinen Fortschritt. Dafür braucht es
+Psychological Safety, aber auch Empathie und Kommunikationsskills.
+
+Statt Lösungen vorzugeben, stellt Eberhard Fragen. Ein Team wollte
+Microservices, weil sich die Teams beim Deployment blockierten. Durch
+Fragen ergab sich auch die Alternative, die Continuous Delivery
+Pipeline zu beschleunigen. Das Ergebnis kommt so vom Team selbst, und er
+bekommt Feedback zu seiner eigenen Idee. Softwarearchitekt:innen können
+zudem entspannter sein: Entscheidend war in einem Projekt, dass die
+Teams unabhängig voneinander arbeiten und die UI zusammenstellen
+konnten, nicht ob sie ein Single-Page-App-Framework nutzen. Nach
+Eberhards Einschätzung hilft es, eher Gärtner zu sein als
+absolutistischer Herrscher.
+
+### Fazit
+
+Wir arbeiten gerne mit Org-Charts, aber das wirkliche Problem sind
+Menschen. Andere Branchen verbessern diese Seite systematisch. Das
+sollten wir auch tun.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Organisation ist ein Werkzeug, um Softwarearchitektur zu verbessern und andere Ziele zu erreichen. Das wirkliche Problem sind aber Menschen: Kultur und soziale Beziehungen.
+- Das Inverse Conway-Manöver ist eine Vereinfachung: Es ändert die Organisation auf der Ebene des Org-Charts, aber das ist nicht die Kommunikation. Physische Nähe kann die Kommunikation und damit auch die Architektur ebenfalls beeinflussen.
+- DevOps will eine bessere Kollaboration. In der Realität entstehen oft neue Rollen, Reorganisationen und zusätzliche Silos.
+- Org-Charts geben die Illusion von Kontrolle. Sie zeigen nicht, dass sich Beratungen bekriegen oder eine toxische Umgebung zu Misstrauen führt.
+- In einer toxischen Umgebung ist nicht mehr die fachliche Aufteilung die Frage: Teams verschweigen Probleme, und es kann sinnvoll erscheinen, eine Plattform selbst zu bauen.
+- Der Prozess, in dem Menschen ein Artefakt erstellen, ist vielleicht interessanter als das Artefakt selbst.
+- Die Flugunglücke auf Teneriffa und von United-Airlines-Flug 173 zeigen: Erfahrene Crews scheitern an scheinbar trivialen Problemen. Wie alle Flugunglücke haben sie mehrere Gründe, die Kollaboration gehört für Eberhard dazu.
+- Crew Resource Management nutzt die Expertise der gesamten Crew. Es geht nicht darum, alle glücklich zu machen, sondern darum, erfolgreich zu sein.
+- Untersuchungen in der Luftfahrt bleiben nicht beim Fehler einer Person stehen, sondern fragen nach den Umständen.
+- Auftragstaktik beim Militär setzt auf Delegation statt blindem Gehorsam und wird systematisch weitergegeben.
+- Psychological Safety reicht allein nicht: Man muss auch empathisch sein und Kommunikationsskills haben.
+- Eberhard rät dazu, Fragen zu stellen, statt Lösungen vorzugeben. Softwarearchitekt:innen sollten sich eher mit Gärtnern vergleichen als mit absolutistischen Herrschern.
+
+### Behandelte Fragen
+
+- Was sagen das Gesetz von Conway und das Inverse Conway-Manöver, und was blenden sie aus?
+- Warum führt DevOps in der Praxis oft zu weiteren Silos?
+- Welche Teams unterscheidet Team Topologies, und löst das die Probleme mit der Kommunikation?
+- Warum geben Org-Charts die Illusion von Kontrolle?
+- Wie wirken konkurrierende Beratungen und eine toxische Umgebung auf ein Projekt?
+- Was können wir aus Flugunglücken über Kollaboration lernen?
+- Was entscheidet ein Flugkapitän ganz alleine, und wer ist bei uns in Entscheidungen involviert?
+- Wo bekommen Softwareteams Feedback zu ihrer Zusammenarbeit?
+- Was ist Auftragstaktik, und was kann die Softwareentwicklung davon lernen?
+- Wie kommt ein Team durch Fragen selbst zu einer Lösung?
+
+### Glossar
+
+- **Gesetz von Conway**: Die Architektur kopiert die Kommunikationsstruktur der Organisation
+- **Inverse Conway-Manöver**: Die Organisation so aufstellen, dass sich die gewünschte Architektur ergibt
+- **Org-Chart**: Organigramm, das die offizielle Struktur einer Organisation zeigt
+- **Team Topologies**: Ansatz mit Stream-aligned Teams, Enabling Teams, Plattform-Teams und Complicated Subsystem Teams
+- **Stream-aligned Team**: Team, das einen wertvollen Stream an Änderungen von der Analyse bis in Produktion verantwortet
+- **Enabling Team**: Team, das andere Teams dabei unterstützt, bestimmte Fähigkeiten einzusetzen und zu verbessern
+- **Crew Resource Management**: Ansatz aus der Luftfahrt, der jede Ressource nutzt, also Menschen und technische Werkzeuge
+- **Auftragstaktik**: Militärische Führung, bei der Delegation ein Kernelement ist
+- **Psychological Safety**: Man fühlt sich sicher genug, um Probleme offen anzusprechen
+
+## Transkript
+
+## Software Architektur - Den menschlichen Faktor verbessern!
+
+In dieser Folge hält Eberhard Wolff allein einen Vortrag mit Folien.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube). Im Podcast (MP3) kann die Stelle abweichen.
+
+### Das Thema: den menschlichen Faktor verbessern
+
+[0:00:00] Heute geht es also darum, wie man den menschlichen Faktor verbessert und was das eigentlich mit Software-Architektur zu tun hat. Und Hintergrund davon ist, dass Organisation ja ein Werkzeug ist, um Software-Architektur irgendwie zu verbessern und auch um andere Ziele zu erreichen. Und das bedeutet, dass wir uns eben tatsächlich die Frage stellen müssen, wie wir diesen menschlichen Faktor verbessern, und darum geht es eben heute.
+
+### Das Gesetz von Conway und das Inverse Conway-Manöver
+
+[0:00:24] Und ich möchte anfangen mit ein paar Beispielen, und das erste Beispiel ist eben das Gesetz von Conway und das Inverse Conway-Manöver. Und das Gesetz von Conway sagt, dass die Architektur kopiert die Kommunikationsstruktur in der Organisation. Das bedeutet, wenn ich mit irgendjemandem zusammen versuche, irgendwas in der Software zu bauen, und die eine Person hat eine Aufgabe und die andere Person hat eine Aufgabe, dann werden wir wahrscheinlich miteinander darüber reden, wenn diese Aufgaben irgendwas miteinander zu tun haben. Und das Gesetz von Conway sagt, dass diese Kommunikationsstrukturen sich auch dann anschließend in der Architektur widerspiegeln. Das heißt, wenn ich eine Schnittstelle habe, dann ist das eben auch eine Kommunikationsbeziehung. Und klassisch ist es so, dass man eben sagt, okay, ich habe halt die Organisation aufgeteilt nach solchen Aspekten wie zum Beispiel Frontend-Entwickler, Backend-Entwickler, was auch immer, also vielleicht so technische Aspekte. Und das bedeutet, dass ich das, jetzt eben, die Kommunikation limitiere und dadurch auch die Architektur limitiere. Also ich nehme halt eben an, dass Frontend-Entwickler stärker miteinander zusammenarbeiten und dass Backend-Entwickler stärker miteinander zusammenarbeiten und kommunizieren, und dadurch entsteht eben eine Backend-Komponente und eine Frontend-Komponente, weil die Abstimmung zwischen diesen beiden Komponenten dann eben in irgendwelchen Meetings stattfinden muss. Und das ist eben schwieriger, als wenn ich teamintern irgendetwas tue.
+
+[0:01:39] So, und das Inverse Conway-Manöver sagt eben was anderes. Das sagt, die Architektur soll die Organisation treiben. Das heißt, wir überlegen uns, wie wir die Organisation aufstellen, welche Teams welche Aufgaben wir dort definieren, und dann wird die Architektur sich anschließend ergeben. Das heißt also, ich habe irgendwie so eine Menge an Entwickler:innen, Designer:innen und was auch immer, und das ist vielleicht ein bisschen chaotisch. Da gibt es also ganz viele sehr unterschiedliche Leute, die eben auch unterschiedlich auf die Welt gucken, und das bedeutet, es ist irgendwie Chaos.
+
+[0:02:08] Und ich führe jetzt irgendwie eine Ordnung ein. Das heißt, ich sage jetzt: Okay, super, ihr kriegt irgendwie drei Teams, und denen weise ich jetzt irgendwelche Aufgaben zu. Das heißt, ich sage: Ihr seid das Team, was für den Bestellungsprozess zuständig ist. Ihr seid das Team, was für den Lieferprozess zuständig ist. Ihr seid für die Rechnungslegung zuständig. Und jetzt habe ich eben drei Teams definiert, und diese drei Teams werden dann drei Module bauen, die in irgendeiner Art und Weise miteinander interagieren. Und damit habe ich jetzt entschieden, eine Organisation und bekomme eine Architektur. Und das ist so ein bisschen die grundlegende Idee der ganzen Geschichte.
+
+### Was das Inverse Conway-Manöver ausblendet
+
+[0:02:45] Und mein Problem bei der ganzen Sache ist: Das ist eigentlich eine Vereinfachung. Also das Inverse Conway-Manöver sagt im Wesentlichen, dass wir die Organisation ändern auf Ebene der Organisationschart, aber das ist eben nicht Kommunikation. Das heißt also, die Annahme ist, dass dieser Organisationschart dazu führt, dass Menschen halt stärker miteinander kollaborieren werden und halt auch stärker miteinander kommunizieren werden. Und das ist eben die Frage, ob das wirklich, wirklich stimmt. Im Extremfall ist so eine Reorganisation etwas, was einfach ignoriert wird, wo man sagt: Okay, ich mache halt dieselbe Arbeit wie vorher. Es interessiert mich nicht, dass es eine neue Organisation gibt. Alle paar Jahre ändert sich die Organisation ja eh, und ich habe bisher gute Erfahrungen damit gemacht, das einfach zu ignorieren. Das mache ich jetzt wieder.
+
+[0:03:31] Und es gibt auf der anderen Seite andere Möglichkeiten, wie ich Kommunikation beeinflussen kann, zum Beispiel die physische Distanz. Ich habe in einem Projekt gesessen, wo der Projektleiter von uns getrennt war durch eine durchsichtige Tür und ich würde sagen so fünf Meter Entfernung. Und an der Stelle, wo die Idee aufkam, doch eine Chat-Komponente einzubauen in die Entwicklungsumgebung, dass man besser miteinander kommunizieren kann, habe ich irgendwie gesagt: Lass uns irgendwie uns zusammensetzen. Und da habe ich jetzt genau das gemacht, was eben tatsächlich eine Architekturmaßnahme sein kann. Ich habe die Kommunikation verbessert und habe dafür gesorgt, dass wir besser miteinander reden, weil wir eben näher zusammensitzen, und das kann eben auch dann die Architektur entsprechend vereinfachen.
+
+[0:04:09] Das heißt also, dass ich hier eine Vereinfachung habe, weil ich mich auf die Org-Chart im Wesentlichen konzentriere. Und das andere ist halt, dass ich mich hier nur auf Funktionalität beziehe. Das heißt, ich sage halt, diese Teams sollen irgendwelche Dinge bauen. Aber es ist ja mir nicht klar, ob sowas wie eine Lokation der Leute nicht auch eine Rolle spielt. Also ist es nicht günstiger, wenn ich mit Leuten zusammenarbeite, mit denen ich zusammen im Office sitze, würde ich behaupten, ja. Und wenn ich jetzt nur sage, wir wollen aber Leute zusammenfassen, die halt an derselben Aufgabe arbeiten, dann ignoriere ich solche Aspekte eben vollständig.
+
+### DevOps: neue Silos statt Zusammenarbeit
+
+[0:04:45] Diese ganzen Geschichten, die halt mit Organisation und Softwareentwicklung zu tun haben, da gibt es dann auch andere Beispiele. Es gibt zum Beispiel das Thema mit DevOps. Und bei DevOps sage ich eigentlich, ich habe halt Entwicklung, Dev, Development und Betrieb, Operations, Ops. Und der Begriff zeigt jetzt irgendwie sehr klar, was ich eigentlich erreichen will. Ich will nämlich erreichen, dass das zu einem DevOps zusammenwächst. Und in der Realität habe ich eben das Problem, dass ich da eine Mauer habe zwischen diesen beiden Abteilungen, sprich die Kommunikation eben nicht besonders gut funktioniert. Oder im Extremfall ist es auch so, dass die Teams sich vielleicht sogar bekämpfen.
+
+[0:05:23] Und jetzt ist natürlich immer die Frage, wie sieht so eine Lösung dafür aus, wenn die sich bekämpfen, wenn ich dort eine Mauer zwischen diesen Teams habe? Und ich würde sagen, die offensichtliche Lösung ist irgendwie zu sagen: Na ja, wir arbeiten halt vernünftig kollaborativ miteinander zusammen zwischen Betrieb und Entwicklung. Oder wir mögen uns halt vielleicht sogar. Und die Realität ist halt, dass irgendwie dann angefangen worden ist zu sagen: Na ja, also wir haben halt irgendwie Betrieb und Entwicklung und jetzt führen wir noch ein Silo dazwischen ein, das ist irgendwie DevOps. Da ist nicht so auf den ersten Blick erkennbar, wie das zu einer besseren Kollaboration führen soll, weil ich habe ja jetzt noch ein weiteres Ding, was da halt irgendwie existiert. Ich habe damit potenziell noch ein weiteres Silo, mit dem ich mich beschäftigen muss. Und das ist vielleicht eben tatsächlich nicht die allerbeste Idee und macht das irgendwie sogar noch schlimmer. Das ist aber das, was in einigen Unternehmen tatsächlich passiert.
+
+[0:06:14] Was kann noch passieren? Ich kann jetzt sagen, okay, ich habe hier die Entwicklung. Und die Entwicklung soll jetzt irgendwie auch noch den Betrieb übernehmen, was dann bedeutet, dass der Betrieb irgendwie untergeht und im Extremfall, das habe ich tatsächlich mindestens an einer Stelle gesehen, entlassen wird und dass halt Entwicklung all die Lorbeeren erntet. Und das ist, glaube ich, irgendwie auch keine besonders gute Idee. Leute, die halt im Betrieb arbeiten, haben ein bestimmtes Skillset, das ist notwendig und sinnvoll. Und wenn wir jetzt irgendwie sagen, na ja, wir haben halt den Betrieb nicht mehr, dann reißen wir da eigentlich eine Lücke.
+
+[0:06:47] Und was gibt es noch? Wir können halt irgendwie sagen, zwischen diesen beiden Silos, Development und Operations, na ja, dann nehmen wir jetzt irgendwie Operations und benennen das um in DevOps Engineers, die halt immer noch Betrieb machen, die aber DevOps Engineers heißen. Oder das könnten auch Leute wieder sein, die halt in so einem Silo in der Mitte arbeiten, die also tatsächlich in einer DevOps-Abteilung arbeiten, die sozusagen zwischen Betrieb und Entwicklung steht und dadurch eben noch ein Silo erzeugt.
+
+[0:07:13] Was ich hier lustig finde, ist: Das Ziel ist eigentlich sehr klar, wir wollen halt eine bessere Kollaboration haben. Und DevOps kommuniziert das auch sehr klar. Der Begriff DevOps sagt, wir wollen eine bessere Kollaboration haben, wir wollen, dass diese beiden Sachen miteinander verschmelzen. Und die Realität ist, dass wir da irgendwie neue Rollen haben und Reorganisation. Und das führt am Ende halt nicht unbedingt zu einer besseren Kollaboration, sondern es führt irgendwie potenziell sogar dazu, dass ich da noch mehr Teams habe und noch mehr Schwierigkeiten habe. Und das ist vielleicht irgendwie an der Stelle kontraproduktiv, wie man sich vorstellen kann.
+
+### Team Topologies
+
+[0:07:48] Genau, als weiteren Ansatz gibt es auch Team Topologies. Team Topologies unterscheidet Stream-aligned Teams. Das sind Teams, die irgendwie einen wertvollen Stream an Änderungen zu verantworten haben. Das heißt, die sind halt von der Analyse bis zu: Es geht in Produktion, vollständig verantwortlich für irgendetwas, wie zum Beispiel ein Bounded Context, eine bestimmte Fachlichkeit, sagen wir für eine bestimmte Persona oder was auch immer. Dann gibt es sowas wie Enabling Teams. Die sind also dafür zuständig, diese Teams zu unterstützen mit bestimmten Fähigkeiten und halt zu schauen, ob diese Fähigkeiten vielleicht noch verbessert werden müssen. Es gibt ein Plattform-Team, die also irgendwie eine Plattform zusammenstellen und anbieten und dort aktiv sind, und sowas wie ein Complicated Subsystem Team.
+
+[0:08:32] Und da gibt es verschiedene Kollaborationsformen. Ich kann zum Beispiel diese Sachen halt irgendwie anbieten über as a Service, also sprich als API oder vielleicht auch über eine Webseite. Complicated Subsystem Team, vielleicht machen die so einen Rechner für Versicherungsbeiträge. Der könnte jetzt eine Schnittstelle anbieten. Ein Plattform-Team könnte über eine Webseite anbieten, dass man dort irgendwelche CI-Server oder andere Produktionsserver, Testserver sich irgendwie zusammenklickt. Ein Enabling Team macht vielleicht eher sowas wie Facilitation, sorgt also dafür, dass diese anderen Teams unterstützt werden. Oder Collaboration arbeitet also für einige Zeit mit anderen Teams, mit Stream-aligned Teams zusammen.
+
+[0:09:10] Das heißt, da könnte ich jetzt irgendwie sagen, okay, ich habe Invoicing, also eine bestimmte Funktionalität. Das ist ein Stream-aligned Team. Die sind zuständig für das komplette Thema. Ich habe sowas wie Order Processing, auch die sind wieder zuständig für das komplette Thema, von der Analyse bis in Produktion. Und sowas wie Delivery, also das, was wir vorher auch diskutiert haben als Teil von dem Inverse Conway-Manöver. Aber hier habe ich halt noch Platz für andere Teams, zum Beispiel Delivery Optimization, die jetzt also sagen, ich habe einen Algorithmus, mit dem ich dafür sorgen kann, dass Dinge besonders effizient, effektiv ausgeliefert werden. Und die bieten jetzt eine Schnittstelle an. Und ich habe sowas wie ein Kubernetes CI Team, die eben auch über eine Webschnittstelle oder irgendeinen anderen Mechanismus diese Sachen halt anbieten, vielleicht auch über eine API. Ich habe ein Architekturteam, was schaut, dass es die anderen Teams unterstützt als Enabling-Team, also dort Facilitation betreibt, sich anschaut, ob irgendwo Architektur-Skills fehlen oder vielleicht auch selber daran mitarbeitet.
+
+[0:10:09] Das riecht jetzt ein bisschen danach, als wäre das auch ein Ansatz, der jetzt sagt, na ja, wir müssen halt Teams in einer bestimmten Art und Weise organisieren und dann wird alles gut. Und das ist irgendwie relativ deutlich nicht so. Also was am Anfang von diesem Buch steht, ist, dass wir irgendwelche Org-Charts haben und dann haben wir eben die tatsächliche Kommunikation, die halt irgendwie anders aussehen kann. Und da können irgendwelche Teams auch irgendwie isoliert sein. Und das ist etwas, was dort auf Seite 6 steht, was eben auch impliziert, dass es zwar sinnvoll ist, in diese Richtung von Team Topologies zu gehen und diese entsprechenden Teams zu haben, die sind auch als Magneten gekennzeichnet, aber dass eben gleichzeitig am Anfang der ganzen Diskussion steht, dass eben Org-Charts selber vielleicht ein Problem sind und dass man da irgendwie aufpassen muss. Ich habe dazu eine Episode gemacht bei Software-Architektur im Stream. Lisa hat dazu auch so einen Sketchnote-Überblick gemacht. Den könnt ihr euch da ansehen. Das ist halt irgendwie eine Stunde, die ich da rede. Oder ihr könnt euch die kurze Intro angucken. Die ist irgendwie so acht Minuten oder so. Da könnt ihr das also nochmal genauer anschauen.
+
+### Diagramme, Code und die Illusion der Kontrolle
+
+[0:11:13] Und damit kommen wir zum eigentlichen Problem. Ich würde behaupten, das Problem, was wir eigentlich haben, ist: Es gibt halt bestimmte Arten, wie wir Software strukturieren, typischerweise ein Diagramm. Ich sitze oft in Meetings, wo irgendwelche Diagramme halt diskutiert werden und man irgendwie sagt, so soll irgendwie die Welt aussehen. Und diese Diagramme haben das Problem, dass sie oft lügen. Das heißt, sie sind halt keine sinnvolle Abstraktion über den Code. Es ist halt irgendwie so, dass ich halt frage: Was bedeuten diese Boxen? Und dann kommt halt irgendwie zurück: Naja, das ist halt irgendwie was, was wir uns vorstellen und wie wir es halt gerne hätten.
+
+[0:11:48] Was ich aber eigentlich benötige, ist halt etwas, was tatsächlich implementiert ist. Ich würde also gerne sehen, wie jetzt bestimmte Strukturen im Code aussehen. Ich würde dort also gerne sowas vielleicht sehen wie Git-Projekte oder andere tatsächlich anfassbare Artefakte, die ich im Code habe. Und dann kann ich darüber eben diskutieren, weil ich halt tatsächlich eine Abstraktion über die Realität habe. Wenn das nichts aussagt darüber, wie der Code tatsächlich organisiert ist, wenn diese Diagramme damit nichts zu tun haben, dann bin ich tatsächlich im Elfenbeinturm und diskutiere halt über Dinge, die mit der Realität wenig zu tun haben. Aber immerhin ist es hier so, dass ich Code immer noch so organisieren kann, wie er halt in diesem Diagramm ist. Also wenn ich das halt richtig anfasse, dann sind diese Diagramme tatsächlich nützlich und ich kann halt sagen, statt dass ich jetzt in der Entwicklungsumgebung auf den Code gucke und da halt irgendwie überwältigt werde durch die viele Komplexität, gucke ich eben auf das Diagramm und kann dadurch leichter eine Diskussion führen, eben weil auch Dinge grafisch repräsentiert sind.
+
+[0:12:48] Und es liegt jetzt ein bisschen nahe zu sagen, wir als Software-Architekt:innen, wir strukturieren genauso irgendwie auch Menschen. Das ist halt ein Ansatz, der uns sehr wohl bekannt ist. Und wir kriegen dadurch halt auch die Illusion einer Kontrolle. Ich glaube, das ist auch bei Software-Architektur so ein Ding, mal’ halt ein Diagramm. Ich habe halt das Gefühl, dass ich damit etwas Sinnvolles aussage darüber, wie die Software und eben dann auch die Menschen strukturiert sein sollen. Aber ich ignoriere halt bestimmte ganz zentrale Punkte.
+
+[0:13:16] Das bedeutet, was wir hier haben, ist, ich nenne es Org-Chart-Pattern. Also diese Org-Chart gibt uns halt die Illusion von Kontrolle und dass wir halt irgendwie an einer Lösung arbeiten. Das ist wahrscheinlich das, was Menschen halt irgendwie wollen. Das ist deswegen wahrscheinlich auch das, was so Consultancies verkaufen. Und das ist auch genau das, was irgendwie das Inverse Conway-Manöver ja sagt. Es sagt halt tatsächlich sehr direkt: Wenn ich irgendwie eine Organisation strukturiere, dann strukturiere ich damit in Wirklichkeit Software. Das ist also eigentlich dasselbe und nutzt irgendwie auch dieselben Mechanismen. Ich bin halt nicht sicher. Ich glaube, es gibt halt irgendwie Unterschiede.
+
+### Zwei Projekte: kleine Königreiche und Misstrauen
+
+[0:13:51] Und das heißt, ich will ein paar Beispiele zeigen. Und ein Beispiel ist dieses eine Projekt, in dem ich gesessen habe. Und da gab es eben ein kompliziertes Team, verschiedene Stream-aligned Teams und ein Plattform-Team. Und das scheint irgendwie eine Möglichkeit zu sein, sozusagen sinnvolle Abstraktionen über diese Organisation zu treffen und sich halt zu überlegen, wie man mit diesen Teams, mit dieser Organisation, mit der Aufgabe umgehen will. Ich bin mir da gar nicht so sicher. Für mich persönlich hat sich ein anderes Ergebnis, eine andere Art und Weise ergeben, über dieses Projekt nachzudenken.
+
+[0:14:28] Und zwar war es halt für mich so, dass ich als Kernthema dieses Projekts gesehen habe, dass es halt den Kunden gab, also den Auftraggeber, der dieses Projekt durchgeführt hat. Und da gab es halt verschiedene Beratungen. Und der Kunde hat die irgendwie alle gemocht und hat mit denen halt sehr gerne zusammengearbeitet, sonst wären die ja auch nicht im Projekt. Aber diese Beratungen untereinander haben sich halt eigentlich eher bekriegt und haben irgendwie gesagt: Okay, ich will halt diesen Job machen, ich will das halt irgendwie machen, damit du es nicht machst, damit ich mehr Umsatz habe, damit wir hier irgendwie mehr Leute platzieren. Das war etwas, was mich halt sehr stark an das hier erinnert hat, also an Deutschland vor der deutschen Einigung vor 1870. Das ist etwas, wo ich auch das Gefühl habe, dass Projekte häufig so aussehen, dass ich also eine Vielzahl so an kleinen Königreichen habe, so wie Deutschland 1870 eben auch. Das waren damals über 30 Nationen. Einige davon sind halt wirklich, wirklich klein und es gab nicht viel Alignment sozusagen über diese Nationen. Und wenn man sich das halt hier anschaut, dann sieht man halt, dass sowas wie Hamburg irgendwie was Eigenes war, hier ist halt das Königreich Hannover, was so – sage ich mal – das heutige Niedersachsen hat, wobei das stimmt irgendwie nicht, da ist noch ein eigenes kleines Reich hier rund um Bremen. Dann gibt es hier das Königreich Sachsen, dann gibt es hier das Königreich Bayern und dann gibt es auch hier wieder so ganz kleine Staaten. Und das ist eben das, wo ich das Gefühl habe, dass Projekte oft so funktionieren, dass man eben sagt, okay, es gibt halt bestimmte Einflusssphären von bestimmten Personen und das ist eine bessere Möglichkeit, darüber sozusagen nachzudenken.
+
+[0:16:07] Ein anderes Beispiel ist ein Projekt, wo es irgendwie auch wieder so Stream-aligned Teams gab, die also tatsächlich Funktionalitäten gebaut haben. Die Frage war halt, will man ein Plattform-Team haben und will man halt irgendwelche Dinge, die jetzt diese Teams gemeinsam machen, will man die halt in ein Plattform-Team überführen? Ich finde, das ist eine Frage, die man halt durchaus stellen kann. Und es gab da eben gemeinsame Funktionalitäten, nicht sowas eben auf der Ebene von Kubernetes oder so, sondern tatsächlich eben Funktionalitäten, die halt irgendwie auch eine Domänenlogik enthalten. Und das ist etwas, was man durchaus ernsthaft diskutieren kann, und man jetzt irgendwie zu einem Ergebnis kommen kann, ja, das macht irgendwie Sinn oder eben auch nicht. Aber das lässt einen ganz wichtigen Faktor außer Acht, nämlich dass es dort eine sehr toxische Umgebung gab, sodass irgendwie Probleme nicht kommuniziert worden sind und im Gegenteil, es gab irgendwie Bestrafung, wenn Probleme kommuniziert worden sind und infolgedessen halt irgendwie auch ein Misstrauen.
+
+[0:17:04] So, und was das jetzt bedeutet, ist, wenn ich da jetzt irgendwie sage, okay, ich baue ein Plattform-Team auf, dann kann ich halt diesem Plattform-Team eigentlich nicht ernsthaft vertrauen, weil die halt aus Selbstschutz die Probleme nicht transparent machen werden. Die werden also nicht sagen, ja, wir haben hier ein Problem, helft uns, sondern die werden halt sagen, bei uns ist alles irgendwie super, bis es dann irgendwann knallt und die Probleme halt unübersehbar werden. Und dann habe ich irgendwie ein Problem, wenn ich jetzt irgendwie verantwortlich bin für dieses Stream-aligned Team, weil ich möglicherweise meine Ziele nicht erreiche, und zwar deswegen, weil ich eben die Zulieferung von dem Plattform-Team nicht bekomme, und dann werde ich eben anschließend beschuldigt. Und das führt irgendwie dazu, dass ich vielleicht diese Plattform selber bauen will, weil ich das dann eben unter Kontrolle habe. Das ist zwar weniger effizient, aber ich habe irgendwie selber das unter Kontrolle. Ich habe mein eigenes Risiko und diese Leute kriege ich halt vielleicht eher dazu, offen mit mir zu kommunizieren.
+
+[0:18:00] Also tatsächlich, wenn ich mich selber in dieser Umgebung wiedergefunden hätte und ich hätte das Plattform-Team zu führen, ich würde wahrscheinlich tatsächlich auch Probleme nicht transparent machen. Beziehungsweise ich könnte natürlich daran arbeiten, dass das geht, aber das ist irgendwie aufwendig und ein anderes Thema. Und als Stream-aligned Team würde ich eben wahrscheinlich auch nicht die Services des Plattform-Teams benutzen, weil ich den Leuten halt nicht vertraue. Das heißt, man kann den Individuen eigentlich schwer einen Vorwurf machen, aber es ist irgendwie schief. Und da ist irgendwie nicht mehr die Frage, macht das halt fachlich Sinn, ist diese Aufteilung der Aufgaben sinnvoll, was ja eigentlich eine Software-Architektur-Aufgabe wäre, sondern es ist eben so, dass ich mich da bedauerlicherweise mit genau diesen menschlichen Faktoren herumschlagen muss, die hier tatsächlich Killer sind.
+
+### Artefakte, Prozesse und Kultur
+
+[0:18:46] Und das führt zu der Frage: Was jetzt? Eine Sache ist halt, dass ich bei diesen Artefakten zunehmend nicht mehr sicher bin, wie wichtig die sind. Also wir glauben ja, dass sowas wie Software-Architektur-Diagramme, Org-Charts oder Code halt irgendwie wichtig sind. Und ja, also, nicht? Code ist das, was wir am Ende halt irgendwie produzieren, und das ist sicherlich wichtig. Das andere sind aber Hilfsmittel. Und in Wirklichkeit ist aber die Kultur und die sozialen Beziehungen sind die Sachen, die wirklich, wirklich wichtig sind. Und wenn ich jetzt nur einen Org-Chart mache, dann ist vielleicht auch gar nicht so interessant das Artefakt an sich, sondern der Prozess dahin. Das ist etwas, was ich zunehmend spannend finde, weniger sich vielleicht darauf zu konzentrieren, dass ich die richtigen Artefakte baue, in der richtigen Zusammenstellung und da zu den richtigen Ergebnissen komme oder überhaupt die Ergebnisse zu bewerten, sondern viel interessanter ist es, glaube ich, die Prozesse sich anzuschauen und zu schauen, wie die Menschen halt zusammenarbeiten, um diese Artefakte zu erstellen. Wenn ich in einer bestimmten Art und Weise einen Org-Chart designe und bestimmte Leute daran beteiligt sind und bestimmte Meinungen haben, dann ist das halt irgendwie auch schon mal spannend.
+
+[0:19:50] Und das bedeutet auf der anderen Seite haben wir jetzt irgendwie das wirkliche Problem, und das ist halt das Problem von Kultur, und die sind halt schwer zu lösen. Also ich will ja jetzt irgendwie eine Kultur haben, wo Leute vertrauensvoll und gut miteinander zusammenarbeiten können. Und da könnte man jetzt irgendwie aus einer bestimmten Perspektive erstmal sagen: Wow, das ist halt echt kompliziert, das will ich vielleicht nicht. Und ehrlich gesagt bin ich mir da nicht sicher.
+
+[0:20:13] Eine von den Sachen ist, ich mache ja nun regelmäßig Trainings, das heißt, ich komme mit irgendwelchen Leuten zusammen, zehn Leuten, und ich muss jetzt mindestens für ein paar Tage mit denen vertrauensvoll zusammenarbeiten. Das klappt üblicherweise. Irgendwie kriegt man das also schon hin. Und das ist auch eine Voraussetzung dafür, dass ich erfolgreich bin. Das heißt also, ich muss das auch tun. So, und irgendwie muss ich da auch, also gibt es einen systematischen Ansatz, um das halt auf die Reihe zu bekommen, also eben dafür zu sorgen, dass man sich irgendwie kennenlernt. Es hilft zum Beispiel auch, dass man irgendwie gemeinsam Mittagessen geht, vielleicht auch im Extremfall abends nochmal irgendwas tut. Und das bedeutet, dass ich da also tatsächlich wirklich etwas tun kann.
+
+### Zwei Flugunglücke
+
+[0:20:52] Und es gibt sogar andere Industrien, die da einen Schritt weiter sind. Da ist zum Beispiel die Luftfahrt. Und in der Luftfahrt gab es halt dieses große Desaster auf Teneriffa. Das ist das tödlichste Flugunglück, was wir je hatten. Da sind zwei Jumbos, Jumbojets, Boeing 747 auf dem Boden zusammengestoßen, und zwar mit sehr senioren Crews. Also daran beteiligt war unter anderem eine KLM-Crew. Das war damals die niederländische Fluggesellschaft. Da war tatsächlich so ein Rockstar, also jemand, mit dem KLM Printmedienkampagnen gemacht hat und gesagt hat, das ist einer unserer Piloten, der ist übrigens irgendwie extrem gut. Und am Ende gab es halt 583 Tote und 61 Leute haben überlebt.
+
+[0:21:35] Ich muss vorwegschicken, und das ist mir auch tatsächlich wichtig, dass solche Flugunglücke immer mehrere Gründe haben. Also in dem konkreten Fall ist es so, es gab Nebel, deswegen konnten die sich wechselseitig nicht sehen. Es gab keinen Ground Radar. Es gibt so Radarsysteme, die dafür sorgen, dass man auf dem Flugplatz selber die Flieger sehen kann, auch wenn sie noch auf dem Boden sind. Sowas gab es nicht. Das hätte halt eben auch Sichtbarkeit erzeugt und hätte den Crash verhindert.
+
+[0:22:04] Es ist auf einer Nebeninsel ein Flugplatz geschlossen worden, deswegen sind Flüge umgeleitet worden. Es gab Probleme in der Kommunikation. Tatsächlich ist es eben so, dass ein Funkspruch, der das Unglück verhindert hätte, vermutlich nicht durchgekommen ist, aufgrund von technischen Problemen. Und die haben halt aufgrund eben von solchen Faktoren wie zum Beispiel Überlastung sind sie halt auf dem Runway gefahren, um dann irgendwie zu der Position zu kommen, wo sie halt abheben sollen.
+
+[0:22:35] Aber am Ende ist eben der KLM-Pilot abgehoben, und das war wie gesagt so ein Rockstar, ohne dass es eine Freigabe gab. Und der Rest der Crew hat nicht wirklich interveniert. Also es gibt eben diese Aufzeichnung, die irgendwie auch sagt: Ist eigentlich der andere Jumbo weg? Und der hat irgendwie trotzdem abgehoben. Und wie soll ich sagen, also das ist so ein typischer Fall von einem scheinbar trivialen Ding, im Sinne von: Es ist klar, dass man halt ohne Genehmigung nicht abheben sollte. Aber diese Crew, sehr erfahren, ist da dran letztendlich gescheitert. Und das kann man halt bei Wikipedia nachlesen.
+
+[0:23:15] Und es gibt noch ein paar krassere, in meinen Augen krassere Beispiele. Es gibt ja zum Beispiel diesen United-Airlines-Flug 173, wo die Kontrollleuchten gesagt haben, dass das Fahrwerk nicht ausfahrbar ist, kurz vor der Landung, was etwas ist, was nicht dazu führt, dass das Flugzeug sofort abstürzt. Es ist nur so, dass man dann aufpassen muss und dass eben am Ende wahrscheinlich das Flugzeug irgendwie Schaden nimmt. Und tatsächlich war es so, dass in Wirklichkeit diese Kontrolle nicht in Ordnung war. Das Fahrwerk war in Wirklichkeit ausgefahren. So, und auch da eine sehr seniorige Crew, die haben halt angefangen, das Problem zu beheben, zu versuchen, das Problem zu beheben, und sind halt Warteschleifen geflogen über dem Flughafen für 60 Minuten. Und irgendwann sind sie dann halt … hatten sie kein Benzin mehr und sind halt abgestürzt im Wald. Und es gab irgendwie zehn Tote, zwei davon aus der Crew. Und das ist eben etwas, was auch man bei Wikipedia nachlesen kann.
+
+[0:24:18] Und hier finde ich halt irgendwie spannend, dass sie auch wieder an einem scheinbar trivialen Problem gescheitert sind: dem Problem, dass man halt irgendwie Flugbenzin braucht, um zu fliegen. Ich glaube auch, dass es ein Kollaborationsproblem war, denn irgendjemand hätte sich drum kümmern müssen. Und es gibt so eine Darstellung, die halt eher sagt, dass der Kapitän das unterbunden hat. Es gibt eher eine Darstellung, wo man irgendwie das Gefühl hat, dass die Crew insgesamt das einfach nicht auf die Reihe bekommen hat, ohne dass jemand das jetzt unterbunden hätte. So oder so, sie haben eben diese Aufgabe nicht erfüllt, und zwei davon haben eben mit ihrem Leben bezahlt.
+
+### Kollaboration in der Softwareentwicklung
+
+[0:24:53] Und das führt dazu, dass eben diese Kollaboration wichtig ist. Und ich finde das halt mit den Flugunglücken insbesondere deswegen spannend, weil da ist halt das Ziel sehr klar. Ich will halt bei dem Ziel Flughafen sicher ankommen. Wahrscheinlich ist Kollaboration in unserem Bereich noch viel wichtiger, weil dort will ich ja irgendwelche Stakeholder zufriedenstellen. Und diese Stakeholder haben eben das Problem, dass sie auch selber noch etwas über die Domäne lernen, dass sie halt irgendwie etwas über Ziele lernen, dass das halt eine ständige Diskussion ist, dass sie halt die Software dann sehen und sich halt irgendwie überlegen, hey, da kann ich noch folgende andere Dinge tun, dass sich dadurch die Requirements ändern und so weiter. Das heißt, das ist einfach in Bezug auf die Änderung etwas, was halt viel, viel komplizierter und umfänglicher ist, sodass also auch wiederum sowas wie eine Kollaboration vielleicht noch wichtiger ist.
+
+[0:25:41] Und solche Metaphern und Analogien wie eben hier Flugverkehr sind halt immer schwierig. Aber ich würde halt ein paar Fragen stellen, die wir daraus vielleicht sozusagen ableiten können. Also einmal ist es halt so, dass wir hier bei den Flugunglücken es tatsächlich um das Leben der beteiligten Personen geht. Die Crew ist eben in dem Flugzeug selber drin und die müssen eben dafür sorgen, dass sie halt sicher ankommen, weil sie sonst eben auch selber nicht sicher ankommen. Während in Software ist es meistens so, dass es halt irgendwie nur um Geld geht und oft nicht um das Leben, insbesondere nicht um das Leben der Entwickler:innen. Es gibt natürlich Software, die halt lebenswichtig und kritisch ist, aber mindestens Entwickler:innen haben da halt nur ein begrenztes Risiko und auch viele sonstige Projekte haben eben eigentlich nur ein finanzielles Risiko, nur in Anführungsstrichen. Hier ist es eben so, dass diese Crews Schwierigkeiten haben zu kollaborieren, obwohl es um ihr Leben geht. Und ich bin mir jetzt nicht sicher, ob wir glauben, dass Software-Teams einfach so kollaborieren und diese Probleme nicht haben, denn da geht es eben nicht um das Leben.
+
+[0:26:46] Weitere Sachen, die wir daraus diskutieren können, sind: Die machen scheinbar triviale Fehler, Dinge, die halt nicht schwer zu erklären sind, wo ich also nicht monatelang mich ausbilden lassen muss, um es zu verstehen. Und es gibt eben auch dieses Problem, dass halt Crew-Mitglieder nicht sich involvieren und sagen: Nee, das ist halt irgendwie schlecht, obwohl es ihr Job ist. Sprich, wenn ich halt ein Erster Offizier bin und wir im Duo fliegen, der Pilot plus der Erste Offizier, dann ist das deswegen so, weil wir uns dadurch ergänzen und gegenseitig kontrollieren können und eben Aufgaben abnehmen können. Das heißt also, es ist der Job der jeweiligen anderen Person zu schauen, dass man Gemeinsames hinbekommt, was ja auch impliziert, dass man sich eben so ein bisschen das reviewt, was die andere Person tut. Ein bisschen wie bei Pair Programming, wo ja auch einer an der Tastatur sitzt und sagt: Ich mache das jetzt eben, und schreibt den Code und die andere Person eben daneben sitzt und das sich anschaut, nochmal überdenkt, strategisch denkt und so weiter. Und das ist eben bei Crews genauso. Irgendjemand fliegt das Flugzeug halt und die andere Person hat eben eher so eine Navigator-mäßige Rolle wie beim Pair Programming.
+
+[0:27:58] Und hier ist eben tatsächlich das Leben der Crews, ist dort irgendwie wichtig. Bei Software-Teams ist das nicht so klar. Da haben wir halt, wenn man sich zum Beispiel Scrum anguckt, nur das Team. Die müssen selber irgendwie Rollen finden. Und ich bin mir halt nicht sicher, wie wir jetzt mit solchen unklaren Rollen, wo wir also nicht sagen, es gibt halt die eine Person, die etwas tut, die das Flugzeug fliegt, die andere Person ist die, die diese Person unterstützt … Hier in einem Software-Team sind die Rollen nicht so klar. Ich bin mir nicht sicher, warum wir glauben, dass wir da einfacher oder überhaupt eben Probleme und Lösungen hinbekommen. Das bedeutet sowas wie: Jeder kann halt hier sagen, was er oder sie will. Das reicht bei Weitem nicht aus.
+
+### Crew Resource Management
+
+[0:28:42] Und das führt irgendwie zu der Frage: Haben wir eigentlich Möglichkeiten, Feedback systematisch zu verbessern? Und das ist so ein bisschen eben die Kernfrage. Also wir haben halt so eine, für mich schwammige Kulturaussage: Irgendwie müssen wir eine Kultur haben, wo irgendwie dieses Feedback funktioniert. Und wir haben halt auch irgendwie so eine Herausforderung dort. Jetzt ist halt die Frage: Können wir das systematisch verbessern? Und die Flugfahrt hat daraus dieses Crew Resource Management abgeleitet. Darüber habe ich auch eine Episode gemacht bei Software-Architektur im Stream, verlinke ich auch.
+
+[0:29:16] Und die Idee dort ist irgendwie zu sagen, dass man halt jede Ressource vollständig ausnutzt. Und das sind eben zum einen die Menschen, aber auch die technischen Werkzeuge. Und dadurch werde ich eben noch sicherer. Also Flugverkehr ist sehr, sehr sicher, aber durch Crew Resource Management komme ich dann noch weiter. Das bedeutet, es geht eben nicht darum, alle glücklich zu machen, sondern es geht irgendwie darum, erfolgreich zu sein. Und ich habe manchmal das Gefühl, dass halt bei uns das verwechselt wird, dass man eben sagt, okay, wenn halt alle glücklich sind, dann sind wir auch erfolgreich. Das ist nicht der Punkt. Und das merkt man hier, glaube ich auch, dass man von Ressourcen spricht, was ja tatsächlich bei Menschen entmenschlicht, aber trotzdem in meinen Augen zu einer positiven Aussage kommt, nämlich zu der Aussage, dass man halt stärker kollaborieren muss, weil ich eben die gesamte Expertise der gesamten Crew nutzen will.
+
+[0:30:04] Und es gibt so ein paar spannende Sachen. Ich habe zum Beispiel in dieser Crew-Resource-Management-Episode die Frage gestellt: Was entscheidet denn ein Flugkapitän ganz alleine? Und das Einzige ist halt ein Startabbruch, und das hängt eben damit zusammen, dass der tatsächlich so richtig, richtig zeitkritisch ist. Also das kann ich halt irgendwie zähle ich runter, und dann gibt es halt einen Punkt, an dem ich abheben muss, weil die Landebahn nicht mehr lang genug ist, dass ich stoppen kann. Und da jetzt zu sagen, ich breche das ab, das ist etwas, was tatsächlich der Kapitän per Konvention selber entscheidet. Der Erste Offizier könnte das theoretisch auch, darf es aber nicht.
+
+[0:30:45] Und das führt, glaube ich, bei uns zu der Frage: Wer ist denn eigentlich in Entscheidungen involviert? Also sind zum Beispiel Junioren involviert? In der Flugcrew offensichtlich, weil in den allerallermeisten Entscheidungen sind eben die Junioren involviert. Erste Offiziere sind typischerweise weniger erfahren als Flugkapitäne. Warum denn bei uns nicht? Und bei uns ist es eben auch so, dass Junioren zum Beispiel durch bestimmte Technologien, die sie vielleicht kennen, oder bestimmte andere Sachen tatsächlich noch stärker vielleicht uns älteren Personen überlegen sind. Und deswegen ist es, glaube ich, nochmal wichtiger, eben diese Rolle auch genau sich anzuhören und diese Leute halt anzuhören.
+
+### Kommunikation ermöglichen
+
+[0:31:22] Und eine Konsequenz, die im Crew-Resource-Management tatsächlich zieht, ist, Kommunikation zu ermöglichen. Das heißt also, ich sollte juniore Menschen so behandeln, dass sie eben tatsächlich auch ihre Meinung sagen, also lächeln, nett sein, solche Geschichten. Und zwar eben nicht deswegen, weil sie halt irgendwie glücklich sein sollen, sondern weil ich sie ja ausnutzen möchte, weil ich eben ihre Expertise nutzen möchte. Ich bin nicht sicher, ob wir uns darüber überhaupt Gedanken machen bei Softwareentwicklungsprojekten.
+
+[0:31:52] Und es gibt sogar Beispiele, wo eben … aggressive Kommunikation belohnt wird. Ich habe vor einiger Zeit The Soul of a New Machine gelesen. Das ist ein Buch, das eben genau darüber spricht, wie ein Minicomputer von Data General entwickelt wird. Das ist so Ende der 70er. Und da ist eben tatsächlich einer der Punkte, dass wichtige Entscheidungen in so einem Shouting Match, also wo irgendwie zwei Menschen sich zusammensetzen und sich halt so lange anschreien, bis sie mit einer Meinung ausgehen, entschieden werden. Und mir sind zahlreiche Leute bekannt, die da drauf einfach keinen Bock hätten, sich rausziehen würden. Und das ist genau das Problem. Also nur Leute, die aggressiv kommunizieren wollen oder können, sind Leute, die halt in so einem Umfeld überhaupt erfolgreich sein können.
+
+### Feedback auf die Zusammenarbeit
+
+[0:32:41] Crew Resource Management ist Teil des Pilotentrainings und auch Teil der Übungen im Simulator. Das heißt also, in einem Simulator kriege ich nicht nur Feedback über: Du hast folgenden Fehler gemacht, sondern ich kriege auch Feedback darüber, wie wir zusammengearbeitet haben. Und da bin ich eben nicht so sicher, wo wir das bei Software-Teams tun. Wo kriegen wir Feedback über die Interaktion? Wobei ich halt sagen muss: Also, es gibt eben zum Beispiel Retros, wo sowas diskutiert werden muss. Oder wir haben irgendwie Scrum Master:innen, die sich halt darum kümmern. Und genau darüber haben wir eben auch, hat Lisa eine Episode gemacht, wo es eben ging um diese Frage Scrum Master:in, Software-Architektur. Diese Rolle, diese Tätigkeit, die eben auch für bessere Kommunikation sorgen soll, ist da, glaube ich, eine ganz, ganz wichtige Sache.
+
+[0:33:28] Was ich auch sehr positiv finde bei diesem Crew Resource Management ist, dass eine Untersuchung halt niemals stoppt bei: Wieso hat dieser Vollidiot diesen Fehler gemacht? Nicht? Wieso ist der abgehoben ohne Freigabe? Sondern eher: Was hat denn dazu geführt, dass diese Person so reagiert hat, wie sie eben reagiert hat? Und da gibt es dann eben eine Ausbildung, die man sich überlegen kann. Es gibt eine Situation, die man sich überlegen kann: Was ist vor dem Flug passiert? Auf Teneriffa ist es eben so, die waren halt unter Zeitdruck, weil sie halt schon lange rumgestanden haben. Die Situation war sowieso nicht besonders erfreulich. Und das ist vielleicht ein Faktor, der da eine Rolle spielt.
+
+[0:34:06] Und das ist etwas, wo wir uns auch, glaube ich, wieder die Frage stellen müssen in unseren Projekten: wie wir damit umgehen, wenn jemand scheinbar einen Fehler begeht. Eigentlich finde ich das eben sehr positiv, sich dann zu fragen: Okay, was hat den dazu gezwungen, welche Umstände, diesen Fehler zu begehen?
+
+### Auftragstaktik: Delegation beim Militär
+
+[0:34:25] Ich habe auch eine Episode gemacht zu Auftragstaktik, wo es halt um militärische Führung geht und die ist halt, glaube ich, spannend, weil eben sowas wie Delegation tatsächlich dort ein Kernelement ist. Und das fand ich halt überraschend, weil man irgendwie ja bei Militär vielleicht denkt, dass blinder Gehorsam wichtig ist, aber es ist eben das Gegenteil, eben Delegation. Da ist also ein ähnlicher Mechanismus und das ist auch etwas, was dort professionell umgesetzt wird, wo also tatsächlich ein systematischer Ansatz existiert in der Offiziersausbildung, das natürlich weiterzugeben. Und da ist wieder dieselbe Frage: Als Softwarearchitekt:innen haben wir da irgendwie was Ähnliches? Und ich habe das zusammengefasst, also diese beiden Episoden über Auftragstaktik und die Episode über Crew Resource Management, die sind halt so, dass ich ganz bewusst dort Expertinnen, Experten interviewt habe und die halt gefragt habe: Wie läuft das denn in der Flugbranche oder eben im Militär? Und es nicht bewertet habe und keine Sachen daraus abgeleitet habe. Das habe ich in dieser Folge getan, wo ich gesagt habe: Was ist denn eigentlich das, was wir daraus lernen können?
+
+### Kultur geht alle an
+
+[0:35:32] Zusätzliche Tipps: Ja, wen geht das eigentlich an? Also Kultur, würde ich behaupten, ist eigentlich etwas, was halt alle angeht, sprich, das ist auch etwas, was wir alle irgendwie beeinflussen können. Und das Verhalten des Managements wird irgendwie kopiert, egal ob es gut oder schlecht ist, was also sozusagen die Führungsgruppe vorlebt, das ist das, was auch tatsächlich umgesetzt wird.
+
+[0:35:52] Und was ich halt spannend finde, vielleicht da auch noch mal so eine Anleihe ist: Wenn wir uns Star Trek angucken, Star Trek: Next Generation, da gibt es halt Counselor Deanna Troi, die halt so individuelle Guidance anbietet, die halt Hilfestellung gibt für Crewmitglieder, die dem Kapitän halt direktes Feedback gibt auf irgendwelche Kommandos, die sich auch irgendwie die Performance der Crew anguckt und halt auch im Notfall andere Offiziere aus dem Job entfernen kann. Und was ich dabei, das ist so ein bisschen so eine softe Rolle, ne? Also das ist halt eine Rolle, die halt irgendwie sagt: Ich berate halt auf dieser organisatorisch-empathischen Ebene. Und die sitzt aber tatsächlich gleichberechtigt mit dem ersten Offizier direkt hinter dem Captain Picard. Und da bin ich eben nicht sicher, dass wir sowas in Organisationen offiziell haben, Leute, die sich halt darum kümmern.
+
+[0:36:46] Die andere Person, die ich halt spannend finde, ist Guinan, das ist ein Alien, mehrere hundert Jahre alt, die halt für ihre menschliche Wärme und für ihr Wissen halt einfach bekannt ist. Und die halt irgendwie so schwierige Probleme oft löst oder dafür sorgt, dass die halt nicht noch schlimmer werden und halt andere Leute sozusagen beruhigt. Und die arbeitet halt in einer der Bars auf dem Raumschiff. Und ich glaube, das ist auch so eine Rolle, die wir vielleicht informell in einigen Projekten haben, wo wir irgendwie sagen, okay, es gibt halt diese Person und die sorgt eben dafür, dass die anderen Personen sich eben entspannt kümmern können und halt irgendwie sozusagen gut arbeiten können.
+
+### Psychological Safety
+
+[0:37:27] Ein bisschen Hype gibt es ja um das Thema Psychological Safety. Also es gibt eben keinen Fortschritt ohne Feedback und dazu muss ich mich jetzt sicher fühlen. Das heißt also, ich muss mich sicher fühlen, dass ich tatsächlich sagen kann, hier ist übrigens ein Problem. Und gleichzeitig muss ich empathisch sein. Das heißt, ich muss irgendwie dafür sorgen, dass das vernünftig bei dem Gegenüber ankommt, was auch bedeutet, dass ich Kommunikationsskills benötige.
+
+[0:37:52] Und ich habe dazu eine Episode gemacht mit einem Psychologen dazu, dem Joseph Pelrine. Das ist eine Episode auf Deutsch tatsächlich, und der eben genau das auch gesagt hat, was ich vorhin in der Folie gezeigt habe. Es geht nicht nur darum, dass ich mich sicher fühle, sondern ich muss eben auch empathisch diese Sachen rüberbringen, und ich muss eben auch dort dafür sorgen, dass ich das überhaupt kommunikativ kann.
+
+### Fragen stellen statt Lösungen vorgeben
+
+[0:38:18] Und das ist auch etwas, was vielleicht an einigen Stellen zu einem Problem führt. Und doch etwas, was ich, glaube ich, als Techniker ganz gut finde, ist irgendwie die Idee zu sagen: Ich möchte halt, ich gehe nicht in ein Gespräch rein und sage, das ist übrigens die Lösung, sondern ich versuche halt irgendwie zu fragen. Also die Lösung, die in dem spezifischen Consulting irgendwie gewählt worden ist von den Leuten, war: Wir wollen das System aufteilen in Microservices, und zwar weil die Teams voneinander stark blockiert sind. Das ist ja jetzt irgendwie eine Lösung. Und jetzt könnte ich halt irgendwie sagen: Ich weiß nicht, ob das eine gute Idee ist, das ist halt irgendwie aufwendig, und habt ihr mal über andere Ideen nachgedacht? Stattdessen habe ich angefangen, Fragen zu stellen. Also okay, ihr wollt diese Blockaden dieser Teams lösen. Wie oft passiert denn das? So, und Hintergrund ist halt irgendwie die Frage: Ist das überhaupt ein Problem? Das ist eigentlich das, weswegen man das irgendwie fragen kann oder sollte.
+
+[0:39:20] Dann ist irgendwie die andere Frage: Warum sind sie denn blockiert? Naja, weil sie halt aufeinander warten, weil irgendwie Software deployed werden muss und das eine Team deployed gerade das große monolithische System und deswegen kann das andere Team das halt im Moment nicht tun. Das ist eben der Grund für die Blockaden. Okay, alles klar. Das heißt also, eine Aufteilung in Microservices ist vielleicht wirklich eine gute Lösung. Und das muss ich nicht sagen, sondern das ergibt sich halt durch die Diskussion.
+
+[0:39:45] Aber wir können jetzt auch über Alternativen nachdenken. Ich kann also jetzt die Frage stellen, okay, das bedeutet also, ich habe eine lange Zeit, in der ein Team das deployed, monolithisch, und diese lange Zeit ist irgendwie das Problem. Das heißt, wir konnten uns ja überlegen, ob wir jetzt die Continuous Delivery Pipeline beschleunigen, und dann sind wir ja vielleicht in einer besseren Situation. Es stellt sich heraus, dass das eben tatsächlich eine Option ist, die halt weniger aufwendig ist, aber auch auf dieses Ziel einzahlt.
+
+[0:40:12] So, und da habe ich jetzt eigentlich nur Fragen gestellt und das Ergebnis ist sozusagen selber von dem Team gekommen, was halt einmal den Vorteil hat, dass ich selber meine Lösung überprüfen kann. Ich bin mir gar nicht sicher, ob ich mit dieser Lösung da reingegangen bin, aber wenn, dann kriege ich jetzt irgendwie einen Check über diese Lösung. Ich bekomme dadurch Feedback. Wir können halt gemeinsam sozusagen einen Gedankenpfad uns überlegen und dann irgendwie schauen, ob wir zu selben Ergebnissen kommen, was auch zum Beispiel bedeutet, dass es nicht so ist, dass ich mich jetzt hinstelle und sage, das ist übrigens die Lösung, die ihr machen sollt, sondern wir sind gemeinsam drauf gekommen, was ja auch irgendwie bedeutet, dass wir vielleicht es stärker gemeinsam tragen.
+
+### Entspannter: Gärtner statt Herrscher
+
+[0:40:54] So, und ich wäre auch entspannter als Software-Architekt. Also ich persönlich würde halt ein Single-Page-App-Framework aus verschiedenen Gründen nicht nutzen, weil ich glaube, dass es eine übermäßig komplexe Technologie ist, weil ich glaube, dass wir in den meisten Fällen, gerade so E-Commerce-Systeme, sowas eigentlich nicht brauchen. Aber wirklich wichtig ist, dass wir dazu in der Lage sind, die UI zu komponieren aus verschiedenen Teilen. Und in dem spezifischen Projekt war genau das möglich.
+
+[0:41:20] Das heißt also, die Teams waren dazu in der Lage, unabhängig voneinander Teile des Systems zu implementieren und in der UI zusammenzustellen, obwohl sie ein Single-Page-App-Framework genutzt haben. Und dann würde ich halt sagen: Mach halt, benutze halt das Single-Page-App-Framework. Und ich glaube, da ist halt so ein bisschen der Ansatz, dass man sich eher mit so einem Gärtner vergleichen sollte. Also ein Gärtner kann jetzt ja auch nicht der individuellen Pflanze befehlen, dieses und jenes zu tun, sondern kann sagen: Ich mache halt ein Beet, ich bereite das vor, ich säe dort irgendwie Dinge aus, ich schaue halt nach, ob das halt vernünftig funktioniert. Wenn nicht, dann ergreife ich eben entsprechende Maßnahmen. Aber wenn es halt nicht funktioniert, überlege ich mir was anderes und muss da eigentlich entspannt sein. Und ich glaube, das ist auch etwas, was uns als Softwarearchitekten vielleicht hilft, also eher Gärtner zu sein und nicht so ein absolutistischer Herrscher, was wir auch gar nicht sein können, weil wir auch tatsächlich nicht alles übersehen können.
+
+[0:42:18] Und da ist wieder der Flugkapitän, glaube ich, eine gute Metapher. Das ist zwar die seniore Person, aber gerade nicht der absolute Herrscher.
+
+### Fazit
+
+[0:42:27] Bedeutet in der Zusammenfassung: Irgendwie lieben wir es, glaube ich, mit Org-Charts zu arbeiten. Das wirkliche Problem ist anderes, das sind halt irgendwie Menschen. Und andere Branchen arbeiten systematisch daran, diese menschliche Seite zu verbessern. Und ich glaube, das sollten wir auch.
+
+[0:42:45] Ich habe bei Softwarearchitektur im Stream auch eine Episode gemacht zum Thema: Wie reißt man den Elfenbeinturm ein, zusammen mit der Anja Kammer. Und das ist, glaube ich, eine ganz spannende Episode, wo man sich auch noch mal so Case Studies angucken kann, also über die Frage: Wie kann ich denn Architekturentscheidungen eigentlich sinnvoll treffen? Und es stellt sich halt heraus, dass halt an vielen Stellen genau so dieser Faktor Mensch halt eine Rolle spielt und dass das eben etwas ist, worauf man dort achten muss und worum man sich irgendwie kümmern muss. Und das wäre also exakt dann mein Hinweis und das, was, glaube ich, bei Softwarearchitektur spannend und interessant ist. Vielen Dank fürs Zuhören, und vielleicht sieht man sich nochmal im Stream oder bei irgendeinem anderen Vortrag, würde mich freuen und bis dahin.
