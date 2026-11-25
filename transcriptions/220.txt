@@ -1,0 +1,422 @@
+# Bounded Context - Was ist das genau?
+
+Software Architektur im Stream, Folge 220, 2024-06-14.
+Bounded Context ist nur scheinbar einfach zu verstehen - diese Episode betrachtet das Pattern im Detail.
+Seite: https://software-architektur.tv/2024/06/14/bounded-context-was-ist-das-genau.html
+YouTube: https://www.youtube.com/watch?v=e0oasqiTsGs
+PeerTube: https://tube.tchncs.de/w/f9cd9ad9-928a-4d0c-b346-cf32c7e513e7
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/Bounded_Context_-_Was_ist_das_genau.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Bounded Contexts sind zentral für Strategic Domain-driven
+Design. Irgendwie werden damit große Systeme aufgeteilt, aber
+gleichzeitig macht es die Definition von Begriffen eindeutig und
+irgendwie spielt das Konzept auch eine Rolle für die Kollaboration von
+Teams. In dieser Episode diskutieren wir die den Begriff Bounded
+Context im Detail und gehen auf die Probleme ein, die bei der Nutzung
+des Begriff typischerweise auftreten.
+
+## Links
+
+- [Taktisches Domain-driven Design (DDD)](/2024/05/03/folge214.html)
+- [Folge Statt Microservices Framework, Library, Komponenten](/2024/02/23/folge204.html)
+- [Eric Evans: DDD Referenz (kostenlos)](https://ddd-referenz.de/)
+- [Folge Team Topologies](/2024/04/18/folge213.html)
+- [Folge Objektorientierung - Was ist das eigentlich?](/2024/05/17/episode216.html)
+- [Artikel "Große Systeme mit Domain-driven Design entwerfen"](https://www.heise.de/hintergrund/Grosse-Systeme-mit-Domain-driven-Design-entwerfen-4684074.html)
+- [Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software](https://amzn.to/4b2NDKU)
+
+## Zusammenfassung
+
+Was ist ein Bounded Context genau? Eberhard Wolff geht in dieser Folge
+über eine Einführung hinaus: Er bespricht, was bei der Umsetzung in der Praxis zu
+Schwierigkeiten führt. Grundlage ist das „Blaue Buch“ von Eric Evans. Sein Ergebnis: Der
+Begriff vermengt drei Konzepte, nämlich ein Modul mit einer
+Funktionalität, einen Bereich der Analyse und die Aufgabe eines Teams.
+
+### Was das Pattern sagt
+
+Ein typisches System nutzt verschiedene Modelle. Ein Bounded Context
+legt fest, wo welches Modell gilt. Eric Evans vergleicht ihn mit einer Zelle: Die
+Zellwand bestimmt, was hinein- und herauskommt, und schützt das
+Innere. Eberhards Beispiel sind Rechnungslegung, Lieferung und
+Bestellprozess. Alle drei haben zum Beispiel eine Idee vom Kunden, aber mit anderem Zweck.
+
+Relevant ist das, weil man ein System so fachlich grobgranular
+strukturieren kann. Hoffentlich entsteht lose Kopplung: Eine
+Änderung bleibt in einem Bereich. Übergreifende Anforderungen sind
+trotzdem möglich. Bounded Contexts sind auch nicht fest. Domain-driven
+Design ist ein iterativer Lernprozess, und spätestens beim Code stellt sich
+vielleicht heraus, dass man den Kunden anders modellieren muss.
+
+Von Subdomänen grenzt Eberhard den Begriff ab. Sie kommen aus der
+Problemdomäne, etwa aus dem Event Storming. Ganz deckungsgleich sind
+beide nicht: Kann eine Lieferung nicht zugestellt werden, braucht die
+Erstattung vielleicht das finanzielle Modell.
+
+### Bounded Contexts und Module
+
+Laut Blauem Buch sind Bounded Contexts gerade nicht dasselbe wie Module. Teile
+eines Bounded Contexts können wieder fachliche Module sein, und es
+gibt weitere Ansätze wie Layering, das technische Belange von der Geschäftslogik
+trennt. Wer sich nur auf Bounded Contexts konzentriert, übersieht
+diese Themen. Grenzen können auch zwischen Teams, in der Codebasis und im
+Datenbankschema verlaufen. Getrennte Logik auf einem gemeinsamen
+Datenbankschema hält Eberhard für schwierig, weil dort wieder alles
+vermengt wird.
+
+Schlecht geschnitten sind Bounded Contexts, wenn zwei Dinge dasselbe
+repräsentieren oder zwei Dinge fälschlich als dasselbe gelten. Den
+zweiten Fall hält Eberhard für häufiger: Der Kunde, der die Ware
+bekommt, ist nicht unbedingt der, der die Rechnung bekommt. Die Aufteilung nach Daten, etwa in einen
+Bounded Context „Kunde“, sieht er häufig, aber sie ist nicht die Idee.
+
+### Ubiquitous Language
+
+Die Ubiquitous Language verlangt dieselbe Sprache in Code,
+Kommunikation, Diagrammen und Datenbank. Heißt ein Vorgang
+Nachlieferung, dann soll das so im Code stehen, nicht Zweitlieferung
+oder eine englische Übersetzung. Im Pattern Context Map steht, dass
+jeder Bounded Context einen Dialekt der Ubiquitous Language hat.
+Manche Begriffe gelten überall, andere nur in einem Bereich.
+
+Damit steht der Begriff für zwei Dinge: den Gültigkeitsbereich von Begriffen
+in der Analyse und den Gültigkeitsbereich eines Modells im Code.
+Nach Domain-driven Design sollen beide deckungsgleich sein.
+Eberhard behauptet sogar, dass sie es in den allermeisten Fällen nicht sind, denn Legacy-Systeme
+und Standardsoftware nutzen oft andere Begriffe. Außerdem kann das, was man gerade
+in der Analyse lernt, noch nicht im Code stehen.
+
+### Daten teilen oder trennen
+
+Früher wollte man nach Eberhards Eindruck oft ein Kundenmodell für alle
+Bounded Contexts. Das hält er für eine schlechte Idee. Inzwischen begegnet ihm manchmal das
+Gegenteil: Daten sollen vollständig getrennt sein. Auch das findet er
+schwierig. Mit einer Published Language kann man ein gemeinsames
+Modell zum Informationsaustausch haben. Das geht, solange es nicht zu
+kompliziert wird und Änderungen im Wesentlichen rückwärtskompatibel
+sind.
+
+### Module nach Funktionalität
+
+Als allgemeineres und vielleicht einfacheres Konzept schlägt
+Eberhard vor: Ein Modul umfasst eine Funktionalität mit einer
+Semantik aus Benutzersicht. Das entspricht dem Abstract Data Type aus
+der Folge zur Objektorientierung. Auf ein Konto kann man zum Beispiel einzahlen,
+man kann abheben und den Kontostand erfragen, ohne die interne
+Umsetzung zu kennen. Das funktioniert auch für technische Module und Legacy-Systeme.
+Ein Modul „Kunde“, das nur Daten exponiert, fällt dabei sofort auf.
+
+### Beziehungen und Teams
+
+Der Shared Kernel ist ein gemeinsamer Teil zweier Modelle und sagt
+nichts über Teams. Customer-Supplier dagegen beschreibt eine
+Teambeziehung: Ein Team kann dem anderen Anforderungen geben. Das
+gilt auch für ein Plattform-Team und hat dann nichts mit Bounded
+Contexts zu tun. Kümmert sich ein Team um zwei Bounded Contexts, ist
+das Pattern sinnlos. Conformist mischt beides: kein Einfluss
+auf das andere Team und keine Übersetzung des Modells. Der
+Anti-Corruption Layer sagt wieder nur etwas über den Code.
+
+Als Alternative schlägt Eberhard vor, Beziehungen zwischen Modellen und
+zwischen Teams zu trennen.
+Team Topologies findet er deshalb interessant: Es spricht im
+Wesentlichen über Teams und ihre Interaktion. Dafür fehlt dort die
+Aussage, welche Zusammenarbeit die fachliche Architektur erzwingt.
+
+### Fazit
+
+Bounded Contexts sind ein Werkzeug. Für eine grobgranulare fachliche
+Aufteilung und für die Analyse findet Eberhard sie gut: Sie führen weg von dem einen
+Datenmodell für alles. Ergänzen muss man feingranulare und technische
+Module. Ob er sie nutzen würde, um die
+Interaktion zwischen Teams genau zu definieren, da ist er nicht so sicher. Ein Team kann
+auch mehrere Bounded Contexts bearbeiten. Eberhard hält es für
+wichtig zu klären, ob jemand mit dem Begriff Code, Analyse oder Team meint.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Ein Bounded Context legt fest, in welchem Bereich ein Modell gilt. So lässt sich ein System fachlich grobgranular strukturieren.
+- Bounded Contexts sind nicht fest: Domain-driven Design ist ein iterativer Lernprozess, in dem sich der Schnitt ändern kann.
+- Laut Blauem Buch sind Bounded Contexts nicht dasselbe wie Module. Daneben gibt es feingranulare fachliche Module und technische Trennungen wie Layering oder hexagonale Architektur.
+- Bounded Contexts nach Daten zu schneiden, etwa einen Bounded Context „Kunde“, ist nicht die Idee. Strukturiert werden soll Logik.
+- Jeder Bounded Context hat einen Dialekt der Ubiquitous Language: Manche Begriffe gelten überall, andere nur dort oder mit eigener Bedeutung.
+- Analyse und Code sollen deckungsgleich sein. Eberhard behauptet, dass sie es in den allermeisten Fällen nicht sind, weil man es mit Legacy-Systemen und Standardsoftware zu tun hat.
+- Alle Daten getrennt zu halten, findet Eberhard schwierig; ein Modell für alle Bounded Contexts hält er für eine schlechte Idee. Eine Published Language erlaubt ein gemeinsames Modell zum Informationsaustausch.
+- Das allgemeinere Konzept ist für Eberhard ein Modul, das eine Funktionalität mit Semantik aus Benutzersicht umfasst. Es funktioniert auch für technische Module und Legacy-Systeme.
+- Strategic Design mischt Beziehungen zwischen Modellen (Shared Kernel, Anti-Corruption Layer) mit Beziehungen zwischen Teams (Customer-Supplier); Conformist enthält beides. Eberhard schlägt als Alternative vor, beides zu trennen.
+- Der Begriff Bounded Context vermengt drei Konzepte: Modul mit Funktionalität, Analysebereich mit eigener Ubiquitous Language und Aufgabe eines Teams.
+
+### Behandelte Fragen
+
+- Was ist ein Bounded Context, und wozu braucht man ihn?
+- Wie unterscheiden sich Bounded Contexts von Subdomänen und von Modulen?
+- Woran erkennt man schlecht geschnittene Bounded Contexts?
+- Was hat die Ubiquitous Language mit Bounded Contexts zu tun?
+- Soll man Daten zwischen Bounded Contexts teilen oder trennen?
+- Warum sind Analyse und Code oft nicht deckungsgleich?
+- Welche Patterns beschreiben Beziehungen zwischen Modellen, welche zwischen Teams?
+- Was leistet Team Topologies, und was fehlt dort?
+
+### Glossar
+
+- **Bounded Context**: begrenzter Bereich der Gesamtlogik, in dem ein bestimmtes Modell gilt
+- **Ubiquitous Language**: allgegenwärtige Sprache, die in Code, Kommunikation, Diagrammen und Datenbank gleich ist
+- **Pivotal Event**: Ereignis aus dem Event Storming, nach dem die Welt anders ist
+- **Knowledge Crunching**: gemeinsam lernen, was die richtigen Begriffe und Modelle sind
+- **Published Language**: gemeinsames Modell für den Austausch von Informationen
+- **Shared Kernel**: gemeinsamer Teil zweier Modelle
+- **Customer-Supplier**: Ein Team ist Dienstleister für ein anderes und nimmt dessen Anforderungen an
+- **Conformist**: Ein Team übernimmt das Modell eines anderen, auf das es keinen Einfluss hat
+- **Anti-Corruption Layer**: Schicht, die das eigene Modell von einem fremden entkoppelt
+
+## Transkript
+
+## Bounded Context - Was ist das genau?
+
+In dieser Folge spricht Eberhard Wolff allein. Er bezieht sich auf das „Blaue Buch“ von Eric Evans und geht kurz auf den Chat ein.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube). In PeerTube und im Podcast (MP3) kann die Stelle abweichen.
+
+### Begrüßung und Ziel der Episode
+
+[0:00:00] Dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream. Heute geht es um das Thema Bounded Context. Was ist das eigentlich genau? Und ich will hier das Thema sozusagen nochmal tiefer diskutieren. Eigentlich ist das ein relativ einfaches Konzept, aber wenn man irgendwie mal kurz draufguckt, in Wirklichkeit ist es dann doch verwirrend, und das will ich versuchen zu klären oder vielleicht auch zu der Verwirrung beitragen. Das bedeutet, dass der Talk halt sozusagen der zweite Talk ist nach einer Einführung. Also das sind die Dinge, die ich normalerweise in einem Training nicht erklären würde, weil sie irgendwie zu kompliziert sind und zu weitreichend sind, aber die für mich halt so in der Praxis, wenn man halt versucht, das Thema halt wirklich umzusetzen, halt irgendwie zu Schwierigkeiten führen.
+
+[0:00:59] Es gab vorab noch eine Frage, das habe ich leider nicht ganz geschafft, die zu beantworten, weil die ziemlich kompliziert war und relativ spät irgendwie dazugekommen ist, aber ich werde zumindest ein paar Sachen dort erläutern. Und ich sollte kurz den Hinweis loswerden: Ich beziehe mich mal wieder klassisch halt auf das Blaue Buch, jenes hier von dem Eric Evans über das Thema Domain-Driven Design. Das heißt, es geht halt dort im Wesentlichen um die Patterns, so wie sie dort dargestellt werden.
+
+### Das Pattern Bounded Context
+
+[0:01:34] Und da gibt es eben genau dieses Pattern mit dem Bounded Context. Und Bounded Context sagt halt, dass wir in einem typischen System verschiedene Modelle nutzen, und die Frage ist, welches wir wo benutzen, und da ist irgendwie genau der Bounded Context eben das, wo wir sagen, dass wir halt ein bestimmtes Modell dafür benutzen. Eric hat so eine schöne Grafik dafür benutzt. Das ist halt eine Zelle, also tatsächlich eine biologische Zelle. Und diese Zelle hat halt eine Zellwand. Das heißt also, eine von den wesentlichen Fragen ist eben, was halt dort rein und rauskommt, und dadurch ist irgendwie das Innere dieser Zelle halt geschützt. Und ich glaube, das ist ein gutes Motiv für das, was wir hier diskutieren.
+
+[0:02:17] Also wir haben jetzt eben ein Modell und das ist halt intern und dort irgendwie geschützt. Und dieses Modell ist halt irgendetwas, was wir so mit taktischem Domain-Driven Design umsetzen. Und dazu haben wir das letzte Mal auch eine Episode ja gemacht vor einiger Zeit. Das ist so ein bisschen was, was sich halt durchzieht durch die letzten Episoden. Das heißt, es ist halt irgendwie ein Set von Klassen, die halt irgendetwas zusammen erbringen.
+
+### Ein Beispiel: Rechnungslegung, Lieferung, Bestellprozess
+
+[0:02:49] Also wahrscheinlich ist es ganz gut, wenn wir gleich mit einem Beispiel loslegen. Also ich könnte mir jetzt vorstellen, ich habe halt ein Modell für eine Rechnungslegung, da kann ich jetzt irgendwie ermitteln, was ich halt auf eine Rechnung draufschreiben soll. Ich habe ein anderes für eine Lieferung, wo ich irgendwie versuche herauszufinden, wie ich die entsprechenden Waren halt zum Kunden bekomme. Ich habe ein drittes für einen Bestellprozess. Das heißt, ich habe jetzt ein Set von Klassen, die eben zum Beispiel die Rechnungslegung machen, also werde ich dort irgendetwas haben, was direkt eine Rechnung modelliert, vielleicht ein Aggregate, was das halt tut. Ich werde eine Idee haben von Kunden.
+
+[0:03:19] Bei Lieferungen habe ich auch sowas wie Kunden und da werde ich noch weitere Dinge haben. Ich werde mir halt überlegen, was halt so in Pakete reingehört. Ich werde mir irgendwas überlegen zu Produkten, wie ich die halt verschicken will. Und beim Bestellprozess habe ich halt wieder auch einen Kunden und ein Produkt, aber habe das halt irgendwie anders kombiniert und da irgendwie andere Geschichten. Also Rechnungslegung geht halt um Geld, Lieferung geht halt darum, wie kriege ich Sachen halt irgendwie zu einem Kunden geliefert. Und beim Bestellprozess habe ich sozusagen einen Ausgangspunkt, der jetzt dafür sorgt, dass das überhaupt erstmal alles sozusagen losgeht.
+
+### Warum ist das Pattern relevant?
+
+[0:03:57] So, und jetzt ist die Frage: Warum ist das überhaupt relevant? Also warum kann man eine ganze Episode mit dem Thema verbringen oder will das vielleicht auch? Warum ist das überhaupt ein Thema, was, glaube ich, tatsächlich relativ viel Interesse produziert? Und der Grund dafür ist, dass das etwas ist, was eine gute Grundlage darstellen kann, um ein System grobgranular zu strukturieren. Was wir also machen, ist, dass wir so einen begrenzten Kontext definieren, in dem so ein Modell gültig ist. Also wir sagen, wir haben ein Modell, dieses Modell kann eben nur Rechnungslegung, und das werden wir jetzt eben auch entsprechend im Code irgendwie manifestiert haben. Und dadurch haben wir eben unser System grobgranular strukturiert.
+
+### Scope und Anforderungen
+
+[0:04:47] In der schon zitierten Frage, die ich nicht mehr ganz beantworten kann, kommt noch sowas wie irgendwie ein Scope. Ich befürchte, das hat halt keine so feste Definition, dieser Begriff Scope. Ich glaube, ich habe ihn gerade eben auch nochmal verwendet. Das bedeutet halt nur, dass es irgendetwas gibt, was halt für irgendeinen Umfang hat. Bounded Context ist sehr klar definiert. Das bedeutet eben ein begrenzter Bereich der Gesamtlogik, den ich jetzt eben mit einem bestimmten Modell erschlage.
+
+[0:05:18] Und da gibt es den Zusammenhang tatsächlich, glaube ich, zu Anforderungen. Also ich werde hoffentlich eine fachliche Anforderung in so einem Bounded Context implementieren können. Wenn wir jetzt bei dem Beispiel bleiben, wenn ich halt Dinge ändern will, die halt irgendwie die Rechnungslegung betreffen, dann wird das eben in der Rechnungslegung gemacht. Wenn ich Dinge habe, die halt in der Lieferung sind, dann werden die halt in der Lieferung gemacht.
+
+[0:05:42] Und man kann da auch gleich erkennen, dass es halt so übergreifende Anforderungen geben kann. Wenn ich jetzt also sage, ich habe irgendetwas, was ich halt bereits in der Bestellung erfassen will, was aber Auswirkungen auf die Lieferung hat, dann werde ich wahrscheinlich dort eine übergreifende Anforderung haben über mehrere Bounded Contexts, und das ist, glaube ich, auch fein. Wir sagen ja nicht, dass das eben genau dazu führt, dass eine Anforderung in einem Bereich drin ist, sondern wir sagen eben nur, dass das hoffentlich zu einer losen Kopplung führt. Aber das ist der Grund, warum uns das halt interessiert, weil wir halt dadurch eine gute fachliche Strukturierung haben, gut in dem Sinne, dass wir dadurch leicht wartbare Software haben, bei denen Änderungen hoffentlich eben begrenzt sind auf irgendetwas.
+
+### Grundlage für Module
+
+[0:06:24] So, und das bedeutet also, dass wir dort dann eine gute Basis für irgendwelche Module haben. Wenn wir also ein Deployment-Monolithen schreiben, würden wir wahrscheinlich Bounded Contexte jeweils in irgendeinem Java-Package oder was auch immer halt irgendwie umsetzen. Ich hatte auch mal so eine Episode gemacht, wo ich gesagt habe, nicht, eine grobgranulare Modularisierung eines Systems kann eben zum Beispiel mit Microservices stattfinden, aber auch mit Technologien wie zum Beispiel einer einfachen Library. Ich packe das auch nochmal in die Links. Und das ist genau das, was wir hier jetzt, wo wir hier Kandidaten vielleicht identifizieren können, um das System halt entsprechend aufzuteilen.
+
+[0:07:14] So, jetzt muss ich mal kurz gucken. Das habe ich erzählt? Ach so, genau.
+
+### Abgrenzung zu Subdomänen
+
+[0:07:18] Man kann es auch nochmal kurz abgrenzen zu Subdomänen. Das ist eigentlich etwas, was so eher aus der Problemdomäne kommt, vor allem so aus dem Event Storming. Da sage ich halt, ich habe irgendein Pivotal Event, wonach also die Welt anders ist. Wenn ich zum Beispiel die Lieferung angenommen habe, ist die Welt eben anders, weil dann kann ich die nicht mehr einfach Dinge hinzufügen, sondern dann müsste ich jetzt eben die Lieferung stornieren, im Nachhinein nochmal ändern oder sowas. Und es ist überhaupt erst mal eine Bestellung entstanden. Das heißt also, die Welt ist deutlich anders. Das ist das, was ein Pivotal Event ausmacht.
+
+[0:07:55] Dann gibt es so Swimlanes, Dinge, die halt ein bisschen parallel sind, wo ich jetzt also sage, okay, ich habe halt zum einen die Lieferung und zum anderen die Rechnungslegung, und das sind zwei im Wesentlichen parallele Prozesse. Und das, ich habe jetzt in dem Beispiel mit der Rechnungslegung und dem Bestellprozess scheinbar eine Deckungsgleichheit zwischen solchen Subdomänen und Bounded Contexten, ganz stimmt das, glaube ich, nicht. Es wäre jetzt denkbar, dass ich halt an bestimmten Stellen dann doch irgendwelche tieferen Interaktionen habe.
+
+[0:08:34] Wenn ich jetzt zum Beispiel sage, dass ich bei dem Lieferprozess irgendwann feststelle, dass ich das nicht zustellen kann und ich möchte das halt irgendwie gutschreiben, dann wäre das halt in so einem Quadranten, der begrenzt ist durch eben den Pivotal Event, dass die Bestellung ja eingegangen ist und das ist begrenzt durch die Swimlane hin zu der Rechnungslegung. Aber diese Geschichte, dass das Ding halt nicht zugestellt worden ist und dass es dann halt irgendwie erstattet werden muss, da würde ich halt denken, ist vielleicht ein anderes Modell, eben so ein finanzielles Modell relevant, zumindest für die Erstattung. Und das wäre jetzt eben etwas, wo ich so ein Event hätte, der vielleicht in dieser Subdomäne drin wäre, der also sagt, okay, ich will halt eine Erstattung haben, wenn ich die Sache nicht zustellen kann und der aber dann in Wirklichkeit eben von einem anderen Bounded Context erreicht wird oder gemacht wird, eben von dem, der sich halt um das finanzielle Modell kümmert. Das heißt also, da ist nur eine Verbindung, also größere Teile von diesem Lieferding werden sicherlich mit einem Modell gemacht werden, wo ich dann sage, okay, ich habe eine Lieferung, ich habe Pakete, ich habe irgendwie Produkte, die in Paketen sind, aber es gibt eben Ausnahmen, eben zum Beispiel diese finanziellen Sachen, die werde ich wahrscheinlich mit einem anderen Modell machen, was eben andere Sachen umsetzt.
+
+### Bounded Contexts sind nicht fest
+
+[0:09:53] Ein Hinweis, den man auch nochmal dringend loswerden muss, der sich für mich auch aus dieser Frage halt ergab: Bounded Contexts sind nicht fest, sondern alles, was wir hier besprechen, ändern wir. Domain-Driven Design ist ein iterativer Lernprozess.
+
+[0:10:07] Wir haben also Knowledge Crunching und genau das, was wir hier versuchen, so ein Modell nämlich zu definieren, wenn ich halt wirklich an der Tastatur sitze und den Code schreibe, spätestens da muss ich Dinge halt eindeutig schreiben. Und das kann nochmal dazu führen, dass wir uns irgendwie Gedanken machen müssen darüber: Ist das eigentlich immer derselbe Kunde? Wie modelliere ich halt genau den Kunden? Funktioniert das jetzt wirklich, was ich dort mal vorhatte? Und da muss ich halt irgendwie zurück und muss vielleicht nochmal irgendwie mir Gedanken machen über eine Modellierung.
+
+[0:10:40] Und dabei kann es eben auch sein, dass ich am Ende dann zu einer ganz anderen Aufteilung im Bounded Context halt auch komme. Das ist irgendwie etwas, was wie bei allen Architekturartefakten halt immer der Fall ist, dass ich die halt iterativ ändere. So, soweit erstmal dazu.
+
+### Grenzen in Teams, Code und Datenbank
+
+[0:11:04] Was das jetzt bedeutet, ist, dass diese abstrakte Idee von: Ich habe einen begrenzten Kontext, in dem ein Modell gültig ist, was den halt noch interessant macht, ist, dass halt im Original-Pattern steht, dass das jetzt auch Grenzen sind, die ich zum Beispiel in der Teamorganisation habe oder haben kann, aber auch bei der physischen Manifestierung von Dingen, wie zum Beispiel in der Codebasis oder im Datenbankschema. Und da sind wir wieder bei dem Thema Microservices. Ich könnte jetzt also sagen, ein Bounded Context wird ein Microservice. Ich kann auch sagen, es ist ein Teil in der Codebasis.
+
+[0:11:38] Und insbesondere das mit dem Datenbankschema ist manchmal etwas, was halt nicht so richtig verstanden wird, wo man dann irgendwie sagt: Ja, also wir haben halt irgendwie unterschiedliche Logik, aber am Ende will ich doch irgendwie alles in einem Datenbankschema haben. Das ist, glaube ich, nicht unbedingt oder das halte ich tatsächlich für schwierig, weil das eben dazu führt, dass wir zwar oben dann sagen, okay, wir haben halt getrennte Bounded Contexts mit getrennten Ideen der Realität, aber in der Datenbank treffen die sich alle und dann habe ich eben auf der Ebene der Datenbank zumindest eben alles miteinander vermengt und das macht, glaube ich, nicht so wahnsinnig viel Sinn.
+
+### Bounded Contexts sind nicht dasselbe wie Module
+
+[0:12:12] Das Ganze, was das also bedeutet, ist, dass wir jetzt so ein bisschen das Heilsversprechen haben, dass wir gute fachliche Module daraus bekommen. Und das ist, glaube ich, die erste Sache, wo man so ein bisschen eine potenzielle Enttäuschung erlebt, weil es ist tatsächlich so, dass im Blauen Buch steht, dass Bounded Contexts gerade nicht dasselbe sind wie Module. Also Eric schreibt halt, na ja, die werden halt irgendwie Module schon werden, aber auch Teile eines Bounded Contexts können Module sein. Und das Modul-Pattern, was er eben vorschlägt, sagt jetzt, dass das auch fachliche Strukturierungen sind. Das heißt also, was dort im Prinzip in dem Buch drinsteht, ist: Bounded Contexts sind nur eine mögliche Modularisierung, eine mögliche fachliche Modularisierung. Wir haben ja noch nicht mal darüber gesprochen, das gibt es auch noch als Pattern, dass ich halt Layering habe. Layering, damit meint Eric halt, dass ich die technischen Belange trenne von der tatsächlichen Geschäftslogik, was man also tatsächlich mit Layering machen kann oder mit hexagonaler Architektur, das ist also nochmal ein ganz anderes Modularisierungskonzept, sondern er sagt halt auch, dass in der fachlichen Modularisierung andere Module denkbar sind.
+
+[0:13:35] Also ich könnte jetzt zum Beispiel sagen, okay, ich habe halt diesen Liefer-Bounded Context, jetzt habe ich so ein Ding, was irgendwie sagt, wie kriege ich jetzt irgendwas verschickt. Ich habe hier irgendein Telefon und das will ich halt auf eine bestimmte Art und Weise verschicken. Und dann habe ich halt einen Kugelschreiber, den will ich vielleicht anders verschicken. Und ich habe eine Waschmaschine nebenan, die will ich nochmal anders verschicken. Und diese Frage, wie kann ich also diese Sachen verschicken, das könnte vielleicht ein Modul sein. Und ein anderes Modul könnte dann sein, zu sagen, okay, cool, ich weiß jetzt, wie ich es verschicken will. Jetzt sorge ich dafür, dass das auch tatsächlich passiert, und ich schicke jetzt Aufträge raus an DHL oder meine eigene Logistik, um das halt tatsächlich zu tun.
+
+[0:14:16] Und dann habe ich noch eine feingranulare weitere fachliche Modellierung. Das heißt, ein bisschen führt das schon mal zu dem Problem, dass halt diese absolute Fokussierung auf Bounded Contexte als fachliche Modularisierung schwierig ist und dass außerdem dabei eben die technische Modularisierung gar nicht betrachtet wird. Und das ist, glaube ich, irgendwie ein Problem.
+
+### Wann Bounded Contexts schlecht geschnitten sind
+
+[0:14:42] Noch etwas, was er dort irgendwie anspricht, ist, dass man bei diesen Bounded Contexten das Problem haben kann, also Hinweise darauf, dass sie nicht gut geschnitten sind, wenn zwei Dinge dasselbe repräsentieren oder zwei unterschiedliche Dinge als dasselbe verstanden werden. Er sagt halt, dass dieses zwei Dinge repräsentieren dasselbe das üblichere Problem ist. Ich finde, dieses zwei unterschiedliche Dinge werden als dasselbe verstanden eher das übliche Problem.
+
+[0:15:08] Mein klassisches Beispiel: der Kunde, der Kunde, dem ich etwas schicke, das könnte eben der Eberhard Wolff sein, der in Kaiserslautern wohnt. Das ist jemand anders als der Kunde, dem ich die Rechnung schicke. Das könnte eben die SWAGLab GmbH in Hamburg sein. Und das sind tatsächlich unterschiedliche Kunden. Das heißt, wenn ich sage, ich schreibe dem Kunden eine Rechnung, dann ist das was anderes, als wenn ich sage, ich schicke dem Kunden die Ware. Der Kunde ist da etwas anderes, und das ist etwas, was ich eben mit Bounded Contexten auflösen kann. Ich hätte dann eben zwei Modelle mit unterschiedlichen Modellierungen von Kunden, was übrigens auch bedeutet, dass eben Kunde kein sinnvoller Bounded Context ist. Das ist auch nochmal was, worüber wir, was, wie soll ich sagen ...
+
+[0:15:52] Ich bin nicht sicher, ob es da so explizit steht, aber ich sehe das häufig als ein Fehlerpattern sozusagen, zu versuchen, die Bounded Contexte nach Daten aufzuteilen. Und ich bin gar nicht, also wie soll ich sagen, das ist nicht die Idee. Also wenn ich halt Kunde sage, ist das halt in Domain-Driven Design Aggregate. Darüber habe ich in der taktischen Domain-Driven-Design-Folge gesprochen. Und was ich ja will, ist, ich will Logik strukturieren. Darüber habe ich auch in der taktischen Domain-Driven-Design-Folge gesprochen.
+
+[0:16:32] Also wäre meine Erwartungshaltung, dass ich irgendwelche Logik habe, und die grobgranulare Sache, die ich hier habe, ist eben etwas anderes. Das ist halt irgendwelche Logik, die irgendwas erbringt, also die halt vielleicht einen gesamten Geschäftsprozess oder halt größere Teile eben der Logik umsetzt und nicht sowas wie ein einzelnes Datum.
+
+### Es gibt nicht die eine Business-Logik
+
+[0:16:54] Was eben bedeutet, es gibt nicht die eine Business-Logik. Also ich habe manchmal das Gefühl, dass, wie soll ich sagen, also zumindest in meiner Ausbildung bin ich sehr unsicher, ob man darauf hingewiesen hat auf diese Vieldeutigkeiten. Ich bin mir auch unsicher, ob man darauf hingewiesen hat, dass man eigentlich irgendwie mehrere Dinge bauen will, die dann Teile eines Ganzen werden, also genau dieses Konzept mit, dass ich mehrere kleinere Modelle habe.
+
+[0:17:22] Da bin ich mir halt unsicher, ob das halt diskutiert worden ist. Das ist aber eigentlich die Idee. Ich habe sozusagen nicht eine Business-Logik, sondern ich habe irgendwie mehrere. So, also soweit ist das jetzt etwas, was im Wesentlichen, glaube ich, uns als Techniker:innen begeistern sollte, weil es sagt uns irgendwie, wie wir Systeme aufteilen sollen, beziehungsweise nicht ganz, weil es sagt eben ja nur etwas über die grobgranulare fachliche Modularisierung, und da sind mehr Themen. Und das ist so vielleicht das Erste. Also wenn ich mich halt nur fokussiere auf Bounded Context, dann übersehe ich vielleicht, dass es da irgendwie andere Themen gibt, andere Modularisierungskonzepte, die halt auch für mich relevant sind.
+
+### Ubiquitous Language
+
+[0:18:10] So, jetzt gibt es halt das Konzept von Ubiquitous Language. Das Konzept von Ubiquitous Language, die allgegenwärtige Sprache, sagt, dass es dieselbe Sprache im Code, in der Kommunikation, in den Diagrammen, in der Datenbank und so weiter geben soll. Das heißt, wenn ich jetzt zum Beispiel sage, es gibt halt Kunden, dann ist der halt überall vorhanden.
+
+[0:18:27] Anderes Beispiel wäre halt die Nali, das ist eine Nachlieferung. Das ist jetzt etwas, was vielleicht nur in einem bestimmten Unternehmen bekannt ist und dort halt genutzt wird. Auch das wäre jetzt etwas, was ich halt im Code, in der Kommunikation, in den Diagrammen und so weiter halt unterbringen wollen würde. Was halt bedeutet, dass ich jetzt vermeide, nicht, wenn ich jetzt zum Beispiel vorher gesagt habe, das ist eine verzögerte Nachlieferung oder eine Zweitlieferung oder sowas, das will ich jetzt tatsächlich rauswerfen aus dem Code. Ich will halt sagen, das Ding heißt halt Nali oder Nachlieferung und das soll halt im Code stehen, nicht diese anderen Begriffe.
+
+[0:19:09] Was halt bedeutet, wenn ich die Ubiquitous Language ändere, dann ändert sich auch der Code. Das ist auch genau etwas, wo ich iterativ inkrementell vorgehen werde, weil ich vielleicht irgendwann mal frage: Na, wie nennt ihr das denn jetzt wirklich? Also ich komme immer auf die, das Ding heißt Zweitlieferung, und die sagen halt: Nein, das ist eine Nachlieferung, und dann sollte ich das halt irgendwie mal einheitlich machen und das halt irgendwie auch im Code ändern und so weiter.
+
+[0:19:34] Was eben bedeutet, die Benamung ist wichtig und der Grund dafür ist, dass wir nur, wenn die Benamung halt stimmt, uns hinsetzen können und halt fachliche Anforderungen direkt umsetzen können. Das heißt, wenn jemand sagt, da ist halt diese Nachlieferung und wenn eine Nachlieferung ausgeliefert werden soll, dann machen wir diese und jene Dinge. Wenn ich da jedes Mal übersetzen muss auf Zweitlieferung, dann habe ich halt ein Problem und auch eine englische Übersetzung, Post-Delivery oder sowas, ist halt eben auch keine gute Idee, weil das eben auch zu einer Übersetzung führt. Und genau das ist wieder so ein Beispiel von dem gemeinsamen Knowledge Crunching. Also wir lernen halt gemeinsam, was die richtigen Begriffe sind.
+
+### Dialekte der Ubiquitous Language
+
+[0:20:19] So, und in dem Pattern Context Map, wo es halt darum geht, wie die verschiedenen Bounded Contexts aufgebaut sind, da sagt das Blaue Buch, und das ist auch konstant durchgehalten, dass es in einem Bounded Context einen Dialekt der Ubiquitous Language gibt. Das heißt also, ich könnte jetzt eben sagen, es gibt halt diesen Bounded Context mit der Lieferung, und da ist Kunde anders definiert als bei der Rechnungslegung, und deswegen ist das halt ein Dialekt. Andere Dinge sind vielleicht einheitlich.
+
+[0:20:51] Vielleicht ist es eben so, dass sowas wie eine Nachlieferung auch in anderen Bounded Contexts bekannt ist und dort genau gleich definiert ist, aber sowas wie ein Kunde vielleicht irgendwie nicht. Und, nicht, bestimmte Begriffe, also genau Nachlieferung könnte jetzt ein Beispiel dafür sein, sind vielleicht nur bekannt in Lieferung. Dann ist das eben Dialekt, der halt diese Fachworte noch außerdem kennt. So, das heißt also, es gibt halt ein Overlap, es gibt halt irgendwie etwas, was gemeinsam ist, aber dann gibt es halt bestimmte Fachbegriffe, die nur in einem Bounded Context drin sind.
+
+[0:21:20] Und auch die Namen der Bounded Contexts, Lieferung, Rechnungslegung, Bestellprozess, wären jetzt Teil dieser Ubiquitous Language. Die würde man also jetzt auch in der Kommunikation mit den Domänenexpert:innen benutzen, und die würde man eben auch zur Benamung im Code nutzen.
+
+### Analyse und Umsetzung vermischt
+
+[0:21:40] So, das bedeutet … dass wir hier also irgendwie darauf kommen, dass wir diese beiden zwei Welten miteinander verheiraten. Wir sagen also, es gibt halt die gemeinsame Kommunikation und es gibt eben die durch die Ubiquitous Language die verschiedenen Gültigkeitsbereiche von Begriffen aus der Ubiquitous Language. Und das ist irgendwie ein Bounded Context, aber auf der anderen Seite ist irgendwie auch der Bereich, in dem ein Modell halt gültig ist, das ist irgendwie auch ein Bounded Context. Und es sind zwei unterschiedliche Dinge. Das eine Ding ist halt irgendwie eher so ein Analyse-Ding, das andere Ding ist irgendwie mehr so ein Umsetzungsding. Und das ist halt, glaube ich, schon mal ein Problem.
+
+[0:22:36] Ich finde, dass das etwas sozusagen für sich hat, weil wenn ich jetzt eben herausfinde, dass in der Analyse, dass eben der Kunde mehrdeutig ist, in den verschiedenen Bereichen unterschiedlich definiert ist, dann wird es halt kompliziert, so ein Datenmodell aufzubauen, das eben den Kunden modelliert. Aber das ist halt auch nicht immer so. Also manchmal muss ich eben auch so etwas machen, dass ich zum Beispiel die Bestellung modelliere und die wird halt irgendwie propagiert. Also die entsteht halt im Bestellprozess, die muss aber eben auch zur Lieferung und die muss eben auch zur Rechnungslegung, weil die halt Daten benötigen aus der Bestellung, um irgendwas zu tun.
+
+[0:23:21] Das heißt also jetzt irgendwie sozusagen als Default einzuführen, dass halt alle Dinge ganz lokal gültig sind, macht irgendwie auch keinen Sinn. Deswegen heißt es ja auch Dialekte von Ubiquitous Language. Und es gibt eben auch die Idee, tatsächlich ein Modell zur Kommunikation zu definieren, also ein Modell, wo ich jetzt sage, übergreifend über verschiedene Bounded Contexts wird zum Beispiel eine Information über die Bestellung ausgetauscht, also zum Beispiel sowas wie eine Published Language. Wobei wir dann halt eigentlich wieder bei der Modellierung von Datenobjekten sind, was wir ja eigentlich, hatte ich gerade gesagt, nicht wollen. Wir wollen Verhaltensweisen modellieren.
+
+### Vom einen Extrem ins andere: Daten teilen oder trennen?
+
+[0:24:01] Was mir jetzt aufgefallen ist, ja eigentlich so in jüngster Zeit, ist so eine komische Angelegenheit. Und zwar, während es halt früher so war, hatte ich das Gefühl, dass man halt irgendwie gesagt hat, okay, wir versuchen mal den Kunden zu modellieren und das versuchen wir so, dass es halt irgendwie für alle Bounded Contexts richtig ist. Meiner Ansicht nach eine schlechte Idee, das führt irgendwie auch zu einem Komplexitätschaos, würde ich halt irgendwie nicht tun.
+
+[0:24:35] Jetzt begegnet mir manchmal das Gegenteil, dass man also sagt, also wir haben ja gemeinsame Idee von dem Kunden. Stammdaten spielen da manchmal eine besondere Rolle, also, nicht, Name, Adresse, solche Geschichten. Und das kann ja nicht richtig sein, weil wir wollen ja jetzt vollständig getrennte Modelle haben. Und das impliziert ja, dass wir jetzt irgendwie diese Daten auch vollständig getrennt modellieren.
+
+[0:25:04] Und das finde ich halt ein bisschen schwierig, weil es gibt eben die Published Language, die halt sagt, dass wir ein gemeinsames Modell zumindest zum Informationsaustausch haben können. Und irgendwie brauche ich sowas auch, also dass ich halt sage, ich habe ein Unternehmen, was halt Bestellungen verarbeitet und da gibt es halt eine Vielzahl von Leuten, die an den Bestellungen interessiert sind und dafür brauche ich ein gemeinsames Modell. Ich bin mir ehrlich gesagt unsicher, ob es schlau ist, das anders zu implementieren. Das heißt, ein gemeinsames Ding ist halt schon okay, wenn es nicht zu kompliziert ist. Wenn es zu kompliziert ist, versteht man es nicht und dann kann man es eben auch nicht mehr vernünftig nutzen. Wenn man es nicht ändern muss, das Problem ist, wenn man es eben sich teilt und ändert, dann hat man das Problem, dass alle, die das nutzen, durch die Änderung beeinflusst werden und wenn sozusagen rückwärtskompatible Änderungen im Wesentlichen passieren. Also wenn ich nur Daten zur Bestellung hinzufüge, aber nichts ändere, also nicht die Semantik, die Bedeutung von irgendwelchen Feldern ändere und nichts lösche, dann bin ich halt im Wesentlichen fein, außer es wird dann zu kompliziert.
+
+[0:26:16] Das heißt, diese krasse Abkehr, die ich jetzt gerade so ein bisschen beobachte, dass man irgendwie sagt, nee, wir müssen also die Daten getrennt halten, finde ich schwierig. Das ist ein bisschen die Gefahr, dass es halt sozusagen von dem alten Extrem, dass man sagt, wir haben halt das eine Modell, zu umschlägt zu, wir teilen halt nichts und das geht halt nicht. Also die Bestellung, die muss ich halt irgendwie teilen.
+
+### Warum Analyse und Code nicht deckungsgleich sind
+
+[0:26:49] Damit haben wir aber, ja, also haben wir so einen Bereich, wo ich als Techniker irgendwie sage, das ist, würde ich sagen, sekundär relevant. Also dass ich unterschiedliche Ubiquitous Languages habe und dadurch halt in der Analyse vor allem vielleicht einen Vorteil habe, ist für mich nicht so wichtig, wie dass ich dort jetzt eine Idee von Modularisierung habe. Und irgendwie ist das jetzt aber miteinander vermischt, bis zu einem gewissen Maße nachvollziehbar, weil die Ubiquitous Language ja sagt, dass die Begrifflichkeiten, über die wir halt aus der Analyse sprechen, direkt so im Modell auch umgesetzt sein sollen.
+
+[0:27:36] Aber ich finde es halt trotzdem schwierig, und zwar einmal deswegen, also einfach deswegen, weil der Code eben die Realität nicht abbildet. Also wir haben ja gerade eben darüber gesprochen, dass wir Knowledge Crunching haben, und das Knowledge Crunching impliziert ja einen Lernprozess. Das heißt, das, was wir gerade in der Analyse lernen, kann halt im Code noch nicht umgesetzt sein. Und das ist so ein bisschen sozusagen akademischer Einwand.
+
+[0:28:04] Wirklich praktischer Einwand ist, wenn ich halt ein altes, vergurktes System habe, das eben gerade nicht die Begrifflichkeiten benutzt oder auch ein Stück Standardsoftware, was gerade nicht die Begrifflichkeiten der Domänenexperten nutzt. Da hat halt jemand das auf Englisch übersetzt und sagt halt, das ist eine, weiß ich nicht, Post Delivery, Second Delivery, was auch immer, also es ist halt irgendwie auf Englisch. Oder es gibt das Konzept gar nicht oder was auch immer. Also es gibt nicht eine Nachlieferung, sondern es gibt nur Lieferungen, und es ist nicht klar, dass es halt für eine Bestellung gibt es halt mehrere Lieferungen. Es gibt eben keine Unterscheidung zwischen der ersten und den Nachlieferungen. So, das heißt also, ich komme halt in das Problem, dass ich irgendwie dann so einen Codeblock habe, der halt gerade nicht dem entspricht, was die Domänenexpert:innen sagen, weil Legacy-Software, weil Standardsoftware, was auch immer.
+
+[0:29:03] Und dann sind diese beiden Konzepte eben gerade nicht deckungsgleich. Also sie sollten zwar deckungsgleich sein, das will ich gar nicht in Abrede stellen. Ich möchte, dass Ubiquitous Language aus der Analyse genauso umgesetzt ist im Code, aber das ist eben nicht unbedingt der Fall. So, und wenn ich ein Legacy-System habe, implementiert das ein Modell, es ist nur ein kaputtes Modell. Oder ein Stück Standardsoftware hat vielleicht ein Modell, was eben den spezifischen Fall nicht abdeckt. Das ist aber dann was anderes als die Analyse, und das ist genau ein Problem dieser Überladung von diesem Begriff.
+
+[0:29:37] Ich habe jetzt also den Begriff einmal als: Das ist etwas, was da draußen passiert. Ich habe eben einen Lieferprozess, ich kann den analysieren, ich habe dort Begriffe, und dann habe ich eben ein Modell, was halt letztendlich im Code ist. Und diese beiden Sachen, so sagt Domain Design, sollen deckungsgleich sein. Das hilft mir nur nicht immer weiter. Ich würde sogar behaupten, dass in den allermeisten Fällen eben diese beiden Sachen gerade nicht deckungsgleich sind, weil wir es eben mit Standardsoftware und Legacy-Software zu tun haben. Dann wird es halt irgendwie schwierig.
+
+### Module und Namespaces
+
+[0:30:11] Was bedeutet das jetzt? Ich habe da halt das Problem, können wir nochmal zurückgehen mit diesen Modulen.
+
+[0:30:24] Also wir sagen halt, wir wollen, also mit Bounded Contexts, irgendwie Module haben, das sind irgendwie die optimalen Module, und wir haben jetzt irgendwie eine (unverständlich) Aufteilung. Und insbesondere ist es eben so, darauf legt Eric halt Wert, dass eben diese Module unterschiedliche Namespaces haben. Also wir haben zum Beispiel ja im Java sowas wie Packages oder C-Sharp Namespaces oder so. Das heißt, wir können jetzt irgendwie sagen, wir haben halt die Klasse Kunde und die ist halt unterschiedlich implementiert, je nachdem, in welchem Namespace ich mich halt dort sozusagen befinde. Dieses Modul-Thema ist ein eigenes Pattern, hatte ich bereits gesagt.
+
+### Module nach Funktionalität
+
+[0:31:03] So, und ich glaube, dass wir eigentlich jetzt ein allgemeineres Konzept ableiten können aus dieser Diskussion. Und dieses allgemeinere Konzept sagt, ich möchte gerne, dass ein Modul eine Funktionalität umfasst. So, und eben mir hilft dabei das, was ich – ich glaube, das ist halt auch sozusagen fundamental – diese Idee, die ich vorgestellt hatte in der Objektorientierungsfolge: also diese Idee von einem Abstract Data Type, wo ich eben sage, ich habe bestimmte Verhaltensweisen mit einer bestimmten definierten Semantik, die ich aus Benutzersicht definiere. Das klassische Beispiel ist irgendwie ein Stack. Beim Stack kann ich halt irgendwie Sachen drauflegen, ich kann Sachen runternehmen, und das kann ich jetzt aus Benutzersicht definieren, wie das intern implementiert ist, mit einem Array oder mit einer Linked List ist irgendwie eine andere Frage. Ich habe jetzt aus Benutzersicht gesagt, was das Ding soll.
+
+[0:32:09] Und das ist vielleicht auch etwas, was ich fachlich möchte. Ich sage also, ich habe ein Konto. Auf ein Konto kann ich einzahlen, da kann ich irgendwie Sachen von abheben, und ich erwarte eben, dass dann anschließend die Balance in einer bestimmten Art und Weise da ist, dass halt irgendwie diese Überweisung oder Einzahlung halt irgendwie abgespeichert ist, dass ich das irgendwie rausbekomme. Und darüber kann ich sozusagen über die Schnittstelle etwas sagen und sage nicht, wie das intern aufgebaut ist. Das ist das, was ich mit Funktionalitäten meine.
+
+[0:32:40] Wenn wir das jetzt abstrakt überall einsetzen, wenn wir also sagen, wir wollen Module haben, die nach Funktionalitäten orientiert sind, dann haben wir ein generelles Konzept, das auch für technische Sachen funktioniert. Also ich kann jetzt eben sagen, ich möchte halt ein Ding haben, was halt Richtung Persistenz oder Richtung Legacy-System irgendwelche Funktionalitäten bereitstellt. Die sind irgendwie umgesetzt und das ist jetzt eben ein Modul und das hat mit Domain-Driven Design oder sowas eben nicht mehr besonders viel zu tun. Also könnte ich ja jetzt aus so einer hexagonalen Architektur oder so irgendwie ableiten. Und dieses fundamentale Konzept ist vielleicht ein einfacheres und allgemeineres Konzept.
+
+[0:33:29] Wir kommen also dann dazu, dass wir sagen, okay, wir haben nicht so einen begrenzten Gültigkeitsbereich, sondern wir bauen Module nach Funktionalitäten im Allgemeinen. Wir machen Information Hiding, wir exponieren eben gerade nicht die Daten, wir sagen eben beim Konto gerade nicht, dass wir den Kontostand direkt exponieren, wenn wir den intern speichern, sondern wir haben darüber Methoden, die halt irgendwie sagen, wenn da eine Buchung drauf ist, dann kommt eben der Kontostand zurück. Wir können darüber das Konto dann intern anders modellieren, können irgendwie sagen, okay, die Überweisung, daraus berechnen wir den Kontostand. Genau, Marc M. hat es gerade geschrieben: „Ein Modell soll eine Funktionalität umfassen, Verhalten mit Semantik aus Benutzersicht.“ Funktionalitäten, nicht, also das ist ja irgendwie so eine Box, also wenn ich, oder das sind ja mehrere Dinge, die da zusammenspielen. Ein Konto hat ja nicht die eine Funktionalität Geld einzahlen, sondern es ist eben nicht Geld einzahlen, Geld abheben, Geld überweisen, Kontostand kennenlernen. Diese gesamten Funktionalitäten brauche ich.
+
+[0:34:25] Was eben wieder dazu führt, dass sowas wie ein Modul Kunde halt Unsinn ist, weil es datenorientiert ist. Und ich habe mir aufgeschrieben, mir ist unklar, warum das unklar ist. Also eigentlich ist das fundamental, wir sind halt dort an der Stelle, die ich interessanterweise eben bei dieser Objektorientierungsfolge schon gekratzt habe, nämlich bei der Frage, wie man halt Module macht, und das ist eben etwas, was sich ja irgendwie sozusagen auch durch den Stream zieht und vielleicht eben eine wichtigere Sache ist als die Geschichte mit dem, oder wo Bounded Context sozusagen ein Sonderfall ist. Und ich persönlich komme auch zu guten Ergebnissen mit genau diesem Ansatz.
+
+[0:35:12] Das heißt also, ich habe jetzt gerade diese Woche noch mal so eine grobe Architektur gesehen und da stand irgendwie halt auch so ein Ding, was halt gesagt hat, ich bin übrigens für Kunden zuständig. Und das führt irgendwie sofort zu einer Frage. Und da muss ich jetzt irgendwie nicht mir Gedanken machen über, hey, es gibt Bounded Contexts, Bounded Contexts, Modelle und so weiter, sondern es riecht halt nach, ich exponiere nur Daten und ich habe irgendwie keine Fachlichkeit, keine Funktionalitäten, die ich da habe. Also vielleicht einfacher.
+
+[0:35:44] Und ich will damit jetzt nicht in Abrede stellen, dass man mit sowas wie Event Storming zu solchen grobgranularen Modulen kommen kann, die man halt in Bounded Contexts dann modellieren kann. Event Storming hat halt auch viele andere Vorteile, eben zum Beispiel den gemeinsamen Austausch über die Domäne. Und wenn das funktioniert, ist es ja super. Ich versuche nur zu sagen, dass da andere Konzepte sind, die wichtiger sind oder vielleicht eher sinnvoll sind.
+
+[0:36:11] Und dieses Modulkonzept, von dem ich sprach, würde jetzt auch für ein Legacy-System funktionieren. Da könnte ich halt sagen, ich habe halt eine Schnittstelle, hinter der Schnittstelle sind halt irgendwelche Dinge, die dort implementiert sind, und das funktioniert eben auch dort, auch wenn das eben nicht exakt das ist, was wir eigentlich in der Domäne benötigen, was also da draußen die Domänenexperten benutzen. Wir können halt immer noch damit vernünftige Software sozusagen bauen.
+
+### Beziehungen: Shared Kernel
+
+[0:36:43] So, jetzt kommt das nächste Thema, und zwar ist irgendwie ja nun offensichtlich die Frage. Ich habe also mein System jetzt irgendwie aufgeteilt in Bounded Contexte und irgendwie stehen die halt in einer Beziehung zueinander. So, und da gibt es jetzt irgendwie verschiedene Möglichkeiten, solche Bounded Contexte in Beziehung zueinander zu setzen. Und ein Pattern ist Shared Kernel. Shared Kernel sagt, ich habe einen gemeinsamen Teil eines Modells. Also es ist zum Beispiel kein gemeinsamer technischer Code, also keine gemeinsame Library, sondern da würde ich jetzt irgendwie sagen, okay, wir haben halt irgendwelche gemeinsamen Dinge, die wir halt verwenden können über verschiedene Bounded Contexte hinweg.
+
+[0:37:28] Vielleicht ist es eben tatsächlich so, dass wir sagen, okay, eine Basiskundenmodellierung mit Validierung von Adressen oder so, das können wir jetzt irgendwie über verschiedene Bounded Contexte benutzen und da haben wir halt einen Shared Kernel. Genau. Schönes Wochenende, Marc. Der sagte gerade schönes Wochenende. Das bedeutet, dass wir dort eine Beziehung definieren auf Modellebene. Also ich habe irgendwie zwei Modelle, die haben eine Schnittmenge, das ist der Shared Kernel, also meinetwegen Adressen, was auch immer es halt irgendwie ist.
+
+### Customer-Supplier: eine Teambeziehung
+
+[0:38:07] Das sagt nichts über Teambeziehungen aus. Das ist aber das, was andere Patterns halt machen. Also Customer-Supplier sagt zum Beispiel, ein Team ist ein Dienstleister für den anderen. Ich habe den Kunden und den Supplier.
+
+[0:38:22] Und dort ist es jetzt eben so, dass der Kunde dem Supplier Anforderungen reinkippen kann. Ich könnte jetzt zum Beispiel sagen, der Lieferprozess kann dem Bestellprozess Anforderungen reinkippen, weil wenn der Bestellprozess nicht die richtigen Informationen liefert, dann können Sachen nicht ausgeliefert werden. So, und dann habe ich eine Customer-Supplier-Beziehung. Und da sind jetzt, also das Beispiel zeigt eigentlich schon mehrere Probleme gleich auf.
+
+[0:38:53] Das erste Problem ist, ich rede also über eine Teambeziehung. Das ist eine Teambeziehung, das ist keine Beziehung zwischen Bounded Contexten. Jetzt kann man natürlich sagen, okay, cool, das ist halt irgendwie ein Thema, was halt die Teams nur dann haben, wenn sie halt mit diesen beiden Bounded Contexten arbeiten. Also wenn ich jetzt irgendwie sage, okay, ich habe halt ein Team Bestellprozess, ich habe ein Team Lieferprozess, dann sind die halt in dieser Customer-Supplier-Beziehung. Das heißt, eigentlich ist das in Wirklichkeit eine Beziehung zwischen Bounded Contexten, die dann sich auf die Teams auswirkt.
+
+[0:39:37] Aber das ist trotzdem irgendwie komisch, weil wenn ich jetzt sage, ein Team kümmert sich um beide Bounded Contexte – was meiner Ansicht nach nicht vollständig auszuschließen ist –, dann ist dieses Pattern irgendwie sinnlos. Und es ist vor allem auch ein Pattern, was halt allgemeiner funktioniert. Also wenn ich jetzt sage, ich habe eine Gruppe, die eine Plattform erzeugt, also zum Beispiel ein Kubernetes-Cluster oder so, dann ist es so, dass die auch eine Customer-Supplier-Beziehung haben können zu den fachlichen Teams. Die können sich nämlich hinstellen und können sagen, okay, wir haben hier diese Kubernetes-Sachen, und dann kommt halt irgendwie ein fachliches Team und sagt, ich möchte halt gerne folgendes zusätzliches Feature haben, und daraufhin sagen die, kein Problem, machen wir gerne. So, und das ist eine Customer-Supplier-Beziehung, die hat nur nichts mit Bounded Contexts zu tun.
+
+### Conformist und Anti-Corruption Layer
+
+[0:40:26] Und Ähnliches gilt jetzt für die Conformist-Beziehung, wo ich sage, ich bekomme von dem anderen Team nichts. Und das Interessante ist, dass die Conformist-Beziehung sagt, ich übernehme aber das Modell von dem anderen Team. Das heißt also, die liefern mir irgendetwas, ich übernehme das in mein eigenes Modell. Und damit ist das jetzt plötzlich eine Mischung, weil ich halt auf der einen Seite sage, ich bin nicht in einem Customer-Supplier-Verhältnis, sondern ich bin eben in einem Conformist-Verhältnis. Das ist genau die umgekehrte Teambeziehung, ich habe gerade nicht diesen Einfluss. Aber es sagt irgendwie auch was über Code aus. Es sagt nämlich aus, da ist keine Übersetzung.
+
+[0:41:13] Dafür gibt es nämlich ein eigenes Pattern, das ist Anti-Corruption Layer. Und Anti-Corruption Layer sagt eben, da ist ein Anti-Corruption Layer, aber das sagt wiederum nichts über eine Teambeziehung aus. Also meiner Ansicht nach kann man das logisch schließen. Es macht nur dann Sinn, einen Anti-Corruption Layer zu haben, wenn ich auf das andere Team nicht einwirken kann. Also eine Customer-Supplier-Beziehung und Anti-Corruption Layer ist überraschend, weil es bedeutet, dass ich halt dem anderen Team sagen kann, implementiert das bitte richtig, aber ich baue bei mir halt eine Schicht, um mich davon irgendwie zu entkoppeln, weil das halt so ein schreckliches Modell ist, passt irgendwie nicht.
+
+### Modellbeziehungen und Teambeziehungen trennen
+
+[0:41:48] So, und damit haben wir jetzt also irgendwelche Patterns, die halt sagen, wir haben so Aussagen über Modelle, Shared Kernel, Anti-Corruption Layer gehören dazu. Wir haben solche, die halt irgendwie mit organisatorischen Aussagen kommen, also Customer-Supplier oder Conformist. Und Conformist ist irgendwie sogar eine Mischform. Und mir ist nicht so ganz klar, warum.
+
+[0:42:08] Also wir können jetzt ein Modell entwerfen, wo wir sagen, es gibt Code-Beziehung, also wir haben halt ein, oder Modellbeziehung, wir haben also ein Modell, wir haben ein anderes Modell, dazwischen ist ein Adapter, damit die beiden Modelle entkoppelt sind. Das ist also ein reines Pattern auf der Modell- oder Code-Ebene. Und ich kann sagen, das habe ich halt gerade nicht, weil dann wird es einfacher, die beiden zu integrieren. So, und dann kann ich sagen, ich habe eine Teambeziehung, also ich kann auf das andere Team einwirken oder eben auch nicht. Und dann habe ich diese beiden Sachen sozusagen voneinander getrennt.
+
+[0:42:50] Und das ist etwas, was tatsächlich in der Praxis meiner Ansicht nach zu Schwierigkeiten führt, weil einige von diesen Konzepten einfach schwer zu verstehen sind und weil eben auch bestimmte Fragen keine sinnvollen Antworten haben. Wenn ich halt zwei Teams habe, die in einer Customer-Supplier-Beziehung sind, oder falsch, wenn ich zwei Bounded Contexte habe, die eigentlich eine Customer-Supplier-Beziehung benötigen und ich lasse ein Team da dran arbeiten, ja, was bedeutet das jetzt für diese Bounded Contexte? Und das führt eben dazu, dass in der Realität ich halt merke, dass dann … oder eher vielleicht sowas gemacht wird, dass man sagt, wir haben mal eben Aussagen über den Code, also über das, was halt implementiert ist, und dann schauen wir halt an, wie dort die Schnittstellen sind, wie also Sachen sozusagen miteinander kommunizieren, was ja klassisches Ding ist.
+
+[0:43:50] Also so denken wir ja häufig über Architektur nach. Oder eine andere Möglichkeit wäre halt irgendwie sowas für Teams zu machen, dass ich sage, okay, ich habe halt irgendwie ein Team. Team ist ja wahrscheinlich auch zuständig für einen bestimmten Teil des Codes. Dann sage ich halt, wie die Teams miteinander interagieren.
+
+### Team Topologies
+
+[0:44:06] Und ich zumindest bin bei diesen Strategic-Domain-Design-Sachen mittlerweile ein bisschen pessimistisch, ob die halt wirklich nützlich sind. Das ist gerade der Grund, warum ich halt dort Team Topologies eine ganz interessante Idee finde, weil Team Topologies eben sehr klar sagt, wir haben eine bestimmte Art, wie Teams interagieren, und das ist es. Also da sind irgendwie nicht so wahnsinnig viele Aussagen sozusagen über Code oder so. Stimmt nicht ganz.
+
+[0:44:40] Man kann halt irgendwie argumentieren, dass Access to a Service, dass eine bestimmte Kollaboration halt sagt, dass ich eine Schnittstelle habe im Sinne einer API oder einer Webschnittstelle. Aber im Wesentlichen sind das eben Sachen, die sich tatsächlich auf Teams und Interaktion zwischen Teams beschränken. Und damit ist diese Vieldeutigkeit halt weg. Also dadurch sage ich halt nicht, ich habe diese Beziehung zwischen Bounded Contexten als Modellen und Teams, sondern ich sage halt, ich habe nur Teams.
+
+[0:45:10] Und gleichzeitig ist das Modell bei Team Topologies halt genereller, weil es nicht nur funktioniert für Teams, die mit Fachlichkeit beschäftigt sind, so wie Strategic Domain Design, sondern es geht irgendwie breiter. Dafür spricht es halt nicht über Code. Es sagt auch wenig über fachliche Beziehungen aus. Und da fehlt eben genau diese Dimension, dass man sagt, okay, aufgrund der fachlichen Architektur sind diese Teams in bestimmte Kollaborationen gezwungen.
+
+[0:45:40] Vielleicht ist das auch etwas, was man da nochmal halt sozusagen sich überlegen kann, ob man das noch zusätzlich einbaut oder zusätzlich umsetzt, wenn man über Teamstrukturen spricht. Also es ist ja jetzt nicht so, soll ich sagen, diese Idee, dass man aufgrund dessen, was halt die Fachlichkeit sagt, wahrscheinlich in einer bestimmten Art und Weise kollaborieren muss, finde ich grundsätzlich nicht schlecht. Sie ist nur irgendwie zu stark mit anderen Dingen für meinen Geschmack halt vermengt.
+
+### Eine Alternative
+
+[0:46:11] So, und damit ist hier so ein bisschen die Frage, was ist denn eigentlich eine Alternative? Also ich könnte jetzt irgendwie sagen, okay, ich habe halt Bereiche mit einer Ubiquitous Language beziehungsweise mit einem Modell, das sind Bounded Contexts, die stehen halt irgendwie in einer Beziehung zueinander. Also halt den Teamfaktor so ein bisschen rauslassen und eben sagen, ich habe zum Beispiel dort Module oder Bounded Contexts, ich habe die Schnittstellen dazwischen und ich versuche herauszufinden, wer wem Informationen gibt. Das ist eine andere Möglichkeit, das darzustellen und halt auf dieser grobgranularen Ebene dort eine Struktur reinzubekommen. Man könnte eben dann die Teams davon trennen und sie halt dort getrennt davon bearbeiten.
+
+### Fazit
+
+[0:46:58] Was bedeutet das jetzt insgesamt? Also Bounded Contexts, diese Idee von Bounded Contexts sind ein Werkzeug, so wie wir ja auch viele andere Werkzeuge haben in der Software-Architektur. Und bei solchen Werkzeugen ist immer die Frage, wofür sind sie denn eigentlich irgendwie nützlich? Ich glaube, es ist eine gute Idee, damit eine grobgranulare fachliche Aufteilung zu machen. Man muss sich halt nur darüber bewusst sein, dass eine feingranulare fachliche Aufteilung damit eben noch nicht gemacht ist.
+
+[0:47:41] Ich kann feingranulare fachliche Module dort identifizieren. Und ich muss mir bewusst sein, dass ich auch noch so technische Teile brauche, sowas wie eben hexagonale Architekturen oder sowas, was eben bedeutet, dass halt das generelle Konzept von Modulen nach Funktionalität vielleicht mindestens genauso wichtig ist, vielleicht sogar wichtiger. Aber überhaupt dieser Hype um Bounded Contexte und damit halt um eine grobgranulare fachliche Strukturierung finde ich halt super und ist eine gute Idee und passt für mich. Nur eben, das muss man halt sozusagen ergänzen um andere Faktoren.
+
+[0:48:23] Bei der Analyse, glaube ich, ist das eine wichtige Sache. Einfach um davon wegzukommen, dass man sagt, wir haben das eine Modell und versuchen das eine Modell zu bauen und Begriffe sind überall gleich verwendet, eher mehrere Modelle damit leben, dass halt Begriffe vielleicht nicht gleich verwendet sind und damit in der Analyse umgehen. Und wie soll ich sagen, also ich sehe mich ja eher so in diesem Software-Architektur-Bereich. Das heißt, da gibt es halt andere Leute, die sozusagen darüber sich Gedanken machen müssen. Ich glaube, eine Sache, die sich da vielleicht … mit der ich da, die ich in der Praxis gesehen habe und wo, glaube ich, dann klar wird, dass es halt irgendwie ein Problem ist, das ist, wenn ich sage, es gibt das Datenmodell.
+
+[0:49:23] So, weil dann sage ich halt eben, es gibt das Datenmodell und Bounded Context sagt, es gibt halt mehrere. Und ich sage außerdem, es gibt ein Datenmodell, aber eigentlich will ich eben Funktionalitäten aufteilen. So, und das sind zum Beispiel solche Sachen, die, glaube ich, mit sowas wie Bounded Context, wenn man es irgendwie verstanden hat, relativ schnell klar sind, dass es halt Probleme sind. Bei Teams bin ich halt irgendwie nicht so sicher, ob ich das jetzt nutzen würde, um die Interaktion zwischen Teams halt genau zu definieren.
+
+### Drei Konzepte, ein Begriff
+
+[0:49:54] Und der Punkt, den ich machen wollte, ist vor allem, es sind eben drei Konzepte, die hier miteinander vermengt werden. Es ist halt einmal, dass ich sage, ich habe halt ein Modul mit einer Funktionalität, also eben ein Modell. Dann sage ich, es ist ein Analysebereich mit einer eigenen Ubiquitous Language. Das sollte nach Domain-Driven Design möglichst deckungsgleich sein.
+
+[0:50:14] Aber wir haben andere Module, andere Modelle, die halt bedauerlicherweise eben gerade nicht einen Teil der Ubiquitous Language abbilden, weil Standardsoftware oder Legacy-Software oder sowas. Und deswegen ist das vielleicht etwas, was wir voneinander trennen müssen, also die Dinge, die wir implementieren, die implementiert sind, und die Dinge, die wir in der Analyse gerne hätten. Und dann ist irgendwie dieser dritte Teil die Geschichte mit der Aufgabe der Teams.
+
+[0:50:39] Und also spätestens, wenn man halt sagt, ein Bounded Context ist ein Team, wird es, glaube ich, schwierig. Es spricht nichts dagegen, meiner Ansicht nach einem Team mehrere Bounded Contexts zu geben, wenn sie es von der Kapazität her handeln können. Und das führt irgendwie dazu, dass halt diese Team-Interaktions-Patterns, die halt im Strategic Design sind, teilweise ein bisschen schwierig sind. Das, und das entscheidende Problem ist halt, wenn halt jemand diesen Begriff Bounded Context in den Mund nimmt, bin ich mir immer so ein bisschen unsicher, welche Definition gerade genutzt wird.
+
+[0:51:18] Also sagt er Bounded Context im Sinne von, das ist ein Stück Code, den wir halt haben, ein Modell, das vielleicht nicht der Analyse entspricht. Ist damit gemeint eben ein Teil, den wir analysiert haben, der aber vielleicht nicht so im Code ist, oder ist damit gemeint irgendwie ein Team? Und ich habe irgendwie alles drei schon erlebt und also da eine Klarheit reinzubekommen, ist vielleicht nochmal, glaube ich, ein wichtiger Punkt und war dieses Problem, das war für mich irgendwie sozusagen die Motivation für die Episode heute.
+
+[0:51:55] Ich muss gestehen, dass ich das auf einer gewissen Ebene interessant finde, weil gerade Begriffsbildung bei Domain-Driven Design meiner Ansicht nach immer eine relativ starke Sache ist. Also viele von den Patterns sind sehr gut benannt und funktionieren relativ gut. Ich finde diesen Komplex, den wir hier diskutiert haben, irgendwie schwierig und auch eben diesen Begriff Bounded Context finde ich da halt sozusagen schwierig.
+
+### Fragen und Verabschiedung
+
+[0:52:26] Ich weiß nicht, ob noch Fragen sind. Ich habe jetzt irgendwie tatsächlich nichts weiter gesehen, nicht über das Formular und nicht im Chat, also bis auf Marc, der sich dankenswerterweise gemeldet hatte. Ich gucke auch nochmal kurz in den Slack, da steht aber auch nichts drin, so scheint's. Dann würde ich sagen, genau. Vielen Dank soweit erstmal. Vielen Dank für die Aufmerksamkeit.
+
+[0:52:57] Ich denke, es wird nächste Woche eine Episode geben. Ich muss mal schauen, was das Thema sein wird. Es wird ja irgendwie gefragt nach Architekturen, die ich mir nochmal sozusagen anschauen sollte. Da ist, glaube ich, als einziges Ergebnis diese Idee von – wie heißen sie denn – DHH, also von den Basecamp-Leuten, 37signals, gekommen, zu dem Thema so ein Magnificent Monolith zu machen. Das Paper halt irgendwie nochmal zu diskutieren, weil es halt offensichtlich so auf diese Basecamp-Architektur eingeht. Das überlege ich halt im Moment, das zu tun, sonst müsste man halt mal schauen. Genau, dann würde ich sagen, vielen Dank. Vielen Dank für die Aufmerksamkeit. Vielen Dank fürs Zuhören und Zuschauen. Und dann sehen wir uns bei der nächsten Gelegenheit sozusagen wieder. Vielen Dank und bis dahin.
