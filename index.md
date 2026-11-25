@@ -35,17 +35,17 @@ Architektur neue Einsichten gewinnen lassen. Es zeigt Erfahrungen aus
 realen Reviews auf und wie dieser Ansatz zu fundierten Bewertungen und
 wirksameren Verbesserungen führt.
 
-<!-- { include youtube.html -->
-<!-- 	youtube-video-id="bRagCCFkUYM" -->
-<!--     image-url="/thumbnails/folge347.png" %} -->
+{% include youtube.html
+	youtube-video-id="5c4kdA4pwkQ"
+    image-url="/thumbnails/folge348.png" %}
 
-<!--  <section id="content-links"> -->
-<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
-<!--  	<a href="https://www.linkedin.com/events/7529217477957025795">LinkedIn</a> -->
-<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
-<!--  </section> -->
+ <section id="content-links">
+ 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
+ 	<a href="https://www.linkedin.com/events/7531401318926553094">LinkedIn</a>
+ 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
+ </section>
 
-<!-- [Event bei treff.tech](https://treff.tech/events/edit/29b2cd5d-860b-417b-8c61-e541d561f44f) -->
+[Event bei treff.tech](https://treff.tech/events/e9623412-dfb6-4efb-b5d3-aea156145bef)
 
 ## Der Stream bei Konferenzen und Trainings
 
