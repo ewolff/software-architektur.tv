@@ -1,0 +1,442 @@
+# Warum scheitert Agilität - Reaktionen
+
+Software Architektur im Stream, Folge 221, 2024-06-21.
+Das Kippen agiler Projekte war schon Thema im Stream. Diese Episode diskutiert das Feedback dazu.
+Seite: https://software-architektur.tv/2024/06/21/warum-scheitert-agilitat-reaktionen.html
+YouTube: https://www.youtube.com/watch?v=TFCAYVKWsLw
+PeerTube: https://tube.tchncs.de/w/74d1badc-1576-41ca-887e-aec951aa18a1
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/Warum_scheitert_Agilitaet_-_Reaktionen.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Zum Kippen agiler Projekte gab es bereits einen
+[Vortrag](/2024/05/24/episode217.html) und eine [Episode im
+Stream](/2023/02/17/folge152.html). Insbesondere zu dem Vortrag gab
+einige interessante Reaktionen und Kommentare - offensichtlich gibt es
+viele unterschiedliche Meinungen zu dem Thema. In dieser Episode
+diskutieren wir dieses Feedback und vertiefen so das Thema Agilität
+und das Scheitern des Ansatzes mit weitere Perspektiven.
+
+## Links
+
+- [Wahrheiten über Software-Entwicklung - Darüber möchte ich nicht mehr sprechen müssen!](/2024/04/02/folge211.html)
+- [Warum (agile) Projekte kippen](/2024/05/24/episode217.html) 
+- [Short Video zum Kippen agiler Projekte](https://www.youtube.com/shorts/ooAITrKZZ6o)
+- [Diskussion auf LinkedIn](https://www.linkedin.com/posts/eberhardwolff_agil-agilitaeut-activity-7200753216265801728-9rAV)
+- [YouTube-Video mit Diskussion](https://www.youtube.com/watch?v=23eYToc8Bxg)
+- [Prof. Christiane Floyd zu "menschenzentrierter Software-Entwicklung"](/2021/07/09/folge66.html)
+- [Extreme Programming (XP) - eine Retrospektive](/2023/01/20/folge148.html)
+- [Are We Engineers? With Hillel Wayne](/2024/03/27/folge209.html)
+- [Heise-Blog "Hilft kaputte Agilität?"](https://www.heise.de/blog/Hilft-kaputte-Agilitaet-4599441.html)
+- [Crew Ressource Management - Wie geht die Luftfahrt mit dem Faktor Mensch um?](/2023/08/11/folge178.html)
+- [Auftragstaktik - Agilität beim Militär? mit Sönke Marahrens](/2022/11/04/folge141.html)
+- [Welt: Das einmalige Erfolgsrezept deutscher Armeen](https://www.welt.de/geschichte/article251681546/Militaergeschichte-Das-einmalige-Erfolgsgeheimnis-deutscher-Armeen.html)
+- [Hillel Wayne & Laurent Bossavit - Is It All Built on Sand - What Do We Actually Know About Software Development?](/2021/10/25/episode86.html)
+- [Streams zu Modularisierung](/tags.html#Modularisierung)
+
+## Zusammenfassung
+
+Warum kippen agile Projekte zurück in ein nicht agiles Vorgehen?
+Eberhard Wolff hat dazu einen Vortrag gehalten. In dieser Folge geht er
+auf die Reaktionen von YouTube, LinkedIn, aus dem Chat und aus dem
+Formular ein. Er will Agilität nicht schlechtreden. Er will verstehen,
+wie man sie noch erfolgreicher machen kann.
+
+### Der Vortrag: Kippen statt Evolution
+
+Agilität bedeutet für Eberhard im Groben, in Iterationen zu arbeiten und
+damit zu leben, dass sich Anforderungen ändern. Iterationen sind bei
+Softwareentwicklung sowieso sinnvoll. Er hat an verschiedenen Stellen
+beobachtet, dass agile Projekte plötzlich unagil werden: Das Feedback
+bleibt aus, technisch gute Leute gehen, und ein Weg zurück ist praktisch
+unmöglich. Das ist eine anekdotische Beobachtung, keine empirische
+Untersuchung. Eigentlich sollte es nicht passieren. Wenn Agilität besser
+ist, müsste sie sich in einer Art Evolution durchsetzen.
+
+Als Erklärung nennt er die fehlende klare Orientierung am Geschäftswert,
+zumindest im agilen Manifest. Funktionierende Software, die niemand
+braucht, hat keinen Geschäftswert. Wer zur Europameisterschaft live
+sein muss, hat nichts von technischer Exzellenz, wenn er einen Monat zu
+spät kommt. Außerdem haben Unternehmen schon einen evolutionären Prozess
+hinter sich: Vielleicht passt ihr Vorgehen relativ gut. Und vielleicht
+forcieren wir Agilität, weil sie mehr Spaß macht.
+
+### Aufwand und Feedback
+
+Ein Kommentar sieht den Vorteil von Agilität in einem effizienten
+Feedback-Zyklus. Dass Feedback wichtig ist, bestreitet Eberhard nicht.
+Seine Frage ist, warum Organisationen trotz eines solchen Vorteils
+zurückgehen. Der Kommentar nennt Gründe: Druck durch Feedback kann
+für schwächere Mitarbeiter herausfordernd sein, einem Plan zu folgen bequemer. Eberhard hält dagegen, dass eine
+theoretisch bessere Option, die man nicht umsetzen kann, keine Option
+ist. Vielleicht haben die gekippten Projekte das Feedback auch nie
+wirklich etabliert.
+
+Derselbe Kommentator berichtet, dass es fünf bis sieben Jahre gedauert
+hat, bis ein Großteil der Teams Scrum verinnerlicht hatte. Das bringt
+Eberhard auf eine neue Idee: Man kann fragen, ob sich diese Investition
+lohnt. Ein langer, steiniger Weg mit unklarem Nutzen könnte erklären,
+warum Agilität in einigen Situationen schwierig ist.
+
+### Die Illusion von Kontrolle
+
+Ein anderer Kommentar fordert für manche Projekte eine sehr detaillierte
+Planung, auch für Budgets und Umsatz. Eberhard hält es für praktisch
+ausgeschlossen, dass man nach einem Jahr genau dort steht, wo man es
+geplant hat. Menschen reflektieren über Software oft erst, wenn sie sie
+benutzen. Attraktiv an der Planung ist die Illusion von Kontrolle. Sie
+könnte ein Grund sein, eine agile Organisation zurückzuabwickeln. Ganz auf
+Planung zu verzichten, hält er auch für schwierig. Ein
+LinkedIn-Kommentar nennt mangelndes Vertrauen als Grund. Auch das passt
+für Eberhard zur Illusion von Kontrolle.
+
+### Zufriedenheit und Ausbeutung
+
+Macht Agilität Unternehmen im Arbeitsmarkt attraktiver? Ein Kommentar
+vermutet das und verweist auf DORA. Eberhard bestätigt: Regelmäßiges
+Deployment hängt mit weniger Burnout zusammen. Dass Zufriedenheit produktiver macht, stellt er nicht in
+Abrede. Aber auch Ausbeutung ist eine mögliche Option, etwa bei
+Unternehmensberatungen, bei denen die Leute nur zwei oder drei Jahre
+bleiben. Er findet das ethisch problematisch. „Besser“ heißt für ihn in
+erster Linie wirtschaftlicher, denn wir bewegen uns in einem
+wirtschaftlichen System.
+
+Auch Deadlines sind ein Konfliktfeld. Manche sind hart, wie die
+Fußball-EM. Oft hat Eberhard aber das Gefühl, dass sie fabriziert werden.
+
+### Product Owner, Scrum und Produkte
+
+Ein Kommentar hält das Problem mit dem Geschäftswert für gelöst, weil
+eine Person die Aufgaben nach Business Value priorisiert. Eberhard
+bezweifelt, dass eine Person das kann. Außerdem kann sie sich nur im
+System des Unternehmens bewegen und ausgebremst werden. Wer Scrum nach
+Buch macht, ist nicht unbedingt agil. Das kann aber immer noch besser
+sein als gar nichts. Zum Vergleich, man solle trotz Unfällen auf der
+Straße bleiben, sagt Eberhard: Er will vor den Bäumen warnen, nicht vor
+der Straße.
+
+Agilität ist kein Selbstzweck, sondern ein Werkzeug, und Werkzeuge
+passen nicht immer. Wenn Anforderungen im Vertrag feststehen und
+Änderungen ignoriert werden, ist ein agiler Prozess sinnlos. Die vier
+Abwägungen im agilen Manifest findet Eberhard nicht leicht umsetzbar.
+Aus einem Kommentar leitet er die Idee ab, dass manche
+Produktorganisationen von selbst agil werden, weil der Markt sie zwingt.
+Andere haben diese Notwendigkeit nicht. Weitere Kommentare sprechen
+den Gegensatz von Projekt und Produkt und Teams an, die nicht
+cross-funktional sind.
+
+### Ein Erfahrungsbericht
+
+Ein Bericht aus dem Formular beschreibt ein klassisch hierarchisches
+Unternehmen, das ein Altsystem mit einem agilen Team und externen
+Berater:innen ersetzt. Das gelingt. Danach verabschieden sich die Berater:innen, der
+Druck lässt nach, und über neue Funktionen wird außerhalb des Teams und
+langsam entschieden. Dem Team fehlen die fachlichen Anforderungen, die
+Mitglieder werden unzufrieden und gehen. Genau das meint Eberhard mit
+Kippen. Überraschend findet er, dass das Unternehmen damit zufrieden zu
+sein scheint, obwohl das agile Team nach
+Eberhards Lesart produktiver war. Müssen
+Entwickler:innen also wirklich so produktiv wie möglich sein? Bei der
+Ablösung eines Altsystems rät er, konsequent auf Geschäftswert zu achten.
+
+### Fragen aus dem Chat
+
+Wann haben agile Ansätze Erfolg? Eberhard nennt ein kompetitives Feld,
+in dem leichter änderbare Software einen Vorteil bringt, und die Kultur.
+Man kann schrittweise vorgehen und den Prozess iterativ verbessern. Auf
+die Frage nach einer empirischen Basis für Scrum antwortet er, dass man
+bei Software Engineering nicht-triviale Dinge nur sehr schwer
+wissenschaftlich feststellen kann. Er schaut sich deshalb den einzelnen
+Fall an. Daten und Verhalten sollte man nach seiner Meinung gemeinsam
+halten. Dazu verweist er auf die Folgen zur Modularisierung.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Agile Projekte kippen nach Eberhards Beobachtung zurück in ein nicht agiles Vorgehen, und das ist kaum umkehrbar. Es ist eine anekdotische Beobachtung, keine empirische Untersuchung.
+- Wenn Agilität besser ist, müsste sie sich durch eine Evolution durchsetzen. Dass Projekte zurückgehen, braucht eine Erklärung.
+- Im agilen Manifest fehlt Eberhard die klare Orientierung am Geschäftswert. Funktionierende Software ist für ihn kein Fortschrittsindikator.
+- Feedback und Iterationen sind wichtig. Iterationen sind bei Softwareentwicklung sowieso sinnvoll.
+- Der Weg zur Agilität kann aufwendig sein. Ein Kommentar nennt fünf bis sieben Jahre. Ob sich das lohnt, ist eine wirtschaftliche Frage.
+- Langfristige Planung ist attraktiv, weil sie die Illusion von Kontrolle gibt. Wo man in einem Jahr steht, lässt sich nicht exakt planen. Gar nicht zu planen ist aber auch schwierig.
+- Zufriedene Menschen können produktiver sein. Ausbeutung ist trotzdem eine mögliche, aber ethisch problematische Option.
+- Eine Rolle wie Product Owner löst das Problem mit dem Geschäftswert nach Eberhards Ansicht nicht, denn sie kann nur im System des Unternehmens handeln.
+- Scrum nach Buch ist vielleicht besser als gar nichts, auch wenn es nicht wirklich agil ist.
+- Agilität ist kein Selbstzweck, sondern ein Werkzeug. Es gibt Fälle, in denen es nicht passt.
+- Ein Erfahrungsbericht zeigt ein agiles Team als Fremdkörper: Nach der Ablösung des Altsystems fehlen fachliche Anforderungen, und die Leute gehen.
+- Weil nicht-triviale Dinge im Software Engineering empirisch schwer zu untersuchen sind, entscheidet Eberhard fallbasiert.
+
+### Behandelte Fragen
+
+- Was bedeutet Agilität, und was bedeutet Kippen?
+- Warum setzt sich Agilität nicht von selbst durch?
+- Erklärt der Aufwand einer agilen Transformation das Kippen?
+- Kann man zuverlässig planen, was in einem Jahr ist?
+- Welche Rolle spielt die Illusion von Kontrolle?
+- Haben agile Unternehmen Vorteile im Arbeitsmarkt?
+- Löst ein Product Owner das Problem mit dem Geschäftswert?
+- Was heißt „besser“: wirtschaftlicher oder angenehmer?
+- Kann ein agiles Team in einem klassischen Unternehmen dauerhaft funktionieren?
+- Was ist die empirische Basis für Scrum?
+
+### Glossar
+
+- **Kippen**: Ein agiles Projekt wird unagil, und der Weg zurück ist praktisch unmöglich
+- **Agiles Manifest**: Vier Abwägungen und Prinzipien, zum Beispiel funktionierende Software mehr als umfangreiche Dokumentation
+- **Geschäftswert**: Wirtschaftlicher Nutzen der Software, für Eberhard der eigentliche Fortschrittsindikator
+- **Auftragstaktik**: Militärischer Mechanismus mit Delegation und eigenverantwortlichem Handeln
+- **Crew Resource Management**: Mechanismus aus der Luftfahrt, bei dem First Officer und Kapitän partnerschaftlich arbeiten
+- **Fearless Change**: Patterns, mit denen Menschen ohne Management-Macht Änderungen anstoßen können
+- **Product Owner**: Rolle, die in Scrum die Fachlichkeit versteht und priorisiert
+- **Beyond Budgeting**: Ansatz, finanzielle Ressourcen ohne klassische Budgetierung zu verteilen
+
+## Transkript
+
+## Warum scheitert Agilität - Reaktionen
+
+In dieser Folge spricht Eberhard Wolff allein. Er liest Kommentare von YouTube, LinkedIn, aus dem Formular und aus dem Chat vor und antwortet darauf. Vorgelesenes und Titel stehen in Anführungszeichen. Namen aus Kommentaren sind teils nach Gehör geschrieben.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube). Im Podcast (MP3) kann die Stelle abweichen.
+
+### Begrüßung und Ankündigungen
+
+[0:00:00] Genau, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream. Heute geht es um das Thema: Warum scheitert Agilität? Reaktionen. Bevor ich dazu was sage, erst mal so ein paar Hinweise. Wir werden nächste Woche am Freitag eine Instant Premiere von dem Video haben: Architektur: Den menschlichen Faktor verbessern. Den Talk habe ich schon auf ein paar Konferenzen gehalten und ich bin nächste Woche Freitag zu diesem Zeitpunkt in der Bahn. Das heißt, ich kann leider nicht sozusagen, wie soll ich sagen, live einen Stream machen. Deswegen gibt es dann eben diesen Stream darüber, wie man den menschlichen Faktor verbessern kann, und das wird dann eben eine Aufzeichnung von einem Talk sein. Das ist das, was uns nächste Woche erwartet.
+
+[0:00:50] Dann noch ein Hinweis: Mich hat eine Kollegin darauf aufmerksam gemacht, dass wir jetzt mittlerweile vier Jahre dabei sind. Also freut mich sehr und ja, schön, dass das so konstant funktioniert, dass ihr irgendwie zuschaut und die Inhalte auch konsumiert. Das freut mich halt sehr und genau, schauen wir mal, wie es da sozusagen in Zukunft weitergeht.
+
+### Rückblick: Warum kippen agile Projekte?
+
+[0:01:16] Ja, worum geht es heute? Ich habe einen Vortrag hier live gestellt in den Stream, der hieß: Warum kippen agile Projekte? Und da gab es irgendwie ganz viele unterschiedliche Reaktionen und ich glaube, es ist wertvoll, darüber mal was zu sagen, und das ist der Grund, warum ich jetzt hier eben heute was genau zu dem Thema erzählen möchte. Sprich, wir werden uns irgendwie anschauen, was es so an Reaktionen gab, und ich werde irgendwie dazu ein paar Sachen sagen, was ich über diese Reaktion denke.
+
+[0:01:44] Und da wollen wir erst mal noch mal kurz auf das Originalvideo sozusagen eingehen. Das Originalvideo hat den Titel Warum kippen agile Projekte? Und da habe ich mir sozusagen selber auch gleich ein Bein gestellt, weil eigentlich ist dieses Kippen für mich total wichtig und bei dieser Episode geht es aber dann irgendwie um das Scheitern. Und ich konnte, wollte das halt irgendwie nicht mehr korrigieren zu dem Zeitpunkt. Das heißt also, eigentlich geht es um das Kippen.
+
+[0:02:09] Und da gibt es jetzt irgendwie zwei Fragen, nämlich einmal die Frage: Was ist eigentlich Agilität? Dann ist irgendwie die andere Frage: Was bedeutet denn halt irgendwie dieses Kippen? Und ich würde jetzt behaupten … Agilität bedeutet so im Groben, dass wir halt Iterationen machen und gleichzeitig damit leben, dass sich Anforderungen ändern. Iterationen sind etwas, was halt sowieso bei Softwareentwicklung sinnvoll und hilfreich ist. Da habe ich einen Talk drüber gehalten, über dieses „Darüber will ich nicht sprechen“ heißt das, also Wahrheiten in der Softwareentwicklung, über die ich nicht sprechen möchte, verlinke ich auch nochmal. Und das ist irgendwie ein wichtiger Punkt, eben genau diese Geschichte mit: Wir müssen halt in Iterationen vorgehen, Wasserfall ist auf keinen Fall eine Option. Das heißt, das will ich gar nicht diskutieren, und so ein bisschen transportiert dieser Talk halt auch, dass eigentlich Iterationen so ein natürliches Vorgehen sind.
+
+[0:02:59] Und da gibt es auch eine Episode mit dem Hillel Wayne über das Thema: Sind wir eigentlich Engineers? also es gibt ja den Begriff Software Engineer, und das bedeutet ja, dass wir so Ingenieure sind. Und mit Hillel sind wir diesem Thema genau nachgegangen, und ein Ergebnis ist eben, dass Ingenieure im Allgemeinen immer in Iterationen vorgehen. Das heißt auch aus der Perspektive ist das jetzt etwas, was, glaube ich, unstrittig ist. Das bedeutet, es bleibt halt diese Ausrichtung auf änderbare Anforderungen, was, glaube ich, ein wesentlicher Punkt bei Agilität ist, und daraus dann eine Menge an Techniken, die damit umgehen und damit umgehen wollen. Und das ist, glaube ich, so vielleicht der Hauptpunkt bei Agilität, also genau dieses Set an Techniken, mit denen ich jetzt eben mit änderbaren Anforderungen insbesondere umgehen kann. Und es gibt irgendwie das agile Manifest, wo irgendwie auch noch Dinge drinstehen und so weiter und so weiter.
+
+[0:03:50] So, und die Beobachtung, die jetzt der Ausschlag war für den originalen Talk, war, dass es halt so agile Projekte gibt, die also agil vorgehen, in Iterationen arbeiten, auch einen iterativen Verbesserungsprozess für ihr eigenes Vorgehen haben, und die werden dann plötzlich unagil. Also dieses Feedback, was halt der Input sein soll für diese Prozesse, der bleibt halt irgendwie aus. Dann gehen irgendwie Leute, technisch gute Leute, und am Ende bleibt eben eine Organisation übrig, die so ein bisschen ein Schatten ihrer selbst ist. Und das ist etwas, was ich beobachtet habe an verschiedenen Stellen, dass Organisationen halt sozusagen kippen. Und ich fand das halt deswegen, also erstmal der Begriff kippen, es geht eben dann in eine Richtung, das heißt also danach ist die Organisation irgendwie unagil und es ist praktisch unmöglich, dass sie halt wieder zurückläuft, weil halt einfach viel zu viele Dinge kaputt gegangen sind, Leute sind gegangen, das Vorgehen hat sich halt geändert und deswegen ist das halt für mich so ein Kippen, so wie Klimakipppunkt eben auch, wo wir dann eben an der Stelle, wo das Eis auf dem Südpol beispielsweise abschmilzt oder in Grönland halt ein Problem haben und da irgendwie auch nicht mehr zurückkommen, weil das eben nicht so einen einfachen Weg zurück mehr gibt.
+
+### Warum Kippen nicht passieren sollte
+
+[0:05:09] So und jetzt ist halt die Frage, warum ist das halt irgendwie spannend? Das kann eigentlich nicht sein. Also wenn wir sagen, dass Agilität irgendwie besser ist, dann sollte sowas nicht passieren. Dann sollten wir halt sagen, früher oder später sind halt alle Projekte agil, weil es ist die bessere Methode. Alle werden diese bessere Methode verwenden. Und wenn ein Projekt das umgesetzt hat, dann ist es eben genau an dieser Stelle angekommen. Es wird aber eben nicht zurückfallen. Das ist allgemein das …
+
+[0:05:38] Also ich würde halt sagen, wir haben halt eine Evolution: Es gibt irgendwie Arten und Weisen, wie wir Software entwickeln, es gibt eine Technologieevolution und verschiedene andere. Und ich würde behaupten, die Sachen, die sich da durchsetzen, sind halt die besseren im Sinne von erfolgreicher, im Sinne von mehr Leute setzen das ein, um eben besser, erfolgreicher, produktiver, Software zu entwickeln. Und wenn es jetzt eben so ist, dass es Projekte gibt, in denen Agilität die Vorteile nicht zeigen kann, dann werden sich diese Ideen nicht weiter verbreiten. Und es gibt tatsächlich jetzt so ein Problem, was man diskutieren kann. Sekunde.
+
+[0:06:19] Und zwar ist es halt so, dass ich jetzt keine empirische Untersuchung gemacht habe. Also ich habe jetzt nicht gesagt, von 100 Projekten, die irgendwie loslegen, scheitern so und so viele Projekte und kippen halt wieder. Das wäre etwas, was man irgendwie nochmal eigentlich machen müsste. Ich arbeite jetzt eben mit anekdotischen Hinweisen und möchte gerne versuchen, dieses Phänomen zu erklären also ein Phänomen, das ich zumindest anekdotisch beobachtet habe. Das heißt also, wir suchen Gründe dafür, warum eben agile Projekte kippen. Und das war das, was ich in dem Talk irgendwie diskutiert habe. Und wenn ich es richtig sehe, stimmt nicht ganz, hat die überwiegende Anzahl der Leute, die halt Feedback gegeben haben, nicht gesagt: Ich habe Ähnliches beobachtet. Die überwiegende Anzahl hat irgendwie auf andere Themen abgehoben.
+
+### Geschäftswert und agiles Manifest
+
+[0:07:08] Und Erklärungsmuster, die ich jetzt gefunden habe, sind einmal, also ein Erklärungsmuster ist: Agilität orientiert sich nicht zu klarem Geschäftswert. Wenn ich eine Methode hätte, die halt mehr Geschäftswert erzeugt, dann hat die einen wirtschaftlichen Vorteil und die müsste halt tatsächlich aufgrund von evolutionären Mechanismen in der Wirtschaft sich durchsetzen. Und das ist auch etwas, was sozusagen von agilen Befürwortern diskutiert wird. Also hatte ich in dem Original-Talk irgendwie auch gesagt: Survival is optional. Also das heißt, du musst ja nicht agil werden. Wenn du halt nicht agil wirst, dann wirst du dich wahrscheinlich irgendwie im Markt nicht durchsetzen, weil eben … du letztendlich vom Markt gefegt wirst, weil du eben auf Feedback von Kund:innen nicht eingehst und halt insgesamt keinen besonders guten Job machst oder halt ein Problem hast.
+
+[0:07:59] Und das Lustige ist jetzt, diese klare Orientierung an Geschäftswert ist bei Agilität meiner Ansicht nach nicht erkennbar, zumindest nicht im agilen Manifest. Da gibt es zwar die Prinzipien. Die Prinzipien sagen, man will den Kunden zufriedenstellen durch die kontinuierliche Auslieferung von Software. Da spielt also der Kunde und die Zufriedenheit des Kunden eine Rolle. Aber meine erste Behauptung ist: Funktionierende Software ist kein Fortschrittsindikator, sondern der Geschäftswert ist einer. Das heißt also, die Frage ist: Also wenn ich Software entwickle, die funktioniert und ja Features implementiert, die niemand braucht, dann habe ich zwar funktionierende Software, aber keinen Geschäftswert. Das heißt, eigentlich ist eben tatsächlich die kontinuierliche Auslieferung von Software nicht das, was Kunden zufriedenstellt, sondern eben irgendwas anderes. Ich will halt Probleme lösen.
+
+[0:08:49] Und das Agile Manifest geht eben weiter und sagt, ich will eine nachhaltige Geschwindigkeit und ich will technische Exzellenz. Und es gibt Situationen, die sind möglicherweise Ausnahmen, aber es gibt Situationen, wo ich eben mit Nachhaltigkeit und technischer Exzellenz, das sind nicht meine Probleme. Ich muss halt zu einem bestimmten Zeitpunkt irgendetwas live bekommen. Ich will jetzt zur Europameisterschaft irgendwas live haben. Wenn ich das einen Monat später habe, dafür aber technisch exzellent und dafür auch so, dass ich es halt kontinuierlich weiterentwickeln kann mit einer nachhaltigen Geschwindigkeit, dann nützt mir das nichts. Und das ist eben genau so ein bisschen eins der Probleme, was ich da halt habe. Da kann man drüber diskutieren. Ich glaube, wir werden auch darüber diskutieren. Aber das ist eben einer der Punkte, die ich da halt irgendwie sehe. Also diese klare Orientierung am Geschäftswert, die fehlt so ein bisschen. Die müsste es aber geben, damit es halt eine Evolution gibt. Wirtschaftliche Lösungen setzen sich halt durch.
+
+[0:09:49] Man kann dann noch argumentieren, dass Märkte eben nicht effektiv sind. Also beispielsweise ist eben regenerative Energie billiger als fossile Energie. Trotzdem investieren wir massiv in fossile Energien, subventionieren das sogar. Das ist eben genau ein Beispiel dafür, dass eben Märkte nicht effektiv sind, dadurch, dass sie eben manipuliert werden von irgendwelchen Spielern.
+
+### Evolution von Prozessen und Spaß bei der Arbeit
+
+[0:10:12] So, und dann ist noch ein anderer Gedanke, der da halt irgendwie war, war so dieser Gedanke: Naja, wenn halt ein Unternehmen einen Prozess hat, mit dem sie Software entwickeln, dann ist es vielleicht schon ein Prozess, der halt relativ gut passt. Und also die haben ja einen evolutionären Prozess selber durchlaufen. Die haben ja irgendwann Software angefangen, die haben sich halt überlegt: Wie mache ich das? Dann sind sie irgendwie losgelaufen, haben das halt irgendwie getan. Und die sind halt meistens, zumindest wenn ich die Unternehmen sehe, so erfolgreich, dass sie zumindest eben sich Berater:innen leisten können. Also so falsch kann das sozusagen nicht sein. Und das bedeutet halt, dass vielleicht eben Agilität gar nicht das Bessere ist.
+
+[0:10:53] Und ich hatte noch diesen Punkt mit: Ich bin halt nicht sicher, ob wir nicht Agilität deswegen forcieren, weil das halt mehr Spaß macht. Aber ich bin mir halt nicht sicher, ob es wirtschaftlicher ist. Und ich habe überhaupt nichts dagegen, also im Gegenteil, wenn man irgendwie Spaß bei der Arbeit hat. Für mich ist das persönlich ein wichtiger Punkt. Das könnte halt erklären, warum sich es eben nicht durchsetzt, weil eben der Fokus in der Wirtschaft auf der Wirtschaft liegt und auf der Wirtschaftlichkeit und nicht so sehr an dem Spaß haben.
+
+### Auftragstaktik, Beyond Budgeting und Fearless Change
+
+[0:11:21] Ich habe dann noch irgendwie über Auftragstaktik und Crew Resource Management gesprochen. Das wird nächste Woche auch noch mal ein Thema sein. Das sind halt Mechanismen aus dem militärischen Bereich und Mechanismen eben aus der Flugindustrie, also aus der Luftfahrt. Und da sind … Auch solche Mechanismen wie Delegation, Auftragstaktik ist im Prinzip Delegation und eigenverantwortliches Handeln von Leuten, die halt irgendwie sozusagen arbeiten. Und außerdem haben wir mit Crew Resource Management genau dieses, dass der First Officer und der Kapitän partnerschaftlich gemeinsam arbeiten müssen, damit sie irgendwie sicher ankommen. Was halt bedeutet, und das war ein wichtiger Punkt für mich, dass halt diese scheinbar ethischen Sachen wie: Wir wollen irgendwie dafür sorgen, dass halt jeder etwas sagen kann, tatsächlich klare Vorteile bringen in solchen Bereichen wie Luftfahrt, weil dort eben genau das zu einer höheren Sicherheit führt und eben auch sowas wie Delegation, mehr Entscheidungsfreiheiten, dass es eben etwas ist, was im Militär auch umgesetzt wird und da, glaube ich, wichtig ist.
+
+[0:12:24] Ich habe in dem Kontext auch nochmal einen Artikel, also mich hatte das jetzt irgendwie interessiert, was denn eigentlich so Nachteile sind von Auftragstaktik, hatte deswegen irgendwie nochmal einen Artikel rausgekramt, jetzt vor kurzem aus der Welt, den verlinke ich nochmal. Und einfach mit der Frage: Was sind denn eigentlich Probleme von Auftragstaktik? Und der behauptet halt, dass es einmal so Kompetenzüberschreitungen gibt, dass also Leute etwas entscheiden, was nicht dem großen Plan entspricht, sondern dem vielleicht sogar zuwiderläuft, weil sie halt irgendwie übermäßig ehrgeizig sind oder solche Geschichten. Und der andere Punkt, den der Artikel macht, ist, dass es halt Kompetenzen voraussetzt. Das heißt, wenn ich halt in der Situation bin, wo halt die meisten ausgebildeten Offiziere bereits gefallen sind oder Unteroffiziere, dann wird es halt schwierig, das hinzubekommen, weil die Leute ja selbstständig Entscheidungen treffen sollen und die sind dann vielleicht nicht qualifiziert, weil sie halt nicht durch die Ausbildung gegangen sind, die eigentlich Voraussetzung dafür ist und nicht die Erfahrung haben.
+
+[0:13:20] Eine Frage, die ich mir dann noch gestellt habe, ist halt die Frage: Okay, wenn also die Organisation so Schwierigkeiten hat, mit Feedback umzugehen, das ist, glaube ich, eines der Hauptprobleme, also eben sich dahin zu bewegen, dass man sagt, die Kunden geben uns Feedback, wir reagieren darauf, das ist etwas, was hilfreich ist, und wir arbeiten dadurch eben in Iterationen, die halt Kundenfeedback auch einbeziehen. Dann könnte man ja jetzt sagen, ich will die Organisation ändern, und da gibt es sowas wie Beyond Budgeting, was eben sagt, wir machen nicht mehr eine Budgetierung, sondern wir sorgen dafür, dass wir anders vorgehen mit dem Verteilen finanzieller Ressourcen, was dann eben bedeutet, ich muss vielleicht keine Festpreisprojekte mehr machen, und Fearless Change, der Mechanismus, mit dem halt Leute aus der Organisation solche Änderungen anstoßen können. Also, kurz nochmal der Kernpunkt: Agile Projekte meiner Erfahrung kippen hin zu nicht agil, und das ist kein wirklich reversibler Prozess, was halt erstaunlich ist, weil Agilität sollte besser sein, es sollte also eine Evolution in diese Richtung geben.
+
+### Feedback-Zyklen und hohe Anforderungen an Menschen
+
+[0:14:20] So, dann haben wir bei YouTube verschiedene Kommentare gehabt. Das erste ist von J Human King oder sowas, der schreibt: „Aus meiner Sicht führt deine Analyse am Kern vorbei. Der wirtschaftliche Vorteil durch Anwendung von Agilität kommt natürlich nicht von besonders gutem Design, langfristiger Wartbarkeit oder weniger Dokumentation, sondern resultiert aus der Etablierung eines effizienten Feedback-Cycles, fail fast and cheap“, also schnell Fehlschläge produzieren und billig, „und dann improve“, besser werden. „Das scheinst du gänzlich auszublenden.“
+
+[0:14:55] Also erstmal grundsätzlich: Feedback ist wichtig, da habe ich keinen inhaltlichen Dissens, aber ich habe nochmal nachgeguckt, der Begriff Feedback steht halt nicht im Agile Manifest, ist aber sicher irgendwie implizit klar. Und über Iterationen haben wir bereits gesprochen, das ist etwas, was wir wirklich, wirklich machen müssen und das halt wirklich … Würde ich behaupten, wenn man es nicht macht, dazu führt, dass halt Projekte fehlschlagen und die werden sich halt in diese Richtung entwickeln. Und da sind wir auch nicht allein, Ingenieure machen es ähnlich, so wie ich vorhin gesagt habe. So, und meiner Ansicht nach bedeutet halt eben Agilität so ein Feedback-Zyklus über Benutzerfeedback, weil sich Anforderungen ändern können. Im Prinzip ergibt das einen Vorteil, das will ich gar nicht diskutieren, aber das ist halt nicht mein Punkt. Mein Punkt ist halt, wenn es so ist, dass es halt diesen Vorteil gibt, über einen Feedback-Zyklus durch sich ändernde Anforderungen von Kunden, durch das, was Kunden halt über die Software sagen, wenn das ein massiver Vorteil ist, warum zum Teufel sagen dann irgendwie Projekte, cool, dass ihr das irgendwie versucht, aber wir machen das jetzt eben nicht mehr. So, und das ist eigentlich die Frage. Also ich will nicht sagen, Feedback-Cycles machen keinen Sinn. Im Gegenteil, ich versuche nur zu sagen, aus irgendwelchen Gründen gibt es da halt eine Rückabwicklung davon.
+
+[0:16:15] So, die Person sagt halt weiter, „Mögliche Gründe für das Scheitern solcher Projekte leiten sich dann auch direkt daraus ab, zum Beispiel Feedback- und Verbesserungsdruck kann für schwächere Mitarbeiter sehr herausfordernd sein. Strikt einem Plan zu folgen, für dessen Scheitern im Zweifelsfall dann jemand anders verantwortlich ist, kann sehr viel bequemer sein. Je nach Umfeld kann das Generieren von tatsächlich hilfreichem Feedback schwer bis unmöglich sein. Feedback muss geplant, interpretiert und in weiteres Vorgehen überführt werden. Das bekommen auch nicht alle Organisationen fehlerfrei hin.“
+
+[0:16:44] Das finde ich erstmal inhaltlich spannend und würde ich halt auch unterschreiben. Ich finde die Formulierung schwächere Mitarbeiter interessant. Eigentlich wollen wir ja gerade, dass auch schwächere Mitarbeiter sich wohlfühlen und halt, also wenn man sie überhaupt schwächer nennen will, also eigentlich wollen wir, dass sich alle wohlfühlen und partizipieren können. Und das mit dem Schwächer ist halt irgendwie so, weiß ich nicht, schwierig, aber nicht, also es ist halt ein Wort und in einem Kommentar sollte man jetzt auch sicherlich nicht alles auf die Goldwaage legen. Dennoch finde ich das halt spannend. Also was ist die Logik dieser Aussage oder dieses Kommentars? Wenn ich es jetzt übertrieben sagen sollte, dann wäre es halt die Aussage: Also Agilität ist irgendwie besser. Es ist nur bedauerlicherweise so, dass wir es nicht umsetzen können oder zumindest nicht in allen Organisationen. Das finde ich aus einer logischen Diskussion her schwierig, weil dann bedeutet das, ich habe eine theoretisch bessere Option, die ich aber de facto nicht umsetzen kann. Und dann ist es keine bessere Option, dann ist es halt überhaupt gar keine Option.
+
+[0:17:51] Und das ist vielleicht eine Erklärung für das Kippen, dass eben dort eine Organisation bis zu einem gewissen Maße gekommen ist, aber es dann eben nicht nachhaltig etabliert hat und es dann irgendwie zurückkippt auf das Alte, was ja auch wiederum bedeutet, dass es eben einfacher, so wie die Person irgendwie auch sagt, einfacher ist, attraktiver ist aus bestimmten Gründen und das ist dann irgendwie eine gute Erklärung. Es führt aber zu der Frage, inwiefern dann Agilität besser ist. Und wir kommen dann irgendwie in diese Diskussion, dass wir halt Kultur, Mitarbeiter oder so ändern müssen. Ich will ja eigentlich nur Software entwickeln, deswegen weiß ich nicht, ob ich das will.
+
+[0:18:29] Aber eigentlich ist genau das auch ein Teil, ein Thema beim nächsten Vortrag, wo es dann tatsächlich darum geht, also von der nächsten Woche, wo es tatsächlich darum geht, Menschen sozusagen zu verbessern. Das heißt also irgendwie ist das sicherlich ein Thema und das ist sicherlich eine Strategie, damit zu arbeiten, aber es bedeutet halt, dass sie schwierig ist. Und noch ein weiterer Punkt, der mir durch dieses Feedback halt aufgekommen ist, ist, dass eben vielleicht diese Projekte, die dort gekippt sind, es nicht geschafft haben, das Feedback wirklich zu etablieren, also dass sie sozusagen nie agil waren, haben deswegen agil eben nicht umgesetzt, zumindest nicht vollständig und deswegen haben sie da das Problem.
+
+### Der Aufwand: fünf bis sieben Jahre
+
+[0:19:08] Es gab dann noch weiteres Feedback von ihm. Er hat irgendwie geschrieben, an ein bestes Konzept, also auf eine Antwort, die ich ihm irgendwie geschrieben habe. Er schrieb dann weiter: „An ein bestes Konzept glaube ich auch nicht. Bei uns hat es sicher fünf bis sieben Jahre gedauert, bis zumindest ein Großteil der Teams Scrum verinnerlicht hatte. Da helfen auch diverse, oft ein wenig weltfremd daherkommende Coaches nicht, eher im Gegenteil. Automatisch besser wird auch nichts, im Gegenteil. Viel mehr Leute müssen regelmäßig das Richtige tun, wo vorher vielleicht bisweilen ein cleverer und durchsetzungsstarker Projektmanager ausreichte. Es gibt sicherlich 99 Stolperfallen, in welche man früher oder später tapsen wird. Mich wundern Rückabwicklungen nicht.“
+
+[0:19:51] Das Feedback fand ich halt spannend, weil … diese Person da irgendwie gesagt hat, den Aufwand quantifiziert hat, nicht? Fünf bis sieben Jahre Aufwand, bis ich halt dorthin komme, und selbst dann ist es halt schwierig und es ist also schwer erreichbar, und Leute, die mich dabei unterstützen, in dieser spezifischen Situation helfen dabei nicht. Ich glaube, meine Kolleg:innen machen da halt gerade an verschiedenen Stellen einen guten Job, aber nicht. Anyways, das passiert halt sicher. Und das bedeutet halt, dass das zu einer Aufwandsdiskussion führt. Das ist die neue Idee, die ich da sozusagen mitgenommen habe, die bei mir fehlt.
+
+[0:20:30] Also wir können jetzt die Frage stellen: Wenn wir fünf bis sieben Jahre investieren in die Verbesserung unserer Prozesse mithilfe von Agilität, lohnt sich das Investment? Und ich will damit nicht sagen, dass es sich nicht lohnt, aber ich glaube, das ist auch nochmal eine Möglichkeit, dieser Frage auf die Spur zu kommen, warum die Sachen irgendwie kippen und auch warum es sich nicht durchsetzt. Also wenn ich einen langen, steinigen Weg gehen muss, bis ich da bin, und der Benefit nicht so ganz klar ist, dann erklärt das halt, glaube ich, sehr gut, warum Agilität sich nicht durchsetzt oder warum da eben Schwierigkeiten sind in einigen Situationen. Es ist ja nicht so, dass es sich nicht durchsetzt. Es geht ja eher darum, dass es halt in einigen Situationen schwierig ist.
+
+[0:21:13] Und das finde ich aber, rein wirtschaftlich betrachtet, eine Diskussion, die man halt ernsthaft führen sollte, nicht? Also will ich diese Zeit investieren? Ist das nützlich? Kommt dabei etwas raus an einem Produktivitätsvorteil, der das sozusagen wieder aufwiegt? Und das könnte halt eine Erklärung sein und vielleicht ist das eben tatsächlich nochmal oder auf jeden Fall ist das ein neuer interessanter Gedanke, der in dem ursprünglichen Vortrag so nicht drin war.
+
+### Planung und die Illusion von Kontrolle
+
+[0:21:44] So, dann hat sm-cs3nt geschrieben: „Das große Problem ist, dass Agilität nicht immer die richtige Lösung ist. Für manche Projekte braucht es eine sehr ausdetaillierte Planung. Budgets müssen ein Jahr im Voraus delegiert werden. Investoren brauchen klare Planungen und Umsatzprognosen. All das ist sehr schwierig, wenn man noch nicht konkret beschreibt, was man entwickeln möchte.“
+
+[0:22:06] Ja, das finde ich halt spannend, weil also ich stelle mich mal hin und sage: Können wir heute zuverlässig planen, was in einem Jahr ist? Also hier ist halt konkret die Rede auch von einer Umsatzprognose, von der Planung von dem Projekt. Das heißt, können wir jetzt sicherstellen und sicher erklären, wo wir in einem Jahr stehen? Und ich glaube, das ist nicht der Fall. Und eigentlich müssten alle Leute, die halt irgendwie IT-Projekte gemacht haben, auch das selber erlebt haben, wenn sie sozusagen reflektieren, dass eben die Planung nach einem Jahr kommt halt irgendwo anders an.
+
+[0:22:54] Und gerade sowas wie beispielsweise Auftragstaktik sagt ja auch genau, dass wir zwar vielleicht einen Plan haben und wir haben halt insbesondere Ziele und dann delegieren wir halt und sorgen halt dafür, dass Leute versuchen können, diese Ziele umzusetzen im Rahmen ihrer Möglichkeiten. Und zwar nicht mit einem konkreten Plan, den wir vorgeben, sondern wir sagen denen halt, das ist die Idee von Auftragstaktik: Halte diese Brücke für vier Stunden, damit wir uns irgendwie zurückziehen können. Und damit haben wir ein Ziel vorgegeben. Wir haben aber auch erklärt, warum dieses Ziel notwendig ist. Und diese Person wird dann irgendwie sagen, wenn die Leute halt nach drei Stunden zurückgezogen sind, okay, cool, dann geben wir jetzt die Brücke halt irgendwie auf. Oder wenn es nach fünf Stunden erst ist, dann werden sie sich halt überlegen, ob sie sie halt länger halten. Und sie werden halt abhängig davon, wie der Feind sich halt kümmert oder was irgendwie der Feind macht, auch den Plan entsprechend anpassen und halt den Befehl auch sozusagen entsprechend ändern.
+
+[0:23:49] Und das ist, glaube ich, bei Softwareprojekten nichts anderes. Also natürlich ist es sinnvoll, sich zu überlegen, wo man in einem Jahr stehen möchte, aber dass wir exakt dort stehen, wo wir glauben, wo wir stehen, halte ich für praktisch ausgeschlossen. Das wird halt sicherlich irgendwie anders sein. Also wir werden uns vielleicht Gedanken machen und werden halt sagen, okay, das wird halt ein durchschlagender Erfolg, das sind die wesentlichen Features. Aber es kann eben sehr gut sein, dass wir da am Ende an einer ganz anderen Stelle ankommen, als wir ursprünglich mal geplant haben. So, und deswegen brauchen wir ja halt Iteration, deswegen brauchen wir Feedback. Die Frage ist eben nur, ob wir auf sich ändernde Anforderungen reagieren wollen. Das ist das, was Agilität sagt. Die werden sich aber ändern, nicht? Requirements ändern sich, weil Menschen eben erst, wenn sie die Software nutzen, tatsächlich darüber reflektieren können, was da noch fehlt, in eine andere Richtung marschieren können, während des Requirements-Prozesses eben über die Arbeit reflektieren und sich Gedanken machen und so weiter und so weiter.
+
+[0:24:49] Für mich ist das so ein bisschen dieser Apple-Effekt. Also Apple hatte oder hat diese Möglichkeit zu sagen, hier ist halt ein Produkt, man denkt halt, das ist irgendwie nichts, was ich eigentlich brauche, und dann benutzt man es halt und stellt fest, doch, das brauche ich eigentlich. Also iPhone, ich fand das halt damals komisch, das hat halt keine Tastatur. Wenn man es halt einmal benutzt hat, merkt man halt, das macht total viel Sinn und ist halt total hilfreich. Das ist genau das, was wir bei Software auch haben. Wir geben also den Menschen Software mit irgendwelchen Features in die Hand, die reflektieren darüber und dann kriegen sie halt erst ihre wirklichen Wünsche. So, und ich glaube, das ist ein anderer Punkt.
+
+[0:25:26] Wenn wir also voraussetzen können, dass halt wir alle wissen, dass man nicht planen kann, was in einem Jahr los ist, dann ist halt die Frage, warum ist irgendwie dieser andere Ansatz doch attraktiv? Also ich will ja nicht in Abrede stellen, dass halt diese Planung attraktiv ist und dass Leute das machen, da muss es halt attraktiv sein. Und ich glaube, das ist ein Aspekt, diese Illusion von Kontrolle. Dass ich also das Gefühl habe, ich weiß jetzt, was in einem Jahr ist, ich kann das kontrollieren und das ist eben offensichtlich ein Vorteil und deswegen mache ich das. Irgendwie, wenn man drüber nachdenkt, ist eigentlich klar, dass das halt Quatsch ist, aber ich habe halt das Gefühl, dass ich halt die Kontrolle habe. Und Agilität sagt halt irgendwie, naja, also es werden sich halt Dinge ändern, wir haben einen kurzen Planungshorizont, was halt realistischer ist, was zum Beispiel auch die Kosten für eine Planung reduziert, und das ist wahrscheinlich der bessere Ansatz, um halt irgendwie die Probleme zu erschlagen. Aber für mich ist das insgesamt ein guter Hinweis darauf, dass halt diese Illusion von Kontrolle offensichtlich sehr attraktiv ist. So attraktiv, dass hier jetzt jemand sagt, wir müssen halt auf ein Jahr genau planen, was wir dann geschafft haben, inklusive Umsatz und allem. Und wir wissen, glaube ich alle, dass das in Wirklichkeit nicht geht.
+
+[0:26:45] Ich vermute auch, dass die Person selber das halt irgendwo weiß, sie ist damit aber eben auch nicht alleine. Also das ist etwas, was im Projektalltag täglich passiert. Das könnte auch dazu führen, dass man eben sagt, okay, wir wollen halt ein stärkeres Gefühl von Kontrolle haben und das führt dann eben dazu, dass man eine Organisation kippen lässt und eben rückabwickelt.
+
+### Agilität als Ausrede für fehlende Planung
+
+[0:27:05] Passend dazu von I am the Slime, der Kommentar: „Hat mir sehr gut gefallen. Ich habe es persönlich auch oft erlebt, dass man Agilität als Ausrede für das Ausbleiben von Planung heranzieht.“ Das fand ich halt spannend, weil das halt impliziert, dass ich irgendwie vorwerfe, dass Agilität ein Mangel an Planung ist und dass ich halt für Planung argumentiert habe. So verstehe ich das zumindest. Dem bin ich mir nicht bewusst, aber also Schwamm drüber.
+
+[0:27:32] Passt zu dem, ist so ein bisschen kontrovers zu dem, was der Kommentator davor sagt, der irgendwie sagt, wir müssen halt mehr planen. Also entweder ich habe gesagt, wir müssen weniger planen, oder ich habe gesagt, wir sollten halt schon planen. Irgendwie ist es halt so, dass die beiden Kommentatoren sich darüber vielleicht mal sozusagen unterhalten müssten. Aber anyways also Dinge werden halt falsch kommuniziert oder kommen halt falsch an, auch kein Problem. So, und dann hat er weitergeschrieben: „Jetzt gucke ich das Video mit dem Fearless Change.“
+
+[0:27:59] Genau, Fearless Change ist, glaube ich, wirklich, wirklich, wirklich wichtig. Da gibt es auch eine Episode drüber. Mit der Linda Rising. Das ist halt eine Menge von Patterns, wo Menschen halt Änderungen machen können, ohne dass sie halt Management-Macht haben und halt hoch in der Hierarchie stehen. Wobei sich auch Manager, glaube ich, davon einen Teil abschneiden können, weil es eine Illusion ist, zu glauben, nur weil ich etwas anordne, wird es irgendwie auch einfach gemacht, sondern Leute müssen ja irgendwie das auch verstehen und dann irgendwie anschließend vielleicht auch selber gut finden und unterstützen. Auch etwas, was, glaube ich, irgendwie bei Auftragstaktik eine Rolle spielt. Also wenn mir erklärt worden ist, ich muss die Brücke halten, damit meine Kameraden halt irgendwie sich zurückziehen können und halt dem möglicherweise sicheren Tod entgehen, dann werde ich halt anders motiviert sein.
+
+[0:28:52] Genau, DinHamburg hat gesagt: „Die Tatsache, dass man ein Jahr in die Zukunft nicht exakt vorausplanen kann, ist aber auch kein Argument dafür, dass man gar nicht plant.“ Genau, gute Ergänzung, sehe ich halt genauso. Und ich glaube, es gibt dieses, ich glaube, es ist ein Eisenhower-Zitat: Planen ist sinnvoll, der Plan selber aber vielleicht nicht so, dass der halt irgendwie sozusagen den ersten Kontakt mit dem Feind nicht überlebt. Und ich glaube, also ich würde jetzt mal behaupten, dass halt so klassische agile Sachen wie Backlog Grooming und Sprint Planning und so, die sind ja da und damit kann ich ja jetzt auch irgendwie so viel Planung betreiben, wie ich halt irgendwie gerne möchte. Also keine Planung halte ich halt auch für schwierig.
+
+### Zufriedenheit, DORA und Ausbeutung
+
+[0:29:36] enolive123 hat geschrieben: „Sehr gute nüchterne Analyse. Was mir in Bezug auf die Wettbewerbsfähigkeit gefehlt hat, ist die Frage, ob ein Unternehmen mit agiler Vorgehensweise gegenüber einem traditionellen im Arbeitnehmermarkt IT signifikante Vorteile hat. Ich meine, dass dies so ist, kann es aber nicht mit Zahlen belegen. Ich meine zu wissen, dass die DORA Reports einen Zusammenhang zwischen Zufriedenheit und gewissen agilen Praktiken feststellen. Das wäre dann ein möglicher kausaler Zusammenhang zwischen Happiness, Fun bei der Arbeit und Business Value.“
+
+[0:30:11] DORA ist ein guter Punkt. Dazu gibt es eine Episode, und diese Episode diskutiert eben auch diese Geschichte, dass regelmäßiges Deployment, das ist ja nicht dasselbe wie Agilität, aber das ist sehr dicht dran. Also Continuous Delivery ist eben genau diese Continuous Delivery, mit der wir halt Kunden zufriedenstellen wollen aus den Prinzipien des agilen Manifests. Und da gibt es eben tatsächlich diesen Zusammenhang zwischen weniger Burnout zumindest und eben öfterem Deployen. Und da ist jetzt, glaube ich, einmal also wir haben es ja bereits diskutiert, die Frage ist halt: Kann ich Agilität umsetzen? Wie aufwendig ist das? Das ist also etwas, was da, glaube ich, trotzdem eine Rolle spielt. Und dann gibt es halt diese anekdotische Evidenz, die ich in dem Talk präsentiert habe, dass eben Agilität rückabgewickelt wird, obwohl der Wert erhöht werden soll.
+
+[0:31:12] Und der andere Punkt ist eben … Ich will gar nicht in Abrede stellen, dass glücklich sein und zufrieden sein bei der Arbeit eine positive Auswirkung auf Produktivität hat. Aber Ausbeutung ist eben eine Option. Und es gibt eben Unternehmen, die, nicht, so Unternehmensberatung, die halt regelmäßig bei Jobmessen sind für Student:innen, weil die halt ständig neue Leute einstellen, weil, so meine Interpretation, die Leute es dort nur einige Zeit aushalten und dann entweder befördert werden oder das Unternehmen verlassen. Und das ist super nicht nachhaltig und irgendwie etwas, wo man halt sagt, nicht, die Leute verlassen halt irgendwann das Unternehmen. Ich weiß auch gar nicht, ob die halt zufrieden sind, das ist aber vielleicht egal, weil die sind ja nur zwei oder drei Jahre da. Und das ist eben trotzdem ein valider und erfolgreicher Ansatz, um halt in unserer Branche, die aus Wissensarbeitern besteht, zu bestehen. Und das ist, glaube ich, nochmal ein wichtiger Punkt und deswegen hatte ich das eben auch in dem ursprünglichen Talk erwähnt, weil man sich eben nicht täuschen sollte. Ausbeutung ist auch bei uns eine valide, eine mögliche Option, die ist nur eben ethisch problematisch, und ich hätte keinen Bock darauf, aber das ist eine andere Frage.
+
+### Reicht ein Product Owner?
+
+[0:32:26] Dann hat der Christoph Schmidt 123 geschrieben zum Thema Agiles Manifest versus Business Value. „Typischerweise hat man in agilen Projekten einen Business Owner“, also genau genommen in Scrum, aber Details, „der Aufgaben, Stories nach Business Value bewertet und priorisiert. Damit ist das Problem doch schon gelöst.“ Ja, stimmt, im Prinzip richtig.
+
+[0:32:46] Aber diese Product-Owner-Rolle ist halt eine sehr fiese Rolle, weil die versteht die Fachlichkeit, priorisiert sie, kann sie auch deswegen detailliert fachlich nachvollziehen. Und ich bin mir nicht sicher, ob das überhaupt eine Person kann. Also bei einem Projekt, was halt irgendwie ausreichend kompliziert ist, wird das halt sicherlich nicht mehr funktionieren. Und das andere, was sich daraus sozusagen ableitet, also, nicht, Gedankenexperiment: Ich habe also irgendein kaputtes agiles Projekt, was irgendwie nicht vernünftig funktioniert. Die Aussage von dem Christoph Schmidt, die sich daraus sozusagen logisch ergibt, wäre ja: Schmeißt den PO raus und heuere einen neuen PO, und dann ist das Problem gelöst. So, und ich glaube, das ist halt selbstverständlich nicht so. Ich bin auch nicht sicher, ob der Christoph Schmidt das irgendwie so gemeint hat.
+
+[0:33:45] Denn die Product Owner:innen, genauso wie halt andere Teammitglieder, können sich halt nur in dem System des Unternehmens bewegen, und dort können sie halt irgendwie ausgebremst werden. Und wenn jetzt irgendwie jemand sagt: Nee, also wir achten irgendwie nicht auf das Feedback von irgendwelchen Kunden, dann wird das eben schiefgehen, obwohl der Product Owner vielleicht das Richtige machen will. Und das ist ja genau so ein bisschen dieses Problem dieser agilen Transformation. Ich muss irgendwie dafür sorgen, dass das eben tatsächlich umgesetzt werden kann. Und das bedeutet aber, dass halt dieser Business-Wert, von dem ich halt glaube, dass er sehr wichtig ist für die Evolution Richtung Agilität, wenn man den jetzt sozusagen nur als eine Aufgabe dem PO gibt, und da sind ja irgendwie noch mehr, dann steht es eben nach meinem Empfinden nicht ausreichend im Mittelpunkt. Und wie gesagt, die Person kann das ja auch nicht alleine lösen.
+
+### Agil oder Scrum?
+
+[0:34:39] Ich habe dann noch einen Short gemacht bei YouTube, das ist irgendwie so ein Zwei-Minuten-Video. Da sage ich halt im Prinzip nur: Agile Projekte entwickeln sich zurück, und stelle mir halt die Frage, warum eigentlich? Das ist so ein bisschen ein Appetizer, dass man dann eben den vollen Talk sich irgendwie anschaut. Und da gab es irgendwie von dem christianbaer2897 das Feedback: „Wir sind agil und machen Scrum.“ „Sorry, aber da müsst ihr euch schon entscheiden.“
+
+[0:35:10] Also was das bedeutet, wenn jemand sagt, wir sind agil und machen Scrum, dass sie halt, so interpretiere ich das, entweder agil sein können oder Scrum machen, aber nicht beides gleichzeitig. Scrum ist halt ein agiler Prozess, aber manchmal ist es eben tatsächlich so, dass wir etwas nach dem Buch, dass halt Projekte irgendwas nach dem Buch machen, aber nicht wirklich agil sind. Zum Beispiel eben nicht ihr Vorgehen kontinuierlich verbessern, dieses Feedback von den Kunden nicht wirklich bekommen, sondern eben stehen bleiben bei solchen Dailies oder so. Und eigentlich sind aber das die Kernthemen, also diese Feedback-Zyklen etablieren, wie wir vorhin diskutiert haben, den Prozess verbessern, was ja auch ein Feedback-Zyklus ist, wo ich schaue, was eigentlich gut oder schlecht funktioniert. Und das sind eigentlich so Kernthemen.
+
+[0:35:57] Ich muss dazu sagen, und das ist vielleicht eine implizite Auswirkung von dem Talk, wenn wir sagen, dass agile Organisationen, die tatsächlich gut funktionieren, zurückabgewickelt werden, dann ist es vielleicht besser, wenn man Scrum by the book macht, als wenn man gar nichts macht, was in diese Richtung geht. Also was ich damit sagen will, ist, ich finde das ein bisschen schwierig, Leute halt sozusagen zu verurteilen, die halt nicht alles umsetzen, was halt so Agilität sagt, wenn wir gleichzeitig halt beobachten müssen, dass halt Leute, die alles umsetzen, damit auch nicht nachhaltig erfolgreich sind. Und von daher, also Scrum by the Book und irgendwie ein kaputter agiler Prozess ist vielleicht besser als gar nichts. Ich habe dazu auch mal einen Blog-Artikel geschrieben, der genau das sagt, also „Hilft kaputte Agilität?“, und das halt irgendwie sozusagen auswertet.
+
+### Ist Agilität besser?
+
+[0:36:57] HickyGreen hat geschrieben: „Die These ist aber weit hergeholt.“ Also das ist dann irgendwie die These, agile Projekte entwickeln sich zurück. Warum eigentlich? „Wie erkläre ich denn, dass es besser ist, auf der Straße zu bleiben, statt gegen den nächsten Baum zu fahren, nur weil es Leuten passiert, dass sie von der Straße abkommen?“
+
+[0:37:15] Ich will ja nicht sagen, dass man nicht Agilität ausprobieren will, aber es ist eben nicht immer erfolgreich. Und das führt meiner Ansicht nach wirklich zu der Frage, ob man eben immer, die, blind sagen muss, ihr müsst halt agil werden, das ist besser. Offensichtlich ist es halt so, dass Leute das versucht haben, daran irgendwie scheitern und um in dem Bild zu bleiben, ich möchte sozusagen vor den Bäumen warnen. Ich will nicht davor warnen, auf der Straße zu fahren, ich will davor warnen, dass es halt irgendwie Bäume gibt. Und eine von den interessanten Fragen, die sich daraus halt ableitet und die man halt eigentlich sich empirisch überlegen müsste, wäre irgendwie die Frage, wie groß ist denn die Anzahl der Fehlschläge? Subjektiv habe ich das Gefühl hoch, aber ich bin irgendwie auch Berater, ich sehe nur einen Teil der Welt da draußen und eben vielleicht, also logischerweise die Projekte, die halt Beratung benötigen und das sind üblicherweise die, die halt irgendwie Optimierungspotenzial haben an irgendeiner Stelle. So, dann hat er halt weitergeschrieben, „nur weil es etwas besser“, er oder sie, „nur weil etwas in Anführungsstrichen besser ist, heißt es nicht automatisch, dass es easy ist, einzuhalten. Wenn die Sicht trübt und man sieht die Straße vor lauter Bäumen nicht mehr, dann sollte man anhalten und sich neu orientieren, statt weiterzufahren und im Zweifel dann der Straße die Schuld zu geben, warum da jetzt eine Kurve kam.“
+
+[0:38:32] Das führt dann zu der Frage: Was ist denn eigentlich besser? Was nützt mir ein Konzept, das Leute sogar rückabwickeln? Und wie soll ich also ich habe mir jetzt aufgeschrieben, wir können uns hoffentlich darauf einigen, dass Nichtrauchen besser ist als Rauchen, weil es irgendwie gesünder ist und das steht auch auf jeder Packung. Also sollte logischerweise niemand rauchen, weil offensichtlich Nichtrauchen die bessere Alternative ist. Warum rauchen dann Menschen? Und dafür muss es eine Erklärung geben, weil Menschen rauchen halt. Das könnte ich jetzt auch mit vielen, vielen anderen Sachen machen. Und das bedeutet halt, dieser Frage aber nachzugehen, hilft uns, glaube ich, tatsächlich, um eben IT besser zu machen, besser zu verstehen, wie Projekte halt funktionieren und effektiver und effizienter die halt irgendwie auch zu beraten.
+
+[0:39:20] Und ich bin halt nicht sicher, ob es eben tatsächlich immer überall besser ist. Ein Punkt, den wir jetzt gerade eben nochmal rausgearbeitet haben, ist: Es ist halt teuer, aufwendig, sich zu transformieren. Wenn ich jetzt einfach eine Investitionsrechnung mache und sage, okay, das kostet die Transformation, das ist mein Produktivitätsvorteil, das wäre halt etwas, was ich dann vielleicht tun sollte. Vielleicht ist das eben genau ein Problem, also das ist genau das, was diese Person jetzt irgendwie sagt. Das ist vielleicht nicht easy, aber dieses easy lässt sich wirtschaftlich quantifizieren und kann zu einem Problem führen. Er schreibt weiter: „Es liegt doch nicht am agilen Prozess, dass dieser verlassen wird, wenn man sich nicht an die Struktur der agilen Prozesse hält.“
+
+[0:40:02] Nein, aber noch eine Sache, weswegen ich das ja irgendwie gemacht habe, diesen Vortrag, ist, weil ich eben glaube, dass Agilität nie dominant sein wird. Also wir haben es jetzt über 20 Jahre versucht, es hat dann nicht geklappt. Ich glaube, das wird auch in Zukunft nicht so sein, und ich glaube, das ist ein Teil der Erklärung. Und das, also wie soll ich sagen, ich stelle ja die Frage nicht deswegen, weil ich Agilität doof finde, sondern weil ich gerne verstehen möchte, wie man es irgendwie noch erfolgreicher machen kann. CPGW schreibt: „Besser ist ja nur eine Frage der Metrik. Rauchen ist gut zum Beispiel für die Krankenkassen, Raucher sterben günstiger.“
+
+[0:40:43] Ja, genau, und das ist auch etwas, was mir hier bei der Diskussion auffällt, die ich jetzt gerade irgendwie mache, eben genau diese Frage: Was ist eigentlich besser? Und ich versuche halt, also ich bin da tatsächlich der Meinung, dass halt besser nur in der Dimension wirtschaftlicher zu betrachten ist, weil wir ein wirtschaftliches Ding machen und das muss sich halt wirtschaftlichen Gegebenheiten unterwerfen. Und besser bedeutet halt wirtschaftlicher in erster Linie. Und wenn es tatsächlich wirtschaftlicher ist, dann wird es eben auch sich durch eine Evolution durchsetzen. Und das wäre sozusagen meine Definition. Aber das kann man sicherlich anders machen, und ich stelle ja insbesondere in Abrede, dass halt die Dimension, ist es ethisch oder sorgt dafür, dass irgendwie die Leute zufriedener im Job sind oder so, dass das halt eine Dimension ist, nach der man die Qualität von Agilität bewerten sollte. Einfach deswegen, weil wir in einem wirtschaftlichen Umfeld sind, und ich kann es nur nochmal wiederholen: Ich arbeite halt bei der Firma, bei der ich jetzt gerade arbeite, weil ich dort irgendwie gerne arbeite, nicht deswegen, weil sie konsequent ausschließlich auf Wirtschaftlichkeit setzt. Trotzdem ist es eben so, dass wir uns in genau so einem System halt bewegen.
+
+### Being Agile und Deadlines
+
+[0:41:57] Es gab dann bei LinkedIn noch diverse Feedbacks, zum Beispiel von der Melanie Schiefer, die hat geschrieben: „Ohne Being Agile kein Doing Agile. Das können vielfältige Faktoren sein, warum diese Werte und Kulturen noch nicht etabliert sind.“ Und das fand ich interessant, und das war auch für mich eben insgesamt so eine Motivation.
+
+[0:42:18] Man kann dann noch viel mehr darüber sagen, warum Agilität nicht funktioniert. Und ich bin ja eben einem Thema nachgegangen, eben dieser Evolution beziehungsweise diesem Kippen. Und auch hier ist wieder der Hinweis: Es kann nämlich schwierig sein, in diese Richtung zu gehen. Wobei halt diese Teams, würde ich behaupten, halt schon agil waren. Es gibt aber dann dennoch die Gefahr, dass es halt sozusagen rückwärts geht. Und damit sind wir eigentlich, glaube ich, wieder beim selben Thema, nämlich der Aufwand hoch und der Nutzen niedrig. CPGW schreibt: „Es sei denn, es würden sich keine Entwickler:innen mehr finden, die bereit wären, nicht agil zu arbeiten.“
+
+[0:42:59] Ja, ich befürchte, das wird halt nicht passieren. Also, wie soll ich sagen? Ich kann da nochmal dieses Beispiel wiederholen von dieser Unternehmensberatung, das ist meiner Ansicht nach halt ein ausbeuterisches Konzept. Und da gibt es halt Leute, die das halt tun. Und das ist halt irgendwie so. Und von daher bin ich da halt ein bisschen pessimistisch. Abgesehen davon finde ich das ehrlich gesagt halt auch schwierig, weil also eine Entwicklerin, die mir zum Beispiel sagt: Ich möchte jetzt aber nachhaltig arbeiten und ich möchte mit technischer Exzellenz arbeiten, und wegen dieser Einstellung scheitere ich dann halt an einer Deadline, die nun wirklich, wirklich gehalten werden muss, etwas zu liefern. Das ist echt schwierig.
+
+[0:43:49] Und das ist, glaube ich, ein ständiges Konfliktfeld, weil ich glaube, die Frage ist halt: Ist diese Deadline wirklich, wirklich eine ganz harte Deadline? Ich habe das Gefühl, oft werden solche Deadlines halt fabriziert. Also da gibt es keinen richtigen Grund. Also ich habe deswegen genau dieses Beispiel mit der Fußball-EM. Das ist eine Deadline, die ist eben da. Also die werden jetzt nicht wegen uns die Fußball-EM verschieben. Aber sowas wie: Wir wollen zum 01.01.2029 folgendes live haben oder zum 01.01.2025 folgendes live haben, da bin ich eben nicht sicher, ob das halt tatsächlich so eine harte Deadline ist. Und das ist genau das, wo man dann irgendwie in diesem Konfliktfeld ist von, also wie sehr Management sich sozusagen vernünftig verhält und halt versucht, wirklich gemeinsam kollaborativ zu arbeiten. Und das wäre eigentlich gut, aber wird eben häufig nicht gemacht.
+
+### Vertrauen und Kontrolle
+
+[0:44:45] Der Robert Caroli hat geschrieben: „Zu einem nicht zu unterschätzenden Teil hat es mit mangelndem Vertrauen in agiles Arbeiten zu tun, wenn man nicht zu 100 Prozent greifen und verstehen kann, warum oder wie das funktioniert, will man lieber unter Kontrolle bringen, bevor das nicht mehr tut.“ Das fand ich ein guter Punkt. Also einmal eben das Vertrauen, das ist eine Voraussetzung. Und das bedeutet, dass wir da ein weiteres Hindernis für eine Adaption identifiziert haben. Wenn es läuft, das habe ich ja behauptet, ist in diesen Fällen, die ich beobachtet habe, eigentlich der Fall, da müsste man eigentlich Vorteile sehen. Und das ist, glaube ich, nicht so.
+
+[0:45:25] Wichtig ist hier für mich die Illusion von Kontrolle. Also der Robert, der Rob hat, glaube ich, nicht explizit von dieser Illusion von Kontrolle gesprochen, aber das ist das, worauf es eigentlich hinausläuft. Also ich habe halt das Gefühl, wenn ich halt weg davon komme, schon Verantwortung zu delegieren, dass ich dann halt irgendwie mehr Kontrolle habe und das ist irgendwie für mich als Gefühl vielleicht hilfreich, aber eigentlich kontraproduktiv. Es widerspricht eben auch sowas wie, sogar schon sowas wie Auftragstaktik oder so. Und das ist vielleicht wirklich auch nochmal ein Punkt, der eben dazu führt, dass man Sachen auch vielleicht rückabwickelt oder zu Schwierigkeiten kommt.
+
+[0:46:07] Rob hat dann weitergeschrieben: „Dann bricht sich Command and Control Bahn. Im Endeffekt hat man es aber mit einem ausgewachsenen, aber unbegründeten Misstrauensvotum (unverständlich) Managementdenkens aus der taylorischen Massenproduktionsepoche zu tun. Aktuell funktioniert das schon irgendwie. Wie gut wird das erst, wenn wir komplett durchoptimieren? Dann ist der Erfolg doch garantiert, oder?“ Ich weiß gar nicht, ob dieses Optimieren halt dabei so der große Punkt ist, also dass ich mich als Manager hinstelle und halt durch eine klassische Hierarchie glaube, dass ich die Sachen optimieren kann, sondern ich glaube, es ist halt eher eben diese Kontrolle und das Misstrauen, wie er ja auch schon ausgeführt hat. „Das will man dann so führen, wie man es kennt und gewohnt ist.“ Also deswegen habe ich übrigens auch das Beispiel mit der militärischen Führung eingeführt, weil ich halt irgendwie glaube, dass das irgendwie zeigt, dass es irgendwie anders sein sollte. „Da fühlt man sich sicher.“ Genau, diese Illusion der Kontrolle. „Somit schafft man sich die Illusion von Kontrolle.“ Da kommt sie jetzt.
+
+[0:47:10] „Dabei ignoriert man dann komplett, dass bei öffentlich zugänglichen Produkten wie Software am Ende die sich stets verändernden Bedürfnisse des Endbenutzers über den Produkterfolg entscheiden und nicht, was Hans-Jörg in seinem sicheren Dreijahresplan ausgedacht hat.“ Genau. Ich weiß nicht, ob das zur Rückabwicklung geführt hat, aber wäre vielleicht eine Möglichkeit, also diese Illusion der Kontrolle. Wobei vielleicht ist das Problem halt auch, dass eben dieser Einblick, dass sich eben Änderungen ergeben und dass man halt iterativ vorgehen muss und das halt begrüßen muss. Vielleicht ist der halt auch ein Problem.
+
+[0:47:48] Ein Realist hat Sachen geschrieben bei YouTube jetzt gerade. Da steht: „Das mit dem Vertrauen ist auch meine Erfahrung. Das hat auch damit zu tun, dass wir Menschen eben auch nicht immer rational sind. Rationalität wird durch fehlendes Wissen und Vertrauen unterminiert.“ Exakt, nicht?
+
+[0:48:05] Also, und das ist, glaube ich, auch ein guter Punkt. Und da sind wir bei diesen tiefen sozialen Konflikten, die halt möglicherweise in solchen Organisationen sind. „Das ist auch beim Rauchen der Fall.“ Ich wusste nicht, dass die Analogie halt so gut ist. „Die Konsequenzen sind halt nicht sofort spürbar und deswegen handeln Raucher nicht rational.“ Ja, also genau, ich habe halt das Beispiel, glaube ich, auch wegen der Irrationalität gewählt. Das ist halt so der Punkt.
+
+### Agilität ist ein Werkzeug
+
+[0:48:35] Was hat Frank Müller geschrieben? Der hat auch wieder bei LinkedIn: „Leider wird Agilität einfach nur als Werbeelement genutzt. Man muss es ja so machen. Dabei ist egal, dass ein entsprechendes Projekt auch mal unflexibel sein kann nach einer Ausschreibung nahezu ein Wasserfall. Hauptsache, man arbeitet iterativ inkrementell, per se nicht verkehrt, und macht Dailys plus regelmäßige Planung. Für die Ausführenden gibt es sogar Zertifikate. Und was hat es mit Manifest“, also dem Agilen Manifest, „zu tun, den geradlinigen vier Statements zu tun? Nichts.“
+
+[0:49:08] Also erstmal: Iteration meiner Ansicht nach Grundrealität von Softwareentwicklung. Darüber habe ich auch gesprochen in diesem „Das sind Wahrheiten, über die ich nicht mehr reden möchte“ in der Softwareentwicklung. Da ist es, glaube ich, sehr klar, dass das eine gute Idee ist. Und ich bin nicht sicher. Also er schreibt ja, „dabei ist es egal, dass ein entsprechendes Projekt auch mal unflexibel sein kann nach einer Ausschreibung, nahezu ein Wasserfall.“ Was halt irgendwie auch bedeutet, dass wir eben vielleicht dann in einer Situation sind, wo wir tatsächlich mit diesen sich ändernden Requirements anders umgehen müssen oder die halt einfach erst mal ignorieren, weil die zwar de facto da sind, aber wir müssen irgendwie etwas liefern und das steht halt im Vertrag. Dann kommt halt irgendwie Software raus, die ist halt nicht an die sich ändernden Requirements angepasst, aber wir haben irgendwie das geliefert, was halt im Vertrag steht und nicht, dass es halt sozusagen erfüllt. Dann wäre vielleicht tatsächlich eben ein solcher Prozess sinnvoll und das ist vielleicht ein Aspekt, der halt da auch insgesamt eine Rolle spielt, dass eben an einigen Stellen nicht realisiert wird, dass sich Anforderungen ändern, die Möglichkeit nicht bestehen, das halt einzutüten und dafür zu sorgen, dass die halt auch umgesetzt werden. Und dann ist eben so ein agiler Prozess tatsächlich sinnlos, weil eben diese sich ändernden Anforderungen, die es dann wahrscheinlich trotzdem gibt, ignoriert werden und halt einfach unter den Tisch fallen.
+
+[0:50:34] Was halt eben auch bedeutet, und ich glaube, das ist auch nochmal ein wichtiger Punkt, Agilität ist eben kein Selbstzweck. Also sprich, und das ist so etwas, weswegen ich auch den ursprünglichen Vortrag gemacht habe, weil eben Agilität nur in Anführungsstrichen ein wirtschaftliches Problem lösen soll. Und es wird nicht abstrakt dadurch besser, dass wir Agilität machen. Das ist ein Werkzeug. Also so wie ein Compiler, eine Entwicklungsumgebung ein Werkzeug ist, ist Agilität auch ein Werkzeug. Und es gibt eben Fälle, wo Werkzeuge nicht passen, und daran sollten wir uns gewöhnen.
+
+[0:51:12] Die vier Statements also ich finde es zumindest nicht so leicht umsetzbar. Das sind irgendwie diese Statements, die halt sagen: Individuen und Interaktionen mehr als Prozesse und Werkzeuge, dass man das eine mehr wertschätzt als das andere. Und da sind insgesamt vier Abwägungen: funktionierende Software mehr als umfangreiche Dokumentation, Zusammenarbeit mit dem Kunden mehr als Vertragsverhandlung, Reagieren auf Veränderung mehr als das Befolgen eines Plans. Und ich finde das halt ehrlich gesagt schwierig, weil das eine relative Abwägung ist, was ja bedeutet, dass das, was auf das mehr als folgt, trotzdem wertvoll ist. Und, ich sollte also, es steht nicht: Tu dies, dies, dies und dies, sondern da steht irgendwie: Wir haben halt zwei Dinge, die wir gegeneinander abwägen, und das eine ist wichtiger als das andere. Und was ergibt sich daraus? Also was mache ich jetzt tagtäglich daraus? Also es steht ja, wenn man ganz haarspalterisch ist, noch nicht mal, dass man Verhalten ändern soll, sondern nur, dass bestimmte Dinge wertvoller sind als andere. Und da bin ich, glaube ich, nicht so der Meinung, dass das halt so völlig easy ist.
+
+### Produktentwicklung ohne das Etikett agil
+
+[0:52:27] Doch ich durfte, also, Frank Müller weiter: „Doch ich durfte auch in schöner agiler Produktentwicklung mitwirken. Hier funktioniert es einfach und leicht, nur bezeichnet es niemand als agil.“ Das finde ich interessant, weil das bedeutet, es gibt Bereiche, wo man nicht sagt, wir müssen agil entwickeln, sondern man macht es einfach.
+
+[0:52:46] Und ich hatte eine Episode mit der Christiane Floyd gemacht, auch zu diesem ganzen Thema mit den Iterationen, wo sie auch gesagt hat, dass Leute aus der Praxis ihr gesagt haben, dass Iterationen notwendig sind, um Software zu entwickeln. Und da gibt es eben auch zum Beispiel bei Scrum genau diese Success Stories, die so aus Produktentwicklung kommen. Ich meine, dass der Ken Schwaber halt über Standardsoftware für Krankenhäuser geredet hat und gesagt hat, da haben wir halt irgendwie den Wettbewerb sozusagen aufgeräumt. Bei Extreme Programming ist halt das berühmte Projekt, das Chrysler C3-Projekt. Da geht es halt um eine Payroll, also wie man Menschen halt irgendwie bezahlt. Da sehe ich halt irgendwie den kompetitiven Vorteil nicht, wenn man das halt besonders wertvoll oder änderbar macht. Ich habe dazu auch eine Episode gemacht zu genau diesem Extreme-Programming-Thema, verlinke ich auch nochmal.
+
+[0:53:40] Aber man könnte jetzt daraus ableiten, also das hat der Frank, glaube ich, nicht gemeint, aber das ist etwas, was man daraus sozusagen ableiten, versuchen könnte abzuleiten. Es gibt also Produktorganisationen, die halt verstanden haben, dass sie agil arbeiten müssen, um sich am Markt, zum Beispiel für Standardsoftware für Krankenhäuser, einen Vorteil zu erarbeiten. Und dann gibt es halt die anderen Organisationen, die beschäftigen halt agile Coaches und die haben eben nicht diesen Need, so agil zu werden, weil sie eben nicht so klare wirtschaftliche Bedingungen haben, die sie dazu förmlich zwingen. Und dann würde das halt bedeuten, dass es halt sozusagen den einen Fall gibt, von dem Frank nach meiner Interpretation redet, dass also eine Organisation sozusagen natürlich agil wird. Und dann gibt es halt irgendwie die anderen Organisationen, die halt auf eine natürliche Art und Weise nicht agil werden. Das sind die, denen man dann irgendwie Hilfestellung geben kann, aber eigentlich stemmen wir uns damit ein bisschen sozusagen gegen einen natürlichen Trend zu einem eher unagilen Ansatz. Und da gibt es dann halt viele Gründe für. Also zum Beispiel, dass es vielleicht schwer ist, das zu adaptieren, aber das könnte halt eine Erklärung sein.
+
+### Projekt oder Produkt?
+
+[0:54:53] Dann haben wir den Michael Neuweiler, auch bei LinkedIn. Der hat gesagt: „Es ist vielleicht, weil Produkte, Projekte und agil eigentlich nicht zusammenpassen: Muss man nicht erst auf ein Produktdenken umstellen, bevor man agil wirklich richtig macht? Oder umgekehrt gefragt: Bietet das Gefäß Projekt den agilfeindlichen Strukturen und der dazugehörigen Politik zu viel Raum, um Product Ownership entstehen zu lassen? Die ambitionierten Projektmitglieder denken Ende eines Projekts bereits ans nächste und interessieren sich nicht für das Produkt.“ Interessant.
+
+[0:55:34] Ehrlich gesagt auch eine Sache, wo ich vielleicht noch mal mit meinen Kolleginnen drüber sprechen wollen würde, weil, wie soll ich sagen, das halt irgendwie noch mal eine Perspektive ist, die man, glaube ich, aus anderer Richtung, ich bin ja eher Softwarearchitekt, betrachten möchte. Ich bin aber der Meinung, dass, also auch wenn ich Software in einem Projekt baue, sind Iterationen sinnvoll. Auch Anforderungen ändern sich, auch wenn ich Software in einem Projekt baue. Und das führt allerdings vielleicht wirklich zu dieser Product-Owner-Rollenfrage, die hatten wir vorhin schon mal irgendwie angeschnitten, wo ich jetzt irgendwie sage, okay, das sind halt fachliche Expert:innen und Entscheider für die Priorisierung. Aber wenn ich denen nicht die Möglichkeit gebe, das Produkt, tatsächlich das Produkt, eben nicht das Projekt, ich glaube, das ist der Punkt von dem Michael, über den Marktwert vollständig zu steuern, dann ist es vielleicht wirklich so, dass ich da nicht ausreichend weit komme. Und das kann gut sein. Sicherlich etwas, was wir noch mal diskutieren können.
+
+[0:56:42] Kann, nicht? Also ich würde jetzt nicht definitiv sagen ja oder nein. Ich finde, das ist ein interessanter Input.
+
+### Cross-funktionale Teams
+
+[0:56:50] Steffen Jeckel hat geschrieben, auch bei LinkedIn: „Was ich immer wieder in Projekten erlebe, ist, dass Unternehmen in siloartigen agilen Teams arbeiten, nicht cross-funktional. Dies zerstört eine Menge an Flexibilität und Geschwindigkeit, die Agilität eigentlich fördern sollte.“ Das ist interessant. Das ist ein weiterer wichtiger Aspekt, glaube ich. Da gibt es die Episode zu Team Topologies, die halt sehr klar sagen, dass eben ein Team vollverantwortlich sein soll für einen Strom an Änderungen, was halt eine Cross-Funktionalität voraussetzt, was also voraussetzt, dass ich eben dort in diesem Team alle Änderungen tatsächlich auch umsetzen kann. Von daher ist das sicherlich ein wichtiger Aspekt. Bin mir nicht sicher, ob das jetzt in der Betrachtung, die ich halt in dem Talk zumindest gehabt habe, ob es da halt sozusagen eine große Rolle spielt.
+
+### Ein Erfahrungsbericht: der agile Fremdkörper
+
+[0:57:37] Und zum Abschluss noch ein längliches Feedback, das kam über das Formular gestern rein. Da hat die Person geschrieben: „Die vorangegangene Folge, das Kippen von agilen Softwareprojekten, habe ich heute erst entdeckt. Ich möchte noch einen Grund für das Kippen agiler Softwareprojekte einbringen, den ich bereits beim zweiten Arbeitgeber miterlebe. In solchen Umgebungen müssen dann … Beiden Arbeitgebern ist gemein, dass sie aus der klassischen streng hierarchischen Schule entstammen. Der Vorgesetzte gibt vor, die Untergebenen setzen um. In solchen Umgebungen müssen dann Altsysteme ersetzt werden. Dazu holt man sich externe Hilfe in Form von Beratern. Für die Entwicklung der neuen Software wird sinnvollerweise eine agile Arbeitsorganisation etabliert.“
+
+[0:58:22] Fand ich interessant, weil bei einer Altsystemmigration, die halt sagt, ich baue genau dasselbe wie vorher, ist der Geschäftswert null, ich baue dasselbe wie vorher, mache also genau dasselbe, und sich ändernde Anforderungen gibt es nicht. Das sollte man natürlich anders machen, aber ich finde es halt interessant, dass also, sprich: Ich sollte halt agil gerade in dem Umfeld da schauen, dass ich bei der Erneuerung des Systems konsequent auf Geschäftswert achte. Das ist also sozusagen meine Antwort auf: Natürlich macht man das agil, was hier so ein bisschen durchschimmert. Ich finde das gar nicht so natürlich, aber super, wenn es da halt irgendwie so gemacht wird. So wie dem auch sei, die Story geht also weiter.
+
+[0:59:05] „Die Unternehmung will, muss das Altsystem ablösen, also wird die agile Arbeitsweise akzeptiert. Damit das neue System später in Eigenregie erweitert und gewartet werden kann und damit die teuren Berater nicht alles alleine machen müssen, werden in der Unternehmung Mitarbeiter für die Erstellung des neuen Systems im agilen Umfeld angestellt. Gemeinsam mit den Beratern wird das neue System erstellt. Das gelingt, auch dank der agilen Arbeitsorganisation, recht gut. Der Fokus innerhalb der Unternehmung liegt ganz klar auf der Ablösung des Altsystems. Entscheidungen werden innerhalb der Unternehmung schnell getroffen. Die Unternehmung selbst ist nach wie vor nicht agil, versteht den Ansatz nicht richtig, akzeptiert den agilen Fremdkörper innerhalb der Organisation aber, da die Resultate stimmen.“
+
+[0:59:45] „Nach einer Weile ist das neue System funktional so weit, das Altsystem abzulösen. Noch ist die Funktionalität noch nicht vollumfänglich, sie ist aber für die Ablösung des Altsystems ausreichend. Die Berater verabschieden sich so langsam, auch aus Kostengründen. An der noch fehlenden Funktionalität wird nun intern weitergearbeitet. Der Innovationsdruck innerhalb der Unternehmung lässt deutlich nach, das neue System ist ja in Produktion. Da die agile Arbeitsorganisation vielleicht nicht richtig verstanden wurde, ist das agile Restteam nicht dazu befähigt, sein neues System als Produkt zu betrachten und Entscheidungen zu Funktionen und Kosten selbst zu entscheiden. Diese Entscheidungen werden außerhalb des agilen Restteams getroffen“, was also auch bedeutet, dass eben die Änderungen vielleicht auch nicht mehr so krass sind und sich halt die Strukturen ändern. Ja, mein Kommentar.
+
+[1:00:31] „Das neue System funktional zu erweitern liegt aber eher nicht im Hauptfokus der Unternehmung. Zwar gibt es Ideen für das neue System, diese werden aber wie alle anderen IT-Systeme eher nicht agil in langwierigen Portfolio-Runden verwaltet. Es dauert sehr lange, bis Entscheidungen für neue Funktionen getroffen werden. Eine Folge ist, dass fachliche Themen nicht so schnell qualifiziert werden und in den agilen Prozess gebracht werden können, wie es die eigentliche Produktivität des agilen Restteams benötigt, um inhaltlich nicht leer zu laufen. Zunächst kann die fachliche Unterversorgung noch recht gut von dem agilen Restteam aufgefangen werden. Es müssten noch viele liegengebliebene Dinge aufgearbeitet werden.“
+
+[1:01:10] „Mit der Zeit geht es immer mehr technisch (unverständlich) und immer weniger fachliche Anforderungen. Die Arbeit im Neusystem verschiebt sich immer mehr zu Neu- und Weiterentwicklungen in Richtung Betrieb. Die Teammitglieder, die unter der Prämisse der agilen Neuentwicklung angetreten waren, werden zunehmend unzufrieden und wandern ab. Mein Aufsatz ist keine Frage. Meiner Meinung nach kann ein agiles Softwareprojekt auch dadurch kippen, dass es in einer klassischen Unternehmung ein Fremdkörper ist, dass eine klassische Unternehmung zu langsam sein kann, um ein agiles Softwareteam sinnvoll mit Input zu füttern.“
+
+[1:01:42] Ich fand das halt total spannend, weil ich würde auch denken, dass das halt ein Kippen ist. Ich habe eine agile Organisation, die kippt dann, die Leute gehen halt. Das ist genau das Phänomen, was das eben bedeutet: Okay, ich bin ja nicht die einzige Person. Es ist etwas, was ich so nicht gesehen habe, weil ich eben als Berater ja dann irgendwie auch irgendwann weg bin. Und ich finde das halt relativ spannend, weil das irgendwie zu der Frage führt: Ist das eigentlich ein Problem? Weil das Unternehmen scheint ja zufrieden damit zu sein, und das ist genau das, was ich mit dem ursprünglichen Talk auch sagen wollte.
+
+[1:02:15] Und was mich auch so ein bisschen irritiert, dass eben Unternehmen teilweise mit diesem Ansatz zufrieden sind und das, was diese Person ja insbesondere eben auch sagt, ist, dass ja die Produktivität tatsächlich nachweislich besser ist mit dem agilen Team. Trotzdem verzichten sie darauf, das weiter fortzuführen, und dass irgendwie Entwickler:innen unterbeschäftigt sind, ist eigentlich, also wenn wir halt die ganze Zeit darüber reden, wie wir noch produktiver werden sollen, ist das im hohen Maß überraschend. Und das führt ja irgendwie zu der nächsten Frage: Ist wirklich, wirklich so, dass Softwareentwickler:innen so produktiv wie möglich sein sollen? Das hier sagt ja eigentlich was anderes. Von daher vielen Dank für das Feedback, finde ich spannend, gute, hervorragende weitere Ergänzung dazu.
+
+### Fragen aus dem Chat
+
+[1:03:03] So, CPGW hat auf YouTube noch geschrieben: „Ich finde es spannend, Kriterien zu haben, anhand derer man bewerten kann, wie wahrscheinlich man mit agilen Ansätzen Erfolg haben könnte, sofern das möglich ist. Individuelle Kriterien.“ Naja, da kann man irgendwie so klassisch wahrscheinlich sagen, ich habe hier halt ein kompetitives Feld, in dem ich halt direkt durch leichtere Änderbarkeit von Software einen Vorteil generieren kann. Ich würde es halt auch kulturell sehen, und ich glaube halt gerade diese kulturelle Frage, da kann man eben versuchen, schrittweise irgendwelche Sachen einzuführen und halt so ein bisschen in die Richtung halt zu wirken. Wenn das halt irgendwie nicht klappt, dann eben in eine andere Richtung zu gehen. Also es ist ja auch die Verbesserung eines Prozesses ist ja ein iterativer Prozess. Da kann man, glaube ich … während des Prozesses darauf achten, dass man halt sozusagen in die richtige Richtung marschiert.
+
+[1:03:56] DinHamburg hat geschrieben: „Beim Erneuern eines Altsystems kann der Geschäftswert in reduzierten Lizenzkosten oder technischen Schulden liegen, auch wenn es nach außen genauso aussieht.“ Ja, aber mein Tipp wäre, das genau nicht zu tun, also nur diese technischen Sachen zu machen, sondern eben da tiefer reinzugreifen und halt dafür zu sorgen, dass man dort tatsächlich irgendwie auch während der Migration Geschäftswert erzeugt. Und ich habe da einen Talk zu gemacht, der da heißt „Legacy wirklich ein Problem?“. Ich packe den Link jetzt kurz noch mal in den Chat. Das ist halt auch eine Folge bei Software-Architektur im Stream, und da diskutiere ich das irgendwie ausführlicher. Der Link findet sich dann auch in den Notes. Gut, ich gucke noch mal kurz, was es noch an weiteren Themen gibt, aber das sieht eigentlich soweit erst mal gut aus.
+
+[1:04:53] Ach so, hier sind doch noch Fragen. Also eine Frage ist: „Wir sind damit konfrontiert, das heißt, Wasserfall funktioniert bei uns nicht, deshalb machen wir jetzt agil. Wenn das Thema Verbindlichkeit jedoch schon im klassischen Ansatz nicht funktioniert, wird es mit einem agilen Framework nicht anders sein. Was ist die Basis dafür, Scrum einzuführen, insbesondere im Hinblick auf die Empirie, und wie lässt sich das einfach herunterbrechen? Was sind die notwendigen Eckpfeiler?“
+
+[1:05:24] Das ist eine Frage für ein agiles Coaching und auch etwas, was wir als SWAGLab irgendwie tun. Ich finde das schwierig jetzt, das kurz zu beantworten. Und das ist halt auch wieder so ein Thema, wo die Organisation drumherum mit der Verbindlichkeit offensichtlich ein Problem hat. Und das kann man, glaube ich, nicht so einfach lösen, indem man jetzt irgendwie sagt, okay, wir machen halt Scrum.
+
+[1:05:54] Und ich finde, also ich habe auch eine Episode gemacht zum Thema Software, empirisches Software Engineering, muss ich auch nochmal verlinken. Und da gibt es halt ein prinzipielles Problem. Und das prinzipielle Problem ist eben, dass es gerade ganz schwierig ist, überhaupt nicht-triviale Dinge bei Software Engineering sozusagen festzustellen. Also es ist eben schwierig zu sagen: Ist Scrum wirklich besser? Weil das halt einfach etwas ist, was ich nur sehr schwer überhaupt ernsthaft wissenschaftlich untersuchen kann.
+
+[1:06:34] Und deswegen ist mein Ansatz eigentlich, das ist meine persönliche Konsequenz aus dieser Folge zur empirischen Softwareentwicklung, dass ich eigentlich versuche, mir den Fall anzuschauen, den ich halt vor mir habe als Berater, und dann irgendwie zu schauen, was ich denen tatsächlich dort in dieser Situation raten würde. Denn es gibt ja gute Gründe und guten Benefit von solchen Ansätzen wie Scrum. Ich kann besser auf Änderungen reagieren, ich kann mich besser optimieren, ich benötige dafür aber eine Kultur, die halt irgendwie Feedback zulässt. Und das kann ich jetzt irgendwie abwägen und kann halt versuchen, bestimmte Elemente von Scrum einzuführen, um dafür zu sorgen, dass die halt umgesetzt werden. Und das würde ich halt fallbasiert machen. Also ich finde es halt schwierig, selbst wenn ich eine Empirie hätte, die halt sagt, also typischerweise macht man das folgendermaßen und ist halt erfolgreich, ich würde halt erwarten, dass halt die Streuung so groß ist, dass ich halt daraus nichts wirklich ableiten kann für den spezifischen Fall, weil ich nicht weiß, ob ich halt bei dem bin, wo halt genau das genauso funktioniert oder bei dem, wo ich halt irgendwie deutlich anders vorgehen muss. Und deswegen finde ich das halt so ein bisschen schwierig, da auf Empirie zu gucken.
+
+[1:07:53] Ach so, das ist noch ein anderes Thema. „Als nächstes Thema würde mich interessieren, wann es sinnvoll ist, dass man bei der Softwareentwicklung das Verhalten und die Daten in Objekten trennt. Im Bereich DDD wird ja immer eine hohe Kohäsion angestrebt, also Daten und Verhalten nicht zu trennen. Es gibt jedoch einige Entwickler, die da anderer Meinung sind. Gibt es da eine Best Practice?“ Da gibt es halt ganz viele Folgen zum Thema Modularisierung, wo ich das genau argumentiere. Also ich falle halt in die Kategorie, die halt sagt, dass ich halt Daten und Verhalten gemeinsam haben möchte. Und da gibt es, glaube ich, genau in diesem Modularisierungsbereich schon ganz viele Episoden. Da würde ich dich darum bitten, da irgendwie reinzugucken. Ich glaube, die helfen im Wesentlichen da weiter.
+
+### Verabschiedung
+
+[1:08:39] Gut, dann habe ich es aber, glaube ich, tatsächlich soweit alles. Dann vielen Dank. Also vielen Dank für die vielen Kommentare auf YouTube, auf LinkedIn und auch irgendwie über das Formular zu dem ursprünglichen Talk, jetzt auch zu der Diskussion. Da auch vielen Dank. Und genau, nächste Woche würde ich mich freuen, wenn ihr dazukommt, wenn der Talk Instant Premiere hat. Und vielleicht sehen wir uns da dann im Chat bei YouTube. Schönes Wochenende und bis dahin und vielen Dank.
