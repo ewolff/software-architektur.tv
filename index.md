@@ -53,7 +53,7 @@ Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rab
 
 * [Training "kollaborative Modellierung" bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
   * Code
-[SASTV](https://pretix.eu/socreatory/cosmo--praesenz/redeem?voucher=SASTV&subevent=4983797) 20% auf den normalen Ticketpreis bis 2026-11-15 
+[SASTV](https://pretix.eu/socreatory/cosmo--online/redeem?voucher=SASTV&subevent=5245715) 20% auf den normalen Ticketpreis
 * [IT-Tage 2026](https://www.ittage.informatik-aktuell.de/index.html)
   * 2026-12-07 - 10, Frankfurt
   * Code: ITT26-SIS-352 (100 Euro Rabatt)
