@@ -51,6 +51,8 @@ wirksameren Verbesserungen führt.
 
 Wir werden von einigen Konferenzen und Trainings unterstützt und haben auch Rabatt-Codes:
 
+* [Soziotechnischer Stammtisch mit Eberhard Wolff](https://zoom.us/meeting/register/kreYzajKRuuK5BeWyyw6sQ)
+  * 2027-01-12 18:30
 * [Training "kollaborative Modellierung" bei Socreatory](https://www.socreatory.com/de/trainings/cosmo).
   * Code
 [SASTV](https://pretix.eu/socreatory/cosmo--online/redeem?voucher=SASTV&subevent=5245715) 20% auf den normalen Ticketpreis
