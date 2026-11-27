@@ -1,0 +1,515 @@
+# Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm
+
+Software Architektur im Stream, Folge 219, 2024-05-31.
+Oliver zeigt wie man DDD praktisch auf Code-Ebene mit jMolecules umsetzen kann
+Seite: https://software-architektur.tv/2024/05/31/taktisches-domain-driven-design-mit-java-und-jmolecules-mit-oliver-drotbohm.html
+YouTube: https://www.youtube.com/watch?v=Cat1Zzf9sjM
+PeerTube: https://tube.tchncs.de/w/9cea2938-7d7a-4f27-ba3d-c86980d33048
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/Taktisches_Domain-Driven_Design_mit_Java_und_jMolecules_mit_Oliver_Drotbohm.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Die Umsetzung von taktischem Domain-Driven Design (DDD) in Java birgt
+einige technische Herausforderungen. In dieser Episode betrachten wir
+einen Ansatz, der Entwickler:innen dabei unterstützen reichhaltige
+Domänenmodelle in Java zu implementieren: die jMolecules Bibliothek
+ermöglicht es, DDD Konzepte direkt in Code auszudrücken und bietet
+darüber hinaus Integration in weitverbreitete Technologien wie Spring,
+Jackson und Persistenztechnologien. Oliver Drotbohm ist Engineer bei
+Broadcom und einer der Entwickler von jMolecules.
+
+## Links
+
+- [jMolecules](https://github.com/xmolecules/jmolecules)
+- [Olivers Demo bei GitHub](https://github.com/odrotbohm/tactical-ddd-workshop)
+- [Taktisches Domain-driven Design](/2024/05/03/folge214.html)
+- [Architektur-Hamburger mit Henning Schwentner](/2021/09/17/folge75.html)
+- [Vaughn Vernon about Ports and Adapters and DDD](/2024/05/29/episode218.html)
+- [Markus Völter zu Fachliche Architekturen mit DSL (Domain Specific Languages)](/2020/10/23/folge022.html)
+- [Peter Gafert zu ArchUnit](/2021/04/09/folge55.html)
+- [Dirk Mahler zu Software-Architektur-Management mit jQAssistant](/2021/05/07/folge58.html)
+
+## Zusammenfassung
+
+Wie setzt man taktisches Domain-driven Design (DDD) in Java um? In der
+Folge zum taktischen DDD hatte Eberhard Wolff keinen Code gezeigt. Das
+holt Oliver Drotbohm hier nach: Er ist seit über 14 Jahren im
+Spring-Team, hat zehn Jahre Spring Data gemacht und stellt die
+Bibliothek jMolecules vor. Mit ihr drückt man DDD-Konzepte direkt im
+Code aus. Daraus lassen sich Regeln prüfen, Boilerplate-Code einsparen
+und Dokumentation erzeugen.
+
+### Wie jMolecules entstand
+
+Ein Repository in Spring Data setzt ein Muster aus dem DDD um. Wer für
+eine Entität ein Repository definiert, sagt damit implizit: Die Entität
+muss ein Aggregate Root sein. Aus Diskussionen auf Konferenzen, unter
+anderem mit Henning Schwentner, entstand die Idee, das explizit zu
+machen. jMolecules ist Teil des Dachprojekts xMolecules. Dort gibt es auch Projekte für
+PHP und .NET, die aber bei Weitem nicht so weit sind.
+
+Eberhard schätzt an Spring Data, dass man nur fachlich sinnvolle
+Methoden anbietet. Das ist für ihn der Kern des Repository-Patterns.
+
+### Abhängig von einer Bibliothek
+
+Eberhard wendet ein, dass die Geschäftslogik damit von jMolecules
+abhängt. Oliver sieht das als Abwägung. Bei Annotationen kann man die Klasse
+potenziell auch ohne die Bibliothek im Classpath verwenden und leicht wieder
+umsteigen. Auch Joda Time hat man benutzt, und wenige hatten ein
+Problem damit. Frameworks wie Spring liefern nur Annotationen, an denen sie
+selbst interessiert sind; eine für Aggregates gehört nicht dazu.
+jMolecules ist daher eine dünne Bibliothek, die nur die
+Auszeichnungsmittel enthält. Man bindet sich nicht an eine Ablaufumgebung wie Spring.
+Eberhard fragt nach der Alternative: eigene Annotationen oder
+Namenskonventionen, aber ohne weitere Unterstützung.
+
+### Regeln prüfen
+
+In der Demo zeichnet Oliver eine Bestellung als Aggregate Root aus. Das
+geht über Annotationen oder Interfaces. Einige Regeln prüft bei den Interfaces der Compiler allein
+über die Typen: Ein Aggregate Root braucht zum Beispiel eine ID, die
+Identifier implementiert. Für Annotationen und erweiterte Regeln gibt es den
+APT, ein Annotation Processing Toolkit. Er erzeugt zusätzliche
+Compiler-Fehler, etwa wenn ein Aggregate ein anderes als Objekt statt
+über die ID referenziert. Das funktioniert in jeder IDE und auf der Kommandozeile.
+
+Dieselben Regeln gibt es für ArchUnit und jQAssistant. Sie eignen sich
+vielleicht besser, wenn man eine bestehende Codebasis Schritt für Schritt annähern will; der
+APT ist strikt. In ArchUnit lassen sich vorhandene Verletzungen mit
+Freeze zunächst festhalten. Eberhard erinnert daran, dass ein
+fehlgeschlagener Test eine Einladung zur Kommunikation ist: Entweder
+ergibt die Regel keinen Sinn, oder jemand hat das Konzept nicht verstanden.
+
+### Code navigieren
+
+Für IntelliJ gibt es den Prototyp eines Plugins. Er zeigt die Stereotypen an den Klassen und
+gruppiert Klassen danach. Pakete, die alle Controller oder alle
+Services sammeln, unterhöhlen für Oliver die Kapselung ein Stück weit. Findet man die Klassen über ihre Stereotypen,
+kann man die Pakete nach fachlichen Modulen schneiden.
+
+### Value Objects und Integrationen
+
+Für beide ist eine E-Mail-Adresse kein bloßer String. Ein eigener Typ lässt nur gültige
+Werte zu und bietet passende Operationen. Für Eberhard sind Strings
+überall fast so wie das Anemic Domain Model: Es fehlt die Logik.
+
+An den Rändern der Anwendung machen Value Objects aber mehr Arbeit. Sie müssen
+in primitive Typen und zurück überführt werden, zum Beispiel für JSON oder URLs. Die Integrationen von
+jMolecules für Jackson und Spring konfigurieren das automatisch. Liegt die
+Bibliothek im Classpath, muss man die Klasse nur noch als Value Object auszeichnen.
+
+### Persistenz
+
+Aus einem Aggregate Root lässt sich ein großer Teil der JPA-Mappings ableiten:
+die Entity, die ID, die One-to-Many-Beziehung zu den Bestellpositionen
+samt Kaskadierung. jMolecules generiert das beim Build mit ByteBuddy
+in den Bytecode. In der Klasse bleibt nur das Besondere, hier
+der Tabellenname. Unterstützt werden JPA, MongoDB und Spring Data JDBC.
+
+All das ist optional. Man kann auch nur die Typen benutzen, um die
+Konzepte im Code sichtbar zu machen.
+
+Vladimir fragt im Chat nach Lombok. Aus dem Java-Kernteam hört Oliver als Kritik an
+Lombok: Es macht Quellcode lauffähig, der kein gültiges Java ist. Dafür greift es in die
+Interna von Java ein. jMolecules generiert dagegen nach seinen Worten nur Metadaten und Code, der zur Compile-Zeit nicht
+sichtbar ist. Wer das nicht will, muss es nicht verwenden. Für Frameworks wie Quarkus oder
+Micronaut gibt es aktuell keine Integration; Pull Requests sind willkommen.
+
+### Dokumentation
+
+Spring Modulith nutzt die Konzepte von jMolecules, um Dokumentation zu
+generieren: Komponentendiagramme und je Modul ein Application Module
+Canvas. Es listet, was ein Modul nach außen zeigt, etwa Aggregates,
+Services und Events. Auch das Javadoc kann einfließen. Die Teile
+lassen sich als aktuelle Snippets in eigenen Text einbinden.
+
+Zum Einstieg empfehlen beide das Demo-Projekt. Es enthält To-dos, mit denen man Schritt
+für Schritt JPA-Annotationen entfernt.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- jMolecules drückt die Building Blocks des taktischen Domain-driven Design im Java-Code aus, als Annotationen oder als Interfaces.
+- Ein Ausgangspunkt war Spring Data: Ein Repository macht die verwaltete Entität implizit zum Aggregate Root. jMolecules macht das explizit.
+- Die Geschäftslogik hängt dann von einer dünnen Bibliothek ab, aber nicht von einer Ablaufumgebung wie Spring. Für Oliver ist das eine Abwägung: Man bekommt auch etwas dafür.
+- Einige Regeln prüft der Java-Compiler über die Interfaces, weitere der APT als Compiler-Fehler. Alternativ gibt es die Regeln für ArchUnit und jQAssistant.
+- Eine der Regeln: Ein Aggregate referenziert ein anderes nie als volles Objekt, sondern über die ID.
+- Für bestehende Codebasen sind ArchUnit oder jQAssistant vielleicht besser geeignet, weil man sich den Regeln Schritt für Schritt nähern kann.
+- Findet man Klassen über ihre Stereotypen, müssen Pakete nicht mehr nach Controllern, Services und Repositories gebildet werden und können fachliche Module kapseln.
+- Value Objects wie eine E-Mail-Adresse lassen nur gültige Werte zu. Die Integrationen für Jackson und Spring übernehmen die Umwandlung an den Rändern der Anwendung.
+- Ein großer Teil der JPA-Mappings lässt sich aus der Struktur eines Aggregates ableiten und beim Build generieren. Das geht auch für MongoDB und Spring Data JDBC.
+- Alle Integrationen sind optional. Man kann auch nur die Typen benutzen.
+- Spring Modulith kann aus diesen Konzepten eine Dokumentation der Module erzeugen.
+
+### Behandelte Fragen
+
+- Darf die Geschäftslogik von einer Bibliothek wie jMolecules abhängen?
+- Wann nimmt man Annotationen, wann Interfaces?
+- Warum sollte man den APT nicht nutzen und stattdessen ArchUnit?
+- Warum ist eine E-Mail-Adresse kein String, und was gilt für IDs?
+- Wie kommen Value Objects und Aggregates ohne Boilerplate nach JSON und in die Datenbank?
+- Löst die Codegenerierung dieselbe Diskussion aus wie Lombok?
+- Gibt es Unterstützung für andere Frameworks wie Quarkus?
+- Wie entsteht aus dem Code Dokumentation?
+
+### Glossar
+
+- **jMolecules**: Java-Bibliothek, mit der man DDD-Konzepte im Code auszeichnet; Teil des Dachprojekts xMolecules
+- **Aggregate Root**: Konzept aus dem DDD; hat eine ID und verwaltet per Definition den Lebenszyklus der zugehörigen Entitäten
+- **Value Object**: Typ für einen fachlichen Wert, z.B. eine E-Mail-Adresse
+- **APT**: Annotation Processing Toolkit, mit dem sich beim Kompilieren Code prüfen oder erzeugen lässt
+- **ArchUnit**: Werkzeug, das Architekturregeln als Tests ausführt
+- **jQAssistant**: Werkzeug, mit dem sich Regeln auf Code anwenden lassen
+- **ByteBuddy**: Werkzeug zur Bytecode-Generierung, mit dem jMolecules beim Build Mappings ergänzt
+- **Spring Modulith**: Spring-Projekt, in dem logische Module im Mittelpunkt stehen
+- **Application Module Canvas**: generierte Übersicht über die nach außen sichtbaren Teile eines Moduls
+
+## Transkript
+
+## Taktisches Domain-Driven Design mit Java und jMolecules mit Oliver Drotbohm
+
+In dieser Folge spricht Eberhard Wolff mit Oliver Drotbohm. Oliver zeigt Code auf dem Bildschirm. Namen und Wortlaut aus dem Chat sind nach Gehör geschrieben, Vorgelesenes steht in Anführungszeichen.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube). Im Podcast (MP3) kann die Stelle abweichen.
+
+### Begrüßung
+
+**Eberhard Wolff:** [0:00:00] So, herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream, dieses Mal mit Oliver Drotbohm zum Thema jMolecules, taktisches Domain-Driven Design mit Java und jMolecules. Vielleicht kurz, warum diese Episode. Also ich habe halt vor ein paar Episoden eine Episode gemacht zum Thema taktisches Domain-Driven Design, und das ist ja ein Konzept, wo man tatsächlich über sowas wie Klassen und Code redet. Und das haben wir aber in der Episode nicht gemacht. Also ich habe irgendwie darüber erzählt, was irgendwie so die Konzepte sind, und habe halt irgendwie kein Stück Code gezeigt. Und Oliver war bei der Episode dabei und hat ja dann nochmal einen Hinweis losgeworden auf jMolecules, und deswegen dachte ich, hey, dann lass uns mal eine Episode machen, wo wir dann tatsächlich Code uns anschauen und uns anschauen, wie das tatsächlich umgesetzt ist.
+
+**Eberhard Wolff:** [0:00:48] Und ich muss mich so ein bisschen auch entschuldigen, weil der Henning hatte irgendwann auch mal so eine Episode vorgeschlagen, und jetzt findet sie ohne ihn statt. Sorry dafür, aber ich glaube, über Henning werden wir auch gleich nochmal sprechen. Genau. Also Oliver, herzlich willkommen. Schön, dass du da bist.
+
+### Vorstellung
+
+**Eberhard Wolff:** [0:01:08] Willst du ein paar Worte über dich sagen?
+
+**Oliver Drotbohm:** [0:01:10] Ja, erstmal danke für die Einladung, und das mit Henning wusste ich nicht. Es tut mir leid. Ich habe mich da jetzt offensichtlich quasi selbst eingeladen.
+
+**Eberhard Wolff:** [0:01:17] Also das war ja mein Fehler sozusagen, ne? Ich hätte damals reagieren müssen.
+
+**Oliver Drotbohm:** [0:01:22] Ich glaube, das ist auch kein großes Problem, so wie ich Henning kenne. Mein Name ist Oliver Drotbohm. Ich bin seit mittlerweile über 14 Jahren im Spring-Team, zu Anfang beratend, also nicht beratend, sondern beratend nach außen, dann im Engineering, habe zehn Jahre Spring Data gemacht und ja auch vorher schon so relativ viel so in dem Bereich DDD so ein bisschen gearbeitet, also so in der Firma, in der ich zuvor war, haben wir irgendwie danach gearbeitet. Und der Kern von den Spring-Data-Projekten ist ja auch diese Repository-Abstraktion, das heißt eigentlich so eine vollumfängliche Implementierung eines der Muster aus diesem DDD-Umfeld, also der Tactical Building Blocks. Und was dann so passiert ist, also ich habe jetzt nie Data gemacht, um jetzt noch das nächste tolle Feature von Datenbank X, Y und Z hinter so einem Repository verstecken zu können, sondern weil ich das immer spannend fand zu sehen, wie man diese Muster, die es da eben gibt, in Code gießen kann.
+
+**Oliver Drotbohm:** [0:02:30] Also quasi diese Brücke zu schlagen zwischen dem, was da im Buch steht, also vor allen Dingen in Eric Evans Buch, hin zum Code. Da erschienen ja jetzt, glaube ich, auf ungefähr der halben Strecke, wenn man jetzt diese 14 Jahre nimmt, glaube ich, noch Vaughns Buch. Ihr hattet am Mittwoch gesprochen, da waren auch viele Sachen schon drin, wo ich mich dann wiedergefunden habe oder Ideen drin gefunden habe. Und dann trug es sich so zu, dass wir auf Konferenzen, ich relativ oft mit besagtem Henning Schwentner von der WPS, zum Teil Stefan Pirnbaum von der BUSCHMAIS hier aus Dresden, dass wir so Diskussionen darüber geführt haben, über: Es gibt diese Abstraktion, es gibt diese Muster, die ihr da in der letzten Episode, vorletzten Episode auch schon besprochen habt, aber wie setzt man die denn im Code um?
+
+**Oliver Drotbohm:** [0:03:18] Und was für einen Sinn hätte das, wenn man das täte? Ich kam da eher mit diesem Spring-Background, dass man gesagt hat, ja, eigentlich ergibt sich dadurch, dass man jetzt für eine Entität so ein Repository definiert, ergibt sich implizit und rückwärts gewandt eigentlich, dass diese Entität eigentlich ein Aggregate Root sein muss, von der Definition her. Aber es ist alles so implizit und es ist nicht so direkt drin. Was wäre denn, wenn man das irgendwie explizit machen würde und was müsste man da tun? Das war so der Ausgangspunkt für dieses Projekt oder diese Idee, da vielleicht ein bisschen Code dafür zu schreiben.
+
+### Repositories mit Spring Data
+
+**Eberhard Wolff:** [0:03:56] Genau, und vielleicht noch ein, zwei Ergänzungen. Also mit Henning hatten wir eine Episode gemacht zum Thema Architektur-Hamburger, verlinke ich auch nochmal. Und weil du gerade sagtest, BUSCHMAIS, hatten wir auch eine Episode zu jQAssistant gemacht. Und genau, ich glaube, dazu kommen wir irgendwie auch noch zu sprechen, mit dem Dirk Mahler damals. Ich verlinke die auch nochmal und vielleicht noch ein weiterer Hinweis: Was ich halt bei dem Repository interessant finde, bei dem Repository-Ansatz eben von Spring Data ist, dass es halt zum einen natürlich irgendwie eine Abstraktion ist über die verschiedenen Persistence-Implementierungen, die es so geben kann. Das ist ja klassisches Spring-Ding, dass man halt irgendwie sagt, okay, die zugrunde liegende Technologie wird so ein bisschen abstrahiert, aber eben darüber hinaus auch genau jemanden dazu zwingt zu sagen, ich will halt bestimmte Methoden haben, also findByName oder was auch immer, die halt in meinem Kontext Sinn machen.
+
+**Eberhard Wolff:** [0:04:54] Und ich habe eben nicht die Möglichkeit, da jetzt abstrakte beliebige Sachen reinzumachen, was meiner Ansicht nach der Kern von diesem Repository-Pattern ist, eben zu sagen, ich will nur bestimmte Dinge, die fachlich Sinn machen, erlauben und eben nicht so eine SQL-Schnittstelle oder GraphQL-Schnittstelle haben, wo halt beliebige Dinge rauskommen können.
+
+**Oliver Drotbohm:** [0:05:14] Also die Idee ist halt, dass die dann eben dahinter stattfindet, dass man eben sagt, man kann das trotzdem irgendwie auf gewisse Art und Weise optimieren, natürlich auf die Persistenztechnologie hin, aber der Code, der dieses Interface, dieses API konsumiert, der muss sich nicht damit auseinandersetzen. Das ist sozusagen der Punkt.
+
+**Eberhard Wolff:** [0:05:29] Genau, und das ist eben sozusagen die richtige Art und Weise. Also sonst müsste man im Service Layer irgendwie sagen, okay, das ist die Art und Weise, wie ich jetzt auf die Datenbank losgehen will und was ich genau wissen will, und das sollte eben im Repository drin sein und da wird man mit Spring Data sozusagen zu gezwungen.
+
+**Oliver Drotbohm:** [0:05:44] Genau, das sehen manche Leute als Bug an. Ich sage aber, das ist ein Feature, in gewisser Weise.
+
+### Wie jMolecules entstand
+
+**Oliver Drotbohm:** [0:05:50] Genau, das war halt eigentlich auch, das ist eigentlich ein guter Punkt nochmal, dass wir auf der einen Seite hatten wir identifiziert, dass wir mit Repositories Aggregate managen. Dann kam, mit Stefan hatte ich gesprochen, dass die auf diesen Aggregaten ja vielleicht dann entsprechende Regeln über jQAssistant enforceen, das deutsche Wort, erzwingen wollten oder die Regeln anwenden wollten auf diesen Code. Und dafür natürlich erstmal diese Konzepte identifizierbar gemacht werden müssen im Code, also die müssen die irgendwie finden. Und ich hatte mit ihm da zu der Zeit an einem Spring Plugin gearbeitet, dann haben wir eben genau diese implizite Aggregatnatur in diese Regeln reingebaut. Und dann stellte sich halt so raus, dass das irgendwie unbequem ist eigentlich.
+
+**Oliver Drotbohm:** [0:06:35] Und dann habe ich gesagt, okay, lass uns das doch einfach, lass uns mal schauen, wie können wir das in Java machen, weil wir uns hauptsächlich im Java-Umfeld bewegen. Ich hatte da Annotationen, Interfaces, war mir zum Anfang nicht sicher, was will man dann? Also ein @AggregateRoot zum Beispiel, eine Annotation, mit der man eine Klasse so auszeichnen kann. Henning meinte dann, warum eigentlich nur Java? Lass uns doch bitte gleich irgendwie was auf was Größeres heben. Und dann gibt es dann dieses XMolecules-Dachprojekt, unter dem verschiedene Projekte auch für andere Programmiersprachen. Es gibt ein PHP-Molecules, da hat mir auch ein Ex-Kollege, der Stefan Hochdörfer, geholfen, das irgendwie nach PHP zu portieren.
+
+**Oliver Drotbohm:** [0:07:19] Es gibt ein .NET-Port davon. Die sind aber alle in ihrer Ausbau- und Feature-, in ihrem Feature-Umfang bei Weitem nicht so weit wie dieser Java-Port, weil mich interessiert das Thema. Ich kann da dann ein bisschen Zeit investieren und tue das dann auch. In den anderen Bereichen ist das aktuell noch nicht so weit, aber die Idee ist eigentlich, dass wir hergehen und sagen, wir versuchen, über diese Projekte der jeweiligen Programmiersprache entsprechend Abstraktionen anzubieten, die, um diese Konzepte erst mal im Code auszudrücken. Das ist sozusagen der erste Schritt, mit dem Ziel, damit natürlich viele Dinge zu ermöglichen. Und der erste Schritt wäre eigentlich, dass man dann eben genau diese Regeln, die ich vorhin erwähnt habe, anwenden kann auf den Code und die möglichst schnell – und da bekommt man so ein bisschen so einen Schieberegler in die Hand – möglichst direkt diese Regeln überprüft zu bekommen.
+
+### Abhängig von einer Bibliothek?
+
+**Eberhard Wolff:** [0:08:22] Sorry, lass uns kurz auf dieser abstrakten Ebene vielleicht verbleiben. Also es bedeutet jetzt, also bedeutet, ich würde jetzt erwarten, ich habe irgendwie eine Annotation, also @Aggregate oder was auch immer, @ValueObject und so Zeug, oder eben ein Interface, und dann bin ich ja abhängig von jMolecules. Das heißt also, mein Business-Logik-Kern hat eben Annotations, beziehungsweise wenn ich halt sage Implements ValueObject oder was auch immer es ist, dann habe ich eben eine Vererbungsbeziehung, weil ich eben dieses Interface implementiere. Wäre ja eigentlich Technologie-neutrale Geschäftslogik. Das setze ich dann ja gerade nicht um. Hört sich danach an, als sollte man es eher nicht benutzen.
+
+**Oliver Drotbohm:** [0:09:04] Point taken. Guter Punkt. Das war nämlich auch ein Aspekt, der sozusagen in dieser Diskussion herauskam, dass man eigentlich, wenn ich sage, ein Repository ist ein Spring-Data-Repository, dann hänge ich in dem Fall an Spring dran. Und es gibt in Spring auch die @Service-Annotation, die @Repository-Annotation. Das heißt, es gibt in bestimmten Frameworks gibt es schon Auszeichnungsmöglichkeiten für diese Stereotypen. Das hat zwei Probleme. Das erste ist, dass ich mich damit an dieses Framework kette. Da kann man jetzt geteilter Meinung sein, ob jetzt eine Annotation an diese Klasse zu schreiben halt problematisch ist, weil eigentlich sich die Frage stellt: Was ist denn das Problem daran? Ich kann die Klasse potenziell auch weiterverwenden, ohne diese Bibliothek auf dem Classpath zu haben, weil es eben eine Annotation ist.
+
+**Oliver Drotbohm:** [0:09:49] Und ich kann da auch sehr leicht wegmigrieren von, kann die austauschen durch eine andere Annotation. Das ist relativ trivial. Das heißt, wenn man das machen möchte oder man diese Abstraktion haben möchte, weg von dem Framework, dann wäre die Frage: Wie drückt man das dann aus? Üblicherweise, ich kenne, es gibt in jQAssistant arbeitet man dann auch mit Namensregeln. Das ist halt dann schwierig für irgendwie toolgestützte Unterstützung, weil man dann dem Tool immer die Namensregeln beibringen muss. Und das andere Problem an diesen Framework-Annotationen ist, dass die eigentlich nur die Annotationen oder Mittel bereitstellen, an denen sie selbst interessiert sind. Also ein Repository, die @Repository-Annotation in Spring hatte irgendwie die Aufgabe, persistenztechnologiespezifische Exceptions in allgemeine Exceptions, also in diese Data Access Exception-Hierarchie zu übersetzen.
+
+**Oliver Drotbohm:** [0:10:41] Das heißt, es hat eine technische Funktion. Und das Framework wird jetzt natürlich nicht hergehen, also Spring, und sagen: Oh, dann machen wir noch irgendwie eine @Aggregate-Annotation, weil damit haben wir eigentlich nichts zu tun. Das ist ein anderes Thema. Das heißt, die Idee war, wir bauen eine Bibliothek, eine ganz dünne Bibliothek, die nur diese Auszeichnungsmittel enthält, an die man sich dann natürlich mit seinem Code ketten muss. Aber auch hier, man kann halt die Frage stellen: Wo zieht man denn da die Grenze? Also wenn ich zum Beispiel ein Datum benötige, also einen Datumswert, dann benutze ich halt irgendwie … heutzutage Local Date, Local Date Time. Aber ich kann mich erinnern, wir haben irgendwie 15 Jahre Java gemacht, da haben wir irgendwie eine Bibliothek benutzt, die hieß Joda Time, weil irgendwie das Java Date irgendwie etwas schwer zu benutzen war, nicht immutable und so weiter und so fort.
+
+**Oliver Drotbohm:** [0:11:33] Und da hatten auch wenige Leute ein Problem damit. Also es ist immer eine Frage, wie schnell wird man dann potenziell diese Bibliothek wieder los, wenn es hart auf hart kommt und was diesen Lock-in in gewisser Weise angeht. Ja, der ist irgendwie da, aber ich bekomme ja halt auch was dafür und im Zweifel ist das halt jetzt in dem Fall eine Annotation oder ein Interface. Und ich kette mich damit zumindest nicht an eine Ablaufumgebung, sowas wie Spring oder Jakarta EE oder was ich dann machen müsste. Die Idee war nämlich dann, das sehen wir später auch noch, dass man, wenn sobald diese Information im Code da ist, dann umgekehrt in diesen Ablauftechnologien eigentlich Mittel und Wege findet, um mit diesen Annotationen zu arbeiten und die auszuwerten.
+
+### Welche Alternativen gibt es?
+
+**Eberhard Wolff:** [0:12:17] Genau, ich glaube, da sind eine Menge wichtiger Punkte drin. Also einmal sagst du halt, ich habe eh irgendwelche Abhängigkeiten, also irgendwie zum Beispiel zu einer Date-Klasse. Dann ist es so, dass eben Annotations nochmal eine andere Art von Abhängigkeiten sind, weil die müssen halt nicht auf dem Klassenpfad liegen, um trotzdem das System benutzen zu können. Und dann ist es so, dass wir ja genau genommen eigentlich nicht eine Technologieabhängigkeit haben, sondern es ist halt ein Framework, das technologieagnostisch ist. Und man könnte, wir kommen, glaube ich, später dazu, theoretisch dann Jakarta EE drunter kleben und nicht unbedingt Spring. Das hattest du zumindest im Vorgespräch gesagt, das ist zwar im Moment nicht machbar, aber das bedeutet halt, dass wir hier was anderes haben.
+
+**Eberhard Wolff:** [0:12:54] Und dann ist, glaube ich, die letzte Sache, die du gesagt hast, die ich, glaube ich, auch nochmal ganz wichtig finde, ist: Was ist denn die Alternative? Also irgendwie muss ich mich jetzt hinstellen und muss halt sagen, okay, Repository ist ein Repository. Oder ein Aggregate ist ein Aggregate. Und ja, was ist denn die Alternative? Eigene Annotations machen, Namenskonventionen. Namenskonventionen – also kann ich dann irgendwie mit einem Architekturmanagement-Werkzeug erzwingen, aber ich habe halt keine weitere Unterstützung. Dann ist vielleicht das eben tatsächlich der beste oder zumindest eine valide Alternative. Gut, genau.
+
+### Demo: Building Blocks im Code
+
+**Oliver Drotbohm:** [0:13:28] Lass uns das mal angucken, wie das aussieht im Code.
+
+**Eberhard Wolff:** [0:13:31] Sehr gerne, genau. Das war ja eigentlich das Ziel sozusagen der Veranstaltung.
+
+**Oliver Drotbohm:** [0:13:36] Genau, jetzt haben wir wieder so viel theoretisches Gerede. Ich mache euch mal den Screen auf, wenn das funktioniert.
+
+**Eberhard Wolff:** [0:13:42] Magst du noch den Font vielleicht ein bisschen größer machen?
+
+**Oliver Drotbohm:** [0:13:44] Den Font noch ein bisschen größer?
+
+**Eberhard Wolff:** [0:13:46] Hätte ich jetzt gedacht.
+
+**Oliver Drotbohm:** [0:13:47] Ich brauche das hier unten eigentlich erstmal nicht. Dann müsste das hoffentlich gehen. Also was ich jetzt hier habe, ist ein … wir packen euch den Link zu dem Repo in die Show Notes. Das ist ein Projekt, das ist eigentlich aus einem Workshop, den ich zu dem Thema mache. Der ist so gestaltet, dass man irgendwie Source Code vorfindet und dann ganz viele, finde ich das hier unten irgendwo, Tasks. Da sind dann immer pro Projekt so To-dos drin. In dem Fall keine, sehe ich gerade, weil das, glaube ich, der Anfang ist. Genau. Aber da kann man sozusagen Schritt für Schritt den Effekt sehen, wenn man diese Bibliothek einführt. Also vor allen Dingen in den späteren Projekten hier, wenn es dann um Boilerplate-Reduktion geht, kommen wir später noch dazu.
+
+**Oliver Drotbohm:** [0:14:32] Also was ich hier mache, ist: Ich depende auf dieses jMolecules DDD, auf diese Bibliothek, und da ist dann, das ist wahrscheinlich jetzt nicht so gut zu sehen, aber ihr seht, das sind quasi die ganzen Konzepte, die es in DDD Building Blocks gibt, als Annotationen beziehungsweise Interfaces drin. Ich kann da gleich noch mal was zu sagen, warum man das eine oder das andere verwenden würde, aber die grundsätzliche Idee ist, dass ich jetzt zum Beispiel hierher gehen kann und bei der Bestellung sagen kann, das ist ein Aggregate Root. Also kann ich es hier dran annotieren. Und was hier jetzt schon passiert ist Folgendes: Hier passieren eigentlich schon weitere Schritte. Und zwar habe ich hier einen jMolecules APT mit hinzugefügt, also das ist eine separate Bibliothek.
+
+**Oliver Drotbohm:** [0:15:17] Die kommt aus einem separaten Namespace, seht ihr. Das sind diese ganzen Integrationen, von denen ich gerade gesprochen habe, die dann aufbauen auf diesen Konzepten zusätzliche Dinge tun. Und hier ist es so, dass die Regeln, die sich zum Beispiel, soweit ich weiß, erstmalig niedergeschrieben in Vaughns Buch Implementing Domain-Driven Design zum Thema Aggregate-Beziehungen wiederfinden. Und die werden jetzt quasi, eine der Regeln, eine ganz einfache ist: Wenn etwas ein Aggregat ist, dann ist das identifizierbar und braucht, also muss eine der Properties als Identifier ausweisen. Und das bekommt man dann hier als, ich weiß nicht, ob das gut zu sehen ist, aber das bekommt man als Compiler-Error rausgereicht. Das steht dann hier, genau. Und dann könnte ich jetzt quasi hergehen und den Identifier als Identity ausweisen und dann ist diese Regel erfüllt und ist alles gut. Also quasi beim Kompilieren sofort gecheckt.
+
+### Regeln prüfen beim Kompilieren
+
+**Eberhard Wolff:** [0:16:17] Genau, möchtest du noch erklären, was ein APT ist? Weil du hattest jetzt diese Dependency eingefügt und dadurch ist es ja passiert.
+
+**Oliver Drotbohm:** [0:16:24] Guter Punkt. APT steht für Annotation Processing Toolkit. Das ist ein offizielles API, mit dem man dem Java-Compiler in einem Nach-Compile-Schritt mit dem Code interagieren, also mit dem kompilierten Code interagieren lassen kann. Es wird normalerweise dafür genutzt, weiteren Source-Code zu generieren, aber man kann mit diesem API auch zusätzliche Compiler-Error erzeugen und einfach sagen, wenn folgender Zustand hergestellt ist, in dem Fall hier: Diese Klasse ist ein Aggregate Root, hat aber kein Feld, was irgendwie eine Identität ausweist. Dann klemm bitte an diese Klasse einen zusätzlichen Compiler-Error dran. Das macht die Regelverifikation relativ unmittelbar, in gewisser Weise.
+
+**Eberhard Wolff:** [0:17:12] Und in diesem Fall macht eben, also das ist Spring Tool Suite, nehme ich an, also sprich Eclipse, das mit dem integrierten JDT-Compiler.
+
+**Oliver Drotbohm:** [0:17:21] Genau, das Nette an dem APT ist aber, dass man das eben nicht IDE-spezifisch bauen muss, weil das eben dann auch auf der Kommandozeile einfach, es ist einfach ein Compiler-Error und dann stellen die IDEs den einfach entsprechend dar. Also das funktioniert in IntelliJ und in anderen IDEs genauso. Das wäre sozusagen, ja.
+
+**Eberhard Wolff:** [0:17:40] Ach so, hier steht: „for you and for me and for …“ hat die Frage gestellt: „Ist API gleich APT?“ Nee, also nicht, das ist halt …
+
+**Oliver Drotbohm:** [0:17:48] Nee, nee, nee, Annotation Processing Toolkit. Der Ausdruck ist ein bisschen irreführend, weil es eigentlich davon ausgeht, oder das Toolkit geht eigentlich davon aus, dass man Klassen immer annotiert, was in unserem Fall jetzt etwas problematisch ist, weil ich gern auch einfach Klassen prozessieren möchte, die typenbasiert sind. Also ich möchte zum Beispiel gerade über ein Interface ausdrücken können, dass … also ich möchte das nicht in eine Annotation reinschreiben, sondern in ein Interface, weil ich dadurch über die Interface-Definition jetzt auch ohne den APT schon hier über die Generics-Deklaration sagen kann, dass dieser AggregateRoot eine Klasse als ID deklarieren muss, die unmittelbar Identifier implementiert. Das tut sie jetzt hier schon. Also das ist hier unten die OrderId, die Klasse implements Identifier. Wenn ich das hier rausnehme, dann bekomme ich einfach einen Compiler-Error, ohne dass der APT da wäre.
+
+### Annotationen oder Interfaces
+
+**Eberhard Wolff:** [0:18:49] Das heißt, hier gibt es zwei Möglichkeiten: Entweder ich schreibe halt den @AggregateRoot und ich habe einen APT im Klassenpfad, und dann passiert das mit dem Compiler halt in dem Weg, oder in dem anderen Fall hast du jetzt reingeschrieben implements AggregateRoot mit dem Typ-Parameter auch Order und OrderId, und nachdem eben OrderId muss dann halt irgendwie definiert sein und muss halt irgendwas sein. Also du hast jetzt erzwungen, dass es eben einen Identifier gibt für diese Aggregates, so wie es eben sein sollte, und zwar auf Compiler-Ebene. Bitshifting auf Twitch hat geschrieben: „Oh, den APT finde ich super. Wir haben die DDD-Regeln bisher immer manuell mit ArchUnit nachgebaut, aber die Regeln direkt beim Compilen zu sehen, klingt super.“
+
+### Aggregates referenzieren über die ID
+
+**Oliver Drotbohm:** [0:19:23] Also das geht auch. Ich habe hier in dem Test, den ich hier drin habe, werden die ArchUnit-Regeln verwendet. Ich würde euch gerne nur noch eine, da können wir gleich nochmal drauf schauen, ich würde nur gerne das kurz hier zu Ende machen. Wenn ich jetzt nämlich zum Beispiel hier den Kunden auch zu einem Aggregate Root mache, jetzt kriege ich hier wieder die Fehlermeldung. Also ich implementiere jetzt das Interface Aggregate Root, dann kriege ich wieder die Fehlermeldung, dass Customer ID nicht Identifier implementiert. Das kann ich dann ebenfalls noch tun, hier unten. Und dann bekomme ich hier jetzt plötzlich in Order einen weiteren Error, der jetzt auch wieder durch den APT getriggert ist.
+
+**Oliver Drotbohm:** [0:20:01] Das ist eine Sache, weil du gerade gesagt hast, entweder ich mache das eine mit Interfaces, dann bekomme ich die Regelverifikation über die Typsignatur, oder ich mache es mit Annotationen und dem APT. Also hier ist jetzt das Interface und der APT im Spiel, weil ich jetzt diese Regel, die jetzt hier verletzt wird, nicht über eine normale Typsignatur abtesten kann. Also da stößt der Compiler an seine Grenzen. Das heißt, für diese Regel brauche ich auch ein APT, und die sagt, dass ein Aggregat ein anderes nie als volles Objekt referenzieren darf, sondern immer über die ID. Also ich müsste quasi hier eine Customer-ID draus machen und dann hier zum Beispiel getId draus machen, und dann müsste das wieder stimmen.
+
+**Oliver Drotbohm:** [0:20:45] Also dann ist das quasi eine ID, und der Feldtyp darf selbst wiederum nicht ein Aggregat sein. Und dann gibt es entweder Identifier oder das spezielle Konzept von einer Assoziation, was jetzt in dem Fall – zu weit, brauchen wir hier nicht reingehen.
+
+**Eberhard Wolff:** [0:21:01] So, und dieses Ding, was du jetzt gerade gezeigt hattest, dass du halt eine ID haben willst als Referenz und nicht ein Customer, das kommt jetzt auch über ein APT.
+
+**Oliver Drotbohm:** [0:21:11] Das kommt auch über ein APT. Also ich wollte nur darauf hinaus, dass die Dichotomie nicht ist Annotation und APT oder Interfaces allein, sondern es gibt einen bestimmten Regelsatz, den wir über die Interfaces vom Compiler allein lösen lassen können. Bestimmte erweiterte Regeln benötigen aber auch in der interface-basierten Welt den APT. Also da sind die vollumfänglichen Regeln eigentlich drin.
+
+### APT oder ArchUnit?
+
+**Oliver Drotbohm:** [0:21:34] Es gibt eigentlich, wenn ihr …
+
+**Eberhard Wolff:** [0:21:36] Sorry, warum würde ich jetzt den APT nicht auf dem Klassenpfad haben wollen?
+
+**Oliver Drotbohm:** [0:21:43] Sag du es mir. Der ist relativ frisch, also der ist relativ neu. Vorher war das rein ArchUnit. Jetzt ist, also man kann jetzt argumentieren, also brauche ich dann jetzt überhaupt die ArchUnit-Verifikation nicht? Aber es ist vielleicht was Einfacheres, wenn ich sage, also ArchUnit-Verifikation kann ich halt abschalten, potenziell. Oder ich kann da sehr speziell werden in Bezug auf, welche Themen ich testen möchte. Es gibt hier diese, das ist ein ganz normaler ArchUnit-Test, die Klasse hier, sagt einfach, welche Klassen man einbeziehen möchte, dann definiert man einen @ArchTest. Und dann gibt's hier auf jMolecules DDD Rules, gibt es – Zoom hilft wahrscheinlich nicht – gibt es hier quasi Aggregate References should be via ID or Association, das war die, die wir gerade eben behoben haben.
+
+**Oliver Drotbohm:** [0:22:35] Da kann ich selektiver sein, was die Regeln angeht. Dann würde ich den APT eben nicht verwenden und dafür, vielleicht habe ich in meiner Applikation schon ArchUnit und möchte nur so Stück für Stück mit diesen Regeln anfangen, dann lasse ich das vielleicht hier und bekomme dann in gewisser Weise einfach einen Test, der genau den Satz an Regeln während des Builds testet, den ich hier definiert habe. Das ist so der wichtige Punkt.
+
+### Architekturtests als Einladung zum Gespräch
+
+**Eberhard Wolff:** [0:23:05] Sorry, nur kurz, also einmal ist es, wir haben tatsächlich, ich habe eine Episode gemacht mit dem Peter Gafert zum Thema ArchUnit. Da diskutieren wir das Konzept, glaube ich, nochmal im Detail und das, was man jetzt eben gerade sieht, ist, dass das im Prinzip ein Unit-Test ist, der also mit JUnit ausgeführt wird, der irgendwie sagt, welche Beziehungen sind verletzt und dass das so ein bisschen dort die Intention ist, also ein alternativer Ansatz, um was Ähnliches zu erreichen. Weil du es gerade gesagt hast von wegen, man kann ja den ArchUnit-Test ausschalten. Das erinnerte mich an eine Sache, die genau in der Episode mit Peter halt nochmal diskutiert worden ist, wenn ein Test fehlschlägt, bedeutet das, dass man entweder darüber reden muss, warum diese Regel keinen Sinn macht, oder man muss eben der Person, die den Code geschrieben hat, nochmal erläutern, was dann eigentlich die Konzepte sind, also wenn es nicht offensichtlich ist.
+
+**Eberhard Wolff:** [0:23:55] Das heißt, so ein fehlgeschlagener Test ist halt eigentlich eine Einladung für eine Kommunikation, wo man dann hingehen kann und sagen kann: Hey, hör mal zu, diese Architekturregel, bei mir, ich kriege das halt nicht hin, dass der Fehler weggeht. Dann bedeutet das halt entweder, dass diese Regel keinen Sinn macht oder die Person, die halt den Fehler verursacht hat, hat es sozusagen nicht verstanden. Ach so, und Peter schrieb: „Bei Code, der noch nicht den Soll…“ Peter Fichter hat gerade bei YouTube geschrieben: „Bei Code, der noch nicht dem Sollzustand entspricht, könnte man mit ArchUnit freeze migrieren.“
+
+**Oliver Drotbohm:** [0:24:27] Das war auch ein Gedanke, den ich gerade hatte. Also man kann, es gibt in ArchUnit die Möglichkeit zu sagen, wir lassen das einmal laufen, merken uns die Verletzungen, die wir bereits, die wir jetzt gerade haben, und freezen die dann und schreiben dann die ArchUnit-Regel quasi so auf, aktivieren diesen Freeze-Modus, und dann würden uns nur weitergehende Verletzungen entgegengeworfen und abgelehnt. Das heißt, wenn man eine Codebasis, eine existierende Codebasis da Schritt für Schritt ranbewegen möchte, ist vielleicht der APT eben nicht die … er ist halt ein sehr strikter Hammer, es kompiliert oder es kompiliert nicht. Und wenn man sich da eher erst hinbewegen möchte, ist vielleicht die Verifikation hier über ArchUnit oder alternativ, wenn man jQAssistant bereits benutzt für sein Projekt, da gibt es auch die entsprechenden jMolecules, das jMolecules-Plugin macht exakt das Gleiche, sorry, nur halt eben mit jQAssistant.
+
+**Oliver Drotbohm:** [0:25:23] Also die Idee ist hier einfach, dass man die Leute nicht aus ihrer bereits gewohnten Verifikationsinfrastruktur herausreißen muss zwingend, sondern einfach das da verfügbar macht, wo sie bereits sind. Gar nicht so sehr ein: Das eine ist jetzt besser als das andere.
+
+**Eberhard Wolff:** [0:25:41] Genau, und das zeigt, glaube ich, auch irgendwie sehr deutlich, dass man jetzt eben sagt, ich habe hier ein Konzept, also du hast ja jetzt gerade geredet über Aggregates und solche Sachen, und dann kann man irgendwie sagen, okay, ich habe halt verschiedene Werkzeuge, APT, Java Compiler, ArchUnit oder eben jQAssistant, und die können jetzt irgendwie sagen, cool, du weißt, also diese Klasse ist halt annotiert, also kann ich jetzt irgendwie dafür sorgen, dass die eben auch so umgesetzt ist, wie es eigentlich sein sollte. Und damit bin ich eben, also das illustriert, glaube ich, exakt den Punkt von vorher nicht. Also ich habe dann eigentlich eine Technologieunabhängigkeit in dem Sinne, dass ich jetzt nicht sage, du musst aber ArchUnit benutzen, sondern ich habe eben die Möglichkeit, da zu wählen.
+
+**Oliver Drotbohm:** [0:26:17] Genau.
+
+### Code nach Stereotypen navigieren
+
+**Oliver Drotbohm:** [0:26:20] Um quasi abzuschließen, also wir hatten jetzt, was wir jetzt gesehen haben, eigentlich ist, dass wir jetzt so ein Modell haben, Aggregat Bestellung, Aggregat Kunde, dann haben wir da drin die Konzepte, also wir können jetzt die Stereotypen explizit im Code hinterlegen, was uns erlaubt, irgendwie diese Regeln da dran zu hängen und dann eben entsprechend Verifikationen zu machen. Also ich kann das sozusagen im Code, da wo ich den Code schreibe, die Modellüberprüfung bekommen. Was es auch noch ermöglicht, ist, da gibt es halt gerade eben ein IntelliJ-Plugin, also einen Prototypen dafür, dass man einfach auch die Codebasis darüber navigierbar macht. Also wir haben gerade in der Java-Welt, werden halt Code üblicherweise in Packages gelegt, das sind halt irgendwie eigentlich Ordner, und dann passiert das oft, dass dann, weil, ich weiß nicht warum, also wenn Menschen nach Code suchen und sagen, okay, ich muss irgendwie alle Controller finden, und dann verleitet das dazu, dass man vielleicht alle Controller in ein Paket tut oder ich muss halt alle Aggregate, alle Services, alle Repositories dazu finden.
+
+**Oliver Drotbohm:** [0:27:25] Das Problem dabei ist, dass es so ein bisschen die Kapselung von den entsprechenden Systemen … unterhöhlt in gewisser Weise, weil eben die Controller mit den Services interagieren, die Services mit den Repositories und Pakete ja eigentlich Kapselungsmechanismen sind. Also ich kann darin Dinge verstecken beziehungsweise Dinge daraus veröffentlichen. Wenn ich aber jegliche Beziehung, jegliche interessante Beziehung dazwischen bekomme, die ich benötige, über die Grenzen hinweggehen, dann fällt mir dieses Feature eigentlich weg. Und wenn man jetzt wieder ein bisschen rauszoomt, stellt man fest, dass es ja im Endeffekt einfach eine Frage davon ist, wie ich den Code navigiere, wie ich den Code entdecke. Und man kann jetzt zum Beispiel hier, ihr seht das quasi in zwei verschiedenen Varianten.
+
+**Oliver Drotbohm:** [0:28:09] Einmal wird einfach der Stereotyp mit an der entsprechenden Klasse mit drangeschrieben, dass man das einfach schneller erkennt. Es gibt aber auch die Möglichkeit, hier unten sieht man das weiter bei diesem separaten jMolecules-Baum, dass man eben unabhängig von der eigentlichen Position im Dateisystem die Klassen nach ihren Stereotypen gruppiert und damit auffindbar macht. Das heißt, man kann für die Paketstruktur jetzt eigentlich eine Aufteilung wählen, die vielleicht eher mit der Kapselungsfunktion von Paketen arbeitet, also sowas wie fachliche logische Module, und kann dann einfach da alle Klassen reinwerfen und bekommt trotzdem die Möglichkeit zu sagen: Oh, ich muss was am Controller ändern, wo sind denn alle meine Controller? Das sind jetzt, hier sind ja keine Controller drin, aber Aggregate.
+
+**Oliver Drotbohm:** [0:28:57] Also die Idee ist hier auch wieder, wir hinterlegen diese Informationen, die Modellinformationen im Code und bekommen dann daraus irgendeinen Mehrwert, weil irgendeine Form von Tooling mit dieser Information sinnvoll arbeiten kann und in dem Fall jetzt hier das Thema Code-Navigation irgendwie aufgreift. Wir sprechen da gerade mit dem IntelliJ-Team, da gibt es auch im Kontext meiner Arbeit an diesem Spring Modulith, wie wir sozusagen das nativer unterstützen, also dass man im Endeffekt eigentlich irgendwann dahin kommt, dass man so eine Applikation nicht mehr mit source main java irgendwas anschaut, sondern mit: Das ist eine Spring-Modulith-Applikation, in der gibt es logische Module. In diesen Modulen befinden sich Aggregate und eigentlich die gesamte Navigationsstruktur sich auf diesem höherleveligen Abstraktionsniveau bewegt und nicht so sehr in dem …
+
+**Oliver Drotbohm:** [0:29:45] Ganz flaches Abstraktionsniveau ist es ja auch nicht, weil wir haben ja irgendwie plötzlich Pakete und die sind irgendwie zusammengefasst, ja. Also da gibt es diese Abstraktion in die Java-Welt hinein, aber aus dieser Java-Welt wieder hinaus in Bezug auf DDD und Architekturmuster gibt es da bisher noch nichts. Und da spielen wir gerade so ein bisschen mit Ideen rum, wie das aussehen könnte. Aber der ganze jMolecules-Kram hier ist dann entsprechend so ein Building Block davon in gewisser Weise, weil wir erst darüber diese Zuordnung machen können und diese Sachen finden. Genau.
+
+### Value Objects und die Kanten der Applikation
+
+**Eberhard Wolff:** [0:30:21] Schön.
+
+**Oliver Drotbohm:** [0:30:24] Ich würde dann noch, also ja, lass uns gerne weitergehen zum nächsten Thema (unverständlich).
+
+**Eberhard Wolff:** [0:30:28] Ja, genau, nee, das ist super, von daher …
+
+**Oliver Drotbohm:** [0:30:31] Verifikation, wenn es da jetzt noch Fragen dazu gibt, werft die gerne in den Chat, dann finden wir die noch. Genau. Das nächste Thema, was nämlich eigentlich auftaucht, ist, dass ich, wenn ich jetzt davon grundsätzlich von diesen Stereotypen begeistert bin und zum Beispiel sage, oh, sowas wie Value Objects sind zum Beispiel eine schöne Sache, dann habe ich oft das Problem, also wenn ich jetzt hier mal von so einem Onion-Modell ausgehe, völlig ohne jetzt Wertung von Onion oder dass man das machen muss, aber es gibt ja also diese Konzepte, diese Domain-Design-Konzepte finde ich hauptsächlich, findet man im Domain-Bereich und im Application Ring. Also es gibt da die Konzepte und die entsprechenden Regeln dazu, die bekommen wir auch validiert und so weiter und so fort.
+
+**Eberhard Wolff:** [0:31:16] Genau, dazu haben wir übrigens gestern gesprochen mit dem Vaughn, also das wäre da halt die Querreferenz. Und außerdem gab es die Folge mit dem Architektur-Hamburger von einem Hamburger, nämlich von Henning, wo es irgendwie genau darum ging, dass man eben Onions mit Layern und DDD und sowas halt kombiniert, also dass man eben da unterschiedliche Elemente hat. Das, was du jetzt gerade sagst, DDD ist halt irgendwie eine Domänenlogik, aber irgendwie muss ich jetzt eben auch noch andere Ebenen dort sozusagen betrachten. Also eben Infrastruktur beispielsweise.
+
+**Oliver Drotbohm:** [0:31:49] Genau. Also ob man da jetzt, ich glaube, Vaughn hatte Mittwoch, hatte Hex oder hatte Hex, hexagonale Architektur benutzt, macht im Endeffekt für die Diskussion um die Domain-Aufteilung und die DDD-Konzepte eigentlich wenig Unterschied. Mein Punkt ist hier, dass selbst wenn ich jetzt ohne diese jMolecules-Unterstützung durch die Gegend laufe und sage, Leute, das ist vielleicht eine gute Idee, eine E-Mail-Adresse als Value Object zu verwenden, und die machen das, dann sorgt das üblicherweise dafür, dass an den äußeren Kanten der Applikation diese Klassen immer für mehr Arbeit sorgen. Also wenn ich vorher irgendwie einen, ich hatte irgendwie, keine Ahnung, einen User und der hat eine E-Mail-Adresse und den wollte ich irgendwie nach JSON serialisieren, dann hatte ich in meinem JSON-Dokument dann einfach eine E-Mail-Adresse und dann steht da ein String dahinter.
+
+**Oliver Drotbohm:** [0:32:35] Wenn ich da jetzt ein Value Object verwende, E-Mail-Adresse mit einem Wert drin, dann wird das zum Beispiel plötzlich doppelt genestet. Und das ist halt irgendwie unschön, weil man damit diese Struktur nach außen trägt. Das heißt, wenn man das irgendwie hübsch haben möchte, muss man jetzt wieder hergehen und muss mit Jackson anschauen, wie sorge ich denn dafür, dass diese Klasse jetzt entsprechend wieder normal serialisiert wird, in Anführungsstrichen.
+
+### Ist eine E-Mail-Adresse ein String?
+
+**Eberhard Wolff:** [0:32:58] Ich würde gerne kurz eine provokative Frage loswerden, aber eine E-Mail-Adresse ist doch ein String. Also warum sollte ich jetzt …?
+
+**Oliver Drotbohm:** [0:33:05] Eine E-Mail-Adresse ist eine E-Mail-Adresse.
+
+**Eberhard Wolff:** [0:33:07] Okay.
+
+**Oliver Drotbohm:** [0:33:08] Also, weiß nicht, wollen wir jetzt diese Value-Object-Diskussion nochmal aufmachen?
+
+**Eberhard Wolff:** [0:33:13] Also, zwei Sätze würde ich mir – oder ich sage mal zwei Sätze – und dann schauen wir mal, ob du noch was ergänzen willst. Ich glaube, das Problem ist eben tatsächlich, dass eben ein String halt ein generisches Ding ist. Und wenn ich sage, es ist eine E-Mail-Adresse, dann weiß ich zum Beispiel, dass es halt irgendwie den entsprechenden Formaten entsprechen muss. Und dann kann ich die zum Beispiel validieren und solche Geschichten halt machen. Und das ist, glaube ich, ein häufiges Problem. Deswegen hatte ich die Frage auch nochmal gestellt. Also besonders schlimm wird es halt bei sowas wie Geldbeträge. Wenn man halt Geldbeträge irgendwie als Integers oder Floats modelliert, dann wird es halt wirklich schwierig, weil die haben halt eine bestimmte Präzision.
+
+**Eberhard Wolff:** [0:33:48] Die haben zum Beispiel eine Währung und nicht, also in Deutschland können wir Euros ausgeben und Cents, aber keine Cent-Bruchstücke, wobei, weiß ich gar nicht, also unter bestimmten Bedingungen habe ich vielleicht auch Cent-Bruchstücke für irgendetwas. Und das sind eben diese tieferen fachlichen Regeln sind halt die Gründe, warum man eben eigentlich nicht primitive Datentypen benutzen wollen würde, sondern eben Value Objects.
+
+**Oliver Drotbohm:** [0:34:12] Und man hat ja ein Typsystem für genau sowas. Also wenn man sich anschaut, welche Operationen gibt es auf String, dann ist das irgendwie substring oder sowas oder trim oder sowas. Das sind einfach keine Operationen, die man logisch auf einer E-Mail-Adresse eigentlich erwartet. Also da gibt es vielleicht eher sowas wie: Gib mir den lokalen Teil oder gib mir den Server-Teil und so weiter und so fort. Mir gefällt da so sehr die Analogie, das Typsystem, es gibt mal irgendwie so ein, ich weiß nicht, ob es eine Anekdote ist, aber mit so einem Bildhauer, der gefragt wurde, wie er es denn immer hinkriegt, dass er so schöne Figuren aus so einem Stein quasi da rausmeißelt.
+
+**Oliver Drotbohm:** [0:34:48] Und er sagt einfach: Ich nehme einfach den Stein und haue jetzt zum Beispiel alles weg, was nicht Figur ist. Also die Idee ist, dass man sozusagen die Dinge, die man eigentlich nicht braucht, verhindert. Und das ist in dem Fall, wenn ich einen raw String habe, dann kann da alles Mögliche drinstecken. Und indem ich jetzt ein Typsystem habe und sage, ich habe einen Typ E-Mail-Adresse, dann reduziere ich die Möglichkeit der Strings, die da drin sind, auf die, die valide E-Mail-Adressen sind. Ich schmeiße also alle weg, alle Strings, die nicht E-Mail-Adressen sind. Und dadurch erlaubt es mir, Code zu schreiben, der sich darauf verlassen kann, dass eben nur diese Art von Werten ankommen, an der Stelle, wo ich eine E-Mail-Adresse übergeben bekomme.
+
+**Eberhard Wolff:** [0:35:33] Genau, und außerdem kriege ich halt irgendwie Ärger, wenn ich sage, wenn ich halt einem Namen eine E-Mail-Adresse zuweise, dann sagt der Compiler halt: Blödsinn.
+
+**Oliver Drotbohm:** [0:35:41] Genau. Der aufgerufene Code muss sich nicht mehr darum kümmern, ob die Konzepte an dem Punkt dann valide sind.
+
+**Eberhard Wolff:** [0:35:47] Und vielleicht ist das, also ich fand es halt deswegen wichtig, weil das hatte ich jetzt in dieser taktischen Domain-Driven-Design-Folge nicht diskutiert, und ich finde, das ist eigentlich nahezu analog zu diesem Anemic Domain Model. Also wenn ich halt ein Entity-Modell baue, was eben keine Logik in den Entities hat, dann ist es eben blutleer und hat keine Logik. Und hier sind wir jetzt an der Stelle, wo ich halt sage, es sind alles Strings und das macht eben genauso wenig Sinn.
+
+**Oliver Drotbohm:** [0:36:10] Sogenannte Stringly Typed Code.
+
+**Eberhard Wolff:** [0:36:12] Ja, genau, guter Punkt. Cool.
+
+**Oliver Drotbohm:** [0:36:14] Es wird nur noch getrumpft, habe ich letztens gehört, von objektorientiertem Code, das heißt, jedes Feld ist Object und wird erst bei Bedarf gecastet. Weiß nicht, ob das, also nicht ernst nehmen bitte. Ich wollte darauf hinaus, dass wir diese Value-Objekte, ZIP-Code, E-Mail-Address und so weiter und so fort, dass die eigentlich, da kann man jetzt immer noch argumentieren, ob man da einen manuellen Mapping-Schritt haben möchte, aber es gibt uns die Möglichkeit, wenn ich zum Beispiel eine E-Mail-Adresse finde oder eine Klasse finde, die E-Mail-Address heißt und von der ich weiß, dass die ein Value-Object ist, also ich kann jetzt quasi hergehen, mal gucken, wie ich hier die Tests gestaltet habe. Also wenn die, das müsste alles grün sein.
+
+### IDs als Strings?
+
+**Eberhard Wolff:** [0:37:03] Darf ich noch kurz, also weil ein Realist hat gerade noch mal eine Frage gestellt zu genau diesem Thema mit den Value Objects. Er hat geschrieben: „Auf der anderen Seite modelliere ich alle IDs als Strings und Domänengrenzen. IDs als Strings sind dann opak und können zum Beispiel einfach in URLs genutzt werden oder sind schöne URLs oder URNs.“
+
+**Oliver Drotbohm:** [0:37:21] Ja, IDs sind ein schwieriges Thema. Ich würde die auch in der Domäne immer direkt über entsprechende ID-Klassen ...
+
+**Eberhard Wolff:** [0:37:29] Das haben wir gerade auch gesehen, genau, ja.
+
+**Oliver Drotbohm:** [0:37:32] Ja, es ist aber, also das hat einen guten Punkt, wo man sagt, okay, irgendwann, wenn die zum Beispiel in einer URL sollen als Pfadsegment oder sowas, dann muss ich die in einen primitiven Typ überführen. Und dann muss ich zum Beispiel aus der, ich hatte jetzt, glaube ich, UUIDs, dann muss ich halt aus der Order-ID erst eine UUID machen und dann muss ich ein String draus machen. Und das ist eigentlich ein guter Punkt, vielleicht lassen wir dann sogar die Demo hier sein, weil diese Notwendigkeit, diese komplexen Value Objects in Primitive zu überführen und auch wieder zurück, ist zum Beispiel was, was mir dann in dem Spring MVC-Controller oder sowas natürlich entgegenschlägt.
+
+**Oliver Drotbohm:** [0:38:14] Und dann müsste ich, wenn ich jetzt zum Beispiel diese ID habe, jetzt hätte ich hier dieses E-Mail-Address. Wenn ich eine E-Mail-Adresse entgegennehmen möchte, müsste ich jetzt irgendwie Spring MVC dem Binding beibringen, wie das jetzt quasi den String in eine E-Mail-Adresse umzuwandeln hat. Das ist weitestgehend trivial, weil ich sagen muss: new EmailAddress mit dem Eingangswert. Und umgekehrt würde ich wahrscheinlich sagen: emailAddress.toString.
+
+### Integration mit Spring und Jackson
+
+**Oliver Drotbohm:** [0:38:38] So, und das ist aber, gerade weil es eben so Boilerplate-Code ist, will man den eigentlich nicht von Hand schreiben müssen. Und was es eben in diesen Spring-, in den jMolecules-Integrationen sowohl für Spring als auch für Jackson – dieses Beispiel hier ist für Jackson – was hier quasi existiert, ist, dass ihr Bibliotheken bekommt für den Classpath, die man sich da irgendwie drauflegen kann. Also in dem Fall hier ist es die Jackson-Bibliothek, und die dann automatisch dafür sorgt, dass euch in eurer zum Beispiel Spring-Boot-Applikation der Jackson ObjectMapper so konfiguriert wird, dass er das automatisch kann, ohne dass ihr was dazu tun müsst. Das Einzige, was ihr tun müsst, ist halt eben hier zu sagen: Das Ding ist ein Value Object. Und dann wird automatisch, dann müsste hier unten dieser Test müsste dann in dem Fall …
+
+**Eberhard Wolff:** [0:39:25] Und ich würde erwarten, dass du dieses EmailAddress.of, also die statische Methode of, implementieren musst.
+
+**Oliver Drotbohm:** [0:39:34] In dem Fall ist es so, dass da eine Reihe von … Was habe ich jetzt hier falsch?
+
+**Eberhard Wolff:** [0:39:39] Ach nee, sorry, das wird ja vom Konstruktor übernommen. Ja, alles klar.
+
+**Oliver Drotbohm:** [0:39:42] Blödsinn hier, ich habe gerade die falsche Klasse. Genau, also da gibt es einen bestimmten Satz an statischen Factory-Methoden. Das kommt in dem Fall, die Semantik aus dem Spring-Framework. Ich glaube, of, valueOf und from oder so werden unterstützt, steht auf jeden Fall in der Doku. Beziehungsweise Konstruktor würde auch reichen in dem Fall hier. Ich habe das nur gemacht, um jetzt hier nochmal sauberer die Exception werfen zu können.
+
+**Eberhard Wolff:** [0:40:06] Wenn eben die E-Mail-Adresse, die übergeben wird, dem RegEx für eine E-Mail-Adresse nicht entspricht.
+
+**Oliver Drotbohm:** [0:40:12] Genau.
+
+**Eberhard Wolff:** [0:40:13] Genau. Gut.
+
+**Oliver Drotbohm:** [0:40:15] Komisch, das müsste eigentlich grün werden hier. Also es ist jetzt quasi hier sichergestellt, dass in dem Fall EmailAddress.of als einfacher String rausserialisiert wird, ohne dass ich jetzt irgendwas dazu tue. Das ist der Fall. Beziehungsweise für die ganze Spring-MVC-Geschichte gäbe es den Bereich, wo die ID-Konvertierung automatisch vorgenommen wird. Also da muss man sich um diesen Kram dann nicht kümmern. Das funktioniert weiter wie bisher. Ja, das ist eigentlich so ein So-What-Feature, wie ich genannt habe. Das heißt, also wenn es funktioniert, ist es so: so what. Und wenn es nicht funktioniert, dann sorgt es für großen Ärger. Genau, das wäre der Schritt und der führt uns eigentlich dann auch zu dem Thema, das war jetzt in dem Fall das Beispiel Jackson, das heißt also eingehende Kommunikation, Driving Adapter, um im Hex-Sprech zu bleiben.
+
+### Persistenz ohne Boilerplate
+
+**Oliver Drotbohm:** [0:41:08] Das andere große Thema ist Persistenz. Da könnte man jetzt die Diskussion losbrechen über das Thema: Will man dann ein separates Modell oder will man da keins? Was wir gebaut haben, und ich würde euch das gerne hier an dem letzten Beispiel zeigen, ist eigentlich folgende Idee: Ich habe jetzt hier eine Bestellung mit Bestellpositionen. Und in diesen, ich drücke aus, dass diese Bestellung ein Aggregat ist. Und wenn man jetzt zum Beispiel mit JPA arbeitet, ist es so, dass sich eigentlich aus der Natur, dass dieses Objekt ein Aggregate Root ist, ein ganz großer Teil der Persistenz-Mappings, die man üblicherweise hier vornehmen muss, ableiten lässt. Also der ist quasi klar. Beispiel wäre, wenn das Ding ein Aggregate Root ist, dann muss das eine JPA-Entity werden.
+
+**Oliver Drotbohm:** [0:42:06] Jetzt ist die Frage, muss ich das jetzt hier nochmal dranschreiben? Dann schreibe ich das quasi zweimal hin, einmal @Entity und einmal @AggregateRoot. Ein Aggregat managt per Definition den Lebenszyklus seiner verwandten Entitäten. Also wenn ich die Bestellung lösche, lösche ich die Bestellpositionen alle mit. Das heißt, für dieses List of Line Items ist klar, dass es eine One-to-Many-Beziehung sein muss, die kaskadieren muss und wofür ich ein Orphan Removal brauche. Das ist JPA-Sprech: technische Konfiguration in eine Zieltechnologie hinein, die ich automatisieren kann. Und um die zu bekommen, habe ich Folgendes gemacht: Dafür benutzen wir ByteBuddy. Da deklariert man ein Build-Plugin und eine zusätzliche Dependency, das ist die hier.
+
+**Oliver Drotbohm:** [0:43:03] Und die macht dann zur Compile-Zeit was Ähnliches, wie Spring Boot das eigentlich tut. Ich werde euch das mal hier in der Konsole zeigen, und zwar auf die Maven-Konsole hüpfen und dann mal den Build für dieses Modul anstoßen. Man sieht hier, dann laufen hier so ein paar Sachen los und dann wird auch der Code wieder prozessiert und es wird festgestellt, ah, Bestellung ist ein Aggregate. Und wir stellen fest, wir haben in dem Fall jetzt Spring JPA und Spring Data JPA auf dem Classpath und dann wird entsprechend dieser Code nachbearbeitet. Unter anderem wird hier, wo finden wir es? Das müsste, glaube ich, alphabetisch sortiert sein, genau, findet man diesen Output hier unten.
+
+**Oliver Drotbohm:** [0:43:47] Da steht also in der Konsole, dass diese Klasse gefunden wird und dass hier das JPA Entity an diese Klasse geschrieben wird, weil es noch nicht dran steht. Es wird ein Default-Konstruktor generiert, weil JPA diesen verlangt, obwohl wir keinen Default-Konstruktor hier drin haben. Es wird @EmbeddedId an den Identifier drangeschrieben, also hier steht jetzt dann implizit an der ID-Property steht jetzt implizit @EmbeddedId. Und hier sieht man auch, dass hier quasi das one-to-many entsprechend gemappt wird, wie ich das vorhin versucht habe so halb korrekt zu beschreiben. Es wird noch ein Join-Column mit drangeschrieben, damit man da einfach eine Foreign-Key-Beziehung bekommt und so weiter und so fort.
+
+**Oliver Drotbohm:** [0:44:27] Das heißt, hier wird quasi, wir hatten es im Vorgespräch haben wir darüber gesprochen, das erinnert mich zum Teil so ein bisschen an die Zeit Anfang der 2000er, Model-Driven Development. Da hat man von einem Platform-Independent Model gesprochen, also das ist jetzt far from platform independent hier, weil es halt Java ist, aber ich muss mich in dem Fall noch nicht für eine Persistenztechnologie entscheiden, zumindest im Grunde nicht, und kann dann dadurch, dass ich sage, das soll bitte nach JPA automatisch die entsprechenden Metadaten, die dafür notwendig sind, da dran generiert bekommen. Das heißt also, was ihr hier seht, um es kurz abzuschließen, warte, dann haben wir … Wenn ich jetzt, also man kann jetzt hier zum Beispiel, ist das hier nicht drin, also man müsste in dem Fall, das müsste funktionieren.
+
+**Oliver Drotbohm:** [0:45:11] Also diese Klasse, die macht jetzt hier irgendwie JPA, ihr seht das, da passieren Dinge, hier wird insert into events und so weiter und so fort und orders und insert into line items. Ihr seht, diese Klasse weiß eigentlich nichts von JPA, mit der Ausnahme dieser Annotation hier oben. Das finde ich eigentlich einen relativ schönen Seiteneffekt.
+
+**Eberhard Wolff:** [0:45:30] Da steht halt @Table(name = "orders").
+
+**Oliver Drotbohm:** [0:45:33] Genau, da steht @Table(name = "orders"). Hier ist es jetzt so, dass order ein Schlüsselwort in SQL ist, deswegen muss ich also entweder dafür sorgen, dass das irgendwie escaped wird. Ich habe mir jetzt hier einfach den Spaß gemacht, ich benenne einfach die Tabelle um in orders. Und das sorgt dafür, dass ich jetzt eigentlich in der Klasse selbst nur noch die Dinge sehe, die wirklich custom sind für diesen speziellen Fall. Vorher hätte ich hier @Entity dranstehen, embedded ID, one-to-many, was auch immer, also einen ganzen Haufen, in dem Fall auch wieder Boilerplate-Annotationen, die ich jetzt nicht mehr benötige. Die Unterstützung für diese Codegenerierung dieser Art gibt es für JPA, habt ihr gesehen, die gibt es für MongoDB und für nacktes JDBC, also da gibt es dann Spring Data JDBC, was man verwenden kann.
+
+**Oliver Drotbohm:** [0:46:23] Da werden dann einfach leicht andere Annotationen an andere Stellen dran generiert, sieht man dann auch quasi alles im Build-Output, was da passiert. Dann müsste man halt @Table, das würde dann in dem Fall nicht mehr funktionieren, das müsste man ändern. Aber grundsätzlich kommt man eigentlich von dem hier ist meine Bestellung ist ein Aggregat hin zu: Diese Klasse ist vollständig in eine weit verbreitete Persistenztechnologie serialisierbar zu diesem Zustand. Da muss ich mich sozusagen damit nicht mehr beschäftigen. Da kann man jetzt verschiedener Meinung zu sein, weil es gibt Leute, die sagen, die wollen diese JPA-Annotationen sehen. Was ich auch verstehen kann, das ist also definitiv kein Thema, wo ich sage, das muss man jetzt machen.
+
+**Oliver Drotbohm:** [0:47:07] Aber wenn man sich sozusagen auf dieses Abstraktionslevel begeben möchte, ist das irgendwie eine nette Option.
+
+### Alles ist optional
+
+**Oliver Drotbohm:** [0:47:15] Was nochmal ein bisschen rausgezoomt: All diese ganzen Integrationen, Verifikationen, diese Integration mit Jackson und Spring und der Persistenz, das sind alles optionale Dinge. Es ist vollständig okay zu sagen, wir machen überhaupt gar nichts davon. Ich benutze zum Beispiel einfach nur die Typen, um das im Code liegen zu haben, dass ich, wenn ich diese Klasse jetzt anschaue, ich sofort sehe, ah, das ist ein Aggregate Root, und damit weiß jemand, der schon mal halbwegs mit DDD Kontakt hatte, was diese Klasse darf und was sie nicht darf, und dann bekomme ich das vielleicht noch überprüft, lasse aber den ganzen Persistenz-Kram, diese ganze Persistenzgenerierung einfach weg, wenn ich das nicht haben möchte. Das geht auch. Also man kann da selektiv auswählen, wie weit man sich in diese Welt hineinbegeben möchte. Das ist, war mein hauptsächlicher Punkt.
+
+**Eberhard Wolff:** [0:48:01] Genau, also zwei Sachen, zwei Hinweise sozusagen. Also der eine Hinweis ist: Mich erinnert das an etwas, was ich bei dem Markus Völter vor längerer Zeit gesehen habe, also die Idee, dass man eben tatsächlich Sachen annotiert oder halt darstellt als bestimmte Elemente, technische Elemente. Also DDD Aggregate Root ist eben zum Beispiel ein Aggregate Root, und daraus kann ich jetzt technische Sachen halt generieren. Markus ist da weitergegangen. Also der hat jetzt diese Ideen rund um Domain-Specific Languages, also zum Beispiel eine Sprache für die Berechnung von Lohnabrechnungen bei der DATEV, ist so eine Case Study, wir haben dazu eine Episode gemacht, ich verlinke die nochmal.
+
+### Vergleich mit Lombok
+
+**Eberhard Wolff:** [0:48:40] Und dann das, was du gerade gesagt hast, ist, glaube ich, eine von den Antworten auf die, eine mögliche Antwort auf die Frage, die Vladimir gerade gestellt hat, nämlich: „Löst das nicht die gleiche Diskussion aus wie bei Lombok? Unser Architekt im Projekt wehrt sich gegen Lombok, weil nachträglich der Code nochmal modifiziert wird.“ Und ich glaube, die Antwort, die ich gerade eben rausgehört habe aus dem, was du gesagt hast, ist: Naja, also wenn du halt Spaß dran hast, könntest du jetzt eben da auch noch ein @Entity ranmalen von JPA und dann würdest du halt diesen Compile-Step nicht machen. Ist halt ein Angebot, muss man nicht machen.
+
+**Oliver Drotbohm:** [0:49:18] Genau. Also man kann das, man kann das also sowohl jetzt hier, also wenn jetzt zum Beispiel hier List-Item annotiert ist, würde dieser Teil der Generierung aussetzen. Also das generiert nur Dinge dazu, die nicht bereits schon definiert sind. Das ist der eine Punkt. Der andere Punkt ist, dass es natürlich, man sagen kann, okay, es ist jetzt wieder quasi Code-Generierung. Ich glaube, ein Großteil der Kritik an Lombok liegt darin, oder zumindest die Kritik, die ich aus dem Kern-Java-Team höre, ist, dass die eigentlich Source-Code lauffähig machen, der kein valides Java ist. Und da rümpfen die sehr die Nase. Und das ist auch der Grund, warum in dem Fall mit dem Compiler-API gearbeitet wird, also da sehr in Anführungsstrichen schmutzig in die Interna von Java reingegriffen wird.
+
+**Oliver Drotbohm:** [0:50:09] Das machen wir hier nicht. Das ist quasi Bytecode-Generierung mit ByteBuddy, also unter der Haube ASM, die einfach Dinge hinzufügt, die jetzt hier auch in dem Fall der Default-Konstruktor, wenn ich den von Hand da reinschreibe in den Source-Code, also ich meine, in dem Fall ist er hier drin, genau, das ist ja quasi gerade der Output, hier ist er jetzt vorhanden. Wenn ich den dazu generiere, eigentlich will ich den gar nicht aufrufbar machen, weil das … anderes DDD-Thema, dann kann ich nicht mehr sicherstellen, dass die Entität in einem validen Zustand erzeugt wird. Das geht jetzt hier im Fall von der Order, aber in anderen Fällen ist das schwieriger. Das heißt, wir generieren eigentlich nur Metadaten beziehungsweise Code, den ich eigentlich im Code selbst – also aus anderem Code heraus – nicht aufrufen können möchte, weil der auch gar nicht sichtbar ist zur Compile-Zeit.
+
+**Oliver Drotbohm:** [0:51:01] Das heißt, wir sind dann auf natürliche Weise eingeschränkt in einer Weise, die, wie ich glaube, das, was wir da tun, weniger exotisch und problematisch macht als Lombok. Also ihr seht es ja quasi, ich benutze das Lombok selbst. Also ich habe da so ein bisschen so eine, na ja, an manchen Stellen ist es schon sehr hilfreich. Ich finde auch die Diskussion oft um Lombok herum ist eher so eine: Ja, da schreiben halt die Leute irgendwie @Data und @Builder und 25 Annotationen an ihre Klassen und reflektieren gar nicht, was sie damit tun. In meinem Fall ist es eigentlich eher immer so, dass ich sage, ich hätte gern hier @RequiredArgsConstructor. Das ist in dem Fall, weil ich dann einfach statt diese Zeile noch einen zusätzlichen Konstruktor hinschreiben zu müssen, reicht es halt, wenn ich die finalen Felder deklariere.
+
+**Oliver Drotbohm:** [0:51:49] Das finde ich halt jetzt so eine kleine Bequemlichkeit, die irgendwie nett ist. Wenn jetzt jemand sagt, man will das nicht, völlig okay. Bis hin zu, auch diese Art der Codegenerierung, die wir für jMolecules machen, muss man nicht verwenden. Das ist ein Angebot und das verstehe ich völlig, wenn jemand sagt, oh, das ist mir zu viel Ungewohntes, weil dann sehe ich es nicht mehr im Code und was ist dann, wenn es schiefgeht und so. Also das ist vollkommen verständlich.
+
+### Andere Frameworks
+
+**Eberhard Wolff:** [0:52:16] Gut, es gibt noch eine Frage: „Sind die Integrationen stark an Spring gebunden oder gibt es auch Unterstützung für andere Frameworks wie Quarkus?“
+
+**Oliver Drotbohm:** [0:52:27] Die Spring-Integrationen sind an Spring gebunden, Tautologie. Und dass die hauptsächlich existieren, liegt daran, dass ich hauptsächlich in diesem Kontext arbeite und mich natürlich als allererstes interessiert, dass Spring als Framework diese Sachen möglichst out of the box unterstützt. Da gibt es zum Teil auch sogar direkt in Spring Data entsprechend Unterstützung für bestimmte jMolecules-Konzepte. Sämtliche anderen Technologie-Stacks, Micronaut, Quarkus, da existiert aktuell keine Integration dafür. Wenn ich das richtig verstehe, ist das ja auch hauptsächlich auf Jakarta EE basierend, also zumindest im Komponentenmodell. Das heißt, da könnte man Dinge tun. Es ist jetzt nur so, dass ich derjenige nicht sein werde, einfach aus Zeitgründen, gar nicht so sehr, weil ich denke, das mache ich jetzt nicht. Aber wenn da jemand Lust hat und sich quasi damit einbringen würde, zeige ich gerne, wie das für Spring aussieht und wo das hin müsste. Pull Requests Welcome für jegliche Form von alternativen Stack. Also da gibt es keine Berührungsängste in der Hinsicht.
+
+**Eberhard Wolff:** [0:53:35] Genau. Vladimir hat sich noch bedankt für die ausführliche Antwort bezüglich dem Unterschied zu Lombok. Jetzt bin ich mir unsicher. Wir haben jetzt noch irgendwie ein paar Minuten Zeit.
+
+### Dokumentation generieren
+
+**Eberhard Wolff:** [0:53:50] Genau, du wolltest, glaube ich, noch was sagen zum Thema Dokumentationsgenerierung, richtig?
+
+**Oliver Drotbohm:** [0:53:54] Ja, also das ist jetzt eigentlich auch ein Thema, was aus dem etwas größeren oder auch in dem Fall wieder Spring-spezifischeren Kontext aufkommt, ist, dass man sagt, okay, wenn ich jetzt diese, ähnlich wie wir vorhin in der IDE gesehen haben, dass es möglich ist, diese Stereotypen aus dem Code herauszuholen und in dem Fall in der IDE direkt anzuzeigen, wäre es ja eigentlich auch nicht so verkehrt, wenn man jetzt so eine Applikation schreibt, wenn man da zum Beispiel mal einen Überblick bekommen möchte, welche Aggregate haben wir und so weiter, welche Services gibt es, welche Events zum Beispiel habe ich im System. Also jetzt zum Beispiel hier in dem müsste eigentlich, sind solche Dinge drin.
+
+**Oliver Drotbohm:** [0:54:36] OrderCompleted, das ist hier ein Event, der wird ausgezeichnet durch die jMolecules Event Types Domain Event. Also ich kann eine Klasse als Event-Typ deklarieren. Und es gibt in dem Spring Modulith-Projekt Dokumentationsgenerierung, die jetzt also sagt, wir sagen ja da, es gibt Module, auch eine Modul-Abstraktion gibt es bereits in jMolecules, aber in Spring Modulith ist das halt explizit sozusagen der Kern der Technologie in gewisser Weise. Und ich will da sehr explizit pro Modul eigentlich auflisten können, welche Aggregate werden exponiert, welche Services, welche Events werden exponiert, welche Events werden gelauscht, auf welche davon wird gelauscht. Und dafür kann man dann eben mit dem, in dem Fall ist das hier Spring Modulith, kann man dann relativ einfach Dokumentation generieren.
+
+**Oliver Drotbohm:** [0:55:33] Die sieht dann so aus, dass hier in einem Verzeichnis, also man führt diesen Test aus, sagt hier New Documenter, dann das Application Modules, die Abstraktion dahinein und sagt dann Write Documentation. Ich finde das so schön, weil das so …
+
+**Eberhard Wolff:** [0:55:47] Mach mal.
+
+**Oliver Drotbohm:** [0:55:48] … tue das Richtige (TM) ist. Und man bekommt dann sowohl Komponentendiagramme, die jetzt sich rein auf die Modulstruktur beziehen. Ich weiß nicht, ob das gerade funktioniert. Naja. Und da kriegt man so ein PlantUML-Modell, beziehungsweise man kann sich auch ein C4-Model Component Diagram, das ist sogar der Default eigentlich, generieren lassen. Und man bekommt, ich mache das mal beim Inventory, glaube ich, auf, man bekommt ein sogenanntes Application Module Canvas. Der ist in dem Fall nicht, also der ist jetzt nicht so umfangreich, weil in dem Beispiel halt notgedrungen nicht so viele Sachen drin sind. Aber das listet eigentlich quasi die interessanten Teile des Moduls, die nach außen sichtbar sind, auf. Also ihr seht das quasi hier: Das Inventory ist quasi eine Spring-Komponente, ein Service, ein DDD-Service, der exponiert wird, der benutzt halt das Order Management, also das kriegen wir durch die Code-Analyse raus.
+
+**Oliver Drotbohm:** [0:56:45] Und Out of Stock beziehungsweise Order Completed und Product Added sind Events, mit denen interagiert werden. Und diese werden halt dadurch gefunden, dass die Konzepte in der Codebasis hinterlegt sind. Das heißt, ich muss jetzt nicht, da könnten irgendwie 20.000 Klassen drin sein und dann sieht man den Wald vor lauter Bäumen nicht. Durch das Ausdrücken der Stereotype finden wir die, in Anführungsstrichen, interessanten Teile der Codebasis und können die dann entsprechend analysieren. Also bei den Events, auf die wir lauschen, steht dann eigentlich: Da gibt es eine – ja, das funktioniert natürlich nicht, da ist jetzt irgendwie so eine sinnlose URL hinterlegt. Normalerweise kann man das Javadoc verlinken, aber Order Completed ist … Das kommt aus dem Inventory, das müsste dann – lasst mich nochmal kurz schauen – Inventory Listener.
+
+**Oliver Drotbohm:** [0:57:34] Und da wird auf Order Completed gelistet. Da gibt es eine zusätzliche Integration, die habe ich jetzt hier nicht aktiv, aber die würde dann in dem Fall das Javadoc noch auswerten und in diesem Application Module Canvas mit hinterlegen. Das heißt, dann kriegt man mit, ah, der Bestand ist an dem Order Completed Event interessiert, aus folgenden Gründen, die man dann ... Dann lohnt es sich quasi wieder Javadoc zu schreiben, weil es dann in sinnvoll entwicklerlesbarer Dokumentation sich wiederfindet. Also das ist quasi auch hier wieder der Mechanismus, Konzepte im Code zu hinterlegen, die kann ich extrahieren und auf eine gewisse Art und Weise dann in Entwicklerdokumentation extrahieren. Und das sind dann halt Snippets, die man dann in einem normalen Asciidoctor-File einfach in dem Index, das ich hier habe, source main asciidoc, würde man einfach hergehen und sagen, hier man inkludiert die dann halt alle und dann schreibt man dazwischen ein bisschen Prosa dazu, bekommt aber in diesen Snippets immer einen aktuell korrekten Überblick über das entsprechende Tool. Und jMolecules ist sozusagen der Mechanismus, auf den wir da schauen, um die Elemente zu finden, die wir da ausziehen wollen.
+
+### Events nach außen und Spring Data JDBC
+
+**Eberhard Wolff:** [0:58:46] Genau, vielleicht ein Hinweis: Also ich vermute mal, dass diese Events halt basieren auf dem integrierten Spring-Event-Mechanismus, das heißt, die laufen halt dann in derselben JVM. Da war noch eine Frage.
+
+**Oliver Drotbohm:** [0:58:58] Das ist jetzt der … Das ist richtig, das ist der Natur dieses, des monolithischen Ansatzes geschuldet. Es gibt jetzt, könnte man natürlich auch hergehen und sagen, man schaut sich die an, die nach draußen, also außerhalb des Systems externalisiert werden oder so.
+
+**Eberhard Wolff:** [0:59:13] Das kann ich auch irgendwo sagen, dass jetzt die Events, die ich hier abstrakt definiert habe als DDD-Events, dass die dann auch nach draußen gehen, also als Kafka-Events oder so, das geht auch?
+
+**Oliver Drotbohm:** [0:59:23] Das geht, das ist aber ein Spring-Modulith-Thema, das ist dann in dem Fall nicht jMolecules-spezifisch, aber das geht auf jeden Fall.
+
+**Eberhard Wolff:** [0:59:29] Der Jens hat noch gefragt, hatte ich das richtig mitbekommen, da geht es nochmal um diese Persistenz-Boilerplate-Geschichte, dass Spring Data JDBC auch unterstützt wird?
+
+**Oliver Drotbohm:** [0:59:37] Das ist korrekt. JPA, Spring Data JDBC und MongoDB werden aktuell unterstützt.
+
+### Einstieg
+
+**Eberhard Wolff:** [0:59:44] Gut. Ich glaube, dann haben wir es soweit, oder? Wie fange ich an? Also wahrscheinlich mit dem Projekt, was wir jetzt gerade gesehen haben.
+
+**Oliver Drotbohm:** [0:59:50] Genau, also man kann sich das anschauen. Man müsste, ich hatte vorhin gehofft, dass ich in dem ersten Block auch so eine ... Also hier auf jeden Fall in dieser Boilerplate-Episode, da ist drin, da kriegt man hier so Bestellungen und da sind hier ein Haufen To-dos drin. Und wenn man die irgendwie in Reihenfolge angezeigt bekommt, dann kriegt man die auch Schritt für Schritt, sodass man dann eigentlich hier Schritt für Schritt JPA-Annotationen wegwerfen kann. Also wenn man am Freitag Nachmittag nichts Schöneres machen will, dann kann man JPA-Code loswerden.
+
+**Eberhard Wolff:** [1:00:18] Genau, da gibt es dann eben Kommentare mit To-do-Doppelpunkt und dann muss man eben die To-dos …
+
+**Oliver Drotbohm:** [1:00:24] Genau, da kann man Schritt für Schritt durchgehen. Und das Witzige ist, der Test bleibt …
+
+**Eberhard Wolff:** [1:00:27] So eine Art Self-Paced-Tutorial.
+
+**Oliver Drotbohm:** [1:00:29] Genau. Das ist wichtig.
+
+### Verabschiedung
+
+**Eberhard Wolff:** [1:00:32] Gut, dann haben wir es, glaube ich, soweit, nicht?
+
+**Oliver Drotbohm:** [1:00:35] Ja, vielen Dank für die Möglichkeit, das hier so ...
+
+**Eberhard Wolff:** [1:00:39] Ich danke, weil das war, glaube ich, sehr interessant, eine sehr gute Ergänzung und auch eine spannende und interessante Folge. Nächste Woche gibt es keine Folge, aller Voraussicht nach, weil ich das einfach zeitlich nicht auf die Reihe bekomme. Und dann würde ich sagen, sieht man sich vielleicht irgendwo nochmal. Und ich wünsche schon mal ein schönes Wochenende.
+
+**Oliver Drotbohm:** [1:01:03] Vielen Dank. Ciao, ciao.
+
+**Eberhard Wolff:** [1:01:04] Bis dann, tschüss.
