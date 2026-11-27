@@ -1,0 +1,704 @@
+# Fishbowl 'Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture'
+
+Software Architektur im Stream, episode 344, 2026-11-17.
+A fishbowl about friction in software architecture and in teams, with Sam Newman, Jacqui Read, Dylan Beattie, Gitte Klitgaard, Allen Holub, and Adele Carpenter
+Page: https://software-architektur.tv/2026/11/17/fishbowl-friction-feature-navigating-inevitable-tensions-software-architecture.html
+YouTube: https://www.youtube.com/watch?v=Zq1qwX2U2mY
+PeerTube: https://tube.tchncs.de/w/dAqi5zpjmFLJvFSPecMJx3
+MP3: https://1evriw.podcaster.de/download/Fishbowl.mp3
+
+> **Note for the LLM:** The reader wants to talk about this episode of Software Architektur
+> im Stream. Start with two or three sentences of orientation, then ask what they would like to
+> explore, and offer a few entry points.
+>
+> Base your answers on this file. Keep three sources apart and say which one an answer comes
+> from: this episode, other sources you looked at, and your own knowledge. Summary, bullet points
+> and transcript were created with AI and may contain errors; the video is the authoritative
+> source. Never attribute a statement to someone who did not make it. If the transcript has no
+> speaker labels, don't guess who said what. If an AI took part in the episode, don't present
+> its contributions as the view of the humans. If the episode does not cover a question, say so
+> first.
+
+## About the episode
+
+Software architecture doesn’t live in diagrams – it’s forged in the
+gaps between teams, technologies, timelines, and trade-offs. Today,
+that landscape is shifting fast. LLMs and agentic workflows promise to
+erase friction – but often amplify it through toolchain sprawl,
+quality drift, and shifting accountability.
+
+Yet friction is a signal. The most resilient teams channel it through
+shared understanding, recognizing that we’re shaping socio-technical
+systems – aligned through collaborative modelling woven into everyday
+decisions across architects, developers, QA, analysts, etc.
+
+This fishbowl session confronts the reality behind the hype: how
+AI-generated code collides with architectural rigor, QA concerns, and
+production constraints. We’ll examine classic tensions (Conway’s Law,
+legacy vs. innovation, business urgency vs. technical debt) alongside
+new ones (toolchain sprawl, quality drift, over-reliance on generative
+AI).
+
+As a conference attendee, you’re invited to step into the circle and
+challenge assumptions. Whether you’re an architect, engineer, QA lead,
+or system analyst, you’ll walk away with a refreshed perspective of
+timeless insights – and the courage to question them when it matters
+most.
+
+This is a live stream from iSAQB Software Architecture Gathering.
+
+## Summary
+
+At the iSAQB Software Architecture Gathering, Lisa Maria Schäfer and
+Lucas Dohmen moderated a fishbowl with Sam Newman, Jacqui Read, Dylan
+Beattie, Gitte Klitgaard, Allen Holub and Adele Carpenter. Two seats on
+stage were open for the audience, and the audience answered polls on
+their phones. Lucas explained the title: friction is being removed in
+projects, for example when a chatbot answers what you used to ask the
+security team; some friction is good and some is bad.
+
+### What Has Changed
+
+Gitte sees a need for more engineering practices and more collaboration,
+and observes the opposite: shortcuts, and people who work on their own,
+so that the rest of the team finds new code in the morning and doesn't
+know what it does. For Sam, the things we thought were good are still
+good; AI is "like a magnifier" for poor communication, documentation and
+architecture.
+
+Dylan noted that AI is forcing institutions to write their decisions
+down. Allen objected. In some shops there is a "huge leap back to
+waterfall" with gigantic specifications, which almost guarantees that
+the LLM builds the wrong thing. Dylan saw a difference: waterfall took
+six months and $10 million to fail, and now "you can discover by tea
+time that you got it completely wrong". Jacqui doubted that writing
+things down helps if nobody understands the connections between the
+information. Gitte wants to write down the right things, for example in
+a decision log. Adele asked for the same hygiene for documentation as
+for code.
+
+In the poll, 74% said that software architecture has not fundamentally
+changed in the last year, and 82% said that team dynamics have.
+
+A person from the audience, addressed as Avraham, pointed out that much
+of our shared understanding and thinking out loud happens in spoken
+language, which an LLM has no access to. Allen finds working with LLMs
+isolating for some people: "an LLM is not a person".
+
+### What Has Stayed the Same
+
+Small changes are still good, said Sam: the teams that do really well
+with AI work in really small increments. Allen sees a paradox: the
+companies that use AI most effectively already had solid engineering
+practices. AI is an amplifier, "and it amplifies the bad really
+effectively". Avraham called getting from imagination to a working
+system a problem we will never solve, because with every new tool we
+push ourselves harder. Jacqui expects more hype cycles; spec-driven
+development reminds Jacqui of model-driven development.
+
+Gitte asked what value all this provides: "what we really need is to
+become slower". Adele: "Users just want their shit to work." Allen added
+that an LLM makes competition easy, so companies have to compete by
+solving real problems for real people.
+
+### Agile Does Not Mean Fast
+
+Jacqui would replace "agile" with "adaptable", because the business
+hears "fast". Allen blamed Sutherland's "twice the work in half the
+time": the only extra speed in an agile process comes from not building
+what nobody wants. Sam explains agile as reducing the cost of making a
+mistake and is not sure whether AI does that. Jacqui: "we're just
+reducing the time it takes to spend the money and make the mistake". In
+another poll, 70% said that the importance of soft skills has changed
+due to AI. Gitte prefers to call them human skills.
+
+### What Friction Means
+
+For Adele, friction means being challenged on ideas by colleagues. Dylan
+noted that friction has a negative connotation, but when it is useful we
+call it traction: with zero friction, Formula One cars wouldn't move.
+Adele: "You microdose the friction or you'll OD later." Allen doesn't
+like this framing. In a psychologically safe environment people can
+disagree and argue, and it's fine. Real friction for Allen is
+organizational: in almost every company Allen deals with, management
+prevents the company from doing what it needs to do to be successful.
+Sam took up the racing analogy: sometimes you have to go slower to go
+faster. The teams that got the most out of AI took the time to talk, to
+experiment and to share ideas. Asked what friction is, the audience
+named challenge, disagreement, conflict, learning, discussion and
+change.
+
+### More Friction, Less Friction
+
+Sam wants more teams to see the value of slowing down to talk, and less
+friction for experiments during the working day. Allen agreed that
+learning is a normal work activity and should be paid, and told of a
+startup where the whole company played cards after lunch: more work was
+going on during those card games than in the rest of the week. For
+Gitte, typing is a small part of development, but it is what looks like
+work. Sam quoted a client who wants people "to spend more time being
+more human". Gitte wants us to embrace our differences: at IBM, the team
+made space for a developer who was different, because that difference
+brought a lot of value.
+
+A second person from the audience reported that the friction in
+generating code went basically to zero. Some of this person's teams now
+add friction on purpose: every tenth pull request gets an AI-generated
+quiz that has to be filled out. The friction to remove, in this view, is
+the business process around an average ticket, which still takes four
+days instead of five. Sam loved the idea of the quiz: "That's genius."
+
+## Bullet points
+
+### Key Takeaways
+
+- Sam Newman sees AI as a magnifier: it surfaces poor communication, poor documentation and poor architecture, and reinforces practices we already knew were good
+- Small changes are still good, says Sam: the teams that do really well with AI work in really small increments
+- Allen Holub warns of a "huge leap back to waterfall": gigantic specifications before coding almost guarantee that the LLM builds the wrong thing
+- Dylan Beattie sees a difference from the old waterfall: it took six months and $10 million to fail, now you can discover by tea time that you got it wrong
+- Gitte Klitgaard wants teams to write down the right things, for example in a decision log, and to talk about value and the why instead of producing as much code as possible
+- Jacqui Read doubts that writing things down helps when nobody understands the connections between the information
+- Adele Carpenter asks for the same hygiene for documentation as for code: next to the code and in source control
+- Avraham from the audience reminds the panel that much shared understanding happens in spoken language, which an LLM has no access to
+- For Allen, AI is an amplifier that amplifies the bad really effectively; the companies that use it best already had solid engineering practices
+- Agile was never about speed, says Allen; the only extra speed comes from not building what nobody wants
+- Dylan: when friction is useful we call it traction; with zero friction, Formula One cars wouldn't move
+- Adele values the friction of being challenged by colleagues: "You microdose the friction or you'll OD later."
+- Allen sees real friction in organizations where management prevents the company from doing what it needs to do
+- Sam: sometimes you have to go slower to go faster; the teams that got the most out of AI took the time to talk, experiment and share ideas
+- A person from the audience adds friction on purpose: every tenth pull request gets an AI-generated quiz
+
+### Core Questions Addressed
+
+- What has changed in software engineering and team dynamics this year?
+- Is writing everything down for the LLM a good thing?
+- What has stayed the same?
+- Does agile mean fast?
+- Has the importance of soft skills changed due to AI?
+- Which frictions did the panelists notice in their work this year?
+- Is friction a negative thing?
+- Where should there be more friction in teams, and where less?
+
+### Glossary of Key Terms
+
+- **Fishbowl**: A discussion format with open seats on stage; whoever wants to contribute takes a seat and joins in
+- **Friction**: In Lucas Dohmen's introduction, for example having to ask the security team or a deployment that is hard to do; the panel also used the word for conflict, for being challenged and for whatever slows a team down
+- **Traction**: What we call friction when it is useful, according to Dylan
+- **Psychological safety**: An environment where people can disagree and argue, and it's fine, as Allen put it
+- **Decision log**: A written record of decisions; Gitte's example is seeing what was decided after a week away
+- **Human skills**: Gitte's preferred term for soft skills, "because it's not soft"
+
+### Technologies and Works Mentioned
+
+- **Claude**: Mentioned by Sam for teams that talk to each other instead of to Claude, and in a joke by Adele
+- **ChatGPT**: Dylan's example of stale information: for a long time it named the wrong prime minister of the United Kingdom
+- **RAG**: Allen would dump meeting transcripts into an LLM using RAG and search them later
+- **Microsoft Word and Outlook**: Allen's and Adele's examples of user interfaces that keep changing
+- **Artcraft**: Project described by Dylan that cloned office and graphics software with the same menus in the same place; name as heard
+- **Extreme programming**: Gitte would go back to it and start from there
+- **Scrum**: According to Allen, not even Scrum was about "twice the work in half the time"
+- **Model-driven development and UML 2.0**: Jacqui sees spec-driven development repeating model-driven development; Sam adds "don't do UML 2.0"
+
+## Transcript
+
+## Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
+
+The opening trailer (0:00:00 to 0:01:03) is omitted. The panel took place as a fishbowl at the iSAQB Software Architecture Gathering, so people from the audience could join on stage. Lisa Maria Schäfer and Lucas Dohmen moderated. Two people from the audience took a seat: one is addressed by a first name that the transcription models hear as "Abraham" or "Abram"; the spelling Avraham is an assumption. The other is greeted with a name that sounds like "Igno" and could not be verified, so that person appears as Audience member. The audience also answered polls on their phones. Some names are spelled as heard, a few short interjections are omitted, and what is quoted is in quotation marks.
+
+The links after each timestamp jump to that point in the video (YouTube). PeerTube runs in sync with YouTube. In the podcast (MP3) the point comes about 63 seconds earlier than the link, because the MP3 starts without the opening trailer.
+
+### Welcome and rules of the fishbowl
+
+**Lisa Maria Schäfer:** [0:01:03] Hi there, and welcome to another episode of Software Architecture in Stream. We have a fishbowl coming up called Friction as a Feature: Navigating the Inevitable Tensions of Software Architecture. Our guests here on the panel are Sam Newman, Jacqui Read, Dylan Beattie, Gitte Klitgaard, Allen Holub, sorry, and Adele Carpenter. Yeah, and Lucas and me, Lisa, are moderating this. We kept it small for the introduction to give you more time for the discussion, but Lucas will explain more on this.
+
+**Lucas Dohmen:** [0:01:40] Yeah, so we have a fishbowl, so you can see there are two open seats. If you feel like you want to contribute to the discussion, you can come on stage if there is an open seat and take it, right? And then you can jump in. We will be moderating with a time box because we know there are quite a few people and you want to listen to all of their wise words, right? So we have a bit of a timer here so we can keep it in check, and that's basically the rules. So let's see where we go, right? Do you want to say something?
+
+**Sam Newman:** [0:02:12] No.
+
+**Lucas Dohmen:** [0:02:13] Okay.
+
+**Lisa Maria Schäfer:** [0:02:13] But you're prepared to discuss.
+
+**Lucas Dohmen:** [0:02:15] Okay.
+
+**Sam Newman:** [0:02:17] Empathy? Oh, yeah.
+
+**Lisa Maria Schäfer:** [0:02:18] Thank you very much. So our speakers have some of those sheets to share their thought when someone else is speaking, and you wanted to explain what friction is, I guess.
+
+**Lucas Dohmen:** [0:02:28] Yes. And also there will be a chance for you to also answer some questions. We will get back to that in a bit.
+
+### Why friction is in the title
+
+**Lucas Dohmen:** [0:02:36] So there is friction in the title. Why is there friction in the title? We discussed a bit, like, what we want to see and what we want to discuss with the people. And what we see is there is a tendency where, like, maybe we are removing friction in our projects, right? Maybe before you needed to talk to security and talk to them and ask, like, "Is that okay?" And now maybe you're asking a chatbot or something, right? That is reduced friction, right? Or it could be before it was really hard to get a service deployed, and now it's super easy because I just click one button and it's there.
+
+**Lucas Dohmen:** [0:03:14] So there are good frictions and there are bad frictions, and we want to see what changed about that in the time and what things we maybe should not change, even though there are changes happening. So that's what we're doing tonight. Cool.
+
+**Lisa Maria Schäfer:** [0:03:29] I have nothing to add.
+
+### Questions for the audience
+
+**Lucas Dohmen:** [0:03:30] Awesome. Then we can start with the slides. Oh, yes. Thank you. Then let's go with the first question for the audience, I think, right? What you see here is a QR code. If you scan that, you will be able to answer the question that is on the slide, and then we will later see the result. The first question for you will be: Has software architecture changed fundamentally in the last year? It's a very simple yes or no question. There is no "it depends" option. And the second question is: Have team dynamics changed fundamentally in the last year? So if you scan that QR code, you will be able to answer those questions, and I will now show the first question to you. So if you scan the barcode, you should see the first question, and I will switch to the second one a bit later.
+
+**Lisa Maria Schäfer:** [0:04:21] Yes.
+
+### What has changed this year?
+
+**Lisa Maria Schäfer:** [0:04:21] And while you are handling your phone and discussing on the phone just with yes and no, you on the stage get the first question from us, and it is: What do you think has changed within this year in working on software engineering and team dynamics? And I will give someone the word so that you don't have to discuss who starts, and I think Gitte wants to talk first.
+
+**Gitte Klitgaard:** [0:04:47] Yeah, I always want to talk. I think it's changed a lot. I see a need for more and more good engineering practices and for more and more collaboration. And what I see is the opposite. I see shortcuts in engineering practices, and I mean, we kind of need the engineering practices we've been talking about for 25 years. We need better documentation. We need quality. We need to talk to the client more and figure out what they actually need, because they don't know. And we need to help them figure out what they need. And team dynamics are changing because it's so easy for people to do stuff on their own.
+
+**Gitte Klitgaard:** [0:05:25] And there are people who like to do stuff on their own, so the rest of the team can come in in the morning and there is new code, and they don't know what it does. I have to handle conflicts in several teams, things like that, or when they're talking about AI and one is talking about vibing and somebody else is talking about agentic coding, but they think they're talking about the same thing, so they get into a discussion. So I do see that there's a need for more of these things, and I see it's not there. I mean, we've never been good at documenting because it's always like, we can do this later.
+
+**Gitte Klitgaard:** [0:06:01] But the thing is, I mean, LLMs don't have a memory unless we give it to them. Humans mostly have memories and we'll be like … Oh yeah, I know. Talk to Dylan, he knows. But LLMs don't, so we need to document more. Yeah, I know you don't know. So I think that we need it more and more, and we're doing it less and less.
+
+**Lisa Maria Schäfer:** [0:06:26] Great. Who wants to talk next? Shall I just pick someone or … Dylan, thank you.
+
+**Dylan Beattie:** [0:06:31] I can add one very quick comment about the memory, which was a thing I saw today, an internal memo from Anthropic saying we have to clamp down on face-to-face meetings and undocumented conversation because the AIs cannot read the context. And I saw a response to this from a friend of mine, Arthur Doler, who was like, AI is making companies do the thing that humans have wanted for years, which is to write the decisions down. And I very nearly said, yeah, the difference is AI actually reads the documentation. And so now we have a reason to write it. And I don't know where I stand on this, but it is fascinating the extent to which AI is finally forcing institutions to have all of their decisions and everything in an accessible text format instead of just in people's heads, because otherwise the agents can't work with it. I do not know if this is a good thing or a bad thing, but it's a thing. And it's a thing we didn't have a year ago. So yes, it has changed.
+
+**Lisa Maria Schäfer:** [0:07:24] Great. I think Sam wants to add something.
+
+**Sam Newman:** [0:07:26] I was just going to say that Larry Ellison famously didn't like writing things down because then you can get sued over it. And so a lot of meetings in Silicon Valley would be face to face. I was at Google. They had an off-the-record mode where messages would not be stored, so you couldn't get sued over it. So if actually people writing things down mean we get to sue them for the stupid shit they do, I'm on board. It's going to be great. I do, though, coming back to the kind of how are things changing, I actually think the things that we thought were good things to do are still good things to do.
+
+**Sam Newman:** [0:07:59] In the same way that AI has helped shine a light on insecure software that was always insecure, it's like a magnifier, right, in that sense. These are problems we knew we had; we just find them much more easily. I think it's surfacing issues about poor communication, poor documentation, poor architecture more. And if anything, it's reinforcing what we've always known. And so although right now might be quite scary and tumultuous, if it actually helps us see the value of some of those good practices more quickly, aside from destroying the planet, it's a good thing.
+
+**Lisa Maria Schäfer:** [0:08:39] Thank you very much.
+
+### Is writing things down a good thing?
+
+**Allen Holub:** [0:08:40] You know, thinking about what Dylan just said, I don't know that writing stuff down is that good a thing. One of the things that I'm seeing going on in the AI shops is there's this, in some shops, this huge leap back to waterfall. Suddenly people want to write these gigantic specifications before they even start coding because they, I guess, they figure that that'll make a good prompt for the LLM, but it means you're going to be building the wrong thing. It's almost a guarantee that the LLM is going to be building the wrong thing. And so I'm seeing this documentation push as an excuse to do stuff that, for some reason, people still want to do even though we know damn well that it doesn't work at all.
+
+**Allen Holub:** [0:09:20] And it disturbs me, right? That giant step backwards is an excuse for doing the wrong thing. And, you know, part of that is that people don't like to … a lot of engineers don't like to talk to anybody, much less engineers. And if you write down these giant specifications ahead of time, you can not talk to people in order to do that. So it's kind of encouraging us in the wrong direction. I'm not happy with that.
+
+**Dylan Beattie:** [0:09:49] Can I add one very quick thing to that? I think the big difference between waterfall historically and now is that with waterfall, it took you six months and $10 million to realize it didn't work. And now you can discover by tea time that you got it completely wrong. And that is a very, very kind of different way of looking at it.
+
+**Gitte Klitgaard:** [0:10:06] After you wrote specifications for six months.
+
+**Jacqui Read:** [0:10:11] But it can still cost you $10 million.
+
+**Lucas Dohmen:** [0:10:16] So you can spend the $10 million much faster. That's an advantage. Do you have …
+
+**Lisa Maria Schäfer:** [0:10:22] I think Jacqui wanted to say something.
+
+**Jacqui Read:** [0:10:23] Yeah, I would totally agree with the writing things down, like has been said here. You can write a lot of things down, but is it actually useful to write those things down? Does it still give us any understanding of what we're doing? There's an awful lot of companies that have got an awful lot of things written down somewhere, and it used to be in a filing cabinet, and then they digitized it and moved it somewhere else. But they've moved the information, but they don't understand the connections between all the information. And AI doesn't understand the information connections either. So just writing stuff down doesn't help.
+
+**Gitte Klitgaard:** [0:11:02] I think it's a matter of writing the right things down. I mean, I've worked with so many teams where I helped them make a decision log, and they go like, "Oh, that means that when I'm away for a week, I can see what decisions have been made." And I mean, if we make big architectural decisions, we should write them down. But again, what we do as humans is we go all the way and say we need to document everything. No, we don't. We need to document the right things, and we need to make sure everyone knows the decisions. What happens often is that you have a meeting, decisions are made, and they're not written down anywhere. And then you discover them by accident when there's something that doesn't work. Having decision logs or similar things, I think, is super, super helpful. And we should also have done that the last 25 years.
+
+**Allen Holub:** [0:11:47] People don't know what the right things are. Well, yeah, you're much more of an optimist than I am. I'm an eternal pessimist here. But if you don't know what the right things are, then the solution is to write down everything and then you search to find things when you need to. And one of the things that an LLM is good at is searching. So that's almost an argument for capturing everything, though I don't know if you would write it. If you're having a meeting, I would much rather just record it and have some automated transcript made and have that dumped into a LLM using RAG or something, and then we can find it later by asking the LLM, which is kind of recording, but it's not really writing stuff down.
+
+**Allen Holub:** [0:12:28] It's just keeping a record. But I have to say, in the LLM's favor, it can find stuff, right? The problem with doing that before is you could never find anything, this massive amount of notes that you took.
+
+### Documentation hygiene and stale documents
+
+**Lisa Maria Schäfer:** [0:12:42] Do you want to add something, Adele? So I think you didn't speak right now.
+
+**Adele Carpenter:** [0:12:45] I think there's, like, an argument for formalizing that, though, and making it, like, easy for the LLM to find. I think we need to show the same hygiene for our documentation that we show for our code, that we've traditionally shown for our code. So our documentation now lives next to our code. It's in source control. It can actually be edited, and it can also be, like, streamlined or made readable for the LLM because it does become part of the context. And so we want to make sure that the LLM has what it needs when it needs it, and part of that is good document hygiene.
+
+**Sam Newman:** [0:13:20] Just to add to maybe coming back to this idea that this will help us do things we should always have done, the value of documents in the past was lower, therefore we didn't necessarily see the importance of doing them, although they're still valuable. But now the importance of documentation is higher because with good documentation we're more likely to get good answers out. So maybe that will create more of a drive to capture things well. But I think picking up on Adele's point, there's also something there which is about the way we capture that information might need to be captured in different forms than just a Markdown file.
+
+**Allen Holub:** [0:13:57] Well, the other documentation gets stale, though, always, very quickly. When something is ephemeral in its nature, I'm reluctant to keep it around when it doesn't have any meaning anymore, when it's describing the wrong thing. You know, you write a big spec and the LLM implements it, but next week you will have written something else that will have changed half of what you did last week. And, you know, you talk about document hygiene, but the more documentation you have, the harder it is to keep it accurate. I'm sorry.
+
+**Dylan Beattie:** [0:14:29] It was a great example of this. Over the last two years, the United Kingdom changed prime ministers more often than ChatGPT released new models. So for most of the time, if you asked it who was the prime minister, it would get it wrong because the information it had was stale and there was no way to update it.
+
+**Lucas Dohmen:** [0:14:46] But there might be also a different problem there. But who knows?
+
+### Poll: architecture unchanged, team dynamics changed
+
+**Lisa Maria Schäfer:** [0:14:50] Do you want to look at the chat?
+
+**Lucas Dohmen:** [0:14:51] Yes, let's look at the first results that we gathered. Okay, so has it fundamentally changed? 74% say no.
+
+**Lisa Maria Schäfer:** [0:15:02] Did you have expected this?
+
+**Lucas Dohmen:** [0:15:05] No, that's my opinion, but I didn't expect it to be the majority opinion, so that's nice. So let's look at the other question.
+
+**Sam Newman:** [0:15:15] Is this vibe coded?
+
+**Lisa Maria Schäfer:** [0:15:18] Oh no, you're noticed. But if it's not there, then just share the …
+
+**Lucas Dohmen:** [0:15:24] Okay, I will just read from the screen here. Yes, please. So, no, now it's just jumping around. Maybe it's vibe-coded. You're right. Not by me, because I'm not doing that. Have team dynamics changed? 82% say yes. So software architecture has not fundamentally changed, but team dynamics have. So that's interesting.
+
+**Lisa Maria Schäfer:** [0:15:44] That's right.
+
+**Lucas Dohmen:** [0:15:45] Cool. So let's go to the next slide.
+
+**Lisa Maria Schäfer:** [0:15:49] So you're the first one.
+
+**Lucas Dohmen:** [0:15:51] Do you think the importance of soft skills have changed due to AI? That's a question for the audience, and you can now start voting.
+
+**Lisa Maria Schäfer:** [0:16:01] Okay.
+
+### Spoken and written language
+
+**Lisa Maria Schäfer:** [0:16:04] Avraham, did you come to the stage to say something to the first question, or do you want to be here for the second question?
+
+**Avraham (audience):** [0:16:11] Can I say something to the first question?
+
+**Lisa Maria Schäfer:** [0:16:12] Yes, you're allowed.
+
+**Avraham (audience):** [0:16:15] So there's a fundamental difference. This is back to the written documentation versus spoken documentation. There's a fundamental difference between spoken language and written language. We learn how to speak by being around other speakers from infancy. We've been speaking for 50,000 years. We need to go to school in order to learn how to read and write. And a lot of our shared understanding, a lot of our thinking out loud, a lot of our articulating our own thoughts happens in spoken word. It does not happen in written word. And that can't be written down, and it shouldn't be written down. And the LLM doesn't have access to that mode of thinking.
+
+**Avraham (audience):** [0:16:58] We write down what we think is worth writing down as a decision, as a consensus of some sort, as something that needs to be remembered. But not everything that we said needs to be remembered. And I'm very frightened when they say no more face-to-face meetings. Everything should be moderated and mediated through the LLM. What's going to happen to body language? What's going to happen to intonation? What's going to happen to eye contact? What's going to happen to the way we speak? And that brings us into the soft skills. Learning how to communicate, and learning how to convince somebody, and learning how to inspire somebody and to motivate somebody and believe in somebody is not something that an LLM knows how to do. It's something that we know how to do, and we have to maintain that ability. See, I answered two questions.
+
+**Lucas Dohmen:** [0:17:45] Thank you.
+
+**Lisa Maria Schäfer:** [0:17:45] Thank you very much. Yeah, that was a great add-on.
+
+**Sam Newman:** [0:17:47] No, that's not on. We didn't get applause.
+
+**Lisa Maria Schäfer:** [0:17:52] Because you were here from the beginning, so they thought you were paid for this or something like that.
+
+**Gitte Klitgaard:** [0:17:58] Is it because you didn't get any applause?
+
+**Sam Newman:** [0:18:01] No, I just wasn't hugged enough as a child, Gitte.
+
+### Working alone with an LLM
+
+**Allen Holub:** [0:18:05] I agree with that. One of the things that bothers me about working with LLMs too much is that I find it very isolating for some people. It's too easy to work alone. And particularly when you're working remotely, which I'm dubious about anyway, is that, of course, we're all going to work remotely on and off, but I think we need to get together physically and talk to each other enough that we're relating to each other as human beings. And if you're working remotely all the time and working alone and working with nothing but an LLM and not talking to anybody at all, I don't think that's a good thing.
+
+**Allen Holub:** [0:18:37] And it's not just because of the communication stuff, but it's because of the thinking process. I think we think differently when we're talking to other people than we do when we're interacting with a machine. And an LLM is not a person. People keep trying to turn them into people, and they're not. You can't have a discussion with an LLM. I'm sorry. It's that half the stuff it says it makes up, and the other half of the stuff it doesn't understand what it's saying. It doesn't understand anything. So how can you have a discussion with somebody who doesn't understand something?
+
+**Dylan Beattie:** [0:19:06] Have you ever had a conversation with a salesperson?
+
+**Allen Holub:** [0:19:09] Well, okay.
+
+### Speaking different languages
+
+**Gitte Klitgaard:** [0:19:16] Well, I think that's also a really good example of why we need to get better at communicating, because we speak two different languages. Like some of the stuff I work with is helping developers understand what strategy actually means, because you write it in strategy language. Strategy language is made for a board. It's not made for, "what do I do when I sit here and code it?" When I had a gig at Spotify and they go like, "we want blah, blah, blah, a million more paying users", and I sit with a team that decides which song can be played in which country. And you need to be able to talk about these things and discuss these things.
+
+**Gitte Klitgaard:** [0:19:51] So I think we need to communicate a lot more. And I think you're right. We need to communicate in person, and we don't need to write everything down. And even if we record it, sometimes interesting things come out of the recording because there's something it doesn't catch. I mean, we're here, not all of us are native English speakers. Well, maybe I'm the only one that's not. We have Australians, we have British, we have … you know, so we talk different languages.
+
+**Adele Carpenter:** [0:20:15] Australian does not mean that I'm native English.
+
+**Gitte Klitgaard:** [0:20:18] You speak English language, right? It's more close to English than Danish is.
+
+**Adele Carpenter:** [0:20:27] It's a joke, you know, it's okay.
+
+### What has stayed the same?
+
+**Lisa Maria Schäfer:** [0:20:31] Okay. So let's start with the second question for the panel. The second question is: speaking of all these changes, what has stayed the same? Who wants to start, or shall I pick someone?
+
+**Sam Newman:** [0:20:46] I would like to start.
+
+**Lucas Dohmen:** [0:20:47] Do you want applause first?
+
+**Sam Newman:** [0:20:49] Pardon?
+
+**Lucas Dohmen:** [0:20:49] Do you want applause first?
+
+**Sam Newman:** [0:20:51] No, no, I'm okay.
+
+**Adele Carpenter:** [0:20:55] Are you the middle child, Sam?
+
+**Sam Newman:** [0:20:57] Well, it's just, it's my drug. Small changes are still really good. Working in small increments. I mentioned in the talk in the keynote about this growing gap between the teams that are doing really, really well with AI and those teams that are not doing well with AI. Other teams are doing really, really well with AI. When you talk to them, they're working in really, really small increments. They're still making small changes. Just because AI can generate vast amounts of code doesn't mean it has to. So small changes, continuous delivery, making sure code is always constantly releasable, having confidence that your code can be released and put into production, knowing what's happening in production. These are all things that are exactly the same.
+
+**Gitte Klitgaard:** [0:21:40] Also, that we still don't do what we're supposed to do. That's also the same. I mean, we're supposed to document. When I heard the keynote this morning, I was like, yeah, that's all cool, but you talk like everyone already has verification tools and automatic testing and guardrails and stuff. And most companies I run into have some. But I mean, I've even had … I work with developers who go like, "Oh, testing, that's super interesting." They think testing is either big integration testing or you test one class. So we still don't do what we're supposed to do.
+
+**Allen Holub:** [0:22:17] Well, there's a paradox there too, because from what I've seen, the companies that are most successful at using AI effectively are the ones that have good, solid software engineering practices in place already, right before they even start with the AI. And they're just continuing to do those things, but they're mixing in the AI as a way to help with the code. And that's not most companies, though, right? Most companies don't do that, and they don't see the need to do it, which means that their use of AI is probably more harmful than helpful in the long term. It's an amplifier, right? Gets us back to this notion of it's an amplifier, and it amplifies the bad really effectively.
+
+**Dylan Beattie:** [0:22:58] One thing I've seen stay the same: it has always been difficult to get non-technical people to understand the difference between something that looks like it's finished and something that is finished. And, you know, we had this with high-fidelity prototypes, with web mock-ups, we had it with even, you know, Photoshop things. You'd show someone and they'd be like, "It's on the screen and it looks right. When do we ship?" And you're like, "This is just a drawing. Like, we got six months of work ahead of us." And the difference between the first output of an AI system, like, you know, a sort of one-shot vibe-coded prompt thing, and they're like, "Well, this is good. We can go …" This is like, "Oh, no, no, no, no, no."
+
+**Dylan Beattie:** [0:23:33] And that's always been a challenge, and that has not changed at all. So, yeah, it's still knowing how not to make your boss or your client think that it's finished. You got to know what to show them and when. Otherwise they're like, "Well, this is done. Let's go for it." So, yeah.
+
+**Allen Holub:** [0:23:49] But I have to say, as a conference speaker, I look at a lot of conference programs, and I don't know if it's most, but certainly a lot of the talks are the same title that this person used last year, but they've tacked AI onto the end of it, right? So the subjects are all the same, but then they say "for AI".
+
+**Sam Newman:** [0:24:09] I've got a living to make, Allen. You can't call me out like that on stage.
+
+### Pushing to the limit and the next hype cycle
+
+**Avraham (audience):** [0:24:16] The fundamental problem of software development, which is how do I go from imagination to working system, is one that we haven't solved yet, and we never will. Because as soon as there's any methodology or technique or tool or technology that allows us to go from imagination to working system, we're going to push ourselves harder and we're going to want to do more, and we're going to push ourselves to the limit. And LLMs and AI did not change that. So if they're making us more productive or more efficient or more effective or more anything, we're pushing ourselves harder in order to get more out of the systems.
+
+**Avraham (audience):** [0:24:49] We never stop. We don't know how to stop. We don't know how to say when good enough is good enough. And that hasn't, fortunately, that hasn't fundamentally changed. That's why this is an exciting world to be in, and it will probably always be that way.
+
+**Lisa Maria Schäfer:** [0:25:02] Thank you.
+
+**Jacqui Read:** [0:25:03] I'd say that the hype cycle has certainly not stopped going on. We definitely got our hype cycle keep going, and also the pretty constant making the same errors and going, "Yeah, this will work again." Things like, I was talking to people earlier about model-driven development and how everyone thought that was a really good idea, and now we seem to be kind of doing the same sort of thing again with spec-driven development and putting all our documentation into AI. So I think that's just going to continue. We're still going to get these hype cycles. We're going to get the shiny new things, and what the next shiny new thing will be is anyone's guess, really.
+
+**Sam Newman:** [0:25:49] I think a very quick point off the back of that. Things also saying we'll keep reinventing wheels. Some of those wheels we might work out to make much better wheels, and some wheels will be model-driven development, and they won't work. So … but that's also good, right? But yeah, don't do UML 2.0. Grady will come for you. He has a special set of skills. He knows where you live.
+
+### What value does this provide?
+
+**Gitte Klitgaard:** [0:26:14] We should also ask, what value does this provide? It feels like the last year, two years, it's been like, "Ooh, we need AI" instead of going, "Will it help us? Will it help our users?" "No, we need AI." And AI is good for some stuff, and there's stuff it's not good at. We need to kind of, I feel like what we really need is to become slower. And I know that's not what a lot of companies want, but like, how much code do you actually want into production? Nobody wants to have their stuff updated every single day and not knowing where the button is. So don't put everything in production.
+
+**Gitte Klitgaard:** [0:26:48] Talk about the value. Talk about the why, instead of like, "Oh, I can do as much code as possible." And now we can also have an LLM test it, so we don't need testers either. Ooh … we need people. I think we should just go back to extreme programming and start from there. Maybe ditch the metaphor, because I hate that.
+
+**Adele Carpenter:** [0:27:10] But I was just going to say that users don't want more code. Users just want their shit to work. It's not that hard.
+
+### Microsoft Word syndrome and a cloned Photoshop
+
+**Allen Holub:** [0:27:20] Well, and they also, I think of this as Microsoft Word syndrome, where they make specious change after specious change to the UI, and nobody knows how to use it from version to version, not because it does anything better or different. It's just that they've changed everything, and you have to relearn it all over again.
+
+**Adele Carpenter:** [0:27:37] Or Microsoft Outlook syndrome.
+
+**Allen Holub:** [0:27:39] Yeah, well, that too.
+
+**Dylan Beattie:** [0:27:40] There is not a day goes by that I'm not using Microsoft Word, and I need to insert a footnote, and I click on the Insert menu to insert the thing, and that's not where it is. It's on References.
+
+**Allen Holub:** [0:27:49] It drives me crazy. And there's a limit to the rate at which people can absorb change.
+
+**Dylan Beattie:** [0:27:55] Have you folks seen a project called Artcraft, which is kind of, I don't want to use the word vibe coded, but they clearly didn't do this by hand. They've basically cloned all of Office, all of Adobe Creative Suite, Photoshop, Illustrator, and their biggest selling point is that all the menus are the same menus and they're in the same place and they have the same options. And it's weird, it's uncanny. It's like you bought fake Photoshop on Temu and all the right bits are in all the right places. But that to me is a really interesting, people don't want anything moved. The things that matter are they want to run it on Linux and they don't want to pay for it.
+
+**Dylan Beattie:** [0:28:27] That's the kind of killer feature. They make a big deal of the fact it's in Rust. End users couldn't give a shit if it's in Rust. You know, it does not matter. I mean, it mostly works, but … and I thought that was an interesting … what people want is they want Photoshop on Linux for free. They don't care that it's in Rust. They don't care that it's vibe-coded. They don't care what it does. They just want their familiar tool that'll open all their old files. And, you know, that is to me is a sort of really compelling understanding the value proposition of the thing that they're doing. And I'm watching it with some interest, and I wish them luck because I would quite like to be able to do that.
+
+**Allen Holub:** [0:29:05] It also makes me wonder why Adobe is not doing that. Right, there's a whole other issue, right, is that somebody comes in with a …
+
+**Dylan Beattie:** [0:29:10] They're still having meetings. They're still having meetings, right, … their AI adoption policy, and then they're going to have a vendor procurement process to decide on a model.
+
+**Allen Holub:** [0:29:18] Well, exactly. Right, and the problem, one of the biggest problems in software, of course, is competition. And an LLM makes it easy to have competition, is that somebody sitting in their living room in the evenings can come up with competition in a heartbeat. And a lot of companies' strategies seem to be based on the fact that it's hard to replace whatever they build or whatever they're selling. And it's not that hard anymore, which means that you have to start competing based on actually solving real problems for real people, right? And somebody who's just copying is never going to be able to catch up with that one. But too many companies, I think, are sitting on their laurels and not doing that.
+
+**Gitte Klitgaard:** [0:30:02] But also, what happens in six months? Is it still running in six months? Because it might run now, but, you know, code.
+
+**Dylan Beattie:** [0:30:11] This is no time to talk about the distant future, Gitte.
+
+**Gitte Klitgaard:** [0:30:15] I'm old. I need to think about my pension.
+
+### Agile does not mean fast
+
+**Jacqui Read:** [0:30:20] I wanted to come back to what you said about slowing down. I thought that was really interesting because I think the word agile is a bit of a problem with some companies because they think, well, at least the business thinks that means we're going to make everything fast and everything is going to get into production fast because it's agile, whereas that's not what agile is supposed to mean. And so I think if we start using better words like adaptable and become, we're going to adapt to things, that doesn't mean we're going to move quickly. It means that we are going to change when things change.
+
+**Adele Carpenter:** [0:30:56] But isn't that what agile, the actual like dictionary word, means? The ability to change direction quickly, not move in a straight line quickly, to change direction quickly.
+
+**Jacqui Read:** [0:31:07] Yeah, I think the quickly bit is the bit that we need to kind of try and drop, because that's not really what we're trying to do.
+
+**Adele Carpenter:** [0:31:15] We're trying to change direction and then move quickly in a straight line after changing direction. It's just changing direction quickly.
+
+**Jacqui Read:** [0:31:21] Yeah.
+
+**Allen Holub:** [0:31:22] Quickly. I blame Sutherland for all this, right? All that ridiculous twice the work in half the time bullshit. I just … I hate it, right? Because that's never what anything, that's not even what Scrum was about, much less what Agile was about. And people glommed onto that and ran with it. And when that sort of thing comes out of the people that are supposed to be the experts in the field, it stands to reason that everything is going to fall apart. And, Jacqui, you're absolutely right. It's never been about speed, right? It's always been about deliberation and feedback and that sort of thing. And the only way you get extra speed out of an agile process is you don't build stuff that nobody wants.
+
+**Allen Holub:** [0:32:02] That's the only place where the speed comes from. And we need to do that, right? AI will help. Hopefully it will help. But too many companies aren't focused on that. They've got some guy with some great idea, and they want to build this great idea. And it never occurs to that person to ask anybody if they think it's a great idea. They just go ahead and build it.
+
+**Adele Carpenter:** [0:32:21] No, but Claude told them it was a great idea.
+
+**Sam Newman:** [0:32:27] I do wonder, coming back to the last point, I do wonder if coming back to the notion of agile, because another way I've explained agile in terms of not talking about speed is it's about reducing the cost of making a mistake. And so, you know, if we look at AI through that lens, are we reducing the cost of making mistakes with AI? And it's like, I don't know. That bit I'm still not sure about.
+
+**Adele Carpenter:** [0:32:49] We could, but it doesn't seem that we are.
+
+**Jacqui Read:** [0:32:52] Yeah, I think we're just reducing the time it takes to spend the money and make the mistake.
+
+### Poll: soft skills or human skills?
+
+**Lucas Dohmen:** [0:32:58] Okay. So let's see what the audience said and look at the results of our poll.
+
+**Lisa Maria Schäfer:** [0:33:05] Maybe repeat the question for the audience.
+
+**Lucas Dohmen:** [0:33:07] Yes. The question was, do you think the importance of soft skills has changed due to AI? And maybe we will see it on the screen. Maybe we won't. No, we won't. Okay. So I will read it from this very tiny screen. Oh, that's hard.
+
+**Dylan Beattie:** [0:33:20] What we've got here is a live demonstration of "software is basically fixed now and AI solved it".
+
+**Sam Newman:** [0:33:26] It is on SharePoint.
+
+**Lucas Dohmen:** [0:33:28] So 70% said yes, and 30% said no.
+
+**Sam Newman:** [0:33:34] To the question?
+
+**Lucas Dohmen:** [0:33:35] Do you think the importance of soft skills has changed due to AI?
+
+**Gitte Klitgaard:** [0:33:39] I mean, the soft skills is coding. The human skills is the hard part, and those are more important. I hate calling it soft skills because it's not soft, and it originates from when we actually had, like, hardware and software. That's where soft comes from. Let's talk about human skills.
+
+**Dylan Beattie:** [0:33:54] It goes further back than that. Soft skills was military, 1960s, anything that didn't involve a gun.
+
+**Adele Carpenter:** [0:34:02] That's dark.
+
+**Lisa Maria Schäfer:** [0:34:04] I like human skills.
+
+**Gitte Klitgaard:** [0:34:07] We should not involve guns.
+
+**Lucas Dohmen:** [0:34:10] So let's go to the …
+
+**Lisa Maria Schäfer:** [0:34:11] But you have to ask the question, and then I can ask the question.
+
+### Which frictions did you notice?
+
+**Lucas Dohmen:** [0:34:17] Okay. So the question for the audience is, what is friction for you? And that's, of course, not a yes or no answer, so they will be able to provide some answers, and Lisa will give you the next question.
+
+**Lisa Maria Schäfer:** [0:34:27] Okay. So the third question out of four: which frictions did you notice in your work this year? What has changed?
+
+**Adele Carpenter:** [0:34:37] So I was having a chat with Gitte just outside because I was like, "Oh, I'm doing this panel and this fishbowl, and I really don't know if I'm going to have anything useful to say. Like, I don't really quite get the topic." And Gitte brought up this great point about, like, friction sort of with your, like, colleagues, and I thought about that a bit more. So for me, friction is, and it goes back to what our guest from the audience said about the spoken language and thinking out loud. And I realized that friction for me is actually being challenged on my ideas by my colleagues, because I do have a lot of ideas, but not all of them are good.
+
+**Adele Carpenter:** [0:35:14] And I live in the Netherlands, so my colleagues are very quick to point out faults in my ideas, and I'm very happy to hear them. And I think with that friction of having another expert that I respect push back and give me that friction, for me personally, that's the most important friction in my day-to-day work, and it's the friction that I do hold on to the most. I make the effort to go to the office three days a week so that I can spar with my real colleagues, not my virtual colleagues, and try to sort of come up with those, you know, best solutions together.
+
+**Lisa Maria Schäfer:** [0:35:52] Thank you. Who wants to go on? If no one jumps in, I will pick someone. So it's like in school. Jacqui.
+
+**Dylan Beattie:** [0:36:02] So I just think the choice of word is interesting because friction has a very negative connotation, because when exactly the same physical phenomenon is useful, we call it traction. And if you were to watch, I don't know, Formula One with zero friction, the cars wouldn't move. They would sit on the grid, they would spin their wheels, and after two hours, pole position would win by default. The same thing which allows us to slow down, allows us to change direction, and allows us to keep going. And so, you know, the whole idea of if we eliminate the friction, then the software will just magically coast at infinite speed to some sort of successful hypothetical objective.
+
+**Dylan Beattie:** [0:36:38] No, it's not a thing at all. The same things which you think might be slowing you down, often they are the very things which you need in order to change direction and manage pace and that kind of stuff.
+
+**Gitte Klitgaard:** [0:36:50] I was saying, if you don't have the friction, everything's just going to be smooth until it's not. Like if you have six people, like I worked with six people from the same university who had like the same background, and they didn't have a lot of conflicts. And I am a big … I want us to have small conflicts all the time about how we do things, for instance, and we can call it conflict or not. But if you just, you know, you think the same way, you do the same things, that means that stuff is not going to happen until it breaks properly. So by having that friction, having that one person that says, "Hey, you know what, Dylan, have you thought about this?" Maybe because I don't know, or because I have a better idea. That friction, like you said, that's super important for creating proper products.
+
+**Adele Carpenter:** [0:37:32] Yeah, you microdose the friction or you'll OD later.
+
+**Dylan Beattie:** [0:37:36] Somebody write that down. That's brilliant.
+
+### Friction and psychological safety
+
+**Allen Holub:** [0:37:39] I don't see that as friction, though. I don't like this framing at all. Is that if you think about psychological safety, a psychologically safe environment is one where you can disagree and argue, and it's fine. There's no friction there in the sense of tension and people being mad at each other and, you know, screaming at each other across the table. Well, there might be some screaming across the table. But the point is that that's part of the process. If we're going to have an effective process, it has to be in a psychologically safe environment, which means that it's okay to argue, and it's okay to tell somebody that they're wrong, or at least that you think that they're wrong.
+
+**Adele Carpenter:** [0:38:14] I don't disagree at all. So maybe it's semantics, or I'm just illiterate, but that was sort of my understanding of friction that I ascribe to it. I don't see friction as a negative thing at all. Friction leads to growth. Friction is important. Friction is a part of life. I personally don't put a negative connotation on it, but maybe I need to reconsult the dictionary. As I said, Australian is not an English language.
+
+### Slowing down to go faster
+
+**Sam Newman:** [0:38:36] I think if we interpret friction through the lens of what's slowing you down this year, coming back to Dylan's analogy about Formula One racing, sometimes you have to go slower to go faster, because I'm really bad at driving cars. If I go to a go-kart track, I don't slow down to go around the corners, and that's why I lose, right? But they have to slow down to go around corners. It's something to do with physics or something. But I do think in our working life, we have that same problem, which is actually we do need to slow down. I remember years and years ago, there was a discussion about why Amazon had been so successful, and at one point Jeff Bezos had stood up in a meeting.
+
+**Sam Newman:** [0:39:13] One of his managers said, "We need to get better at communicating", and he said, "No, communication is terrible." He literally said communication is terrible. What he meant was the cost of coordination of work. And I think, I do wonder as well that we're an industry – Barry made this point in the panel earlier – that we are an industry that's hired and selected people based on our ability to think analytically, think linearly, think and focus on a problem. And as a result, we're not necessarily an industry full of people that are great at communication. But if I think about all the teams that I've spent time working with or talking to that have got the most out of AI, they are organizations who have taken the time to talk, to try things, to experiment, and to share ideas.
+
+**Sam Newman:** [0:39:56] And from that growth, from that improving mental model and shared understanding, they've gone faster. Now, what it looks like is, "Oh, they're having a conversation. They're not talking to Claude. They can't be producing value." But they have slowed down in some regards to go faster. They've used that little bit of room that generating more code has given them to now have conversations that maybe they didn't have time for in the past.
+
+**Gitte Klitgaard:** [0:40:20] And listen, I think sometimes we forget that communication is also about listening. Like a quarter of my communication training is about listening. I had a workshop recently which was about communication, and I asked, "Do you have any insight?" And one of the developers said, "Well, I just realized that if I pause and actually listen first, instead of jumping to solving the problem, which I normally do, I come up with a better solution." And it was a little bit like, "Mm-hmm, yes." But if you don't experience that in some way, you don't know that. Because what do we do in tech? We solve problems. What are we good at?
+
+**Gitte Klitgaard:** [0:40:56] We solve problems. Ooh, someone comes with a problem. We don't always take the time to understand it. We don't always take time to listen. We solve it, because that's what we're good at. That also means we sometimes solve the wrong problems. So I agree, totally agree. We should slow down.
+
+### Organizational friction
+
+**Allen Holub:** [0:41:10] Something that nobody's brought up yet is that there is real organizational friction. Is that almost every company that I deal with, and I'm a consultant, so I'm brought into screwed-up companies, but almost every company that I deal with, management is preventing the company from doing what it needs to do to be successful. That's friction, from my point of view, is that stuff that's being obstacles that's being thrown in the way of progress. And that removing that sort of institutional friction is the most important thing that an advisor can do, right? And most companies don't even realize that they're throwing up all these roadblocks to progress because they have some rationale for doing whatever they're doing, which may or may not have any validity to it.
+
+**Allen Holub:** [0:41:55] But the point is, is that more companies than not, in my experience, the problem is legitimate friction that management has put in place. I don't know how many retros I've been to where somebody said, "Well, we need to do X, but they'll never let us do that." That's friction, right? And that really has to go. I don't know how to do it. I've been spending my career trying to make it go away. I've not figured it out yet.
+
+**Dylan Beattie:** [0:42:18] What we could do is we could invent a software system that can consume all of the documentation and decisions made up to a certain point, and then predict what the next one should be, and then just write that down very nicely, and then everyone can work based on that. And then we could get rid of all the managers.
+
+**Gitte Klitgaard:** [0:42:39] We're already getting rid of all the managers because we have autonomous teams. They can do everything on their own. We don't need anyone to manage the system. Everyone can do everything on their own. They just need one agent.
+
+**Jacqui Read:** [0:42:52] I think taking the perspective of friction as being, like, something that's hard to do is an interesting one, because if you think about what we've just been talking about with competition and things like that, it's like all these kind of products that companies are producing, they're not solving the easy problems because they're already solved. They're solving the hard stuff. And so we kind of need hard stuff to be able to solve it. So we can't ever … friction is not a bad thing, as we've just said about, like, you've said about the cars won't actually start moving, but also they won't stop moving without friction as well, which is the most important bit.
+
+**Jacqui Read:** [0:43:31] I don't mind if they don't start, but if they don't stop, that's a big problem. So I think, like, imagine if just everything was easy and you had nothing hard to do, like, wouldn't life be incredibly boring?
+
+### Poll: what is friction for you?
+
+**Lucas Dohmen:** [0:43:45] Okay, so let's look at what the audience collected in the meanwhile. I, of course, learned that as a German, I need to look up things in the dictionary before I choose a word like friction. Okay, but let's see what the audience answered. It's good that this works because reading that would be … So what is friction for you? A lot of people said challenge, disagreement, conflict, learning, discussion, change. So I think there is some overlap with what we see. So interesting, like politics is quite small, right, like what you said, right? Like it's interesting to see how people that are maybe more German speakers see what they …
+
+**Dylan Beattie:** [0:44:26] I just, I noticed somebody's definition of friction is empty beer. It's all right, I have another one.
+
+**Lucas Dohmen:** [0:44:33] Good. Then we have solved that part. Okay. Any comments about something that stands out to you?
+
+**Jacqui Read:** [0:44:41] There's one that says hating colleagues.
+
+**Lucas Dohmen:** [0:44:46] I think that's for the therapist.
+
+**Sam Newman:** [0:44:49] I mean, the problem might be you. I'm just going to say that.
+
+**Lucas Dohmen:** [0:44:52] Okay. Thank you. Thank you.
+
+### Good friction and bad friction
+
+**Gitte Klitgaard:** [0:44:54] And I mean, we have good friction and bad friction. Same like we have, I was just in Mark's talk and it was like, we have good complexity and we have bad complexity. Sometimes we put complexity in just because, oh, look at all the fancy things we can do. And the same with friction. We have so much friction that we need to remove. Like right now we have managers going like, "Do this and do it super fast." We have a lot of people who are scared of losing their jobs and who might not get all the tokens they want, so they're afraid if they can't code it fast enough.
+
+**Gitte Klitgaard:** [0:45:22] All of that friction is shit. But the friction where we have different opinions about how to solve something, where we can talk to a person who's actually going to use our system and figure out that we are thinking totally different things. Like if I say spam, some people will go like email, other people will go like food. It's the same word. And we do this all the time. So I think that's the interesting friction, is when we go into these things. And again, we need to talk.
+
+**Jacqui Read:** [0:45:52] And we've certainly discovered that naming things really is hard.
+
+**Lucas Dohmen:** [0:45:56] Thank you. Cool. Then let's go to the next question that I probably messed up.
+
+**Lisa Maria Schäfer:** [0:46:00] The last question.
+
+**Sam Newman:** [0:46:02] No, don't feel bad. I blame Allen for feeling bad. It's not your fault.
+
+**Lucas Dohmen:** [0:46:09] Thank you. That means a lot.
+
+**Sam Newman:** [0:46:11] Actually, a round of applause. Thank you.
+
+### More friction, less friction
+
+**Lucas Dohmen:** [0:46:17] Okay, now that we have discussed in depth what friction is, you can now tell us what the value of friction is for you. And you can take any meaning of the word friction that you like. Cool. And let's get to your question.
+
+**Lisa Maria Schäfer:** [0:46:30] So while the people on stage are answering this question, where do you want to see more friction, and where do you want to see less friction in teams in the next year? Someone already an idea? You're first.
+
+**Sam Newman:** [0:46:45] So I think, again, if we see friction through the lens of something that slows us down, I think I want to see more teams realize the value of slowing down to stop and talk and work together. And I want to see less friction in terms of allowing people to try and experiment new things during the normal working day. Right? You should be innovating and thinking and learning and trying new things during the working day. Shaking their heads – they're managers, you spot them. That's not what we should be expecting our staff to do in their spare times or on hack days or innovation days. You've got to fold that into your working day.
+
+**Allen Holub:** [0:47:31] Well, I'm expanding on what Sam is saying. To me, learning is a normal work activity. It should happen during the workday and we should be paid for it.
+
+**Sam Newman:** [0:47:41] Should.
+
+**Allen Holub:** [0:47:42] Should – it's the word there, right? So there's a source of friction, right? Because all the managers are saying that's something you do on your own time.
+
+**Adele Carpenter:** [0:47:49] I've always explained my job as getting paid to learn. Like, this is the best job in the world, yet it's fundamentally changing. But like I get to work and I get a problem and I don't know how to solve it half the time. I have an idea of the steps to get me towards solving it, but I don't always know how to solve it. So I'm learning every single day, and especially now, I get paid to learn. It's the best job in the world. I hope it's not going away.
+
+### What looks like work
+
+**Allen Holub:** [0:48:12] I had a job once where the, well, not every day, but a couple times a week, the entire company – it was a startup, so there was only 60 of us – the entire company got together, had lunch, and then we played cards for an hour. And there was more work going on during those card games than was going on the rest of the week, I think. People were talking to each other. People were talking to people on other teams. And I tried to bill the client for that, and he said, "I'm not going to pay you to sit around and play cards." But he was clueless. What was happening there was an important part of what goes on during work, right?
+
+**Allen Holub:** [0:48:48] And so, getting back to the friction in the sense of managerial friction, right? They don't understand what work is sometimes. They don't understand what our work is, at least. And when you have a company that treats software development as if, well, you could do it in a factory, right, or software development as manufacturing, or software development is any of the innumerable things that it is not, then there's natural friction in that because they'll push back against us doing the things that we need to do in order to be effective. Right, and the playing cards is one of those things, but there are many other examples that I'm sure we can all think of.
+
+**Lisa Maria Schäfer:** [0:49:29] Thank you. Gitte, you looked like you wanted to say something.
+
+**Gitte Klitgaard:** [0:49:32] I was going to say, I think it also comes back to when you look at what looks like work is when we're typing. And typing is such a small part of what coding actually is and development actually is. The solving the problems, all of these things, that's the interesting part. The typing is a very small part of it, but that's what looks like work. Like I've done coaching where I do walks and talks, and that looks like we're doing nothing. But I can also sit in a room with someone and play cards, and it looks like we're having a meeting. We need to kind of look at the concepts of what is actually work.
+
+**Gitte Klitgaard:** [0:50:08] And I agree with you, Sam. We should really, really start talking more and experimenting more and bouncing ideas off each other. And I think the companies who want to have like one person and four agents, that's not helpful. It's helpful to have four people, and then we can have whatever agents, the ones that we need. We have different agents for different things. But the conversation and the discussions and the experimentation and doing something fast and looking to go like, "Oh, that's what it looks like. No." Or, "Oh, that's interesting. Let's go that way." We need that. We need the innovation, because otherwise we're just going to do copies of whatever somebody else did.
+
+**Jacqui Read:** [0:50:51] Yeah, what you say about the typing, that's kind of, that's all the busy work, isn't it? And it does come back to that idea of software being like just like the production lines, which it really is not. No knowledge work is like a production line. And I think a lot of people, especially sort of management and business and things, they see software as sort of something that you pay for and pick up off the shelf, which it kind of used to be when you could buy something on a CD. But when you're building something in your own company, it's actually an investment. And if you think about an investment, you don't hand over the money and get something back. You are putting money into it, and you are hoping that that value is going to go up, but it might not. So I think that's where a lot of companies go wrong.
+
+### The communication gap with management
+
+**Sam Newman:** [0:51:42] I do think talking about communication, there is a communication gap, and sometimes we don't help ourselves. We talk about management not understanding us, thinking it's just typing. And sometimes it's because they're idiots. But normally it's not. It's normally because they're from a different world. They speak a different language. We haven't found the right words to communicate with them. Like on the factory line, you're exactly right. It's not like an assembly line. And yet when we do talk to them, we use terms from assembly lines. We talk about lean manufacturing and wait states. Things, "Oh, it's like the Toyota method."
+
+**Sam Newman:** [0:52:16] "Oh, Toyota make cars. Oh, it's just like making cars." We actually also sometimes confuse that world a little bit. And so I think we don't always help ourselves in that regard. So I agree with everything you said, but it's also like, and I find myself doing it as well. It's like, "No, no, that bit of the metaphor, not that bit of the metaphor, you idiot." It's my fault.
+
+**Dylan Beattie:** [0:52:35] Quick show of hands: how many of you folks out there are building a software factory? Yeah, there you go.
+
+**Gitte Klitgaard:** [0:52:43] The thing is also to step up for the managers is that a lot of them don't get any training. And we even have the stupid thing: "Oh, you're the best developer, let's make you a people person." They don't get clear expectations. So I'm trying to find numbers for Europe, but like the numbers I found from Australia says that the average time from getting a position as a manager to your first relevant training is nine years. We don't train our managers either to communicate with people who are not like them. So they don't stand a chance because they don't know how. And because, you know, it's just all these soft skills.
+
+**Gitte Klitgaard:** [0:53:25] Everyone knows how to communicate. Yep, but not everyone knows how to communicate well. And if we don't train our managers, and if we don't train our developers and architects and whatever else we have in the world, our users, we're never going to be able to figure these things out.
+
+### Developers who don't want to talk
+
+**Adele Carpenter:** [0:53:40] I also think the stereotype's a bit of a crutch for a lot of developers. It's like, "Oh no, I just know computers. I don't know how to speak to people. Oh, I just like to put my headphones on." Like, come on, you're an adult. You exist in the world. Learn how to say words properly. It's cool. Like, you might fuck up a few times, but have a go. And eventually people will come along with you.
+
+**Allen Holub:** [0:54:01] I don't know. I know a lot of people that went into programming expressly so they wouldn't have to talk to people.
+
+**Adele Carpenter:** [0:54:06] And they need to grow up.
+
+**Allen Holub:** [0:54:08] Yeah, but they don't want to be programmers at that point, which might be a good thing. But they see it as a lone activity, and they don't want to talk to other people. They just hate it. They won't have anything to do with any situation where they have to communicate. And I've always thought that those people were more of a detriment than an advantage to a company. A programmer working alone can't be nearly as effective as somebody who's actually collaborating. But there's a lot of programmers, a lot of people in the industry that are in that place.
+
+### Time to be more human
+
+**Sam Newman:** [0:54:41] In my keynote, I said the phrase that we want to find time to be more human. That was actually a term that came from one of my clients, a guy called Jay Wright. And he was thinking about the future of what software delivery meant, and that, "Well, we're going to hand off more work to the agents, so what does that mean for my people?" And he said, "What I want is I want my people to spend more time being more human." And so he started purposely exposing them more to talking to customers, to talking to stakeholders and everything else, and recognizing that they were going to shift. In that particular organization, there are a couple of roles still where you could probably be a person who doesn't want to talk to people, but not many.
+
+**Sam Newman:** [0:55:22] In really large organizations, there's going to be lots of scope for that potentially, but it's probably going to be a dying breed. I think this comes back to the point that Barry O'Reilly made in the thing I did earlier today, which was we selected for a certain type of person through the education system and through the university system to be a software developer. And actually now probably what we want are different types of skills and different types of people. That's also why you still need to hire juniors, because they're different people and they approach the world differently to us.
+
+**Gitte Klitgaard:** [0:55:55] But I think we also need to treat people differently. When I was in IBM, actually inside the software team, we had this developer who was like, he could do crazy stuff with files that nobody knew what, you know, how he did it. And he felt safe in our team, and we had a lot of discussions. And some people from the other team were like, "Isn't it hard to have him? He never says anything." And I'm kind of like, "Are you kidding me?" Sometimes we will sit and discuss stuff so that we come home late for dinner, because he felt safe and we allowed him to be different, because he was different.
+
+**Gitte Klitgaard:** [0:56:28] Like his brain functioned in a very strange way, which, I mean, all our brains does. But we made space for that because we knew that by being different, he brought a lot of value. And the way our companies are built up is like extroverted, neurotypical people. We have a lot of introverted. We have a lot of people who are not neurotypical. We have a lot of people who are neurotypical as well who haven't learned how to talk to other people. We need to figure out how to embrace our differences.
+
+### A quiz for every tenth pull request
+
+**Lisa Maria Schäfer:** [0:57:05] I think this is an applause. So welcome, Igno. You have something to add.
+
+**Audience member:** [0:57:11] Can I add a little bit about friction? Like what I've seen is the friction in generating code went basically to zero. And what we did in the pull request review is every, like, I have several teams and we can experiment a little bit. And with some teams, I introduced something that every 10th pull request gets an AI-generated quiz at the end. So you have to fill out the quiz in order to make sure that you really understood the pull request and what it's doing. So we introduced friction in important projects by accident and, on the other hand, intentionally, because it's too little friction there. And on the other hand side I see, like, if you have an average ticket and it's still taking like five or four days – before AI it was like five days and now it's four days – there's so much business stuff going on.
+
+**Audience member:** [0:58:11] It's like people have to talk to other people because of, I don't know, someone made up a rule in the 80s, which is completely like not normal. And this is like four days of friction that should just, like, evaporate down to one day, where I think we need to remove much more friction. And there's, like, the actual lever. And on the other hand side in like generating code and increasing the quality by like generating or having humans more involved and like building the mental model around the code, also something that we heard a lot. I think this is important, and there's like cool new ways of doing it.
+
+**Sam Newman:** [0:58:51] I love the idea of generating a quiz to make sure you understand the PR. That's genius. Love that. Really love that. That's a great one. Can you blog it, please, and write about it somewhere so I can reference it?
+
+**Audience member:** [0:59:05] You can have it. It's yours now.
+
+### Final poll and goodbye
+
+**Lucas Dohmen:** [0:59:09] It's now on recording. Okay, so let's look at the last results from our audience. A lot of people wrote the number 10.
+
+**Lisa Maria Schäfer:** [0:59:19] Maybe it's an inside joke.
+
+**Lucas Dohmen:** [0:59:20] That's probably an inside joke, or the tool is entirely fucked up. Okay, so there's also people talking about learning, about perspectives. Learning comes up a lot, so I think that resonated a lot with the people that we talked about that. And 10, definitely 10.
+
+**Sam Newman:** [0:59:39] There's a 100 there as well.
+
+**Lucas Dohmen:** [0:59:41] Oh, when I was young, it would have been 42. Yeah, that's true. That's surprising that everyone … oh, 0.9. That's interesting. 0.9 depends on wetness.
+
+**Lisa Maria Schäfer:** [0:59:52] Yeah, that's great.
+
+**Sam Newman:** [0:59:54] Gross. Okay, it's Formula One. You need different tires. No, fair, fair.
+
+**Lucas Dohmen:** [0:59:59] Oh, thank you. That was …
+
+**Lisa Maria Schäfer:** [1:00:02] Interesting.
+
+**Lucas Dohmen:** [1:00:02] Interesting. Yeah.
+
+**Lisa Maria Schäfer:** [1:00:03] That's the word.
+
+**Lucas Dohmen:** [1:00:05] That's the word we should use. Okay, so thank you. Thanks a lot for the panel. They will all be here tonight. You will not leave. So if you have any more …
+
+**Lisa Maria Schäfer:** [1:00:15] So you're staying here on stage forever, but we will bring beer to you.
+
+**Lucas Dohmen:** [1:00:19] So thank you all for being here.
+
+**Lisa Maria Schäfer:** [1:00:21] Yeah. Thank you very much. Thank you. Thank you for being here. It was very, very great.
+
+**Sam Newman:** [1:00:30] I just want to say one thing: this is a hard thing to organize because we are a pain in the ass to work with. So I want to say a round of applause for our organizers and the AV crew as well. Thank you.
