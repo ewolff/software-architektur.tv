@@ -19,33 +19,20 @@ steht danach als Video und Podcast zur Verfügung.
               providers="claude,chatgpt,copy"><a href="/episoden.txt">Alle Folgen als Text für deine KI</a></talk-it-over>
 </p>
 
-## Nächste Folge: Freitag 2026-11-27 13:00 CET Architektur Reviews – Architektur verstehen heißt Team verstehen
+## Nächste Folge: Offen
 
-Auf den ersten Blick scheint Software-Architektur ein rein technisches
-Artefakt zu sein. Entsprechend konzentrieren sich viele Reviews
-ausschließlich auf Code, Strukturen und Dokumentation – doch greift
-das zu kurz. In der Praxis ist jede Architektur das Ergebnis eines
-Teams: Sie spiegelt dessen Entscheidungen, Kommunikationswege und
-Rahmenbedingungen wider. Ein wirksames Architektur-Review muss daher
-mehr betrachten als nur technische Artefakte – es muss auch das
-Zusammenspiel der beteiligten Menschen verstehen.
 
-Dieser Vortrag zeigt, wie sich durch einen umfassenden Blick auf
-Architektur neue Einsichten gewinnen lassen. Es zeigt Erfahrungen aus
-realen Reviews auf und wie dieser Ansatz zu fundierten Bewertungen und
-wirksameren Verbesserungen führt.
+<!-- { include youtube.html -->
+<!-- 	youtube-video-id="5c4kdA4pwkQ" -->
+<!--     image-url="/thumbnails/folge348.png" %} -->
 
-{% include youtube.html
-	youtube-video-id="5c4kdA4pwkQ"
-    image-url="/thumbnails/folge348.png" %}
+<!--  <section id="content-links"> -->
+<!--  	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a> -->
+<!--  	<a href="https://www.linkedin.com/events/7531401318926553094">LinkedIn</a> -->
+<!--  	<a href="https://www.twitch.tv/ebrwolff">Twitch</a> -->
+<!--  </section> -->
 
- <section id="content-links">
- 	<a href="https://www.youtube.com/@EberhardWolff">YouTube Channel</a>
- 	<a href="https://www.linkedin.com/events/7531401318926553094">LinkedIn</a>
- 	<a href="https://www.twitch.tv/ebrwolff">Twitch</a>
- </section>
-
-[Event bei treff.tech](https://treff.tech/events/e9623412-dfb6-4efb-b5d3-aea156145bef)
+<!-- [Event bei treff.tech](https://treff.tech/events/e9623412-dfb6-4efb-b5d3-aea156145bef) -->
 
 ## Der Stream bei Konferenzen und Trainings
 
