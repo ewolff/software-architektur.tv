@@ -1,0 +1,466 @@
+# Architektur Reviews – Architektur verstehen heißt Team verstehen
+
+Software Architektur im Stream, Folge 348, 2026-11-27.
+Sooziotechnische Reviews helfen dabei, Teams sogar zu verbessern.
+Seite: https://software-architektur.tv/2026/11/27/architektur-reviews-architektur-verstehen-heit-team-verstehen.html
+YouTube: https://www.youtube.com/watch?v=5c4kdA4pwkQ
+PeerTube: https://tube.tchncs.de/w/4WMdr5FNFNSZAziyYV59Dr
+MP3: https://1evriw.podcaster.de/download/Architektur_Reviews.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+Auf den ersten Blick scheint Software-Architektur ein rein technisches
+Artefakt zu sein. Entsprechend konzentrieren sich viele Reviews
+ausschließlich auf Code, Strukturen und Dokumentation – doch greift
+das zu kurz. In der Praxis ist jede Architektur das Ergebnis eines
+Teams: Sie spiegelt dessen Entscheidungen, Kommunikationswege und
+Rahmenbedingungen wider. Ein wirksames Architektur-Review muss daher
+mehr betrachten als nur technische Artefakte – es muss auch das
+Zusammenspiel der beteiligten Menschen verstehen.
+
+Dieser Vortrag zeigt, wie sich durch einen umfassenden Blick auf
+Architektur neue Einsichten gewinnen lassen. Es zeigt Erfahrungen aus
+realen Reviews auf und wie dieser Ansatz zu fundierten Bewertungen und
+wirksameren Verbesserungen führt.
+
+## Links
+
+- [Soziotechnischer Stammtisch mit Eberhard Wolff](https://zoom.us/meeting/register/kreYzajKRuuK5BeWyyw6sQ)
+- [Interview Cheat
+  Sheet](https://github.com/ewolff/interview-cheat-sheet/)
+- [Soziotechnische Architektur Reviews mit Hansjörg Gude](https://software-architektur.tv/2026/02/06/folge301.html)
+- [Soziotechnische Architektur bei SWAGLab](https://swaglab.rocks/star-review/)
+- [Virtueller Kaffee mit Eberhard](https://swaglab.rocks/virtueller-kaffee/eberhard/)
+
+## Zusammenfassung
+
+Wer eine Architektur verstehen will, muss das Team verstehen. Eberhard
+Wolff hält in dieser Folge einen Vortrag über soziotechnische
+Architektur-Reviews, den es schon als Präsentation gab. Der Vortrag
+beginnt bei Reviews mit Metriken, wie Eberhard sie vor ungefähr 15
+Jahren gemacht hat, und endet bei Interviews mit den Menschen, die das
+System bauen.
+
+### Reviews mit Metriken
+
+Metriken messen zum Beispiel die zyklomatische Komplexität, die
+Abhängigkeiten zwischen Klassen, Methoden und Variablen und die Größe
+der Teile. Das Ziel: nicht zu viele Elemente, nicht zu große Teile,
+nicht zu viele Abhängigkeiten und vor allem keine Abhängigkeitszyklen.
+Zyklen nennt Eberhard „so ein bisschen eine Todsünde“, weil die
+Trennung der Teile dann eine Illusion ist. Wer ein System mit
+Metrik-Tools untersucht, findet nach Eberhards Erfahrung
+typischerweise zu viele Abhängigkeiten, zu große Teile und Zyklen. Das
+ist der Big Ball of Mud.
+
+An zwei Java-Packages zeigt Eberhard, wie ein Zyklus verschwindet: Eine
+Klasse wandert in das andere Package. Das Einzige, was sich geändert
+hat, ist der Ort einer Klasse. Ob das eine fundamentale Verbesserung
+ist, lässt Eberhard offen. Mit dem Dependency Inversion Principle lassen
+sich Abhängigkeiten grundsätzlich immer auflösen, und ein Tool kann
+sogar den optimalen Graphen ausrechnen und die Refactorings liefern. Ob
+das System danach besser verstehbar ist, steht auf einem anderen Blatt.
+
+### Zweifel an den Metriken
+
+Metriken sind nicht die Wartbarkeit, sondern ein Proxy dafür.
+Entwickler:innen können ein System vielleicht warten, weil sie es über
+Jahrzehnte kennengelernt haben. Die Struktur muss außerdem zur Domäne
+passen: Ein System mit zu vielen Klassen und Packages kann gute
+Metriken haben und trotzdem viel zu kompliziert sein. Kein System ist
+in allen Teilen perfekt. Die Frage ist deshalb, welche Teile besser
+werden sollten, und das wissen die Menschen, die mit dem System
+arbeiten.
+
+Schlechte Metriken liefert ein Werkzeug in wenigen Minuten. Ein Review,
+das nur das berichtet, überrascht niemanden. Spannender ist, warum das
+Team mit dem System lebt: Vielleicht kann es damit umgehen, vielleicht
+steht es permanent unter Stress, vielleicht liebt es die Komplexität.
+Erkenntnisse nützen wenig, wenn sie danach ignoriert werden, etwa weil
+der Zeitdruck nicht nachlässt.
+
+### Die Menschen als Expert:innen
+
+Software ist ein soziotechnisches System: die Software selbst und das
+Team, das sie erstellt. Die Menschen, die am System arbeiten, kennen es
+am besten. Eberhard vergleicht das mit einer fremden Stadt: Wer nicht
+weiterweiß, fragt jemanden, der sich auskennt. Trauen kann man diesen
+Expert:innen, solange das Review kein Instrument der Kontrolle ist. Für
+Mergers and Acquisitions taugt der Ansatz deshalb nicht.
+
+Technologie oder Architektur lassen ein Projekt typischerweise nicht
+scheitern. Funktioniert die Organisation, lassen sich technische
+Probleme meistens lösen. Das Review soll also organisatorische Probleme
+finden, indem es die Software-Architektur betrachtet.
+
+### Kick-off und Interviews
+
+Nach dem Angebot kommt ein Kick-off mit möglichst allen, die später
+interviewt werden. Schon dort zeigt sich, wie die Organisation
+funktioniert, zum Beispiel wenn das Kick-off ausfällt oder die Ziele
+danach neu definiert werden.
+
+Das Herzstück sind die Interviews mit einer diversen Gruppe:
+Entwickler:innen, Stakeholder und andere Keyplayer. Wichtig sind offene
+Fragen, etwa nach den Hauptherausforderungen oder den Hauptstärken des
+Projekts. Die Antworten können technisch, organisatorisch,
+geschäftlich oder kulturell sein. Eberhard führt die Interviews einzeln;
+eine weitere Person schreibt mit. Das schafft Vertrauen, alle werden
+gehört, und niemand dominiert. Solche Einzelgespräche empfiehlt
+Eberhard auch für den Start in einem Projekt oder einem Job. Regeln für
+offene Fragen und aktives Zuhören stehen auf einer GitHub-Seite, an der
+sich viele beteiligt haben.
+
+Solche Reviews können Menschen machen, die einen Schritt zurückgehen,
+sich zurücknehmen und zuhören. Anspruchsvoll ist es trotzdem. Am Satz
+über einen Incident mit Microservices, der schwer zu analysieren war,
+zeigt Eberhard die Falle: Die naheliegende Annahme wäre Observability,
+aber gesagt wurde das nicht. Auch der Satz „Diese Entscheidung ist uns
+aufgezwungen worden“ kann auf soziale Probleme hinweisen oder eine
+Entschuldigung sein.
+
+### Alternativen und Schulnoten
+
+Als einfachere Alternative nennt Eberhard eine Liste zum Abhaken mit
+vordefinierten Metriken und einem Benchmark gegen andere Teams. Sie ist
+wahrscheinlich aufwendiger, weil viel zu erheben ist. Sie passt zu
+einer Umgebung mit wenig Vertrauen und wirkt wie Schulnoten: Man erfährt, wie gut oder schlecht man ist, aber nicht, wie
+man besser wird. Aus dem Chat kommt dazu der Kommentar von yooyooo:
+„Ich hatte in Sport immer eine Eins.“ Eberhard antwortet, auch bei
+einer Eins sei zu erwarten, dass man besser wird.
+
+### Architektur als Theaterstück
+
+Die Interviews zeigen auch, wie sich Personen verhalten und was sie
+über andere sagen. Eberhard vergleicht das mit einem Theaterstück: Die
+Handlung ist die Architektur, dazu kommen die Personen und ihre
+Interaktion. Inzwischen findet Eberhard die Personen fast wichtiger und
+spannender. In vielen Interviews geht es nach diesem subjektiven
+Eindruck praktisch nicht um Technik.
+
+Ein Beispiel: Viele nannten dieselbe Entscheidung sehr schlecht, aber
+niemand konnte eine Alternative nennen, die zur Deadline erreichbar
+gewesen wäre. Die Entscheidung war also richtig, nur nicht akzeptiert.
+Die eigentliche Nachricht: Das Team ist frustriert.
+
+### Ergebnis und Fazit
+
+Am Ende steht eine Präsentation. Nur Probleme aufzuzählen, ist für
+Eberhard zu kurz gesprungen. Ein Review muss Empfehlungen geben,
+sortiert nach dringend und wichtig. Nennen alle Interviewten andere
+Hauptprobleme, fehlt ein gemeinsames Verständnis. Die Probleme auf den
+Tisch zu bringen, ist dann schon die Hälfte der Lösung. Deshalb ist der
+Übergang vom Review zur Problemlösung fließend. Fehlen Details oder
+Standpunkte, folgen weitere Iterationen mit Interviews.
+
+Eberhard hält den Ansatz für effektiv und effizient: Die Interviews
+führen schnell zu den Problemen, die die Expert:innen sehen. Ein Review
+ohne diese Hilfe wäre deutlich weniger effizient. Außerdem entsteht
+Vertrauen: Wer vorher gehört wurde, nimmt das Ergebnis eher an.
+
+Zwei Beispiele zeigen das. Eine sehr große Consulting-Firma erstellte
+einen Foliensatz, mit dem niemand etwas gemacht hat. Review und
+Consulting mit zwei Kolleg:innen führten dagegen dazu, dass sich der
+Gesamtansatz änderte. In einem anderen Fall ging das Review direkt in
+Consulting über, und das Problem, dass das Team nicht wirklich
+konstruktiv war, wurde gelöst.
+
+Das Fazit: Die echten Probleme sind sozial. Wer nur Code oder
+Architektur betrachtet und nicht mit den Menschen redet, kommt kaum zu
+einem vernünftigen Ergebnis. Das Ergebnis eines soziotechnischen Reviews
+ist nicht nur ein Einblick, sondern am Ende ein besseres Team.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Wer eine Architektur verstehen will, muss das Team verstehen. Software ist ein soziotechnisches System aus der Software selbst und dem Team, das sie erstellt.
+- Reviews mit Metriken finden nach Eberhards Erfahrung typischerweise zu viele Abhängigkeiten, zu große Teile und Abhängigkeitszyklen, also einen Big Ball of Mud.
+- Metriken sind nicht die Wartbarkeit, sondern ein Proxy dafür. Ein Zyklus lässt sich beseitigen, indem man eine Klasse verschiebt. Ob das System dadurch besser verstehbar wird, ist offen.
+- Schlechte Metriken liefert ein Werkzeug in wenigen Minuten. Wichtiger ist die Frage, welche Teile besser werden sollten und warum das Team mit dem System lebt.
+- Die Menschen, die am System arbeiten, sind die Expert:innen für das System. Ein Review fragt sie wie Ortskundige in einer fremden Stadt nach dem Weg.
+- Technologie oder Architektur lassen ein Projekt typischerweise nicht scheitern. Funktioniert die Organisation, lassen sich technische Probleme meistens lösen.
+- Ein soziotechnisches Architektur-Review besteht aus Angebot, Kick-off, Interviews, Präsentation und dem Lösen der Probleme. Schon das Kick-off zeigt, wie die Organisation funktioniert.
+- In den Interviews zählen offene Fragen, etwa nach den Hauptherausforderungen und den Hauptstärken, und aktives Zuhören. Einzelgespräche schaffen Vertrauen, und niemand dominiert.
+- Eine Liste zum Abhaken mit Benchmark wirkt wie Schulnoten: Sie sagt, wie gut ein Team ist, aber nicht, wie es besser wird.
+- Eine Präsentation, die nur Probleme aufzählt, ist zu kurz gesprungen. Ein Review muss Empfehlungen geben, sortiert nach dringend und wichtig.
+- Nennen alle Interviewten andere Hauptprobleme, fehlt ein gemeinsames Verständnis. Die Probleme auf den Tisch zu bringen, ist schon die Hälfte der Lösung.
+- Das Fazit: Die echten Probleme sind sozial. Das Ergebnis eines solchen Reviews ist nicht nur ein Einblick, sondern am Ende ein besseres Team.
+
+### Behandelte Fragen
+
+- Was messen Metriken, und was sagen sie über die Wartbarkeit eines Systems?
+- Ändert sich wirklich etwas, wenn ein Abhängigkeitszyklus durch das Verschieben einer Klasse verschwindet?
+- Wie nützlich ist ein Review, das nur berichtet, was ein Werkzeug in Minuten herausfindet?
+- Kann man den Menschen trauen, die das System gebaut haben?
+- Wie findet man organisatorische Probleme, indem man eine Software-Architektur betrachtet?
+- Wie führt man Interviews mit offenen Fragen, und wer kann solche Reviews machen?
+- Warum helfen Benchmarks und Schulnoten nicht dabei, besser zu werden?
+- Was bedeutet es, wenn alle eine Entscheidung schlecht finden, aber niemand eine Alternative nennen kann?
+- Wo endet das Review, und wo beginnt die Problemlösung?
+
+### Glossar
+
+- **Soziotechnisches System**: das technische System, also die Software, zusammen mit dem sozialen System, also dem Team, das sie erstellt
+- **Zyklomatische Komplexität**: Anzahl der Ausführungspfade, die ein Programm nehmen kann
+- **Abhängigkeitszyklus**: zwei Teile hängen wechselseitig voneinander ab und lassen sich deshalb nicht getrennt ändern
+- **Big Ball of Mud**: ein letztendlich unstrukturiertes System
+- **Offene Frage**: Frage, die sich nicht mit Ja oder Nein beantworten lässt
+- **Aktives Zuhören**: klärende Fragen stellen, führende Fragen vermeiden, zusammenfassen und nachfragen, ob man richtig verstanden hat
+- **Kick-off**: Termin zu Beginn des Reviews, in dem Ziele und Ansatz erklärt werden
+
+## Transkript
+
+## Architektur Reviews – Architektur verstehen heißt Team verstehen
+
+In dieser Folge spricht Eberhard Wolff allein: ein Vortrag über soziotechnische Architektur-Reviews und ein Kommentar aus dem Chat. Vor der Begrüßung und nach der Verabschiedung läuft je ein kurzer Einspieler, ebenfalls gesprochen von Eberhard Wolff.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube). Bei PeerTube und im Podcast (MP3) kommt die Stelle rund 3 Sekunden früher als der Link.
+
+### Einspieler: soziotechnischer Stammtisch
+
+[0:00:00] Am 12.01. um 18:30 Uhr mache ich den soziotechnischen Stammtisch. Wir wollen in lockerer Runde alles zum Thema Soziotechnik und soziotechnische Systeme diskutieren. Bringt gerne eure Themen, Fragen und Herausforderungen mit. Ich freue mich auf euch.
+
+### Begrüßung
+
+[0:00:19] Genau, dann herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream. Dieses Mal zum Thema soziotechnische Architektur-Reviews. Architektur verstehen bedeutet, Teams verstehen. Das ist irgendwie bei mir der Wurm drin. Genau, und ich hatte ja vorhin schon gesagt, es gibt halt den … mal kurz gucken, was hier … ah, okay, super. Und ich hatte ja vorhin schon gesagt, oder wir hatten ja vorhin schon gesehen, es gibt halt diesen soziotechnischen Stammtisch und da gibt es halt die Möglichkeit, dann irgendwie auch nochmal diese ganzen Sachen interaktiv zu diskutieren und miteinander da in den Austausch zu kommen.
+
+[0:01:08] Und heute habe ich, ich habe sowas, glaube ich, länger nicht gemacht, ich habe im Wesentlichen eine Sache wiederverwendet oder möchte ich wiederverwenden, die ich halt als Präsentation gehalten habe. Das ist genau diese Sache mit soziotechnische Architektur-Reviews. Das bedeutet halt, wenn ich die Architektur verstehen will, muss ich eigentlich das Team verstehen. Und dazu, genau, ist sozusagen die erste – oder ich frage gerne wie immer im Chat. Und ich muss noch einmal hier kurz schauen. Genau, perfekt. Dass ich hier tatsächlich … genau, das funktioniert alles.
+
+### Architektur-Reviews mit Metriken
+
+[0:01:54] Also, als Einstimmung halt die Frage, okay, wie habe ich denn eigentlich damals, ich habe so zurückgerechnet, so ungefähr vor 15 Jahren Architektur-Reviews gemacht. Und da gibt es halt irgendwie den Ansatz mit den Metriken. Das heißt, ich kann jetzt irgendwie sagen, okay, es gibt halt zum Beispiel die zyklomatische Komplexität, das ist die Anzahl der Ausführungspfade, die wir halt in einem Programm nehmen können. Das heißt, wenn ich jetzt hier irgendeine Fallunterscheidung habe, also hier ein if-Statement beispielsweise, dann ist es halt so, dass ich zwei Pfade habe.
+
+[0:02:26] Und wenn ich jetzt eben ganz viele if-Statements habe, dann habe ich halt das Problem, dass das, was da irgendwie an Code steht, schwer zu verstehen ist, und dann habe ich halt irgendwie ein Problem. Und wenn man etwas in die grobgranulare Aufteilung des Systems geht, dann hat man da eben Abhängigkeiten zwischen Klassen, Methoden und Variablen. Klassen können sich gegenseitig verwenden, Methoden können sich gegenseitig aufrufen, Methoden können Variablen benutzen. Und dann kommt noch hinzu, sozusagen als zweite Ebene, die Größe von einer Klasse oder einer Methode.
+
+[0:03:00] Also wenn eine Methode eine andere aufruft, ist es trivialerweise möglich, diese beiden Methoden zusammenzulegen. Dann habe ich nur eben eine große Methode, das heißt, die Abhängigkeiten und die Größe stehen halt in einem Verhältnis zueinander. Ähnliches gilt für eine Klasse. Wenn ich also hier zwei Klassen habe, die voneinander abhängen, dann kann ich eben diese beiden Klassen zusammentun und dann habe ich halt eine große Klasse. Und damit ich jetzt nicht eben da sozusagen schummel und am Ende alles in eine Klasse oder eine Methode tue und deswegen gar keine Abhängigkeiten habe, deswegen muss ich eben auch die Größe betrachten. So, und das Ziel der ganzen Veranstaltung ist halt, dass ich nicht zu viele habe von diesen einzelnen Elementen, dass ich nicht zu große Teile dort habe, dass ich nicht zu viele Abhängigkeiten habe und dass ich halt insbesondere keine Abhängigkeitszyklen habe.
+
+[0:03:49] Wenn zwei Sachen wechselseitig voneinander abhängen, dann ist eben das Problem, dass ich eigentlich mal gedacht habe, okay, das sind zwei unterschiedliche Dinge, aber dann eben eine Abhängigkeit eingebaut habe, die dafür sorgt, dass diese beiden Dinge wechselseitig voneinander abhängen, das heißt, wenn ich das eine ändere, werde ich halt das andere auch ändern müssen, zumindest wenn die Abhängigkeit stark genug ist. Also genau genommen müsste man da genau drauf gucken und halt irgendwie schauen, ob es tatsächlich eben so ist, dass bei jeder Änderung auch das jeweils andere mit beeinflusst wird.
+
+[0:04:23] Und deswegen sind so diese Abhängigkeitszyklen so ein bisschen so eine Todsünde, weil sie eben sagen: Ich habe versucht, da Sachen zu trennen, aber das hat in Wirklichkeit nicht funktioniert. Die Teile, die ich da betrachte, sind eben sowas wie Klassen, Packages oder Microservices. Das sind Module auf verschiedenen Ebenen. Und diese ganzen Sachen, das möchte ich halt eben dann entsprechend die Abhängigkeiten sozusagen auf die Reihe bekommen und die halt vernünftig aufteilen. So, und wenn ich jetzt so ein System nehme, meine Erfahrung ist, wenn ich die jetzt irgendwie mit Metrik-Tools erschlage, dann bekomme ich typischerweise raus, dass da viel zu viele Abhängigkeiten drin sind. Es sind viel zu große Teile, die dort existieren, und ich habe irgendwie auch Abhängigkeitszyklen.
+
+[0:05:07] Und das ist so ein bisschen eine These, die ich halt in den Raum stellen würde. Also wenn ich halt ein System habe, bei dem ich Abhängigkeiten nicht manage, dann laufen mir die Abhängigkeiten eben auch sozusagen aus der Kontrolle raus und dann kriege ich halt eben genau solche Konstruktionen. Und das ist eben der Big Ball of Mud, also ein letztendlich unstrukturiertes System, und das ist so ein bisschen das, was ich halt nicht haben möchte.
+
+### Beispiel: einen Abhängigkeitszyklus auflösen
+
+[0:05:30] Und jetzt ist halt irgendwie die Frage, okay, wie komme ich jetzt davon sozusagen weg? Und ich habe hier so ein Beispiel mitgebracht, wo ich jetzt irgendwie beispielsweise den Java-Package habe. Java-Packages bestehen aus mehreren Klassen jeweils, also eine Möglichkeit, mehrere Klassen zusammenzupacken. Und dieses Java-Package nutzt jetzt eben ein anderes Package, und da gibt es halt irgendwie so einen Dependency-Zyklus. Das heißt, dieses untere Package nutzt das obere und umgekehrt, sodass ich eben dort tatsächlich einen Abhängigkeitszyklus habe.
+
+[0:06:04] Und das bedeutet, ich habe genau dieses Problem, dass die beiden Sachen halt separiert sein sollten, aber dass ich jetzt eben tatsächlich das Problem habe, wenn ich halt hier irgendetwas ändere, aufgrund dieses Abhängigkeitspfeils ist dieses Package halt davon beeinflusst, und wenn ich hier irgendetwas ändere, ist aufgrund dieses Abhängigkeitspfeils dieses Package beeinflusst, sodass ich eben diese beiden Sachen eigentlich nicht mehr getrennt voneinander ändern kann. Und das bedeutet, die sind halt in Wirklichkeit eigentlich eins, also es ist eine Illusion, dass die halt irgendwie getrennt sind, und das ist so ein bisschen irgendwie das fundamentale Problem, was wir halt irgendwie haben, also wie ich schon sagte, so ein bisschen eine Todsünde.
+
+[0:06:41] Wenn ich das jetzt irgendwie genauer angucke, dann stelle ich vielleicht fest, okay, ich habe eigentlich das Package und hier das andere Package, und innerhalb des unteren Packages ist jetzt eine Klasse, und die hat eine Abhängigkeit zum Rest des Packages, und das ist die Klasse, die verantwortlich ist für diese Rückabhängigkeit. Das heißt genau genommen, nur diese Klasse hier, die hat jetzt irgendwie diesen Teil des Packages erzeugt, und die verursacht halt den Zyklus. Und jetzt kann ich halt relativ einfach sagen, okay, ich habe jetzt das Problem verstanden, und ich nehme jetzt einfach die Klasse, packe die nach oben, und jetzt habe ich eben nur noch einen Abhängigkeitspfeil nach unten zum Rest des Packages, und diese Abhängigkeit, die halt vorher den Zyklus erzeugt hat, die ist jetzt weg, weil die Klasse ja jetzt in dem anderen Package drin ist, und dadurch habe ich jetzt irgendwie diesen Zyklus eliminiert.
+
+[0:07:41] Ich habe hier geschrieben, dass er halt verschwunden ist, ich habe ihn tatsächlich aktiv eliminiert, und das ist etwas, wo man sich jetzt irgendwie die Frage stellen muss. Ich bin jetzt also runter von Todsünde hin zu wohlstrukturiertes System in diesen beiden Bereichen. Das Einzige, was ich gemacht habe, ist, dass ich eine Klasse verschoben habe. Und das ist tatsächlich im Allgemeinen das, was wahrscheinlich so ein Problem fixt, dass ich halt irgendetwas irgendwo anders hinschiebe. In diesem Fall hat er nur eine Klasse.
+
+[0:08:12] Und da ist dann die Frage: Hat sich jetzt wirklich irgendwas geändert? Also ist es jetzt wirklich so, dass ich dort eine fundamentale Verbesserung irgendwie erreicht habe? Und das ist so ein bisschen eben so eine Frage. Und ich habe vor einiger Zeit dieses Video gemacht zum Dependency Inversion Principle, und das sagt eben, dass halt grundsätzlich immer Abhängigkeitspfeile auflösbar sind durch diese Technik von dem Dependency Inversion Principle. Und das wiederum bedeutet, dass wir diese Probleme halt immer irgendwie lösen können durch Technik.
+
+[0:08:51] Aber ich weiß gar nicht, ob das System dann einfach verstehbar oder einfacher änderbar bleibt, nur weil ich halt irgendwo eine zusätzliche, also dafür muss ich halt eine zusätzliche Schnittstelle einführen, weil ich halt irgendwie zusätzlich diese Schnittstelle eingeführt habe. Es gibt dann noch weitergehende Lösungen. Also ich habe mal ein Tool gehabt tatsächlich, was jetzt irgendwie sagt, okay, die Abhängigkeiten sind eigentlich nur ein Graph, und ich kann jetzt einen Algorithmus haben, der halt den optimalen Graphen ausrechnet, der so möglichst wenig Abhängigkeiten hat.
+
+[0:09:23] Und das kann ich halt in ein Tool stecken, und dann kriege ich halt eine Liste von automatisierten Refactorings, also integrierte Entwicklungsumgebungen können sowas, solche Refactorings halt machen. Und dann kann ich ein beliebiges schlecht strukturiertes System in ein wohlstrukturiertes System umwandeln. Zumindest bezüglich der Metriken. Ob das dann wirklich besser verstehbar ist, steht halt irgendwie auf einem anderen Blatt. Und das ist eben so ein bisschen das Problem, was ich da habe.
+
+### Zweifel: Metriken sind nicht die Wartbarkeit
+
+[0:09:56] Und da ist ein wichtiger Punkt: Also diese Metriken sind nicht die Wartbarkeit. Die Metriken sind ein Proxy für die Wartbarkeit, in dem Sinne, dass die Metriken uns hoffentlich sagen, ob ein System wartbar ist oder nicht. Aber genau genommen messen sie eben irgendwelche Eigenschaften des Systems. Und es könnte jetzt zum Beispiel sein, dass Entwickler:innen dieses System, so wie es ist, eben tatsächlich warten können, weil sie eben in Jahrzehnten dieses System kennengelernt haben. Und vielleicht sind einige Teile tatsächlich in der Praxis nutzbar. Nur weil die halt so ein paar komische Eigenschaften haben, bedeutet das ja nicht unbedingt, dass sie gleich eine Vollkatastrophe sind. Und das andere Problem ist: Also die Struktur, die wir haben, muss eigentlich der Domäne entsprechen.
+
+[0:10:47] Also eigentlich ist das so, dass wir ein Geschäftsproblem lösen. Jetzt ist ja die Frage: Was ist die minimale Komplexität, mit der wir dieses Geschäftsproblem lösen können? Und diese Frage ist deswegen relevant, weil wenn wir jetzt zusätzlichen Aufwand betreiben in einem System, dann ist es halt so, dass wir zwar ein System bekommen, das halt viel zu kompliziert ist und übertrieben ist, aber das eben vielleicht von den Metriken her okay ist. Das hat halt zu viele Klassen, zu viele Packages, aber die sind alle wohlstrukturiert.
+
+[0:11:22] Und das werde ich halt nicht durch Metriken rausfinden, weil ich eben … zu viele Dinge gebaut habe, die ich eigentlich nicht benötige. Und das führt jetzt eben bei mir zu der Frage: Also was hilft das eigentlich, mit Metriken Systeme zu bewerten? Insbesondere deswegen, weil eben in keinem System alle Teile perfekt sein werden. Und die Frage ist also nicht: Ist das System perfekt? Wo sind die Schwächen? Sondern die Frage ist: Welche Teile sollten besser werden? Und dazu muss ich mir die Frage stellen, welche Teile tatsächlich in der Arbeit mit der Software, mit dem System eine Herausforderung sind.
+
+[0:12:09] Und das ist etwas, was die Menschen wissen durch die Nutzung, beziehungsweise ich kann es auch durch so Behavioral-Metriken herausfinden, also indem ich die Versionskontrolle noch mit dazu nehme. Aber die subjektiven Eindrücke der Menschen sind vielleicht irgendwie wichtiger. Und das andere Thema ist halt: Also wenn ich jetzt irgendwie herausfinde, dieses System hat halt schlechte Metriken, und ich finde das heraus, indem ich ein System in so ein Werkzeug reintue und ich kriege halt sehr schnell diese Metriken, dann ist eben die Frage: Ist es eigentlich nicht offensichtlich, dass ich halt dieses Problem habe?
+
+[0:12:45] Und dann ist die Frage, ob das Review eigentlich nützlich ist. Also ich erzähle ja nichts Überraschendes, wenn ich etwas erzähle, was man halt mit dem Werkzeug innerhalb weniger Minuten tatsächlich herausfinden kann. Und eigentlich ist die nächste Frage dann: Okay, wenn ich jetzt tatsächlich herausfinde, das ist halt eine große Katastrophe, dieses System, und das ist wahnsinnig schlecht strukturiert, dann ist halt die Frage, warum das Team damit lebt. Also vielleicht können die damit umgehen. Vielleicht ist es so, dass sie dazu gezwungen werden, weil sie halt irgendwie permanent Stress ausgesetzt sind.
+
+[0:13:20] Vielleicht ist es aber auch so, dass sie diese Komplexität lieben und dadurch sich beweisen können, dass sie eben auch komplexe Systeme bauen können. Unabhängig davon habe ich dieselben Metriken, die halt sagen, dass das System ist zu komplex. Aber ich habe unterschiedliche Ansätze, um das Problem zu lösen. Und es ist unwahrscheinlich, dass das Faktum, dass ich ein komplexes System habe, ernsthaft irgendjemanden überrascht, nehme ich mal an.
+
+### Software ist ein soziotechnisches System
+
+[0:13:47] So, und das, was wir, glaube ich, mehrfach schon im Stream diskutiert haben, ist eben, dass Software eigentlich ein soziotechnisches System ist. Das bedeutet, dass wir auf der einen Seite das technische System haben, also die Software selber, und auf der anderen Seite das soziale System, also das Team, das die Software erstellt. Und diese beiden Faktoren müssen zusammenspielen, wenn wir eben Software bauen wollen. Und das sind beides Teile sozusagen derselben Medaille an der Stelle. So, und jetzt ist irgendwie so die Frage, dieses ganze Zeug, also wenn ich jetzt sage, hier sind halt die Metriken, lass uns das halt irgendwie angucken.
+
+[0:14:26] Wahrscheinlich ist es einfach zu sehen, dass das System sehr, sehr kompliziert ist. Die meisten Legacy-Systeme sind kompliziert und auch so, dass sie eben schwer wartbar sind. Und dann ist irgendwie die Frage, ob irgendwie dieser Einblick halt wichtig ist. Und ich habe das hier versucht, durch eine AI-Grafik zu repräsentieren. Also wenn ich jetzt hier irgendwelche PowerPoints habe, wo halt irgendwie gesagt wird, okay, ich habe irgendwelche Microservices, irgendwelche Performance-Metriken, Security-Probleme oder so, wenn ich halt diese ganzen Erkenntnisse habe, dann nützt mir das halt relativ wenig, wenn ich die halt anschließend ignoriere, weil beispielsweise eben der Zeitdruck nicht nachlässt und ich deswegen das System halt nicht besser machen kann. Oder weil eben die Menschen, die an dem System beteiligt sind, halt sagen, indirekt zumindest sagen, dass sie gerne sehr, sehr komplexe Systeme bauen. In all diesen Fällen nützt mir halt die reine Erkenntnis halt wenig oder gar nichts.
+
+### Die Menschen am System sind die Expert:innen
+
+[0:15:23] So, und ich glaube, dass ein wesentlicher Teil davon, in diesen Reviews besser zu werden, halt die Einstellung gegenüber den Menschen ist, die halt an dem System arbeiten. Die Menschen, die an dem System arbeiten, sind die Expert:innen für das System, in dem Sinne, dass sie die Personen sind, die dieses System am besten kennen. Was halt wiederum bedeutet, dass man halt auf ihre Expertise hören muss und sollte. Es macht wenig Sinn, dass ich … also in den Situationen, wo ich ein Review mache oder auch eine Beratung, es ist nie so, dass ich diese Domäne, über die wir gerade reden, am besten kenne oder das System am besten kenne. Das wäre nämlich sehr traurig.
+
+[0:16:15] Dann wäre es nämlich so, dass die Leute, die mit dem System arbeiten und in der Domäne arbeiten, deutlich weniger darüber wissen, wie die Domäne aussieht, wie ein neuer Quereinsteiger. Und das führt für mich zu diesem Ding hier. Also damals, als es noch keine Mobiltelefone gab, ist man halt manchmal mit so einer Landkarte, Stadtkarte, Stadtplan irgendwie durch die Lande gezogen und war dann halt möglicherweise irgendwo und wusste halt nicht weiter und wusste auch nicht genau, wo man irgendwie ist.
+
+[0:16:47] Das ist die naheliegende Lösung, dass man halt mit irgendjemandem spricht, der halt dort in dieser Stadt ist und bei dem halt die Chance besteht, dass er im Gegensatz zu einem selbst eben diese Stadt besser kennt. Und den kann man jetzt um Orientierung helfen oder bitten. Und das ist etwas, was eben in der – was halt wir bei der Software-Architektur und Software-Review ähnlich machen können. Wir können also jetzt irgendwie sagen, okay, wir haben also irgendeine Expert:in, einen Menschen, der eben das System kennt und das halt mitgebaut hat.
+
+[0:17:20] Und diese Person, die können wir jetzt irgendwie fragen, wie denn das nun alles irgendwie gemeint und gedacht ist. Und man sieht, dass das hier ein AI-generiertes Bild ist. Das ist halt auch der Grund, warum hier dieser Laptop den Screen auf dem Rücken hat, also auf dem Deckel und nicht irgendwie auf dem Screen selber. Aber AIs sind natürlich extrem hilfreich und werden sicherlich dafür sorgen, dass wir in nicht allzu ferner Zukunft alle arbeitslos sind.
+
+### Kann man den Expert:innen trauen?
+
+[0:17:49] Was halt zu der Frage führt: Kann ich jetzt eigentlich diesen Expert:innen trauen? Das hängt halt davon ab, was das Ziel meines Reviews ist. Diese Reviews, über die ich hier rede, sind keine Sachen, mit denen ich halt irgendwas kontrollieren kann. Das heißt, das ist nichts, womit ich jetzt zum Beispiel Mergers and Acquisitions machen kann. Also bei einer Merger oder einer Akquisition ist es natürlich so, dass halt die Firma, die halt die Software herstellt, ein Interesse daran hat zu sagen, unsere Software ist übrigens supi, weil wenn die Software tatsächlich super ist, führt das zu einer besseren Bewertung, als wenn sie halt schlecht ist.
+
+[0:18:28] Das heißt, wenn ich da jetzt irgendwie Menschen frage: Hey, was sind eigentlich die Herausforderungen in dieser Software?, werden die mir sagen: Wir haben keine. Und das ist dann kein hilfreiches Vorgehen. Aber typischerweise ist es halt so, dass halt alle, die mit dieser Software beschäftigt sind, wollen, dass die erfolgreich ist, beziehungsweise wenn das nicht der Fall ist, habe ich halt eine andere Kategorie von Problemen. Und das bedeutet, wenn ich jetzt da potenzielle Verbesserungen sehe, Verbesserungen vorschlage, dann ist das üblicherweise etwas, was eben auf fruchtbaren Boden hoffentlich fällt. Und das ist also jetzt einer der Ansätze, dass man also sagt: Okay, ich nehme halt diese Menschen als Expert:innen wahr und frage sie halt offen danach, was eigentlich die Herausforderungen sind.
+
+### Organisatorische Probleme über die Architektur finden
+
+[0:19:13] Und das andere, ich habe ja gesagt, das sind soziotechnische Reviews, ist irgendwie die Frage, wie wir jetzt uns mit sozialen Themen sozusagen beschäftigen können. Also eine Technologie oder eine Architektur führt typischerweise nicht dazu, dass ein Projekt scheitert, weil die meisten Projekte eben nicht Dinge tun, die technisch an dem kratzen, was überhaupt möglich ist. Solche Projekte gibt es natürlich, das ist aber nicht die breite Mehrheit. Und das andere ist halt, wenn man eine Organisation hat, die funktioniert, kann man die technischen Probleme meistens lösen.
+
+[0:19:51] Es gibt halt Menschen, die halt spezialisiert sind, technische Probleme zu lösen und da halt eine große Expertise haben, denen kann man halt Bescheid sagen, wenn man das, was die einem irgendwie sagen, auch tatsächlich umsetzt, und dann hat man eben das Problem gelöst. Und das ist eben dann möglich, wenn ich eine Organisation habe, die das halt erlaubt. Wenn ich eine Organisation habe, bei der irgendwie auf so eine externe Meinung nicht wirklich geachtet wird, dann habe ich da halt potenziell eine Herausforderung. So, das heißt also, ich bin jetzt so ein bisschen in einer etwas weirden Situation.
+
+[0:20:20] Ich soll also die organisatorischen Probleme dadurch herausfinden, dass ich Software-Architektur betrachte. Das ist irgendwie die Frage wie. Und das ist so ein bisschen das, was ich vorstellen möchte. Das hatten wir auch schon mal im Stream als mögliche Lösung. Das sind soziotechnische Architektur-Reviews.
+
+### Angebot und Kick-off
+
+[0:20:37] Und das ist halt so, dass wir anfangen natürlich mit dem Angebot, wo drinsteht, was wir halt genau untersuchen wollen. Nicht so wahnsinnig spannend. Und dann kommt eben als Erstes so ein Kick-off, wo man jetzt irgendwie gegenüber der Mannschaft und den beteiligten Personen sagt: Das ist halt das, was wir uns eigentlich anschauen wollen. Oder vielleicht findet so ein Kick-off nicht statt. Eigentlich ist es schon an der Stelle so, dass man dabei ist und Informationen über die Organisation halt sammelt.
+
+[0:21:09] Wenn das Kick-off nicht stattfindet, bedeutet das, dass irgendetwas weird ist, weil das Review vielleicht eben nicht die hohe Priorität hat oder informell nicht die hohe Priorität hat oder was auch immer. Auf jeden Fall ist das halt irgendwie beeindruckend. Und es gibt auch solche Situationen, wo man irgendwie sagt, also im Kick-off muss nochmal das Review in einer bestimmten Art und Weise geframed werden, und es muss irgendwie irgendwas gesagt werden darüber, warum das jetzt stattfindet. Das sind eigentlich schon Dinge, die einem irgendwie sagen, wie die Organisation halt funktioniert.
+
+[0:21:41] Bei diesem Kick-off sollten dann halt möglichst alle Leute, die halt irgendwie später interviewt werden, dabei sein. Das heißt, ich würde jetzt die Ziele des Reviews erklären, würde den Review-Ansatz erklären und oft gibt es da, wie gesagt, schon wertvolle Einsichten. Zum Beispiel, wenn jetzt irgendwie die Ziele neu definiert … also, nicht, wenn man halt im Kick-off sagt, unser Ziel ist es halt sicherzustellen, dass dieses oder jenes halt funktioniert oder dass diese oder jene Frage beantwortet wird, und dann halt nach dem Kick-off eine Session losgeht, die irgendwie sagt, okay, wir wollen halt eigentlich andere Ziele. Dann ist es so, dass wir eigentlich schon an der Stelle sind, wo wir halt erkennen, dass irgendwie, nicht, die Organisation Schwierigkeiten hat, so ein Review halt vernünftig auszusteuern. Und das sagt ja schon etwas über die Organisation aus.
+
+### Interviews und offene Fragen
+
+[0:22:33] So, dann kommen die Interviews, das ist so ein bisschen das Herzstück, wenn man halt die Expert:innen hat, wenn man die nach Rat fragt. Und da sind eben verschiedene Expert:innen beteiligt, also Entwickler:innen, Stakeholder und halt verschiedene andere Keyplayer. Aus meiner Sicht der wichtigste Punkt ist dabei halt, eine diverse Gruppe von Menschen halt zu sehen und mit denen halt zu sprechen, weil das den Vorteil hat, dass man eben diese Vielzahl an unterschiedlichen Meinungen und Ideen bekommt und diese Vielfalt hilft dann dabei, Probleme auf den verschiedenen Ebenen, technisch, sozial und was auch immer, zu identifizieren und halt irgendwie auch gegebenenfalls zu lösen.
+
+[0:23:16] Und das ist genau die Stelle, wo wir jetzt irgendwie Expert:innen nach dem Ziel fragen und irgendwie die darum bitten, in dieser unbekannten Stadt, die dieses System halt darstellt, uns halt den Weg zu zeigen und halt zu zeigen, wo wir eigentlich hingehen können und was eigentlich sozusagen der Punkt ist. Und da ist es halt wichtig, offene Fragen zu stellen. Also offene Fragen sind halt Fragen, die nicht mit Ja oder Nein beantwortbar sind. Und dadurch begrenzt man halt nicht die Menge der möglichen Antworten.
+
+[0:23:52] Analogie ist vielleicht dieser Rorschach-Test, wo man halt im Prinzip einen Tintenklecks hat und halt sagt: Was siehst du in diesem Tintenklecks? Und das ist ja ein psychologisches Ding. Und das, was die Person dann sagt, was sie halt in diesem Tintenklecks sieht, das ist nicht eine Aussage über den Tintenklecks, sondern das ist eine Aussage über die Person. Und das ist hier eben eine ähnliche Geschichte. Also wenn man halt offene Fragen stellt, die Art und Weise, wie eine Frage beantwortet wird, das ist halt eigentlich eine spannende Sache.
+
+[0:24:23] Und eine offensichtliche Frage, die man jetzt irgendwie stellen kann bei einem Review, nachdem eben Reviews dazu da sind, um halt Herausforderungen zu identifizieren, wäre halt: Was sind eigentlich die Hauptherausforderungen in diesem Projekt? Und da können jetzt ganz unterschiedliche Sachen bei rauskommen. Also es wäre ja denkbar, dass halt gesagt wird: Hey, wir haben halt irgendwie krasse Performance-Anforderungen und das ist halt mit aktueller Technologie nicht zu erstarken. Dann ist es halt ein technisches Thema. Oder es sind organisatorische Probleme. Wir kriegen es halt nicht hin, die Teams zu koordinieren oder Schwierigkeiten mit Requirements. Irgendwelche Geschichten, die eher Business-bezogen sind, also wir haben in Wirklichkeit gar keinen Markt und keine potenziellen Kunden. Oder irgendwelche Sachen mit Kultur, also wir haben keine gute Feedback-Kultur und deswegen können wir uns nicht weiterentwickeln und so weiter und so weiter.
+
+[0:25:09] So, und das ist hier sozusagen der Punkt. Das heißt, ich kriege dadurch automatisch eine sehr breite Sicht und werde halt sozusagen auf die Dinge hingeleitet, zu denen man halt irgendwie sozusagen kommt oder die da halt kommen, und gebe da halt relativ wenig vor.
+
+### Eins-zu-eins-Interviews schaffen Vertrauen
+
+[0:25:28] Dabei ist es wichtig, aus meiner Sicht, solche separaten Eins-zu-eins-Interviews zu führen. Das heißt, und in dem Fall, wo wir das machen, machen wir es typischerweise sozusagen zwei zu eins. Das heißt, wir haben mindestens noch eine weitere Person, die halt eben die Notizen aufschreibt. Und das ist halt etwas, was eine vertrauensvolle Umgebung schafft, weil eben nur eine Person da ist und diese eine Person eben befragt wird und dadurch ist es halt einfach was anderes, als wenn man einen großen Kreis hat, mehrere Menschen oder ein großes Plenum.
+
+[0:26:02] Da ist es eben so, dass man sich hier tendenziell eher zurückhält. Und das führt auch dazu, dass sich halt alle erst mal gehört fühlen und auch gehört sind. Und dadurch ist es jetzt eben auch so, dass halt nicht bestimmte Personen sozusagen die entsprechenden Reviews dominieren. Eine von den Fragen, die man ja stellen kann, ist: Okay, was lernen wir jetzt überhaupt aus diesem gesamten Ansatz? Und etwas, was ich da halt sozusagen als mögliches Lernergebnis empfehlen würde, ist halt: Diese individuellen Gespräche sind etwas, was sehr hilfreich ist.
+
+[0:26:41] Das ist auch etwas, was man zum Beispiel am Anfang in einem Projekt machen kann, dass man eben mit bestimmten Leuten halt redet. Das ist auch etwas, was ich einmal beim Start von einem Job gemacht habe, dass ich mit einer Menge Menschen geredet habe, einfach in One-on-Ones. Und das führt halt einfach dazu, dass man halt eine definierte Arbeitsgrundlage hat. Also man hat mal miteinander geredet, man hat irgendwie eine Idee, wie die Menschen halt irgendwie ticken und kommt dadurch eher zu einer vernünftigen Grundlage, Arbeitsgrundlage.
+
+[0:27:14] Und ich habe halt erhebliche Schwierigkeiten, mir vorzustellen, wie man das sonst hinbekommt. Also wenn ich halt nur immer Menschen in einem großen Raum sehe mit ganz vielen anderen zusammen, kriege ich es, glaube ich, nicht hin, so eine vertrauensvolle und vernünftige Arbeitsgrundlage sozusagen zu schaffen.
+
+### Offene Fragen und aktives Zuhören kann man lernen
+
+[0:27:30] Ich habe vor einiger Zeit dann … also solche Geschichten wie offene Fragen stellen oder auch aktives Zuhören – gehört halt dazu – sind Dinge, die man tatsächlich lernen kann und wo es halt auch einige Regeln für gibt. Und ich habe dann angefangen und habe halt eine Webseite gebaut oder eine GitHub-Seite gebaut, die hier angegeben ist, die ich auch verlinke in den Show Notes, wo man halt so ein paar Regeln hat zum Thema offene Fragen stellen, aktives Zuhören. Und das sind Dinge, die könnt ihr halt auch runterladen, editieren.
+
+[0:28:18] Eine ganze Menge Leute haben sich daran auch beteiligt und haben das halt verbessert. Vielen Dank dafür. Und da kann man irgendwie sehen, wie man sowas halt machen kann. Also offene Fragen sind halt ein Thema. Ich sollte vielleicht noch erwähnen, offene Fragen, also ich hatte ja jetzt die Frage nach den Hauptherausforderungen. Man kann auch die Frage nach den Hauptstärken stellen, die finde ich halt immer irgendwie spannend. Und aktives Zuhören bedeutet halt für mich, klärende Fragen stellen, führende Fragen vermeiden, offene Fragen benutzen, Dinge nochmal zusammenfassen, fragen, ob man es richtig verstanden hat, aber möglichst vermeiden, dass man sich halt schnell eine Meinung bildet und zu irgendwelchen Ergebnissen kommt.
+
+### Wer kann solche Reviews machen?
+
+[0:29:00] Ja, führt zu der Frage, wer kann solche Reviews machen? Das sind Personen, die halt einen Schritt zurückgehen können, die sich selber zurücknehmen können und dann eher zuhören und dankbar sind, wenn halt Probleme tatsächlich angesprochen werden. Das heißt, wenn ich irgendwo hingehe und einen bestimmten Ansatz halt immer für den richtigen Ansatz halte, wird es irgendwie schwierig, weil ich dann eben sehr stark auf eine bestimmte Richtung achten werde. Hier ist es eigentlich so, dass man halt jetzt, fast gesagt, passiv, also sich eben beeinflussen lässt von dem Menschen, mit dem man halt irgendwie redet.
+
+[0:29:41] Und ich hoffe, dass also Seniors da irgendwie sowas können. Es gibt Seniors, die irgendwie sagen: Ich bin halt irgendwie ein Experte und das ist exakt die richtige Lösung für alles. Das sind dann irgendwie nicht die Menschen, die wir da brauchen, sondern wir brauchen eben welche, die halt sozusagen einen Schritt zurückgehen können. Und es ist halt schon anspruchsvoll, weil ich halt während des Interviews idealerweise Probleme identifizieren muss, also ein Problem verstehen muss, das halt für mich priorisieren muss und dann halt irgendwie das nächste Problem angehen muss und halt diskutieren muss.
+
+### Beispiel: der erste Incident mit Microservices
+
+[0:30:14] Und ich habe hier so ein Beispiel mitgebracht, also wir machen jetzt irgendwie Microservices und wir hatten halt unseren ersten Incident in Produktion, da ist irgendwas kaputt gegangen. Es war irgendwie schwer, das zu analysieren. Das ist also jetzt das, was mir eine Person sagt: Das ist eine der Herausforderungen, die in diesem Projekt existieren. Und jetzt ist irgendwie die Frage, was das, also ich muss jetzt verstehen, was das tatsächlich bedeutet. Und einer der Punkte, die mir dabei helfen, ist, dass ich, wenn ich mich mit Microservices auskenne, dann weiß ich eben, dass Observability ein Problem ist.
+
+[0:30:49] Also ich muss eben eine Vielzahl von individuellen Systemen mir angucken, und die müssen halt alle Informationen, Metriken, Logfiles und so weiter halt sozusagen von sich geben. Und dafür muss ich eine Infrastruktur haben, die das halt irgendwie kann, die also einfach diese Vielzahl an Prozessen, die ich jetzt habe, halt überwachen kann. Und jetzt ist das möglicherweise – also wenn man sich das genau anguckt, steht da nicht, dass Observability das Problem war, sondern da steht eigentlich, dass es halt schwer zu analysieren war.
+
+[0:31:26] Das heißt, man müsste jetzt eigentlich die Frage stellen: Warum ist es denn schwer zu analysieren? Was genau war das Problem? Das ist eigentlich schon so ein bisschen eine Falle, ne? Also die Annahme, die ich ja treffen würde, wäre, dass es halt Observability ist. Das darf aber nicht durchschlagen. Vielleicht ist es halt einfach so, dass das ein komplizierter Bug war. Und sie hatten zwar alle Informationen, aber es war irgendwie schwer, herauszufinden, was da genau passiert. Und mehr Informationen hätten mir vielleicht nicht so viel geholfen.
+
+[0:31:58] Dann ist halt die andere Frage: Ist das ein Problem, was ich jetzt lösen möchte? Also ja, das ist ein wichtiges Problem, aber wenn ich jetzt irgendwie noch nicht in Produktion bin, sondern nur in der Testphase, dann würde ich es halt vielleicht jetzt noch nicht lösen. Und ich würde es aber lösen, bevor ich halt komplett in Produktion bin, wenn ich tatsächlich ein Observability-Problem habe, weil ich sonst vielleicht irgendwie ganz viele Schwierigkeiten habe, Dinge halt überhaupt zu analysieren. Das ist halt sehr ungünstig, wenn ich halt in Produktion bin.
+
+[0:32:29] Und dann ist halt irgendwie noch die Frage, was halt andere Leute sagen. Also es wäre zum Beispiel total spannend, wenn jetzt jemand anders sagt: Wir sind extrem gut darin, Fehler zu finden. Okay, aber da hat der andere ja was anderes gesagt. Und warum ist das so? Und dann stellt sich vielleicht heraus: Naja, durch Testing finden wir Fehler, aber wenn wir einen Produktionsfehler haben, dann haben wir halt ein Problem. Das heißt also, ich brauche halt jetzt sehr viel Wissen, um das halt herauszufinden: Ist das ein typisches Problem, ist das ein Problem, was wahrscheinlich ein großes Problem ist?
+
+[0:33:03] Das hier, würde ich zum Beispiel behaupten, hat das Potenzial, ein großes Problem zu sein. Gleichzeitig nicht voreingenommen zu sein, also nicht irgendwie zu sagen, oh, dann habt ihr hier ein krasses Problem, sondern herauszufinden, was genau dort los ist und das eben auch abzugleichen mit anderen Informationsquellen.
+
+### Beispiel: eine aufgezwungene Entscheidung
+
+[0:33:20] Ja, warum ist das noch kompliziert? Also, eine von den Aussagen könnte zum Beispiel sein: Diese Entscheidung ist uns aufgezwungen worden. Das ist nur ein Satz. Und das ist ein Satz, der jetzt irgendwie darauf hinweisen kann, dass es halt soziale Herausforderungen irgendwie gibt. Oder es könnte halt auch sein, dass es eine Entschuldigung ist. Also wenn mir jemand, also wie soll ich sagen, wenn eine Fehlentscheidung da ist, die ich eigentlich getroffen habe, dann ist es halt eine gute Möglichkeit, die Schuld von sich zu weisen, indem man sagt, das war ich gar nicht, das ist mir aufgezwungen worden.
+
+[0:34:02] Und jetzt ist irgendwie die Frage: Habe ich halt diesen Fall, also ist es mir tatsächlich aufgezwungen worden oder nicht? Und daraus muss ich jetzt irgendwie wieder Konsequenzen ziehen und muss mir halt überlegen und mir eine Meinung bilden. Das passt irgendwie zu diesen Modellen, die es ja wahnsinnig viel gibt, nicht, darüber, dass Kommunikation wie ein Eisberg ist. Das heißt, ich habe irgendwie die Worte, die Betonung, die Gesten und vielleicht das, was ich irgendwie faktisch versuche zu transportieren, und versteckt sind irgendwie Emotionen, irgendwelche Annahmen. Und es kann ja auch sein, dass mich zum Beispiel jemand versucht, im Interview zu manipulieren und hat versucht, mich zu nutzen für die Durchsetzung von irgendwelchen Zielen. Das sind halt alles Dinge, die mir da passieren können.
+
+### Einfachere Alternativen: Checklisten und Benchmarks
+
+[0:34:50] Für Reviews im Allgemeinen gibt es einfachere Alternativen. Das wäre halt, dass ich sage, ich habe einen langen Plan mit irgendwelchen Dingen, die ich halt irgendwie untersuchen will, dann hake ich die halt alle ab und ich hole mir vielleicht irgendwie ein Set von vordefinierten Metriken, die ich halt irgendwie gerne wissen möchte. Damit kann ich auch so einen Benchmark bekommen. Ich habe eine Episode gemacht zum Thema Produktivität. Da gibt es zum Beispiel etwas von McKinsey, was halt in diese Richtung geht, wo man also ein Team untersucht auf die Produktivität und das Benchmark gegen andere Teams.
+
+[0:35:22] Das ist wahrscheinlich etwas, was aufwendiger ist, weil ich jetzt eben ganz viel erheben muss und mir halt überlegen muss. Und das ist auch etwas, wo ich jetzt in einem kontrollierenden oder in einer Umgebung mit wenig Vertrauen vielleicht tatsächlich Vorteile generiere. Also ich könnte jetzt eben sagen, okay, im Vergleich zu anderen Teams in meiner Branche ist mein Team suboptimal und strengt sich vielleicht nicht genug an. Wahrscheinlich gibt es andere Gründe. Wahrscheinlich ist es so, dass da halt irgendwo an einer anderen Stelle der Hund begraben ist.
+
+[0:36:03] Aber das ist etwas, was eine bestimmte Art von Management und eine bestimmte Art von Umgang auch mit Menschen haben möchte. Wir haben das ja auch im Schulsystem, da gibt es permanentes Feedback darüber, wie gut oder schlecht ein Individuum sogar ist, noch nicht mal ein Team. Vielleicht will man sowas halt haben, so eine Art Schulnoten, damit man halt sagen kann: Ihr seid aber schlecht, und das halt irgendwie auch weiß – oder ihr seid irgendwie gut und irgendwie das weiß.
+
+[0:36:34] Ich bin nicht sicher, warum das hilfreich sein sollte. Also was ich ja eigentlich wissen möchte, ist: Wie kann ich besser werden? Alle können irgendwie besser werden. Und dafür ist, glaube ich, eine Aussage, die jetzt irgendwie sagt: Ihr seid halt so und so gut, nicht hilfreich, weil – wenn ich nicht, also ich identifiziere dadurch nie, unabhängig davon, wie gut ich bin, ein Optimierungspotenzial. Ich kriege nur raus, ich bin schlecht. Und wenn ich zum Beispiel in Sport eine schlechte Note habe, dann sagt das noch lange nichts darüber aus, wie ich irgendwie besser werden sollte. Das ist da irgendwie das Problem.
+
+### Videocalls und ein Kommentar zu Schulnoten
+
+[0:37:14] Ach so, noch so zur Durchführung: Also Videocalls sind für solche Aktionen flexibler. Ich kann das halt irgendwo machen und zu irgendeiner Zeit. Ich glaube, es ist auch dort möglich, eine vertrauensvolle Umgebung zu bekommen. Dann habe ich halt irgendwie diese Diskussionen mit darüber, wo halt sozusagen die Probleme sind, über einen Videocall. Es gibt tatsächlich einen Kommentar, der erste heute von yooyooo auf Twitch, und seine oder ihre Aussage ist: Ich hatte in Sport immer eine Eins. Das hatte ich nicht.
+
+[0:37:53] Was ich versuche zu sagen, ist: Gerade da finde ich es halt irgendwie wahnsinnig schwer zu sehen, wie man besser werden kann. Ich habe immer, also für mich ist das halt ein Schulfach, wo Menschen halt entweder sehr gut oder sehr schlecht sind. Aber es ist sozusagen nicht so, dass man, oder ich sehe nicht, wie man sich sozusagen hocharbeiten kann. Und das ist aber eigentlich das, was (unverständlich). Und da wäre es eigentlich irgendwie schön, wenn man was hätte, wo man halt sagen würde: Okay, du bist halt vielleicht nicht der körperlich leistungsfähigste, aber du hast dich halt irgendwie verbessert und versuchst sowas halt zu machen.
+
+[0:38:26] Und das ist das, was ich halt hier bei dem Review mache. Also es wäre vielleicht günstiger, wenn ich halt nicht sage, du bist in Sport eine Eins oder eine Vier oder eine Fünf, sondern wenn ich halt sage, hey, das sind halt Sachen, die du halt tun solltest, damit du halt irgendwie besser wirst. Und das ist eigentlich das, worum es im Review geht. Also die Eins oder die Fünf nützt mir nichts, und auch bei der Eins würde ich halt erwarten, dass man besser wird.
+
+### Architektur als Theaterstück
+
+[0:38:50] Gut, diese Sachen haben Ergebnisse auf unterschiedlichen Ebenen. Also ich kriege halt raus, ob die Architektur irgendwie toll ist und welche Schwierigkeiten die hat, wenn das irgendwie angesprochen wird. Aber ich kriege halt auch was raus darüber, wie sich die Person verhält und zum Beispiel, was sie halt irgendwie über andere Leute sagt. Das gibt mir Rückschlüsse darüber, wie die Teamdynamik halt aussieht, und auch eine Aussage darüber, wie halt das System … oder warum und wie das System – Quatsch – die Menschen diese Lösung so gebaut haben. Und das ist halt dieser soziale Anteil.
+
+[0:39:27] Und ich muss gestehen, dass sich da für mich die Analogie aufzwingt von so einem Theaterspiel. Und wenn ich jetzt ein Theaterspiel mache, dann habe ich ja zwei Ebenen. Also ich habe zum einen irgendwie eine Handlung, wo irgendwas passiert. Das ist in unserem Fall die Architektur, die wird irgendwie erzeugt. Aber ich habe zum anderen auch die Personen, wie die miteinander interagieren, und das ist eben der andere Teil dieses Reviews. Und ich bin mittlerweile an der Stelle angekommen, wo ich fast der Meinung bin, dass diese Personen und ihre Interaktion nicht nur das Wichtigere sind, sondern vielleicht auch das Spannendere und wo ich eben nicht mehr so richtig das Gefühl habe, dass halt die Architektur an sich für mich das Wichtigste ist.
+
+[0:40:24] Und eine von den Fragen, die man nochmal stellen müsste: Könnte man eigentlich mal auswerten aus den Interviews, die ich irgendwie geführt habe. Ich habe subjektiv das Gefühl, dass halt bei vielen von den Interviews es praktisch null um Technik geht und um Architektur in dem Sinne, wie halt Systeme strukturiert sind, sondern eigentlich wirklich nur um Interaktion, was irgendwie dazu führt, dass diese Metapher mit der Architektur als ein Theaterstück vielleicht gar nicht so schlecht ist, weil eben diese Charaktere einen wichtigen Einfluss haben, vielleicht sogar den wichtigsten.
+
+### Beispiel: eine Entscheidung ohne Alternative
+
+[0:41:01] Und da gibt es ja Beispiele, nicht? Also hier ist so ein Beispiel, wo wir halt ganz viele Leute hatten, die dieselbe Entscheidung genannt haben und gesagt haben, das ist halt eine sehr schlechte Entscheidung. Und was ja fein ist, dann zwingt sich die Frage auf: Was ist denn eigentlich eine bessere Alternative? Und das war irgendwie nicht so, dass halt irgendjemand dort eine bessere Alternative nennen könnte, die halt im Rahmen der Deadline erreicht werden könnte. Und dann gibt es keine ernsthafte Alternative, also da muss ich halt die Entscheidung beibehalten.
+
+[0:41:34] Und dann habe ich also im Prinzip etwas, was ich im Architecture Decision Record niederschreiben kann. Ich sage, das ist meine Entscheidung, das sind die Alternativen, und dann habe ich eine Entscheidungsgrundlage. In dem Fall wäre es eben so, dass man sagt: Nee, also in dieser Deadline haben wir halt nur diese eine Alternative. Das ist, wenn das eben tatsächlich so ist, tatsächlich alternativlos. Und dann müsste man eigentlich, wenn sozusagen alle Beteiligten perfekt rational sind, sagen: Darüber sollten wir nicht diskutieren, das ist halt durch, das ist halt die einzige Alternative, wir haben halt keinen Spielraum, das ist halt so.
+
+[0:42:17] Hier passiert aber das Gegenteil, und das bedeutet, die Nachricht ist eigentlich, dass das Team wirklich frustriert ist, dass eben diese Entscheidung gefällt worden ist und dass sie nicht revidierbar ist. Das ist was anderes. Also eigentlich ist die Aussage, die ich jetzt treffen würde, wenn ich das bewerten sollte, nicht: Diese Entscheidung ist eine unglaublich dumme, schlechte Entscheidung, sondern diese Entscheidung ist die richtige Entscheidung unter den gegebenen Parametern. Es ist nur so, dass sie eben nicht akzeptiert ist. Und dann muss man halt irgendwie irgendwas drehen, damit sich die Situation dort verbessert.
+
+### Präsentation mit Empfehlungen
+
+[0:43:05] So, genau, das waren die Interviews. Dann gibt es halt eine Präsentation, da diskutieren wir halt am Ende, ja, also mindestens halt das, was wir herausgefunden haben. Aber ich finde das viel zu kurz gesprungen. Also wenn ich mich jetzt hinstelle und sage, das sind all die Probleme, dann – also grenzwertig ist das für mich, weil ich nicht sicher bin, ob das überhaupt irgendeinen Wert darstellt. Und deswegen habe ich an Reviews, die wir machen, die Anforderung, dass wir halt Empfehlungen geben dafür, was wir eigentlich tun würden.
+
+[0:43:49] Das heißt, für mich ist das halt so eine Geschichte, wo ich mir halt sage, okay, das ist jetzt irgendwie der Fall, das ist das, was ich verstanden habe. Nehmen wir jetzt an, ich würde morgen das Projekt übernehmen, nehmen wir an, ich könnte halt beliebige Dinge entscheiden: Was wären die Dinge, die ich entscheiden würde? Und das ist, glaube ich, die Anforderung, die man an sich selbst haben muss, wenn man so ein Review macht, weil das eigentlich die einzige Möglichkeit ist, ein vernünftiges Ergebnis sozusagen zu erzeugen.
+
+[0:44:13] Und das würde ich halt unterscheiden in Dinge, die schnell gemacht werden müssen, also dringend sind und weniger dringend, und Dinge, die wichtig sind und weniger wichtig. Wenn ich zum Beispiel sage, das System ist schlecht wartbar, dann kann ich das nur langfristig lösen. Das ist also wahrscheinlich irgendwie nicht dringend, aber wichtig. Wenn ich sage, ich habe ein konkretes Security-Problem, dann will ich das vielleicht irgendwie sofort lösen, solche Sachen. Und man kann dann anschließend mehr Iterationen machen, also sagen, wir machen dann nochmal mehr Interviews, wir gucken nochmal rein.
+
+[0:44:46] Man kann auch versuchen, das möglichst frühzeitig zu beenden, auch eine Möglichkeit. Und das führt irgendwie dazu, für mich analog zur Software-Architektur in Iterationen: Wenn ich also mehr Details benötige oder andere Dinge anschauen will oder andere Standpunkte haben will, dann sollte ich halt iterieren und halt noch mehr irgendwie drüber machen. Aber wenn ich genügend Informationen habe, dann sollte ich halt irgendwie auch stoppen. Und das Ziel ist eben sozusagen, die genügenden Informationen zu liefern.
+
+### Vom Review zur Problemlösung
+
+[0:45:24] So, und dann geht es halt darum, irgendwie Probleme zu lösen. Und das ist etwas, was manchmal sich eben auch wieder eigentlich manifestiert durch die Interviews. Das heißt, wenn alle Menschen, die halt in den Interviews sind, andere Hauptprobleme nennen, dann bedeutet das, dass es kein gemeinsames Verständnis darüber gibt, was die gemeinsamen Probleme sind. Und dann müsste ich jetzt irgendwie anfangen und müsste halt sagen, okay, ich bringe die jetzt auf den Tisch, versuche, ein gemeinsames Verständnis zu bekommen und priorisiere sie.
+
+[0:46:02] Und das ist etwas, wo externe Unterstützung hilfreich sein kann, um diesen Prozess neutral durchzuführen und halt irgendwie darauf zu achten, dass das sozusagen auf dieser prozessualen Ebene vernünftig läuft und nicht irgendwie gebiased ist. Und dieses Review, da würde mir jetzt auffallen, dass eben diese Menschen unterschiedliche Standpunkte haben. Und eigentlich ist jetzt dieses Ding, dass man halt sagt, okay, das sind alle eure Probleme, die packen wir jetzt irgendwie alle mal auf den Tisch, das ist ja eigentlich das Ergebnis des Reviews.
+
+[0:46:36] Und das ist eigentlich schon ein Teil der Lösung. Also durch das Review selber löse ich das Problem, dass es kein gemeinsames Verständnis von den Problemen gibt. Und deswegen ist für mich der Übergang zwischen so Reviews und Problemlösung eigentlich irrsinnig fließend. Und vielleicht ist es auch so, dass man das gar nicht so klar voneinander trennen kann. Also wenn ich halt eine Umgebung geschaffen habe, in der wir die Themen erst mal überhaupt auf dem Tisch haben und die halt adressieren können, dann haben wir halt eigentlich schon mal die Hälfte der Lösung halt auf die Reihe bekommen.
+
+### Effektiv und effizient
+
+[0:47:13] Das Ganze ist nach meinem Empfinden effektiv und effizient. Das heißt, es ist effektiv, weil die Menschen, die wir interviewen, eben das nennen, was sie wichtig finden. Das heißt, ich werde dadurch halt schnell direkt geleitet auf die echten Probleme, die halt die Menschen, die ja die Expert:innen für das System sind, dort als Probleme sehen. Die können halt explizit genannt sein, also dass irgendwie alle sagen, das ist das Problem, okay. Oder es könnte halt sich indirekt ergeben dadurch, dass eben nicht alle dasselbe Verständnis vom Problem haben oder dass alle dasselbe Problem nennen, aber keine Alternative nennen können, so wie ich das vorhin gesagt habe.
+
+[0:47:58] Und für mich führt das halt zu der Frage, also ich kann ja theoretisch ein Review machen, was irgendwie sagt, ich gucke mir das gesamte System intensiv an und versuche halt dadurch, dass ich mir das System intensiv angucke, den Code, die Dokumentation und so weiter, selber ohne so eine Guidance die wesentlichen Probleme zu identifizieren. Und ich bin mir nicht sicher, ob ich mir das antun wollen würde, weil das halt deutlich weniger effizient sein muss, weil ich eben nicht das System kenne.
+
+[0:48:29] Das heißt, ich muss ganz viel Wissen anschaffen und für mich erstellen. Und da ist es günstiger, vielleicht das Wissen einfach zu nutzen, was halt irgendwo existiert. Effektiv ist das, weil wir dadurch zwischen den Menschen, die interviewt werden, und den interviewenden Menschen eine vertrauensvolle Beziehung hoffentlich erzeugen. Das heißt, die Menschen, die interviewt werden, können halt ihren Input geben. Die Menschen, die interviewt werden, also wie soll ich sagen, wenn mir jetzt jemand sagt, übrigens das, was ihr falsch macht, ist das hier, und der hat noch nie mit mir geredet, dann ist das was anderes, als wenn jemand sagt, also das, was ihr falsch macht, ist das da, und diese Person hat vorher mit mir geredet und ich finde vielleicht sogar ein paar von meinen Gedanken und meinem Input da irgendwie wieder.
+
+[0:49:19] Und das ist halt der Grund, weswegen das eben, würde ich behaupten, zu einem effektiveren Ergebnis führt. Und dann werde ich vielleicht auch irgendwie eher damit irgendwas machen. Und wie ich schon sagte, so ein Review ist irgendwie vielleicht auch schon der erste Schritt hin zu einer Lösung.
+
+### Zwei Beispiele aus Reviews
+
+[0:49:37] Beispiele. Also es gibt so ein Beispiel, wo halt eine sehr große Consulting-Firma ein sehr exzessives Review gemacht hat mit einem großen Team und halt am Ende einen Satz Folien erstellt hat. Und wir sind dann halt dort mit zwei Kolleg:innen aufgetreten, haben dort ein Review gemacht und haben dann halt irgendwie Consulting gemacht, und das hat dazu geführt, dass tatsächlich sich der Gesamtansatz geändert hat. Und das ist eben ein Beispiel dafür, dass dieser Foliensatz, den die andere Consultancy gebaut hat, da sind wahrscheinlich wertvolle Einblicke drin.
+
+[0:50:16] Ich bin noch nicht mal sicher, ob die Einblicke, die wir produziert haben, da sozusagen besser sind. Das ist auch irgendwie egal, weil die Einblicke, die halt in der anderen Präsentation drin sind, sind halt irgendwie egal, weil halt niemand damit irgendwas gemacht hat. Und das bedeutet halt, das Bessere ist eben ein Team, was tatsächlich funktioniert. Und hier ist auch wieder ein AI-generiertes Bild mit einem Software-Architekten, der keinen Kopf hat. Offensichtlich ist das halt irgendwie ein neuer Trend. Ja, anderes Beispiel. Also das Management wollte in dem Fall nicht wirklich ein Review.
+
+[0:50:55] Wir haben unseren Ansatz halt vorgestellt und das wurde dann auch sofort beauftragt. Und zwar deswegen, weil das Team, so wie es halt da aufgestellt war, nicht wirklich konstruktiv war. Und dann ist das sehr direkt, gleitend und ohne große Barriere sozusagen in Consulting übergegangen und das Lösen von irgendwelchen Problemen. Und dadurch ist irgendwie dieses Problem gelöst worden, dass das Team halt nicht wirklich konstruktiv war. Und das hängt, glaube ich, damit zusammen, dass eben im Rahmen des Reviews erst mal alle gehört worden sind, wir uns eine Meinung gebildet haben, mit denen zusammengearbeitet haben und dadurch kriegt man dann eben eher ein Ergebnis und eben auch vielleicht eine nachhaltige Änderung.
+
+### Fazit: Die echten Probleme sind sozial
+
+[0:51:38] Bedeutet in der Zusammenfassung: Die echten Probleme sind sozial und betreffen halt in erster Linie Menschen. Was halt bedeutet, wenn ich ein Review mache über Code oder Architektur, dann werde ich wahrscheinlich genau diesen Aspekt möglicherweise ignorieren. Also wenn ich im Extremfall sage, hier sind halt alle Artefakte, aber rede nicht mit den Menschen, die diese Artefakte erstellt haben, halte ich es für unwahrscheinlich, dass ich halt irgendwie zu einem vernünftigen Ergebnis komme. Was eben bedeutet, dass ich mich halt auf Menschen fokussieren sollte und ihre subjektiven Eindrücke.
+
+[0:52:14] Das führt sehr natürlich zu irgendwelchen Herausforderungen, die ich halt identifizieren kann. Und das Ergebnis davon ist nicht nur irgendwie ein Einblick und eine Idee, was irgendwie sozusagen das Problem ist, sondern tatsächlich am Ende bessere Teams, so wie ich das halt an einigen von den Beispielen illustriert habe. Generelle Sachen, die ich halt ableiten würde daraus für Arbeit auch jenseits von Reviews: Diese Eins-zu-eins-Diskussionen sind meiner Ansicht nach ein sehr mächtiges Werkzeug, mit dem man halt sehr gut arbeiten kann.
+
+[0:52:46] Das aktive Zuhören finde ich halt irgendwie wahnsinnig wichtig. Ich finde es immer wieder erstaunlich, wenn ich halt anderen zuhöre, wie schnell da halt Menschen zu irgendwelchen Lösungsstrategien übergehen oder halt Dinge annehmen, die tatsächlich so gar nicht gefallen sind, also Äußerungen, die halt so tatsächlich nicht gefallen sind und so weiter und so weiter. Das ist halt irgendwie problematisch. Und halt auch dieses Zurückhalten, dass man eben nicht gleich zu irgendwelchen Ergebnissen springt, das ist, glaube ich, irgendwie auch ein wichtiger Punkt.
+
+[0:53:20] Wir hatten schon mal eine Episode zu diesen soziotechnischen Architektur-Reviews damals mit Hansjörg zusammen. Jonas konnte zu dem Termin leider nicht. Das kann man sich sicherlich auch noch mal angucken. Ist, glaube ich, auf einer etwas anderen Ebene und haben wir halt irgendwie auch dann zu mehr sozusagen diskutiert.
+
+### Verabschiedung
+
+[0:53:36] Und genau, damit bin ich eigentlich am Ende. Ich möchte noch mal schauen, ob es halt irgendwie Fragen oder weitere Kommentare gibt. Das sehe ich hier aber nicht. Das ist die Kunstpause, wo das halt sozusagen noch möglich wäre, dazu was zu sagen. Ja, Hinweis wäre noch mal, so wie im Intro besprochen, also dieses ganze soziotechnische Zeug, da gibt es halt den soziotechnischen Stammtisch. Würde mich freuen, wenn wir uns da irgendwie sehen und da können wir direkt miteinander reden und halt solche Dinge auch noch mal irgendwie im Zoom-Call – also es wird ein Zoom-Call sein – direkt miteinander besprechen und da könnt ihr auch gerne eure Themen mitbringen.
+
+[0:54:17] Und das wird eben eine Diskussion sein und ein nettes Beisammensein, denke ich. Und das andere ist dann eben, wenn wir gleich im Abspann sehen, es gibt halt die Möglichkeit, mit mir natürlich einen Kaffee zu buchen. Und da freue ich mich auch, wenn ihr euch dort in so einem – wir haben ja über One-on-Ones geredet – in so einem One-on-One mit mir eure Themen und Herausforderungen teilt. Vielen Dank, schönes Wochenende und bis dahin.
+
+### Einspieler: virtueller Kaffee
+
+[0:54:47] Suchst du nach Klarheit für deine Software-Architektur oder deine digitale Strategie? Dann lass uns reden. Ich bin Eberhard Wolff und ich biete euch einen kostenlosen virtuellen Kaffee an. In 60 Minuten analysieren wir eure konkreten Herausforderungen und finden Ansätze für eure nächsten Schritte. Kein Pitch, sondern echter, fachlicher Austausch.
