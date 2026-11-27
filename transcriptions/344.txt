@@ -80,7 +80,7 @@ for code.
 In the poll, 74% said that software architecture has not fundamentally
 changed in the last year, and 82% said that team dynamics have.
 
-A person from the audience, addressed as Avraham, pointed out that much
+Avraham Poupko, from the audience, pointed out that much
 of our shared understanding and thinking out loud happens in spoken
 language, which an LLM has no access to. Allen finds working with LLMs
 isolating for some people: "an LLM is not a person".
@@ -159,7 +159,7 @@ days instead of five. Sam loved the idea of the quiz: "That's genius."
 - Gitte Klitgaard wants teams to write down the right things, for example in a decision log, and to talk about value and the why instead of producing as much code as possible
 - Jacqui Read doubts that writing things down helps when nobody understands the connections between the information
 - Adele Carpenter asks for the same hygiene for documentation as for code: next to the code and in source control
-- Avraham from the audience reminds the panel that much shared understanding happens in spoken language, which an LLM has no access to
+- Avraham Poupko from the audience reminds the panel that much shared understanding happens in spoken language, which an LLM has no access to
 - For Allen, AI is an amplifier that amplifies the bad really effectively; the companies that use it best already had solid engineering practices
 - Agile was never about speed, says Allen; the only extra speed comes from not building what nobody wants
 - Dylan: when friction is useful we call it traction; with zero friction, Formula One cars wouldn't move
@@ -203,7 +203,7 @@ days instead of five. Sam loved the idea of the quiz: "That's genius."
 
 ## Fishbowl “Friction is a Feature: Navigating the Inevitable Tensions of Software Architecture”
 
-The opening trailer (0:00:00 to 0:01:03) is omitted. The panel took place as a fishbowl at the iSAQB Software Architecture Gathering, so people from the audience could join on stage. Lisa Maria Schäfer and Lucas Dohmen moderated. Two people from the audience took a seat: one is addressed by a first name that the transcription models hear as "Abraham" or "Abram"; the spelling Avraham is an assumption. The other is greeted with a name that sounds like "Igno" and could not be verified, so that person appears as Audience member. The audience also answered polls on their phones. Some names are spelled as heard, a few short interjections are omitted, and what is quoted is in quotation marks.
+The opening trailer (0:00:00 to 0:01:03) is omitted. The panel took place as a fishbowl at the iSAQB Software Architecture Gathering, so people from the audience could join on stage. Lisa Maria Schäfer and Lucas Dohmen moderated. Two people from the audience took a seat: one is Avraham Poupko. The other is greeted with a name that sounds like "Igno" and could not be verified, so that person appears as Audience member. The audience also answered polls on their phones. Some names are spelled as heard, a few short interjections are omitted, and what is quoted is in quotation marks.
 
 The links after each timestamp jump to that point in the video (YouTube). PeerTube runs in sync with YouTube. In the podcast (MP3) the point comes about 63 seconds earlier than the link, because the MP3 starts without the opening trailer.
 
@@ -331,13 +331,13 @@ The links after each timestamp jump to that point in the video (YouTube). PeerTu
 
 **Lisa Maria Schäfer:** [0:16:04] Avraham, did you come to the stage to say something to the first question, or do you want to be here for the second question?
 
-**Avraham (audience):** [0:16:11] Can I say something to the first question?
+**Avraham Poupko (audience):** [0:16:11] Can I say something to the first question?
 
 **Lisa Maria Schäfer:** [0:16:12] Yes, you're allowed.
 
-**Avraham (audience):** [0:16:15] So there's a fundamental difference. This is back to the written documentation versus spoken documentation. There's a fundamental difference between spoken language and written language. We learn how to speak by being around other speakers from infancy. We've been speaking for 50,000 years. We need to go to school in order to learn how to read and write. And a lot of our shared understanding, a lot of our thinking out loud, a lot of our articulating our own thoughts happens in spoken word. It does not happen in written word. And that can't be written down, and it shouldn't be written down. And the LLM doesn't have access to that mode of thinking.
+**Avraham Poupko (audience):** [0:16:15] So there's a fundamental difference. This is back to the written documentation versus spoken documentation. There's a fundamental difference between spoken language and written language. We learn how to speak by being around other speakers from infancy. We've been speaking for 50,000 years. We need to go to school in order to learn how to read and write. And a lot of our shared understanding, a lot of our thinking out loud, a lot of our articulating our own thoughts happens in spoken word. It does not happen in written word. And that can't be written down, and it shouldn't be written down. And the LLM doesn't have access to that mode of thinking.
 
-**Avraham (audience):** [0:16:58] We write down what we think is worth writing down as a decision, as a consensus of some sort, as something that needs to be remembered. But not everything that we said needs to be remembered. And I'm very frightened when they say no more face-to-face meetings. Everything should be moderated and mediated through the LLM. What's going to happen to body language? What's going to happen to intonation? What's going to happen to eye contact? What's going to happen to the way we speak? And that brings us into the soft skills. Learning how to communicate, and learning how to convince somebody, and learning how to inspire somebody and to motivate somebody and believe in somebody is not something that an LLM knows how to do. It's something that we know how to do, and we have to maintain that ability. See, I answered two questions.
+**Avraham Poupko (audience):** [0:16:58] We write down what we think is worth writing down as a decision, as a consensus of some sort, as something that needs to be remembered. But not everything that we said needs to be remembered. And I'm very frightened when they say no more face-to-face meetings. Everything should be moderated and mediated through the LLM. What's going to happen to body language? What's going to happen to intonation? What's going to happen to eye contact? What's going to happen to the way we speak? And that brings us into the soft skills. Learning how to communicate, and learning how to convince somebody, and learning how to inspire somebody and to motivate somebody and believe in somebody is not something that an LLM knows how to do. It's something that we know how to do, and we have to maintain that ability. See, I answered two questions.
 
 **Lucas Dohmen:** [0:17:45] Thank you.
 
@@ -405,9 +405,9 @@ The links after each timestamp jump to that point in the video (YouTube). PeerTu
 
 ### Pushing to the limit and the next hype cycle
 
-**Avraham (audience):** [0:24:16] The fundamental problem of software development, which is how do I go from imagination to working system, is one that we haven't solved yet, and we never will. Because as soon as there's any methodology or technique or tool or technology that allows us to go from imagination to working system, we're going to push ourselves harder and we're going to want to do more, and we're going to push ourselves to the limit. And LLMs and AI did not change that. So if they're making us more productive or more efficient or more effective or more anything, we're pushing ourselves harder in order to get more out of the systems.
+**Avraham Poupko (audience):** [0:24:16] The fundamental problem of software development, which is how do I go from imagination to working system, is one that we haven't solved yet, and we never will. Because as soon as there's any methodology or technique or tool or technology that allows us to go from imagination to working system, we're going to push ourselves harder and we're going to want to do more, and we're going to push ourselves to the limit. And LLMs and AI did not change that. So if they're making us more productive or more efficient or more effective or more anything, we're pushing ourselves harder in order to get more out of the systems.
 
-**Avraham (audience):** [0:24:49] We never stop. We don't know how to stop. We don't know how to say when good enough is good enough. And that hasn't, fortunately, that hasn't fundamentally changed. That's why this is an exciting world to be in, and it will probably always be that way.
+**Avraham Poupko (audience):** [0:24:49] We never stop. We don't know how to stop. We don't know how to say when good enough is good enough. And that hasn't, fortunately, that hasn't fundamentally changed. That's why this is an exciting world to be in, and it will probably always be that way.
 
 **Lisa Maria Schäfer:** [0:25:02] Thank you.
 
