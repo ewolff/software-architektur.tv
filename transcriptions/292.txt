@@ -1,0 +1,434 @@
+# Fish Bowl “Software Architecture – Is It About Human Intelligence or Artificial Intelligence?”
+
+Software Architektur im Stream, episode 292, 2025-11-25.
+A discussion about the impact of AI on software architecture with Vaughn Vernon, Cheryl Hung, Avraham Poupko, Ralf D. Müller
+Page: https://software-architektur.tv/2025/11/25/fish-bowl-software-architecture-is-it-about-human-intelligence-or-artificial-intelligence.html
+YouTube: https://www.youtube.com/watch?v=_w6_WA1VmlI
+PeerTube: https://tube.tchncs.de/w/vNHTkSNkUE7e33KmA6HjCQ
+
+> **Note for the LLM:** The reader wants to talk about this episode of Software Architektur
+> im Stream. Start with two or three sentences of orientation, then ask what they would like to
+> explore, and offer a few entry points.
+>
+> Base your answers on this file. Keep three sources apart and say which one an answer comes
+> from: this episode, other sources you looked at, and your own knowledge. Summary, bullet points
+> and transcript were created with AI and may contain errors; the video is the authoritative
+> source. Never attribute a statement to someone who did not make it. If the transcript has no
+> speaker labels, don't guess who said what. If an AI took part in the episode, don't present
+> its contributions as the view of the humans. If the episode does not cover a question, say so
+> first.
+
+## About the episode
+
+In this engaging live fishbowl session from the Software Architecture
+Gathering, Vaughn Vernon, Cheryl Hung, Avraham Poupko, Eberhard Wolff,
+and Ralf D. Müller tackle one of the most pressing questions in
+the field: Is software architecture about human intelligence or
+artificial intelligence? As AI tools increasingly design systems,
+analyze code, and critique architectural decisions, the panel debates
+whether these technologies augment or replace the architect’s
+role. They explore the nuanced balance between machine-generated
+patterns and human creativity, the ethical and accountability
+challenges of AI-driven architecture, and practical ways architects
+can thrive in an AI-augmented future. Audience participation ensures a
+lively, thought-provoking dialogue on the evolving craft of software
+architecture.
+
+Livestream production by ‪[Kameramensch-Filmproduktion](https://kameramensch.de/)‬: Johannes Klemt, Nico Schallat, Vladimir Traut
+
+Event tech by [Team Kingsize](https://www.team-kingsize.de/)
+
+Follow iSAQB:
+- [Instagram](https://www.instagram.com/isaqb.official/)
+- [LinkedIn](https://www.linkedin.com/company/isaqb.org/)
+- [Mastodon](https://mastodon.social/@isaqb)
+- [BlueSky](https://isaqb.bsky.social)
+- [Facebook](https://facebook.isaqb.org)
+
+## Summary
+
+At the Software Architecture Gathering, Eberhard Wolff hosted a fishbowl
+with Cheryl Hung, Avraham Poupko, Vaughn Vernon and Ralf D. Müller.
+People from the audience joined them on stage. The question: is software
+architecture about human intelligence or artificial intelligence?
+
+### How AI Changed the Work
+
+Cheryl saw Arm move from caution to more openness. Arm's business is its
+intellectual property, and it feared leaking it, but now there is more
+support for AI in the ecosystem around its chips. Vaughn used to pay
+developers tens of thousands of dollars a month, for example for web
+UIs. Now AI does that work, without Vaughn having to know every detail
+of React.js. Ralf compared working with AI to a glass labyrinth: "I
+already see the exit, but I always hit some walls." Avraham wonders
+whether there can be "language without thought", and whether he is being
+lazy or using a tool.
+
+### Will We Still Need Architects?
+
+One person in the audience raised a hand when Eberhard asked who expects
+no more software architects in ten years. Avraham would not predict it.
+"I don't know" is a legitimate answer, and he rarely gets it from an
+LLM. Eberhard objected that different training could fix that. For
+Avraham it takes more: "I don't know" means not knowing whether one's
+own experience is similar enough to the case at hand.
+
+Vaughn reported that Claude keeps growing the same component until the
+code is so complex that the AI itself starts to fail at changing it.
+Constant refactoring is needed: "Craft [...] is not plentiful; it's
+scarce." Cheryl doesn't expect fewer architects and asked what happens
+if we end up with more, because any 16-year-old can generate beautiful
+diagrams. Avraham replied that drawing is not what architects do; they
+think. Cheryl added that they have to influence people and build a
+common vision.
+
+### Teams and Communication
+
+Erik Bell from the audience asked how our understanding can keep up with
+such fast tools. Ralf said that everybody becomes a builder, but not
+everybody can verify the result. Vaughn doubted that LLMs will continue
+to break through if people keep producing more of what they were trained
+on.
+
+Eberhard asked whether fewer people would make the communication problem
+go away. Cheryl expects smaller teams, but maybe more companies. Avraham
+holds that an LLM cannot be a first-class member of a team, because he
+cannot build trust with it. Erik Bell said that problems are often
+cultural and between humans. Ralf has Copilot take a first look at
+issues. He does not see it as a team member, but does not know whether
+there will still be human teams for coding.
+
+An audience member pointed out that humans are distracted while LLMs
+advance. For Vaughn, working with an LLM takes so much focus that the
+day ends in exhaustion. Avraham suggested that this limit may be a
+benefit, because it may force us to choose what matters.
+
+### Mistakes and Their Costs
+
+An audience member warned that people take the solutions ChatGPT knows
+for all the solutions there are. Avraham told of a team that agreed to
+refactor a big ball of mud before adding a feature. Encouraged by
+Cursor's confidence, the development lead had it add the feature anyway.
+The result was functionally correct, with more technical debt. "Cursor
+is not a stakeholder." Vaughn suggested it could be seen as an
+inexpensive experiment. Ralf found LLM mistakes cheap as long as reviews
+catch them, and reminded the panel that humans make mistakes too. An
+audience member added that trying out an idea has become much cheaper.
+
+Richard from the audience disagreed. There are costs nobody pays in
+tokens, such as ecological damage, intellectual property violations and
+harm to societies. Avraham compared this to cheap transport, food and
+clothing, whose hidden costs we now pay dearly.
+
+### Responsibility
+
+Mikhailo Brodsky from the audience asked who is responsible when an
+architect can no longer understand the generated code. Richard said that
+one shouldn't get into that situation in the first place. Cheryl thinks
+that is where the world is going, with more disposable systems. Avraham
+hopes for new disciplines, like those that construction developed for
+skyscrapers. Vaughn expects that executives will find someone who is
+responsible. Ralf pointed to vibe-coded open source projects that people
+use, and named his own AsciiDoc linter, whose code he never checked.
+
+### Conclusion
+
+In the end Eberhard asked for a uniquely human skill to focus on.
+Avraham named the ability to know what others are thinking, Richard
+named empathy and agency, Cheryl storytelling, and Mikhailo Brodsky the
+communication of decisions. Vaughn praised the critical thinking on the
+panel. Ralf was careful: whatever we say LLMs cannot do, chances are
+good that they will do it.
+
+## Bullet points
+
+### Key Takeaways
+
+- Avraham Poupko values "I don't know" as an answer: it means not knowing whether one's own experience is similar enough to the case at hand, and he rarely gets it from an LLM
+- Vaughn Vernon sees Claude grow monolithic components until the AI itself starts to fail at changing the code; regular refactoring is the answer, and craft is scarce
+- Cheryl Hung asks whether there will be more architects rather than fewer, because anyone can generate beautiful diagrams; what counts is influencing people and building a common vision
+- Ralf D. Müller describes AI as a glass labyrinth: the exit is visible, but you keep hitting walls
+- Everybody becomes a builder, says Ralf, but you need to know how to verify what you build
+- For Avraham, an LLM cannot be a first-class team member because he cannot build trust with it; Ralf finds Copilot helpful without calling it a team member
+- Scarce human focus may force us to choose what is important, while an LLM diverges infinitely, says Avraham
+- Avraham's example of a mistake: a development lead let Cursor add a feature to a big ball of mud although architects and developers had agreed to refactor first. "Cursor is not a stakeholder."
+- Opinions differ on whether mistakes of LLMs are cheap: Ralf and an audience member point to reviews and quick experiments, Richard from the audience points to ecological and social costs that nobody pays in tokens
+- Cheryl expects many more disposable systems
+- Ralf warns against saying what LLMs are not capable of: chances are good that they will be
+
+### Core Questions Addressed
+
+- How has AI changed the daily work of the panelists?
+- Will there still be software architects in ten years?
+- Would it help to train LLMs to say "I don't know"?
+- Why bother about complexity if an AI can understand the code?
+- Do we still need teams, and can a machine be a member of a team?
+- Why do we expect LLMs to have a huge impact if architecture is about communication?
+- What is the biggest architectural mistake from blindly following AI recommendations?
+- Are the mistakes of LLMs really cheap?
+- Who is responsible when nobody understands the generated code?
+- Which uniquely human skills should architects focus on?
+
+### Glossary of Key Terms
+
+- **Fishbowl**: A discussion format with free seats on stage; whoever wants to contribute joins the panel
+- **Vibe coding**: Letting an AI write code without really needing to understand the code
+- **Big ball of mud**: A system without a clear structure; Avraham's example was a monolith that needed decoupling
+- **Uncomfortably excited**: An expression Cheryl knows from Google for the feeling that a technological breakthrough is happening and nobody is sure how it will end up
+- **Socio-technical systems**: The view that work can only be understood as team dynamics and technology together
+- **Theory of mind**: The ability to know what other people are thinking, which Avraham names as a uniquely human skill
+
+### Technologies and Works Mentioned
+
+- **Claude**: Used by Vaughn to generate and refactor code; an audience member mentioned Claude Code
+- **GitHub Copilot**: Ralf assigns it a first look at issues
+- **GitHub Spark**: Ralf's example of solving a security problem with the platform's own login instead of one created by the AI
+- **Cursor**: The AI tool in Avraham's example of an architectural mistake
+- **The Mythical Man-Month**: Book by Fred Brooks, mentioned by Avraham when he explained why we have teams
+- **docToolchain and arc42**: Ralf is the creator of docToolchain and involved in the arc42 documentation template
+
+## Transcript
+
+## Fish Bowl “Software Architecture – Is It About Human Intelligence or Artificial Intelligence?”
+
+The opening trailer (0:00:00 to 0:01:23) is omitted. The panel took place as a fishbowl at the Software Architecture Gathering, so people from the audience joined on stage. Eberhard Wolff hosted it. The names of audience members are spelled as heard; two of them did not give their names and appear as Audience member 1 and 2.
+
+The links after each timestamp jump to that point in the video (YouTube, PeerTube).
+
+### Welcome and introductions
+
+**Eberhard Wolff:** [0:01:23] So welcome everybody to the panel, the fishbowl and to the stream. So the idea is to have a discussion about whether software architecture is about human intelligence or artificial intelligence. And we are going to do this in a special way. So there are two free seats here. So if you want to take part in the discussion, if you have any questions, we don't take questions from the audience. You have to join us here on stage and join the discussion. And I'm really looking forward to you doing that. So it would be great if you would join us and if we could have a discussion. And I want to also thank the Software Architecture Gathering for supporting the stream and for making it possible to stream this panel fishbowl. And I want to start with an introduction of the people that we have on the panel. So, Cheryl, do you want to say a few words about yourself?
+
+**Cheryl Hung:** [0:02:23] Sure, absolutely. It's very nice to be here. Pleasure to meet you all, especially as you've stayed late after a long night. So I'm Cheryl. I'm the founder of Cloud Native London, an engineer and an ecosystem builder.
+
+**Eberhard Wolff:** [0:02:38] Avraham, do you want to go next?
+
+**Avraham Poupko:** [0:02:40] I'm Avraham. I come all the way from Israel. I am Director of Architecture for a company called Global-e. We do international shipping and logistics. And I'm a software architect, and I'm fascinated by architecture, I'm fascinated by people communicating, and I'm happy to be here.
+
+**Eberhard Wolff:** [0:03:02] Yeah, thanks for joining. Vaughn, do you want to go next?
+
+**Vaughn Vernon:** [0:03:05] Sure. I'm Vaughn Vernon. I'm the DDD guy, or one of them. And yeah, so... Actually, just a little history. I was invited by Mirko and Stefan Tilkov to speak at one of the really early, it was called Software Architecture Summit, I think it was 2013. And so I've known about this general movement and idea for quite a long time. I really have enjoyed working with Mirko, and when he offered that I come and talk, I was going to do it. You've chosen a very good conference.
+
+**Eberhard Wolff:** [0:03:46] Yeah, thanks for joining. And last but not least, Ralf.
+
+**Ralf D. Müller:** [0:03:51] Hello, my name is Ralf Müller. I'm the creator of docToolchain, and I'm involved in the arc42 documentation template. And I try to help the LLM to create good architectures.
+
+### How AI changed the panelists' work
+
+**Eberhard Wolff:** [0:04:06] Great. And I mean, obviously AI is something that is a lot of hype. So therefore I'm wondering, how has AI already changed your day-to-day work as a software architect in the last 12 months? So, Cheryl, do you want to go first?
+
+**Cheryl Hung:** [0:04:20] So 12 months ago, actually, I'm not in this job anymore, but 12 months ago I was the senior director of ecosystem at Arm. Arm is a chip company, broadly, chip architecture. And Arm is a little bit different, I would say, from most of the other companies because it's a pure intellectual property company. It doesn't manufacture chips, it just licenses it out to companies that then do the manufacturing. And so Arm is quite conservative about using anything AI-related, right, because of the potential of leaking intellectual property, which is its most fundamental business value. I would say that in the years since, there's been a loosening, a relaxing of this feeling, a feeling that, you know, we have perhaps overcome that initial skepticism. And I don't think that the core engineering teams are using it to design the chip architecture, but there's more support for building the ecosystem around it. So software packages that support Arm, for instance. How can you use AI to accelerate that effort, that external effort?
+
+**Eberhard Wolff:** [0:05:38] And I happen to have a laptop with an Arm processor here, so yeah, that's quite interesting. So do you want to go next, Avraham, or what do you think? So what's the impact on your day-to-day work?
+
+**Avraham Poupko:** [0:05:51] Well, there's the philosophical impact and there's the practical impact. As a student of languages, as somebody who's very, very interested in communication and in the relationship between thought and speech, so I was always aware of the debate: is it possible to have thought without language? And only a couple of years ago did I start thinking, is it possible to have language without thought? Which is a new thing to me. Can there be a speaking entity without thought? So my main interface to other people and to other people's thoughts has been their spoken language. And now I find myself engaging in deep technical or deep architectural – let's call it dialogue – with a being, and I'm trying to figure out what that means to me. So how has it changed my day-to-day thinking? I consult with AI, I do vibe coding, I do architecture with AI, but I'm constantly thinking about what does this mean about me, and am I being lazy or am I using this as a tool? And I don't want to be lazy, and I want to use tools as appropriate. So I'm still figuring things out.
+
+**Eberhard Wolff:** [0:07:05] Okay. So, Vaughn, anything to add?
+
+**Vaughn Vernon:** [0:07:08] Yeah. So, I think the primary way that it has influenced me is I used to hire, I used to spend tens of thousands of dollars a month paying for developers to do things that either I didn't have time to do or didn't know how to do, like, you know, specifically UI, web UI frameworks and things like that. And now I can, quote unquote, you know, code in React.js, and I've learned enough about React.js to understand how it works, how, you know, the components work and so forth. But I don't have to understand all the, you know, intricacies of hooks and all those things, right? And so I can read the React.js code. I can tell logically: is it doing what it's supposed to be doing? But I do not actually have to do that. And it's helped me in other ways, you know, various cloud platforms. I don't have to have this, you know, like deep understanding of technologies that I just want to deploy to a platform and take advantage of what the platform offers and write good software architecture from that standpoint. And so far, I really appreciate your viewpoint about the intellectual property. I actually have not agreed to Anthropic collecting all the data about what I'm working on. I am concerned about IP, but so far what I've been working on is mostly open source. And so from one perspective, it's going to know about it anyway because it will go crawl GitHub and find it, and hopefully it thinks that its code is good, better than most others. So that's the way that it has benefited me the most, I would say.
+
+**Eberhard Wolff:** [0:09:21] Thanks.
+
+**Ralf D. Müller:** [0:09:22] So my journey for the last two months is that I noticed that AI is somehow like a glass labyrinth for me. I already see the exit, but I always hit some walls. And I want to identify those walls, mark them, and find a way around them to get to the exit. And it's feeling like we are already close to the exit, but there may be also some last obstacle which doesn't allow us to get to the exit. I don't know. And that's my journey.
+
+### No more architects in ten years?
+
+**Eberhard Wolff:** [0:10:02] Okay. So another question that might be a little bit, well, let's say controversial, so maybe you can raise your hand as an answer. So who thinks that in ten years we won't have any software architects anymore, but we will just have domain experts and, you know, AI, and that's it? So anyone? Anyone in the audience? One person. So, okay, so what's the hype about? So how is it going to change? I mean, it seems that, you know, there is this big promise that basically says this is what vibe coding is about in a way, right? That we don't need to understand coding anymore, that we don't really need to understand software engineering anymore. And, I mean, you pointed out that you don't need to understand React.js anymore in big detail. So why would I need software architects still? Go ahead.
+
+**Avraham Poupko:** [0:11:06] Well, one of the qualities that we try to develop in ourselves as architects is to be a little skeptic or a little tentative and not to be afraid to admit to not knowing something. I don't know is a legitimate answer. I don't often get that kind of answer from an LLM, but from human beings you get the answer, I don't know. So it's a little presumptuous, based on a few years' exposure to LLMs, to try to say, well, in ten years they're not going to need architects. All we need is domain experts. I don't know what's going to be in ten years, and it's going to be an exciting journey. I think I know that. And I think the role of the architect is likely to change. It'll be something else. But people that know how to mediate between the world model and the technical model and know how to help people make sense and make architectural sense and structural sense of the world and map it into a technical solution are probably, hopefully, still going to be needed. So that's an opening point for me.
+
+**Eberhard Wolff:** [0:12:20] So if I may ask one question as a follow-up. So what you rightfully said is that LLMs don't say, I don't know. But that's just something, I mean, you could fix that, right? I mean, the reason why they don't do it is because the testing punishes LLMs to admit that they don't know. So if you change the testing and if you change the training for LLMs to allow them to say, I don't know, you would fix that problem, wouldn't you?
+
+**Avraham Poupko:** [0:12:49] No, because I don't know is not just a profession of ignorance or an admission of ignorance. I don't know means I have some experience which has some similarities, but I don't know if it's similar enough to the case at hand to make a statement. And that's part of the trust that I have. And I don't know is always in context, and in the context in which I'm being asked, I don't know if my previous experience or my previous knowledge is relevant to the case in hand. So for an LLM can be trained to say, I don't know, unless you have a certain amount of probability. But the LLM needs to be more refined in order to say, I don't know or it doesn't know, in a compelling way, in a significant way, in which the LLM says, I have the information, and there are some similarities and there are some differences, but the differences are significant enough for me to say, I don't know, something like that.
+
+### Craft, complexity and generated code
+
+**Vaughn Vernon:** [0:13:53] There are aspects of architecture even to... There are some aspects of architecture to a React user interface. Claude regularly generates monolithic components. If you continue to add features to some part of the UI, it will just keep growing the same component. And one thing that you can do is run, like, the McCabe complexity analysis on your code, and it will tell you this component—you know, this TSX file—is incredibly complex and unmaintainable. And sometimes you can just see that on your own without even running that; you get the feeling. But it's good to have the metrics because then you know specifically what functions to go after. You know, these are the ones that I specifically want to address or the concepts that I need to break up. And so I am very regularly refactoring and using Claude to refactor the code that it generates to more modular style. So that's what I was saying in my talk. Craft doesn't, you know, is not plentiful; it's scarce. And so what you benefit is speed benefits you, but you're not going to get good architectures out of that, and domain-driven designs are not going to be good. So I am still providing the craft or the art or whatever it is that you like to refer to it. I am currently, in terms of my own standards, I am indispensable. Now, does that mean that, you know, Fortune companies and global companies are going to see it that way? I don't know. I would hope that they do, but they might just go for, you know, let the rot grow, and that's the way it's going to be. I can't speak for others, but for me, I'm currently indispensable from what I am working on.
+
+**Eberhard Wolff:** [0:16:24] So, first of all, just to make sure that this is understood right, I'm just trying to spice up the conversation. So it's not that I have some specific opinion, but what you said is basically make complexity metrics and understanding of code. If you generate code, then you have a problem. But the understanding is about a human, right? So if you have some artificial intelligence, it might be that that artificial intelligence can understand code that humans can't understand. So why would I bother?
+
+**Vaughn Vernon:** [0:17:03] Because it, you know, if—I, well, because actually it starts messing up itself. It will get so complex that it itself will start failing at trying to modify the code that it has created. And I've seen that many times. It will actually, if you are not tracking changes from one, literally one task to the next, you can lose working code forever.
+
+**Eberhard Wolff:** [0:17:36] Okay. I think that's a good point. Anything you want to add, Cheryl?
+
+### More architects, not fewer
+
+**Cheryl Hung:** [0:17:41] Can I be—I'll be bullish, a little controversial. I don't think we're going to have fewer architects. What if we end up with more? Because any 16-year-old could generate beautiful architecture diagrams, beautiful documents, right? And they could call themselves an architect. So what is our value as people with experience beyond that point? I said I'm an ecosystem builder. I'm a big believer in bringing communities together, sometimes through open source, sometimes commercially, to work on common standards and to build something for the common good. And I believe that as experienced professionals, we are going to have to spend more and more time talking to other people and the social side of it and advocating for the right thing—not that we're all going to lose our jobs and have no architects.
+
+**Avraham Poupko:** [0:18:35] So, to continue on that thought, the 16-year-old who is able to create beautiful diagrams and then is able to label herself as an architect is under the misconception, which I have seen, is that architects do drawings. That's what they do. And if architects do drawings, then LLMs can do nicer drawings than I can. Architects don't do drawing. Architects, they learn the world, they think. And one of the ways in which they express their thought, very, very sophisticated thought that comes with a lot of experience and training and perspective and broadness of view and depth and knowing some things and not knowing some things and knowing what they know and knowing what they don't know. One way of expressing all that knowledge is through a well-designed diagram. And maybe it's going to become more important to make that distinction clear because as it becomes easier and easier to manufacture what are seemingly aesthetically pleasing diagrams but don't reflect depth of thought, it's going to become harder or more important to think.
+
+**Cheryl Hung:** [0:19:43] I think it's not only depth of thought, it's can you influence other people? Can you build this common vision where other people will get behind it and agree? Because just producing diagrams, as you say, is not the work. The work is making that real and making that change. And that is something that – I mean, it's difficult whether you're 16 or 60 to change how people think and work, right? But that is the genuine outcome that is valuable.
+
+### Coping with acceleration
+
+**Eberhard Wolff:** [0:20:11] Yeah. So before we continue, if you want to join, please do so. It's more than welcome. And also, if you're out there on this internet, then you're also very welcome to add your comments to the chat, and I would definitely read them. So there is the first person who joined. So do you want to give your name and say whatever you want to say and add to the conversation?
+
+**Erik Bell (audience):** [0:20:36] Yes, my name is Erik Bell. I work for TV 2, the largest commercial broadcaster in Norway. And first of all, I couldn't let this opportunity get away from me. I had the great pleasure of attending the workshop with Vaughn Vernon about 10 years ago. And after that workshop, at that time, processes were a lot slower than today. Today things accelerate much faster. So I had actually, I had the time to read his book several times, and I read the blue book as well several times. And every time I find a new layer. But today things are accelerating so fast, and about human intelligence and artificial intelligence, how are we going to accelerate in our understanding to cope with the quick acceleration of these tools and these opportunities, and not overload ourselves with too much to cope with.
+
+**Ralf D. Müller:** [0:21:45] We already overload ourselves and the social network and everything. So what you're saying is, I think, really a problem. I mean, we are creating so much code and so much text without deeply reviewing it. And I'm part of the problem. So, I mean, in the last 12 months, I created so many side projects because I can, and they somehow work. But would I use them in production? No. And I think this is a problem when everybody's a builder. I wouldn't say everybody's an architect, but everybody's a builder. And so everybody will be able to create something. It's like, yeah, everybody can use Word as a text processor, but not everybody will be Shakespeare. So I guess that's a difference. You have to know about what you do and know how to verify it. And so it depends on what you build, whether you need architectural knowledge to verify it or not. And for instance, when I take a look at GitHub Spark, they solved the security problem by using their login and not relying on a login system which is created by the AI. So, okay, that's a solution. And so many more people can use it to build something. But if you have other problems...
+
+**Eberhard Wolff:** [0:23:32] Yeah, go ahead.
+
+**Vaughn Vernon:** [0:23:33] There's another situation that we don't often consider, and that is: The LLMs have trained on everything that there is to be trained on, and as we produce more things that are based on the things that it's already trained on, it's trained on the same things that it was already trained on. The LLMs are not going to continue to break through unless we give them the ability to break through. And the more people who vibe things that are just trash, honestly, I mean that, you know, and I've done enough. I want to say two things. I don't feel that I vibe code right now. I have, and I didn't realize I was until I realized I was, and I said, that's why things aren't working, right? Because it was outstanding at first, and within days it was not sustainable. It was untenable. And that's when I realized that that's what I was doing, and I was leaning into it but not really understanding that. So that's why I say it's trash, because that's what it is. And all these articles that you see, like some entrepreneur created five microservices or SaaS programs or whatever in a weekend, and they're now making $60,000 a month, and that's garbage. That's complete—it's not true. It's just simply not true. And so, you know, how are they going to continue to learn unless we give them more to learn on?
+
+**Eberhard Wolff:** [0:25:31] Sorry, go ahead.
+
+**Ralf D. Müller:** [0:25:32] I think what you are describing is what I try to say with a glass labyrinth from the start. So I'm feeling I'm on the right track and everything's going well, and then I hit this glass wall and I don't know why. So I go three steps back and try it again, and that's the wrong path. We have to realize that there's some obstacle in the way and find our way around it to find the way to the goal, or in terms of the labyrinth, the exit.
+
+### Teams and communication
+
+**Eberhard Wolff:** [0:26:11] So, if I may, I want to pick up one point that you, Cheryl, made a few minutes ago about how architecture is also about communication. Maybe that's even like the central piece. Now that assumes that architecture and software development is really an interaction between humans, where we have a team of people working together. Now what you just said, and that was one of the parts of the discussion, is that everyone becomes a builder and a powerful builder in the sense that they can have such a big output. So what do you think? Is it going to be still the problem that we are going to develop software in teams and that we have that communication problem, or is it rather that this won't really be our problem anymore because we are able to do so much stuff with so such few people? And I mean, if I look at some of the AI hype, they say that if you want to be really productive with AI, you have to treat AI like a team member, which basically means that the number of humans that you actually have to convince decreases if the team size stays the same, because some team members will be replaced by AI. So what's your thought about that?
+
+**Cheryl Hung:** [0:27:33] Humans are insatiable. I don't think we've—I mean, like computers did not reduce the number of people who work on mental work, right? It increased the number because now people could do more. So I can see that we need fewer people for certain—if you look at a team in isolation. But maybe that means we have more companies and more organizations because people, instead of having to raise 10 million and hire 20 engineers like before, now they can do a lot more with two people.
+
+**Avraham Poupko:** [0:28:10] I think, well, the reason we have teams is not just because of scale. More people could do more, right? Fred Brooks and Mythical Man-Month and other people write about this a lot. The reason we have teams, or the reason we have companies, the reason we organize ourselves around tasks is because that allows us to specialize, it allows us to collaborate and to cooperate, and we do much, much more as a team than we do as an aggregate of individuals. And that's probably still going to be true for a long, long time to come. So if the—and by the way, that's why the name of the department that handles hiring in the company as human resources is a real bad name. Humans are not resources. And there are resources. There are computers, there's all kinds of stuff, but not the humans. They're not the resources. So we might find that as LLMs become more powerful—and LLMs are always going to probably perform poorly, because if they perform well, we're going to load them more until they perform poorly, sort of like very good programmers. Very good programmers, if he's so good and so productive, let's give him another few tasks, and then if he's still good, we'll give him more tasks. And that's why very good programmers are always stressed and always feel like they're underperforming, because they are—because we're always giving them so much that they're underperforming. LLMs we're going to see the same. So we're going to always have teams. People have to collaborate. We need that multitude of perspectives. People like working together as a collaborative. And no, an LLM can't be a member of the team, certainly not a first-class member of the team. I can't build trust with the LLM. I don't know that the LLM is capable of having my interests at heart and establish a long-term trusting relationship with an LLM.
+
+**Erik Bell (audience):** [0:29:58] I often tell my boss, If you don't have a problem, don't talk to me, because that is really what we do as developers and architects. We solve problems, and problems are very often cultural and inter-human. So you will actually have to be in touch with the real world, with real people, to be able to actually solve the real problem. Like, if it's not a problem that is about these aspects, you were talking about machines, and that's what we saw in the Industrial Revolution. We invented machines that could do the things that are always going to be the same, that needs to be reproduced. But humans, they can actually do the craft that Vaughn was talking about. We can actually solve problems by talking to people, and that's where I think we shouldn't remove the need for teams, because teams is where we get the feedback if we actually understand the context, so we solve the correct problem.
+
+**Eberhard Wolff:** [0:31:07] And if I may pick that up, I mean, there is this, lately there's been this hype about socio-technical systems, and I mean the origins are about coal mines in England, if I remember correctly, like the beginning of the 20th century or something. There was a study that basically says if you have some workers in a coal mine, the only way to really understand what they are doing is by understanding, like, the team dynamics plus whatever they are doing, like the machinery that you were talking about. So if that is the case, and if you agree that this is the core problem, I could ask a completely different question from what we discussed a few minutes ago, which is: so why do we think there is a huge impact of LLM at all? So feel free to join. Yeah, sure.
+
+### Can a machine be part of the team?
+
+**Ralf D. Müller:** [0:31:57] So maybe I can just add something to the team thought, because when we talk about teams and team members, we mostly talk about humans, and then we ask whether a machine can be part of a team, and this doesn't really fit. When I think about some tasks, like the first look at an issue, I assign it to Copilot. And yeah, I don't think of it as a team member, but it's helpful. And I don't know how long it will take until Copilot will analyze the issue and decide that another LLM should solve this issue. So I think it will evolve, and I don't know whether we will still have human teams for coding in the future.
+
+**Eberhard Wolff:** [0:32:58] Before you go ahead, I mean, or I'm not sure whether you want to answer that question. I really want to have another answer to the question. So why is it that we think LLMs have a huge impact on software architecture if we believe that software architecture is about communication, about teams, and that socio-technical systems is the way to understand what we are doing? So anyone, you showed up first.
+
+**Erik Bell (audience):** [0:33:29] One of the things I'm experiencing is that when I understand something about the problem, I need to also convey it to a lot of people and to the process of building it, and it helps me a lot with LLM actually to get people to understand what I'm trying to convey, because it can produce documentation I would not have the time to write.
+
+**Eberhard Wolff:** [0:33:56] Which basically means that LLMs might be a tool for better communication. Now you joined, so can you say a few words about yourself?
+
+### Distraction, focus and curiosity
+
+**Audience member 1:** [0:34:03] Yes. Thank you. Thank you for this option to join spontaneously. So one of the perspective that touched me to come here is the human. So at one side, LLM don't understand the context and many things which human understand. At the same time, humans are so distracted and not so focused. So, for example, I don't know, not to be here. How many of us here are listening completely to this panel and not on phone? So it's just an example. So when we are in a meeting or we are doing architecture, most of us are distracted, even including me. And this perspective of distraction and attention brings me to a point of performance in architecture. So let's say if you are doing architecture where LLM is learning and we are distracting ourselves, for getting low attention to work what we are doing, so I don't know. So human intelligence, when we are talking about versus artificial intelligence, it's not competitive. But when we are basically not competing at the same level, when an LLM is advancing and we are not, then it's really a challenge for us.
+
+**Eberhard Wolff:** [0:35:17] Okay.
+
+**Vaughn Vernon:** [0:35:20] At the end of the day, working with an LLM, I am exhausted because I am paying attention. I am not distracted. I am so focused on what it's doing, and I'm tracking the work of, like, 100 people or something. You know, I don't even know what to compare it to, but my mind feels like it's melting down at the end of the day—when I say end of day, sometimes I'm working 18 hours a day. I just, you know, I don't go by the laws of whatever. I just get things done. That's what I do. And when I'm on something, I just keep going. So part of that is like the hours that I work, but it's also just trying to track the work of so many different people. I can't afford to get distracted. It's just me, maybe.
+
+**Avraham Poupko:** [0:36:17] So to follow up on those two points, the reason you're exhausted at the end of the day is because you're mortal, and your focus is a very limited resource, and it's probably your most precious resource. And it's because that your focus and your attention is such a limited resource that you want to do it well, and you want to apply it correctly, and you want to focus, so to speak, on the right thing. And that, I assume, brings out the best in you, or in some of us, and in all of us, maybe. And when an LLM, when thought is free and it doesn't have to be limited by those things that us mere mortals are limited by, it could think about a billion things and it could focus on a billion things. It could be that there's a downside to that also, and it's not forced to focus its limited time on the most important problem or the most interesting problem or the most relevant problem. It diverges infinitely. And I don't know if that's a good thing or not. Maybe the fact that we are limited in our capacity to focus actually forces us to focus and forces us to make very, very good use of our time. To answer your previous question of why are we so enthralled by LLMs, even if we're not sure, it's because architects by nature are a curious bunch. And that's another thing that we have that LLMs don't have. LLMs are not curious. They don't try new experiences. They don't try new things. As architects, so we see something that's revolutionary and we see something that's different, and we see a machine talking in human-like languages. So we're curious to see what can this do. Let's point it at some problem and see what happens.
+
+**Cheryl Hung:** [0:38:07] So back when I was at Google as an engineer, they used to call this feeling uncomfortably excited, right? Like this feeling that there's some technological breakthrough and it's causing us so much anxiety because we're not sure how it's going to end up. How many people in the audience feel uncomfortably excited about AI? Right. Quite a lot of people, right? Not everybody, but a lot of people. And that is the sign that we have to not step back, we have to look into this more and we have to engage with it, because if there's something that makes so many people in the room uncomfortably excited, then there's something there.
+
+### Mistakes from following AI blindly
+
+**Eberhard Wolff:** [0:38:47] Yeah, I think that's a great thought. So maybe a completely different question. So what's the biggest architectural mistake you've seen so far from blindly following AI recommendations? Which sort of assumes that you've seen mistakes, so you could say that there weren't any, and I would be fine with that. So there is another person, so one of you has to somehow leave. Thanks. Thanks for joining. Thanks for having that conversation. So do you want to talk about the mistakes?
+
+**Audience member 2:** [0:39:19] Yes. So what I've seen so far is that people rely on LLMs for, like, the solution process. So I've seen moments where someone said, There is, like, I've seen all the solutions, all the problems, like the possible solutions, and in fact it was not all the solutions. It was just the ones that ChatGPT knew about. And I think in these cases, it's... This reduces the possible solution space if you rely on it for all your ideas, right? So it limits the creativity because you think it's all there is.
+
+**Eberhard Wolff:** [0:40:02] Which is sort of a powerful statement because it basically says as soon as you rely on the LLM, you're making that major mistake. And I just want to add, because I found that thought very interesting, somewhere on the internet I read that some, I think, professor came up with the exercise of giving the student an exercise and making them solve that with an LLM. And then the students were asked to figure out how the LLM was wrong in which places and to compare those two things. And I just want to share that because I thought that was a very good exercise that should be done more frequently, because it points out why you shouldn't do that or what sort of the trade-off is and where the mistakes are. And it seems that quite a lot of stuff that students do nowadays—so I left university like, I don't know, 25 years ago—seems to be generated by LLMs. So I think this exercise is really a powerful idea. Avraham, you showed up.
+
+**Avraham Poupko:** [0:41:08] So what was the biggest architectural mistake I've seen an LLM make? And I think this is typical, and it goes along with other things that were said here. We had a monolith, big ball of mud system, and there was another major feature that came to that system. And there was consensus among the architects and the developers that it's really not responsible to implement this feature before doing a major refactoring, decoupling, and trying to restructure it. And we were talking about that, and then somebody had the brilliant idea, well, why don't we just have Cursor do it for us, and Cursor will be able to work with the big ball of mud. And we pointed Cursor to it, and Cursor actually did it, and it did it functionally correct, but it just accrued more technical debt that somebody else is going to have to pay off later down the road, which was, had an architect in my team made that decision, I would have said that's a poor decision. We all agreed that the code is unmaintainable. We all agreed that the complexity is beyond manageable. The Cursor should have said, I refuse to do this. Let's take some time to refactor, to decouple, and then we'll be able to implement it in a much easier way, in a proper event-driven architecture. But the Cursor just did what it was told, because that's what Cursors do.
+
+**Eberhard Wolff:** [0:42:24] So I'm just curious, so who made that decision, a technical person or a business person, or...?
+
+**Avraham Poupko:** [0:42:29] Well, once Cursor said with confidence, I know how to do it, so the decision makers at hand said, Oh well, if Cursor knows how to do it, then because all the developers say we can't do this and it's not responsible to do it, we have to decouple. So who took the decision? It was development lead that took the decision, but he did it with support or encouragement from Cursor, and you shouldn't do that. Cursor is not a stakeholder.
+
+**Eberhard Wolff:** [0:42:58] Yeah, I mean, the reason why I'm asking is because I was wondering whether that's really an architectural mistake or whether that's just one of these instances where, you know, people don't trust their own people with statements that they make about the system, right? So because if the people who are experts on the system say it's not maintainable, it's not responsible to implement that feature, you should probably listen to them because they are the experts on the system.
+
+**Avraham Poupko:** [0:43:23] Well, if by architecture we mean the irreversible decisions, the things that impact the lifecycle of the system, then this is certainly an architectural decision in the larger sense of the word.
+
+**Eberhard Wolff:** [0:43:32] Okay, thank you.
+
+**Vaughn Vernon:** [0:43:35] You could say that that was a very inexpensive experiment that you ran, and you learned from it that it didn't work the way that you had hoped to. And another way to look at it is if there was like this sort of emergency situation where you had to deliver something right away, and you're willing to incur the debt to do that with the idea that you would then jettison that debt soon, you know, maybe that's a good trade-off. I'm not even arguing for or against. It's just an idea.
+
+**Avraham Poupko:** [0:44:17] Thank you. And that is exactly the kind of idea that I would never hear from an LLM. An LLM would never say in its own defense, Well, that was an inexpensive experiment. You learned something. The LLM would always defend its decisions and dig itself deeper. So thank you for that. Maybe we should have had an LLM here on the panel as well.
+
+**Eberhard Wolff:** [0:44:38] So next time, yeah.
+
+**Avraham Poupko:** [0:44:39] Thank you.
+
+### Are the mistakes cheap?
+
+**Ralf D. Müller:** [0:44:43] So we are talking about the mistakes the LLMs make, and I think they are quite inexpensive. I mean, I have my own story where the LLM created 12 tests, and eight were green and four were red, and it was running in circles, and I stopped it and said, Hey, you have to find another way to reduce the number of red tests. It found another way. It deleted two of those red tests. So yes, these are the stories we all know. But when we complain about that the LLM does mistakes, we also discuss about whether an LLM, a machine, can be part of our human team. So we do not discuss that humans do mistakes. We have the mechanisms, the processes to avoid those problems. Yes, we know that our LLMs did mistakes because we did reviews on the results, and so they were inexpensive. So I don't see it as a problem.
+
+**Eberhard Wolff:** [0:45:54] Sorry, before we continue, so there is another person, someone, right? Thank you so much. Thank you for being here. Yeah, and so we are curious. So do you want to go first? Yeah. Thank you.
+
+**Audience member 2:** [0:46:10] So I wanted to add on the idea that LLMs are cheap, or the mistakes are cheap, because I think a big positive note about using LLMs is that if you are unsure about something, like some structure you want to introduce, some concept, it's way cheaper now to just try it out, right? So I can just say, Claude Code or whatever, or ChatGPT, try it out, and I can see it and then decide, do I want to introduce it or just discard it, right? Before LLMs, it was time-consuming to do it. I won't spend like half a day to try something out just to discard it at the end, or usually not for like small things.
+
+**Vaughn Vernon:** [0:46:57] Or weeks.
+
+**Audience member 2:** [0:46:58] Or weeks, yeah.
+
+**Eberhard Wolff:** [0:47:00] So, Richard.
+
+### The hidden costs
+
+**Richard (audience):** [0:47:02] Thanks. Richard is my name. I stood up when I heard the word it's cheap, because I do think it's not. So I'd like to talk about costs a bit more than the few bucks you pay in tokens. And I think we should have in this discussion about where this trade is going and what our vision and how, in ten years, our work looks and how our world looks, to also factor in that there are costs associated that you don't pay. And it's not really cheap to just let Claude code. There is a lot of costs associated with it. So that's just the point I wanted to make. We could enumerate, right, the ecological damages and intellectual property violations and extortion in Africa and the hurt it does to societies and our information ecosystem. And all of these costs have to at least be mentioned when being excited about how cheap it is that an LLM does work for us, right?
+
+**Eberhard Wolff:** [0:48:14] Yeah. So first of all, thanks for sharing. Yeah, and it's interesting that we spent, what is it, like 15 minutes discussing the topic without talking about the ethical sides. So that's, I think, quite interesting. So do you want to join? So someone? Okay, thank you.
+
+**Avraham Poupko:** [0:48:36] So I want to respond to what Richard just said and respond to the thing about mistakes and maybe combine the two. Humans make mistakes too, but humans are capable of feeling pain. And because we're capable of feeling pain, hopefully we don't make the same mistakes. We make the mistakes, we pay the price, and maybe we learn from it and we became a better architect for it, unless we waste the time trying to defend our mistakes. But if we're honest and we learn from our mistakes, that's a good thing. And one of the mistakes we made over the last several hundred years is that as transportation became very cheap and food became very cheap and clothing became very cheap and industry and construction all became very, very cheap, and we ignored the hidden costs or the cost to other people, the cost to the environment or the cost to the uninvolved parties, to the ecosystems. So now we're paying a very dear price for hundreds of years, or at least a hundred years of irresponsible living, to the point that we've accrued ecological debt that we don't even know how we're going to climb out of. So we now all have cars and we have planes and we have cheap food and everything, and we're trying to figure out how do we recover from the ecological debt that we've accumulated over the century. So maybe we should learn from that mistake and see, yeah, well, this endless brain power that is becoming available to us, and it's free and it's clean and it's available to everybody else, and the costs are hidden or somebody else's cost. Who knows? Maybe our grandchildren are going to come back and look at us and say, you know, they've accrued a very, very great ecological, cognitive debt, some kind of debt. I don't even know what it might look like, that we're kicking a can down the road, and maybe that's an irresponsible thing to do. And I don't know the answers. I'm not an ethicist. I'm not trained in that kind of thinking, but I can see the problem there.
+
+**Eberhard Wolff:** [0:50:44] Yeah, and I mean, it sort of raises the question whether you could call what we are doing human intelligence at all, right, in a way. So you just joined. So what, yeah, do you want to say a few words about yourself?
+
+### Who is responsible for code nobody understands?
+
+**Mikhailo Brodsky (audience):** [0:50:57] Yeah. Hello, everyone. Thank you very much for this opportunity and for experts sharing this knowledge. My name is Mikhailo Brodsky. I'm CTO, Enterprise Architect, and I have also interesting questions to all experts. So, you know, LLM can generate code, can generate architecture, but also is going to introduce additional complexity. What is going to happen in case architect is not able to review and understand this code? Who is going to be responsible for this? And what is the role of the architect in this case?
+
+**Richard (audience):** [0:51:33] I have a counter question. Why would you want to do this?
+
+**Eberhard Wolff:** [0:51:37] Because I don't want to be responsible.
+
+**Richard (audience):** [0:51:42] That's not really a good answer, but... so the question I got was, what happens when the LLM produces so much architecture and code that you can['t] follow through and can keep it in check? And my answer is: You shouldn't, because that's a bad situation to be in, and I wouldn't start going there in the first place. Which is not a helpful answer, but it's still...
+
+**Cheryl Hung:** [0:52:09] Well, I agree, perhaps we shouldn't, but I think that's the way the world is going, right? I think we will have a lot more disposable systems than in the past. I would be really curious to see how, if anyone knows of a source where you could find out how long a piece of code lives. Like in the last 50 years, say, initially people would write code that would last a very, very, very long time. And if code is getting cheaper and faster to write, then we just throw it away. It's disposable, right? Clothes are disposable. Food, you say, is cheap. It's just disposable now. What's different with that in architecture?
+
+**Vaughn Vernon:** [0:52:47] It depends on whether you ask JPMorgan Chase or Nubank.
+
+**Cheryl Hung:** [0:52:52] Explain more. Explain more. I don't.
+
+**Vaughn Vernon:** [0:52:55] Oh, COBOL systems versus cloud-based digital bank.
+
+**Cheryl Hung:** [0:53:03] Right. And I mean, I'm sure there's some craft to writing COBOL as well, but just like there's craft in people who spin their own yarn to make clothes, but very few people do that.
+
+**Eberhard Wolff:** [0:53:14] I mean, seriously, one question. So, isn't that a comfortable situation to be in, to say, okay, this is something that that machine came up with, and I'm not responsible, so that machine came up with that stuff, and I don't really understand it, so it's not my problem.
+
+**Avraham Poupko:** [0:53:36] The original question was, what's going to happen as the code gets so complex that a human brain can't handle it, which I think is very likely to happen. And we're probably going to discover new disciplines and new methodologies and new ways of doing architecture, just like when construction started becoming faster and faster, and now we have cranes and steel and concrete, and we're able to build skyscrapers. Very, very quickly, there were new types of architecture that developed, and there were new construction methodologies that developed, and people started learning theory of structure and theory of construction in order to build responsibly a skyscraper, and we could build now a skyscraper that's many, many stories tall. Hopefully, maybe there'll be new types of architecture that we learn that help us get our brains around this complexity and help us manage, just like over time there was decoupling and modularization and functional decomposition, all kinds of new disciplines that helped us deal with that complexity. Presumably, hopefully.
+
+### Lessons from open source
+
+**Cheryl Hung:** [0:54:46] I wonder if there's a lesson to be learned from open source communities here, because open source communities may have tens of thousands or even hundreds of thousands of people contributing, but they're not doing it for the long term. A lot of them contribute a handful of times and disappear, and yet the project sustains itself through open source communities, maintainers, contributors. There's a whole different idea of organizing people or work there compared to in an organization that you give 40 hours a week and have your long-lived project.
+
+**Avraham Poupko:** [0:55:22] Sort of like Wikipedia.
+
+**Cheryl Hung:** [0:55:24] Yeah, like Wikipedia, right? Wikipedia is another shared asset that has had many, many contributions, and it's useful. It's great.
+
+**Ralf D. Müller:** [0:55:36] I think this is a very good analogy because I believe that we have many open-source projects, for instance with an MIT license, where if something goes wrong, who's responsible? Projects which are used by so many other projects we rely on. I just remember the comic with the tower.
+
+**Cheryl Hung:** [0:56:04] It's xkcd.
+
+**Ralf D. Müller:** [0:56:05] Yeah, exactly the same.
+
+**Vaughn Vernon:** [0:56:08] I think that saying who's responsible, that's an open question, and it's usually interpreted by board of directors and C-level executives, and they will find someone who's responsible.
+
+**Eberhard Wolff:** [0:56:27] Yeah, and it's not going to be them.
+
+**Vaughn Vernon:** [0:56:29] So, let's face it, we can't just kick the can down the road, I don't think. But one thought experiment is, okay, if we're talking about very, very replaceable things and that we can replace them with very short life cycles, then it's probably best to vibe out function as a service, right? Lambdas. But then, yeah, I know what you're thinking, but okay, if we're talking about turning over complexity to something else, then having tens of thousands of functions for a single set of operations is actually not a problem because something else can figure out what those deployments are and who owns them, which right now human minds can't deal with. To the point where one of the people who takes responsibility for defining microservices, you know, go back 15 or more years, actually gave the advice, do not ever stop a 100-line-of-code microservice. We're talking Java, okay? Just imagine Java, not Clojure or something, but a Java microservice that's 100 lines of code, never shut it down, because there are so many of those microservices, no one can understand what is dependent on what anymore, and it only costs $400 a month anyway. So this is truism. Do you know who I... I could name the person, but again, I'll protect the guilty.
+
+**Ralf D. Müller:** [0:58:16] But I think what you're saying is also that it's not only the complexity which is created, but just the sheer amount of software. There are so many vibe-coded projects out there, and you even don't know whether this cool new library or cool new MCP you are using is just vibe-coded. I mean, people look at the stars at GitHub, not at the number of contributors. And I'm also guilty because I created an AsciiDoc linter, vibe-coded, never checked the code, but it's an open source project at GitHub and people use it.
+
+### Uniquely human skills
+
+**Eberhard Wolff:** [0:58:58] So maybe one final question. So what do you think is a uniquely human skill that architects should double down to in an AI-augmented world? So what is it that we should focus on right now, where we should build up skills? So I don't know, it's three answers. Do you want to go first, Avraham, and then we take Richard and you?
+
+**Avraham Poupko:** [0:59:23] So as Vaughn was talking about Lambda, Ralf made a gesture, and Vaughn said, I know what you're thinking. And you addressed what he was thinking, and you, with your body language, acknowledged that he knew what you're thinking. And that is a very, very high communication skill that humans have, that we know how to know what other people are thinking and answer what they're thinking and accept their answer. So what is the skill? Human skills, a theory of mind, to know what other people are thinking and without them having to articulate everything in language. If we could just do that, that would be an amazing thing, and we must keep focusing on our nonverbal and our verbal and our body language and our communication skills to understand other people. That is a great thing that is uniquely human, and we should continue maintaining that.
+
+**Eberhard Wolff:** [1:00:22] Thank you. So, Richard, you also?
+
+**Richard (audience):** [1:00:24] I was gonna say empathy, because you just said that. So I say we have agency, so we can actually make decisions on what we want, not what we expect might happen to us, but we actually have agency to decide how our work environment looks.
+
+**Eberhard Wolff:** [1:00:44] I didn't catch your name. Lady first.
+
+**Cheryl Hung:** [1:00:47] Storytelling. Storytelling. Because we as humans respond better to stories than anything else. LLMs are not good at this. They give you a lot of stuff and no understanding of how to move through it.
+
+**Avraham Poupko:** [1:00:59] I have a great story about that.
+
+**Mikhailo Brodsky (audience):** [1:01:03] I would like to extend the first answer and say about communication, because architect is responsible to communicate decision to the teams, to the business stakeholders, and, you know, explain why this decision is going to happen. LLM is not going to do it.
+
+**Vaughn Vernon:** [1:01:28] Okay, so first of all, I just want to say a little disclaimer. Actually, I would never have recommended what I just said before about just do everything with Lambda. I actually have very strongly disagreed with that. So it's sort of the opposite advocate, but the thought came to mind. I'm willing to consider everything. But this is interesting because the entire panel, as Avraham pointed out earlier, is there's a lot of critical thinking going on right here among the group, and we're not getting angry at each other or anything. It's just simply mature thought experiment and what if, because we actually don't have the answers, but we maybe are formulating at least some worthwhile opinions at this point, and we'll have some things to carry away and perform real, you know, coding software-level experiments.
+
+**Eberhard Wolff:** [1:02:32] Yeah, I think it's great that you mentioned critical thinking, because LLMs, I think, are a threat to critical thinking, right? Because that's what they try to, well, avoid and shut down. Okay, so Ralf, I think.
+
+**Ralf D. Müller:** [1:02:44] So when I look back the last three years, I think it was never a good advice to say that LLMs, Gen AI, is not capable of doing something. It always takes only one week or two weeks, and then it is. So I don't think that. I mean, chances are good that everything what we say now, what LLMs will not be capable of doing, they will be capable of doing it. So it's hard to predict the future if you don't create it.
+
+**Eberhard Wolff:** [1:03:22] Yeah, that's the Alan Kay quote. So I think that's a great way to come to the final conclusion of the panel. So thanks a lot. Thanks a lot for all of who you joined, and to the original panelists, and also for the Software Architecture Gathering for having us. Enjoy the evening and enjoy the rest of the conference. Thank you. Thank you. Thanks everyone. Thank you.
