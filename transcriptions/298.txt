@@ -196,7 +196,7 @@ dafür nicht.
 
 In dieser Folge spricht Ralf D. Müller mit Simon Martinelli über Spec-Driven Development und den AI Unified Process. Die Fragen aus dem Chat liest Ralf D. Müller vor. Einige Namen sind nach Gehör geschrieben. Nach der Verabschiedung läuft im Video ein Einspieler aus einer anderen Folge (ab 1:03:49); er fehlt im Transkript.
 
-Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube). PeerTube läuft gleich. Im Podcast (MP3) kommt die Stelle rund 22 Sekunden später als der Link, weil die MP3 mit einem Vorspann beginnt.
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube). Im Podcast (MP3) kann die Stelle abweichen.
 
 ### Begrüßung und Vorstellung
 
