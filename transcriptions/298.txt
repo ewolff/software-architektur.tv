@@ -35,956 +35,435 @@ Wir diskutieren die zentrale Frage: Brauchen wir perfekte, deterministische Spez
 
 ## Zusammenfassung
 
-Die Softwareentwicklung steht an einem Wendepunkt. Während viele Teams noch mit traditionellen Methoden arbeiten, zeigt der Java-Champion Simon Martinelli einen vielversprechenden neuen Weg: Spec-Driven Development mit KI-Unterstützung. Seine praktischen Erfahrungen aus über einem Jahr intensiver Arbeit mit diesem Ansatz belegen, dass strukturierte Spezifikationen der Schlüssel zu effizienter KI-gestützter Softwareentwicklung sind.
+Simon Martinelli entwickelt seit über einem Jahr Software mit KI-Agenten
+und nennt sein Vorgehen AI Unified Process (AIUP). Im Gespräch mit Ralf
+D. Müller erklärt Simon, warum Use Cases dafür besser taugen als User
+Stories, welche Architektur der KI entgegenkommt und warum das Vorgehen
+trotz Spezifikation agil bleibt.
 
-### Der Wendepunkt: Von vagen Anforderungen zu detaillierten Use Cases
+### Vom Vibe Coding zum Use Case
 
-Martinellis Erkenntnis kam überraschend. Sein erstes Experiment mit KI-basiertem "Vibe-Coding" scheiterte nicht wegen technischer Probleme, sondern weil ihm der Überblick fehlte. Nach drei Monaten beschloss er einen radikalen Schritt: Er verwarf alles und begann von vorne – mit einer bewährten Methode aus der Vergangenheit: detaillierten Use Cases.
+Am Anfang stand eine Software, mit der ein Turnverein und ein
+Musikfestival ihre Helfer verwalten. Simon begann im September 2024 mit
+Windsurf und merkte schnell, dass Vibe Coding zu nichts führt: nicht,
+weil es nicht funktionierte, sondern weil der Überblick fehlte. Nach
+ungefähr drei Monaten warf Simon alles weg und begann neu mit Use
+Cases. Eine Use-Case-Beschreibung hat Vorbedingungen, einen Ablauf,
+alternative Abläufe, Business-Regeln und Nachbedingungen. Das ist im
+Prinzip eine Taskliste für die KI. Die Anwendung hat heute ungefähr 70
+Use Cases und ging zwei Wochen vor der Aufnahme in eine Beta-Phase.
+Programmiert hat Simon sie nicht selbst, seit Februar arbeitet Simon
+mit Claude Code.
 
-Im Gegensatz zu User Stories, die nur grob beschreiben, was ein System tun soll, definieren Use Cases präzise *wie* etwas funktioniert. Sie enthalten Vorbedingungen, Ablaufschritte, alternative Szenarien, Fehlerfälle und Nachbedingungen. Diese Struktur ist für KI-Agenten ideal – sie bietet klare Handlungsanweisungen.
+### Fullstack und Self-contained Systems
 
-### Die perfekte Architektur für KI: Self-Contained Systems und Vaadin
+Simons Stack besteht aus Vaadin, Spring Boot, Spring Security und jOOQ.
+Mit Vaadin entsteht auch der UI-Code in Java. Entscheidend ist für Simon
+aber Fullstack, egal in welcher Sprache: Dann gibt es nur ein Ökosystem
+und nur Regeln für eine Sprache. Ein Use Case beschreibt den ganzen
+Ablauf aus Sicht der Benutzer und kennt keine Trennung zwischen Frontend
+und Backend.
 
-Martinelli entdeckte schnell, dass nicht nur die Spezifikation, sondern auch die Architektur entscheidend ist. Self-Contained Systems – autonome, in sich geschlossene Teilanwendungen – reduzieren den Kontext, den die KI verarbeiten muss. Dies führt zu besseren Ergebnissen und schnellerer Entwicklung.
+Für KI hält Simon Self-contained Systems für den besten Architekturstil.
+Bei Microservices sind Frontend und Backend häufig getrennt, und ein
+Monolith wird relativ groß, auch wenn er modular ist. Der Kontext, den
+die KI sieht, ist dann zu groß. Kleinere Schnitte machen den Lösungsraum
+kleiner und das Resultat besser. Dazu kommt ein Vorteil, der nichts mit
+Skalierung zu tun hat: Jede Stakeholder-Gruppe bekommt ihre Applikation,
+die sich einzeln deployen lässt. So modernisiert Simon gerade ein
+ERP-System mit fast tausend Datenbanktabellen, das auf Eclipse RCP
+beruht, nach dem Strangler-Fig-Pattern.
 
-Kombiniert mit Vaadin, einem Full-Stack-Java-Framework, ergibt sich eine kraftvolle Synergieeffekt: Weil das gesamte Frontend und Backend in Java implementiert werden, kann die KI mit einheitlichen Regeln und Conventions arbeiten. "Ein Ökosystem, eine Sprache, eine Regel", so Martinelli – perfekt für KI-Agenten.
+### Requirements sind das Was, Use Cases das Wie
 
-### Agile Modernisierung: Die wirkliche Stärke
+Der Prozess beginnt mit einer Projektvision und einem
+Anforderungskatalog, in dem zum Beispiel User Stories stehen. Sie
+dienen als Backlog und sagen, was das System machen soll. System Use
+Cases beschreiben, wie genau der Ablauf ist. An User Stories stört
+Simon, dass der Überblick fehlt und dass Abläufe und Business-Regeln in
+den Akzeptanzkriterien versteckt sind, häufig in loser Schüttung. Ein
+Use-Case-Diagramm eignet sich dagegen, um mit den Kunden zu sprechen.
 
-Besonders beeindruckend ist die Anwendung auf Modernisierungsprojekte. Bei einem ERP-System mit fast 1.000 Datenbanktabellen nutzt Martinelli KI zum Reverse-Engineering: Die KI analysiert den bestehenden Code, generiert Sequenzdiagramme und extrahiert Business-Regeln. Diese extrahierte Spezifikation wird dann die Grundlage für neue, moderne Self-Contained Systems – anhand des Strangler-Fig-Patterns.
+Die gesamte Dokumentation liegt als Text vor: Markdown oder AsciiDoc,
+dazu Diagramme in PlantUML und Mermaid. Die KI versteht das, Menschen
+auch, und das Layout entsteht automatisch. Aus dem Use Case entstehen
+Code und Tests. Weil der Test die Schritte des Use Case nachvollzieht,
+lässt sich nachverfolgen, welche Use Cases vollständig implementiert und
+getestet sind.
 
-Dies löst ein Kernproblem der Softwarewartung: Fachbereiche verstehen nicht mehr, was ihre Anwendungen genau tun, weil diese Information nur im Code existiert. Mit expliziten Use Cases in Markdown entsteht endlich die fehlende Dokumentation.
+### Die Spezifikation bleibt, der Code kann neu entstehen
 
-### Die agile Wahrheit
+In den meisten Firmen, die Simon kennt, liegt das Fachwissen verstreut:
+in Confluence, in Jira-Tickets, in den Köpfen. Übrig bleiben Code,
+Tests und eine Dokumentation, die man besser löschen würde, weil falsche
+Dokumentation schlechter ist als keine. Der Fachbereich kann dann kaum
+entscheiden, weil er nicht sieht, was heute implementiert ist. Im
+Kundenprojekt pflegen deshalb auch die Product Owner die Use Cases
+selbst, in Markdown und mit Git. System Use Case und Domänenmodell sind
+die Single Source of Truth.
 
-Entgegen dem Vorwurf des "Wasserfall-Denkens" arbeitet Martinelli vollständig agil – nur anders. Der Prozess ist iterativ und inkrementell: Use Cases werden progressiv spezifiziert, Self-Contained Systems werden einzeln gebaut und deployed, Feedback fließt direkt zurück. Die Spezifikation ist nicht statisch, sondern wird kontinuierlich angepasst.
+Simon hofft, die Use Cases behalten zu können und die Applikation in
+zehn Jahren mit einer anderen Technologie neu generieren zu lassen. Im
+Alltag geht das noch nicht: KI ist nicht deterministisch, anders als
+Model-Driven-Ansätze kann sie nicht jedes Mal alles neu erzeugen. Ändert
+sich ein Use Case, schaut sich Claude Code den Diff an und passt Code
+und Tests an.
 
-### Fazit
+### Agil, nicht Wasserfall
 
-Spec-Driven Development mit KI ist kein zurückweisendes Relikt alter Methodiken, sondern ein moderner, zukunftsweisender Ansatz. Durch strukturierte Spezifikationen in Use Cases, geeignete Architektur und passende Technologie-Stacks wird KI zum vollwertigen Entwicklungsmitglied – nicht als Ersatz für menschliche Kreativität, sondern als produktiver Partner. Martinellis Erkenntnis ist klar: Lasst euch nicht von ersten Fehlversuchen entmutigen. KI-gesteuerte Softwareentwicklung ist eine neue Fähigkeit, die gelernt und verfeinert werden muss. Wer bereit ist, darin zu investieren, wird mit deutlich schnellerem Entwicklungstempo und besserer Wartbarkeit belohnt.
+Auf den Einwand aus dem Chat, das sei Wasserfall, antwortet Simon: Der
+Prozess ist iterativ und inkrementell. Aus den Requirements entsteht
+zuerst nur das Use-Case-Diagramm. Dann wird Use Case für Use Case
+spezifiziert, und das Spezifizieren gehört zur Implementierung.
+KI-getriebene Softwareentwicklung sieht Simon aktuell auf dem Niveau
+Kindergarten, erste Klasse.
+
+### Werkzeuge, andere Ansätze und Tests
+
+Für den Stack gibt es einen Marketplace mit einem Plugin für Claude
+Code. Simon nutzt in der Regel vier MCP-Server, darunter Playwright und
+den von Vaadin. Skills hält Simon für einen sehr guten Weg, weil fast
+jedes Tool sie unterstützt. MCPs mit vielen Tools verbrauchen dagegen
+viel Kontext. BMAD, SpecKit und Kiro kennt
+Simon, findet sie aber zu entwicklerlastig und eher task-driven als
+spec-driven: Sie leiten aus einem Plan Tasks ab. Der AIUP ist
+gesamtheitlich gedacht, mit Fachbereich, Architektur und Test. Der
+Ansatz hängt nicht an Java, in Kursen nutzt Simon auch den T3 Stack.
+
+Bestehende Anwendungen lassen sich per Reverse Engineering erschließen.
+Die KI erzeugt Diagramme, für die früher teure Werkzeuge nötig waren.
+Dabei zeigt sich, was Simon Balkonarchitektur nennt: Niemand traut sich,
+den ganzen Ablauf zu ändern, also wird angebaut. Den generierten Code
+kann Simon schnell prüfen, weil Simon den Stack in- und auswendig kennt.
+UI entsteht nicht testgetrieben. Mit Browserless Testing laufen aber
+ungefähr 1400 UI-Tests in knapp einer Minute. Für echte Business-Logik
+wählt Simon einen testgetriebenen Ansatz.
+
+Simons Schlusswort: Lasst euch nicht frustrieren. KI-Agenten sind ein
+neues Werkzeug, das man erst lernen muss, und ein Nachmittag reicht
+dafür nicht.
 
 ## Stichpunkte
 
-### Wichtige Keytakeaways
+### Kernaussagen
 
-- Spec-Driven Development mit detaillierten Use-Cases ermöglicht KI-gestützte Code-Generierung deutlich besser als User Stories oder vages Vibe-Coding.
-- Self-Contained Systems als Architekturstil reduzieren den Kontext für KI optimal und ermöglichen gleichzeitig unabhängige Deployments nach Stakeholder-Gruppen.
-- Fullstack-Frameworks wie Vaadin mit Java ermöglichen konsistente KI-Prompts auf einer einzigen Technologie ohne Frontend-Backend-Trennung auf technologischer Ebene.
-- Spezifikationen als Markdown in Git (nicht Confluence / Jira) schaffen eine Single Source of Truth, die über Jahre hinweg erhalten bleibt und Modernisierung ermöglicht.
-- KI-Agenten sind keine deterministischen Code-Generatoren, sondern Team-Mitglieder, die iterativ zusammen mit Entwicklern an Code und Tests arbeiten.
-- Der gesamte Requirements-Prozess sollte KI-unterstützt erfolgen: von Requirements über Domain-Modelle, Use-Cases bis zur Architektur-Dokumentation.
+- Vibe Coding führte bei Simon Martinelli zu nichts: nicht, weil es nicht funktionierte, sondern weil der Überblick fehlte. Nach ungefähr drei Monaten begann Simon neu, mit Use Cases.
+- Eine Use-Case-Beschreibung mit Vorbedingungen, Ablauf, alternativen Abläufen, Business-Regeln und Nachbedingungen ist im Prinzip eine Taskliste für die KI.
+- Requirements sagen, was das System machen soll. System Use Cases sagen, wie der Ablauf genau ist. User Stories dienen als Backlog.
+- Bei User Stories stecken Abläufe und Business-Regeln in den Akzeptanzkriterien, häufig in loser Schüttung. Eine Ablaufbeschreibung gibt es nicht.
+- Fullstack kommt der KI entgegen, egal in welcher Sprache: ein Ökosystem, Regeln für eine Sprache. Ein Use Case kennt keine Trennung zwischen Frontend und Backend.
+- Self-contained Systems sind für Simon der beste Architekturstil für KI, weil der Kontext klein bleibt. Kleinerer Lösungsraum, besseres Resultat.
+- Die Dokumentation liegt vollständig als Text vor: Markdown oder AsciiDoc, Diagramme in PlantUML und Mermaid.
+- Aus dem Use Case entstehen Code und Tests. Das erlaubt Traceability: Welche Use Cases sind vollständig implementiert und getestet?
+- System Use Case und Domänenmodell sind die Single Source of Truth, gepflegt in Markdown und Git, auch von den Product Ownern.
+- KI ist nicht deterministisch. Bei Änderungen am Use Case generiert Simon nicht neu, sondern lässt Claude Code die Änderungen an Code und Tests anwenden.
+- Der Prozess ist iterativ und inkrementell: Use Case für Use Case wird spezifiziert, das gehört zur Implementierung.
+- SpecKit und Kiro sind für Simon eher task-driven als spec-driven und zu entwicklerlastig.
+- Reverse Engineering mit KI zeigt, was ein Legacy-System heute macht, und liefert Diagramme, für die früher teure Werkzeuge nötig waren.
+- KI-Agenten sind ein neues Werkzeug, das man erst lernen muss. In der Zusammenarbeit ähnelt der Agent einem Teammitglied: Auftrag geben, Resultat prüfen, von vorne.
 
-### Behandelte Kernfragen
+### Behandelte Fragen
 
-- Wie lässt sich KI produktiv in realen Softwareprojekten einsetzen, ohne in Chaos zu verfallen?
-- Warum sind Use-Cases mit strukturierten Abläufen der Spezifikation überlegen gegenüber User Stories für KI-gestützte Entwicklung?
-- Welche Architektur-Stile eignen sich optimal für KI-gestützte Code-Generierung (Monolith vs. Microservices vs. Self-Contained Systems)?
-- Wie unterscheidet sich echter Spec-Driven Development von reiner Task-Driven Development mit KI-Tools?
-- Inwiefern können detaillierte Spezifikationen langfristig Technologie-Wechsel ermöglichen, ohne Code komplett neu zu schreiben?
-- Wie lässt sich Versionskontrolle und agile Iterationen mit KI-generiertem Code vereinbaren, wenn KI nicht deterministisch ist?
+- Wie lässt sich KI in produktiven Projekten einsetzen, ohne den Überblick zu verlieren?
+- Warum eignen sich Use Cases für die KI besser als User Stories?
+- Welcher Architekturstil passt zu KI: Monolith, Microservices oder Self-contained Systems?
+- Ist Vaadin Open Source, und wo liegt die Business-Logik?
+- Bringt GraalVM für solche Anwendungen einen Vorteil?
+- Ist Spec-Driven Development Wasserfall?
+- Arbeiten Teams bislang ohne Spezifikation?
+- Feature Branches oder trunk-based, wenn die KI den Code ändert?
+- Welche Agents, Skills und MCP-Server kommen zum Einsatz?
+- Wie unterscheidet sich der AIUP von BMAD, SpecKit und Kiro?
+- Was tun bei einer bestehenden Anwendung, die nicht Greenfield ist?
+- Wie bleibt das Review von generiertem Code beherrschbar?
 
-### Glossar wichtiger Begriffe
+### Glossar
 
-- **Self-Contained Systems (SCS)**: Architekturstil, der Applikationen in unabhängige, vertikal geschnittene Säulen aufteilt, die nach Stakeholder-Gruppen organisiert sind und einzeln deploybar sind, ohne den Rest zu beeinflussen.
-- **Vaadin**: Java-basiertes Fullstack-Framework, das UI-Komponenten als Java-Klassen bereitstellt und zur Laufzeit automatisch zu JavaScript-Single-Page-Applikationen im Browser synchronisiert, ohne dass JavaScript geschrieben werden muss.
-- **MCP-Server**: Model Context Protocol Server, der KI-Agenten Zugriff auf externe Tools, APIs und Datenbanken ermöglicht (z.B. Playwright für Browser-Steuerung, Jooq-Dokumentation via Vektordatenbank).
-- **Spec-Driven Development**: Entwicklungsmethodik, die mit detaillierten, strukturierten Spezifikationen (Use-Cases mit Abläufen, Vor-/Nachbedingungen, Business-Regeln) beginnt und daraus Code sowie Tests KI-gestützt generiert.
-- **Use-Case**: Detaillierte Spezifikation eines System-Ablaufs mit Akteur, Vorbedingungen, Hauptablauf, alternativen Abläufen, Business-Regeln und Nachbedingungen – gegenüber User Stories strukturierter und für KI besser verständlich.
-- **Balkon-Architektur**: Anti-Pattern in Legacy-Systemen, bei dem Entwickler aus Unsicherheit kleine Funktionalität an existierende Logik „anbalkonieren", statt den Gesamtablauf umzugestalten, was zu Redundanzen und Verwirrung führt.
-- **Browser-Less Testing**: Integrations-Test-Ansatz bei Vaadin-Applikationen, bei dem nur der Java-Backend-Code mit Mockups getestet wird, während die UI-Synchronisation durch das Framework automatisch erfolgt – beschleunigt Tests erheblich.
+- **AI Unified Process (AIUP)**: Simon Martinellis Prozess für Softwareentwicklung mit KI, inspiriert vom Rational Unified Process, iterativ und inkrementell
+- **Use Case**: Beschreibung eines Ablaufs mit Akteuren, Vorbedingungen, Ablauf, alternativen Abläufen und Fehlerabläufen, Business-Regeln und Nachbedingungen
+- **Self-contained System**: Architekturstil, bei dem die Anwendung aus unabhängigen Säulen besteht, die über Schnittstellen miteinander reden und einzeln deployt werden können
+- **Vaadin**: Fullstack-Framework, bei dem der UI-Code in Java entsteht und der Komponentenbaum mit dem Browser synchronisiert wird
+- **jOOQ**: Fluent API, um SQL zu schreiben, kein OR-Mapper
+- **MCP-Server**: gibt der KI Werkzeuge an die Hand, im Gespräch etwa Playwright zum Fernsteuern des Browsers oder eine Suche in der Dokumentation
+- **Skill**: kurze Beschreibung, was der Skill macht; die längere Beschreibung holt sich die KI erst, wenn sie den Skill braucht
+- **Balkonarchitektur**: Simons Wort dafür, dass Entwickler an bestehende Logik anbauen, statt den ganzen Ablauf zu ändern
+- **Browserless Testing**: Integrationstests auf UI-Ebene bei Vaadin, die nur den Java-Code testen und keinen Browser brauchen
+- **Testpokal**: Verteilung mit vielen Integrationstests und relativ wenigen Unit-Tests, bei datenlastigen Applikationen passender als die Testpyramide
 
 ## Transkript
 
-## Folge 298 - Spec-Driven-Development mit Simon Martinelli Hallo, ich bin Eberhard Wolff.
+## Spec-Driven-Development mit Simon Martinelli
 
-Ja, hallo und herzlich willkommen zu einer neuen Folge von Software-Architektur im Stream.
+In dieser Folge spricht Ralf D. Müller mit Simon Martinelli über Spec-Driven Development und den AI Unified Process. Die Fragen aus dem Chat liest Ralf D. Müller vor. Einige Namen sind nach Gehör geschrieben. Nach der Verabschiedung läuft im Video ein Einspieler aus einer anderen Folge (ab 1:03:49); er fehlt im Transkript.
 
-Die erste Folge in diesem Jahr.
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube). Im Podcast (MP3) kann die Stelle abweichen.
 
-Heute zu Gast Simon Martinelli.
+### Begrüßung und Vorstellung
 
-Simon ist Java-Champion, er ist Vaadin, ist es Champion, genau Champion und bei Oracle heißt es Ace Pro.
+**Ralf D. Müller:** [0:00:00] Ja, hallo und herzlich willkommen zu einer neuen Folge von Software-Architektur im Stream, die erste Folge in diesem Jahr. Heute zu Gast Simon Martinelli. Simon ist Java Champion, er ist Vaadin … ist es Champion? Genau, Champion, und bei Oracle heißt es ACE Pro. Simon, möchtest du kurz was über dich erzählen, was du so machst, was dein Steckenpferd ist?
 
-Simon, möchtest du kurz was über dich erzählen, was du so machst, was dein Steckenpferd ist?
+**Simon Martinelli:** [0:00:25] Ja, hallo zusammen. Ich bin seit 30 Jahren in der Softwareentwicklung tätig mittlerweile, bin primär im Java-Umfeld dabei und mache ganz viele Sachen. Ich bin auch Dozent an zwei Fachhochschulen in der Schweiz und kümmere mich aber in der letzten Zeit vor allem um Softwaremodernisierung. So die letzten sieben Jahre habe ich vor allem Legacy-Systeme modernisiert und aktuell mache ich ganz viel im Bereich, wie können wir Software modernisieren und das KI unterstützt, damit wir da schneller werden. Und deshalb ist auch KI wichtig geworden.
 
-Ja, hallo zusammen.
+**Ralf D. Müller:** [0:01:01] Genau, ich finde es total cool, dass du so in der Community unterwegs bist und dein Wissen teilst. Und du teilst ja auch dein Wissen, wie du mit der KI umgehst. Dafür sind wir ja jetzt hier gerade da: Spec-Driven Development mit dem AI Universal Process, wo du tatsächlich mal, ja, was heißt mal, du hast mir im Vorfeld erzählt, dass du seit über einem Jahr quasi nach diesem Prozess arbeitest, recht erfolgreich. Das funktioniert, die KI zu integrieren als Sparringspartner und ja, es klingt quasi schon fast unglaublich. Viele Leute haben Probleme, die KI tatsächlich in produktiven Projekten einzusetzen, und du sagst, ja wieso, geht doch. Willst du da mal ein bisschen Details erzählen?
 
-Ich bin seit 30 Jahren in der Software-Entwicklung tätig.
+### Wie es begann: Helferverwaltung und Vibe Coding
 
-Mittlerweile bin primär im Java-Umfeld dabei und mache ganz viele Sachen.
+**Simon Martinelli:** [0:01:56] Also ich kann mal erklären, wie es bei mir begonnen hat. Ich bin im Turnverein in der Schweiz und noch in anderen Verbänden, Vereinen, Gruppierungen dabei. Und diese Gruppen sind eine Quelle von Anforderungen für Software im Prinzip. Und wir organisieren ein Strandfest in der Schweiz vom Turnverein, und ich habe eine Bekannte, die organisiert mit einem Verein ein Musikfestival, ein Open-Air-Festival im Sommer. Und plötzlich hatte ich da eine Anforderung von beiden, dass es eigentlich cool wäre, wenn man Helfer verwalten könnte. Und es gibt Software, die Helfer verwalten können, aber halt nicht unbedingt so, wie wir das jetzt machen oder so, wie wir das gerne hätten.
 
-Ich bin auch Dozent an zwei Fachhochschulen in der Schweiz und kümmere mich aber in der letzten Zeit vor allem um Software-Modernisierung.
+**Simon Martinelli:** [0:02:45] Und der Freund vom Turnverein hat dann gesagt: Hey, du bist doch Softwareentwickler und KI ist da, mach. Und dann habe ich gesagt: Okay, mache ich mal. Und dann habe ich so mit Windsurf begonnen, ungefähr im September 24 war das, als ich damit begonnen habe. Und ich habe relativ rasch gemerkt, dieses sogenannte Vibe Coding, obwohl es diesen Begriff damals noch gar nicht gab, das führt zu nichts. Nicht weil es nicht funktioniert hat, sondern weil ich nicht mehr wusste, wo ich war.
 
-Die letzten sieben Jahre habe ich vor allem Legacy-Systeme modernisiert und aktuell mache ich ganz viel im Bereich, wie können wir Software modernisieren und das KI unterstützt, damit wir da schneller werden.
+**Ralf D. Müller:** [0:03:13] Ganz kurz, Windsurf ist die KI-IDE, die auf Visual Studio Code basiert, ne?
 
-Und deshalb ist auch KI wichtig geworden.
+**Simon Martinelli:** [0:03:18] Genau, genau, ja. Und dann habe ich da relativ rasch was gehabt, auch mit Java, kein Problem. Ich verwende Vaadin, wie du bereits gesagt hast, das verwende ich schon sehr lange. Und das Coole an Vaadin ist halt, es ist ein Fullstack-Framework und Fullstack ist für KI sehr gut geeignet, weil es nur ein Ökosystem gibt. Du hast nur Regeln für eine Sprache, du hast Leitplanken für diese Sprache. Das ist eigentlich relativ gut geeignet. Aber ich wusste nicht mehr, was habe ich implementiert, wo stehe ich gerade und hatte auch keinen Plan, was ich genau tue. Und deshalb habe ich mir überlegt, ja, wie könnte ich das besser machen.
 
-Genau, ich finde es total cool, dass du so in der Community unterwegs bist und dein Wissen teilst und du teilst ja auch dein Wissen, wie du mit der KI umgehst.
+### Neustart mit Use Cases
 
-Dafür sind wir ja jetzt hier gerade da.
+**Simon Martinelli:** [0:03:59] Und ich habe tatsächlich nach ungefähr drei Monaten alles weggeworfen, was ich bisher gemacht habe, bin einen Schritt zurückgegangen und habe begonnen, mich darauf zu besinnen, was hat für mich gut funktioniert in der Vergangenheit, und das waren Use Cases. Also Use-Case-Beschreibungen, weil die haben Vorbedingungen, Nachbedingungen, haben einen Ablauf, haben alternative Abläufe, haben Business-Regeln, und das ist im Prinzip eine Taskliste für KI, damit sie Software entwickeln kann. Und ich habe dann tatsächlich begonnen, mithilfe von KI natürlich die Anforderungen an diese Software, um diese Freiwilligen zu verwalten, zu erzeugen. Das Interessante war natürlich, der ganze Requirements-Prozess war da mit dabei. Also ich habe Requirements-Katalog gemacht und dann Domänenmodell abgeleitet und Use Cases abgeleitet und alles KI unterstützt.
 
-Du hast mir ja im Vorfeld erzählt, dass du seit über einem Jahr quasi nach diesem Prozess arbeitest, recht erfolgreich.
+**Simon Martinelli:** [0:04:54] Und ich habe ungefähr 70 Use Cases in diesem System und bin vor zwei Wochen live gegangen in eine Beta-Phase, und das hat gut funktioniert. Ich habe eigentlich nicht selber programmiert, sondern ich habe dann so ab Februar, als Claude Code rausgekommen ist, habe ich mit Claude Code begonnen zu arbeiten, und ich bin nach wie vor damit unterwegs, weil ich das nach wie vor das beste Werkzeug finde. Und ich habe eine Applikation, die läuft. Und in der Zwischenzeit habe ich dann begonnen, in einem ERP-Modernisierungsprojekt mitzuarbeiten, respektive ich war schon vorher dabei. Aber wir haben relativ rasch gemerkt, okay, dieser Prozess, der funktioniert auch für Modernisierung in Bezug, dass wir halt Anforderungen, Use Cases, Modelle reverse-engineeren lassen. Und dann haben wir die Basis, damit wir das generieren können. Und aktuell bin ich im Projekt mit einem Kollegen zusammen, und wir sind im ersten Self-contained System, das wir bauen, das modernisieren wir genau nach diesem Prozess.
 
-Das funktioniert, die KI zu integrieren als Sparings-Partner und ja, es ist quasi schon fast unglaublich.
+### Vaadin als Fullstack-Framework
 
-Viele Leute haben Probleme, die KI tatsächlich in produktiven Projekten einzusetzen und du sagst, wieso, geht doch.
+**Ralf D. Müller:** [0:06:00] Okay, jetzt habe ich zwei Begriffe, die ich gerade noch klären möchte. Vaadin habe ich bislang als Frontend-Framework wahrgenommen. Du sagst jetzt Fullstack. Ja, kannst du es kurz beschreiben, wo da der Vorteil liegt?
 
-Willst du da mal ein bisschen Details erzählen?
+**Simon Martinelli:** [0:06:20] Genau, also mein Stack sieht so aus: Ich verwende Vaadin zum Frontend entwickeln, ich verwende Spring Boot und Spring Security, und Datenbankzugriffe mache ich mit jOOQ. Es ist kein OR-Mapper, sondern eigentlich eine Fluent API, um SQL zu schreiben, weil ich keine Entitäten brauche in diesem System. Der Punkt ist, die meisten Applikationen, die ich baue, sind sehr stark datenzentriert, mit relativ wenig Business-Logik im Verhältnis zu Datenbankzugriffscode. Und Vaadin als solches integriert sich in Spring Boot, das heißt, ich schreibe meinen UI-Code vollständig in Java, und Vaadin hat dann Java-Klassen für alle Komponenten, die Vaadin anbietet. Also Vaadin hat ein eigenes Komponenten-Set, ein eigenes Design-System, und das sind alles Standard-Web-Components, die kann man auch außerhalb von Vaadin verwenden.
 
-Also ich kann mal erklären, wie es bei mir begonnen hat.
+**Simon Martinelli:** [0:07:15] Und die Vaadin-Architektur sieht dann so aus, dass im Prinzip zur Laufzeit der UI-Code auf Serverseite erzeugt wird, sozusagen. Also der Komponentenbaum, muss man sagen, nicht der UI-Code. Und dieser Komponentenbaum wird dann mit dem Vaadin-Flow-Framework – das Framework heißt eigentlich Vaadin Flow – mit dem Browser synchronisiert. Also zur Laufzeit ist eine Vaadin-Applikation eine Single-Page-Applikation wie Angular oder React. Mit dem Unterschied, dass ich nicht den JavaScript-Code schreibe, sondern den Java-Code.
 
-Ich bin im Turnverein in der Schweiz und noch in anderen Verbänden, Vereinen, Gruppierungen dabei.
+**Ralf D. Müller:** [0:07:45] Okay. Ich hatte es mal ausprobiert, dass ich mit Grails, also auch ein CRUD-Framework, mit der KI arbeiten wollte. Und ich bin total gescheitert, weil, ja, er hat mir zwar Sourcecode erzeugt, aber bei Grails ist halt die Besonderheit: Ich habe ein CLI-Tool, was mir alles scaffoldet und generiert. Und das scheint jetzt bei Vaadin nicht zu sein, sondern bei Vaadin schreibe ich das Frontend in Java. Und das Besondere ist, dass eben die Übersetzung über das Framework nach JavaScript stattfindet. Und deswegen kann die KI dann wahrscheinlich mit dem Sourcecode-basiert ganz gut arbeiten, ne?
 
-Und diese Gruppen sind eine Quelle von Anforderungen für Software im Prinzip.
+### Warum Fullstack: keine Trennung von Frontend und Backend
 
-Und wir organisieren ein Strandfest in der Schweiz vom Turnverein und ich habe eine Bekannte, die organisiert mit einem Verein ein Musikfestival, ein Open Air Festival im Sommer.
+**Simon Martinelli:** [0:08:21] Genau. Der Punkt wegen Fullstack vielleicht noch: Es ist egal, ob wir Fullstack Java machen oder Fullstack JavaScript oder Fullstack Python oder Fullstack was auch immer. Wichtig ist Fullstack, weil grundsätzlich wir wollen keine Trennung zwischen UI und Backend haben. Also wir wollen schon eine Trennung, rein technisch hat es eine Trennung, aber rein projektmäßig, weil wenn wir uns überlegen, wir möchten gerne eine Software bauen, sei es jetzt, keine Ahnung, irgendeine Verwaltungssoftware für, was könnten wir verwalten, irgendwas, zum Beispiel unsere Büchersammlung oder so. Dann sind die Use Cases ja nicht getrennt nach Frontend und Backend, sondern aus Benutzersicht haben wir diese Trennung nicht. Die Trennung zwischen Frontend und Backend ist ein Reverse-Conway-Manöver.
 
-Und plötzlich hatte ich da eine Anforderung von beiden, dass es eigentlich cool wäre, wenn man Helfer verwalten könnte.
+**Simon Martinelli:** [0:09:17] Also das heißt, wir führen Kommunikation ein, wo es keine braucht. Also der User sieht keine Kommunikation. Der weiß, okay, ich habe hier ein UI, da kann ich meine Daten eingeben und anschauen, und dann speichere ich das und dann wird das hoffentlich abgelegt in der Datenbank, validiert, die Business-Logik wird ausgeführt, die es da braucht, um meine Prozesse zu steuern. Aber aus Sicht Anforderungen gibt es diese Trennung nicht. Und deshalb macht es eigentlich keinen Sinn, die Applikation in zwei Teile zu schneiden und dann das Backend separat zu erzeugen und das Frontend separat zu erzeugen, weil der Use Case beschreibt ja den ganzen Ablauf aus Sicht vom Benutzer.
 
-Und es gibt Software, die Helfer verwalten können, aber halt nicht unbedingt so, wie wir das jetzt machen oder so, wie wir das gerne hätten.
+**Simon Martinelli:** [0:09:58] Also möchten wir das zusammen. Jetzt könnten wir natürlich auch hingehen und ein Projekt machen mit Angular und Spring Boot. Aber dann haben wir zwei Technologie-Stacks. Und die KI und alle Guidelines, die wir haben für die KI, die müssten wir auch für beide Technologien haben. Und wenn wir Java pur oder JavaScript pur sind, egal welche Seite man wählt, dann haben wir einen Vorteil.
 
-Und der Freund vom Turnverein hat dann gesagt, hey, du bist doch Softwareentwickler und KI ist da, mach.
+### Self-contained Systems als Architekturstil für KI
 
-Und dann habe ich gesagt, okay, mache ich mal.
+**Ralf D. Müller:** [0:10:23] Ich hatte gerade eben gesagt, zwei Begriffe, die ich klären will: die Self-contained Systems. Das ist eine Architektur, so wie ich sie verstanden habe, dass ich eben die Applikationen aus nicht Microservices, sondern Säulen aufbaue, die voneinander unabhängig sind und – also keine Ahnung – ich habe hier meine Buchverwaltung und ich habe hier meine Nutzerverwaltung. Und das sind beides Säulen, die halt über Schnittstellen miteinander reden. Das ist doch auch wieder ein architektonischer Trick, dass du leichter mit der KI arbeiten kannst, weil der Kontext nicht so groß ist, sondern du hast den Kontext auf einer Säule, richtig?
 
-Und dann habe ich so mit Windsurf begonnen.
+**Simon Martinelli:** [0:11:01] Ja, ich hätte es nicht besser erklären können. Ich denke, für KI ist Self-contained Systems der beste Architekturstil, weil Microservices trennt man Frontend und Backend häufig. Man hat zwar Microfrontends, aber die sind dann nicht eins zu eins, sondern vielleicht n zu n irgendwie miteinander verknüpft. Und wenn du einen Monolithen machst, auch wenn der modular ist, der wird relativ groß. Auch wenn die Applikation klein ist, wird der groß. Und das heißt, der Kontext, der nötig ist oder der die KI dann sieht, der ist zu groß. Und wenn du es kleiner schneiden kannst, ist der Lösungsraum kleiner und deshalb das Resultat besser.
 
-Ungefähr im September 24 war das, als ich damit begonnen habe.
+**Ralf D. Müller:** [0:11:40] Das finde ich jetzt aus Architektursicht insofern spannend, weil eigentlich nehme ich ja Qualitätskriterien, treffe damit meine Architekturentscheidung und jetzt hast du quasi das Qualitätskriterium der Entwicklungsgeschwindigkeit, sage ich mal, genommen und hast gesagt, komm, dann können wir, wenn wir die KI zur Entwicklung einsetzen wollen, dann nehmen wir eben die Architektur mit Vaadin und Self-contained Systems, weil das der KI entgegenkommt und es passt auf die Art der Anwendung, die du baust und insofern passt es auch zum Rest der Applikation, richtig?
 
-Und ich habe relativ rasch gemerkt, dieses sogenannte Vibe-Coding, obwohl es diesen Begriff damals noch gar nicht gab.
+**Simon Martinelli:** [0:12:24] Genau. Also beispielsweise die Software, die ich aktuell für einen Kunden modernisiere, das ist ein ERP-System, da haben wir fast tausend Entitäten, also tausend Datenbanktabellen und das System ist ein großer Monolith aktuell. Der ist relativ gut strukturiert, muss man sagen, wir lösen den nicht ab, weil der ganz schlecht wäre, wir lösen den ab, weil die Technologie, das ist der Eclipse RCP, das dort noch verwendet wird, das ist einfach ziemlich end of life, weil wir nicht auf die neuesten Versionen gehen können und so und wir möchten gerne eine Web-Applikation haben, dass die Benutzer das von überall verwenden können. Aber das teilen wir auf, weil das ist einfach jetzt schon zu groß und der Vorteil von Self-contained Systems insbesondere, wenn du Systeme baust, die viele Stakeholder haben und mehrere Nutzergruppen umfassen, hast du natürlich den Vorteil, dass du die so schneiden kannst, dass eben pro Stakeholder-Gruppe, sage ich dem mal, eine Applikation entsteht, ein Self-contained System oder mehrere, die dann auch individuell betrieben werden können.
 
-Das führt zu nichts, weil nicht, weil es nicht funktioniert hat, sondern weil ich nicht mehr wusste, wo ich war.
+**Simon Martinelli:** [0:13:24] Und das geht nicht um Skalierung, das geht darum, dass wenn jetzt zum Beispiel eine Abteilung gerne Änderungen hätte, dann können wir nur diesen Teil der Applikation deployen und beeinflussen den Rest vom System nicht. Und eigentlich Self-contained Systems habe ich schon lange auf dem Schirm. Also bei Modernisierungsprojekten bin ich in der Regel auf diesem – nicht Technologie, sondern Architekturstil –, weil ich den eben praktisch finde, auch für die Modernisierung, so nach dem Strangler-Fig-Pattern passt das eigentlich auch gut dazu. Dann hast du Deployments, die du nach und nach deployen kannst oder modernisieren kannst. Und jetzt mit KI ist es Zufall, dass das gerade so gut dazu passt. Aber das hat wirklich mit der Größe der Komponente oder der Teilapplikation zu tun, die du mit KI entwickeln willst.
 
-Ganz kurz, Windsurf ist die KI-IDE, die auf Visual Studio Code basiert, ne?
+### Aus dem Chat: Vaadin, Open Source und Business-Logik
 
-Genau, genau.
+**Ralf D. Müller:** [0:14:12] Okay. Im Chat haben wir jetzt schon die ersten Fragen und eigentlich wollen wir ja gar nicht so in die Vaadin-Welt abdriften, aber hier ist schon die Frage, ob Vaadin Open Source ist und wie das mit der Business-Logik aussieht, wo die dann liegt.
 
-Und dann habe ich da relativ rasch was gehabt, auch mit Java.
+**Simon Martinelli:** [0:14:27] Ja, also Vaadin ist Open Source, das ist Apache 2. Aber Vaadin ist auch eine Firma und die muss irgendwie Geld verdienen, um ihr Framework zu bauen. Und deshalb gibt es von der Firma erst mal Support, also ihr könnt einen Support-Vertrag haben, dann habt ihr 15 Jahre Support für Updates von Framework. Und auf der anderen Seite gibt es kommerzielle Komponenten, die man vielleicht benutzen könnte. Also es kommt darauf an. Bei mir ist es so, meine Kunden, die alle grundsätzlich Vaadin verwenden, da würde ich jetzt mal behaupten, wahrscheinlich zwei Drittel, die verwenden die Open-Source-Version, die sind damit zufrieden, das reicht. Und ein Drittel verwendet die kommerzielle Version, aber nicht unbedingt aufgrund von den Komponenten oder sonstigen Features, die da mitkommen, sondern eher, weil sie halt einen Vertrag wollen mit einer Firma, die Security-Updates und regelmäßige Updates bietet, damit sie ein wenig Sicherheit haben.
 
-Kein Problem, ich verwende Vaadin, wie du bereits gesagt hast, das verwende ich schon sehr lange.
+**Simon Martinelli:** [0:15:30] Es geht eher um das. Und die Business-Logik, die lebt genau gleich wie, also der Unterschied ist einfach, wenn ihr eine Applikation baut mit einer REST-API, die REST-API wird einfach durch das Vaadin-Frontend ersetzt. Und das heißt, die Business-Logik, die lebt in Entitäten, also im Domain-Modell mit Services, ob ihr da eine Clean-Architecture-Struktur habt oder eine Layered Architektur, das spielt im Wesentlichen überhaupt keine Rolle. Wesentlich ist, dass das getrennt ist. Also ihr trennt den UI-Code selbstverständlich vom Business-Code, und das ist kein Unterschied. Also REST-API oder Vaadin-Frontend, das ist im Wesentlichen dasselbe.
 
-Und das Coole an Vaadin ist halt, es ist ein Fullstack-Framework und Fullstack ist für KI sehr gut geeignet, weil es nur ein Ökosystem gibt.
+### Aus dem Chat: GraalVM
 
-Du hast nur Regeln für eine Sprache.
+**Ralf D. Müller:** [0:16:10] Okay, hier haben wir noch eine Frage: Was ist mit GraalVM? Die GraalVM habe ich eigentlich schon lange nicht mehr gehört, und ich sehe es eigentlich nur als Runtime-Environment, oder? Ja, also ist davon unabhängig, oder?
 
-Du hast Leitplanken für diese Sprache.
+**Simon Martinelli:** [0:16:25] Ja, ja, also man kann sehr gut GraalVM, also grundsätzlich alle Technologien, die ich verwende, sei das Spring Boot, also vor allem Spring Boot hat da zu tun, nicht unbedingt Vaadin, aber ich kann grundsätzlich die Applikation auch als Native Image bilden. Das brauche ich aber nicht, weil meine Self-contained Systems sind ja nicht serverless, also das heißt, die werden nicht gestartet, sondern die laufen, und an und für sich profitieren wir dann bei der Applikation vom JIT-Compiler zur Laufzeit, der natürlich optimiert, und das verlieren wir, wenn wir GraalVM machen, und deshalb ist eigentlich … GraalVM braucht weniger Speicher und ist schneller gestartet, die Applikation. Schneller gestartet ist bei Geschäftsanwendungen in der Regel kein Thema.
 
-Das ist eigentlich relativ gut geeignet.
+**Simon Martinelli:** [0:17:08] Und Speicherverbrauch kommt darauf an. Also Speicherverbrauch ist natürlich eine Kostenfrage, das ist klar, ob man 10 Mega oder 120 Mega hat und dann wie viele Self-contained Systems man am Schluss hat. Aber wir sind nicht so fein granular wie die Microservices, die vielleicht zu fein granular geschnitten werden und dann plötzlich 100 Microservices entstehen, die alle zusammen viel Speicher brauchen. Das soll es nicht. Deshalb sehe ich keinen Vorteil mit GraalVM für meine Applikation.
 
-Aber ich wusste nicht mehr, was habe ich implementiert, wo stehe ich gerade und hatte auch keinen Plan, was ich genau tue.
+### Microservices, Kontext und Dokumentation
 
-Und deshalb habe ich mir überlegt, ja, wie könnte ich das besser machen?
+**Ralf D. Müller:** [0:17:38] Da hast du jetzt eigentlich schon eine weitere Frage angeschnitten, dass die Microservices ja eigentlich auch abgeschlossen sind und die KI ganz gut damit arbeiten kann. Aber du hast ja jetzt quasi schon gesagt, es hängt auch ein bisschen von der Größe ab. Und ich glaube, bei Self-contained Systems ist die Größe, die ergibt sich natürlicher. Und bei den Microservices, weil es micro heißt, versucht jeder so klein wie möglich zu schneiden. Und was ich auch so gemerkt habe, ist, dass die KI das Umfeld, den Kontext kennen muss von der Säule oder von dem Microservice und es dann quasi davon abhängt, wie gut ich das dokumentiere. Merkst du das auch so, dass die Dokumentation dann eben eine große Rolle spielt?
 
-Und ich habe tatsächlich nach ungefähr drei Monaten alles weggeworfen, was ich bisher gemacht habe, bin einen Schritt zurückgegangen und habe begonnen, mich darauf zu besinnen, was hat für mich gut funktioniert in der Vergangenheit.
+**Simon Martinelli:** [0:18:27] Ja, genau.
 
-Und das waren Use-Cases, also Use-Case-Beschreibungen, weil die haben Vor-Bedingungen, Nach-Bedingungen, haben einen Ablauf, haben alternative Abläufe, haben Business-Regeln und das ist im Prinzip eine Task-Liste für KI, damit sie Software entwickeln kann.
+### Der AI Unified Process: von der Vision zur Architekturdokumentation
 
-Und ich habe dann tatsächlich begonnen, mithilfe von KI natürlich die Anforderungen an diese Software, um diese freiwilligen zu verwalten, zu erzeugen.
+**Simon Martinelli:** [0:18:28] Also grundsätzlich, mein Prozess sieht ja so aus, vielleicht nur so als Randbemerkung: AIUP heißt ja so, weil es mal den Rational Unified Process gibt. Das erwähne ich nicht so gerne, weil, also ich habe mich dort inspirieren lassen, aber viele haben nicht so gute Erinnerungen vielleicht an den Rational Unified Process Ende 90er, Anfang 2000er Jahre. Das liegt aber primär daran, dass dort halt eine Riesenflut an Artefakten und Prozessen da ist und niemand den Prozess customized hat damals. Aber bei mir beginnt der Prozess eigentlich mit der Projektvision. Also wir haben grundsätzlich Informationen, was das System machen soll. Dann gibt es einen Anforderungskatalog, das ist meistens – sind da zum Beispiel User Stories drin, die entstehen dann auch unterschiedlich.
 
-Das Interessante war natürlich, der ganze Requirements-Prozess war da mit dabei.
+**Simon Martinelli:** [0:19:16] Also da sagt der Prozess nichts dazu. Da könnte man Domain Storytelling oder Event Storming oder irgendeinen anderen DDD-Ansatz oder aus dem DDD-Umfeld einen Ansatz wählen oder auch ganz klassisch Leute befragen, was halt die Requirements Engineers so tun. Bei mir beginnt es eigentlich mit der Architekturdokumentation, wo eben auch abgeleitet werden kann aus den Anforderungen, da kann KI auch helfen. Das ist aber nicht wirklich Bestandteil. Bei mir im Prozess steht einfach drin, dass es irgendein Softwarearchitekturdokument gibt, ob das arc42 ist oder irgendein anderes Dokumentationsformat, ist nicht so relevant, aber diese Informationen, die dort stehen, die geben den Rahmen vor.
 
-Also ich habe die Requirements-Katalog gemacht und dann Domänen-Modelle abgeleitet und Use-Cases abgeleitet und alles KI unterstützt.
+### Alles ist Text: Markdown, PlantUML, Mermaid
 
-Und ich habe ungefähr 70 Use-Cases in diesem System und bin vor zwei Wochen live gegangen in einer Beta-Phase.
+**Simon Martinelli:** [0:19:59] Also das heißt, die KI-Agenten haben in der Regel ein Guidelines-File, bei Claude heißt das CLAUDE.md, manchmal heißt es AGENTS.md, manchmal heißt es Guidelines.md, sind Markdown-Files. Und die Dokumentation bei uns, also bei mir im Projekt und bei den Kunden, die liegt vollständig in Markdown. Also wir haben alles in Text. Also wir haben Markdown oder AsciiDoc, je nachdem. Wir haben PlantUML und Mermaid-Diagramme auch als Text. Also wir machen keine Bilder, sondern wir machen Text. Und das ist wichtig, damit die KI das auch versteht.
 
-Und das hat gut funktioniert, weil ich habe eigentlich nicht selber programmiert, sondern ich habe dann so ab Februar, als Cloud-Code rausgekommen ist, habe ich mit Cloud-Code begonnen zu arbeiten.
+**Ralf D. Müller:** [0:20:36] Genau, das kommt ja der KI auch wieder entgegen. Mittlerweile kann die KI ja ganz gut Diagramme visuell verstehen, aber das verbraucht mehr Token, als wenn es jetzt die textuelle Beschreibung ist.
 
-Und ich bin nach wie vor damit unterwegs, weil ich das nach wie vor das beste Werkzeug finde und ich habe eine Applikation, die läuft.
+**Simon Martinelli:** [0:20:48] Genau, und durch die DSL von Mermaid zum Beispiel, die kann KI sehr gut und KI kann die auch verstehen und wir können sie auch verstehen. Und IntelliJ oder GitHub oder andere, GitLab oder so, die rendern ja das direkt im Browser, und dann sieht der Benutzer zum Beispiel, kann sich dann die Diagramme angucken und muss nicht Mermaid verstehen. Also von daher haben wir eigentlich beides aus den besten Welten und das Layouting passiert automatisch. Das heißt, wir verlieren keine Zeit, um Kästchen rumzuschieben und schön zu machen und so. Das ist halt, wie es ist. Das ist meistens ein Vorteil.
 
-Und in der Zwischenzeit habe ich dann begonnen, in einem ERP-Modernisierungsprojekt mitzuarbeiten, respektive ich war schon vorher dabei.
+### Requirements, User Stories und Use Cases
 
-Aber wir haben relativ rasch gemerkt, okay, dieser Prozess, der funktioniert auch für Modernisierung in Bezug, dass wir halt Anforderungen, Use-Cases, Modelle reverse-ingenieren lassen.
+**Ralf D. Müller:** [0:21:26] Jetzt haben wir das Ganze mit Spec-Driven Development überschrieben, und du hast jetzt schon Requirements und Use Cases und Stories angesprochen und Architektur. Ich würde das ganz gerne nochmal alles irgendwie zusammenbringen, wie das zusammenspielt. Weil wir hatten Peter Hruschka zum Beispiel auch in einer Folge, und das war sehr spannend, was Requirements überhaupt sind und der Unterschied zur Spezifikation und eben auch, wie man das Ganze festhält. Und das finde ich ja jetzt zum Beispiel spannend, dass du eben zum Beispiel sagst, dass User Stories nicht so geeignet sind, dass die Use Cases besser geeignet sind. Und die Use Cases, ich hatte sie eigentlich schon zur Seite gelegt, weil UML, wer macht schon noch UML und Use Cases eh nicht, sondern eben Boxes and Lines, ja. Und jetzt gräbst du sie wieder aus und sagst, hey, das ist aber für die KI echt prima. Kannst du die Begriffe mal so in Relation setzen?
 
-Und dann haben wir die Basis, damit wir das generieren können.
+**Simon Martinelli:** [0:22:28] Also grundsätzlich habe ich es vorher erwähnt, wir verwenden auch User Stories, aber in Form von Backlog sozusagen. Also das sind die groben Anforderungen, und die sagen eher aus, was das System machen soll. Also Requirements sind was, und System Use Cases sind wie. Also wie genau wird das implementiert, wie ist der Ablauf, wie funktioniert das genau? Und warum ich User Stories nicht so gerne mag, ich mochte die noch nie, muss ich ehrlich gestehen. Also das Erste, was mir fehlt, ist ein Überblick, und das Use-Case-Diagramm, das eignet sich sehr gut, um mit dem Kunden zu sprechen: Was haben wir für Use Cases im System zum Beispiel. Der erkennt die.
 
-Und aktuell bin ich im Projekt mit einem Kollegen zusammen und wir sind im ersten Self-Contained System, das wir bauen.
+**Simon Martinelli:** [0:23:11] Und da gibt es zwei Ebenen: Es gibt Business Use Cases und System Use Cases, und Business Use Cases wären wieder mehr was, und die System Use Cases wären wiederum eher wie. Und zu den Use Cases dazugehören ja Abläufe. Also das heißt, wir können auch Aktivitätsdiagramme oder Zustandsdiagramme mit … oder Aktivitätsdiagramme, je nachdem, was wir halt machen wollen, da mit dazu packen. Wir können auch UI, Figma-Designs zum Beispiel, gehören eigentlich auch zum System Use Case, weil die gehören ja zu dieser Einheit. Und das Problem mit den User Stories ist ein wenig, dass die User Story, die ist ja in der Regel, wer was machen will und was das Resultat sein soll.
 
-Das modernisieren wir genau nach diesem Prozess.
+**Simon Martinelli:** [0:23:54] Das ist super, das ist okay, finde ich gut. Aber die ganzen Abläufe, Business-Regeln und so weiter, die sind in den Akzeptanzkriterien versteckt und häufig in loser Schüttung. Also das heißt, aufgrund dessen kann ich mir noch gar nichts vorstellen, was da passiert. Und auch der Benutzer kann sich da nichts vorstellen, was da passiert, sondern ich kann mit dem Benutzer eigentlich über Anforderungen sprechen, wenn ich sehe, wie ist der Ablauf, was macht der genau, wie geht das weiter. Und bei uns ist es so, wir machen eigentlich Business-Prozesse, daraus gibt es Anforderungen, die entstehen parallel, und daraus gibt es dann pro Business-Ablauf zum Beispiel oder Prozess gibt es dann Use Cases, die die Schritte im Business-Prozess spezifizieren.
 
-Okay, jetzt habe ich zwei Begriffe, die ich gerade noch klären möchte.
+### Beispiel: die Anmeldung als Use Case
 
-Vaadin habe ich bislang als Frontend-Framework wahrgenommen.
+**Ralf D. Müller:** [0:24:39] Das heißt, wenn wir es mal konkreter machen: Eine User Story wäre ja eigentlich sowas wie, als User möchte ich mich an der Anwendung anmelden können, sodass ich sie benutzen kann.
 
-Du sagst jetzt Pull-Stack, kannst du es kurz beschreiben, wo da der Vorteil liegt?
+**Simon Martinelli:** [0:24:51] Genau.
 
-Genau, also mein Stack sieht so aus, ich verwende Vaadin zum Frontend-Entwickeln.
+**Ralf D. Müller:** [0:24:52] Okay, sagt noch nicht viel aus. Use Case ist für viele, glaube ich, einfach so ein Oval, wo dann drin stehen würde: User-Anmeldung, Login. Aber jetzt sagst du ja, da ist noch ein Prozess dahinter. Genau, wie: User gibt jetzt nicht Username, Passwort ein, sondern nur seine E-Mail-Adresse und er kriegt einen Link zugeschickt, auf den klickt er dann. Aber es gibt auch Ausnahmepfade und solche Geschichten. Und das macht das Ganze dann so powerful, vor allem in der Kombination mit Diagrams as Code, weil du das dann als Aktivitätendiagramm hinterlegst und die KI sieht das Aktivitätendiagramm als Text oder Sequence Diagram und versteht den Text sofort. Ist das richtig zusammengefasst?
 
-Ich verwende Spring Boot und Spring Security und Datenbankzugriffe mache ich mit Juke.
+**Simon Martinelli:** [0:25:43] Genau, genau. Der Punkt ist, die Use Cases, die sind ja generell von der Struktur her, hast du irgendeinen Header, da steht so drin, wie das Ding heißt, wer die Akteure sind. Und dann hast du Vorbedingungen, also was muss erfüllt sein, dass dieser Use Case gestartet werden kann. Also in deinem Fall, wenn der User sich anmelden will, muss irgendwie die Applikation geöffnet sein, damit er das tun kann. Und dann haben wir einen Ablauf. Eben, der User gibt das ein, in deinem Beispiel gibt er zum Beispiel die E-Mail-Adresse ein, klickt dann einen Link und dann geht es weiter. Und dann gibt es alternative Abläufe oder Fehlerabläufe und die werden spezifiziert. Also zum Beispiel, der User wird nicht gefunden, könnte ein Fehler sein, dann wird eine Fehlermeldung angezeigt. Und dann gibt es Nachbedingungen, also das Ergebnis, was soll im guten Fall geschehen, der User soll eingeloggt sein zum Beispiel.
 
-Das ist kein OR-Mapper, sondern eigentlich eine Fluent API, um SQL zu schreiben, weil ich keine Entitäten brauche in diesem System.
+### Tests und Traceability aus dem Use Case
 
-Der Punkt ist, die meisten Applikationen, die ich baue, sind sehr stark datenzentriert mit relativ wenig Business-Logik im Verhältnis zu Datenbankzugriffs-Code.
+**Simon Martinelli:** [0:26:30] Und diese Beschreibung, unterstützt durch Diagramme, unterstützt durch vielleicht UI-Mockups, die helfen sehr gut, der KI das zu tun. Und zwar nicht nur, um den Code zu generieren, sondern auch, um die Tests zu generieren. Weil wenn ich natürlich eine Applikation baue mit einem UI, ist ja der Test mit UI. Also ich will ja nicht einen Unit-Test machen und dann das UI nicht testen, sondern ich möchte eigentlich … dieser Ablauf, der in der Use-Case-Beschreibung drinsteht, der wird in einen Test gegossen. Die Frage ist nur, auf welcher Ebene wir testen. Im Endeffekt, ein Akzeptanztest wäre ein End-to-End-Test mit UI-Automatisierung, der genau die Schritte macht, die dort im Use Case beschrieben sind.
 
-Vaadin als solches integriert sich in Spring Boot.
+**Simon Martinelli:** [0:27:15] Und das erlaubt es dann auch, eine Traceability zu haben. Das heißt, ich kann dann KI-unterstützt sagen, okay, welche Use Cases sind vollständig implementiert, welche Use Cases sind vollständig getestet, und das kann ich dann tun aufgrund dieser Ablaufbeschreibung im Wesentlichen. Und bei User Stories gibt es keine Ablaufbeschreibung. Das ist das.
 
-Das heisst, ich schreibe meinen UI-Code vollständig in Java und Vaadin hat dann Java-Klassen für alle Komponenten, die Vaadin anbietet.
+### Spezifikation behalten, Code neu generieren
 
-Vaadin hat ein eigenes Komponentenset, ein eigenes Design-System und das sind alles Standard-Web-Components, die kann man auch ausserhalb von Vaadin verwenden.
+**Ralf D. Müller:** [0:27:38] Also das heißt, wenn ich das nochmal so zusammenfassen darf: Die User Stories kann man für ein Backlog benutzen. Wenn man dann an das Backlog-Item kommt, dann schreibt man mal die Spezifikation in Form eines Use Cases mit Ablauf und weiteren Details, was dann implementiert werden kann und zu, ja, hoffentlich funktionsfähigem Code führt. Das ist verkürzt so genannt.
 
-Die Vaadin-Architektur sieht dann so aus, dass im Prinzip zur Laufzeit der UI-Code auf der Service-Seite erzeugt wird, also der Komponenten-Baum, nicht der UI-Code.
+**Simon Martinelli:** [0:28:03] Genau. Und es gibt einen kleinen Nebeneffekt, weil das Problem, das ich heute habe, wenn ich Software modernisiere, ist, dass genau das fehlt. Und meine Hoffnung ist, dass durch das, dass wir diese Use Cases haben und die so detailliert sind, dass eben Code generiert werden kann, kann ich die behalten und in zehn Jahren, wenn ich sage, okay, Vaadin und Java war jetzt nicht so eine tolle Idee, wir machen doch lieber JavaScript, dann lasse ich mir die Applikation neu generieren. In zehn Jahren sind wir wahrscheinlich schneller als heute, hoffentlich. Aber ich habe alle Informationen dort und ich habe nicht die Informationen im Code, sondern ich habe die Informationen in einer Form, die ich dann in zehn Jahren zum Beispiel dem Benutzer geben kann und sagen: Hey, stimmt das noch? Lies das mal durch. Ist das noch so, wie du heute arbeiten möchtest, oder gibt es da Änderungen? Weil den Code, den kann ich nicht selbst lesen.
 
-Dieser Komponenten-Baum wird dann über das Vaadin-Flow-Framework mit dem Browser synchronisiert.
+**Ralf D. Müller:** [0:29:00] Ich habe in meinem Talk diese Vision: Momentan iterieren wir auf dem Code und schmeißen immer das Executable weg. Und du sagst jetzt, in zehn Jahren, mein Traum ist, wir iterieren auf der Spezifikation, lassen den Code generieren, schmeißen den aber immer wieder mal weg. Was du ja jetzt so andeutest, ist, dass das tatsächlich – naja – ab und zu passieren könnte. Also, dass, wenn eine Architekturentscheidung verändert werden muss – und Architekturentscheidungen sind ja die, die bislang schwierig zu ändern sind –, aber in dem Fall, wenn ich zum Beispiel eine andere Programmiersprache nehme, eine andere Datenbank, etwas Großes an der Architektur ändere, dann hätte ich so eine detaillierte Spec, die es mir ermöglicht, der KI zu sagen: Du, iterier mal über die Use Cases. Vielleicht ist das auch die richtige Reihenfolge, weil so haben wir es zuerst implementiert. Und die Hoffnung ist, dass da was Gutes rauskommt.
 
-Zur Laufzeit ist eine Vaadin-Applikation eine Single-Page-Applikation wie Angular oder React, mit dem Unterschied, dass ich nicht den JavaScript-Code schreibe, sondern den Java-Code.
+### Modernisierung: Das Wissen steckt nur im Code
 
-Ich hatte es mal ausprobiert, dass ich mit Grails, also auf dem CRUD-Framework, mit der KI arbeiten wollte und ich bin total gescheitert, weil ja, er hat mir zwar Source-Code erzeugt, aber bei Grails ist halt die Besonderheit, ich habe ein CLI-Tool, was mir alles scaffoldet und generiert.
+**Simon Martinelli:** [0:30:03] Genau, weil der Punkt ist: Es gibt eine Frage da im Chat, von Markam3623 gesehen: In zehn Jahren sind die Use Cases vielleicht nicht mehr gleich. Und das Problem bei Softwaremodernisierung – man kann Softwaremodernisierung nicht … also man kann die automatisieren, das haben wir vorhin ein wenig gesprochen. Ich könnte eine COBOL-Applikation nehmen und daraus eine Java-Applikation generieren. Der Punkt ist, das will niemand, und das generiert keinen Business Value. Und das Problem, das wir heute haben, ist: Der Fachbereich, der kann zum Teil keine Entscheidungen treffen, weil er nicht sieht, wie heute was implementiert ist. Das ist nur im Code drin. Also er muss immer den Entwickler haben, und der Entwickler weiß das vielleicht auch nicht.
 
-Das scheint jetzt bei Vaadin nicht zu sein, sondern bei Vaadin schreibe ich das Frontend in Java und das Besondere ist, dass die Übersetzung über das Framework nach JavaScript stattfindet und deswegen kann die KI dann wahrscheinlich mit dem, ja, Source-Code-basiert ganz gut arbeiten.
+**Simon Martinelli:** [0:30:48] Also heute mit KI Reverse Engineering und Diagramme generieren von Abläufen, das ist super, das ist wirklich super gut. Früher musste man relativ teure Werkzeuge verwenden. Ich habe da Werkzeuge immer noch in meinem Werkzeugkasten, die das können, aber die kosten einige tausend Euro zum Teil, um Reverse Engineering zu betreiben. Aber der Benutzer möchte ja gerne oder der Fachbereich möchte gerne eine Entscheidung treffen. Der möchte wissen, wie sieht das aus, ablauftechnisch, was machen wir heute, wie können wir das anpassen? Und das fehlt. Wir haben heute eine extreme Blackbox zwischen ursprünglichen Anforderungen und Code, der implementiert ist. Und für den Fachbereich ist das praktisch unmöglich herauszufinden, was heute geändert werden müsste. Das geht nicht. Und deshalb finde ich, die Wahrheit liegt im Code. Stimmt, weil das ist das, was ausgeführt wird, aber das ist kein guter Zustand.
 
-Genau, der Punkt wegen Full-Stack vielleicht noch.
+### Arbeitet ihr bislang ohne Specs?
 
-Es ist egal, ob wir Full-Stack Java machen oder Full-Stack JavaScript oder Full-Stack Python oder Full-Stack was auch immer.
+**Ralf D. Müller:** [0:31:39] Jetzt hatten wir vorab schon in der Ankündigung eine Frage, so nach dem Motto: Spec-Driven Development, arbeitet ihr bislang ohne Specs? Das fand ich eine spannende Frage, weil ich habe auch das Gefühl, es kommt ein bisschen auf die Branche drauf an. Wie ist da deine Erfahrung?
 
-Wichtig ist Full-Stack, weil grundsätzlich wir wollen keine Trennung zwischen UI und Backend haben.
+**Simon Martinelli:** [0:31:58] Also meine Erfahrung ist, die meisten Leute oder die meisten Firmen, die ich kenne, die verwenden Confluence und Jira. Und die machen mal Vorabklärungen, schreiben die ins Confluence oder in ein anderes Wiki, das spielt keine Rolle, was für ein Produkt es ist. Und dann sind da Grobanforderungen drin. Das ist Zustand zum Zeitpunkt X. Dann werden aus diesen Anforderungen irgendwie Jira-Tickets gemacht oder andere Tasks in irgendeinem Backlog-System, egal was das ist. Und dann haben wir häufig einen Scrum-Prozess, wo es ein Refinement gibt. Da wird man dann Zusatzinformationen anreichern, man wird vielleicht wieder zurückgehen und Fachbereiche fragen, was dazu packen. Und dann kommt das Ganze ins Planning rein, dort werden dann Tasks erzeugt für den Sprint.
 
-Also wir wollen schon eine Trennung rein technisch, aber rein projektmäßig, weil wenn wir uns überlegen, wir möchten gerne eine Software bauen, sei es jetzt, keine Ahnung, irgendeine Verwaltungssoftware für irgendwas, zum Beispiel unsere Büchersammlung oder so, dann sind die Use Cases ja nicht getrennt nach Frontend und Backend, sondern aus Benutzersicht haben wir diese Trennung nicht.
+**Simon Martinelli:** [0:32:46] Und jetzt muss man sich vorstellen, überall in all diesen Schritten, die ich jetzt gerade gesagt habe, sind Fachinformationen drin, aber nicht in einer strukturierten Form. Und ganz viele Fachinformationen, die entstehen bei einem Workshop zum Beispiel, die werden einfach nicht dokumentiert, sondern die sind in den Köpfen drin, weil der Entwickler, der das programmieren muss, der sieht, okay, ich weiß, was ich machen muss, ich mache das jetzt mal. Und zu guter Letzt haben wir folgende Situation: Wir haben Code, der was implementiert. Wir haben Tests, die irgendeine Basis testen, und wir haben Dokumentation, die man eigentlich besser löschen würde komplett, weil falsche Dokumentation ist schlechter als keine Dokumentation, weil sie falsche Annahmen über das System zum Beispiel hervorruft. Und das ist die Ist-Situation. Also wir haben nicht wirklich eine Spezifikation, sondern wir haben eher einfach diverse Informationen über das System irgendwo verstreut in verschiedenen Orten.
 
-Die Trennung zwischen Frontend und Backend ist ein Reverse Conveys Manöver.
+### Markdown und Git als Single Source of Truth
 
-Also das heißt, wir führen Kommunikation ein, wo es keine braucht.
+**Simon Martinelli:** [0:33:49] Und mit KI gehen wir dazu über, also jetzt konkret im Kundenprojekt, alles ist Markdown, habe ich bereits gesagt. Das heißt, auch die Product Owner, die arbeiten mit IntelliJ bei uns mittlerweile, mit Git, also die machen Versionsverwaltung, die führen die Use Cases selber nach. Und deshalb haben wir eine Single Source of Truth, das ist der System Use Case primär und das Domänenmodell natürlich dazu mit Beschreibung der Entitäten zum Beispiel, Funktionen, Business-Regeln, Validierungsregeln, was dazu gehört, aber das gehört alles zur Applikation. Und wir brauchen Confluence nur so für andere Sachen und Jira-Tickets brauchen wir immer noch, aber das sind mehr Platzhalter, damit die Leute was haben, um sich daran festzuhalten, aber da steht nichts drin.
 
-Also der User sieht keine Kommunikation, der weiss, okay, ich habe hier ein UI, da kann ich meine Daten eingeben oder anschauen und dann verrichte ich das und dann wird das hoffentlich abgelegt in der Datenbank, qualitiert, die Business Logik wird ausgeführt, die es da braucht, um meine Prozesse zu steuern.
+### Andere Branchen
 
-Aber aus Sicht Anforderungen gibt es diese Trennung nicht.
+**Ralf D. Müller:** [0:34:41] Also ich muss dem zustimmen, weil ich kenne es auch meistens so, dass man über Jira arbeitet und dann so eine Kette an Issues erstellt und würde man daraus eine Spec generieren wollen, müsste man erst mal gucken, wo ist alles jetzt, die Komponente in welcher Reihenfolge wie geändert worden, um eine Spezifikation zu erlangen. Ich kenne aber auch Bereiche, wo es wirklich kritisch ist. Ich kenne es aus dem Automotive-Bereich, in dem ich zum Glück noch nie gearbeitet habe, aber da ist eine Traceability und solche Geschichten ganz wichtig und da wird wahrscheinlich komplett anders gearbeitet.
 
-Und deshalb macht es eigentlich keinen Sinn, die Applikation in zwei Teile zu schneiden und dann das Backend separat zu erzeugen und das Frontend separat zu erzeugen, weil der Use Case beschreibt ja den ganzen Ablauf aus Sicht vom Benutzer.
+**Simon Martinelli:** [0:35:18] Ja, definitiv. Also das, was ich jetzt beschrieben habe, das ist so das Standardvorgehen. Also ich vielleicht von der Branche her, ich arbeite häufig für Großhandel, Detailhandel. Ich habe auch für Bahnunternehmungen gearbeitet in der Schweiz für eine ganz lange …, und dort kommt es auf den Typ drauf an, aber die klassischen Geschäftsanwendungen, die entstehen meistens so. Natürlich in anderen Branchen ist es anders. Ich arbeite auch … habe auch Kunden in der Industrie, wo es Abnahmen gibt für die Maschinensteuerung oder so. Dort muss alles ganz klar spezifiziert werden, aber das ist ein bisschen ein anderer Ansatz. Aber ich spreche jetzt primär so über reguläre, wenn man dem so sagen kann, Geschäftsanwendungen.
 
-Also möchten wir das zusammen.
+### Ist das nicht Wasserfall?
 
-Jetzt könnten wir natürlich auch hingehen und ein Projekt machen mit Angular und Spring Boot, aber dann haben wir zwei Technologie Stacks und die KI und alle Guidelines, die wir haben für die KI, die müssten wir auch für beide Technologien haben.
+**Ralf D. Müller:** [0:36:03] Jetzt haben wir hier in dem Chat das Feedback: Mensch, das ist doch eigentlich alles Wasserfall. Wir wollen doch agil arbeiten und du sagst jetzt, wir brauchen upfront die Spec und mit dieser Spec lassen wir das implementieren. Arbeitest du agil, oder?
 
-Und wenn wir Java pur oder JavaScript pur sind, egal welche Seite man wählt, dann haben wir einen Vorteil.
+**Simon Martinelli:** [0:36:23] Ja, natürlich, das ist voll agil, das ist richtig agil. Also wir arbeiten jetzt richtig agil wieder mal. Also vielleicht muss ich meine Agilität definieren. Was ich nicht agil finde, ist SAFe und Scrum, sondern das sind Prozessmodelle, die einen Rahmen geben, wie man arbeitet. Das hat nichts mit Agilität zu tun im Kern, weil ich kann auch wasserfallmäßig Scrum machen im Endeffekt. Mein Prozess ist insofern agil, dass wir, also grundsätzlich, bevor man mit irgendwas beginnt, irgendeinem Bereich, zum Beispiel einem Bounded Context, muss man ja schon ungefähr wissen, was man will. Also das wäre ja die „Was wollen wir machen?“, das ist die Anforderungsebene. Und diesen Prozess, den gibt es sowieso.
 
-Ich hatte gerade eben gesagt, zwei Begriffe, die ich klären will.
+**Simon Martinelli:** [0:37:04] Also da gibt es Business-Analysten, Requirements Engineers, die sich überlegen, wie können wir das machen. Der Product Owner ist dabei, vielleicht sind Entwickler dabei, wenn es technische Fragen gibt oder Architekten, wenn es Architekturthemen gibt. Vielleicht ist sogar die Plattform dabei. Das ist Vorarbeit. Das hast du, egal ob du das agil machst oder nicht. Dann kommen wir zu den Spezifikationen, und die sind insofern agil, dass man nicht alle Use Cases aufs Mal beschreibt, sondern was wir machen: Wir extrahieren aus den Requirements die Use Cases, und dann haben wir aber nur das Use-Case-Diagramm. Also dann wissen wir grundsätzlich, was wir machen wollen, also welche Aktionen oder welche Funktionen hat im Wesentlichen das System. Und dann überlegen wir, in welcher Reihenfolge müssen die gemacht werden – also wir, vor allem der Product Owner natürlich. Und dann wird Use Case für Use Case spezifiziert, und das Spezifizieren des Use Cases ist Bestandteil der Implementation eigentlich.
 
-Die Self-Contained Systems, das ist eine Architektur, so wie ich sie verstanden habe, dass ich eben die Applikationen aus nicht Microservices, sondern Säulen aufbaue, die voneinander unabhängig sind.
+**Ralf D. Müller:** [0:38:02] Beziehungsweise, wenn ich das jetzt auch noch mal so interpretieren darf: Ihr macht ja nicht die komplette Applikation vorneweg, dass die komplett spezifiziert ist, sondern ihr macht ja wahrscheinlich erst mal einen Durchstich, dass irgendwie – keine Ahnung – ein Self-contained, eine Säule erstellt wird, die dann getestet wird, und man guckt, wie das funktioniert, und ändert es entsprechend ab und geht weiter auf die nächste Säule. Und somit kommt ja dann das Agile wieder rein, richtig?
 
-Und also keine Ahnung, ich habe hier meine Buchverwaltung und ich habe hier meine Nutzerverwaltung und das sind beides Säulen, die halt über Schnittstellen miteinander reden.
+### Iterativ, aber nicht Model-Driven
 
-Das ist doch auch wieder ein architektonischer Trick, dass du leichter mit der KI arbeiten kannst, weil der Kontext nicht so groß ist, sondern du hast den Kontext auf einer Säule.
+**Simon Martinelli:** [0:38:35] Genau, es ist alles iterativ. Also grundsätzlich ist der ganze Prozess iterativ, inkrementell, wie das der Rational Unified Process im Übrigen auch war. Das heißt, wir machen dauernd alles. Also wir haben dauernd alle Disziplinen. Der Unterschied ist einfach, dass der Code nicht von Hand geschrieben wird, sondern der wird generiert, und die Tests werden generiert, also wird gereviewt. Weil wir haben ja ein kleines Problem, und das ist, dass KI nicht deterministisch ist. Also das heißt, das ist ganz wichtig, weil als ich begonnen habe, meinen Prozess vorzustellen, haben gewisse Leute gesagt, ja, das hatten wir doch schon mal, das ist Model-Driven. Und dann habe ich gesagt, nein, das ist ein großer Unterschied, weil Model Driven ging so weit, dass wir eine DSL hatten zum Beispiel oder UML, das das System beschrieben hat, und wir konnten das dauernd neu generieren.
 
-Richtig?
+**Simon Martinelli:** [0:39:27] Also wir konnten den Output löschen, wie wenn ihr Java programmiert, könnt ihr alle Class-Files löschen, die braucht ihr nicht, die könnt ihr jederzeit wieder generieren. Aktuell ist KI nicht so weit, dass das jedes Mal neu generiert werden kann. Das heißt, wenn wir Anpassungen machen am Use Case, als Beispiel, dann sagen wir zum Beispiel Claude Code: Bitte appliziere die Änderungen an Code und Test. Und das kann KI, weil er ja ein Diff anschauen kann. Also was hat jetzt geändert in diesem Use Case, und aufgrund der Änderungen kann er dann die Abläufe, die Business-Regeln zum Beispiel, wenn sich Regeln ändern, könnte die Business-Logik ändern oder das UI könnte ändern, es gibt ein neues Feld dazu oder es kommt eins weg, es kommt ein neues Datenbankfeld dazu.
 
-Ja, ich hätte es nicht besser erklären können.
+**Simon Martinelli:** [0:40:13] Und dort macht im Prinzip KI nur die Änderungen, also wir generieren nicht neu. Es kommt ein bisschen darauf an, was genau gemacht wird. Wenn man jetzt irgendeine REST-API machen würde und die hätte starke Änderungen, dann löschen wir die und dann generieren wir das neu. Das kommt ein wenig darauf an, was wir machen. Aber wenn wir natürlich relativ viel Code haben, also ein Use Case relativ viele Funktionalität umfasst, dann ist das eine applizierende Änderung. Das ist eine Anpassung am Code und nicht eine Neugenerierung. Und dort ist halt auch die Geschwindigkeit ein Problem, weil wenn die Applikation ein wenig größer wird oder das Self-contained System, dann würde das auch zu lange dauern, das zu generieren natürlich.
 
-Ich denke für KI ist Self-Contained Systems der beste Architekturstil, weil Microservices trennt man Frontend und Backend häufig.
+**Simon Martinelli:** [0:40:54] Aber das ist eine Frage der Zeit. Was wichtig ist: KI-getriebene Softwareentwicklung ist aktuell so Kindergarten, erste Klasse Niveau. Da ist noch viel Luft nach oben, das kann man noch viel besser machen, viel stärker verbessern, optimieren. Da sind wir am Ausprobieren und das Ganze sind Experimente. Also der Punkt ist ja auch, die Tools entwickeln sich weiter. Die Resultate, die ich gekriegt habe vor einem Jahr, unterscheiden sich von dem, was ich heute kriege.
 
-Man hat zwar Microfrontends, aber die sind dann nicht eins zu eins, sondern vielleicht ein zu ein irgendwie miteinander verknüpft.
+### Branches oder trunk-based
 
-Und wenn du einen Monolithen machst, auch wenn der modular ist, der wird relativ gross.
+**Ralf D. Müller:** [0:41:26] Wenn du sagst, dass die KI ja ein Diff machen kann, dass sie sieht, was sich an dem Use Case geändert hat, benutzt du Feature Branches, dass du jedes Feature eben in einem eigenen Branch entwickelst und die KI dann eben leicht den Diff machen kann und eben auch sagen kann, so: Guck mal, das ist jetzt das, und du kannst notfalls sagen, hat gar nicht geklappt.
 
-Auch wenn die Applikation klein ist, wird der gross.
+**Simon Martinelli:** [0:41:45] Ja, es kommt darauf an, wie ich arbeite. Also es kommt darauf an, was ich genau tue. Aber ich würde jetzt mal sagen, in der Regel gibt es einen Branch. Wenn zum Beispiel der Product Owner dann künftig die Anpassungen selber machen könnte, also der kann die Änderungen machen, dann würde der Product Owner bereits den Branch erstellen und sagen, okay, das sind die Änderungen, ich habe den Use Case angepasst. Und dann könnte theoretisch KI auf GitHub zum Beispiel laufen oder auf einer anderen Plattform und das dann automatisch generieren und gleich einen Pull Request erzeugen. Wenn wir lokal arbeiten, kommt es darauf an, wie wir im Team organisiert sind.
 
-Und das heisst, der Kontext, der nötig ist oder der die KI dann sieht, der ist zu gross.
+**Simon Martinelli:** [0:42:24] Aktuell sind wir im Team, wo wir eigentlich die, wir machen die Auftragserfassung neu, sozusagen das Kernsystem. Dort sind wir zu zweit, plus noch ein paar Claude Codes dazu. Und dort machen wir gar keinen Branch, sondern wir machen die Änderungen und wir kriegen die Änderungen, wir applizieren die selber, weil wir im Moment Reverse Engineering machen. Und dann lassen wir das laufen. Im Moment lokal, könnten wir aber auch irgendwo sonst machen. Und dann sind wir trunk-based unterwegs, also gibt es keine Branches.
 
-Und wenn du es kleiner schneiden kannst, ist der Lösungsraum kleiner und deshalb das Resultat besser.
+**Ralf D. Müller:** [0:42:53] Okay.
 
-Das finde ich jetzt aus Architektursicht insofern spannend, weil eigentlich nehme ich ja Qualitätskriterien, treffe damit meine Architekturentscheidung.
+**Simon Martinelli:** [0:42:54] Genau.
 
-Und jetzt hast du quasi das Qualitätskriterium der Entwicklung, der Entwicklungsgeschwindigkeit, sage ich mal, genommen und hast gesagt, komm, dann können wir, wenn wir die KI zur Entwicklung einsetzen wollen, dann nehmen wir eben die Architektur mit Vardien und Self-Contained Systems, weil das der KI entgegenkommt.
+### Agents, Skills und MCP-Server
 
-Und es passt auf die Art der Anwendungen, die du baust.
+**Ralf D. Müller:** [0:42:55] Wir haben hier noch eine sehr spannende Frage: Benutzt du vorgefertigte Agents zum Beispiel für Planung, Dev-Testing, oder hast du verschiedene Rollen, hast du …?
 
-Und insofern passt es auch zum Rest der Applikation, richtig?
+**Simon Martinelli:** [0:43:05] Mein Prozess ist: Für meinen Stack mit Vaadin und jOOQ gibt es einen Marketplace mit einem Plugin für Claude Code, und da gibt es Commands, Skills, und ich verwende in der Regel vier MCP-Server. Einer ist Playwright, weil, den brauche ich, damit ich den Browser fernsteuern kann und KI sieht, wie die Applikation aussieht. Dann verwende ich Vaadin, hat einen super MCP-Server. Dann habe ich zwei selber gemacht, einen für jOOQ und einen für Karibu Testing, wo ich im Prinzip mehr oder weniger die Dokumentation vom Testing Framework und von jOOQ in eine Vektordatenbank abgelegt habe und dann eine vektorisierte Suche machen kann über MCP in der Dokumentation.
 
-Genau.
+**Simon Martinelli:** [0:43:51] Und das hilft sehr stark. Also das heißt, die Werkzeuge, die erlauben sehr viel. Wir sind da noch am Experimentieren, weil das entsteht ein wenig. Also wenn ich für mich alleine arbeite, ist es anders, als wenn ich im Team arbeite ein wenig. Und wir sind im Moment, es gibt von der Requirements-Engineering-Gruppe, die da die Zertifizierung anbietet, eine Beta-Micro-Credential-Zertifizierung, die heißt AI for Requirements Engineering. Und die haben begonnen zu überlegen, wie können Prompts aussehen oder Skills aussehen für das Requirements Engineering. Und ich überlege mir laufend, oder wir überlegen uns im Team auch, wie können wir KI besser steuern. Skills ist ein sehr guter Weg, denke ich, weil Skills mehr oder weniger fast standardisiert sind.
 
-Also beispielsweise, dass die Software, die ich aktuell für einen Kunden modernisiere, das ist ein ERP-System.
+**Simon Martinelli:** [0:44:41] Also das unterstützt mittlerweile fast jedes Tool. MCPs haben ein wenig einen Nachteil, weil wenn die viele Tools haben, ist relativ viel Kontext schon weg. Claude Code ist daran, das besser zu machen. Die laden die MCP-Tools erst, wenn sie es brauchen und nicht von vorneweg neuerdings. Da gibt es verschiedene Techniken. Da gibt es auch ganz viele Leute, die sich um dieses Thema kümmern, wie man das verbessern könnte. Aber ich denke, Skills helfen sehr, sehr stark.
 
-Da haben wir fast 1000 Entitäten, also 1000 Datenbanktabellen und das System ist ein grosser Monolith aktuell.
+**Ralf D. Müller:** [0:45:12] Ja, ich habe noch immer so ein bisschen, es gibt ja so viele Ansätze und bei Skills und MCP, ja, habe ich … Also, du hast recht, der MCP kann schnell den Kontext voll machen und beim Skill habe ich dann so dieses: Ich beschreibe kurz, was der Skill macht, und erst wenn er den braucht, holt er sich die längere Beschreibung. Das ist ja ähnlich wie jetzt manche Leute sagen, wir benutzen keine MCPs mehr, sondern wir benutzen CLI-Tools, und wenn das LLM das Tool benutzen will, dann ruft es halt mal das CLI-Tool mit minus minus help auf und hat die Beschreibung. Das spart den Kontext. Okay, Skills sind spannend.
 
-Der ist relativ gut strukturiert, muss man sagen.
+### UI-Design und Designsystem
 
-Wir lösen den nicht ab, weil der ganz schlecht wäre.
+**Ralf D. Müller:** [0:45:56] Was mir noch aufgefallen ist: Ich habe jetzt so den Eindruck, dass deine Anwendungen hauptsächlich interne Anwendungen sind und dass dadurch das UI-Design – das hast du bislang nicht erwähnt – geht das so ein bisschen in den Hintergrund?
 
-Wir lösen den ab, weil die Technologie, das ist der Eclipse RCP, das dort noch verwendet wird.
+**Simon Martinelli:** [0:46:14] Nein, überhaupt nicht. Also, das ist wesentlich. Also grundsätzlich das, mit dem ich schon ein Jahr unterwegs bin, das ist eine öffentliche Anwendung. Also die will ich verkaufen, dann wenn die Beta-Phase durch ist – die ist öffentlich. Und das UI-Design ist natürlich so, dass das KI auch sehr gut kann. Bei internen Applikationen, jetzt konkret bei der ERP-Modernisierung, wo ich gerade beim Kunden bin, dort haben wir ein Designsystem entwickelt. Also das heißt, grundsätzlich ist der Rahmen gegeben. Also welche UI-Elemente haben wir, wie sieht das UI aus? Und dieses Design-System, das ist auch beschrieben. Und auf das kann KI zurückgreifen, dann weiß der, in welchem Kontext er welche UI-Elemente verwenden muss.
 
-Das ist einfach ziemlich end of life, weil wir nicht auf die neuesten Versionen gehen können und so.
+**Simon Martinelli:** [0:46:57] Und dadurch gibt es einen extrem starren Rahmen wiederum. Also die Varianz, wie das UI aussehen kann, ist relativ klein. Das heißt, bei einfachen Use Cases müssen wir nicht mal ein Design vom UI machen, sondern es reicht im Prinzip, wenn wir mit dem Fachbereich abstimmen, in welcher Reihenfolge die Felder da stehen müssen. Haben wir eine Tabelle, haben wir Cards, haben wir andere Elemente, um die Daten zu visualisieren, und das reicht, weil die Elemente, die sind da, die sind gegeben. Wir haben Java-Klassen, eigene für alle UI-Elemente, die wir verwenden dürfen. Und das ist auch der Vorteil im Übrigen von Vaadin, respektive nicht von Vaadin, sondern von Web Components.
 
-Und wir möchten gerne Web-Applikationen haben, dass die Benutzer das von überall verwenden können.
+**Simon Martinelli:** [0:47:36] Weil wenn ich jetzt die Applikation so Tailwind-mäßig mit ganz vielen Divs in HTML machen würde, dann habe ich ein Problem, weil dann habe ich keine Komponente. Aber jetzt nehmen wir mal Vaadin hat eine Grid-Komponente. Diese Komponente, die kann alles. Die kann Lazy Loading, die kann sortieren, die kann filtern, die kann man verwenden, um einen Grid-Inline-Editor zu bauen, man kann Spalten ausblenden, Spalten sortieren und so weiter und so fort. Und diese Komponente ist so reich an Funktionalität, dass ich dort gar nicht selber implementieren muss. Also das heißt, wir versuchen auch im Projekt jetzt so höherwertige Komponenten zu schaffen, ganz viele, die passen zu unserer Domäne. Und dann KI instruieren: Schau, das sind Komponenten, die kannst du wählen, du musst nichts selber erfinden. Und das ist UI-Komponenten-mäßig ein Riesenvorteil.
 
-Aber das teilen wir auf, weil einfach das ist einfach jetzt schon zu groß.
+**Ralf D. Müller:** [0:48:31] Wie kriegt die KI dann die Beschreibung der Komponenten? Ist das eine textuelle Beschreibung oder ist das ...
 
-Und der Vorteil von Self-Contained Systems, insbesondere wenn du Systeme baust, die viele Stakeholder haben und mehrere Nutzergruppen umfassen, hast du natürlich den Vorteil, dass du die so schneiden kannst, dass eben pro Stakeholdergruppe, sage ich mal, eine Applikation entsteht.
+**Simon Martinelli:** [0:48:37] Im Moment schon, ja. Also im Moment leben die Komponenten in Confluence, also die Beschreibung, die Dokumentation liegt in Confluence. Ich muss mir das noch genau überlegen, aber grundsätzlich eine textuelle Beschreibung reicht. Also ich könnte auch einen MCP-Server machen und mit Tools, wo KI fragen könnte, welche Komponente verwende ich, um so was zu visualisieren, und dann würde die Komponente zurückgeben. Das wäre auch noch cool. Aber da haben wir einfach im Moment keine Zeit und das ist nicht so besser, so viel besser, als es jetzt ist, würde ich mal sagen, ja.
 
-Ein Self-Contained System oder mehrere, die dann auch individuell betrieben werden können.
+**Ralf D. Müller:** [0:49:11] Okay.
 
-Und das geht nicht um Skalierung.
+### Andere Ansätze: BMAD, SpecKit, Kiro
 
-Es geht darum, dass wenn jetzt zum Beispiel eine Abteilung gerne Änderungen hätte, dann können wir nur diesen Teil der Applikation deployen und beeinflussen den Rest vom System nicht.
+**Ralf D. Müller:** [0:49:12] Jetzt haben wir die ganze Zeit über deinen Ansatz gesprochen und es gibt ja noch viele andere Ansätze, was gerade so modern ist, höre ich: Gas Town, oder was wir schon länger haben, ist Claude Flow. Hier haben wir noch die Frage nach B-MAD oder BMAD. Sagt dir das was, dieser Ansatz?
 
-Und eigentlich Self-Contained Systems habe ich schon lange auf dem Schirm.
+**Simon Martinelli:** [0:49:35] Ja, die kenne ich. Also es gibt ja verschiedene Spec-driven Frameworks. BMAD ist einer davon. Also das ist eine Idee, wie man Spezifikation macht. Das ist ähnlich wie mein Prozess, nur eben anders. Dann gibt es SpecKit von GitHub oder Kiro von Amazon. Ich werde am 22., glaube ich, ist das, ja in fast einer Woche – am Donnerstag bin ich zusammen mit Ricardo von Amazon, und der wird einen Workshop machen über Amazon Kiro, wie man es verwenden kann mit Python, und ich werde dort ein wenig mit dabei sein. Der Punkt ist, alle diese … wie soll ich sagen, diese Tools, ich sage mal Tools, diese Tools sind mir zu entwicklerlastig.
 
-Also ich bei Modernisierungsprojekten bin ich in der Regel auf diesem Technologie, nicht Technologie, sondern Architekturstil, weil ich den eben praktisch finde, auch für die Modernisierung, so nach dem Strangler Fig Pattern passt das eigentlich auch gut dazu.
+**Simon Martinelli:** [0:50:21] Weil in meinem Prozess drin, der ist gesamtheitlich gedacht. Also Fachbereichsleute vertreten durch den PO, Architekten, Tester, die gehören alle dazu. Und die Spezifikation, also ich habe auch einen Blogpost darüber geschrieben und dort sage ich eigentlich, das, was heute von Tools wie SpecKit oder Kiro gemacht wird, ist für mich nicht unbedingt spec-driven, sondern dem würde ich schon fast eher task-driven sagen. Weil bei mir ist es so, ich mache einen Use Case und der ist detailliert genug, damit mit dem Rahmen des Frameworks, mit dem Rahmen der Architektur, mit dem Rahmen der Domäne zum Beispiel, kann ich dann Applikationen erzeugen. SpecKit oder Kiro gehen einen anderen Weg.
 
-Dann hast du deployments, die du nach und nach deployen kannst oder modernisieren kannst.
+**Simon Martinelli:** [0:51:07] Die machen zuerst einen Plan und aus diesem Plan werden dann Tasks abgeleitet und KI implementiert dann diese Tasks. Also die sind eine Ebene weiter unten. Also das wäre, wenn ich nach dem System Use Case noch hingehen würde und KI sagen würde, wie er jetzt diese Use Cases zu implementieren hat. Und das braucht mein Prozess nicht, aber das liegt daran, dass die Art der Applikation, die ich damit erzeugen kann, eben diese sogenannten Geschäftsanwendungen sind. Und die sind schon von der Anatomie her klar, wie man die baut eigentlich. Die sind immer ähnlich. Und das ist ein großer Vorteil. Und ich mag die anderen Tools nicht, die geben mir auch einen zu starken Rahmen.
 
-Und jetzt mit KI ist es Zufall, dass das gerade so gut dazu passt.
+**Simon Martinelli:** [0:51:53] Ich arbeite auch nicht in der IDE. Also in der IDE mache ich Reviews, in der IDE schreibe ich die Spezifikationen oder validiere die Spezifikation, besser gesagt, weil die schreibt ja meistens jemand vom Fachbereich. Und dann schaue ich mir das dort an, aber meine Agenten, die laufen in der Kommandozeile. Also ich will keine Integration mit KI, die laufen auch auf GitHub in vielen Projekten, weil ich die autonom laufen lassen will. Also ich will denen nicht zugucken, was die so machen. Und deshalb brauche ich da keine IDE-Integration. Und die Tools, die heute gebaut werden, die sind viel zu stark entwicklerlastig und zielen nicht auf den gesamten Softwareentwicklungsprozess ab. Das finde ich falsch aktuell.
 
-Aber das hat wirklich mit der Größe der Komponente oder der Teilapplikation zu tun, die du mit KI entwickeln willst.
+### Unabhängig von der Technologie: der T3 Stack
 
-Okay, im Chat haben wir jetzt schon die ersten Fragen und eigentlich wollen wir ja gar nicht so in die Wadien Welt abdriften.
+**Ralf D. Müller:** [0:52:42] Okay, ich habe jetzt auch das Gefühl, dass dein Ansatz relativ technologieunabhängig ist. Ich brauche eine Architektur, die für die KI sehr geeignet ist, dass der Kontext nicht zu groß wird, dass sie gut damit arbeiten kann. Aber ich brauche jetzt nicht irgendwelche spezialisierten Prompts oder in dem Dreh, sondern ich kann der KI es einfach sagen: Du, guck mal, da ist der Use Case und mach mal was draus.
 
-Aber hier ist schon die Frage, ob Wadien Open Source ist und wie das mit der Business Logik aussieht, wo die dann liegt.
+**Simon Martinelli:** [0:53:09] Ja, genau. Und ich mache Schulungen zu meinem Prozess, meistens mit Java, weil ich halt Java-Entwickler bin und das am besten kenne. Aber ich habe auch einen Kunden, der hat mir gesagt: Du, Java kennen wir nicht, wir kennen JavaScript, was könntest du anbieten? Und dann bin ich halt hingegangen und es gibt so ein Fullstack, keine Ahnung, man kann es nicht mit Spring Boot vergleichen, aber das ist so eine Idee, dass ich eine CLI habe und ein Projekt machen kann. Und das verwendet React, Next.js fürs Backend, dann verwendet es, glaube ich, Prisma für den Datenbankzugriff. Das stellt auch Docker-Container für die Datenbank zur Verfügung, ähnlich wie das Spring auch machen kann.
 
-Ja, also Wadien ist Open Source, das ist Apache 2.
+**Simon Martinelli:** [0:53:53] Und da habe ich eine CLI und da kann ich ein Projekt erzeugen. Und das gibt mir einen vollständigen Rahmen. Das braucht auch tRPC, das ist ein TypeScript-Remote-Protokoll und nicht REST-Schnittstellen. Und das heißt T3, also T3 Stack heißt das Ding, wenn ihr das anschauen wollt. Und das passt für mich auch sehr gut. Also das heißt, ich kann ein wenig JavaScript, mindestens kann ich den Code verstehen und ich weiß auch, wie React ungefähr funktioniert. Und mit dem habe ich auch gute Ergebnisse gemacht. Das habe ich produktiv nie richtig verwendet, aber in Kursen verwende ich das auch. Und das geht gut. Was ich eben, wie gesagt, bei uns in der Schweiz ist der Stack meistens Angular mit Spring Boot.
 
-Aber Wadien ist auch eine Firma und die muss irgendwie Geld verdienen, um ihr Framework zu bauen.
+**Simon Martinelli:** [0:54:34] Das ist so bei größeren Firmen oder im Bundesumfeld so der Default-Stack. Und das würde auch funktionieren, grundsätzlich, das ist auch nicht so. Aber dann würde ich wirklich versuchen, den Rahmen vor allem im Frontend sehr stark abzustecken, weil dort ist die Varianz sonst zu groß und auch nicht übersichtlich, zu guter Letzt.
 
-Und deshalb gibt es von der Firma erstmal Support.
+### Bestehende Anwendungen und Reverse Engineering
 
-Also ihr könnt einen Support Vertrag haben, dann habt ihr 15 Jahre Support für Updates vom Framework.
+**Ralf D. Müller:** [0:55:01] Dein Ansatz ist gut verständlich, wenn man Greenfield arbeitet, wenn ich von vorne anfange. Wenn ich jetzt aber schon eine Anwendung habe, die eben nicht Greenfield ist, sondern auch eben vielleicht nicht Vaadin und nicht Self-contained Systems, hast du da noch irgendwelche Tipps oder ist das so, dass du mittlerweile sagst, es ist schwierig mit KI anzugehen, deswegen ist das nicht dein Turf?
 
-Und auf der anderen Seite gibt es kommerzielle Komponenten, die man vielleicht benutzen könnte.
+**Simon Martinelli:** [0:55:31] Nein, ich mache sehr viele Reviews für Kunden und ich verwende dort immer KI zur Bewertung der Architektur, Bewertung des Codes, Bewertung der ganzen Geschichte. Und was man natürlich machen kann ist, und das ist natürlich aufwendig, man kann natürlich das reverse-engineeren. Also man könnte einen Bereich nehmen, einen Use Case zum Beispiel nehmen und den reverse-engineeren, um zu schauen, was da rauskommt, ob das überhaupt noch stimmt. Und dann könnte man ab da weiterfahren. Das wäre natürlich eine Möglichkeit grundsätzlich. Weil grundsätzlich muss man den Kontext irgendwie herstellen. Also man muss zum Beispiel der KI auch Informationen über die Domäne geben, also was für Aggregate oder Entitäten haben wir im System zum Beispiel, das ist wichtig, damit entsprechend gearbeitet werden kann.
 
-Also es kommt darauf an.
+**Simon Martinelli:** [0:56:22] Und KI könnte man natürlich auch verwenden, um die Diagramme zu generieren. Ich habe es vorher gesagt, ich habe Tools, die sehr teuer sind, um eben solche Reverse-Engineering-Sachen zu machen. Die KI macht das gratis. Die Frage ist halt, stimmt das, was dann rauskommt, oder ist das nicht richtig, weil es ja KI ist und eben nicht ein Werkzeug, das nach einem Algorithmus vorgeht und das analysiert. Das kommt ein wenig darauf an, aber die Resultate sind eigentlich sehr gut. Also Code-Verständnis ist viel einfacher als früher. Eben insbesondere bei Modernisierungsprojekten hilft es sehr stark herauszufinden, was macht das heute. Und dann sieht man eben auch, dass die Wahrheit im Code nicht eine gute Idee ist, weil grundsätzlich ist es so, dass bei Legacy-Systemen, die über eine Zeit lang laufen, gibt es immer wieder Wechsel im Team.
 
-Bei mir ist es so, meine Kunden, die alle grundsätzlich Wadien verwenden, da würde ich jetzt mal behaupten, wahrscheinlich zwei Drittel, die verwenden die Open Source Version.
+**Simon Martinelli:** [0:57:14] Manche verstehen es nicht ganz und dann entsteht – dem sage ich Balkonarchitektur. Weil der Entwickler, der getraut sich nicht, den gesamten Ablauf zu ändern, sondern er baut dann so Balkone an der Logik an. Und das sieht man dann sehr gut, wenn man sagt, okay, hier schau mal diese Business-Methode, mach mir ein Sequenzdiagramm, was da genau aufgerufen wird. Und da sieht man dann dreimal denselben if drin mit derselben Abfrage, weil eben sich niemand getraut hat, den Ablauf komplett umzubauen.
 
-Die sind damit zufrieden, das reicht.
+### Review und Test-Driven Development
 
-Und ein Drittel verwendet die kommerzielle Version, aber nicht unbedingt aufgrund von den Komponenten oder sonstigen Features, die da mitkommen, sondern eher, weil sie halt einen Vertrag wollen mit einer Firma, die Security-Updates und regelmässige Updates bietet, damit sie ein wenig Sicherheit haben.
+**Ralf D. Müller:** [0:57:48] Jetzt hast du mehrfach gesagt, dass die KI ja nicht deterministisch ist. Jetzt, ich sage immer, die KI erzeugt mir in fünf Minuten Code, für den ich fünf Stunden zum Review brauche. Und während ich das Review mache, läuft die KI weiter und erzeugt neuen Code. Wie kriegst du das unter Kontrolle?
 
-Es geht eher um das.
+**Simon Martinelli:** [0:58:13] Also der Punkt ist wiederum der Stack. Also mein Stack ist natürlich, also ich kenne meinen Stack natürlich in- und auswendig, wie das zu funktionieren hat. Also ich bin Experte in allen Werkzeugen oder allen Libraries, die ich verwende. Und das heißt, wenn der Code generiert wird, kann ich praktisch nur draufschauen und sehe sofort, ob es passt oder nicht. Wenn ich natürlich Business-Logik habe oder Logik habe, also vielleicht noch zum Thema, wenn die Zeit noch bleibt: Test-Driven Development, ja oder nein, ist eine gute Frage in diesem Zusammenhang. Wenn ich UI mache, mache ich nicht Test-Driven Development, weil es funktioniert nicht, weil das UI entsteht und bis ich weiß, welche Selektoren ich habe, wie das UI aussieht, wie ich das UI testen kann, dann geht es eine Weile.
 
-Und die Business Logik, die lebt genau gleich wie, also der Unterschied ist einfach, wenn ihr eine Applikation baut mit einer REST-API.
+**Simon Martinelli:** [0:58:56] Das kann man schlecht testgetrieben machen. Vaadin hat einen Riesenvorteil: Ich kann Integrationstests auf UI-Ebene machen, indem ich nur den Java-Code teste und das, was im Browser abläuft, macht ja Vaadin selber, das ist nicht mein Thema. Deshalb kann ich dort komplett von UI bis zur Datenbank alles testen. Dem sagt man Browserless Testing. Und das ist wie Mock MVC, wenn ihr REST-Schnittstellen baut zum Beispiel, müsst ihr auch kein Spring Boot, kein Tomcat starten zum Beispiel für die Tests. Und das beschleunigt. Also meine Applikation hat ungefähr 1400 solche UI-Tests und die laufen in knapp einer Minute durch. Wenn wir natürlich End-to-End-Tests machen, das geht viel länger, weil ein End-to-End-Test läuft dann zwei, drei Sekunden, und wenn ich so viele hätte, dann würde das ewig dauern, bis das durch ist.
 
-Die REST-API wird einfach durch das Wadien Frontend ersetzt und das heisst, die Business Logik, die lebt in Entitäten, also im Domain Modell mit Services.
+**Simon Martinelli:** [0:59:49] Wenn ich aber Business-Logik habe, also richtige Logik, irgendeine Berechnung oder sowas, dann würde ich einen testgetriebenen Ansatz machen, also diesen Teil vielleicht aus dem Use Case extrahieren und dann tatsächlich das Interface definieren und dann sagen, okay, schreib mir die Tests, die passen zum Use Case, sind, also Unit-Tests, und dann implementier mir die basierend auf diesen Tests den Code. Dann habe ich einen testgetriebenen Ansatz. Aber bei datenlastigen Applikationen stimmt die Testpyramide sowieso nicht. Da hat man eher diesen Testpokal von Kent C. Dodds, wo man eben viele Integrationstests hat und relativ wenige Unit-Tests.
 
-Ob ihr da eine Clean Architecture Struktur habt oder eine Layered Architektur, das spielt im Wesentlichen überhaupt keine Rolle.
+### CLAUDE.md und Slash init
 
-Wesentlich ist, dass das getrennt ist, dass ihr habt, ihr trennt den UI-Code selbstverständlich vom Business Code und das ist kein Unterschied.
+**Ralf D. Müller:** [1:00:27] Okay, wir werden auf jeden Fall deinen Blog und deine Website zu dem Prozess nochmal verlinken in den Show Notes, weil ich glaube, da kann man jetzt mit diesem Einstieg von heute noch ziemlich viel weiter reingehen, tiefer gehen. Wir haben eine letzte Frage, wie man bei Claude in einem bestehenden Projekt das MD-File generieren kann. Ich glaube, das ist einfach Slash init, oder? Slash init, und Claude erzeugt das für sich, ne?
 
-Also REST-API oder Wadien Frontend, das ist im Wesentlichen dasselbe.
+**Simon Martinelli:** [1:00:58] Ja, Slash init erzeugt genau das CLAUDE.md, und man kann Slash init auch immer wieder aufrufen, wenn man zum Beispiel neue Libraries hinzufügt oder eine wegnimmt oder so, dann kann man das hinzufügen. Und dieses CLAUDE.md, wenn man ähnlich gelagerte Projekte hat, dann würde ich das auch teilen. Also jetzt, wenn wir mehrere Self-contained Systems haben mit demselben Technologie-Stack, dann verwenden wir auch dasselbe. Genau.
 
-Okay, hier haben wir noch eine Frage.
+**Ralf D. Müller:** [1:01:25] Da steht ja hauptsächlich sowas drin, wie ist die Folder-Struktur, aber eben auch, was der Technologie-Stack und wie rufe ich Test-Tool auf und solche Geschichten. Genau. Von daher ist das bei gleicher Architektur leicht zu teilen.
 
-Was ist mit GraalVM?
+**Simon Martinelli:** [1:01:39] Genau.
 
-Die GraalVM habe ich eigentlich schon lange nicht mehr gehört und ich sehe es eigentlich nur als Runtime Environment oder ja, also ist davon unabhängig, oder?
+### Dank und Schlusswort
 
-Ja, ja, also man kann sehr gut GraalVM, also grundsätzlich alle Technologien, die ich verwende seit Spring Boot, also vor allem Spring Boot hat dazu zu tun, nicht unbedingt Wadien.
+**Ralf D. Müller:** [1:01:40] Sehr gut. Simon, herzlichen Dank. Es war spannend, es hat mir tiefe Einblicke gegeben und ich weiß auf jeden Fall, wie ich jetzt meine Softwareentwicklung verändern werde. Ich glaube, viele der Zuschauer denken ähnlich. Herzlichen Dank.
 
-Aber ich kann grundsätzlich die Applikation auch als Native Image bilden.
+**Simon Martinelli:** [1:01:57] Vielen Dank. Und so als Schlusswort von mir: Lasst euch nicht frustrieren. KI-Agenten sind ein neues Werkzeug, das müsst ihr zuerst lernen. Ich spreche ab und zu mit Leuten, die sagen mir, ich habe es ausprobiert, hat nicht funktioniert. Und ich frage dann, ja wie lange hast du es probiert? Und dann ist die Antwort häufig, ja gestern Nachmittag. Dann sage ich, ja, ist vielleicht ein wenig kurz. Und überlegt euch, was macht ihr falsch? Lest andere Blogs, schaut euch Videos an, wie andere damit umgehen – da lernt man viel. Ich musste auch zuerst lernen, wie man damit umgeht. Was muss ich machen, wenn das Resultat nicht so ist, wie ich das erwartet hätte?
 
-Das brauche ich aber nicht, weil meine Self-Contained Systems sind ja nicht Serverless.
+**Simon Martinelli:** [1:02:36] Wie kann ich das verbessern? Und der Agent ist eher ein Teammitglied als ein Werkzeug. Er ist ein Werkzeug – das ist kein Teammitglied, der lernt nichts, der vergisst alles. Aber von der Art und Weise von der Zusammenarbeit ist es ähnlich, weil ich gebe einen Auftrag und bekomme ein Resultat, und dann muss ich entscheiden: Ist das Resultat das, was ich wollte oder nicht? Und dann geht es von vorne los. Und das wäre auch dasselbe, wenn ihr mit einem anderen Team zusammenarbeiten würdet, mit Junior-Entwicklern oder so – dann habt ihr denselben Effekt. Und das ist wichtig. Also ihr könnt nicht erwarten, dass der erste Wurf gleich super Resultat sein könnte. Es könnte auch sein, dass einmal ein Resultat super ist, einmal nicht mehr. Bitte nicht sich frustrieren lassen, sondern bleibt dran, probiert es aus, und dann macht es irgendwann auch Spaß.
 
-Also das heißt, die sind nicht, die werden nicht gestartet, sondern die laufen und allem für sich profitieren wir dann bei der Applikation vom JIT-Compiler zur Laufzeit, der natürlich optimiert.
-
-Und das verlieren wir, wenn wir GraalVM machen und deshalb ist eigentlich GraalVM braucht weniger Speicher und ist schneller gestartet, die Applikation.
-
-Schneller gestartet ist bei Geschäftsanwendungen in der Regel kein Thema und Speicherverbrauch kommt darauf an.
-
-Also Speicherverbrauch ist natürlich eine Kostenfrage.
-
-Das ist klar, ob man 10 Mega oder 120 Mega hat und dann wie viele Self-Contained System am Schluss, dass man hat.
-
-Aber wir sind nicht so feingranular wie die Microservices, die vielleicht zu feingranular geschnitten werden und dann plötzlich 100 Microservices entstehen, die alle zusammen viel Speicher brauchen.
-
-So ist es nicht.
-
-Deshalb sehe ich keinen Vorteil mit GraalVM für meine Applikation.
-
-Da hast du jetzt eigentlich schon eine weitere Frage angeschnitten, dass die Microservices ja eigentlich auch abgeschlossen sind und die KI ganz gut damit arbeiten kann.
-
-Aber du hast ja jetzt quasi schon gesagt, es hängt auch ein bisschen von der Größe ab.
-
-Und ich glaube, bei Self-Contained Systems ist die Größe, die ergibt sich natürlicher und bei den Microservices, weil es Micro heißt, versucht jeder so klein wie möglich zu schneiden.
-
-Und was ich auch so gemerkt habe, ist, dass die KI das Umfeld, den Kontext kennen muss von der Säule oder von dem Microservice und es dann quasi davon abhängt, wie gut ich das dokumentiere.
-
-Merkst du das auch so, dass die Dokumentation dann eben eine große Rolle spielt?
-
-Ja, genau.
-
-Also grundsätzlich, mein Prozess sieht ja so aus, als vielleicht nur so als Randbemerkung.
-
-AIUP heißt ja so, weil es mal den Rational Unified Process gibt.
-
-Das erwähne ich nicht so gerne, weil ich habe mich dort inspirieren lassen, aber viele haben nicht so gute Erinnerungen vielleicht an den Rational Unified Process Ende 90er, Anfang 2000er Jahre.
-
-Das liegt aber primär daran, dass dort halt eine Riesenflut an Artefakten und Prozessen da ist und niemand den Prozess customised hat damals.
-
-Aber bei mir beginnt der Prozess eigentlich mit der Projektvision.
-
-Also wir haben grundsätzlich Informationen, was das System machen soll.
-
-Dann gibt es einen Anforderungskatalog, das ist meistens sind da zum Beispiel User Stories drin, die entstehen dann auch unterschiedlich.
-
-Also da sagt der Prozess nichts dazu.
-
-Da könnte man Domain Storytelling oder Event Storming oder irgendeinen anderen TDD Ansatz oder aus dem TDD Umfeld einen Ansatz wählen oder auch ganz klassisch Leute befragen.
-
-Was hat die Requirements Engineers zu tun?
-
-Bei mir beginnt es eigentlich mit der Architektur Dokumentation, wo eben auch abgeleitet werden kann aus den Anforderungen, da kann KI auch helfen.
-
-Das ist aber nicht wirklich Bestandteil.
-
-Bei mir im Prozess steht einfach drin, dass es irgendein Software Architektur Dokument gibt, ob das ARC42 ist oder irgendein anderes Dokumentationsformat, ist nicht so relevant.
-
-Aber diese Informationen, die dort stehen, die geben den Rahmen vor.
-
-Also das heisst, die KI Agenten haben in der Regel ein Guidelines File, bei Glot heisst das Glot-MD, manchmal heisst es Agents-MD, manchmal heisst es Guidelines-MD, sind Markdown-Files.
-
-Und die Dokumentation bei uns, also bei mir im Projekt und bei den Kunden, die liegt vollständig in Markdown, also wir haben alles in Text.
-
-Also wir haben Markdown oder ASCII-Doc, je nachdem, wir haben Plan2ML und Mermaid-Diagramme auch als Text.
-
-Also wir machen keine Bilder, sondern wir machen Text.
-
-Und das ist wichtig, damit die KI das auch versteht.
-
-Genau, das kommt ja der KI auch wieder entgegen.
-
-Mittlerweile kann die KI ja ganz gut Diagramme visuell verstehen, aber das verbraucht mehr Token, als wenn es jetzt die textuelle Beschreibung ist.
-
-Genau, und durch die DSL von Mermaid zum Beispiel, die kann KI sehr gut und KI kann die auch verstehen und wir können sie auch verstehen.
-
-Und IntelliJ oder GitHub oder andere, GitLab oder so, die rendern ja das direkt im Browser und dann sieht der Benutzer zum Beispiel, kann sich dann die Diagramme angucken und muss nicht Mermaid verstehen.
-
-Also von daher haben wir eigentlich beides aus den besten Welten und das Layouting passiert automatisch.
-
-Das heisst, wir verlieren keine Zeit, um Kästchen rumzuschieben und schön zu machen und so.
-
-Das ist halt, wie es ist.
-
-Das ist meistens ein Vorteil.
-
-Jetzt haben wir das Ganze mit Spec-Driven Development überschrieben und du hast jetzt schon Requirements und Use Cases und Storys angesprochen und Architektur.
-
-Ich würde das ganz gern nochmal alles irgendwie zusammenbringen, wie das zusammenspielt, weil wir hatten Peter Ruschka zum Beispiel auch in einer Folge und das war sehr spannend, was Requirements überhaupt sind und der Unterschied zur Spezifikation und eben auch, wie man das Ganze festhält und das finde ich ja jetzt zum Beispiel spannend, dass du eben zum Beispiel sagst, dass User Storys nicht so geeignet sind, dass die Use Cases besser geeignet sind und die Use Cases, ich hatte sie eigentlich schon zur Seite gelegt, weil UML, wer macht schon noch UML und Use Cases, eh nicht, sondern eben Boxes and Lines, ja, und jetzt gräbst du sie wieder aus und sagst, hey, das ist aber für die KI echt prima.
-
-Kannst du die Begriffe mal so in Relation setzen?
-
-Also grundsätzlich habe ich es vorhin erwähnt, wir verwenden auch User Storys, aber in Form von Backlog sozusagen, also das sind die groben Anforderungen und die sagen eher aus, was das System machen soll, also Requirements sind was und System Use Cases sind wie, also wie genau wird das implementiert, wie ist der Ablauf, wie funktioniert das genau und warum, dass ich User Storys nicht so gerne mag, ich mochte die noch nie, muss ich ehrlich gestehen, also das Erste, was mir fehlt, ist ein Überblick und das Use Case Diagramm, das eignet sich sehr gut, um mit dem Kunden zu sprechen, was haben wir für Use Cases im System zum Beispiel, der erkennt die und da gibt es ja zwei Ebenen, es gibt Business Use Cases und System Use Cases und Business Use Cases wären wieder mehr was und die System Use Cases wären wiederum eher wie und zu den Use Cases dazu gehören ja Abläufe, also das heisst wir können auch Aktivitätsdiagramme oder Zustandsdiagramme mit oder Aktivitätsdiagramme, je nachdem was wir halt machen wollen, damit dazu packen, wir können auch UI, Figma Designs zum Beispiel gehören eigentlich auch zum System Use Case, weil die gehören ja zu dieser Einheit und das Problem mit den User Storys ist ein wenig, dass die User Story, die ist ja in der Regel, wer was machen will und was das Resultat sein soll, das ist super, das ist okay, finde ich gut, aber die ganzen Abläufe, Business Regeln und so weiter, die sind in den Akzeptanzkriterien versteckt und häufig in loser Schüttung, also das heisst, aufgrund dessen kann ich mir noch gar nichts vorstellen, was da passiert und auch der Benutzer kann sich da nichts vorstellen, was da passiert, sondern ich kann mit dem Benutzer eigentlich über Anforderungen sprechen, wenn ich sehe, wie ist der Ablauf, was macht der genau, wie geht das weiter und bei uns ist es so, wir haben Business Prozesse, daraus gibt es Anforderungen, die entstehen parallel und daraus gibt es dann pro Business Ablauf zum Beispiel oder Prozess gibt es dann Use Cases, die die Schritte im Business Prozess spezifizieren.
-
-Das heisst, wenn wir es mal konkreter machen, eine User Story wäre ja eigentlich so etwas wie, als User möchte ich mich an der Anwendung anmelden können, sodass ich sie benutzen kann.
-
-Okay, sagt noch nicht viel aus.
-
-Use Case ist für viele, glaube ich, einfach so ein Oval, wo dann drin stehen würde, User Anmeldung, Login, aber jetzt sagst du ja, da ist noch ein Prozess dahinter.
-
-Genau, wie User gibt jetzt nicht Username, Passwort ein, sondern nur seine E-Mail Adresse und er kriegt einen Link zugeschickt, auf den klickt er dann, aber es gibt auch Ausnahme Pfade und solche Geschichten und das macht das Ganze dann so powerful, vor allem in der Kombination mit Diagrams as Code, weil du das dann als Aktivitäten Diagramm hinterlegst und die KI sieht das Aktivitäten Diagramm als Text oder Sequence Diagram und versteht den Text sofort.
-
-Ist das richtig zusammengefasst?
-
-Genau, der Punkt ist, die Use Cases, die sind ja generell von der Struktur her, hast du irgendeinen Header, da steht so drin, wie das Ding heisst, wer die Akteure sind und dann hast du Vorbedingungen, also was muss erfüllt sein, dass diese Use Case gestartet werden kann, also in deinem Fall, wenn der User sich anmelden will, muss die Applikation geöffnet sein, damit er das tun kann und dann haben wir einen Ablauf.
-
-Der User gibt das ein, in deinem Beispiel gibt er zum Beispiel die E-Mail Adresse ein, klickt an einen Link und dann geht es weiter und dann gibt es alternative Abläufe oder Fehlerabläufe und die werden spezifiziert, also zum Beispiel der User wird nicht gefunden, könnte ein Fehler sein, dann wird eine Fehlermeldung angezeigt und dann gibt es Nachbedingungen, das Ergebnis, was soll im guten Fall geschehen, der User soll eingeloggt sein zum Beispiel und diese Beschreibung, unterstützt durch Diagramme, unterstützt durch vielleicht UI Mockups, die helfen sehr gut, der KI das zu tun und zwar nicht nur, um den Code zu generieren, sondern auch, um die Tests zu generieren, weil wenn ich natürlich eine Applikation baue mit einem UI, ist ja der Test mit UI, also ich will ja nicht einen Unitest machen und dann das UI nicht testen, sondern ich möchte eigentlich, dieser Ablauf, der im Use Case Beschreibung drin steht, der wird in einen Test gegossen, die Frage ist nur, auf welcher Ebene wir testen, im Endeffekt ein Akzeptanztest wäre ein End-to-End-Test mit UI Automatisierung, der genau die Schritte macht, die dort im Use Case beschrieben sind und das erlaubt es dann auch, eine Traceability zu haben, das heißt, ich kann dann KI-unterstützt sagen, okay, welche Use Cases sind vollständig implementiert, welche Use Cases sind vollständig getestet und das kann ich dann tun aufgrund dieser Ablaufbeschreibung im Wesentlichen und bei User Stories gibt es keine Ablaufbeschreibung, das ist das Problem.
-
-Also das heißt, wenn ich das nochmal so zusammenfassen darf, die User Stories kann man für einen Backlog benutzen, wenn man dann an das Backlog-Item kommt, dann schreibt man mal die Spezifikationen in Form eines Use Cases mit Ablauf und weiteren Details, was dann implementiert werden kann und zu hoffentlich funktionsfähigen Code führt, das ist verkürzt, das sogenannte.
-
-Und es gibt einen kleinen Nebeneffekt, weil das Problem, das ich heute habe, wenn ich Software modernisiere, ist, dass genau das fehlt.
-
-Und meine Hoffnung ist, dass durch das, dass wir diese Use Cases haben und die so detailliert sind, dass eben Code generiert werden kann, kann ich die behalten und in zehn Jahren, wenn ich sage, okay, Vaadin und Java war jetzt nicht so eine tolle Idee, wir machen doch lieber JavaScript, dann lasse ich mir die Applikation neu generieren.
-
-In zehn Jahren sind wir wahrscheinlich schneller als heute, hoffentlich, aber ich habe alle Informationen dort und ich habe nicht die Informationen im Code, sondern ich habe die Informationen in einer Form, die ich dann in zehn Jahren zum Beispiel dem Benutzer geben kann und sagen, hey, stimmt das noch?
-
-Lies das mal durch.
-
-Ist das noch so, wie du heute arbeiten möchtest oder gibt es Änderungen bei dem Code?
-
-Den kann ich nicht selbst lesen.
-
-Ich habe in meinem Talk diese Vision, momentan iterieren wir auf dem Code und schmeißen immer das Executable weg und du sagst jetzt in zehn Jahren, mein Traum ist, wir iterieren auf der Spezifikation, lassen den Code generieren, schmeißen den aber immer wieder mal weg.
-
-Was du ja jetzt so andeutest, ist, dass das tatsächlich, naja, ab und zu passieren könnte.
-
-Also, dass wenn eine Architekturentscheidung verändert werden muss und Architekturentscheidungen sind ja die, die bislang schwierig zu ändern sind, aber in dem Fall, wenn ich zum Beispiel eine andere Programmiersprache nehme, eine andere Datenbank, irgendwas Großes, eine Architektur ändere, dann hätte ich so eine detaillierte Spec, die es mir ermöglicht, der KI zu sagen, du, iterier mal über die Use Cases.
-
-Vielleicht ist das auch die richtige Reihenfolge, weil so haben wir es zuerst implementiert und die Hoffnung ist, dass da was Gutes rauskommt.
-
-Genau, weil der Punkt ist, es ist die Use Cases, es gibt eine Frage da im Chat von Mark M3623 gesehen, in zehn Jahren sind die Use Cases vielleicht nicht mehr gleich und das Problem bei Software-Modernisierung, man kann Software-Modernisierung nicht, also man kann die automatisieren, das haben wir vorhin gesprochen, ich könnte eine Cobol-Applikation nehmen und daraus eine Java-Applikation generieren.
-
-Der Punkt ist, das will niemand, das generiert ja kein Business-Value und das Problem, das wir heute haben, ist, der Fachbereich kann zum Teil keine Entscheidungen treffen, weil er nicht sieht, wie heute was implementiert ist.
-
-Das ist nur im Code drin, also er muss immer den Entwickler haben und der Entwickler weiß das vielleicht auch nicht, also heute mit KI, Reverse Engineering und Diagramme generieren von Abläufen, das ist super, das ist wirklich super gut.
-
-Früher musste man relativ teure Werkzeuge verwenden.
-
-Ich habe da Werkzeuge immer noch in meinem Werkzeugkasten, die das können, aber die kosten einige Tausend Euro zum Teil, um Reverse Engineering zu betreiben, aber der Benutzer möchte ja gerne oder der Fachbereich möchte gerne eine Entscheidung treffen, der möchte wissen, wie sieht das aus ablauftechnisch, was machen wir heute, wie können wir das anpassen und das fehlt, dass wir haben heute eine extreme Blackbox zwischen ursprünglichen Anforderungen und Code, der implementiert ist und für den Fachbereich ist das praktisch unmöglich herauszufinden, was heute geändert werden müsste, das geht nicht und deshalb finde ich, die Wahrheit liegt im Code, stimmt, weil das ist das, was ausgeführt wird, aber das ist kein guter Zustand.
-
-Jetzt hatten wir vorab schon in der Ankündigung eine Frage so nach dem Motto Spec-Driven Development.
-
-Arbeitet ihr bislang ohne Specs?
-
-Das fand ich eine spannende Frage, weil ich habe auch das Gefühl, es kommt ein bisschen auf die Branche drauf an.
-
-Wie ist da deine Erfahrung?
-
-Also meine Erfahrung ist, die meisten Leute oder die meisten Firmen, die ich kenne, die verwenden Confluence und Jira und die machen mal Vorabklärung und schreiben die ins Confluence oder in ein anderes Wiki, das spielt keine Rolle, was für ein Produkt es ist.
-
-Dann sind da Grobanforderungen drin, das ist Zustand zum Zeitpunkt X.
-
-Dann werden aus diesen Anforderungen irgendwie Jira-Tickets gemacht oder andere Tasks in irgendeinem Backlog-System, egal was das ist.
-
-Und dann haben wir häufig ein Scrum-Prozess, was ein Refrainment gibt, da wird man dann Zusatzinformationen anreichern, man wird vielleicht wieder zurückgehen und Fachbereiche fragen, was dazu packen und dann kommt das Ganze ins Planning rein.
-
-Dort werden dann Tasks erzeugt für den Sprint.
-
-Und jetzt muss man sich vorstellen, überall in all diesen Schritten, die ich jetzt gerade gesagt habe, sind Fachinformationen drin, aber nicht in einer strukturierten Form.
-
-Und ganz viele Fachinformationen, die entstehen bei einem Workshop zum Beispiel, die werden einfach nicht dokumentiert, sondern die sind in den Köpfen drin, weil der Entwickler, der das programmieren muss, der sieht, okay, ich weiss, was ich machen muss, ich mache das jetzt mal.
-
-Und zu guter Letzt haben wir folgende Situation.
-
-Wir haben einen Code, der was implementiert.
-
-Wir haben Tests, die irgend aufgrund einer Basis testen und wir haben Dokumentationen, die man eigentlich besser löschen würde komplett, weil falsche Dokumentation ist schlechter als keine Dokumentation, weil sie falsche Annahmen über das System zum Beispiel hervorruft.
-
-Und das ist die Ist-Situation.
-
-Wir haben nicht wirklich eine Spezifikation, sondern wir haben eher einfach diverse Informationen über System irgendwo verstreut in verschiedenen Orten.
-
-Und mit KI gehen wir dazu über, also jetzt konkret im Kundenprojekt.
-
-Alles ist Markdown, habe ich bereits gesagt, das heisst auch die Product Owner, die arbeiten mit IntelliJ bei uns mittlerweile, mit Git.
-
-Also die machen Versionsverwaltung, die führen die Use Cases selber nach.
-
-Und deshalb haben wir eine Single Source of Truth, das ist der System Use Case primär und das Domain Modell natürlich dazu mit Beschreibung der Entitäten zum Beispiel und Funktionen, Business Regeln, Validierungsregeln, was dazu gehört.
-
-Aber das gehört alles zur Applikation und wir brauchen Confluence nur so für andere Sachen und Jira Tickets brauchen wir immer noch, aber das sind mehr Platzhalter, damit die Leute was haben, um sich daran festzuhalten.
-
-Aber da steht nichts drin.
-
-Also ich muss dem zustimmen, weil ich kenne es auch meistens so, dass man über Jira arbeitet und dann so eine Kette an Issues erstellt und würde man daraus ein Speck generieren wollen, muss man erst mal gucken, wo ist alles jetzt die Komponente, in welcher Reihenfolge wie geändert worden, um eine Spezifikation zu erlangen.
-
-Ich kenne aber auch Bereiche, wo es wirklich kritisch ist.
-
-Ich kenne es aus dem Automotive Bereich, in dem ich zum Glück noch nie gearbeitet habe.
-
-Aber da ist eine Traceability und solche Geschichten ganz wichtig.
-
-Und da wird wahrscheinlich komplett anders gearbeitet.
-
-Ja, definitiv.
-
-Also das, was ich jetzt beschrieben habe, das ist das Standardvorgehen.
-
-Also ich vielleicht von der Branche her, weil ich arbeite häufig für Großhandel, Detailhandel.
-
-Ich habe auch für Bahnunternehmungen gearbeitet in der Schweiz für eine ganz lange und dort kommt es auf den Typ drauf an, aber die klassischen Geschäftsanwendungen, die entstehen meistens so.
-
-Natürlich in anderen Branchen ist es anders.
-
-Ich arbeite auch, habe auch Kunden in der Industrie, wo es Abnahmen gibt für die Maschinensteuerung oder so.
-
-Dort muss alles ganz klar spezifiziert werden.
-
-Aber das ist ein bisschen ein anderer Ansatz.
-
-Aber ich spreche jetzt primär so über reguläre, wenn man dem so sagen kann, Geschäftsanwendungen.
-
-Jetzt haben wir hier in dem Chat das Feedback.
-
-Mensch, das ist doch eigentlich alles Wasserfall.
-
-Wir wollen doch agil arbeiten und du sagst jetzt, wir brauchen ab Fronti die Speck und mit dieser Speck lassen wir das implementieren.
-
-Arbeitest du agil oder?
-
-Natürlich, das ist voll agil.
-
-Das ist richtig agil.
-
-Also wir arbeiten jetzt richtig agil.
-
-Wieder mal.
-
-Also vielleicht muss ich meine Agilität definieren.
-
-Was ich nicht agil finde, ist Safe und Scrum, sondern das sind Prozessmodelle, die einen Rahmen geben, wie man arbeitet.
-
-Das hat nichts mit Agilität zu tun im Kern, weil ich kann auch wasserfallmässig Scrum machen.
-
-Mein Prozess ist insofern agil, dass wir also grundsätzlich, bevor man mit irgendwas beginnt, irgendeinem Bereich, z.B. einem Bounded Context, muss man ja schon ungefähr wissen, was man will.
-
-Also das wäre ja die, was wollen wir machen?
-
-Das ist die Anforderungsebene und diesen Prozess gibt es sowieso.
-
-Da gibt es Business Analysten, Requirements, Ingenieurs, die sich überlegen, wie können wir das machen?
-
-Der Produktowner ist dabei, vielleicht sind Entwickler dabei, wenn es technische Fragen gibt oder Architekten, wenn es Architekturthemen gibt.
-
-Vielleicht ist sogar die Plattform dabei.
-
-Das ist Vorarbeit.
-
-Das hast du egal, ob du das agil machst oder nicht.
-
-Dann kommen wir zu den Spezifikationen und die sind insofern agil, dass man nicht alle Use Cases aufs Mal beschreibt, sondern was wir machen, wir extrahieren aus den Requirements die Use Cases und dann haben wir aber nur das Use Case Diagramm.
-
-Dann wissen wir grundsätzlich, was wir machen wollen, also welche Aktionen oder welche Funktionen hat im System und dann überlegen wir, in welcher Reihenfolge müssen die gemacht werden.
-
-Also wir, vor allem der Produktowner natürlich und dann wird Use Case für Use Case spezifiziert und das Spezifizieren des Use Cases ist Bestandteil der Implementation eigentlich.
-
-Beziehungsweise, wenn ich das jetzt auch noch mal so interpretieren darf, ihr macht ja nicht die komplette Applikation vorneweg, dass die komplett spezifiziert ist, sondern ihr macht ja wahrscheinlich erst mal einen Durchstich, dass irgendwie, keine Ahnung, ein Self-Contained, eine Säule erstellt wird, die dann getestet wird und man guckt, wie das funktioniert und ändert es entsprechend ab und geht weiter auf die nächste Säule und somit kommt ja dann das Agile wieder rein, richtig?
-
-Genau, es ist alles iterativ, also grundsätzlich ist der ganze Prozess iterativ inkrementell, wie das der Unified Process im Übrigen auch war.
-
-Das heisst, wir machen dauernd alles, also wir haben dauernd alle Disziplinen.
-
-Der Unterschied ist einfach, dass der Code nicht von Hand geschrieben wird, sondern der wird generiert und die Tests werden generiert, also wird gereviewt, weil wir haben ja ein kleines Problem und das ist, dass KI nicht deterministisch ist.
-
-Das heisst, das ist ganz wichtig, weil, als ich begonnen habe, meinen Prozess vorzustellen, haben gewisse Leute gesagt, ja, das hatten wir doch schon mal, das ist Model-Driven.
-
-Und dann habe ich gesagt, nein, das ist ein grosser Unterschied, weil Model-Driven ging so weit, dass wir eine DSL hatten, zum Beispiel, oder UML, das das System beschrieben hat, und wir konnten das dauernd neu generieren, wir konnten den Output löschen, wie wenn ihr Java programmiert, könnt ihr alle Class-Files löschen, die braucht ihr nicht, die könnt ihr jederzeit wieder generieren.
-
-Aktuell ist KI nicht so weit, dass das jedes Mal neu generiert werden kann.
-
-Das heisst, wenn wir Anpassungen machen am Use-Case, als Beispiel, dann sagen wir, zum Beispiel Cloud Code, bitte appliziere die Änderungen an Code und Test.
-
-Und das kann KI, weil er ja den Diff anschauen kann.
-
-Also was hat jetzt geändert in diesem Use-Case und aufgrund der Änderungen kann er dann die Abläufe, die Business-Regeln zum Beispiel, wenn es irgendeine Regeln ändert, könnte die Business-Logik ändern oder das UI könnte ändern, es gibt ein neues Feld dazu oder es kommt ein Zweck, es kommt ein neues Datenbank-Feld dazu und dort macht im Prinzip KI nur die Änderungen, also wir generieren nicht neu.
-
-Es kommt ein bisschen darauf an, was genau gemacht wird, wenn man jetzt irgendeine REST-API machen würde und die hätte starke Änderungen, dann löschen wir die und dann generieren wir das neu.
-
-Das kommt ein wenig darauf an, was wir machen, aber wenn wir natürlich relativ viel Code haben, also ein Use-Case, das relativ viele Funktionalitäten umfasst, dann ist das eine applizierende Änderung, eine Anpassung an Code und nicht eine Neugenerierung.
-
-Und dort ist auch die Geschwindigkeit ein Problem, weil wenn die Applikation ein wenig grösser wird oder das Self-Contained System, dann würde das auch zu lange dauern, das zu generieren.
-
-Aber das ist eine Frage der Zeit, also was wichtig ist, keine getriebene Softwareentwicklung ist aktuell so Kindergarten, Erste-Klasse-Niveau, da ist noch viel Luft nach oben, das kann man noch viel besser machen, viel stärker verbessern, optimieren, da sind wir am Ausprobieren und das Ganze sind Experimente, also der Punkt ist ja auch, die Tools entwickeln sich weiter, die Resultate, die ich gekriegt habe vor einem Jahr, unterscheiden sich von dem, was ich heute kriege.
-
-Wenn du sagst, dass die KI ja einen Diff machen kann, dass sie sieht, was sich an dem Use-Case geändert hat, benutzt du Feature-Branches, dass du jedes Feature eben in einem eigenen Branche entwickelst und die KI dann eben leicht den Diff machen kann und eben auch sagen kann, guck mal, das ist jetzt das und du kannst notfalls sagen, das hat gar nicht geklappt?
-
-Ja, es kommt darauf an, wie ich arbeite.
-
-Es kommt darauf an, was ich genau tue, aber ich würde jetzt mal sagen, in der Regel gibt es einen Branch, wenn zum Beispiel der Product-Owner dann künftig die Anpassungen selber machen könnte, also der kann die Änderungen machen, dann würde der Product-Owner bereits den Branch erstellen und sagen, okay, das sind die Änderungen, ich habe den Use-Case angepasst und dann könnte theoretisch KI auf GitHub zum Beispiel laufen oder auf einer anderen Plattform und das dann automatisch generieren und gleich ein Pull-Request erzeugen.
-
-Wenn wir lokal arbeiten, kommt es darauf an, wie wir im Team organisiert sind.
-
-Aktuell sind wir im Team, wo wir eigentlich die, wir machen die Auftragserfassung neu, sozusagen das Kernsystem.
-
-Dort sind wir zu zweit, plus noch ein paar Cloud-Codes dazu und dort machen wir gar keinen Branch, sondern wir machen die Änderungen und wir kriegen die Änderungen, wir applizieren die selber, weil wir im Moment Reverse-Engineering machen und dann lassen wir das laufen.
-
-Im Moment lokal könnten wir aber auch irgendwas sonst machen und dann sind wir Trunk-Based unterwegs, also gibt es keine Branches.
-
-Wir haben hier noch eine sehr spannende Frage.
-
-Benutzt du vorgefertigte Agents, zum Beispiel für Planung, Dev-Testing oder hast du verschiedene Rollen?
-
-Mein Prozess ist für meinen Stack mit Vaadin und Ju, gibt es ein Marketplace mit einem Plugin für Cloud-Code und dort gibt es Commands, Skills und ich habe, ich verwende in der Regel vier MCP-Server, einer ist Playwright, weil den brauche ich, damit ich den Browser fernsteuern kann und Kai sieht, wie die Applikation aussieht.
-
-Dann verwende ich Vaadin, hat einen super MCP-Server, dann habe ich zwei selber gemacht, einen für Ju und einen für Karibu Testing, wo ich im Prinzip mehr oder weniger die Dokumentation vom Testing-Framework und von Ju in eine Vektordatenbank abgelegt habe und dann eine vektorisierte Suche machen kann über MCP in der Dokumentation und das hilft sehr stark.
-
-Das heisst, die Werkzeuge erlauben sehr viel.
-
-Wir sind da noch am Experimentieren, weil das entsteht ein wenig.
-
-Also wenn ich für mich alleine arbeite, ist es anders, als wenn ich im Team arbeite, ein wenig.
-
-Und wir sind im Moment, es gibt von der Requirements-Engineering-Gruppe, die da die Zertifizierung anbietet, gibt es eine Beta-Micro-Credential-Zertifizierung, die heisst AI for Requirements-Engineering und die haben begonnen zu überlegen, wie können Prompts aussehen oder Skills aussehen für das Requirements-Engineering und ich überlege mir laufend oder wir überlegen uns im Team auch, wie können wir Kai besser steuern.
-
-Skills ist ein sehr guter Weg, denke ich, weil Skills mehr oder weniger fast standardisiert sind.
-
-Also das unterstützt mittlerweile fast jedes Tool.
-
-MCPs haben ein wenig einen Nachteil, weil wenn die viele Tools haben, ist relativ viel Kontext schon weg.
-
-Das hat Cloud Code, ist daran, das besser zu machen.
-
-Die laden die MCP-Tools erst, wenn sie es brauchen und nicht von vorne weg.
-
-Neuerdings, da gibt es verschiedene Techniken, da gibt es auch ganz viele Leute, die sich dieses Thema kümmern, wie man das verbessern könnte.
-
-Aber ich denke, Skills helfen sehr, sehr stark.
-
-Ja, ich habe noch immer so ein bisschen, es gibt ja so viele Ansätze und bei Skills und MCP, ja habe ich, also du hast recht, der MCP kann schnell den Kontext voll machen und beim Skill habe ich dann so dieses, ich beschreibe kurz, was der Skill macht und erst, wenn er den braucht, holt er sich die längere Beschreibung.
-
-Das ist ja ähnlich, wie jetzt manche Leute sagen, wir benutzen keine MCPs mehr, sondern wir benutzen CLI-Tools und wenn das LLM das Tool benutzen will, dann ruft es halt mal das CLI-Tool mit "-help!" auf und hat die Beschreibung.
-
-Das spart den Kontext.
-
-Okay, Skills sind spannend.
-
-Was mir noch aufgefallen ist, ich habe jetzt so den Eindruck, dass deine Anwendungen hauptsächlich interne Anwendungen sind und dass dadurch das UI-Design, das hast du bislang nicht erwähnt, geht das so ein bisschen in den Hintergrund?
-
-Nein, überhaupt nicht.
-
-Also das ist wesentlich.
-
-Grundsätzlich das, mit dem ich schon ein Jahr unterwegs bin, das ist eine öffentliche Anwendung.
-
-Die will ich verkaufen, wenn die Beta-Phase durch ist.
-
-Die ist öffentlich und das UI-Design ist natürlich so, dass das KI auch sehr gut kann.
-
-Bei internen Applikationen, jetzt konkret bei der ERP-Modernisierung, wo ich gerade beim Kunden bin, dort haben wir ein Design-System entwickelt.
-
-Das heisst, grundsätzlich ist der Rahmen gegeben.
-
-Welche UI-Elemente haben wir?
-
-Wie sieht das UI aus?
-
-Und dieses Design-System, das ist auch beschrieben und auf das kann KI zurückgreifen.
-
-Dann weiss er, in welchem Kontext er welche UI-Elemente verwenden muss und dadurch gibt es einen extrem starren Rahmen wiederum.
-
-Also die Varianz, wie das UI aussehen kann, ist relativ klein.
-
-Das heisst, bei einfachen Use Cases müssen wir nicht mal ein Design vom UI machen, sondern es reicht im Prinzip, wenn wir mit dem Fachbereich abstimmen, in welcher Reihenfolge die Felder stehen müssen.
-
-Haben wir eine Tabelle, haben wir Cards, haben wir andere Elemente, um die Daten zu visualisieren und das reicht, weil die Elemente sind gegeben.
-
-Wir haben Java-Klassen, eigene für alle UI-Elemente, die wir verwenden dürfen.
-
-Und das ist auch der Vorteil im Übrigen von Vaadin, respektive nicht von Vaadin, sondern von Web-Components, weil wenn ich jetzt die Applikation so Tailwind-mässig mit ganz vielen Divs in HTML machen würde, dann habe ich ein Problem, weil dann habe ich keine Komponente.
-
-Aber jetzt nehmen wir mal Vaadin, er hat eine Grid-Komponente und diese Komponente kann alles, sie kann Lazy-Loading, sie kann sortieren, sie kann filtern, sie kann man verwenden, um einen Grid-Inline-Editor zu bauen, man kann Spalten ausblenden, Spalten sortieren und so weiter und so fort.
-
-Und diese Komponente ist so reich an Funktionalität, dass ich dort gar nicht selber implementieren muss.
-
-Das heißt, wir versuchen auch im Projekt jetzt so höherwertige Komponenten zu schaffen, ganz viele, die passen zu unserer Domäne und KI dann instruieren, schau, das sind Komponenten, die kannst du wählen, du musst nichts selber erfinden.
-
-Und das ist UI-Komponenten- mässig ein Riesenvorteil.
-
-Wie kriegt die KI dann die Beschreibung der Komponenten?
-
-Ist das eine textuelle Beschreibung oder ist es eine...
-
-Im Moment schon, ja.
-
-Im Moment leben die Komponenten in Confluence, also die Beschreibung, die Dokumentation liegt in Confluence.
-
-Ich muss mir das noch genau überlegen, aber grundsätzlich eine textuelle Beschreibung reicht.
-
-Ich könnte auch ein MC-Preserver machen mit Tools, wo KI fragen könnte, welche Komponente verwende ich, um sowas zu visualisieren und dann würde die Komponente zurückgeben.
-
-Das wäre auch noch cool, aber da haben wir einfach im Moment keine Zeit und das ist nicht so viel besser, als es jetzt ist, würde ich mal sagen.
-
-Okay, jetzt haben wir die ganze Zeit über deinen Ansatz gesprochen und es gibt ja noch viele andere Ansätze, was gerade so modern ist.
-
-Höre ich Gastown oder was wir schon länger haben ist Cloudflow.
-
-Hier haben wir noch die Frage nach BMAT oder BMAD.
-
-Sagt dir das was, dieser Ansatz?
-
-Ja, die kenne ich.
-
-Es gibt ja verschiedene Speck-Driven-Frameworks.
-
-BMAD ist einer davon.
-
-Also das ist eine Idee, wie man Spezifikation macht.
-
-Ist ähnlich wie mein Prozess, nur eben anders.
-
-Dann gibt's Speckkit von GitHub oder Kiro von Amazon.
-
-Ich werde am 22., glaube ich, ist das ja in fast einer Woche am Donnerstag, bin ich zusammen mit Ricardo von Amazon und er wird einen Workshop machen über Amazon Kiro, wie man es verwenden kann mit Python und ich werde dort ein wenig mit dabei sein.
-
-Der Punkt ist, diese Tools sind mir zu entwicklerlastig, weil in meinem Prozess drin, der ist gesamtheitlich gedacht.
-
-Also Wachbereitsleute vertreten durch den PO, Architekten, Tester, die gehören alle dazu.
-
-Und die Spezifikation, also ich habe auch einen Blogpost darüber geschrieben und dort sage ich eigentlich, das was heute von Tools wie Speckkit oder Kiro gemacht wird, ist für mich nicht unbedingt Speck-Driven, sondern den würde ich schon fast eher Task-Driven sagen.
-
-Weil bei mir ist es so, ich mache Newsguides und der ist detailliert genug, damit mit dem Rahmen des Frameworks, mit dem Rahmen der Architektur, mit dem Rahmen der Domäne zum Beispiel, kann ich dann Applikationen erzeugen.
-
-Speckkit oder Kiro gehen einen anderen Weg.
-
-Die machen zuerst einen Plan und aus diesem Plan werden dann Tasks abgeleitet und KI implementiert dann diese Tasks.
-
-Also wir sind eine Ebene weit drunten.
-
-Also das wäre, wenn ich nach dem System-Newsguides noch hingehen würde und KI sagen würde, wie er jetzt diese Newsguides zu implementieren hat.
-
-Und das braucht mein Prozess nicht.
-
-Aber das liegt daran, dass die Art und oder die Art der Applikation, die ich damit erzeugen kann, eben diese sogenannten Geschäftsanwendungen sind.
-
-Und die sind schon von der Anatomie her klar, wie man die baut.
-
-Eigentlich sind die immer ähnlich und das ist ein grosser Vorteil.
-
-Und ich mag die anderen Tools nicht.
-
-Die geben mir auch einen zu starken Rahmen.
-
-Ich arbeite auch nicht in der Idee, also in der Idee mache ich Reviews, in der Idee schreibe ich die Spezifikationen oder validiere die Spezifikation besser gesagt, weil die schreibt ja meistens jemand vom Fachbereich und dann schaue ich mir das dort an.
-
-Aber meine Agenten, die laufen in der Kommandozeile.
-
-Also ich will keine Integration mit KI, die laufen auch auf GitHub in vielen Projekten, weil ich die autonom laufen lassen will.
-
-Also ich will denen nicht zugucken, was die so machen.
-
-Und deshalb brauche ich da keine ID-Integration und die Tools, die heute gebaut werden, die sind viel zu stark entwicklerlastig und zielen nicht auf den gesamten Software- Entwicklungsprozess.
-
-Das finde ich falsch aktuell.
-
-Okay, ich habe jetzt auch das Gefühl, dass dein Ansatz relativ technologieunabhängig ist.
-
-Ich brauche eine Architektur, die für die KI sehr geeignet ist, dass der Kontext nicht zu groß wird, dass sie gut damit arbeiten kann.
-
-Aber ich brauche jetzt nicht irgendwelche spezialisierten Prompts oder in dem Dreh, sondern ich kann der KI einfach sagen, da ist der Use Case und mach mal was draus.
-
-Genau.
-
-Und ich mache Schulungen zu meinem Prozess, meistens mit Java, weil ich halt Java Entwickler bin und das am besten kenne.
-
-Aber ich habe auch einen Kunden, der hat mir gesagt, Java kennen wir nicht, wir kennen JavaScript, das könntest du anbieten.
-
-Und dann bin ich halt hingegangen und es gibt so ein Fullstack, keine Ahnung, man kann es nicht mit Spring Boot vergleichen, aber das ist so eine Idee, dass ich eine CLI habe und ein Projekt machen kann und das verwendet React, Next.js für Backend, dann verwendet es Prisma für den Datenbank Zugriff.
-
-Das stellt auch Docker-Container für die Datenbank zur Verfügung, ähnlich wie das Spring auch machen kann.
-
-Und da habe ich eine CLI und da kann ich ein Projekt erzeugen und das gibt mir einen vollständigen Rahmen.
-
-Das braucht auch tRPC, das ist ein TypeScript Remote Protocol und nicht Restschnittstellen.
-
-Und das heisst T3, also T3 Stack heisst das Ding, wenn ihr das anschauen wollt und das passt für mich auch sehr gut.
-
-Also das heisst, ich kann ein wenig JavaScript, mindestens kann ich den Code verstehen und ich weiss auch wie React ungefähr funktioniert und mit dem habe ich auch gute Ergebnisse gemacht.
-
-Das habe ich produktiv nie richtig verwendet, aber in Kursen verwende ich das auch und das geht gut.
-
-Wie gesagt, bei uns in der Schweiz ist der Stack meistens Angular mit Spring Boot, das ist so bei grösseren Firmen oder im Bundesumfeld der Default Stack und das würde auch funktionieren.
-
-Grundsätzlich, das ist auch nicht so, aber dann würde ich wirklich versuchen, den Rahmen vor allem im Frontend sehr stark abzustecken, weil dort ist die Variante sonst zu groß und auch nicht übersichtlich, zu guter Letzt.
-
-Dein Ansatz ist gut verständlich, wenn man Greenfield arbeitet, wenn ich von vorne anfange, wenn ich jetzt aber schon eine Anwendung habe, die eben nicht Greenfield ist, sondern auch eben vielleicht nicht Vaadin und nicht Self-Contained Systems.
-
-Hast du da noch irgendwelche Tipps oder ist das so, dass du mittlerweile sagst, es ist schwierig mit KI anzugehen, deswegen ist das nicht dein Turf?
-
-Nein, ich mache sehr viele Reviews für Kunden und ich verwende dort immer KI zur Bewertung der Architektur, Bewertung des Codes, Bewertung der ganzen Geschichte und was man natürlich machen kann ist, und das ist natürlich aufwendig, man kann natürlich das Reverse-Engineeren, also man könnte einen Bereich nehmen, einen Use Case zum Beispiel nehmen und den Reverse-Engineeren, um zu schauen, was da rauskommt, ob das überhaupt noch stimmt.
-
-Und dann könnte man ab da weiterfahren.
-
-Das wäre natürlich eine Möglichkeit grundsätzlich, weil grundsätzlich muss man den Kontext irgendwie herstellen.
-
-Man muss zum Beispiel der KI auch Informationen über die Domäne geben, also was für Aggregate oder Entitäten haben wir im System zum Beispiel.
-
-Das ist wichtig, damit entsprechend gearbeitet werden kann.
-
-Und KI könnte man natürlich auch verwenden, um die Diagramme zu generieren.
-
-Ich habe es vorher gesagt, ich habe Tools, die sehr teuer sind, um eben solche Reverse-Engineering-Sachen zu machen.
-
-KI macht das gratis.
-
-Die Frage ist halt, stimmt das, was es dann rauskommt oder ist es nicht richtig, weil es ja KI ist und eben nicht ein Werkzeug, das nach einem Algorithmus vorgeht und das analysiert.
-
-Das kommt ein wenig darauf an, aber die Resultate sind eigentlich sehr gut.
-
-Also Code-Verständnis ist viel einfacher als früher, eben insbesondere bei Modernisierungsprojekten hilft es sehr stark herauszufinden, was macht das heute.
-
-Und dann sieht man eben auch, dass die Wahrheit im Code nicht eine gute Idee ist, weil grundsätzlich ist es so, dass bei Legacy-Systemen, die über eine Zeit lang laufen, gibt es immer wieder Wechsel im Team.
-
-Manche verstehen es nicht ganz und dann entsteht dem sage ich Balkon-Architektur, weil der Entwickler, der getraut sich nicht, den gesamten Ablauf zu ändern, sondern er baut dann so Balkone an der Logik an und das sieht man dann sehr gut, wenn man sagt Okay, schau mal diese Business-Methode, mach mir ein Sequenz-Diagramm, was da genau aufgerufen wird.
-
-Und da sieht man dann dreimal denselben If drin mit derselben Abfrage, weil eben sich niemand getraut hat, den Ablauf komplett umzubauen.
-
-Jetzt hast du mehrfach gesagt, dass die KI ja nicht deterministisch ist.
-
-Ja, ich sage immer, die KI erzeugt mir in fünf Minuten Code, für den ich fünf Stunden zum Review brauche und während ich das Review mache, läuft die KI weiter und erzeugt neuen Code.
-
-Wie kriegst du das unter Kontrolle?
-
-Der Punkt ist wiederum der Stack.
-
-Ich kenne meinen Stack natürlich in- und auswendig, wie das zu funktionieren hat.
-
-Ich bin Experte in allen Werkzeugen oder allen Libraries, die ich verwende und das heißt, wenn der Code generiert wird, kann ich praktisch nur draufschauen und sehe sofort, ob es passt oder nicht.
-
-Wenn ich natürlich Business-Logik habe oder Logik habe, vielleicht noch zum Thema, wenn die Zeit noch bleibt, Test-Driven-Development, ja oder nein, ist eine gute Frage in diesem Zusammenhang.
-
-Wenn ich UI mache, mache ich nicht Test-Driven-Development, weil es funktioniert nicht, weil das UI entsteht und bis ich weiss, welche Selektoren ich habe, wie das UI aussieht, wie ich das UI testen kann, dann geht es eine Weile.
-
-Das kann man schlecht Test-Getrieben machen.
-
-Vaadin nur noch hat einen riesen Vorteil.
-
-Ich kann Integrations-Tests auf UI-Ebene machen, indem ich nur den Java-Code teste und das, was im Browser abläuft, macht Vaadin selber, das ist nicht mein Thema.
-
-Deshalb kann ich dort komplett von UI bis zur Datenbank alles testen.
-
-Dem sagt man Browser-Less-Testing und das ist wie Mock-MVC, wenn ich Rechnungsstellen baue, zum Beispiel müsste ich auch kein Spring-Boot, kein Tomcat starten, zum Beispiel für die Tests und das beschleunigt.
-
-Meine Applikation hat ungefähr 1400 solcher UI-Tests und die laufen in knapp einer Minute durch.
-
-Wenn wir natürlich End-to-End-Tests machen, das geht viel länger, weil ein End-to-End-Test läuft dann 2-3 Sekunden und wenn ich so viele hätte, dann würde das ewig dauern, bis das durch ist.
-
-Wenn ich aber Business-Logik habe, also richtige Logik, irgendeine Berechnung oder sowas, dann würde ich einen Test-Getriebenen-Ansatz machen, also diesen Teil vielleicht aus dem Use-Case extrahieren und dann tatsächlich das Interface definieren und dann sagen, okay, schreibt mir die Tests, die passend zum Use-Case sind, also Unit-Tests und dann implementiere ich mir, basierend auf diesen Tests, den Code.
-
-Dann habe ich einen Test-Getriebenen-Ansatz.
-
-Aber bei datenlastigen Applikationen stimmt die Test-Pyramide sowieso nicht, da hat man eher diesen Test-Pokal, davon kennt sie DOTS, wo man eben viele Integrations-Tests hat und relativ wenige Unit-Tests.
-
-Wir werden auf jeden Fall deinen Blog und deine Website zu dem Prozess noch mal verlinken in den Show Notes, weil ich glaube, da kann man jetzt mit diesem Einstieg von heute noch ziemlich viel weiter reingehen, tiefer gehen.
-
-Wir haben eine letzte Frage, wie man bei Claude in einem bestehenden Projekt das MD-File generieren kann.
-
-Ich glaube, das ist einfach Slash-Init, oder?
-
-Slash-Init und Claude erzeugt das für sich.
-
-Slash-Init erzeugt das Claude-MD und man kann Slash-Init auch immer wieder aufrufen, wenn man zum Beispiel neue Leibnisse hinzufügt oder eine wegnimmt, dann kann man das hinzufügen.
-
-Und dieses Claude-MD, wenn man ähnlich gelagerte Projekte hat, dann würde ich das auch teilen.
-
-Also wenn wir mehrere Self-Contained System haben mit dem selben Technologie-Stack, dann bräuchten wir auch dasselbe.
-
-Genau, da steht ja hauptsächlich sowas drin, wie ist die Folder-Struktur, aber eben auch was der Technologie-Stack und wie rufe ich Test-Tool auf und solche Geschichten.
-
-Daher ist das bei gleicher Architektur leicht zu teilen.
-
-Genau.
-
-Sehr gut, Simon, herzlichen Dank.
-
-Es war spannend, es hat mir tiefe Einblicke gegeben und ich weiß auf jeden Fall, wie ich jetzt meine Software-Entwicklung verändern werde.
-
-Ich glaube, viele der Zuschauer denken ähnlich.
-
-Herzlichen Dank.
-
-Vielen Dank und als Schlusswort von mir.
-
-Lasst euch nicht frustrieren.
-
-KI-Agenten sind ein neues Werkzeug, das müsst ihr zuerst lernen.
-
-Ich spreche ja ab und zu mit Leuten, die sagen mir, ich habe es ausprobiert, es hat nicht funktioniert und ich frage dann ja, wie lange hast du es probiert?
-
-Und dann ist die Antwort häufig, ja, gestern Nachmittag.
-
-Dann sage ich, ja, vielleicht ein wenig kurz.
-
-Und überlegt euch, was macht ihr falsch, lest andere Blogs, schaut euch Videos an, wie andere damit umgehen.
-
-Da lernt man viel.
-
-Ich musste auch zuerst lernen, wie man damit umgeht.
-
-Was muss ich machen, wenn das Resultat nicht so ist, wie ich das erwartet hätte?
-
-Wie kann ich das verbessern?
-
-Und der Agent ist eher ein Team-Mitglied als ein Werkzeug.
-
-Er ist ein Werkzeug, er ist nicht das ist kein Team-Mitglied, der lernt nichts, der vergisst alles.
-
-Aber von der Art und Weise von der Zusammenarbeit ist es ähnlich, weil ich gebe einen Auftrag und bekomme ein Resultat und dann muss ich entscheiden, ist das Resultat das, was ich wollte oder nicht?
-
-Und dann geht es von vorne los.
-
-Und das wäre ja auch dasselbe, wenn ihr mit einem anderen Team zusammenarbeiten würdet, mit Juniorentwicklern oder so, dann habt ihr denselben Effekt.
-
-Und das ist wichtig.
-
-Also ihr könnt nicht erwarten, dass der erste Wurf gleich super Resultat sein könnte.
-
-Es könnte auch sein, dass einmal ein Resultat super ist, einmal nicht mehr.
-
-Bitte nicht sich frustrieren lassen, sondern bleibt dran, probiert es aus und dann macht es irgendwann auch Spaß.
-
-Lifelong Learning.
-
-Dank für dieses Schlusswort und bis zum nächsten Mal.
+**Ralf D. Müller:** [1:03:28] Lifelong Learning. Danke für dieses Schlusswort und bis zum nächsten Mal.
