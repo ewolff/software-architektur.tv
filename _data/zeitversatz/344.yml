@@ -1,0 +1,15 @@
+# Versatz der Zeitmarken von Folge 344, gemessen am 27.11.2026.
+# ab: Sekunde der Zeitmarke (YouTube). versatz: Sekunden, die im Medium dazukommen;
+# leer: Die Stelle fehlt dort.
+peertube:
+  - ab: 0
+    versatz: 0.0
+  - ab: 3680.02
+    versatz:
+mp3:
+  - ab: 0
+    versatz:
+  - ab: 63
+    versatz: -63.34
+  - ab: 3641.22
+    versatz:

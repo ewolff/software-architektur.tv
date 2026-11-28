@@ -1,0 +1,16 @@
+# Versatz der Zeitmarken von Folge 348, gemessen am 27.11.2026.
+# ab: Sekunde der Zeitmarke (YouTube). versatz: Sekunden, die im Medium dazukommen;
+# leer: Die Stelle fehlt dort.
+# Kein Eintrag fuer mp3: Variable Bitrate, Browser springen darin ungenau.
+# Stichproben an vier Folgen in Chromium (24.11.2026) lagen bis zu 17 s daneben.
+peertube:
+  - ab: 0
+    versatz: -0.52
+  - ab: 17.06
+    versatz:
+  - ab: 19
+    versatz: -3.06
+  - ab: 3285.46
+    versatz:
+  - ab: 3286
+    versatz: -4.54
