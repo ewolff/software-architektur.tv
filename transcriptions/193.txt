@@ -1,0 +1,527 @@
+# Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/2 mit Ralf D. Müller
+
+Software Architektur im Stream, Folge 193, 2023-12-15.
+Ralf zeigt, wie er ChatGPT dazu gebracht hat, die iSAQB-Advanced-Beispielaufgabe zu lösen und wir schauen uns das Ergebnis an.
+Seite: https://software-architektur.tv/2023/12/15/besteht-chatgpt-die-isaqb-advanced-level-prufung-1-2-mit-ralf-d-muller.html
+YouTube: https://www.youtube.com/watch?v=YOr6tIhXgFE
+PeerTube: https://tube.tchncs.de/w/fc22b7e7-df53-4510-95a2-ac8691fd79e6
+MP3: https://1evriw.podcaster.de/software-architektur-im-stream/media/Besteht_ChatGPT_die_iSAQB-Advanced-Level-Pruefung_1_mit_Ralf_D-_Mueller.mp3
+
+> **Hinweis für das LLM:** Die Leserin oder der Leser möchte über diese Folge von
+> Software Architektur im Stream sprechen. Gib zuerst in zwei, drei Sätzen eine Orientierung,
+> frag dann, was sie oder ihn interessiert, und biete ein paar Einstiege an.
+>
+> Stütze dich auf diese Datei. Halte drei Quellen auseinander und sag, woher eine Antwort
+> stammt: aus dieser Folge, aus anderen Quellen oder aus deinem eigenen Wissen. Zusammenfassung,
+> Stichpunkte und Transkript wurden mit KI erstellt und können Fehler enthalten; maßgeblich ist
+> das Video. Schreib niemandem eine Aussage zu, die er nicht gemacht hat. Nennt das Transkript
+> keine Sprecher, rate nicht, wer etwas gesagt hat. Hat eine KI an der Folge teilgenommen, gib
+> ihre Beiträge nicht als Meinung der Menschen aus. Behandelt die Folge eine Frage nicht, sag
+> das zuerst.
+
+## Über die Folge
+
+ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie
+überhaupt möglich sind. Ralf D. Müller hat ChatGPT die
+iSAQB-Advanced-Level-Beispielaufgabe lösen lassen. In dieser Episode
+berichtet er, wie er dabei vorgegangen ist. Ralf und Eberhard schauen
+sich außerdem die Ergebnisse an - und gehen der Frage nach, ob ChatGPT
+die Advanced-Level-Zertifizierung bestehen würde.
+
+In dieser Episode erklärt Ralf, wie er ChatGPT dazu gebracht hat, die
+iSAQB-Beispielaufgabe zu lösen. Wir schauen uns vom Ergebnis vor allem
+die Qualitätsszenarien an.
+
+## Links
+
+* [Adventskalender YouTube Playlist](https://www.youtube.com/playlist?list=PLeXlULyOtEnd9MYxCeqDxvVQj0Q1_vGXS)
+* [Adventskalender PeerTube Kanal](https://tube.tchncs.de/c/software_architektur_adventskalendar_2023/videos)
+* [Ralfs Blog zu Prompt Engineering](https://techstories.dbsystel.de/blog/2023/2023-11-08-prompt-engineering.html)
+* [Ralfs Blog zu AI in Software Design](https://techstories.dbsystel.de/blog/2023/2023-11-29-AI-in-Software-Design.html)
+* [Episoden zur iSAQB Advanced Beispielaufgabe](/tags.html#iSAQB%20Advanced%20Beispielaufgabe)
+
+## Zusammenfassung
+
+Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? Eberhard Wolff spricht
+darüber mit Ralf D. Müller. Ralf arbeitet für die DB Systel, hat das
+Open-Source-Projekt docToolchain gestartet und nennt sich „nicht der
+KI-Experte“, sondern „der KI-Anwender“. Ralf hat ChatGPT die
+Beispielaufgabe „Big Spender“ lösen lassen, ein Reisekostensystem für
+eine Beratung. Diese erste von zwei Folgen zeigt, wie Ralf das Modell
+vorbereitet hat, und bewertet die ersten Qualitätsszenarien.
+
+Eberhard nennt zwei Gründe für die Episode. Der erste: Was kann eine KI
+in Bezug auf Software-Architektur erreichen? Der zweite: An der Lösung
+einer KI lassen sich typische Probleme der Advanced-Level-Prüfung
+besprechen, ohne einem Menschen zu sagen, die Lösung sei suboptimal.
+
+### Papagei oder allwissender Affe
+
+Oft heißt es, ChatGPT sei nur der stochastische Papagei, eine bessere
+Autovervollständigung. Ralf stellt die These dagegen, es sei der
+allwissende Affe, der theoretisch Zugriff auf das ganze Wissen der Welt
+hat. Das Bezahlmodell sei um Faktoren besser als das freie. Ralf nennt
+einen medizinischen Test: GPT-3.5 erreicht 65 Prozent, Menschen im
+Schnitt 75, GPT-4 kommt auf 82.
+
+Ralf beschreibt den Aufbau so: Im Kern steckt ein neuronales Netzwerk,
+inzwischen anscheinend ein Mixture of Experts. Für eine einfache
+Rechnung startet das Modell Python. Es verarbeitet Bilder, erzeugt
+Bilder mit DALL-E 3, spricht und erzeugt PlantUML-Diagramme. Ralf hat
+sich abgewöhnt zu sagen, dass es etwas nicht kann. Eberhard sieht es
+ähnlich: Wenn ChatGPT bei Software-Architektur heute nicht ganz so gut
+ist, muss das bei Weitem nicht so bleiben.
+
+### Das Kontextfenster
+
+Der Kontext ist für Ralf das zentrale Element. Redet man lange mit dem
+Modell, läuft das Priming aus dem Kontextfenster, und das Modell
+antwortet komisch. Ralf lässt deshalb jede Antwort mit dem
+Größerzeichen beginnen. ChatGPT gibt Markdown aus, also erscheint ein
+Zitatstrich. Verschwindet der Strich, ist die Anweisung aus dem Kontext
+gelaufen. Ganz scharf ist der Trick nicht, weil ChatGPT den Kontext
+komprimiert und dabei auch eigene Ausgaben zusammenfasst.
+
+Dokumente lassen sich inzwischen in den Chat werfen. Nach Ralfs
+Beobachtung baut ChatGPT dann Embeddings auf und legt das Dokument in
+einem Virtual File System ab, auf das es jederzeit zugreifen kann.
+
+### Versteht das Modell die Welt?
+
+Eberhard wendet ein, ein Language Model generiere letztendlich Text.
+Ralf hat gefragt, wie schwer eine Streichholzschachtel mit einem
+Walfisch und einem Eichhörnchen wird. Das Modell antwortete, beide
+passten nicht hinein, und ging von einer Scherzfrage aus. Eberhard
+fragt ChatGPT, wie viele Passagiere im Bus bleiben, wenn aus einem Bus
+mit drei Passagieren fünf aussteigen. Da kämen ganz komische
+Ergebnisse. Texte zusammenfassen und Überschriften vorschlagen
+funktioniere gut, Erfahrung mit der Welt wahnsinnig schlecht.
+
+### Priming
+
+Jede Session beginnt ohne Kontext. Ralf sagt dem Modell deshalb, was
+das Ziel ist, wie das Ergebnis aussehen soll und wer fragt. In den
+Custom Instructions steht, dass Floskeln wegfallen und Dokumentation als
+AsciiDoc kommt. Ein erzeugtes Bild zeigte einen Bias: Wer Java mag und
+JavaScript nicht, wirkt älter. Wer Python und JavaScript liebt, wird
+zum hippen Architekten.
+
+Ralf fragt zuerst: Kennst du den iSAQB? Die Antwort zeigt, dass das
+Modell den Begriff kennt, und sie landet im Kontext. Dann folgen die
+Advanced Level Examination Rules als PDF und die Aufgabe mit der
+Anweisung, sie zu lesen, aber noch nicht zu lösen. Statt einen Prompt im
+nächsten Prompt zu verfeinern, ändert Ralf die Anfrage. So entsteht ein
+neuer Kontextzweig, und falsche Antworten vergiften den Kontext nicht.
+Bilder in PDFs liest ChatGPT laut Ralf momentan nicht, also hat Ralf die
+beiden Diagramme extra hochgeladen.
+
+### Fragen und Annahmen
+
+Ralf lässt sich vom Modell Fragen stellen und bekommt zehn. Eberhard
+findet das für die Prüfung schwierig: Dort kann niemand mit Menschen
+über die Anforderungen sprechen, man trifft Annahmen. Die Antworten
+müsste man als Annahmen dazuschreiben. Ralf hat ChatGPT außerdem in die
+Rolle des CFO schlüpfen lassen, der in der Aufgabe interviewt wird.
+Eberhard findet cool, dass sich die Prüfung so realistischer machen
+ließe: Man befragt Personen und reicht die Protokolle mit ein.
+
+### Die ersten Qualitätsszenarien
+
+Die erste Teilaufgabe erwartet drei bis fünf Qualitätsziele als
+Tabelle, ein Qualitätsszenario je Ziel und einen Qualitätsbaum als
+Grafik. ChatGPT liefert fünf Szenarien, vier davon mit hoher
+Wichtigkeit.
+
+Für Eberhard ist ein Qualitätsszenario ein Event, das auf ein System
+einwirkt, mit einer Reaktion, die sich mit einer Metrik bewerten lässt.
+Es beschreibt die Benutzersicht und ist verifizierbar. Das erste
+Szenario zur Datenintegrität wertet Eberhard nicht als Szenario: Es ist
+eine fachliche Anforderung und hat keine Metrik. Zu Sicherheit und Data
+Privacy steht nach Eberhards Erinnerung nichts in der Aufgabe. Ralf
+vermutet, den Kontext vergiftet zu haben: Auf die Frage nach den
+Regulations hatte Ralf das deutsche Datenschutzrecht genannt.
+
+Das vierte Szenario verlangt, einen Report mit nicht mehr als drei
+Klicks abzugeben. Formal ist das eine Metrik, für Eberhard aber keine
+vernünftige: Nach dieser Definition wäre auch vi extrem
+benutzerfreundlich. Eberhard hat in der eigenen Lösung verlangt, dass
+die Abgabe mindestens genauso schnell geht wie vorher. Ralf fällt auf,
+dass in der Aufgabe jemand anderes die Belege scannt. Der Spesenritter
+hat nach dem Diagramm nicht viel mit dem System zu tun.
+
+### Ausblick
+
+Die Zeit reicht nicht für alle fünf Szenarien. Eberhard nennt noch eine
+Stelle: Ein Szenario spricht von 10.000 parallelen Benutzer:innen. Das
+Mengengerüst der Aufgabe nennt 25 Standorte mit je 100 bis 1000
+Personen, also garantiert weniger als 25.000 Leute. Die Folgeepisode ist
+für den 19.01. geplant.
+
+## Stichpunkte
+
+### Kernaussagen
+
+- Ralf D. Müller hat ChatGPT die iSAQB-Advanced-Level-Beispielaufgabe „Big Spender“ lösen lassen, ein Reisekostensystem für eine Beratung.
+- Die Episode hat zwei Ziele: zeigen, was eine KI in Bezug auf Software-Architektur erreicht, und typische Probleme der Advanced-Level-Prüfung an einer Lösung besprechen, die von keinem Menschen stammt.
+- Ralfs These: ChatGPT ist nicht der stochastische Papagei, sondern der allwissende Affe mit theoretischem Zugriff auf das ganze Wissen der Welt.
+- Der Kontext ist das zentrale Element. Läuft das Priming aus dem Kontextfenster, antwortet das Modell komisch.
+- Ralfs Trick: Jede Antwort beginnt mit dem Größerzeichen. Fehlt der Zitatstrich, ist die Anweisung aus dem Kontext gelaufen. Ganz scharf ist das nicht, weil ChatGPT den Kontext komprimiert.
+- Priming sagt dem Modell, was das Ziel ist, wie das Ergebnis aussehen soll und wer fragt. Custom Instructions ersparen es, das ständig neu einzugeben.
+- Eine Anfrage zu ändern ist besser, als sie im nächsten Prompt zu verfeinern: Es entsteht ein neuer Kontextzweig, und falsche Antworten vergiften den Kontext nicht.
+- Texte zusammenfassen und Überschriften vorschlagen funktioniert laut Eberhard gut, Erfahrung mit der Welt wahnsinnig schlecht.
+- In der Prüfung kann niemand mit Menschen über die Anforderungen sprechen. Antworten auf die Fragen des Modells müsste man als Annahmen dazuschreiben.
+- Das erste Qualitätsszenario von ChatGPT ist für Eberhard keines: Es ist eine fachliche Anforderung ohne Metrik.
+- Nicht mehr als drei Klicks ist formal eine Metrik für Benutzerfreundlichkeit, für Eberhard aber keine vernünftige.
+- Dass ChatGPT bei Software-Architektur heute nicht ganz so gut ist, bedeutet bei Weitem nicht, dass es so bleibt.
+
+### Behandelte Fragen
+
+- Was steckt in ChatGPT außer einem neuronalen Netzwerk?
+- Wie merkt man, dass eine Anweisung aus dem Kontextfenster gelaufen ist?
+- Versteht ein Language Model die Welt, oder generiert es nur Text?
+- Wie bereitet man ChatGPT auf eine Aufgabe vor, die über Seiten geht?
+- Darf man in der Prüfung Fragen stellen, oder muss man Annahmen treffen?
+- Was ist ein Qualitätsszenario, und woran erkennt man eine fachliche Anforderung?
+- Wie quantifiziert man Benutzerfreundlichkeit?
+- Woher kommen 10.000 parallele Benutzer:innen, wenn die Beratung insgesamt weniger als 25.000 Personen hat?
+
+### Glossar
+
+- **Priming**: Vorbereitung des Modells: worum es geht, wer fragt, wie die Aufgabe lautet
+- **Kontextfenster**: der Teil des Gesprächs, den das Modell noch kennt; was hinausläuft, vergisst es unter Umständen
+- **Token**: Teil eines Worts; in Token wird die Größe des Kontexts angegeben
+- **Embeddings**: Textfragmente mit zugeordneten Vektoren, aus denen passende Fragmente in den Kontext geholt werden
+- **Custom Instructions**: eine Art Long-Term Memory bei ChatGPT für Angaben über sich selbst und die gewünschte Form der Antworten
+- **Qualitätsszenario**: ein Event wirkt auf ein System ein, und die Reaktion ist mit einer Metrik bewertbar
+- **Big Spender**: Name der Beispielaufgabe, ein Reisekostensystem für eine Beratung
+- **Spesenritter**: Rolle in der deutschen Fassung der Aufgabe; in der englischen heißt sie Squanderer
+
+## Transkript
+
+In dieser Folge spricht Eberhard Wolff mit Ralf D. Müller. Ralf zeigt Folien und Ausschnitte aus dem Chat mit ChatGPT auf einem geteilten Bildschirm. Kommentare aus dem Chat und einige Namen stehen so da, wie sie zu hören sind.
+
+Die Links hinter jedem Zeitstempel springen zu dieser Stelle im Video (YouTube, PeerTube). Zum Podcast (MP3) gibt es keinen Link: Die Datei hat eine variable Bitrate, und Browser springen darin ungenau.
+
+### Begrüßung und Vorstellung
+
+**Eberhard Wolff:** [0:00:00] So, herzlich willkommen zu einer weiteren Episode von Software-Architektur im Stream, heute mit Ralf D. Müller. Hallo Ralf, schön, dass du da bist.
+
+**Ralf D. Müller:** [0:00:07] Hallo Eberhard, danke für die Einladung.
+
+**Eberhard Wolff:** [0:00:10] Genau, und Ralf, willst du erst ein paar Worte über dich sagen, was du so machst?
+
+**Ralf D. Müller:** [0:00:17] Viel gibt es eigentlich nicht zu sagen. Ralf D. Müller. Ich benutze das Mittelinitial immer, um mich von den ganzen anderen Ralf Müllers abzugrenzen. Ich arbeite für die DB Systel, dem Digitalpartner der Bahn, beschäftige mich viel mit Dokumentation, weil wir als Architekten ja die Dokumentation zur Kommunikation brauchen, habe da mal vor langer Zeit ein Open-Source-Projekt namens docToolchain gestartet, beschäftige mich auch ein bisschen mit Security und habe jetzt so in letzter Zeit angefangen, mich mit ChatGPT von der Operator-Seite her zu beschäftigen. Ich bin also nicht der KI-Experte, ich bin der KI-Anwender.
+
+**Eberhard Wolff:** [0:00:58] Genau, und das ist heute auch so das Thema. Kurz sozusagen Werbeeinblendung: Wir haben noch diesen Adventskalender, da habe ich auch den Link in den Chat getan. Da beantwortet bis Weihnachten täglich eine Person die Frage: Was ist eine gute Software-Architektur? Und du, Ralf, bist auch dabei. Ich glaube, du bist noch …
+
+**Ralf D. Müller:** [0:01:21] Ich komme noch.
+
+**Eberhard Wolff:** [0:01:22] Ja, genau, okay. Ich bin etwas verwirrt. Also du kommst noch, genau.
+
+### Zwei Gründe für diese Episode
+
+**Eberhard Wolff:** [0:01:26] Und der Titel der Episode ist ja: Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? Wir haben eigentlich so zwei Gründe dafür, diese Episode zu machen. Der eine Grund ist eben zu schauen: Also was kann ChatGPT denn eigentlich so an Software-Architektur erstellen? Und das war das, was Ralf gerade sagte, so ein bisschen so eine Benutzersicht da drauf. Und das andere, weswegen ich das irgendwie total super fand, dass Ralf die iSAQB-Advanced-Level-Beispielaufgabe genutzt hat. Wir können jetzt mal über eine Lösung der Advanced-Level-Aufgabe sprechen, die vielleicht Optimierungspotenzial hat, ohne dass man jetzt jemanden, einen Menschen, da rausgreifen muss, dem man dann halt sagt, deine Lösung ist halt suboptimal, sondern man kann das eben am Beispiel einer KI machen und das finde ich eine ganz komfortable Sache.
+
+**Eberhard Wolff:** [0:02:22] Das heißt, es geht eigentlich um zwei Sachen. Also die eine Frage, die wir beantworten wollen, ist: Was kann eine KI in Bezug auf Software-Architektur erreichen? Und das andere ist so ein bisschen: Was sind so typische Probleme, die man halt bei einer Advanced-Level-Prüfung haben kann und in der Umsetzung der Advanced-Level-Prüfung haben kann? Wie wird sowas bewertet? Und da hatte ich ja schon verschiedene Episoden gemacht. Ich verlinke die auch noch mal, wo ich eben selber diese Beispielaufgabe auch gelöst habe, und das ist nahezu ein Fokus gewesen. Ich glaube, ich habe da irgendwie vier Episoden gemacht. Genau.
+
+### Stochastischer Papagei oder allwissender Affe?
+
+**Eberhard Wolff:** [0:02:55] Ralf, willst du uns erst mal erläutern, wie du ChatGPT dazu gebracht hast, die Aufgabe zu lösen?
+
+**Ralf D. Müller:** [0:03:02] Ja, ich teile mal meinen Bildschirm, damit wir ein paar Slides haben. So, ihr solltet den jetzt sehen. Wie bin ich auf die Idee überhaupt gekommen? Jeder hat über ChatGPT gesprochen und oftmals hieß es, ja, ist ja nur der stochastische Papagei, der eben wie eine bessere Autovervollständigung einfach Texte vervollständigt, ohne irgendwie Hintergrundwissen. Und das liegt halt an dem neuronalen Netz, was da drin ist. Und ich habe jetzt hier meine Slides aus dem Vortrag mitgebracht. Ich werde aber ein bisschen schneller drüber gehen, weil wir ja auch noch über die Inhalte reden wollen. Genau.
+
+**Eberhard Wolff:** [0:03:40] Nur kurz, also du hast ja diesen Vortrag gehalten, den verlinken wir auch noch, also die Folien zumindest. Und außerdem verlinke ich noch diesen … AI über Prompt, nicht, Prompt Engineering.
+
+**Ralf D. Müller:** [0:03:54] Prompt Engineering, genau. Das ist der etwas allgemeinere, und hier bei dem bin ich dann eben auf die iSAQB-Prüfung eingegangen. Genau. Und meine Idee war halt, ich prüfe mal diesen stochastischen Papageien und habe die These aufgestellt, dass wir eigentlich nicht den stochastischen Papageien haben, sondern den allwissenden Affen, der eben Zugriff auf – ja, theoretisch das ganze Wissen der Welt hat, theoretisch. Und wenn man sich das Ganze anguckt, wo kommt das mit dem stochastischen Papageien her, dann muss man halt auch sagen, da ist ein Unterschied zwischen dem freien Modell, das, was ich einfach so ausprobieren kann, und dem Bezahlmodell, weil bei dem Bezahlmodell, das ist halt um Faktoren besser, aber ich muss halt 20 Dollar zahlen, um das nutzen zu können.
+
+**Ralf D. Müller:** [0:04:45] Und wenn man sich mal so ein paar Untersuchungen anguckt, um wie viel besser das Ganze ist, dann sieht man hier zum Beispiel bei einem medizinischen Test schneidet GPT-3.5 mit 65 Prozent ab, ein Mensch im Schnitt mit 75 und GPT-4 mit 82. Das sind eigentlich schon mal gute Grundlagen, dass das klappen könnte. Allerdings, es kommt eben immer darauf an, was für eine Art von Aufgabe man präsentiert. Wir sind hier bei der Architektur, man findet über GPT nicht so sehr viel Informationen im Netz. Vieles ist Spekulation, und hier, das ist so eine Architektur, die man immer gern findet, die aber relativ nichtssagend ist.
+
+### Was in ChatGPT steckt: Mixture of Experts und multimodal
+
+**Ralf D. Müller:** [0:05:34] Deswegen habe ich mal etwas abstrakter das Ganze aufgebaut. Im Kern ist ein neuronales Netzwerk, das wissen wir, Texteingabe, dann kommt irgendwie ein Natural-Language-Processor rein. Das Ganze geht in einen Output-Processor, wird zu Text. Dann habe ich noch so ein Kontextfenster, das wird hier im Verlauf der Diskussion noch sehr, sehr wichtig werden. Und mittlerweile habe ich nicht nur ein neuronales Netzwerk anscheinend, sondern ein Mixture of Experts. Und ich glaube, das sind noch nicht mal unbedingt neuronale Netzwerke, sondern das System weiß, wann es was zur Hilfe nimmt. Früher war es so, dass man es immer kritisiert hat, das Modell, dass es nicht richtig rechnen kann, dass 1 plus 1 noch geht, aber wenn ich größere Zahlen nehme, dann hat man immer gesagt, ja, ist nicht in der Eingabemenge drin gewesen.
+
+**Ralf D. Müller:** [0:06:33] Da ist einfach: Was ist die Wahrscheinlichkeit, dass auf eine 1 eine 2 folgt, so ungefähr, und das wird ausgegeben. Mittlerweile, ich habe es gestern gerade ausprobiert, man bittet das Modell, eine einfache Rechnung zu machen, und es startet halt Python, rechnet das aus und gibt die Antwort zurück. Also das ist, es weiß mittlerweile, welchen Experten es wann nutzen soll. Ja, und dann ist das Ganze noch multimodal geworden. Und das ist so ein Ding: Als ich die Idee zu dem Talk hatte, wusste ich noch nicht, ob ich überhaupt erfolgreich sein könnte, weil ChatGPT keine Dokumente verarbeiten konnte. Es hatte einen relativ kleinen Kontext, konnte keine Bilder verarbeiten. Und auf einmal wurde es multimodal.
+
+**Ralf D. Müller:** [0:07:25] Das heißt, es kann jetzt Bilder verarbeiten, die werden, wenn ich das richtig verstanden habe, erst mal in Text gewandelt, was dann eben wieder in den Kontext reinläuft. Ich kann über DALL-E 3 Bilder generieren. Ich habe Spracheingabe, ich kann mit dem Modell sprechen. Das heißt, auch das … Auch Text-to-Speech umgekehrt war dann so kurz vorher so die Frage: Muss ich eigentlich selbst auftreten oder kann ich hier auch die KI bemühen? Und das war eigentlich total faszinierend, weil ich gemerkt habe, wie schnell das mit der Entwicklung voranschreitet. Und ich dann zum Schluss dachte, okay, habe ich jetzt dann überhaupt noch Probleme, die Aufgabe zu lösen? Der Code-Interpreter ist auch noch mit drin, super Ding.
+
+**Ralf D. Müller:** [0:08:23] Ich kann auch PlantUML-Diagramme und sowas erzeugen und ich habe noch die Möglichkeit für Plugins. Also das Teil ist komplex geworden und ich habe mir abgewöhnt zu sagen, dass es irgendwas nicht kann, weil meistens ist es so, dass in dem Moment, wo man es sagt, die Neuerung rauskommt und dann kann es das.
+
+### „Das wird es nie geben“ ist schwer zu sagen
+
+**Eberhard Wolff:** [0:08:46] Genau, und ich glaube, das ist auch, du hattest das auch beim Vorgespräch schon mal gesagt, und ich glaube, das ist halt auch ein wichtiger Punkt, den wir … also, der mir sozusagen am Herzen liegt, also unabhängig davon, was wir sozusagen heute rausfinden: Als ich halt ChatGPT vor einem Jahr das erste Mal ausprobiert habe, ich hätte vorher nicht gedacht, dass es so ein System geben kann. Und von daher ist es halt irgendwie total schwierig zu sagen, das wird es halt nie geben, weil ChatGPT schon für mich zumindest mit meinem subjektiven Eindruck darüber hinweg ist. Das heißt, wenn wir irgendwie rausfinden, na ja, es ist halt irgendwie in Bezug auf Software-Architektur vielleicht nicht ganz so gut, bedeutet das halt bei Weitem nicht, dass das halt immer so bleiben muss, ne, und das wird man dann halt irgendwie sehen.
+
+**Ralf D. Müller:** [0:09:27] Absolut.
+
+### Das Kontextfenster
+
+**Ralf D. Müller:** [0:09:30] Eine Herausforderung, die ich hatte, war der Kontext. Und das ist total spannend. Vor Jahren habe ich mal ein Statement von Google gehört, so nach dem Motto: Naja, die Leute schmeißen ja nur Suchbegriffe rein, keine korrekten Fragen, dann haben wir auch keine Möglichkeit, Fragen zu beantworten, sondern nur nach den Suchbegriffen zu suchen. Und jetzt mit ChatGPT hat man eher das Gefühl, man kann richtig Fragen stellen. Oftmals macht man es aber auch nur sehr kurz. Und mit dieser Aufgabe, die ja über Seiten geht, hatte ich erst mal das Problem, ich muss die Aufgabe irgendwie reinschmeißen. Und dieser Kontext ist halt so ein zentrales Element bei der Geschichte. Es ist wie so ein Chatfenster.
+
+**Ralf D. Müller:** [0:10:19] Ich fange an, mit dem Ding zu reden und Priming. Priming ist ganz wichtig, eine Vorbereitung. Das Teil muss wissen, um was es geht. Wer bin ich? Wie kann es mit mir reden? Auf welcher Ebene? Was für ein Background Knowledge habe ich? Oder auch: Wie lautet die Aufgabe? Das schmeiße ich so als Erstes rein. Dann rede ich mit dem Teil und ich rede weiter mit dem Teil, und schwupps läuft diese Diskussion aus diesem Kontextfenster raus, was jetzt hier etwas klein dargestellt ist. Und das bedeutet, er vergisst unter Umständen dieses Priming, weil es aus dem Kontextfenster rausläuft. Und auf einmal fängt das Modell an zu lallen. Es hat halt was vergessen und antwortet komisch.
+
+**Ralf D. Müller:** [0:11:14] GPT-3 hatte 2048 Token. Token ist ein Teil eines Worts. Also man kann da so ungefähr rumrechnen. GPT-4 gibt es ein Modell mit 32.000 Tokens. Kurz vor dem Vortrag, als ich ihn gehalten habe, kam die News: 128.000 Token. Was bei ChatGPT tatsächlich für ein Modell verwendet wird, ist ein bisschen unklar. Es wird wahrscheinlich 4.048 Tokens haben. Teilweise sagt es selbst, es hat 8.000 Tokens. Aber das ist halt so dieser wichtige Punkt, diesen Kontext irgendwie in den Griff zu bekommen.
+
+### Der Trick mit dem Größerzeichen
+
+**Ralf D. Müller:** [0:11:59] Und deswegen habe ich mir diesen Tipp erarbeitet, dass ich als allererstes sage: Beginne jede Antwort mit dem Größerzeichen. ChatGPT formatiert die Ausgabe als Markdown mit dem Ergebnis: Es wird so ein Quote-Strich angegeben. Und meine Hoffnung war, dass, wenn dieser Quote-Strich verschwindet, ich weiß, er ist aus dem Kontext gelaufen. Ja, so ein bisschen getrickst, ne, dass man so ein bisschen ins Hirn der Maschine gucken kann. Es funktioniert nicht ganz richtig, weil was ich jetzt gelernt habe, ist, dass ChatGPT versucht, den Kontext zu vergrößern, indem es den Kontext komprimiert. Es sagt selbst, es lässt die Wiederholung … nimmt es raus aus dem Kontext, es fasst zusammen. Aber dabei fällt auf, dass es auch seine eigenen Ausgaben zusammenfasst, rausfallen lässt. Und das ist ganz wichtig jetzt bei unserer Aufgabe: Wenn wir etwas erarbeiten, wenn ChatGPT Qualitätskriterien erarbeitet, dann sollten die im Kontext bleiben und nicht zusammengefasst werden zu: Ja, hier habe ich Qualitätskriterien ausgegeben.
+
+### Embeddings
+
+**Ralf D. Müller:** [0:13:27] Ein wichtiger Punkt sind auch Embeddings. Die kann ich programmatisch erarbeiten. Das heißt, ich habe einen Text, den zerpflücke ich in Fragmente, ordne diesen Fragmenten Vektoren zu, entsprechend wie nah die Wörter beisammen sind. Dafür gibt es eine API. Und dann kann ich die ganze Zeit, wenn ich mit dem Modell rede, aus der Vektordatenbank raussuchen, welche Textfragmente passen dazu, diese Embeddings, und die noch mit in den Kontext schmeißen. Und auch dann ist wieder die Frage, wie viel von meinem eigenen Kontext wende ich dafür auf? Total cool. Ich kann mittlerweile Dokumente reinschmeißen in den Chat und damit automatisch diese Embeddings verwenden. Genau. Und das war dann eben so dieser Ansatz, wo ich gesagt habe, es ist nicht einfach die Autovervollständigung, sondern es ist das System, was vielleicht unsere Welt nicht versteht, aber Zugriff auf alle frei verfügbaren und sogar noch mehr Daten hat. Denn teilweise wurden wohl auch Dokumente reingefeedet, irgendwelche News und sowas, für die Lizenzen gekauft worden sind.
+
+### Versteht das Modell die Welt?
+
+**Ralf D. Müller:** [0:14:51] Die Frage für mich ist immer noch weiterhin, wie viel Verständnis hat das Modell überhaupt von der Welt?
+
+**Eberhard Wolff:** [0:14:58] Wobei ja die Frage ist, ob man vom Verständnis überhaupt sprechen kann, nicht? Also es ist halt ein Language Model und es bedeutet, es generiert halt Text letztendlich.
+
+**Ralf D. Müller:** [0:15:06] Ja, aber total faszinierend. Ich habe das Modell mal gefragt, woran kann ich erkennen, dass ich es mit einem Large Language Model zu tun habe? Es antwortet selbst, na ja, also die LLMs, die kennen nicht die Welt, nicht die Realität. Ein Satz wie – was war das Beispiel? – „Er kurbelte das Fenster runter, um das Sonnenlicht reinzulassen“ ist für das Large Language Model unter Umständen ganz normal. Ein Mensch weiß, das Fenster ist schon transparent, ich muss es nicht noch runterkurbeln. Also habe ich selbst probiert, habe gesagt … eine unauffällige Aufgabe gestellt. Du, ich nehme einen Walfisch und ein Eichhörnchen, packe beides in eine Streichholzschachtel. Wie schwer wird dann die Streichholzschachtel sein? Er hat mir gesagt, also Wal und Eichhörnchen werden nicht reinpassen. Übrigens, das Eichhörnchen wirst du auch nicht fangen können – das wird zu aufwendig sein. Und ich gehe davon aus, dass das eine Scherzfrage ist. Wo ich mir dann gedacht habe, okay, es versteht doch ein bisschen was von der Welt.
+
+### Der Bus mit drei Passagieren
+
+**Eberhard Wolff:** [0:16:19] Ja, also Felix Müller bei YouTube hat übrigens gerade gesagt, spannender Talk bisher. Ich weiß, also ich habe halt mittlerweile so ein bisschen ein Standardverfahren. Ich bin mal gespannt, wie lange das noch funktioniert, um zu zeigen, wo potenzielle Probleme mit ChatGPT sind. Und zwar stelle ich ChatGPT die Frage: Aus einem Bus mit drei Passagieren steigen fünf Passagiere aus. Wie viele Passagiere sind noch in dem Bus? Und die mathematisch korrekte Antwort wäre minus zwei, und das ist natürlich Quatsch. Und da kommt tatsächlich irgendwie – ich habe das vor einem Monat oder so noch mal ausprobiert – da kommen halt ganz komische Ergebnisse, also zwei, drei. Und dann kann man halt sagen: Bist du dir sicher? Und dann sagt er halt: Jetzt, wo ich drüber nachdenke, vielleicht doch eher vier.
+
+**Eberhard Wolff:** [0:17:05] Und dann ist halt das andere, was ich irgendwie mache, ist, ihnen zu sagen: Also wir haben dreieinhalb Passagiere in dem Bus, wie viele Tickets brauchen wir denn? Und da kommt halt auch – also tatsächlich war beim letzten Mal sowas wie: Es gibt keine halben Passagiere, aber mit halben Tickets kann man ihn halt doch irritieren. Und das ist halt genau, also ich finde das halt deswegen ein schönes Beispiel. Ich bin mal gespannt, wann es sozusagen nicht mehr funktioniert, weil das halt sehr eindeutig jedem klar macht, dass dieses Ding halt zwar irgendwie bestimmte Dinge kann, also Texte zusammenfassen ist zum Beispiel super oder was auch tatsächlich gut funktioniert ist, Überschriften, Vorschläge für Überschriften oder solche Geschichten. Aber das, was du gerade gesagt hast, nicht, Erfahrung mit der Welt und solche Geschichten, das funktioniert halt irgendwie wahnsinnig schlecht.
+
+**Ralf D. Müller:** [0:18:01] Also da hast du mir jetzt …
+
+**Eberhard Wolff:** [0:18:03] Sorry.
+
+**Ralf D. Müller:** [0:18:04] Ja, also ich muss es nachher ausprobieren, ja. Es ist total spannend, die Aufgabe mit dem Bus und dem Verständnis der Welt. Ja. Ja, meine Erfahrung …
+
+**Eberhard Wolff:** [0:18:16] Ich möchte noch eine Anekdote vielleicht loswerden. Mein Vater ist Mathematiklehrer gewesen. Und da hat mal ein Schüler ausgerechnet, dass die Schwalbe 20.000 Kilometer pro Stunde fliegt, woraufhin mein Vater gesagt hat, okay, die Erde hat einen Umfang von 40.000 Kilometern, die Schwalbe ist also in zwei Stunden einmal um die Welt rum. Das hat irgendwie nicht zu Nachdenken geführt. Also von daher, ja, wie auch immer. Genau, Jutro schreibt gerade auch, kann ich nur zustimmen, also dem Felix zustimmen. Aber gut. Ich glaube, wir divergieren gerade so ein bisschen von dem eigentlichen Thema. Also ich divergiere vielleicht ein bisschen, sorry.
+
+### Modelle unterscheiden sich, Priming hilft
+
+**Ralf D. Müller:** [0:18:55] Also für mich war es wichtig, die Erkenntnis, dass die Modelle sehr, sehr unterschiedlich sind. Also jetzt auch das Gemini-Modell von Google, was man mit Bard ausprobieren kann. Ja, das Demo-Video war ja etwas aufgehübscht, aber man merkt auch, es kommt ein bisschen darauf an, die Trainingsdaten. Ja, was ist da drin? Kann ich es jetzt für meine Architektur nutzen oder ist es eher ein Modell, was anderes kennt? Der Kontext ist wichtig, die Parameter sind wichtig. Es ist so ein großer Unterschied zwischen der 3.5 und der 4. Und ich habe jetzt halt vor allem die Erfahrung mit der 4, weil ich gesagt habe, es lohnt sich, das  zu zahlen.
+
+**Ralf D. Müller:** [0:19:49] Ich habe schon von Priming kurz gesprochen und ich finde es wichtig, dass man eben … ja, jede Session, er hat den kompletten Kontext verloren. Man muss ihm den Kontext neu geben. Man sollte ihm sagen, was das Ziel ist und wie das Ziel aussehen sollte. Ansonsten wählt er selbst, ob er jetzt gerade bei diesen Aufgaben eine Tabelle, Freitext oder Diagramm macht oder so. Das sollte ich ihm mitgeben. Ich sollte ihm aber auch mitgeben, wer ich bin, und damit er eben sich so ein bisschen darauf einstellen kann. Also wenn er mir jetzt mit einer C-Sharp-Lösung um die Ecke käme, da könnte ich nicht mehr viel mitreden, sondern ich bin eben der Java-Mensch.
+
+**Ralf D. Müller:** [0:20:38] Und was ich total spannend fand, war, ich habe ein Bild hierzu erzeugen lassen, Java und ich mag kein JavaScript, und auf einmal kommt so ein Bias durch, ja, so nach dem Motto, okay, du scheinst schon etwas älter zu sein. Ich habe überprüft, ob das wirklich so ist, dass das ein Bias ist, und habe mal gesagt, okay, ich liebe eher Python und JavaScript, JavaScript ist toll, ja, und auf einmal bin ich der hippe Architekt. Also der Bias ist … den kriegt man aus den Maschinen nicht raus, weil der ist in den Trainingsdaten drin, so viel Mühe man sich gibt, es funktioniert nicht. In dem Fall wollen wir ihn aber selbst nutzen, weil wir ihm eben sagen, mit was haben wir Erfahrung, in welche Richtung soll unsere Architektur gehen. Genau.
+
+### Custom Instructions als Long-Term Memory
+
+**Ralf D. Müller:** [0:21:36] Und damit man das nicht ständig immer wieder eingeben muss, gibt es so eine Art Long-Term Memory, die Custom Instructions bei ChatGPT. Da kann ich das reinschmeißen: What would you like ChatGPT to know about you to provide better responses? Da schmeiße ich diese Beschreibung meines Wissens rein. Und dann gibt es noch so einen zweiten Teil: How would you like ChatGPT to respond? Und das ist total spannend, weil es gibt immer diese Aussage, ja, die LLMs haben Halluzinationen und die machen dies schlecht und jenes schlecht. Und diese Halluzinationen, die werden wohl tatsächlich damit gelöst, dass man dem Modell einfach sagt: Du, wenn du keine Ahnung hast, dann sag das einfach und erzähl nicht einfach rum. Und das wird natürlich sprachlich dem Modell vorneweg gegeben und ihm gesagt: Darüber redest du aber nicht.
+
+**Ralf D. Müller:** [0:22:35] Trotzdem haben Leute es geschafft, es rauszukriegen. Und so sieht es dann bei mir aus. Ich sage zum Beispiel hier, diese ganzen Floskeln und so, lässt du mal weg. Du sagst nicht, dass du hier ein Large Language Model bist, das weiß ich. Nicht den Knowledge Cutoff nennen, der ist jetzt eh August 23, das ist wieder super. Und genau den Trick hatten wir schon.
+
+**Eberhard Wolff:** [0:23:05] Genau, mit dem Größerzeichen, dass man damit eben dann Markdown-Zitate bekommt.
+
+**Ralf D. Müller:** [0:23:11] Genau, damit wir merken, wann er aus dem Kontext rausläuft, wobei es ist halt eben nicht so scharf. Und ich bin halt auch so ein AsciiDoc-Fan, so ein Docs-as-Code-Fan. Deswegen habe ich ihm beigebracht, dass er bitte, wenn er mir Dokumentation ausgibt, es mir als AsciiDoc formatiert ausgibt, dass ich es per Copy and Paste einfach reinziehen kann. Und das funktioniert super. Genau.
+
+### Priming: Kennst du den iSAQB?
+
+**Ralf D. Müller:** [0:23:41] Und dann habe ich angefangen, mit dem System tatsächlich zu reden. Und ich mache das immer so, dass ich erst mal, ja, so ganz schwach frage: Kennst du den iSAQB? Er sagt: Ja, natürlich kenne ich den iSAQB, und erzählt was darüber. Das gibt mir einmal die Sicherheit: Er kennt den Begriff. Und zum anderen haben wir die gleiche Vorstellung davon. Aber zum Dritten geht es auch wieder in den Kontext rein. Das ist jetzt hier vielleicht nicht so offensichtlich. Bei anderen Sachen, wenn er dann so zum Beispiel bei arc42 die Kapitel aufzählt, dann sind die im Kontext und dann wird er sich auch wieder an diese Kapitel genau erinnern und nicht mal so, mal so erzählen. Und gerade da hat man die Gewissheit: Er kennt die zwölf Kapitel, er hat sie richtig wiedergegeben.
+
+### Chat: Schrift im Bild, Reasoning-Prompt, Long-Term Memory
+
+**Eberhard Wolff:** [0:24:37] Darf ich kurz, weil tatsächlich so ein paar Sachen im Chat aufgetaucht sind. Also einmal, du hattest ja dieses Bild mit dem JavaScript-Python-Menschen, und da hat Lisa gerade gesagt, die Schrift in dem Bild sei ja lustig gewesen, weil da gab es JavaScript ohne T … Das ist ja auch so ein typisches KI-Thema. Dann hatte Felix geschrieben, Jup, das machen wir – also Felix Müller –, jup, das machen wir auch im Projekt so, zuerst ein Reasoning-Prompt, ob es über etwas wirklich Bescheid weiß und danach erst einen Antwort-Prompt. Also unterstreicht, glaube ich, das, was du gesagt hattest. Und dann hatte Jan bei YouTube gefragt: Gibt es das Long-Term Memory, von dem du sprachst, auch in der freien Version oder erst ab der 4? Und da hat Felix geantwortet und hat gesagt: erst ab der 4. Ich weiß nicht, ob du da noch etwas ergänzen willst oder so.
+
+**Ralf D. Müller:** [0:25:31] Also ich glaube, es ist nicht erst ab der 4, sondern einfach im Bezahlmodell. Also im Bezahlmodell kann ich zwischen verschiedenen Modellen hin und her schalten, auch auf GPT-3.5, und da habe ich dann, glaube ich, in allen Modellen dieses Long-Term Memory.
+
+**Eberhard Wolff:** [0:25:47] Okay, alles klar.
+
+**Ralf D. Müller:** [0:25:48] Es vereinfacht einfach ein bisschen das Leben, aber wenn man sich genau anguckt, dann sind da auch tatsächlich so Prompts davor, die sagen: Guck mal, hier erzählt der User was über sich. Das muss nicht immer irgendwie zum Chat passen. In 99 Prozent der Fälle passt es nicht dazu. Achte bitte drauf. Total spannend. Genau.
+
+### API, ChatGPT und die Prüfungsregeln als PDF
+
+**Ralf D. Müller:** [0:26:14] Ja, und so bin ich jetzt ein bisschen weitergegangen. Hier sieht man jetzt auch, dass er den ersten Absatz hier highlightet durch meinen Trick und dass er jetzt hier anfängt, tatsächlich aufzulisten.
+
+**Eberhard Wolff:** [0:26:28] Und genau, sorry, nur kurz sozusagen für den Podcast, also da ging es halt um die Advanced-Level-Zertifizierung und ob die halt sozusagen bekannt ist.
+
+**Ralf D. Müller:** [0:26:39] Genau. Die Advanced-Level-Zertifizierung, wo wir jetzt hier die Beispielaufgabe von der Website genommen haben.
+
+**Eberhard Wolff:** [0:26:47] Genau, und noch ein Hinweis, sorry, noch zu dieser Diskussion rund um die Modelle. Also Felix hat gerade geschrieben, es gibt an der API noch ein GPT-3.5-16K Context Model.
+
+**Ralf D. Müller:** [0:26:59] Genau. Es ist eine große Unterscheidung zwischen API und ChatGPT. Ich habe in der API mehr Modelle zur Verfügung. Ich habe ein anderes Bezahlmodell dahinter. Ich habe nicht automatisch, wenn ich für ChatGPT zahle, auch die API. Aber das ChatGPT, das wirkliche Chat, hat jetzt halt so Convenience-Funktionen, wie wir hier sehen. Ich kann jetzt einfach PDFs reinschmeißen und er wird im Hintergrund Embeddings aufbauen. Und was auch total spannend daran ist, wenn man ihn so ein bisschen hinterfragt: Er hat ein Virtual File System, in dem er dieses Dokument ablegt. Das heißt, er weiß, das Dokument ist da, kann jederzeit darauf zugreifen, auch wenn andere Sachen aus dem Kontext gelaufen sind. Er kann jederzeit das wieder abrufen.
+
+**Eberhard Wolff:** [0:28:00] Genau, und ich weiß nicht, ob du es gesagt hattest, aber auch eben noch mal für den Podcast: Das Dokument, was du da reingeworfen hast, ist die iSAQB Advanced Level Examination Rules. Ich glaube, da steht irgendwie sowas drin, du darfst Annahmen treffen und wie das Vorgehen ist mit den Telefoninterviews und solche Geschichten, glaube ich, nicht? Das müsste das sein.
+
+**Ralf D. Müller:** [0:28:22] Genau, da steht aber auch was über das Dokument drin, dass es nur 40 Seiten haben darf und solche Geschichten. Ich wollte hiermit sicherstellen, dass ChatGPT die Regeln kennt und dass es auch das Glossar kennt. Wir haben viele Begriffe. Wir sollten die Begriffe in der gleichen Art und Weise verwenden, und wenn so ein Glossar vorhanden ist, dann ist das ja schon mal praktisch. Und da hat er dann, glaube ich, auch sogar, ich habe es jetzt hier abgeschnitten, drei wichtige Begriffe rausgezogen, so als Beispiel. Er versucht dann immer, diese Dokumente irgendwie zusammenzufassen. Und jetzt hat er eigentlich die Grundlagen, die er braucht, um loszulegen.
+
+### Die Aufgabe hochladen, ohne sie zu lösen
+
+**Ralf D. Müller:** [0:29:12] Also noch mal diese Sache PDF reinschmeißen und jetzt eben diesen Task reinschmeißen, die Aufgabe. Und hier habe ich gesagt: Read the document carefully, but do not start to solve the task yet. Weil er legt immer ganz gern los, egal was man macht. Wenn ich ein Dokument einfach reinschmeiße, er macht irgendwas damit und füllt damit den Kontext auf. Und ich muss schauen, dass ich sparsam mit dem Kontext umgehe. Und deswegen, es gibt so eine schöne Funktion, dass ich so ein bisschen in einem Kontextbaum arbeiten kann. Ich kann meinen Prompt, meine Anfrage noch mal verändern und kriege dann unten so einen kleinen Paginator, dass ich so wechseln kann und kann damit auch später wieder hochgehen und einen neuen Zweig aufmachen.
+
+**Ralf D. Müller:** [0:30:07] Und damit habe ich einen neuen Kontextzweig. Das ist besser, als wenn ich im neuen Prompt den Prompt verfeinere, weil ich einfach den Kontext zum einen verlängere und zum anderen ja eigentlich vergifte mit falschen Antworten. Genau. Er hat trotzdem gesagt: Komm hier, ich zeige dir mal, dass ich das Dokument verstanden habe.
+
+### Bilder in PDFs: Fachklassen und Systemkontext
+
+**Ralf D. Müller:** [0:30:38] Was mir vorher schon klar war, was momentan ein Problem ist: Bei solchen Dokumenten kann er die Bilder nicht lesen. Er kann Bilder lesen, aber er zieht sie nicht raus und guckt sie sich an. Deswegen habe ich die beiden Bilder, die Diagramme, die drin sind, noch mal extra reingeschmissen. Und er hat ein verdammt gutes Verständnis von diesen Diagrammen. Am Anfang, als er das noch nicht konnte, als ich die Idee für diesen Talk hatte, da war mir klar, er sollte dieses Diagramm hier kennen.
+
+**Eberhard Wolff:** [0:31:11] Das ist das Klassendiagramm mit den Fachklassen. Da gibt es sowas wie ein Consultant, Customer, Consulting Project und so. Wir sollten vielleicht noch kurz sagen, also die Beispielaufgabe heißt Big Spender und das ist ein Reisekostensystem für irgendeine Beratung. Das ist, glaube ich, auch erst mal das, was man darüber wissen muss. Also da sind Spezifika, sonst würde es ja keinen Spaß machen. Die ergeben sich aber, glaube ich, oder die diskutieren wir dann, wenn es halt sozusagen relevant wird für die Aufgabenstellung. Aber man kann sich halt vorstellen, was das Ding tut, also sprich, irgendwelche Consultants, so wie wir, reichen halt irgendwelche Reisekosten ein, die müssen halt irgendwie genehmigt werden, und dann muss das Geld irgendwie ausgezahlt werden.
+
+**Eberhard Wolff:** [0:31:51] So sieht das halt ungefähr aus. Und das andere Diagramm, was du hattest, was wir jetzt sehen, das ist eben das Systemkontextdiagramm, und zwar ist das ein fachliches Systemkontextdiagramm. Das heißt, da steht irgendwie Big Spender drin mit den ganzen Systemen, die halt drumherum hängen, also sowas wie die Payroll, also die Gehaltsabrechnung, und das ist sozusagen das. Und dann gibt es noch einen dritten Hinweis.
+
+### Englische und deutsche Fassung der Aufgabe
+
+**Eberhard Wolff:** [0:32:16] Genau, du, Ralf, hast die englische Version der Aufgabe benutzt. Ich habe die deutsche Version der Aufgabe genutzt. Und wenn ich mich recht entsinne an unser Vorgespräch, war es halt so, dass das eben damit zusammenhängt, dass du diesen Talk gemacht hast auf dem Software Architecture Gathering und das ist halt englischsprachig, und ich habe irgendwie das auf Deutsch gemacht. Genau. Und Jan schrieb gerade, Big Spender wurde ja auch mal gemacht. Genau, ich habe eben in vier Episoden diese Aufgabe mal selber gelöst, und das ist auch etwas, worauf wir wahrscheinlich mal zurückgreifen werden.
+
+**Ralf D. Müller:** [0:32:53] Genau, ist auch total faszinierend. Das Modell hat überhaupt keine Probleme, zwischen Deutsch und Englisch zu wechseln. Da merkt man eigentlich kein Problem. Es ist egal, in welcher Sprache man reingeht. Kurz zu dieser Beispielaufgabe: Wir haben hier im Deutschen den Spesenritter. Witzigerweise werden hier die Belege manuell gescannt, dann gibt es einen Approver, Business Admin, der Regeln erstellt, einen Auditor, der das Ganze noch mal überprüfen muss. Ganz am Anfang, als ich die …
+
+**Eberhard Wolff:** [0:33:27] Der Squanderer, habe ich übrigens nachgeguckt, weil mir der Begriff nichts sagte, ist übrigens ein Verschwender oder Vergeuder. Also das ist die Übersetzung von Spesenritter, finde ich halt interessant. Also da gibt es einen gewissen Bias, der damit schwebt in der englischen Version zumindest.
+
+**Ralf D. Müller:** [0:33:46] Spannend, ja.
+
+### Ein Diagramm aus der Tabelle
+
+**Ralf D. Müller:** [0:33:49] Zu diesem Diagramm, kurze Anekdote: Anfangs, als ChatGPT noch nicht so weit war, dass es so Diagramme lesen konnte, habe ich überlegt, das Diagramm ist wichtig, was mache ich damit? Unter dem Diagramm war oder ist eine Tabelle, die die Elemente beschreibt. Also habe ich diese Tabelle reingeschmissen und habe ChatGPT gebeten, ein PlantUML-Diagramm draus zu bauen. Und das sah gar nicht so aus. Also da haben Elemente gefehlt, wo ich gedacht habe, nee, also da hast du jetzt was falsch verstanden. Und dann habe ich in die Tabelle reingeguckt und habe gemerkt, nee, da fehlen die Elemente. Und da haben auch bestimmte Bezüge gefehlt. Und das fand ich auch sehr spannend, weil ich somit leicht verifizieren konnte, ob die Beschreibung für das Diagramm eigentlich passt, also den umgekehrten Weg gehen konnte. Manchmal ist das vielleicht gar nicht so schlecht, wenn man so noch mal was verifiziert.
+
+**Eberhard Wolff:** [0:34:48] Genau, vielleicht an der Stelle auch: Wir hatten vor kurzem eine Episode mit dem Mike Sperber, wo Mike uns gezeigt hat, wie er dieses Problem funktional lösen würde. Und da sind halt auch noch mal bei der Implementierung, ich glaube auch gerade bei diesem Modell, Inkonsistenzen aufgefallen. Ich erinnere mich aber nicht mehr genau. Ich glaube, das ist irgendwie so, dass halt die Frage ist, ob ein … ob ein Beleg nicht an einem Projekt hängt oder sowas, da war sowas in dem Dreh. Also guter Punkt, nicht? Diese Inkonsistenzen sind halt irgendwie da, die fallen dann da halt irgendwie auf, und das ist ja auch etwas, was wir ganz typisch kennen, dass da halt irgendwo in den Anforderungen Dinge halt nicht konsistent sind.
+
+**Ralf D. Müller:** [0:35:32] Ja, es wurde auch in der Aufgabe so in einem Nebensatz erwähnt, dass das so das erste Fachklassenmodell ist, was noch nicht vollständig sein muss und so. Also es ist tatsächlich was, worauf man achten sollte.
+
+### ChatGPT stellt zehn Fragen
+
+**Ralf D. Müller:** [0:35:46] Gut, damit kennt das Modell die Aufgabe. Und das fand ich spannend. Ich habe mir angewöhnt, dass ich auch manchmal dem Modell sage: Stell mir mal Fragen. Wenn ich zum Beispiel auch eine Library auswählen will, kann ich einfach sagen: Du, ich brauche eine Library, stell mir die richtigen Fragen, um eine auszuwählen. Das finde ich total spannend, mal die Rolle zu vertauschen. Und hier habe ich das auch gemacht und ich war etwas baff, weil ich echt zehn Fragen bekommen habe. Und diese zehn Fragen, ich finde die gut. Ja, also, und es funktioniert tatsächlich in dem Modell, dass ich Prompt für Prompt könnte ich jede einzelne Frage beantworten und er sagt dann: Okay, jetzt bitte noch die anderen. Gibt auch ein bisschen Kommentar dazu ab. Das heißt, der Kontext wird wieder kleiner, deswegen macht es Sinn, hier das in einem zu beantworten.
+
+### Annahmen statt Rückfragen
+
+**Eberhard Wolff:** [0:36:50] Genau, und vielleicht an der Stelle ein Hinweis, weil das war so das Erste, wo ich … also, nicht, du hast halt recht, das ist irgendwie spannend, diese Rolle halt umzutauschen. Bei der Lösung der Aufgabe ist es ja so, dass man irgendwie Annahmen treffen sollte. Und der Hintergrund ist da ja, dass wir hier, dass halt bei dieser iSAQB-Advanced-Level-Prüfung so ein bisschen das schwierig ist, weil man nicht mit irgendwelchen Menschen sprechen kann über die Anforderungen und das halt klarziehen kann, sondern man hat ja eben die Sachen, die im Dokument stehen. Und das Dokument wird eben nicht vollständig sein oder vielleicht auch inkonsistent, so wie es halt eben ist mit Dokumenten. Das kriegt man nicht sauber hin.
+
+**Eberhard Wolff:** [0:37:30] So, und das, was wir dann typischerweise machen würden im Projekt, glaube ich, ist irgendwie mit irgendwelchen Leuten reden, um halt klarzubekommen, wie es denn nun wirklich gemeint ist und die Fragen halt irgendwie zu klären. Und da ist bei der Lösung dieser Aufgabe kann man das ja nicht tun. Das heißt, die Idee ist halt eher Annahmen zu treffen. Und deswegen fand ich das mit den Fragen so ein bisschen, wie soll ich sagen, schwierig. Wahrscheinlich müsste man sich jetzt eben hinstellen und müsste halt diese – also das sind ja Fragen über regulatorische Requirements beispielsweise, Datenmigration steht hier drin, Budget und Timeline – wahrscheinlich müsste man halt diese Fragen jetzt beantworten und müsste mal irgendwie dazuschreiben, dass man eben diese Antworten dem System gegeben hat, dass das also die Annahmen sind, die man halt getroffen hat.
+
+**Eberhard Wolff:** [0:38:21] Das war etwas, was mir da eben aufgefallen ist, nicht, also dass es hier ein bisschen anders ist, als man es halt für die Lösung der Aufgabe eigentlich braucht, weil man muss sich jetzt hier irgendwie diese Fragen beantworten. Das kann man halt ja eigentlich nicht bei der Lösung der Aufgabe.
+
+**Ralf D. Müller:** [0:38:36] Genau, also hier habe ich ja die Antworten, die ich gegeben habe, sind jetzt nicht auf den Slides, aber das ganze Chat-Protokoll ist verfügbar. Da kann man es noch mal nachlesen.
+
+### ChatGPT spielt den CFO
+
+**Ralf D. Müller:** [0:38:47] Eberhard, wir hatten so im Vorgespräch auch drüber gesprochen, dieses Closed Room und ich habe es mal ausprobiert. Ich habe mal ChatGPT genommen und habe gesagt, du schlüpf mal in die Rolle des CFOs, der da interviewt worden ist. Und wow, das klappt. Also ich kann den jetzt fragen, wie viele Mitarbeiter sind da, die Belege einreichen, wie viel werden im Schnitt eingereicht und sowas. Und er versucht da auch eben entsprechend mit guten Antworten rüberzukommen.
+
+**Eberhard Wolff:** [0:39:23] Genau, und das, by the way, das hattest du ja auch gesagt bei dem Vorgespräch, das wäre jetzt irgendwie eine Möglichkeit, eben das sozusagen ein bisschen realistischer zu machen, dass man also sagt, es gibt halt bestimmte Personen, die man da irgendwie fragen kann, und da kann man halt die Protokolle mit einreichen. Und dadurch kann man eben tatsächlich so einen Prozess ein bisschen illustrieren. Das fand ich eine ganz coole Idee.
+
+### Die erste Teilaufgabe: Qualitätsanforderungen
+
+**Ralf D. Müller:** [0:39:47] Gut, so und jetzt sind wir endlich soweit. Jetzt haben wir die Maschine gebrieft, dass sie weiß, um was es geht, und wir können jetzt anfangen, über die Quality Requirements zu sprechen.
+
+**Eberhard Wolff:** [0:40:01] Genau, vielleicht kurz eine Bemerkung. Also die iSAQB-Advanced-Level-Beispielaufgaben oder Aufgaben sind halt so, dass man eigentlich eine Architektur entwirft, aber es ist jetzt nicht so, dass da steht: Entwirf mal eine Architektur, sondern es gibt eben mehrere Aufgaben. Und eine typische erste Aufgabe ist genau diese hier, also mit … die Qualitätsanforderungen irgendwie sauber zu bekommen. Und durch die Aufgaben wird man so ein bisschen so guided in eine bestimmte Richtung, wie man die Architektur zu erstellen hat, weil wenn man irgendwie nur sagt, mach mal eine Architektur, das ist halt irgendwie sehr breit. Hier ist es also etwas genauer detailliert.
+
+**Ralf D. Müller:** [0:40:41] Genau. Und hier war es wichtig, auch wieder überprüfen: Hat er die Aufgabe verstanden? Ihr seht hier, ich habe drei Versuche gebraucht, um den Prompt richtig hinzubekommen. Wichtig war dieses as stated in the document, weil dann greift er auf sein virtuelles Filesystem zu und zieht es tatsächlich raus aus dem File und reproduziert es wieder und bringt es so in den Kontext, und das ist tatsächlich das, so wie es in der Aufgabenstellung steht.
+
+**Eberhard Wolff:** [0:41:21] Genau. Was also bedeutet, wir erwarten jetzt erwartete Ergebnisse, drei bis fünf Qualitätsziele als Tabelle, ein ausgeführtes Qualitätsszenario pro Qualitätsziel und ein Qualitätsbaum als Grafik. Also ich habe das hier parallel als deutsche Version offen. Das sind also die drei Ergebnisse, die wir halt erwarten für diese Aufgabe, und so steht es eben da auch drin.
+
+**Ralf D. Müller:** [0:41:45] Genau.
+
+### Schritt für Schritt: Give the Model Time to Think
+
+**Ralf D. Müller:** [0:41:46] Und wichtig ist hier, wenn ich jetzt einfach sage, ja, lös mal diese Aufgabe. Er hat so Anweisungen von wegen, dass seine Antwort nicht zu groß sein sollte. Und er hat auch so ein bisschen dieses, na ja, es gibt diesen Ansatz Give the Model Time to Think, indem ich ihm sage, mach das mal Schritt für Schritt. Das ist so ein bisschen wie wenn man mit einem Schüler Hausaufgaben macht, erst mal so fragen: Wie würdest du jetzt diese Matheaufgabe lösen? Ah ja, dann mach mal den ersten Schritt. Und das mache ich auch hier. Hier habe ich ihm noch mal das mit dem AsciiDoc mitgegeben, weil er manchmal, ich sag mal, nimmt er manche Instruktionen als nicht so wichtig an. Deswegen habe ich das hier noch mal mitgegeben. Und er hat fünf Quality-Szenarios gebaut. Was gleich auffällt, ist die Importance: alles high bis auf eins medium.
+
+**Eberhard Wolff:** [0:42:50] Ja, der hat auch aus der Praxis gelernt offensichtlich. Die sind alle wichtig.
+
+**Ralf D. Müller:** [0:42:56] Genau. Und so auf den ersten Blick, ja, in order to maintain a high level of data integrity, das geht eigentlich, eigentlich. Es sei denn, man guckt tiefer rein, Eberhard.
+
+### Was ist ein Qualitätsszenario?
+
+**Eberhard Wolff:** [0:43:11] Ja, genau. Also erst mal ist es halt so, ich gucke gerade noch mal auf die Aufgabe. Eigentlich steht da drei bis fünf Qualitätsziele. Wir sind jetzt bei den Qualitätsszenarien und da müsste man jetzt irgendwie kurz ausholen: Was ist ein Qualitätsszenario? Also ich habe mir hier aufgeschrieben, das ist halt ein Event, der halt auf dem System einwirkt und dann soll es eine Reaktion geben, die halt mit einer Metrik bewertbar ist. Also beispielsweise, ich logge mich halt, keine Ahnung, ich lade ein PDF hoch als Beleg für meine Reisekosten. Das sollte da von einer halben Sekunde hochgeladen sein und ich sollte eine Antwortseite haben, die halt irgendwie sagt, ist halt dort. Dann habe ich halt ein Event, ich lade das halt irgendwie hoch, das wirkt auf das System ein und ich erwarte halt eine bestimmte Reaktion, nämlich dass das erfolgreich hochgeladen ist und ich habe eine Metrik, nämlich irgendwie eine halbe Sekunde, die mir halt sagt, wie schnell das halt passiert. Willst du da was ergänzen zu? Du machst ja auch irgendwie sehr viel in diesem Bereich Software-Architektur-Dokumentation.
+
+**Ralf D. Müller:** [0:44:17] Da habe ich nichts zu ergänzen.
+
+**Eberhard Wolff:** [0:44:19] Genau, so. Und dann wäre halt, also das ist ja jetzt sozusagen das Formale. Das heißt also, wenn wir in der Prüfungssituation sind, ist es, glaube ich, irgendwie sinnvoll, diese formalen Kriterien halt durchzugehen. Und dann ist noch so ein bisschen diese Ebene von: Was will ich eigentlich damit erreichen? Ich will eigentlich damit erreichen, dass ich halt ein System baue, was halt technisch das tut, was gefordert ist. Also wenn ich mir dieses Qualitätsszenario jetzt ansehe, dann kriege ich darüber halt eine Aussage, dass eben dieses Hochladen von den PDFs aus irgendwelchen Gründen wichtig ist, sonst würde ich dafür ja nicht ein Qualitätsszenario schreiben, und dass dort irgendwie diese Antwortzeit halt irgendwie relevant ist, und ich habe die irgendwie quantifiziert.
+
+**Eberhard Wolff:** [0:44:59] Und wenn ich jetzt ein System gebaut habe, kann ich halt sagen, dieses Qualitätsszenario ist eingehalten oder nicht. Und das ist für mich auch noch ein wichtiger Punkt. Einmal, oder es sind eigentlich zwei wichtige Punkte: Einmal ist es eine Benutzersicht. Es geht also nicht darum, wie das System aufgebaut ist, sondern was Benutzer:innen beobachten können, wie das System sich verhält. Und das andere ist, dass es verifizierbar sein sollte. Ich sollte also anschließend, wenn das System da ist, sagen können: Ja, das tut es oder es tut es halt nicht. Es soll objektiv quantifizierbar sein.
+
+### Q1: Datenintegrität ist eine fachliche Anforderung
+
+**Eberhard Wolff:** [0:45:31] So, und wenn wir uns jetzt unter diesem Aspekt dieses Qualitätsszenario ansehen, also es steht halt, man soll irgendwie ein hohes Maß an Data Integrity haben. Wenn eine Reisekostenabrechnung eingereicht worden ist, dann kann sie nicht mehr von irgendjemandem geändert werden, außer der Person, die sie halt irgendwie reingereicht hat, und von dem Menschen, der die halt dann anschließend genehmigt. Das ist ein gutes Beispiel für mich, wo ich behaupten würde, das ist gar kein Qualitätsszenario. Das ist eine fachliche Anforderung. Also das hat was damit zu tun, dass es bestimmte Rollen gibt, also irgendwie ein Consultant oder eben diesen Squanderer, wie der hier heißt, und ein Approver. Und es gibt halt eine Anforderung, die halt behauptet, die beiden dürfen nur darauf zugreifen.
+
+**Eberhard Wolff:** [0:46:27] Das ist kein Qualitätsszenario. Das ist eine Frage von fachlicher Richtigkeit. Und dann steht da noch, dass das halt kritisch ist für Audit Trails und Compliance mit deutschen Datenschutzbestimmungen. Da würde ich jetzt auch, also das ist eine nette Erklärung, das hilft aber nicht weiter. Ich würde, glaube ich, aus diesem Grund, weil das eigentlich für mich eine fachliche Anforderung ist, das erste Qualitätsszenario nicht als solches werten. Und dann ist es eben auch so, dass da zumindest keine Metrik drin ist. Also das fehlt halt irgendwie auch. Es ist zwar verifizierbar, aber es ist eine fachliche Anforderung. Ich würde halt erwarten, dass es halt irgendwo ein Konzept gibt, wo halt drinsteht, folgende Daten dürfen folgende Leute irgendwie ändern.
+
+**Eberhard Wolff:** [0:47:14] Und dann kommt, glaube ich, noch ein anderer Punkt hinzu. Wenn ich mich nicht gewaltig irre, ja, es ist tatsächlich so, dass in der Aufgabe nichts drinsteht, also wenn ich mich nicht gewaltig irre, aber das würde ich eigentlich nahezu ausschließen wollen, in Bezug auf Sicherheit und sowas wie Data Privacy. Und ehrlich gesagt finde ich dieses Thema auch schwierig, denn, also wir reden über Reisekosten und mich würde tatsächlich interessieren, wie schützenswert Reisekosten sind. Also dürfen meine Kollegen nicht erfahren, wo ich hinfahre? Vermutlich ist das so. Ist das wahnsinnig wichtig? Weiß ich nicht. Und diese, also diese Sachen halt sozusagen exakt auf die Reihe zu bekommen, also wie wichtig ist das denn nun wirklich, diese Daten zu schützen? Sind das personenbezogene Daten, solche Geschichten.
+
+**Eberhard Wolff:** [0:48:20] Das ist eigentlich etwas, was in dem Dokument offen ist, weswegen es halt erstaunlich ist, dass dieses Qualitätsszenario überhaupt steht und dass es dann halt auch gleich eine hohe Wichtigkeit hat. Also bei den Szenarien, die ich mir überlegt habe, kommt nichts in Bezug auf Sicherheit vor. Und meiner Ansicht nach ist das eher sogar eine von den Fragen, die halt am Ende kommen, nämlich irgendwie die Frage, okay, muss man da nicht noch mal irgendwie reingreifen und muss man nicht noch mal sehen, was halt in Bezug auf genau Data Privacy und Security und so weiter, was da halt irgendwie sozusagen eine Phase ist. Was für mich ein bisschen zu dem Verdacht führt, dass das halt einfach so eine Annahme ist, die halt irgendwie eh gilt, nicht? Also: Es muss ja sicher sein. Und das finde ich genau schwierig.
+
+### Der vergiftete Kontext
+
+**Ralf D. Müller:** [0:49:10] Jetzt, wo du es sagst, ich glaube, ich habe da den Kontext vergiftet. Vorhin waren die zehn Fragen und da war die Frage nach den Regulations. Und da hatte ich gesagt, ach gut, dass du es fragst. Also es ist eine deutsche Firma und deswegen soll sie sich auch an das German Data Protection Law halten, und das kann durchaus sein. Also ich fand diese Frage sehr spannend mit den Regulations, weil ja, ChatGPT wird sich jetzt nicht irgendwie einem Land zugehörig fühlen und deswegen immer die und die Regulatorien kennen. Und deswegen habe ich ihm das mitgegeben. Aber das wird ihn hier beeinflusst haben.
+
+**Eberhard Wolff:** [0:49:55] Okay, guter Punkt. Und dann sollte man vielleicht noch zwei Sachen dazu sagen. Also die eine Sache ist, das ist halt eine Frage, die tatsächlich geschickt und wichtig ist, weil das ist eine Lücke. Und ich würde bei einem Reisekostensystem erwarten, dass halt Security irgendwie schon eine Rolle spielt. Also nicht, dass es nicht so, dass halt die Firma pleitegeht, wenn das System nicht sicher ist, aber man muss sich halt mal darüber Gedanken machen, wie gerade Datenschutz dann aussieht, und das finde ich halt auch nicht trivial entscheidbar. Dann vielleicht noch zu der Internationalisierung. Da gibt es halt eine Anforderung, die halt sagt, dass sie, ich glaube, erst in drei Ländern das System bauen wollen und dann ultimativ in zehn Ländern, und sie wollen eben ein nicht zu deutsches System bauen.
+
+**Eberhard Wolff:** [0:50:33] Das heißt, da ist eben eine Internationalisierung angedacht, also sozusagen als Hintergrundinformation. Gut, dennoch würde ich halt sagen, also ich weiß nicht, wie du es siehst, aber ich würde jetzt aus formalen Kriterien schon heraus sagen, dieses Qualitätsszenario ist keins. Das beschreibt halt nicht, wie sich ein System auf ein Stimulus verhalten sollte. Da müsste halt sowas sein wie, nicht, wenn ich halt irgendwie versuche, auf Daten zuzugreifen, auf die ich keine Berechtigung habe, dann kommt halt eine Fehlermeldung und es wird geloggt. Sowas könnte ich mir vielleicht vorstellen als Qualitätsszenario, aber es ist eben formal kein Qualitätsszenario, es ist halt eine fachliche Anforderung.
+
+### ChatGPT bewertet die eigenen Szenarien
+
+**Ralf D. Müller:** [0:51:10] Ja, also du hattest ja vorhin das Beispiel mit dem Bus, ich habe es hier ähnlich gemacht. Ich habe ChatGPT mal gefragt, ob das wirklich Qualitätsszenarios aus seiner Sicht sind, und er hat auch das mit Stimulus, System und Output genannt. Und interessanterweise hat er gesagt, Q4 ist eigentlich kein Qualitätsszenario, weil Q1 hat er doch so, ich glaube, er hat tatsächlich sowas gesagt: Naja, wir haben das System und da kommen Daten rein und naja, die sollen halt genauso rauskommen, quasi unverändert. Aber du hast schon recht, dass es grenzwertig ist, vor allem die Darstellung des Qualitätsszenarios finde ich jetzt … in diesem Natürlichsprachlichen. Es liest sich für eine fachliche Person so leichter, aber ich selbst formuliere die Qualitätsszenarios tatsächlich gern mit Stimulus und was ist der Systemzustand und was will ich messen.
+
+**Eberhard Wolff:** [0:52:17] Mindestens bei Q1, also bei dem, was wir gerade diskutiert haben, sprich, dass da irgendwie Data Privacy eine Rolle spielt, würde ich eben tatsächlich sagen, ist für mich das schlagende Argument: Es ist halt kein Szenario, es ist eine fachliche Anforderung. Und das würde ich auch tatsächlich, wenn das jetzt echt eine Prüfung wäre, würde ich es, glaube ich, irgendwie anmerken und würde halt sagen, das ist keins. Punkt. Und da, also ich weiß nicht, wie du es siehst, aber davon wäre ich jetzt erst mal sozusagen überzeugt.
+
+**Ralf D. Müller:** [0:52:52] Ja.
+
+### Q4: Drei Klicks als Metrik für Benutzerfreundlichkeit
+
+**Eberhard Wolff:** [0:52:53] Dann lass uns mal kurz zu dem Q4 springen, weil das ist irgendwie auch spannend. Da geht es halt um dieses intuitive Benutzerinterface, und da geht es irgendwie darum zu schauen, dass das eben benutzbar ist. Darüber hatte ich halt auch tatsächlich, das ist tatsächlich ein wichtiges Thema. Da kommt irgendwie aus dem Interview mit diesem CFO kommt halt irgendwie raus, dass für ihn das irgendwie total wichtig ist, dass halt insbesondere die Consultants, die ja irgendwie die ganze Zeit durch die Gegend laufen, dass die nicht allzu viel Zeit damit verbringen, ihre Reisekostenabrechnung zu machen. Und das ist interessant und deswegen ist das eine gute Illustration für ein allgemeines Problem ist halt: Wie zum Teufel qualifiziere ich denn Benutzerfreundlichkeit?
+
+**Eberhard Wolff:** [0:53:35] Und hier ist halt etwas drin, was tatsächlich formal eine Metrik ist, nämlich nicht mehr als drei Klicks. Also ich sollte halt mein Report mit nicht mehr als drei Klicks submitten können. Und das finde ich, also das ist gar nicht so unüblich. Also es passiert öfter mal, dass sowas halt als Metrik für Benutzerfreundlichkeit genutzt wird. Ich finde das halt im hohen Maße problematisch, also tatsächlich extrem problematisch, weil dann kann ich halt eine UI bauen, die ist halt vollgepflastert mit irgendwelchen Buttons. Niemand weiß, wo was steht, aber ich brauche nur einen Klick auf den richtigen Button. Oder also nach dieser Definition ist vi beispielsweise auch extrem benutzerfreundlich, weil es benutzt gar keine Klicks.
+
+**Eberhard Wolff:** [0:54:23] Und das ist tatsächlich schwierig. Ich habe halt dort mich dem gewidmet und habe irgendwie sowas geschrieben wie, es muss halt für die Leute mindestens genauso schnell wie vorher, also wir lösen vorhandenes System ab, mindestens genauso schnell wie vorher gehen, wenn ich mich recht entsinne. Lass mich mal kurz schauen, ich habe das irgendwo. Ich glaube, das ist sogar das Wichtigste. Genau, produktive Nutzung habe ich gesagt. Genau, und ich habe halt gesagt, also wenn ein Spesenritter die Spesenabrechnung abgibt, dann soll die Reaktion oder das Ergebnis ein Erfolg sein, und zwar mindestens genauso schnell wie vorher. Und das analog kann ich jetzt irgendwie die anderen Rollen, also da gibt es halt die Leute, die genehmigen oder so, da kann ich halt irgendwie was über Zeit sagen, wie lange brauchen die, um halt eine Aufgabe zu erfüllen.
+
+**Eberhard Wolff:** [0:55:15] Drei Minuten habe ich jetzt hier geschrieben, soll halt ein Genehmiger, die brauchen, um die Antwort eines Spesenritters auf eine Rückfrage zu lösen. Und das ist auch wieder etwas, das ist tatsächlich verifizierbar. Ich setze halt irgendwelche Leute vor den Rechner und lasse die halt diese Aufgabe lösen. Dann finde ich raus, wie schnell sie es halt irgendwie auf die Reihe bekommen, fertig. Und das könnte ich jetzt eben auch, ich könnte auch zum Beispiel solche Bewertungen machen, dass man dann sagt, wie benutzerfreundlich wird das System subjektiv bewertet. Und dieses Qualitätsszenario, was da jetzt steht, das ist, glaube ich, da kann man jetzt großzügig sagen, es ist formal ein Qualitätsszenario, weil es ist mindestens verifizierbar.
+
+**Eberhard Wolff:** [0:55:57] Es hat nicht diese Form mit Stimulus wirkt auf das System ein, es soll folgendermaßen reagieren. Aber ich will mich halt nicht so krass an Formalitäten aufhängen. Das Problem ist, dass die Metrik, die hier genutzt wird, meiner Ansicht nach keine vernünftige Metrik ist, und das ist auch tatsächlich ein Problem. Also jetzt würde ich halt, glaube ich, in ein Feedback-Dokument reinschreiben, dass ich eben das nicht für eine vernünftige Metrik halte.
+
+### Wer scannt die Belege?
+
+**Ralf D. Müller:** [0:56:25] Die richtige Metrik zu finden, finde ich immer schwierig. Ein Vergleich ist sehr gut. Meistens muss man dann aber erst mal beim bestehenden System nachmessen. Was ich total spannend finde bei dieser Aufgabe: Wir haben hier jemanden, der die Belege scannt, und der Spesenritter, der packt die nur in einen Umschlag und schmeißt die ins Eingangskörbchen. Und das finde ich, also ich glaube, da hat ChatGPT jetzt auch das Verständnisproblem gehabt, dass eigentlich hat der Spesenritter nach dem Diagramm nicht viel mit dem System zu tun. Der guckt sich nur seinen Account an. Es ist das Zeug schon da. Also das ist auch noch mal so ein faszinierender Fakt hier bei dieser Aufgabe, der mich regelmäßig etwas irritiert, weil ich sagen würde: Ja, nimm halt dein Handy, scan die Belege und dann sind sie im System, schreib noch was dazu.
+
+**Eberhard Wolff:** [0:57:35] Das ist ein guter Punkt. Also dann wäre vielleicht auch mein Szenario, was halt sagt, Spesenritter geben halt eine Spesenabrechnung ab. Das ist möglicherweise nicht korrekt, weil es halt das gar nicht so richtig gibt. Aber wie dem auch sei.
+
+**Ralf D. Müller:** [0:57:50] Aber man kann ja generell sagen, dass die Tätigkeiten im System mindestens genauso schnell wie vorher sein sollen. Das muss ja nicht unbedingt der Spesenritter sein. Es ist ja auch die Person, die das scannt, die das eingibt, die noch die Zahlen, Daten, Fakten dazu schreibt.
+
+**Eberhard Wolff:** [0:58:06] Ja, also wobei halt, das kommt ja genau aus dieser Diskussion raus, die dieser CFO da hat irgendwie mit … das Interview, was irgendwie abgedruckt ist. Und da steht halt drin, dass die Consultants halt besonders wichtig sind, weil die halt sonst billable sind, also das ist halt tatsächlich teure Arbeitszeit. Dann halt die Manager, die halt irgendwelche Sachen genehmigen, die haben halt nämlich auch Wichtigeres zu tun. Und dann gibt es halt noch diese … Revisoren beispielsweise, also Leute aus der Buchhaltung, und die sind halt auch überlastet. Also das sind, glaube ich, die Leute, die tatsächlich schneller sein sollten. Bei diesen Belegscannern beispielsweise bin ich mir gar nicht so sicher, ob das da zum Beispiel so wichtig ist.
+
+**Eberhard Wolff:** [0:58:50] Und da ist, glaube ich, auch wieder dieser Punkt mit: Ich muss halt mit den Qualitätsszenarien versuchen herauszuarbeiten, was genau die wesentlichen Probleme sind. Und hier steht jetzt, ich gucke gerade, da steht hier jetzt nur, dass bei dem Abgeben der Expense Reports, das ist nur das Thema. Das bedeutet also, dass eben es nicht breiter betrachtet ist. Also ich habe drei Szenarien. Ich habe nämlich für Spesenritter, Genehmiger und Revisoren. Und damit habe ich irgendwie gesagt, nicht, alle drei sind irgendwie sozusagen wichtig. Und hier steht halt nur drin, was für die Spesenritter.
+
+**Ralf D. Müller:** [0:59:37] Ja, es ist so ein bisschen … zusammengewürfelt, was hier für Qualitäten berücksichtigt worden sind. Und es sind keine Qualitäten, sondern Qualitätsszenarios, die hier wiedergegeben sind.
+
+**Eberhard Wolff:** [0:59:50] Genau, und das ist halt auch eben so, dass diese Priorisierung halt irgendwie nicht so klar ist.
+
+### Abschluss der Teilaufgabe
+
+**Eberhard Wolff:** [0:59:56] Wir sind tatsächlich schon ein bisschen über die Zeit, glaube ich. Ich bin gar nicht sicher, wo wir sozusagen sinnvollerweise den Absprung schaffen. Ich würde tatsächlich gerne diese Szenarien alle einzeln noch mal durchsprechen, also es sind ja derer fünf. Von daher überlege ich halt, ob wir einfach an dieser Stelle sagen, wir sehen uns sozusagen wieder. Wir hatten ja jetzt den 19.01. gerade besprochen, wenn ich es richtig sehe.
+
+**Ralf D. Müller:** [1:00:23] Ja.
+
+**Eberhard Wolff:** [1:00:24] Genau. Dann wäre das.
+
+**Ralf D. Müller:** [1:00:26] Lass uns gerade noch ganz schnell einen Abschluss machen, weil das war jetzt eine Teilaufgabe der Teilaufgabe. Ich habe ihn hier noch gebeten, den Utility Tree zu erstellen zu lassen und die Key Quality Goals wie gefordert mit der Gewichtung und habe ihn dann noch gebeten, das endlich zu einem zusammenzufassen, zu dem Lösungsabschnitt. Und ich glaube, das schmeißen wir auch gleich noch mal in den Chat, wo man das Dokument findet, weil das ist jetzt erst die abgeschlossene Aufgabe.
+
+**Eberhard Wolff:** [1:01:05] Genau, und das sollten wir aber noch mal detailliert besprechen. Also ich würde tatsächlich, glaube ich, mir alle Szenarien noch mal angucken, weil die anderen Szenarien auch irgendwie spannend sind.
+
+### 10.000 parallele Benutzer:innen
+
+**Eberhard Wolff:** [1:01:12] Und vielleicht so ein bisschen Spoiler, weil ich das halt besonders lustig fand: Da steht ja was von 10.000 parallelen Benutzer:innen. Das ist halt deswegen lustig, weil, nicht, also wir reden über eine Consultancy und die Reisekostenabgabe. Es sind also 10.000 Leute, die halt gleichzeitig Reisekosten bearbeiten, sind halt irgendwie spannend. Und ich habe jetzt gerade noch mal nachgeguckt, das Mengengerüst in der Aufgabe sagt, es gibt 25 Standorte mit 100 bis 1000 Personen pro Standort. Das heißt also, es sind garantiert weniger als 25.000 Leute, 100 bis 1000 mal 25 Standorte. Und du hattest das System dann ja noch mal gefragt, wie das System irgendwie auf 10.000 Benutzer:innen kommt.
+
+**Eberhard Wolff:** [1:02:04] Und du hattest mir davon einen Screenshot geschickt und da hatte ich halt das Gefühl, was stand da noch drin? Das ist nur eine Illustration für die Skalierbarkeit des Systems. Also ich war halt kurz davor, also wenn das ein Mensch wäre, würde ich dem halt unterstellen, dass er versucht, sich zu entschuldigen dafür, dass er es in Wirklichkeit nicht so gemeint hat. Und du hast jetzt noch mal das Modell selber gefragt.
+
+**Ralf D. Müller:** [1:02:33] Genau. Den virtuellen CFO, der sagt: Habe ich keine Ahnung, musst den ITler fragen.
+
+**Eberhard Wolff:** [1:02:39] Ja, möglicherweise ist der CFO dann besser simuliert, als man das haben möchte. Jan schrieb gerade, die letzte Version der Aufgabe ist von 2017, eventuell war damals das Scannen per Handy noch nicht so verbreitet. Das ist auch noch ein guter Punkt, nicht, das könnte ja auch eine Rolle spielen. Gut.
+
+**Ralf D. Müller:** [1:02:53] Sehr gut. Wir können das nächste Mal auch das Modell nehmen. Wir haben noch die Session, dass es selbst sich vielleicht verteidigen kann. Mal gucken.
+
+**Eberhard Wolff:** [1:03:04] Ja, genau.
+
+### Feedback und Folgeepisode
+
+**Eberhard Wolff:** [1:03:06] Also vielleicht auch sozusagen, also wenn Feedback ist zu der Episode, auch sozusagen zum Detailgrad, sehr gerne. Ich glaube, wir sollten auf jeden Fall noch mindestens eine weitere Episode machen, weil wir doch, glaube ich, ziemlich viel Zeit einfach dafür auch verbraucht haben, damit du, Ralf, irgendwie erklärst, wie es überhaupt dazu gekommen ist, dass das System das halt löst. Und ich persönlich fände es halt tatsächlich ganz spannend, mal diese Lösung komplett durchzugehen und halt jetzt eben bei jedem einzelnen Ding, was das irgendwie produziert hat, mal zu sagen, was wir irgendwie davon halten und ja, mal schauen, wie wir dann da zu einem Ergebnis kommen. Gut, ich glaube, dann haben wir es soweit.
+
+**Eberhard Wolff:** [1:03:45] Dann würde ich sagen, vielen Dank, Ralf, und vielen Dank auch den Personen im Chat. Ich gucke noch mal, ob noch irgendwas anderes da ist an Fragen, aber da sehe ich jetzt nichts. Und dann würde ich schon mal sozusagen ein schönes Wochenende wünschen. Ach so, und die Aufnahme von der Fishbowl von Mittwoch ist irgendwie auch draußen, die könnt ihr euch ja auch noch mal anschauen. Ach so, ja, guter Punkt.
+
+### Der, die oder das ChatGPT?
+
+**Eberhard Wolff:** [1:04:17] Da gab es einen Kommentar: Interessant, dass ChatGPT als männlich gesprochen wird, RRR. Das ist ein guter Punkt, der mir auch schon aufgefallen ist. Es ist eigentlich sogar schlimmer. Und zwar gibt es halt diese Kritik, dass man die überhaupt personifiziert, nicht? Also eigentlich müsste man halt genau sagen: ein … dieses Large Language Model, und das ist irgendwie sozusagen sächlich. In Deutsch ist es ja sowieso ein bisschen schwierig, weil ja auch Sachen eben alle drei Geschlechter haben können, nicht? Der Wagen ist eben er. Und genau diese Personifizierung ist, glaube ich, irgendwie schwierig. Jan hat geschrieben: +1 für die Folgeepisode. Martin Schröder hat gefragt nach dem Termin für die nächste Episode. Also ich plane eigentlich nächste Woche eine Episode zu machen. Ich muss noch mal sehen, welches Thema ich da mache, und die Folgeepisode zu diesem Thema wäre dann der 19.1. Am 29. gibt es definitiv keine. Ja, genau, das wäre so der … Stand.
+
+**Ralf D. Müller:** [1:05:30] Dieses männlich, weiblich, sächlich, für mich ist es halt auch der Chat-Robot. Das ist so ein Ding. Also es kommt immer darauf an, wie man es sieht. Wir wissen es ja auch aus der Vergangenheit: der Modem, das Modem. Manche Begriffe sind da schwierig.
+
+**Eberhard Wolff:** [1:05:47] Felix hat gerade geschrieben, die künstliche Intelligenz. Genau. Ich finde das sowieso lustig, wie man irgendwie, nicht, Begriffen in Deutsch, die importiert werden aus anderen Sprachen, wie man denen sozusagen ein Geschlecht zuordnet. Aber das ist ein anderes Thema.
+
+### Verabschiedung
+
+**Eberhard Wolff:** [1:06:04] Gut, ich glaube, dann haben wir es soweit, oder?
+
+**Ralf D. Müller:** [1:06:07] Ja, dankeschön. Hat Spaß gemacht.
+
+**Eberhard Wolff:** [1:06:09] Ich danke. Und genau, dann machen wir eben spätestens am 19. einfach weiter. Schönes Wochenende schon mal und bis dahin.
+
+**Ralf D. Müller:** [1:06:17] Gleichfalls. Ciao.
+
+**Eberhard Wolff:** [1:06:19] Tschüss.

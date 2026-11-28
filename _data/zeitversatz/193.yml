@@ -1,0 +1,12 @@
+# Versatz der Zeitmarken von Folge 193, gemessen am 28.11.2026.
+# ab: Sekunde der Zeitmarke (YouTube). versatz: Sekunden, die im Medium dazukommen;
+# leer: Die Stelle fehlt dort.
+# Kein Eintrag fuer mp3: Variable Bitrate, Browser springen darin ungenau.
+# Stichproben an vier Folgen in Chromium (24.11.2026) lagen bis zu 17 s daneben.
+peertube:
+  - ab: 0
+    versatz: 0.0
+  - ab: 3645.44
+    versatz: 0.0
+  - ab: 3980.52
+    versatz:
